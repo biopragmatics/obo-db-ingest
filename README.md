@@ -10,5 +10,7 @@ To generate OBO files, run the following shell commands (Python 3.6+):
 
 ```shell
 $ pip install pyobo
-$ python build.py
+$ python build.py -v
 ```
+
+Remove the `-v` for more silent, or add an extra `-v` for debug mode.
