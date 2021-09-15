@@ -13,8 +13,8 @@ from tqdm import tqdm
 from tqdm.contrib.logging import logging_redirect_tqdm
 
 from pyobo.sources import (
-    cgnc, dictybase_gene, hgnc, hgncgenefamily, mgi,
-    pombase, rgd, sgd, zfin,
+    cgnc, dictybase_gene, drugbank, drugbank_salt, drugcentral, flybase, hgnc, hgncgenefamily, mgi, pombase, rgd, sgd,
+    zfin,
 )
 
 HERE = os.path.abspath(os.path.dirname(__file__))
@@ -30,13 +30,13 @@ MODULES = [
     # wormbase
     dictybase_gene,
     # ecogene
-    # flybase
+    flybase,
     zfin,
     cgnc,
     # Chemistry examples
-    # drugcentral,
-    # drugbank,
-    # drugbank_salt,
+    drugcentral,
+    drugbank,
+    drugbank_salt,
 ]
 
 
