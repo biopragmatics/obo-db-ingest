@@ -10,11 +10,7 @@ import os
 import click
 from more_click import verbose_option
 
-import pyobo
-import pyobo.sources.drugbank
-import pyobo.sources.drugcentral
-import pyobo.sources.hgnc
-import pyobo.sources.hgncgenefamily
+from pyobo.sources import cgnc, drugbank, drugbank_salt, drugcentral, hgnc, hgncgenefamily, mgi, rgd, sgd
 
 HERE = os.path.abspath(os.path.dirname(__file__))
 
@@ -23,17 +19,16 @@ HERE = os.path.abspath(os.path.dirname(__file__))
 @verbose_option
 def main():
     """Build the PyOBO examples."""
-    hgnc_obo = pyobo.sources.hgnc.get_obo(force=True)
-    hgnc_obo.write_obo(os.path.join(HERE, 'hgnc.obo'))
-
-    hgnc_group_obo = pyobo.sources.hgncgenefamily.get_obo(force=True)
-    hgnc_group_obo.write_obo(os.path.join(HERE, 'hgnc_genegroup.obo'))
-
-    drugbank_obo = pyobo.sources.drugbank.get_obo(force=True)
-    drugbank_obo.write_obo(os.path.join(HERE, 'drugbank.obo'))
-
-    drugcentral_obo = pyobo.sources.drugcentral.get_obo(force=True)
-    drugcentral_obo.write_obo(os.path.join(HERE, 'drugcentral.obo'))
+    hgnc.get_obo(force=True).write_obo(os.path.join(HERE, 'hgnc.obo'))
+    hgncgenefamily.get_obo(force=True).write_obo(os.path.join(HERE, 'hgnc_genegroup.obo'))
+    mgi.get_obo(force=True).write_obo(os.path.join(HERE, 'mgi.obo'))
+    rgd.get_obo(force=True).write_obo(os.path.join(HERE, 'rgd.obo'))
+    sgd.get_obo(force=True).write_obo(os.path.join(HERE, 'sgd.obo'))
+    drugbank.get_obo(force=True).write_obo(os.path.join(HERE, 'drugbank.obo'))
+    # FIXME cgnc export is broken
+    cgnc.get_obo(force=True).write_obo(os.path.join(HERE, 'cgnc.obo'))
+    drugbank_salt.get_obo(force=True).write_obo(os.path.join(HERE, 'drugbank_salt.obo'))
+    drugcentral.get_obo(force=True).write_obo(os.path.join(HERE, 'drugcentral.obo'))
 
 
 if __name__ == '__main__':
