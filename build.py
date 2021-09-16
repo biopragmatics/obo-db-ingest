@@ -5,7 +5,7 @@
 This script requires ``pip install pyobo``.
 """
 
-import os
+from pathlib import Path
 
 import click
 from more_click import verbose_option
@@ -13,27 +13,30 @@ from tqdm import tqdm
 from tqdm.contrib.logging import logging_redirect_tqdm
 
 from pyobo.sources import (
-    cgnc, dictybase_gene, drugbank, drugbank_salt, drugcentral, flybase, hgnc, hgncgenefamily, mgi, pombase, rgd, sgd,
-    zfin,
+    cgnc, dictybase_gene, drugbank, drugbank_salt, drugcentral, flybase, hgnc, hgncgenefamily, mgi, mirbase, pombase,
+    rgd, sgd, zfin,
 )
+from pyobo.sources.uniprot import uniprot
 from pyobo.utils.misc import obo_to_obograph
 
-HERE = os.path.abspath(os.path.dirname(__file__))
+HERE = Path(__file__).parent.resolve()
 MODULES = [
-    hgncgenefamily,
-    # Organism-specific gene nomenclature examples
-    hgnc,
-    mgi,
-    # araport
-    rgd,
-    sgd,
-    pombase,
-    # wormbase
-    dictybase_gene,
-    # ecogene
-    flybase,
-    zfin,
-    cgnc,
+    # hgncgenefamily,
+    # # Organism-specific gene nomenclature examples
+    # hgnc,
+    # mgi,
+    # # araport
+    # rgd,
+    # sgd,
+    # pombase,
+    # # wormbase
+    # dictybase_gene,
+    # # ecogene
+    # flybase,
+    # zfin,
+    # cgnc,
+    # mirbase,
+    uniprot,
     # Chemistry examples
     drugcentral,
     drugbank,
@@ -48,10 +51,13 @@ def main():
     it = tqdm(MODULES, desc="Making OBO examples")
     for module in it:
         name = module.__name__.split(".")[-1]
-        obo_path = os.path.join(HERE, f'{name}.obo')
-        obograph_path = os.path.join(HERE, f'{name}.json.gz')
-
         it.set_postfix(name=name)
+
+        directory = HERE.joinpath(name)
+        directory.mkdir(exist_ok=True, parents=True)
+        obo_path = directory.joinpath(f'{name}.obo')
+        obograph_path = directory.joinpath(f'{name}.json.gz')
+
         with logging_redirect_tqdm():
             obo = module.get_obo(force=True)
             obo.write_obo(obo_path)
