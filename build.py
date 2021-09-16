@@ -17,7 +17,7 @@ from pyobo.sources import (
     rgd, sgd, zfin,
 )
 from pyobo.sources.uniprot import uniprot
-from pyobo.utils.misc import obo_to_obograph
+from pyobo.utils.misc import obo_to_obograph, obo_to_owl
 
 HERE = Path(__file__).parent.resolve()
 MODULES = [
@@ -44,6 +44,7 @@ MODULES = [
 ]
 
 
+
 @click.command()
 @verbose_option
 def main():
@@ -60,19 +61,30 @@ def main():
             if obo.data_version:
                 directory = HERE.joinpath(directory, obo.data_version)
             else:
-                tqdm.write(click.style(f"{prefix} has no version info", fg="red"))
+                tqdm.write(click.style(f"[{prefix}] has no version info", fg="red"))
             directory.mkdir(exist_ok=True, parents=True)
             obo_path = directory.joinpath(f'{prefix}.obo')
             obograph_path = directory.joinpath(f'{prefix}.json.gz')
+            owl_path = directory.joinpath(f'{prefix}.owl.gz')
 
             obo.write_obo(obo_path)
 
             try:
-                it.write(f"converting {prefix} to OBO graph")
+                it.write(f"[{prefix}] converting to OBO graph")
                 obo_to_obograph(obo_path, obograph_path)
             except Exception as e:
                 it.write(click.style(f"{prefix} failed to convert to OBO Graph", fg="red"))
                 it.write(click.style(str(e), fg="red"))
+
+            failed = False
+            try:
+                it.write(f"[{prefix}] converting to OWL")
+                ret = obo_to_owl(obo_path, owl_path)
+            except Exception as e:
+                it.write(click.style(str(e), fg="red"))
+                failed = True
+            if ret is None or failed:
+                it.write(click.style(f"[{prefix}] ROBOT failed to convert to OWL", fg="red"))
 
 
 if __name__ == '__main__':
