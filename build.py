@@ -15,17 +15,18 @@ from bioontologies.robot import convert, convert_to_obograph
 from more_click import verbose_option
 from pyobo.sources import (
     cgnc,
+    complexportal,
     dictybase_gene,
     drugbank,
     drugbank_salt,
     drugcentral,
+    expasy,
     flybase,
     hgnc,
     hgncgenefamily,
-    mgi,
     mirbase,
     pombase,
-    rgd,
+    rhea,
     sgd,
     zfin,
 )
@@ -38,9 +39,9 @@ MODULES = [
     hgncgenefamily,
     # Organism-specific gene nomenclature examples
     hgnc,
-    mgi,
+    # mgi,
     # araport
-    rgd,
+    # rgd,
     sgd,
     pombase,
     # wormbase
@@ -55,6 +56,10 @@ MODULES = [
     drugcentral,
     drugbank,
     drugbank_salt,
+    rhea,
+    #
+    complexportal,
+    expasy,
 ]
 
 NO_FORCE = {drugbank, drugbank_salt}
