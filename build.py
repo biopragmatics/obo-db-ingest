@@ -6,7 +6,9 @@ This script requires ``pip install pyobo``.
 """
 
 import gzip
+from operator import attrgetter
 from pathlib import Path
+from typing import Optional
 
 import click
 from bioontologies.robot import convert, convert_to_obograph
@@ -55,18 +57,23 @@ MODULES = [
     drugbank_salt,
 ]
 
+NO_FORCE = {drugbank, drugbank_salt}
+
 
 @click.command()
 @verbose_option
-def main():
+@click.option("-m", "--minimum")
+def main(minimum: Optional[str]):
     """Build the PyOBO examples."""
-    it = tqdm(MODULES, desc="Making OBO examples")
+    it = tqdm(sorted(MODULES, key=attrgetter("PREFIX")), desc="Making OBO examples")
     with logging_redirect_tqdm():
         for module in it:
             prefix = module.PREFIX
+            if minimum and prefix.lower() < minimum.lower():
+                continue
             it.set_postfix(prefix=prefix)
 
-            obo = module.get_obo(force=True)
+            obo = module.get_obo(force=module not in NO_FORCE)
 
             directory = HERE.joinpath("export", prefix)
             if obo.data_version:
@@ -78,7 +85,11 @@ def main():
             obo_graph_json_path = directory.joinpath(f"{prefix}.json")
             owl_path = directory.joinpath(f"{prefix}.owl")
 
-            obo.write_obo(obo_path)
+            try:
+                obo.write_obo(obo_path)
+            except ValueError as e:
+                it.write(click.style(f"[{prefix}] failed to write OBO: {e}", fg="red"))
+                continue
 
             try:
                 it.write(f"[{prefix}] converting to OBO Graph JSON")
