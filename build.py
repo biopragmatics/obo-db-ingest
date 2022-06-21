@@ -5,19 +5,31 @@
 This script requires ``pip install pyobo``.
 """
 
+import gzip
 from pathlib import Path
 
 import click
+from bioontologies.robot import convert, convert_to_obograph
 from more_click import verbose_option
-from tqdm import tqdm
-from tqdm.contrib.logging import logging_redirect_tqdm
-
 from pyobo.sources import (
-    cgnc, dictybase_gene, drugbank, drugbank_salt, drugcentral, flybase, hgnc, hgncgenefamily, mgi, mirbase, pombase,
-    rgd, sgd, zfin,
+    cgnc,
+    dictybase_gene,
+    drugbank,
+    drugbank_salt,
+    drugcentral,
+    flybase,
+    hgnc,
+    hgncgenefamily,
+    mgi,
+    mirbase,
+    pombase,
+    rgd,
+    sgd,
+    zfin,
 )
 from pyobo.sources.uniprot import uniprot
-from pyobo.utils.misc import obo_to_obograph, obo_to_owl
+from tqdm import tqdm
+from tqdm.contrib.logging import logging_redirect_tqdm
 
 HERE = Path(__file__).parent.resolve()
 MODULES = [
@@ -44,7 +56,6 @@ MODULES = [
 ]
 
 
-
 @click.command()
 @verbose_option
 def main():
@@ -59,33 +70,46 @@ def main():
 
             directory = HERE.joinpath("export", prefix)
             if obo.data_version:
-                directory = HERE.joinpath(directory, obo.data_version)
+                directory = directory.joinpath(obo.data_version)
             else:
                 tqdm.write(click.style(f"[{prefix}] has no version info", fg="red"))
             directory.mkdir(exist_ok=True, parents=True)
-            obo_path = directory.joinpath(f'{prefix}.obo')
-            obograph_path = directory.joinpath(f'{prefix}.json.gz')
-            owl_path = directory.joinpath(f'{prefix}.owl.gz')
+            obo_path = directory.joinpath(f"{prefix}.obo")
+            obo_graph_json_path = directory.joinpath(f"{prefix}.json")
+            owl_path = directory.joinpath(f"{prefix}.owl")
 
             obo.write_obo(obo_path)
 
             try:
-                it.write(f"[{prefix}] converting to OBO graph")
-                obo_to_obograph(obo_path, obograph_path)
-            except Exception as e:
-                it.write(click.style(f"{prefix} failed to convert to OBO Graph", fg="red"))
-                it.write(click.style(str(e), fg="red"))
+                it.write(f"[{prefix}] converting to OBO Graph JSON")
+                convert_to_obograph(input_path=obo_path, json_path=obo_graph_json_path)
+                with obo_graph_json_path.open("rb") as src, gzip.open(
+                    obo_graph_json_path.with_suffix(".json.gz"), "wb"
+                ) as dst:
+                    dst.writelines(src)
+            except Exception:
+                it.write(
+                    click.style(
+                        f"[{prefix}] ROBOT failed to convert to OBO Graph", fg="red"
+                    )
+                )
+            else:
+                obo_graph_json_path.unlink()
 
-            failed = False
             try:
                 it.write(f"[{prefix}] converting to OWL")
-                ret = obo_to_owl(obo_path, owl_path)
-            except Exception as e:
-                it.write(click.style(str(e), fg="red"))
-                failed = True
-            if ret is None or failed:
-                it.write(click.style(f"[{prefix}] ROBOT failed to convert to OWL", fg="red"))
+                convert(obo_path, owl_path)
+                with owl_path.open("rb") as src, gzip.open(
+                    owl_path.with_suffix(".owl.gz"), "wb"
+                ) as dst:
+                    dst.writelines(src)
+            except Exception:
+                it.write(
+                    click.style(f"[{prefix}] ROBOT failed to convert to OWL", fg="red")
+                )
+            else:
+                owl_path.unlink()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
