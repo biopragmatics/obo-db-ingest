@@ -75,61 +75,64 @@ def _gzip(path: Path, suffix: str):
     path.unlink()
 
 
+def _make(prefix, module):
+    obo = module.get_obo(force=module not in NO_FORCE)
+
+    directory = HERE.joinpath("export", prefix)
+    if obo.data_version:
+        directory = directory.joinpath(obo.data_version)
+    else:
+        tqdm.write(click.style(f"[{prefix}] has no version info", fg="red"))
+    directory.mkdir(exist_ok=True, parents=True)
+    obo_path = directory.joinpath(f"{prefix}.obo")
+    obo_graph_json_path = directory.joinpath(f"{prefix}.json")
+    owl_path = directory.joinpath(f"{prefix}.owl")
+
+    try:
+        obo.write_obo(obo_path)
+        if prefix in GZIP_OBO:
+            _gzip(obo_path, ".obo.gz")
+    except ValueError as e:
+        tqdm.write(click.style(f"[{prefix}] failed to write OBO: {e}", fg="red"))
+        return
+
+    try:
+        tqdm.write(f"[{prefix}] converting to OBO Graph JSON")
+        convert_to_obograph(input_path=obo_path, json_path=obo_graph_json_path)
+        _gzip(obo_graph_json_path, ".json.gz")
+    except Exception:
+        tqdm.write(
+            click.style(f"[{prefix}] ROBOT failed to convert to OBO Graph", fg="red")
+        )
+
+    try:
+        tqdm.write(f"[{prefix}] converting to OWL")
+        convert(obo_path, owl_path)
+        _gzip(owl_path, ".owl.gz")
+    except Exception:
+        tqdm.write(click.style(f"[{prefix}] ROBOT failed to convert to OWL", fg="red"))
+
+
 @click.command()
 @verbose_option
 @click.option("-m", "--minimum")
-@click.option("-x", "--xvalue")
+@click.option("-x", "--xvalue", help="Select a specific ontology")
 def main(minimum: Optional[str], xvalue: Optional[str]):
     """Build the PyOBO examples."""
-    it = tqdm(sorted(MODULES, key=attrgetter("PREFIX")), desc="Making OBO examples")
+    modules = sorted(MODULES, key=attrgetter("PREFIX"))
+    modules = [
+        module
+        for module in modules
+        if (
+            not (minimum and module.PREFIX.lower() < minimum.lower())
+            and not (xvalue and xvalue.lower() != module.PREFIX.lower())
+        )
+    ]
+    it = tqdm(modules, desc="Making OBO examples")
     with logging_redirect_tqdm():
         for module in it:
-            prefix = module.PREFIX
-            if minimum and prefix.lower() < minimum.lower():
-                continue
-            if xvalue and xvalue.lower() != prefix.lower():
-                continue
-            it.set_postfix(prefix=prefix)
-
-            obo = module.get_obo(force=module not in NO_FORCE)
-
-            directory = HERE.joinpath("export", prefix)
-            if obo.data_version:
-                directory = directory.joinpath(obo.data_version)
-            else:
-                tqdm.write(click.style(f"[{prefix}] has no version info", fg="red"))
-            directory.mkdir(exist_ok=True, parents=True)
-            obo_path = directory.joinpath(f"{prefix}.obo")
-            obo_graph_json_path = directory.joinpath(f"{prefix}.json")
-            owl_path = directory.joinpath(f"{prefix}.owl")
-
-            try:
-                obo.write_obo(obo_path)
-                if prefix in GZIP_OBO:
-                    _gzip(obo_path, ".obo.gz")
-            except ValueError as e:
-                it.write(click.style(f"[{prefix}] failed to write OBO: {e}", fg="red"))
-                continue
-
-            try:
-                it.write(f"[{prefix}] converting to OBO Graph JSON")
-                convert_to_obograph(input_path=obo_path, json_path=obo_graph_json_path)
-                _gzip(obo_graph_json_path, ".json.gz")
-            except Exception:
-                it.write(
-                    click.style(
-                        f"[{prefix}] ROBOT failed to convert to OBO Graph", fg="red"
-                    )
-                )
-
-            try:
-                it.write(f"[{prefix}] converting to OWL")
-                convert(obo_path, owl_path)
-                _gzip(owl_path, ".owl.gz")
-            except Exception:
-                it.write(
-                    click.style(f"[{prefix}] ROBOT failed to convert to OWL", fg="red")
-                )
+            it.set_postfix(prefix=module.PREFIX)
+            _make(prefix=module.PREFIX, module=module)
 
 
 if __name__ == "__main__":
