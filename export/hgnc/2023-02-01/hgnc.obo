@@ -1,0 +1,46 @@
+format-version: 1.2
+date: 03:02:2023 19:42
+auto-generated-by: bio2obo:hgnc
+data-version: 2023-02-01
+idspace: NCBITaxon http://purl.obolibrary.org/obo/NCBITaxon_
+idspace: eccode https://bioregistry.io/eccode:
+idspace: hgnc.genegroup https://bioregistry.io/hgnc.genegroup:
+idspace: mgi https://bioregistry.io/mgi:
+idspace: mirbase https://bioregistry.io/mirbase:
+idspace: pubmed https://bioregistry.io/pubmed:
+idspace: rgd https://bioregistry.io/rgd:
+idspace: rnacentral https://bioregistry.io/rnacentral:
+idspace: snornabase https://bioregistry.io/snornabase:
+idspace: uniprot https://bioregistry.io/uniprot:
+synonymtypedef: alias_name "alias name"
+synonymtypedef: alias_symbol "alias symbol"
+synonymtypedef: previous_name "previous name"
+synonymtypedef: previous_symbol "previous symbol"
+ontology: hgnc
+remark: HUGO Gene Nomenclature Committee
+
+[Typedef]
+id: RO:0002162
+name: in taxon
+
+[Typedef]
+id: RO:0002205
+name: has gene product
+
+[Typedef]
+id: RO:0002350
+name: member of
+
+[Typedef]
+id: RO:0002511
+name: transcribed to
+
+[Typedef]
+id: RO:HOM0000017
+name: in orthology relationship with
+is_symmetric: true
+
+[Typedef]
+id: debio:0000001
+name: gene product is a member of
+holds_over_chain: RO:0002205 RO:0002350 ! has gene product / member of

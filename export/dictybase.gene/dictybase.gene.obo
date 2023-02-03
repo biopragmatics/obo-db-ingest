@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:06:2022 19:35
+date: 03:02:2023 19:40
 auto-generated-by: bio2obo:dictybase.gene
 ontology: dictybase.gene
 remark: Dictybase Gene
@@ -1293,7 +1293,7 @@ synonym: "pseudogene" EXACT []
 id: dictybase.gene:DDB_G0267630
 name: kil1
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "sulfotransferase" EXACT []
+synonym: "sulfotransferase Kil1" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0267632
@@ -1984,6 +1984,7 @@ id: dictybase.gene:DDB_G0267874
 name: DDB_G0267874
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "Solute carrier family 15 member 1" EXACT []
+synonym: "putative oligopeptide transporter Slc15C" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0267876
@@ -2721,9 +2722,9 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 
 [Term]
 id: dictybase.gene:DDB_G0268132
-name: DDB_G0268132
+name: set2
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "SET domain-containing protein" EXACT []
+synonym: "set2 methyltransferase" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0268134
@@ -5505,6 +5506,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "DdIQGAP2" EXACT []
 synonym: "GAPA" EXACT []
 synonym: "IQGAP-related protein" EXACT []
+synonym: "IQGAP2" EXACT []
 synonym: "Ras GTPase-activating domain protein GapA" EXACT []
 synonym: "RasGAP" EXACT []
 synonym: "iqgB" EXACT []
@@ -6791,7 +6793,6 @@ id: dictybase.gene:DDB_G0269554
 name: suvA
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "H3K9" EXACT []
-synonym: "SET domain-containing protein" EXACT []
 synonym: "putative histone H3 lysine 9 methyltransferase" EXACT []
 
 [Term]
@@ -7857,6 +7858,7 @@ synonym: "mitochondrial" EXACT []
 id: dictybase.gene:DDB_G0269918
 name: mpl1
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "MAP kinase phosphatase MPL1" EXACT []
 synonym: "dual specificity" EXACT []
 synonym: "leucine-rich repeat-containing protein (LRR)" EXACT []
 synonym: "putative protein tyrosine phosphatase" EXACT []
@@ -7913,7 +7915,9 @@ id: dictybase.gene:DDB_G0269934
 name: rgbA
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "RGBARG" EXACT []
+synonym: "RGBARG" EXACT []
 synonym: "Ras GTPase activation domain-containing protein" EXACT []
+synonym: "Ras GTPase-activating protein RgbA" EXACT []
 synonym: "RasGAP" EXACT []
 synonym: "RhoGEF" EXACT []
 synonym: "RhoGEF domain-containing protein" EXACT []
@@ -10864,7 +10868,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "PKS" EXACT []
 synonym: "beta-ketoacyl synthase family protein" EXACT []
 synonym: "dipks3" EXACT []
-synonym: "putative polyketide synthase" EXACT []
+synonym: "putative polyketide synthase 3" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0271002
@@ -12209,7 +12213,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "PKS" EXACT []
 synonym: "beta-ketoacyl synthase family protein" EXACT []
 synonym: "dipks5" EXACT []
-synonym: "putative polyketide synthase" EXACT []
+synonym: "putative polyketide synthase 5" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0271524
@@ -12450,7 +12454,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "PKS" EXACT []
 synonym: "beta-ketoacyl synthase family protein" EXACT []
 synonym: "dipks7" EXACT []
-synonym: "putative polyketide synthase" EXACT []
+synonym: "putative polyketide synthase 7" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0271618
@@ -12858,7 +12862,7 @@ synonym: "NADH:flavin oxidoreductase/NADH oxidase domain-containing protein" EXA
 
 [Term]
 id: dictybase.gene:DDB_G0271754
-name: DDB_G0271754
+name: ash2
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "putative histone methyltransferase complex subunit ASH2" EXACT []
 
@@ -13002,6 +13006,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0271806
 name: rapgap3
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "Rap GTPase-activating protein RapGAP3" EXACT []
 synonym: "RapA GTPase regulatory protein 3" EXACT []
 synonym: "RapGAP" EXACT []
 synonym: "RapGAP/RanGAP domain-containing protein" EXACT []
@@ -14296,6 +14301,7 @@ id: dictybase.gene:DDB_G0272244
 name: far2
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "G-protein-coupled receptor (GPCR) family 3 protein 7" EXACT []
+synonym: "fAR2" EXACT []
 synonym: "grlG" EXACT []
 synonym: "putative folic acid receptor 2" EXACT []
 
@@ -14912,7 +14918,8 @@ synonym: "short-chain dehydrogenase/reductase (SDR) family protein" EXACT []
 id: dictybase.gene:DDB_G0272468
 name: DDB_G0272468
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "Tripeptide permease tppB" EXACT []
+synonym: "putative oligopeptide transporter Slc15B" EXACT []
+synonym: "putative tripeptide permease tppB" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0272470
@@ -15145,9 +15152,9 @@ synonym: "TRE5-A ORF1" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0272550
-name: DDB_G0272550
+name: slc15A
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "putative peptide/oligopeptide transporter" EXACT []
+synonym: "oligopeptide transporter Slc15A" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0272554
@@ -20697,7 +20704,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0274395
 name: adcB
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "arrestin domain-containing protein AdcB" EXACT []
+synonym: "arrestin domain-containing protein B" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0274397
@@ -22499,7 +22506,7 @@ id: dictybase.gene:DDB_G0275045
 name: gpbB
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "DdRACK-1" EXACT []
-synonym: "Guanine nucleotide-binding protein subunit beta-like protein" EXACT []
+synonym: "guanine nucleotide-binding protein subunit beta-like protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0275047
@@ -22574,7 +22581,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "FAS" EXACT []
 synonym: "beta-ketoacyl synthase family protein" EXACT []
 synonym: "dipks16" EXACT []
-synonym: "putative fatty acid synthase" EXACT []
+synonym: "putative fatty acid synthase 16" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0275071
@@ -24261,9 +24268,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0275651
 name: elp2
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "RNA polymerase II elongator complex subunit" EXACT []
-synonym: "WD-40 repeat-containing protein" EXACT []
-synonym: "elongation protein 2" EXACT []
+synonym: "elongatior complex subunit elp2" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0275653
@@ -24842,9 +24847,9 @@ synonym: "leucine-rich repeat-containing protein (LRR)" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0275861
-name: DDB_G0275861
-relationship: RO:0002205 uniprot:unknown ! has gene product
+name: katA
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "katnip" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0275863
@@ -26922,10 +26927,9 @@ synonym: "CDC50/LEM3 family protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0276569
-name: DDB_G0276569
-relationship: RO:0002205 uniprot:unknown ! has gene product
+name: elp5
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "Elp5" EXACT []
+synonym: "elp5 subunit" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0276571
@@ -28333,7 +28337,7 @@ synonym: "TRE3-A ORF2" EXACT []
 id: dictybase.gene:DDB_G0277071
 name: dupA
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "putative protein kinase DupA" EXACT []
+synonym: "MAP kinase phosphatase" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0277073
@@ -42624,8 +42628,8 @@ name: c2gapB
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "C2 and RasGAP domain containing protein B" EXACT []
 synonym: "RG2" EXACT []
+synonym: "Ras GTPase-activating protein C2gapB" EXACT []
 synonym: "RasGAP2" EXACT []
-synonym: "putative Ras GTPase-activating protein C2gapB" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0282057
@@ -45070,9 +45074,6 @@ synonym: "Tdd-4" EXACT []
 id: dictybase.gene:DDB_G0282921
 name: ctu1
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "ATP-binding domain-containing protein 3" EXACT []
-synonym: "PP-loop ATPase domain-containing protein" EXACT []
-synonym: "UPF0021 family protein" EXACT []
 synonym: "atpbd3" EXACT []
 synonym: "cytosolic thiouridylase subunit 1" EXACT []
 synonym: "rcdM" EXACT []
@@ -45082,9 +45083,9 @@ synonym: "veg136" EXACT []
 id: dictybase.gene:DDB_G0282923
 name: rdeA
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "H2 module protein" EXACT []
 synonym: "Hpt domain-containing protein" EXACT []
 synonym: "histidine-containing phosphotransfer domain-containing protein" EXACT []
-synonym: "phosphorelay intermediate protein RdeA" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0282925
@@ -52217,7 +52218,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0285339
 name: mipp1
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "multiple inositol polyphosphate phosphatase" EXACT []
+synonym: "multiple inositol polyphosphate phosphatase Mipp1" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0285341
@@ -52295,6 +52296,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0285365
 name: DDB_G0285365
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "NPSNB" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0285369
@@ -54879,8 +54881,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0286247
 name: ponB
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "ponticulin-related protein" EXACT []
-synonym: "putative actin binding protein" EXACT []
+synonym: "ponticulin-related protein B" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0286249
@@ -56915,6 +56916,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "C3HC4-type zinc finger-containing protein" EXACT []
 synonym: "IBR zinc finger-containing protein" EXACT []
 synonym: "ariadne-like ubiquitin ligase" EXACT []
+synonym: "putative E3 ubiquitin protein ligase RbrA" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0286963
@@ -57175,7 +57177,7 @@ synonym: "putative U6 small nuclear ribonucleoparticle-associated protein" EXACT
 id: dictybase.gene:DDB_G0287055
 name: vps13F
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "vacuolar protein sorting-associated protein 13 family protein" EXACT []
+synonym: "vacuolar protein sorting-associated protein 13 family protein F" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0287057
@@ -57289,7 +57291,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "PKS" EXACT []
 synonym: "beta-ketoacyl synthase family protein" EXACT []
 synonym: "dipks25" EXACT []
-synonym: "putative polyketide synthase" EXACT []
+synonym: "putative polyketide synthase 25" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0287097
@@ -57364,7 +57366,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "PKS" EXACT []
 synonym: "beta-ketoacyl synthase family protein" EXACT []
 synonym: "dipks24" EXACT []
-synonym: "putative polyketide synthase" EXACT []
+synonym: "putative polyketide synthase 24" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0287121
@@ -57499,7 +57501,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0287165
 name: DDB_G0287165
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "spastin-like protein" EXACT []
+synonym: "spastin" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0287167
@@ -60577,9 +60579,9 @@ id: dictybase.gene:DDB_G0288249
 name: mkpA
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "DG1121" EXACT []
-synonym: "MAP kinase phosphatase" EXACT []
+synonym: "MAP kinase phosphatase MkpA" EXACT []
 synonym: "dual specificity" EXACT []
-synonym: "gelsolin family protein" EXACT []
+synonym: "gelsolin domain protein" EXACT []
 synonym: "putative protein tyrosine phosphatase" EXACT []
 
 [Term]
@@ -63233,6 +63235,7 @@ name: arfA
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "ADP-ribosylation factor A" EXACT []
 synonym: "ARF1" EXACT []
+synonym: "Arf GTPase ArfA" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0289175
@@ -63474,7 +63477,7 @@ id: dictybase.gene:DDB_G0289257
 name: set1
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "H3K4" EXACT []
-synonym: "histone H3 lysine 4 methyltransferase" EXACT []
+synonym: "histone H3 lysine methylransferase" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0289259
@@ -65892,10 +65895,6 @@ synonym: "pseudogene" EXACT []
 id: dictybase.gene:DDB_G0290103
 name: elp3
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "GCN5-related N-acetyltransferase" EXACT []
-synonym: "GNAT family protein" EXACT []
-synonym: "HAG group protein" EXACT []
-synonym: "RNA polymerase II elongator complex subunit" EXACT []
 synonym: "elongation protein 3" EXACT []
 
 [Term]
@@ -66860,6 +66859,8 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0290439
 name: gacW
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "CARMIL-GAP" EXACT []
+synonym: "Rac GTPase-activating protein CARMIL-GAP" EXACT []
 synonym: "RacGAP" EXACT []
 synonym: "RhoGAP domain-containing protein" EXACT []
 synonym: "leucine-rich repeat-containing protein (LRR)" EXACT []
@@ -70831,6 +70832,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0291830
 name: thg1
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DdiTLP1" EXACT []
 synonym: "tRNA-histidine guanylyltransferase 1" EXACT []
 
 [Term]
@@ -70856,6 +70858,7 @@ synonym: "Squamous cell carcinoma antigen recognized by T-cells 3" EXACT []
 id: dictybase.gene:DDB_G0291838
 name: xpo2
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "cse1" EXACT []
 synonym: "exportin 2" EXACT []
 
 [Term]
@@ -73970,7 +73973,7 @@ id: dictybase.gene:DDB_G0292924
 name: adcA
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "FYVE-type zinc finger-containing protein" EXACT []
-synonym: "arrestin domain-containing protein" EXACT []
+synonym: "arrestin domain-containing protein A" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0292926
@@ -75732,7 +75735,7 @@ name: ponA
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "actin binding protein" EXACT []
 synonym: "gp17" EXACT []
-synonym: "ponticulin" EXACT []
+synonym: "ponticulin A" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0293524
@@ -78229,9 +78232,9 @@ synonym: "Rab GTPase" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0294571
-name: DDB_G0294571
+name: rabX11
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "Rab GTPase" EXACT []
+synonym: "putative Rab GTPase X11" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0294573
@@ -80051,6 +80054,7 @@ synonym: "tRNA" EXACT []
 id: dictybase.gene:DDB_G0295111
 name: tRNA-Gly-UCC-4
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "glycine transfer RNA" EXACT []
 synonym: "tRNA" EXACT []
 
 [Term]

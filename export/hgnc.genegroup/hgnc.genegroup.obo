@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:06:2022 20:28
+date: 03:02:2023 19:42
 auto-generated-by: bio2obo:hgnc.genegroup
 synonymtypedef: symbol "symbol"
 ontology: hgnc.genegroup
@@ -268,7 +268,7 @@ synonym: "GPAT" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:1036
-name: Membrane bound O-acyltransferases
+name: Membrane bound O-acyltransferase family
 def: "The MBOAT \(membrane bound O-acyl transferase\) family of membrane proteins is a family of various acyltransferase enzymes. All family members contain multiple transmembrane domains and most carry two conserved residues which might be active-site residues\, a conserved histidine \(His\) embedded in a hydrophobic stretch of residues and an asparagine \(Asn\) or histidine within a more hydrophilic region some 30-50 residues upstream.  MBOAT enzymes catalyze the transfer of an acyl group from acyl-coenzyme to one of several different substrates. The family is found from bacteria to eukaryotes\, and the active region lies outside the membrane.  The family may be grouped into four categories\, according to function\:" [pubmed:19361486]
 is_a: SO:0005855 ! gene_group
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
@@ -664,7 +664,6 @@ synonym: "CXCR" EXACT symbol []
 id: hgnc.genegroup:1095
 name: EPH receptors
 def: "Ephrin receptors \(Ephs\) are a group of receptors that are activated in response to binding ephrin. Ephs form the largest known subfamily of receptor tyrosine kinases \(RTKs\). Both Ephs and their corresponding ephrin ligands are membrane-bound proteins that require direct cell-cell interactions for Eph receptor activation. Ephephrin signaling has recently been identified to play a critical role in the maintenance of several processes during adulthood including long-term potentiation\,  angiogenesis\,  and stem cell differentiation and cancer. " []
-is_a: hgnc.genegroup:320 ! Receptor kinases
 is_a: hgnc.genegroup:321 ! Receptor tyrosine kinases
 is_a: hgnc.genegroup:555 ! Fibronectin type III domain containing
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
@@ -6116,6 +6115,7 @@ name: IFT-B1 complex
 def: "The IFT-B1 complex consists of 9-10 stably associated core subunits." [pubmed:26912722]
 is_a: hgnc.genegroup:1979 ! IFT-B complex
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+synonym: "IFT" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:1981
@@ -6123,6 +6123,7 @@ name: IFT-B2 complex
 def: "Thought to be peripheral components of the IFT‐B complex\, IFT172\, 80\, 57\, 54\, and 20 form a stable sub‐complex \(IFT‐B2\). IFT‐B2 interacts with tubulin/microtubules and connects them to the core IFT‐B1 complex through interaction with IFT88/52." [pubmed:26912722]
 is_a: hgnc.genegroup:1979 ! IFT-B complex
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+synonym: "IFT" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:1983
@@ -7069,12 +7070,39 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "SHMT" EXACT symbol []
 
 [Term]
+id: hgnc.genegroup:2144
+name: Protein kinase A subunits
+def: "In cell biology\, protein kinase A \(PKA\) is a family of enzymes whose activity is dependent on cellular levels of cyclic AMP \(cAMP\). PKA is also known as cAMP-dependent protein kinase \(EC 2.7.11.11\). PKA has several functions in the cell\, including regulation of glycogen\, sugar\, and lipid metabolism. It should not be confused with 5'-AMP-activated protein kinase \(AMP-activated protein kinase\)." [pubmed:35252178]
+is_a: SO:0005855 ! gene_group
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+
+[Term]
+id: hgnc.genegroup:2148
+name: Alpha-2-macroglobulin family
+is_a: hgnc.genegroup:1234 ! C3 and PZP like, alpha-2-macroglobulin domain containing
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+
+[Term]
 id: hgnc.genegroup:215
 name: Opsin receptors
 def: "Opsins are a group of light-sensitive 35–55 kDa membrane-bound G protein-coupled receptors of the retinylidene protein family found in photoreceptor cells of the retina. Five classical groups of opsins are involved in vision\, mediating the conversion of a photon of light into an electrochemical signal\, the first step in the visual transduction cascade." []
 is_a: hgnc.genegroup:140 ! G protein-coupled receptors, Class A rhodopsin-like
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "OPN" EXACT symbol []
+
+[Term]
+id: hgnc.genegroup:2150
+name: Teneurin transmembrane protein family
+is_a: SO:0005855 ! gene_group
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+synonym: "TENM" EXACT symbol []
+
+[Term]
+id: hgnc.genegroup:2151
+name: thymocyte selection associated high mobility group box family
+is_a: SO:0005855 ! gene_group
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+synonym: "TOX" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:216
@@ -7122,8 +7150,48 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "AGTR" EXACT symbol []
 
 [Term]
+id: hgnc.genegroup:2217
+name: Dispatched RND transporter family 
+is_a: SO:0005855 ! gene_group
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+synonym: "DISP" EXACT symbol []
+
+[Term]
+id: hgnc.genegroup:2219
+name: Transmembrane protein 14 family
+is_a: SO:0005855 ! gene_group
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+synonym: "TMEM14" EXACT symbol []
+
+[Term]
 id: hgnc.genegroup:222
 name: Bombesin receptors
+is_a: SO:0005855 ! gene_group
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+
+[Term]
+id: hgnc.genegroup:2223
+name: Glycosylphosphatidylinositol-N-acetylglucosaminyltransferase complex
+is_a: SO:0005855 ! gene_group
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+
+[Term]
+id: hgnc.genegroup:2224
+name: Tubulin gamma complex associated protein family
+is_a: SO:0005855 ! gene_group
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+synonym: "TUBGCP" EXACT symbol []
+
+[Term]
+id: hgnc.genegroup:2226
+name: NHERF family PDZ scaffold proteins
+is_a: SO:0005855 ! gene_group
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+synonym: "NHERF" EXACT symbol []
+
+[Term]
+id: hgnc.genegroup:2229
+name: TSNAXIP1 domain containing
 is_a: SO:0005855 ! gene_group
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -7134,6 +7202,27 @@ def: "The bradykinin receptor family is a group of G-protein coupled receptors w
 is_a: hgnc.genegroup:220 ! Peptide receptors
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "BDKR" EXACT symbol []
+
+[Term]
+id: hgnc.genegroup:2230
+name: YTH domain containing N6-methyladenosine readers
+is_a: SO:0005855 ! gene_group
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+synonym: "YTH" EXACT symbol []
+
+[Term]
+id: hgnc.genegroup:2231
+name: Thrombospondin family
+is_a: SO:0005855 ! gene_group
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+synonym: "THBS" EXACT symbol []
+
+[Term]
+id: hgnc.genegroup:2232
+name: Isthmin family
+is_a: SO:0005855 ! gene_group
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+synonym: "ISM" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:224
@@ -7651,9 +7740,8 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: hgnc.genegroup:343
-name: Guanylate cyclase receptors
+name: Transmembrane guanylate cyclases
 def: "Membrane bound guanylyl cyclases include an external ligand-binding domain \(e.g.\, for peptide hormones such as BNP and ANP\)\, a transmembrane domain\, and an internal catalytic domain homologous to adenylate cyclases." []
-is_a: hgnc.genegroup:320 ! Receptor kinases
 is_a: hgnc.genegroup:819 ! Guanylate cyclases
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "GUCY2" EXACT symbol []
@@ -8484,14 +8572,14 @@ synonym: "CCN" EXACT symbol []
 [Term]
 id: hgnc.genegroup:475
 name: Non-coding RNAs
-def: "A non-coding RNA \(ncRNA\) is a functional RNA molecule that is not translated into a protein. Less-frequently used synonyms are non-protein-coding RNA \(npcRNA\)\, non-messenger RNA \(nmRNA\) and functional RNA \(fRNA\). The term small RNA \(sRNA\) is often used for short bacterial ncRNAs. The DNA sequence from which a non-coding RNA is transcribed is often called an RNA gene. Non-coding RNA genes include highly abundant and functionally important RNAs such as transfer RNA \(tRNA\) and ribosomal RNA \(rRNA\)\, as well as RNAs such as snoRNAs\, microRNAs\, siRNAs\, snRNAs\, exRNAs\, and piRNAs and the long ncRNAs that include examples such as Xist and HOTAIR \(see here for a more complete list of ncRNAs\). The number of ncRNAs encoded within the human genome is unknown\, however recent transcriptomic and bioinformatic studies suggest the existence of thousands of ncRNAs.\, but see  Since many of the newly identified ncRNAs have not been validated for their function\, it is possible that many are non-functional." [pubmed:21296742]
+def: "A non-coding RNA \(ncRNA\) is a functional RNA molecule that is not translated into a protein. Less-frequently used synonyms are non-protein-coding RNA \(npcRNA\)\, non-messenger RNA \(nmRNA\) and functional RNA \(fRNA\). The term small RNA \(sRNA\) is often used for short bacterial ncRNAs. The DNA sequence from which a non-coding RNA is transcribed is often called an RNA gene. Non-coding RNA genes include highly abundant and functionally important RNAs such as transfer RNA \(tRNA\) and ribosomal RNA \(rRNA\)\, as well as RNAs such as snoRNAs\, microRNAs\, siRNAs\, snRNAs\, exRNAs\, and piRNAs and the long ncRNAs that include examples such as Xist and HOTAIR \(see here for a more complete list of ncRNAs\). The number of ncRNAs encoded within the human genome is unknown\, however recent transcriptomic and bioinformatic studies suggest the existence of thousands of ncRNAs.\, but see  Since many of the newly identified ncRNAs have not been validated for their function\, it is possible that many are non-functional." [pubmed:32090359]
 is_a: SO:0005855 ! gene_group
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: hgnc.genegroup:476
 name: MicroRNAs
-def: "A microRNA \(abbr. miRNA\) is a small non-coding RNA molecule \(ca. 22 nucleotides \) found in plants\, animals\, and some viruses\, which functions in transcriptional and post-transcriptional regulation of gene expression. Encoded by eukaryotic nuclear DNA in plants and animals and by viral DNA in certain viruses whose genome is based on DNA\, miRNAs function via base-pairing with complementary sequences within mRNA molecules. As a result\, these mRNA strands are silenced because they can no longer be translated into proteins by ribosomes\, and such complexes are often actively disassembled by the cell \('target degradation'\).  The human genome may encode over 1000 miRNAs\,  which may target about 60% of mammalian genes and are abundant in many human cell types.  " [pubmed:21296742]
+def: "A microRNA \(abbr. miRNA\) is a small non-coding RNA molecule \(ca. 22 nucleotides \) found in plants\, animals\, and some viruses\, which functions in transcriptional and post-transcriptional regulation of gene expression. Encoded by eukaryotic nuclear DNA in plants and animals and by viral DNA in certain viruses whose genome is based on DNA\, miRNAs function via base-pairing with complementary sequences within mRNA molecules. As a result\, these mRNA strands are silenced because they can no longer be translated into proteins by ribosomes\, and such complexes are often actively disassembled by the cell \('target degradation'\).  The human genome may encode over 1000 miRNAs\,  which may target about 60% of mammalian genes and are abundant in many human cell types.  " [pubmed:32090359]
 is_a: hgnc.genegroup:475 ! Non-coding RNAs
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "MIR" EXACT symbol []
@@ -8499,7 +8587,7 @@ synonym: "MIR" EXACT symbol []
 [Term]
 id: hgnc.genegroup:478
 name: Transfer RNAs
-def: "A Transfer RNA \(abbreviated tRNA and archaically referred to as sRNA abbreviating soluble RNA\) is an adaptor molecule composed of RNA\, typically 73 to 94 nucleotides in length\, that serves as the physical link between the nucleotide sequence of nucleic acids \( DNA and RNA \) and the amino acid sequence of proteins. It does this by carrying an amino acid to the protein synthetic machinery of a cell \( ribosome \) as directed by a three-nucleotide sequence \( codon \) in a messenger RNA \(mRNA\). As such\, tRNAs are a necessary component of protein translation\, the biological synthesis of new proteins according to the genetic code. The specific nucleotide sequence of an mRNA specifies which amino acids are incorporated into the protein product of the gene from which the mRNA is transcribed\, and the role of tRNA is to specify which sequence from the genetic code corresponds to which amino acid.  One end of the tRNA matches the genetic code in a three-nucleotide sequence called the anticodon. The anticodon forms three base pairs with a codon in mRNA during protein biosynthesis. The mRNA encodes a protein as a series of contiguous codons\, each of which is recognized by a particular tRNA. On the other end of the tRNA is a covalent attachment to the amino acid that corresponds to the anticodon sequence. Each type of tRNA molecule can be attached to only one type of amino acid\, so each organism has many types of tRNA \(in fact\, because the genetic code contains multiple codons that specify the same amino acid\, there are many tRNA molecules bearing different anticodons which also carry the same amino acid\). " []
+def: "A Transfer RNA \(abbreviated tRNA and archaically referred to as sRNA abbreviating soluble RNA\) is an adaptor molecule composed of RNA\, typically 73 to 94 nucleotides in length\, that serves as the physical link between the nucleotide sequence of nucleic acids \( DNA and RNA \) and the amino acid sequence of proteins. It does this by carrying an amino acid to the protein synthetic machinery of a cell \( ribosome \) as directed by a three-nucleotide sequence \( codon \) in a messenger RNA \(mRNA\). As such\, tRNAs are a necessary component of protein translation\, the biological synthesis of new proteins according to the genetic code. The specific nucleotide sequence of an mRNA specifies which amino acids are incorporated into the protein product of the gene from which the mRNA is transcribed\, and the role of tRNA is to specify which sequence from the genetic code corresponds to which amino acid.  One end of the tRNA matches the genetic code in a three-nucleotide sequence called the anticodon. The anticodon forms three base pairs with a codon in mRNA during protein biosynthesis. The mRNA encodes a protein as a series of contiguous codons\, each of which is recognized by a particular tRNA. On the other end of the tRNA is a covalent attachment to the amino acid that corresponds to the anticodon sequence. Each type of tRNA molecule can be attached to only one type of amino acid\, so each organism has many types of tRNA \(in fact\, because the genetic code contains multiple codons that specify the same amino acid\, there are many tRNA molecules bearing different anticodons which also carry the same amino acid\). " [pubmed:32090359, pubmed:26673694]
 is_a: hgnc.genegroup:475 ! Non-coding RNAs
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "TR" EXACT symbol []
@@ -9545,7 +9633,7 @@ synonym: "LYRM" EXACT symbol []
 [Term]
 id: hgnc.genegroup:636
 name: Maestro heat like repeat containing 
-def: "MROH family members are all related by homology and all contain HEAT repeats\, or regions that are highly similar to HEAT repeats." []
+def: "Maestro family members are all related by homology and all contain HEAT repeats\, or regions that are highly similar to HEAT repeats." [pubmed:28406912]
 is_a: hgnc.genegroup:1492 ! Armadillo like helical domain containing
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "MROH" EXACT symbol []
@@ -10292,7 +10380,7 @@ synonym: "SIGLECs" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:746
-name: Sideroflexins
+name: Sideroflexin family
 is_a: SO:0005855 ! gene_group
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "SFXN" EXACT symbol []
@@ -10557,7 +10645,7 @@ synonym: "UBR" EXACT symbol []
 [Term]
 id: hgnc.genegroup:788
 name: Long non-coding RNAs
-def: "Long non-coding RNAs are defined as any genes that produce transcripts of over 200 nucleotides in length which do not appear to be translated. Wherever possible\, the HGNC names these genes based on a key function or characteristic of the encoded RNA. Where no other information is available at the time of naming\, we assign a systematic nomenclature as shown in the gene subgroups below." []
+def: "Long non-coding RNAs are defined as any genes that produce transcripts of over 200 nucleotides in length which do not appear to be translated. Wherever possible\, the HGNC names these genes based on a key function or characteristic of the encoded RNA. Where no other information is available at the time of naming\, we assign a systematic nomenclature as shown in the gene subgroups below." [pubmed:32090359, pubmed:35880706]
 is_a: hgnc.genegroup:475 ! Non-coding RNAs
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -10694,8 +10782,8 @@ synonym: "GATAD" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:820
-name: Guanylate cyclases\, soluble
-def: "Soluble guanylyl cyclase \(sGC\) is the only known receptor for nitric oxide\, NO. It is soluble\, i.e. completely intracellular. Most notably\, this enzyme is involved in vasodilation. In humans\, it is encoded by the genes GUCY1A2\, GUCY1A3\, GUCY1B2 and GUCY1B3. It is classified under EC number 4.6.1.2. " []
+name: Soluble guanylate cyclases
+def: "Soluble guanylyl cyclase \(sGC\) is the only known receptor for nitric oxide\, NO. It is soluble\, i.e. completely intracellular. Most notably\, this enzyme is involved in vasodilation. In humans\, it is encoded by the genes GUCY1A1\, GUCY1A2\, GUCY1B2 and GUCY1B3. It is classified under EC number 4.6.1.2. " []
 is_a: hgnc.genegroup:819 ! Guanylate cyclases
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "GUCY1" EXACT symbol []
@@ -10841,7 +10929,7 @@ synonym: "MT-T" EXACT symbol []
 [Term]
 id: hgnc.genegroup:844
 name: Small nucleolar RNAs
-def: "Small nucleolar RNAs \(snoRNAs\) are a class of small RNA molecules that primarily guide chemical modifications of other RNAs\, mainly ribosomal RNAs\, transfer RNAs and small nuclear RNAs." []
+def: "Small nucleolar RNAs \(snoRNAs\) are a class of small RNA molecules that primarily guide chemical modifications of other RNAs\, mainly ribosomal RNAs\, transfer RNAs and small nuclear RNAs." [pubmed:32090359]
 is_a: hgnc.genegroup:475 ! Non-coding RNAs
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -10872,14 +10960,14 @@ synonym: "SCARNA" EXACT symbol []
 [Term]
 id: hgnc.genegroup:848
 name: Ribosomal RNAs
-def: "In molecular biology\, ribosomal ribonucleic acid \(rRNA\) is the RNA component of the ribosome\, and is essential for protein synthesis in all living organisms. It constitutes the predominant material within the ribosome\, which is approximately 60% rRNA and 40% protein by weight. Ribosomes contain two major rRNAs and 50 or more proteins. The ribosomal RNAs form two subunits\, the large subunit \(LSU\) and small subunit \(SSU\). The LSU rRNA acts as a ribozyme\, catalyzing peptide bond formation. rRNA sequences are widely used for working out evolutionary relationships among organisms\, since they are of ancient origin and are found in all known forms of life." []
+def: "In molecular biology\, ribosomal ribonucleic acid \(rRNA\) is the RNA component of the ribosome\, and is essential for protein synthesis in all living organisms. It constitutes the predominant material within the ribosome\, which is approximately 60% rRNA and 40% protein by weight. Ribosomes contain two major rRNAs and 50 or more proteins. The ribosomal RNAs form two subunits\, the large subunit \(LSU\) and small subunit \(SSU\). The LSU rRNA acts as a ribozyme\, catalyzing peptide bond formation. rRNA sequences are widely used for working out evolutionary relationships among organisms\, since they are of ancient origin and are found in all known forms of life." [pubmed:32090359]
 is_a: hgnc.genegroup:475 ! Non-coding RNAs
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: hgnc.genegroup:849
 name: Small nuclear RNAs
-def: "Small nuclear ribonucleic acid \(snRNA\)\, also commonly referred to as U-RNA\, is a class of small RNA molecules that are found within the splicing speckles and cajal bodies of the cell nucleus in eukaryotic cells. The length of an average snRNA is approximately 150 nucleotides. They are transcribed by either RNA polymerase II or RNA polymerase III\, and studies have shown that their primary function is in the processing of pre- messenger RNA \( hnRNA \) in the nucleus. They have also been shown to aid in the regulation of transcription factors \(7SK RNA\) or RNA polymerase II \(B2 RNA\)\, and maintaining the telomeres. " []
+def: "Small nuclear ribonucleic acid \(snRNA\)\, also commonly referred to as U-RNA\, is a class of small RNA molecules that are found within the splicing speckles and cajal bodies of the cell nucleus in eukaryotic cells. The length of an average snRNA is approximately 150 nucleotides. They are transcribed by either RNA polymerase II or RNA polymerase III\, and studies have shown that their primary function is in the processing of pre- messenger RNA \( hnRNA \) in the nucleus. They have also been shown to aid in the regulation of transcription factors \(7SK RNA\) or RNA polymerase II \(B2 RNA\)\, and maintaining the telomeres. " [pubmed:32090359]
 is_a: hgnc.genegroup:475 ! Non-coding RNAs
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -10902,7 +10990,7 @@ synonym: "PIRC" EXACT symbol []
 [Term]
 id: hgnc.genegroup:852
 name: Vault RNAs
-def: "Many eukaryotic cells contain large ribonucleoprotein particles in the cytoplasm known as vaults.  The vault complex comprises the major vault protein \(MVP\)\, two minor vault proteins \(VPARP \[PARP4\] and TEP1\)\, and a variety of small untranslated RNA molecules. Given the association with the nuclear membrane and the location within the cell\, vaults are thought to play roles in intracellular and nucleocytoplasmic transport processes.  Also\, given that the structure and protein composition are highly conserved among species\, it is believed that the roles vault plays are integral to eukaryotic function." [pubmed:19491402, pubmed:30773316]
+def: "Many eukaryotic cells contain large ribonucleoprotein particles in the cytoplasm known as vaults.  The vault complex comprises the major vault protein \(MVP\)\, two minor vault proteins \(VPARP \[PARP4\] and TEP1\)\, and a variety of small untranslated RNA molecules. Given the association with the nuclear membrane and the location within the cell\, vaults are thought to play roles in intracellular and nucleocytoplasmic transport processes.  Also\, given that the structure and protein composition are highly conserved among species\, it is believed that the roles vault plays are integral to eukaryotic function." [pubmed:19491402, pubmed:30773316, pubmed:32090359]
 is_a: hgnc.genegroup:475 ! Non-coding RNAs
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "VTRNA" EXACT symbol []
@@ -10910,7 +10998,7 @@ synonym: "VTRNA" EXACT symbol []
 [Term]
 id: hgnc.genegroup:853
 name: RNAs\, Ro60-associated Y
-def: "Y RNAs are small non-coding RNAs. They are components of the Ro60 ribonucleoprotein particle which is a target of autoimmune antibodies in patients with systemic lupus erythematosus." [pubmed:6187471, pubmed:7520568, pubmed:7539809, pubmed:8836182]
+def: "Y RNAs are small non-coding RNAs. They are components of the Ro60 ribonucleoprotein particle which is a target of autoimmune antibodies in patients with systemic lupus erythematosus." [pubmed:6187471, pubmed:7520568, pubmed:7539809, pubmed:8836182, pubmed:32090359]
 is_a: hgnc.genegroup:475 ! Non-coding RNAs
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "RNY" EXACT symbol []

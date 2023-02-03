@@ -13,59 +13,43 @@ from typing import Optional
 import click
 from bioontologies.robot import convert, convert_to_obograph
 from more_click import verbose_option
-from pyobo.sources import (
-    cgnc,
-    complexportal,
-    dictybase_gene,
-    drugbank,
-    drugbank_salt,
-    drugcentral,
-    expasy,
-    flybase,
-    hgnc,
-    hgncgenefamily,
-    mgi,
-    mirbase,
-    pombase,
-    rgd,
-    rhea,
-    sgd,
-    zfin,
-)
-from pyobo.sources.uniprot import uniprot
+import pyobo.sources.uniprot
+import pyobo.sources
 from tqdm import tqdm
 from tqdm.contrib.logging import logging_redirect_tqdm
 
 HERE = Path(__file__).parent.resolve()
 MODULES = [
-    hgncgenefamily,
+    pyobo.sources.hgncgenefamily,
     # Organism-specific gene nomenclature examples
-    hgnc,
-    mgi,
+    pyobo.sources.hgnc,
+    pyobo.sources.rgd,
     # araport
-    sgd,
-    pombase,
+    pyobo.sources.sgd,
+    pyobo.sources.pombase,
     # wormbase
-    dictybase_gene,
+    pyobo.sources.dictybase_gene,
     # ecogene
-    flybase,
-    zfin,
-    cgnc,
-    mirbase,
-    uniprot,
+    pyobo.sources.flybase,
+    pyobo.sources.zfin,
+    pyobo.sources.cgnc,
+    pyobo.sources.mirbase,
     # Chemistry examples
-    drugcentral,
-    drugbank,
-    drugbank_salt,
-    rhea,
-    #
-    complexportal,
-    expasy,
-    rgd,
+    pyobo.sources.drugcentral,
+    pyobo.sources.drugbank,
+    pyobo.sources.drugbank_salt,
+    pyobo.sources.rhea,
+    # Famplexes
+    pyobo.sources.complexportal,
+    pyobo.sources.expasy,
+    # Big!
+    pyobo.sources.uniprot.uniprot,
+    pyobo.sources.mgi,
+    pyobo.sources.slm,
 ]
 
-NO_FORCE = {drugbank, drugbank_salt}
-GZIP_OBO = {"mgi", "uniprot"}
+NO_FORCE = {pyobo.sources.drugbank, pyobo.sources.drugbank_salt}
+GZIP_OBO = {"mgi", "uniprot", "swisslipid"}
 
 
 def _gzip(path: Path, suffix: str):
@@ -76,7 +60,11 @@ def _gzip(path: Path, suffix: str):
 
 
 def _make(prefix, module):
-    obo = module.get_obo(force=module not in NO_FORCE)
+    try:
+        obo = module.get_obo(force=module not in NO_FORCE)
+    except Exception as e:
+        tqdm.write(click.style(f"[] failed: {e}", fg="red"))
+        return
 
     directory = HERE.joinpath("export", prefix)
     if obo.data_version:
@@ -90,11 +78,11 @@ def _make(prefix, module):
 
     try:
         obo.write_obo(obo_path)
-        if prefix in GZIP_OBO:
-            _gzip(obo_path, ".obo.gz")
-    except ValueError as e:
+    except Exception as e:
         tqdm.write(click.style(f"[{prefix}] failed to write OBO: {e}", fg="red"))
         return
+    if prefix in GZIP_OBO:
+        _gzip(obo_path, ".obo.gz")
 
     try:
         tqdm.write(f"[{prefix}] converting to OBO Graph JSON")
@@ -104,6 +92,8 @@ def _make(prefix, module):
         tqdm.write(
             click.style(f"[{prefix}] ROBOT failed to convert to OBO Graph", fg="red")
         )
+    else:
+        click.echo(f"[{prefix}] done converting to OBO Graph JSON")
 
     try:
         tqdm.write(f"[{prefix}] converting to OWL")
@@ -111,6 +101,8 @@ def _make(prefix, module):
         _gzip(owl_path, ".owl.gz")
     except Exception:
         tqdm.write(click.style(f"[{prefix}] ROBOT failed to convert to OWL", fg="red"))
+    else:
+        click.echo(f"[{prefix}] done converting to OWL")
 
 
 @click.command()
