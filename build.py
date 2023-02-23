@@ -6,7 +6,6 @@ This script requires ``pip install pyobo``.
 """
 
 import gzip
-from operator import attrgetter
 from pathlib import Path
 from typing import Optional
 
@@ -17,35 +16,39 @@ import pyobo.sources.uniprot
 import pyobo.sources
 from tqdm import tqdm
 from tqdm.contrib.logging import logging_redirect_tqdm
+from pyobo.sources import ontology_resolver
+from pyobo import Obo
 
 HERE = Path(__file__).parent.resolve()
-MODULES = [
-    pyobo.sources.hgncgenefamily,
-    # Organism-specific gene nomenclature examples
-    pyobo.sources.hgnc,
-    pyobo.sources.rgd,
-    # araport
-    pyobo.sources.sgd,
-    pyobo.sources.pombase,
-    # wormbase
-    pyobo.sources.dictybase_gene,
-    # ecogene
-    pyobo.sources.flybase,
-    pyobo.sources.zfin,
-    pyobo.sources.cgnc,
-    pyobo.sources.mirbase,
-    # Chemistry examples
-    pyobo.sources.drugcentral,
-    pyobo.sources.drugbank,
-    pyobo.sources.drugbank_salt,
-    pyobo.sources.rhea,
-    # Famplexes
-    pyobo.sources.complexportal,
-    pyobo.sources.expasy,
-    # Big!
-    pyobo.sources.uniprot.uniprot,
-    pyobo.sources.mgi,
-    pyobo.sources.slm,
+PREFIXES = [
+    "eccode",
+    # "rgd",
+    # pyobo.sources.hgncgenefamily,
+    # # Organism-specific gene nomenclature examples
+    # pyobo.sources.hgnc,
+    # pyobo.sources.rgd,
+    # # araport
+    # pyobo.sources.sgd,
+    # pyobo.sources.pombase,
+    # # wormbase
+    # pyobo.sources.dictybase_gene,
+    # # ecogene
+    # pyobo.sources.flybase,
+    # pyobo.sources.zfin,
+    # pyobo.sources.cgnc,
+    # pyobo.sources.mirbase,
+    # # Chemistry examples
+    # pyobo.sources.drugcentral,
+    # pyobo.sources.drugbank,
+    # pyobo.sources.drugbank_salt,
+    # pyobo.sources.rhea,
+    # # Famplexes
+    # pyobo.sources.complexportal,
+    # pyobo.sources.expasy,
+    # # Big!
+    # pyobo.sources.uniprot.uniprot,
+    # pyobo.sources.mgi,
+    # pyobo.sources.slm,
 ]
 
 NO_FORCE = {pyobo.sources.drugbank, pyobo.sources.drugbank_salt}
@@ -59,12 +62,8 @@ def _gzip(path: Path, suffix: str):
     path.unlink()
 
 
-def _make(prefix, module):
-    try:
-        obo = module.get_obo(force=module not in NO_FORCE)
-    except Exception as e:
-        tqdm.write(click.style(f"[] failed: {e}", fg="red"))
-        return
+def _make(prefix, module: type[Obo]):
+    obo = module(force=module not in NO_FORCE)
 
     directory = HERE.joinpath("export", prefix)
     if obo.data_version:
@@ -111,20 +110,24 @@ def _make(prefix, module):
 @click.option("-x", "--xvalue", help="Select a specific ontology")
 def main(minimum: Optional[str], xvalue: Optional[str]):
     """Build the PyOBO examples."""
-    modules = sorted(MODULES, key=attrgetter("PREFIX"))
-    modules = [
-        module
-        for module in modules
-        if (
-            not (minimum and module.PREFIX.lower() < minimum.lower())
-            and not (xvalue and xvalue.lower() != module.PREFIX.lower())
-        )
-    ]
-    it = tqdm(modules, desc="Making OBO examples")
+    if xvalue:
+        prefixes = [xvalue]
+    elif minimum:
+        prefixes = [
+            prefix
+            for prefix in PREFIXES
+            if not (minimum and prefix < minimum.lower())
+        ]
+    else:
+        prefixes = PREFIXES
+
+    it = tqdm(prefixes, desc="Making OBO examples")
     with logging_redirect_tqdm():
-        for module in it:
-            it.set_postfix(prefix=module.PREFIX)
-            _make(prefix=module.PREFIX, module=module)
+        for prefix in it:
+            tqdm.write(click.style(prefix, fg="green", bold=True))
+            cls = ontology_resolver.lookup(prefix)
+            it.set_postfix(prefix=prefix)
+            _make(prefix=prefix, module=cls)
 
 
 if __name__ == "__main__":

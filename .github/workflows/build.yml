@@ -7,14 +7,17 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    container: obolibrary/odkfull:v1.3.1
+    strategy:
+      max-parallel: 1
     steps:
-      - uses: actions/checkout@master
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
-          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
-          fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
-      - uses: actions/setup-python@v2
-        with:
-          python-version: "3.10"
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - name: Update Git Configuration
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
       - name: Install dependencies
         run: |
@@ -29,9 +32,8 @@ jobs:
           ECOPORTAL_API_KEY: ${{ secrets.ECOPORTAL_API_KEY }}
           AGROPORTAL_API_KEY: ${{ secrets.AGROPORTAL_API_KEY }}
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
-          tags: true
+          message: 'Update build'
+          push: true
