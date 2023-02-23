@@ -22,14 +22,14 @@ from pyobo import Obo
 HERE = Path(__file__).parent.resolve()
 PREFIXES = [
     "eccode",
-    # "rgd",
-    # pyobo.sources.hgncgenefamily,
-    # # Organism-specific gene nomenclature examples
-    # pyobo.sources.hgnc,
-    # pyobo.sources.rgd,
-    # # araport
-    # pyobo.sources.sgd,
-    # pyobo.sources.pombase,
+    "rgd",
+    "sgd",
+    "mirbase",
+    "mgi",
+    "uniprot",
+    "hgnc",
+    "hgncgenefamily",
+    "pombase",
     # # wormbase
     # pyobo.sources.dictybase_gene,
     # # ecogene
