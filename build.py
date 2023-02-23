@@ -28,7 +28,7 @@ PREFIXES = [
     "mgi",
     "uniprot",
     "hgnc",
-    "hgncgenefamily",
+    "hgnc.genegroup",
     "pombase",
     # # wormbase
     # pyobo.sources.dictybase_gene,
@@ -121,11 +121,14 @@ def main(minimum: Optional[str], xvalue: Optional[str]):
     else:
         prefixes = PREFIXES
 
-    it = tqdm(prefixes, desc="Making OBO examples")
+    it = [
+        (prefix, ontology_resolver.lookup(prefix))
+        for prefix in prefixes
+    ]
+    it = tqdm(it, desc="Making OBO examples")
     with logging_redirect_tqdm():
-        for prefix in it:
+        for prefix, cls in it:
             tqdm.write(click.style(prefix, fg="green", bold=True))
-            cls = ontology_resolver.lookup(prefix)
             it.set_postfix(prefix=prefix)
             _make(prefix=prefix, module=cls)
 
