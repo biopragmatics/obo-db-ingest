@@ -30,6 +30,9 @@ PREFIXES = [
     "hgnc",
     "hgnc.genegroup",
     "pombase",
+    "rhea",
+    "flybase",
+    # "drugcentral",
     # # wormbase
     # pyobo.sources.dictybase_gene,
     # # ecogene
@@ -41,7 +44,6 @@ PREFIXES = [
     # pyobo.sources.drugcentral,
     # pyobo.sources.drugbank,
     # pyobo.sources.drugbank_salt,
-    # pyobo.sources.rhea,
     # # Famplexes
     # pyobo.sources.complexportal,
     # pyobo.sources.expasy,
