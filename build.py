@@ -12,14 +12,14 @@ from typing import Optional
 import click
 from bioontologies.robot import convert, convert_to_obograph
 from more_click import verbose_option
-import pyobo.sources.uniprot
-import pyobo.sources
 from tqdm import tqdm
 from tqdm.contrib.logging import logging_redirect_tqdm
 from pyobo.sources import ontology_resolver
 from pyobo import Obo
+import pystow.utils
 
 HERE = Path(__file__).parent.resolve()
+pystow.utils.GLOBAL_PROGRESS_BAR = False
 PREFIXES = [
     "eccode",
     "rgd",
@@ -29,31 +29,30 @@ PREFIXES = [
     "uniprot",
     "hgnc",
     "hgnc.genegroup",
-    "pombase",
+    "pombase",  # after hgnc
     "rhea",
     "flybase",
-    # "drugcentral",
-    # # wormbase
-    # pyobo.sources.dictybase_gene,
-    # # ecogene
-    # pyobo.sources.flybase,
-    # pyobo.sources.zfin,
-    # pyobo.sources.cgnc,
-    # pyobo.sources.mirbase,
-    # # Chemistry examples
-    # pyobo.sources.drugcentral,
-    # pyobo.sources.drugbank,
-    # pyobo.sources.drugbank_salt,
-    # # Famplexes
-    # pyobo.sources.complexportal,
-    # pyobo.sources.expasy,
-    # # Big!
-    # pyobo.sources.uniprot.uniprot,
-    # pyobo.sources.mgi,
-    # pyobo.sources.slm,
+    "zfin",  # after flybase
+    "dictybase.gene",
+    "cgnc",
+    "drugcentral",
+    "complexportal",
+    "interpro",
+    "mesh",
+    "mirbase.family",
+    "mirbase.mature",
+    "reactome",
+    "wikipathways",
+    "pathbank",
+    "msigdb",
+    "pfam",
+    "pfam.clan",
+    "npass",
+    "kegg.genome",
+    "slm",
 ]
 
-NO_FORCE = {pyobo.sources.drugbank, pyobo.sources.drugbank_salt}
+NO_FORCE = {"drugbank", "drugbank.salt"}
 GZIP_OBO = {"mgi", "uniprot", "swisslipid"}
 
 
@@ -65,7 +64,7 @@ def _gzip(path: Path, suffix: str):
 
 
 def _make(prefix, module: type[Obo]):
-    obo = module(force=module not in NO_FORCE)
+    obo = module(force=prefix not in NO_FORCE)
 
     directory = HERE.joinpath("export", prefix)
     if obo.data_version:
@@ -82,7 +81,7 @@ def _make(prefix, module: type[Obo]):
     except Exception as e:
         tqdm.write(click.style(f"[{prefix}] failed to write OBO: {e}", fg="red"))
         return
-    if prefix in GZIP_OBO:
+    if prefix in GZIP_OBO:  # TODO check if over github size limit
         _gzip(obo_path, ".obo.gz")
 
     try:
@@ -94,7 +93,7 @@ def _make(prefix, module: type[Obo]):
             click.style(f"[{prefix}] ROBOT failed to convert to OBO Graph", fg="red")
         )
     else:
-        click.echo(f"[{prefix}] done converting to OBO Graph JSON")
+        tqdm.write(f"[{prefix}] done converting to OBO Graph JSON")
 
     try:
         tqdm.write(f"[{prefix}] converting to OWL")
@@ -103,7 +102,7 @@ def _make(prefix, module: type[Obo]):
     except Exception:
         tqdm.write(click.style(f"[{prefix}] ROBOT failed to convert to OWL", fg="red"))
     else:
-        click.echo(f"[{prefix}] done converting to OWL")
+        tqdm.write(f"[{prefix}] done converting to OWL")
 
 
 @click.command()
@@ -128,10 +127,11 @@ def main(minimum: Optional[str], xvalue: Optional[str]):
         for prefix in prefixes
     ]
     it = tqdm(it, desc="Making OBO examples")
-    with logging_redirect_tqdm():
-        for prefix, cls in it:
-            tqdm.write(click.style(prefix, fg="green", bold=True))
-            it.set_postfix(prefix=prefix)
+
+    for prefix, cls in it:
+        tqdm.write(click.style(prefix, fg="green", bold=True))
+        it.set_postfix(prefix=prefix)
+        with logging_redirect_tqdm():
             _make(prefix=prefix, module=cls)
 
 
