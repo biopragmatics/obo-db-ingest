@@ -63,7 +63,7 @@ def _gzip(path: Path, suffix: str):
     path.unlink()
 
 
-def _make(prefix, module: type[Obo]):
+def _make(prefix, module: type[Obo], do_convert: bool = False):
     obo = module(force=prefix not in NO_FORCE)
 
     directory = HERE.joinpath("export", prefix)
@@ -83,6 +83,9 @@ def _make(prefix, module: type[Obo]):
         return
     if prefix in GZIP_OBO:  # TODO check if over github size limit
         _gzip(obo_path, ".obo.gz")
+
+    if not do_convert:
+        return
 
     try:
         tqdm.write(f"[{prefix}] converting to OBO Graph JSON")
