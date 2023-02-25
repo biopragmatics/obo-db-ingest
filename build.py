@@ -36,7 +36,7 @@ PREFIXES = [
     "dictybase.gene",
     "cgnc",
     "drugcentral",
-    #  "complexportal",
+    "complexportal",
     "interpro",
     "mesh",
     "mirbase.family",
