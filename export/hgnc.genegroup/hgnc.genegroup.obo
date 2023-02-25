@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 23:02:2023 23:46
+date: 25:02:2023 12:04
 auto-generated-by: bio2obo:hgnc.genegroup
 synonymtypedef: symbol "symbol"
 ontology: hgnc.genegroup
@@ -8,6 +8,10 @@ remark: HGNC Gene Group
 [Typedef]
 id: RO:0002162
 name: in taxon
+
+[Typedef]
+id: RO:0002327
+name: enables
 
 [Term]
 id: SO:0005855
@@ -2452,8 +2456,8 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 id: hgnc.genegroup:139
 name: G protein-coupled receptors
 def: "Receptors which transduce extracellular signals across the cell membrane. At the external side they receive a ligand \(a photon in the case of opsins\)\, and at the cytosolic side they activate a guanine nucleotide-binding \(G\) protein. These receptors are hydrophobic proteins that cross the membrane seven times." []
-xref: GO:0004930
 is_a: hgnc.genegroup:2054 ! 7TM proteins
+relationship: RO:0002327 GO:0004930 ! enables
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
@@ -5959,7 +5963,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: hgnc.genegroup:1956
-name: Pantothenate kinases
+name: Pantothenate kinase family
 is_a: SO:0005855 ! gene_group
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "PANK" EXACT symbol []
@@ -7674,8 +7678,8 @@ synonym: "CLCN" EXACT symbol []
 id: hgnc.genegroup:304
 name: Porins
 def: "Membrane protein which in a multimeric form constitutes a water-filled transmembrane channel \(a pore\). This pore allows the passage of ions and numerous other\, non-specific molecules through the membrane. Found in the mitochondrial and plastid outer membrane of eukaryotes\, in many Gram-negative bacteria\, at least some Corynebacterineae\, archaea and in sea anemones." []
-xref: GO:0015288
 is_a: hgnc.genegroup:292 ! Ion channels by channel type
+relationship: RO:0002327 GO:0015288 ! enables
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
@@ -8100,8 +8104,8 @@ synonym: "ANXA" EXACT symbol []
 id: hgnc.genegroup:405
 name: Apolipoproteins
 def: "Protein or apolipoprotein associated with High-Density Lipoproteins \(HDL\)\, a class of proteins involved in lipid \(cholesterol\, phospholipids and triacylglycerol\) metabolism in the body fluids. HDL are formed in the liver and are involved in reverse cholesterol transport\, the transport of cholesterol from peripherical tissues to the liver. Apolipoproteins are proteins which are specifically associated with lipoproteins\, which is not the case for all the proteins associated with HDL or with the other lipoprotein classes." []
-xref: GO:0034364
 is_a: SO:0005855 ! gene_group
+relationship: RO:0002327 GO:0034364 ! enables
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "APO" EXACT symbol []
 
@@ -8237,8 +8241,8 @@ synonym: "B3GAT" EXACT symbol []
 id: hgnc.genegroup:424
 name: Glycosyltransferases
 def: "Enzymes that catalyze the transfer of glycosyl \(sugar\) residues to an acceptor\, both during degradation \(cosubstrates= water or inorganic phosphate\) and during biosynthesis of polysaccharides\, glycoproteins and glycolipids. In biosynthetic glycosyl transfers\, the common activated monomeric sugar intermediate is a nucleoside diphosphate sugar." []
-xref: GO:0016757
 is_a: SO:0005855 ! gene_group
+relationship: RO:0002327 GO:0016757 ! enables
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
@@ -8670,8 +8674,8 @@ synonym: "CHCHD" EXACT symbol []
 id: hgnc.genegroup:490
 name: Collagens
 def: "Protein which contains one or more collagen-like domain. Collagen is a fibrous protein found in vertebrates\, the major element of skin\, bone\, tendon\, cartilage\, blood vessels and teeth. It forms insoluble fibres of high tensile strength and which contains the unusual amino acids hyroxyproline and hydroxylysine. It is rich in glycine but lacks cysteine and tryptophan\, and has an unusually regular amino-acid domain." []
-xref: GO:0005581
 is_a: SO:0005855 ! gene_group
+relationship: RO:0002327 GO:0005581 ! enables
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "COL" EXACT symbol []
 
@@ -8754,8 +8758,8 @@ synonym: "DHX" EXACT symbol []
 id: hgnc.genegroup:501
 name: Defensins
 def: "Families of microbicidal and cytotoxic peptides. Defensins have antibacterial\, antifungal and antiviral properties. Defensins kills cells by forming voltage-regulated multimeric channels in the susceptible cell's membrane." []
-xref: GO:0006952
 is_a: SO:0005855 ! gene_group
+relationship: RO:0002327 GO:0006952 ! enables
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
@@ -8827,8 +8831,8 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 id: hgnc.genegroup:516
 name: Homeoboxes
 def: "Protein which contains at least one homeobox\, a conserved sequence originally detected\, on the nucleotide level\, in many of the genes which give rise to homeotic and segmentation mutants in Drosophila. The homeobox\, also termed homeodomain\, consists of about 60 amino acids and is involved in DNA-binding." [pubmed:17963489]
-xref: GO:0003677
 is_a: SO:0005855 ! gene_group
+relationship: RO:0002327 GO:0003677 ! enables
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
@@ -8946,8 +8950,8 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 id: hgnc.genegroup:535
 name: DNA polymerases
 def: "Enzyme that catalyzes DNA synthesis by addition of deoxyribonucleotide units to a DNA chain using DNA as a template. They can also possess exonuclease activity and therefore function in DNA repair." []
-xref: GO:0003887
 is_a: SO:0005855 ! gene_group
+relationship: RO:0002327 GO:0003887 ! enables
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "POL" EXACT symbol []
 
@@ -9007,8 +9011,8 @@ synonym: "ELMO" EXACT symbol []
 id: hgnc.genegroup:544
 name: Exonucleases
 def: "Enzyme that degrades DNA or RNA by progressively splitting off single nucleotides from one end of the chain." []
-xref: GO:0004527
 is_a: SO:0005855 ! gene_group
+relationship: RO:0002327 GO:0004527 ! enables
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
@@ -9363,8 +9367,8 @@ synonym: "IPO" EXACT symbol []
 id: hgnc.genegroup:597
 name: Integrins
 def: "Protein of the integrin family of cell surface heterodimeric receptors that mediates dynamic cell-to-cell as well as cell-to-matrix adhesion. Integrins function as mechanochemical sensors and transducers able to change rapidly and reversibly their adhesive functions by modulating their ligand-binding affinity. Each subunit has a large N-terminal extracellular domain followed by a transmembrane domain and a short C-terminal cytoplasmic region. Some subclasses of integrins share a common beta chain while having different alpha chains." []
-xref: GO:0007229
 is_a: SO:0005855 ! gene_group
+relationship: RO:0002327 GO:0007229 ! enables
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "ITG" EXACT symbol []
 
@@ -9415,24 +9419,24 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 id: hgnc.genegroup:607
 name: Intermediate filaments
 def: "Intermediate filaments \(IF\) are proteins which are primordial components of the cytoskeleton and the nuclear envelope. They generally form filamentous structures 8 to 14 nm wide and intermediate in size between microtubules and microfilaments. This family of protein includes cytokeratins\, vimentin\, desmin\, glial fibrillary acidic protein\, neurofilament proteins and nestin. All IF proteins are structurally similar in that they consist of\: a central rod domain which is arranged in coiled-coiled alpha-helices\, with at least two short characteristic interruptions; an N-terminal non-helical domain \(head\) of variable length; and an C-terminal domain \(tail\) which is also non-helical and shows extreme length variation between different IF proteins." []
-xref: GO:0005882
 is_a: SO:0005855 ! gene_group
+relationship: RO:0002327 GO:0005882 ! enables
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: hgnc.genegroup:608
 name: Keratins\, type I
 def: "These proteins are the most diverse among IFs and constitute type I \(acidic\) and type II \(basic\) IF proteins. The many isoforms are divided in two groups\:      epithelial keratins \(about 20\) in epithelial cells     trichocytic keratins \(about 13\) \(hair keratins\)\, which make up hair\, nails\, horns and reptilian scales.  Regardless of the group\, keratins are either acidic or basic. Acidic and basic keratins bind each other to form acidic-basic heterodimers and these heterodimers then associate to make a keratin filament." [pubmed:16831889]
-xref: GO:0005882
 is_a: hgnc.genegroup:1109 ! Keratins
+relationship: RO:0002327 GO:0005882 ! enables
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: hgnc.genegroup:609
 name: Keratins\, type II
 def: "These proteins are the most diverse among IFs and constitute type I \(acidic\) and type II \(basic\) IF proteins. The many isoforms are divided in two groups\:      epithelial keratins \(about 20\) in epithelial cells \(image to right\)     trichocytic keratins \(about 13\) \(hair keratins\)\, which make up hair\, nails\, horns and reptilian scales.  Regardless of the group\, keratins are either acidic or basic. Acidic and basic keratins bind each other to form acidic-basic heterodimers and these heterodimers then associate to make a keratin filament." [pubmed:16831889]
-xref: GO:0005882
 is_a: hgnc.genegroup:1109 ! Keratins
+relationship: RO:0002327 GO:0005882 ! enables
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
