@@ -49,7 +49,7 @@ PREFIXES = [
     "pfam.clan",
     "npass",
     "kegg.genome",
-    "swisslipids",
+    #  "swisslipids",
 ]
 
 NO_FORCE = {"drugbank", "drugbank.salt"}
