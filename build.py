@@ -6,6 +6,7 @@ This script requires ``pip install pyobo``.
 """
 
 import gzip
+import os
 from pathlib import Path
 from typing import Optional
 
@@ -20,6 +21,9 @@ from tqdm.contrib.logging import logging_redirect_tqdm
 
 HERE = Path(__file__).parent.resolve()
 pystow.utils.GLOBAL_PROGRESS_BAR = False
+#: This is the maximum file size (100MB, rounded down to
+#: be conservative) to put on GitHub
+MAX_SIZE = 100_000_000
 PREFIXES = [
     "eccode",
     "rgd",
@@ -53,7 +57,7 @@ PREFIXES = [
 ]
 
 NO_FORCE = {"drugbank", "drugbank.salt"}
-GZIP_OBO = {"mgi", "uniprot", "swisslipid"}
+GZIP_OBO = {"mgi", "uniprot", "swisslipids", "reactome", "pathbank", "mesh"}
 
 
 def _gzip(path: Path, suffix: str):
@@ -81,7 +85,9 @@ def _make(prefix, module: type[Obo], do_convert: bool = False):
     except Exception as e:
         tqdm.write(click.style(f"[{prefix}] failed to write OBO: {e}", fg="red"))
         return
-    if prefix in GZIP_OBO:  # TODO check if over github size limit
+
+    size = os.path.getsize(obo_path)
+    if prefix in GZIP_OBO or size > MAX_SIZE:
         _gzip(obo_path, ".obo.gz")
 
     if not do_convert:
