@@ -10,13 +10,13 @@ from pathlib import Path
 from typing import Optional
 
 import click
+import pystow.utils
 from bioontologies.robot import convert, convert_to_obograph
 from more_click import verbose_option
+from pyobo import Obo
+from pyobo.sources import ontology_resolver
 from tqdm import tqdm
 from tqdm.contrib.logging import logging_redirect_tqdm
-from pyobo.sources import ontology_resolver
-from pyobo import Obo
-import pystow.utils
 
 HERE = Path(__file__).parent.resolve()
 pystow.utils.GLOBAL_PROGRESS_BAR = False
@@ -44,7 +44,7 @@ PREFIXES = [
     "reactome",
     "wikipathways",
     "pathbank",
-    "msigdb",
+    #  "msigdb",
     "pfam",
     "pfam.clan",
     "npass",
@@ -118,17 +118,12 @@ def main(minimum: Optional[str], xvalue: Optional[str]):
         prefixes = [xvalue]
     elif minimum:
         prefixes = [
-            prefix
-            for prefix in PREFIXES
-            if not (minimum and prefix < minimum.lower())
+            prefix for prefix in PREFIXES if not (minimum and prefix < minimum.lower())
         ]
     else:
         prefixes = PREFIXES
 
-    it = [
-        (prefix, ontology_resolver.lookup(prefix))
-        for prefix in prefixes
-    ]
+    it = [(prefix, ontology_resolver.lookup(prefix)) for prefix in prefixes]
     it = tqdm(it, desc="Making OBO examples")
 
     for prefix, cls in it:
