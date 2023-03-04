@@ -27,3 +27,9 @@ To generate OBO files, run the following shell commands (Python 3.6+):
 $ pip install tox
 $ tox
 ```
+
+## PURLs
+
+See PURL configuration at https://github.com/perma-id/w3id.org/tree/master/biopragmatics
+
+Concretely, this W3ID entry makes ontology artifacts in the "export" folder (https://github.com/biopragmatics/obo-db-ingest/tree/main/export) resolvable. For example, https://w3id.org/biopragmatics/resources/interpro/92.0/interpro.obo redirects to https://github.com/biopragmatics/obo-db-ingest/raw/main/export/interpro/92.0/interpro.obo
