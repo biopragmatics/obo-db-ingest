@@ -36,4 +36,4 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           message: '🌋 Update build'
-          push: true
+          default_author: github_actions
