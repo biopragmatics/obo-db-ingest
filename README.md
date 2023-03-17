@@ -30,6 +30,16 @@ $ tox
 
 ## PURLs
 
-See PURL configuration at https://github.com/perma-id/w3id.org/tree/master/biopragmatics
+See PURL configuration at https://github.com/perma-id/w3id.org/tree/master/biopragmatics. 
+This W3ID entry makes ontology artifacts in the "export" folder (https://github.com/biopragmatics/obo-db-ingest/tree/main/export) resolvable.
+Here are a few examples:
 
-Concretely, this W3ID entry makes ontology artifacts in the "export" folder (https://github.com/biopragmatics/obo-db-ingest/tree/main/export) resolvable. For example, https://w3id.org/biopragmatics/resources/interpro/92.0/interpro.obo redirects to https://github.com/biopragmatics/obo-db-ingest/raw/main/export/interpro/92.0/interpro.obo
+| Resource | Version Type | Example PURL                                                                   |
+|----------|--------------|--------------------------------------------------------------------------------|
+| Reactome | Sequential   | https://w3id.org/biopragmatics/resources/reactome/83/reactome.obo              |
+| Interpro | Major/Minor  | https://w3id.org/biopragmatics/resources/interpro/92.0/interpro.obo            |
+| Interpro | Semantic     | https://w3id.org/biopragmatics/resources/drugbank.salt/5.1.9/drugbank.salt.obo |
+| MeSH     | Year         | https://w3id.org/biopragmatics/resources/mesh/2003/mesh.obo.gz                 |
+| UniProt  | Year/Month   | https://w3id.org/biopragmatics/resources/uniprot/2022_05/uniprot.obo.gz        |
+| HGNC     | Date         | https://w3id.org/biopragmatics/resources/hgnc/2023-02-01/hgnc.obo              |
+| CGNC     | unversioned  | https://w3id.org/biopragmatics/resources/cgnc/cgnc.obo                         |
