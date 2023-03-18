@@ -152,6 +152,7 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False) -> dict:
         obo.write_obo(obo_path)
     except Exception as e:
         tqdm.write(click.style(f"[{prefix}] failed to write OBO: {e}", fg="red"))
+        obo_path.unlink()
         return rv
     rv["obo"] = _prepare_art(prefix, obo_path, has_version, ".obo.gz")
 
