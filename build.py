@@ -7,6 +7,7 @@ This script requires ``pip install pyobo``.
 
 import gzip
 import os
+import shutil
 from pathlib import Path
 from typing import Optional
 
@@ -60,9 +61,9 @@ PREFIXES = [
     "swisslipid",
 ]
 
-for prefix in PREFIXES:
-    if prefix != bioregistry.normalize_prefix(prefix):
-        raise ValueError(f"invalid prefix: {prefix}")
+for _prefix in PREFIXES:
+    if _prefix != bioregistry.normalize_prefix(_prefix):
+        raise ValueError(f"invalid prefix: {_prefix}")
 
 NO_FORCE = {"drugbank", "drugbank.salt"}
 GZIP_OBO = {"mgi", "uniprot", "swisslipids", "reactome", "pathbank", "mesh"}
@@ -76,13 +77,68 @@ def _gzip(path: Path, suffix: str):
     return output_path
 
 
+def _prepare_art(prefix: str, path: Path, has_version: bool, suffix: str):
+    gzipped = os.path.getsize(path) > MAX_SIZE
+    if gzipped:
+        output_path = _gzip(path, suffix)
+    else:
+        output_path = path
+
+    if has_version:
+        unversioned_path = EXPORT.joinpath(prefix, output_path.name)
+        unversioned_relative = unversioned_path.relative_to(EXPORT)
+        shutil.copy(output_path, unversioned_path)
+
+        version_relative = output_path.relative_to(EXPORT)
+        versioned_iri = f"{BASE_PURL}/{version_relative}"
+    else:
+        unversioned_path = output_path
+        unversioned_relative = unversioned_path.relative_to(EXPORT)
+
+        version_relative = None
+        versioned_iri = None
+
+    rv = {
+        "gzipped": gzipped,
+        "iri": f"{BASE_PURL}/{unversioned_relative}",
+        "path": unversioned_relative.as_posix(),
+    }
+    if versioned_iri:
+        rv.update(
+            version_iri=versioned_iri,
+            version_path=version_relative.as_posix(),
+        )
+    return rv
+
+
+def _get_summary(obo: Obo) -> dict:
+    terms = [t for t in obo if t.prefix == obo.ontology]
+    rv = {
+        "terms": sum(term.prefix == obo.ontology for term in obo),
+        "relations": sum(
+            len(values) for term in terms for values in term.relationships.values()
+        ),
+        "properties": sum(
+            len(values) for term in terms for values in term.properties.values()
+        ),
+        "synonyms": sum(len(term.synonyms) for term in terms),
+        "xrefs": sum(len(term.xrefs) for term in terms),
+        "alts": sum(len(term.alt_ids) for term in terms),
+        "parents": sum(len(term.parents) for term in terms),
+        "references": sum(len(term.provenance) for term in terms),
+        "definitions": sum(term.definition is not None for term in terms),
+        "version": obo.data_version,
+    }
+    return rv
+
+
 def _make(prefix: str, module: type[Obo], do_convert: bool = False) -> dict:
     rv = {}
-
     obo = module(force=prefix not in NO_FORCE)
 
     directory = EXPORT.joinpath(prefix)
-    if obo.data_version:
+    has_version = bool(obo.data_version)
+    if has_version:
         directory = directory.joinpath(obo.data_version)
     else:
         tqdm.write(click.style(f"[{prefix}] has no version info", fg="red"))
@@ -97,19 +153,9 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False) -> dict:
     except Exception as e:
         tqdm.write(click.style(f"[{prefix}] failed to write OBO: {e}", fg="red"))
         return rv
-    if os.path.getsize(obo_path) > MAX_SIZE:
-        output_path = _gzip(obo_path, ".obo.gz")
-        rv["obo"] = {
-            "path": output_path.relative_to(EXPORT).as_posix(),
-            "gzipped": True,
-            "link": f"{BASE_PURL}/{output_path.relative_to(EXPORT)}",
-        }
-    else:
-        rv["obo"] = {
-            "path": obo_path.relative_to(EXPORT).as_posix(),
-            "gzipped": False,
-            "link": f"{BASE_PURL}/{obo_path.relative_to(EXPORT)}",
-        }
+    rv["obo"] = _prepare_art(prefix, obo_path, has_version, ".obo.gz")
+
+    rv["summary"] = _get_summary(obo)
 
     with names_path.open("w") as file:
         print(
@@ -138,19 +184,7 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False) -> dict:
                 sep="\t",
                 file=file,
             )
-    if os.path.getsize(names_path) > MAX_SIZE:
-        names_gzip_path = _gzip(names_path, ".tsv.gz")
-        rv["nodes"] = {
-            "path": names_gzip_path.relative_to(EXPORT).as_posix(),
-            "gzipped": True,
-            "link": f"{BASE_PURL}/{names_gzip_path.relative_to(EXPORT)}",
-        }
-    else:
-        rv["nodes"] = {
-            "path": names_path.relative_to(EXPORT).as_posix(),
-            "gzipped": False,
-            "link": f"{BASE_PURL}/{names_path.relative_to(EXPORT)}",
-        }
+    rv["nodes"] = _prepare_art(prefix, names_path, has_version, ".tsv.gz")
 
     if not do_convert:
         return rv
@@ -158,7 +192,9 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False) -> dict:
     try:
         tqdm.write(f"[{prefix}] converting to OBO Graph JSON")
         convert_to_obograph(input_path=obo_path, json_path=obo_graph_json_path)
-        _gzip(obo_graph_json_path, ".json.gz")
+        rv["obograph"] = _prepare_art(
+            prefix, obo_graph_json_path, has_version, ".json.gz"
+        )
     except Exception:
         tqdm.write(
             click.style(f"[{prefix}] ROBOT failed to convert to OBO Graph", fg="red")
@@ -169,7 +205,7 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False) -> dict:
     try:
         tqdm.write(f"[{prefix}] converting to OWL")
         convert(obo_path, owl_path)
-        _gzip(owl_path, ".owl.gz")
+        rv["owl"] = _prepare_art(prefix, obo_graph_json_path, has_version, ".owl.gz")
     except Exception:
         tqdm.write(click.style(f"[{prefix}] ROBOT failed to convert to OWL", fg="red"))
     else:
