@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:03:2023 11:34
+date: 02:04:2023 01:31
 auto-generated-by: bio2obo:hgnc.genegroup
 synonymtypedef: symbol "symbol"
 ontology: hgnc.genegroup
@@ -7472,7 +7472,7 @@ id: hgnc.genegroup:2199
 name: Solute carrier family 49
 is_a: hgnc.genegroup:752 ! Solute carrier families
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
-synonym: "SLC49" EXACT symbol []
+synonym: "SLC49, FLVCR" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:220
@@ -7511,45 +7511,45 @@ synonym: "SLC53" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:2204
-name: Mitochondrial pyruvate carrier family
+name: Solute carrier family 54\, mitochondrial pyruvate carriers
 is_a: hgnc.genegroup:752 ! Solute carrier families
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
-synonym: "MPC" EXACT symbol []
+synonym: "SLC54, MPC" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:2205
-name: LETM1 domain containing
+name: Solute carrier family 55\, LETM mitochondrial cation/proton exchangers
 is_a: hgnc.genegroup:752 ! Solute carrier families
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
-synonym: "LETM" EXACT symbol []
+synonym: "SLC55, LETM" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:2206
-name: NIPA magnesium transporter family
+name: Solute carrier family 57\, NIPA-like magnesium transporters
 is_a: hgnc.genegroup:752 ! Solute carrier families
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
-synonym: "NIPA" EXACT symbol []
+synonym: "SLC57, NIPA" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:2207
-name: Magnesium transporter 1 family
+name: Solute carrier family 58
 is_a: hgnc.genegroup:752 ! Solute carrier families
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
-synonym: "MAGT" EXACT symbol []
+synonym: "SLC58" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:2208
-name: Major facilitator superfamily domain containing 2 family
+name: Solute carrier family 59
 is_a: hgnc.genegroup:752 ! Solute carrier families
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
-synonym: "MFSD2" EXACT symbol []
+synonym: "SLC59, MFSD2" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:2209
-name: Major facilitator superfamily domain containing 4 family
+name: Solute carrier family 60
 is_a: hgnc.genegroup:752 ! Solute carrier families
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
-synonym: "MFSD4" EXACT symbol []
+synonym: "SLC60, MFSD4" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:221
@@ -7561,38 +7561,38 @@ synonym: "AGTR" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:2210
-name: Major facilitator superfamily domain containing 5 family
+name: Solute carrier family 61
 is_a: hgnc.genegroup:752 ! Solute carrier families
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
-synonym: "MFSD5" EXACT symbol []
+synonym: "SLC561, MFSD5" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:2211
-name: ANKH inorganic pyrophosphate transport regulator family
+name: Solute carrier family 62
 is_a: hgnc.genegroup:752 ! Solute carrier families
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
-synonym: "ANKH" EXACT symbol []
+synonym: "SLC62, ANKH" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:2212
-name: SPNS lysolipid transporter family
+name: Solute carrier family 63\, sphingosine phosphate transporters
 is_a: hgnc.genegroup:752 ! Solute carrier families
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
-synonym: "SPNS" EXACT symbol []
+synonym: "SLC63, SPNS" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:2213
-name: Transmembrane protein 165 family
+name: Solute carrier family 64
 is_a: hgnc.genegroup:752 ! Solute carrier families
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
-synonym: "TMEM165" EXACT symbol []
+synonym: "SLC64, TMEM165" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:2214
-name: NPC1 intracellular cholesterol transporter family
+name: Solute carrier family 65\, NPC-type cholesterol transporters
 is_a: hgnc.genegroup:752 ! Solute carrier families
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
-synonym: "NPC1" EXACT symbol []
+synonym: "SLC65, NPC1" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:2215
@@ -10839,10 +10839,10 @@ synonym: "SIGLECs" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:746
-name: Sideroflexin family
+name: Solute carrier family 56\, sideroflexins
 is_a: hgnc.genegroup:752 ! Solute carrier families
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
-synonym: "SFXN" EXACT symbol []
+synonym: "SLC56, SFXN" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:747
@@ -10882,7 +10882,7 @@ synonym: "SGSM" EXACT symbol []
 [Term]
 id: hgnc.genegroup:752
 name: Solute carrier families
-def: "The solute carrier \(SLC\) group of membrane transport proteins include over 300 members organized into over 60 families. Most members of the SLC group are located in the cell membrane." [pubmed:14624363, pubmed:23506860, pubmed:35901096]
+def: "The solute carrier \(SLC\) group of membrane transport proteins include over 400 members organized into 66 families. Most members of the SLC group are located in the cell membrane." [pubmed:14624363, pubmed:23506860, pubmed:35901096]
 is_a: SO:0005855 ! gene_group
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "SLC" EXACT symbol []
