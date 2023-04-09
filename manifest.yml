@@ -14,7 +14,7 @@ cgnc:
     properties: 0
     references: 0
     relations: 25916
-    synonyms: 27013
+    synonyms: 27012
     terms: 25916
     version: null
     xrefs: 41154
@@ -105,7 +105,7 @@ eccode:
     parents: 7123
     properties: 0
     references: 0
-    relations: 256654
+    relations: 256661
     synonyms: 10400
     terms: 7130
     version: '2023-02-22'
@@ -202,7 +202,30 @@ interpro:
     terms: 38623
     version: '93.0'
     xrefs: 0
-kegg.genome: {}
+kegg.genome:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/kegg.genome/kegg.genome.tsv
+    path: kegg.genome/kegg.genome.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/kegg.genome/106.0/kegg.genome.tsv
+    version_path: kegg.genome/106.0/kegg.genome.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/kegg.genome/kegg.genome.obo
+    path: kegg.genome/kegg.genome.obo
+    version_iri: https://w3id.org/biopragmatics/resources/kegg.genome/106.0/kegg.genome.obo
+    version_path: kegg.genome/106.0/kegg.genome.obo
+  summary:
+    alts: 0
+    definitions: 0
+    parents: 0
+    properties: 0
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 21231
+    version: '106.0'
+    xrefs: 0
 mesh:
   nodes:
     gzipped: false
@@ -218,13 +241,13 @@ mesh:
     version_path: mesh/2023/mesh.obo
   summary:
     alts: 0
-    definitions: 352664
+    definitions: 352669
     parents: 41487
     properties: 0
     references: 0
     relations: 0
-    synonyms: 628217
-    terms: 352664
+    synonyms: 628247
+    terms: 352669
     version: '2023'
     xrefs: 0
 mgi:
@@ -238,13 +261,13 @@ mgi:
     path: mgi/mgi.obo.gz
   summary:
     alts: 0
-    definitions: 676222
+    definitions: 676251
     parents: 0
     properties: 0
     references: 0
-    relations: 888579
-    synonyms: 256834
-    terms: 676222
+    relations: 888608
+    synonyms: 256859
+    terms: 676251
     version: null
     xrefs: 127983
 mirbase:
@@ -398,49 +421,26 @@ reactome:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/reactome/reactome.tsv
     path: reactome/reactome.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/reactome/83/reactome.tsv
-    version_path: reactome/83/reactome.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/reactome/84/reactome.tsv
+    version_path: reactome/84/reactome.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/reactome/reactome.obo
     path: reactome/reactome.obo
-    version_iri: https://w3id.org/biopragmatics/resources/reactome/83/reactome.obo
-    version_path: reactome/83/reactome.obo
+    version_iri: https://w3id.org/biopragmatics/resources/reactome/84/reactome.obo
+    version_path: reactome/84/reactome.obo
   summary:
     alts: 0
     definitions: 0
-    parents: 22168
+    parents: 22191
     properties: 0
     references: 0
-    relations: 1200251
+    relations: 1200504
     synonyms: 0
-    terms: 22040
-    version: '83'
+    terms: 22063
+    version: '84'
     xrefs: 0
-rgd:
-  nodes:
-    gzipped: false
-    iri: https://w3id.org/biopragmatics/resources/rgd/rgd.tsv
-    path: rgd/rgd.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/rgd/2023-03-24/rgd.tsv
-    version_path: rgd/2023-03-24/rgd.tsv
-  obo:
-    gzipped: false
-    iri: https://w3id.org/biopragmatics/resources/rgd/rgd.obo
-    path: rgd/rgd.obo
-    version_iri: https://w3id.org/biopragmatics/resources/rgd/2023-03-24/rgd.obo
-    version_path: rgd/2023-03-24/rgd.obo
-  summary:
-    alts: 0
-    definitions: 56341
-    parents: 0
-    properties: 0
-    references: 119892
-    relations: 123187
-    synonyms: 136459
-    terms: 66769
-    version: '2023-03-24'
-    xrefs: 96871
+rgd: {}
 rhea: {}
 sgd:
   nodes:
@@ -471,14 +471,14 @@ swisslipid:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/swisslipid/swisslipid.tsv.gz
     path: swisslipid/swisslipid.tsv.gz
-    version_iri: https://w3id.org/biopragmatics/resources/swisslipid/2023-04-02/swisslipid.tsv.gz
-    version_path: swisslipid/2023-04-02/swisslipid.tsv.gz
+    version_iri: https://w3id.org/biopragmatics/resources/swisslipid/2023-04-09/swisslipid.tsv.gz
+    version_path: swisslipid/2023-04-09/swisslipid.tsv.gz
   obo:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/swisslipid/swisslipid.obo.gz
     path: swisslipid/swisslipid.obo.gz
-    version_iri: https://w3id.org/biopragmatics/resources/swisslipid/2023-04-02/swisslipid.obo.gz
-    version_path: swisslipid/2023-04-02/swisslipid.obo.gz
+    version_iri: https://w3id.org/biopragmatics/resources/swisslipid/2023-04-09/swisslipid.obo.gz
+    version_path: swisslipid/2023-04-09/swisslipid.obo.gz
   summary:
     alts: 0
     definitions: 0
@@ -488,7 +488,7 @@ swisslipid:
     relations: 0
     synonyms: 1344722
     terms: 779249
-    version: '2023-04-02'
+    version: '2023-04-09'
     xrefs: 42419
 uniprot:
   nodes:
@@ -508,12 +508,12 @@ uniprot:
     definitions: 0
     parents: 0
     properties: 0
-    references: 0
-    relations: 568744
+    references: 1107547
+    relations: 843555
     synonyms: 0
-    terms: 568744
+    terms: 569213
     version: '2023_01'
-    xrefs: 0
+    xrefs: 256659
 wikipathways:
   nodes:
     gzipped: false
@@ -543,22 +543,22 @@ zfin:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/zfin/zfin.tsv
     path: zfin/zfin.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/zfin/2023-03-31/zfin.tsv
-    version_path: zfin/2023-03-31/zfin.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/zfin/2023-04-07/zfin.tsv
+    version_path: zfin/2023-04-07/zfin.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/zfin/zfin.obo
     path: zfin/zfin.obo
-    version_iri: https://w3id.org/biopragmatics/resources/zfin/2023-03-31/zfin.obo
-    version_path: zfin/2023-03-31/zfin.obo
+    version_iri: https://w3id.org/biopragmatics/resources/zfin/2023-04-07/zfin.obo
+    version_path: zfin/2023-04-07/zfin.obo
   summary:
     alts: 27832
-    definitions: 32583
-    parents: 177038
+    definitions: 32595
+    parents: 177074
     properties: 0
     references: 0
-    relations: 266132
+    relations: 266174
     synonyms: 0
-    terms: 177038
-    version: '2023-03-31'
+    terms: 177074
+    version: '2023-04-07'
     xrefs: 23316
