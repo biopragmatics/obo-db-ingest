@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:04:2023 01:23
+date: 16:04:2023 01:27
 auto-generated-by: bio2obo:hgnc.genegroup
 synonymtypedef: symbol "symbol"
 ontology: hgnc.genegroup
@@ -3824,7 +3824,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: hgnc.genegroup:1627
 name: Axonemal dynein assembly factors
-def: "This comprises a group of genes encoding cytoplasmic factors that are involved in axonemal dynein pre-assembly." [pubmed:31817850]
+def: "This comprises a group of genes encoding cytoplasmic factors that are involved in axonemal dynein pre-assembly." [pubmed:31817850, pubmed:35006274]
 is_a: SO:0005855 ! gene_group
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "DNAAF" EXACT symbol []
@@ -6351,7 +6351,7 @@ synonym: "HACD" EXACT symbol []
 [Term]
 id: hgnc.genegroup:2028
 name: Dynein 1 complex subunits
-def: "Cytoplasmic dynein-1 is a major microtubule-based motor critical for cell division. Dynein is essential for the formation and positioning of the mitotic spindle as well as the transport of various cargos in the cell." [pubmed:32083077]
+def: "Cytoplasmic dynein-1 is a major microtubule-based motor critical for cell division. Dynein is essential for the formation and positioning of the mitotic spindle as well as the transport of various cargos in the cell." [pubmed:32083077, pubmed:35006274]
 is_a: hgnc.genegroup:538 ! Dyneins, cytoplasmic
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "DYNC1" EXACT symbol []
@@ -6359,7 +6359,7 @@ synonym: "DYNC1" EXACT symbol []
 [Term]
 id: hgnc.genegroup:2029
 name: Dynein 2 complex subunits
-def: "The motor protein that powers the movement of the particles from the tip of the flagellum to the base \(retrograde IFT\) is called cytoplasmic dynein 1b in Chlamydomonas and cytoplasmic dynein 2 in vertebrates." [pubmed:32229580, pubmed:25725253, pubmed:31451806]
+def: "The motor protein that powers the movement of the particles from the tip of the flagellum to the base \(retrograde IFT\) is called cytoplasmic dynein 1b in Chlamydomonas and cytoplasmic dynein 2 in vertebrates." [pubmed:32229580, pubmed:25725253, pubmed:31451806, pubmed:35006274]
 is_a: hgnc.genegroup:538 ! Dyneins, cytoplasmic
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "DYNC2" EXACT symbol []
@@ -9413,7 +9413,7 @@ synonym: "POL" EXACT symbol []
 [Term]
 id: hgnc.genegroup:536
 name: Dyneins\, axonemal
-def: "Axonemal dyneins come in multiple forms that contain either one\, two or three non-identical heavy chains \(depending upon the organism and location in the cilium\). Each heavy chain has a globular motor domain with a doughnut-shaped structure believed to resemble that of other AAA proteins\, a coiled coil 'stalk' that binds to the microtubule\, and an extended tail \(or 'stem'\) that attaches to a neighboring microtubule of the same axoneme. Each dynein molecule thus forms a cross-bridge between two adjacent microtubules of the ciliary axoneme." []
+def: "Axonemal dyneins come in multiple forms that contain either one\, two or three non-identical heavy chains \(depending upon the organism and location in the cilium\). Each heavy chain has a globular motor domain with a doughnut-shaped structure believed to resemble that of other AAA proteins\, a coiled coil 'stalk' that binds to the microtubule\, and an extended tail \(or 'stem'\) that attaches to a neighboring microtubule of the same axoneme. Each dynein molecule thus forms a cross-bridge between two adjacent microtubules of the ciliary axoneme." [pubmed:35006274]
 is_a: hgnc.genegroup:537 ! Dyneins
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "DNA" EXACT symbol []
@@ -9421,14 +9421,14 @@ synonym: "DNA" EXACT symbol []
 [Term]
 id: hgnc.genegroup:537
 name: Dyneins
-def: "Dynein is a motor protein \(also called molecular motor or motor molecule\) in cells which converts the chemical energy contained in ATP into the mechanical energy of movement. Dynein transports various cellular cargo by 'walking' along cytoskeletal microtubules towards the minus-end of the microtubule\, which is usually oriented towards the cell center. Thus\, they are called 'minus-end directed motors.' This form of transport is known as retrograde transport. In contrast\, kinesins\, which are motor proteins that move toward the microtubules' plus end\, are called plus-end directed motors." []
+def: "Dynein is a motor protein \(also called molecular motor or motor molecule\) in cells which converts the chemical energy contained in ATP into the mechanical energy of movement. Dynein transports various cellular cargo by 'walking' along cytoskeletal microtubules towards the minus-end of the microtubule\, which is usually oriented towards the cell center. Thus\, they are called 'minus-end directed motors.' This form of transport is known as retrograde transport. In contrast\, kinesins\, which are motor proteins that move toward the microtubules' plus end\, are called plus-end directed motors." [pubmed:35006274]
 is_a: SO:0005855 ! gene_group
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: hgnc.genegroup:538
 name: Dyneins\, cytoplasmic
-def: "Cytoplasmic dynein\, which has a molecular mass of about 1.5 megadaltons \(MDa\)\, contains approximately twelve polypeptide subunits\: two identical 'heavy chains'\, 520 kDa in mass\, which contain the ATPase activity and are thus responsible for generating movement along the microtubule; two 74 kDa intermediate chains which are believed to anchor the dynein to its cargo; four 53–59 kDa intermediate chains; and several light chains which are less understood." [pubmed:16260502, pubmed:16440056, pubmed:30065109]
+def: "Cytoplasmic dynein\, which has a molecular mass of about 1.5 megadaltons \(MDa\)\, contains approximately twelve polypeptide subunits\: two identical 'heavy chains'\, 520 kDa in mass\, which contain the ATPase activity and are thus responsible for generating movement along the microtubule; two 74 kDa intermediate chains which are believed to anchor the dynein to its cargo; four 53–59 kDa intermediate chains; and several light chains which are less understood." [pubmed:16260502, pubmed:16440056, pubmed:30065109, pubmed:35006274]
 is_a: hgnc.genegroup:537 ! Dyneins
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "DYN" EXACT symbol []
