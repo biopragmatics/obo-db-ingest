@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:04:2023 01:27
+date: 23:04:2023 01:33
 auto-generated-by: bio2obo:hgnc.genegroup
 synonymtypedef: symbol "symbol"
 ontology: hgnc.genegroup
@@ -5848,7 +5848,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: hgnc.genegroup:1935
 name: H1 histones
-def: "Histone H1 is one of the five main histone protein families which are components of chromatin in eukaryotic cells. Though highly conserved\, it is nevertheless the most variable histone in sequence across species." []
+def: "Histone H1 is one of the five main histone protein families which are components of chromatin in eukaryotic cells. Though highly conserved\, it is nevertheless the most variable histone in sequence across species." [pubmed:36180920]
 is_a: hgnc.genegroup:864 ! Histones
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "H1" EXACT symbol []
@@ -5856,7 +5856,7 @@ synonym: "H1" EXACT symbol []
 [Term]
 id: hgnc.genegroup:1936
 name: H2A histones
-def: "Histone H2A is one of the five main histone proteins involved in the structure of chromatin in eukaryotic cells." []
+def: "Histone H2A is one of the five main histone proteins involved in the structure of chromatin in eukaryotic cells." [pubmed:36180920]
 is_a: hgnc.genegroup:864 ! Histones
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "H2A" EXACT symbol []
@@ -5864,7 +5864,7 @@ synonym: "H2A" EXACT symbol []
 [Term]
 id: hgnc.genegroup:1937
 name: H2B histones
-def: "Histone H2B is one of the 4 main histone proteins involved in the structure of chromatin in  eukaryotic cells. Featuring a main globular domain and long N-terminal and C-terminal tails\, H2B is involved with the structure of the nucleosomes." []
+def: "Histone H2B is one of the 4 main histone proteins involved in the structure of chromatin in  eukaryotic cells. Featuring a main globular domain and long N-terminal and C-terminal tails\, H2B is involved with the structure of the nucleosomes." [pubmed:36180920]
 is_a: hgnc.genegroup:864 ! Histones
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "H2B" EXACT symbol []
@@ -5872,7 +5872,7 @@ synonym: "H2B" EXACT symbol []
 [Term]
 id: hgnc.genegroup:1938
 name: H3 histones
-def: "Histone H3 is one of the five main histone proteins involved in the structure of chromatin in  eukaryotic cells. Featuring a main globular domain and a long N-terminal tail\, H3 is involved with the structure of the nucleosomes of the 'beads on a string' structure. Histone proteins are highly post-translationally modified however Histone H3 is the most extensively modified of the five histones. The term 'Histone H3' alone is purposely ambiguous in that it does not distinguish between sequence variants or modification state. Histone H3 is an important protein in the emerging field of epigenetics\, where its sequence variants and variable modification states are thought to play a role in the dynamic and long term regulation of genes." []
+def: "Histone H3 is one of the five main histone proteins involved in the structure of chromatin in  eukaryotic cells. Featuring a main globular domain and a long N-terminal tail\, H3 is involved with the structure of the nucleosomes of the 'beads on a string' structure. Histone proteins are highly post-translationally modified however Histone H3 is the most extensively modified of the five histones. The term 'Histone H3' alone is purposely ambiguous in that it does not distinguish between sequence variants or modification state. Histone H3 is an important protein in the emerging field of epigenetics\, where its sequence variants and variable modification states are thought to play a role in the dynamic and long term regulation of genes." [pubmed:36180920]
 is_a: hgnc.genegroup:864 ! Histones
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "H3" EXACT symbol []
@@ -5880,7 +5880,7 @@ synonym: "H3" EXACT symbol []
 [Term]
 id: hgnc.genegroup:1939
 name: H4 histones
-def: "Histone H4 is one of the five main histone proteins involved in the structure of chromatin in eukaryotic cells. Featuring a main globular domain and a long N-terminal tail\, H4 is involved with the structure of the nucleosome of the 'beads on a string' organization. Histone proteins are highly post-translationally modified. Covalently bonded modifications include acetylation and methylation of the N-terminal tails. These modifications may alter expression of genes located on DNA associated with its parent histone octamer. Histone H4 is an important protein in the structure and function of chromatin\, where its sequence variants and variable modification states are thought to play a role in the dynamic and long term regulation of genes." []
+def: "Histone H4 is one of the five main histone proteins involved in the structure of chromatin in eukaryotic cells. Featuring a main globular domain and a long N-terminal tail\, H4 is involved with the structure of the nucleosome of the 'beads on a string' organization. Histone proteins are highly post-translationally modified. Covalently bonded modifications include acetylation and methylation of the N-terminal tails. These modifications may alter expression of genes located on DNA associated with its parent histone octamer. Histone H4 is an important protein in the structure and function of chromatin\, where its sequence variants and variable modification states are thought to play a role in the dynamic and long term regulation of genes." [pubmed:36180920]
 is_a: hgnc.genegroup:864 ! Histones
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "H4" EXACT symbol []
@@ -7682,6 +7682,20 @@ name: Isthmin family
 is_a: SO:0005855 ! gene_group
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 synonym: "ISM" EXACT symbol []
+
+[Term]
+id: hgnc.genegroup:2234
+name: Methionine adenosyltransferase family
+is_a: SO:0005855 ! gene_group
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+synonym: "MAT" EXACT symbol []
+
+[Term]
+id: hgnc.genegroup:2239
+name: STAG family cohesin complex components
+is_a: SO:0005855 ! gene_group
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+synonym: "STAG" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:224
@@ -9999,7 +10013,7 @@ synonym: "KANK" EXACT symbol []
 
 [Term]
 id: hgnc.genegroup:624
-name: Kruppel like factors
+name: KLF transcription factors
 def: "The Kruppel-like family of transcription factors \(KLFs\) are a set of zinc finger DNA-binding proteins that regulate gene expression." [pubmed:15820306]
 is_a: SO:0005855 ! gene_group
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
@@ -11516,7 +11530,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: hgnc.genegroup:864
 name: Histones
-def: "In biology\, histones are highly alkaline proteins found in eukaryotic cell nuclei that package and order the DNA into structural units called nucleosomes.   They are the chief protein components of chromatin\, acting as spools around which DNA winds\, and play a role in gene regulation. Without histones\, the unwound DNA in chromosomes would be very long \(a length to width ratio of more than 10 million to 1 in human DNA\). For example\, each human cell has about 1.8 meters of DNA\, \(~6 ft\) but wound on the histones it has about 90 micrometers \(0.09�mm\) of chromatin\, which\, when duplicated and condensed during mitosis\, result in about 120 micrometers of chromosomes. " []
+def: "In biology\, histones are highly alkaline proteins found in eukaryotic cell nuclei that package and order the DNA into structural units called nucleosomes.   They are the chief protein components of chromatin\, acting as spools around which DNA winds\, and play a role in gene regulation. Without histones\, the unwound DNA in chromosomes would be very long \(a length to width ratio of more than 10 million to 1 in human DNA\). For example\, each human cell has about 1.8 meters of DNA\, \(~6 ft\) but wound on the histones it has about 90 micrometers \(0.09�mm\) of chromatin\, which\, when duplicated and condensed during mitosis\, result in about 120 micrometers of chromosomes. " [pubmed:36180920]
 is_a: SO:0005855 ! gene_group
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
