@@ -58,7 +58,7 @@ PREFIXES = [
     "pfam.clan",
     "npass",
     "kegg.genome",
-    "swisslipid",
+    "slm",
 ]
 
 for _prefix in PREFIXES:
