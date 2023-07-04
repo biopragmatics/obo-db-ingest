@@ -66,7 +66,7 @@ for _prefix in PREFIXES:
         raise ValueError(f"invalid prefix: {_prefix}")
 
 NO_FORCE = {"drugbank", "drugbank.salt"}
-GZIP_OBO = {"mgi", "uniprot", "swisslipids", "reactome", "pathbank", "mesh"}
+GZIP_OBO = {"mgi", "uniprot", "slm", "reactome", "pathbank", "mesh"}
 
 
 def _gzip(path: Path, suffix: str):
