@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 04:07:2023 16:24
+date: 09:07:2023 01:58
 auto-generated-by: bio2obo:pombase
 data-version: 2023-07-01
 ontology: pombase
@@ -48433,7 +48433,8 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC18B5.09c
-def: "Schizosaccharomyces specific protein" []
+name: thc1
+def: "telomerase holoenzyme complex subunit Thc1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9USL2 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -85095,7 +85096,8 @@ synonym: "prl63" EXACT oboinowl:SynonymType []
 
 [Term]
 id: pombase:SPNCRNA.530
-def: "small non-coding RNA\, quiescence specific" []
+name: sno530
+def: "small nucleolar RNA sno530" []
 is_a: so:0002342 ! sncRNA_gene
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "1" xsd:string

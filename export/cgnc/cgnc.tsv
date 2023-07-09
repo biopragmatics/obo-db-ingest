@@ -444,7 +444,6 @@ identifier	name	definition	synonyms	alts	parents	species
 107049110	CHIR6AB2		cluster homolog of immunoglobulin like receptor 6AB 2			
 107049111	CHIRL13		cluster homolog of immunoglobin like receptor like 13			
 107049112	CHIRL14		cluster homolog of immunoglobin like receptor like 14			
-107049113	ART1F		ADP-ribosyltransferase 1F			
 107049114	ART5		ADP-ribosyltransferase 5			
 107049115	JPH2D		junctophilin 2D			
 107049116	JPH2E		junctophilin 2E			
@@ -456,6 +455,8 @@ identifier	name	definition	synonyms	alts	parents	species
 107049122	H2AC40		H2A clustered histone 40			
 107049123	H2AC35		H2A clustered histone 36|2A-VI|H2A-VI			
 107049124	H2BC33		H2B clustered histone 33|2B-III|H2B-III			
+107049125	ADCY5		adenylate cyclase 5			
+107049126	ZFYVE28B		zinc finger FYVE-type containing 28B			
 10706	PI4K2B		phosphatidylinositol 4-kinase type 2 beta			
 10707	SEPSECS		Sep (O-phosphoserine) tRNA:Sec (selenocysteine) tRNA synthase			
 10708	MRPL10		mitochondrial ribosomal protein L10			
@@ -1129,7 +1130,7 @@ identifier	name	definition	synonyms	alts	parents	species
 11694	SAMSN1		SAM domain, SH3 domain and nuclear localization signals 1			
 11696	UGCG		UDP-glucose ceramide glucosyltransferase			
 117	MCC		mutated in colorectal cancers			
-11700	ZFYVE28		zinc finger FYVE-type containing 28			
+11700	ZFYVE28A		zinc finger FYVE-type containing 28A			
 11702	ECPAS		Ecm29 proteasome adaptor and scaffold			
 11703	HAUS3		HAUS augmin-like complex, subunit 3|C4orf15			
 11704	SMC2		structural maintenance of chromosomes 2			
@@ -5012,7 +5013,7 @@ identifier	name	definition	synonyms	alts	parents	species
 4469	ZNF488		zinc finger protein 488			
 447	PSMD7		proteasome 26S subunit, non-ATPase 7			
 4470	TCEA2		transcription elongation factor A2			
-4472	RBP3		retinol binding protein 3			
+4472	RBP3		retinol binding protein 3|interphotoreceptor retinoid binding protein|IRBP			
 4473	OXSR1		oxidative stress responsive 1|OSR1|serine/threonine-protein kinase OSR1|oxidative-stress responsive 1|oxidative stress-responsive 1 protein			
 4474	PA2G4		proliferation-associated 2G4, 38kDa			
 4475	GDF2		growth differentiation factor 2|dsl-1|dorsalin-1			
@@ -5993,7 +5994,7 @@ identifier	name	definition	synonyms	alts	parents	species
 4968	LRRC75B		leucine rich repeat containing 75B|FAM211B|C22orf36|C15H22orf36|family with sequence similarity 211, member B|leucine-rich repeat-containing protein 75B|leucine-rich repeat-containing protein C22orf36|leucine-rich repeat-containing protein FAM211B			
 49680	HIC1		HIC ZBTB transcriptional repressor 1			
 49681	BMP4		bone morphogenetic protein 4|BMP-4			
-49682	RBP4A		retinol binding protein 4 A, plasma|RBP|PRBP|plasma retinol-binding protein|retinol-binding protein 4|retinol binding protein 4, plasma|RBP4			
+49682	RBP4L		retinol binding protein 4 like|purpurin			
 49683	CCNB3		cyclin B3			
 49684	LRP1		LDL receptor related protein 1			
 49685	GABRE		gamma-aminobutyric acid type A receptor gamma3 subunit			
@@ -6240,7 +6241,7 @@ identifier	name	definition	synonyms	alts	parents	species
 49941	GSTA3		glutathione S-transferase alpha 3			
 49942	KMT2A		lysine methyltransferase 2A			
 49944	CLK3		CDC like kinase 3			
-49945	ACTG1		Actin, gamma 1|actin|cytoplasmic 2|actin|cytoplasmic type 5|actin|cytoplasmic|type 5|actin|gamma 1 propeptide|gamma-actin			
+49945	ACTG1		actin gamma 1|type 5 nonmuscle actin			
 49947	PML		PML nuclear body scaffold			
 49949	ZP3L1		zona pellucida sperm-binding protein 3-like			
 4995	ATP11C		ATPase phospholipid transporting 11C			
@@ -6645,7 +6646,7 @@ identifier	name	definition	synonyms	alts	parents	species
 50461	COL27A1		collagen type XXVII alpha 1 chain			
 50465	NELFB		negative elongation factor complex member B			
 50466	TUBB4B		tubulin beta 4B class IVb			
-50467	DDR1L		discoidin domain receptor tyrosine kinase 1 like			
+50467	DDR2L		discoidin domain receptor tyrosine kinase 2 like			
 50469	RPL12		ribosomal protein L12			
 5047	BEND7		BEN domain containing 7|C10orf30			
 50471	CDC26		cell division cycle 26			
@@ -8043,7 +8044,7 @@ identifier	name	definition	synonyms	alts	parents	species
 52224	PLK3		polo like kinase 3			
 52225	HECTD3L		HECT domain E3 ubiquitin protein ligase 3 like			
 52226	SELENOP2		selenoprotein P2			
-52228	TRABD2A		TraB domain containing 2A|UPF0632 protein A			
+52228	TRABD2B		TraB domain containing 2B			
 52229	EPS15		epidermal growth factor receptor pathway substrate 15			
 5223	POF1B		premature ovarian failure, 1B			
 52230	ZFYVE9		zinc finger FYVE-type containing 9			
@@ -8447,7 +8448,7 @@ identifier	name	definition	synonyms	alts	parents	species
 53036	SYK		spleen associated tyrosine kinase			
 53037	TRIM14		tripartite motif containing 14			
 53038	CLTA		clathrin light chain A			
-53039	TRABD2AL		TraB domain containing 2A like			
+53039	TRABD2A		TraB domain containing 2A			
 53040	MAT2L		methionine adenosyltransferase 2 like			
 53042	SLC44A1		solute carrier family 44 (choline transporter), member 1|CD92|CTL1|CDW92|CHTL1|choline transporter-like protein 1|CDW92 antigen|solute carrier family 44, member 1			
 53043	PLPPR1		phospholipid phosphatase related 1			
@@ -8756,7 +8757,7 @@ identifier	name	definition	synonyms	alts	parents	species
 53491	LOC428851		fatty acid desaturase 1-like			
 53492	CTNND1		catenin delta 1			
 53495	ACP2		acid phosphatase 2, lysosomal|lysosomal acid phosphatase			
-53496	HE2B		hatching enzyme 2B			
+53496	LOC428867		astacin like metalloendopeptidase 2			
 53498	ACOT2		acyl-CoA thioesterase 2			
 53499	PAPLN		papilin, proteoglycan like sulfated glycoprotein			
 53502	CHRM5		cholinergic receptor muscarinic 5			
@@ -10523,7 +10524,7 @@ identifier	name	definition	synonyms	alts	parents	species
 6100	PAK3		p21 (RAC1) activated kinase 3			
 6101	ASCC2		activating signal cointegrator 1 complex subunit 2			
 6102	PRKAR2B		protein kinase cAMP-dependent type II regulatory subunit beta			
-6103	HE2A		hatching enzyme 2A			
+6103	LOC423176		astacin like metalloendopeptidase 1			
 6104	NOX5		NADPH oxidase 5			
 6105	CFAP36		cilia and flagella associated protein 36			
 6108	GLCE		glucuronic acid epimerase			
@@ -11271,6 +11272,7 @@ identifier	name	definition	synonyms	alts	parents	species
 64744	DNAAF8		dynein axonemal assembly factor 8			
 64747	LOC100858332		G-protein coupled receptor 12-like			
 6475	KLHDC3		kelch domain containing 3			
+64751	RAB11AL		RAB11A like member RAS oncogene family			
 64753	FAM163B		family with sequence similarity 163 member B			
 64757	LOC100858322		uncharacterized LOC100858322			
 64759	EYS		eyes shut homolog			
@@ -13994,7 +13996,7 @@ identifier	name	definition	synonyms	alts	parents	species
 71988	RN7SL1		RNA, 7SL, cytoplasmic 1			
 71989	EGR3		early growth response 3			
 71990	SIRT7		sirtuin 7			
-71991	OTX5		orthodenticle-related homeobox 5			
+71991	CRX		cone-rod homeobox|OTX5			
 71992	MIR7458-2		microRNA 7458-2			
 71993	MIR7480-3		microRNA 7480-3			
 71994	MIR7482-3		microRNA 7482-3			
@@ -14321,7 +14323,6 @@ identifier	name	definition	synonyms	alts	parents	species
 73039	LOC107050024		outer dense fiber protein 3-like			
 7304	RARRES1		retinoic acid receptor responder 1			
 73040	LOC107050025		outer dense fiber protein 3-like			
-73043	LOC107050028		adenylate cyclase type 6-like			
 73044	LOC107050029		serine/arginine repetitive matrix protein 1-like			
 7305	TWF1		twinfilin actin binding protein 1			
 73051	LOC107050036		uncharacterized LOC107050036			
@@ -14376,7 +14377,7 @@ identifier	name	definition	synonyms	alts	parents	species
 7332	GFM1		G elongation factor mitochondrial 1			
 7333	EMC7		ER membrane protein complex subunit 7|HT022|C11orf3|C15orf24|ORF1-FL1|UPF0480 protein C15orf24|chromosome 15 hypothetical ATG/GTP binding protein			
 7334	ANO6		anoctamin 6			
-73342	ATP5SL		ATP5S like			
+73342	DMAC2		distal membrane arm assembly component 2			
 73343	LOC107050328		uncharacterized LOC107050328			
 73349	LOC107050335		microtubule-associated serine/threonine-protein kinase 1-like			
 73350	LOC107050336		uncharacterized LOC107050336			
@@ -17117,7 +17118,6 @@ identifier	name	definition	synonyms	alts	parents	species
 84665	OR14J1L112		olfactory receptor 14J1-like 112			
 84666	LOC101750770		uncharacterized LOC101750770			
 84667	LOC101750975		uncharacterized LOC101750975			
-84668	LOC101751218		MAX dimerization protein 3			
 84669	SEC14L3		SEC14 like lipid binding 3			
 8467	PLA2R1		phospholipase A2 receptor 1			
 84671	GIMAP7L5		GTPase IMAP family member 7-like 5			
@@ -25435,7 +25435,7 @@ identifier	name	definition	synonyms	alts	parents	species
 9334	SHPRH		SNF2 histone linker PHD RING helicase			
 9336	POLR2F		RNA polymerase II subunit F			
 93363	LOC395551		chemokine (C-C motif) ligand 4			
-93364	LOC396008		ADP-ribosyltransferase 1			
+93364	ART1F		ADP-ribosyltransferase 1F			
 93367	PNAT10		N-acetyltransferase, pineal gland isozyme NAT-10			
 93370	LOC415756		uncharacterized LOC415756			
 93371	HARS1		histidyl-tRNA synthetase 1			
