@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:07:2023 01:58
+date: 16:07:2023 02:02
 auto-generated-by: bio2obo:pombase
 data-version: 2023-07-01
 ontology: pombase
@@ -445,6 +445,7 @@ name: ank1
 def: "ankyrin repeat protein Ank1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9P7I0 ! has gene product
+relationship: ro:HOM0000017 hgnc:15819 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "1" xsd:string
 
@@ -15457,7 +15458,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC3A12.03c
 name: meu34
-def: "ubiquitin-protein ligase E3 Meu34\, human RNF13 family homolog\, unknown biological role" []
+def: "ubiquitin-protein ligase E3 Meu34\, human RNF13 family homolog" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:P87119 ! has gene product
 relationship: ro:HOM0000017 hgnc:10057 ! in orthology relationship with
@@ -18363,7 +18364,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC57A7.09
-def: "ubiquitin-protein ligase E3\, human RNF13 family homolog\, unknown biological role" []
+def: "ubiquitin-protein ligase E3\, human RNF13 family homolog" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:P87139 ! has gene product
 relationship: ro:HOM0000017 hgnc:10057 ! in orthology relationship with
@@ -27353,14 +27354,14 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC1539.01c
-name: mrp15
+name: mrpl15
 def: "mitochondrial ribosomal protein subunit L57" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9Y7Z7 ! has gene product
 relationship: ro:HOM0000017 hgnc:14514 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "2" xsd:string
-synonym: "mrpl15" EXACT oboinowl:SynonymType []
+synonym: "mrp15" EXACT oboinowl:SynonymType []
 
 [Term]
 id: pombase:SPBC1539.02
@@ -31672,12 +31673,14 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC19F8.05
+name: mrps26
 def: "mitochondrial ribosomal protein subunit S26" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O60169 ! has gene product
 relationship: ro:HOM0000017 hgnc:14045 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "2" xsd:string
+synonym: "pet123" EXACT oboinowl:SynonymType []
 
 [Term]
 id: pombase:SPBC19F8.06c
@@ -31755,7 +31758,7 @@ synonym: "rps30-2" EXACT oboinowl:SynonymType []
 
 [Term]
 id: pombase:SPBC19G7.04
-def: "protein-DNA covalent cross-linking repair" []
+def: "protein-DNA covalent cross-linking repair protein" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O42953 ! has gene product
 relationship: ro:HOM0000017 hgnc:15805 ! in orthology relationship with
@@ -32692,6 +32695,7 @@ name: rec6
 def: "meiotic recombination protein Rec6" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:P40385 ! has gene product
+relationship: ro:HOM0000017 hgnc:26197 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "2" xsd:string
 
@@ -34828,7 +34832,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC2A9.10
 name: bmc1
-def: "Bin3 family\, 7SK RNA methyltransferase Bmc1" []
+def: "Bin3 family\, RNA methyltransferase Bmc1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9Y7L2 ! has gene product
 relationship: ro:HOM0000017 hgnc:20247 ! in orthology relationship with
@@ -55018,7 +55022,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPNCRNA.105
 def: "small non-coding RNA" []
-is_a: so:0001268 ! snRNA_gene
+is_a: so:0001263 ! ncRNA_gene
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "2" xsd:string
 
@@ -59878,7 +59882,7 @@ synonym: "prl3" EXACT oboinowl:SynonymType []
 
 [Term]
 id: pombase:SPNCRNA.1709
-def: "U2 snRNA-specific guide RNA" []
+def: "small nucleolar RNA U2 snRNA-specific guide RNA" []
 is_a: so:0001267 ! snoRNA_gene
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "2" xsd:string
@@ -106552,6 +106556,10 @@ name: gene
 [Term]
 id: so:0001217
 name: protein_coding_gene
+
+[Term]
+id: so:0001263
+name: ncRNA_gene
 
 [Term]
 id: so:0001267
