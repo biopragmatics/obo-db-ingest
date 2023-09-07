@@ -29,6 +29,7 @@ pystow.utils.GLOBAL_PROGRESS_BAR = False
 #: This is the maximum file size (100MB, rounded down to
 #: be conservative) to put on GitHub
 MAX_SIZE = 100_000_000
+RENAMES = {"uniprot": "swissprot"}
 PREFIXES = [
     "eccode",
     "rgd",
@@ -136,17 +137,19 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False) -> dict:
     rv = {}
     obo = module(force=prefix not in NO_FORCE)
 
-    directory = EXPORT.joinpath(prefix)
+    key = RENAMES.get(prefix, prefix)
+    directory = EXPORT.joinpath(key)
     has_version = bool(obo.data_version)
     if has_version:
         directory = directory.joinpath(obo.data_version)
     else:
         tqdm.write(click.style(f"[{prefix}] has no version info", fg="red"))
     directory.mkdir(exist_ok=True, parents=True)
-    obo_path = directory.joinpath(f"{prefix}.obo")
-    names_path = directory.joinpath(f"{prefix}.tsv")
-    obo_graph_json_path = directory.joinpath(f"{prefix}.json")
-    owl_path = directory.joinpath(f"{prefix}.owl")
+    stub = directory.joinpath(key)
+    obo_path = stub.with_suffix(".obo")
+    names_path = stub.with_suffix(f"{key}.tsv")
+    obo_graph_json_path = stub.with_suffix(".json")
+    owl_path = stub.with_suffix(".owl")
 
     try:
         obo.write_obo(obo_path)
