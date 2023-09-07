@@ -1,9 +1,9 @@
 format-version: 1.2
-date: 13:08:2023 01:21
+date: 07:09:2023 10:59
 auto-generated-by: bio2obo:kegg.genome
 data-version: 107.1
 ontology: kegg.genome
-remark: KEGG Genome
+property_value: http://purl.org/dc/elements/1.1/title "KEGG Genome" xsd:string
 
 [Term]
 id: kegg.genome:00
@@ -454,6 +454,10 @@ id: kegg.genome:0046
 name: Ophiovirus freesiae
 
 [Term]
+id: kegg.genome:0049
+name: Apore mammarenavirus
+
+[Term]
 id: kegg.genome:005
 name: Saccharomyces cerevisiae S288c \(budding yeast\)
 
@@ -495,7 +499,7 @@ name: Pseudonaja textilis \(eastern brown snake\)
 
 [Term]
 id: kegg.genome:005
-name: Argentinian mammarenavirus \(Junin virus\)
+name: Junin virus \(Argentinian mammarenavirus\)
 
 [Term]
 id: kegg.genome:005
@@ -1450,6 +1454,10 @@ id: kegg.genome:0156
 name: Bromus-associated circular DNA virus 3
 
 [Term]
+id: kegg.genome:0156
+name: Ambidensovirus Croatia 17_S17
+
+[Term]
 id: kegg.genome:0158
 name: Human feces smacovirus 2
 
@@ -1783,7 +1791,7 @@ name: Faecalibacterium phage FP_oengus
 
 [Term]
 id: kegg.genome:0189
-name: Lena River virus
+name: Bat betaherpesvirus B7D8
 
 [Term]
 id: kegg.genome:0189
@@ -1935,11 +1943,19 @@ name: Ecklonia radiata-associated virus 8
 
 [Term]
 id: kegg.genome:0198
+name: Bemisia tabaci associated virus 1
+
+[Term]
+id: kegg.genome:0198
 name: Erwinia phage vB_EamP-S2
 
 [Term]
 id: kegg.genome:0199
 name: Rhesus macaque simian foamy virus
+
+[Term]
+id: kegg.genome:0199
+name: Bitu mammarenavirus
 
 [Term]
 id: kegg.genome:0199
@@ -2052,6 +2068,10 @@ name: Escherichia phage EP75
 [Term]
 id: kegg.genome:0201
 name: Squirrel monkey simian foamy virus
+
+[Term]
+id: kegg.genome:0201
+name: Blackberry leaf mottle associated virus
 
 [Term]
 id: kegg.genome:0201
@@ -2686,10 +2706,6 @@ id: kegg.genome:0282
 name: Proteus phage PM 75
 
 [Term]
-id: kegg.genome:0282
-name: Staphylococcus phage vB_SepP_BE03
-
-[Term]
 id: kegg.genome:0283
 name: Wilkie partiti-like virus 1
 
@@ -3288,10 +3304,6 @@ name: Blueberry mosaic associated virus
 [Term]
 id: kegg.genome:0332
 name: Tomato leaf curl Laguna betasatellite
-
-[Term]
-id: kegg.genome:0332
-name: Natrinema virus SNJ2
 
 [Term]
 id: kegg.genome:0333
@@ -4299,10 +4311,6 @@ name: European mountain ash ringspot-associated virus
 
 [Term]
 id: kegg.genome:0426
-name: Saint Floris virus
-
-[Term]
-id: kegg.genome:0426
 name: Streptomyces phage Aaronocolus
 
 [Term]
@@ -5186,6 +5194,10 @@ id: kegg.genome:0520
 name: Enterovirus F
 
 [Term]
+id: kegg.genome:0520
+name: Helminthosporium victoriae 145S virus
+
+[Term]
 id: kegg.genome:0521
 name: Enterovirus J
 
@@ -5990,6 +6002,10 @@ id: kegg.genome:0616
 name: Tomato blistering mosaic virus
 
 [Term]
+id: kegg.genome:0616
+name: Gordonia phage EpicDab
+
+[Term]
 id: kegg.genome:0617
 name: Tetraselmis virus 1
 
@@ -6368,10 +6384,6 @@ name: Chilli leaf curl Kanpur virus \[India/Kanpur/2008\]
 [Term]
 id: kegg.genome:0666
 name: Bombyx mori iflavirus
-
-[Term]
-id: kegg.genome:0667
-name: EgAN 1825-61 virus
 
 [Term]
 id: kegg.genome:0668
@@ -7299,7 +7311,7 @@ name: Francisella hispaniensis 3523 \(Francisella cf. tularensis subsp. novicida
 
 [Term]
 id: kegg.genome:078
-name: Ehrlichia sp. HF
+name: Ehrlichia japonica HF
 
 [Term]
 id: kegg.genome:078
@@ -7872,6 +7884,10 @@ name: Mycobacterium phage Jabbawokkie
 [Term]
 id: kegg.genome:0820
 name: Propionibacterium phage PHL132N00
+
+[Term]
+id: kegg.genome:0820
+name: Staphylococcus phage IME1354_01
 
 [Term]
 id: kegg.genome:0821
@@ -8874,8 +8890,24 @@ id: kegg.genome:0912
 name: Marigold mosaic virus
 
 [Term]
+id: kegg.genome:0912
+name: Flen bunya-like virus
+
+[Term]
 id: kegg.genome:0915
 name: Novirhabdovirus hirame
+
+[Term]
+id: kegg.genome:0916
+name: Gymnadenia x densiflora virus 1
+
+[Term]
+id: kegg.genome:0917
+name: Hangzhou frankliniella intonsa rhabdovirus 1
+
+[Term]
+id: kegg.genome:0918
+name: Hartmanivirus BESV-1
 
 [Term]
 id: kegg.genome:092
@@ -8940,6 +8972,10 @@ name: Nesidiocoris tenuis virus
 [Term]
 id: kegg.genome:0922
 name: Enterococcus phage phiSHEF2
+
+[Term]
+id: kegg.genome:0923
+name: Kwanza mammarenavirus
 
 [Term]
 id: kegg.genome:0923
@@ -9702,8 +9738,16 @@ id: kegg.genome:1002
 name: Klebsiella phage Geezett
 
 [Term]
+id: kegg.genome:1005
+name: Staphylococcus phage vB_SepP_BE03
+
+[Term]
 id: kegg.genome:1007
 name: Grapevine red blotch virus
+
+[Term]
+id: kegg.genome:1007
+name: Stenotrophomonas phage vB_SmaM_Ps15
 
 [Term]
 id: kegg.genome:1008
@@ -11499,6 +11543,10 @@ name: Yam asymptomatic virus 1
 
 [Term]
 id: kegg.genome:1210
+name: Musa ornata associated banmivirus
+
+[Term]
+id: kegg.genome:1210
 name: Lactobacillus phage LpeD
 
 [Term]
@@ -11510,8 +11558,16 @@ id: kegg.genome:1211
 name: Gordonia phage Verity
 
 [Term]
+id: kegg.genome:1211
+name: Natrinema virus SNJ2
+
+[Term]
 id: kegg.genome:1212
 name: Rice virus A
+
+[Term]
+id: kegg.genome:1212
+name: Nora virus
 
 [Term]
 id: kegg.genome:1212
@@ -11668,6 +11724,10 @@ name: Escherichia phage vB_EcoM_PhAPEC2
 [Term]
 id: kegg.genome:1224
 name: Pseudomonas phage JD024
+
+[Term]
+id: kegg.genome:1225
+name: Pennisetum alopecuroides mosaic potyvirus
 
 [Term]
 id: kegg.genome:1226
@@ -12095,6 +12155,10 @@ name: Invertebrate iridovirus 22
 
 [Term]
 id: kegg.genome:1279
+name: Rubber tree capillovirus 1
+
+[Term]
+id: kegg.genome:1279
 name: Salmonella phage vB_SenS_AG11
 
 [Term]
@@ -12156,6 +12220,10 @@ name: Penicillium digitatum yadokarivirus 1
 [Term]
 id: kegg.genome:1280
 name: Stenotrophomonas phage IME13
+
+[Term]
+id: kegg.genome:1280
+name: Salmonella phage vB_SalS-LPSTLL
 
 [Term]
 id: kegg.genome:1282
@@ -12422,6 +12490,14 @@ id: kegg.genome:1317
 name: Escherichia phage FV3
 
 [Term]
+id: kegg.genome:1317
+name: Xanthomonas phage phiLf2
+
+[Term]
+id: kegg.genome:1318
+name: Xanthomonas phage XaF13
+
+[Term]
 id: kegg.genome:132
 name: Mycobacterium tuberculosis variant bovis AF2122/97 \(Mycobacterium bovis AF2122/97\)
 
@@ -12620,10 +12696,6 @@ name: Salmonella phage S114
 [Term]
 id: kegg.genome:1344
 name: Mycobacterium phage Kumao
-
-[Term]
-id: kegg.genome:1344
-name: Xanthomonas phage phiLf2
 
 [Term]
 id: kegg.genome:1345
@@ -15898,10 +15970,6 @@ id: kegg.genome:1657
 name: Murid betaherpesvirus 8
 
 [Term]
-id: kegg.genome:1657
-name: Stenotrophomonas phage vB_SmaM_Ps15
-
-[Term]
 id: kegg.genome:1658
 name: Puccinia striiformis mitovirus 1
 
@@ -18176,10 +18244,6 @@ name: Carrot yellow leaf virus
 [Term]
 id: kegg.genome:190
 name: Tomato golden vein virus
-
-[Term]
-id: kegg.genome:1901
-name: Psittacid herpesvirus 5
 
 [Term]
 id: kegg.genome:1901
@@ -22959,7 +23023,7 @@ name: Enterobacter mori ACYC.E9L
 
 [Term]
 id: kegg.genome:239
-name: Salinispirillum sp. LH 10-3-1
+name: Zobellia laminariae AS94
 
 [Term]
 id: kegg.genome:239
@@ -23752,10 +23816,6 @@ name: Passion fruit mosaic virus
 [Term]
 id: kegg.genome:2458
 name: Beihai narna-like virus 6
-
-[Term]
-id: kegg.genome:2458
-name: Rubber tree capillovirus 1
 
 [Term]
 id: kegg.genome:2459
@@ -25127,6 +25187,10 @@ name: Ruania halotolerans M4N3S171
 
 [Term]
 id: kegg.genome:257
+name: Selenomonas dianae ATCC 43527
+
+[Term]
+id: kegg.genome:257
 name: Tomato aspermy virus
 
 [Term]
@@ -25243,6 +25307,10 @@ name: Bacteroides humanifaecis KGMB07931
 
 [Term]
 id: kegg.genome:258
+name: Marinobacter shengliensis D49
+
+[Term]
+id: kegg.genome:258
 name: Hydrangea ringspot virus
 
 [Term]
@@ -25352,6 +25420,10 @@ name: Oncorhynchus mykiss \(rainbow trout\)
 [Term]
 id: kegg.genome:259
 name: Thiomicrospira microaerophila BDL05
+
+[Term]
+id: kegg.genome:259
+name: Psychrobacter cibarius AOSW16051
 
 [Term]
 id: kegg.genome:259
@@ -25507,6 +25579,10 @@ name: Cytobacillus firmus PheN7
 
 [Term]
 id: kegg.genome:260
+name: Achromobacter pestifer FDAARGOS_790
+
+[Term]
+id: kegg.genome:260
 name: Squash leaf curl virus
 
 [Term]
@@ -25623,6 +25699,10 @@ name: Cetobacterium somerae CS2105-BJ
 
 [Term]
 id: kegg.genome:261
+name: Bradyrhizobium genosp. L BDV5419
+
+[Term]
+id: kegg.genome:261
 name: Elm mottle virus
 
 [Term]
@@ -25732,6 +25812,10 @@ name: Paraburkholderia acidiphila 7Q-K02
 [Term]
 id: kegg.genome:262
 name: Acinetobacter gyllenbergii NCCP 16015
+
+[Term]
+id: kegg.genome:262
+name: Shewanella rhizosphaerae FJAT-53764
 
 [Term]
 id: kegg.genome:262
@@ -25859,6 +25943,10 @@ name: Conchiformibius kuhniae 17694
 
 [Term]
 id: kegg.genome:263
+name: Treponema sp. OMZ 803 BF2M
+
+[Term]
+id: kegg.genome:263
 name: Pelargonium line pattern virus
 
 [Term]
@@ -25979,6 +26067,10 @@ name: Alysiella crassa S6
 
 [Term]
 id: kegg.genome:264
+name: Borreliella americana SCW41
+
+[Term]
+id: kegg.genome:264
 name: Pelargonium zonate spot virus
 
 [Term]
@@ -26020,10 +26112,6 @@ name: Turtle grass virus X
 [Term]
 id: kegg.genome:2643
 name: Holcus lanatus-associated virus
-
-[Term]
-id: kegg.genome:2643
-name: Red clover associated virus
 
 [Term]
 id: kegg.genome:2644
@@ -26112,6 +26200,10 @@ name: Streptococcus chenjunshii Z15
 [Term]
 id: kegg.genome:265
 name: Dehalogenimonas etheniformans GP \(Candidatus Dehalogenimonas etheniformans GP\)
+
+[Term]
+id: kegg.genome:265
+name: Paracoccus aerodenitrificans SCSIO 75817
 
 [Term]
 id: kegg.genome:265
@@ -26228,6 +26320,10 @@ name: Pseudomonas bijieensis L22-9
 [Term]
 id: kegg.genome:266
 name: Burkholderia humptydooensis FDAARGOS_899
+
+[Term]
+id: kegg.genome:266
+name: Paracoccus albus SCSIO 80058
 
 [Term]
 id: kegg.genome:266
@@ -26363,6 +26459,10 @@ name: Pseudomonas juntendi PP_2463
 
 [Term]
 id: kegg.genome:267
+name: Halomonas alkalicola CICC 11012s
+
+[Term]
+id: kegg.genome:267
 name: Humulus japonicus latent virus
 
 [Term]
@@ -26491,6 +26591,10 @@ name: Pectobacterium quasiaquaticum A477-S1-J17
 
 [Term]
 id: kegg.genome:268
+name: Fulvivirga maritima SW1-E11
+
+[Term]
+id: kegg.genome:268
 name: Broad bean mottle virus
 
 [Term]
@@ -26611,6 +26715,10 @@ name: Bradysia coprophila
 
 [Term]
 id: kegg.genome:269
+name: Fulvivirga ulvae SS9-22
+
+[Term]
+id: kegg.genome:269
 name: Shallot virus X
 
 [Term]
@@ -26648,6 +26756,10 @@ name: Serratia phage vB_SmaS_Stoker
 [Term]
 id: kegg.genome:2693
 name: Beihai sobemo-like virus 21
+
+[Term]
+id: kegg.genome:2693
+name: Psittacid herpesvirus 5
 
 [Term]
 id: kegg.genome:2694
@@ -26740,6 +26852,10 @@ name: Rhizobium ruizarguesonis NZLR24
 [Term]
 id: kegg.genome:270
 name: Lucilia sericata \(common green bottle fly\)
+
+[Term]
+id: kegg.genome:270
+name: Microbacterium suwonense NBRC 106310
 
 [Term]
 id: kegg.genome:270
@@ -26875,6 +26991,10 @@ name: Saliphagus sp. WLHS1
 
 [Term]
 id: kegg.genome:271
+name: Corynebacterium auris DSM 44122
+
+[Term]
+id: kegg.genome:271
 name: Papaya mosaic virus
 
 [Term]
@@ -27003,6 +27123,10 @@ name: Gilvimarinus sp. DA14
 
 [Term]
 id: kegg.genome:272
+name: Leptidea sinapis \(Wood White\)
+
+[Term]
+id: kegg.genome:272
 name: Maracuja mosaic virus
 
 [Term]
@@ -27119,6 +27243,10 @@ name: Acetobacterium wieringae CH1
 
 [Term]
 id: kegg.genome:273
+name: Anopheles funestus \(African malaria mosquito\)
+
+[Term]
+id: kegg.genome:273
 name: Cowpea mild mottle virus
 
 [Term]
@@ -27204,6 +27332,10 @@ name: Vitis riparia \(riverbank grape\)
 [Term]
 id: kegg.genome:274
 name: Qipengyuania citrea E4
+
+[Term]
+id: kegg.genome:274
+name: Schizosaccharomyces osmophilus CBS 15793 \(fission yeast\)
 
 [Term]
 id: kegg.genome:274
@@ -27320,6 +27452,10 @@ name: Zootoca vivipara \(common lizard\)
 [Term]
 id: kegg.genome:275
 name: Ruania suaedae LR1S40
+
+[Term]
+id: kegg.genome:275
+name: Citrobacter sp. TSA-1
 
 [Term]
 id: kegg.genome:275
@@ -27463,6 +27599,10 @@ name: Nocardioides panacis G188
 
 [Term]
 id: kegg.genome:276
+name: Pseudalkalibacillus hwajinpoensis KcN21-2
+
+[Term]
+id: kegg.genome:276
 name: Pepper mild mottle virus
 
 [Term]
@@ -27603,6 +27743,10 @@ name: Neobacillus drentensis JC05
 
 [Term]
 id: kegg.genome:277
+name: Bacillus carboniphilus SaN35-3
+
+[Term]
+id: kegg.genome:277
 name: Euphorbia mosaic virus
 
 [Term]
@@ -27703,6 +27847,10 @@ name: Paraconexibacter antarcticus 02-257
 
 [Term]
 id: kegg.genome:278
+name: Actinomyces massiliensis F0489
+
+[Term]
+id: kegg.genome:278
 name: Poinsettia mosaic virus
 
 [Term]
@@ -27792,6 +27940,10 @@ name: Natronomonas halophila C90
 [Term]
 id: kegg.genome:279
 name: Rhodococcus oxybenzonivorans S2-17
+
+[Term]
+id: kegg.genome:279
+name: Roseinatronobacter sp. S2
 
 [Term]
 id: kegg.genome:279
@@ -27907,6 +28059,10 @@ name: Clostridium neonatale 250_09
 
 [Term]
 id: kegg.genome:280
+name: Streptomyces anulatus VUW1
+
+[Term]
+id: kegg.genome:280
 name: Clover yellow mosaic virus
 
 [Term]
@@ -28019,6 +28175,10 @@ name: Fructilactobacillus ixorae Ru20-1
 
 [Term]
 id: kegg.genome:281
+name: Halorhabdus sp. SVX81
+
+[Term]
+id: kegg.genome:281
 name: White clover mosaic virus
 
 [Term]
@@ -28120,6 +28280,10 @@ name: Geomonas oryzisoli RG10
 [Term]
 id: kegg.genome:282
 name: Loktanella salsilacus 1A07893
+
+[Term]
+id: kegg.genome:282
+name: Natrialbaceae archaeon AArc-T1-2
 
 [Term]
 id: kegg.genome:282
@@ -28231,6 +28395,10 @@ name: Bacillus sp. S3
 
 [Term]
 id: kegg.genome:283
+name: Bradyrhizobium commune BDV5040
+
+[Term]
+id: kegg.genome:283
 name: Rice tungro spherical virus
 
 [Term]
@@ -28320,6 +28488,10 @@ name: Halobacterium sp. BOL4-2
 [Term]
 id: kegg.genome:284
 name: Pseudomonas mediterranea S58
+
+[Term]
+id: kegg.genome:284
+name: Paracoccus sediminicola SCSIO 76264
 
 [Term]
 id: kegg.genome:284
@@ -28415,6 +28587,10 @@ name: Nocardiopsis exhalans JCM11759T
 
 [Term]
 id: kegg.genome:285
+name: Mesobacillus subterraneus KcN21-5
+
+[Term]
+id: kegg.genome:285
 name: Tomato ringspot virus
 
 [Term]
@@ -28444,10 +28620,6 @@ name: Sambucus virus S
 [Term]
 id: kegg.genome:2852
 name: Anadyr virus
-
-[Term]
-id: kegg.genome:2853
-name: Giant squirrel respirovirus
 
 [Term]
 id: kegg.genome:2854
@@ -28519,6 +28691,10 @@ name: Metallosphaera sedula MJ1HA
 
 [Term]
 id: kegg.genome:286
+name: Rhizobium croatiense MC77
+
+[Term]
+id: kegg.genome:286
 name: Beet mosaic virus
 
 [Term]
@@ -28556,10 +28732,6 @@ name: Spodoptera exempta nucleopolyhedrovirus
 [Term]
 id: kegg.genome:2864
 name: Aeromonas phage PVN03
-
-[Term]
-id: kegg.genome:2866
-name: Hubei dimarhabdovirus virus 1
 
 [Term]
 id: kegg.genome:2867
@@ -28608,6 +28780,10 @@ name: Paraburkholderia acidisoli DHF22
 [Term]
 id: kegg.genome:287
 name: Hermetia illucens \(black soldier fly\)
+
+[Term]
+id: kegg.genome:287
+name: Candidatus Carsonella ruddii \(Diaphorina cf. continua\) Dco
 
 [Term]
 id: kegg.genome:287
@@ -28740,6 +28916,10 @@ name: Sphingomonas panacisoli HKS19
 [Term]
 id: kegg.genome:288
 name: Psilocybe cubensis MGC-MH-2018 \(magic mushroom\)
+
+[Term]
+id: kegg.genome:288
+name: Fulvivirga ligni W9P-11
 
 [Term]
 id: kegg.genome:288
@@ -28884,6 +29064,10 @@ name: Corynebacterium anserum 23H37-10
 [Term]
 id: kegg.genome:289
 name: Saccharomycodes ludwigii NBRC 1722
+
+[Term]
+id: kegg.genome:289
+name: Corynebacterium faecale DSM 45971
 
 [Term]
 id: kegg.genome:289
@@ -29055,6 +29239,10 @@ name: Candidatus Phytoplasma vitis CH
 
 [Term]
 id: kegg.genome:290
+name: Corynebacterium fournieri DSM 103271
+
+[Term]
+id: kegg.genome:290
 name: Grapevine fanleaf virus
 
 [Term]
@@ -29167,6 +29355,10 @@ name: Pedobacter mucosus Q8-18
 
 [Term]
 id: kegg.genome:291
+name: Salvia miltiorrhiza \(redroot sage\)
+
+[Term]
+id: kegg.genome:291
 name: Grapevine Bulgarian latent virus
 
 [Term]
@@ -29236,6 +29428,10 @@ name: Morus notabilis
 [Term]
 id: kegg.genome:292
 name: Abyssalbus ytuae MT3330
+
+[Term]
+id: kegg.genome:292
+name: Caretta caretta \(Loggerhead turtle\)
 
 [Term]
 id: kegg.genome:292
@@ -29332,6 +29528,10 @@ name: Zerene cesonia \(dogface butterfly\)
 [Term]
 id: kegg.genome:293
 name: Leptolinea sp. HRD-7
+
+[Term]
+id: kegg.genome:293
+name: Pectinophora gossypiella \(pink bollworm\)
 
 [Term]
 id: kegg.genome:293
@@ -29459,6 +29659,10 @@ name: Corynebacterium poyangense 4H37-19
 
 [Term]
 id: kegg.genome:294
+name: Paramuribaculum intestinale DSM 100764
+
+[Term]
+id: kegg.genome:294
 name: Rubus chlorotic mottle virus \(Sowbane mosaic virus\)
 
 [Term]
@@ -29468,6 +29672,10 @@ name: Sweet potato badnavirus B
 [Term]
 id: kegg.genome:294
 name: Ambystoma tigrinum virus
+
+[Term]
+id: kegg.genome:2940
+name: Porton's virus
 
 [Term]
 id: kegg.genome:2940
@@ -29611,6 +29819,10 @@ name: Echinicola marina SCS 3-6
 
 [Term]
 id: kegg.genome:295
+name: Brevibacillus aydinogluensis 4475
+
+[Term]
+id: kegg.genome:295
 name: Strawberry latent ringspot virus
 
 [Term]
@@ -29739,6 +29951,10 @@ name: Salipaludibacillus sp. LMS25
 
 [Term]
 id: kegg.genome:296
+name: Granulicatella elegans FDAARGOS_1559
+
+[Term]
+id: kegg.genome:296
 name: Turnip mosaic virus
 
 [Term]
@@ -29839,6 +30055,10 @@ name: Pelagerythrobacter marinus E6
 
 [Term]
 id: kegg.genome:297
+name: Pseudomonas taiwanensis WRS8
+
+[Term]
+id: kegg.genome:297
 name: Plum pox virus
 
 [Term]
@@ -29907,6 +30127,10 @@ name: Aquirufa antheringensis 44A-TON
 
 [Term]
 id: kegg.genome:298
+name: Kineothrix sp. MB12-C1
+
+[Term]
+id: kegg.genome:298
 name: Strawberry mottle virus
 
 [Term]
@@ -29972,6 +30196,10 @@ name: Clostridium gasigenes CGAS001
 [Term]
 id: kegg.genome:299
 name: Planktothrix pseudagardhii No.713
+
+[Term]
+id: kegg.genome:299
+name: Micromonospora ferruginea 28ISP2-46
 
 [Term]
 id: kegg.genome:299
@@ -30167,6 +30395,10 @@ name: Atlantibacter subterranea LH84-a
 
 [Term]
 id: kegg.genome:300
+name: Agrobacterium leguminum CFBP4996
+
+[Term]
+id: kegg.genome:300
 name: Barley mild mosaic virus
 
 [Term]
@@ -30287,6 +30519,10 @@ name: Dechloromonas denitrificans G6
 
 [Term]
 id: kegg.genome:301
+name: Borreliella yangtzensis CW61
+
+[Term]
+id: kegg.genome:301
 name: Barley yellow mosaic virus
 
 [Term]
@@ -30391,6 +30627,10 @@ name: Acinetobacter sp. NCu2D-2
 
 [Term]
 id: kegg.genome:302
+name: Paulownia witches'-broom phytoplasma Zhengzhou
+
+[Term]
+id: kegg.genome:302
 name: Hordeum mosaic virus
 
 [Term]
@@ -30468,6 +30708,10 @@ name: Mycobacterium shottsii JCM 12657
 [Term]
 id: kegg.genome:303
 name: Brachybacterium kimchii CBA3104
+
+[Term]
+id: kegg.genome:303
+name: Bradyrhizobium pachyrhizi CB1923
 
 [Term]
 id: kegg.genome:303
@@ -30563,6 +30807,10 @@ name: Legionella lytica PCM 2298
 
 [Term]
 id: kegg.genome:304
+name: Arthrobacter oryzae AO2021
+
+[Term]
+id: kegg.genome:304
 name: Rubus yellow net virus
 
 [Term]
@@ -30628,6 +30876,10 @@ name: Streptomyces bathyalis ASO4wet
 [Term]
 id: kegg.genome:305
 name: Neoehrlichia mikurensis 18-2804 \(Candidatus Neoehrlichia mikurensis 18-2804\)
+
+[Term]
+id: kegg.genome:305
+name: Bacillus stercoris BS21
 
 [Term]
 id: kegg.genome:305
@@ -30711,6 +30963,10 @@ name: Mesocricetus auratus \(golden hamster\)
 
 [Term]
 id: kegg.genome:306
+name: Shewanella psychrotolerans FJAT-53749
+
+[Term]
+id: kegg.genome:306
 name: Carrot thin leaf virus
 
 [Term]
@@ -30756,6 +31012,10 @@ name: Exiguobacterium alkaliphilum B-3531D
 [Term]
 id: kegg.genome:307
 name: Microtus oregoni \(creeping vole\)
+
+[Term]
+id: kegg.genome:307
+name: Streptomyces goshikiensis CGMCC 4.1796
 
 [Term]
 id: kegg.genome:307
@@ -30864,6 +31124,10 @@ name: Richelia sinica FACHB-800
 [Term]
 id: kegg.genome:308
 name: Hippoglossus stenolepis \(Pacific halibut\)
+
+[Term]
+id: kegg.genome:308
+name: Corynebacterium felinum DSM 44508
 
 [Term]
 id: kegg.genome:308
@@ -30991,6 +31255,10 @@ name: Brucepastera parasyntrophica RmG11
 
 [Term]
 id: kegg.genome:309
+name: Borreliella japonica Miyazaki2E
+
+[Term]
+id: kegg.genome:309
 name: Cucumber vein yellowing virus
 
 [Term]
@@ -31115,6 +31383,10 @@ name: Bacterioplanoides sp. SCSIO 12839
 
 [Term]
 id: kegg.genome:310
+name: Podarcis raffonei \(Aeolian wall lizard\)
+
+[Term]
+id: kegg.genome:310
 name: Squash mosaic virus
 
 [Term]
@@ -31227,6 +31499,10 @@ name: Tsukamurella pulmonis TP-B0596
 
 [Term]
 id: kegg.genome:311
+name: Teleopsis dalmanni \(Malaysian stalk-eyed fly\)
+
+[Term]
+id: kegg.genome:311
 name: Watermelon mosaic virus
 
 [Term]
@@ -31332,6 +31608,10 @@ name: Anopheles coluzzii
 [Term]
 id: kegg.genome:312
 name: Methylophaga pinxianii TMB1265
+
+[Term]
+id: kegg.genome:312
+name: Malania oleifera
 
 [Term]
 id: kegg.genome:312
@@ -31455,6 +31735,10 @@ name: Roseivivax marinus TCYB24
 
 [Term]
 id: kegg.genome:313
+name: Haliovirga abyssi IC12
+
+[Term]
+id: kegg.genome:313
 name: Dasheen mosaic virus
 
 [Term]
@@ -31551,6 +31835,10 @@ name: Bacillus caldolyticus NEB414
 
 [Term]
 id: kegg.genome:314
+name: Aestuariibaculum sp. YM273
+
+[Term]
+id: kegg.genome:314
 name: Lettuce mosaic virus
 
 [Term]
@@ -31644,6 +31932,10 @@ name: Candidatus Nanohalobium constans LC1Nh
 [Term]
 id: kegg.genome:315
 name: Actinoplanes sp. NBRC 14428
+
+[Term]
+id: kegg.genome:315
+name: Borreliella spielmanii Pmew
 
 [Term]
 id: kegg.genome:315
@@ -31744,6 +32036,10 @@ name: Metamycoplasma salivarium NCTC10113
 [Term]
 id: kegg.genome:316
 name: Thermococcus argininiproducens IOH2
+
+[Term]
+id: kegg.genome:316
+name: Shewanella mangrovisoli FJAT-51754
 
 [Term]
 id: kegg.genome:316
@@ -31863,6 +32159,10 @@ name: Kaistella flava \(ex Peng et al. 2021\) 7-3A
 
 [Term]
 id: kegg.genome:317
+name: Mangrovimonas sp. YM274
+
+[Term]
+id: kegg.genome:317
 name: Leek yellow stripe virus
 
 [Term]
@@ -31928,6 +32228,10 @@ name: Pseudomonas marincola YSy11
 [Term]
 id: kegg.genome:318
 name: Polynucleobacter tropicus MWH-UH21B
+
+[Term]
+id: kegg.genome:318
+name: Clostridium hylemonae CE91-St63
 
 [Term]
 id: kegg.genome:318
@@ -32020,6 +32324,10 @@ name: Hymenobacter busanensis BT182
 [Term]
 id: kegg.genome:319
 name: Luteibacter anthropi SM7.4
+
+[Term]
+id: kegg.genome:319
+name: Wolbachia endosymbiont of Frankliniella intonsa wWF
 
 [Term]
 id: kegg.genome:319
@@ -32175,6 +32483,10 @@ name: Gardnerella piotii JNFY15
 
 [Term]
 id: kegg.genome:320
+name: Borreliella lanei CA-28-91
+
+[Term]
+id: kegg.genome:320
 name: Papaya ringspot virus
 
 [Term]
@@ -32311,6 +32623,10 @@ name: Sodalis ligni dw23
 
 [Term]
 id: kegg.genome:321
+name: Paludicola sp. MB14-C6
+
+[Term]
+id: kegg.genome:321
 name: Cowpea aphid-borne mosaic virus
 
 [Term]
@@ -32411,6 +32727,10 @@ name: Shewanella vesiculosa M7
 
 [Term]
 id: kegg.genome:322
+name: Moraxella nasibovis ZY190618
+
+[Term]
+id: kegg.genome:322
 name: Pea seed-borne mosaic virus
 
 [Term]
@@ -32504,6 +32824,10 @@ name: Streptomyces spectabilis ATCC 27465
 [Term]
 id: kegg.genome:323
 name: Bartonella taylorii IBS296
+
+[Term]
+id: kegg.genome:323
+name: Bacillus albus SXL388
 
 [Term]
 id: kegg.genome:323
@@ -32631,6 +32955,10 @@ name: Kordiimonas sp. SCSIO 12610
 
 [Term]
 id: kegg.genome:324
+name: Bradyrhizobium xenonodulans 14AB
+
+[Term]
+id: kegg.genome:324
 name: Pepper veinal mottle virus
 
 [Term]
@@ -32755,6 +33083,10 @@ name: Phaethon lepturus \(White-tailed tropicbird\)
 
 [Term]
 id: kegg.genome:325
+name: Streptomyces graminofaciens A-8890
+
+[Term]
+id: kegg.genome:325
 name: Cowpea mosaic virus
 
 [Term]
@@ -32876,6 +33208,10 @@ name: Streptomyces nojiriensis JCM 3382
 [Term]
 id: kegg.genome:326
 name: Lemur catta \(Ring-tailed lemur\)
+
+[Term]
+id: kegg.genome:326
+name: Staphylococcus casei DSM 15096
 
 [Term]
 id: kegg.genome:326
@@ -33040,6 +33376,10 @@ name: Acipenser ruthenus \(sterlet\)
 [Term]
 id: kegg.genome:327
 name: Arvicola amphibius \(Eurasian water vole\)
+
+[Term]
+id: kegg.genome:327
+name: Pseudomonas kurunegalensis ANKC.G2
 
 [Term]
 id: kegg.genome:327
@@ -33231,6 +33571,10 @@ name: Turicibacter bilis MMM721
 
 [Term]
 id: kegg.genome:328
+name: Pseudomonas kielensis ZE23JCel16
+
+[Term]
+id: kegg.genome:328
 name: Kyasanur Forest disease virus
 
 [Term]
@@ -33371,7 +33715,7 @@ name: Ailuropoda melanoleuca \(giant panda\)
 
 [Term]
 id: kegg.genome:329
-name: Candidatus Mycoplasma haemolamae Purdue
+name: Candidatus Mycoplasma haematolamae Purdue \(Candidatus Mycoplasma haemolamae Purdue\)
 
 [Term]
 id: kegg.genome:329
@@ -35170,10 +35514,6 @@ id: kegg.genome:3449
 name: Shahe picorna-like virus 6
 
 [Term]
-id: kegg.genome:3449
-name: Odonatan chu-related virus OKIAV136
-
-[Term]
 id: kegg.genome:345
 name: Rhodopseudomonas palustris BisB5
 
@@ -35236,10 +35576,6 @@ name: Pseudomonas phage KPP10
 [Term]
 id: kegg.genome:3450
 name: Shahe picorna-like virus 7
-
-[Term]
-id: kegg.genome:3450
-name: Odonatan chu-related virus OKIAV137
 
 [Term]
 id: kegg.genome:3451
@@ -38490,10 +38826,6 @@ id: kegg.genome:3724
 name: Sclerotinia sclerotiorum negative-stranded RNA virus 1
 
 [Term]
-id: kegg.genome:3724
-name: Bemisia tabaci associated virus 1
-
-[Term]
 id: kegg.genome:3725
 name: Wuhan insect virus 21
 
@@ -38524,10 +38856,6 @@ name: Sclerotinia sclerotiorum mitovirus 2
 [Term]
 id: kegg.genome:3728
 name: Glehnia littoralis virus 1
-
-[Term]
-id: kegg.genome:3729
-name: Gymnadenia x densiflora virus 1
 
 [Term]
 id: kegg.genome:3729
@@ -41907,7 +42235,7 @@ name: Brenneria izadpanahii Iran 50
 
 [Term]
 id: kegg.genome:407
-name: Chitinophaga sp. MD30B
+name: Chitinophaga pendula MD30B
 
 [Term]
 id: kegg.genome:4070
@@ -42068,10 +42396,6 @@ name: Fig badnavirus 1
 [Term]
 id: kegg.genome:4096
 name: Erwinia phage phiEa2809
-
-[Term]
-id: kegg.genome:4097
-name: Kismayo virus
 
 [Term]
 id: kegg.genome:4099
@@ -44258,12 +44582,12 @@ id: kegg.genome:435
 name: Rochambeau virus
 
 [Term]
-id: kegg.genome:435
-name: Microcystis virus Ma-LMM01
-
-[Term]
 id: kegg.genome:4352
 name: Yersinia phage P37
+
+[Term]
+id: kegg.genome:4354
+name: Red clover associated virus
 
 [Term]
 id: kegg.genome:4355
@@ -46806,10 +47130,6 @@ id: kegg.genome:4671
 name: Solenopsis invicta densovirus
 
 [Term]
-id: kegg.genome:4673
-name: Hartmanivirus BESV-1
-
-[Term]
 id: kegg.genome:468
 name: Hyperthermus butylicus DSM 5456
 
@@ -47604,10 +47924,6 @@ name: Apilactobacillus apisilvae SG5_A10
 [Term]
 id: kegg.genome:479
 name: Papaya leaf curl Guandong virus
-
-[Term]
-id: kegg.genome:4790
-name: Mosquito VEM Anellovirus SDBVL A
 
 [Term]
 id: kegg.genome:4790
@@ -50558,10 +50874,6 @@ id: kegg.genome:5164
 name: Spinach amalgavirus 1
 
 [Term]
-id: kegg.genome:5167
-name: Bat betaherpesvirus B7D8
-
-[Term]
 id: kegg.genome:5169
 name: Escherichia phage Eco_BIFF
 
@@ -50874,10 +51186,6 @@ id: kegg.genome:5208
 name: Ruegeria phage DSS3-P1
 
 [Term]
-id: kegg.genome:5209
-name: Bitu mammarenavirus
-
-[Term]
 id: kegg.genome:521
 name: Geotalea uraniireducens Rf4
 
@@ -50920,10 +51228,6 @@ name: Sida golden mosaic Florida virus-Malvastrum
 [Term]
 id: kegg.genome:521
 name: Sikte waterborne virus
-
-[Term]
-id: kegg.genome:5210
-name: Kwanza mammarenavirus
 
 [Term]
 id: kegg.genome:5211
@@ -51367,7 +51671,7 @@ name: Acidiphilium cryptum JF-5
 
 [Term]
 id: kegg.genome:527
-name: Weizmannia coagulans 2-6 \(Bacillus coagulans 2-6\)
+name: Heyndrickxia coagulans 2-6 \(Bacillus coagulans 2-6\)
 
 [Term]
 id: kegg.genome:527
@@ -52574,10 +52878,6 @@ id: kegg.genome:5415
 name: Human associated gemyvongvirus 1
 
 [Term]
-id: kegg.genome:5415
-name: Flen bunya-like virus
-
-[Term]
 id: kegg.genome:5417
 name: Caribou associated gemykrogvirus 1
 
@@ -53218,16 +53518,8 @@ id: kegg.genome:5493
 name: Orbivirus SX-2017a
 
 [Term]
-id: kegg.genome:5493
-name: Staphylococcus phage IME1354_01
-
-[Term]
 id: kegg.genome:5494
 name: Bamaga virus
-
-[Term]
-id: kegg.genome:5496
-name: Hangzhou frankliniella intonsa rhabdovirus 1
 
 [Term]
 id: kegg.genome:55
@@ -56783,7 +57075,7 @@ name: Rickettsia conorii subsp. heilongjiangensis 054 \(Rickettsia heilongjiange
 
 [Term]
 id: kegg.genome:587
-name: Eubacterium rectale DSM 17629 \(Agathobacter rectalis DSM 17629\)
+name: Agathobacter rectalis DSM 17629 \(Eubacterium rectale DSM 17629\)
 
 [Term]
 id: kegg.genome:587
@@ -56859,7 +57151,7 @@ name: Thermococcus sp. 4557
 
 [Term]
 id: kegg.genome:588
-name: Eubacterium rectale M104/1 \(Agathobacter rectalis M104/1\)
+name: Agathobacter rectalis M104/1 \(Eubacterium rectale M104/1\)
 
 [Term]
 id: kegg.genome:588
@@ -61603,10 +61895,6 @@ name: ssRNA phage Gerhypos.2_9
 
 [Term]
 id: kegg.genome:6282
-name: Salmonella phage vB_SalS-LPSTLL
-
-[Term]
-id: kegg.genome:6282
 name: ssRNA phage Gerhypos.3_1
 
 [Term]
@@ -61735,19 +62023,11 @@ name: ssRNA phage Gerhypos.3_2
 
 [Term]
 id: kegg.genome:6293
-name: Hymenopteran rhabdo-related virus OKIAV109
-
-[Term]
-id: kegg.genome:6293
 name: Bacillus phage Eldridge
 
 [Term]
 id: kegg.genome:6294
 name: ssRNA phage Gerhypos.3_20
-
-[Term]
-id: kegg.genome:6294
-name: Hymenopteran rhabdo-related virus OKIAV38
 
 [Term]
 id: kegg.genome:6295
@@ -61884,10 +62164,6 @@ name: ssRNA phage Gerhypos.3_26
 [Term]
 id: kegg.genome:6300
 name: Enterobacteria phage Hgal1
-
-[Term]
-id: kegg.genome:6301
-name: Lepidopteran rhabdo-related virus OKIAV34
 
 [Term]
 id: kegg.genome:6301
@@ -62350,10 +62626,6 @@ id: kegg.genome:6347
 name: ssRNA phage Gerhypos.4_44
 
 [Term]
-id: kegg.genome:6347
-name: Dermapteran chu-related virus OKIAV142
-
-[Term]
 id: kegg.genome:6348
 name: ssRNA phage Gerhypos.4_45
 
@@ -62480,10 +62752,6 @@ name: Hemipteran arli-related virus OKIAV94
 [Term]
 id: kegg.genome:6358
 name: ssRNA phage Gerhypos.4_54
-
-[Term]
-id: kegg.genome:6358
-name: Hainan black-spectacled toad dimarhabdovirus
 
 [Term]
 id: kegg.genome:6359
@@ -62680,10 +62948,6 @@ name: Escherichia phage aalborv
 [Term]
 id: kegg.genome:6376
 name: Escherichia phage aaroes
-
-[Term]
-id: kegg.genome:6378
-name: Blackberry leaf mottle associated virus
 
 [Term]
 id: kegg.genome:6378
@@ -66623,7 +66887,7 @@ name: Diachasma alloeum
 
 [Term]
 id: kegg.genome:663
-name: Nannocystis sp. fl3
+name: Nannocystis poenicansa FL3
 
 [Term]
 id: kegg.genome:6630
@@ -68483,7 +68747,7 @@ name: Chryseobacterium sp. 3008163
 
 [Term]
 id: kegg.genome:679
-name: Metamycoplasma anseris ATCC 49234
+name: Mycoplasma anseris ATCC 49234
 
 [Term]
 id: kegg.genome:679
@@ -68904,6 +69168,10 @@ name: ssRNA phage Zoerhiza.3_6
 [Term]
 id: kegg.genome:6824
 name: ssRNA phage Zoerhiza.3_7
+
+[Term]
+id: kegg.genome:6824
+name: Microcystis virus Ma-LMM01
 
 [Term]
 id: kegg.genome:6825
@@ -70198,10 +70466,6 @@ id: kegg.genome:697
 name: Boerhavia yellow spot virus
 
 [Term]
-id: kegg.genome:697
-name: Porton's virus
-
-[Term]
 id: kegg.genome:6974
 name: Pseudomonas phage TL
 
@@ -70882,6 +71146,10 @@ id: kegg.genome:7047
 name: Alxa virus
 
 [Term]
+id: kegg.genome:7048
+name: American dog tick phlebovirus
+
+[Term]
 id: kegg.genome:7049
 name: Severe acute respiratory syndrome coronavirus 2
 
@@ -71266,6 +71534,10 @@ id: kegg.genome:7091
 name: Edwardsiella phage GF-2
 
 [Term]
+id: kegg.genome:7092
+name: Giant squirrel respirovirus
+
+[Term]
 id: kegg.genome:7094
 name: Klebsiella phage vB_KleM_RaK2
 
@@ -71380,6 +71652,10 @@ name: Yerba mate chlorosis-associated virus
 [Term]
 id: kegg.genome:7100
 name: Salmonella phage BPS15Q2
+
+[Term]
+id: kegg.genome:7103
+name: Hainan black-spectacled toad dimarhabdovirus
 
 [Term]
 id: kegg.genome:7105
@@ -71864,10 +72140,6 @@ name: Sinirhodobacter sp. HNIBRBA609
 [Term]
 id: kegg.genome:716
 name: Lyssavirus khujand
-
-[Term]
-id: kegg.genome:716
-name: Nora virus
 
 [Term]
 id: kegg.genome:716
@@ -72582,6 +72854,10 @@ id: kegg.genome:7265
 name: Pseudomonas phage PHB09
 
 [Term]
+id: kegg.genome:7266
+name: Picornaviridae sp. rodent/Ds/PicoV/IM2014
+
+[Term]
 id: kegg.genome:7267
 name: Lactococcus phage LP0209
 
@@ -72648,6 +72924,10 @@ name: Lactococcus phage LP0903
 [Term]
 id: kegg.genome:7277
 name: Lactococcus phage LP1502a
+
+[Term]
+id: kegg.genome:7279
+name: Saint Floris virus
 
 [Term]
 id: kegg.genome:728
@@ -73738,10 +74018,6 @@ id: kegg.genome:7412
 name: Picornaviridae sp. rodent/Ee/PicoV/NX2015
 
 [Term]
-id: kegg.genome:7414
-name: Picornaviridae sp. rodent/Ds/PicoV/IM2014
-
-[Term]
 id: kegg.genome:7417
 name: Staphylococcus phage LSA2366
 
@@ -74440,10 +74716,6 @@ name: Pseudocitrobacter corydidari G163CM
 [Term]
 id: kegg.genome:750
 name: Pseudoroseomonas cervicalis PL22-11A
-
-[Term]
-id: kegg.genome:750
-name: Helminthosporium victoriae 145S virus
 
 [Term]
 id: kegg.genome:750
@@ -75747,7 +76019,7 @@ name: Mycoplasmopsis glycophila NCTC10194
 
 [Term]
 id: kegg.genome:765
-name: Pseudomonas phragmitis S-6-2
+name: Halopseudomonas phragmitis S-6-2
 
 [Term]
 id: kegg.genome:765
@@ -76838,6 +77110,14 @@ id: kegg.genome:7796
 name: Vibrio phage VpV262
 
 [Term]
+id: kegg.genome:7797
+name: Hymenopteran chu-related virus OKIAV123
+
+[Term]
+id: kegg.genome:7798
+name: Hymenopteran chu-related virus OKIAV126
+
+[Term]
 id: kegg.genome:7799
 name: Sinu virus
 
@@ -76934,12 +77214,24 @@ id: kegg.genome:7803
 name: Equine pegivirus 1
 
 [Term]
+id: kegg.genome:7803
+name: Hymenopteran rhabdo-related virus OKIAV109
+
+[Term]
 id: kegg.genome:7804
 name: Escherichia phage Lw1
 
 [Term]
 id: kegg.genome:7805
 name: Drakaea virus A
+
+[Term]
+id: kegg.genome:7805
+name: Hymenopteran rhabdo-related virus OKIAV24
+
+[Term]
+id: kegg.genome:7806
+name: Hymenopteran rhabdo-related virus OKIAV38
 
 [Term]
 id: kegg.genome:7808
@@ -77004,6 +77296,10 @@ name: Pectobacterium phage PP1
 [Term]
 id: kegg.genome:7812
 name: Keterah virus
+
+[Term]
+id: kegg.genome:7813
+name: Kismayo virus
 
 [Term]
 id: kegg.genome:7813
@@ -77094,12 +77390,20 @@ id: kegg.genome:7821
 name: Sibine fusca densovirus
 
 [Term]
+id: kegg.genome:7821
+name: Lena River virus
+
+[Term]
 id: kegg.genome:7822
 name: Lentibacter phage vB_LenP_ICBM1
 
 [Term]
 id: kegg.genome:7823
 name: Lentibacter phage vB_LenP_ICBM2
+
+[Term]
+id: kegg.genome:7825
+name: Lepidopteran rhabdo-related virus OKIAV34
 
 [Term]
 id: kegg.genome:7825
@@ -77322,6 +77626,10 @@ id: kegg.genome:7846
 name: Shigella phage vB_SsoS_008
 
 [Term]
+id: kegg.genome:7847
+name: Megalopteran chu-related virus OKIAV119
+
+[Term]
 id: kegg.genome:7848
 name: Papaya meleira virus
 
@@ -77388,6 +77696,10 @@ name: Pseudomonas phage PEV2
 [Term]
 id: kegg.genome:7850
 name: Ralstonia phage RS611
+
+[Term]
+id: kegg.genome:7851
+name: Mosquito VEM Anellovirus SDBVL A
 
 [Term]
 id: kegg.genome:7851
@@ -78159,10 +78471,6 @@ name: Leucania separata nucleopolyhedrovirus
 
 [Term]
 id: kegg.genome:7956
-name: LeviOr01 phage
-
-[Term]
-id: kegg.genome:7956
 name: Escherichia phage JES2013
 
 [Term]
@@ -78228,10 +78536,6 @@ name: Skunkpox virus
 [Term]
 id: kegg.genome:796
 name: Staphylococcus phage phi2958PVL
-
-[Term]
-id: kegg.genome:7960
-name: American dog tick phlebovirus
 
 [Term]
 id: kegg.genome:7961
@@ -78750,6 +79054,10 @@ id: kegg.genome:800
 name: Varroa destructor virus 1
 
 [Term]
+id: kegg.genome:8001
+name: EgAN 1825-61 virus
+
+[Term]
 id: kegg.genome:8003
 name: Chilli leaf curl Ahmedabad virus-India \[India/Ahmedabad/2014\]
 
@@ -78759,7 +79067,15 @@ name: Avian paramyxovirus 14
 
 [Term]
 id: kegg.genome:8005
+name: Odonatan chu-related virus OKIAV136
+
+[Term]
+id: kegg.genome:8005
 name: Shigella phage vB_SflS-ISF001
+
+[Term]
+id: kegg.genome:8006
+name: Odonatan chu-related virus OKIAV137
 
 [Term]
 id: kegg.genome:8006
@@ -79491,10 +79807,6 @@ name: Tacheng Tick Virus 2
 
 [Term]
 id: kegg.genome:8084
-name: Musa ornata associated banmivirus
-
-[Term]
-id: kegg.genome:8084
 name: Gordonia phage Woes
 
 [Term]
@@ -79516,10 +79828,6 @@ name: Tacheng Tick Virus 4
 [Term]
 id: kegg.genome:8086
 name: Peafowl parvovirus 1
-
-[Term]
-id: kegg.genome:8086
-name: Gordonia phage EpicDab
 
 [Term]
 id: kegg.genome:8087
@@ -79640,6 +79948,10 @@ name: Wenzhou Tick Virus
 [Term]
 id: kegg.genome:8094
 name: Red clover nepovirus A
+
+[Term]
+id: kegg.genome:8094
+name: LeviOr01 phage
 
 [Term]
 id: kegg.genome:8094
@@ -80879,7 +81191,7 @@ name: Burkholderia glumae LMG 2196 = ATCC 33617
 
 [Term]
 id: kegg.genome:820
-name: Shouchella gibsonii FJAT-10019
+name: Alkalicoccobacillus gibsonii FJAT-10019 \(Shouchella gibsonii FJAT-10019\)
 
 [Term]
 id: kegg.genome:820
@@ -81755,7 +82067,7 @@ name: Companilactobacillus futsaii Y97 \(Lactobacillus futsaii Y97\)
 
 [Term]
 id: kegg.genome:830
-name: Gemmobacter fulva con5
+name: Gemmobacter fulvus con5
 
 [Term]
 id: kegg.genome:830
@@ -81940,10 +82252,6 @@ name: Cyanophage P-RSM6
 [Term]
 id: kegg.genome:8321
 name: Aeromonas phage vB_AhyS-A18P4
-
-[Term]
-id: kegg.genome:8322
-name: Xanthomonas phage XaF13
 
 [Term]
 id: kegg.genome:8323
@@ -82572,6 +82880,10 @@ name: Watermelon virus A
 [Term]
 id: kegg.genome:8417
 name: Mycobacterium phage Pioneer
+
+[Term]
+id: kegg.genome:8418
+name: Phlebovirus GGP-2011a
 
 [Term]
 id: kegg.genome:842
@@ -83758,10 +84070,6 @@ id: kegg.genome:8551
 name: Termite associated circular virus 3
 
 [Term]
-id: kegg.genome:8551
-name: Ambidensovirus Croatia 17_S17
-
-[Term]
 id: kegg.genome:8552
 name: Termite associated circular virus 4
 
@@ -83883,7 +84191,7 @@ name: Pseudomonas tructae SNU WT1
 
 [Term]
 id: kegg.genome:857
-name: Telluria chitinolytica ACM 3522
+name: Pseudoduganella chitinolytica ACM 3522 \(Telluria chitinolytica ACM 3522\)
 
 [Term]
 id: kegg.genome:8570
@@ -86123,10 +86431,6 @@ name: Listeria phage LP-101
 
 [Term]
 id: kegg.genome:8857
-name: Phlebovirus GGP-2011a
-
-[Term]
-id: kegg.genome:8857
 name: Listeria phage LP-114
 
 [Term]
@@ -87555,7 +87859,7 @@ name: Chlamydia trachomatis G/11074
 
 [Term]
 id: kegg.genome:904
-name: Candidatus Caldiarchaeum subterraneum
+name: Candidatus Caldiarchaeum subterraneum DSM 8903
 
 [Term]
 id: kegg.genome:904
@@ -87899,7 +88203,7 @@ name: Pseudomonas phage PPpW-4
 
 [Term]
 id: kegg.genome:909
-name: Eubacterium rectale ATCC 33656 \(Agathobacter rectalis ATCC 33656\)
+name: Agathobacter rectalis ATCC 33656 \(Eubacterium rectale ATCC 33656\)
 
 [Term]
 id: kegg.genome:909
@@ -89690,10 +89994,6 @@ id: kegg.genome:9312
 name: Sweet potato leaf curl Guangxi virus
 
 [Term]
-id: kegg.genome:9312
-name: Apore mammarenavirus
-
-[Term]
 id: kegg.genome:9313
 name: Phascolarctid gammaherpesvirus 1
 
@@ -90790,14 +91090,6 @@ id: kegg.genome:9445
 name: Wheat leaf yellowing-associated virus
 
 [Term]
-id: kegg.genome:9446
-name: Hymenopteran chu-related virus OKIAV123
-
-[Term]
-id: kegg.genome:9448
-name: Hymenopteran chu-related virus OKIAV126
-
-[Term]
 id: kegg.genome:9449
 name: Hymenopteran chu-related virus OKIAV147
 
@@ -90850,16 +91142,8 @@ id: kegg.genome:9450
 name: Hymenopteran orino-related virus OKIAV85
 
 [Term]
-id: kegg.genome:9451
-name: Hymenopteran rhabdo-related virus OKIAV24
-
-[Term]
 id: kegg.genome:9452
 name: Brugmansia mosaic virus
-
-[Term]
-id: kegg.genome:9452
-name: Megalopteran chu-related virus OKIAV119
 
 [Term]
 id: kegg.genome:9453
@@ -93367,6 +93651,10 @@ name: Cacao yellow vein banding virus
 
 [Term]
 id: kegg.genome:9726
+name: Dermapteran chu-related virus OKIAV142
+
+[Term]
+id: kegg.genome:9726
 name: Ralstonia phage Gamede
 
 [Term]
@@ -93484,6 +93772,10 @@ name: Telfairia golden mosaic virus
 [Term]
 id: kegg.genome:9738
 name: Cronobacter phage vB_CsaP_009
+
+[Term]
+id: kegg.genome:9739
+name: Hubei dimarhabdovirus virus 1
 
 [Term]
 id: kegg.genome:9739
@@ -94292,10 +94584,6 @@ name: Cleome leaf crumple alphasatellite
 [Term]
 id: kegg.genome:9825
 name: Melon chlorotic mosaic alphasatellite
-
-[Term]
-id: kegg.genome:9826
-name: Pennisetum alopecuroides mosaic potyvirus
 
 [Term]
 id: kegg.genome:9827

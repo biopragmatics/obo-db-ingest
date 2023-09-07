@@ -1,9 +1,9 @@
 format-version: 1.2
-date: 13:08:2023 01:15
+date: 07:09:2023 10:26
 auto-generated-by: bio2obo:pombase
-data-version: 2023-08-02
+data-version: 2023-09-01
 ontology: pombase
-remark: PomBase
+property_value: http://purl.org/dc/elements/1.1/title "PomBase" xsd:string
 
 [Typedef]
 id: ro:0002162
@@ -238,7 +238,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC1006.02
 name: asa1
-def: "ASTRA complex WD repeat subunit Asa1" []
+def: "TTT co-chaperone complex\, WD repeat subunit Asa1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9UTR9 ! has gene product
 relationship: ro:HOM0000017 hgnc:4397 ! in orthology relationship with
@@ -2389,7 +2389,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC13G6.09
-name: trs402
+name: tsr402
 def: "SSU-rRNA maturation protein Tsr4 homolog 2 Tsr402" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q09787 ! has gene product
@@ -2535,7 +2535,6 @@ def: "argonaute binding protein 2" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q10271 ! has gene product
 relationship: ro:HOM0000017 hgnc:25365 ! in orthology relationship with
-relationship: ro:HOM0000017 hgnc:34336 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "1" xsd:string
 
@@ -13128,7 +13127,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC29A4.19c
 name: cta5
-def: "Ca2+/Mn2+ transporting P-type ATPase P5 type Cta5" []
+def: "P-type ATPase P5 type Cta5" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O14022 ! has gene product
 relationship: ro:HOM0000017 hgnc:24113 ! in orthology relationship with
@@ -14212,7 +14211,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC2H10.02c
 name: nas2
-def: "26S proteasome regulatory particle assembly protein Nas2" []
+def: "26S proteasome regulatory particle assembly factor Nas2" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O94393 ! has gene product
 relationship: ro:HOM0000017 hgnc:9567 ! in orthology relationship with
@@ -16293,7 +16292,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC3H1.04c
 name: mdm31
-def: "mitochondrial inner membrane protein Mdm31\, unknown biological role\, interacts with ERMES" []
+def: "mitochondrial inner membrane protein Mdm31\, mitochondrion inheritance factor\, interacts with ERMES" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q10070 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -16622,7 +16621,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC458.03
 name: tel2
-def: "Tel2/Rad-5/Clk-2 family protein Tel2" []
+def: "TTT co-chaperone complex LRR repeat subunit Tel2" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9P3W5 ! has gene product
 relationship: ro:HOM0000017 hgnc:29099 ! in orthology relationship with
@@ -21049,7 +21048,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC823.11
 name: sgp1
-def: "sphingosine-1-phosphate phosphatase Spg1/Lcb3" []
+def: "sphingosine-1-phosphate phosphatase Sgp1/Lcb3" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9P6N5 ! has gene product
 relationship: ro:HOM0000017 hgnc:17720 ! in orthology relationship with
@@ -22299,7 +22298,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC9E9.04
-def: "bcap family homolog\, vesicle-mediated transport protein" []
+def: "bcap family homolog\, vesicle-mediated transport factor" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O14290 ! has gene product
 relationship: ro:HOM0000017 hgnc:16695 ! in orthology relationship with
@@ -22561,7 +22560,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC9G1.13c
 name: swc4
-def: "Swr1 complex subunit Swc4" []
+def: "Swr1 complex/NuA4 histone acetyltransferase complex subunit Swc4" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O14308 ! has gene product
 relationship: ro:HOM0000017 hgnc:18291 ! in orthology relationship with
@@ -22612,7 +22611,7 @@ synonym: "csp3" EXACT []
 [Term]
 id: pombase:SPACUNK4.07c
 name: cta4
-def: "P-type ATPase family V\, transmembrane protein dislocase/calcium transporting ATPase Cta4" []
+def: "P-type ATPase family V\, transmembrane protein dislocase Cta4" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O14072 ! has gene product
 relationship: ro:HOM0000017 hgnc:24215 ! in orthology relationship with
@@ -22789,7 +22788,7 @@ synonym: "ppp53" EXACT []
 
 [Term]
 id: pombase:SPAP14E8.05c
-def: "mitochondrial protoporphyrinogen IX importer" []
+def: "mitochondrial protoporphyrinogen IX import factor\, TMEM14 family" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9P7G3 ! has gene product
 relationship: ro:HOM0000017 hgnc:20952 ! in orthology relationship with
@@ -23987,7 +23986,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAPB8E5.09
 name: rvb1
-def: "ASTRA/Swr1/Ino80 complex AAA family ATPase Rvb1" []
+def: "chaperone\, AAA family ATPase Rvb1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9C0X6 ! has gene product
 relationship: ro:HOM0000017 hgnc:10474 ! in orthology relationship with
@@ -25610,7 +25609,7 @@ synonym: "SPBC3B8.12" EXACT []
 [Term]
 id: pombase:SPBC11G11.01
 name: fis1
-def: "mitochondrial fission protein Fis1" []
+def: "mitochondrial outer membrane fission complex receptor Fis1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9USZ8 ! has gene product
 relationship: ro:HOM0000017 hgnc:21689 ! in orthology relationship with
@@ -27842,7 +27841,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC1604.17c
 name: tti2
-def: "ASTRA complex subunit Tti2" []
+def: "TTT co-chaperone complex subunit Tti2" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O94729 ! has gene product
 relationship: ro:HOM0000017 hgnc:26262 ! in orthology relationship with
@@ -30057,8 +30056,8 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC1773.01
-name: far8
-def: "SIP/FAR complex WD repeat \(scaffold\) subunit\, striatin\, Far8/Csc3" []
+name: csc3
+def: "SIP/FAR complex WD repeat \(scaffold\) subunit\, striatin Csc3" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O94560 ! has gene product
 relationship: ro:HOM0000017 hgnc:11424 ! in orthology relationship with
@@ -30066,7 +30065,7 @@ relationship: ro:HOM0000017 hgnc:15720 ! in orthology relationship with
 relationship: ro:HOM0000017 hgnc:15721 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "2" xsd:string
-synonym: "csc3" EXACT []
+synonym: "far8" EXACT []
 
 [Term]
 id: pombase:SPBC1773.02c
@@ -33743,7 +33742,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC25H2.15
-name: trs401
+name: tsr401
 def: "SSU-rRNA maturation protein Tsr4 homolog 1 Tsr401" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:P87156 ! has gene product
@@ -34038,15 +34037,15 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC27B12.04c
-name: far11
-def: "SIP/FAR complex subunit\, Far11/Csc2" []
+name: csc2
+def: "SIP/FAR complex subunit Csc2" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O13665 ! has gene product
 relationship: ro:HOM0000017 hgnc:22209 ! in orthology relationship with
 relationship: ro:HOM0000017 hgnc:25916 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "2" xsd:string
-synonym: "csc2" EXACT []
+synonym: "far11" EXACT []
 
 [Term]
 id: pombase:SPBC27B12.05
@@ -37236,7 +37235,7 @@ synonym: "SPBC557.06c" EXACT []
 [Term]
 id: pombase:SPBC36B7.02
 name: svf2
-def: "ER to Golgi ceramide transport\, lipocalin superfamily Svf2" []
+def: "ER to Golgi ceramide transport protein\, lipocalin superfamily Svf2" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9HGN8 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -38143,14 +38142,14 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC3H7.13
-name: far10
-def: "SIP/FAR complex FHA domain subunit Far10/Csc1" []
+name: csc1
+def: "SIP/FAR complex FHA domain subunit Csc1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O74388 ! has gene product
 relationship: ro:HOM0000017 hgnc:16643 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "2" xsd:string
-synonym: "csc1" EXACT []
+synonym: "far10" EXACT []
 
 [Term]
 id: pombase:SPBC3H7.14
@@ -40287,7 +40286,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC660.11
 name: tcg1
-def: "single-stranded telomeric binding protein Tgc1" []
+def: "single-stranded telomeric binding protein Tcg1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9HEQ9 ! has gene product
 relationship: ro:HOM0000017 hgnc:1982 ! in orthology relationship with
@@ -40465,7 +40464,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC691.03c
 name: apl3
-def: "AP-2 adaptor complex alpha subunit Alp3" []
+def: "AP-2 adaptor complex alpha subunit Apl3" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9C0W7 ! has gene product
 relationship: ro:HOM0000017 hgnc:561 ! in orthology relationship with
@@ -41046,7 +41045,7 @@ synonym: "lro1" EXACT []
 [Term]
 id: pombase:SPBC776.15c
 name: kgd2
-def: "dihydrolipoamide S-succinyltransferase\, e2 component of oxoglutarate dehydrogenase complex Kdg2" []
+def: "dihydrolipoamide S-succinyltransferase\, e2 component of oxoglutarate dehydrogenase complex Kgd2" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O94681 ! has gene product
 relationship: ro:HOM0000017 hgnc:2911 ! in orthology relationship with
@@ -41306,7 +41305,7 @@ synonym: "kdm4" EXACT []
 [Term]
 id: pombase:SPBC83.08
 name: rvb2
-def: "ASTRA/Swr1/Ino80 complex AAA family ATPase Rvb2" []
+def: "chaperone\, AAA family ATPase Rvb1 Rvb2" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O94692 ! has gene product
 relationship: ro:HOM0000017 hgnc:10475 ! in orthology relationship with
@@ -42480,7 +42479,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBP16F5.03c
 name: tra1
-def: "SAGA complex/ASTRA complex\, phosphatidylinositol pseudokinase Tra1" []
+def: "SAGA complex\, phosphatidylinositol pseudokinase subunit Tra1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9HFE8 ! has gene product
 relationship: ro:HOM0000017 hgnc:12347 ! in orthology relationship with
@@ -47751,7 +47750,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC1795.08c
 name: vid21
-def: "NuA4 histone acetyltransferase complex subunit Vid21" []
+def: "NuA4 histone acetyltransferase complex scaffold subunit Vid21/Eaf1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O59773 ! has gene product
 relationship: ro:HOM0000017 hgnc:11958 ! in orthology relationship with
@@ -48919,7 +48918,7 @@ synonym: "rps17-2" EXACT []
 [Term]
 id: pombase:SPCC24B10.10c
 name: yta4
-def: "mitochondrial outer membrane ATPase Msp1/Yta4" []
+def: "mitochondrial outer membrane dislocase Msp1/Yta4" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9P7J5 ! has gene product
 relationship: ro:HOM0000017 hgnc:25903 ! in orthology relationship with
@@ -49983,7 +49982,7 @@ synonym: "rpl17-2" EXACT []
 [Term]
 id: pombase:SPCC364.04c
 name: coy1
-def: "CASP family protein involved in Golgi vesicle transport Coy1" []
+def: "CASP family protein\, Golgi vesicle transport factor Coy1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O59795 ! has gene product
 relationship: ro:HOM0000017 hgnc:19347 ! in orthology relationship with
@@ -51724,7 +51723,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC622.13c
 name: tti1
-def: "ASTRA complex subunit\, armadillo-type fold Tti1" []
+def: "TTT co-chaperone complex\, armadillo-type fold subunit Tti1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O94600 ! has gene product
 relationship: ro:HOM0000017 hgnc:29029 ! in orthology relationship with
@@ -53086,7 +53085,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC825.05c
 name: pwi1
-def: "splicing coactivator Srm160" []
+def: "splicing coactivator Pwi1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9USH5 ! has gene product
 relationship: ro:HOM0000017 hgnc:16638 ! in orthology relationship with
@@ -53124,7 +53123,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC830.05c
 name: epl1
-def: "NuA4 histone acetyltransferase complex Epl1" []
+def: "NuA4 histone acetyltransferase core complex-Piccolo HAT module linker protein Epl1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9UU94 ! has gene product
 relationship: ro:HOM0000017 hgnc:19876 ! in orthology relationship with
@@ -106546,7 +106545,7 @@ id: pombase:gene_systematic_id
 name: gene_name
 def: "gene_product" []
 is_a: so:0000704 ! gene
-relationship: ro:0002205 uniprot:uniprot_id ! has gene product
+relationship: ro:0002205 uniprot:id ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "id" xsd:string
 synonym: "synonyms" EXACT []
