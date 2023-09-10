@@ -223,7 +223,7 @@ kegg.genome:
     references: 0
     relations: 0
     synonyms: 0
-    terms: 24039
+    terms: 24042
     version: '107.1'
     xrefs: 0
 mesh:
@@ -250,26 +250,7 @@ mesh:
     terms: 353045
     version: '2023'
     xrefs: 185005
-mgi:
-  nodes:
-    gzipped: false
-    iri: https://w3id.org/biopragmatics/resources/mgi/mgi.tsv
-    path: mgi/mgi.tsv
-  obo:
-    gzipped: true
-    iri: https://w3id.org/biopragmatics/resources/mgi/mgi.obo.gz
-    path: mgi/mgi.obo.gz
-  summary:
-    alts: 0
-    definitions: 677553
-    parents: 0
-    properties: 0
-    references: 0
-    relations: 889559
-    synonyms: 257300
-    terms: 677553
-    version: null
-    xrefs: 128957
+mgi: {}
 mirbase: {}
 mirbase.family: {}
 mirbase.mature: {}
@@ -389,7 +370,7 @@ pombase:
     properties: 12685
     references: 0
     relations: 23452
-    synonyms: 2555
+    synonyms: 2556
     terms: 12685
     version: '2023-09-01'
     xrefs: 0
@@ -417,54 +398,8 @@ reactome:
     terms: 22147
     version: '85'
     xrefs: 0
-rgd:
-  nodes:
-    gzipped: false
-    iri: https://w3id.org/biopragmatics/resources/rgd/rgd.tsv
-    path: rgd/rgd.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/rgd/2023-08-18/rgd.tsv
-    version_path: rgd/2023-08-18/rgd.tsv
-  obo:
-    gzipped: false
-    iri: https://w3id.org/biopragmatics/resources/rgd/rgd.obo
-    path: rgd/rgd.obo
-    version_iri: https://w3id.org/biopragmatics/resources/rgd/2023-08-18/rgd.obo
-    version_path: rgd/2023-08-18/rgd.obo
-  summary:
-    alts: 0
-    definitions: 46743
-    parents: 0
-    properties: 0
-    references: 120978
-    relations: 131523
-    synonyms: 135850
-    terms: 57145
-    version: '2023-08-18'
-    xrefs: 86752
-rhea:
-  nodes:
-    gzipped: false
-    iri: https://w3id.org/biopragmatics/resources/rhea/rhea.tsv
-    path: rhea/rhea.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/rhea/128/rhea.tsv
-    version_path: rhea/128/rhea.tsv
-  obo:
-    gzipped: false
-    iri: https://w3id.org/biopragmatics/resources/rhea/rhea.obo
-    path: rhea/rhea.obo
-    version_iri: https://w3id.org/biopragmatics/resources/rhea/128/rhea.obo
-    version_path: rhea/128/rhea.obo
-  summary:
-    alts: 0
-    definitions: 0
-    parents: 63108
-    properties: 0
-    references: 0
-    relations: 47628
-    synonyms: 0
-    terms: 63504
-    version: '128'
-    xrefs: 19187
+rgd: {}
+rhea: {}
 sgd:
   nodes:
     gzipped: false
@@ -489,54 +424,8 @@ sgd:
     terms: 6600
     version: R64-3-1
     xrefs: 0
-slm:
-  nodes:
-    gzipped: true
-    iri: https://w3id.org/biopragmatics/resources/slm/slm.tsv.gz
-    path: slm/slm.tsv.gz
-    version_iri: https://w3id.org/biopragmatics/resources/slm/2023-09-07/slm.tsv.gz
-    version_path: slm/2023-09-07/slm.tsv.gz
-  obo:
-    gzipped: true
-    iri: https://w3id.org/biopragmatics/resources/slm/slm.obo.gz
-    path: slm/slm.obo.gz
-    version_iri: https://w3id.org/biopragmatics/resources/slm/2023-09-07/slm.obo.gz
-    version_path: slm/2023-09-07/slm.obo.gz
-  summary:
-    alts: 0
-    definitions: 0
-    parents: 0
-    properties: 2929197
-    references: 9948
-    relations: 0
-    synonyms: 1344722
-    terms: 779249
-    version: '2023-09-07'
-    xrefs: 42419
-uniprot:
-  nodes:
-    gzipped: false
-    iri: https://w3id.org/biopragmatics/resources/uniprot/uniprot.tsv
-    path: uniprot/uniprot.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/uniprot/2023_03/uniprot.tsv
-    version_path: uniprot/2023_03/uniprot.tsv
-  obo:
-    gzipped: false
-    iri: https://w3id.org/biopragmatics/resources/uniprot/uniprot.obo
-    path: uniprot/uniprot.obo
-    version_iri: https://w3id.org/biopragmatics/resources/uniprot/2023_03/uniprot.obo
-    version_path: uniprot/2023_03/uniprot.obo
-  summary:
-    alts: 0
-    definitions: 0
-    parents: 0
-    properties: 0
-    references: 1113289
-    relations: 867550
-    synonyms: 0
-    terms: 569793
-    version: '2023_03'
-    xrefs: 267708
+slm: {}
+uniprot: {}
 wikipathways:
   nodes:
     gzipped: false
@@ -561,27 +450,4 @@ wikipathways:
     terms: 1763
     version: '20230810'
     xrefs: 0
-zfin:
-  nodes:
-    gzipped: false
-    iri: https://w3id.org/biopragmatics/resources/zfin/zfin.tsv
-    path: zfin/zfin.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/zfin/2023-09-06/zfin.tsv
-    version_path: zfin/2023-09-06/zfin.tsv
-  obo:
-    gzipped: false
-    iri: https://w3id.org/biopragmatics/resources/zfin/zfin.obo
-    path: zfin/zfin.obo
-    version_iri: https://w3id.org/biopragmatics/resources/zfin/2023-09-06/zfin.obo
-    version_path: zfin/2023-09-06/zfin.obo
-  summary:
-    alts: 27870
-    definitions: 32773
-    parents: 178100
-    properties: 0
-    references: 0
-    relations: 251567
-    synonyms: 0
-    terms: 178100
-    version: '2023-09-06'
-    xrefs: 24546
+zfin: {}

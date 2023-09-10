@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 07:09:2023 10:26
+date: 10:09:2023 01:44
 auto-generated-by: bio2obo:pombase
 data-version: 2023-09-01
 ontology: pombase
@@ -673,7 +673,7 @@ synonym: "SPAC4C5.05c" EXACT []
 [Term]
 id: pombase:SPAC10F6.02c
 name: prp22
-def: "ATP-dependent RNA helicase Prp22" []
+def: "ATP-dependent RNA helicase\, spliceosomal Prp22" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O42643 ! has gene product
 relationship: ro:HOM0000017 hgnc:2749 ! in orthology relationship with
@@ -3721,7 +3721,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC1610.01
 name: saf5
-def: "splicing factor Saf5" []
+def: "methylosome subunit pICln\, Saf5" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O13777 ! has gene product
 relationship: ro:HOM0000017 hgnc:2080 ! in orthology relationship with
@@ -20326,13 +20326,14 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC6G10.09
-name: ghs1
-def: "glucosidase I Ghs1" []
+name: gls1
+def: "glucosidase I Gls1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O14255 ! has gene product
 relationship: ro:HOM0000017 hgnc:24862 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "1" xsd:string
+synonym: "ghs1" EXACT []
 
 [Term]
 id: pombase:SPAC6G10.10c
@@ -23422,7 +23423,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAPB1A10.06c
 name: dhx37
-def: "ATP-dependent RNA helicase Dhx37" []
+def: "ATP-dependent RNA helicase\, small-subunit processome Dhx37" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9HDY4 ! has gene product
 relationship: ro:HOM0000017 hgnc:17210 ! in orthology relationship with
@@ -29168,7 +29169,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC16H5.10c
 name: prp43
-def: "ATP-dependent RNA helicase Prp43" []
+def: "ATP-dependent RNA helicase\, spliceosomal Prp43" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O42945 ! has gene product
 relationship: ro:HOM0000017 hgnc:2738 ! in orthology relationship with
@@ -29789,7 +29790,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC1711.17
 name: prp16
-def: "ATP-dependent RNA helicase Prp16" []
+def: "ATP-dependent RNA helicase\, splicosomal Prp16" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9P774 ! has gene product
 relationship: ro:HOM0000017 hgnc:17211 ! in orthology relationship with

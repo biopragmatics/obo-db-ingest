@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 07:09:2023 10:26
+date: 10:09:2023 01:44
 auto-generated-by: bio2obo:hgnc.genegroup
 synonymtypedef: obo:symbol "symbol"
 ontology: hgnc.genegroup
@@ -4849,7 +4849,7 @@ synonym: "MIR374" EXACT obo:symbol []
 
 [Term]
 id: hgnc.genegroup:1776
-name: RISC loading complex
+name: RISC loading complex subunits
 def: "The RNA-induced silencing complex\, or RISC\, is a multiprotein complex\, specifically a ribonucleoprotein\, which functions in gene silencing via a variety of pathways at the transcriptional and translational levels. Using single-stranded RNA \(ssRNA\) fragments\, such as microRNA \(miRNA\)\, or double-stranded small interfering RNA \(siRNA\)\, the complex functions as a key tool in gene regulation. The single strand of RNA acts as a template for RISC to recognize complementary messenger RNA \(mRNA\) transcript. Once found\, one of the proteins in RISC\, Argonaute\, activates and cleaves the mRNA. This process is called RNA interference \(RNAi\) and it is found in many eukaryotes; it is a key process in defense against viral infections\, as it is triggered by the presence of double-stranded RNA \(dsRNA\)." [pubmed:18178619, pubmed:19820710, pubmed:21520169, pubmed:23550157]
 is_a: so:0005855 ! gene_group
 relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
