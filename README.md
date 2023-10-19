@@ -18,6 +18,7 @@ containing the following exports:
 - [OWL (functional syntax)](http://www.w3.org/TR/owl2-syntax/)
 - [OBO](http://purl.obolibrary.org/obo/oboformat)
 - [OBO Graph JSON](https://github.com/geneontology/obographs/)
+- [Simple Standard for Sharing Ontological Mappings (SSSOM)](https://w3id.org/sssom)
 
 A manifest of all resources is available at [manifest.yml](docs/_data/manifest.yml).
 
