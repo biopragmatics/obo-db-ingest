@@ -210,7 +210,7 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False) -> dict:
     try:
         tqdm.write(f"[{prefix}] converting to OWL")
         convert(obo_path, owl_path)
-        rv["owl"] = _prepare_art(prefix, obo_graph_json_path, has_version, ".owl.gz")
+        rv["owl"] = _prepare_art(prefix, owl_path, has_version, ".owl.gz")
     except Exception:
         tqdm.write(click.style(f"[{prefix}] ROBOT failed to convert to OWL", fg="red"))
     else:
