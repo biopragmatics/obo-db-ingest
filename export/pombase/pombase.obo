@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 10:09:2023 01:44
+date: 19:10:2023 11:36
 auto-generated-by: bio2obo:pombase
-data-version: 2023-09-01
+data-version: 2023-10-01
 ontology: pombase
 property_value: http://purl.org/dc/elements/1.1/title "PomBase" xsd:string
 
@@ -471,7 +471,7 @@ synonym: "SPAC4H3.15c" EXACT []
 [Term]
 id: pombase:SPAC1071.02
 name: mms19
-def: "CIA machinery protein Mms19" []
+def: "CIA machinery iron sulphur cluster to apoprotein adaptor Mms19" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9UTR1 ! has gene product
 relationship: ro:HOM0000017 hgnc:13824 ! in orthology relationship with
@@ -795,7 +795,7 @@ synonym: "aat2" EXACT []
 
 [Term]
 id: pombase:SPAC10F6.14c
-def: "mitochondrial ABC1 kinase family protein\, human ADCK5 ortholog\, unknown role" []
+def: "mitochondrial ABC1 kinase-like protein\, human ADCK5 ortholog\, unknown role\, possible chaperone for ubiquinone biosynthesis" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O42653 ! has gene product
 relationship: ro:HOM0000017 hgnc:21738 ! in orthology relationship with
@@ -1063,7 +1063,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC11D3.10
-def: "nifs homolog\, possible cysteine desulfurase" []
+def: "nifs homolog\, possible cysteine desulfurase\, implicated in iron-sulfur cluster assembly" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q10089 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -1258,7 +1258,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC11E3.10
-def: "Golgi multispanning membrane VanZ-like family protein" []
+def: "ER or Golgi multispanning membrane VanZ-like family protein" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O13689 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -1993,7 +1993,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC1399.02
-def: "transmembrane transporter" []
+def: "tbasic amino acid ransmembrane transporter" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9HE13 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -3463,7 +3463,7 @@ synonym: "sur7" EXACT []
 [Term]
 id: pombase:SPAC15A10.10
 name: mde6
-def: "Muskelin homolog\, kelch repeat\, expressed during meiotic cell cycle\, implicated in cytoskeletal processes" []
+def: "Muskelin homolog\, kelch repeat\, expressed during meiotic cell cycle\, implicated in actin cytoskeletal processes" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O13730 ! has gene product
 relationship: ro:HOM0000017 hgnc:7109 ! in orthology relationship with
@@ -3753,12 +3753,13 @@ synonym: "meu5" EXACT []
 
 [Term]
 id: pombase:SPAC1610.04
-name: mug99
-def: "mitochondrial conserved fungal membrane protein Mug99" []
+name: mmc1
+def: "mitochondrial MICOS interactor required for cristae morphology Mmc1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9P6M7 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "1" xsd:string
+synonym: "mug99" EXACT []
 
 [Term]
 id: pombase:SPAC1635.01
@@ -6877,7 +6878,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC19B12.01
 name: ceo5
-def: "TPR repeat protein\, implicated in translation or RNA processing\, human TTC27 ortholog" []
+def: "TPR repeat protein\, implicated in rRNA processing from interactions\, human TTC27 ortholog" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O36033 ! has gene product
 relationship: ro:HOM0000017 hgnc:25986 ! in orthology relationship with
@@ -7337,7 +7338,8 @@ synonym: "new10" EXACT []
 
 [Term]
 id: pombase:SPAC1A6.01c
-def: "human thyroid receptor interacting protein homolog\, transcription coactivator" []
+name: rqt4
+def: "RQT complex subunit Rqt4" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O13855 ! has gene product
 relationship: ro:HOM0000017 hgnc:12310 ! in orthology relationship with
@@ -7796,7 +7798,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC1D4.03c
 name: aut12
-def: "autophagy associated protein Aut12" []
+def: "autophagy associated heterodimeric guanine nucleotide exchange factor \(GEF\) subunit Aut12" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q10150 ! has gene product
 relationship: ro:HOM0000017 hgnc:25020 ! in orthology relationship with
@@ -9233,7 +9235,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC227.17c
-def: "DUF3128 family\, human c22orf39 ortholog" []
+def: "DUF3128 family\, human c22orf39 ortholog\, implicated in gene expression" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9UTC2 ! has gene product
 relationship: ro:HOM0000017 hgnc:27012 ! in orthology relationship with
@@ -9581,7 +9583,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC22E12.16c
 name: pik1
-def: "1-phosphatidylinositol 4-kinase Pik1" []
+def: "Golgi-specific 1-phosphatidylinositol 4-kinase\, type III-beta Pik1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q10366 ! has gene product
 relationship: ro:HOM0000017 hgnc:8984 ! in orthology relationship with
@@ -10599,7 +10601,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC23C4.09c
-def: "DNA-binding TFAR19-related protein\, human Programmed cell death protein 5 ortholog" []
+def: "DNA-binding TFAR19-related protein\, human Programmed cell death protein 5 ortholog\, implicated in DNA repair" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O13929 ! has gene product
 relationship: ro:HOM0000017 hgnc:8764 ! in orthology relationship with
@@ -11854,7 +11856,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC25B8.08
-def: "Golgi Ras-interacting protein with DIL domain\, human RADIL and RASIP1 ortholog \(predicted\)\, implicated in vesicle-mediated transport" []
+def: "Golgi Ras-interacting protein with DIL domain\, human RADIL and RASIP1 ortholog \(predicted\)\, implicated in cytoskeleton organization" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9UTB0 ! has gene product
 relationship: ro:HOM0000017 hgnc:22226 ! in orthology relationship with
@@ -12053,7 +12055,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC25G10.09c
 name: pan1
-def: "actin cortical patch component\, with EF hand and WH2 motif Panl" []
+def: "actin cortical patch component\, with EF hand and WH2 motif Pan1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q10172 ! has gene product
 relationship: ro:HOM0000017 hgnc:6183 ! in orthology relationship with
@@ -14066,7 +14068,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC2G11.05c
 name: alx1
-def: "ESCRT-III adaptor Alx1" []
+def: "ESCRT-III regulator Alx1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q09807 ! has gene product
 relationship: ro:HOM0000017 hgnc:8766 ! in orthology relationship with
@@ -14715,7 +14717,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC31G5.06
 name: rrg8
-def: "mitochondrial conserved fungal protein Rrg8" []
+def: "mitochondrial mitochondrial tRNA 5'-end processing protein Rrg8" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O14106 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -15137,7 +15139,8 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC343.06c
-def: "mitochondrial phospholipid scramblase" []
+name: pls1
+def: "mitochondrial phospholipid scramblase Pls1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9UT84 ! has gene product
 relationship: ro:HOM0000017 hgnc:16494 ! in orthology relationship with
@@ -15275,7 +15278,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC343.19
 name: lsb6
-def: "1-phosphatidylinositol 4-kinase Lsb6" []
+def: "1-phosphatidylinositol 4-kinase\, type II Lsb6" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9UT42 ! has gene product
 relationship: ro:HOM0000017 hgnc:18215 ! in orthology relationship with
@@ -16311,7 +16314,7 @@ synonym: "ppp11" EXACT []
 
 [Term]
 id: pombase:SPAC3H1.06c
-def: "transmembrane transporter" []
+def: "basic amino acid transmembrane transporter" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q10072 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -17269,7 +17272,6 @@ name: did4
 def: "ESCRT III complex subunit Did4" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O14177 ! has gene product
-relationship: ro:HOM0000017 hgnc:30216 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "1" xsd:string
 synonym: "SPAC644.03c" EXACT []
@@ -18632,7 +18634,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC5D6.12
 name: mtf2
-def: "mitochondrial translation protein Mtf2" []
+def: "mitochondrial translation factor Mtf2" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O14204 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -19110,7 +19112,7 @@ synonym: "kat5" EXACT []
 [Term]
 id: pombase:SPAC637.13c
 name: slm1
-def: "cytoskeletal signaling protein Slm1" []
+def: "phosphoinositide PI4\,5P\(2\) binding protein Slm1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O94447 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -21549,13 +21551,14 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC8E11.01c
-name: suc2
-def: "sucrose alpha-glucosidase Suc2" []
+name: inv2
+def: "invertase\, beta-fructofuranosidase Inv2" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O42878 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "1" xsd:string
 synonym: "SPAC959.01" EXACT []
+synonym: "suc2" EXACT []
 
 [Term]
 id: pombase:SPAC8E11.02c
@@ -23169,7 +23172,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAP8A3.14c
 name: sls1
-def: "mitochondrial inner membrane protein Sls1" []
+def: "mitochondrial tranlagtion factor Sls1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9UT03 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -24599,7 +24602,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC106.03
-def: "mitochondrial Rossman fold DUF1776 family protein" []
+def: "mitochondrial steroid dehydrogenase" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9URV8 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -26824,14 +26827,15 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC13G1.10c
-name: slh1
-def: "ATP-dependent RNA helicase Slh1\, human ASCC3 ortholog" []
+name: rqt2
+def: "RQT complex ATP-dependent RNA helicase Rqt2\, human ASCC3 ortholog" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O60072 ! has gene product
 relationship: ro:HOM0000017 hgnc:18697 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "2" xsd:string
 synonym: "mug81" EXACT []
+synonym: "slh1" EXACT []
 
 [Term]
 id: pombase:SPBC13G1.11
@@ -26850,6 +26854,7 @@ def: "ESCRT III complex subunit Did2" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O60074 ! has gene product
 relationship: ro:HOM0000017 hgnc:24287 ! in orthology relationship with
+relationship: ro:HOM0000017 hgnc:8740 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "2" xsd:string
 
@@ -27512,7 +27517,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC15C4.06c
-def: "ubiquitin-protein ligase E3 Meu34\, unknown biological role" []
+def: "ubiquitin-protein ligase E3\, human RNF181 like\, unknown biological role" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q1MTR5 ! has gene product
 relationship: ro:HOM0000017 hgnc:28037 ! in orthology relationship with
@@ -27568,7 +27573,7 @@ synonym: "gpt" EXACT []
 [Term]
 id: pombase:SPBC15D4.05
 name: zng1
-def: "zinc chaperone Zng1" []
+def: "zinc chaperone Zng1\, possible chaperone for mitochondrial zinc containing proteins" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O74310 ! has gene product
 relationship: ro:HOM0000017 hgnc:17134 ! in orthology relationship with
@@ -28419,7 +28424,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC16A3.17c
-def: "transmembrane transporter" []
+def: "basic amino acid transmembrane transporter" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O42922 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -28481,7 +28486,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC16C6.04
 name: dbl6
-def: "double strand break localizing protein Dbl6" []
+def: "double strand break localizing protein Dbl6\, implicated in DNA repair" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O42928 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -29130,7 +29135,7 @@ synonym: "cwf27" EXACT []
 [Term]
 id: pombase:SPBC16H5.06
 name: rip1
-def: "ubiquinol-cytochrome-c reductase complex subunit 5\, Rip1" []
+def: "Rieske iron-sulfur protein\, ubiquinol-cytochrome-c reductase complex subunit 5\, Rip1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q09154 ! has gene product
 relationship: ro:HOM0000017 hgnc:12587 ! in orthology relationship with
@@ -29198,11 +29203,11 @@ synonym: "SPNGAF91" EXACT []
 
 [Term]
 id: pombase:SPBC16H5.13
-name: wdr54
-def: "WD repeat protein\, human WDR54 ortholog\, implicated in vesicle-mediated transport" []
+name: wdr7
+def: "WD repeat protein\, human WDR7 ortholog" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O42948 ! has gene product
-relationship: ro:HOM0000017 hgnc:25770 ! in orthology relationship with
+relationship: ro:HOM0000017 hgnc:13490 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "2" xsd:string
 
@@ -30369,7 +30374,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC17A3.03c
 name: siw14
-def: "inositol phosphatase Siw14" []
+def: "inositol pyrophosphatase Siw14" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9UUF3 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -31293,6 +31298,10 @@ name: pvg3
 def: "Golgi galactosylxylosylprotein 3-beta-galactosyltransferase Pvg3" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9USX0 ! has gene product
+relationship: ro:HOM0000017 hgnc:15683 ! in orthology relationship with
+relationship: ro:HOM0000017 hgnc:15684 ! in orthology relationship with
+relationship: ro:HOM0000017 hgnc:17978 ! in orthology relationship with
+relationship: ro:HOM0000017 hgnc:24139 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "2" xsd:string
 synonym: "mug49" EXACT []
@@ -33587,7 +33596,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC25D12.05
 name: trm1
-def: "tRNA \(guanine-N2-\)-methyltransferase Trm1" []
+def: "mitochondrial tRNA \(guanine-N2-\)-methyltransferase Trm1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9P804 ! has gene product
 relationship: ro:HOM0000017 hgnc:25980 ! in orthology relationship with
@@ -36046,7 +36055,7 @@ synonym: "kin2" EXACT []
 [Term]
 id: pombase:SPBC32F12.01c
 name: css1
-def: "inositol phosphosphingolipid phospholipase C\, Css1" []
+def: "plasma membrane inositol phosphosphingolipid phospholipase C\, Css1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O74369 ! has gene product
 relationship: ro:HOM0000017 hgnc:11121 ! in orthology relationship with
@@ -36232,9 +36241,10 @@ synonym: "fcf1" EXACT []
 
 [Term]
 id: pombase:SPBC32H8.05
-def: "UPF0642 conserved fungal protein" []
+def: "ribosome-associated protein" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q96WW3 ! has gene product
+relationship: ro:HOM0000017 hgnc:28229 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "2" xsd:string
 
@@ -36826,6 +36836,7 @@ name: def1
 def: "RNAPII degradation factor Def1" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O43024 ! has gene product
+relationship: ro:HOM0000017 hgnc:14185 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "2" xsd:string
 
@@ -38091,9 +38102,12 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC3H7.08c
-def: "mitochondrial conserved fungal membrane protein" []
+def: "mitochondrial protein\, implicated in respiratory complex assembly" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O74383 ! has gene product
+relationship: ro:HOM0000017 hgnc:29836 ! in orthology relationship with
+relationship: ro:HOM0000017 hgnc:29898 ! in orthology relationship with
+relationship: ro:HOM0000017 hgnc:7687 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "2" xsd:string
 
@@ -39652,7 +39666,7 @@ synonym: "mug41" EXACT []
 [Term]
 id: pombase:SPBC577.06c
 name: stt4
-def: "1-phosphatidylinositol 4-kinase Stt4" []
+def: "plasma membrane 1-phosphatidylinositol 4-kinase\, type III-alpha Stt4" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9USR3 ! has gene product
 relationship: ro:HOM0000017 hgnc:8983 ! in orthology relationship with
@@ -41273,7 +41287,8 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC83.05
-def: "mitochondrial RNA-binding protein" []
+name: yme2
+def: "mitochondrial RNA-binding protein Yme2" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O94689 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -42294,7 +42309,6 @@ relationship: ro:0002205 uniprot:O43090 ! has gene product
 relationship: ro:HOM0000017 hgnc:21411 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "2" xsd:string
-synonym: "nde1" EXACT []
 
 [Term]
 id: pombase:SPBC9B6.02c
@@ -44861,7 +44875,8 @@ synonym: "SPCC188.01c" EXACT []
 
 [Term]
 id: pombase:SPCC1223.01
-def: "ubiquitin-protein ligase E3 involved in rescue of stalled ribosomes" []
+name: hel2
+def: "ubiquitin-protein ligase E3 involved in rescue of stalled ribosomes Hel2" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q76PD2 ! has gene product
 relationship: ro:HOM0000017 hgnc:28079 ! in orthology relationship with
@@ -45372,12 +45387,13 @@ synonym: "SPCC576.18c" EXACT []
 [Term]
 id: pombase:SPCC126.02c
 name: pku70
-def: "Ku domain helicase \(human XRCC6 ortholog\) Pku70" []
+def: "Ku70 \(human XRCC6 ortholog\) Pku70" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O94395 ! has gene product
 relationship: ro:HOM0000017 hgnc:4055 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "3" xsd:string
+synonym: "ku70" EXACT []
 
 [Term]
 id: pombase:SPCC126.03
@@ -48502,13 +48518,14 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC1906.02c
-name: cue3
-def: "CUE domain protein Cue3\, human ASCC2 ortholog\, activating signal cointegrator 1 complex" []
+name: rqt3
+def: "RQT complex CUE domain protein\, human ASCC2 ortholog Rqt3" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O74485 ! has gene product
 relationship: ro:HOM0000017 hgnc:24103 ! in orthology relationship with
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "3" xsd:string
+synonym: "cue3" EXACT []
 
 [Term]
 id: pombase:SPCC1906.03
@@ -49288,7 +49305,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC2H8.05c
 name: dbl1
-def: "double strand break localizing Dbl1" []
+def: "double strand break localizing Dbl1\, implicated in DNA repair" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9Y7S8 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -51421,7 +51438,7 @@ synonym: "rpl28-2" EXACT []
 
 [Term]
 id: pombase:SPCC5E4.10c
-def: "human leukocyte receptor 1 ortholog" []
+def: "human leukocyte receptor 1 ortholog\, implicated in mRNA splicing" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:Q9P7Z6 ! has gene product
 relationship: ro:HOM0000017 hgnc:15502 ! in orthology relationship with
@@ -52752,7 +52769,7 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC777.03c
-def: "nifs homolog\, possible cysteine desulfurase" []
+def: "nifs homolog\, possible cysteine desulfurase\, implicated in iron-sulfur cluster assembly" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002205 uniprot:O74542 ! has gene product
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -53032,7 +53049,7 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC794.16
-def: "Scizosaccharomyces pombe specific protein" []
+def: "Schizosaccharomyces pombe specific protein" []
 is_a: so:0001217 ! protein_coding_gene
 relationship: ro:0002162 ncbitaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "3" xsd:string

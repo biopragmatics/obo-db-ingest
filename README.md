@@ -19,9 +19,11 @@ containing the following exports:
 - [OBO](http://purl.obolibrary.org/obo/oboformat)
 - [OBO Graph JSON](https://github.com/geneontology/obographs/)
 
+A manifest of all resources is available at [manifest.yml](manifest.yml).
+
 ## Build
 
-To generate OBO files, run the following shell commands (Python 3.6+):
+To generate OBO files, run the following shell commands (Python 3.8+):
 
 ```shell
 $ pip install tox

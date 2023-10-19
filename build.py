@@ -5,14 +5,18 @@
 This script requires ``pip install pyobo``.
 """
 
+import datetime
 import gzip
 import os
 import shutil
 from pathlib import Path
 from typing import Optional
 
+import bioontologies.version
 import bioregistry
+import bioregistry.version
 import click
+import pyobo.version
 import pystow.utils
 import yaml
 from bioontologies.robot import convert, convert_to_obograph
@@ -218,9 +222,9 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False) -> dict:
 @click.command()
 @verbose_option
 @click.option("-m", "--minimum")
-@click.option("-c", "--do-convert")
+@click.option("--no-convert", is_flag=True)
 @click.option("-x", "--xvalue", help="Select a specific ontology", multiple=True)
-def main(minimum: Optional[str], xvalue: list[str], do_convert: bool):
+def main(minimum: Optional[str], xvalue: list[str], no_convert: bool):
     """Build the PyOBO examples."""
     if xvalue:
         for prefix in xvalue:
@@ -243,12 +247,23 @@ def main(minimum: Optional[str], xvalue: list[str], do_convert: bool):
         tqdm.write(click.style(prefix, fg="green", bold=True))
         it.set_postfix(prefix=prefix)
         with logging_redirect_tqdm():
-            manifest[prefix] = _make(prefix=prefix, module=cls, do_convert=do_convert)
+            manifest[prefix] = _make(
+                prefix=prefix, module=cls, do_convert=not no_convert
+            )
 
+    versions = {
+        "pyobo": pyobo.version.get_version(with_git_hash=True),
+        "bioontologies": bioontologies.version.get_version(with_git_hash=True),
+        "bioregistry": bioregistry.version.get_version(with_git_hash=True),
+    }
     manifest_path = HERE.joinpath("manifest.yml")
     manifest_path.write_text(
         yaml.safe_dump(
-            manifest,
+            {
+                "date": datetime.date.today().strftime("%Y-%m-%d"),
+                "versions": versions,
+                "resources": manifest,
+            },
         )
     )
 

@@ -1,0 +1,5299 @@
+{
+  "graphs" : [ {
+    "id" : "http://purl.obolibrary.org/obo/pfam.clan.owl",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/elements/1.1/title",
+        "val" : "Pfam Clans"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
+        "val" : "bio2obo:pfam.clan"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
+        "val" : "19:10:2023 12:16"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+        "val" : "1.2"
+      } ],
+      "version" : "http://purl.obolibrary.org/obo/pfam.clan/36.0/pfam.clan.owl"
+    },
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0001",
+      "lbl" : "EGF",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0003",
+      "lbl" : "SAM",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0004",
+      "lbl" : "Concanavalin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0005",
+      "lbl" : "Kazal",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0007",
+      "lbl" : "KH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0010",
+      "lbl" : "SH3",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0012",
+      "lbl" : "Histone",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0013",
+      "lbl" : "Beta-lactamase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0014",
+      "lbl" : "Glutaminase_I",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0015",
+      "lbl" : "MFS",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0016",
+      "lbl" : "PKinase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0018",
+      "lbl" : "bZIP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0020",
+      "lbl" : "TPR",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0021",
+      "lbl" : "OB",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0022",
+      "lbl" : "LRR",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0023",
+      "lbl" : "P-loop_NTPase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0025",
+      "lbl" : "His_Kinase_A",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0026",
+      "lbl" : "CU_oxidase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0027",
+      "lbl" : "RdRP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0028",
+      "lbl" : "AB_hydrolase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0029",
+      "lbl" : "Cupin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0030",
+      "lbl" : "Ion_channel",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0031",
+      "lbl" : "Phosphatase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0032",
+      "lbl" : "Dim_A_B_barrel",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0033",
+      "lbl" : "POZ",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0036",
+      "lbl" : "TIM_barrel",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0037",
+      "lbl" : "Lysozyme",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0039",
+      "lbl" : "HUP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0040",
+      "lbl" : "tRNA_synt_II",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0041",
+      "lbl" : "Death",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0042",
+      "lbl" : "Flavoprotein",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0043",
+      "lbl" : "Chelatase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0044",
+      "lbl" : "Ferritin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0045",
+      "lbl" : "Rubredoxin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0046",
+      "lbl" : "Thiolase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0047",
+      "lbl" : "CuAO_N2_N3",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0048",
+      "lbl" : "LolA_LolB",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0050",
+      "lbl" : "HotDog",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0051",
+      "lbl" : "NTF2",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0052",
+      "lbl" : "NTN",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0053",
+      "lbl" : "4H_Cytokine",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0054",
+      "lbl" : "Knottin_1",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0055",
+      "lbl" : "Nucleoplasmin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0056",
+      "lbl" : "C_Lectin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0057",
+      "lbl" : "Met_repress",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0059",
+      "lbl" : "6_Hairpin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0060",
+      "lbl" : "DNA_clamp",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0061",
+      "lbl" : "PLP_aminotran",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0062",
+      "lbl" : "APC",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0063",
+      "lbl" : "NADP_Rossmann",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0064",
+      "lbl" : "CPA_AT",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0065",
+      "lbl" : "Cyclin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0066",
+      "lbl" : "Trefoil",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0067",
+      "lbl" : "SIS",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0068",
+      "lbl" : "RIIa",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0069",
+      "lbl" : "GFP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0070",
+      "lbl" : "ACT",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0071",
+      "lbl" : "His_phosphatase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0072",
+      "lbl" : "Ubiquitin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0073",
+      "lbl" : "P53-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0074",
+      "lbl" : "Matrix",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0075",
+      "lbl" : "Defensin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0077",
+      "lbl" : "FAD_PCMH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0079",
+      "lbl" : "Cystine-knot",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0080",
+      "lbl" : "Beta-tent",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0081",
+      "lbl" : "MBD-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0082",
+      "lbl" : "MIF",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0083",
+      "lbl" : "Omega_toxin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0084",
+      "lbl" : "ADP-ribosyl",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0087",
+      "lbl" : "Acyl-CoA_dh",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0088",
+      "lbl" : "Alk_phosphatase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0089",
+      "lbl" : "GlnB-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0090",
+      "lbl" : "Globin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0091",
+      "lbl" : "NAD_Ferredoxin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0092",
+      "lbl" : "ADF",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0093",
+      "lbl" : "Peptidase_CD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0094",
+      "lbl" : "Peptidase_ME",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0095",
+      "lbl" : "Peptidase_ML",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0096",
+      "lbl" : "Pept_Inhib_IE",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0097",
+      "lbl" : "TypeIII_Chap",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0098",
+      "lbl" : "SPOUT",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0099",
+      "lbl" : "ALDH-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0100",
+      "lbl" : "C1q_TNF",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0101",
+      "lbl" : "PELOTA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0103",
+      "lbl" : "Gal_mutarotase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0104",
+      "lbl" : "Glyoxalase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0105",
+      "lbl" : "Hybrid",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0106",
+      "lbl" : "6PGD_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0108",
+      "lbl" : "Actin_ATPase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0109",
+      "lbl" : "CDA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0110",
+      "lbl" : "GT-A",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0111",
+      "lbl" : "GT-C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0112",
+      "lbl" : "Yip1",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0113",
+      "lbl" : "GT-B",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0114",
+      "lbl" : "HMG-box",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0115",
+      "lbl" : "Steroid_dh",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0116",
+      "lbl" : "Calycin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0117",
+      "lbl" : "uPAR_Ly6_toxin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0118",
+      "lbl" : "Ribokinase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0122",
+      "lbl" : "UTRA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0123",
+      "lbl" : "HTH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0124",
+      "lbl" : "Peptidase_PA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0125",
+      "lbl" : "Peptidase_CA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0126",
+      "lbl" : "Peptidase_MA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0127",
+      "lbl" : "ClpP_crotonase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0128",
+      "lbl" : "vWA-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0129",
+      "lbl" : "Peptidase_AA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0130",
+      "lbl" : "Peptidase_AD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0131",
+      "lbl" : "DoxD-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0132",
+      "lbl" : "AbrB",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0133",
+      "lbl" : "AT14A-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0135",
+      "lbl" : "Arrestin_N-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0136",
+      "lbl" : "Plasmid-antitox",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0137",
+      "lbl" : "HAD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0139",
+      "lbl" : "GADPH_aa-bio_dh",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0140",
+      "lbl" : "Viral_NABP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0141",
+      "lbl" : "MtN3-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0142",
+      "lbl" : "Membrane_trans",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0143",
+      "lbl" : "B_Fructosidase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0144",
+      "lbl" : "Periplas_BP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0145",
+      "lbl" : "Golgi-transport",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0146",
+      "lbl" : "Herpes_glyco",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0147",
+      "lbl" : "Traffic",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0148",
+      "lbl" : "Viral_Gag",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0149",
+      "lbl" : "CoA-acyltrans",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0153",
+      "lbl" : "dUTPase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0154",
+      "lbl" : "C2",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0155",
+      "lbl" : "CBM_14_19",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0156",
+      "lbl" : "Nucleocapsid",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0157",
+      "lbl" : "Kleisin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0158",
+      "lbl" : "GH_CE",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0159",
+      "lbl" : "E-set",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0161",
+      "lbl" : "GAF",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0163",
+      "lbl" : "Calcineurin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0164",
+      "lbl" : "CUB",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0165",
+      "lbl" : "Cache",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0166",
+      "lbl" : "PRD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0167",
+      "lbl" : "Zn_Beta_Ribbon",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0168",
+      "lbl" : "PAN",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0169",
+      "lbl" : "Rep",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0170",
+      "lbl" : "Peptidase_MD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0171",
+      "lbl" : "Phospoesterase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0172",
+      "lbl" : "Thioredoxin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0173",
+      "lbl" : "STIR",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0174",
+      "lbl" : "TetR_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0175",
+      "lbl" : "TRASH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0176",
+      "lbl" : "Chemosens_recp",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0177",
+      "lbl" : "PBP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0178",
+      "lbl" : "PUA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0179",
+      "lbl" : "ATP-grasp",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0181",
+      "lbl" : "ABC-2",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0182",
+      "lbl" : "IT",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0183",
+      "lbl" : "PAS_Fold",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0184",
+      "lbl" : "DMT",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0186",
+      "lbl" : "Beta_propeller",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0187",
+      "lbl" : "LysM",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0188",
+      "lbl" : "CH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0190",
+      "lbl" : "HSP20",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0191",
+      "lbl" : "POTRA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0192",
+      "lbl" : "GPCR_A",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0193",
+      "lbl" : "MBB",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0194",
+      "lbl" : "DNA_pol_B-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0195",
+      "lbl" : "DBL",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0196",
+      "lbl" : "DSRM",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0197",
+      "lbl" : "GME",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0198",
+      "lbl" : "HHH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0199",
+      "lbl" : "DPBB",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0200",
+      "lbl" : "Prefoldin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0201",
+      "lbl" : "Peptidase_SH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0202",
+      "lbl" : "GBD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0203",
+      "lbl" : "CBD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0204",
+      "lbl" : "Adhesin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0205",
+      "lbl" : "Di-copper",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0207",
+      "lbl" : "Rhomboid-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0208",
+      "lbl" : "UBC",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0209",
+      "lbl" : "Bet_v_1_like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0210",
+      "lbl" : "HNOX-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0212",
+      "lbl" : "SNARE",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0213",
+      "lbl" : "ShK-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0214",
+      "lbl" : "UBA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0217",
+      "lbl" : "Rotavirus_VP7",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0219",
+      "lbl" : "RNase_H",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0220",
+      "lbl" : "EF_hand",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0221",
+      "lbl" : "RRM",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0222",
+      "lbl" : "MviN_MATE",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0223",
+      "lbl" : "MACRO",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0224",
+      "lbl" : "DHQS",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0225",
+      "lbl" : "FtsL",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0226",
+      "lbl" : "M6PR",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0227",
+      "lbl" : "Enolase_N",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0228",
+      "lbl" : "Acyltransferase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0229",
+      "lbl" : "RING",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0230",
+      "lbl" : "HO",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0231",
+      "lbl" : "MazG",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0232",
+      "lbl" : "NifU",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0233",
+      "lbl" : "SufE_NifU",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0234",
+      "lbl" : "CTPT",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0235",
+      "lbl" : "PspA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0236",
+      "lbl" : "PDDEXK",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0237",
+      "lbl" : "HD_PDEase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0238",
+      "lbl" : "PP2C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0239",
+      "lbl" : "Insulin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0240",
+      "lbl" : "PFK",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0241",
+      "lbl" : "ABC_membrane",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0242",
+      "lbl" : "DNA_primase_lrg",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0243",
+      "lbl" : "AEP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0244",
+      "lbl" : "PGBD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0245",
+      "lbl" : "EDD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0247",
+      "lbl" : "2H",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0248",
+      "lbl" : "ParBc",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0249",
+      "lbl" : "Phage_tail_L",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0250",
+      "lbl" : "GAD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0251",
+      "lbl" : "MORN",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0254",
+      "lbl" : "THDP-binding",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0255",
+      "lbl" : "ATP_synthase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0257",
+      "lbl" : "Acetyltrans",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0258",
+      "lbl" : "DALR",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0259",
+      "lbl" : "OstA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0260",
+      "lbl" : "NTP_transf",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0261",
+      "lbl" : "NUDIX",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0262",
+      "lbl" : "Trigger_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0263",
+      "lbl" : "His-Me_finger",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0264",
+      "lbl" : "SGNH_hydrolase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0265",
+      "lbl" : "HIT",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0266",
+      "lbl" : "PH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0267",
+      "lbl" : "S11_L18p",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0268",
+      "lbl" : "Pec_lyase-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0269",
+      "lbl" : "Maf",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0270",
+      "lbl" : "Iso_DH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0271",
+      "lbl" : "F-box",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0272",
+      "lbl" : "RGS",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0273",
+      "lbl" : "CYTH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0274",
+      "lbl" : "WRKY-GCM1",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0276",
+      "lbl" : "Nucleot_cyclase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0277",
+      "lbl" : "FAD-oxidase_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0278",
+      "lbl" : "AIG2",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0279",
+      "lbl" : "GatB_YqeY",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0280",
+      "lbl" : "PIN",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0281",
+      "lbl" : "CCT",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0282",
+      "lbl" : "Serum_albumin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0283",
+      "lbl" : "LigB",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0284",
+      "lbl" : "Allatostatin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0285",
+      "lbl" : "YycI_YycH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0286",
+      "lbl" : "GCS",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0287",
+      "lbl" : "Transthyretin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0288",
+      "lbl" : "DAP_epimerase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0289",
+      "lbl" : "FBD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0290",
+      "lbl" : "EPT_RTPC",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0291",
+      "lbl" : "KNTase_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0292",
+      "lbl" : "LysE",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0293",
+      "lbl" : "CDC",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0296",
+      "lbl" : "GroES",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0297",
+      "lbl" : "PhoU",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0298",
+      "lbl" : "tRNA_bind_arm",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0299",
+      "lbl" : "Peptidase_SF",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0300",
+      "lbl" : "TAT",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0301",
+      "lbl" : "PA14",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0302",
+      "lbl" : "Arginase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0303",
+      "lbl" : "H2TH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0304",
+      "lbl" : "CheY",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0305",
+      "lbl" : "PTH2",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0306",
+      "lbl" : "HeH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0307",
+      "lbl" : "FUSC",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0308",
+      "lbl" : "DMSO_reductase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0310",
+      "lbl" : "DinB",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0311",
+      "lbl" : "SCP2",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0312",
+      "lbl" : "HemS_ChuX",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0314",
+      "lbl" : "PP-binding",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0315",
+      "lbl" : "Gx_transp",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0316",
+      "lbl" : "Acyl_transf_3",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0317",
+      "lbl" : "Multiheme_cytos",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0318",
+      "lbl" : "Cytochrome-c",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0319",
+      "lbl" : "SHS2",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0320",
+      "lbl" : "PepSY",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0321",
+      "lbl" : "PLAT",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0322",
+      "lbl" : "RND_permease",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0323",
+      "lbl" : "Patatin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0324",
+      "lbl" : "Homing_endonuc",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0326",
+      "lbl" : "Reo_sigma",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0327",
+      "lbl" : "Pilus",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0328",
+      "lbl" : "2heme_cytochrom",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0329",
+      "lbl" : "S5",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0330",
+      "lbl" : "AVL9",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0331",
+      "lbl" : "EpsM",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0333",
+      "lbl" : "gCrystallin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0334",
+      "lbl" : "THBO-biosyn",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0335",
+      "lbl" : "FumRed-TM",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0336",
+      "lbl" : "FMN-binding",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0337",
+      "lbl" : "RF",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0339",
+      "lbl" : "PFL-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0340",
+      "lbl" : "PTase-anion_tr",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0341",
+      "lbl" : "LDH_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0342",
+      "lbl" : "TolB_N",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0343",
+      "lbl" : "MHC",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0344",
+      "lbl" : "4Fe-4S",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0345",
+      "lbl" : "Aerolisin_ETX",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0346",
+      "lbl" : "Ribo_L29",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0347",
+      "lbl" : "Tetraspannin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0348",
+      "lbl" : "Phage_tail",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0349",
+      "lbl" : "SLOG",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0350",
+      "lbl" : "PRC-barrel",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0351",
+      "lbl" : "CHCH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0352",
+      "lbl" : "EsxAB",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0353",
+      "lbl" : "TIMP-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0354",
+      "lbl" : "bBprotInhib",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0355",
+      "lbl" : "CheC-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0356",
+      "lbl" : "AMP_N-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0357",
+      "lbl" : "SMAD-FHA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0359",
+      "lbl" : "Intron-mat_II",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0360",
+      "lbl" : "MTH1187-YkoF",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0361",
+      "lbl" : "C2H2-zf",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0362",
+      "lbl" : "RAMPS-Cas5-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0363",
+      "lbl" : "H-int",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0364",
+      "lbl" : "Leu-IlvD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0365",
+      "lbl" : "MurF-HprK_N",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0366",
+      "lbl" : "JAB",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0367",
+      "lbl" : "CI-2",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0368",
+      "lbl" : "PhosC-NucP1",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0369",
+      "lbl" : "GHD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0370",
+      "lbl" : "Uteroglobin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0371",
+      "lbl" : "Inovirus-Coat",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0373",
+      "lbl" : "Phage-coat",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0374",
+      "lbl" : "PEP-carboxyk",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0375",
+      "lbl" : "Transporter",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0376",
+      "lbl" : "Oxa1",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0377",
+      "lbl" : "FAH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0378",
+      "lbl" : "ANL",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0379",
+      "lbl" : "PgaPase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0380",
+      "lbl" : "IDO-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0381",
+      "lbl" : "Metallo-HOrase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0382",
+      "lbl" : "DNA-mend",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0383",
+      "lbl" : "PheT-TilS",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0385",
+      "lbl" : "Hydrophilin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0387",
+      "lbl" : "DHFred",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0388",
+      "lbl" : "FadR-C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0389",
+      "lbl" : "TRAF",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0391",
+      "lbl" : "CAP_C-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0392",
+      "lbl" : "Chaperone-J",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0394",
+      "lbl" : "DsrEFH-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0395",
+      "lbl" : "Tubby_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0396",
+      "lbl" : "Marvel-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0397",
+      "lbl" : "TusA-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0398",
+      "lbl" : "RMMBL_DRMBL",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0399",
+      "lbl" : "Asp-glut_race",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0400",
+      "lbl" : "GG-leader",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0401",
+      "lbl" : "AsmA-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0402",
+      "lbl" : "Cdc48_2-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0403",
+      "lbl" : "ADC-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0404",
+      "lbl" : "BPD_transp_1",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0405",
+      "lbl" : "DNA_b-psBarrel",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0406",
+      "lbl" : "YjbJ-CsbD-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0407",
+      "lbl" : "TBP-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0408",
+      "lbl" : "PUP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0409",
+      "lbl" : "GAP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0410",
+      "lbl" : "LEF-8-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0411",
+      "lbl" : "Vir",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0412",
+      "lbl" : "Frag1-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0413",
+      "lbl" : "Toprim-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0414",
+      "lbl" : "TerB",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0416",
+      "lbl" : "Anoctamin-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0417",
+      "lbl" : "BIR-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0418",
+      "lbl" : "GIY-YIG",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0419",
+      "lbl" : "T3SS-Chaperone",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0420",
+      "lbl" : "GlpM-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0421",
+      "lbl" : "LppaM",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0422",
+      "lbl" : "Fibrinogen_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0423",
+      "lbl" : "AhpD-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0424",
+      "lbl" : "T3SS-hook",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0425",
+      "lbl" : "ComplexI-N",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0426",
+      "lbl" : "HRDC-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0428",
+      "lbl" : "TolA-TonB-Cterm",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0429",
+      "lbl" : "UcrQ-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0430",
+      "lbl" : "CopD_like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0431",
+      "lbl" : "PF",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0433",
+      "lbl" : "SPFH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0435",
+      "lbl" : "NPR",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0436",
+      "lbl" : "FliG",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0437",
+      "lbl" : "EF-G_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0439",
+      "lbl" : "NusG-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0441",
+      "lbl" : "AlbA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0442",
+      "lbl" : "Tubulin_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0445",
+      "lbl" : "SNARE-fusion",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0446",
+      "lbl" : "Bacteriocin_TLN",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0447",
+      "lbl" : "Hypoth_1",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0448",
+      "lbl" : "Cargo_bd_muHD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0449",
+      "lbl" : "G-PATCH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0451",
+      "lbl" : "FnI-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0452",
+      "lbl" : "Tropomyosin-lke",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0453",
+      "lbl" : "Apoptosis-Inhib",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0456",
+      "lbl" : "Golgi_traff",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0457",
+      "lbl" : "4HB_MCP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0458",
+      "lbl" : "IIaaRS-ABD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0459",
+      "lbl" : "BRCT-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0461",
+      "lbl" : "Metallothionein",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0462",
+      "lbl" : "TPA-repeat",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0464",
+      "lbl" : "5_3_exonuc_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0465",
+      "lbl" : "Ank",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0466",
+      "lbl" : "PDZ-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0469",
+      "lbl" : "l-integrase_N",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0470",
+      "lbl" : "ThrE",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0471",
+      "lbl" : "DUF362",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0472",
+      "lbl" : "Peptidase_U",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0474",
+      "lbl" : "SICA_like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0475",
+      "lbl" : "Cyclophil-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0476",
+      "lbl" : "tRNA-IECD_N",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0477",
+      "lbl" : "TRD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0478",
+      "lbl" : "ATPase_I_AtpR",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0479",
+      "lbl" : "PLD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0481",
+      "lbl" : "HUH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0482",
+      "lbl" : "Prolamin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0484",
+      "lbl" : "Peroxisome",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0486",
+      "lbl" : "Fer2",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0487",
+      "lbl" : "FKBP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0488",
+      "lbl" : "FixH-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0489",
+      "lbl" : "SAF",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0490",
+      "lbl" : "PepSY_TM-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0491",
+      "lbl" : "LYR-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0492",
+      "lbl" : "S4",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0493",
+      "lbl" : "PTS_EIIC",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0494",
+      "lbl" : "DnaA_N",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0496",
+      "lbl" : "Tad-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0497",
+      "lbl" : "GST_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0498",
+      "lbl" : "Nribosyltransf",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0499",
+      "lbl" : "O-anti_assembly",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0500",
+      "lbl" : "Glycine-zipper",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0502",
+      "lbl" : "STAS",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0504",
+      "lbl" : "Phage_barrel",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0505",
+      "lbl" : "Pentapeptide",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0506",
+      "lbl" : "Succ_CoA_synth",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0507",
+      "lbl" : "Fungal_trans",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0508",
+      "lbl" : "YkuD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0509",
+      "lbl" : "RBP11-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0511",
+      "lbl" : "Retroviral_zf",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0512",
+      "lbl" : "CRAL_TRIO",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0513",
+      "lbl" : "LCCL-domain",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0515",
+      "lbl" : "LTXXQ-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0516",
+      "lbl" : "ISP-domain",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0517",
+      "lbl" : "MBOAT-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0520",
+      "lbl" : "Keratin_assoc",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0521",
+      "lbl" : "GOLD-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0522",
+      "lbl" : "YbjQ-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0523",
+      "lbl" : "GAG-polyprotein",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0524",
+      "lbl" : "MPT63-MPB63",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0525",
+      "lbl" : "pap2",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0526",
+      "lbl" : "SUKH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0528",
+      "lbl" : "DUF1214",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0529",
+      "lbl" : "FMN-dep-NRtase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0530",
+      "lbl" : "DNase_I-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0531",
+      "lbl" : "AMP-binding_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0532",
+      "lbl" : "LIG",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0533",
+      "lbl" : "PRTase-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0534",
+      "lbl" : "YjgF-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0535",
+      "lbl" : "CBM",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0536",
+      "lbl" : "HEXAPEP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0537",
+      "lbl" : "CCCH_zf",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0539",
+      "lbl" : "RNase_III",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0540",
+      "lbl" : "GCP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0541",
+      "lbl" : "SH2-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0542",
+      "lbl" : "RAS_GEF_N",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0543",
+      "lbl" : "Viral_gly_cn_dm",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0544",
+      "lbl" : "AcylCoA_ox_dh_N",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0545",
+      "lbl" : "APCOP-app_sub",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0546",
+      "lbl" : "Hexosaminidase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0547",
+      "lbl" : "GF_recep_C-rich",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0548",
+      "lbl" : "IHF-likeDNA-bdg",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0550",
+      "lbl" : "SRCR",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0551",
+      "lbl" : "BCLiA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0552",
+      "lbl" : "Hect",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0559",
+      "lbl" : "CBD9-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0560",
+      "lbl" : "Chalcone-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0561",
+      "lbl" : "LisH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0562",
+      "lbl" : "Holin-V",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0563",
+      "lbl" : "Holin-II",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0564",
+      "lbl" : "Holin-III",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0567",
+      "lbl" : "Phage_TACs",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0568",
+      "lbl" : "Man_lectin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0570",
+      "lbl" : "PPP-I",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0571",
+      "lbl" : "30K_movement",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0572",
+      "lbl" : "TIKI",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0573",
+      "lbl" : "KA1-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0576",
+      "lbl" : "STARBD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0577",
+      "lbl" : "Paramyxovirin_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0578",
+      "lbl" : "AbiEI",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0580",
+      "lbl" : "YqgF",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0582",
+      "lbl" : "TrkA_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0584",
+      "lbl" : "FF",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0586",
+      "lbl" : "CTC1",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0587",
+      "lbl" : "STAND_N",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0588",
+      "lbl" : "Ribos_L15p_L18e",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0589",
+      "lbl" : "KIX_like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0590",
+      "lbl" : "OML_zippers",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0591",
+      "lbl" : "TKC_like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0592",
+      "lbl" : "beta_Roll",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0593",
+      "lbl" : "G5",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0595",
+      "lbl" : "Fusion_gly",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0596",
+      "lbl" : "VPS23_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0597",
+      "lbl" : "Post-HMGL",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0598",
+      "lbl" : "B_GA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0599",
+      "lbl" : "GH57_38_middle",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0600",
+      "lbl" : "S15_NS1",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0601",
+      "lbl" : "Cob_adeno_trans",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0602",
+      "lbl" : "Kringle",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0603",
+      "lbl" : "AA_dh_N",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0604",
+      "lbl" : "post-AAA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0605",
+      "lbl" : "ssDNA_NP_VP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0606",
+      "lbl" : "Phage_fibre",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0607",
+      "lbl" : "TNF_receptor",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0608",
+      "lbl" : "Reductase_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0609",
+      "lbl" : "sPC4_like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0611",
+      "lbl" : "Hexon",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0612",
+      "lbl" : "PHM_PNGase_F",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0613",
+      "lbl" : "Terp_synthase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0614",
+      "lbl" : "L27",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0615",
+      "lbl" : "ALDC",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0616",
+      "lbl" : "SPOC",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0617",
+      "lbl" : "Peroxidase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0618",
+      "lbl" : "MCR",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0619",
+      "lbl" : "Mog1p_PsbP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0620",
+      "lbl" : "Antihemostatic",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0621",
+      "lbl" : "Colipase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0622",
+      "lbl" : "Acylphosphatase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0623",
+      "lbl" : "SRP9_14",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0625",
+      "lbl" : "eIF4e",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0626",
+      "lbl" : "Levi_coat",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0627",
+      "lbl" : "Antibiotic_NAT",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0628",
+      "lbl" : "EspA_CesA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0629",
+      "lbl" : "PLA2",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0630",
+      "lbl" : "PSI",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0631",
+      "lbl" : "YgaC_TfoX-N",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0632",
+      "lbl" : "FERM_M",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0633",
+      "lbl" : "NusB",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0634",
+      "lbl" : "CheY-binding",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0635",
+      "lbl" : "DmpA_ArgJ",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0636",
+      "lbl" : "Leukocidin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0637",
+      "lbl" : "KaiA_RbsU",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0639",
+      "lbl" : "Rof",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0640",
+      "lbl" : "Colicin_D_E5",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0642",
+      "lbl" : "SOCS_box",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0643",
+      "lbl" : "YqbG",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0644",
+      "lbl" : "Fz",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0645",
+      "lbl" : "Anti-sigma_N",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0646",
+      "lbl" : "T3SS",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0647",
+      "lbl" : "FG_rpt",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0648",
+      "lbl" : "Aha1_BPI",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0649",
+      "lbl" : "PseudoU_synth",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0650",
+      "lbl" : "AOC_barrel",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0651",
+      "lbl" : "Mad2",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0652",
+      "lbl" : "S24e_L23_L15e",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0653",
+      "lbl" : "VCCI",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0654",
+      "lbl" : "WYL",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0655",
+      "lbl" : "PilP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0656",
+      "lbl" : "VSA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0658",
+      "lbl" : "OB_enterotoxin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0659",
+      "lbl" : "CAP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0660",
+      "lbl" : "SHOCT",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0661",
+      "lbl" : "Gain",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0662",
+      "lbl" : "Triple_barrel",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0663",
+      "lbl" : "CNF1_YfiH",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0664",
+      "lbl" : "UB2H",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0665",
+      "lbl" : "BET",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0666",
+      "lbl" : "Vault",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0667",
+      "lbl" : "Fer2_BFD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0668",
+      "lbl" : "Pre-PUA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0669",
+      "lbl" : "NOG1_N",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0670",
+      "lbl" : "4PPT",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0671",
+      "lbl" : "AAA_lid",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0672",
+      "lbl" : "p35",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0673",
+      "lbl" : "GYF",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0674",
+      "lbl" : "Triple_B_spiral",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0676",
+      "lbl" : "SLATT",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0677",
+      "lbl" : "GHMP_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0678",
+      "lbl" : "CLIP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0679",
+      "lbl" : "TACC",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0680",
+      "lbl" : "WW",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0681",
+      "lbl" : "HAMP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0682",
+      "lbl" : "MBG",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0683",
+      "lbl" : "MICOS",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0684",
+      "lbl" : "NFACT_RNA-bind",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0685",
+      "lbl" : "AmpE_CobD-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0686",
+      "lbl" : "aG_PT",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0687",
+      "lbl" : "Zn_chelatase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0688",
+      "lbl" : "BECR",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0689",
+      "lbl" : "TSP3",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0690",
+      "lbl" : "TrbC_VirB2",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0691",
+      "lbl" : "Phage_tail_2",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0692",
+      "lbl" : "TSP1",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0693",
+      "lbl" : "Cas9_lobe",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0694",
+      "lbl" : "Choline_binding",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0695",
+      "lbl" : "EndoU",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0696",
+      "lbl" : "Vmethyltransf",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0697",
+      "lbl" : "SDH_beta",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0698",
+      "lbl" : "TrbL",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0700",
+      "lbl" : "ArdcN",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0701",
+      "lbl" : "NAD_kinase_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0702",
+      "lbl" : "UIM",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0703",
+      "lbl" : "YtcA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0704",
+      "lbl" : "HMA",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0705",
+      "lbl" : "VBS-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0706",
+      "lbl" : "EMC6",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0707",
+      "lbl" : "Saposin_like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0708",
+      "lbl" : "Polo-box",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0709",
+      "lbl" : "STING",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0710",
+      "lbl" : "YeeE",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0713",
+      "lbl" : "Acyl-CoA_desat",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0714",
+      "lbl" : "COX1-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0715",
+      "lbl" : "Nckap1_CYFIP1-2",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0716",
+      "lbl" : "Aquaporin-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0717",
+      "lbl" : "YbaB",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0718",
+      "lbl" : "Perilipin_sf",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0719",
+      "lbl" : "Moesin_tail",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0720",
+      "lbl" : "Lag3_N",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0721",
+      "lbl" : "LAMP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0722",
+      "lbl" : "SDH_alpha",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0723",
+      "lbl" : "TRADD-N",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0724",
+      "lbl" : "Kinetochore",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0725",
+      "lbl" : "Apolipoprotein",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0726",
+      "lbl" : "Resistin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0727",
+      "lbl" : "Nucleosidase",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0728",
+      "lbl" : "Cas2",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0729",
+      "lbl" : "Kre28-like_sf",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0730",
+      "lbl" : "IL8",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0731",
+      "lbl" : "SPOCS",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0732",
+      "lbl" : "RMP1-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0733",
+      "lbl" : "Ribosomal_L25",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0734",
+      "lbl" : "Rpp14-Pop5-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0735",
+      "lbl" : "GatC-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0736",
+      "lbl" : "Get5_C_sf",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0737",
+      "lbl" : "Mtd",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0738",
+      "lbl" : "Arg_repressor_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0740",
+      "lbl" : "GCV_T_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0741",
+      "lbl" : "RGM",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0742",
+      "lbl" : "PTS_IIA-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0743",
+      "lbl" : "Spectrin",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0745",
+      "lbl" : "MIT",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0746",
+      "lbl" : "AFF4_CHD",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0747",
+      "lbl" : "THUMP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0748",
+      "lbl" : "DNA_prim_N",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0749",
+      "lbl" : "GH127_M",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0750",
+      "lbl" : "ADAM_CR_sf",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0751",
+      "lbl" : "Secretin_N0",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0752",
+      "lbl" : "PsbQ-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0753",
+      "lbl" : "ATPD-E_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0754",
+      "lbl" : "PGM_I-III",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0755",
+      "lbl" : "SASP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0756",
+      "lbl" : "GMC",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0757",
+      "lbl" : "TRAP",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0758",
+      "lbl" : "L31",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0759",
+      "lbl" : "Nop_N_sf",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0760",
+      "lbl" : "RBG",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0761",
+      "lbl" : "ABC_sf",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0763",
+      "lbl" : "GpW_gp25-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0764",
+      "lbl" : "PHP14-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0765",
+      "lbl" : "PAC",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0766",
+      "lbl" : "NCPF",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0767",
+      "lbl" : "MXAN_049",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0768",
+      "lbl" : "DUF960",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0769",
+      "lbl" : "SsdA_imm",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0770",
+      "lbl" : "GH84_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0771",
+      "lbl" : "YaaA-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+      "lbl" : "has_obo_format_version",
+      "type" : "PROPERTY"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0001",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0003",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0004",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0005",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0007",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0010",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0012",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0013",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0014",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0015",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0016",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0018",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0020",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0021",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0022",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0023",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0025",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0026",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0027",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0028",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0029",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0030",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0031",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0032",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0033",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0036",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0037",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0039",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0040",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0041",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0042",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0043",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0044",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0045",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0046",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0047",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0048",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0050",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0051",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0052",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0053",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0054",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0055",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0056",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0057",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0059",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0060",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0061",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0062",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0063",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0064",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0065",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0066",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0067",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0068",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0069",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0070",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0071",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0072",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0073",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0074",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0075",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0077",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0079",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0080",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0081",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0082",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0083",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0084",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0087",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0088",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0089",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0090",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0091",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0092",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0093",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0094",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0095",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0096",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0097",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0098",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0099",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0100",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0101",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0103",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0104",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0105",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0106",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0108",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0109",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0110",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0111",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0112",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0113",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0114",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0115",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0116",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0117",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0118",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0122",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0123",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0124",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0125",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0126",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0127",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0128",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0129",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0130",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0131",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0132",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0133",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0135",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0136",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0137",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0139",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0140",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0141",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0142",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0143",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0144",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0145",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0146",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0147",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0148",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0149",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0153",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0154",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0155",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0156",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0157",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0158",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0159",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0161",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0163",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0164",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0165",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0166",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0167",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0168",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0169",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0170",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0171",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0172",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0173",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0174",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0175",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0176",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0177",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0178",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0179",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0181",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0182",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0183",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0184",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0186",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0187",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0188",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0190",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0191",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0192",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0193",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0194",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0195",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0196",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0197",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0198",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0199",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0200",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0201",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0202",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0203",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0204",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0205",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0207",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0208",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0209",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0210",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0212",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0213",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0214",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0217",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0219",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0220",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0221",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0222",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0223",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0224",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0225",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0226",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0227",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0228",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0229",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0230",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0231",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0232",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0233",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0234",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0235",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0236",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0237",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0238",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0239",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0240",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0241",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0242",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0243",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0244",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0245",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0247",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0248",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0249",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0250",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0251",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0254",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0255",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0257",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0258",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0259",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0260",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0261",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0262",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0263",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0264",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0265",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0266",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0267",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0268",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0269",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0270",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0271",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0272",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0273",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0274",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0276",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0277",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0278",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0279",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0280",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0281",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0282",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0283",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0284",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0285",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0286",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0287",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0288",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0289",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0290",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0291",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0292",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0293",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0296",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0297",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0298",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0299",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0300",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0301",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0302",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0303",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0304",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0305",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0306",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0307",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0308",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0310",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0311",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0312",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0314",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0315",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0316",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0317",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0318",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0319",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0320",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0321",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0322",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0323",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0324",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0326",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0327",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0328",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0329",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0330",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0331",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0333",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0334",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0335",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0336",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0337",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0339",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0340",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0341",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0342",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0343",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0344",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0345",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0346",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0347",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0348",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0349",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0350",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0351",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0352",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0353",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0354",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0355",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0356",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0357",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0359",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0360",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0361",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0362",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0363",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0364",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0365",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0366",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0367",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0368",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0369",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0370",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0371",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0373",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0374",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0375",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0376",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0377",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0378",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0379",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0380",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0381",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0382",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0383",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0385",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0387",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0388",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0389",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0391",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0392",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0394",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0395",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0396",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0397",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0398",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0399",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0400",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0401",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0402",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0403",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0404",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0405",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0406",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0407",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0408",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0409",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0410",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0411",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0412",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0413",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0414",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0416",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0417",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0418",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0419",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0420",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0421",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0422",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0423",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0424",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0425",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0426",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0428",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0429",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0430",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0431",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0433",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0435",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0436",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0437",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0439",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0441",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0442",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0445",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0446",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0447",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0448",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0449",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0451",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0452",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0453",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0456",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0457",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0458",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0459",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0461",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0462",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0464",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0465",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0466",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0469",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0470",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0471",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0472",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0474",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0475",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0476",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0477",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0478",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0479",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0481",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0482",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0484",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0486",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0487",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0488",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0489",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0490",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0491",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0492",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0493",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0494",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0496",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0497",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0498",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0499",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0500",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0502",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0504",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0505",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0506",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0507",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0508",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0509",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0511",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0512",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0513",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0515",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0516",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0517",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0520",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0521",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0522",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0523",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0524",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0525",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0526",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0528",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0529",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0530",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0531",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0532",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0533",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0534",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0535",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0536",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0537",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0539",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0540",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0541",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0542",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0543",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0544",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0545",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0546",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0547",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0548",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0550",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0551",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0552",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0559",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0560",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0561",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0562",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0563",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0564",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0567",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0568",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0570",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0571",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0572",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0573",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0576",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0577",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0578",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0580",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0582",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0584",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0586",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0587",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0588",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0589",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0590",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0591",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0592",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0593",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0595",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0596",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0597",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0598",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0599",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0600",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0601",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0602",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0603",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0604",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0605",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0606",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0607",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0608",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0609",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0611",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0612",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0613",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0614",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0615",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0616",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0617",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0618",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0619",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0620",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0621",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0622",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0623",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0625",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0626",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0627",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0628",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0629",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0630",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0631",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0632",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0633",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0634",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0635",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0636",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0637",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0639",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0640",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0642",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0643",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0644",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0645",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0646",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0647",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0648",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0649",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0650",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0651",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0652",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0653",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0654",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0655",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0656",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0658",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0659",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0660",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0661",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0662",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0663",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0664",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0665",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0666",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0667",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0668",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0669",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0670",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0671",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0672",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0673",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0674",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0676",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0677",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0678",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0679",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0680",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0681",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0682",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0683",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0684",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0685",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0686",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0687",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0688",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0689",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0690",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0691",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0692",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0693",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0694",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0695",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0696",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0697",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0698",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0700",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0701",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0702",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0703",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0704",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0705",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0706",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0707",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0708",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0709",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0710",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0713",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0714",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0715",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0716",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0717",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0718",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0719",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0720",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0721",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0722",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0723",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0724",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0725",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0726",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0727",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0728",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0729",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0730",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0731",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0732",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0733",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0734",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0735",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0736",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0737",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0738",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0740",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0741",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0742",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0743",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0745",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0746",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0747",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0748",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0749",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0750",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0751",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0752",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0753",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0754",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0755",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0756",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0757",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0758",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0759",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0760",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0761",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0763",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0764",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0765",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0766",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0767",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0768",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0769",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0770",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/pfam.clan_CL0771",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    } ]
+  } ]
+}

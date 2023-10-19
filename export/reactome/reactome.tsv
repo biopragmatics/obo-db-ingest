@@ -237,7 +237,7 @@ R-BTA-163754	Insulin effects increased synthesis of Xylulose-5-Phosphate				reac
 R-BTA-163765	ChREBP activates metabolic gene expression				reactome:R-BTA-163685	
 R-BTA-1638074	Keratan sulfate/keratin metabolism				reactome:R-BTA-1630316	
 R-BTA-1638091	Heparan sulfate/heparin (HS-GAG) metabolism				reactome:R-BTA-1630316	
-R-BTA-163841	Gamma carboxylation, hypusine formation and arylsulfatase activation				reactome:R-BTA-597592	
+R-BTA-163841	Gamma carboxylation, hypusinylation, hydroxylation, and arylsulfatase activation				reactome:R-BTA-597592	
 R-BTA-1640170	Cell Cycle					
 R-BTA-164378	PKA activation in glucagon signalling				reactome:R-BTA-163359	
 R-BTA-1650814	Collagen biosynthesis and modifying enzymes				reactome:R-BTA-1474290	
@@ -1606,6 +1606,7 @@ R-BTA-9619229	Activation of RAC1 downstream of NMDARs				reactome:R-BTA-438064
 R-BTA-9619665	EGR2 and SOX10-mediated initiation of Schwann cell myelination				reactome:R-BTA-9675108	
 R-BTA-9623433	NR1H2 & NR1H3 regulate gene expression to control bile acid homeostasis				reactome:R-BTA-9024446	
 R-BTA-9627069	Regulation of the apoptosome activity				reactome:R-BTA-111458	
+R-BTA-9629569	Protein hydroxylation				reactome:R-BTA-163841	
 R-BTA-9634597	GPER1 signaling				reactome:R-BTA-418555	
 R-BTA-9634600	Regulation of glycolysis by fructose 2,6-bisphosphate metabolism				reactome:R-BTA-70171	
 R-BTA-9634635	Estrogen-stimulated signaling through PRKCZ				reactome:R-BTA-9009391	
@@ -1619,7 +1620,7 @@ R-BTA-964739	N-glycan trimming and elongation in the cis-Golgi				reactome:R-BTA
 R-BTA-9648002	RAS processing				reactome:R-BTA-5673001	
 R-BTA-9648025	EML4 and NUDC in mitotic spindle formation				reactome:R-BTA-68877	
 R-BTA-964827	Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2				reactome:R-BTA-964739	
-R-BTA-964975	Vitamins B6 activation to pyridoxal phosphate				reactome:R-BTA-196849	
+R-BTA-964975	Vitamin B6 activation to pyridoxal phosphate				reactome:R-BTA-196849	
 R-BTA-9652282	Drug-mediated inhibition of ERBB2 signaling				reactome:R-BTA-1227986	
 R-BTA-9663891	Selective autophagy				reactome:R-BTA-1632852	
 R-BTA-9664873	Pexophagy				reactome:R-BTA-9663891	
@@ -1700,9 +1701,12 @@ R-BTA-983169	Class I MHC mediated antigen processing & presentation				reactome:
 R-BTA-983170	Antigen Presentation: Folding, assembly and peptide loading of class I MHC				reactome:R-BTA-983169	
 R-BTA-983189	Kinesins				reactome:R-BTA-983231	
 R-BTA-983231	Factors involved in megakaryocyte development and platelet production				reactome:R-BTA-109582	
+R-BTA-9833482	PKR-mediated signaling				reactome:R-BTA-1169410	
 R-BTA-983695	Antigen activates B Cell Receptor (BCR) leading to generation of second messengers				reactome:R-BTA-983705	
 R-BTA-983705	Signaling by the B Cell Receptor (BCR)				reactome:R-BTA-1280218	
 R-BTA-983712	Ion channel transport				reactome:R-BTA-382551	
+R-BTA-9840309	Glycosphingolipid biosynthesis				reactome:R-BTA-1660662	
+R-BTA-9840310	Glycosphingolipid catabolism				reactome:R-BTA-1660662	
 R-BTA-991365	Activation of GABAB receptors				reactome:R-BTA-977444	
 R-BTA-997272	Inhibition  of voltage gated Ca2+ channels via Gbeta/gamma subunits				reactome:R-BTA-991365	
 R-CEL-1059683	Interleukin-6 signaling				reactome:R-CEL-6783589	
@@ -1888,7 +1892,7 @@ R-CEL-163754	Insulin effects increased synthesis of Xylulose-5-Phosphate				reac
 R-CEL-163765	ChREBP activates metabolic gene expression				reactome:R-CEL-163685	
 R-CEL-1638074	Keratan sulfate/keratin metabolism				reactome:R-CEL-1630316	
 R-CEL-1638091	Heparan sulfate/heparin (HS-GAG) metabolism				reactome:R-CEL-1630316	
-R-CEL-163841	Gamma carboxylation, hypusine formation and arylsulfatase activation				reactome:R-CEL-597592	
+R-CEL-163841	Gamma carboxylation, hypusinylation, hydroxylation, and arylsulfatase activation				reactome:R-CEL-597592	
 R-CEL-1640170	Cell Cycle					
 R-CEL-164378	PKA activation in glucagon signalling				reactome:R-CEL-163359	
 R-CEL-1650814	Collagen biosynthesis and modifying enzymes				reactome:R-CEL-1474290	
@@ -2948,6 +2952,7 @@ R-CEL-9616222	Transcriptional regulation of granulopoiesis				reactome:R-CEL-126
 R-CEL-9617629	Regulation of FOXO transcriptional activity by acetylation				reactome:R-CEL-9614085	
 R-CEL-9617828	FOXO-mediated transcription of cell cycle genes				reactome:R-CEL-9614085	
 R-CEL-9619229	Activation of RAC1 downstream of NMDARs				reactome:R-CEL-438064	
+R-CEL-9629569	Protein hydroxylation				reactome:R-CEL-163841	
 R-CEL-9634597	GPER1 signaling				reactome:R-CEL-418555	
 R-CEL-9634600	Regulation of glycolysis by fructose 2,6-bisphosphate metabolism				reactome:R-CEL-70171	
 R-CEL-9634635	Estrogen-stimulated signaling through PRKCZ				reactome:R-CEL-9009391	
@@ -2960,7 +2965,7 @@ R-CEL-964739	N-glycan trimming and elongation in the cis-Golgi				reactome:R-CEL
 R-CEL-9648002	RAS processing				reactome:R-CEL-5673001	
 R-CEL-9648025	EML4 and NUDC in mitotic spindle formation				reactome:R-CEL-68877	
 R-CEL-964827	Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2				reactome:R-CEL-964739	
-R-CEL-964975	Vitamins B6 activation to pyridoxal phosphate				reactome:R-CEL-196849	
+R-CEL-964975	Vitamin B6 activation to pyridoxal phosphate				reactome:R-CEL-196849	
 R-CEL-9652282	Drug-mediated inhibition of ERBB2 signaling				reactome:R-CEL-1227986	
 R-CEL-9663891	Selective autophagy				reactome:R-CEL-1632852	
 R-CEL-9668328	Sealing of the nuclear envelope (NE) by ESCRT-III				reactome:R-CEL-2995410	
@@ -3017,9 +3022,12 @@ R-CEL-983169	Class I MHC mediated antigen processing & presentation				reactome:
 R-CEL-983170	Antigen Presentation: Folding, assembly and peptide loading of class I MHC				reactome:R-CEL-983169	
 R-CEL-983189	Kinesins				reactome:R-CEL-983231	
 R-CEL-983231	Factors involved in megakaryocyte development and platelet production				reactome:R-CEL-109582	
+R-CEL-9833482	PKR-mediated signaling				reactome:R-CEL-1169410	
 R-CEL-983695	Antigen activates B Cell Receptor (BCR) leading to generation of second messengers				reactome:R-CEL-983705	
 R-CEL-983705	Signaling by the B Cell Receptor (BCR)				reactome:R-CEL-1280218	
 R-CEL-983712	Ion channel transport				reactome:R-CEL-382551	
+R-CEL-9840309	Glycosphingolipid biosynthesis				reactome:R-CEL-1660662	
+R-CEL-9840310	Glycosphingolipid catabolism				reactome:R-CEL-1660662	
 R-CEL-991365	Activation of GABAB receptors				reactome:R-CEL-977444	
 R-CEL-997272	Inhibition  of voltage gated Ca2+ channels via Gbeta/gamma subunits				reactome:R-CEL-991365	
 R-CFA-1059683	Interleukin-6 signaling				reactome:R-CFA-6783589	
@@ -3256,7 +3264,7 @@ R-CFA-163754	Insulin effects increased synthesis of Xylulose-5-Phosphate				reac
 R-CFA-163765	ChREBP activates metabolic gene expression				reactome:R-CFA-163685	
 R-CFA-1638074	Keratan sulfate/keratin metabolism				reactome:R-CFA-1630316	
 R-CFA-1638091	Heparan sulfate/heparin (HS-GAG) metabolism				reactome:R-CFA-1630316	
-R-CFA-163841	Gamma carboxylation, hypusine formation and arylsulfatase activation				reactome:R-CFA-597592	
+R-CFA-163841	Gamma carboxylation, hypusinylation, hydroxylation, and arylsulfatase activation				reactome:R-CFA-597592	
 R-CFA-1640170	Cell Cycle					
 R-CFA-164378	PKA activation in glucagon signalling				reactome:R-CFA-163359	
 R-CFA-1650814	Collagen biosynthesis and modifying enzymes				reactome:R-CFA-1474290	
@@ -4592,6 +4600,7 @@ R-CFA-9619229	Activation of RAC1 downstream of NMDARs				reactome:R-CFA-438064
 R-CFA-9619665	EGR2 and SOX10-mediated initiation of Schwann cell myelination				reactome:R-CFA-9675108	
 R-CFA-9623433	NR1H2 & NR1H3 regulate gene expression to control bile acid homeostasis				reactome:R-CFA-9024446	
 R-CFA-9627069	Regulation of the apoptosome activity				reactome:R-CFA-111458	
+R-CFA-9629569	Protein hydroxylation				reactome:R-CFA-163841	
 R-CFA-9634597	GPER1 signaling				reactome:R-CFA-418555	
 R-CFA-9634600	Regulation of glycolysis by fructose 2,6-bisphosphate metabolism				reactome:R-CFA-70171	
 R-CFA-9634635	Estrogen-stimulated signaling through PRKCZ				reactome:R-CFA-9009391	
@@ -4605,7 +4614,7 @@ R-CFA-964739	N-glycan trimming and elongation in the cis-Golgi				reactome:R-CFA
 R-CFA-9648002	RAS processing				reactome:R-CFA-5673001	
 R-CFA-9648025	EML4 and NUDC in mitotic spindle formation				reactome:R-CFA-68877	
 R-CFA-964827	Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2				reactome:R-CFA-964739	
-R-CFA-964975	Vitamins B6 activation to pyridoxal phosphate				reactome:R-CFA-196849	
+R-CFA-964975	Vitamin B6 activation to pyridoxal phosphate				reactome:R-CFA-196849	
 R-CFA-9652282	Drug-mediated inhibition of ERBB2 signaling				reactome:R-CFA-1227986	
 R-CFA-9663891	Selective autophagy				reactome:R-CFA-1632852	
 R-CFA-9664873	Pexophagy				reactome:R-CFA-9663891	
@@ -4684,9 +4693,12 @@ R-CFA-983169	Class I MHC mediated antigen processing & presentation				reactome:
 R-CFA-983170	Antigen Presentation: Folding, assembly and peptide loading of class I MHC				reactome:R-CFA-983169	
 R-CFA-983189	Kinesins				reactome:R-CFA-983231	
 R-CFA-983231	Factors involved in megakaryocyte development and platelet production				reactome:R-CFA-109582	
+R-CFA-9833482	PKR-mediated signaling				reactome:R-CFA-1169410	
 R-CFA-983695	Antigen activates B Cell Receptor (BCR) leading to generation of second messengers				reactome:R-CFA-983705	
 R-CFA-983705	Signaling by the B Cell Receptor (BCR)				reactome:R-CFA-1280218	
 R-CFA-983712	Ion channel transport				reactome:R-CFA-382551	
+R-CFA-9840309	Glycosphingolipid biosynthesis				reactome:R-CFA-1660662	
+R-CFA-9840310	Glycosphingolipid catabolism				reactome:R-CFA-1660662	
 R-CFA-991365	Activation of GABAB receptors				reactome:R-CFA-977444	
 R-CFA-997272	Inhibition  of voltage gated Ca2+ channels via Gbeta/gamma subunits				reactome:R-CFA-991365	
 R-DDI-1059683	Interleukin-6 signaling				reactome:R-DDI-6783589	
@@ -4827,7 +4839,7 @@ R-DDI-163754	Insulin effects increased synthesis of Xylulose-5-Phosphate				reac
 R-DDI-163765	ChREBP activates metabolic gene expression				reactome:R-DDI-163685	
 R-DDI-1638074	Keratan sulfate/keratin metabolism				reactome:R-DDI-1630316	
 R-DDI-1638091	Heparan sulfate/heparin (HS-GAG) metabolism				reactome:R-DDI-1630316	
-R-DDI-163841	Gamma carboxylation, hypusine formation and arylsulfatase activation				reactome:R-DDI-597592	
+R-DDI-163841	Gamma carboxylation, hypusinylation, hydroxylation, and arylsulfatase activation				reactome:R-DDI-597592	
 R-DDI-1640170	Cell Cycle					
 R-DDI-164378	PKA activation in glucagon signalling				reactome:R-DDI-163359	
 R-DDI-1650814	Collagen biosynthesis and modifying enzymes				reactome:R-DDI-1474290	
@@ -5616,6 +5628,7 @@ R-DDI-9609507	Protein localization
 R-DDI-9609523	Insertion of tail-anchored proteins into the endoplasmic reticulum membrane				reactome:R-DDI-9609507	
 R-DDI-9612973	Autophagy					
 R-DDI-9615933	Postmitotic nuclear pore complex (NPC) reformation				reactome:R-DDI-2995410	
+R-DDI-9629569	Protein hydroxylation				reactome:R-DDI-163841	
 R-DDI-9634597	GPER1 signaling				reactome:R-DDI-418555	
 R-DDI-9634600	Regulation of glycolysis by fructose 2,6-bisphosphate metabolism				reactome:R-DDI-70171	
 R-DDI-9634635	Estrogen-stimulated signaling through PRKCZ				reactome:R-DDI-9009391	
@@ -5626,7 +5639,7 @@ R-DDI-964739	N-glycan trimming and elongation in the cis-Golgi				reactome:R-DDI
 R-DDI-9648002	RAS processing				reactome:R-DDI-5673001	
 R-DDI-9648025	EML4 and NUDC in mitotic spindle formation				reactome:R-DDI-68877	
 R-DDI-964827	Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2				reactome:R-DDI-964739	
-R-DDI-964975	Vitamins B6 activation to pyridoxal phosphate				reactome:R-DDI-196849	
+R-DDI-964975	Vitamin B6 activation to pyridoxal phosphate				reactome:R-DDI-196849	
 R-DDI-9663891	Selective autophagy				reactome:R-DDI-1632852	
 R-DDI-9664873	Pexophagy				reactome:R-DDI-9663891	
 R-DDI-9668328	Sealing of the nuclear envelope (NE) by ESCRT-III				reactome:R-DDI-2995410	
@@ -5676,9 +5689,11 @@ R-DDI-983169	Class I MHC mediated antigen processing & presentation				reactome:
 R-DDI-983170	Antigen Presentation: Folding, assembly and peptide loading of class I MHC				reactome:R-DDI-983169	
 R-DDI-983189	Kinesins				reactome:R-DDI-983231	
 R-DDI-983231	Factors involved in megakaryocyte development and platelet production				reactome:R-DDI-109582	
+R-DDI-9833482	PKR-mediated signaling				reactome:R-DDI-1169410	
 R-DDI-983695	Antigen activates B Cell Receptor (BCR) leading to generation of second messengers				reactome:R-DDI-983705	
 R-DDI-983705	Signaling by the B Cell Receptor (BCR)				reactome:R-DDI-1280218	
 R-DDI-983712	Ion channel transport				reactome:R-DDI-382551	
+R-DDI-9840310	Glycosphingolipid catabolism				reactome:R-DDI-1660662	
 R-DDI-991365	Activation of GABAB receptors				reactome:R-DDI-977444	
 R-DME-1059683	Interleukin-6 signaling				reactome:R-DME-6783589	
 R-DME-109581	Apoptosis				reactome:R-DME-5357801	
@@ -5875,7 +5890,7 @@ R-DME-163754	Insulin effects increased synthesis of Xylulose-5-Phosphate				reac
 R-DME-163765	ChREBP activates metabolic gene expression				reactome:R-DME-163685	
 R-DME-1638074	Keratan sulfate/keratin metabolism				reactome:R-DME-1630316	
 R-DME-1638091	Heparan sulfate/heparin (HS-GAG) metabolism				reactome:R-DME-1630316	
-R-DME-163841	Gamma carboxylation, hypusine formation and arylsulfatase activation				reactome:R-DME-597592	
+R-DME-163841	Gamma carboxylation, hypusinylation, hydroxylation, and arylsulfatase activation				reactome:R-DME-597592	
 R-DME-1640170	Cell Cycle					
 R-DME-164378	PKA activation in glucagon signalling				reactome:R-DME-163359	
 R-DME-1650814	Collagen biosynthesis and modifying enzymes				reactome:R-DME-1474290	
@@ -7087,6 +7102,7 @@ R-DME-9619229	Activation of RAC1 downstream of NMDARs				reactome:R-DME-438064
 R-DME-9619665	EGR2 and SOX10-mediated initiation of Schwann cell myelination				reactome:R-DME-9675108	
 R-DME-9623433	NR1H2 & NR1H3 regulate gene expression to control bile acid homeostasis				reactome:R-DME-9024446	
 R-DME-9627069	Regulation of the apoptosome activity				reactome:R-DME-111458	
+R-DME-9629569	Protein hydroxylation				reactome:R-DME-163841	
 R-DME-9634597	GPER1 signaling				reactome:R-DME-418555	
 R-DME-9634600	Regulation of glycolysis by fructose 2,6-bisphosphate metabolism				reactome:R-DME-70171	
 R-DME-9634635	Estrogen-stimulated signaling through PRKCZ				reactome:R-DME-9009391	
@@ -7099,7 +7115,7 @@ R-DME-964739	N-glycan trimming and elongation in the cis-Golgi				reactome:R-DME
 R-DME-9648002	RAS processing				reactome:R-DME-5673001	
 R-DME-9648025	EML4 and NUDC in mitotic spindle formation				reactome:R-DME-68877	
 R-DME-964827	Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2				reactome:R-DME-964739	
-R-DME-964975	Vitamins B6 activation to pyridoxal phosphate				reactome:R-DME-196849	
+R-DME-964975	Vitamin B6 activation to pyridoxal phosphate				reactome:R-DME-196849	
 R-DME-9652282	Drug-mediated inhibition of ERBB2 signaling				reactome:R-DME-1227986	
 R-DME-9663891	Selective autophagy				reactome:R-DME-1632852	
 R-DME-9664873	Pexophagy				reactome:R-DME-9663891	
@@ -7162,9 +7178,12 @@ R-DME-983169	Class I MHC mediated antigen processing & presentation				reactome:
 R-DME-983170	Antigen Presentation: Folding, assembly and peptide loading of class I MHC				reactome:R-DME-983169	
 R-DME-983189	Kinesins				reactome:R-DME-983231	
 R-DME-983231	Factors involved in megakaryocyte development and platelet production				reactome:R-DME-109582	
+R-DME-9833482	PKR-mediated signaling				reactome:R-DME-1169410	
 R-DME-983695	Antigen activates B Cell Receptor (BCR) leading to generation of second messengers				reactome:R-DME-983705	
 R-DME-983705	Signaling by the B Cell Receptor (BCR)				reactome:R-DME-1280218	
 R-DME-983712	Ion channel transport				reactome:R-DME-382551	
+R-DME-9840309	Glycosphingolipid biosynthesis				reactome:R-DME-1660662	
+R-DME-9840310	Glycosphingolipid catabolism				reactome:R-DME-1660662	
 R-DME-991365	Activation of GABAB receptors				reactome:R-DME-977444	
 R-DME-997272	Inhibition  of voltage gated Ca2+ channels via Gbeta/gamma subunits				reactome:R-DME-991365	
 R-DRE-1059683	Interleukin-6 signaling				reactome:R-DRE-6783589	
@@ -7398,7 +7417,7 @@ R-DRE-163754	Insulin effects increased synthesis of Xylulose-5-Phosphate				reac
 R-DRE-163765	ChREBP activates metabolic gene expression				reactome:R-DRE-163685	
 R-DRE-1638074	Keratan sulfate/keratin metabolism				reactome:R-DRE-1630316	
 R-DRE-1638091	Heparan sulfate/heparin (HS-GAG) metabolism				reactome:R-DRE-1630316	
-R-DRE-163841	Gamma carboxylation, hypusine formation and arylsulfatase activation				reactome:R-DRE-597592	
+R-DRE-163841	Gamma carboxylation, hypusinylation, hydroxylation, and arylsulfatase activation				reactome:R-DRE-597592	
 R-DRE-1640170	Cell Cycle					
 R-DRE-164378	PKA activation in glucagon signalling				reactome:R-DRE-163359	
 R-DRE-1650814	Collagen biosynthesis and modifying enzymes				reactome:R-DRE-1474290	
@@ -8758,6 +8777,7 @@ R-DRE-9619229	Activation of RAC1 downstream of NMDARs				reactome:R-DRE-438064
 R-DRE-9619665	EGR2 and SOX10-mediated initiation of Schwann cell myelination				reactome:R-DRE-9675108	
 R-DRE-9623433	NR1H2 & NR1H3 regulate gene expression to control bile acid homeostasis				reactome:R-DRE-9024446	
 R-DRE-9627069	Regulation of the apoptosome activity				reactome:R-DRE-111458	
+R-DRE-9629569	Protein hydroxylation				reactome:R-DRE-163841	
 R-DRE-9634597	GPER1 signaling				reactome:R-DRE-418555	
 R-DRE-9634600	Regulation of glycolysis by fructose 2,6-bisphosphate metabolism				reactome:R-DRE-70171	
 R-DRE-9634635	Estrogen-stimulated signaling through PRKCZ				reactome:R-DRE-9009391	
@@ -8770,7 +8790,7 @@ R-DRE-964739	N-glycan trimming and elongation in the cis-Golgi				reactome:R-DRE
 R-DRE-9648002	RAS processing				reactome:R-DRE-5673001	
 R-DRE-9648025	EML4 and NUDC in mitotic spindle formation				reactome:R-DRE-68877	
 R-DRE-964827	Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2				reactome:R-DRE-964739	
-R-DRE-964975	Vitamins B6 activation to pyridoxal phosphate				reactome:R-DRE-196849	
+R-DRE-964975	Vitamin B6 activation to pyridoxal phosphate				reactome:R-DRE-196849	
 R-DRE-9652282	Drug-mediated inhibition of ERBB2 signaling				reactome:R-DRE-1227986	
 R-DRE-9663891	Selective autophagy				reactome:R-DRE-1632852	
 R-DRE-9664873	Pexophagy				reactome:R-DRE-9663891	
@@ -8848,9 +8868,12 @@ R-DRE-983169	Class I MHC mediated antigen processing & presentation				reactome:
 R-DRE-983170	Antigen Presentation: Folding, assembly and peptide loading of class I MHC				reactome:R-DRE-983169	
 R-DRE-983189	Kinesins				reactome:R-DRE-983231	
 R-DRE-983231	Factors involved in megakaryocyte development and platelet production				reactome:R-DRE-109582	
+R-DRE-9833482	PKR-mediated signaling				reactome:R-DRE-1169410	
 R-DRE-983695	Antigen activates B Cell Receptor (BCR) leading to generation of second messengers				reactome:R-DRE-983705	
 R-DRE-983705	Signaling by the B Cell Receptor (BCR)				reactome:R-DRE-1280218	
 R-DRE-983712	Ion channel transport				reactome:R-DRE-382551	
+R-DRE-9840309	Glycosphingolipid biosynthesis				reactome:R-DRE-1660662	
+R-DRE-9840310	Glycosphingolipid catabolism				reactome:R-DRE-1660662	
 R-DRE-991365	Activation of GABAB receptors				reactome:R-DRE-977444	
 R-DRE-997272	Inhibition  of voltage gated Ca2+ channels via Gbeta/gamma subunits				reactome:R-DRE-991365	
 R-GGA-1059683	Interleukin-6 signaling				reactome:R-GGA-6783589	
@@ -9081,7 +9104,7 @@ R-GGA-163754	Insulin effects increased synthesis of Xylulose-5-Phosphate				reac
 R-GGA-163765	ChREBP activates metabolic gene expression				reactome:R-GGA-163685	
 R-GGA-1638074	Keratan sulfate/keratin metabolism				reactome:R-GGA-1630316	
 R-GGA-1638091	Heparan sulfate/heparin (HS-GAG) metabolism				reactome:R-GGA-1630316	
-R-GGA-163841	Gamma carboxylation, hypusine formation and arylsulfatase activation				reactome:R-GGA-597592	
+R-GGA-163841	Gamma carboxylation, hypusinylation, hydroxylation, and arylsulfatase activation				reactome:R-GGA-597592	
 R-GGA-1640170	Cell Cycle					
 R-GGA-164378	PKA activation in glucagon signalling				reactome:R-GGA-163359	
 R-GGA-1650814	Collagen biosynthesis and modifying enzymes				reactome:R-GGA-1474290	
@@ -10473,6 +10496,7 @@ R-GGA-9617629	Regulation of FOXO transcriptional activity by acetylation				reac
 R-GGA-9617828	FOXO-mediated transcription of cell cycle genes				reactome:R-GGA-9614085	
 R-GGA-9619665	EGR2 and SOX10-mediated initiation of Schwann cell myelination				reactome:R-GGA-9675108	
 R-GGA-9627069	Regulation of the apoptosome activity				reactome:R-GGA-111458	
+R-GGA-9629569	Protein hydroxylation				reactome:R-GGA-163841	
 R-GGA-9634597	GPER1 signaling				reactome:R-GGA-418555	
 R-GGA-9634600	Regulation of glycolysis by fructose 2,6-bisphosphate metabolism				reactome:R-GGA-70171	
 R-GGA-9634635	Estrogen-stimulated signaling through PRKCZ				reactome:R-GGA-9009391	
@@ -10485,7 +10509,7 @@ R-GGA-964739	N-glycan trimming and elongation in the cis-Golgi				reactome:R-GGA
 R-GGA-9648002	RAS processing				reactome:R-GGA-5673001	
 R-GGA-9648025	EML4 and NUDC in mitotic spindle formation				reactome:R-GGA-68877	
 R-GGA-964827	Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2				reactome:R-GGA-964739	
-R-GGA-964975	Vitamins B6 activation to pyridoxal phosphate				reactome:R-GGA-196849	
+R-GGA-964975	Vitamin B6 activation to pyridoxal phosphate				reactome:R-GGA-196849	
 R-GGA-9652282	Drug-mediated inhibition of ERBB2 signaling				reactome:R-GGA-1227986	
 R-GGA-9663891	Selective autophagy				reactome:R-GGA-1632852	
 R-GGA-9664873	Pexophagy				reactome:R-GGA-9663891	
@@ -10562,9 +10586,12 @@ R-GGA-983169	Class I MHC mediated antigen processing & presentation				reactome:
 R-GGA-983170	Antigen Presentation: Folding, assembly and peptide loading of class I MHC				reactome:R-GGA-983169	
 R-GGA-983189	Kinesins				reactome:R-GGA-983231	
 R-GGA-983231	Factors involved in megakaryocyte development and platelet production				reactome:R-GGA-109582	
+R-GGA-9833482	PKR-mediated signaling				reactome:R-GGA-1169410	
 R-GGA-983695	Antigen activates B Cell Receptor (BCR) leading to generation of second messengers				reactome:R-GGA-983705	
 R-GGA-983705	Signaling by the B Cell Receptor (BCR)				reactome:R-GGA-1280218	
 R-GGA-983712	Ion channel transport				reactome:R-GGA-382551	
+R-GGA-9840309	Glycosphingolipid biosynthesis				reactome:R-GGA-1660662	
+R-GGA-9840310	Glycosphingolipid catabolism				reactome:R-GGA-1660662	
 R-GGA-991365	Activation of GABAB receptors				reactome:R-GGA-977444	
 R-GGA-997272	Inhibition  of voltage gated Ca2+ channels via Gbeta/gamma subunits				reactome:R-GGA-991365	
 R-HSA-1059683	Interleukin-6 signaling				reactome:R-HSA-6783589	
@@ -10841,7 +10868,7 @@ R-HSA-163765	ChREBP activates metabolic gene expression				reactome:R-HSA-163685
 R-HSA-163767	PP2A-mediated dephosphorylation of key metabolic factors				reactome:R-HSA-163685	
 R-HSA-1638074	Keratan sulfate/keratin metabolism				reactome:R-HSA-1630316	
 R-HSA-1638091	Heparan sulfate/heparin (HS-GAG) metabolism				reactome:R-HSA-1630316	
-R-HSA-163841	Gamma carboxylation, hypusine formation and arylsulfatase activation				reactome:R-HSA-597592	
+R-HSA-163841	Gamma carboxylation, hypusinylation, hydroxylation, and arylsulfatase activation				reactome:R-HSA-597592	
 R-HSA-1640170	Cell Cycle					
 R-HSA-1643685	Disease					
 R-HSA-1643713	Signaling by EGFR in Cancer				reactome:R-HSA-5663202	
@@ -12821,6 +12848,7 @@ R-HSA-9620244	Long-term potentiation				reactome:R-HSA-438064
 R-HSA-9623433	NR1H2 & NR1H3 regulate gene expression to control bile acid homeostasis				reactome:R-HSA-9024446	
 R-HSA-9627069	Regulation of the apoptosome activity				reactome:R-HSA-111458	
 R-HSA-9629232	Defective Base Excision Repair Associated with NEIL3				reactome:R-HSA-9605308	
+R-HSA-9629569	Protein hydroxylation				reactome:R-HSA-163841	
 R-HSA-9630221	Defective NTHL1 substrate processing				reactome:R-HSA-9616333	
 R-HSA-9630222	Defective NTHL1 substrate binding				reactome:R-HSA-9616333	
 R-HSA-9630747	Diseases of Cellular Senescence				reactome:R-HSA-9675132	
@@ -12867,7 +12895,7 @@ R-HSA-9648002	RAS processing				reactome:R-HSA-5673001
 R-HSA-9648025	EML4 and NUDC in mitotic spindle formation				reactome:R-HSA-68877	
 R-HSA-964827	Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2				reactome:R-HSA-964739	
 R-HSA-9648895	Response of EIF2AK1 (HRI) to heme deficiency				reactome:R-HSA-2262752	
-R-HSA-964975	Vitamins B6 activation to pyridoxal phosphate				reactome:R-HSA-196849	
+R-HSA-964975	Vitamin B6 activation to pyridoxal phosphate				reactome:R-HSA-196849	
 R-HSA-9649913	RAS GTPase cycle mutants				reactome:R-HSA-6802949	
 R-HSA-9649948	Signaling downstream of RAS mutants				reactome:R-HSA-6802949	
 R-HSA-9651496	Defects of contact activation system (CAS) and kallikrein/kinin system (KKS)				reactome:R-HSA-9671793	
@@ -13174,11 +13202,22 @@ R-HSA-9793242	SUMOylation of nuclear envelope proteins				reactome:R-HSA-3108232
 R-HSA-9793380	Formation of paraxial mesoderm				reactome:R-HSA-9758941	
 R-HSA-9793528	Ciprofloxacin ADME				reactome:R-HSA-9748784	
 R-HSA-9796292	Formation of axial mesoderm				reactome:R-HSA-9758941	
+R-HSA-9816359	Maternal to zygotic transition (MZT)				reactome:R-HSA-1266738	
 R-HSA-9818025	NFE2L2 regulating TCA cycle genes				reactome:R-HSA-9759194	
+R-HSA-9818026	NFE2L2 regulating inflammation associated genes				reactome:R-HSA-9759194	
 R-HSA-9818027	NFE2L2 regulating anti-oxidant/detoxification enzymes				reactome:R-HSA-9759194	
 R-HSA-9818028	NFE2L2 regulates pentose phosphate pathway genes				reactome:R-HSA-9759194	
+R-HSA-9818030	NFE2L2 regulating tumorigenic genes				reactome:R-HSA-9759194	
+R-HSA-9818032	NFE2L2 regulating MDR associated enzymes				reactome:R-HSA-9759194	
+R-HSA-9818035	NFE2L2 regulating ER-stress associated genes				reactome:R-HSA-9759194	
 R-HSA-9818749	Regulation of NFE2L2 gene expression				reactome:R-HSA-9759194	
+R-HSA-9819196	Zygotic genome activation (ZGA)				reactome:R-HSA-9816359	
+R-HSA-9820841	M-decay: degradation of maternal mRNAs by maternally stored factors				reactome:R-HSA-9816359	
+R-HSA-9820865	Z-decay: degradation of maternal mRNAs by zygotically expressed factors				reactome:R-HSA-9816359	
+R-HSA-9821002	Chromatin modifications during the maternal to zygotic transition (MZT)				reactome:R-HSA-9816359	
+R-HSA-9821993	Replacement of protamines by nucleosomes in the male pronucleus				reactome:R-HSA-9816359	
 R-HSA-9823730	Formation of definitive endoderm				reactome:R-HSA-9758941	
+R-HSA-9823739	Formation of the anterior neural plate				reactome:R-HSA-9758941	
 R-HSA-9824272	Somitogenesis				reactome:R-HSA-9793380	
 R-HSA-9824439	Bacterial Infection Pathways				reactome:R-HSA-5663205	
 R-HSA-9824443	Parasitic Infection Pathways				reactome:R-HSA-5663205	
@@ -13190,10 +13229,16 @@ R-HSA-983169	Class I MHC mediated antigen processing & presentation				reactome:
 R-HSA-983170	Antigen Presentation: Folding, assembly and peptide loading of class I MHC				reactome:R-HSA-983169	
 R-HSA-983189	Kinesins				reactome:R-HSA-983231	
 R-HSA-983231	Factors involved in megakaryocyte development and platelet production				reactome:R-HSA-109582	
+R-HSA-9832991	Formation of the posterior neural plate				reactome:R-HSA-9758941	
+R-HSA-9833482	PKR-mediated signaling				reactome:R-HSA-1169410	
 R-HSA-9833576	CDH11 homotypic and heterotypic interactions				reactome:R-HSA-9762292	
+R-HSA-9836573	Mitochondrial RNA degradation				reactome:R-HSA-8953854	
 R-HSA-983695	Antigen activates B Cell Receptor (BCR) leading to generation of second messengers				reactome:R-HSA-983705	
 R-HSA-983705	Signaling by the B Cell Receptor (BCR)				reactome:R-HSA-1280218	
+R-HSA-9837092	FASTK family proteins regulate processing and stability of mitochondrial RNAs				reactome:R-HSA-9836573	
 R-HSA-983712	Ion channel transport				reactome:R-HSA-382551	
+R-HSA-9840309	Glycosphingolipid biosynthesis				reactome:R-HSA-1660662	
+R-HSA-9840310	Glycosphingolipid catabolism				reactome:R-HSA-1660662	
 R-HSA-991365	Activation of GABAB receptors				reactome:R-HSA-977444	
 R-HSA-997272	Inhibition  of voltage gated Ca2+ channels via Gbeta/gamma subunits				reactome:R-HSA-991365	
 R-MMU-1059683	Interleukin-6 signaling				reactome:R-MMU-6783589	
@@ -13436,7 +13481,7 @@ R-MMU-163754	Insulin effects increased synthesis of Xylulose-5-Phosphate				reac
 R-MMU-163765	ChREBP activates metabolic gene expression				reactome:R-MMU-163685	
 R-MMU-1638074	Keratan sulfate/keratin metabolism				reactome:R-MMU-1630316	
 R-MMU-1638091	Heparan sulfate/heparin (HS-GAG) metabolism				reactome:R-MMU-1630316	
-R-MMU-163841	Gamma carboxylation, hypusine formation and arylsulfatase activation				reactome:R-MMU-597592	
+R-MMU-163841	Gamma carboxylation, hypusinylation, hydroxylation, and arylsulfatase activation				reactome:R-MMU-597592	
 R-MMU-1640170	Cell Cycle					
 R-MMU-164378	PKA activation in glucagon signalling				reactome:R-MMU-163359	
 R-MMU-1650814	Collagen biosynthesis and modifying enzymes				reactome:R-MMU-1474290	
@@ -14822,6 +14867,7 @@ R-MMU-9619229	Activation of RAC1 downstream of NMDARs				reactome:R-MMU-438064
 R-MMU-9619665	EGR2 and SOX10-mediated initiation of Schwann cell myelination				reactome:R-MMU-9675108	
 R-MMU-9623433	NR1H2 & NR1H3 regulate gene expression to control bile acid homeostasis				reactome:R-MMU-9024446	
 R-MMU-9627069	Regulation of the apoptosome activity				reactome:R-MMU-111458	
+R-MMU-9629569	Protein hydroxylation				reactome:R-MMU-163841	
 R-MMU-9634597	GPER1 signaling				reactome:R-MMU-418555	
 R-MMU-9634600	Regulation of glycolysis by fructose 2,6-bisphosphate metabolism				reactome:R-MMU-70171	
 R-MMU-9634635	Estrogen-stimulated signaling through PRKCZ				reactome:R-MMU-9009391	
@@ -14835,7 +14881,7 @@ R-MMU-964739	N-glycan trimming and elongation in the cis-Golgi				reactome:R-MMU
 R-MMU-9648002	RAS processing				reactome:R-MMU-5673001	
 R-MMU-9648025	EML4 and NUDC in mitotic spindle formation				reactome:R-MMU-68877	
 R-MMU-964827	Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2				reactome:R-MMU-964739	
-R-MMU-964975	Vitamins B6 activation to pyridoxal phosphate				reactome:R-MMU-196849	
+R-MMU-964975	Vitamin B6 activation to pyridoxal phosphate				reactome:R-MMU-196849	
 R-MMU-9652282	Drug-mediated inhibition of ERBB2 signaling				reactome:R-MMU-1227986	
 R-MMU-9663891	Selective autophagy				reactome:R-MMU-1632852	
 R-MMU-9664873	Pexophagy				reactome:R-MMU-9663891	
@@ -14916,9 +14962,12 @@ R-MMU-983169	Class I MHC mediated antigen processing & presentation				reactome:
 R-MMU-983170	Antigen Presentation: Folding, assembly and peptide loading of class I MHC				reactome:R-MMU-983169	
 R-MMU-983189	Kinesins				reactome:R-MMU-983231	
 R-MMU-983231	Factors involved in megakaryocyte development and platelet production				reactome:R-MMU-109582	
+R-MMU-9833482	PKR-mediated signaling				reactome:R-MMU-1169410	
 R-MMU-983695	Antigen activates B Cell Receptor (BCR) leading to generation of second messengers				reactome:R-MMU-983705	
 R-MMU-983705	Signaling by the B Cell Receptor (BCR)				reactome:R-MMU-1280218	
 R-MMU-983712	Ion channel transport				reactome:R-MMU-382551	
+R-MMU-9840309	Glycosphingolipid biosynthesis				reactome:R-MMU-1660662	
+R-MMU-9840310	Glycosphingolipid catabolism				reactome:R-MMU-1660662	
 R-MMU-991365	Activation of GABAB receptors				reactome:R-MMU-977444	
 R-MMU-997272	Inhibition  of voltage gated Ca2+ channels via Gbeta/gamma subunits				reactome:R-MMU-991365	
 R-MTU-868688	Trehalose biosynthesis				reactome:R-MTU-870392	
@@ -15031,7 +15080,7 @@ R-PFA-163560	Triglyceride catabolism				reactome:R-PFA-8979227
 R-PFA-163615	PKA activation				reactome:R-PFA-111931	
 R-PFA-163685	Integration of energy metabolism				reactome:R-PFA-1430728	
 R-PFA-163765	ChREBP activates metabolic gene expression				reactome:R-PFA-163685	
-R-PFA-163841	Gamma carboxylation, hypusine formation and arylsulfatase activation				reactome:R-PFA-597592	
+R-PFA-163841	Gamma carboxylation, hypusinylation, hydroxylation, and arylsulfatase activation				reactome:R-PFA-597592	
 R-PFA-1640170	Cell Cycle					
 R-PFA-164378	PKA activation in glucagon signalling				reactome:R-PFA-163359	
 R-PFA-165158	Activation of AKT2				reactome:R-PFA-109704	
@@ -15511,7 +15560,7 @@ R-PFA-9634597	GPER1 signaling				reactome:R-PFA-418555
 R-PFA-9646399	Aggrephagy				reactome:R-PFA-9663891	
 R-PFA-9648002	RAS processing				reactome:R-PFA-5673001	
 R-PFA-9648025	EML4 and NUDC in mitotic spindle formation				reactome:R-PFA-68877	
-R-PFA-964975	Vitamins B6 activation to pyridoxal phosphate				reactome:R-PFA-196849	
+R-PFA-964975	Vitamin B6 activation to pyridoxal phosphate				reactome:R-PFA-196849	
 R-PFA-9663891	Selective autophagy				reactome:R-PFA-1632852	
 R-PFA-9709957	Sensory Perception					
 R-PFA-9711123	Cellular response to chemical stress				reactome:R-PFA-2262752	
@@ -15535,7 +15584,9 @@ R-PFA-983169	Class I MHC mediated antigen processing & presentation				reactome:
 R-PFA-983170	Antigen Presentation: Folding, assembly and peptide loading of class I MHC				reactome:R-PFA-983169	
 R-PFA-983189	Kinesins				reactome:R-PFA-983231	
 R-PFA-983231	Factors involved in megakaryocyte development and platelet production				reactome:R-PFA-109582	
+R-PFA-9833482	PKR-mediated signaling				reactome:R-PFA-1169410	
 R-PFA-983712	Ion channel transport				reactome:R-PFA-382551	
+R-PFA-9840309	Glycosphingolipid biosynthesis				reactome:R-PFA-1660662	
 R-RNO-1059683	Interleukin-6 signaling				reactome:R-RNO-6783589	
 R-RNO-109581	Apoptosis				reactome:R-RNO-5357801	
 R-RNO-109582	Hemostasis					
@@ -15776,7 +15827,7 @@ R-RNO-163754	Insulin effects increased synthesis of Xylulose-5-Phosphate				reac
 R-RNO-163765	ChREBP activates metabolic gene expression				reactome:R-RNO-163685	
 R-RNO-1638074	Keratan sulfate/keratin metabolism				reactome:R-RNO-1630316	
 R-RNO-1638091	Heparan sulfate/heparin (HS-GAG) metabolism				reactome:R-RNO-1630316	
-R-RNO-163841	Gamma carboxylation, hypusine formation and arylsulfatase activation				reactome:R-RNO-597592	
+R-RNO-163841	Gamma carboxylation, hypusinylation, hydroxylation, and arylsulfatase activation				reactome:R-RNO-597592	
 R-RNO-1640170	Cell Cycle					
 R-RNO-164378	PKA activation in glucagon signalling				reactome:R-RNO-163359	
 R-RNO-1650814	Collagen biosynthesis and modifying enzymes				reactome:R-RNO-1474290	
@@ -17149,6 +17200,7 @@ R-RNO-9619229	Activation of RAC1 downstream of NMDARs				reactome:R-RNO-438064
 R-RNO-9619665	EGR2 and SOX10-mediated initiation of Schwann cell myelination				reactome:R-RNO-9675108	
 R-RNO-9623433	NR1H2 & NR1H3 regulate gene expression to control bile acid homeostasis				reactome:R-RNO-9024446	
 R-RNO-9627069	Regulation of the apoptosome activity				reactome:R-RNO-111458	
+R-RNO-9629569	Protein hydroxylation				reactome:R-RNO-163841	
 R-RNO-9634597	GPER1 signaling				reactome:R-RNO-418555	
 R-RNO-9634600	Regulation of glycolysis by fructose 2,6-bisphosphate metabolism				reactome:R-RNO-70171	
 R-RNO-9634635	Estrogen-stimulated signaling through PRKCZ				reactome:R-RNO-9009391	
@@ -17162,7 +17214,7 @@ R-RNO-964739	N-glycan trimming and elongation in the cis-Golgi				reactome:R-RNO
 R-RNO-9648002	RAS processing				reactome:R-RNO-5673001	
 R-RNO-9648025	EML4 and NUDC in mitotic spindle formation				reactome:R-RNO-68877	
 R-RNO-964827	Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2				reactome:R-RNO-964739	
-R-RNO-964975	Vitamins B6 activation to pyridoxal phosphate				reactome:R-RNO-196849	
+R-RNO-964975	Vitamin B6 activation to pyridoxal phosphate				reactome:R-RNO-196849	
 R-RNO-9652282	Drug-mediated inhibition of ERBB2 signaling				reactome:R-RNO-1227986	
 R-RNO-9663891	Selective autophagy				reactome:R-RNO-1632852	
 R-RNO-9664873	Pexophagy				reactome:R-RNO-9663891	
@@ -17243,9 +17295,12 @@ R-RNO-983169	Class I MHC mediated antigen processing & presentation				reactome:
 R-RNO-983170	Antigen Presentation: Folding, assembly and peptide loading of class I MHC				reactome:R-RNO-983169	
 R-RNO-983189	Kinesins				reactome:R-RNO-983231	
 R-RNO-983231	Factors involved in megakaryocyte development and platelet production				reactome:R-RNO-109582	
+R-RNO-9833482	PKR-mediated signaling				reactome:R-RNO-1169410	
 R-RNO-983695	Antigen activates B Cell Receptor (BCR) leading to generation of second messengers				reactome:R-RNO-983705	
 R-RNO-983705	Signaling by the B Cell Receptor (BCR)				reactome:R-RNO-1280218	
 R-RNO-983712	Ion channel transport				reactome:R-RNO-382551	
+R-RNO-9840309	Glycosphingolipid biosynthesis				reactome:R-RNO-1660662	
+R-RNO-9840310	Glycosphingolipid catabolism				reactome:R-RNO-1660662	
 R-RNO-991365	Activation of GABAB receptors				reactome:R-RNO-977444	
 R-RNO-997272	Inhibition  of voltage gated Ca2+ channels via Gbeta/gamma subunits				reactome:R-RNO-991365	
 R-SCE-109581	Apoptosis				reactome:R-SCE-5357801	
@@ -17287,6 +17342,7 @@ R-SCE-114604	GPVI-mediated activation cascade				reactome:R-SCE-76002
 R-SCE-114608	Platelet degranulation 				reactome:R-SCE-76005	
 R-SCE-1168372	Downstream signaling events of B Cell Receptor (BCR)				reactome:R-SCE-983705	
 R-SCE-1169091	Activation of NF-kappaB in B cells				reactome:R-SCE-1168372	
+R-SCE-1169410	Antiviral mechanism by IFN-stimulated genes				reactome:R-SCE-913531	
 R-SCE-1222556	ROS and RNS production in phagocytes				reactome:R-SCE-168249	
 R-SCE-1236975	Antigen processing-Cross presentation				reactome:R-SCE-983169	
 R-SCE-1236978	Cross-presentation of soluble exogenous antigens (endosomes)				reactome:R-SCE-1236975	
@@ -17364,7 +17420,7 @@ R-SCE-163680	AMPK inhibits chREBP transcriptional activation activity				reactom
 R-SCE-163685	Integration of energy metabolism				reactome:R-SCE-1430728	
 R-SCE-163754	Insulin effects increased synthesis of Xylulose-5-Phosphate				reactome:R-SCE-163685	
 R-SCE-163765	ChREBP activates metabolic gene expression				reactome:R-SCE-163685	
-R-SCE-163841	Gamma carboxylation, hypusine formation and arylsulfatase activation				reactome:R-SCE-597592	
+R-SCE-163841	Gamma carboxylation, hypusinylation, hydroxylation, and arylsulfatase activation				reactome:R-SCE-597592	
 R-SCE-1640170	Cell Cycle					
 R-SCE-164378	PKA activation in glucagon signalling				reactome:R-SCE-163359	
 R-SCE-165158	Activation of AKT2				reactome:R-SCE-109704	
@@ -17999,6 +18055,7 @@ R-SCE-9023661	Biosynthesis of E-series 18(R)-resolvins				reactome:R-SCE-9018679
 R-SCE-9031628	NGF-stimulated transcription				reactome:R-SCE-198725	
 R-SCE-9033241	Peroxisomal protein import				reactome:R-SCE-9609507	
 R-SCE-9035034	RHOF GTPase cycle				reactome:R-SCE-9012999	
+R-SCE-913531	Interferon Signaling				reactome:R-SCE-1280215	
 R-SCE-916853	Degradation of GABA				reactome:R-SCE-888590	
 R-SCE-917729	Endosomal Sorting Complex Required For Transport (ESCRT)				reactome:R-SCE-199991	
 R-SCE-917937	Iron uptake and transport				reactome:R-SCE-382551	
@@ -18013,6 +18070,7 @@ R-SCE-9609507	Protein localization
 R-SCE-9609523	Insertion of tail-anchored proteins into the endoplasmic reticulum membrane				reactome:R-SCE-9609507	
 R-SCE-9612973	Autophagy					
 R-SCE-9615933	Postmitotic nuclear pore complex (NPC) reformation				reactome:R-SCE-2995410	
+R-SCE-9629569	Protein hydroxylation				reactome:R-SCE-163841	
 R-SCE-9634597	GPER1 signaling				reactome:R-SCE-418555	
 R-SCE-9634600	Regulation of glycolysis by fructose 2,6-bisphosphate metabolism				reactome:R-SCE-70171	
 R-SCE-9634635	Estrogen-stimulated signaling through PRKCZ				reactome:R-SCE-9009391	
@@ -18022,7 +18080,7 @@ R-SCE-9646399	Aggrephagy				reactome:R-SCE-9663891
 R-SCE-964739	N-glycan trimming and elongation in the cis-Golgi				reactome:R-SCE-948021	
 R-SCE-9648002	RAS processing				reactome:R-SCE-5673001	
 R-SCE-964827	Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2				reactome:R-SCE-964739	
-R-SCE-964975	Vitamins B6 activation to pyridoxal phosphate				reactome:R-SCE-196849	
+R-SCE-964975	Vitamin B6 activation to pyridoxal phosphate				reactome:R-SCE-196849	
 R-SCE-9663891	Selective autophagy				reactome:R-SCE-1632852	
 R-SCE-9664873	Pexophagy				reactome:R-SCE-9663891	
 R-SCE-9668328	Sealing of the nuclear envelope (NE) by ESCRT-III				reactome:R-SCE-2995410	
@@ -18063,8 +18121,10 @@ R-SCE-983169	Class I MHC mediated antigen processing & presentation				reactome:
 R-SCE-983170	Antigen Presentation: Folding, assembly and peptide loading of class I MHC				reactome:R-SCE-983169	
 R-SCE-983189	Kinesins				reactome:R-SCE-983231	
 R-SCE-983231	Factors involved in megakaryocyte development and platelet production				reactome:R-SCE-109582	
+R-SCE-9833482	PKR-mediated signaling				reactome:R-SCE-1169410	
 R-SCE-983705	Signaling by the B Cell Receptor (BCR)				reactome:R-SCE-1280218	
 R-SCE-983712	Ion channel transport				reactome:R-SCE-382551	
+R-SCE-9840310	Glycosphingolipid catabolism				reactome:R-SCE-1660662	
 R-SPO-109581	Apoptosis				reactome:R-SPO-5357801	
 R-SPO-109582	Hemostasis					
 R-SPO-109606	Intrinsic Pathway for Apoptosis				reactome:R-SPO-109581	
@@ -18106,6 +18166,7 @@ R-SPO-114604	GPVI-mediated activation cascade				reactome:R-SPO-76002
 R-SPO-114608	Platelet degranulation 				reactome:R-SPO-76005	
 R-SPO-1168372	Downstream signaling events of B Cell Receptor (BCR)				reactome:R-SPO-983705	
 R-SPO-1169091	Activation of NF-kappaB in B cells				reactome:R-SPO-1168372	
+R-SPO-1169410	Antiviral mechanism by IFN-stimulated genes				reactome:R-SPO-913531	
 R-SPO-1222556	ROS and RNS production in phagocytes				reactome:R-SPO-168249	
 R-SPO-1236975	Antigen processing-Cross presentation				reactome:R-SPO-983169	
 R-SPO-1236978	Cross-presentation of soluble exogenous antigens (endosomes)				reactome:R-SPO-1236975	
@@ -18180,7 +18241,7 @@ R-SPO-163680	AMPK inhibits chREBP transcriptional activation activity				reactom
 R-SPO-163685	Integration of energy metabolism				reactome:R-SPO-1430728	
 R-SPO-163754	Insulin effects increased synthesis of Xylulose-5-Phosphate				reactome:R-SPO-163685	
 R-SPO-163765	ChREBP activates metabolic gene expression				reactome:R-SPO-163685	
-R-SPO-163841	Gamma carboxylation, hypusine formation and arylsulfatase activation				reactome:R-SPO-597592	
+R-SPO-163841	Gamma carboxylation, hypusinylation, hydroxylation, and arylsulfatase activation				reactome:R-SPO-597592	
 R-SPO-1640170	Cell Cycle					
 R-SPO-164378	PKA activation in glucagon signalling				reactome:R-SPO-163359	
 R-SPO-165158	Activation of AKT2				reactome:R-SPO-109704	
@@ -18821,6 +18882,7 @@ R-SPO-9033241	Peroxisomal protein import				reactome:R-SPO-9609507
 R-SPO-9033658	Blood group systems biosynthesis				reactome:R-SPO-71387	
 R-SPO-9035034	RHOF GTPase cycle				reactome:R-SPO-9012999	
 R-SPO-9037629	Lewis blood group biosynthesis				reactome:R-SPO-9033658	
+R-SPO-913531	Interferon Signaling				reactome:R-SPO-1280215	
 R-SPO-916853	Degradation of GABA				reactome:R-SPO-888590	
 R-SPO-917729	Endosomal Sorting Complex Required For Transport (ESCRT)				reactome:R-SPO-199991	
 R-SPO-917937	Iron uptake and transport				reactome:R-SPO-382551	
@@ -18835,6 +18897,7 @@ R-SPO-9609507	Protein localization
 R-SPO-9609523	Insertion of tail-anchored proteins into the endoplasmic reticulum membrane				reactome:R-SPO-9609507	
 R-SPO-9612973	Autophagy					
 R-SPO-9615933	Postmitotic nuclear pore complex (NPC) reformation				reactome:R-SPO-2995410	
+R-SPO-9629569	Protein hydroxylation				reactome:R-SPO-163841	
 R-SPO-9634597	GPER1 signaling				reactome:R-SPO-418555	
 R-SPO-9634600	Regulation of glycolysis by fructose 2,6-bisphosphate metabolism				reactome:R-SPO-70171	
 R-SPO-9634635	Estrogen-stimulated signaling through PRKCZ				reactome:R-SPO-9009391	
@@ -18842,7 +18905,7 @@ R-SPO-9639288	Amino acids regulate mTORC1				reactome:R-SPO-9711097
 R-SPO-9640463	Wax biosynthesis				reactome:R-SPO-8848584	
 R-SPO-9648002	RAS processing				reactome:R-SPO-5673001	
 R-SPO-9648025	EML4 and NUDC in mitotic spindle formation				reactome:R-SPO-68877	
-R-SPO-964975	Vitamins B6 activation to pyridoxal phosphate				reactome:R-SPO-196849	
+R-SPO-964975	Vitamin B6 activation to pyridoxal phosphate				reactome:R-SPO-196849	
 R-SPO-9663891	Selective autophagy				reactome:R-SPO-1632852	
 R-SPO-9664873	Pexophagy				reactome:R-SPO-9663891	
 R-SPO-9668328	Sealing of the nuclear envelope (NE) by ESCRT-III				reactome:R-SPO-2995410	
@@ -18884,9 +18947,12 @@ R-SPO-983169	Class I MHC mediated antigen processing & presentation				reactome:
 R-SPO-983170	Antigen Presentation: Folding, assembly and peptide loading of class I MHC				reactome:R-SPO-983169	
 R-SPO-983189	Kinesins				reactome:R-SPO-983231	
 R-SPO-983231	Factors involved in megakaryocyte development and platelet production				reactome:R-SPO-109582	
+R-SPO-9833482	PKR-mediated signaling				reactome:R-SPO-1169410	
 R-SPO-983695	Antigen activates B Cell Receptor (BCR) leading to generation of second messengers				reactome:R-SPO-983705	
 R-SPO-983705	Signaling by the B Cell Receptor (BCR)				reactome:R-SPO-1280218	
 R-SPO-983712	Ion channel transport				reactome:R-SPO-382551	
+R-SPO-9840309	Glycosphingolipid biosynthesis				reactome:R-SPO-1660662	
+R-SPO-9840310	Glycosphingolipid catabolism				reactome:R-SPO-1660662	
 R-SSC-1059683	Interleukin-6 signaling				reactome:R-SSC-6783589	
 R-SSC-109581	Apoptosis				reactome:R-SSC-5357801	
 R-SSC-109582	Hemostasis					
@@ -19120,7 +19186,7 @@ R-SSC-163754	Insulin effects increased synthesis of Xylulose-5-Phosphate				reac
 R-SSC-163765	ChREBP activates metabolic gene expression				reactome:R-SSC-163685	
 R-SSC-1638074	Keratan sulfate/keratin metabolism				reactome:R-SSC-1630316	
 R-SSC-1638091	Heparan sulfate/heparin (HS-GAG) metabolism				reactome:R-SSC-1630316	
-R-SSC-163841	Gamma carboxylation, hypusine formation and arylsulfatase activation				reactome:R-SSC-597592	
+R-SSC-163841	Gamma carboxylation, hypusinylation, hydroxylation, and arylsulfatase activation				reactome:R-SSC-597592	
 R-SSC-1640170	Cell Cycle					
 R-SSC-164378	PKA activation in glucagon signalling				reactome:R-SSC-163359	
 R-SSC-1650814	Collagen biosynthesis and modifying enzymes				reactome:R-SSC-1474290	
@@ -20460,6 +20526,7 @@ R-SSC-9617828	FOXO-mediated transcription of cell cycle genes				reactome:R-SSC-
 R-SSC-9619665	EGR2 and SOX10-mediated initiation of Schwann cell myelination				reactome:R-SSC-9675108	
 R-SSC-9623433	NR1H2 & NR1H3 regulate gene expression to control bile acid homeostasis				reactome:R-SSC-9024446	
 R-SSC-9627069	Regulation of the apoptosome activity				reactome:R-SSC-111458	
+R-SSC-9629569	Protein hydroxylation				reactome:R-SSC-163841	
 R-SSC-9634597	GPER1 signaling				reactome:R-SSC-418555	
 R-SSC-9634600	Regulation of glycolysis by fructose 2,6-bisphosphate metabolism				reactome:R-SSC-70171	
 R-SSC-9634635	Estrogen-stimulated signaling through PRKCZ				reactome:R-SSC-9009391	
@@ -20473,7 +20540,7 @@ R-SSC-964739	N-glycan trimming and elongation in the cis-Golgi				reactome:R-SSC
 R-SSC-9648002	RAS processing				reactome:R-SSC-5673001	
 R-SSC-9648025	EML4 and NUDC in mitotic spindle formation				reactome:R-SSC-68877	
 R-SSC-964827	Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2				reactome:R-SSC-964739	
-R-SSC-964975	Vitamins B6 activation to pyridoxal phosphate				reactome:R-SSC-196849	
+R-SSC-964975	Vitamin B6 activation to pyridoxal phosphate				reactome:R-SSC-196849	
 R-SSC-9652282	Drug-mediated inhibition of ERBB2 signaling				reactome:R-SSC-1227986	
 R-SSC-9663891	Selective autophagy				reactome:R-SSC-1632852	
 R-SSC-9664873	Pexophagy				reactome:R-SSC-9663891	
@@ -20552,9 +20619,12 @@ R-SSC-983169	Class I MHC mediated antigen processing & presentation				reactome:
 R-SSC-983170	Antigen Presentation: Folding, assembly and peptide loading of class I MHC				reactome:R-SSC-983169	
 R-SSC-983189	Kinesins				reactome:R-SSC-983231	
 R-SSC-983231	Factors involved in megakaryocyte development and platelet production				reactome:R-SSC-109582	
+R-SSC-9833482	PKR-mediated signaling				reactome:R-SSC-1169410	
 R-SSC-983695	Antigen activates B Cell Receptor (BCR) leading to generation of second messengers				reactome:R-SSC-983705	
 R-SSC-983705	Signaling by the B Cell Receptor (BCR)				reactome:R-SSC-1280218	
 R-SSC-983712	Ion channel transport				reactome:R-SSC-382551	
+R-SSC-9840309	Glycosphingolipid biosynthesis				reactome:R-SSC-1660662	
+R-SSC-9840310	Glycosphingolipid catabolism				reactome:R-SSC-1660662	
 R-SSC-991365	Activation of GABAB receptors				reactome:R-SSC-977444	
 R-SSC-997272	Inhibition  of voltage gated Ca2+ channels via Gbeta/gamma subunits				reactome:R-SSC-991365	
 R-XTR-1059683	Interleukin-6 signaling				reactome:R-XTR-6783589	
@@ -20775,7 +20845,7 @@ R-XTR-163754	Insulin effects increased synthesis of Xylulose-5-Phosphate				reac
 R-XTR-163765	ChREBP activates metabolic gene expression				reactome:R-XTR-163685	
 R-XTR-1638074	Keratan sulfate/keratin metabolism				reactome:R-XTR-1630316	
 R-XTR-1638091	Heparan sulfate/heparin (HS-GAG) metabolism				reactome:R-XTR-1630316	
-R-XTR-163841	Gamma carboxylation, hypusine formation and arylsulfatase activation				reactome:R-XTR-597592	
+R-XTR-163841	Gamma carboxylation, hypusinylation, hydroxylation, and arylsulfatase activation				reactome:R-XTR-597592	
 R-XTR-1640170	Cell Cycle					
 R-XTR-164378	PKA activation in glucagon signalling				reactome:R-XTR-163359	
 R-XTR-1650814	Collagen biosynthesis and modifying enzymes				reactome:R-XTR-1474290	
@@ -22054,6 +22124,7 @@ R-XTR-9617629	Regulation of FOXO transcriptional activity by acetylation				reac
 R-XTR-9617828	FOXO-mediated transcription of cell cycle genes				reactome:R-XTR-9614085	
 R-XTR-9619665	EGR2 and SOX10-mediated initiation of Schwann cell myelination				reactome:R-XTR-9675108	
 R-XTR-9627069	Regulation of the apoptosome activity				reactome:R-XTR-111458	
+R-XTR-9629569	Protein hydroxylation				reactome:R-XTR-163841	
 R-XTR-9634597	GPER1 signaling				reactome:R-XTR-418555	
 R-XTR-9634600	Regulation of glycolysis by fructose 2,6-bisphosphate metabolism				reactome:R-XTR-70171	
 R-XTR-9634635	Estrogen-stimulated signaling through PRKCZ				reactome:R-XTR-9009391	
@@ -22067,7 +22138,7 @@ R-XTR-964739	N-glycan trimming and elongation in the cis-Golgi				reactome:R-XTR
 R-XTR-9648002	RAS processing				reactome:R-XTR-5673001	
 R-XTR-9648025	EML4 and NUDC in mitotic spindle formation				reactome:R-XTR-68877	
 R-XTR-964827	Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2				reactome:R-XTR-964739	
-R-XTR-964975	Vitamins B6 activation to pyridoxal phosphate				reactome:R-XTR-196849	
+R-XTR-964975	Vitamin B6 activation to pyridoxal phosphate				reactome:R-XTR-196849	
 R-XTR-9652282	Drug-mediated inhibition of ERBB2 signaling				reactome:R-XTR-1227986	
 R-XTR-9663891	Selective autophagy				reactome:R-XTR-1632852	
 R-XTR-9664873	Pexophagy				reactome:R-XTR-9663891	
@@ -22141,8 +22212,11 @@ R-XTR-983169	Class I MHC mediated antigen processing & presentation				reactome:
 R-XTR-983170	Antigen Presentation: Folding, assembly and peptide loading of class I MHC				reactome:R-XTR-983169	
 R-XTR-983189	Kinesins				reactome:R-XTR-983231	
 R-XTR-983231	Factors involved in megakaryocyte development and platelet production				reactome:R-XTR-109582	
+R-XTR-9833482	PKR-mediated signaling				reactome:R-XTR-1169410	
 R-XTR-983695	Antigen activates B Cell Receptor (BCR) leading to generation of second messengers				reactome:R-XTR-983705	
 R-XTR-983705	Signaling by the B Cell Receptor (BCR)				reactome:R-XTR-1280218	
 R-XTR-983712	Ion channel transport				reactome:R-XTR-382551	
+R-XTR-9840309	Glycosphingolipid biosynthesis				reactome:R-XTR-1660662	
+R-XTR-9840310	Glycosphingolipid catabolism				reactome:R-XTR-1660662	
 R-XTR-991365	Activation of GABAB receptors				reactome:R-XTR-977444	
 R-XTR-997272	Inhibition  of voltage gated Ca2+ channels via Gbeta/gamma subunits				reactome:R-XTR-991365	

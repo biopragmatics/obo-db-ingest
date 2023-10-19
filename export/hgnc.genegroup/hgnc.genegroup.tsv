@@ -135,7 +135,7 @@ identifier	name	definition	synonyms	alts	parents	species
 1141	Pentraxins		PTX		so:0005855	
 1142	Long pentraxins				hgnc.genegroup:1141	
 1143	Short pentraxins				hgnc.genegroup:1141	
-1144	YIP family				so:0005855	
+1144	YIP superfamily				so:0005855	
 1145	AF4/FMR2 family		AFF		so:0005855	
 1146	GRAM domain containing		GRAM		so:0005855	
 1147	PWWP domain containing		PWWP		so:0005855	
@@ -654,7 +654,7 @@ identifier	name	definition	synonyms	alts	parents	species
 173	Cholinergic receptors nicotinic subunits	Nicotinic acetylcholine receptors, or nAChRs, are cholinergic receptors that form ligand-gated ion channels in the plasma membranes of certain neurons and on the presynaptic and postsynaptic sides of the neuromuscular junction. As ionotropic receptors, nAChRs are directly linked to ion channels and do not use second messengers (as metabotropic receptors do). Nicotinic acetylcholine receptors are the best-studied of the ionotropic receptors.  Like the other type of acetylcholine receptor - muscarinic acetylcholine receptor (mAChR) - nAChR is triggered by the binding of the neurotransmitter acetylcholine (ACh). Just as muscarinic receptors are named such because they are also activated by muscarine, nicotinic receptors can be opened not only by acetylcholine but also by nicotine âhence the name 'nicotinic.'   In insects, the cholinergic system is limited to the central nervous system. In contrast, neuronal receptors are found in both the central nervous system and the peripheral nervous system of mammals. Mammalian neuromuscular receptors are found in the neuromuscular junctions of somatic muscles ; stimulation of these receptors causes muscular contraction.	CHRN		hgnc.genegroup:175|hgnc.genegroup:161	
 1732	PeBoW complex	The PeBoW complex is essential for cell proliferation and maturation of the large ribosomal subunit in mammalian cells.			hgnc.genegroup:1301	
 1733	Dehydrodolichyl diphosphate synthase 				so:0005855	
-1734	Stomatin family				so:0005855	
+1734	Stomatin family		STOM		so:0005855	
 1736	MicroRNA MIR7 family		MIR7		hgnc.genegroup:476	
 1737	MicroRNA MIR15/16 family				hgnc.genegroup:476	
 1738	MicroRNA MIR24 family	The miR-24 microRNA precursor is a small non-coding RNA molecule that regulates gene expression.  microRNAs are transcribed as ~70 nucleotide precursors and subsequently processed by the Dicer enzyme to give a mature ~22 nucleotide product.  In this case the mature sequence comes from the 3' arm of the precursor. The mature products are thought to have regulatory roles through complementarity to mRNA. miR-24 is conserved in various species, and is clustered with miR-23 and miR-27, on human chromosome 9  and 19. Recently, miR-24 has been shown to suppress expression of two crucial cell cycle control genes, E2F2 and Myc in hematopoietic differentiation and also to promote keratinocyte differentiation by repressing actin-cytoskeleton regulators PAK4, Tsk5 and ArhGAP19.	MIR24		hgnc.genegroup:476	
@@ -1077,17 +1077,16 @@ identifier	name	definition	synonyms	alts	parents	species
 2199	Solute carrier family 49		SLC49, FLVCR		hgnc.genegroup:752	
 220	Peptide receptors	A subclass of 'G protein-coupled receptors, Class A rhodopsin-like receptors' that bind peptide ligands via the transmembrane helices and the extracellular loops of the receptor.			hgnc.genegroup:140	
 2200	Solute carrier family 50		SLC50		hgnc.genegroup:752	
-2201	Solute carrier family 51 subunits		SLC51		hgnc.genegroup:752	
 2202	Solute carrier family 52		SLC52		hgnc.genegroup:752	
 2203	Solute carrier family 53		SLC53		hgnc.genegroup:752	
 2204	Solute carrier family 54, mitochondrial pyruvate carriers		SLC54, MPC		hgnc.genegroup:752	
 2205	Solute carrier family 55, LETM mitochondrial cation/proton exchangers		SLC55, LETM		hgnc.genegroup:752	
 2206	Solute carrier family 57, NIPA-like magnesium transporters		SLC57, NIPA		hgnc.genegroup:752	
 2207	Solute carrier family 58		SLC58		hgnc.genegroup:752	
-2208	Solute carrier family 59		SLC59, MFSD2		hgnc.genegroup:752	
+2208	Solute carrier family 59		SLC59		hgnc.genegroup:752	
 2209	Solute carrier family 60		SLC60, MFSD4		hgnc.genegroup:752	
 221	Angiotensin receptors	The angiotensin receptors are a class of G protein-coupled receptors with angiotensin II as their ligands. They are important in the renin-angiotensin system : they are responsible for the signal transduction of the vasoconstricting stimulus of the main effector hormone, angiotensin II.	AGTR		hgnc.genegroup:220	
-2210	Solute carrier family 61		SLC561, MFSD5		hgnc.genegroup:752	
+2210	Solute carrier family 61		SLC61, MFSD5		hgnc.genegroup:752	
 2211	Solute carrier family 62		SLC62, ANKH		hgnc.genegroup:752	
 2212	Solute carrier family 63, sphingosine phosphate transporters		SLC63, SPNS		hgnc.genegroup:752	
 2213	Solute carrier family 64		SLC64, TMEM165		hgnc.genegroup:752	
@@ -1132,7 +1131,13 @@ identifier	name	definition	synonyms	alts	parents	species
 2265	Mitofusin family		MFN		so:0005855	
 2269	NHS family		NHS		so:0005855	
 227	Gonadotropin releasing hormone receptors	The gonadotropin-releasing hormone receptor (GNRHR), also known as the luteinizing hormone releasing hormone receptor ( LHRHR ), is a member of the seven-transmembrane, G-protein coupled receptor (GPCR) family. It is expressed on the surface of pituitary gonadotrope cells as well as lymphocytes, breast, ovary, and prostate. This receptor is a 60 kDa G protein-coupled receptor and resides primarily in the pituitary and is responsible for eliciting the actions of LHRH after its release from the hypothalamus. Upon activation, the LHRHr stimulates tyrosine phosphatase and elicits the release of LH from the pituitary. Evidence exists showing the presence of LHRH and its receptor in extrapituitary tissues as well as a role in progression of some cancers.	GNRHR		hgnc.genegroup:220	
+2274	Solute carrier family 51		SLC51		hgnc.genegroup:752	
+2279	Canonical Notch ligands	 The canonical Notch ligands are members of the Delta/Serrate/Lag-1 (DSL) family of proteins. When they bind to Notch receptors this induces a conformational change (regulated intramembrane proteolysis) in the receptor, freeing its Notch intracellular domain (NICD). The NICD can then translocate to the nucleus and promote gene transcription.  			so:0005855	
 228	Hypocretin receptors		HCRTR		hgnc.genegroup:220	
+2280	DREAM complex subunits	The dimerization partner, RB-like, E2F and multi-vulval class B (DREAM) complex is a protein complex responsible for the regulation of cell cycle-dependent gene expression. The complex is evolutionarily conserved, although some of its components vary from species to species. In humans, the key proteins in the complex are RBL1 (p107) and RBL2 (p130), both of which are homologs of RB (p105) and bind repressive E2F transcription factors E2F4 and E2F5; DP1, DP2 and DP3, dimerization partners of E2F; and MuvB, which is a complex of LIN9/37/52/54 and RBBP4.			so:0005855	
+2281	MuvB complex subunits	MuvB complexes are key to regulating the cell-division cycle. The MuvB complex can form part of the transcriptional repressor complex DREAM, or part of the activator complexes MMB and FOXM1-MuvB.  When cells are not actively dividing, the DREAM complex represses G1/S and G2/M genes. The expression of mitotic genes in the G2/M stage of the cell cycle can be regulated by MuvB activator complexes which include either the oncogenic transcription factor B-MYB or FOXM1.			hgnc.genegroup:2280|hgnc.genegroup:2282|hgnc.genegroup:2283	
+2282	MMB complex subunits				so:0005855	
+2283	FOXM1-MMB complex subunits				so:0005855	
 235	Melanin concentrating hormone receptors	Two Melanin-concentrating hormone receptors ( MCHR ) have recently been characterized: MCH-R1 and MCH-R2. These two receptors share approximately 38% homology.	MCHR		hgnc.genegroup:220	
 236	Melanocortin receptors	Melanocortin receptors are members of the rhodopsin family of 7-transmembrane G protein-coupled receptors. There are five known members of the melanocortin receptor system  each with differing specificities for melanocortins :   MC1R. MC1R is associated with pigmentation genetics. MC2R. MC2R is also known as the ACTH receptor or corticotropin receptor because it is specific for ACTH alone. MC3R. MC3R MC4R. Defects in MC4R are a cause of autosomal dominant obesity, accounting for 6% of all cases of early-onset obesity.  MC5R. MC5R  These receptors are inhibited by endogenous inverse agonists agouti signalling peptide and agouti-related peptide, and activated by synthetic (i.e. afamelanotide ) and endogenous agonist melanocyte-stimulating hormones.			hgnc.genegroup:220	
 239	Neuromedin U receptors	The neuromedin U receptors are two G-protein coupled receptors which bind the neuropeptide hormones neuromedin U and neuromedin S. There are two subtypes of the neuromedin U receptor, each encoded by a separate gene ( NMUR1, NMUR2 ).	NMUR		hgnc.genegroup:220	

@@ -1734,6 +1734,7 @@ identifier	name	definition	synonyms	alts	parents	species
 1.3.1.n3	curcumin reductase		NADPH-dependent curcumin/dihydrocurcumin reductase		eccode:1.3.1	
 1.3.2	With a cytochrome as acceptor				eccode:1.3	
 1.3.2.3	L-galactonolactone dehydrogenase		galactonolactone dehydrogenase|GLDase|GLDHase|L-galactono-gamma-lactone dehydrogenase		eccode:1.3.2	
+1.3.2.4	fumarate reductase (cytochrome)				eccode:1.3.2	
 1.3.3	With oxygen as acceptor				eccode:1.3	
 1.3.3.10	tryptophan alpha,beta-oxidase		L-tryptophan 2',3'-oxidase|L-tryptophan alpha,beta-dehydrogenase		eccode:1.3.3	
 1.3.3.11	pyrroloquinoline-quinone synthase				eccode:1.3.3	
@@ -1872,6 +1873,7 @@ identifier	name	definition	synonyms	alts	parents	species
 1.4.3.23	7-chloro-L-tryptophan oxidase				eccode:1.4.3	
 1.4.3.25	L-arginine oxidase				eccode:1.4.3	
 1.4.3.26	pre-mycofactocin synthase				eccode:1.4.3	
+1.4.3.27	homospermidine oxidase				eccode:1.4.3	
 1.4.3.3	D-amino-acid oxidase				eccode:1.4.3	
 1.4.3.4	monoamine oxidase		adrenaline oxidase|amine oxidase|amine oxidase (flavin-containing)|tyraminase|tyramine oxidase		eccode:1.4.3	
 1.4.3.5	pyridoxal 5'-phosphate synthase		PMP oxidase|pyridoxamine 5'-phosphate oxidase|pyridoxamine phosphate oxidase|pyridoxamine-phosphate oxidase|pyridoxine (pyridoxamine) 5'-phosphate oxidase|pyridoxine (pyridoxamine)phosphate oxidase		eccode:1.4.3	
@@ -1958,6 +1960,8 @@ identifier	name	definition	synonyms	alts	parents	species
 1.5.3.22	coenzyme F420H2 oxidase				eccode:1.5.3	
 1.5.3.23	glyphosate oxidoreductase				eccode:1.5.3	
 1.5.3.24	sarcosine oxidase (5,10-methylenetetrahydrofolate-forming)				eccode:1.5.3	
+1.5.3.25	fructosyl amine oxidase (glucosone-forming)		amadoriase		eccode:1.5.3	
+1.5.3.26	fructosyl amine oxidase (fructosamine-forming)				eccode:1.5.3	
 1.5.3.4	N(6)-methyl-lysine oxidase		epsilon-alkyllysinase|epsilon-N-methyllysine demethylase|N(6)-methyllysine oxidase		eccode:1.5.3	
 1.5.3.5	(S)-6-hydroxynicotine oxidase		6-hydroxy-L-nicotine oxidase|L-6-hydroxynicotine oxidase		eccode:1.5.3	
 1.5.3.6	(R)-6-hydroxynicotine oxidase		6-hydroxy-D-nicotine oxidase|D-6-hydroxynicotine oxidase		eccode:1.5.3	
@@ -3259,6 +3263,9 @@ identifier	name	definition	synonyms	alts	parents	species
 2.4.1.388	glucosylgalactose phosphorylase		4-O-beta-D-glucosyl-D-galactose phosphorylase		eccode:2.4.1	
 2.4.1.389	solabiose phosphorylase				eccode:2.4.1	
 2.4.1.39	steroid N-acetylglucosaminyltransferase		sucrose-glucan glucosyltransferase		eccode:2.4.1	
+2.4.1.390	4,3-alpha-glucanotransferase				eccode:2.4.1	
+2.4.1.391	beta-1,2-glucosyltransferase				eccode:2.4.1	
+2.4.1.392	3-O-beta-D-glucopyranosyl-beta-D-glucuronide phosphorylase				eccode:2.4.1	
 2.4.1.4	amylosucrase		sucrose--glucan glucosyltransferase		eccode:2.4.1	
 2.4.1.40	glycoprotein-fucosylgalactoside alpha-N-acetylgalactosaminyltransferase		A transferase|fucosylgalactose alpha-N-acetylgalactosaminyltransferase|fucosylglycoprotein alpha-N-acetylgalactosaminyltransferase|histo-blood group A acetylgalactosaminyltransferase|histo-blood group A transferase		eccode:2.4.1	
 2.4.1.41	polypeptide N-acetylgalactosaminyltransferase		protein-UDP acetylgalactosaminyltransferase		eccode:2.4.1	
@@ -4285,7 +4292,7 @@ identifier	name	definition	synonyms	alts	parents	species
 3.1.1.26	galactolipase				eccode:3.1.1	
 3.1.1.27	4-pyridoxolactonase				eccode:3.1.1	
 3.1.1.28	acylcarnitine hydrolase				eccode:3.1.1	
-3.1.1.29	aminoacyl-tRNA hydrolase		peptidyl-tRNA hydrolase		eccode:3.1.1	
+3.1.1.29	peptidyl-tRNA hydrolase		aminoacyl-transfer ribonucleate hydrolase|aminoacyl-tRNA hydrolase|N-substituted aminoacyl transfer RNA hydrolase		eccode:3.1.1	
 3.1.1.3	triacylglycerol lipase		lipase|tributyrase|triglyceride lipase		eccode:3.1.1	
 3.1.1.30	D-arabinonolactonase				eccode:3.1.1	
 3.1.1.31	6-phosphogluconolactonase				eccode:3.1.1	
@@ -4459,6 +4466,7 @@ identifier	name	definition	synonyms	alts	parents	species
 3.1.3.106	2-lysophosphatidate phosphatase		1-acyl-sn-glycerol 3-phosphatase		eccode:3.1.3	
 3.1.3.107	amicoumacin phosphatase				eccode:3.1.3	
 3.1.3.108	nocturnin		nocturnin (curled)		eccode:3.1.3	
+3.1.3.109	ribulose-1,5-bisphosphate 5-phosphatase		RuBP 5-phosphatase		eccode:3.1.3	
 3.1.3.11	fructose-bisphosphatase		fructose 1,6-bisphosphatase|hexose diphosphatase		eccode:3.1.3	
 3.1.3.12	trehalose-phosphatase		trehalose 6-phosphate phosphatase		eccode:3.1.3	
 3.1.3.14	methylphosphothioglycerate phosphatase				eccode:3.1.3	
@@ -4777,6 +4785,8 @@ identifier	name	definition	synonyms	alts	parents	species
 3.2.1.215	arabinofuranosidase (non-reducing end)		3-O-alpha-D-galactosyl-alpha-L-arabinofuranosidase		eccode:3.2.1	
 3.2.1.216	kojibiose hydrolase		kojibiase		eccode:3.2.1	
 3.2.1.217	exo-acting protein-alpha-N-acetylgalactosaminidase				eccode:3.2.1	
+3.2.1.218	alpha-3'-ketoglucosidase		3'-keto-alpha-D-gluco-disaccharide hydrolase|3-keto-glucoside hydrolase		eccode:3.2.1	
+3.2.1.219	palatinase				eccode:3.2.1	
 3.2.1.22	alpha-galactosidase		melibiase		eccode:3.2.1	
 3.2.1.23	beta-galactosidase		exo-(1->4)-beta-D-galactanase|lactase		eccode:3.2.1	
 3.2.1.24	alpha-mannosidase				eccode:3.2.1	
@@ -4990,7 +5000,7 @@ identifier	name	definition	synonyms	alts	parents	species
 3.4.18	Cysteine-type carboxypeptidases				eccode:3.4	
 3.4.18.1	cathepsin X		acid carboxypeptidase|cathepsin B2|cathepsin IV|cathepsin Z|cysteine-type carboxypeptidase|lysosomal carboxypeptidase B		eccode:3.4.18	
 3.4.19	Omega peptidases				eccode:3.4	
-3.4.19.1	acylaminoacyl-peptidase		acylamino-acid-releasing enzyme|N-acylpeptide hydrolase		eccode:3.4.19	
+3.4.19.1	acylaminoacyl-peptidase		acylamino-acid-releasing enzyme|alpha-N-acylpeptide hydrolase|N-acylpeptide hydrolase|oxidized protein hydrolase		eccode:3.4.19	
 3.4.19.11	gamma-D-glutamyl-meso-diaminopimelate peptidase		endopeptidase I|gamma-D-glutamyl-L-diamino acid endopeptidase I|gamma-D-glutamyl-meso-diaminopimelate peptidase I		eccode:3.4.19	
 3.4.19.12	ubiquitinyl hydrolase 1		ubiquitin C-terminal hydrolase|ubiquitin thiolesterase		eccode:3.4.19	
 3.4.19.13	glutathione gamma-glutamate hydrolase		gamma-glutamyltranspeptidase|glutathionase		eccode:3.4.19	
@@ -5773,7 +5783,7 @@ identifier	name	definition	synonyms	alts	parents	species
 4.1.1.84	D-dopachrome decarboxylase		D-dopachrome carboxy-lyase|D-dopachrome tautomerase|D-tautomerase|phenylpyruvate tautomerase II		eccode:4.1.1	
 4.1.1.85	3-dehydro-L-gulonate-6-phosphate decarboxylase		3-dehydro-L-gulonate-6-phosphate carboxy-lyase|3-keto-L-gulonate 6-phosphate decarboxylase|KGPDC		eccode:4.1.1	
 4.1.1.86	diaminobutyrate decarboxylase		DABA DC|L-2,4-diaminobutanoate carboxy-lyase|L-2,4-diaminobutyrate decarboxylase		eccode:4.1.1	
-4.1.1.87	malonyl-S-ACP decarboxylase		malonyl-S-acyl-carrier protein decarboxylase		eccode:4.1.1	
+4.1.1.87	malonyl-[malonate decarboxylase] decarboxylase		malonyl-S-ACP decarboxylase|malonyl-S-acyl-carrier protein decarboxylase		eccode:4.1.1	
 4.1.1.88	biotin-independent malonate decarboxylase		malonate carboxy-lyase (biotin-independent)|malonate decarboxylase|MDC		eccode:4.1.1	
 4.1.1.9	malonyl-CoA decarboxylase		malonyl-CoA carboxy-lyase		eccode:4.1.1	
 4.1.1.90	peptidyl-glutamate 4-carboxylase		gamma-glutamyl carboxylase|vitamin K-dependent carboxylase		eccode:4.1.1	
@@ -6066,6 +6076,7 @@ identifier	name	definition	synonyms	alts	parents	species
 4.2.2.25	gellan lyase				eccode:4.2.2	
 4.2.2.26	oligo-alginate lyase		exo-oligoalginate lyase|oligoalginate lyase		eccode:4.2.2	
 4.2.2.27	pectin monosaccharide-lyase		exo-pectin lyase		eccode:4.2.2	
+4.2.2.28	alpha-L-rhamnosyl-(1->4)-beta-D-glucuronate lyase		L-rhamnose-alpha-1,4-D-glucuronate lyase		eccode:4.2.2	
 4.2.2.3	mannuronate-specific alginate lyase		alginate lyase I|poly(beta-D-mannuronate) lyase|poly(mana) alginate lyase		eccode:4.2.2	
 4.2.2.5	chondroitin AC lyase		chondroitin AC eliminase|chondroitinase|chondroitin sulfate lyase		eccode:4.2.2	
 4.2.2.6	oligogalacturonide lyase				eccode:4.2.2	

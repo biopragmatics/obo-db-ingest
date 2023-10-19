@@ -875,10 +875,6 @@ identifier	name	definition	synonyms	alts	parents	species
 10913					rhea:10912	
 10914					rhea:10912	
 10915					rhea:10912	
-10916	(1R,2R,3R)-prephytoene diphosphate = all-trans-phytoene + diphosphate					
-10917					rhea:10916	
-10918					rhea:10916	
-10919					rhea:10916	
 10924	cis-2-chloro-4-carboxymethylenebut-2-en-1,4-olide = trans-2-chloro-4-carboxymethylenebut-2-en-1,4-olide					
 10925					rhea:10924	
 10926					rhea:10924	
@@ -1979,10 +1975,6 @@ identifier	name	definition	synonyms	alts	parents	species
 12061					rhea:12060	
 12062					rhea:12060	
 12063					rhea:12060	
-12064	5-oxopentanoate + H2O + NAD(+) = glutarate + 2 H(+) + NADH				rhea:39039	
-12065					rhea:12064|rhea:39040	
-12066					rhea:12064|rhea:39041	
-12067					rhea:12064|rhea:39042	
 12068	apo-[ACP] + CoA = adenosine 3',5'-bisphosphate + H(+) + holo-[ACP]					
 12069					rhea:12068	
 12070					rhea:12068	
@@ -2151,7 +2143,7 @@ identifier	name	definition	synonyms	alts	parents	species
 12249					rhea:12248	
 12250					rhea:12248	
 12251					rhea:12248	
-12252	4-O-(beta-D-glucosyl)-trans-coniferol + H2O = (E)-coniferol + D-glucose					
+12252	4-O-(beta-D-glucosyl)-(E)-coniferol + H2O = (E)-coniferol + D-glucose					
 12253					rhea:12252	
 12254					rhea:12252	
 12255					rhea:12252	
@@ -2687,10 +2679,10 @@ identifier	name	definition	synonyms	alts	parents	species
 12802					rhea:12801|rhea:17990	
 12803					rhea:12801|rhea:17991	
 12804					rhea:12801|rhea:17992	
-12805	(S)-canadine + S-adenosyl-L-methionine = (S)-cis-N-methylcanadine + S-adenosyl-L-homocysteine					
-12806					rhea:12805	
-12807					rhea:12805	
-12808					rhea:12805	
+12805	(S)-canadine + S-adenosyl-L-methionine = (S)-cis-N-methylcanadine + S-adenosyl-L-homocysteine				rhea:76067	
+12806					rhea:12805|rhea:76068	
+12807					rhea:12805|rhea:76069	
+12808					rhea:12805|rhea:76070	
 12809	4 catechol + 3 O2 = 2 dibenzo[1,4]dioxin-2,3-dione + 6 H2O					
 12810					rhea:12809	
 12811					rhea:12809	
@@ -3087,10 +3079,6 @@ identifier	name	definition	synonyms	alts	parents	species
 13206					rhea:13205	
 13207					rhea:13205	
 13208					rhea:13205	
-13209	A + 3 H2O + trithionate = AH2 + 4 H(+) + 3 sulfite					
-13210					rhea:13209	
-13211					rhea:13209	
-13212					rhea:13209	
 13213	H2O + NADP(+) + succinate semialdehyde = 2 H(+) + NADPH + succinate					
 13214					rhea:13213	
 13215					rhea:13213	
@@ -9047,10 +9035,10 @@ identifier	name	definition	synonyms	alts	parents	species
 19478					rhea:19477	
 19479					rhea:19477	
 19480					rhea:19477	
-19481	acetyl-CoA + succinyl-CoA = 3-oxoadipyl-CoA + CoA					
-19482					rhea:19481	
-19483					rhea:19481	
-19484					rhea:19481	
+19481	acetyl-CoA + succinyl-CoA = 3-oxoadipyl-CoA + CoA				rhea:21564	
+19482					rhea:19481|rhea:21565	
+19483					rhea:19481|rhea:21566	
+19484					rhea:19481|rhea:21567	
 19485	sphing-4-enine + UDP-alpha-D-galactose = beta-D-galactosyl-(1<->1)-sphing-4-enine + H(+) + UDP					
 19486					rhea:19485	
 19487					rhea:19485	
@@ -10543,10 +10531,10 @@ identifier	name	definition	synonyms	alts	parents	species
 21033					rhea:21032	
 21034					rhea:21032	
 21035					rhea:21032	
-21036	2 acetyl-CoA = acetoacetyl-CoA + CoA					
-21037					rhea:21036	
-21038					rhea:21036	
-21039					rhea:21036	
+21036	2 acetyl-CoA = acetoacetyl-CoA + CoA				rhea:21564	
+21037					rhea:21036|rhea:21565	
+21038					rhea:21036|rhea:21566	
+21039					rhea:21036|rhea:21567	
 21040	CO + H2O + 2 oxidized [2Fe-2S]-[ferredoxin] = CO2 + 2 H(+) + 2 reduced [2Fe-2S]-[ferredoxin]					
 21041					rhea:21040	
 21042					rhea:21040	
@@ -13327,7 +13315,7 @@ identifier	name	definition	synonyms	alts	parents	species
 23941					rhea:23940	
 23942					rhea:23940	
 23943					rhea:23940	
-23944	(E)-coniferol + UDP-alpha-D-glucose = 4-O-(beta-D-glucosyl)-trans-coniferol + H(+) + UDP					
+23944	(E)-coniferol + UDP-alpha-D-glucose = 4-O-(beta-D-glucosyl)-(E)-coniferol + H(+) + UDP					
 23945					rhea:23944	
 23946					rhea:23944	
 23947					rhea:23944	
@@ -15299,10 +15287,6 @@ identifier	name	definition	synonyms	alts	parents	species
 26120					rhea:26119	
 26121					rhea:26119	
 26122					rhea:26119	
-26124	FAD + L-proline = (S)-1-pyrroline-5-carboxylate + FADH2					
-26125					rhea:26124	
-26126					rhea:26124	
-26127					rhea:26124	
 26128	(+)-copalyl diphosphate = diphosphate + isopimara-7,15-diene					
 26129					rhea:26128	
 26130					rhea:26128	
@@ -18607,7 +18591,7 @@ identifier	name	definition	synonyms	alts	parents	species
 30256					rhea:30255|rhea:55377	
 30257					rhea:30255|rhea:55378	
 30258					rhea:30255|rhea:55379	
-30259	2 a menaquinol + O2 = 2 a menaquinone + 2 H2O				rhea:55376	
+30259	2 a menaquinol + n H(+)(in) + O2 = 2 a menaquinone + n H(+)(out) + 2 H2O(in)				rhea:55376	
 30260					rhea:30259|rhea:55377	
 30261					rhea:30259|rhea:55378	
 30262					rhea:30259|rhea:55379	
@@ -19415,14 +19399,14 @@ identifier	name	definition	synonyms	alts	parents	species
 31084					rhea:31083	
 31085					rhea:31083	
 31086					rhea:31083	
-31087	acetyl-CoA + octanoyl-CoA = 3-oxodecanoyl-CoA + CoA					
-31088					rhea:31087	
-31089					rhea:31087	
-31090					rhea:31087	
-31091	acetyl-CoA + dodecanoyl-CoA = 3-oxotetradecanoyl-CoA + CoA					
-31092					rhea:31091	
-31093					rhea:31091	
-31094					rhea:31091	
+31087	acetyl-CoA + octanoyl-CoA = 3-oxodecanoyl-CoA + CoA				rhea:21564	
+31088					rhea:31087|rhea:21565	
+31089					rhea:31087|rhea:21566	
+31090					rhea:31087|rhea:21567	
+31091	acetyl-CoA + dodecanoyl-CoA = 3-oxotetradecanoyl-CoA + CoA				rhea:21564	
+31092					rhea:31091|rhea:21565	
+31093					rhea:31091|rhea:21566	
+31094					rhea:31091|rhea:21567	
 31103	7,8-dihydrofolate + NADP(+) = folate + H(+) + NADPH					
 31104					rhea:31103	
 31105					rhea:31103	
@@ -19431,10 +19415,10 @@ identifier	name	definition	synonyms	alts	parents	species
 31108					rhea:31107	
 31109					rhea:31107	
 31110					rhea:31107	
-31111	acetyl-CoA + butanoyl-CoA = 3-oxohexanoyl-CoA + CoA					
-31112					rhea:31111	
-31113					rhea:31111	
-31114					rhea:31111	
+31111	acetyl-CoA + butanoyl-CoA = 3-oxohexanoyl-CoA + CoA				rhea:21564	
+31112					rhea:31111|rhea:21565	
+31113					rhea:31111|rhea:21566	
+31114					rhea:31111|rhea:21567	
 31115	ATP + biotin + H(+) = biotinyl-5'-AMP + diphosphate					
 31116					rhea:31115	
 31117					rhea:31115	
@@ -19499,10 +19483,10 @@ identifier	name	definition	synonyms	alts	parents	species
 31180					rhea:31179	
 31181					rhea:31179	
 31182					rhea:31179	
-31183	acetyl-CoA + decanoyl-CoA = 3-oxododecanoyl-CoA + CoA					
-31184					rhea:31183	
-31185					rhea:31183	
-31186					rhea:31183	
+31183	acetyl-CoA + decanoyl-CoA = 3-oxododecanoyl-CoA + CoA				rhea:21564	
+31184					rhea:31183|rhea:21565	
+31185					rhea:31183|rhea:21566	
+31186					rhea:31183|rhea:21567	
 31187	(3S)-hydroxydecanoyl-CoA + NAD(+) = 3-oxodecanoyl-CoA + H(+) + NADH					
 31188					rhea:31187	
 31189					rhea:31187	
@@ -19519,10 +19503,10 @@ identifier	name	definition	synonyms	alts	parents	species
 31200					rhea:31199|rhea:16106|rhea:46350	
 31201					rhea:31199|rhea:16107|rhea:46349	
 31202					rhea:31199|rhea:16108|rhea:46351	
-31203	acetyl-CoA + hexanoyl-CoA = 3-oxooctanoyl-CoA + CoA					
-31204					rhea:31203	
-31205					rhea:31203	
-31206					rhea:31203	
+31203	acetyl-CoA + hexanoyl-CoA = 3-oxooctanoyl-CoA + CoA				rhea:21564	
+31204					rhea:31203|rhea:21565	
+31205					rhea:31203|rhea:21566	
+31206					rhea:31203|rhea:21567	
 31207	FAD + H(+) + hexanoyl-CoA = (2E)-hexenoyl-CoA + FADH2					
 31208					rhea:31207	
 31209					rhea:31207	
@@ -20727,10 +20711,6 @@ identifier	name	definition	synonyms	alts	parents	species
 32444					rhea:32443	
 32445					rhea:32443	
 32446					rhea:32443	
-32451	2 (2E,6E,10E)-geranylgeranyl diphosphate = all-trans-phytoene + 2 diphosphate					
-32452					rhea:32451	
-32453					rhea:32451	
-32454					rhea:32451	
 32455	(-)-vetispiradiene + 2 O2 + 2 reduced [NADPH--hemoprotein reductase] = 2 H(+) + 3 H2O + 2 oxidized [NADPH--hemoprotein reductase] + solavetivone					
 32456					rhea:32455	
 32457					rhea:32455	
@@ -23003,10 +22983,10 @@ identifier	name	definition	synonyms	alts	parents	species
 34796					rhea:34795	
 34797					rhea:34795	
 34798					rhea:34795	
-34799	2,3-didehydroadipoyl-CoA + acetyl-CoA = 3-oxo-5,6-didehydrosuberyl-CoA + CoA					
-34800					rhea:34799	
-34801					rhea:34799	
-34802					rhea:34799	
+34799	2,3-didehydroadipoyl-CoA + acetyl-CoA = 3-oxo-5,6-didehydrosuberyl-CoA + CoA				rhea:21564	
+34800					rhea:34799|rhea:21565	
+34801					rhea:34799|rhea:21566	
+34802					rhea:34799|rhea:21567	
 34803	2 4-coumaroyl-CoA + H(+) + H2O + malonyl-CoA = bisdemethoxycurcumin + 2 CO2 + 3 CoA					
 34804					rhea:34803	
 34805					rhea:34803	
@@ -23479,10 +23459,10 @@ identifier	name	definition	synonyms	alts	parents	species
 35276					rhea:35275	
 35277					rhea:35275	
 35278					rhea:35275	
-35279	acetyl-CoA + hexadecanoyl-CoA = 3-oxooctadecanoyl-CoA + CoA					
-35280					rhea:35279	
-35281					rhea:35279	
-35282					rhea:35279	
+35279	acetyl-CoA + hexadecanoyl-CoA = 3-oxooctadecanoyl-CoA + CoA				rhea:21564	
+35280					rhea:35279|rhea:21565	
+35281					rhea:35279|rhea:21566	
+35282					rhea:35279|rhea:21567	
 35287	ATP + chloramphenicol(in) + H2O = ADP + chloramphenicol(out) + H(+) + phosphate					
 35288					rhea:35287	
 35289					rhea:35287	
@@ -25203,10 +25183,10 @@ identifier	name	definition	synonyms	alts	parents	species
 37044					rhea:37043	
 37045					rhea:37043	
 37046					rhea:37043	
-37047	H(+)(out) + L-histidine(out) = H(+)(in) + L-histidine(in)					
-37048					rhea:37047	
-37049					rhea:37047	
-37050					rhea:37047	
+37047	H(+)(out) + L-histidine(out) = H(+)(in) + L-histidine(in)				rhea:76379	
+37048					rhea:37047|rhea:76380	
+37049					rhea:37047|rhea:76381	
+37050					rhea:37047|rhea:76382	
 37051	3-deacetyl-3-vinylbacteriochlorophyllide a + ADP + 2 oxidized [2Fe-2S]-[ferredoxin] + phosphate = ATP + chlorophyllide a + H(+) + H2O + 2 reduced [2Fe-2S]-[ferredoxin]					
 37052					rhea:37051	
 37053					rhea:37051	
@@ -30451,10 +30431,6 @@ identifier	name	definition	synonyms	alts	parents	species
 42369					rhea:42368	
 42370					rhea:42368	
 42371					rhea:42368	
-42372	16-methoxytabersonine + H2O = (3R)-3-hydroxy-16-methoxy-2,3-dihydrotabersonine					
-42373					rhea:42372	
-42374					rhea:42372	
-42375					rhea:42372	
 42376	a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol-3,4,5-trisphosphate) + H2O = a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol-3,5-bisphosphate) + phosphate					
 42377					rhea:42376	
 42378					rhea:42376	
@@ -39463,7 +39439,7 @@ identifier	name	definition	synonyms	alts	parents	species
 51545					rhea:51544	
 51546					rhea:51544	
 51547					rhea:51544	
-51548	(R)-tetrahydropapaverine + S-adenosyl-L-methionine = (R)-N-methyltetrahydropapaverine + H(+) + S-adenosyl-L-homocysteine					
+51548	(S)-tetrahydropapaverine + S-adenosyl-L-methionine = (S)-N-methyltetrahydropapaverine + H(+) + S-adenosyl-L-homocysteine					
 51549					rhea:51548	
 51550					rhea:51548	
 51551					rhea:51548	
@@ -45527,7 +45503,7 @@ identifier	name	definition	synonyms	alts	parents	species
 57705					rhea:57704|rhea:35736	
 57706					rhea:57704|rhea:35737	
 57707					rhea:57704|rhea:35738	
-57708	(E)-coniferaldehyde + UDP-alpha-D-glucose = 4-O-(beta-D-glucosyl)-4-trans-coniferyl aldehyde + H(+) + UDP					
+57708	(E)-coniferaldehyde + UDP-alpha-D-glucose = 4-O-(beta-D-glucosyl)-4-(E)-coniferyl aldehyde + H(+) + UDP					
 57709					rhea:57708	
 57710					rhea:57708	
 57711					rhea:57708	
@@ -51979,15 +51955,15 @@ identifier	name	definition	synonyms	alts	parents	species
 64401					rhea:64400	
 64402					rhea:64400	
 64403					rhea:64400	
-64404	carnosine(out) + H(+)(out) = carnosine(in) + H(+)(in)					
-64405					rhea:64404	
-64406					rhea:64404	
-64407					rhea:64404	
-64408	2 H(+)(out) + N-acetyl-D-muramoyl-L-alanyl-D-isoglutamine(out) = 2 H(+)(in) + N-acetyl-D-muramoyl-L-alanyl-D-isoglutamine(in)					
-64409					rhea:64408	
-64410					rhea:64408	
-64411					rhea:64408	
-64412	H(+)(out) + L-alanyl-gamma-D-glutamyl-meso-diaminoheptanedioate(out) = H(+)(in) + L-alanyl-gamma-D-glutamyl-meso-diaminoheptanedioate(in)					
+64404	carnosine(out) + H(+)(out) = carnosine(in) + H(+)(in)				rhea:76383	
+64405					rhea:64404|rhea:76384	
+64406					rhea:64404|rhea:76385	
+64407					rhea:64404|rhea:76386	
+64408	2 H(+)(out) + N-acetyl-D-muramoyl-L-alanyl-D-isoglutamine(out) = 2 H(+)(in) + N-acetyl-D-muramoyl-L-alanyl-D-isoglutamine(in)				rhea:76371	
+64409					rhea:64408|rhea:76372	
+64410					rhea:64408|rhea:76373	
+64411					rhea:64408|rhea:76374	
+64412	n H(+)(out) + L-alanyl-gamma-D-glutamyl-meso-diaminoheptanedioate(out) = n H(+)(in) + L-alanyl-gamma-D-glutamyl-meso-diaminoheptanedioate(in)					
 64413					rhea:64412	
 64414					rhea:64412	
 64415					rhea:64412	
@@ -53183,10 +53159,10 @@ identifier	name	definition	synonyms	alts	parents	species
 65617					rhea:65616	
 65618					rhea:65616	
 65619					rhea:65616	
-65620	hexadecanoyl-CoA + sphinga-(4E,8E)-dienine = CoA + H(+) + N-hexadecanoylsphinga-(4E,8E)-dienine				rhea:61472	
-65621					rhea:65620|rhea:61473	
-65622					rhea:65620|rhea:61474	
-65623					rhea:65620|rhea:61475	
+65620	hexadecanoyl-CoA + sphinga-(4E,8E)-dienine = CoA + H(+) + N-hexadecanoylsphinga-(4E,8E)-dienine				rhea:61472|rhea:76539	
+65621					rhea:65620|rhea:61473|rhea:76540	
+65622					rhea:65620|rhea:61474|rhea:76541	
+65623					rhea:65620|rhea:61475|rhea:76542	
 65624	hexadecanoyl-CoA + sphinga-(4E,8Z)-dienine = CoA + H(+) + N-hexadecanoylsphinga-(4E,8Z)-dienine				rhea:61472	
 65625					rhea:65624|rhea:61473	
 65626					rhea:65624|rhea:61474	
@@ -53199,10 +53175,10 @@ identifier	name	definition	synonyms	alts	parents	species
 65633					rhea:65632|rhea:61481	
 65634					rhea:65632|rhea:61482	
 65635					rhea:65632|rhea:61483	
-65636	sphinga-(4E,8E)-dienine + tetracosanoyl-CoA = CoA + H(+) + N-tetracosanoylsphinga-(4E,8E)-dienine				rhea:65632	
-65637					rhea:65636|rhea:65633	
-65638					rhea:65636|rhea:65634	
-65639					rhea:65636|rhea:65635	
+65636	sphinga-(4E,8E)-dienine + tetracosanoyl-CoA = CoA + H(+) + N-tetracosanoylsphinga-(4E,8E)-dienine				rhea:65632|rhea:76539	
+65637					rhea:65636|rhea:65633|rhea:76540	
+65638					rhea:65636|rhea:65634|rhea:76541	
+65639					rhea:65636|rhea:65635|rhea:76542	
 65640	(4R)-hydroxysphing-(8Z)-enine + tetracosanoyl-CoA = CoA + H(+) + N-tetracosanoyl-(4R)-hydroxysphing-(8Z)-enine				rhea:65632	
 65641					rhea:65640|rhea:65633	
 65642					rhea:65640|rhea:65634	
@@ -59287,6 +59263,14 @@ identifier	name	definition	synonyms	alts	parents	species
 71764					rhea:71763	
 71765					rhea:71763	
 71766					rhea:71763	
+71767	2 Fe(2+) + H(+) + NADP(+) = 2 Fe(3+) + NADPH					
+71768					rhea:71767	
+71769					rhea:71767	
+71770					rhea:71767	
+71771	2 Cu(+) + H(+) + NADP(+) = 2 Cu(2+) + NADPH					
+71772					rhea:71771	
+71773					rhea:71771	
+71774					rhea:71771	
 71775	acetoacetate(out) + H(+)(out) = acetoacetate(in) + H(+)(in)					
 71776					rhea:71775	
 71777					rhea:71775	
@@ -59519,10 +59503,10 @@ identifier	name	definition	synonyms	alts	parents	species
 72004					rhea:72003	
 72005					rhea:72003	
 72006					rhea:72003	
-72007	succinate(in) + urate(out) = succinate(out) + urate(in)					
-72008					rhea:72007	
-72009					rhea:72007	
-72010					rhea:72007	
+72007	succinate(in) + urate(out) = succinate(out) + urate(in)				rhea:76135	
+72008					rhea:72007|rhea:76136	
+72009					rhea:72007|rhea:76137	
+72010					rhea:72007|rhea:76138	
 72011	glutathione(in) + urate(out) = glutathione(out) + urate(in)					
 72012					rhea:72011	
 72013					rhea:72011	
@@ -59903,10 +59887,10 @@ identifier	name	definition	synonyms	alts	parents	species
 72400					rhea:72399	
 72401					rhea:72399	
 72402					rhea:72399	
-72403	2-oxoglutarate(out) + urate(in) = 2-oxoglutarate(in) + urate(out)					
-72404					rhea:72403	
-72405					rhea:72403	
-72406					rhea:72403	
+72403	2-oxoglutarate(out) + urate(in) = 2-oxoglutarate(in) + urate(out)				rhea:76135	
+72404					rhea:72403|rhea:76137	
+72405					rhea:72403|rhea:76136	
+72406					rhea:72403|rhea:76138	
 72407	H(+)(in) + Li(+)(out) = H(+)(out) + Li(+)(in)					
 72408					rhea:72407	
 72409					rhea:72407	
@@ -59995,18 +59979,18 @@ identifier	name	definition	synonyms	alts	parents	species
 72492					rhea:72491	
 72493					rhea:72491	
 72494					rhea:72491	
-72495	glutarate(in) + prostaglandin E2(out) = glutarate(out) + prostaglandin E2(in)					
-72496					rhea:72495	
-72497					rhea:72495	
-72498					rhea:72495	
+72495	glutarate(in) + prostaglandin E2(out) = glutarate(out) + prostaglandin E2(in)				rhea:76123	
+72496					rhea:72495|rhea:76124	
+72497					rhea:72495|rhea:76125	
+72498					rhea:72495|rhea:76126	
 72499	2-oxoglutarate(in) + prostaglandin E2(out) = 2-oxoglutarate(out) + prostaglandin E2(in)					
 72500					rhea:72499	
 72501					rhea:72499	
 72502					rhea:72499	
-72503	glutarate(in) + prostaglandin F2alpha(out) = glutarate(out) + prostaglandin F2alpha(in)					
-72504					rhea:72503	
-72505					rhea:72503	
-72506					rhea:72503	
+72503	glutarate(in) + prostaglandin F2alpha(out) = glutarate(out) + prostaglandin F2alpha(in)				rhea:76119	
+72504					rhea:72503|rhea:76120	
+72505					rhea:72503|rhea:76121	
+72506					rhea:72503|rhea:76122	
 72507	2-oxoglutarate(in) + prostaglandin F2alpha(out) = 2-oxoglutarate(out) + prostaglandin F2alpha(in)					
 72508					rhea:72507	
 72509					rhea:72507	
@@ -62423,6 +62407,10 @@ identifier	name	definition	synonyms	alts	parents	species
 75000					rhea:74999	
 75001					rhea:74999	
 75002					rhea:74999	
+75003	ATP + CoA + sulfoacetate = AMP + diphosphate + sulfoacetyl-CoA				rhea:24336	
+75004					rhea:75003|rhea:24337	
+75005					rhea:75003|rhea:24338	
+75006					rhea:75003|rhea:24339	
 75007	H(+)(out) + VO(2+)(out) = H(+)(in) + VO(2+)(in)					
 75008					rhea:75007	
 75009					rhea:75007	
@@ -63363,14 +63351,22 @@ identifier	name	definition	synonyms	alts	parents	species
 75964					rhea:75963	
 75965					rhea:75963	
 75966					rhea:75963	
+75967	(6-hydroxyhexanoyl)n + H2O = (6-hydroxyhexanoyl)n-1 + 6-hydroxyhexanoate + H(+)					
+75968					rhea:75967	
+75969					rhea:75967	
+75970					rhea:75967	
 75971	NADP(+) + neomorphine = H(+) + NADPH + neomorphinone					
 75972					rhea:75971	
 75973					rhea:75971	
 75974					rhea:75971	
-75975	(S)-stylopine + S-adenosyl-L-methionine = (S)-cis-N-methylstylopine + S-adenosyl-L-homocysteine					
-75976					rhea:75975	
-75977					rhea:75975	
-75978					rhea:75975	
+75975	(S)-stylopine + S-adenosyl-L-methionine = (S)-cis-N-methylstylopine + S-adenosyl-L-homocysteine				rhea:76067	
+75976					rhea:75975|rhea:76068	
+75977					rhea:75975|rhea:76069	
+75978					rhea:75975|rhea:76070	
+75979	argipressin(out) = argipressin(in)					
+75980					rhea:75979	
+75981					rhea:75979	
+75982					rhea:75979	
 75983	(indol-3-yl)acetate(out) + a dicarboxylate(in) = (indol-3-yl)acetate(in) + a dicarboxylate(out)					
 75984					rhea:75983	
 75985					rhea:75983	
@@ -63387,14 +63383,14 @@ identifier	name	definition	synonyms	alts	parents	species
 75996					rhea:75995	
 75997					rhea:75995	
 75998					rhea:75995	
-75999	glutarate(in) + kynurenate(out) = glutarate(out) + kynurenate(in)					
-76000					rhea:75999	
-76001					rhea:75999	
-76002					rhea:75999	
-76003	glutarate(in) + xanthurenate(out) = glutarate(out) + xanthurenate(in)					
-76004					rhea:76003	
-76005					rhea:76003	
-76006					rhea:76003	
+75999	glutarate(in) + kynurenate(out) = glutarate(out) + kynurenate(in)				rhea:76087	
+76000					rhea:75999|rhea:76088	
+76001					rhea:75999|rhea:76089	
+76002					rhea:75999|rhea:76090	
+76003	glutarate(in) + xanthurenate(out) = glutarate(out) + xanthurenate(in)				rhea:76099	
+76004					rhea:76003|rhea:76100	
+76005					rhea:76003|rhea:76101	
+76006					rhea:76003|rhea:76102	
 76007	(3R)-hydroxybutanoate pentamer + H2O = (3R)-hydroxybutanoate tetramer + (R)-3-hydroxybutanoate + H(+)					
 76008					rhea:76007	
 76009					rhea:76007	
@@ -63419,10 +63415,6 @@ identifier	name	definition	synonyms	alts	parents	species
 76028					rhea:76027	
 76029					rhea:76027	
 76030					rhea:76027	
-76031	2-oxoglutarate + O2 + thebaine = 3-O-demethylthebaine + CO2 + formaldehyde + succinate					
-76032					rhea:76031	
-76033					rhea:76031	
-76034					rhea:76031	
 76035	(S)-cis-N-methylstylopine + O2 + reduced [NADPH--hemoprotein reductase] = 2 H(+) + H2O + oxidized [NADPH--hemoprotein reductase] + protopine					
 76036					rhea:76035	
 76037					rhea:76035	
@@ -63435,10 +63427,14 @@ identifier	name	definition	synonyms	alts	parents	species
 76044					rhea:76043	
 76045					rhea:76043	
 76046					rhea:76043	
-76051	(S)-scoulerine + S-adenosyl-L-methionine = (S)-cis-N-methylscoulerine + S-adenosyl-L-homocysteine					
-76052					rhea:76051	
-76053					rhea:76051	
-76054					rhea:76051	
+76047	(S)-tetrahydropalmatine + S-adenosyl-L-methionine = (S)-cis-N-methyltetrahydropalmatine + S-adenosyl-L-homocysteine				rhea:76067	
+76048					rhea:76047|rhea:76068	
+76049					rhea:76047|rhea:76069	
+76050					rhea:76047|rhea:76070	
+76051	(S)-scoulerine + S-adenosyl-L-methionine = (S)-cis-N-methylscoulerine + S-adenosyl-L-homocysteine				rhea:76067	
+76052					rhea:76051|rhea:76068	
+76053					rhea:76051|rhea:76069	
+76054					rhea:76051|rhea:76070	
 76055	norreticuline + S-adenosyl-L-methionine = H(+) + reticuline + S-adenosyl-L-homocysteine					
 76056					rhea:76055	
 76057					rhea:76055	
@@ -63451,7 +63447,7 @@ identifier	name	definition	synonyms	alts	parents	species
 76064					rhea:76063	
 76065					rhea:76063	
 76066					rhea:76063	
-76067	(S)-7,8,13,14-tetrahydroprotoberberine + S-adenosyl-L-methionine = (S)-cis-N-methyl-7,8,13,14-tetrahydroprotoberberine + S-adenosyl-L-homocysteine					
+76067	an (S)-7,8,13,14-tetrahydroprotoberberine + S-adenosyl-L-methionine = an (S)-cis-N-methyl-7,8,13,14-tetrahydroprotoberberine + S-adenosyl-L-homocysteine					
 76068					rhea:76067	
 76069					rhea:76067	
 76070					rhea:76067	
@@ -63495,11 +63491,395 @@ identifier	name	definition	synonyms	alts	parents	species
 76108					rhea:76107	
 76109					rhea:76107	
 76110					rhea:76107	
-76111	4-methylumbelliferone beta-D-glucuronate + H2O = 4-methylumbelliferone + D-glucuronate					
-76112					rhea:76111	
-76113					rhea:76111	
-76114					rhea:76111	
+76111	4-methylumbelliferone beta-D-glucuronate + H2O = 4-methylumbelliferone + D-glucuronate				rhea:17633	
+76112					rhea:76111|rhea:17634	
+76113					rhea:76111|rhea:17635	
+76114					rhea:76111|rhea:17636	
 76115	2-oxoglutarate + O2 + thebaine = 6-O-demethylthebaine + CO2 + formaldehyde + H(+) + succinate					
 76116					rhea:76115	
 76117					rhea:76115	
 76118					rhea:76115	
+76119	a dicarboxylate(in) + prostaglandin F2alpha(out) = a dicarboxylate(out) + prostaglandin F2alpha(in)					
+76120					rhea:76119	
+76121					rhea:76119	
+76122					rhea:76119	
+76123	a dicarboxylate(in) + prostaglandin E2(out) = a dicarboxylate(out) + prostaglandin E2(in)					
+76124					rhea:76123	
+76125					rhea:76123	
+76126					rhea:76123	
+76127	3',5'-cyclic AMP(out) + a dicarboxylate(in) = 3',5'-cyclic AMP(in) + a dicarboxylate(out)					
+76128					rhea:76127	
+76129					rhea:76127	
+76130					rhea:76127	
+76131	3',5'-cyclic GMP(out) + a dicarboxylate(in) = 3',5'-cyclic GMP(in) + a dicarboxylate(out)					
+76132					rhea:76131	
+76133					rhea:76131	
+76134					rhea:76131	
+76135	a dicarboxylate(in) + urate(out) = a dicarboxylate(out) + urate(in)					
+76136					rhea:76135	
+76137					rhea:76135	
+76138					rhea:76135	
+76139	D-gluconate(in) = D-gluconate(out)					
+76140					rhea:76139	
+76141					rhea:76139	
+76142					rhea:76139	
+76143	picrinine + S-adenosyl-L-methionine = ervincine + H(+) + S-adenosyl-L-homocysteine					
+76144					rhea:76143	
+76145					rhea:76143	
+76146					rhea:76143	
+76147	perivine + S-adenosyl-L-methionine = 2 H(+) + S-adenosyl-L-homocysteine + vobasine					
+76148					rhea:76147	
+76149					rhea:76147	
+76150					rhea:76147	
+76151	21-hydroxyprogesterone + 2 H(+) + O2 + 2 reduced [adrenodoxin] = 18-hydroxy-11-deoxycorticosterone + H2O + 2 oxidized [adrenodoxin]					
+76152					rhea:76151	
+76153					rhea:76151	
+76154					rhea:76151	
+76155	21-hydroxyprogesterone + 2 H(+) + O2 + 2 reduced [adrenodoxin] = 19-hydroxy-11-deoxycorticosterone + H2O + 2 oxidized [adrenodoxin]					
+76156					rhea:76155	
+76157					rhea:76155	
+76158					rhea:76155	
+76159	fluoride(in) = fluoride(out)					
+76160					rhea:76159	
+76161					rhea:76159	
+76162					rhea:76159	
+76163	11-deoxycortisol + 2 H(+) + O2 + 2 reduced [adrenodoxin] = 18-hydroxy-11-deoxycortisol + H2O + 2 oxidized [adrenodoxin]					
+76164					rhea:76163	
+76165					rhea:76163	
+76166					rhea:76163	
+76167	glycyl-L-leucine(out) + 2 H(+)(out) = glycyl-L-leucine + 2 H(+)(in)				rhea:76179	
+76168					rhea:76167|rhea:76180	
+76169					rhea:76167|rhea:76181	
+76170					rhea:76167|rhea:76182	
+76171	glycyl-L-lysine(out) + 2 H(+)(out) = glycyl-L-lysine(in) + 2 H(+)(in)				rhea:76179	
+76172					rhea:76171|rhea:76180	
+76173					rhea:76171|rhea:76181	
+76174					rhea:76171|rhea:76182	
+76175	glycyl-L-glutamate(out) + 3 H(+)(out) = glycyl-L-glutamate(in) + 3 H(+)(in)					
+76176					rhea:76175	
+76177					rhea:76175	
+76178					rhea:76175	
+76179	a dipeptide(out) + 2 H(+)(out) = a dipeptide(in) + 2 H(+)(in)					
+76180					rhea:76179	
+76181					rhea:76179	
+76182					rhea:76179	
+76183	2 H(+)(out) + L-alanyl-L-alanine(out) = 2 H(+)(in) + L-alanyl-L-alanine(in)				rhea:76179	
+76184					rhea:76183|rhea:76180	
+76185					rhea:76183|rhea:76181	
+76186					rhea:76183|rhea:76182	
+76187	an L-amino acid tripeptide(out) + 2 H(+)(out) = an L-amino acid tripeptide(in) + 2 H(+)(in)					
+76188					rhea:76187	
+76189					rhea:76187	
+76190					rhea:76187	
+76191	carnosine(out) + 2 H(+)(out) = carnosine(in) + 2 H(+)(in)				rhea:76179	
+76192					rhea:76191|rhea:76180	
+76193					rhea:76191|rhea:76181	
+76194					rhea:76191|rhea:76182	
+76195	UDP-alpha-D-glucose(in) = UDP-alpha-D-glucose(out)					
+76196					rhea:76195	
+76197					rhea:76195	
+76198					rhea:76195	
+76199	oxalate(in) = oxalate(out)					
+76200					rhea:76199	
+76201					rhea:76199	
+76202					rhea:76199	
+76203	n H(+)(out) + pyridoxine(out) = n H(+)(in) + pyridoxine(in)					
+76204					rhea:76203	
+76205					rhea:76203	
+76206					rhea:76203	
+76207	3',5'-cyclic GMP(in) = 3',5'-cyclic GMP(out)					
+76208					rhea:76207	
+76209					rhea:76207	
+76210					rhea:76207	
+76211	GMP(in) = GMP(out)					
+76212					rhea:76211	
+76213					rhea:76211	
+76214					rhea:76211	
+76215	2'-deoxyguanosine(in) = 2'-deoxyguanosine(out)					
+76216					rhea:76215	
+76217					rhea:76215	
+76218					rhea:76215	
+76219	GDP(in) = GDP(out)					
+76220					rhea:76219	
+76221					rhea:76219	
+76222					rhea:76219	
+76223	3',5'-cyclic AMP(in) = 3',5'-cyclic AMP(out)					
+76224					rhea:76223	
+76225					rhea:76223	
+76226					rhea:76223	
+76227	(Z)-(indol-3-yl)-N-(sulfonatooxy)methanimidothioate = (indol-3-yl)acetonitrile + sulfate + sulfur				rhea:59956	
+76228					rhea:76227|rhea:59957	
+76229					rhea:76227|rhea:59958	
+76230					rhea:76227|rhea:59959	
+76231	2-oxoglutarate(in) = 2-oxoglutarate(out)					
+76232					rhea:76231	
+76233					rhea:76231	
+76234					rhea:76231	
+76235	a tRNA with a 3' CCA end + ATP + 2 CTP = a tRNA with a 3' CCACCA end + 3 diphosphate					
+76236					rhea:76235	
+76237					rhea:76235	
+76238					rhea:76235	
+76243	a glycyl-glycyl-[protein] + H2O = [protein]-C-terminal glycine + N-terminal glycyl-[protein]					
+76244					rhea:76243	
+76245					rhea:76243	
+76246					rhea:76243	
+76247	ATP + ergothioneine(out) + H2O = ADP + ergothioneine(in) + H(+) + phosphate					
+76248					rhea:76247	
+76249					rhea:76247	
+76250					rhea:76247	
+76251	glutarate(in) = glutarate(out)					
+76252					rhea:76251	
+76253					rhea:76251	
+76254					rhea:76251	
+76255	a 5'-end 2'-deoxyribose-2'-deoxyribonucleotide-DNA = (2E,4S)-4-hydroxypenten-2-al-5-phosphate + a 5'-end 5'-monophospho-2'-deoxyribonucleoside-DNA + H(+)					
+76256					rhea:76255	
+76257					rhea:76255	
+76258					rhea:76255	
+76259	H(+)(in) + taurine(in) = H(+)(out) + taurine(out)					
+76260					rhea:76259	
+76261					rhea:76259	
+76262					rhea:76259	
+76263	ergothioneine(in) = ergothioneine(out)					
+76264					rhea:76263	
+76265					rhea:76263	
+76266					rhea:76263	
+76267	carnosine(in) = carnosine(out)					
+76268					rhea:76267	
+76269					rhea:76267	
+76270					rhea:76267	
+76271	N,N-dimethylglycine(in) = N,N-dimethylglycine(out)					
+76272					rhea:76271	
+76273					rhea:76271	
+76274					rhea:76271	
+76275	Na(+)(out) + uracil(out) = Na(+)(in) + uracil(in)					
+76276					rhea:76275	
+76277					rhea:76275	
+76278					rhea:76275	
+76279	hypoxanthine(out) + Na(+)(out) = hypoxanthine(in) + Na(+)(in)					
+76280					rhea:76279	
+76281					rhea:76279	
+76282					rhea:76279	
+76283	guanine(out) + Na(+)(out) = guanine(in) + Na(+)(in)					
+76284					rhea:76283	
+76285					rhea:76283	
+76286					rhea:76283	
+76287	Na(+)(out) + thymine(out) = Na(+)(in) + thymine(in)					
+76288					rhea:76287	
+76289					rhea:76287	
+76290					rhea:76287	
+76291	Na(+)(out) + xanthine(out) = Na(+)(in) + xanthine(in)					
+76292					rhea:76291	
+76293					rhea:76291	
+76294					rhea:76291	
+76299	L-aspartate(in) + L-cystine(out) = L-aspartate(out) + L-cystine(in)					
+76300					rhea:76299	
+76301					rhea:76299	
+76302					rhea:76299	
+76303	L-cystine(out) = L-cystine(in)					
+76304					rhea:76303	
+76305					rhea:76303	
+76306					rhea:76303	
+76307	L-aspartate(in) + L-glutamate(out) = L-aspartate(out) + L-glutamate(in)					
+76308					rhea:76307	
+76309					rhea:76307	
+76310					rhea:76307	
+76311	L-aspartate(in) + L-glutamine(out) = L-aspartate(out) + L-glutamine(in)					
+76312					rhea:76311	
+76313					rhea:76311	
+76314					rhea:76311	
+76315	L-aspartate(in) + L-methionine(out) = L-aspartate(out) + L-methionine(in)					
+76316					rhea:76315	
+76317					rhea:76315	
+76318					rhea:76315	
+76319	L-aspartate(in) + L-leucine(out) = L-aspartate(out) + L-leucine(in)					
+76320					rhea:76319	
+76321					rhea:76319	
+76322					rhea:76319	
+76323	L-aspartate(in) + L-valine(out) = L-aspartate(out) + L-valine(in)					
+76324					rhea:76323	
+76325					rhea:76323	
+76326					rhea:76323	
+76327	L-aspartate(in) + L-phenylalanine(out) = L-aspartate(out) + L-phenylalanine(in)					
+76328					rhea:76327	
+76329					rhea:76327	
+76330					rhea:76327	
+76331	L-aspartate(in) + L-tyrosine(out) = L-aspartate(out) + L-tyrosine(in)					
+76332					rhea:76331	
+76333					rhea:76331	
+76334					rhea:76331	
+76335	L-aspartate(in) + L-tryptophan(out) = L-aspartate(out) + L-tryptophan(in)					
+76336					rhea:76335	
+76337					rhea:76335	
+76338					rhea:76335	
+76339	2 Na(+)(out) + urate(out) = 2 Na(+)(in) + urate(in)					
+76340					rhea:76339	
+76341					rhea:76339	
+76342					rhea:76339	
+76343	(2S)-2-isopropylmalate(in) + sulfate(out) = (2S)-2-isopropylmalate(out) + sulfate(in)					
+76344					rhea:76343	
+76345					rhea:76343	
+76346					rhea:76343	
+76347	(2R,3S)-3-isopropylmalate(in) + sulfate(out) = (2R,3S)-3-isopropylmalate(out) + sulfate(in)					
+76348					rhea:76347	
+76349					rhea:76347	
+76350					rhea:76347	
+76351	oxaloacetate(in) + sulfate(out) = oxaloacetate(out) + sulfate(in)					
+76352					rhea:76351	
+76353					rhea:76351	
+76354					rhea:76351	
+76355	n H(+)(out) + N-acetyl-beta-D-glucosaminyl-(1->4)-1,6-anhydro-N-acetyl-beta-D-muramoyl-L-alanyl-gamma-D-glutamyl-meso-diaminoheptanedioate-D-alanine(out) = n H(+)(in) + N-acetyl-beta-D-glucosaminyl-(1->4)-1,6-anhydro-N-acetyl-beta-D-muramoyl-L-alanyl-gamma-D-glutamyl-meso-diaminoheptanedioate-D-alanine(in)					
+76356					rhea:76355	
+76357					rhea:76355	
+76358					rhea:76355	
+76359	n H(+)(out) + N-acetyl-beta-D-glucosaminyl-(1->4)-1,6-anhydro-N-acetyl-beta-D-muramoyl-L-alanyl-gamma-D-glutamyl-meso-diaminoheptanedioate(out) = n H(+)(in) + N-acetyl-beta-D-glucosaminyl-(1->4)-1,6-anhydro-N-acetyl-beta-D-muramoyl-L-alanyl-gamma-D-glutamyl-meso-diaminoheptanedioate(in)					
+76360					rhea:76359	
+76361					rhea:76359	
+76362					rhea:76359	
+76363	n H(+)(out) + N-acetyl-beta-D-glucosaminyl-(1->4)-1,6-anhydro-N-acetyl-beta-D-muramoyl-L-alanyl-gamma-D-glutamyl-meso-diaminoheptanedioyl-D-alanyl-D-alanine(out) = n H(+)(in) + N-acetyl-beta-D-glucosaminyl-(1->4)-1,6-anhydro-N-acetyl-beta-D-muramoyl-L-alanyl-gamma-D-glutamyl-meso-diaminoheptanedioyl-D-alanyl-D-alanine(in)					
+76364					rhea:76363	
+76365					rhea:76363	
+76366					rhea:76363	
+76367	n H(+)(out) + N-acetyl-beta-D-glucosaminyl-(1->4)-1,6-anhydro-N-acetyl-beta-D-muramate(out) = n H(+)(in) + N-acetyl-beta-D-glucosaminyl-(1->4)-1,6-anhydro-N-acetyl-beta-D-muramate(in)					
+76368					rhea:76367	
+76369					rhea:76367	
+76370					rhea:76367	
+76371	n H(+)(out) + N-acetyl-D-muramoyl-L-alanyl-D-isoglutamine(out) = n H(+)(in) + N-acetyl-D-muramoyl-L-alanyl-D-isoglutamine(in)					
+76372					rhea:76371	
+76373					rhea:76371	
+76374					rhea:76371	
+76375	3 H(+)(out) + N-acetyl-D-muramoyl-L-alanyl-D-isoglutamine(out) = 3 H(+)(in) + N-acetyl-D-muramoyl-L-alanyl-D-isoglutamine(in)				rhea:76371	
+76376					rhea:76375|rhea:76372	
+76377					rhea:76375|rhea:76373	
+76378					rhea:76375|rhea:76374	
+76379	n H(+)(out) + L-histidine(out) = n H(+)(in) + L-histidine(in)					
+76380					rhea:76379	
+76381					rhea:76379	
+76382					rhea:76379	
+76383	carnosine(out) + n H(+)(out) = carnosine(in) + n H(+)(in)					
+76384					rhea:76383	
+76385					rhea:76383	
+76386					rhea:76383	
+76387	ATP + L-glutamate + N(6)-hydroxy-L-lysine = 1-L-glutamo-2-N(6-)L-lysinohydrazine + AMP + diphosphate + 2 H(+)					
+76388					rhea:76387	
+76389					rhea:76387	
+76390					rhea:76387	
+76391	glycylglycylglycine(out) + n H(+)(out) = glycylglycylglycine(in) + n H(+)(in)					
+76392					rhea:76391	
+76393					rhea:76391	
+76394					rhea:76391	
+76407	H2O + Xaa-L-Pro dipeptide = an L-alpha-amino acid + L-proline					
+76408					rhea:76407	
+76409					rhea:76407	
+76410					rhea:76407	
+76411	2',3'-cGAMP(out) + n H(+)(out) = 2',3'-cGAMP(in) + n H(+)(in)					
+76412					rhea:76411	
+76413					rhea:76411	
+76414					rhea:76411	
+76415	3',3'-cGAMP(out) + n H(+)(out) = 3',3'-cGAMP(in) + n H(+)(in)					
+76416					rhea:76415	
+76417					rhea:76415	
+76418					rhea:76415	
+76419	2-hydroxymethyl-3-pentylphenol + O2 + reduced [NADPH--hemoprotein reductase] = (8S)-annullatin E + H(+) + H2O + oxidized [NADPH--hemoprotein reductase]				rhea:17149	
+76420					rhea:76419|rhea:17150	
+76421					rhea:76419|rhea:17151	
+76422					rhea:76419|rhea:17152	
+76423	(8S)-annullatin E + dimethylallyl diphosphate = (8S)-annullatin J + diphosphate					
+76424					rhea:76423	
+76425					rhea:76423	
+76426					rhea:76423	
+76427	(2R,9S)-annullatin H + A = (2R)-annullatin F + AH2					
+76428					rhea:76427	
+76429					rhea:76427	
+76430					rhea:76427	
+76431	Na(+)(out) + NH4(+)(in) = Na(+)(in) + NH4(+)(out)					
+76432					rhea:76431	
+76433					rhea:76431	
+76434					rhea:76431	
+76435	(2S,9S)-annullatin H + 2 A = (2S,9S)-annullatin D + 2 AH2					
+76436					rhea:76435	
+76437					rhea:76435	
+76438					rhea:76435	
+76439	19-hydroxy-11-deoxycorticosterone + 2 H(+) + O2 + 2 reduced [adrenodoxin] = 19-oxo-11-deoxycorticosterone + 2 H2O + 2 oxidized [adrenodoxin]					
+76440					rhea:76439	
+76441					rhea:76439	
+76442					rhea:76439	
+76443	choline(out) + n Na(+)(out) = choline(in) + n Na(+)(in)					
+76444					rhea:76443	
+76445					rhea:76443	
+76446					rhea:76443	
+76447	ATP + L-aspartate + L-methionine = ADP + H(+) + L-aspartyl-L-methionine + phosphate					
+76448					rhea:76447	
+76449					rhea:76447	
+76450					rhea:76447	
+76451	(E)-4-coumaroyl alcohol + A = (E)-4-coumaraldehyde + AH2				rhea:14685	
+76452					rhea:76451|rhea:14686	
+76453					rhea:76451|rhea:14687	
+76454					rhea:76451|rhea:14688	
+76455	(E)-coniferol + A = (E)-coniferaldehyde + AH2				rhea:14685	
+76456					rhea:76455|rhea:14686	
+76457					rhea:76455|rhea:14687	
+76458					rhea:76455|rhea:14688	
+76459	(E)-sinapyl alcohol + A = (E)-sinapaldehyde + AH2				rhea:14685	
+76460					rhea:76459|rhea:14686	
+76461					rhea:76459|rhea:14687	
+76462					rhea:76459|rhea:14688	
+76463	4-O-(beta-D-glucosyl)-(E)-coniferol + A = 4-O-(beta-D-glucosyl)-4-(E)-coniferyl aldehyde + AH2				rhea:14685	
+76464					rhea:76463|rhea:14686	
+76465					rhea:76463|rhea:14687	
+76466					rhea:76463|rhea:14688	
+76467	2 H(+) + 2 NADPH + 2 O2 + tetracenomycin B2 = 8-demethyltetracenomycin C + H2O + 2 NADP(+)					
+76468					rhea:76467	
+76469					rhea:76467	
+76470					rhea:76467	
+76475	hexadecan-1-ol + O2 = H2O2 + hexadecanal				rhea:22756	
+76476					rhea:76475|rhea:22757	
+76477					rhea:76475|rhea:22758	
+76478					rhea:76475|rhea:22759	
+76479	hexadecane-1,16-diol + O2 = H2O2 + hydroxyhexadecanal				rhea:22756	
+76480					rhea:76479|rhea:22757	
+76481					rhea:76479|rhea:22758	
+76482					rhea:76479|rhea:22759	
+76483	2 Fe(II)-[cytochrome b5] + 2 H(+) + O2 + sphing-4-enine = 2 Fe(III)-[cytochrome b5] + 2 H2O + sphinga-4E,14Z-dienine					
+76484					rhea:76483	
+76485					rhea:76483	
+76486					rhea:76483	
+76487	2 Fe(II)-[cytochrome b5] + 2 H(+) + N-acyl-1-deoxysphinganine + O2 = 2 Fe(III)-[cytochrome b5] + 2 H2O + N-acyl-1-deoxysphing-14Z-enine					
+76488					rhea:76487	
+76489					rhea:76487	
+76490					rhea:76487	
+76491	(E)-ferulate + H2O = acetate + vanillin					
+76492					rhea:76491	
+76493					rhea:76491	
+76494					rhea:76491	
+76503	4-O-beta-D-glucosyl-trans-ferulate + H2O = 4-O-beta-D-glucosyl-vanillin + acetate					
+76504					rhea:76503	
+76505					rhea:76503	
+76506					rhea:76503	
+76507	(-)-2'-epi-GR24 + H2O = (-)-2'-epi-GR24 ABC-rings + 5-hydroxy-3-methylfuran-2(5H)-one					
+76508					rhea:76507	
+76509					rhea:76507	
+76510					rhea:76507	
+76511	5-deoxystrigol + H2O = 5-deoxystrigol ABC-rings + 5-hydroxy-3-methylfuran-2(5H)-one					
+76512					rhea:76511	
+76513					rhea:76511	
+76514					rhea:76511	
+76515	H2O + orobanchol = 5-hydroxy-3-methylfuran-2(5H)-one + orobanchol ABC-rings					
+76516					rhea:76515	
+76517					rhea:76515	
+76518					rhea:76515	
+76531	H(+) + N-acetyl-S-(2-succino)-L-cysteine + NADH + O2 = H2O + N-acetyl-L-cysteine + NAD(+) + oxaloacetate					
+76532					rhea:76531	
+76533					rhea:76531	
+76534					rhea:76531	
+76539	a fatty acyl-CoA + sphinga-(4E,8E)-dienine = an N-acyl-sphinga-4,8-dienine + CoA + H(+)				rhea:53424	
+76540					rhea:76539|rhea:53425	
+76541					rhea:76539|rhea:53426	
+76542					rhea:76539|rhea:53427	
+76543	N-acetyl-S-(2-succino)-L-cysteine = fumarate + N-acetyl-L-cysteine					
+76544					rhea:76543	
+76545					rhea:76543	
+76546					rhea:76543	
+76563	an N-acylsphinganine + 2 Fe(II)-[cytochrome b5] + 2 H(+) + O2 = an N-acylsphing-14Z-enine + 2 Fe(III)-[cytochrome b5] + 2 H2O					
+76564					rhea:76563	
+76565					rhea:76563	
+76566					rhea:76563	

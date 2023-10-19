@@ -1,0 +1,6014 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/pfam.clan.owl#"
+     xml:base="http://purl.obolibrary.org/obo/pfam.clan.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pfam.clan.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pfam.clan/36.0/pfam.clan.owl"/>
+        <dc:title>Pfam Clans</dc:title>
+        <oboInOwl:auto-generated-by>bio2obo:pfam.clan</oboInOwl:auto-generated-by>
+        <oboInOwl:date>19:10:2023 12:16</oboInOwl:date>
+        <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label>has_obo_format_version</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0001">
+        <oboInOwl:id>pfam.clan:CL0001</oboInOwl:id>
+        <rdfs:label>EGF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0003">
+        <oboInOwl:id>pfam.clan:CL0003</oboInOwl:id>
+        <rdfs:label>SAM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0004">
+        <oboInOwl:id>pfam.clan:CL0004</oboInOwl:id>
+        <rdfs:label>Concanavalin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0005">
+        <oboInOwl:id>pfam.clan:CL0005</oboInOwl:id>
+        <rdfs:label>Kazal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0007">
+        <oboInOwl:id>pfam.clan:CL0007</oboInOwl:id>
+        <rdfs:label>KH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0010">
+        <oboInOwl:id>pfam.clan:CL0010</oboInOwl:id>
+        <rdfs:label>SH3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0012">
+        <oboInOwl:id>pfam.clan:CL0012</oboInOwl:id>
+        <rdfs:label>Histone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0013">
+        <oboInOwl:id>pfam.clan:CL0013</oboInOwl:id>
+        <rdfs:label>Beta-lactamase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0014">
+        <oboInOwl:id>pfam.clan:CL0014</oboInOwl:id>
+        <rdfs:label>Glutaminase_I</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0015">
+        <oboInOwl:id>pfam.clan:CL0015</oboInOwl:id>
+        <rdfs:label>MFS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0016">
+        <oboInOwl:id>pfam.clan:CL0016</oboInOwl:id>
+        <rdfs:label>PKinase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0018">
+        <oboInOwl:id>pfam.clan:CL0018</oboInOwl:id>
+        <rdfs:label>bZIP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0020">
+        <oboInOwl:id>pfam.clan:CL0020</oboInOwl:id>
+        <rdfs:label>TPR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0021">
+        <oboInOwl:id>pfam.clan:CL0021</oboInOwl:id>
+        <rdfs:label>OB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0022">
+        <oboInOwl:id>pfam.clan:CL0022</oboInOwl:id>
+        <rdfs:label>LRR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0023">
+        <oboInOwl:id>pfam.clan:CL0023</oboInOwl:id>
+        <rdfs:label>P-loop_NTPase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0025">
+        <oboInOwl:id>pfam.clan:CL0025</oboInOwl:id>
+        <rdfs:label>His_Kinase_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0026">
+        <oboInOwl:id>pfam.clan:CL0026</oboInOwl:id>
+        <rdfs:label>CU_oxidase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0027">
+        <oboInOwl:id>pfam.clan:CL0027</oboInOwl:id>
+        <rdfs:label>RdRP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0028">
+        <oboInOwl:id>pfam.clan:CL0028</oboInOwl:id>
+        <rdfs:label>AB_hydrolase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0029">
+        <oboInOwl:id>pfam.clan:CL0029</oboInOwl:id>
+        <rdfs:label>Cupin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0030">
+        <oboInOwl:id>pfam.clan:CL0030</oboInOwl:id>
+        <rdfs:label>Ion_channel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0031">
+        <oboInOwl:id>pfam.clan:CL0031</oboInOwl:id>
+        <rdfs:label>Phosphatase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0032">
+        <oboInOwl:id>pfam.clan:CL0032</oboInOwl:id>
+        <rdfs:label>Dim_A_B_barrel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0033">
+        <oboInOwl:id>pfam.clan:CL0033</oboInOwl:id>
+        <rdfs:label>POZ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0036">
+        <oboInOwl:id>pfam.clan:CL0036</oboInOwl:id>
+        <rdfs:label>TIM_barrel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0037">
+        <oboInOwl:id>pfam.clan:CL0037</oboInOwl:id>
+        <rdfs:label>Lysozyme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0039">
+        <oboInOwl:id>pfam.clan:CL0039</oboInOwl:id>
+        <rdfs:label>HUP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0040">
+        <oboInOwl:id>pfam.clan:CL0040</oboInOwl:id>
+        <rdfs:label>tRNA_synt_II</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0041">
+        <oboInOwl:id>pfam.clan:CL0041</oboInOwl:id>
+        <rdfs:label>Death</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0042">
+        <oboInOwl:id>pfam.clan:CL0042</oboInOwl:id>
+        <rdfs:label>Flavoprotein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0043">
+        <oboInOwl:id>pfam.clan:CL0043</oboInOwl:id>
+        <rdfs:label>Chelatase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0044">
+        <oboInOwl:id>pfam.clan:CL0044</oboInOwl:id>
+        <rdfs:label>Ferritin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0045">
+        <oboInOwl:id>pfam.clan:CL0045</oboInOwl:id>
+        <rdfs:label>Rubredoxin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0046">
+        <oboInOwl:id>pfam.clan:CL0046</oboInOwl:id>
+        <rdfs:label>Thiolase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0047">
+        <oboInOwl:id>pfam.clan:CL0047</oboInOwl:id>
+        <rdfs:label>CuAO_N2_N3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0048">
+        <oboInOwl:id>pfam.clan:CL0048</oboInOwl:id>
+        <rdfs:label>LolA_LolB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0050">
+        <oboInOwl:id>pfam.clan:CL0050</oboInOwl:id>
+        <rdfs:label>HotDog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0051">
+        <oboInOwl:id>pfam.clan:CL0051</oboInOwl:id>
+        <rdfs:label>NTF2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0052">
+        <oboInOwl:id>pfam.clan:CL0052</oboInOwl:id>
+        <rdfs:label>NTN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0053">
+        <oboInOwl:id>pfam.clan:CL0053</oboInOwl:id>
+        <rdfs:label>4H_Cytokine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0054">
+        <oboInOwl:id>pfam.clan:CL0054</oboInOwl:id>
+        <rdfs:label>Knottin_1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0055">
+        <oboInOwl:id>pfam.clan:CL0055</oboInOwl:id>
+        <rdfs:label>Nucleoplasmin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0056">
+        <oboInOwl:id>pfam.clan:CL0056</oboInOwl:id>
+        <rdfs:label>C_Lectin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0057">
+        <oboInOwl:id>pfam.clan:CL0057</oboInOwl:id>
+        <rdfs:label>Met_repress</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0059">
+        <oboInOwl:id>pfam.clan:CL0059</oboInOwl:id>
+        <rdfs:label>6_Hairpin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0060">
+        <oboInOwl:id>pfam.clan:CL0060</oboInOwl:id>
+        <rdfs:label>DNA_clamp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0061">
+        <oboInOwl:id>pfam.clan:CL0061</oboInOwl:id>
+        <rdfs:label>PLP_aminotran</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0062">
+        <oboInOwl:id>pfam.clan:CL0062</oboInOwl:id>
+        <rdfs:label>APC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0063">
+        <oboInOwl:id>pfam.clan:CL0063</oboInOwl:id>
+        <rdfs:label>NADP_Rossmann</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0064">
+        <oboInOwl:id>pfam.clan:CL0064</oboInOwl:id>
+        <rdfs:label>CPA_AT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0065">
+        <oboInOwl:id>pfam.clan:CL0065</oboInOwl:id>
+        <rdfs:label>Cyclin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0066">
+        <oboInOwl:id>pfam.clan:CL0066</oboInOwl:id>
+        <rdfs:label>Trefoil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0067">
+        <oboInOwl:id>pfam.clan:CL0067</oboInOwl:id>
+        <rdfs:label>SIS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0068">
+        <oboInOwl:id>pfam.clan:CL0068</oboInOwl:id>
+        <rdfs:label>RIIa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0069">
+        <oboInOwl:id>pfam.clan:CL0069</oboInOwl:id>
+        <rdfs:label>GFP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0070">
+        <oboInOwl:id>pfam.clan:CL0070</oboInOwl:id>
+        <rdfs:label>ACT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0071">
+        <oboInOwl:id>pfam.clan:CL0071</oboInOwl:id>
+        <rdfs:label>His_phosphatase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0072">
+        <oboInOwl:id>pfam.clan:CL0072</oboInOwl:id>
+        <rdfs:label>Ubiquitin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0073">
+        <oboInOwl:id>pfam.clan:CL0073</oboInOwl:id>
+        <rdfs:label>P53-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0074">
+        <oboInOwl:id>pfam.clan:CL0074</oboInOwl:id>
+        <rdfs:label>Matrix</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0075">
+        <oboInOwl:id>pfam.clan:CL0075</oboInOwl:id>
+        <rdfs:label>Defensin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0077">
+        <oboInOwl:id>pfam.clan:CL0077</oboInOwl:id>
+        <rdfs:label>FAD_PCMH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0079">
+        <oboInOwl:id>pfam.clan:CL0079</oboInOwl:id>
+        <rdfs:label>Cystine-knot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0080">
+        <oboInOwl:id>pfam.clan:CL0080</oboInOwl:id>
+        <rdfs:label>Beta-tent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0081">
+        <oboInOwl:id>pfam.clan:CL0081</oboInOwl:id>
+        <rdfs:label>MBD-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0082">
+        <oboInOwl:id>pfam.clan:CL0082</oboInOwl:id>
+        <rdfs:label>MIF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0083">
+        <oboInOwl:id>pfam.clan:CL0083</oboInOwl:id>
+        <rdfs:label>Omega_toxin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0084">
+        <oboInOwl:id>pfam.clan:CL0084</oboInOwl:id>
+        <rdfs:label>ADP-ribosyl</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0087">
+        <oboInOwl:id>pfam.clan:CL0087</oboInOwl:id>
+        <rdfs:label>Acyl-CoA_dh</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0088">
+        <oboInOwl:id>pfam.clan:CL0088</oboInOwl:id>
+        <rdfs:label>Alk_phosphatase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0089">
+        <oboInOwl:id>pfam.clan:CL0089</oboInOwl:id>
+        <rdfs:label>GlnB-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0090">
+        <oboInOwl:id>pfam.clan:CL0090</oboInOwl:id>
+        <rdfs:label>Globin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0091">
+        <oboInOwl:id>pfam.clan:CL0091</oboInOwl:id>
+        <rdfs:label>NAD_Ferredoxin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0092">
+        <oboInOwl:id>pfam.clan:CL0092</oboInOwl:id>
+        <rdfs:label>ADF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0093">
+        <oboInOwl:id>pfam.clan:CL0093</oboInOwl:id>
+        <rdfs:label>Peptidase_CD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0094">
+        <oboInOwl:id>pfam.clan:CL0094</oboInOwl:id>
+        <rdfs:label>Peptidase_ME</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0095">
+        <oboInOwl:id>pfam.clan:CL0095</oboInOwl:id>
+        <rdfs:label>Peptidase_ML</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0096">
+        <oboInOwl:id>pfam.clan:CL0096</oboInOwl:id>
+        <rdfs:label>Pept_Inhib_IE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0097">
+        <oboInOwl:id>pfam.clan:CL0097</oboInOwl:id>
+        <rdfs:label>TypeIII_Chap</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0098">
+        <oboInOwl:id>pfam.clan:CL0098</oboInOwl:id>
+        <rdfs:label>SPOUT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0099">
+        <oboInOwl:id>pfam.clan:CL0099</oboInOwl:id>
+        <rdfs:label>ALDH-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0100">
+        <oboInOwl:id>pfam.clan:CL0100</oboInOwl:id>
+        <rdfs:label>C1q_TNF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0101">
+        <oboInOwl:id>pfam.clan:CL0101</oboInOwl:id>
+        <rdfs:label>PELOTA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0103">
+        <oboInOwl:id>pfam.clan:CL0103</oboInOwl:id>
+        <rdfs:label>Gal_mutarotase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0104">
+        <oboInOwl:id>pfam.clan:CL0104</oboInOwl:id>
+        <rdfs:label>Glyoxalase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0105">
+        <oboInOwl:id>pfam.clan:CL0105</oboInOwl:id>
+        <rdfs:label>Hybrid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0106">
+        <oboInOwl:id>pfam.clan:CL0106</oboInOwl:id>
+        <rdfs:label>6PGD_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0108">
+        <oboInOwl:id>pfam.clan:CL0108</oboInOwl:id>
+        <rdfs:label>Actin_ATPase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0109">
+        <oboInOwl:id>pfam.clan:CL0109</oboInOwl:id>
+        <rdfs:label>CDA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0110">
+        <oboInOwl:id>pfam.clan:CL0110</oboInOwl:id>
+        <rdfs:label>GT-A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0111">
+        <oboInOwl:id>pfam.clan:CL0111</oboInOwl:id>
+        <rdfs:label>GT-C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0112">
+        <oboInOwl:id>pfam.clan:CL0112</oboInOwl:id>
+        <rdfs:label>Yip1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0113">
+        <oboInOwl:id>pfam.clan:CL0113</oboInOwl:id>
+        <rdfs:label>GT-B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0114">
+        <oboInOwl:id>pfam.clan:CL0114</oboInOwl:id>
+        <rdfs:label>HMG-box</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0115">
+        <oboInOwl:id>pfam.clan:CL0115</oboInOwl:id>
+        <rdfs:label>Steroid_dh</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0116">
+        <oboInOwl:id>pfam.clan:CL0116</oboInOwl:id>
+        <rdfs:label>Calycin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0117">
+        <oboInOwl:id>pfam.clan:CL0117</oboInOwl:id>
+        <rdfs:label>uPAR_Ly6_toxin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0118">
+        <oboInOwl:id>pfam.clan:CL0118</oboInOwl:id>
+        <rdfs:label>Ribokinase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0122">
+        <oboInOwl:id>pfam.clan:CL0122</oboInOwl:id>
+        <rdfs:label>UTRA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0123">
+        <oboInOwl:id>pfam.clan:CL0123</oboInOwl:id>
+        <rdfs:label>HTH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0124">
+        <oboInOwl:id>pfam.clan:CL0124</oboInOwl:id>
+        <rdfs:label>Peptidase_PA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0125">
+        <oboInOwl:id>pfam.clan:CL0125</oboInOwl:id>
+        <rdfs:label>Peptidase_CA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0126">
+        <oboInOwl:id>pfam.clan:CL0126</oboInOwl:id>
+        <rdfs:label>Peptidase_MA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0127">
+        <oboInOwl:id>pfam.clan:CL0127</oboInOwl:id>
+        <rdfs:label>ClpP_crotonase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0128">
+        <oboInOwl:id>pfam.clan:CL0128</oboInOwl:id>
+        <rdfs:label>vWA-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0129">
+        <oboInOwl:id>pfam.clan:CL0129</oboInOwl:id>
+        <rdfs:label>Peptidase_AA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0130">
+        <oboInOwl:id>pfam.clan:CL0130</oboInOwl:id>
+        <rdfs:label>Peptidase_AD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0131">
+        <oboInOwl:id>pfam.clan:CL0131</oboInOwl:id>
+        <rdfs:label>DoxD-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0132">
+        <oboInOwl:id>pfam.clan:CL0132</oboInOwl:id>
+        <rdfs:label>AbrB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0133">
+        <oboInOwl:id>pfam.clan:CL0133</oboInOwl:id>
+        <rdfs:label>AT14A-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0135">
+        <oboInOwl:id>pfam.clan:CL0135</oboInOwl:id>
+        <rdfs:label>Arrestin_N-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0136">
+        <oboInOwl:id>pfam.clan:CL0136</oboInOwl:id>
+        <rdfs:label>Plasmid-antitox</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0137">
+        <oboInOwl:id>pfam.clan:CL0137</oboInOwl:id>
+        <rdfs:label>HAD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0139">
+        <oboInOwl:id>pfam.clan:CL0139</oboInOwl:id>
+        <rdfs:label>GADPH_aa-bio_dh</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0140">
+        <oboInOwl:id>pfam.clan:CL0140</oboInOwl:id>
+        <rdfs:label>Viral_NABP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0141">
+        <oboInOwl:id>pfam.clan:CL0141</oboInOwl:id>
+        <rdfs:label>MtN3-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0142">
+        <oboInOwl:id>pfam.clan:CL0142</oboInOwl:id>
+        <rdfs:label>Membrane_trans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0143">
+        <oboInOwl:id>pfam.clan:CL0143</oboInOwl:id>
+        <rdfs:label>B_Fructosidase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0144">
+        <oboInOwl:id>pfam.clan:CL0144</oboInOwl:id>
+        <rdfs:label>Periplas_BP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0145">
+        <oboInOwl:id>pfam.clan:CL0145</oboInOwl:id>
+        <rdfs:label>Golgi-transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0146">
+        <oboInOwl:id>pfam.clan:CL0146</oboInOwl:id>
+        <rdfs:label>Herpes_glyco</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0147">
+        <oboInOwl:id>pfam.clan:CL0147</oboInOwl:id>
+        <rdfs:label>Traffic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0148">
+        <oboInOwl:id>pfam.clan:CL0148</oboInOwl:id>
+        <rdfs:label>Viral_Gag</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0149">
+        <oboInOwl:id>pfam.clan:CL0149</oboInOwl:id>
+        <rdfs:label>CoA-acyltrans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0153">
+        <oboInOwl:id>pfam.clan:CL0153</oboInOwl:id>
+        <rdfs:label>dUTPase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0154">
+        <oboInOwl:id>pfam.clan:CL0154</oboInOwl:id>
+        <rdfs:label>C2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0155">
+        <oboInOwl:id>pfam.clan:CL0155</oboInOwl:id>
+        <rdfs:label>CBM_14_19</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0156">
+        <oboInOwl:id>pfam.clan:CL0156</oboInOwl:id>
+        <rdfs:label>Nucleocapsid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0157">
+        <oboInOwl:id>pfam.clan:CL0157</oboInOwl:id>
+        <rdfs:label>Kleisin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0158">
+        <oboInOwl:id>pfam.clan:CL0158</oboInOwl:id>
+        <rdfs:label>GH_CE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0159">
+        <oboInOwl:id>pfam.clan:CL0159</oboInOwl:id>
+        <rdfs:label>E-set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0161">
+        <oboInOwl:id>pfam.clan:CL0161</oboInOwl:id>
+        <rdfs:label>GAF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0163">
+        <oboInOwl:id>pfam.clan:CL0163</oboInOwl:id>
+        <rdfs:label>Calcineurin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0164">
+        <oboInOwl:id>pfam.clan:CL0164</oboInOwl:id>
+        <rdfs:label>CUB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0165">
+        <oboInOwl:id>pfam.clan:CL0165</oboInOwl:id>
+        <rdfs:label>Cache</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0166">
+        <oboInOwl:id>pfam.clan:CL0166</oboInOwl:id>
+        <rdfs:label>PRD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0167">
+        <oboInOwl:id>pfam.clan:CL0167</oboInOwl:id>
+        <rdfs:label>Zn_Beta_Ribbon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0168">
+        <oboInOwl:id>pfam.clan:CL0168</oboInOwl:id>
+        <rdfs:label>PAN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0169">
+        <oboInOwl:id>pfam.clan:CL0169</oboInOwl:id>
+        <rdfs:label>Rep</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0170">
+        <oboInOwl:id>pfam.clan:CL0170</oboInOwl:id>
+        <rdfs:label>Peptidase_MD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0171">
+        <oboInOwl:id>pfam.clan:CL0171</oboInOwl:id>
+        <rdfs:label>Phospoesterase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0172">
+        <oboInOwl:id>pfam.clan:CL0172</oboInOwl:id>
+        <rdfs:label>Thioredoxin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0173">
+        <oboInOwl:id>pfam.clan:CL0173</oboInOwl:id>
+        <rdfs:label>STIR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0174">
+        <oboInOwl:id>pfam.clan:CL0174</oboInOwl:id>
+        <rdfs:label>TetR_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0175">
+        <oboInOwl:id>pfam.clan:CL0175</oboInOwl:id>
+        <rdfs:label>TRASH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0176">
+        <oboInOwl:id>pfam.clan:CL0176</oboInOwl:id>
+        <rdfs:label>Chemosens_recp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0177">
+        <oboInOwl:id>pfam.clan:CL0177</oboInOwl:id>
+        <rdfs:label>PBP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0178">
+        <oboInOwl:id>pfam.clan:CL0178</oboInOwl:id>
+        <rdfs:label>PUA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0179">
+        <oboInOwl:id>pfam.clan:CL0179</oboInOwl:id>
+        <rdfs:label>ATP-grasp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0181">
+        <oboInOwl:id>pfam.clan:CL0181</oboInOwl:id>
+        <rdfs:label>ABC-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0182">
+        <oboInOwl:id>pfam.clan:CL0182</oboInOwl:id>
+        <rdfs:label>IT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0183">
+        <oboInOwl:id>pfam.clan:CL0183</oboInOwl:id>
+        <rdfs:label>PAS_Fold</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0184">
+        <oboInOwl:id>pfam.clan:CL0184</oboInOwl:id>
+        <rdfs:label>DMT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0186">
+        <oboInOwl:id>pfam.clan:CL0186</oboInOwl:id>
+        <rdfs:label>Beta_propeller</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0187">
+        <oboInOwl:id>pfam.clan:CL0187</oboInOwl:id>
+        <rdfs:label>LysM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0188">
+        <oboInOwl:id>pfam.clan:CL0188</oboInOwl:id>
+        <rdfs:label>CH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0190">
+        <oboInOwl:id>pfam.clan:CL0190</oboInOwl:id>
+        <rdfs:label>HSP20</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0191">
+        <oboInOwl:id>pfam.clan:CL0191</oboInOwl:id>
+        <rdfs:label>POTRA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0192">
+        <oboInOwl:id>pfam.clan:CL0192</oboInOwl:id>
+        <rdfs:label>GPCR_A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0193">
+        <oboInOwl:id>pfam.clan:CL0193</oboInOwl:id>
+        <rdfs:label>MBB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0194">
+        <oboInOwl:id>pfam.clan:CL0194</oboInOwl:id>
+        <rdfs:label>DNA_pol_B-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0195">
+        <oboInOwl:id>pfam.clan:CL0195</oboInOwl:id>
+        <rdfs:label>DBL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0196">
+        <oboInOwl:id>pfam.clan:CL0196</oboInOwl:id>
+        <rdfs:label>DSRM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0197">
+        <oboInOwl:id>pfam.clan:CL0197</oboInOwl:id>
+        <rdfs:label>GME</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0198">
+        <oboInOwl:id>pfam.clan:CL0198</oboInOwl:id>
+        <rdfs:label>HHH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0199">
+        <oboInOwl:id>pfam.clan:CL0199</oboInOwl:id>
+        <rdfs:label>DPBB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0200">
+        <oboInOwl:id>pfam.clan:CL0200</oboInOwl:id>
+        <rdfs:label>Prefoldin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0201">
+        <oboInOwl:id>pfam.clan:CL0201</oboInOwl:id>
+        <rdfs:label>Peptidase_SH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0202">
+        <oboInOwl:id>pfam.clan:CL0202</oboInOwl:id>
+        <rdfs:label>GBD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0203">
+        <oboInOwl:id>pfam.clan:CL0203</oboInOwl:id>
+        <rdfs:label>CBD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0204">
+        <oboInOwl:id>pfam.clan:CL0204</oboInOwl:id>
+        <rdfs:label>Adhesin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0205">
+        <oboInOwl:id>pfam.clan:CL0205</oboInOwl:id>
+        <rdfs:label>Di-copper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0207">
+        <oboInOwl:id>pfam.clan:CL0207</oboInOwl:id>
+        <rdfs:label>Rhomboid-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0208">
+        <oboInOwl:id>pfam.clan:CL0208</oboInOwl:id>
+        <rdfs:label>UBC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0209">
+        <oboInOwl:id>pfam.clan:CL0209</oboInOwl:id>
+        <rdfs:label>Bet_v_1_like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0210">
+        <oboInOwl:id>pfam.clan:CL0210</oboInOwl:id>
+        <rdfs:label>HNOX-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0212">
+        <oboInOwl:id>pfam.clan:CL0212</oboInOwl:id>
+        <rdfs:label>SNARE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0213">
+        <oboInOwl:id>pfam.clan:CL0213</oboInOwl:id>
+        <rdfs:label>ShK-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0214">
+        <oboInOwl:id>pfam.clan:CL0214</oboInOwl:id>
+        <rdfs:label>UBA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0217">
+        <oboInOwl:id>pfam.clan:CL0217</oboInOwl:id>
+        <rdfs:label>Rotavirus_VP7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0219">
+        <oboInOwl:id>pfam.clan:CL0219</oboInOwl:id>
+        <rdfs:label>RNase_H</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0220">
+        <oboInOwl:id>pfam.clan:CL0220</oboInOwl:id>
+        <rdfs:label>EF_hand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0221">
+        <oboInOwl:id>pfam.clan:CL0221</oboInOwl:id>
+        <rdfs:label>RRM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0222">
+        <oboInOwl:id>pfam.clan:CL0222</oboInOwl:id>
+        <rdfs:label>MviN_MATE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0223">
+        <oboInOwl:id>pfam.clan:CL0223</oboInOwl:id>
+        <rdfs:label>MACRO</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0224">
+        <oboInOwl:id>pfam.clan:CL0224</oboInOwl:id>
+        <rdfs:label>DHQS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0225">
+        <oboInOwl:id>pfam.clan:CL0225</oboInOwl:id>
+        <rdfs:label>FtsL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0226">
+        <oboInOwl:id>pfam.clan:CL0226</oboInOwl:id>
+        <rdfs:label>M6PR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0227">
+        <oboInOwl:id>pfam.clan:CL0227</oboInOwl:id>
+        <rdfs:label>Enolase_N</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0228">
+        <oboInOwl:id>pfam.clan:CL0228</oboInOwl:id>
+        <rdfs:label>Acyltransferase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0229">
+        <oboInOwl:id>pfam.clan:CL0229</oboInOwl:id>
+        <rdfs:label>RING</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0230">
+        <oboInOwl:id>pfam.clan:CL0230</oboInOwl:id>
+        <rdfs:label>HO</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0231">
+        <oboInOwl:id>pfam.clan:CL0231</oboInOwl:id>
+        <rdfs:label>MazG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0232">
+        <oboInOwl:id>pfam.clan:CL0232</oboInOwl:id>
+        <rdfs:label>NifU</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0233">
+        <oboInOwl:id>pfam.clan:CL0233</oboInOwl:id>
+        <rdfs:label>SufE_NifU</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0234">
+        <oboInOwl:id>pfam.clan:CL0234</oboInOwl:id>
+        <rdfs:label>CTPT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0235">
+        <oboInOwl:id>pfam.clan:CL0235</oboInOwl:id>
+        <rdfs:label>PspA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0236">
+        <oboInOwl:id>pfam.clan:CL0236</oboInOwl:id>
+        <rdfs:label>PDDEXK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0237">
+        <oboInOwl:id>pfam.clan:CL0237</oboInOwl:id>
+        <rdfs:label>HD_PDEase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0238">
+        <oboInOwl:id>pfam.clan:CL0238</oboInOwl:id>
+        <rdfs:label>PP2C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0239">
+        <oboInOwl:id>pfam.clan:CL0239</oboInOwl:id>
+        <rdfs:label>Insulin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0240">
+        <oboInOwl:id>pfam.clan:CL0240</oboInOwl:id>
+        <rdfs:label>PFK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0241">
+        <oboInOwl:id>pfam.clan:CL0241</oboInOwl:id>
+        <rdfs:label>ABC_membrane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0242">
+        <oboInOwl:id>pfam.clan:CL0242</oboInOwl:id>
+        <rdfs:label>DNA_primase_lrg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0243">
+        <oboInOwl:id>pfam.clan:CL0243</oboInOwl:id>
+        <rdfs:label>AEP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0244">
+        <oboInOwl:id>pfam.clan:CL0244</oboInOwl:id>
+        <rdfs:label>PGBD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0245">
+        <oboInOwl:id>pfam.clan:CL0245</oboInOwl:id>
+        <rdfs:label>EDD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0247">
+        <oboInOwl:id>pfam.clan:CL0247</oboInOwl:id>
+        <rdfs:label>2H</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0248">
+        <oboInOwl:id>pfam.clan:CL0248</oboInOwl:id>
+        <rdfs:label>ParBc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0249">
+        <oboInOwl:id>pfam.clan:CL0249</oboInOwl:id>
+        <rdfs:label>Phage_tail_L</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0250">
+        <oboInOwl:id>pfam.clan:CL0250</oboInOwl:id>
+        <rdfs:label>GAD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0251">
+        <oboInOwl:id>pfam.clan:CL0251</oboInOwl:id>
+        <rdfs:label>MORN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0254">
+        <oboInOwl:id>pfam.clan:CL0254</oboInOwl:id>
+        <rdfs:label>THDP-binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0255">
+        <oboInOwl:id>pfam.clan:CL0255</oboInOwl:id>
+        <rdfs:label>ATP_synthase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0257">
+        <oboInOwl:id>pfam.clan:CL0257</oboInOwl:id>
+        <rdfs:label>Acetyltrans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0258">
+        <oboInOwl:id>pfam.clan:CL0258</oboInOwl:id>
+        <rdfs:label>DALR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0259">
+        <oboInOwl:id>pfam.clan:CL0259</oboInOwl:id>
+        <rdfs:label>OstA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0260">
+        <oboInOwl:id>pfam.clan:CL0260</oboInOwl:id>
+        <rdfs:label>NTP_transf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0261">
+        <oboInOwl:id>pfam.clan:CL0261</oboInOwl:id>
+        <rdfs:label>NUDIX</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0262">
+        <oboInOwl:id>pfam.clan:CL0262</oboInOwl:id>
+        <rdfs:label>Trigger_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0263">
+        <oboInOwl:id>pfam.clan:CL0263</oboInOwl:id>
+        <rdfs:label>His-Me_finger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0264">
+        <oboInOwl:id>pfam.clan:CL0264</oboInOwl:id>
+        <rdfs:label>SGNH_hydrolase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0265">
+        <oboInOwl:id>pfam.clan:CL0265</oboInOwl:id>
+        <rdfs:label>HIT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0266">
+        <oboInOwl:id>pfam.clan:CL0266</oboInOwl:id>
+        <rdfs:label>PH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0267">
+        <oboInOwl:id>pfam.clan:CL0267</oboInOwl:id>
+        <rdfs:label>S11_L18p</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0268">
+        <oboInOwl:id>pfam.clan:CL0268</oboInOwl:id>
+        <rdfs:label>Pec_lyase-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0269">
+        <oboInOwl:id>pfam.clan:CL0269</oboInOwl:id>
+        <rdfs:label>Maf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0270">
+        <oboInOwl:id>pfam.clan:CL0270</oboInOwl:id>
+        <rdfs:label>Iso_DH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0271">
+        <oboInOwl:id>pfam.clan:CL0271</oboInOwl:id>
+        <rdfs:label>F-box</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0272">
+        <oboInOwl:id>pfam.clan:CL0272</oboInOwl:id>
+        <rdfs:label>RGS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0273">
+        <oboInOwl:id>pfam.clan:CL0273</oboInOwl:id>
+        <rdfs:label>CYTH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0274">
+        <oboInOwl:id>pfam.clan:CL0274</oboInOwl:id>
+        <rdfs:label>WRKY-GCM1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0276">
+        <oboInOwl:id>pfam.clan:CL0276</oboInOwl:id>
+        <rdfs:label>Nucleot_cyclase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0277">
+        <oboInOwl:id>pfam.clan:CL0277</oboInOwl:id>
+        <rdfs:label>FAD-oxidase_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0278">
+        <oboInOwl:id>pfam.clan:CL0278</oboInOwl:id>
+        <rdfs:label>AIG2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0279">
+        <oboInOwl:id>pfam.clan:CL0279</oboInOwl:id>
+        <rdfs:label>GatB_YqeY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0280">
+        <oboInOwl:id>pfam.clan:CL0280</oboInOwl:id>
+        <rdfs:label>PIN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0281">
+        <oboInOwl:id>pfam.clan:CL0281</oboInOwl:id>
+        <rdfs:label>CCT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0282">
+        <oboInOwl:id>pfam.clan:CL0282</oboInOwl:id>
+        <rdfs:label>Serum_albumin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0283">
+        <oboInOwl:id>pfam.clan:CL0283</oboInOwl:id>
+        <rdfs:label>LigB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0284">
+        <oboInOwl:id>pfam.clan:CL0284</oboInOwl:id>
+        <rdfs:label>Allatostatin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0285">
+        <oboInOwl:id>pfam.clan:CL0285</oboInOwl:id>
+        <rdfs:label>YycI_YycH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0286">
+        <oboInOwl:id>pfam.clan:CL0286</oboInOwl:id>
+        <rdfs:label>GCS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0287">
+        <oboInOwl:id>pfam.clan:CL0287</oboInOwl:id>
+        <rdfs:label>Transthyretin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0288">
+        <oboInOwl:id>pfam.clan:CL0288</oboInOwl:id>
+        <rdfs:label>DAP_epimerase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0289">
+        <oboInOwl:id>pfam.clan:CL0289</oboInOwl:id>
+        <rdfs:label>FBD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0290">
+        <oboInOwl:id>pfam.clan:CL0290</oboInOwl:id>
+        <rdfs:label>EPT_RTPC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0291">
+        <oboInOwl:id>pfam.clan:CL0291</oboInOwl:id>
+        <rdfs:label>KNTase_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0292">
+        <oboInOwl:id>pfam.clan:CL0292</oboInOwl:id>
+        <rdfs:label>LysE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0293 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0293">
+        <oboInOwl:id>pfam.clan:CL0293</oboInOwl:id>
+        <rdfs:label>CDC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0296">
+        <oboInOwl:id>pfam.clan:CL0296</oboInOwl:id>
+        <rdfs:label>GroES</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0297">
+        <oboInOwl:id>pfam.clan:CL0297</oboInOwl:id>
+        <rdfs:label>PhoU</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0298">
+        <oboInOwl:id>pfam.clan:CL0298</oboInOwl:id>
+        <rdfs:label>tRNA_bind_arm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0299">
+        <oboInOwl:id>pfam.clan:CL0299</oboInOwl:id>
+        <rdfs:label>Peptidase_SF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0300">
+        <oboInOwl:id>pfam.clan:CL0300</oboInOwl:id>
+        <rdfs:label>TAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0301">
+        <oboInOwl:id>pfam.clan:CL0301</oboInOwl:id>
+        <rdfs:label>PA14</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0302">
+        <oboInOwl:id>pfam.clan:CL0302</oboInOwl:id>
+        <rdfs:label>Arginase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0303">
+        <oboInOwl:id>pfam.clan:CL0303</oboInOwl:id>
+        <rdfs:label>H2TH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0304">
+        <oboInOwl:id>pfam.clan:CL0304</oboInOwl:id>
+        <rdfs:label>CheY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0305">
+        <oboInOwl:id>pfam.clan:CL0305</oboInOwl:id>
+        <rdfs:label>PTH2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0306">
+        <oboInOwl:id>pfam.clan:CL0306</oboInOwl:id>
+        <rdfs:label>HeH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0307">
+        <oboInOwl:id>pfam.clan:CL0307</oboInOwl:id>
+        <rdfs:label>FUSC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0308">
+        <oboInOwl:id>pfam.clan:CL0308</oboInOwl:id>
+        <rdfs:label>DMSO_reductase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0310">
+        <oboInOwl:id>pfam.clan:CL0310</oboInOwl:id>
+        <rdfs:label>DinB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0311">
+        <oboInOwl:id>pfam.clan:CL0311</oboInOwl:id>
+        <rdfs:label>SCP2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0312">
+        <oboInOwl:id>pfam.clan:CL0312</oboInOwl:id>
+        <rdfs:label>HemS_ChuX</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0314">
+        <oboInOwl:id>pfam.clan:CL0314</oboInOwl:id>
+        <rdfs:label>PP-binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0315">
+        <oboInOwl:id>pfam.clan:CL0315</oboInOwl:id>
+        <rdfs:label>Gx_transp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0316">
+        <oboInOwl:id>pfam.clan:CL0316</oboInOwl:id>
+        <rdfs:label>Acyl_transf_3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0317">
+        <oboInOwl:id>pfam.clan:CL0317</oboInOwl:id>
+        <rdfs:label>Multiheme_cytos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0318">
+        <oboInOwl:id>pfam.clan:CL0318</oboInOwl:id>
+        <rdfs:label>Cytochrome-c</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0319">
+        <oboInOwl:id>pfam.clan:CL0319</oboInOwl:id>
+        <rdfs:label>SHS2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0320">
+        <oboInOwl:id>pfam.clan:CL0320</oboInOwl:id>
+        <rdfs:label>PepSY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0321">
+        <oboInOwl:id>pfam.clan:CL0321</oboInOwl:id>
+        <rdfs:label>PLAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0322">
+        <oboInOwl:id>pfam.clan:CL0322</oboInOwl:id>
+        <rdfs:label>RND_permease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0323">
+        <oboInOwl:id>pfam.clan:CL0323</oboInOwl:id>
+        <rdfs:label>Patatin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0324">
+        <oboInOwl:id>pfam.clan:CL0324</oboInOwl:id>
+        <rdfs:label>Homing_endonuc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0326">
+        <oboInOwl:id>pfam.clan:CL0326</oboInOwl:id>
+        <rdfs:label>Reo_sigma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0327">
+        <oboInOwl:id>pfam.clan:CL0327</oboInOwl:id>
+        <rdfs:label>Pilus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0328">
+        <oboInOwl:id>pfam.clan:CL0328</oboInOwl:id>
+        <rdfs:label>2heme_cytochrom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0329">
+        <oboInOwl:id>pfam.clan:CL0329</oboInOwl:id>
+        <rdfs:label>S5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0330">
+        <oboInOwl:id>pfam.clan:CL0330</oboInOwl:id>
+        <rdfs:label>AVL9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0331">
+        <oboInOwl:id>pfam.clan:CL0331</oboInOwl:id>
+        <rdfs:label>EpsM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0333">
+        <oboInOwl:id>pfam.clan:CL0333</oboInOwl:id>
+        <rdfs:label>gCrystallin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0334">
+        <oboInOwl:id>pfam.clan:CL0334</oboInOwl:id>
+        <rdfs:label>THBO-biosyn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0335">
+        <oboInOwl:id>pfam.clan:CL0335</oboInOwl:id>
+        <rdfs:label>FumRed-TM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0336">
+        <oboInOwl:id>pfam.clan:CL0336</oboInOwl:id>
+        <rdfs:label>FMN-binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0337">
+        <oboInOwl:id>pfam.clan:CL0337</oboInOwl:id>
+        <rdfs:label>RF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0339">
+        <oboInOwl:id>pfam.clan:CL0339</oboInOwl:id>
+        <rdfs:label>PFL-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0340">
+        <oboInOwl:id>pfam.clan:CL0340</oboInOwl:id>
+        <rdfs:label>PTase-anion_tr</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0341">
+        <oboInOwl:id>pfam.clan:CL0341</oboInOwl:id>
+        <rdfs:label>LDH_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0342 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0342">
+        <oboInOwl:id>pfam.clan:CL0342</oboInOwl:id>
+        <rdfs:label>TolB_N</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0343">
+        <oboInOwl:id>pfam.clan:CL0343</oboInOwl:id>
+        <rdfs:label>MHC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0344 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0344">
+        <oboInOwl:id>pfam.clan:CL0344</oboInOwl:id>
+        <rdfs:label>4Fe-4S</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0345 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0345">
+        <oboInOwl:id>pfam.clan:CL0345</oboInOwl:id>
+        <rdfs:label>Aerolisin_ETX</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0346">
+        <oboInOwl:id>pfam.clan:CL0346</oboInOwl:id>
+        <rdfs:label>Ribo_L29</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0347">
+        <oboInOwl:id>pfam.clan:CL0347</oboInOwl:id>
+        <rdfs:label>Tetraspannin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0348">
+        <oboInOwl:id>pfam.clan:CL0348</oboInOwl:id>
+        <rdfs:label>Phage_tail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0349">
+        <oboInOwl:id>pfam.clan:CL0349</oboInOwl:id>
+        <rdfs:label>SLOG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0350">
+        <oboInOwl:id>pfam.clan:CL0350</oboInOwl:id>
+        <rdfs:label>PRC-barrel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0351">
+        <oboInOwl:id>pfam.clan:CL0351</oboInOwl:id>
+        <rdfs:label>CHCH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0352">
+        <oboInOwl:id>pfam.clan:CL0352</oboInOwl:id>
+        <rdfs:label>EsxAB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0353">
+        <oboInOwl:id>pfam.clan:CL0353</oboInOwl:id>
+        <rdfs:label>TIMP-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0354">
+        <oboInOwl:id>pfam.clan:CL0354</oboInOwl:id>
+        <rdfs:label>bBprotInhib</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0355">
+        <oboInOwl:id>pfam.clan:CL0355</oboInOwl:id>
+        <rdfs:label>CheC-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0356">
+        <oboInOwl:id>pfam.clan:CL0356</oboInOwl:id>
+        <rdfs:label>AMP_N-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0357">
+        <oboInOwl:id>pfam.clan:CL0357</oboInOwl:id>
+        <rdfs:label>SMAD-FHA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0359">
+        <oboInOwl:id>pfam.clan:CL0359</oboInOwl:id>
+        <rdfs:label>Intron-mat_II</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0360">
+        <oboInOwl:id>pfam.clan:CL0360</oboInOwl:id>
+        <rdfs:label>MTH1187-YkoF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0361">
+        <oboInOwl:id>pfam.clan:CL0361</oboInOwl:id>
+        <rdfs:label>C2H2-zf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0362">
+        <oboInOwl:id>pfam.clan:CL0362</oboInOwl:id>
+        <rdfs:label>RAMPS-Cas5-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0363">
+        <oboInOwl:id>pfam.clan:CL0363</oboInOwl:id>
+        <rdfs:label>H-int</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0364">
+        <oboInOwl:id>pfam.clan:CL0364</oboInOwl:id>
+        <rdfs:label>Leu-IlvD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0365">
+        <oboInOwl:id>pfam.clan:CL0365</oboInOwl:id>
+        <rdfs:label>MurF-HprK_N</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0366">
+        <oboInOwl:id>pfam.clan:CL0366</oboInOwl:id>
+        <rdfs:label>JAB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0367">
+        <oboInOwl:id>pfam.clan:CL0367</oboInOwl:id>
+        <rdfs:label>CI-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0368">
+        <oboInOwl:id>pfam.clan:CL0368</oboInOwl:id>
+        <rdfs:label>PhosC-NucP1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0369">
+        <oboInOwl:id>pfam.clan:CL0369</oboInOwl:id>
+        <rdfs:label>GHD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0370">
+        <oboInOwl:id>pfam.clan:CL0370</oboInOwl:id>
+        <rdfs:label>Uteroglobin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0371">
+        <oboInOwl:id>pfam.clan:CL0371</oboInOwl:id>
+        <rdfs:label>Inovirus-Coat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0373">
+        <oboInOwl:id>pfam.clan:CL0373</oboInOwl:id>
+        <rdfs:label>Phage-coat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0374">
+        <oboInOwl:id>pfam.clan:CL0374</oboInOwl:id>
+        <rdfs:label>PEP-carboxyk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0375">
+        <oboInOwl:id>pfam.clan:CL0375</oboInOwl:id>
+        <rdfs:label>Transporter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0376">
+        <oboInOwl:id>pfam.clan:CL0376</oboInOwl:id>
+        <rdfs:label>Oxa1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0377">
+        <oboInOwl:id>pfam.clan:CL0377</oboInOwl:id>
+        <rdfs:label>FAH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0378">
+        <oboInOwl:id>pfam.clan:CL0378</oboInOwl:id>
+        <rdfs:label>ANL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0379">
+        <oboInOwl:id>pfam.clan:CL0379</oboInOwl:id>
+        <rdfs:label>PgaPase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0380">
+        <oboInOwl:id>pfam.clan:CL0380</oboInOwl:id>
+        <rdfs:label>IDO-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0381">
+        <oboInOwl:id>pfam.clan:CL0381</oboInOwl:id>
+        <rdfs:label>Metallo-HOrase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0382">
+        <oboInOwl:id>pfam.clan:CL0382</oboInOwl:id>
+        <rdfs:label>DNA-mend</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0383">
+        <oboInOwl:id>pfam.clan:CL0383</oboInOwl:id>
+        <rdfs:label>PheT-TilS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0385">
+        <oboInOwl:id>pfam.clan:CL0385</oboInOwl:id>
+        <rdfs:label>Hydrophilin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0387 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0387">
+        <oboInOwl:id>pfam.clan:CL0387</oboInOwl:id>
+        <rdfs:label>DHFred</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0388">
+        <oboInOwl:id>pfam.clan:CL0388</oboInOwl:id>
+        <rdfs:label>FadR-C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0389">
+        <oboInOwl:id>pfam.clan:CL0389</oboInOwl:id>
+        <rdfs:label>TRAF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0391 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0391">
+        <oboInOwl:id>pfam.clan:CL0391</oboInOwl:id>
+        <rdfs:label>CAP_C-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0392 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0392">
+        <oboInOwl:id>pfam.clan:CL0392</oboInOwl:id>
+        <rdfs:label>Chaperone-J</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0394">
+        <oboInOwl:id>pfam.clan:CL0394</oboInOwl:id>
+        <rdfs:label>DsrEFH-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0395">
+        <oboInOwl:id>pfam.clan:CL0395</oboInOwl:id>
+        <rdfs:label>Tubby_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0396">
+        <oboInOwl:id>pfam.clan:CL0396</oboInOwl:id>
+        <rdfs:label>Marvel-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0397">
+        <oboInOwl:id>pfam.clan:CL0397</oboInOwl:id>
+        <rdfs:label>TusA-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0398 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0398">
+        <oboInOwl:id>pfam.clan:CL0398</oboInOwl:id>
+        <rdfs:label>RMMBL_DRMBL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0399">
+        <oboInOwl:id>pfam.clan:CL0399</oboInOwl:id>
+        <rdfs:label>Asp-glut_race</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0400">
+        <oboInOwl:id>pfam.clan:CL0400</oboInOwl:id>
+        <rdfs:label>GG-leader</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0401">
+        <oboInOwl:id>pfam.clan:CL0401</oboInOwl:id>
+        <rdfs:label>AsmA-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0402 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0402">
+        <oboInOwl:id>pfam.clan:CL0402</oboInOwl:id>
+        <rdfs:label>Cdc48_2-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0403">
+        <oboInOwl:id>pfam.clan:CL0403</oboInOwl:id>
+        <rdfs:label>ADC-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0404">
+        <oboInOwl:id>pfam.clan:CL0404</oboInOwl:id>
+        <rdfs:label>BPD_transp_1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0405">
+        <oboInOwl:id>pfam.clan:CL0405</oboInOwl:id>
+        <rdfs:label>DNA_b-psBarrel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0406">
+        <oboInOwl:id>pfam.clan:CL0406</oboInOwl:id>
+        <rdfs:label>YjbJ-CsbD-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0407">
+        <oboInOwl:id>pfam.clan:CL0407</oboInOwl:id>
+        <rdfs:label>TBP-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0408">
+        <oboInOwl:id>pfam.clan:CL0408</oboInOwl:id>
+        <rdfs:label>PUP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0409">
+        <oboInOwl:id>pfam.clan:CL0409</oboInOwl:id>
+        <rdfs:label>GAP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0410">
+        <oboInOwl:id>pfam.clan:CL0410</oboInOwl:id>
+        <rdfs:label>LEF-8-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0411">
+        <oboInOwl:id>pfam.clan:CL0411</oboInOwl:id>
+        <rdfs:label>Vir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0412">
+        <oboInOwl:id>pfam.clan:CL0412</oboInOwl:id>
+        <rdfs:label>Frag1-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0413">
+        <oboInOwl:id>pfam.clan:CL0413</oboInOwl:id>
+        <rdfs:label>Toprim-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0414">
+        <oboInOwl:id>pfam.clan:CL0414</oboInOwl:id>
+        <rdfs:label>TerB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0416">
+        <oboInOwl:id>pfam.clan:CL0416</oboInOwl:id>
+        <rdfs:label>Anoctamin-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0417">
+        <oboInOwl:id>pfam.clan:CL0417</oboInOwl:id>
+        <rdfs:label>BIR-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0418">
+        <oboInOwl:id>pfam.clan:CL0418</oboInOwl:id>
+        <rdfs:label>GIY-YIG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0419">
+        <oboInOwl:id>pfam.clan:CL0419</oboInOwl:id>
+        <rdfs:label>T3SS-Chaperone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0420 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0420">
+        <oboInOwl:id>pfam.clan:CL0420</oboInOwl:id>
+        <rdfs:label>GlpM-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0421">
+        <oboInOwl:id>pfam.clan:CL0421</oboInOwl:id>
+        <rdfs:label>LppaM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0422">
+        <oboInOwl:id>pfam.clan:CL0422</oboInOwl:id>
+        <rdfs:label>Fibrinogen_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0423 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0423">
+        <oboInOwl:id>pfam.clan:CL0423</oboInOwl:id>
+        <rdfs:label>AhpD-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0424 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0424">
+        <oboInOwl:id>pfam.clan:CL0424</oboInOwl:id>
+        <rdfs:label>T3SS-hook</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0425">
+        <oboInOwl:id>pfam.clan:CL0425</oboInOwl:id>
+        <rdfs:label>ComplexI-N</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0426">
+        <oboInOwl:id>pfam.clan:CL0426</oboInOwl:id>
+        <rdfs:label>HRDC-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0428">
+        <oboInOwl:id>pfam.clan:CL0428</oboInOwl:id>
+        <rdfs:label>TolA-TonB-Cterm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0429 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0429">
+        <oboInOwl:id>pfam.clan:CL0429</oboInOwl:id>
+        <rdfs:label>UcrQ-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0430 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0430">
+        <oboInOwl:id>pfam.clan:CL0430</oboInOwl:id>
+        <rdfs:label>CopD_like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0431">
+        <oboInOwl:id>pfam.clan:CL0431</oboInOwl:id>
+        <rdfs:label>PF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0433 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0433">
+        <oboInOwl:id>pfam.clan:CL0433</oboInOwl:id>
+        <rdfs:label>SPFH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0435">
+        <oboInOwl:id>pfam.clan:CL0435</oboInOwl:id>
+        <rdfs:label>NPR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0436">
+        <oboInOwl:id>pfam.clan:CL0436</oboInOwl:id>
+        <rdfs:label>FliG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0437 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0437">
+        <oboInOwl:id>pfam.clan:CL0437</oboInOwl:id>
+        <rdfs:label>EF-G_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0439">
+        <oboInOwl:id>pfam.clan:CL0439</oboInOwl:id>
+        <rdfs:label>NusG-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0441 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0441">
+        <oboInOwl:id>pfam.clan:CL0441</oboInOwl:id>
+        <rdfs:label>AlbA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0442 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0442">
+        <oboInOwl:id>pfam.clan:CL0442</oboInOwl:id>
+        <rdfs:label>Tubulin_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0445 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0445">
+        <oboInOwl:id>pfam.clan:CL0445</oboInOwl:id>
+        <rdfs:label>SNARE-fusion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0446">
+        <oboInOwl:id>pfam.clan:CL0446</oboInOwl:id>
+        <rdfs:label>Bacteriocin_TLN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0447 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0447">
+        <oboInOwl:id>pfam.clan:CL0447</oboInOwl:id>
+        <rdfs:label>Hypoth_1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0448">
+        <oboInOwl:id>pfam.clan:CL0448</oboInOwl:id>
+        <rdfs:label>Cargo_bd_muHD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0449 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0449">
+        <oboInOwl:id>pfam.clan:CL0449</oboInOwl:id>
+        <rdfs:label>G-PATCH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0451 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0451">
+        <oboInOwl:id>pfam.clan:CL0451</oboInOwl:id>
+        <rdfs:label>FnI-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0452 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0452">
+        <oboInOwl:id>pfam.clan:CL0452</oboInOwl:id>
+        <rdfs:label>Tropomyosin-lke</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0453 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0453">
+        <oboInOwl:id>pfam.clan:CL0453</oboInOwl:id>
+        <rdfs:label>Apoptosis-Inhib</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0456">
+        <oboInOwl:id>pfam.clan:CL0456</oboInOwl:id>
+        <rdfs:label>Golgi_traff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0457">
+        <oboInOwl:id>pfam.clan:CL0457</oboInOwl:id>
+        <rdfs:label>4HB_MCP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0458">
+        <oboInOwl:id>pfam.clan:CL0458</oboInOwl:id>
+        <rdfs:label>IIaaRS-ABD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0459 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0459">
+        <oboInOwl:id>pfam.clan:CL0459</oboInOwl:id>
+        <rdfs:label>BRCT-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0461 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0461">
+        <oboInOwl:id>pfam.clan:CL0461</oboInOwl:id>
+        <rdfs:label>Metallothionein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0462">
+        <oboInOwl:id>pfam.clan:CL0462</oboInOwl:id>
+        <rdfs:label>TPA-repeat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0464">
+        <oboInOwl:id>pfam.clan:CL0464</oboInOwl:id>
+        <rdfs:label>5_3_exonuc_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0465">
+        <oboInOwl:id>pfam.clan:CL0465</oboInOwl:id>
+        <rdfs:label>Ank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0466 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0466">
+        <oboInOwl:id>pfam.clan:CL0466</oboInOwl:id>
+        <rdfs:label>PDZ-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0469 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0469">
+        <oboInOwl:id>pfam.clan:CL0469</oboInOwl:id>
+        <rdfs:label>l-integrase_N</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0470">
+        <oboInOwl:id>pfam.clan:CL0470</oboInOwl:id>
+        <rdfs:label>ThrE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0471">
+        <oboInOwl:id>pfam.clan:CL0471</oboInOwl:id>
+        <rdfs:label>DUF362</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0472 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0472">
+        <oboInOwl:id>pfam.clan:CL0472</oboInOwl:id>
+        <rdfs:label>Peptidase_U</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0474 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0474">
+        <oboInOwl:id>pfam.clan:CL0474</oboInOwl:id>
+        <rdfs:label>SICA_like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0475 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0475">
+        <oboInOwl:id>pfam.clan:CL0475</oboInOwl:id>
+        <rdfs:label>Cyclophil-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0476 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0476">
+        <oboInOwl:id>pfam.clan:CL0476</oboInOwl:id>
+        <rdfs:label>tRNA-IECD_N</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0477 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0477">
+        <oboInOwl:id>pfam.clan:CL0477</oboInOwl:id>
+        <rdfs:label>TRD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0478 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0478">
+        <oboInOwl:id>pfam.clan:CL0478</oboInOwl:id>
+        <rdfs:label>ATPase_I_AtpR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0479 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0479">
+        <oboInOwl:id>pfam.clan:CL0479</oboInOwl:id>
+        <rdfs:label>PLD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0481 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0481">
+        <oboInOwl:id>pfam.clan:CL0481</oboInOwl:id>
+        <rdfs:label>HUH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0482">
+        <oboInOwl:id>pfam.clan:CL0482</oboInOwl:id>
+        <rdfs:label>Prolamin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0484 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0484">
+        <oboInOwl:id>pfam.clan:CL0484</oboInOwl:id>
+        <rdfs:label>Peroxisome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0486 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0486">
+        <oboInOwl:id>pfam.clan:CL0486</oboInOwl:id>
+        <rdfs:label>Fer2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0487">
+        <oboInOwl:id>pfam.clan:CL0487</oboInOwl:id>
+        <rdfs:label>FKBP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0488">
+        <oboInOwl:id>pfam.clan:CL0488</oboInOwl:id>
+        <rdfs:label>FixH-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0489 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0489">
+        <oboInOwl:id>pfam.clan:CL0489</oboInOwl:id>
+        <rdfs:label>SAF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0490 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0490">
+        <oboInOwl:id>pfam.clan:CL0490</oboInOwl:id>
+        <rdfs:label>PepSY_TM-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0491">
+        <oboInOwl:id>pfam.clan:CL0491</oboInOwl:id>
+        <rdfs:label>LYR-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0492 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0492">
+        <oboInOwl:id>pfam.clan:CL0492</oboInOwl:id>
+        <rdfs:label>S4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0493 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0493">
+        <oboInOwl:id>pfam.clan:CL0493</oboInOwl:id>
+        <rdfs:label>PTS_EIIC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0494 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0494">
+        <oboInOwl:id>pfam.clan:CL0494</oboInOwl:id>
+        <rdfs:label>DnaA_N</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0496">
+        <oboInOwl:id>pfam.clan:CL0496</oboInOwl:id>
+        <rdfs:label>Tad-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0497 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0497">
+        <oboInOwl:id>pfam.clan:CL0497</oboInOwl:id>
+        <rdfs:label>GST_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0498 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0498">
+        <oboInOwl:id>pfam.clan:CL0498</oboInOwl:id>
+        <rdfs:label>Nribosyltransf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0499 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0499">
+        <oboInOwl:id>pfam.clan:CL0499</oboInOwl:id>
+        <rdfs:label>O-anti_assembly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0500 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0500">
+        <oboInOwl:id>pfam.clan:CL0500</oboInOwl:id>
+        <rdfs:label>Glycine-zipper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0502">
+        <oboInOwl:id>pfam.clan:CL0502</oboInOwl:id>
+        <rdfs:label>STAS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0504 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0504">
+        <oboInOwl:id>pfam.clan:CL0504</oboInOwl:id>
+        <rdfs:label>Phage_barrel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0505 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0505">
+        <oboInOwl:id>pfam.clan:CL0505</oboInOwl:id>
+        <rdfs:label>Pentapeptide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0506 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0506">
+        <oboInOwl:id>pfam.clan:CL0506</oboInOwl:id>
+        <rdfs:label>Succ_CoA_synth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0507">
+        <oboInOwl:id>pfam.clan:CL0507</oboInOwl:id>
+        <rdfs:label>Fungal_trans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0508 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0508">
+        <oboInOwl:id>pfam.clan:CL0508</oboInOwl:id>
+        <rdfs:label>YkuD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0509 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0509">
+        <oboInOwl:id>pfam.clan:CL0509</oboInOwl:id>
+        <rdfs:label>RBP11-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0511 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0511">
+        <oboInOwl:id>pfam.clan:CL0511</oboInOwl:id>
+        <rdfs:label>Retroviral_zf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0512 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0512">
+        <oboInOwl:id>pfam.clan:CL0512</oboInOwl:id>
+        <rdfs:label>CRAL_TRIO</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0513 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0513">
+        <oboInOwl:id>pfam.clan:CL0513</oboInOwl:id>
+        <rdfs:label>LCCL-domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0515 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0515">
+        <oboInOwl:id>pfam.clan:CL0515</oboInOwl:id>
+        <rdfs:label>LTXXQ-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0516 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0516">
+        <oboInOwl:id>pfam.clan:CL0516</oboInOwl:id>
+        <rdfs:label>ISP-domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0517 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0517">
+        <oboInOwl:id>pfam.clan:CL0517</oboInOwl:id>
+        <rdfs:label>MBOAT-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0520 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0520">
+        <oboInOwl:id>pfam.clan:CL0520</oboInOwl:id>
+        <rdfs:label>Keratin_assoc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0521 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0521">
+        <oboInOwl:id>pfam.clan:CL0521</oboInOwl:id>
+        <rdfs:label>GOLD-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0522 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0522">
+        <oboInOwl:id>pfam.clan:CL0522</oboInOwl:id>
+        <rdfs:label>YbjQ-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0523">
+        <oboInOwl:id>pfam.clan:CL0523</oboInOwl:id>
+        <rdfs:label>GAG-polyprotein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0524 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0524">
+        <oboInOwl:id>pfam.clan:CL0524</oboInOwl:id>
+        <rdfs:label>MPT63-MPB63</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0525 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0525">
+        <oboInOwl:id>pfam.clan:CL0525</oboInOwl:id>
+        <rdfs:label>pap2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0526 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0526">
+        <oboInOwl:id>pfam.clan:CL0526</oboInOwl:id>
+        <rdfs:label>SUKH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0528 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0528">
+        <oboInOwl:id>pfam.clan:CL0528</oboInOwl:id>
+        <rdfs:label>DUF1214</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0529 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0529">
+        <oboInOwl:id>pfam.clan:CL0529</oboInOwl:id>
+        <rdfs:label>FMN-dep-NRtase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0530 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0530">
+        <oboInOwl:id>pfam.clan:CL0530</oboInOwl:id>
+        <rdfs:label>DNase_I-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0531 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0531">
+        <oboInOwl:id>pfam.clan:CL0531</oboInOwl:id>
+        <rdfs:label>AMP-binding_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0532">
+        <oboInOwl:id>pfam.clan:CL0532</oboInOwl:id>
+        <rdfs:label>LIG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0533 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0533">
+        <oboInOwl:id>pfam.clan:CL0533</oboInOwl:id>
+        <rdfs:label>PRTase-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0534 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0534">
+        <oboInOwl:id>pfam.clan:CL0534</oboInOwl:id>
+        <rdfs:label>YjgF-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0535 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0535">
+        <oboInOwl:id>pfam.clan:CL0535</oboInOwl:id>
+        <rdfs:label>CBM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0536 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0536">
+        <oboInOwl:id>pfam.clan:CL0536</oboInOwl:id>
+        <rdfs:label>HEXAPEP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0537 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0537">
+        <oboInOwl:id>pfam.clan:CL0537</oboInOwl:id>
+        <rdfs:label>CCCH_zf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0539 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0539">
+        <oboInOwl:id>pfam.clan:CL0539</oboInOwl:id>
+        <rdfs:label>RNase_III</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0540">
+        <oboInOwl:id>pfam.clan:CL0540</oboInOwl:id>
+        <rdfs:label>GCP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0541 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0541">
+        <oboInOwl:id>pfam.clan:CL0541</oboInOwl:id>
+        <rdfs:label>SH2-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0542">
+        <oboInOwl:id>pfam.clan:CL0542</oboInOwl:id>
+        <rdfs:label>RAS_GEF_N</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0543">
+        <oboInOwl:id>pfam.clan:CL0543</oboInOwl:id>
+        <rdfs:label>Viral_gly_cn_dm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0544 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0544">
+        <oboInOwl:id>pfam.clan:CL0544</oboInOwl:id>
+        <rdfs:label>AcylCoA_ox_dh_N</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0545 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0545">
+        <oboInOwl:id>pfam.clan:CL0545</oboInOwl:id>
+        <rdfs:label>APCOP-app_sub</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0546">
+        <oboInOwl:id>pfam.clan:CL0546</oboInOwl:id>
+        <rdfs:label>Hexosaminidase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0547">
+        <oboInOwl:id>pfam.clan:CL0547</oboInOwl:id>
+        <rdfs:label>GF_recep_C-rich</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0548">
+        <oboInOwl:id>pfam.clan:CL0548</oboInOwl:id>
+        <rdfs:label>IHF-likeDNA-bdg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0550">
+        <oboInOwl:id>pfam.clan:CL0550</oboInOwl:id>
+        <rdfs:label>SRCR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0551">
+        <oboInOwl:id>pfam.clan:CL0551</oboInOwl:id>
+        <rdfs:label>BCLiA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0552 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0552">
+        <oboInOwl:id>pfam.clan:CL0552</oboInOwl:id>
+        <rdfs:label>Hect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0559 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0559">
+        <oboInOwl:id>pfam.clan:CL0559</oboInOwl:id>
+        <rdfs:label>CBD9-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0560">
+        <oboInOwl:id>pfam.clan:CL0560</oboInOwl:id>
+        <rdfs:label>Chalcone-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0561">
+        <oboInOwl:id>pfam.clan:CL0561</oboInOwl:id>
+        <rdfs:label>LisH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0562 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0562">
+        <oboInOwl:id>pfam.clan:CL0562</oboInOwl:id>
+        <rdfs:label>Holin-V</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0563 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0563">
+        <oboInOwl:id>pfam.clan:CL0563</oboInOwl:id>
+        <rdfs:label>Holin-II</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0564 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0564">
+        <oboInOwl:id>pfam.clan:CL0564</oboInOwl:id>
+        <rdfs:label>Holin-III</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0567">
+        <oboInOwl:id>pfam.clan:CL0567</oboInOwl:id>
+        <rdfs:label>Phage_TACs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0568 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0568">
+        <oboInOwl:id>pfam.clan:CL0568</oboInOwl:id>
+        <rdfs:label>Man_lectin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0570">
+        <oboInOwl:id>pfam.clan:CL0570</oboInOwl:id>
+        <rdfs:label>PPP-I</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0571">
+        <oboInOwl:id>pfam.clan:CL0571</oboInOwl:id>
+        <rdfs:label>30K_movement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0572">
+        <oboInOwl:id>pfam.clan:CL0572</oboInOwl:id>
+        <rdfs:label>TIKI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0573 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0573">
+        <oboInOwl:id>pfam.clan:CL0573</oboInOwl:id>
+        <rdfs:label>KA1-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0576">
+        <oboInOwl:id>pfam.clan:CL0576</oboInOwl:id>
+        <rdfs:label>STARBD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0577">
+        <oboInOwl:id>pfam.clan:CL0577</oboInOwl:id>
+        <rdfs:label>Paramyxovirin_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0578 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0578">
+        <oboInOwl:id>pfam.clan:CL0578</oboInOwl:id>
+        <rdfs:label>AbiEI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0580">
+        <oboInOwl:id>pfam.clan:CL0580</oboInOwl:id>
+        <rdfs:label>YqgF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0582 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0582">
+        <oboInOwl:id>pfam.clan:CL0582</oboInOwl:id>
+        <rdfs:label>TrkA_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0584 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0584">
+        <oboInOwl:id>pfam.clan:CL0584</oboInOwl:id>
+        <rdfs:label>FF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0586">
+        <oboInOwl:id>pfam.clan:CL0586</oboInOwl:id>
+        <rdfs:label>CTC1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0587">
+        <oboInOwl:id>pfam.clan:CL0587</oboInOwl:id>
+        <rdfs:label>STAND_N</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0588 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0588">
+        <oboInOwl:id>pfam.clan:CL0588</oboInOwl:id>
+        <rdfs:label>Ribos_L15p_L18e</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0589 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0589">
+        <oboInOwl:id>pfam.clan:CL0589</oboInOwl:id>
+        <rdfs:label>KIX_like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0590">
+        <oboInOwl:id>pfam.clan:CL0590</oboInOwl:id>
+        <rdfs:label>OML_zippers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0591">
+        <oboInOwl:id>pfam.clan:CL0591</oboInOwl:id>
+        <rdfs:label>TKC_like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0592">
+        <oboInOwl:id>pfam.clan:CL0592</oboInOwl:id>
+        <rdfs:label>beta_Roll</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0593 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0593">
+        <oboInOwl:id>pfam.clan:CL0593</oboInOwl:id>
+        <rdfs:label>G5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0595 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0595">
+        <oboInOwl:id>pfam.clan:CL0595</oboInOwl:id>
+        <rdfs:label>Fusion_gly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0596">
+        <oboInOwl:id>pfam.clan:CL0596</oboInOwl:id>
+        <rdfs:label>VPS23_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0597">
+        <oboInOwl:id>pfam.clan:CL0597</oboInOwl:id>
+        <rdfs:label>Post-HMGL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0598">
+        <oboInOwl:id>pfam.clan:CL0598</oboInOwl:id>
+        <rdfs:label>B_GA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0599">
+        <oboInOwl:id>pfam.clan:CL0599</oboInOwl:id>
+        <rdfs:label>GH57_38_middle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0600">
+        <oboInOwl:id>pfam.clan:CL0600</oboInOwl:id>
+        <rdfs:label>S15_NS1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0601 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0601">
+        <oboInOwl:id>pfam.clan:CL0601</oboInOwl:id>
+        <rdfs:label>Cob_adeno_trans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0602 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0602">
+        <oboInOwl:id>pfam.clan:CL0602</oboInOwl:id>
+        <rdfs:label>Kringle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0603 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0603">
+        <oboInOwl:id>pfam.clan:CL0603</oboInOwl:id>
+        <rdfs:label>AA_dh_N</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0604">
+        <oboInOwl:id>pfam.clan:CL0604</oboInOwl:id>
+        <rdfs:label>post-AAA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0605 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0605">
+        <oboInOwl:id>pfam.clan:CL0605</oboInOwl:id>
+        <rdfs:label>ssDNA_NP_VP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0606">
+        <oboInOwl:id>pfam.clan:CL0606</oboInOwl:id>
+        <rdfs:label>Phage_fibre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0607">
+        <oboInOwl:id>pfam.clan:CL0607</oboInOwl:id>
+        <rdfs:label>TNF_receptor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0608 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0608">
+        <oboInOwl:id>pfam.clan:CL0608</oboInOwl:id>
+        <rdfs:label>Reductase_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0609">
+        <oboInOwl:id>pfam.clan:CL0609</oboInOwl:id>
+        <rdfs:label>sPC4_like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0611 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0611">
+        <oboInOwl:id>pfam.clan:CL0611</oboInOwl:id>
+        <rdfs:label>Hexon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0612 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0612">
+        <oboInOwl:id>pfam.clan:CL0612</oboInOwl:id>
+        <rdfs:label>PHM_PNGase_F</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0613 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0613">
+        <oboInOwl:id>pfam.clan:CL0613</oboInOwl:id>
+        <rdfs:label>Terp_synthase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0614 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0614">
+        <oboInOwl:id>pfam.clan:CL0614</oboInOwl:id>
+        <rdfs:label>L27</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0615 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0615">
+        <oboInOwl:id>pfam.clan:CL0615</oboInOwl:id>
+        <rdfs:label>ALDC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0616 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0616">
+        <oboInOwl:id>pfam.clan:CL0616</oboInOwl:id>
+        <rdfs:label>SPOC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0617 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0617">
+        <oboInOwl:id>pfam.clan:CL0617</oboInOwl:id>
+        <rdfs:label>Peroxidase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0618 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0618">
+        <oboInOwl:id>pfam.clan:CL0618</oboInOwl:id>
+        <rdfs:label>MCR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0619 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0619">
+        <oboInOwl:id>pfam.clan:CL0619</oboInOwl:id>
+        <rdfs:label>Mog1p_PsbP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0620 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0620">
+        <oboInOwl:id>pfam.clan:CL0620</oboInOwl:id>
+        <rdfs:label>Antihemostatic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0621">
+        <oboInOwl:id>pfam.clan:CL0621</oboInOwl:id>
+        <rdfs:label>Colipase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0622">
+        <oboInOwl:id>pfam.clan:CL0622</oboInOwl:id>
+        <rdfs:label>Acylphosphatase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0623">
+        <oboInOwl:id>pfam.clan:CL0623</oboInOwl:id>
+        <rdfs:label>SRP9_14</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0625">
+        <oboInOwl:id>pfam.clan:CL0625</oboInOwl:id>
+        <rdfs:label>eIF4e</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0626 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0626">
+        <oboInOwl:id>pfam.clan:CL0626</oboInOwl:id>
+        <rdfs:label>Levi_coat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0627 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0627">
+        <oboInOwl:id>pfam.clan:CL0627</oboInOwl:id>
+        <rdfs:label>Antibiotic_NAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0628 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0628">
+        <oboInOwl:id>pfam.clan:CL0628</oboInOwl:id>
+        <rdfs:label>EspA_CesA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0629 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0629">
+        <oboInOwl:id>pfam.clan:CL0629</oboInOwl:id>
+        <rdfs:label>PLA2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0630">
+        <oboInOwl:id>pfam.clan:CL0630</oboInOwl:id>
+        <rdfs:label>PSI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0631">
+        <oboInOwl:id>pfam.clan:CL0631</oboInOwl:id>
+        <rdfs:label>YgaC_TfoX-N</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0632">
+        <oboInOwl:id>pfam.clan:CL0632</oboInOwl:id>
+        <rdfs:label>FERM_M</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0633">
+        <oboInOwl:id>pfam.clan:CL0633</oboInOwl:id>
+        <rdfs:label>NusB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0634">
+        <oboInOwl:id>pfam.clan:CL0634</oboInOwl:id>
+        <rdfs:label>CheY-binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0635">
+        <oboInOwl:id>pfam.clan:CL0635</oboInOwl:id>
+        <rdfs:label>DmpA_ArgJ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0636 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0636">
+        <oboInOwl:id>pfam.clan:CL0636</oboInOwl:id>
+        <rdfs:label>Leukocidin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0637 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0637">
+        <oboInOwl:id>pfam.clan:CL0637</oboInOwl:id>
+        <rdfs:label>KaiA_RbsU</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0639 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0639">
+        <oboInOwl:id>pfam.clan:CL0639</oboInOwl:id>
+        <rdfs:label>Rof</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0640 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0640">
+        <oboInOwl:id>pfam.clan:CL0640</oboInOwl:id>
+        <rdfs:label>Colicin_D_E5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0642">
+        <oboInOwl:id>pfam.clan:CL0642</oboInOwl:id>
+        <rdfs:label>SOCS_box</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0643 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0643">
+        <oboInOwl:id>pfam.clan:CL0643</oboInOwl:id>
+        <rdfs:label>YqbG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0644">
+        <oboInOwl:id>pfam.clan:CL0644</oboInOwl:id>
+        <rdfs:label>Fz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0645 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0645">
+        <oboInOwl:id>pfam.clan:CL0645</oboInOwl:id>
+        <rdfs:label>Anti-sigma_N</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0646 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0646">
+        <oboInOwl:id>pfam.clan:CL0646</oboInOwl:id>
+        <rdfs:label>T3SS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0647">
+        <oboInOwl:id>pfam.clan:CL0647</oboInOwl:id>
+        <rdfs:label>FG_rpt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0648 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0648">
+        <oboInOwl:id>pfam.clan:CL0648</oboInOwl:id>
+        <rdfs:label>Aha1_BPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0649 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0649">
+        <oboInOwl:id>pfam.clan:CL0649</oboInOwl:id>
+        <rdfs:label>PseudoU_synth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0650">
+        <oboInOwl:id>pfam.clan:CL0650</oboInOwl:id>
+        <rdfs:label>AOC_barrel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0651 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0651">
+        <oboInOwl:id>pfam.clan:CL0651</oboInOwl:id>
+        <rdfs:label>Mad2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0652">
+        <oboInOwl:id>pfam.clan:CL0652</oboInOwl:id>
+        <rdfs:label>S24e_L23_L15e</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0653 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0653">
+        <oboInOwl:id>pfam.clan:CL0653</oboInOwl:id>
+        <rdfs:label>VCCI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0654 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0654">
+        <oboInOwl:id>pfam.clan:CL0654</oboInOwl:id>
+        <rdfs:label>WYL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0655">
+        <oboInOwl:id>pfam.clan:CL0655</oboInOwl:id>
+        <rdfs:label>PilP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0656">
+        <oboInOwl:id>pfam.clan:CL0656</oboInOwl:id>
+        <rdfs:label>VSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0658">
+        <oboInOwl:id>pfam.clan:CL0658</oboInOwl:id>
+        <rdfs:label>OB_enterotoxin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0659">
+        <oboInOwl:id>pfam.clan:CL0659</oboInOwl:id>
+        <rdfs:label>CAP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0660 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0660">
+        <oboInOwl:id>pfam.clan:CL0660</oboInOwl:id>
+        <rdfs:label>SHOCT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0661 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0661">
+        <oboInOwl:id>pfam.clan:CL0661</oboInOwl:id>
+        <rdfs:label>Gain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0662 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0662">
+        <oboInOwl:id>pfam.clan:CL0662</oboInOwl:id>
+        <rdfs:label>Triple_barrel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0663 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0663">
+        <oboInOwl:id>pfam.clan:CL0663</oboInOwl:id>
+        <rdfs:label>CNF1_YfiH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0664 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0664">
+        <oboInOwl:id>pfam.clan:CL0664</oboInOwl:id>
+        <rdfs:label>UB2H</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0665 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0665">
+        <oboInOwl:id>pfam.clan:CL0665</oboInOwl:id>
+        <rdfs:label>BET</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0666">
+        <oboInOwl:id>pfam.clan:CL0666</oboInOwl:id>
+        <rdfs:label>Vault</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0667 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0667">
+        <oboInOwl:id>pfam.clan:CL0667</oboInOwl:id>
+        <rdfs:label>Fer2_BFD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0668 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0668">
+        <oboInOwl:id>pfam.clan:CL0668</oboInOwl:id>
+        <rdfs:label>Pre-PUA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0669 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0669">
+        <oboInOwl:id>pfam.clan:CL0669</oboInOwl:id>
+        <rdfs:label>NOG1_N</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0670 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0670">
+        <oboInOwl:id>pfam.clan:CL0670</oboInOwl:id>
+        <rdfs:label>4PPT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0671 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0671">
+        <oboInOwl:id>pfam.clan:CL0671</oboInOwl:id>
+        <rdfs:label>AAA_lid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0672 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0672">
+        <oboInOwl:id>pfam.clan:CL0672</oboInOwl:id>
+        <rdfs:label>p35</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0673">
+        <oboInOwl:id>pfam.clan:CL0673</oboInOwl:id>
+        <rdfs:label>GYF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0674">
+        <oboInOwl:id>pfam.clan:CL0674</oboInOwl:id>
+        <rdfs:label>Triple_B_spiral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0676">
+        <oboInOwl:id>pfam.clan:CL0676</oboInOwl:id>
+        <rdfs:label>SLATT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0677 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0677">
+        <oboInOwl:id>pfam.clan:CL0677</oboInOwl:id>
+        <rdfs:label>GHMP_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0678 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0678">
+        <oboInOwl:id>pfam.clan:CL0678</oboInOwl:id>
+        <rdfs:label>CLIP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0679 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0679">
+        <oboInOwl:id>pfam.clan:CL0679</oboInOwl:id>
+        <rdfs:label>TACC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0680">
+        <oboInOwl:id>pfam.clan:CL0680</oboInOwl:id>
+        <rdfs:label>WW</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0681">
+        <oboInOwl:id>pfam.clan:CL0681</oboInOwl:id>
+        <rdfs:label>HAMP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0682 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0682">
+        <oboInOwl:id>pfam.clan:CL0682</oboInOwl:id>
+        <rdfs:label>MBG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0683 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0683">
+        <oboInOwl:id>pfam.clan:CL0683</oboInOwl:id>
+        <rdfs:label>MICOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0684 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0684">
+        <oboInOwl:id>pfam.clan:CL0684</oboInOwl:id>
+        <rdfs:label>NFACT_RNA-bind</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0685 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0685">
+        <oboInOwl:id>pfam.clan:CL0685</oboInOwl:id>
+        <rdfs:label>AmpE_CobD-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0686 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0686">
+        <oboInOwl:id>pfam.clan:CL0686</oboInOwl:id>
+        <rdfs:label>aG_PT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0687">
+        <oboInOwl:id>pfam.clan:CL0687</oboInOwl:id>
+        <rdfs:label>Zn_chelatase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0688 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0688">
+        <oboInOwl:id>pfam.clan:CL0688</oboInOwl:id>
+        <rdfs:label>BECR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0689 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0689">
+        <oboInOwl:id>pfam.clan:CL0689</oboInOwl:id>
+        <rdfs:label>TSP3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0690">
+        <oboInOwl:id>pfam.clan:CL0690</oboInOwl:id>
+        <rdfs:label>TrbC_VirB2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0691 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0691">
+        <oboInOwl:id>pfam.clan:CL0691</oboInOwl:id>
+        <rdfs:label>Phage_tail_2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0692">
+        <oboInOwl:id>pfam.clan:CL0692</oboInOwl:id>
+        <rdfs:label>TSP1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0693">
+        <oboInOwl:id>pfam.clan:CL0693</oboInOwl:id>
+        <rdfs:label>Cas9_lobe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0694">
+        <oboInOwl:id>pfam.clan:CL0694</oboInOwl:id>
+        <rdfs:label>Choline_binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0695 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0695">
+        <oboInOwl:id>pfam.clan:CL0695</oboInOwl:id>
+        <rdfs:label>EndoU</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0696">
+        <oboInOwl:id>pfam.clan:CL0696</oboInOwl:id>
+        <rdfs:label>Vmethyltransf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0697">
+        <oboInOwl:id>pfam.clan:CL0697</oboInOwl:id>
+        <rdfs:label>SDH_beta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0698 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0698">
+        <oboInOwl:id>pfam.clan:CL0698</oboInOwl:id>
+        <rdfs:label>TrbL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0700 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0700">
+        <oboInOwl:id>pfam.clan:CL0700</oboInOwl:id>
+        <rdfs:label>ArdcN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0701 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0701">
+        <oboInOwl:id>pfam.clan:CL0701</oboInOwl:id>
+        <rdfs:label>NAD_kinase_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0702 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0702">
+        <oboInOwl:id>pfam.clan:CL0702</oboInOwl:id>
+        <rdfs:label>UIM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0703 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0703">
+        <oboInOwl:id>pfam.clan:CL0703</oboInOwl:id>
+        <rdfs:label>YtcA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0704">
+        <oboInOwl:id>pfam.clan:CL0704</oboInOwl:id>
+        <rdfs:label>HMA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0705 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0705">
+        <oboInOwl:id>pfam.clan:CL0705</oboInOwl:id>
+        <rdfs:label>VBS-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0706 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0706">
+        <oboInOwl:id>pfam.clan:CL0706</oboInOwl:id>
+        <rdfs:label>EMC6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0707">
+        <oboInOwl:id>pfam.clan:CL0707</oboInOwl:id>
+        <rdfs:label>Saposin_like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0708">
+        <oboInOwl:id>pfam.clan:CL0708</oboInOwl:id>
+        <rdfs:label>Polo-box</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0709">
+        <oboInOwl:id>pfam.clan:CL0709</oboInOwl:id>
+        <rdfs:label>STING</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0710">
+        <oboInOwl:id>pfam.clan:CL0710</oboInOwl:id>
+        <rdfs:label>YeeE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0713 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0713">
+        <oboInOwl:id>pfam.clan:CL0713</oboInOwl:id>
+        <rdfs:label>Acyl-CoA_desat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0714 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0714">
+        <oboInOwl:id>pfam.clan:CL0714</oboInOwl:id>
+        <rdfs:label>COX1-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0715 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0715">
+        <oboInOwl:id>pfam.clan:CL0715</oboInOwl:id>
+        <rdfs:label>Nckap1_CYFIP1-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0716">
+        <oboInOwl:id>pfam.clan:CL0716</oboInOwl:id>
+        <rdfs:label>Aquaporin-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0717 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0717">
+        <oboInOwl:id>pfam.clan:CL0717</oboInOwl:id>
+        <rdfs:label>YbaB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0718">
+        <oboInOwl:id>pfam.clan:CL0718</oboInOwl:id>
+        <rdfs:label>Perilipin_sf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0719">
+        <oboInOwl:id>pfam.clan:CL0719</oboInOwl:id>
+        <rdfs:label>Moesin_tail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0720 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0720">
+        <oboInOwl:id>pfam.clan:CL0720</oboInOwl:id>
+        <rdfs:label>Lag3_N</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0721 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0721">
+        <oboInOwl:id>pfam.clan:CL0721</oboInOwl:id>
+        <rdfs:label>LAMP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0722 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0722">
+        <oboInOwl:id>pfam.clan:CL0722</oboInOwl:id>
+        <rdfs:label>SDH_alpha</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0723 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0723">
+        <oboInOwl:id>pfam.clan:CL0723</oboInOwl:id>
+        <rdfs:label>TRADD-N</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0724 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0724">
+        <oboInOwl:id>pfam.clan:CL0724</oboInOwl:id>
+        <rdfs:label>Kinetochore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0725">
+        <oboInOwl:id>pfam.clan:CL0725</oboInOwl:id>
+        <rdfs:label>Apolipoprotein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0726">
+        <oboInOwl:id>pfam.clan:CL0726</oboInOwl:id>
+        <rdfs:label>Resistin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0727">
+        <oboInOwl:id>pfam.clan:CL0727</oboInOwl:id>
+        <rdfs:label>Nucleosidase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0728 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0728">
+        <oboInOwl:id>pfam.clan:CL0728</oboInOwl:id>
+        <rdfs:label>Cas2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0729">
+        <oboInOwl:id>pfam.clan:CL0729</oboInOwl:id>
+        <rdfs:label>Kre28-like_sf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0730 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0730">
+        <oboInOwl:id>pfam.clan:CL0730</oboInOwl:id>
+        <rdfs:label>IL8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0731 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0731">
+        <oboInOwl:id>pfam.clan:CL0731</oboInOwl:id>
+        <rdfs:label>SPOCS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0732 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0732">
+        <oboInOwl:id>pfam.clan:CL0732</oboInOwl:id>
+        <rdfs:label>RMP1-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0733 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0733">
+        <oboInOwl:id>pfam.clan:CL0733</oboInOwl:id>
+        <rdfs:label>Ribosomal_L25</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0734 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0734">
+        <oboInOwl:id>pfam.clan:CL0734</oboInOwl:id>
+        <rdfs:label>Rpp14-Pop5-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0735 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0735">
+        <oboInOwl:id>pfam.clan:CL0735</oboInOwl:id>
+        <rdfs:label>GatC-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0736 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0736">
+        <oboInOwl:id>pfam.clan:CL0736</oboInOwl:id>
+        <rdfs:label>Get5_C_sf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0737">
+        <oboInOwl:id>pfam.clan:CL0737</oboInOwl:id>
+        <rdfs:label>Mtd</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0738 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0738">
+        <oboInOwl:id>pfam.clan:CL0738</oboInOwl:id>
+        <rdfs:label>Arg_repressor_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0740">
+        <oboInOwl:id>pfam.clan:CL0740</oboInOwl:id>
+        <rdfs:label>GCV_T_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0741">
+        <oboInOwl:id>pfam.clan:CL0741</oboInOwl:id>
+        <rdfs:label>RGM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0742">
+        <oboInOwl:id>pfam.clan:CL0742</oboInOwl:id>
+        <rdfs:label>PTS_IIA-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0743">
+        <oboInOwl:id>pfam.clan:CL0743</oboInOwl:id>
+        <rdfs:label>Spectrin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0745">
+        <oboInOwl:id>pfam.clan:CL0745</oboInOwl:id>
+        <rdfs:label>MIT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0746">
+        <oboInOwl:id>pfam.clan:CL0746</oboInOwl:id>
+        <rdfs:label>AFF4_CHD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0747">
+        <oboInOwl:id>pfam.clan:CL0747</oboInOwl:id>
+        <rdfs:label>THUMP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0748 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0748">
+        <oboInOwl:id>pfam.clan:CL0748</oboInOwl:id>
+        <rdfs:label>DNA_prim_N</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0749 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0749">
+        <oboInOwl:id>pfam.clan:CL0749</oboInOwl:id>
+        <rdfs:label>GH127_M</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0750 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0750">
+        <oboInOwl:id>pfam.clan:CL0750</oboInOwl:id>
+        <rdfs:label>ADAM_CR_sf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0751 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0751">
+        <oboInOwl:id>pfam.clan:CL0751</oboInOwl:id>
+        <rdfs:label>Secretin_N0</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0752 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0752">
+        <oboInOwl:id>pfam.clan:CL0752</oboInOwl:id>
+        <rdfs:label>PsbQ-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0753 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0753">
+        <oboInOwl:id>pfam.clan:CL0753</oboInOwl:id>
+        <rdfs:label>ATPD-E_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0754">
+        <oboInOwl:id>pfam.clan:CL0754</oboInOwl:id>
+        <rdfs:label>PGM_I-III</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0755 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0755">
+        <oboInOwl:id>pfam.clan:CL0755</oboInOwl:id>
+        <rdfs:label>SASP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0756">
+        <oboInOwl:id>pfam.clan:CL0756</oboInOwl:id>
+        <rdfs:label>GMC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0757 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0757">
+        <oboInOwl:id>pfam.clan:CL0757</oboInOwl:id>
+        <rdfs:label>TRAP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0758 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0758">
+        <oboInOwl:id>pfam.clan:CL0758</oboInOwl:id>
+        <rdfs:label>L31</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0759 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0759">
+        <oboInOwl:id>pfam.clan:CL0759</oboInOwl:id>
+        <rdfs:label>Nop_N_sf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0760 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0760">
+        <oboInOwl:id>pfam.clan:CL0760</oboInOwl:id>
+        <rdfs:label>RBG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0761 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0761">
+        <oboInOwl:id>pfam.clan:CL0761</oboInOwl:id>
+        <rdfs:label>ABC_sf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0763 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0763">
+        <oboInOwl:id>pfam.clan:CL0763</oboInOwl:id>
+        <rdfs:label>GpW_gp25-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0764 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0764">
+        <oboInOwl:id>pfam.clan:CL0764</oboInOwl:id>
+        <rdfs:label>PHP14-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0765">
+        <oboInOwl:id>pfam.clan:CL0765</oboInOwl:id>
+        <rdfs:label>PAC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0766 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0766">
+        <oboInOwl:id>pfam.clan:CL0766</oboInOwl:id>
+        <rdfs:label>NCPF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0767 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0767">
+        <oboInOwl:id>pfam.clan:CL0767</oboInOwl:id>
+        <rdfs:label>MXAN_049</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0768 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0768">
+        <oboInOwl:id>pfam.clan:CL0768</oboInOwl:id>
+        <rdfs:label>DUF960</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0769 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0769">
+        <oboInOwl:id>pfam.clan:CL0769</oboInOwl:id>
+        <rdfs:label>SsdA_imm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0770 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0770">
+        <oboInOwl:id>pfam.clan:CL0770</oboInOwl:id>
+        <rdfs:label>GH84_C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pfam.clan_CL0771 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pfam.clan_CL0771">
+        <oboInOwl:id>pfam.clan:CL0771</oboInOwl:id>
+        <rdfs:label>YaaA-like</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+

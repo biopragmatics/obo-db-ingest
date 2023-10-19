@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:09:2023 01:44
+date: 19:10:2023 11:36
 auto-generated-by: bio2obo:hgnc.genegroup
 synonymtypedef: obo:symbol "symbol"
 ontology: hgnc.genegroup
@@ -362,7 +362,7 @@ synonym: "RECQL" EXACT obo:symbol []
 [Term]
 id: hgnc.genegroup:105
 name: Yip1 domain containing
-is_a: hgnc.genegroup:1144 ! YIP family
+is_a: hgnc.genegroup:1144 ! YIP superfamily
 relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
 synonym: "YIPF" EXACT obo:symbol []
 
@@ -984,7 +984,7 @@ relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: hgnc.genegroup:1144
-name: YIP family
+name: YIP superfamily
 is_a: so:0005855 ! gene_group
 relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
 
@@ -4563,6 +4563,7 @@ id: hgnc.genegroup:1734
 name: Stomatin family
 is_a: so:0005855 ! gene_group
 relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
+synonym: "STOM" EXACT obo:symbol []
 
 [Term]
 id: hgnc.genegroup:1736
@@ -6312,7 +6313,7 @@ relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: hgnc.genegroup:2019
 name: Outer dynein arm docking complex subunits
-def: "The outer dynein arm-docking complex \(ODA-DC\)\, which was first identified in the green alga Chlamydomonas reinhardtii\, is a protein complex that mediates the binding of axonemal dynein and doublet microtubules. " [pubmed:30471718, pubmed:27486780, pubmed:25192045]
+def: "The outer dynein arm-docking complex \(ODA-DC\)\, which was first identified in the green alga Chlamydomonas reinhardtii\, is a protein complex that mediates the binding of axonemal dynein and doublet microtubules. " [pubmed:30471718, pubmed:27486780, pubmed:25192045, pubmed:35006274]
 is_a: so:0005855 ! gene_group
 relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
 synonym: "ODAD" EXACT obo:symbol []
@@ -7493,13 +7494,6 @@ relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
 synonym: "SLC50" EXACT obo:symbol []
 
 [Term]
-id: hgnc.genegroup:2201
-name: Solute carrier family 51 subunits
-is_a: hgnc.genegroup:752 ! Solute carrier families
-relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
-synonym: "SLC51" EXACT obo:symbol []
-
-[Term]
 id: hgnc.genegroup:2202
 name: Solute carrier family 52
 is_a: hgnc.genegroup:752 ! Solute carrier families
@@ -7546,7 +7540,7 @@ id: hgnc.genegroup:2208
 name: Solute carrier family 59
 is_a: hgnc.genegroup:752 ! Solute carrier families
 relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
-synonym: "SLC59, MFSD2" EXACT obo:symbol []
+synonym: "SLC59" EXACT obo:symbol []
 
 [Term]
 id: hgnc.genegroup:2209
@@ -7568,7 +7562,7 @@ id: hgnc.genegroup:2210
 name: Solute carrier family 61
 is_a: hgnc.genegroup:752 ! Solute carrier families
 relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
-synonym: "SLC561, MFSD5" EXACT obo:symbol []
+synonym: "SLC61, MFSD5" EXACT obo:symbol []
 
 [Term]
 id: hgnc.genegroup:2211
@@ -7873,11 +7867,53 @@ relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
 synonym: "GNRHR" EXACT obo:symbol []
 
 [Term]
+id: hgnc.genegroup:2274
+name: Solute carrier family 51
+is_a: hgnc.genegroup:752 ! Solute carrier families
+relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
+synonym: "SLC51" EXACT obo:symbol []
+
+[Term]
+id: hgnc.genegroup:2279
+name: Canonical Notch ligands
+def: " The canonical Notch ligands are members of the Delta/Serrate/Lag-1 \(DSL\) family of proteins. When they bind to Notch receptors this induces a conformational change \(regulated intramembrane proteolysis\) in the receptor\, freeing its Notch intracellular domain \(NICD\). The NICD can then translocate to the nucleus and promote gene transcription.  " [pubmed:17623096, pubmed:18758484]
+is_a: so:0005855 ! gene_group
+relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
+
+[Term]
 id: hgnc.genegroup:228
 name: Hypocretin receptors
 is_a: hgnc.genegroup:220 ! Peptide receptors
 relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
 synonym: "HCRTR" EXACT obo:symbol []
+
+[Term]
+id: hgnc.genegroup:2280
+name: DREAM complex subunits
+def: "The dimerization partner\, RB-like\, E2F and multi-vulval class B \(DREAM\) complex is a protein complex responsible for the regulation of cell cycle-dependent gene expression. The complex is evolutionarily conserved\, although some of its components vary from species to species. In humans\, the key proteins in the complex are RBL1 \(p107\) and RBL2 \(p130\)\, both of which are homologs of RB \(p105\) and bind repressive E2F transcription factors E2F4 and E2F5; DP1\, DP2 and DP3\, dimerization partners of E2F; and MuvB\, which is a complex of LIN9/37/52/54 and RBBP4." [pubmed:23842645, pubmed:34496610]
+is_a: so:0005855 ! gene_group
+relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
+
+[Term]
+id: hgnc.genegroup:2281
+name: MuvB complex subunits
+def: "MuvB complexes are key to regulating the cell-division cycle. The MuvB complex can form part of the transcriptional repressor complex DREAM\, or part of the activator complexes MMB and FOXM1-MuvB.  When cells are not actively dividing\, the DREAM complex represses G1/S and G2/M genes. The expression of mitotic genes in the G2/M stage of the cell cycle can be regulated by MuvB activator complexes which include either the oncogenic transcription factor B-MYB or FOXM1." [pubmed:24710275, pubmed:35468940]
+is_a: hgnc.genegroup:2280 ! DREAM complex subunits
+is_a: hgnc.genegroup:2282 ! MMB complex subunits
+is_a: hgnc.genegroup:2283 ! FOXM1-MMB complex subunits
+relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
+
+[Term]
+id: hgnc.genegroup:2282
+name: MMB complex subunits
+is_a: so:0005855 ! gene_group
+relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
+
+[Term]
+id: hgnc.genegroup:2283
+name: FOXM1-MMB complex subunits
+is_a: so:0005855 ! gene_group
+relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: hgnc.genegroup:235
@@ -10791,7 +10827,7 @@ synonym: "PAR2" EXACT obo:symbol []
 [Term]
 id: hgnc.genegroup:717
 name: Receptor accessory proteins
-is_a: hgnc.genegroup:1144 ! YIP family
+is_a: hgnc.genegroup:1144 ! YIP superfamily
 relationship: ro:0002162 ncbitaxon:9606 ! in taxon Homo sapiens
 synonym: "REEP" EXACT obo:symbol []
 
