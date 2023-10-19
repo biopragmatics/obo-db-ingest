@@ -1,3 +1,4 @@
+date: '2023-10-19'
 resources:
   cgnc:
     nodes:
@@ -14,8 +15,8 @@ resources:
       path: cgnc/cgnc.json
     owl:
       gzipped: false
-      iri: https://w3id.org/biopragmatics/resources/cgnc/cgnc.json
-      path: cgnc/cgnc.json
+      iri: https://w3id.org/biopragmatics/resources/cgnc/cgnc.owl
+      path: cgnc/cgnc.owl
     summary:
       alts: 0
       definitions: 0
@@ -48,10 +49,10 @@ resources:
       version_path: complexportal/2023-10-06/complexportal.json
     owl:
       gzipped: false
-      iri: https://w3id.org/biopragmatics/resources/complexportal/complexportal.json
-      path: complexportal/complexportal.json
-      version_iri: https://w3id.org/biopragmatics/resources/complexportal/2023-10-06/complexportal.json
-      version_path: complexportal/2023-10-06/complexportal.json
+      iri: https://w3id.org/biopragmatics/resources/complexportal/complexportal.owl
+      path: complexportal/complexportal.owl
+      version_iri: https://w3id.org/biopragmatics/resources/complexportal/2023-10-06/complexportal.owl
+      version_path: complexportal/2023-10-06/complexportal.owl
     summary:
       alts: 0
       definitions: 4414
@@ -78,8 +79,8 @@ resources:
       path: dictybase.gene/dictybase.gene.json
     owl:
       gzipped: false
-      iri: https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.json
-      path: dictybase.gene/dictybase.gene.json
+      iri: https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.owl
+      path: dictybase.gene/dictybase.gene.owl
     summary:
       alts: 0
       definitions: 0
@@ -112,11 +113,11 @@ resources:
       version_iri: https://w3id.org/biopragmatics/resources/eccode/2023-09-13/eccode.json
       version_path: eccode/2023-09-13/eccode.json
     owl:
-      gzipped: false
-      iri: https://w3id.org/biopragmatics/resources/eccode/eccode.json
-      path: eccode/eccode.json
-      version_iri: https://w3id.org/biopragmatics/resources/eccode/2023-09-13/eccode.json
-      version_path: eccode/2023-09-13/eccode.json
+      gzipped: true
+      iri: https://w3id.org/biopragmatics/resources/eccode/eccode.owl.gz
+      path: eccode/eccode.owl.gz
+      version_iri: https://w3id.org/biopragmatics/resources/eccode/2023-09-13/eccode.owl.gz
+      version_path: eccode/2023-09-13/eccode.owl.gz
     summary:
       alts: 0
       definitions: 0
@@ -149,10 +150,10 @@ resources:
       version_path: flybase/2023_05/flybase.json
     owl:
       gzipped: false
-      iri: https://w3id.org/biopragmatics/resources/flybase/flybase.json
-      path: flybase/flybase.json
-      version_iri: https://w3id.org/biopragmatics/resources/flybase/2023_05/flybase.json
-      version_path: flybase/2023_05/flybase.json
+      iri: https://w3id.org/biopragmatics/resources/flybase/flybase.owl
+      path: flybase/flybase.owl
+      version_iri: https://w3id.org/biopragmatics/resources/flybase/2023_05/flybase.owl
+      version_path: flybase/2023_05/flybase.owl
     summary:
       alts: 0
       definitions: 35703
@@ -183,6 +184,12 @@ resources:
       path: hgnc/hgnc.json.gz
       version_iri: https://w3id.org/biopragmatics/resources/hgnc/2023-10-01/hgnc.json.gz
       version_path: hgnc/2023-10-01/hgnc.json.gz
+    owl:
+      gzipped: true
+      iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.owl.gz
+      path: hgnc/hgnc.owl.gz
+      version_iri: https://w3id.org/biopragmatics/resources/hgnc/2023-10-01/hgnc.owl.gz
+      version_path: hgnc/2023-10-01/hgnc.owl.gz
     summary:
       alts: 0
       definitions: 43736
@@ -209,8 +216,8 @@ resources:
       path: hgnc.genegroup/hgnc.genegroup.json
     owl:
       gzipped: false
-      iri: https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.json
-      path: hgnc.genegroup/hgnc.genegroup.json
+      iri: https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.owl
+      path: hgnc.genegroup/hgnc.genegroup.owl
     summary:
       alts: 0
       definitions: 697
@@ -243,10 +250,10 @@ resources:
       version_path: interpro/96.0/interpro.json
     owl:
       gzipped: false
-      iri: https://w3id.org/biopragmatics/resources/interpro/interpro.json
-      path: interpro/interpro.json
-      version_iri: https://w3id.org/biopragmatics/resources/interpro/96.0/interpro.json
-      version_path: interpro/96.0/interpro.json
+      iri: https://w3id.org/biopragmatics/resources/interpro/interpro.owl
+      path: interpro/interpro.owl
+      version_iri: https://w3id.org/biopragmatics/resources/interpro/96.0/interpro.owl
+      version_path: interpro/96.0/interpro.owl
     summary:
       alts: 0
       definitions: 0
@@ -279,10 +286,10 @@ resources:
       version_path: kegg.genome/108.0/kegg.genome.json
     owl:
       gzipped: false
-      iri: https://w3id.org/biopragmatics/resources/kegg.genome/kegg.genome.json
-      path: kegg.genome/kegg.genome.json
-      version_iri: https://w3id.org/biopragmatics/resources/kegg.genome/108.0/kegg.genome.json
-      version_path: kegg.genome/108.0/kegg.genome.json
+      iri: https://w3id.org/biopragmatics/resources/kegg.genome/kegg.genome.owl
+      path: kegg.genome/kegg.genome.owl
+      version_iri: https://w3id.org/biopragmatics/resources/kegg.genome/108.0/kegg.genome.owl
+      version_path: kegg.genome/108.0/kegg.genome.owl
     summary:
       alts: 0
       definitions: 0
@@ -313,6 +320,12 @@ resources:
       path: mesh/mesh.json.gz
       version_iri: https://w3id.org/biopragmatics/resources/mesh/2023/mesh.json.gz
       version_path: mesh/2023/mesh.json.gz
+    owl:
+      gzipped: true
+      iri: https://w3id.org/biopragmatics/resources/mesh/mesh.owl.gz
+      path: mesh/mesh.owl.gz
+      version_iri: https://w3id.org/biopragmatics/resources/mesh/2023/mesh.owl.gz
+      version_path: mesh/2023/mesh.owl.gz
     summary:
       alts: 0
       definitions: 30302
@@ -365,10 +378,10 @@ resources:
       version_path: mirbase/22.1/mirbase.json
     owl:
       gzipped: false
-      iri: https://w3id.org/biopragmatics/resources/mirbase/mirbase.json
-      path: mirbase/mirbase.json
-      version_iri: https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.json
-      version_path: mirbase/22.1/mirbase.json
+      iri: https://w3id.org/biopragmatics/resources/mirbase/mirbase.owl
+      path: mirbase/mirbase.owl
+      version_iri: https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.owl
+      version_path: mirbase/22.1/mirbase.owl
     summary:
       alts: 0
       definitions: 38589
@@ -401,10 +414,10 @@ resources:
       version_path: mirbase.family/22.1/mirbase.family.json
     owl:
       gzipped: false
-      iri: https://w3id.org/biopragmatics/resources/mirbase.family/mirbase.family.json
-      path: mirbase.family/mirbase.family.json
-      version_iri: https://w3id.org/biopragmatics/resources/mirbase.family/22.1/mirbase.family.json
-      version_path: mirbase.family/22.1/mirbase.family.json
+      iri: https://w3id.org/biopragmatics/resources/mirbase.family/mirbase.family.owl
+      path: mirbase.family/mirbase.family.owl
+      version_iri: https://w3id.org/biopragmatics/resources/mirbase.family/22.1/mirbase.family.owl
+      version_path: mirbase.family/22.1/mirbase.family.owl
     summary:
       alts: 0
       definitions: 0
@@ -438,10 +451,10 @@ resources:
       version_path: npass/2.0/npass.json
     owl:
       gzipped: false
-      iri: https://w3id.org/biopragmatics/resources/npass/npass.json
-      path: npass/npass.json
-      version_iri: https://w3id.org/biopragmatics/resources/npass/2.0/npass.json
-      version_path: npass/2.0/npass.json
+      iri: https://w3id.org/biopragmatics/resources/npass/npass.owl
+      path: npass/npass.owl
+      version_iri: https://w3id.org/biopragmatics/resources/npass/2.0/npass.owl
+      version_path: npass/2.0/npass.owl
     summary:
       alts: 0
       definitions: 0
@@ -498,10 +511,10 @@ resources:
       version_path: pfam/36.0/pfam.json
     owl:
       gzipped: false
-      iri: https://w3id.org/biopragmatics/resources/pfam/pfam.json
-      path: pfam/pfam.json
-      version_iri: https://w3id.org/biopragmatics/resources/pfam/36.0/pfam.json
-      version_path: pfam/36.0/pfam.json
+      iri: https://w3id.org/biopragmatics/resources/pfam/pfam.owl
+      path: pfam/pfam.owl
+      version_iri: https://w3id.org/biopragmatics/resources/pfam/36.0/pfam.owl
+      version_path: pfam/36.0/pfam.owl
     summary:
       alts: 0
       definitions: 20795
@@ -534,10 +547,10 @@ resources:
       version_path: pfam.clan/36.0/pfam.clan.json
     owl:
       gzipped: false
-      iri: https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.json
-      path: pfam.clan/pfam.clan.json
-      version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/36.0/pfam.clan.json
-      version_path: pfam.clan/36.0/pfam.clan.json
+      iri: https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.owl
+      path: pfam.clan/pfam.clan.owl
+      version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/36.0/pfam.clan.owl
+      version_path: pfam.clan/36.0/pfam.clan.owl
     summary:
       alts: 0
       definitions: 0
@@ -570,10 +583,10 @@ resources:
       version_path: pombase/2023-10-01/pombase.json
     owl:
       gzipped: false
-      iri: https://w3id.org/biopragmatics/resources/pombase/pombase.json
-      path: pombase/pombase.json
-      version_iri: https://w3id.org/biopragmatics/resources/pombase/2023-10-01/pombase.json
-      version_path: pombase/2023-10-01/pombase.json
+      iri: https://w3id.org/biopragmatics/resources/pombase/pombase.owl
+      path: pombase/pombase.owl
+      version_iri: https://w3id.org/biopragmatics/resources/pombase/2023-10-01/pombase.owl
+      version_path: pombase/2023-10-01/pombase.owl
     summary:
       alts: 0
       definitions: 12685
@@ -604,6 +617,12 @@ resources:
       path: reactome/reactome.json.gz
       version_iri: https://w3id.org/biopragmatics/resources/reactome/86/reactome.json.gz
       version_path: reactome/86/reactome.json.gz
+    owl:
+      gzipped: true
+      iri: https://w3id.org/biopragmatics/resources/reactome/reactome.owl.gz
+      path: reactome/reactome.owl.gz
+      version_iri: https://w3id.org/biopragmatics/resources/reactome/86/reactome.owl.gz
+      version_path: reactome/86/reactome.owl.gz
     summary:
       alts: 0
       definitions: 0
@@ -635,11 +654,11 @@ resources:
       version_iri: https://w3id.org/biopragmatics/resources/rgd/2023-10-13/rgd.json
       version_path: rgd/2023-10-13/rgd.json
     owl:
-      gzipped: false
-      iri: https://w3id.org/biopragmatics/resources/rgd/rgd.json
-      path: rgd/rgd.json
-      version_iri: https://w3id.org/biopragmatics/resources/rgd/2023-10-13/rgd.json
-      version_path: rgd/2023-10-13/rgd.json
+      gzipped: true
+      iri: https://w3id.org/biopragmatics/resources/rgd/rgd.owl.gz
+      path: rgd/rgd.owl.gz
+      version_iri: https://w3id.org/biopragmatics/resources/rgd/2023-10-13/rgd.owl.gz
+      version_path: rgd/2023-10-13/rgd.owl.gz
     summary:
       alts: 0
       definitions: 46548
@@ -672,10 +691,10 @@ resources:
       version_path: rhea/129/rhea.json
     owl:
       gzipped: false
-      iri: https://w3id.org/biopragmatics/resources/rhea/rhea.json
-      path: rhea/rhea.json
-      version_iri: https://w3id.org/biopragmatics/resources/rhea/129/rhea.json
-      version_path: rhea/129/rhea.json
+      iri: https://w3id.org/biopragmatics/resources/rhea/rhea.owl
+      path: rhea/rhea.owl
+      version_iri: https://w3id.org/biopragmatics/resources/rhea/129/rhea.owl
+      version_path: rhea/129/rhea.owl
     summary:
       alts: 0
       definitions: 0
@@ -708,10 +727,10 @@ resources:
       version_path: sgd/R64-3-1/sgd.json
     owl:
       gzipped: false
-      iri: https://w3id.org/biopragmatics/resources/sgd/sgd.json
-      path: sgd/sgd.json
-      version_iri: https://w3id.org/biopragmatics/resources/sgd/R64-3-1/sgd.json
-      version_path: sgd/R64-3-1/sgd.json
+      iri: https://w3id.org/biopragmatics/resources/sgd/sgd.owl
+      path: sgd/sgd.owl
+      version_iri: https://w3id.org/biopragmatics/resources/sgd/R64-3-1/sgd.owl
+      version_path: sgd/R64-3-1/sgd.owl
     summary:
       alts: 0
       definitions: 6600
@@ -743,6 +762,12 @@ resources:
       path: uniprot/uniprot.json.gz
       version_iri: https://w3id.org/biopragmatics/resources/uniprot/2023_04/uniprot.json.gz
       version_path: uniprot/2023_04/uniprot.json.gz
+    owl:
+      gzipped: true
+      iri: https://w3id.org/biopragmatics/resources/uniprot/uniprot.owl.gz
+      path: uniprot/uniprot.owl.gz
+      version_iri: https://w3id.org/biopragmatics/resources/uniprot/2023_04/uniprot.owl.gz
+      version_path: uniprot/2023_04/uniprot.owl.gz
     summary:
       alts: 0
       definitions: 0
@@ -775,10 +800,10 @@ resources:
       version_path: wikipathways/20231010/wikipathways.json
     owl:
       gzipped: false
-      iri: https://w3id.org/biopragmatics/resources/wikipathways/wikipathways.json
-      path: wikipathways/wikipathways.json
-      version_iri: https://w3id.org/biopragmatics/resources/wikipathways/20231010/wikipathways.json
-      version_path: wikipathways/20231010/wikipathways.json
+      iri: https://w3id.org/biopragmatics/resources/wikipathways/wikipathways.owl
+      path: wikipathways/wikipathways.owl
+      version_iri: https://w3id.org/biopragmatics/resources/wikipathways/20231010/wikipathways.owl
+      version_path: wikipathways/20231010/wikipathways.owl
     summary:
       alts: 0
       definitions: 0
@@ -809,6 +834,12 @@ resources:
       path: zfin/zfin.json.gz
       version_iri: https://w3id.org/biopragmatics/resources/zfin/2023-10-18/zfin.json.gz
       version_path: zfin/2023-10-18/zfin.json.gz
+    owl:
+      gzipped: true
+      iri: https://w3id.org/biopragmatics/resources/zfin/zfin.owl.gz
+      path: zfin/zfin.owl.gz
+      version_iri: https://w3id.org/biopragmatics/resources/zfin/2023-10-18/zfin.owl.gz
+      version_path: zfin/2023-10-18/zfin.owl.gz
     summary:
       alts: 27903
       definitions: 32815
@@ -820,7 +851,6 @@ resources:
       terms: 178395
       version: '2023-10-18'
       xrefs: 24563
-date: '2023-10-19'
 versions:
   bioontologies: 0.4.2-dev-07f5cf5a
   bioregistry: 0.10.65-dev-184b282a
