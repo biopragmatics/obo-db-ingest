@@ -28,7 +28,7 @@ from tqdm.contrib.logging import logging_redirect_tqdm
 
 BASE_PURL = "https://w3id.org/biopragmatics/resources"
 HERE = Path(__file__).parent.resolve()
-DATA = HERE.joinpath("_data")
+DATA = HERE.joinpath("docs", "_data")
 MANIFEST_PATH = DATA.joinpath("manifest.yml")
 EXPORT = HERE.joinpath("export")
 pystow.utils.GLOBAL_PROGRESS_BAR = False
