@@ -10,7 +10,7 @@ import gzip
 import os
 import shutil
 from pathlib import Path
-from typing import Optional
+from typing import NotRequired, Optional, TypedDict
 
 import bioontologies.version
 import bioregistry
@@ -81,9 +81,18 @@ def _gzip(path: Path, suffix: str):
     return output_path
 
 
-def _prepare_art(prefix: str, path: Path, has_version: bool, suffix: str):
+class Artifact(TypedDict):
+    gzipped: bool
+    iri: str
+    path: str
+    version_iri: NotRequired[str]
+    version_path: NotRequired[str]
+
+
+def _prepare_art(prefix: str, path: Path, has_version: bool, suffix: str) -> Artifact:
     gzipped = os.path.getsize(path) > MAX_SIZE
     if gzipped:
+        tqdm.write(f"[{prefix}] gzipping {path}")
         output_path = _gzip(path, suffix)
     else:
         output_path = path
@@ -102,11 +111,11 @@ def _prepare_art(prefix: str, path: Path, has_version: bool, suffix: str):
         version_relative = None
         versioned_iri = None
 
-    rv = {
-        "gzipped": gzipped,
-        "iri": f"{BASE_PURL}/{unversioned_relative}",
-        "path": unversioned_relative.as_posix(),
-    }
+    rv = Artifact(
+        gzipped=gzipped,
+        iri=f"{BASE_PURL}/{unversioned_relative}",
+        path=unversioned_relative.as_posix(),
+    )
     if versioned_iri:
         rv.update(
             version_iri=versioned_iri,
