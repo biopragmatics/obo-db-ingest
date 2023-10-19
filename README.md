@@ -19,7 +19,7 @@ containing the following exports:
 - [OBO](http://purl.obolibrary.org/obo/oboformat)
 - [OBO Graph JSON](https://github.com/geneontology/obographs/)
 
-A manifest of all resources is available at [manifest.yml](manifest.yml).
+A manifest of all resources is available at [manifest.yml](_data/manifest.yml).
 
 ## Build
 

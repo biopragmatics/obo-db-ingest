@@ -28,6 +28,8 @@ from tqdm.contrib.logging import logging_redirect_tqdm
 
 BASE_PURL = "https://w3id.org/biopragmatics/resources"
 HERE = Path(__file__).parent.resolve()
+DATA = HERE.joinpath("_data")
+MANIFEST_PATH = DATA.joinpath("manifest.yml")
 EXPORT = HERE.joinpath("export")
 pystow.utils.GLOBAL_PROGRESS_BAR = False
 #: This is the maximum file size (100MB, rounded down to
@@ -270,8 +272,7 @@ def main(minimum: Optional[str], xvalue: list[str], no_convert: bool):
         "bioontologies": bioontologies.version.get_version(with_git_hash=True),
         "bioregistry": bioregistry.version.get_version(with_git_hash=True),
     }
-    manifest_path = HERE.joinpath("manifest.yml")
-    manifest_path.write_text(
+    MANIFEST_PATH.write_text(
         yaml.safe_dump(
             {
                 "date": datetime.date.today().strftime("%Y-%m-%d"),
