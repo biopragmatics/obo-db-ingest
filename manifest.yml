@@ -17,6 +17,10 @@ resources:
       gzipped: false
       iri: https://w3id.org/biopragmatics/resources/cgnc/cgnc.owl
       path: cgnc/cgnc.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/cgnc/cgnc.sssom.tsv
+      path: cgnc/cgnc.sssom.tsv
     summary:
       alts: 0
       definitions: 0
@@ -53,6 +57,12 @@ resources:
       path: complexportal/complexportal.owl
       version_iri: https://w3id.org/biopragmatics/resources/complexportal/2023-10-06/complexportal.owl
       version_path: complexportal/2023-10-06/complexportal.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/complexportal/complexportal.sssom.tsv
+      path: complexportal/complexportal.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/complexportal/2023-10-06/complexportal.sssom.tsv
+      version_path: complexportal/2023-10-06/complexportal.sssom.tsv
     summary:
       alts: 0
       definitions: 4414
@@ -81,6 +91,10 @@ resources:
       gzipped: false
       iri: https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.owl
       path: dictybase.gene/dictybase.gene.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.sssom.tsv
+      path: dictybase.gene/dictybase.gene.sssom.tsv
     summary:
       alts: 0
       definitions: 0
@@ -92,7 +106,48 @@ resources:
       terms: 14222
       version: null
       xrefs: 0
-  drugcentral: {}
+  drugcentral:
+    nodes:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/drugcentral/drugcentral.tsv
+      path: drugcentral/drugcentral.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/drugcentral/53/drugcentral.tsv
+      version_path: drugcentral/53/drugcentral.tsv
+    obo:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/drugcentral/drugcentral.obo
+      path: drugcentral/drugcentral.obo
+      version_iri: https://w3id.org/biopragmatics/resources/drugcentral/53/drugcentral.obo
+      version_path: drugcentral/53/drugcentral.obo
+    obograph:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/drugcentral/drugcentral.json
+      path: drugcentral/drugcentral.json
+      version_iri: https://w3id.org/biopragmatics/resources/drugcentral/53/drugcentral.json
+      version_path: drugcentral/53/drugcentral.json
+    owl:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/drugcentral/drugcentral.owl
+      path: drugcentral/drugcentral.owl
+      version_iri: https://w3id.org/biopragmatics/resources/drugcentral/53/drugcentral.owl
+      version_path: drugcentral/53/drugcentral.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/drugcentral/drugcentral.sssom.tsv
+      path: drugcentral/drugcentral.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/drugcentral/53/drugcentral.sssom.tsv
+      version_path: drugcentral/53/drugcentral.sssom.tsv
+    summary:
+      alts: 0
+      definitions: 3226
+      parents: 0
+      properties: 8576
+      references: 0
+      relations: 0
+      synonyms: 19008
+      terms: 4959
+      version: '53'
+      xrefs: 76114
   eccode:
     nodes:
       gzipped: false
@@ -118,6 +173,12 @@ resources:
       path: eccode/eccode.owl.gz
       version_iri: https://w3id.org/biopragmatics/resources/eccode/2023-09-13/eccode.owl.gz
       version_path: eccode/2023-09-13/eccode.owl.gz
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/eccode/eccode.sssom.tsv
+      path: eccode/eccode.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/eccode/2023-09-13/eccode.sssom.tsv
+      version_path: eccode/2023-09-13/eccode.sssom.tsv
     summary:
       alts: 0
       definitions: 0
@@ -154,6 +215,12 @@ resources:
       path: flybase/flybase.owl
       version_iri: https://w3id.org/biopragmatics/resources/flybase/2023_05/flybase.owl
       version_path: flybase/2023_05/flybase.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/flybase/flybase.sssom.tsv
+      path: flybase/flybase.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/flybase/2023_05/flybase.sssom.tsv
+      version_path: flybase/2023_05/flybase.sssom.tsv
     summary:
       alts: 0
       definitions: 35703
@@ -190,6 +257,12 @@ resources:
       path: hgnc/hgnc.owl.gz
       version_iri: https://w3id.org/biopragmatics/resources/hgnc/2023-10-01/hgnc.owl.gz
       version_path: hgnc/2023-10-01/hgnc.owl.gz
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.sssom.tsv
+      path: hgnc/hgnc.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/hgnc/2023-10-01/hgnc.sssom.tsv
+      version_path: hgnc/2023-10-01/hgnc.sssom.tsv
     summary:
       alts: 0
       definitions: 43736
@@ -206,18 +279,32 @@ resources:
       gzipped: false
       iri: https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.tsv
       path: hgnc.genegroup/hgnc.genegroup.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/hgnc.genegroup/2023-10-01/hgnc.genegroup.tsv
+      version_path: hgnc.genegroup/2023-10-01/hgnc.genegroup.tsv
     obo:
       gzipped: false
       iri: https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.obo
       path: hgnc.genegroup/hgnc.genegroup.obo
+      version_iri: https://w3id.org/biopragmatics/resources/hgnc.genegroup/2023-10-01/hgnc.genegroup.obo
+      version_path: hgnc.genegroup/2023-10-01/hgnc.genegroup.obo
     obograph:
       gzipped: false
       iri: https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.json
       path: hgnc.genegroup/hgnc.genegroup.json
+      version_iri: https://w3id.org/biopragmatics/resources/hgnc.genegroup/2023-10-01/hgnc.genegroup.json
+      version_path: hgnc.genegroup/2023-10-01/hgnc.genegroup.json
     owl:
       gzipped: false
       iri: https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.owl
       path: hgnc.genegroup/hgnc.genegroup.owl
+      version_iri: https://w3id.org/biopragmatics/resources/hgnc.genegroup/2023-10-01/hgnc.genegroup.owl
+      version_path: hgnc.genegroup/2023-10-01/hgnc.genegroup.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.sssom.tsv
+      path: hgnc.genegroup/hgnc.genegroup.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/hgnc.genegroup/2023-10-01/hgnc.genegroup.sssom.tsv
+      version_path: hgnc.genegroup/2023-10-01/hgnc.genegroup.sssom.tsv
     summary:
       alts: 0
       definitions: 697
@@ -227,7 +314,7 @@ resources:
       relations: 1780
       synonyms: 1132
       terms: 1767
-      version: null
+      version: '2023-10-01'
       xrefs: 0
   interpro:
     nodes:
@@ -254,6 +341,12 @@ resources:
       path: interpro/interpro.owl
       version_iri: https://w3id.org/biopragmatics/resources/interpro/96.0/interpro.owl
       version_path: interpro/96.0/interpro.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/interpro/interpro.sssom.tsv
+      path: interpro/interpro.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/interpro/96.0/interpro.sssom.tsv
+      version_path: interpro/96.0/interpro.sssom.tsv
     summary:
       alts: 0
       definitions: 0
@@ -290,6 +383,12 @@ resources:
       path: kegg.genome/kegg.genome.owl
       version_iri: https://w3id.org/biopragmatics/resources/kegg.genome/108.0/kegg.genome.owl
       version_path: kegg.genome/108.0/kegg.genome.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/kegg.genome/kegg.genome.sssom.tsv
+      path: kegg.genome/kegg.genome.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/kegg.genome/108.0/kegg.genome.sssom.tsv
+      version_path: kegg.genome/108.0/kegg.genome.sssom.tsv
     summary:
       alts: 0
       definitions: 0
@@ -326,6 +425,12 @@ resources:
       path: mesh/mesh.owl.gz
       version_iri: https://w3id.org/biopragmatics/resources/mesh/2023/mesh.owl.gz
       version_path: mesh/2023/mesh.owl.gz
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/mesh/mesh.sssom.tsv
+      path: mesh/mesh.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/mesh/2023/mesh.sssom.tsv
+      version_path: mesh/2023/mesh.sssom.tsv
     summary:
       alts: 0
       definitions: 30302
@@ -346,6 +451,10 @@ resources:
       gzipped: true
       iri: https://w3id.org/biopragmatics/resources/mgi/mgi.obo.gz
       path: mgi/mgi.obo.gz
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/mgi/mgi.sssom.tsv
+      path: mgi/mgi.sssom.tsv
     summary:
       alts: 0
       definitions: 682038
@@ -382,6 +491,12 @@ resources:
       path: mirbase/mirbase.owl
       version_iri: https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.owl
       version_path: mirbase/22.1/mirbase.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/mirbase/mirbase.sssom.tsv
+      path: mirbase/mirbase.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.sssom.tsv
+      version_path: mirbase/22.1/mirbase.sssom.tsv
     summary:
       alts: 0
       definitions: 38589
@@ -418,6 +533,12 @@ resources:
       path: mirbase.family/mirbase.family.owl
       version_iri: https://w3id.org/biopragmatics/resources/mirbase.family/22.1/mirbase.family.owl
       version_path: mirbase.family/22.1/mirbase.family.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/mirbase.family/mirbase.family.sssom.tsv
+      path: mirbase.family/mirbase.family.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/mirbase.family/22.1/mirbase.family.sssom.tsv
+      version_path: mirbase.family/22.1/mirbase.family.sssom.tsv
     summary:
       alts: 0
       definitions: 0
@@ -429,7 +550,48 @@ resources:
       terms: 19907
       version: '22.1'
       xrefs: 0
-  mirbase.mature: {}
+  mirbase.mature:
+    nodes:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/mirbase.mature/mirbase.mature.tsv
+      path: mirbase.mature/mirbase.mature.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/mirbase.mature/22.1/mirbase.mature.tsv
+      version_path: mirbase.mature/22.1/mirbase.mature.tsv
+    obo:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/mirbase.mature/mirbase.mature.obo
+      path: mirbase.mature/mirbase.mature.obo
+      version_iri: https://w3id.org/biopragmatics/resources/mirbase.mature/22.1/mirbase.mature.obo
+      version_path: mirbase.mature/22.1/mirbase.mature.obo
+    obograph:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/mirbase.mature/mirbase.mature.json
+      path: mirbase.mature/mirbase.mature.json
+      version_iri: https://w3id.org/biopragmatics/resources/mirbase.mature/22.1/mirbase.mature.json
+      version_path: mirbase.mature/22.1/mirbase.mature.json
+    owl:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/mirbase.mature/mirbase.mature.owl
+      path: mirbase.mature/mirbase.mature.owl
+      version_iri: https://w3id.org/biopragmatics/resources/mirbase.mature/22.1/mirbase.mature.owl
+      version_path: mirbase.mature/22.1/mirbase.mature.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/mirbase.mature/mirbase.mature.sssom.tsv
+      path: mirbase.mature/mirbase.mature.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/mirbase.mature/22.1/mirbase.mature.sssom.tsv
+      version_path: mirbase.mature/22.1/mirbase.mature.sssom.tsv
+    summary:
+      alts: 0
+      definitions: 0
+      parents: 0
+      properties: 0
+      references: 0
+      relations: 0
+      synonyms: 7179
+      terms: 49168
+      version: '22.1'
+      xrefs: 0
   npass:
     nodes:
       gzipped: false
@@ -455,6 +617,12 @@ resources:
       path: npass/npass.owl
       version_iri: https://w3id.org/biopragmatics/resources/npass/2.0/npass.owl
       version_path: npass/2.0/npass.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/npass/npass.sssom.tsv
+      path: npass/npass.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/npass/2.0/npass.sssom.tsv
+      version_path: npass/2.0/npass.sssom.tsv
     summary:
       alts: 0
       definitions: 0
@@ -479,6 +647,12 @@ resources:
       path: pathbank/pathbank.obo.gz
       version_iri: https://w3id.org/biopragmatics/resources/pathbank/2.0/pathbank.obo.gz
       version_path: pathbank/2.0/pathbank.obo.gz
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pathbank/pathbank.sssom.tsv
+      path: pathbank/pathbank.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/pathbank/2.0/pathbank.sssom.tsv
+      version_path: pathbank/2.0/pathbank.sssom.tsv
     summary:
       alts: 0
       definitions: 0
@@ -515,6 +689,12 @@ resources:
       path: pfam/pfam.owl
       version_iri: https://w3id.org/biopragmatics/resources/pfam/36.0/pfam.owl
       version_path: pfam/36.0/pfam.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pfam/pfam.sssom.tsv
+      path: pfam/pfam.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/pfam/36.0/pfam.sssom.tsv
+      version_path: pfam/36.0/pfam.sssom.tsv
     summary:
       alts: 0
       definitions: 20795
@@ -551,6 +731,12 @@ resources:
       path: pfam.clan/pfam.clan.owl
       version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/36.0/pfam.clan.owl
       version_path: pfam.clan/36.0/pfam.clan.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.sssom.tsv
+      path: pfam.clan/pfam.clan.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/36.0/pfam.clan.sssom.tsv
+      version_path: pfam.clan/36.0/pfam.clan.sssom.tsv
     summary:
       alts: 0
       definitions: 0
@@ -587,6 +773,12 @@ resources:
       path: pombase/pombase.owl
       version_iri: https://w3id.org/biopragmatics/resources/pombase/2023-10-01/pombase.owl
       version_path: pombase/2023-10-01/pombase.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pombase/pombase.sssom.tsv
+      path: pombase/pombase.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/pombase/2023-10-01/pombase.sssom.tsv
+      version_path: pombase/2023-10-01/pombase.sssom.tsv
     summary:
       alts: 0
       definitions: 12685
@@ -623,6 +815,12 @@ resources:
       path: reactome/reactome.owl.gz
       version_iri: https://w3id.org/biopragmatics/resources/reactome/86/reactome.owl.gz
       version_path: reactome/86/reactome.owl.gz
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/reactome/reactome.sssom.tsv
+      path: reactome/reactome.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/reactome/86/reactome.sssom.tsv
+      version_path: reactome/86/reactome.sssom.tsv
     summary:
       alts: 0
       definitions: 0
@@ -659,6 +857,12 @@ resources:
       path: rgd/rgd.owl.gz
       version_iri: https://w3id.org/biopragmatics/resources/rgd/2023-10-13/rgd.owl.gz
       version_path: rgd/2023-10-13/rgd.owl.gz
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/rgd/rgd.sssom.tsv
+      path: rgd/rgd.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/rgd/2023-10-13/rgd.sssom.tsv
+      version_path: rgd/2023-10-13/rgd.sssom.tsv
     summary:
       alts: 0
       definitions: 46548
@@ -695,6 +899,12 @@ resources:
       path: rhea/rhea.owl
       version_iri: https://w3id.org/biopragmatics/resources/rhea/129/rhea.owl
       version_path: rhea/129/rhea.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/rhea/rhea.sssom.tsv
+      path: rhea/rhea.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/rhea/129/rhea.sssom.tsv
+      version_path: rhea/129/rhea.sssom.tsv
     summary:
       alts: 0
       definitions: 0
@@ -731,6 +941,12 @@ resources:
       path: sgd/sgd.owl
       version_iri: https://w3id.org/biopragmatics/resources/sgd/R64-3-1/sgd.owl
       version_path: sgd/R64-3-1/sgd.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/sgd/sgd.sssom.tsv
+      path: sgd/sgd.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/sgd/R64-3-1/sgd.sssom.tsv
+      version_path: sgd/R64-3-1/sgd.sssom.tsv
     summary:
       alts: 0
       definitions: 6600
@@ -742,7 +958,36 @@ resources:
       terms: 6600
       version: R64-3-1
       xrefs: 0
-  slm: {}
+  slm:
+    nodes:
+      gzipped: true
+      iri: https://w3id.org/biopragmatics/resources/slm/slm.tsv.gz
+      path: slm/slm.tsv.gz
+      version_iri: https://w3id.org/biopragmatics/resources/slm/2023-10-19/slm.tsv.gz
+      version_path: slm/2023-10-19/slm.tsv.gz
+    obo:
+      gzipped: true
+      iri: https://w3id.org/biopragmatics/resources/slm/slm.obo.gz
+      path: slm/slm.obo.gz
+      version_iri: https://w3id.org/biopragmatics/resources/slm/2023-10-19/slm.obo.gz
+      version_path: slm/2023-10-19/slm.obo.gz
+    sssom:
+      gzipped: true
+      iri: https://w3id.org/biopragmatics/resources/slm/slm.sssom.sssom.tsv.gz
+      path: slm/slm.sssom.sssom.tsv.gz
+      version_iri: https://w3id.org/biopragmatics/resources/slm/2023-10-19/slm.sssom.sssom.tsv.gz
+      version_path: slm/2023-10-19/slm.sssom.sssom.tsv.gz
+    summary:
+      alts: 0
+      definitions: 0
+      parents: 0
+      properties: 2150101
+      references: 9948
+      relations: 0
+      synonyms: 1344722
+      terms: 779249
+      version: '2023-10-19'
+      xrefs: 820222
   uniprot:
     nodes:
       gzipped: false
@@ -768,6 +1013,12 @@ resources:
       path: uniprot/uniprot.owl.gz
       version_iri: https://w3id.org/biopragmatics/resources/uniprot/2023_04/uniprot.owl.gz
       version_path: uniprot/2023_04/uniprot.owl.gz
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/uniprot/uniprot.sssom.tsv
+      path: uniprot/uniprot.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/uniprot/2023_04/uniprot.sssom.tsv
+      version_path: uniprot/2023_04/uniprot.sssom.tsv
     summary:
       alts: 0
       definitions: 0
@@ -804,6 +1055,12 @@ resources:
       path: wikipathways/wikipathways.owl
       version_iri: https://w3id.org/biopragmatics/resources/wikipathways/20231010/wikipathways.owl
       version_path: wikipathways/20231010/wikipathways.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/wikipathways/wikipathways.sssom.tsv
+      path: wikipathways/wikipathways.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/wikipathways/20231010/wikipathways.sssom.tsv
+      version_path: wikipathways/20231010/wikipathways.sssom.tsv
     summary:
       alts: 0
       definitions: 0
@@ -840,6 +1097,12 @@ resources:
       path: zfin/zfin.owl.gz
       version_iri: https://w3id.org/biopragmatics/resources/zfin/2023-10-18/zfin.owl.gz
       version_path: zfin/2023-10-18/zfin.owl.gz
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/zfin/zfin.sssom.tsv
+      path: zfin/zfin.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/zfin/2023-10-18/zfin.sssom.tsv
+      version_path: zfin/2023-10-18/zfin.sssom.tsv
     summary:
       alts: 27903
       definitions: 32815

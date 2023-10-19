@@ -158,6 +158,7 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False) -> dict:
     directory.mkdir(exist_ok=True, parents=True)
     obo_path = directory.joinpath(f"{prefix}.obo")
     names_path = directory.joinpath(f"{prefix}.tsv")
+    sssom_path = directory.joinpath(f"{prefix}.sssom.tsv")
     obo_graph_json_path = directory.joinpath(f"{prefix}.json")
     owl_path = directory.joinpath(f"{prefix}.owl")
 
@@ -199,6 +200,10 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False) -> dict:
                 file=file,
             )
     rv["nodes"] = _prepare_art(prefix, names_path, has_version, ".tsv.gz")
+
+    sssom_df = pyobo.get_sssom_df(obo)
+    sssom_df.to_csv(sssom_path, sep='\t', index=False)
+    rv["sssom"] = _prepare_art(prefix, sssom_path, has_version, ".sssom.tsv.gz")
 
     if not do_convert:
         return rv
