@@ -10,7 +10,7 @@ import gzip
 import os
 import shutil
 from pathlib import Path
-from typing import NotRequired, Optional, TypedDict
+from typing import Optional, TypedDict
 
 import bioontologies.version
 import bioregistry
@@ -25,6 +25,8 @@ from pyobo import Obo
 from pyobo.sources import ontology_resolver
 from tqdm import tqdm
 from tqdm.contrib.logging import logging_redirect_tqdm
+from typing_extensions import NotRequired
+
 
 BASE_PURL = "https://w3id.org/biopragmatics/resources"
 HERE = Path(__file__).parent.resolve()
