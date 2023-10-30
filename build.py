@@ -165,11 +165,14 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False) -> dict:
     sssom_path = directory.joinpath(f"{prefix}.sssom.tsv")
     obo_graph_json_path = directory.joinpath(f"{prefix}.json")
     owl_path = directory.joinpath(f"{prefix}.owl")
+    log_path = directory.joinpath(f"{prefix}.log.txt")
+    log_path.unlink(missing_ok=True)
 
     try:
         obo.write_obo(obo_path)
     except Exception as e:
         tqdm.write(click.style(f"[{prefix}] failed to write OBO: {e}", fg="red"))
+        log_path.write_text(str(e))
         obo_path.unlink()
         return rv
     rv["obo"] = _prepare_art(prefix, obo_path, has_version, ".obo.gz")
