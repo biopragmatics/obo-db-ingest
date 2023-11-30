@@ -457,6 +457,18 @@ identifier	name	definition	synonyms	alts	parents	species
 107049124	H2BC33		H2B clustered histone 33|2B-III|H2B-III			
 107049125	ADCY5		adenylate cyclase 5			
 107049126	ZFYVE28B		zinc finger FYVE-type containing 28B			
+107049127	YLEC43P		c-type lectin like 43, MHCY region pseudogene			
+107049128	YLEC44		c-type lectin like 44, MHCY region			
+107049129	YLEC45		c-type lectin like 45, MHCY region			
+107049130	MHCY47		major histocompatibility complex Y, class I heavy chain 47			
+107049131	YLEC47		c-type lectin like 47, MHCY region			
+107049132	BCANLP		brevican like pseudogene			
+107049133	YLEC53		c-type lectin like 53, MHCY region			
+107049134	YLEC61		c-type lectin like 61, MHCY region			
+107049135	MHCY64		major histocompatibility complex Y, class I heavy chain 64			
+107049136	YLEC62		c-type lectin like 62, MHCY region			
+107049137	MHCY66		major histocompatibility complex Y, class I heavy chain 66			
+107049138	BLEC4		c-type lectin 4, MHCB region			
 10706	PI4K2B		phosphatidylinositol 4-kinase type 2 beta			
 10707	SEPSECS		Sep (O-phosphoserine) tRNA:Sec (selenocysteine) tRNA synthase			
 10708	MRPL10		mitochondrial ribosomal protein L10			
@@ -601,7 +613,7 @@ identifier	name	definition	synonyms	alts	parents	species
 10925	ERCC8		ERCC excision repair 8, CSA ubiquitin ligase complex subunit			
 10929	KEL		Kell metallo-endopeptidase			
 1093	HIRA		histone cell cycle regulator			
-10932	HTR1A		5-hydroxytryptamine receptor 1A			
+10932	HTR1A		5-hydroxytryptamine receptor 1A|Serotonin Receptor 1A			
 10934	RGS7BP		regulator of G-protein signaling 7 binding protein			
 10937	CWC27		CWC27 spliceosome associated protein homolog			
 1094	FOXK2		forkhead box K2			
@@ -1203,6 +1215,7 @@ identifier	name	definition	synonyms	alts	parents	species
 11792	RWDD2B		RWD domain containing 2B			
 11794	RNF103		ring finger protein 103			
 11795	CFAP206		cilia and flagella associated protein 206			
+11796	C6orf163		C6orf163 homolog			
 11797	SMIM8		small integral membrane protein 8|C6orf162|dJ102H19.2|UPF0708 protein C6orf162			
 11798	USP16		ubiquitin specific peptidase 16			
 11799	SLC7A13		solute carrier family 7 member 13			
@@ -2324,7 +2337,7 @@ identifier	name	definition	synonyms	alts	parents	species
 14	NFU1		NFU1 iron-sulfur cluster scaffold			
 140	RDM1		RAD52 motif containing 1			
 1400	TRIM24		tripartite motif containing 24			
-14003	ZNF692		zinc finger protein 692|B-locus zinc finger protein 3|BZFP3			
+14003	ZNFB3		MHCB zinc finger protein 3|B-locus zinc finger protein 3|BZFP3			
 1402	MED16		mediator complex subunit 16			
 14025	GDF7		growth differentiation factor 7			
 14029	CLN8		ceroid-lipofuscinosis, neuronal 8			
@@ -2600,7 +2613,7 @@ identifier	name	definition	synonyms	alts	parents	species
 14936	PTCH2		patched 2			
 1494	PFKFB1		6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 1			
 14961	PGAP3		post-GPI attachment to proteins 3			
-14968	TRIM39.2		tripartite motif containing 39.2			
+14968	TRIM39.2		tripartite motif containing 39.2, MHCB region			
 1498	FOXI1		forkhead box I1			
 1499	CLCC1		chloride channel CLIC like 1			
 150	MAN2A1		mannosidase alpha class 2A member 1			
@@ -3459,7 +3472,7 @@ identifier	name	definition	synonyms	alts	parents	species
 2373	PTP4A2		protein tyrosine phosphatase 4A2			
 2374	STAT3		signal transducer and activator of transcription 3			
 2375	PLPP5		phospholipid phosphatase 5			
-23751	CD1C		CD1c molecule|CD1.1|CD1.2|CD1D|CD1-1 antigen|CD1D antigen|CD1A1|d polypeptide|CD1d molecule			
+23751	CD1G		CD1g molecule|chCD1-1|CD1.1			
 2377	DRD1		dopamine receptor D1			
 2378	KHDRBS1		KH RNA binding domain containing, signal transduction associated 1			
 2379	HSDL1		hydroxysteroid dehydrogenase like 1			
@@ -4785,6 +4798,7 @@ identifier	name	definition	synonyms	alts	parents	species
 4146	MSI2		musashi RNA binding protein 2			
 4147	USP47		ubiquitin specific peptidase 47			
 4148	HCCS		holocytochrome c synthase			
+414883	BMP1		bone morphogenetic protein 1			
 4149	NOXO1		NADPH oxidase organizer 1			
 415	TERF2		telomeric repeat binding factor 2			
 4150	NOLC1		nucleolar and coiled-body phosphoprotein 1			
@@ -5424,6 +5438,7 @@ identifier	name	definition	synonyms	alts	parents	species
 49061	KCND2		potassium voltage-gated channel subfamily D member 2			
 49062	ERG		ETS transcription factor ERG			
 49063	SOX9		SRY-box 9			
+49064	B3GAT3		beta-1,3-glucuronyltransferase 3			
 49065	TRPC3		transient receptor potential cation channel subfamily C member 3			
 49066	ATP5F1AZ		ATP synthase F1 subunit alpha Z chromosome			
 49067	HSP90B1		heat shock protein 90 beta family member 1|hsp108			
@@ -5555,7 +5570,7 @@ identifier	name	definition	synonyms	alts	parents	species
 49203	SLC35A1		solute carrier family 35 member A1			
 49204	SMC1A		structural maintenance of chromosomes 1A			
 49205	P2RX1		purinergic receptor P2X 1			
-49206	SLURP1		secreted LY6/PLAUR domain containing 1|HEP21|hen egg protein 21 kDa			
+49206	HEP21		HEP21 secreted LY6/PLAUR domain containing, MHCB region|hen egg protein 21 kDa			
 49207	BCL2L10		BCL2 like 10			
 49208	IL1B		interleukin 1, beta|IL-1BETA|IL1beta|IL-1 beta|interleukin-1 beta			
 49209	CASQ2		calsequestrin 2			
@@ -5963,7 +5978,7 @@ identifier	name	definition	synonyms	alts	parents	species
 49648	EFNA5		ephrin A5			
 49649	LRP8		LDL receptor related protein 8			
 49650	SOX2		SRY-box 2			
-49651	TNX		avian tenascin X|tenascin XB|tenascin precursor|TNXB|TN-Y|tenascin Y			
+49651	TNXB		tenascin XB|TNX|avian tenascin X|TN|TN-Y			
 49652	CRYBB3		crystallin beta B3			
 49653	FOXD1		forkhead box D1			
 49654	FOXG1		forkhead box G1|Qin			
@@ -6031,7 +6046,7 @@ identifier	name	definition	synonyms	alts	parents	species
 49715	TF		transferrin (ovotransferrin)|ovotransferrin|allergen Gal d III|lactotransferrin|ovotransferrin BB type|ovotransferrin BC type|ovotransferrin CC type|serum transferrin|LTF|TFEW|conalbumin			
 49716	COL1A2		collagen type I alpha 2 chain|pro-alpha 1(I)|pro alpha 1 collagen|alpha 1 type I collagen			
 49717	FABP7		fatty acid binding protein 7			
-49718	BZFP1		B-locus zinc finger protein 1			
+49718	ZNFB1		MHCB zinc finger protein 1|BZFP1|cKr1			
 49719	CKB		creatine kinase B			
 4972	CLDN18		claudin 18			
 49720	TUBB		tubulin beta class I			
@@ -6102,7 +6117,7 @@ identifier	name	definition	synonyms	alts	parents	species
 49787	IFNA3		interferon			
 49788	RPL26L1		ribosomal protein L26 like 1			
 4979	MTMR14		myotubularin related protein 14			
-49792	BG2		intestinal zipper protein|BG antigen			
+49792	BG2		BG antigen 2, MHCB region|BG antigen			
 49793	OPN1SW		opsin 1 (cone pigments), short-wave-sensitive (violet cone opsin)|SWS1|opsin|violet cone opsin|violet cone photoreceptor pigment|violet-sensitive opsin			
 49794	OPN1LW		opsin 1 (cone pigments), long-wave-sensitive (color blindness, protan)|red-sensitive opsin|iodopsin|red cone photoreceptor pigment|red-sensitive pigment			
 49795	VIL1		villin 1			
@@ -6187,7 +6202,7 @@ identifier	name	definition	synonyms	alts	parents	species
 4988	ASXL1		additional sex combs like 1, transcriptional regulator			
 49880	THRSPB		thyroid hormone responsive spot 14 beta			
 49881	SNTB1		syntrophin beta 1			
-49882	BLEC1		C-type lectin-like receptor 1|B-LEC|Blec|CLEC2D|C-type lectin domain family 2, member D			
+49882	BLEC1		c-type lectin like 1, MHCB region|B-LEC|Blec			
 49883	KK34		interleukin-like			
 49884	UBAP2L2		ubiquitin associated protein 2 like 2			
 49885	UBAP2		ubiquitin associated protein 2			
@@ -6609,13 +6624,13 @@ identifier	name	definition	synonyms	alts	parents	species
 50409	EWSR1		EWS RNA binding protein 1			
 5041	RLBP1		retinaldehyde binding protein 1			
 50411	PLBD2		phospholipase B domain containing 2			
-50413	BG8		MHC B-G antigen			
+50413	BG8		BG antigen 8, MHCB region|BG28			
 50415	KIFC1		kinesin family member C1			
-50416	IL4I1		interleukin 4 induced 1|LAO/L-amino-acid oxidase			
-50417	TRIM41		tripartite motif containing 41			
+50416	IL4I1		interleukin 4 induced 1|LAO|L-amino-acid oxidase			
+50417	TRIM41		tripartite motif containing 41, MHCB region			
 50420	BRD2		bromodomain containing 2|bromodomain-containing protein 2 | RING3			
-50421	DMA		major histocompatibility complex, class II, DM alpha			
-50422	DMB2		major histocompatibility complex, class II, DM beta 2			
+50421	DMA		major histocompatibility complex B, class II alpha chain DMA|B-DMA			
+50422	DMB2		major histocompatibility complex B, class II beta chain DMB2|B-DMAB2			
 50425	MHCY34		major histocompatibility complex Y, class I heavy chain 34|RJF.Contig3.LOC02.YF34			
 50426	MHCY10		major histocompatibility complex Y, class I heavy chain 10|RJF.Contig1.LOC33.YF10			
 50430	MHCY38		major histocompatibility complex Y, class I heavy chain 38|RJF.Contig3.LOC16.YF38			
@@ -7070,7 +7085,7 @@ identifier	name	definition	synonyms	alts	parents	species
 50996	CPTP		ceramide-1-phosphate transfer protein			
 50998	LOC419429		protein tyrosine phosphatase, non-receptor type 11-like			
 50999	NOC2L		NOC2 like nucleolar associated transcriptional repressor			
-51	TRIM7.1		tripartite motif containing 7.1|tripartite motif-containing protein 7			
+51	TRIM7.1		tripartite motif containing 7.1, MHCB region|tripartite motif-containing protein 7			
 5100	C1QTNF5		C1q and TNF related 5			
 51000	TMEM201		transmembrane protein 201			
 51002	RBP7		retinol binding protein 7			
@@ -7207,7 +7222,7 @@ identifier	name	definition	synonyms	alts	parents	species
 51167	HNRNPM		heterogeneous nuclear ribonucleoprotein M			
 51168	SPPL2C		signal peptide peptidase like 2C			
 5117	MRPL46		mitochondrial ribosomal protein L46			
-51170	BTN1A1		butyrophilin subfamily 1 member A1			
+51170	BTN1A1		butyrophilin subfamily 1 member A1|subgroup C ASLV receptor|Tvc			
 51171	RAB11B		RAB11B, member RAS oncogene family			
 51172	CD320		CD320 molecule			
 51173	CACTIN		cactin, spliceosome C complex subunit			
@@ -7394,6 +7409,7 @@ identifier	name	definition	synonyms	alts	parents	species
 51398	IMPACT		impact RWD domain protein			
 514	DHODH		dihydroorotate dehydrogenase (quinone)			
 5140	TSPAN6		tetraspanin 6			
+51401	AQP4		aquaporin 4			
 51404	OPN5L1		opsin 5-like 1			
 51406	KLHL14		kelch like family member 14			
 51408	ASXL3		additional sex combs like 3, transcriptional regulator			
@@ -7962,6 +7978,7 @@ identifier	name	definition	synonyms	alts	parents	species
 52116	AHR2		aryl hydrocarbon receptor 2			
 52117	PCNT		pericentrin			
 52118	STAT1		signal transducer and activator of transcription 1			
+52119	C2orf66		C2orf66 homolog			
 52120	PGAP1		post-GPI attachment to proteins 1|LOC424054			
 52121	COQ10B		coenzyme Q10B			
 52122	C2orf69		C2orf69 homolog			
@@ -8168,7 +8185,7 @@ identifier	name	definition	synonyms	alts	parents	species
 52435	CSPG4B		chondroitin sulfate proteoglycan 4B			
 52437	STK3		serine/threonine kinase 3			
 5244	BDH1A		3-hydroxybutyrate dehydrogenase 1A|BDH			
-52441	BF2		Major histocompatibility complex class I antigen BF2|BF|B-F|BF12|BFIV|BFa1|B-FIV|B-LB2|BFIV21|B-F-S01|B-F-S02|B-F-S03|B-F-S09|B-F-S11|B-F-S12|B-F-S13|B-F-S14|B-F histocompatibility F10 antigen|B-F major|B-F-beta-IV|B12|F10 alpha chain|MHC BF2 class I|MHC class I alpha chain 1|MHC class I|alpha chain 2|MHC class I antigen B-F heavy chain|MHC class I antigen B-F major heavy chain|MHC class I molecule|class I histocompatibility antigen, F10 alpha chain|major histocompatibility complex class I glycoprotein|BF2*2101			
+52441	BF2		major histocompatibility complex B, class I heavy chain BF2|BF|B-F|B12|BF12|BFIV|BFa1|B-FIV|B-LB2|BFIV21|B-F-S01|B-F-S02|B-F-S03|B-F-S09|B-F-S11|B-F-S12|B-F-S13|B-F-S14			
 52444	PNPLA6		patatin like phospholipase domain containing 6			
 5245	CHD2		chromodomain helicase DNA binding protein 2			
 52454	LOC425431		dnaJ homolog subfamily A member 1-like			
@@ -8214,11 +8231,11 @@ identifier	name	definition	synonyms	alts	parents	species
 5256	ZNF518A		zinc finger protein 518A			
 52560	SCNM1		sodium channel modifier 1			
 52564	OVSTL		ovostatin-like			
-52568	TRIM7.2		tripartite motif containing 7.2			
+52568	TRIM7.2		tripartite motif containing 7.1, MHCB region			
 52569	CMIP		c-Maf inducing protein			
 52574	MAP3K9		mitogen-activated protein kinase kinase kinase 9			
 52575	LOC425795		ectoderm-neural cortex protein 1-like			
-52578	CD1B		CD1b molecule|CD1.1|CD1.2|CD1A|CD1A2|CD1-2 antigen|CD1.2 antigen|CD1A antigen|a polypeptide|CD1a molecule|T-cell surface glycoprotein CD1A2 antigen|T-cell surface glycoprotein CD1b			
+52578	CD1F		CD1f molecule|chCD1-2|CD1.2			
 5258	HNF1A		HNF1 homeobox A			
 5259	USP28		ubiquitin specific peptidase 28			
 52591	TET3		tet methylcytosine dioxygenase 3			
@@ -8392,7 +8409,7 @@ identifier	name	definition	synonyms	alts	parents	species
 52936	JMJD8		jumonji domain containing 8			
 52937	FIBIN		fin bud initiation factor homolog (zebrafish)			
 5294	RBM7		RNA binding motif protein 7			
-52940	BG1		BG-like antigen 1|B-G|BG-IV			
+52940	BG1		BG antigen 1, MHCB region			
 52942	LZTS3		leucine zipper tumor suppressor family member 3			
 52944	LOC426957		feather keratin 2-like			
 5295	SLC26A11		solute carrier family 26 member 11			
@@ -8419,7 +8436,7 @@ identifier	name	definition	synonyms	alts	parents	species
 52996	SLC38A9		solute carrier family 38 member 9			
 52997	MIER3		MIER family member 3			
 52999	KIF2A		kinesin heavy chain member 2A			
-530	HTR1D		5-hydroxytryptamine (serotonin) receptor 1D, G protein-coupled|HTR1D 5-hydroxytryptamine (serotonin) receptor 1D, G protein-coupled|5-hydroxytryptamine (serotonin) receptor 1D|5-hydroxytryptamine receptor 1D|serotonin 1D alpha receptor|serotonin receptor 1D|HTRL|RDC4|HT1DA|5-HT1D|HTR1DA|5-HT-1D|5-HT-1D-alpha			
+530	HTR1D		5-hydroxytryptamine receptor 1D			
 5300	REXO2		RNA exonuclease 2			
 53000	SREK1IP1		SREK1 interacting protein 1			
 53002	TRAPPC13		trafficking protein particle complex 13|C5orf44|trafficking protein particle complex subunit 13|Trs65-related|UPF0533 protein C5orf44			
@@ -8537,9 +8554,9 @@ identifier	name	definition	synonyms	alts	parents	species
 53166	SBNO1		strawberry notch homolog 1			
 53170	GSC2		goosecoid homeobox 2			
 53172	DYL1		dynein light chain 1 cytoplasmic|dynein, light chain, LC8-type 1			
-53175	BTN3A3L1		butyrophilin subfamily 3 member A3-like 1			
-53176	TAP1		transporter 1, ATP-binding cassette, sub-family B (MDR/TAP)|antigen peptide transporter 1|transporter associated with antigen presentation 1|transporter associated with antigen processing 1			
-53177	TAP2		transporter 2, ATP binding cassette subfamily B			
+53175	BGA3		BG antigen A3, MHCB region			
+53176	TAP1		transporter 1, ATP binding cassette subfamily B member, MHCB region			
+53177	TAP2		transporter 2, ATP binding cassette subfamily B member, MHCB region			
 5318	METTL9		methyltransferase like 9			
 53180	MHCY4		major histocompatibility complex Y, class I heavy chain 4|RJF.Contig1.LOC17.YF4			
 53183	RGL4		ral guanine nucleotide dissociation stimulator like 4			
@@ -8547,6 +8564,7 @@ identifier	name	definition	synonyms	alts	parents	species
 53185	ENTPD2L		ectonucleoside triphosphate diphosphohydrolase 2 like			
 53186	LOC427775		3-ketosteroid-9-alpha-hydroxylase oxygenase subunit-like			
 53188	ENTPD8L2		ectonucleoside triphosphate diphosphohydrolase 8 like 2			
+53189	AJM1		apical junction component 1 homolog			
 5319	ADGRA1		adhesion G protein-coupled receptor A1			
 53190	Pou5f3		POU domain class 5 transcription factor 3|PouV|Pou2			
 53191	LOC427783		dual specificity testis-specific protein kinase 1-like			
@@ -8722,7 +8740,7 @@ identifier	name	definition	synonyms	alts	parents	species
 53436	GPR83L		G protein-coupled receptor 83			
 53437	LOC428702		gap junction alpha-3 protein-like			
 53438	SNX12		sorting nexin 12			
-5344	CPT1A		carnitine palmitoyltransferase 1A			
+5344	CPT1A		carnitine palmitoyltransferase 1A|L-CPT1|CPT1			
 53441	POLR1D		RNA polymerase I subunit D			
 53442	LOC428714		YrdC-like domain-containing protein			
 53444	TSSK6L		testis specific serine kinase 6 like			
@@ -8845,7 +8863,7 @@ identifier	name	definition	synonyms	alts	parents	species
 53700	HIST1H2B5L		histone cluster 1,  H2B-V-like (similar to human histone cluster 1, class H2B genes)			
 53702	NIT1		nitrilase 1			
 5371	LINS1		lines homolog 1			
-53730	CHIR1B6		cluster homolog of immunoglobulin like receptor 6B 6|CHIR-B6			
+53730	CHIR6B6		cluster homolog of immunoglobulin like receptor 6B 6|CHIR-B6			
 53732	MOB1A		MOB kinase activator 1A			
 53735	AIRE		autoimmune regulator			
 53739	LOC429682		GTPase IMAP family member 7-like			
@@ -8857,11 +8875,11 @@ identifier	name	definition	synonyms	alts	parents	species
 53755	KCNN1		potassium calcium-activated channel subfamily N member 1			
 53769	CRPL1		C-reactive protein like 1			
 5377	DAGLB		diacylglycerol lipase beta			
-53773	OZFL		OZF like, MHCY region|RJF.Contig1.LOC05.OZF1			
-53775	TRIM62		tripartite motif containing 62			
+53773	OZFL1		OZF like 1, MHCY region|RJF.Contig1.LOC05.OZF1			
+53775	ERMAP		erythroblast membrane associated protein|TRIM62			
 53776	ASAP3		ArfGAP with SH3 domain, ankyrin repeat and PH domain 3			
 5378	TNFSF8		tumor necrosis factor superfamily member 8			
-53781	CYP21A1		cytochrome P450, family 21, subfamily A, polypeptide 1|steroid 21-hydroxylase||CYP21			
+53781	CYP21A1		cytochrome P450 family 21 subfamily A member 2			
 53782	ZNF687		zinc finger protein 687			
 53786	MAP1S		microtubule associated protein 1S			
 53797	TESK1		testis associated actin remodelling kinase 1			
@@ -8886,7 +8904,7 @@ identifier	name	definition	synonyms	alts	parents	species
 539	EMSY		EMSY, BRCA2 interacting transcriptional repressor|EMSY protein|protein EMSY			
 53900	POU3F1		POU class 3 homeobox 1			
 53907	LOC430303		low-density lipoprotein receptor-related protein 2-like			
-53917	TRIM27.2		tripartite motif containing 27.2|TRIMX			
+53917	TRIM27.2		tripartite motif containing 27.2, MHCB region|TRIMX			
 53919	GCK		glucokinase			
 5392	ZCCHC10		zinc finger CCHC-type containing 10			
 53929	IRF5		interferon regulatory factor 5			
@@ -9040,10 +9058,10 @@ identifier	name	definition	synonyms	alts	parents	species
 5435	HRASLS		HRAS like suppressor			
 54350	NNF1		Nnf1 protein			
 54351	GADD45A		growth arrest and DNA damage inducible alpha			
-54352	BLB2		Major histocompatibility complex class II beta chain BLB2, (similar to HLA class II, D beta chain)|B-L|S19|B-LB|B-LB2|B-LB21|B-LBII|GSP-BLB2|B-L beta chain|B-L beta minor|B-LB21 major|BLB major|Bl-Beta II protein|MHC Class II beta 1 and 2 domains|MHC class II B-L beta|MHC class II B-L beta chain|MHC class II antigen|MHC class II antigen B-F minor heavy chain|MHC class II antigen beta chain|MHC class II beta 1 domain|MHC class II beta chain 2|major histocompatibility class II antigen B-L beta|major histocompatibility complex class II B|major histocompatibility complex class II beta chain			
+54352	BLB2		major histocompatibility complex Y, class II beta BLB2|B-L|S19|B-LB|B-LB2|B-LB21|B-LBII			
 54353	GNLY		granulysin			
 54354	LOC693258		noggin 4			
-54355	BLEC2		C-type lectin-like receptor 2|NK receptor-like|B-NK			
+54355	BLEC2		c-type lectin like 2, MHCB region|NK receptor-like|BNK|B-NK			
 54357	SIX1		SIX homeobox 1			
 54358	PGLYRP2		peptidoglycan recognition protein 2			
 54359	NPY6R		neuropeptide Y receptor Y6			
@@ -9051,10 +9069,10 @@ identifier	name	definition	synonyms	alts	parents	species
 54360	LOC693265		CMD-4			
 54361	CASP18		caspase 18			
 54362	ASF1A		anti-silencing function 1A histone chaperone			
-54363	TRIM39.1		tripartite motif containing 39.1			
+54363	TRIM39.1		tripartite motif containing 39.1, MHCB region			
 54364	CAMK4		calcium/calmodulin dependent protein kinase IV			
-54365	BF1		MHC BF1 class I			
-54366	BLB1		Major histocompatibility complex class II beta chain BLB1|B-LB|B-LB21|GSP-BLB1|B-L beta minor|BLB major|Bl-Beta II protein|MHC class II B-L beta chain|MHC class II antigen beta chain|MHC class II beta 1 domain|MHC class II beta chain 1|major histocompatibility complex class II B			
+54365	BF1		major histocompatibility complex B, class I heavy chain BF1			
+54366	BLB1		major histocompatibility complex Y, class II beta BLB1|B-LB|B-LB21			
 54367	SIX2		SIX homeobox 2			
 54369	RHO		rhodopsin|RDP1|RP4|OPN2|CSNBAD1|opsin 2, rod pigment|opsin-2			
 5437	GATC		glutamyl-tRNA amidotransferase subunit C			
@@ -9133,7 +9151,7 @@ identifier	name	definition	synonyms	alts	parents	species
 5474	SIRT4		sirtuin 4			
 54741	LOC768772		uncharacterized LOC768772			
 54743	SNORC		secondary ossification center associated regulator of chondrocyte maturation			
-54750	BTN1		B-butyrophilin 1			
+54750	BBTN1		butyrophilin 1, MHCB region|B-BNTN1			
 54751	CHIA2		acidic mammalian chitinase 2			
 54753	FOXE1		forkhead box E1 (thyroid transcription factor 2)			
 54759	SH3BGRL3		SH3 domain binding glutamate rich protein like 3			
@@ -9640,6 +9658,7 @@ identifier	name	definition	synonyms	alts	parents	species
 56968	VWA5B1		von Willebrand factor A domain containing 5B1			
 5698	GLS2		glutaminase 2			
 56985	SPAG5		sperm associated antigen 5			
+56989	CFAP97D1		CFAP97 domain containing 1			
 570	ZDHHC18		zinc finger, DHHC-type containing 18			
 5700	RAB22A		RAB22A, member RAS oncogene family			
 57005	RCHY1		ring finger and CHY zinc finger domain containing 1			
@@ -9795,7 +9814,7 @@ identifier	name	definition	synonyms	alts	parents	species
 57947	RDH16		retinol dehydrogenase 16 (all-trans)			
 5797	EME1		essential meiotic structure-specific endonuclease 1			
 57974	PRKCQ		protein kinase C theta			
-58	TRIM27.1		tripartite motif containing 27.1			
+58	TRIM27.1		tripartite motif containing 27.1, MHCB region			
 580	MAPKAPK2		MAPK activated protein kinase 2			
 5800	ENKUR		enkurin, TRPC channel interacting protein			
 5801	HTR2B		5-hydroxytryptamine receptor 2B			
@@ -10081,7 +10100,7 @@ identifier	name	definition	synonyms	alts	parents	species
 59244	DAG1		dystroglycan 1			
 59245	FAAP100		Fanconi anemia core complex associated protein 100			
 59246	FCER1G		Fc fragment of IgE receptor Ig			
-59248	CENPA		centromere protein A|CENP-A|ggCENP-A|histone H3-like centromeric protein A			
+59248	CENPA		centromere protein A|CENP-A|ggCENP-A			
 59249	NSMCE3		NSE3 homolog, SMC5-SMC6 complex component			
 59251	CKS1B		CDC28 protein kinase regulatory subunit 1B			
 59253	WNT11B		Wnt family member 11B|cWnt11b			
@@ -10328,7 +10347,7 @@ identifier	name	definition	synonyms	alts	parents	species
 60697	MIR1782		microRNA 1782			
 60698	MIR1783		microRNA 1783			
 60699	MIR1786		microRNA 1786			
-6070	TAPBP		TAP binding protein			
+6070	TAPBP		TAP binding protein|tapasin|TPN|TPSN			
 60700	MIR1788		microRNA 1788			
 60701	MIR1789		microRNA 1789			
 60702	MIR1792		microRNA 1792			
@@ -10521,7 +10540,7 @@ identifier	name	definition	synonyms	alts	parents	species
 6097	SYT13		synaptotagmin 13			
 6098	B4GALT5		beta-1,4-galactosyltransferase 5			
 6099	LLGL2		LLGL2, scribble cell polarity complex component			
-61	RACK1		receptor for activated C kinase 1|GNB2L1|guanine nucleotide binding protein (G protein), beta polypeptide 2-like 1|receptor of activated protein C kinase 1|Guanine nucleotide-binding protein beta subunit2-like 1|MHC B complex protein 12.3|guanine nucleotide binding 12.3|guanine nucleotide-binding protein beta subunit 2-like 1|guanine nucleotide-binding protein subunit beta-2-like 1|guanine nucleotide-binding protein subunit beta-like protein 12.3|receptor for activated C kinase|receptor of activated protein kinase C 1			
+61	RACK1		receptor for activated C kinase 1|C12.3|GNB2L1|guanine nucleotide-binding protein-related gene			
 6100	PAK3		p21 (RAC1) activated kinase 3			
 6101	ASCC2		activating signal cointegrator 1 complex subunit 2			
 6102	PRKAR2B		protein kinase cAMP-dependent type II regulatory subunit beta			
@@ -10641,7 +10660,7 @@ identifier	name	definition	synonyms	alts	parents	species
 62088	TMEM189		transmembrane protein 189			
 62089	UBE2V1		ubiquitin conjugating enzyme E2 V1			
 6209	EIF3J		eukaryotic translation initiation factor 3 subunit J			
-62090	BLEC3		c-type lectin-like receptor 3			
+62090	BLEC5		c-type lectin 5, MHCB region			
 62091	RAX		retina and anterior neural fold homeobox|cRax			
 62092	PANK4		pantothenate kinase 4			
 621	LMX1B		LIM homeobox transcription factor 1 beta			
@@ -10714,6 +10733,7 @@ identifier	name	definition	synonyms	alts	parents	species
 6273	PMPCB		peptidase, mitochondrial processing subunit beta			
 6274	NEURL1		neuralized E3 ubiquitin protein ligase 1			
 6275	ATG4A		autophagy related 4A cysteine peptidase			
+62753	HHLA2		HHLA2 member of B7 family			
 6279	PSMD10		proteasome 26S subunit, non-ATPase 10			
 62792	TMEM71		transmembrane protein 71			
 628	HBEGF		heparin binding EGF like growth factor			
@@ -10866,7 +10886,7 @@ identifier	name	definition	synonyms	alts	parents	species
 63514	PGAP2		post-GPI attachment to proteins 2			
 63515	LOC100859631		antigen WC1.1-like			
 63517	H3-3C		H3.3 variant histone C|H3.3|variant histone H3.3|Histone 3.3			
-63518	MHCYL		major histocompatibility complex Y, class I heavy chain like			
+63518	MHCY55		major histocompatibility complex Y, class I heavy chain 55|MHCYL			
 63519	HNRNPA1		heterogeneous nuclear ribonucleoprotein A1			
 6352	RAB39B		RAB39B, member RAS oncogene family			
 63521	LOC100859625		uncharacterized LOC100859625			
@@ -10896,7 +10916,7 @@ identifier	name	definition	synonyms	alts	parents	species
 63597	KCNK9		potassium two pore domain channel subfamily K member 9			
 636	SNX27		sorting nexin family member 27			
 63601	SYCE2		synaptonemal complex central element protein 2			
-63611	BTN3A3L2		butyrophilin subfamily 3 member A3-like 2|B-G|BG11			
+63611	BG5		BG antigen 5, MHCB region|BG11			
 63618	C10ORF67		C10ORF67 homolog			
 6362	MPP4		membrane palmitoylated protein 4			
 63623	NR2F1		nuclear receptor subfamily 2 group F member 1			
@@ -11135,7 +11155,7 @@ identifier	name	definition	synonyms	alts	parents	species
 64348	LOC100858753		uncharacterized LOC100858753			
 64350	FCER2		Fc epsilon receptor II			
 64351	SLA2		Src like adaptor 2			
-64352	TRIM10		tripartite motif containing 10			
+64352	BBTN2		butyrophilin 2, MHCB region|B-BTN2			
 6436	CACNA2D1		calcium voltage-gated channel auxiliary subunit alpha2delta 1			
 64363	LOC100858737		uncharacterized LOC100858737			
 64365	ZBTB39		zinc finger and BTB domain containing 39			
@@ -11151,6 +11171,7 @@ identifier	name	definition	synonyms	alts	parents	species
 64397	AvBD14		avian beta-defensin 14			
 644	C1orf174		C1orf174 homolog			
 64400	RRP36		ribosomal RNA processing 36			
+64405	ARID3C		AT-rich interaction domain 3C			
 64406	SRXN1		sulfiredoxin 1			
 64407	MRPL43		mitochondrial ribosomal protein L43			
 64409	LOC100858688		uncharacterized LOC100858688			
@@ -11832,8 +11853,8 @@ identifier	name	definition	synonyms	alts	parents	species
 66172	NEK10		NIMA related kinase 10			
 66174	PATL1		PAT1 homolog 1, processing body mRNA decay factor			
 66175	SKIV2L		Ski2 like RNA helicase			
-66176	H2BL		H2B histone L			
-66177	DMB1		major histocompatibility complex, class II, DM beta 1			
+66176	H2BL		H2B histone L|44G24.1			
+66177	DMB1		major histocompatibility complex B, class II beta chain DMB1|B-DMAB1			
 66178	DIO2		deiodinase, iodothyronine type II			
 66179	NHLH1		nescient helix-loop-helix 1			
 66180	CACNG4		calcium voltage-gated channel auxiliary subunit gamma 4			
@@ -13606,7 +13627,7 @@ identifier	name	definition	synonyms	alts	parents	species
 71302	LOC101751887		NF-kappa-B inhibitor delta-like			
 71307	LOC101751892		uncharacterized LOC101751892			
 71310	LOC101751895		uncharacterized LOC101751895			
-71317	LOC101751902		leukotriene B4 receptor			
+71317	LTB4R3		leukotriene B4 receptor 3			
 7132	SIPA1L1		signal induced proliferation associated 1 like 1			
 71321	NEURL2		neuralized E3 ubiquitin protein ligase 2			
 71327	LOC101751912		E3 ubiquitin-protein ligase TRIM39-like			
@@ -13711,6 +13732,7 @@ identifier	name	definition	synonyms	alts	parents	species
 71641	LOC101752233		uncharacterized LOC101752233			
 7165	AIDA		axin interactor, dorsalization associated|AIDA			
 71652	LOC101752244		uncharacterized LOC101752244			
+71653	ACKR1		atypical chemokine receptor 1			
 71654	LOC101752247		uncharacterized LOC101752247			
 71657	LOC101752250		cell surface glycoprotein CD200 receptor 1-A-like			
 71667	LOC101752260		uncharacterized LOC101752260			
@@ -15887,7 +15909,7 @@ identifier	name	definition	synonyms	alts	parents	species
 77655	LOC107054682		uncharacterized LOC107054682			
 77659	LOC107054686		uncharacterized LOC107054686			
 7766	ALDH6A1		aldehyde dehydrogenase 6 family member A1			
-77670	LOC107054697		C-type lectin domain family 2 member D-like			
+77670	BLEC3		c-type lectin 3, MHCB region			
 77674	LOC107054701		uncharacterized LOC107054701			
 77676	YLEC16P		c-type lectin like 16, MHCY region pseudogene|RJF.Contig1.LOC40.YLec16P			
 77677	MHCY36		major histocompatibility complex Y, class I heavy chain 36|RJF.Contig3.LOC13.YF36			
@@ -16576,6 +16598,8 @@ identifier	name	definition	synonyms	alts	parents	species
 8063	CC2D1B		coiled-coil and C2 domain containing 1B			
 8064	SPAST		spastin			
 8065	DPY30		dpy-30, histone methyltransferase complex regulatory subunit			
+80656	BHLHA15		basic helix-loop-helix family member a15			
+80659	CBX6		chromobox 6			
 8066	ZC3H14		zinc finger CCCH-type containing 14			
 8067	ORC1		origin recognition complex subunit 1			
 8068	MEMO1		mediator of cell motility 1|C21orf19-like protein|protein MEMO1			
@@ -16613,6 +16637,7 @@ identifier	name	definition	synonyms	alts	parents	species
 8110	DCTD		dCMP deaminase			
 8111	PSMC1		proteasome 26S subunit, ATPase 1			
 8112	COX20		COX20, cytochrome c oxidase assembly factor			
+81121	B3GNT3		UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 3			
 8113	NRDE2		NRDE-2, necessary for RNA interference, domain containing|C14orf102|protein NRDE2 homolog|UPF0614 protein C14orf102			
 8114	DESI2		desumoylating isopeptidase 2			
 81142	PTTG1IP2		PTTG1IP family member 2			
@@ -16791,6 +16816,7 @@ identifier	name	definition	synonyms	alts	parents	species
 8350	LYST		lysosomal trafficking regulator			
 8351	MPP6		membrane palmitoylated protein 6			
 8352	ALG6		ALG6, alpha-1,3-glucosyltransferase			
+83526	C3orf80		C3orf80 homolog			
 8353	SLC6A15		solute carrier family 6 member 15			
 8355	ITGB3BP		integrin subunit beta 3 binding protein			
 8356	IRF2BP2		interferon regulatory factor 2 binding protein 2			
@@ -16878,7 +16904,7 @@ identifier	name	definition	synonyms	alts	parents	species
 8425	PDE4B		phosphodiesterase 4B			
 84251	SLC2A11L5		solute carrier family 2 member 11-like 5			
 84253	SLC2A11L1		solute carrier family 2 member 11-like 1			
-84256	V-BG		V-region-like B-G antigen			
+84256	BGV		BG antigen V-region-like, MHCB region|V-BG			
 8426	ABCB10		ATP binding cassette subfamily B member 10			
 84261	GSL		glutamine synthetase-like			
 84266	NF2L		neurofibromin 2-like			
@@ -17126,8 +17152,8 @@ identifier	name	definition	synonyms	alts	parents	species
 84673	LOC101752291		olfactory receptor 14A16-like			
 84674	LOC101752306		olfactory receptor 14I1-like			
 84675	LOC107049008		uncharacterized LOC107049008			
-84677	LOC107049124		major histocompatibility complex-Y, class I heavy chain-like			
-84680	LOC107050833		major histocompatibility complex-Y, class I heavy chain-like			
+84677	MHCY65		major histocompatibility complex Y, class I heavy chain 65			
+84680	MHCY45P		major histocompatibility complex Y, class I heavy chain 45 pseudogene			
 84682	LOC112532053		uncharacterized LOC112532053			
 84683	LOC112532054		uncharacterized LOC112532054			
 84685	KCTD12		potassium channel tetramerization domain containing 12			
@@ -17162,7 +17188,7 @@ identifier	name	definition	synonyms	alts	parents	species
 84713	LOC112529948		GTPase IMAP family member 7-like			
 84714	LOC112529952		fibrinogen-like protein 1-like protein			
 84715	LOC112529953		basic proline-rich protein-like			
-84716	LOC112529954		major histocompatibility complex-Y, class I heavy chain-like			
+84716	MHCY51		major histocompatibility complex Y, class I heavy chain 51|YFV			
 84718	LOC112529957		sperm acrosome membrane-associated protein 6			
 8472	ARV1		ARV1 homolog, fatty acid homeostasis modulator			
 84720	LOC112529964		uncharacterized LOC112529964			
@@ -18588,7 +18614,7 @@ identifier	name	definition	synonyms	alts	parents	species
 86136	LOC112533534		uncharacterized LOC112533534			
 86137	LOC112533535		collagen alpha-1(XI) chain-like			
 86138	LOC112533538		olfactory receptor 6M1-like			
-86139	LOC112533543		zinc finger protein 135-like			
+86139	ZNFB2		MHCB zinc finger protein 2|BZFP2			
 86140	LOC112533551		uncharacterized LOC112533551			
 86141	DDR1		discoidin domain receptor tyrosine kinase 1			
 86142	LOC112533554		olfactory receptor 6M1-like			
@@ -18747,17 +18773,17 @@ identifier	name	definition	synonyms	alts	parents	species
 86312	LOC121106428		chymotrypsinogen A-like			
 86313	LOC121106429		trypsin II-P29-like			
 86314	LOC121106430		class I histocompatibility antigen, F10 alpha chain-like			
-86315	LOC121106431		class I histocompatibility antigen, F10 alpha chain-like			
+86315	MHCY52		major histocompatibility complex Y, class I heavy chain 52			
 86316	LOC121106432		deleted in malignant brain tumors 1 protein-like			
 86317	LOC121106433		C-C motif chemokine 3-like			
 86318	LOC121106434		thymic stromal cotransporter homolog			
 86319	LOC121106435		C-type lectin domain family 2 member B-like			
 8632	CRYBA2		crystallin beta A2|beta A2 crystallin			
-86320	LOC121106436		class I histocompatibility antigen, F10 alpha chain-like			
+86320	MHCY57		major histocompatibility complex Y, class I heavy chain 57			
 86321	LOC121106437		uncharacterized LOC121106437			
 86322	H3C35		H3 clustered histone 35			
-86323	LOC121106439		leukocyte receptor cluster member 9-like			
-86324	LOC121106441		leukocyte receptor cluster member 9-like			
+86323	LENG9L10		leukocyte receptor cluster member 9 like 10, MHCY region			
+86324	LENG9L11		leukocyte receptor cluster member 9 like 11, MHCY region			
 86325	LOC121106442		feather keratin 1-like			
 86327	LOC121106444		protein MANBAL-like			
 86328	TAGLN2		transgelin 2			
@@ -18787,7 +18813,7 @@ identifier	name	definition	synonyms	alts	parents	species
 86352	LOC121106471		V-type proton ATPase catalytic subunit A-like			
 86353	LOC121106472		biogenesis of lysosome-related organelles complex 1 subunit 3-like			
 86354	LOC121106473		T-cell surface glycoprotein CD8 alpha chain-like			
-86355	LOC121106474		C-type lectin domain family 2 member I-like			
+86355	YLEC46		c-type lectin like 46, MHCY region			
 86356	TLX2		T cell leukemia homeobox 2			
 86357	LOC121106476		feather keratin 1-like			
 86358	LOC121106477		cadherin-related family member 4-like			
@@ -18816,15 +18842,15 @@ identifier	name	definition	synonyms	alts	parents	species
 86381	LOC121106499		uncharacterized LOC121106499			
 86382	LOC121106500		uncharacterized LOC121106500			
 86383	LOC121106501		uncharacterized LOC121106501			
-86384	LOC121106502		C-type lectin domain family 2 member I-like			
+86384	YLEC56		c-type lectin like 56, MHCY region			
 86385	LOC121106503		maestro heat-like repeat-containing protein family member 2A			
 86386	TMDD1		transmembrane and death domain 1			
 86387	LOC121106505		sperm-associated antigen 4 protein-like			
 86388	LOC121106506		feather keratin 1-like			
-86389	LOC121106507		class I histocompatibility antigen, F10 alpha chain-like			
+86389	MHCY49P		major histocompatibility complex Y, class I heavy chain 49 pseudogene			
 8639	TYW3		tRNA-yW synthesizing protein 3 homolog			
 86390	LOC121106508		uncharacterized LOC121106508			
-86391	LOC121106509		C-type lectin domain family 2 member B-like			
+86391	YLEC49		c-type lectin like 49, MHCY region			
 86392	CHIR1AB14		cluster homolog of immunoglobulin like receptor 1AB 14			
 86393	LOC121106511		T-cell surface glycoprotein CD8 alpha chain-like			
 86394	LOC121106512		uncharacterized LOC121106512			
@@ -19201,61 +19227,61 @@ identifier	name	definition	synonyms	alts	parents	species
 86778	LOC121106897		uncharacterized LOC121106897			
 86779	LOC121106898		uncharacterized LOC121106898			
 8678	DUSP4		dual specificity phosphatase 4			
-86780	LOC121106899		class I histocompatibility antigen, F10 alpha chain-like			
+86780	MHCY54P		major histocompatibility complex Y, class I heavy chain 54 pseudogene			
 86781	LOC121106900		uncharacterized LOC121106900			
 86782	LOC121106901		uncharacterized LOC121106901			
 86787	LOC121106906		basic proline-rich protein-like			
 8679	HAL		histidine ammonia-lyase			
 86791	LOC121106910		translation initiation factor IF-2-like			
-86792	LOC121106911		leukocyte receptor cluster member 9-like			
-86793	LOC121106912		C-type lectin domain family 2 member B-like			
-86794	LOC121106913		ral guanine nucleotide dissociation stimulator-like 2			
-86795	LOC121106914		carnitine O-palmitoyltransferase 1, muscle isoform-like			
-86796	LOC121106915		zinc finger and BTB domain-containing protein 22-like			
+86792	LENG9L8P		leukocyte receptor cluster member 9 like 8, MHCY region pseudogene			
+86793	YLEC42P		c-type lectin like 42, MHCY region pseudogene			
+86794	RGL2		ral guanine nucleotide dissociation stimulator like 2			
+86795	CPTL		carnitine palmitoyltransferase like			
+86796	ZNFB3		MHCB zinc finger protein 3			
 86797	LOC121106963		uncharacterized LOC121106963			
-86798	LOC121106916		death domain-associated protein 6-like			
+86798	DAXX		death domain associated protein			
 86799	LOC121106917		proteoglycan 4-like			
 868	C2CD4C		C2 calcium dependent domain containing 4C			
 8680	FGFR1OP		FGFR1 oncogene partner			
-86800	LOC121106918		class I histocompatibility antigen, F10 alpha chain-like			
+86800	MHCY60		major histocompatibility complex Y, class I heavy chain 60			
 86801	LOC121106919		zinc finger protein 664-like			
-86802	LOC121106920		uncharacterized LOC121106920			
-86803	LOC121106921		zinc finger protein OZF-like			
-86804	LOC121106922		class I histocompatibility antigen, F10 alpha chain-like			
-86805	LOC121106923		class I histocompatibility antigen, F10 alpha chain-like			
+86802	BG3		BG antigen 3, MHCB region			
+86803	OZFL2		OZF like 2, MHCY region			
+86804	MHCY61		major histocompatibility complex Y, class I heavy chain 61			
+86805	MHCY50P		major histocompatibility complex Y, class I heavy chain 50 pseudogene			
 86806	LOC121106924		class I histocompatibility antigen, F10 alpha chain-like			
-86807	LOC121106925		class I histocompatibility antigen, F10 alpha chain-like			
-86808	LOC121106926		class I histocompatibility antigen, F10 alpha chain-like			
-86810	LOC121106928		class I histocompatibility antigen, F10 alpha chain-like			
-86811	LOC121106929		class I histocompatibility antigen, F10 alpha chain-like			
-86812	LOC121106930		class I histocompatibility antigen, F10 alpha chain-like			
-86813	LOC121106931		class I histocompatibility antigen, F10 alpha chain-like			
+86807	MHCY53P		major histocompatibility complex Y, class I heavy chain 53 pseudogene			
+86808	MHCY46		major histocompatibility complex Y, class I heavy chain 46			
+86810	MHCY62		major histocompatibility complex Y, class I heavy chain 62			
+86811	MHCY44		major histocompatibility complex Y, class I heavy chain 44			
+86812	YLEC55		c-type lectin like 55, MHCY region			
+86813	MHCY59		major histocompatibility complex Y, class I heavy chain 59			
 86814	LOC121106932		E3 ubiquitin-protein ligase RING2-A-like			
 86815	LOC121106933		E3 ubiquitin-protein ligase RING2-A-like			
-86816	LOC121106934		class I histocompatibility antigen, F10 alpha chain-like			
+86816	MHCY48		major histocompatibility complex Y, class I heavy chain 48			
 86817	LOC121106935		uncharacterized LOC124417291			
 86818	LOC121106936		olfactory receptor 14C36-like			
 86819	LOC121106937		uncharacterized LOC121106937			
 86820	LOC121106938		uncharacterized LOC121106938			
 86821	LOC121106939		uncharacterized LOC121106939			
-86822	LOC121106940		C-type lectin domain family 2 member B-like			
+86822	YLEC50		c-type lectin like 50, MHCY region			
 86823	LOC121106941		estradiol 17-beta-dehydrogenase 8-like			
-86824	LOC121106942		C-type lectin domain family 2 member I-like			
-86825	LOC121106943		C-type lectin domain family 2 member E-like			
+86824	YLEC48		c-type lectin like 48, MHCY region			
+86825	YLEC57		c-type lectin like 57, MHCY region			
 86826	LOC121106944		uncharacterized LOC121106944			
-86827	LOC121106945		leukocyte receptor cluster member 9-like			
+86827	LENG9L9		leukocyte receptor cluster member 9 like 9, MHCY region			
 86828	LOC121106946		antigen WC1.1-like			
-86829	LOC121106947		C-type lectin domain family 2 member B-like			
+86829	YLEC51		c-type lectin like 51, MHCY region			
 8683	RNASET2		ribonuclease T2			
 86830	LOC121106948		C-type lectin domain family 2 member B-like			
 86831	LOC121106949		C-type lectin domain family 2 member B-like			
-86832	LOC121106950		C-type lectin domain family 2 member B-like			
+86832	YLEC60		c-type lectin like 60, MHCY region			
 86833	LOC121106951		proteoglycan 4-like			
-86834	LOC121106952		C-type lectin domain family 2 member B-like			
+86834	YLEC58P		c-type lectin like 58, MHCY region pseudogene			
 86835	LOC121106953		uncharacterized LOC121106953			
 86836	LOC121106954		scavenger receptor cysteine-rich domain-containing protein SCART1-like			
 86837	LOC121106955		uncharacterized LOC121106955			
-86838	LOC121106956		C-type lectin domain family 2 member I-like			
+86838	YLEC59		c-type lectin like 59, MHCY region			
 86839	LOC121106957		estradiol 17-beta-dehydrogenase 8-like			
 86840	LOC121106958		uncharacterized LOC121106958			
 86841	LOC121106959		uncharacterized LOC121106959			
@@ -19273,7 +19299,7 @@ identifier	name	definition	synonyms	alts	parents	species
 86853	LOC121106972		uncharacterized LOC121106972			
 86854	LOC121106973		uncharacterized LOC121106973			
 86855	LOC121106974		zinc finger protein 75A-like			
-86856	LOC121106975		C-type lectin domain family 2 member B-like			
+86856	YLEC52		c-type lectin like 52, MHCY region			
 86857	RNA5-8S1		RNA, 5.8S ribosomal 1			
 86858	RNA28S5		RNA, 28S ribosomal 5			
 86859	RNA28S19		RNA, 28S ribosomal 19			
@@ -25441,8 +25467,8 @@ identifier	name	definition	synonyms	alts	parents	species
 93367	PNAT10		N-acetyltransferase, pineal gland isozyme NAT-10			
 93370	LOC415756		uncharacterized LOC415756			
 93371	HARS1		histidyl-tRNA synthetase 1			
-93372	LOC417058		major histocompatibility complex Y, class I heavy chain-like			
-93373	LOC417067		major histocompatibility complex-Y, class I heavy chain-like			
+93372	MHCY63		major histocompatibility complex Y, class I heavy chain 63			
+93373	MHCY58		major histocompatibility complex Y, class I heavy chain 58			
 93374	LOC418927		uncharacterized LOC418927			
 93375	LOC419074		F-box/WD repeat-containing protein 7			
 93377	HBBR		hemoglobin beta, subunit rho			

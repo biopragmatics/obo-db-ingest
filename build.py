@@ -39,11 +39,11 @@ pystow.utils.GLOBAL_PROGRESS_BAR = False
 MAX_SIZE = 100_000_000
 PREFIXES = [
     "eccode",
+    "uniprot",  # this one is used for basically everything after
     "rgd",
     "sgd",
     "mirbase",
     "mgi",
-    "uniprot",
     "hgnc",
     "hgnc.genegroup",
     "pombase",  # after hgnc
@@ -209,7 +209,7 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False) -> dict:
     rv["nodes"] = _prepare_art(prefix, names_path, has_version, ".tsv.gz")
 
     sssom_df = pyobo.get_sssom_df(obo)
-    sssom_df.to_csv(sssom_path, sep='\t', index=False)
+    sssom_df.to_csv(sssom_path, sep="\t", index=False)
     rv["sssom"] = _prepare_art(prefix, sssom_path, has_version, ".sssom.tsv.gz")
 
     if not do_convert:
