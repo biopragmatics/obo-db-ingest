@@ -1,10 +1,14 @@
 format-version: 1.2
-date: 30:11:2023 16:20
+date: 04:01:2024 15:12
 auto-generated-by: bio2obo:mirbase.family
 data-version: 22.1
 ontology: mirbase.family
 property_value: http://purl.org/dc/elements/1.1/title "miRBase Families" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "The miRBase database is a searchable database of published miRNA sequences and annotation. Each entry in the miRBase Sequence database represents a predicted hairpin portion of a miRNA transcript \(termed mir in the database\)\, with information on the location and sequence of the mature miRNA sequence \(termed miR\). Both hairpin and mature sequences are available for searching and browsing\, and entries can also be retrieved by name\, keyword\, references and annotation. All sequence and annotation data are also available for download." xsd:string
+
+[Typedef]
+id: RO:0002351
+name: has member
 
 [Term]
 id: mirbase.family:MIPF0000001

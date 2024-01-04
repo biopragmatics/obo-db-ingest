@@ -10,7 +10,7 @@ SPAC1002.08c	mtf1	mitochondrial RNA polymerase specificity factor, predicted rRN
 SPAC1002.09c	dld1	dihydrolipoamide dehydrogenase Dld1	dldh		so:0001217	
 SPAC1002.10c	sgt1	snRNP binding protein Sgt1			so:0001217	
 SPAC1002.11	gaa1	GPI-anchor transamidase complex subunit Gaa1			so:0001217	
-SPAC1002.12c		succinate-semialdehyde dehydrogenase [NAD(P)+]			so:0001217	
+SPAC1002.12c	ssd1	succinate-semialdehyde dehydrogenase [NAD(P)+] Ssd1			so:0001217	
 SPAC1002.13c	psu1	cell wall beta-glucosidase Psu1			so:0001217	
 SPAC1002.14	itt1	ubiquitin-protein ligase E3 involved in cytoplasmic translational termination			so:0001217	
 SPAC1002.15c	med6	mediator complex subunit Med6	pmc5		so:0001217	
@@ -41,7 +41,7 @@ SPAC1039.10	mmf2	mitochondrial matrix protein, YjgF family protein Mmf2, reactiv
 SPAC1039.11c	gto1	alpha-glucosidase	SPAC922.02c		so:0001217	
 SPAC105.01c	kha1	plasma membrane potassium ion/proton antiporter Kha1			so:0001217	
 SPAC105.02c	ank1	ankyrin repeat protein Ank1			so:0001217	
-SPAC105.03c		DNA-binding transcription factor			so:0001217	
+SPAC105.03c	dal81	DNA-binding transcription factor			so:0001217	
 SPAC1071.01c	pta1	mRNA cleavage and polyadenylation specificity factor complex subunit Pta1	SPAC4H3.15c		so:0001217	
 SPAC1071.02	mms19	CIA machinery iron sulphur cluster to apoprotein adaptor Mms19			so:0001217	
 SPAC1071.03c	sil1	nucleotide exchange factor for the ER lumenal Hsp70 chaperone, Sil1			so:0001217	
@@ -189,7 +189,7 @@ SPAC139.01c	mkt1	post-transcriptional RNA stability regulator Mkt1	SPAC955.02c		
 SPAC139.02c	oac1	mitochondrial carrier, ocaloacetate family anion			so:0001217	
 SPAC139.03	toe2	DNA-binding transcription factor, zf-fungal binuclear cluster type			so:0001217	
 SPAC139.04c	fap2	L-saccharopine oxidase			so:0001217	
-SPAC139.05		succinate-semialdehyde dehydrogenase			so:0001217	
+SPAC139.05	ssd2	succinate-semialdehyde dehydrogenase Ssd2			so:0001217	
 SPAC139.06	hat1	histone acetyltransferase Hat1	SPAC23C4.01|kat1		so:0001217	
 SPAC1399.01c		nucleobase transmembrane transporter			so:0001217	
 SPAC1399.02		tbasic amino acid ransmembrane transporter			so:0001217	
@@ -356,7 +356,7 @@ SPAC16.01	rho2	Rho family GTPase Rho2			so:0001217
 SPAC16.02c	srp2	guard protein for 5'-capping of pre-mRNAs Srp2/Npl3	npl3		so:0001217	
 SPAC16.03c	ura2	dihydroorotase Ura2			so:0001217	
 SPAC16.04	dus3	tRNA/mRNA dihydrouridine synthase Dus3			so:0001217	
-SPAC16.05c	sfp1	DNA-binding transcription factor Sfp1			so:0001217	
+SPAC16.05c	sfp1	DNA-binding transcription factor for ribosome biogenesis Sfp1			so:0001217	
 SPAC1610.01	saf5	methylosome subunit pICln, Saf5	SPAC17A5.17|icln|lot5		so:0001217	
 SPAC1610.02c	mrpl1	mitochondrial ribosomal protein subunit L1			so:0001217	
 SPAC1610.03c	crp79	poly(A) binding protein Crp79	meu5		so:0001217	
@@ -751,7 +751,7 @@ SPAC1D4.03c	aut12	autophagy associated heterodimeric guanine nucleotide exchange
 SPAC1D4.04	cct2	chaperonin-containing T-complex beta subunit Cct2			so:0001217	
 SPAC1D4.05c	erd101	Erd1 homolog			so:0001217	
 SPAC1D4.06c	csk1	cyclin-dependent kinase activating kinase Csk1			so:0001217	
-SPAC1D4.08	pis1	CDP-diacylglycerol--inositol 3-phosphatidyltransferase Pis1			so:0001217	
+SPAC1D4.08	pis1	phosphatidylinositol synthase (CDP-diacylglycerol--inositol 3-phosphatidyltransferase) Pis1			so:0001217	
 SPAC1D4.09c	rtf2	DNA replication termination factor Rtf2			so:0001217	
 SPAC1D4.10	trz1	tRNAse Z, nuclear 3'-tRNA processing endonuclease Trz1	sptrz1		so:0001217	
 SPAC1D4.11c	lkh1	dual specificity protein kinase Lkh1	kic1		so:0001217	
@@ -819,7 +819,7 @@ SPAC20G4.08	pdc1	P-body assembly WD repeat protein	SPAC4F10.01		so:0001217
 SPAC20G4.09		Schizosaccharomyces pombe specific protein			so:0001217	
 SPAC20G8.01	cdc17	ATP-dependent DNA replication ligase Cdc17			so:0001217	
 SPAC20G8.02		mitochondrial DDHD family phospholipase			so:0001217	
-SPAC20G8.03	itr2	myo-inositol transmembrane transporter			so:0001217	
+SPAC20G8.03	itr2	plasma membrane myo-inositol transmembrane transporter			so:0001217	
 SPAC20G8.04c	cir2	mitochondrial electron transfer flavoprotein-ubiquinone oxidoreductase Cir2			so:0001217	
 SPAC20G8.05c	cdc15	F-BAR domain protein Cdc15			so:0001217	
 SPAC20G8.06	not1	CCR4-Not complex scaffold subunit 1			so:0001217	
@@ -918,7 +918,7 @@ SPAC22E12.06c	gmh3	alpha-1,2-galactosyltransferase Gmh3			so:0001217
 SPAC22E12.07	rna1	RanGAP Rna1			so:0001217	
 SPAC22E12.08	rrn10	RNA polymerase I upstream activation factor complex subunit Rrn10			so:0001217	
 SPAC22E12.09c	krp1	kexin	krp		so:0001217	
-SPAC22E12.10c	etp1	mitochondrial [2Fe-2S] cluster assembly ferredoxin Etp1/ cytochrome oxidase cofactor Cox15, fusion protein	cox15		so:0001217	
+SPAC22E12.10c	etp1	mitochondrial [2Fe-2S] cluster assembly ferredoxin Etp1/ heme O monooxygenase Cox15, fusion protein	cox15		so:0001217	
 SPAC22E12.11c	set3	possible histone H3 lysine methyltransferase Set3			so:0001217	
 SPAC22E12.13c	rlp24	ribosomal L24-like protein involved in ribosome biogenesis Rlp24			so:0001217	
 SPAC22E12.14c	sck2	serine/threonine protein kinase S6K family Sck2			so:0001217	
@@ -970,7 +970,7 @@ SPAC22H10.07	scd2	Cdc42 GTPase complex scaffold subunit Scd2	ral3		so:0001217
 SPAC22H10.08		DUF2009 family protein, conserved in yeast and apicomplexa			so:0001217	
 SPAC22H10.09	cbp8	cytochrome b translation regulator Cbp8			so:0001217	
 SPAC22H10.10	alp21	tubulin specific chaperone cofactor E	sto1		so:0001217	
-SPAC22H10.11c	crf1	transcriptional corepressor for ribosomal proteins via TOR signaling pathway Crf1			so:0001217	
+SPAC22H10.11c	ifh1	transcriptional coactivator for ribosomal proteins via TOR signaling pathway Ifh1	crf1		so:0001217	
 SPAC22H10.12c	gdi1	GDP dissociation inhibitor Gdi1	sec19		so:0001217	
 SPAC22H10.13	zym1	metallothionein Zym1			so:0001217	
 SPAC22H12.01c	mug35	Schizosaccharomyces specific protein Mug35	SPAC23G3.13c		so:0001217	
@@ -1311,7 +1311,7 @@ SPAC2C4.15c	ubx2	UBX domain protein Ubx2			so:0001217
 SPAC2C4.16c	rps801	40S ribosomal protein S8	rps8-1|rps8		so:0001217	
 SPAC2C4.17c	msy2	MS ion channel protein 2			so:0001217	
 SPAC2E12.02	hsf1	DNA-binding transcription factor Hsf1	hstf|hsf		so:0001217	
-SPAC2E12.03c		plasma membrane basic amino acid transmembrane transporter			so:0001217	
+SPAC2E12.03c		vacuolar basic amino acid transmembrane transporter			so:0001217	
 SPAC2E12.05	wtf1	wtf element (truncated) Wtf1			so:0001217	
 SPAC2E1P3.01		dehydrogenase			so:0001217	
 SPAC2E1P3.02c	amt3	plasma membrane ammonium transmembrane transporter Amt3			so:0001217	
@@ -1377,7 +1377,7 @@ SPAC30.01c	sec72	ArfGEF Sec72	sec7b		so:0001217
 SPAC30.02c	kti12	elongator complex associated protein Kti12			so:0001217	
 SPAC30.03c	tsn1	translin	tsn|mug90		so:0001217	
 SPAC30.04c	abc4	vacuolar phytochelatin and glutathione S-conjugate ABC family transmembrane transporter Abc4			so:0001217	
-SPAC30C2.02	mmd1	deoxyhypusine hydroxylase			so:0001217	
+SPAC30C2.02	mmd1	eIF-5A-deoxyhypusine hydroxylase			so:0001217	
 SPAC30C2.03		Schizosaccharomyces specific protein			so:0001217	
 SPAC30C2.04	asc1	cofactor for cytoplasmic methionyl-and glutamyl-tRNA synthetases Asc1			so:0001217	
 SPAC30C2.05	erv14	cornichon family protein Erv14			so:0001217	
@@ -2724,7 +2724,7 @@ SPBC1683.01	pho841	plasma membrane inorganic phosphate transmembrane transporter
 SPBC1683.02		adenine deaminase			so:0001217	
 SPBC1683.03c	amf1	plasma membrane ammonium transmembrane transporter Amf1			so:0001217	
 SPBC1683.04		glycosyl hydrolase family 3			so:0001217	
-SPBC1683.05		plasma membrane uricil/uridine transmembrane transporter transmembrane transporter family			so:0001217	
+SPBC1683.05	thi7	plasma membrane thiamine/nicotinamide riboside transmembrane transporter transmembrane transporter family, Thi7			so:0001217	
 SPBC1683.06c	urh1	uridine ribohydrolase Urh1			so:0001217	
 SPBC1683.07	mal1	maltase alpha-glucosidase Mal1			so:0001217	
 SPBC1683.08	ght4	plasma membrane hexose:proton symporter, unknown specificity Ght4			so:0001217	
@@ -2776,7 +2776,7 @@ SPBC16C6.05	tma22	translation machinery associated protein ortholog Tma22			so:0
 SPBC16C6.06	vps10	sorting receptor for vacuolar proteins, Vps10	pep1		so:0001217	
 SPBC16C6.07c	rpt1	19S proteasome base subcomplex ATPase subunit Rpt1			so:0001217	
 SPBC16C6.08c	qcr6	ubiquinol-cytochrome-c reductase complex subunit 8, hinge protein			so:0001217	
-SPBC16C6.09	ogm4	ER membrane protein O-mannosyltransferase Ogm4	oma4		so:0001217	
+SPBC16C6.09	ogm4	ER membrane O-mannosyltransferase Ogm4	oma4		so:0001217	
 SPBC16C6.10	chp2	heterochromatin (HP1) family chromodomain protein Chp2	clo2		so:0001217	
 SPBC16C6.11	rpl3201	60S ribosomal protein L32	rpl32-1		so:0001217	
 SPBC16C6.12c	las1	rixosome complex/ Las1 complex endonuclease Las1			so:0001217	
@@ -3692,7 +3692,7 @@ SPBC3F6.02c	erg26	3 beta-hydroxysteroid dehydrogenase/delta 5-->4-isomerase Erg2
 SPBC3F6.03	trr1	thioredoxin reductase Trr1	caf4|trxR		so:0001217	
 SPBC3F6.04c	nop14	U3 snoRNP-associated protein Nop14			so:0001217	
 SPBC3F6.05	rga1	RhoGAP for Rho1, Rga1			so:0001217	
-SPBC3H7.01	spo14	WD repeat protein Spo14	stl1|SPBP16F5.01c		so:0001217	
+SPBC3H7.01	spo14	GEF for Sar1, WD repeat protein Spo14	stl1|SPBP16F5.01c		so:0001217	
 SPBC3H7.02	sul1	sulfate transmembrane transporter Sul1			so:0001217	
 SPBC3H7.03c	kgd1	2-oxoglutarate dehydrogenase (lipoamide) (e1 component of oxoglutarate dehydrogenase complex)			so:0001217	
 SPBC3H7.04		mitochondrial ribosomal protein subunit			so:0001217	
@@ -4355,7 +4355,7 @@ SPCC1020.05	dcr2	serine/threonine protein phosphatase Dcr2			so:0001217
 SPCC1020.06c	tal1	transaldolase Tal1			so:0001217	
 SPCC1020.07		pseudouridine-5'-phosphatase			so:0001217	
 SPCC1020.08	tyw1	tRNA wybutosine biosynthesis protein Tyw1			so:0001217	
-SPCC1020.09	gnr1	heterotrimeric G protein beta (WD repeat) subunit Gnr1			so:0001217	
+SPCC1020.09	gnr1	human WRAP53 orthlog Gnr1			so:0001217	
 SPCC1020.10	oca2	serine/threonine protein kinase Oca2			so:0001217	
 SPCC1020.11c	emc6	ER membrane protein complex subunit Emc6			so:0001217	
 SPCC1020.12c	xap5	splicing factor, xap-5-like protein	SPCC14G10.06		so:0001217	
@@ -4850,14 +4850,14 @@ SPCC320.13c	ark1	Aurora-B kinase Ark1	aim1|SPCC330.16		so:0001217
 SPCC320.14	sry1	serine racemase Sry1	SPCC330.15c		so:0001217	
 SPCC330.01c	rhp16	DNA translocase/ubiquitin protein ligase E3, human ERCC4 ortholog Rhp16/Rad16	SPCC613.13c|rad16		so:0001217	
 SPCC330.02	rhp7	Rad7 homolog Rhp7	rad7|SPCC613.14		so:0001217	
-SPCC330.03c		NADPH-hemoprotein reductase			so:0001217	
+SPCC330.03c		cytochrome b5 reductase			so:0001217	
 SPCC330.04c	mug135	DUF1773 family protein, with repeat expansion			so:0001217	
 SPCC330.05c	ura4	orotidine 5'-phosphate decarboxylase Ura4			so:0001217	
 SPCC330.06c	pmp20	thioredoxin-related chaperone Pmp20			so:0001217	
 SPCC330.07c		transmembrane transporter			so:0001217	
 SPCC330.08	alg11	GDP-Man:Man3GlcNAc2-PP-Dol alpha-1,2-mannosyltransferase Alg11	gmd3		so:0001217	
 SPCC330.09	enp2	rRNA processing protein Enp2			so:0001217	
-SPCC330.10	pcm1	P-TEFb-cap methyltransferase Pcm1			so:0001217	
+SPCC330.10	pcm1	mRNA 5'-cap (guanine-N7-)-methyltransferase Pcm1			so:0001217	
 SPCC330.11	btb1	BTB/POZ family ubiquitin-type ligase substrate adaptor Btb1			so:0001217	
 SPCC330.12c	sdh3	succinate dehydrogenase (ubiquinone) cytochrome b subunit			so:0001217	
 SPCC330.13	rpc37	DNA-directed RNA polymerase III complex subunit Rpc37			so:0001217	
@@ -5059,7 +5059,7 @@ SPCC622.12c	gdh1	NADP-specific glutamate dehydrogenase Gdh1			so:0001217
 SPCC622.13c	tti1	TTT co-chaperone complex, armadillo-type fold subunit Tti1			so:0001217	
 SPCC622.14		GTPase activating protein			so:0001217	
 SPCC622.15c		Schizosaccharomyces specific protein			so:0001217	
-SPCC622.16c	epe1	histone demethylase (H3-K36 specific), Jmjc domain Epe1	kdm2		so:0001217	
+SPCC622.16c	epe1	histone demethylase, Jmjc domain Epe1	kdm2		so:0001217	
 SPCC622.17	apn1	AP endonuclease, minor transcript isoform Apn1			so:0001217	
 SPCC622.18	rpl6	60S ribosomal protein L6			so:0001217	
 SPCC622.19	jmj4	histone demethylase Jmj4	mug149		so:0001217	
@@ -5139,7 +5139,7 @@ SPCC737.07c		DNA polymerase alpha-associated DNA helicase A			so:0001217
 SPCC737.08	mdn1	rixosome complex midasin subunit Mdn1			so:0001217	
 SPCC737.09c	hmt1	vacuolar phytochelatin and glutathione S-conjugate ABC family transmembrane transporter Hmt1	SPCC74.08c		so:0001217	
 SPCC74.01	sly1	SNARE binding protein Sly1			so:0001217	
-SPCC74.02c	ppn1	mRNA cleavage and polyadenylation specificity factor complex associated protein			so:0001217	
+SPCC74.02c	ppn1	mRNA cleavage and polyadenylation specificity factor complex associated protein (PNUTS)			so:0001217	
 SPCC74.03c	ssp2	serine/threonine protein kinase AMPK catalytic (alpha) subunit Ssp2	ucp9		so:0001217	
 SPCC74.04		amino acid transmembrane transporter			so:0001217	
 SPCC74.05	rpl2702	60S ribosomal protein L27	rpl27-2		so:0001217	

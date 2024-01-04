@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:11:2023 16:09
+date: 04:01:2024 14:16
 auto-generated-by: bio2obo:dictybase.gene
 ontology: dictybase.gene
 property_value: http://purl.org/dc/elements/1.1/title "Dictybase Gene" xsd:string
@@ -12,6 +12,7 @@ name: in taxon
 [Typedef]
 id: RO:0002205
 name: has gene product
+inverse_of: RO:0002204 ! gene product of
 
 [Term]
 id: dictybase.gene:DDB_G0267178
@@ -1284,6 +1285,8 @@ synonym: "signal recognition particle 9 kDa subunit" EXACT []
 id: dictybase.gene:DDB_G0267624
 name: DDB_G0267624
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "FAD-binding PCMH-type domain-containing protein" EXACT []
+synonym: "putative FAD-binding oxidoreductase" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0267628
@@ -1527,6 +1530,8 @@ synonym: "vacuolar protein sorting 25" EXACT []
 id: dictybase.gene:DDB_G0267710
 name: DDB_G0267710
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "CAP domain-containing protein" EXACT []
+synonym: "SCP domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0267712
@@ -1809,6 +1814,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0267814
 name: DDB_G0267814
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF4419 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0267816
@@ -2320,8 +2326,8 @@ synonym: "DNAJ heat shock N-terminal domain-containing protein" EXACT []
 [Term]
 id: dictybase.gene:DDB_G0267996
 name: DDB_G0267996
-relationship: RO:0002205 uniprot:unknown ! has gene product
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "putative transmembrane protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0267998
@@ -2420,8 +2426,8 @@ synonym: "transmembrane protein" EXACT []
 [Term]
 id: dictybase.gene:DDB_G0268028
 name: DDB_G0268028
-relationship: RO:0002205 uniprot:unknown ! has gene product
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF5923 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0268030
@@ -2743,6 +2749,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0268136
 name: DDB_G0268136
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "RelA/SpoT domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0268138
@@ -2913,7 +2920,8 @@ synonym: "AhpC/TSA family protein" EXACT []
 id: dictybase.gene:DDB_G0268194
 name: DDB_G0268194
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "dCTP deaminase" EXACT []
+synonym: "Dcd2" EXACT []
+synonym: "dCTP deaminase 2" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0268196
@@ -3956,6 +3964,7 @@ synonym: "TMEM64 family protein" EXACT []
 id: dictybase.gene:DDB_G0268588
 name: DDB_G0268588
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "ankyrin repeat-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0268590
@@ -5207,6 +5216,7 @@ synonym: "NAD(P)+ transhydrogenase (AB-specific)" EXACT []
 id: dictybase.gene:DDB_G0269048
 name: DDB_G0269048
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF4573 domain-containing protein/hemerythrin-like domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0269050
@@ -6044,6 +6054,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 [Term]
 id: dictybase.gene:DDB_G0269288
 name: DDB_G0269288
+relationship: RO:0002205 uniprot:unknown ! has gene product
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 
 [Term]
@@ -6670,14 +6681,14 @@ synonym: "nucleoporin 160" EXACT []
 [Term]
 id: dictybase.gene:DDB_G0269504
 name: DDB_G0269504
-relationship: RO:0002205 uniprot:unknown ! has gene product
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "nuclear transport factor 2 (NTF2) domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0269506
 name: DDB_G0269506
-relationship: RO:0002205 uniprot:unknown ! has gene product
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "nuclear transport factor 2 (NTF2) domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0269508
@@ -6700,6 +6711,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0269514
 name: DDB_G0269514
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "aminoglycoside phosphotransferase domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0269516
@@ -6742,8 +6754,8 @@ synonym: "frizzled and smoothened-like protein D" EXACT []
 [Term]
 id: dictybase.gene:DDB_G0269530
 name: DDB_G0269530
-relationship: RO:0002205 uniprot:unknown ! has gene product
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "nuclear transport factor 2 (NTF2) domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0269532
@@ -6754,11 +6766,13 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0269534
 name: DDB_G0269534
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "nuclear transport factor 2 (NTF2) domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0269536
 name: DDB_G0269536
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "nuclear transport factor 2 (NTF2) domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0269538
@@ -6769,6 +6783,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0269540
 name: DDB_G0269540
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "nuclear transport factor 2 (NTF2) domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0269542
@@ -6840,6 +6855,8 @@ synonym: "endonuclease/exonuclease/phosphatase domain-containing protein" EXACT 
 id: dictybase.gene:DDB_G0269562
 name: DDB_G0269562
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "nuclear transport factor 2 (NTF2) domain-containing protein" EXACT []
+synonym: "snoaL-like domain 5-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0269564
@@ -6882,7 +6899,8 @@ synonym: "alkaline dihydroceramidase" EXACT []
 id: dictybase.gene:DDB_G0269576
 name: DDB_G0269576
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "FAD dependent oxidoreductase domain-containing protein" EXACT []
+synonym: "FAD-binding PCMH-type domain-containing protein" EXACT []
+synonym: "putative FAD-binding oxidoreductase" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0269578
@@ -7787,6 +7805,8 @@ synonym: "YjeF N-terminal domain-containing protein" EXACT []
 id: dictybase.gene:DDB_G0269892
 name: DDB_G0269892
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "FAD-binding PCMH-type domain-containing protein" EXACT []
+synonym: "putative FAD-binding oxidoreductase" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0269894
@@ -8354,16 +8374,20 @@ synonym: "putative endoglycoceramidase" EXACT []
 id: dictybase.gene:DDB_G0270076
 name: DDB_G0270076
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "nuclear transport factor 2 (NTF2) domain-containing protein" EXACT []
+synonym: "snoaL-like domain 5-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0270078
 name: DDB_G0270078
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "nuclear transport factor 2 (NTF2) domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0270080
 name: DDB_G0270080
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "nuclear transport factor 2 (NTF2) domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0270084
@@ -8853,6 +8877,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0270242
 name: DDB_G0270242
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "peptidase C39-like domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0270244
@@ -9333,6 +9358,7 @@ synonym: "eukaryotic translation initiation factor 4E member 3" EXACT []
 id: dictybase.gene:DDB_G0270408
 name: DDB_G0270408
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF4419 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0270410
@@ -11736,6 +11762,7 @@ synonym: "pseudogene" EXACT []
 id: dictybase.gene:DDB_G0271324
 name: DDB_G0271324
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF5898 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0271326
@@ -11858,10 +11885,12 @@ synonym: "pseudogene" EXACT []
 id: dictybase.gene:DDB_G0271366
 name: DDB_G0271366
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF5898 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0271368
 name: DDB_G0271368
+relationship: RO:0002205 uniprot:unknown ! has gene product
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 
 [Term]
@@ -12209,6 +12238,8 @@ synonym: "pseudogene" EXACT []
 id: dictybase.gene:DDB_G0271510
 name: DDB_G0271510
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "HTTM domain-containing protein" EXACT []
+synonym: "transmembrane protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0271512
@@ -13130,6 +13161,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0271836
 name: DDB_G0271836
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "GrpB family protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0271838
@@ -14768,6 +14800,7 @@ synonym: "putative transmembrane protein" EXACT []
 id: dictybase.gene:DDB_G0272398
 name: DDB_G0272398
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "Complex 1 LYR protein domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0272400
@@ -16148,6 +16181,8 @@ synonym: "actin regulatory protein costars" EXACT []
 id: dictybase.gene:DDB_G0272863
 name: DDB_G0272863
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "CAP domain-containing protein" EXACT []
+synonym: "SCP domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0272865
@@ -16284,6 +16319,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0272911
 name: DDB_G0272911
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "SAYSvFN domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0272913
@@ -16868,6 +16904,7 @@ synonym: "armadillo-like helical domain-containing protein" EXACT []
 id: dictybase.gene:DDB_G0273103
 name: DDB_G0273103
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "cellulose/chitin-binding domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0273105
@@ -17102,6 +17139,8 @@ synonym: "cf50" EXACT []
 id: dictybase.gene:DDB_G0273177
 name: DDB_G0273177
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "UPF0734 family protein" EXACT []
+synonym: "rhamnose/fucose mutarotase family protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0273179
@@ -17400,6 +17439,8 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0273277
 name: DDB_G0273277
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "CAP domain-containing protein" EXACT []
+synonym: "SCP domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0273279
@@ -17610,6 +17651,8 @@ synonym: "rexo2" EXACT []
 id: dictybase.gene:DDB_G0273357
 name: DDB_G0273357
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "CAP domain-containing protein" EXACT []
+synonym: "SCP domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0273359
@@ -17792,6 +17835,8 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0273423
 name: DDB_G0273423
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "CAP domain-containing protein" EXACT []
+synonym: "SCP domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0273425
@@ -18100,6 +18145,8 @@ synonym: "transcription factor IIE" EXACT []
 id: dictybase.gene:DDB_G0273527
 name: DDB_G0273527
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "CAP domain-containing protein" EXACT []
+synonym: "SCP domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0273529
@@ -18717,6 +18764,8 @@ synonym: "amoeba-type lysozyme D" EXACT []
 id: dictybase.gene:DDB_G0273733
 name: DDB_G0273733
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "CAP domain-containing protein" EXACT []
+synonym: "SCP domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0273735
@@ -19002,6 +19051,8 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0273829
 name: DDB_G0273829
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "CAP domain-containing protein" EXACT []
+synonym: "SCP domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0273831
@@ -19019,6 +19070,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0273835
 name: DDB_G0273835
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "cellulose/chitin-binding domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0273837
@@ -19121,6 +19173,8 @@ synonym: "Tyrosyl-DNA phosphodiesterase 1" EXACT []
 id: dictybase.gene:DDB_G0273871
 name: DDB_G0273871
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "UPF0734 family protein" EXACT []
+synonym: "rhamnose/fucose mutarotase family protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0273873
@@ -20567,6 +20621,7 @@ synonym: "beta-ketothiolase" EXACT []
 id: dictybase.gene:DDB_G0274341
 name: htmA
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "HTTM domain-containing protein" EXACT []
 synonym: "RAM3" EXACT []
 synonym: "putative regulator of adhesion and motility 3" EXACT []
 
@@ -20756,6 +20811,7 @@ synonym: "arrestin domain-containing protein B" EXACT []
 id: dictybase.gene:DDB_G0274397
 name: DDB_G0274397
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF5898 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0274399
@@ -21880,6 +21936,7 @@ synonym: "cleavage and polyadenylation specificity factor 73 kDa subunit" EXACT 
 [Term]
 id: dictybase.gene:DDB_G0274801
 name: DDB_G0274801
+relationship: RO:0002205 uniprot:unknown ! has gene product
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 
 [Term]
@@ -24135,6 +24192,8 @@ synonym: "phosphatidylethanolamine-binding protein PEBP" EXACT []
 id: dictybase.gene:DDB_G0275585
 name: DDB_G0275585
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "FAD-binding PCMH-type domain-containing protein" EXACT []
+synonym: "putative FAD-binding oxidoreductase" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0275587
@@ -25536,6 +25595,8 @@ synonym: "recombinase A" EXACT []
 id: dictybase.gene:DDB_G0276075
 name: DDB_G0276075
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "CAP domain-containing protein" EXACT []
+synonym: "SCP domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0276077
@@ -26074,6 +26135,7 @@ synonym: "mitochondrial substrate carrier family protein V" EXACT []
 id: dictybase.gene:DDB_G0276263
 name: DDB_G0276263
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "putative nucleotidyltransferase" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0276265
@@ -26399,6 +26461,7 @@ synonym: "glycoside hydrolase family 18 protein" EXACT []
 id: dictybase.gene:DDB_G0276367
 name: DDB_G0276367
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF4419 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0276369
@@ -26598,6 +26661,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0276435
 name: DDB_G0276435
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "ankyrin repeat-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0276437
@@ -28060,11 +28124,13 @@ synonym: "heat shock protein Hsp20 domain-containing protein" EXACT []
 id: dictybase.gene:DDB_G0276955
 name: DDB_G0276955
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "GNAT acetyltransferase YdfB-like protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0276957
 name: DDB_G0276957
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "GNAT acetyltransferase YdfB-like protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0276959
@@ -28533,6 +28599,7 @@ synonym: "doublecortin" EXACT []
 id: dictybase.gene:DDB_G0277117
 name: DDB_G0277117
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "GNAT acetyltransferase YdfB-like protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0277119
@@ -28761,7 +28828,8 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0277187
 name: DDB_G0277187
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "CAP superfamily protein" EXACT []
+synonym: "CAP domain-containing protein" EXACT []
+synonym: "SCP domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0277189
@@ -28807,6 +28875,7 @@ synonym: "polr3a" EXACT []
 id: dictybase.gene:DDB_G0277201
 name: DDB_G0277201
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "cellulose/chitin-binding domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0277203
@@ -29603,6 +29672,8 @@ synonym: "fungal lipase-like domain-containing protein" EXACT []
 id: dictybase.gene:DDB_G0277475
 name: DDB_G0277475
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "CAP domain-containing protein" EXACT []
+synonym: "SCP domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0277477
@@ -32124,6 +32195,7 @@ synonym: "suppressor of mec-8 and unc-52-like protein" EXACT []
 id: dictybase.gene:DDB_G0278355
 name: DDB_G0278355
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF885 family protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0278357
@@ -32752,6 +32824,7 @@ synonym: "glutamine amidotransferase class-I domain-containing protein" EXACT []
 id: dictybase.gene:DDB_G0278575
 name: DDB_G0278575
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "major facilitator superfamily protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0278577
@@ -32845,6 +32918,7 @@ synonym: "matrilin-like protein" EXACT []
 id: dictybase.gene:DDB_G0278617
 name: DDB_G0278617
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "RING-type zinc finger domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0278621
@@ -33096,6 +33170,7 @@ synonym: "pleckstrin homology (PH) domain-containing protein" EXACT []
 [Term]
 id: dictybase.gene:DDB_G0278705
 name: DDB_G0278705
+relationship: RO:0002205 uniprot:unknown ! has gene product
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 
 [Term]
@@ -34283,6 +34358,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 [Term]
 id: dictybase.gene:DDB_G0279105
 name: DDB_G0279105
+relationship: RO:0002205 uniprot:unknown ! has gene product
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 
 [Term]
@@ -35088,6 +35164,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 [Term]
 id: dictybase.gene:DDB_G0279383
 name: DDB_G0279383
+relationship: RO:0002205 uniprot:unknown ! has gene product
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 
 [Term]
@@ -35790,6 +35867,7 @@ synonym: "aldehyde dehydrogenase" EXACT []
 id: dictybase.gene:DDB_G0279615
 name: DDB_G0279615
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "nuclear transport factor 2 (NTF2) domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0279617
@@ -36224,6 +36302,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0279759
 name: DDB_G0279759
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "putative transmembrane protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0279761
@@ -36792,11 +36871,14 @@ synonym: "UPF0406 family protein" EXACT []
 id: dictybase.gene:DDB_G0279969
 name: DDB_G0279969
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "HTTM domain-containing protein" EXACT []
+synonym: "transmembrane protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0279971
 name: DDB_G0279971
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF4419 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0279973
@@ -37358,6 +37440,7 @@ synonym: "mitochondrial substrate carrier family protein K" EXACT []
 id: dictybase.gene:DDB_G0280163
 name: DDB_G0280163
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "surfeit locus protein 2 homolog" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0280165
@@ -37449,6 +37532,8 @@ synonym: "amidohydrolase 2 family protein" EXACT []
 id: dictybase.gene:DDB_G0280193
 name: DDB_G0280193
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "PAC domain-containing protein" EXACT []
+synonym: "PAS domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0280195
@@ -37776,7 +37861,8 @@ synonym: "putative DNA replication licensing factor" EXACT []
 id: dictybase.gene:DDB_G0280311
 name: DDB_G0280311
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "Protein STB6" EXACT []
+synonym: "Stb2/Stb6 domain-containing protein" EXACT []
+synonym: "peptidoglycan binding-like domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0280313
@@ -39056,6 +39142,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0280781
 name: DDB_G0280781
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "GNAT acetyltransferase YdfB-like protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0280783
@@ -40328,6 +40415,7 @@ synonym: "transcription factor IIIB subunit" EXACT []
 id: dictybase.gene:DDB_G0281217
 name: DDB_G0281217
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "CCHC-type zinc finger-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0281219
@@ -40445,6 +40533,7 @@ synonym: "putative transport protein" EXACT []
 [Term]
 id: dictybase.gene:DDB_G0281257
 name: DDB_G0281257
+relationship: RO:0002205 uniprot:unknown ! has gene product
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 
 [Term]
@@ -40833,6 +40922,8 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0281399
 name: DDB_G0281399
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "FAD-binding PCMH-type domain-containing protein" EXACT []
+synonym: "putative FAD-binding oxidoreductase" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0281401
@@ -40946,6 +41037,7 @@ synonym: "lysyl-tRNA synthetase" EXACT []
 [Term]
 id: dictybase.gene:DDB_G0281439
 name: DDB_G0281439
+relationship: RO:0002205 uniprot:unknown ! has gene product
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 
 [Term]
@@ -41575,6 +41667,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0281645
 name: DDB_G0281645
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF5898 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0281647
@@ -41747,6 +41840,7 @@ synonym: "ubiquitin-like protein" EXACT []
 id: dictybase.gene:DDB_G0281705
 name: DDB_G0281705
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "ROK family protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0281707
@@ -42596,6 +42690,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0281999
 name: DDB_G0281999
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "nuclear transport factor 2 (NTF2) domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0282001
@@ -43189,6 +43284,8 @@ synonym: "WD-40 repeat-containing protein" EXACT []
 id: dictybase.gene:DDB_G0282213
 name: DDB_G0282213
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "CobW C-terminal domain-containing protein" EXACT []
+synonym: "P-loop containing nucleoside triphosphate hydrolase domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0282215
@@ -43947,6 +44044,7 @@ synonym: "putative glycosyltransferase" EXACT []
 [Term]
 id: dictybase.gene:DDB_G0282471
 name: DDB_G0282471
+relationship: RO:0002205 uniprot:unknown ! has gene product
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 
 [Term]
@@ -44085,6 +44183,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0282521
 name: DDB_G0282521
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF5898 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0282523
@@ -44649,6 +44748,7 @@ synonym: "pleckstrin homology (PH) domain-containing protein" EXACT []
 id: dictybase.gene:DDB_G0282719
 name: DDB_G0282719
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF5898 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0282721
@@ -44784,6 +44884,7 @@ synonym: "short-chain dehydrogenase/reductase (SDR) family protein" EXACT []
 id: dictybase.gene:DDB_G0282767
 name: DDB_G0282767
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF4419 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0282769
@@ -44960,6 +45061,7 @@ synonym: "Yip1 domain-containing protein" EXACT []
 id: dictybase.gene:DDB_G0282827
 name: DDB_G0282827
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF5898 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0282829
@@ -45040,6 +45142,7 @@ synonym: "tRNA-splicing endonuclease subunit Sen2" EXACT []
 id: dictybase.gene:DDB_G0282857
 name: DDB_G0282857
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF5898 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0282859
@@ -46310,6 +46413,8 @@ synonym: "putative protein kinase" EXACT []
 id: dictybase.gene:DDB_G0283303
 name: DDB_G0283303
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "FAD-binding PCMH-type domain-containing protein" EXACT []
+synonym: "putative FAD-binding oxidoreductase" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0283305
@@ -47074,6 +47179,7 @@ synonym: "putative spore coat protein" EXACT []
 id: dictybase.gene:DDB_G0283557
 name: DDB_G0283557
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "putative nucleotidyltransferase" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0283559
@@ -48857,6 +48963,7 @@ synonym: "vacuolar import and degradation protein" EXACT []
 id: dictybase.gene:DDB_G0284151
 name: DDB_G0284151
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "GNAT acetyltransferase YdfB-like protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0284153
@@ -49489,6 +49596,7 @@ synonym: "CF60 counting factor complex component" EXACT []
 id: dictybase.gene:DDB_G0284365
 name: DDB_G0284365
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "phosphoribosyltransferase domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0284367
@@ -50286,14 +50394,14 @@ id: dictybase.gene:DDB_G0284629
 name: DDB_G0284629
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "nuclear transport factor 2 (NTF2) domain-containing protein" EXACT []
-synonym: "snoaL-like domain-containing protein" EXACT []
+synonym: "snoaL-like domain 5-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0284631
 name: DDB_G0284631
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "nuclear transport factor 2 (NTF2) domain-containing protein" EXACT []
-synonym: "snoaL-like domain-containing protein" EXACT []
+synonym: "snoaL-like domain 5-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0284633
@@ -50636,6 +50744,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0284751
 name: DDB_G0284751
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "aminoglycoside phosphotransferase domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0284753
@@ -51432,6 +51541,7 @@ synonym: "putative mitochondrial transferase caf17" EXACT []
 id: dictybase.gene:DDB_G0285013
 name: DDB_G0285013
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "GNAT acetyltransferase YdfB-like protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0285015
@@ -52661,7 +52771,8 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0285437
 name: DDB_G0285437
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "Uncharacterized protein YMR262W" EXACT []
+synonym: "metal-dependent hydrolase superfamily protein" EXACT []
+synonym: "uncharacterized protein YMR262W" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0285439
@@ -52968,6 +53079,8 @@ synonym: "palmitoyl-protein thioesterase 1" EXACT []
 id: dictybase.gene:DDB_G0285535
 name: DDB_G0285535
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "FAD-binding PCMH-type domain-containing protein" EXACT []
+synonym: "putative FAD-binding oxidoreductase" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0285537
@@ -53409,8 +53522,8 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 [Term]
 id: dictybase.gene:DDB_G0285693
 name: DDB_G0285693
-relationship: RO:0002205 uniprot:unknown ! has gene product
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "BRCA1-associated domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0285695
@@ -53772,7 +53885,7 @@ synonym: "rpf1" EXACT []
 id: dictybase.gene:DDB_G0285831
 name: DDB_G0285831
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "Protein elaA" EXACT []
+synonym: "N-acetyltransferase domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0285833
@@ -56472,6 +56585,7 @@ synonym: "histone H2A" EXACT []
 id: dictybase.gene:DDB_G0286749
 name: DDB_G0286749
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "major facilitator superfamily domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0286751
@@ -56661,6 +56775,7 @@ synonym: "G protein signalling regulator" EXACT []
 id: dictybase.gene:DDB_G0286821
 name: DDB_G0286821
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "lucA/lucC family protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0286823
@@ -57254,6 +57369,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 [Term]
 id: dictybase.gene:DDB_G0287025
 name: DDB_G0287025
+relationship: RO:0002205 uniprot:unknown ! has gene product
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 
 [Term]
@@ -58294,6 +58410,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0287389
 name: DDB_G0287389
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "lucA/lucC family protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0287391
@@ -59739,6 +59856,7 @@ synonym: "sec10" EXACT []
 id: dictybase.gene:DDB_G0287885
 name: DDB_G0287885
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF5898 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0287889
@@ -59833,6 +59951,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0287929
 name: DDB_G0287929
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "ankyrin repeat-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0287931
@@ -61170,6 +61289,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0288395
 name: DDB_G0288395
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "monooxygenase af470-like domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0288397
@@ -61258,6 +61378,7 @@ synonym: "major facilitator superfamily protein" EXACT []
 id: dictybase.gene:DDB_G0288437
 name: DDB_G0288437
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "putative transmembrane protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0288439
@@ -61869,6 +61990,7 @@ synonym: "ponticulin-related protein" EXACT []
 id: dictybase.gene:DDB_G0288651
 name: DDB_G0288651
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "Teg/CotR-like family protein" EXACT []
 synonym: "patatin family protein" EXACT []
 
 [Term]
@@ -62553,6 +62675,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0288885
 name: DDB_G0288885
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF5898 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0288887
@@ -63688,6 +63811,7 @@ synonym: "GINS complex subunit 1" EXACT []
 id: dictybase.gene:DDB_G0289273
 name: DDB_G0289273
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "ankyrin repeat-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0289275
@@ -63869,6 +63993,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0289349
 name: DDB_G0289349
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "Teg/CotR-like family protein" EXACT []
 synonym: "patatin family protein" EXACT []
 
 [Term]
@@ -64003,6 +64128,7 @@ synonym: "cAMP receptor-like protein" EXACT []
 id: dictybase.gene:DDB_G0289397
 name: DDB_G0289397
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "type A von Willebrand factor (VWFA) domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0289399
@@ -64578,6 +64704,7 @@ synonym: "RNA polymerase I-specific transcription initiation factor" EXACT []
 id: dictybase.gene:DDB_G0289591
 name: DDB_G0289591
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "ankyrin repeat-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0289593
@@ -64655,6 +64782,7 @@ synonym: "leucine-rich repeat-containing protein (LRR)" EXACT []
 id: dictybase.gene:DDB_G0289615
 name: DDB_G0289615
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "ankyrin repeat-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0289617
@@ -64888,6 +65016,7 @@ synonym: "transmembrane protein" EXACT []
 id: dictybase.gene:DDB_G0289697
 name: DDB_G0289697
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "FAD-binding PCMH-type domain-containing protein" EXACT []
 synonym: "putative FAD-binding oxidoreductase" EXACT []
 
 [Term]
@@ -64963,7 +65092,7 @@ synonym: "B-box zinc finger-containing protein/FNIP repeat-containing protein" E
 id: dictybase.gene:DDB_G0289719
 name: DDB_G0289719
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "SFRS2-interacting protein" EXACT []
+synonym: "RING-type zinc finger domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0289721
@@ -65291,6 +65420,7 @@ synonym: "phosphoglycerate/bisphosphoglycerate mutase family protein" EXACT []
 id: dictybase.gene:DDB_G0289837
 name: DDB_G0289837
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF4419 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0289839
@@ -67316,6 +67446,7 @@ synonym: "putative NAD-dependent aldehyde dehydrogenase" EXACT []
 id: dictybase.gene:DDB_G0290539
 name: DDB_G0290539
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "putative DNA alkylation repair enzyme" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0290541
@@ -67491,6 +67622,7 @@ synonym: "NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 8 f
 id: dictybase.gene:DDB_G0290603
 name: DDB_G0290603
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "nuclear transport factor 2 (NTF2) domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0290605
@@ -68047,6 +68179,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0290805
 name: DDB_G0290805
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF4419 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0290807
@@ -68079,11 +68212,13 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0290821
 name: DDB_G0290821
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF4419 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0290823
 name: DDB_G0290823
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF4419 domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0290825
@@ -70210,6 +70345,7 @@ synonym: "transferase hexapeptide repeat family protein" EXACT []
 [Term]
 id: dictybase.gene:DDB_G0291540
 name: DDB_G0291540
+relationship: RO:0002205 uniprot:unknown ! has gene product
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 
 [Term]
@@ -72335,6 +72471,8 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0292288
 name: DDB_G0292288
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "CAP domain-containing protein" EXACT []
+synonym: "SCP domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0292290
@@ -72895,6 +73033,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0292482
 name: DDB_G0292482
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF1697 family protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0292484
@@ -73628,6 +73767,7 @@ synonym: "Fanconi anemia group L protein" EXACT []
 id: dictybase.gene:DDB_G0292746
 name: DDB_G0292746
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "Teg/CotR-like family protein" EXACT []
 synonym: "patatin family protein" EXACT []
 synonym: "pleckstrin homology (PH) domain-containing protein" EXACT []
 
@@ -74973,6 +75113,7 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0293206
 name: DDB_G0293206
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "DUF1697 family protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0293208
@@ -75489,6 +75630,7 @@ synonym: "pseudogene" EXACT []
 id: dictybase.gene:DDB_G0293370
 name: DDB_G0293370
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "NIF3-like protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0293372
@@ -76033,6 +76175,8 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0293552
 name: DDB_G0293552
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "B-box zinc finger-containing protein" EXACT []
+synonym: "DUF2009 family protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0293554
@@ -76116,7 +76260,8 @@ relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 id: dictybase.gene:DDB_G0293580
 name: DDB_G0293580
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
-synonym: "dCTP deaminase" EXACT []
+synonym: "Dcd1" EXACT []
+synonym: "dCTP deaminase 1" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0293582
@@ -76154,11 +76299,13 @@ synonym: "NF-X1-type zinc finger-containing protein" EXACT []
 id: dictybase.gene:DDB_G0293592
 name: DDB_G0293592
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "MAPEG family protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0293594
 name: DDB_G0293594
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "MAPEG family protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0293596
@@ -76493,6 +76640,7 @@ synonym: "v-SNARE family protein" EXACT []
 id: dictybase.gene:DDB_G0293714
 name: DDB_G0293714
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "MAPEG family protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0293716
@@ -76505,6 +76653,7 @@ id: dictybase.gene:DDB_G0293718
 name: DDB_G0293718
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
 synonym: "Inner membrane protein yecN" EXACT []
+synonym: "MAPEG family protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0293720
@@ -76633,6 +76782,7 @@ synonym: "histone H2B domain-containing protein" EXACT []
 id: dictybase.gene:DDB_G0293760
 name: DDB_G0293760
 relationship: RO:0002162 NCBITaxon:44689 ! in taxon Dictyostelium discoideum
+synonym: "nuclear transport factor 2 (NTF2) domain-containing protein" EXACT []
 
 [Term]
 id: dictybase.gene:DDB_G0293762
