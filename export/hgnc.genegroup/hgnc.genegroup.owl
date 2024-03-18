@@ -10,11 +10,11 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup/2024-01-01/hgnc.genegroup.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup/2024-03-01/hgnc.genegroup.owl"/>
         <dc:description>The HGNC (HUGO Gene Nomenclature Committee) provides an approved gene name and symbol (short-form abbreviation) for each known human gene. All approved symbols are stored in the HGNC database, and each symbol is unique. In addition, HGNC also provides a unique numerical ID to identify gene families, providing a display of curated hierarchical relationships between families.</dc:description>
         <dc:title>HGNC Gene Group</dc:title>
         <oboInOwl:auto-generated-by>bio2obo:hgnc.genegroup</oboInOwl:auto-generated-by>
-        <oboInOwl:date>04:01:2024 13:54</oboInOwl:date>
+        <oboInOwl:date>14:03:2024 14:04</oboInOwl:date>
         <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
     </owl:Ontology>
     
@@ -147,9 +147,16 @@
     <!-- http://purl.obolibrary.org/obo/RO_0002327 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002327">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002333"/>
         <oboInOwl:id>RO:0002327</oboInOwl:id>
         <rdfs:label>enables</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002333 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002333"/>
     
 
 
@@ -13749,7 +13756,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id>hgnc.genegroup:1692</oboInOwl:id>
-        <rdfs:label>LRAT domain containing family</rdfs:label>
+        <rdfs:label>LRAT domain containing</rdfs:label>
     </owl:Class>
     
 
@@ -16332,6 +16339,29 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_1815"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>KCTD</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_1816 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_1816">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>BMERB</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:1816</oboInOwl:id>
+        <rdfs:label>Bivalent Mical/EHBP Rab binding domain containing</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_1816"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>BMERB</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
     </owl:Axiom>
     
@@ -22025,7 +22055,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>VOC members are metalloenzymes highly divergent in sequence and biological functions, but universally share the use of the βαβββ structural motif (also known as the glyoxylase fold) to build a divalent metal-containing active site. VOC enzymes catalyze a range of chemical reactions including isomerization, epimerization, oxidative C-C bond cleavage and nucleophilic substitution </obo:IAO_0000115>
         <oboInOwl:id>hgnc.genegroup:2111</oboInOwl:id>
-        <rdfs:label>Glyoxalase domain containing family</rdfs:label>
+        <rdfs:label>Glyoxalase domain containing</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2111"/>
@@ -22634,6 +22664,29 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>In cell biology, protein kinase A (PKA) is a family of enzymes whose activity is dependent on cellular levels of cyclic AMP (cAMP). PKA is also known as cAMP-dependent protein kinase (EC 2.7.11.11). PKA has several functions in the cell, including regulation of glycogen, sugar, and lipid metabolism. It should not be confused with 5&apos;-AMP-activated protein kinase (AMP-activated protein kinase).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>pubmed:35252178</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Phospholipids can be produced by several metabolic routes, and a key reaction that utilizes lysophospholipids and acyl-CoAs as substrates to produce phospholipids is catalyzed by a class of enzymes called lysophospholipid acyltransferases (LPLATs). Based on their primary structures, these LPLATs are divided into two families, the 1-acylglycerol-3-phosphate O-acyltransferase (AGPAT) and the membrane bound O-acyltransferase (MBOAT) families. These two families also contain non-LPLAT members.</obo:IAO_0000115>
+        <oboInOwl:id>hgnc.genegroup:2147</oboInOwl:id>
+        <rdfs:label>Lysophospholipid acyltransferases</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2147"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Phospholipids can be produced by several metabolic routes, and a key reaction that utilizes lysophospholipids and acyl-CoAs as substrates to produce phospholipids is catalyzed by a class of enzymes called lysophospholipid acyltransferases (LPLATs). Based on their primary structures, these LPLATs are divided into two families, the 1-acylglycerol-3-phosphate O-acyltransferase (AGPAT) and the membrane bound O-acyltransferase (MBOAT) families. These two families also contain non-LPLAT members.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>pubmed:34890643</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -25507,6 +25560,598 @@
         </rdfs:subClassOf>
         <oboInOwl:id>hgnc.genegroup:2297</oboInOwl:id>
         <rdfs:label>Integrase like retrotransposon derived</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>hgnc.genegroup:2300</oboInOwl:id>
+        <rdfs:label>Regulins</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2305"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>TSPYL</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2302</oboInOwl:id>
+        <rdfs:label>TSPYL family</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2302"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>TSPYL</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2305"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>TSPY</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2303</oboInOwl:id>
+        <rdfs:label>TSPY family</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2303"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>TSPY</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2304">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2305"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>NAP1L</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2304</oboInOwl:id>
+        <rdfs:label>Nucleosome assembly protein 1 like family</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2304"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>NAP1L</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>hgnc.genegroup:2305</oboInOwl:id>
+        <rdfs:label>Nucleosome assembly protein superfamily</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2307">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>STOX</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2307</oboInOwl:id>
+        <rdfs:label>Storkhead boxes</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2307"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>STOX</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2308">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>STAC</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2308</oboInOwl:id>
+        <rdfs:label>SH3 and cysteine rich domain family</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2308"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>STAC</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>SPRED</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2309</oboInOwl:id>
+        <rdfs:label>Sprouty related EVH1 domain containing</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2309"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>SPRED</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>SPRY</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2310</oboInOwl:id>
+        <rdfs:label>Sprouty RTK signaling antagonist family</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2310"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>SPRY</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2312">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>SPSB</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2312</oboInOwl:id>
+        <rdfs:label>SplA/ryanodine receptor domain and SOCS box containing family</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2312"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>SPSB</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2313">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>hgnc.genegroup:2313</oboInOwl:id>
+        <rdfs:label>ZU5 domain containing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2314">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>OLFM</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2314</oboInOwl:id>
+        <rdfs:label>Olfactomedin domain containing</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2314"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>OLFM</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2315">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2317"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>NXPH</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2315</oboInOwl:id>
+        <rdfs:label>Neurexophilins</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2315"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>NXPH</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2316">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2317"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>NXPE</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2316</oboInOwl:id>
+        <rdfs:label>Neurexophilin and PC-esterase domain containing</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2316"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>NXPE</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>NXP</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2317</oboInOwl:id>
+        <rdfs:label>Neurexophilin domain containing</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2317"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>NXP</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Complexin (also known as synaphin) refers to a one of a small set of eukaryotic cytoplasmic neuronal proteins which binds to the  SNARE protein complex (SNAREpin) with a high affinity. These are called synaphin 1 and 2. In the presence of Ca2+, the transport vesicle protein synaptotagmin displaces complexin, allowing the SNARE protein complex to bind the transport vesicle to the presynaptic membrane. Complexin acts as both an inhibitor and a facilitator of synaptic vesicle fusion and neurotransmitter release. In one conformation, it clamps SNAREpin complexes, preventing vesicle fusion, while in a different conformation it releases the SNAREpins, allowing synaptotagmin to trigger fusion.  Whereas complexin is not necessary for synaptic vesicle exocytosis, it does increase neurotransmitter release by 60–70% as demonstrated by complexin gene knockout in mice. A number of human neurological diseases have been linked to a deficiency of complexin. Synaphin can promote exocytosis by promoting interaction between the complementary syntaxin and synaptobrevin transmembrane regions that reside in opposing membranes prior to fusion.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>CPLX</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2318</oboInOwl:id>
+        <rdfs:label>Complexins</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2318"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Complexin (also known as synaphin) refers to a one of a small set of eukaryotic cytoplasmic neuronal proteins which binds to the  SNARE protein complex (SNAREpin) with a high affinity. These are called synaphin 1 and 2. In the presence of Ca2+, the transport vesicle protein synaptotagmin displaces complexin, allowing the SNARE protein complex to bind the transport vesicle to the presynaptic membrane. Complexin acts as both an inhibitor and a facilitator of synaptic vesicle fusion and neurotransmitter release. In one conformation, it clamps SNAREpin complexes, preventing vesicle fusion, while in a different conformation it releases the SNAREpins, allowing synaptotagmin to trigger fusion.  Whereas complexin is not necessary for synaptic vesicle exocytosis, it does increase neurotransmitter release by 60–70% as demonstrated by complexin gene knockout in mice. A number of human neurological diseases have been linked to a deficiency of complexin. Synaphin can promote exocytosis by promoting interaction between the complementary syntaxin and synaptobrevin transmembrane regions that reside in opposing membranes prior to fusion.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>pubmed:26245303</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2318"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>CPLX</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2319">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>PCNX</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2319</oboInOwl:id>
+        <rdfs:label>Pecanex family</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2319"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>PCNX</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2320">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>CNPY</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2320</oboInOwl:id>
+        <rdfs:label>Canopy FGF signaling regulators</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2320"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>CNPY</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2321">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>RASGRP</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2321</oboInOwl:id>
+        <rdfs:label>RAS guanyl releasing proteins</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2321"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>RASGRP</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2322">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Reticulons (RTNs in vertebrates and reticulon-like proteins or RNTls in other eukaryotes) are a group of evolutionary conservative proteins residing predominantly in endoplasmic reticulum, primarily playing a role in promoting membrane curvature. In addition, reticulons may play a role in nuclear pore complex formation, vesicle formation, and other processes yet to be defined. They have also been linked to oligodendrocyte roles in inhibition of neurite outgrowth. Some studies link RTNs with Alzheimer&apos;s disease and amyotrophic lateral sclerosis.All eukaryotes studied so far carry RTN genes in their genomes. The reticulons are absent only in archaea and bacteria. Mammals have four reticulon genes, RTN1, RTN2, RTN3, RTN4. Plants possess a greater number of reticulon isoforms, with 21 having been identified in the commonly used model organism Arabidopsis thaliana.The genes possess a number of exons and introns and are accordingly spliced into many isoforms. C-terminal region of RTNs contains a highly conservative reticulon homology domain (RHD) while other parts of the protein may vary even within a single organism.A peculiar feature of RTN4&apos;s isoform RTN4A (Nogo-A) is its ability to inhibit axonal growth. This reticulon subform is curiously absent in fish, a taxon known for the heightened ability of its CNS to regenerate after injury. Transmembrane 33 (TMEM33) exogenously suppresses reticulon 4C function and therefore may play a role in dictating membrane curvature through inhibition of reticulon function.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>RTN</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2322</oboInOwl:id>
+        <rdfs:label>Reticulons</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2322"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Reticulons (RTNs in vertebrates and reticulon-like proteins or RNTls in other eukaryotes) are a group of evolutionary conservative proteins residing predominantly in endoplasmic reticulum, primarily playing a role in promoting membrane curvature. In addition, reticulons may play a role in nuclear pore complex formation, vesicle formation, and other processes yet to be defined. They have also been linked to oligodendrocyte roles in inhibition of neurite outgrowth. Some studies link RTNs with Alzheimer&apos;s disease and amyotrophic lateral sclerosis.All eukaryotes studied so far carry RTN genes in their genomes. The reticulons are absent only in archaea and bacteria. Mammals have four reticulon genes, RTN1, RTN2, RTN3, RTN4. Plants possess a greater number of reticulon isoforms, with 21 having been identified in the commonly used model organism Arabidopsis thaliana.The genes possess a number of exons and introns and are accordingly spliced into many isoforms. C-terminal region of RTNs contains a highly conservative reticulon homology domain (RHD) while other parts of the protein may vary even within a single organism.A peculiar feature of RTN4&apos;s isoform RTN4A (Nogo-A) is its ability to inhibit axonal growth. This reticulon subform is curiously absent in fish, a taxon known for the heightened ability of its CNS to regenerate after injury. Transmembrane 33 (TMEM33) exogenously suppresses reticulon 4C function and therefore may play a role in dictating membrane curvature through inhibition of reticulon function.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>pubmed:12667756</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>pubmed:18177508</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2322"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>RTN</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>GARIN</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2323</oboInOwl:id>
+        <rdfs:label>Golgi associated RAB2 interactor family</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2323"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>GARIN</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2324">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>LRCH</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2324</oboInOwl:id>
+        <rdfs:label>Leucine rich repeats and calponin homology domain containing</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2324"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>LRCH</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2326">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>CNIH</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2326</oboInOwl:id>
+        <rdfs:label>Cornichon family</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2326"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>CNIH</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Angiopoietin is part of a family of vascular growth factors that play a role in embryonic and postnatal angiogenesis. Angiopoietin signaling most directly corresponds with angiogenesis, the process by which new arteries and veins form from preexisting blood vessels. Angiogenesis proceeds through sprouting, endothelial cell migration, proliferation, and vessel destabilization and stabilization. They are responsible for assembling and disassembling the endothelial lining of blood vessels. Angiopoietin cytokines are involved with controlling microvascular permeability, vasodilation, and vasoconstriction by signaling smooth muscle cells surrounding vessels.  Angiopoietin-1 is critical for vessel maturation, adhesion, migration, and survival. Angiopoietin-2, on the other hand, promotes cell death and disrupts vascularization. Yet, when it is in conjunction with vascular endothelial growth factors, or VEGF, it can promote neo-vascularization.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>ANGPT</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2327</oboInOwl:id>
+        <rdfs:label>Angiopoietins</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2327"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Angiopoietin is part of a family of vascular growth factors that play a role in embryonic and postnatal angiogenesis. Angiopoietin signaling most directly corresponds with angiogenesis, the process by which new arteries and veins form from preexisting blood vessels. Angiogenesis proceeds through sprouting, endothelial cell migration, proliferation, and vessel destabilization and stabilization. They are responsible for assembling and disassembling the endothelial lining of blood vessels. Angiopoietin cytokines are involved with controlling microvascular permeability, vasodilation, and vasoconstriction by signaling smooth muscle cells surrounding vessels.  Angiopoietin-1 is critical for vessel maturation, adhesion, migration, and survival. Angiopoietin-2, on the other hand, promotes cell death and disrupts vascularization. Yet, when it is in conjunction with vascular endothelial growth factors, or VEGF, it can promote neo-vascularization.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>pubmed:14648654</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2327"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ANGPT</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2328">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>LYSMD</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>hgnc.genegroup:2328</oboInOwl:id>
+        <rdfs:label>LysM domain containing</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup_2328"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>LYSMD</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/obo_symbol"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hgnc.genegroup_2329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup_2329">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>hgnc.genegroup:2329</oboInOwl:id>
+        <rdfs:label>DEP domain containing</rdfs:label>
     </owl:Class>
     
 
@@ -38958,7 +39603,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Hemoglobin; also spelled haemoglobin and abbreviated Hb or Hgb, is the iron-containing oxygen-transport metalloprotein in the red blood cells of all vertebrates (with the exception of the fish family Channichthyidae ) as well as the tissues of some invertebrates. Hemoglobin in the blood carries oxygen from the respiratory organs (lungs or gills) to the rest of the body (i.e. the tissues). There it releases the oxygen to permit aerobic respiration to provide energy to power the functions of the organism in the process called metabolism. </obo:IAO_0000115>
+        <obo:IAO_0000115>Hemoglobin; also spelled haemoglobin and abbreviated Hb or Hgb, is the iron-containing oxygen-transport metalloprotein in the red blood cells of all vertebrates (with the exception of the fish family Channichthyidae ) as well as the tissues of some invertebrates. Hemoglobin in the blood carries oxygen from the respiratory organs (lungs or gills) to the rest of the body (i.e. the tissues). There it releases the oxygen to permit aerobic respiration to provide energy to power the functions of the organism in the process called metabolism.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>HB</oboInOwl:hasExactSynonym>
         <oboInOwl:id>hgnc.genegroup:940</oboInOwl:id>
         <rdfs:label>Hemoglobin subunits</rdfs:label>

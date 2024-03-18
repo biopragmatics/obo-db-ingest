@@ -9,11 +9,11 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/kegg.genome.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/kegg.genome/109.0/kegg.genome.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/kegg.genome/109.1/kegg.genome.owl"/>
         <dc:description>KEGG Genome is a collection of organisms whose genomes have been completely sequenced.</dc:description>
         <dc:title>KEGG Genome</dc:title>
         <oboInOwl:auto-generated-by>bio2obo:kegg.genome</oboInOwl:auto-generated-by>
-        <oboInOwl:date>04:01:2024 19:07</oboInOwl:date>
+        <oboInOwl:date>14:03:2024 18:49</oboInOwl:date>
         <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
     </owl:Ontology>
     
@@ -1474,6 +1474,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_0179">
         <oboInOwl:id>kegg.genome:0179</oboInOwl:id>
+        <rdfs:label>Bactericera trigonica densovirus</rdfs:label>
         <rdfs:label>Mizyes virus 1</rdfs:label>
     </owl:Class>
     
@@ -2741,10 +2742,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/kegg.genome_0321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_0321">
+        <oboInOwl:id>kegg.genome:0321</oboInOwl:id>
+        <rdfs:label>Avian paramyxovirus goose/Shimane/67/2000</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/kegg.genome_0322 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_0322">
         <oboInOwl:id>kegg.genome:0322</oboInOwl:id>
+        <rdfs:label>Avian paramyxovirus UPO216</rdfs:label>
         <rdfs:label>Gordonia phage NatB6</rdfs:label>
     </owl:Class>
     
@@ -2950,6 +2961,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/kegg.genome_0348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_0348">
+        <oboInOwl:id>kegg.genome:0348</oboInOwl:id>
+        <rdfs:label>African bat icavirus PREDICT-06105</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/kegg.genome_0349 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_0349">
@@ -3022,11 +3042,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/kegg.genome_0354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_0354">
+        <oboInOwl:id>kegg.genome:0354</oboInOwl:id>
+        <rdfs:label>Carp picornavirus 1</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/kegg.genome_0355 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_0355">
         <oboInOwl:id>kegg.genome:0355</oboInOwl:id>
+        <rdfs:label>Chinese broad-headed pond turtle picornavirus 1</rdfs:label>
         <rdfs:label>Mycobacterium phage Beezoo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/kegg.genome_0356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_0356">
+        <oboInOwl:id>kegg.genome:0356</oboInOwl:id>
+        <rdfs:label>Chinese softshell turtle picornavirus 1</rdfs:label>
     </owl:Class>
     
 
@@ -3115,6 +3154,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_0364">
         <oboInOwl:id>kegg.genome:0364</oboInOwl:id>
+        <rdfs:label>Eel picornavirus 1</rdfs:label>
         <rdfs:label>Mycobacterium phage OlympiaSaint</rdfs:label>
         <rdfs:label>Pseudomonas phage phiPsa347</rdfs:label>
     </owl:Class>
@@ -3226,6 +3266,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/kegg.genome_0375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_0375">
+        <oboInOwl:id>kegg.genome:0375</oboInOwl:id>
+        <rdfs:label>Harrier picornavirus 1</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/kegg.genome_0376 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_0376">
@@ -3241,6 +3290,15 @@
         <oboInOwl:id>kegg.genome:0377</oboInOwl:id>
         <rdfs:label>Stenotrophomonas phage BUCT627</rdfs:label>
         <rdfs:label>grusopivirus C1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/kegg.genome_0378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_0378">
+        <oboInOwl:id>kegg.genome:0378</oboInOwl:id>
+        <rdfs:label>Miniopterus schreibersii picornavirus 1</rdfs:label>
     </owl:Class>
     
 
@@ -3465,6 +3523,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_0402">
         <oboInOwl:id>kegg.genome:0402</oboInOwl:id>
         <rdfs:label>Tupaia glis polyomavirus 1</rdfs:label>
+        <rdfs:label>Wenling jack mackerels picornavirus</rdfs:label>
     </owl:Class>
     
 
@@ -3861,6 +3920,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_0444">
         <oboInOwl:id>kegg.genome:0444</oboInOwl:id>
         <rdfs:label>Escherichia phage vB_EcoM_JS09</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/kegg.genome_0445 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_0445">
+        <oboInOwl:id>kegg.genome:0445</oboInOwl:id>
+        <rdfs:label>Thermus phage phiOH3</rdfs:label>
     </owl:Class>
     
 
@@ -4742,7 +4810,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_0568">
         <oboInOwl:id>kegg.genome:0568</oboInOwl:id>
+        <rdfs:label>Macaca nemestrina herpesvirus 7</rdfs:label>
         <rdfs:label>Streptomyces phage Vash</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/kegg.genome_0569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_0569">
+        <oboInOwl:id>kegg.genome:0569</oboInOwl:id>
+        <rdfs:label>Lymphocryptovirus Macaca/pfe-lcl-E3</rdfs:label>
     </owl:Class>
     
 
@@ -6610,6 +6688,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_0825">
         <oboInOwl:id>kegg.genome:0825</oboInOwl:id>
+        <rdfs:label>Chaphamaparvovirus gyb-MR2/2015/HUN</rdfs:label>
         <rdfs:label>Mycobacterium phage Trouble</rdfs:label>
         <rdfs:label>Propionibacterium phage PHL152M00</rdfs:label>
         <rdfs:label>Tai Forest alphavirus</rdfs:label>
@@ -7369,7 +7448,7 @@
         <rdfs:label>Enterococcus cecorum NCTC12421</rdfs:label>
         <rdfs:label>Lymphocytic choriomeningitis virus (Lymphocytic choriomeningitis mammarenavirus)</rdfs:label>
         <rdfs:label>Parasaccharibacter sp. TMW 2.1888</rdfs:label>
-        <rdfs:label>Penicillium rubens Wisconsin 54-1255 (Penicillium chrysogenum Wisconsin 54-1255)</rdfs:label>
+        <rdfs:label>Penicillium rubens Wisconsin IBT 27055</rdfs:label>
         <rdfs:label>Pseudoglutamicibacter albus UMB0715</rdfs:label>
         <rdfs:label>Python bivittatus (Burmese python)</rdfs:label>
         <rdfs:label>Radiobacillus deserti TKL69</rdfs:label>
@@ -7714,7 +7793,7 @@
         <rdfs:label>Schistosoma mansoni</rdfs:label>
         <rdfs:label>Spiroplasma sp. TU-14</rdfs:label>
         <rdfs:label>Streptantibioticus cattleyicolor NRRL 8057 = DSM 46488</rdfs:label>
-        <rdfs:label>Tepidibacter sp. 8C15b</rdfs:label>
+        <rdfs:label>Tepidibacter aestuarii 8C15b (Tepidibacter sp. 8C15b)</rdfs:label>
     </owl:Class>
     
 
@@ -8090,7 +8169,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_0990">
         <oboInOwl:id>kegg.genome:0990</oboInOwl:id>
-        <rdfs:label>Enterobacter phage Enc34</rdfs:label>
+        <rdfs:label>Hafnia phage Enc34</rdfs:label>
         <rdfs:label>Mycobacterium phage Lilac</rdfs:label>
     </owl:Class>
     
@@ -9152,7 +9231,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_1132">
         <oboInOwl:id>kegg.genome:1132</oboInOwl:id>
         <rdfs:label>Aeromonas phage phiAS7</rdfs:label>
-        <rdfs:label>Poecivirus BCCH-449</rdfs:label>
         <rdfs:label>Rabbit astrovirus TN/2208/2010</rdfs:label>
         <rdfs:label>Rhodococcus phage Whack</rdfs:label>
     </owl:Class>
@@ -9259,15 +9337,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_1147">
         <oboInOwl:id>kegg.genome:1147</oboInOwl:id>
         <rdfs:label>Bhindi yellow vein alphasatellite</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/kegg.genome_1149 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_1149">
-        <oboInOwl:id>kegg.genome:1149</oboInOwl:id>
-        <rdfs:label>Hedgehog dicipivirus</rdfs:label>
     </owl:Class>
     
 
@@ -9592,7 +9661,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_1198">
         <oboInOwl:id>kegg.genome:1198</oboInOwl:id>
-        <rdfs:label>Acipenserid herpesvirus 2</rdfs:label>
         <rdfs:label>Enterobacteria phage Kha5h</rdfs:label>
     </owl:Class>
     
@@ -9717,6 +9785,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_1209">
         <oboInOwl:id>kegg.genome:1209</oboInOwl:id>
         <rdfs:label>Gordonia phage Sekhmet</rdfs:label>
+        <rdfs:label>Hedgehog dicipivirus</rdfs:label>
         <rdfs:label>Streptomyces phage Tefunt</rdfs:label>
     </owl:Class>
     
@@ -10337,7 +10406,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_1279">
         <oboInOwl:id>kegg.genome:1279</oboInOwl:id>
-        <rdfs:label>Invertebrate iridovirus 22</rdfs:label>
         <rdfs:label>Salmonella phage vB_SenS_AG11</rdfs:label>
         <rdfs:label>rubber tree virus 1</rdfs:label>
     </owl:Class>
@@ -10394,6 +10462,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/kegg.genome_1284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_1284">
+        <oboInOwl:id>kegg.genome:1284</oboInOwl:id>
+        <rdfs:label>Sclerotinia sclerotiorum negative-stranded RNA virus 2-A</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/kegg.genome_1285 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_1285">
@@ -10438,6 +10515,15 @@
         <rdfs:label>Naasia aerilata NBRC 108725</rdfs:label>
         <rdfs:label>Qingshengfaniella alkalisoli LN3S51</rdfs:label>
         <rdfs:label>Thermanaerovibrio acidaminovorans DSM 6589</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/kegg.genome_1295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_1295">
+        <oboInOwl:id>kegg.genome:1295</oboInOwl:id>
+        <rdfs:label>Solanum violifolium ringspot virus</rdfs:label>
     </owl:Class>
     
 
@@ -10512,6 +10598,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_1303">
         <oboInOwl:id>kegg.genome:1303</oboInOwl:id>
         <rdfs:label>Mulberry mosaic dwarf associated virus</rdfs:label>
+        <rdfs:label>Surrounding non-legume associated secovirus</rdfs:label>
         <rdfs:label>Vibrio phage 1.044.O._10N.261.51.B8</rdfs:label>
     </owl:Class>
     
@@ -10590,7 +10677,7 @@
         <oboInOwl:id>kegg.genome:1313</oboInOwl:id>
         <rdfs:label>Citrobacter phage vB_CfrM_CfP1</rdfs:label>
         <rdfs:label>Frog lyssa-like virus 1</rdfs:label>
-        <rdfs:label>Ursus americanus chapparvovirus</rdfs:label>
+        <rdfs:label>Ursus americanus parvovirus</rdfs:label>
     </owl:Class>
     
 
@@ -10610,6 +10697,7 @@
         <oboInOwl:id>kegg.genome:1315</oboInOwl:id>
         <rdfs:label>Erwinia phage PEp14</rdfs:label>
         <rdfs:label>Vibrio phage 1.080.O._10N.286.48.A4</rdfs:label>
+        <rdfs:label>Wuhan redfin culter dimarhabodovirus</rdfs:label>
     </owl:Class>
     
 
@@ -11859,7 +11947,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_1445">
         <oboInOwl:id>kegg.genome:1445</oboInOwl:id>
-        <rdfs:label>Avian paramyxovirus goose/Shimane/67/2000</rdfs:label>
         <rdfs:label>Streptococcus phage P9853</rdfs:label>
     </owl:Class>
     
@@ -12571,7 +12658,6 @@
         <rdfs:label>Microbacterium phage Doobus</rdfs:label>
         <rdfs:label>Microbacterium phage Neferthena</rdfs:label>
         <rdfs:label>Mycobacterium phage SkinnyPete</rdfs:label>
-        <rdfs:label>Vibrio virus 2019VC1</rdfs:label>
     </owl:Class>
     
 
@@ -12678,7 +12764,7 @@
         <oboInOwl:id>kegg.genome:155</oboInOwl:id>
         <rdfs:label>Bean golden mosaic virus</rdfs:label>
         <rdfs:label>Brugmansia suaveolens mottle virus</rdfs:label>
-        <rdfs:label>Candidatus Methylomirabilis oxyfera</rdfs:label>
+        <rdfs:label>Candidatus Methylomirabilis oxygeniifera</rdfs:label>
         <rdfs:label>Geobacter sulfurreducens PCA</rdfs:label>
         <rdfs:label>Granulibacter bethesdensis NIH3.1</rdfs:label>
         <rdfs:label>Kribbella flavida DSM 17836</rdfs:label>
@@ -13370,6 +13456,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_1622">
         <oboInOwl:id>kegg.genome:1622</oboInOwl:id>
+        <rdfs:label>Bolahun virus variant 2</rdfs:label>
         <rdfs:label>Porcine bocavirus 5/JS677</rdfs:label>
     </owl:Class>
     
@@ -13541,7 +13628,7 @@
         <rdfs:label>Kaeng Khoi virus</rdfs:label>
         <rdfs:label>Lactobacillus phage LBR48</rdfs:label>
         <rdfs:label>Listeria monocytogenes 08-5923 (serotype 1/2a)</rdfs:label>
-        <rdfs:label>Macrococcus bohemicus 19Msa422</rdfs:label>
+        <rdfs:label>Macrococcoides bohemicum 19Msa422</rdfs:label>
         <rdfs:label>Methanococcus maripaludis S2</rdfs:label>
         <rdfs:label>Mycolicibacterium celeriflavum JCM 18439</rdfs:label>
         <rdfs:label>Peanut mottle virus</rdfs:label>
@@ -13894,7 +13981,7 @@
         <rdfs:label>Grapevine leafroll-associated virus 6</rdfs:label>
         <rdfs:label>Halorubrum pleomorphic virus 1</rdfs:label>
         <rdfs:label>Nocardia terpenica NC_YFY_NT001</rdfs:label>
-        <rdfs:label>Providencia thailandensis 2017-45-35</rdfs:label>
+        <rdfs:label>Providencia stuartii 2017-45-35</rdfs:label>
         <rdfs:label>Sphingomonas xanthus AE3</rdfs:label>
         <rdfs:label>Spiroplasma platyhelix PALS-1</rdfs:label>
         <rdfs:label>Stutzerimonas stutzeri CCUG 29243 (Pseudomonas stutzeri CCUG 29243)</rdfs:label>
@@ -14158,15 +14245,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/kegg.genome_1706 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_1706">
-        <oboInOwl:id>kegg.genome:1706</oboInOwl:id>
-        <rdfs:label>Sclerotinia sclerotiorum negative-stranded RNA virus 2-A</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/kegg.genome_1708 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_1708">
@@ -14362,12 +14440,12 @@
         <rdfs:label>Butyricimonas virosa FDAARGOS_1229</rdfs:label>
         <rdfs:label>Candidatus Nitrosoglobus terrae TAO100</rdfs:label>
         <rdfs:label>Choclo virus</rdfs:label>
+        <rdfs:label>Fontisubflavum oceani CSW1921</rdfs:label>
         <rdfs:label>High Plains wheat mosaic virus (High Plains wheat mosaic emaravirus)</rdfs:label>
         <rdfs:label>Hoylesella enoeca F0113</rdfs:label>
         <rdfs:label>Klebsiella michiganensis E718</rdfs:label>
         <rdfs:label>Photobacterium profundum SS9</rdfs:label>
         <rdfs:label>Rathayibacter festucae DSM 15932</rdfs:label>
-        <rdfs:label>Rhodophyticola sp. CSW1921</rdfs:label>
         <rdfs:label>Streptococcus mitis B6</rdfs:label>
         <rdfs:label>Streptococcus suis YB51 (serotype 3)</rdfs:label>
         <rdfs:label>Vibrio phage helene 12B3</rdfs:label>
@@ -14734,7 +14812,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_178">
         <oboInOwl:id>kegg.genome:178</oboInOwl:id>
         <rdfs:label>Acinetobacter johnsonii XBB1</rdfs:label>
-        <rdfs:label>Alkaliflexus sp. Ai-910</rdfs:label>
         <rdfs:label>Bacillus anthracis Ames Ancestor</rdfs:label>
         <rdfs:label>Citrus yellow mosaic virus</rdfs:label>
         <rdfs:label>Clostridium phage phiCD6356</rdfs:label>
@@ -14749,6 +14826,7 @@
         <rdfs:label>Thermoanaerobacter italicus Ab9</rdfs:label>
         <rdfs:label>Vallitalea pronyensis FatNI3c</rdfs:label>
         <rdfs:label>Wheat dwarf virus</rdfs:label>
+        <rdfs:label>Xiashengella succiniciproducens Ai-910</rdfs:label>
     </owl:Class>
     
 
@@ -14818,15 +14896,6 @@
         <rdfs:label>Grapevine Pinot gris virus</rdfs:label>
         <rdfs:label>Ligustrum leprosis virus</rdfs:label>
         <rdfs:label>Malvastrum leaf curl Guangdong betasatellite</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/kegg.genome_1793 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_1793">
-        <oboInOwl:id>kegg.genome:1793</oboInOwl:id>
-        <rdfs:label>Solanum violifolium ringspot virus</rdfs:label>
     </owl:Class>
     
 
@@ -14958,6 +15027,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_1806">
         <oboInOwl:id>kegg.genome:1806</oboInOwl:id>
         <rdfs:label>Lake Sinai virus 1</rdfs:label>
+        <rdfs:label>Rosavirus M-7</rdfs:label>
     </owl:Class>
     
 
@@ -15620,7 +15690,6 @@
         <rdfs:label>Leclercia pneumoniae 49125</rdfs:label>
         <rdfs:label>Methanoculleus bourgensis MS2</rdfs:label>
         <rdfs:label>Novosphingobium ginsenosidimutans FW-6</rdfs:label>
-        <rdfs:label>Parvovirus YX-2010/CHN</rdfs:label>
         <rdfs:label>Rhizobium lentis BLR27</rdfs:label>
         <rdfs:label>Streptomyces malaysiensis DSM 4137</rdfs:label>
         <rdfs:label>Sweet potato leaf curl Georgia virus</rdfs:label>
@@ -18059,18 +18128,9 @@
         <rdfs:label>Listeria monocytogenes SLCC2372 (serotype 1/2c)</rdfs:label>
         <rdfs:label>Myotis myotis (greater mouse-eared bat)</rdfs:label>
         <rdfs:label>Planctopirus ephydatiae Spb1</rdfs:label>
-        <rdfs:label>Prodigiosinella sp. LS101</rdfs:label>
+        <rdfs:label>Prodigiosinella aquatilis LS101</rdfs:label>
         <rdfs:label>Pseudoalteromonas translucida KMM 520</rdfs:label>
         <rdfs:label>Thermus thermophilus HB8</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/kegg.genome_2201 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_2201">
-        <oboInOwl:id>kegg.genome:2201</oboInOwl:id>
-        <rdfs:label>Tadarida brasiliensis circovirus 1</rdfs:label>
     </owl:Class>
     
 
@@ -18427,15 +18487,6 @@
         <oboInOwl:id>kegg.genome:2236</oboInOwl:id>
         <rdfs:label>Hepacivirus platyrrhini</rdfs:label>
         <rdfs:label>Mothra virus</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/kegg.genome_2237 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_2237">
-        <oboInOwl:id>kegg.genome:2237</oboInOwl:id>
-        <rdfs:label>Bat circovirus POA/2012/II</rdfs:label>
     </owl:Class>
     
 
@@ -19362,7 +19413,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_233">
         <oboInOwl:id>kegg.genome:233</oboInOwl:id>
         <rdfs:label>Acanthopagrus latus (yellowfin seabream)</rdfs:label>
-        <rdfs:label>Arachidicoccus sp. B3-10</rdfs:label>
         <rdfs:label>Bartonella tribocorum BM1374166</rdfs:label>
         <rdfs:label>Corynebacterium canis DSM 45402</rdfs:label>
         <rdfs:label>Deinococcus soli Cha et al. 2016</rdfs:label>
@@ -19372,6 +19422,7 @@
         <rdfs:label>Mannheimia pernigra 17CN0883</rdfs:label>
         <rdfs:label>Naumovozyma castellii CBS 4309</rdfs:label>
         <rdfs:label>Paracoccus zhejiangensis J6</rdfs:label>
+        <rdfs:label>Rhizosphaericola mali B3-10</rdfs:label>
     </owl:Class>
     
 
@@ -21296,7 +21347,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_2518">
         <oboInOwl:id>kegg.genome:2518</oboInOwl:id>
-        <rdfs:label>Carcinus maenas portunibunyavirus 1</rdfs:label>
         <rdfs:label>Leuconostoc phage LN25</rdfs:label>
         <rdfs:label>Maize streak Reunion virus</rdfs:label>
         <rdfs:label>Orthonairovirus haemorrhagiae</rdfs:label>
@@ -21325,7 +21375,7 @@
         <rdfs:label>Cotton leaf curl Multan virus</rdfs:label>
         <rdfs:label>Lactococcus virus P2</rdfs:label>
         <rdfs:label>Microterricola viridarii ERGS5:02</rdfs:label>
-        <rdfs:label>Paeniclostridium sordellii AM370</rdfs:label>
+        <rdfs:label>Paraclostridium sordellii AM370</rdfs:label>
         <rdfs:label>Planaria asexual strain-specific virus-like element type 1</rdfs:label>
         <rdfs:label>Propionibacterium freudenreichii subsp. shermanii CIRM-BIA1</rdfs:label>
         <rdfs:label>Rickettsia felis URRWXCal2</rdfs:label>
@@ -21852,6 +21902,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_2564">
         <oboInOwl:id>kegg.genome:2564</oboInOwl:id>
+        <rdfs:label>American bat vesiculovirus TFFN-2013</rdfs:label>
         <rdfs:label>Bacillus phage Belinda</rdfs:label>
         <rdfs:label>Beihai picorna-like virus 21</rdfs:label>
         <rdfs:label>Cucumber vein-clearing virus</rdfs:label>
@@ -25648,8 +25699,8 @@
         <rdfs:label>Malvastrum leaf curl virus</rdfs:label>
         <rdfs:label>Methylocystis heyeri H2</rdfs:label>
         <rdfs:label>Paraburkholderia xenovorans LB400 (Burkholderia xenovorans LB400)</rdfs:label>
+        <rdfs:label>Prodigiosinella confusarubida ATCC 39006</rdfs:label>
         <rdfs:label>Rhodoplanes sp. Z2-YC6860</rdfs:label>
-        <rdfs:label>Serratia sp. ATCC 39006</rdfs:label>
         <rdfs:label>Streptococcus porcinus NCTC10925</rdfs:label>
         <rdfs:label>Sulfolobus spindle-shaped virus 4</rdfs:label>
         <rdfs:label>Thrush coronavirus HKU12-600</rdfs:label>
@@ -27470,7 +27521,7 @@
         <rdfs:label>Human mastadenovirus D</rdfs:label>
         <rdfs:label>Obesumbacterium proteus DSM 2777</rdfs:label>
         <rdfs:label>Podarcis raffonei (Aeolian wall lizard)</rdfs:label>
-        <rdfs:label>Rhizobium sp. IE4771</rdfs:label>
+        <rdfs:label>Rhizobium etli bv. mimosae IE4771 (Rhizobium sp. IE4771)</rdfs:label>
         <rdfs:label>Rhodospirillum rubrum ATCC 11170</rdfs:label>
         <rdfs:label>Rubus yellow net virus</rdfs:label>
         <rdfs:label>Squash mosaic virus</rdfs:label>
@@ -29906,6 +29957,7 @@
         <oboInOwl:id>kegg.genome:3309</oboInOwl:id>
         <rdfs:label>Hubei toti-like virus 20</rdfs:label>
         <rdfs:label>Salmonella phage oselot</rdfs:label>
+        <rdfs:label>Tadarida brasiliensis circovirus 1</rdfs:label>
         <rdfs:label>Water beetle associated circular virus 1</rdfs:label>
     </owl:Class>
     
@@ -29999,7 +30051,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_3316">
         <oboInOwl:id>kegg.genome:3316</oboInOwl:id>
-        <rdfs:label>Corella adenovirus 1</rdfs:label>
         <rdfs:label>Hubei toti-like virus 5</rdfs:label>
     </owl:Class>
     
@@ -31904,7 +31955,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_3501">
         <oboInOwl:id>kegg.genome:3501</oboInOwl:id>
-        <rdfs:label>African bat icavirus PREDICT-06105</rdfs:label>
         <rdfs:label>Wenling narna-like virus 1</rdfs:label>
     </owl:Class>
     
@@ -32515,15 +32565,6 @@
         <rdfs:label>Spondweni virus</rdfs:label>
         <rdfs:label>Streptococcus pyogenes MGAS10750 (serotype M4)</rdfs:label>
         <rdfs:label>Tomato mosaic Havana virus</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/kegg.genome_3560 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_3560">
-        <oboInOwl:id>kegg.genome:3560</oboInOwl:id>
-        <rdfs:label>Bolahun virus variant 2</rdfs:label>
     </owl:Class>
     
 
@@ -36620,7 +36661,6 @@
         <oboInOwl:id>kegg.genome:3976</oboInOwl:id>
         <rdfs:label>Aeromonas phage 25AhydR2PP</rdfs:label>
         <rdfs:label>Bean necrotic mosaic virus</rdfs:label>
-        <rdfs:label>Simian mastadenovirus WIV19</rdfs:label>
         <rdfs:label>Staphylococcus phage CNPH82</rdfs:label>
     </owl:Class>
     
@@ -37787,15 +37827,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_4110">
         <oboInOwl:id>kegg.genome:4110</oboInOwl:id>
         <rdfs:label>Largemouth bass bunyavirus</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/kegg.genome_4113 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_4113">
-        <oboInOwl:id>kegg.genome:4113</oboInOwl:id>
-        <rdfs:label>American bat vesiculovirus TFFN-2013</rdfs:label>
     </owl:Class>
     
 
@@ -40720,6 +40751,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_4486">
         <oboInOwl:id>kegg.genome:4486</oboInOwl:id>
         <rdfs:label>Avonheates virus SG_4_10</rdfs:label>
+        <rdfs:label>HCBI8.215 virus</rdfs:label>
         <rdfs:label>Mongoose feces-associated gemycircularvirus b</rdfs:label>
     </owl:Class>
     
@@ -42196,7 +42228,7 @@
         <rdfs:label>Pseudomonas mendocina NK-01</rdfs:label>
         <rdfs:label>Psychroserpens ponticola MSW6</rdfs:label>
         <rdfs:label>Rhynchosia yellow mosaic India virus</rdfs:label>
-        <rdfs:label>Rodentibacter heylii G1</rdfs:label>
+        <rdfs:label>Rodentibacter caecimuris G1</rdfs:label>
         <rdfs:label>Streptococcus sanguinis SK36</rdfs:label>
     </owl:Class>
     
@@ -42848,15 +42880,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_4840">
         <oboInOwl:id>kegg.genome:4840</oboInOwl:id>
         <rdfs:label>Cacatuid alphaherpesvirus 2</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/kegg.genome_4846 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_4846">
-        <oboInOwl:id>kegg.genome:4846</oboInOwl:id>
-        <rdfs:label>Surrounding non-legume associated secovirus</rdfs:label>
     </owl:Class>
     
 
@@ -43729,7 +43752,7 @@
         <rdfs:label>Arcticibacterium luteifluviistationis SM1504</rdfs:label>
         <rdfs:label>Bifidobacterium kashiwanohense PV20-2</rdfs:label>
         <rdfs:label>Blautia luti JCM 17040</rdfs:label>
-        <rdfs:label>Chitiniphilus sp. CD1</rdfs:label>
+        <rdfs:label>Chitiniphilus purpureus CD1</rdfs:label>
         <rdfs:label>Cyprinodon tularosa WSP-4 (White Sands pupfish)</rdfs:label>
         <rdfs:label>Delftia tsuruhatensis CM13</rdfs:label>
         <rdfs:label>Geobacillus thermodenitrificans NG80-2</rdfs:label>
@@ -43991,9 +44014,9 @@
         <oboInOwl:id>kegg.genome:500</oboInOwl:id>
         <rdfs:label>Adelges cooleyi (spruce gall adelgid)</rdfs:label>
         <rdfs:label>Aeromonas salmonicida subsp. salmonicida A449</rdfs:label>
-        <rdfs:label>Allomuricauda oceani 501str8</rdfs:label>
         <rdfs:label>Azospirillum ramasamyi M2T2B2</rdfs:label>
         <rdfs:label>Bradyrhizobium sediminis S2-11-2</rdfs:label>
+        <rdfs:label>Flagellimonas oceani 501str8</rdfs:label>
         <rdfs:label>Hymenobacter sp. DG25B</rdfs:label>
         <rdfs:label>Paenibacillus sophorae DSM 23020</rdfs:label>
         <rdfs:label>Stenotrophomonas rhizophila QL-P4</rdfs:label>
@@ -44489,10 +44512,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_505">
         <oboInOwl:id>kegg.genome:505</oboInOwl:id>
-        <rdfs:label>Allomuricauda aurantiaca HME9304</rdfs:label>
         <rdfs:label>Bifidobacterium thermophilum RBL67</rdfs:label>
         <rdfs:label>Chilli leaf curl Multan alphasatellite</rdfs:label>
         <rdfs:label>Chlamydia muridarum Nigg3</rdfs:label>
+        <rdfs:label>Flagellimonas maritima HME9304</rdfs:label>
         <rdfs:label>Hydrogenophaga crassostreae LPB0072</rdfs:label>
         <rdfs:label>Mastomys coucha papillomavirus 2</rdfs:label>
         <rdfs:label>Micrococcus terreus UMB0712</rdfs:label>
@@ -45515,15 +45538,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/kegg.genome_5212 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_5212">
-        <oboInOwl:id>kegg.genome:5212</oboInOwl:id>
-        <rdfs:label>Chaphamaparvovirus gyb-MR2/2015/HUN</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/kegg.genome_5217 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_5217">
@@ -46523,7 +46537,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_5365">
         <oboInOwl:id>kegg.genome:5365</oboInOwl:id>
         <rdfs:label>Carrot closterovirus</rdfs:label>
-        <rdfs:label>Miniopterus schreibersii picornavirus 1</rdfs:label>
     </owl:Class>
     
 
@@ -46612,7 +46625,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_5373">
         <oboInOwl:id>kegg.genome:5373</oboInOwl:id>
         <rdfs:label>Escherichia phage SECphi18</rdfs:label>
-        <rdfs:label>Rhinolophus ferrumequinum circovirus 1</rdfs:label>
     </owl:Class>
     
 
@@ -47470,15 +47482,6 @@
         <oboInOwl:id>kegg.genome:5480</oboInOwl:id>
         <rdfs:label>Lactococcus phage vB_LLc_bIBB14</rdfs:label>
         <rdfs:label>Tick associated torque teno virus</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/kegg.genome_5481 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_5481">
-        <oboInOwl:id>kegg.genome:5481</oboInOwl:id>
-        <rdfs:label>Lactococcus phage vB_Llc_bIBB12</rdfs:label>
     </owl:Class>
     
 
@@ -48839,7 +48842,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_565">
         <oboInOwl:id>kegg.genome:565</oboInOwl:id>
         <rdfs:label>Arthrobacter jinronghuae zg-Y859</rdfs:label>
-        <rdfs:label>Aureispira sp. EL160426</rdfs:label>
+        <rdfs:label>Aureispira anguillae EL160426</rdfs:label>
         <rdfs:label>Blattabacterium punctulatus CPUml</rdfs:label>
         <rdfs:label>Cellulophaga baltica 18</rdfs:label>
         <rdfs:label>Chlamydia trachomatis Ia/SotonIa1</rdfs:label>
@@ -51388,7 +51391,7 @@
         <rdfs:label>Enterobacter hormaechei CAV1176</rdfs:label>
         <rdfs:label>Marinobacter salarius R9SW1</rdfs:label>
         <rdfs:label>Megamonas hypermegale ART12/1</rdfs:label>
-        <rdfs:label>Mycobacterium grossiae DSM 104744</rdfs:label>
+        <rdfs:label>Mycolicibacterium grossiae DSM 104744</rdfs:label>
         <rdfs:label>Natrarchaeobaculum sulfurireducens AArc-Mg</rdfs:label>
         <rdfs:label>Sphingomonas glaciei S8-45</rdfs:label>
     </owl:Class>
@@ -52607,7 +52610,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_6044">
         <oboInOwl:id>kegg.genome:6044</oboInOwl:id>
         <rdfs:label>Gordonia phage Yeet412</rdfs:label>
-        <rdfs:label>Lymphocryptovirus Macaca/pfe-lcl-E3</rdfs:label>
         <rdfs:label>ssRNA phage Esthiorhiza.2_27</rdfs:label>
     </owl:Class>
     
@@ -52984,7 +52986,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_6075">
         <oboInOwl:id>kegg.genome:6075</oboInOwl:id>
-        <rdfs:label>Botryosphaeria dothidea virus 1</rdfs:label>
         <rdfs:label>ssRNA phage Esthiorhiza.2_8</rdfs:label>
     </owl:Class>
     
@@ -53022,7 +53023,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_6079">
         <oboInOwl:id>kegg.genome:6079</oboInOwl:id>
         <rdfs:label>Formica exsecta virus 4</rdfs:label>
-        <rdfs:label>HCBI8.215 virus</rdfs:label>
         <rdfs:label>ssRNA phage Esthiorhiza.3_11</rdfs:label>
     </owl:Class>
     
@@ -53293,7 +53293,7 @@
         <rdfs:label>Desulfosudis oleivorans Hxd3</rdfs:label>
         <rdfs:label>Dinoponera quadriceps</rdfs:label>
         <rdfs:label>Erigeron canadensis (horseweed)</rdfs:label>
-        <rdfs:label>Escherichia coli B C3029</rdfs:label>
+        <rdfs:label>Escherichia coli SHuffle B C3029</rdfs:label>
         <rdfs:label>Malvastrum leaf curl Guangdong virus</rdfs:label>
         <rdfs:label>Marinomonas rhizomae MB12-11</rdfs:label>
         <rdfs:label>Nyavirus nyamaniniense</rdfs:label>
@@ -53408,7 +53408,7 @@
         <oboInOwl:id>kegg.genome:611</oboInOwl:id>
         <rdfs:label>Butyrate-producing bacterium SS3/4</rdfs:label>
         <rdfs:label>Caldivirga maquilingensis IC-167</rdfs:label>
-        <rdfs:label>Escherichia coli K-12 C3026</rdfs:label>
+        <rdfs:label>Escherichia coli SHuffle K-12 C3026</rdfs:label>
         <rdfs:label>Malvastrum yellow vein Yunnan virus satellite DNA beta</rdfs:label>
         <rdfs:label>Polistes canadensis</rdfs:label>
         <rdfs:label>Streptomyces californicus FDAARGOS_1209</rdfs:label>
@@ -54091,7 +54091,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_6169">
         <oboInOwl:id>kegg.genome:6169</oboInOwl:id>
-        <rdfs:label>Macaca nemestrina herpesvirus 7</rdfs:label>
         <rdfs:label>ssRNA phage Gephyllon.4_11</rdfs:label>
     </owl:Class>
     
@@ -54160,7 +54159,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_6174">
         <oboInOwl:id>kegg.genome:6174</oboInOwl:id>
-        <rdfs:label>Chinese broad-headed pond turtle picornavirus 1</rdfs:label>
         <rdfs:label>ssRNA phage Gephyllon.4_16</rdfs:label>
     </owl:Class>
     
@@ -54180,7 +54178,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_6176">
         <oboInOwl:id>kegg.genome:6176</oboInOwl:id>
-        <rdfs:label>Chinese softshell turtle picornavirus 1</rdfs:label>
         <rdfs:label>ssRNA phage Gephyllon.4_18</rdfs:label>
     </owl:Class>
     
@@ -54649,7 +54646,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_6210">
         <oboInOwl:id>kegg.genome:6210</oboInOwl:id>
-        <rdfs:label>Wenling jack mackerels picornavirus</rdfs:label>
         <rdfs:label>ssRNA phage Gerhypos.1_28</rdfs:label>
     </owl:Class>
     
@@ -55591,6 +55587,7 @@
         <rdfs:label>Chloracidobacterium thermophilum B</rdfs:label>
         <rdfs:label>Gordonia rubripertincta CWB2</rdfs:label>
         <rdfs:label>Mycolicibacterium sediminis JCM 17899</rdfs:label>
+        <rdfs:label>Pseudochaenichthys georgianus (South Georgia icefish)</rdfs:label>
         <rdfs:label>Raoultella ornithinolytica S12</rdfs:label>
         <rdfs:label>Staphylococcus aureus subsp. aureus USA300_TCH1516, community-acquired methicillin-resistant</rdfs:label>
         <rdfs:label>Streptococcus pneumoniae SPN034183 (serotype 3)</rdfs:label>
@@ -55724,6 +55721,7 @@
         <rdfs:label>Aeromonas phage phiAS5</rdfs:label>
         <rdfs:label>Candidatus Karelsulcia muelleri GWSS</rdfs:label>
         <rdfs:label>Corynebacterium singulare IBS B52218</rdfs:label>
+        <rdfs:label>Glossina fuscipes (tsetse fly)</rdfs:label>
         <rdfs:label>Haliaeetus leucocephalus (bald eagle)</rdfs:label>
         <rdfs:label>Hydrogenophilus thermoluteolus TH-1</rdfs:label>
         <rdfs:label>Macaca nemestrina rhadinovirus 2</rdfs:label>
@@ -55839,6 +55837,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_631">
         <oboInOwl:id>kegg.genome:631</oboInOwl:id>
+        <rdfs:label>Brevibacillus ruminantium BB3-R1</rdfs:label>
         <rdfs:label>Chaetura pelagica (chimney swift)</rdfs:label>
         <rdfs:label>Ferriphaselus amnicola OYT1</rdfs:label>
         <rdfs:label>Flavobacterium phage 11b</rdfs:label>
@@ -55965,6 +55964,7 @@
         <rdfs:label>Myroides odoratus FDAARGOS_1132</rdfs:label>
         <rdfs:label>Pieris brassicae (large cabbage white)</rdfs:label>
         <rdfs:label>Pontibacter actiniarum DSM 19842</rdfs:label>
+        <rdfs:label>Pseudomonas cucumis FP1935</rdfs:label>
         <rdfs:label>Sphingobacterium daejeonense NCTC13534</rdfs:label>
         <rdfs:label>Weissella jogaejeotgali FOL01</rdfs:label>
     </owl:Class>
@@ -56073,6 +56073,7 @@
         <rdfs:label>Megasphaera elsdenii DSM 20460</rdfs:label>
         <rdfs:label>Meiothermus taiwanensis WR-220</rdfs:label>
         <rdfs:label>Neisseria meningitidis 053442 (serogroup C)</rdfs:label>
+        <rdfs:label>Paenibacillus hunanensis Y9</rdfs:label>
         <rdfs:label>Peptacetobacter hiranonis DSM 13275</rdfs:label>
         <rdfs:label>Providence virus</rdfs:label>
         <rdfs:label>Vescimonas fastidiosa MM35</rdfs:label>
@@ -56179,6 +56180,7 @@
         <rdfs:label>Azotobacter vinelandii CA6</rdfs:label>
         <rdfs:label>Gemmata massiliana Soil9</rdfs:label>
         <rdfs:label>Grapevine rootstock stem lesion associated virus</rdfs:label>
+        <rdfs:label>Halomonas neptunia ATCC BAA-805</rdfs:label>
         <rdfs:label>Heterobasidion RNA virus 6</rdfs:label>
         <rdfs:label>Jeotgalibaca sp. MA1X17-3</rdfs:label>
         <rdfs:label>Komagataeibacter saccharivorans CV1</rdfs:label>
@@ -56295,6 +56297,7 @@
         <oboInOwl:id>kegg.genome:635</oboInOwl:id>
         <rdfs:label>Bacillus sp. OxB-1</rdfs:label>
         <rdfs:label>Bacillus subtilis subsp. spizizenii TU-B-10</rdfs:label>
+        <rdfs:label>Blautia hydrogenotrophica DSM 10507</rdfs:label>
         <rdfs:label>Campylobacter concisus ATCC 33237</rdfs:label>
         <rdfs:label>Conexivisphaera calida NAS-02</rdfs:label>
         <rdfs:label>Kitasatospora sp. NA04385</rdfs:label>
@@ -56413,6 +56416,7 @@
         <oboInOwl:id>kegg.genome:636</oboInOwl:id>
         <rdfs:label>Adeno-associated virus</rdfs:label>
         <rdfs:label>Bartonella tribocorum CIP 105476</rdfs:label>
+        <rdfs:label>Blastomonas marina OXR-134</rdfs:label>
         <rdfs:label>Francisella frigiditurris CA97-1460</rdfs:label>
         <rdfs:label>Meiothermus ruber DSM 1279</rdfs:label>
         <rdfs:label>Methyloceanibacter caenitepidi Gela4</rdfs:label>
@@ -56459,8 +56463,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_6363">
         <oboInOwl:id>kegg.genome:6363</oboInOwl:id>
-        <rdfs:label>Blattodean nairo-related virus OKIAV321</rdfs:label>
-        <rdfs:label>Wuhan redfin culter dimarhabodovirus</rdfs:label>
         <rdfs:label>ssRNA phage Gerhypos.4_59</rdfs:label>
     </owl:Class>
     
@@ -56527,6 +56529,7 @@
         <rdfs:label>Bordetella bronchiseptica S798</rdfs:label>
         <rdfs:label>Bordetella petrii DSM 12804</rdfs:label>
         <rdfs:label>Cardamom mosaic virus</rdfs:label>
+        <rdfs:label>Chromohalobacter canadensis ATCC 43984</rdfs:label>
         <rdfs:label>Eupatorium yellow vein mosaic virus</rdfs:label>
         <rdfs:label>Listeria weihenstephanensis WS 4560</rdfs:label>
         <rdfs:label>Mycoplasma putrefaciens Mput9231</rdfs:label>
@@ -56639,6 +56642,7 @@
         <rdfs:label>Cutibacterium acnes HL096PA1 (Propionibacterium acnes HL096PA1)</rdfs:label>
         <rdfs:label>Desulfovibrio piger FI11049</rdfs:label>
         <rdfs:label>Fusobacterium hominis NSJ-57</rdfs:label>
+        <rdfs:label>Halomonas piscis SG2L-4</rdfs:label>
         <rdfs:label>Methylocaldum marinum S8</rdfs:label>
         <rdfs:label>Mycolicibacter minnesotensis JCM 17932</rdfs:label>
         <rdfs:label>Thermococcus sp. AM4</rdfs:label>
@@ -56754,6 +56758,7 @@
         <rdfs:label>Actinoalloteichus fjordicus ADI127-7</rdfs:label>
         <rdfs:label>Bacillus phage 0305phi8-36</rdfs:label>
         <rdfs:label>Brevundimonas pondensis LVF1</rdfs:label>
+        <rdfs:label>Candidatus Mycobacterium wuenschmannii</rdfs:label>
         <rdfs:label>Canine minute virus</rdfs:label>
         <rdfs:label>Chloroflexus aurantiacus J-10-fl</rdfs:label>
         <rdfs:label>Cupriavidus cauae PHS1</rdfs:label>
@@ -56900,6 +56905,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_640">
         <oboInOwl:id>kegg.genome:640</oboInOwl:id>
         <rdfs:label>Azotobacter chroococcum NCIMB 8003</rdfs:label>
+        <rdfs:label>Candidatus Mycoplasma mahonii</rdfs:label>
         <rdfs:label>Christiangramia flava JLT2011 (Gramella flava JLT2011)</rdfs:label>
         <rdfs:label>Deinococcus grandis ATCC 43672</rdfs:label>
         <rdfs:label>Enterobacteriaceae endosymbiont of Plateumaris pusilla</rdfs:label>
@@ -57035,6 +57041,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_641">
         <oboInOwl:id>kegg.genome:641</oboInOwl:id>
+        <rdfs:label>Calothrix sp. NIES-3974</rdfs:label>
         <rdfs:label>Chicken parvovirus ABU-P1</rdfs:label>
         <rdfs:label>Chryseolinea soli KIS68-18</rdfs:label>
         <rdfs:label>Gulosibacter molinativorax ON4</rdfs:label>
@@ -57065,7 +57072,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_6411">
         <oboInOwl:id>kegg.genome:6411</oboInOwl:id>
         <rdfs:label>Escherichia phage jat</rdfs:label>
-        <rdfs:label>Silurus glanis circovirus</rdfs:label>
         <rdfs:label>ssRNA phage SRR5466725_13</rdfs:label>
         <rdfs:label>uncultured phage cr30_1</rdfs:label>
     </owl:Class>
@@ -57170,6 +57176,7 @@
         <rdfs:label>Cupriavidus basilensis 4G11</rdfs:label>
         <rdfs:label>Enterobacteria phage ID18</rdfs:label>
         <rdfs:label>Metallosphaera tengchongensis Ric-A</rdfs:label>
+        <rdfs:label>Microbacterium invictum X-18</rdfs:label>
         <rdfs:label>Newbury agent 1</rdfs:label>
         <rdfs:label>Ornithogalum virus 2</rdfs:label>
         <rdfs:label>Pseudomonas shahriarae SWRI52</rdfs:label>
@@ -57298,6 +57305,7 @@
         <rdfs:label>Pseudomonas xantholysinigenes RW9S1A</rdfs:label>
         <rdfs:label>Pseudoxanthomonas spadix BD-a59</rdfs:label>
         <rdfs:label>Rickettsia rickettsii Iowa</rdfs:label>
+        <rdfs:label>Trematomus bernacchii (emerald rockcod)</rdfs:label>
         <rdfs:label>Yersinia enterocolitica WA</rdfs:label>
     </owl:Class>
     
@@ -57412,6 +57420,7 @@
         <rdfs:label>Carnobacterium divergens TMW 2.1579</rdfs:label>
         <rdfs:label>Equus przewalskii (Przewalski&apos;s horse)</rdfs:label>
         <rdfs:label>Flavobacterium enshiense R6S-5-6</rdfs:label>
+        <rdfs:label>Marmota marmota marmota (Alpine marmot)</rdfs:label>
         <rdfs:label>Salmonella phage SS3e</rdfs:label>
         <rdfs:label>Thermovirga lienii DSM 17291</rdfs:label>
         <rdfs:label>Trichogramma pretiosum</rdfs:label>
@@ -57534,6 +57543,7 @@
         <rdfs:label>Haloarcula sp. CBA1115</rdfs:label>
         <rdfs:label>Pelagibacterium halotolerans B2</rdfs:label>
         <rdfs:label>Ralstonia pseudosolanacearum RS 476</rdfs:label>
+        <rdfs:label>Sphingobacterium bambusae KACC 22910</rdfs:label>
         <rdfs:label>Stenotrophomonas sp. 169</rdfs:label>
     </owl:Class>
     
@@ -57667,6 +57677,7 @@
         <rdfs:label>Pseudomonas plecoglossicida NyZ12</rdfs:label>
         <rdfs:label>Radish leaf curl virus</rdfs:label>
         <rdfs:label>Streptantibioticus cattleyicolor NRRL 8057 = DSM 46488</rdfs:label>
+        <rdfs:label>Streptomyces cyaneofuscatus 89-2-2</rdfs:label>
         <rdfs:label>Zymobacter palmae IAM14233</rdfs:label>
     </owl:Class>
     
@@ -57782,6 +57793,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_647">
         <oboInOwl:id>kegg.genome:647</oboInOwl:id>
         <rdfs:label>Bacillus siamensis SCSIO 05746</rdfs:label>
+        <rdfs:label>Caldicellulosiruptor danielii DSM 8977</rdfs:label>
         <rdfs:label>Dehalococcoides mccartyi CG1</rdfs:label>
         <rdfs:label>Lactobacillus acidophilus La-14</rdfs:label>
         <rdfs:label>Microcystis aeruginosa NIES-843</rdfs:label>
@@ -57904,6 +57916,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_648">
         <oboInOwl:id>kegg.genome:648</oboInOwl:id>
         <rdfs:label>Arachidicoccus soli KIS59-12</rdfs:label>
+        <rdfs:label>Bacteroides finegoldii JCM 13345</rdfs:label>
         <rdfs:label>Dehalococcoides mccartyi CG4</rdfs:label>
         <rdfs:label>Halomonas qaidamensis XH36</rdfs:label>
         <rdfs:label>Kitasatospora setae KM-6054</rdfs:label>
@@ -58035,6 +58048,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_649">
         <oboInOwl:id>kegg.genome:649</oboInOwl:id>
         <rdfs:label>Accipiter gentilis (Northern goshawk)</rdfs:label>
+        <rdfs:label>Candidatus Nanosynbacter sp. HMT-352 KC1</rdfs:label>
         <rdfs:label>Dehalococcoides mccartyi CG5</rdfs:label>
         <rdfs:label>Halobacteriovorax sp. BALOs_7</rdfs:label>
         <rdfs:label>Methylotuvimicrobium alcaliphilum 20Z</rdfs:label>
@@ -58185,6 +58199,7 @@
         <rdfs:label>Marichromatium purpuratum 984</rdfs:label>
         <rdfs:label>Neorhizobium sp. NCHU2750</rdfs:label>
         <rdfs:label>Pseudomonas putida GB-1</rdfs:label>
+        <rdfs:label>Streptomyces coralus SX92</rdfs:label>
         <rdfs:label>Streptomyces microflavus DSM 40593 (Streptomyces fulvissimus DSM 40593)</rdfs:label>
         <rdfs:label>Turnip curly top virus</rdfs:label>
         <rdfs:label>Vibrio cholerae O1 2010EL-1786</rdfs:label>
@@ -58315,6 +58330,7 @@
         <rdfs:label>Halolamina sp. CBA1230</rdfs:label>
         <rdfs:label>Micromonospora tulbaghiae CNY-010</rdfs:label>
         <rdfs:label>Mycoplasmopsis californica HAZ160_1 (Mycoplasma californicum HAZ160_1)</rdfs:label>
+        <rdfs:label>Paenibacillus nuruki AASFL403</rdfs:label>
         <rdfs:label>Rosellinia necatrix partitivirus 2</rdfs:label>
         <rdfs:label>Treponema pallidum Fribourg-Blanc</rdfs:label>
     </owl:Class>
@@ -58438,6 +58454,7 @@
         <rdfs:label>Invertebrate iridescent virus 6</rdfs:label>
         <rdfs:label>Mycobacterium tuberculosis CAS/NITR204</rdfs:label>
         <rdfs:label>Porcine hokovirus</rdfs:label>
+        <rdfs:label>Pseudomonas piscis 75</rdfs:label>
         <rdfs:label>Rotifer birnavirus strain Palavas</rdfs:label>
         <rdfs:label>Skermanella mucosa KEMB 2255-438</rdfs:label>
         <rdfs:label>Suicoccus acidiformans ZY16052</rdfs:label>
@@ -58567,6 +58584,7 @@
         <rdfs:label>Methanogenium organophilum DSM 3596</rdfs:label>
         <rdfs:label>Mycobacterium tuberculosis EAI5/NITR206</rdfs:label>
         <rdfs:label>Pectobacterium aquaticum A212-S19-A16</rdfs:label>
+        <rdfs:label>Psychrobacillus sp. INOP01</rdfs:label>
     </owl:Class>
     
 
@@ -58691,6 +58709,7 @@
         <rdfs:label>Nocardioides baekrokdamisoli KCTC 39748</rdfs:label>
         <rdfs:label>Okra leaf curl virus</rdfs:label>
         <rdfs:label>Providencia huaxiensis WCHPr000369</rdfs:label>
+        <rdfs:label>Reichenbachiella carrageenanivorans WSW4-B4</rdfs:label>
         <rdfs:label>Shewanella halifaxensis HAW-EB4</rdfs:label>
         <rdfs:label>Wolbachia endosymbiont of Litomosoides sigmodontis wLsig</rdfs:label>
     </owl:Class>
@@ -58826,6 +58845,7 @@
         <rdfs:label>Brachyspira hampsonii NSH-16</rdfs:label>
         <rdfs:label>Candidatus Desulforudis audaxviator MP104C</rdfs:label>
         <rdfs:label>Cutibacterium acnes TypeIA2 P.acn31 (Propionibacterium acnes TypeIA2 P.acn31)</rdfs:label>
+        <rdfs:label>Geothrix sp. PMB-07</rdfs:label>
         <rdfs:label>Hollyhock leaf curl virus</rdfs:label>
         <rdfs:label>Klebsiella pasteurii Kox205</rdfs:label>
         <rdfs:label>Lysinibacillus fusiformis RB-21</rdfs:label>
@@ -58963,6 +58983,7 @@
         <rdfs:label>Hymenobacter oligotrophus sh-6</rdfs:label>
         <rdfs:label>Lysinibacillus sphaericus C3-41</rdfs:label>
         <rdfs:label>Microbulbifer variabilis SCSIO 43006</rdfs:label>
+        <rdfs:label>Microvirga lotononidis HAMBI_3237</rdfs:label>
         <rdfs:label>Nitrosopumilus piranensis D3C (Candidatus Nitrosopumilus piranensis D3C)</rdfs:label>
         <rdfs:label>Pseudomonas phage phi15</rdfs:label>
         <rdfs:label>Salipiger profundus JLT2016 (Thiobacimonas profunda JLT2016)</rdfs:label>
@@ -59102,6 +59123,7 @@
         <rdfs:label>Microbacterium foliorum NRRL B-24224</rdfs:label>
         <rdfs:label>Mycobacteroides abscessus ATCC 19977 (Mycobacterium abscessus ATCC 19977)</rdfs:label>
         <rdfs:label>Pedobacter riviphilus SW-16</rdfs:label>
+        <rdfs:label>Streptomyces laculatispora Mut2</rdfs:label>
         <rdfs:label>Vibrio anguillarum NB10</rdfs:label>
         <rdfs:label>Wolbachia endosymbiont of Drosophila yakuba wYak</rdfs:label>
     </owl:Class>
@@ -59225,6 +59247,7 @@
         <rdfs:label>Streptococcus anginosus SA1</rdfs:label>
         <rdfs:label>Streptococcus pneumoniae Hungary19A-6 (serotype 19A)</rdfs:label>
         <rdfs:label>Terrisporobacter hibernicus MCA3</rdfs:label>
+        <rdfs:label>Wolbachia endosymbiont of Drosophila aff. chauvacae BK-2020</rdfs:label>
     </owl:Class>
     
 
@@ -59345,6 +59368,7 @@
         <rdfs:label>Halobacteriovorax marinus SJ (Bacteriovorax marinus)</rdfs:label>
         <rdfs:label>Helicobacter pylori UM037</rdfs:label>
         <rdfs:label>Larimichthys crocea (large yellow croaker)</rdfs:label>
+        <rdfs:label>Wolbachia endosymbiont of Zaprionus tsacasi</rdfs:label>
     </owl:Class>
     
 
@@ -59481,6 +59505,7 @@
         <rdfs:label>Gryllotalpicola protaetiae 2DFW10M-5</rdfs:label>
         <rdfs:label>Helicobacter pylori UM066</rdfs:label>
         <rdfs:label>Japanese holly fern mottle virus</rdfs:label>
+        <rdfs:label>Rhizobium indigoferae CIP 108029</rdfs:label>
         <rdfs:label>Short-finned eel ranavirus</rdfs:label>
         <rdfs:label>Streptomyces griseoviridis F1-27</rdfs:label>
         <rdfs:label>Thalassomonas phage BA3</rdfs:label>
@@ -59598,6 +59623,7 @@
         <rdfs:label>Canary circovirus</rdfs:label>
         <rdfs:label>Finegoldia magna ATCC 29328</rdfs:label>
         <rdfs:label>Flavobacterium psychrophilum v4-33</rdfs:label>
+        <rdfs:label>Gymnodraco acuticeps</rdfs:label>
         <rdfs:label>Helicobacter pylori UM299</rdfs:label>
         <rdfs:label>Hipposideros armiger (great roundleaf bat)</rdfs:label>
         <rdfs:label>Protaetiibacter intestinalis 2DFWR-13</rdfs:label>
@@ -59721,6 +59747,7 @@
         <rdfs:label>Pseudomonas promysalinigenes RW10S1</rdfs:label>
         <rdfs:label>Rickettsia rickettsii Morgan</rdfs:label>
         <rdfs:label>Synechococcus phage S-RIM2 R1_1999</rdfs:label>
+        <rdfs:label>Vigna umbellata (ricebean)</rdfs:label>
     </owl:Class>
     
 
@@ -59832,6 +59859,7 @@
         <rdfs:label>Diachasma alloeum</rdfs:label>
         <rdfs:label>Filifactor alocis ATCC 35896</rdfs:label>
         <rdfs:label>Ipomoea nil (Japanese morning glory)</rdfs:label>
+        <rdfs:label>Lethenteron reissneri (Far Eastern brook lamprey)</rdfs:label>
         <rdfs:label>Leuconostoc citreum KM20</rdfs:label>
         <rdfs:label>Nannocystis poenicansa FL3</rdfs:label>
         <rdfs:label>Rickettsia rickettsii R</rdfs:label>
@@ -59952,6 +59980,7 @@
         <rdfs:label>Indian citrus ringspot virus</rdfs:label>
         <rdfs:label>Loa loa (eye worm)</rdfs:label>
         <rdfs:label>Lupinus angustifolius (narrow-leaved blue lupine)</rdfs:label>
+        <rdfs:label>Paraburkholderia bonniea BbQS395</rdfs:label>
         <rdfs:label>Picosynechococcus sp. PCC 7002</rdfs:label>
         <rdfs:label>Shigella phage SP18</rdfs:label>
         <rdfs:label>Stomoxys calcitrans (stable fly)</rdfs:label>
@@ -60073,6 +60102,7 @@
         <rdfs:label>Lacticaseibacillus casei 12A (Lactobacillus casei 12A)</rdfs:label>
         <rdfs:label>Marinitoga piezophila KA3</rdfs:label>
         <rdfs:label>Methanolobus zinderi DSM 21339</rdfs:label>
+        <rdfs:label>Microbacterium esteraromaticum DEHP-1</rdfs:label>
         <rdfs:label>Mycobacteroides chelonae CCUG 47445 (Mycobacterium chelonae CCUG 47445)</rdfs:label>
         <rdfs:label>Octopus sinensis (East Asian common octopus)</rdfs:label>
         <rdfs:label>Solanum lycopersicum (tomato)</rdfs:label>
@@ -60187,6 +60217,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_666">
         <oboInOwl:id>kegg.genome:666</oboInOwl:id>
         <rdfs:label>Dorea formicigenerans ATCC 27755</rdfs:label>
+        <rdfs:label>Enterobacter pasteurii D41-sc-1712200</rdfs:label>
         <rdfs:label>Escherichia coli K-12 DH10B</rdfs:label>
         <rdfs:label>Fragaria vesca (woodland strawberry)</rdfs:label>
         <rdfs:label>Fructilactobacillus lindneri TMW 1.481 (Lactobacillus lindneri TMW 1.481)</rdfs:label>
@@ -60308,6 +60339,7 @@
         <rdfs:label>Grapevine Bulgarian latent virus</rdfs:label>
         <rdfs:label>Hafnia paralvei FDAARGOS_158</rdfs:label>
         <rdfs:label>Jiella pelagia HL-NP1</rdfs:label>
+        <rdfs:label>Methanoplanus sp. FWC-SCC4</rdfs:label>
         <rdfs:label>Oceanimonas sp. GK1</rdfs:label>
         <rdfs:label>Oyster mushroom spherical virus</rdfs:label>
         <rdfs:label>Rhizobium etli bv. phaseoli IE4803</rdfs:label>
@@ -60427,6 +60459,7 @@
         <rdfs:label>Cavenderia fasciculata (cellular slime mold) (Dictyostelium fasciculatum)</rdfs:label>
         <rdfs:label>Corynebacterium glutamicum B253</rdfs:label>
         <rdfs:label>Escherichia phage HK75</rdfs:label>
+        <rdfs:label>Methylocaldum szegediense Msz(Nor)</rdfs:label>
         <rdfs:label>Mucilaginibacter celer HYN0043</rdfs:label>
         <rdfs:label>Paenibacillus terrae HPL-003</rdfs:label>
         <rdfs:label>Pasteurella skyensis 95A1</rdfs:label>
@@ -60540,6 +60573,7 @@
         <rdfs:label>Halobiforma lacisalsi AJ5</rdfs:label>
         <rdfs:label>Limosilactobacillus fermentum F-6 (Lactobacillus fermentum F-6)</rdfs:label>
         <rdfs:label>Nocardioides rotundus MCCC 1A10561</rdfs:label>
+        <rdfs:label>Paenibacillus pabuli E1</rdfs:label>
         <rdfs:label>Parasphingopyxis algicola JCM 31719</rdfs:label>
         <rdfs:label>Pseudovibrio sp. FO-BEG1</rdfs:label>
         <rdfs:label>Thermotoga sp. RQ7</rdfs:label>
@@ -60551,7 +60585,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_6690">
         <oboInOwl:id>kegg.genome:6690</oboInOwl:id>
-        <rdfs:label>Avian paramyxovirus UPO216</rdfs:label>
         <rdfs:label>ssRNA phage SRR7976323_3</rdfs:label>
     </owl:Class>
     
@@ -60673,6 +60706,7 @@
         <rdfs:label>Pea necrotic yellow dwarf virus</rdfs:label>
         <rdfs:label>Pyrobaculum ferrireducens 1860 (Pyrobaculum sp. 1860)</rdfs:label>
         <rdfs:label>Rathayibacter toxicus 70137</rdfs:label>
+        <rdfs:label>Rossellomorea aquimaris S-2</rdfs:label>
         <rdfs:label>Rubrobacter marinus SCSIO 52915</rdfs:label>
         <rdfs:label>Sphingobacterium sp. B29</rdfs:label>
     </owl:Class>
@@ -60789,6 +60823,7 @@
         <rdfs:label>Peptostreptococcus sp. CBA3647</rdfs:label>
         <rdfs:label>Pseudomonas protegens CHA0</rdfs:label>
         <rdfs:label>Rickettsia slovaca 13-B</rdfs:label>
+        <rdfs:label>Streptomyces roseicoloratus T14</rdfs:label>
     </owl:Class>
     
 
@@ -60896,6 +60931,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_672">
         <oboInOwl:id>kegg.genome:672</oboInOwl:id>
         <rdfs:label>Arsenophonus sp. ARAD, endosymbiont of Aleurodicus dispersus</rdfs:label>
+        <rdfs:label>Bradyrhizobium sp. C-145</rdfs:label>
         <rdfs:label>Burkholderia anthina BJQ0011</rdfs:label>
         <rdfs:label>Candidatus Karelsulcia muelleri PSPU</rdfs:label>
         <rdfs:label>Escherichia coli SMS-3-5 (environmental isolate)</rdfs:label>
@@ -61025,6 +61061,7 @@
         <rdfs:label>Pseudomonas phage PaP2</rdfs:label>
         <rdfs:label>Sphaerochaeta pleomorpha Grapes</rdfs:label>
         <rdfs:label>Ureaplasma parvum serovar 3 SV3F4</rdfs:label>
+        <rdfs:label>Vibrio metoecus ZF102</rdfs:label>
     </owl:Class>
     
 
@@ -61141,6 +61178,7 @@
         <rdfs:label>Streptococcus iniae SFST01-82</rdfs:label>
         <rdfs:label>Streptococcus macedonicus ACA-DC 198</rdfs:label>
         <rdfs:label>Streptomyces mobaraensis NBRC 13819 = DSM 40847</rdfs:label>
+        <rdfs:label>Wolbachia endosymbiont of Listronotus oregonensis</rdfs:label>
     </owl:Class>
     
 
@@ -61248,6 +61286,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_675">
         <oboInOwl:id>kegg.genome:675</oboInOwl:id>
         <rdfs:label>Bacillus thuringiensis HD1011</rdfs:label>
+        <rdfs:label>Candidatus Bandiella woodruffii NDG2</rdfs:label>
         <rdfs:label>Candidatus Phytoplasma ziziphi Jwb-nky</rdfs:label>
         <rdfs:label>Clostera anachoreta granulovirus</rdfs:label>
         <rdfs:label>Desulfosporosinus orientis DSM 765</rdfs:label>
@@ -61368,7 +61407,8 @@
         <rdfs:label>Mycoplasma yeatsii GM274B</rdfs:label>
         <rdfs:label>Nam Dinh virus</rdfs:label>
         <rdfs:label>Paenibacillus xylanexedens PAMC 22703</rdfs:label>
-        <rdfs:label>Pelagibacterium sp. YIM 151497</rdfs:label>
+        <rdfs:label>Pelagibacterium flavum YIM 151497</rdfs:label>
+        <rdfs:label>Pollutimonas sp. M17</rdfs:label>
         <rdfs:label>Rhinovirus C</rdfs:label>
         <rdfs:label>Shewanella woodyi ATCC 51908</rdfs:label>
         <rdfs:label>Spiroplasma chrysopicola DF-1</rdfs:label>
@@ -61488,6 +61528,7 @@
         <rdfs:label>Hydrogenovibrio marinus MH-110</rdfs:label>
         <rdfs:label>Lactobacillus jensenii SNUV360</rdfs:label>
         <rdfs:label>Owenweeksia hongkongensis DSM 17368</rdfs:label>
+        <rdfs:label>Pyramidobacter sp. YE332</rdfs:label>
         <rdfs:label>Raspberry vein chlorosis virus</rdfs:label>
         <rdfs:label>Rouxiella chamberiensis DSM 28324</rdfs:label>
         <rdfs:label>Spiroplasma syrphidicola EA-1</rdfs:label>
@@ -61600,6 +61641,7 @@
         <rdfs:label>Endosymbiont of Pachyrhynchus infernalis</rdfs:label>
         <rdfs:label>Fuerstiella marisgermanici NH11 (Fuerstia marisgermanicae NH11)</rdfs:label>
         <rdfs:label>Streptomyces bingchenggensis BCW-1</rdfs:label>
+        <rdfs:label>Tissierella sp. MB52-C2</rdfs:label>
         <rdfs:label>Undibacterium sp. KW1</rdfs:label>
         <rdfs:label>Yersinia pseudotuberculosis EP2/+</rdfs:label>
     </owl:Class>
@@ -61710,6 +61752,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_679">
         <oboInOwl:id>kegg.genome:679</oboInOwl:id>
         <rdfs:label>Alicyclobacillus dauci DSM 28700</rdfs:label>
+        <rdfs:label>Anaerotignum sp. MB30-C6</rdfs:label>
         <rdfs:label>Bujaru virus</rdfs:label>
         <rdfs:label>Chryseobacterium sp. 3008163</rdfs:label>
         <rdfs:label>Endosymbiont of Euscepes postfasciatus</rdfs:label>
@@ -61849,6 +61892,7 @@
         <rdfs:label>Rhynchosia yellow mosaic virus</rdfs:label>
         <rdfs:label>Ureaplasma parvum serovar 3 ATCC 27815</rdfs:label>
         <rdfs:label>Vibrio furnissii NCTC 11218</rdfs:label>
+        <rdfs:label>Vicia villosa (hairy vetch)</rdfs:label>
     </owl:Class>
     
 
@@ -61961,6 +62005,7 @@
         <rdfs:label>Rhizobium esperanzae N561</rdfs:label>
         <rdfs:label>Salipiger abyssi JLT2014</rdfs:label>
         <rdfs:label>Sphingomonas echinoides B18</rdfs:label>
+        <rdfs:label>Syngnathoides biaculeatus (alligator pipefish)</rdfs:label>
     </owl:Class>
     
 
@@ -62081,6 +62126,7 @@
         <rdfs:label>Mycobacteroides abscessus subsp. bolletii 50594 (Mycobacterium abscessus subsp. bolletii 50594)</rdfs:label>
         <rdfs:label>Narcissus symptomless virus</rdfs:label>
         <rdfs:label>Niabella soli DSM 19437</rdfs:label>
+        <rdfs:label>Phycodurus eques (leafy seadragon)</rdfs:label>
         <rdfs:label>Pipistrellus kuhlii (Kuhl&apos;s pipistrelle)</rdfs:label>
         <rdfs:label>Pyrobaculum neutrophilum V24Sta</rdfs:label>
         <rdfs:label>Rhodococcus gordoniae DND3</rdfs:label>
@@ -62199,6 +62245,7 @@
         <rdfs:label>Polynucleobacter necessarius STIR1, endosymbiont of Euplotes aediculatus</rdfs:label>
         <rdfs:label>Seonamhaeicola sp. S2-3</rdfs:label>
         <rdfs:label>Synechococcus phage S-ShM2</rdfs:label>
+        <rdfs:label>Tardiphaga alba SK50-23</rdfs:label>
         <rdfs:label>Vibrio sp. EJY3</rdfs:label>
         <rdfs:label>Vibrio tarriae 2521-89</rdfs:label>
     </owl:Class>
@@ -62307,6 +62354,7 @@
         <oboInOwl:id>kegg.genome:684</oboInOwl:id>
         <rdfs:label>Acinetobacter pittii PHEA-2 (Acinetobacter calcoaceticus PHEA-2)</rdfs:label>
         <rdfs:label>Acinetobacter soli GFJ2</rdfs:label>
+        <rdfs:label>Agrococcus sp. Marseille-Q4369</rdfs:label>
         <rdfs:label>Burkholderia ambifaria MC40-6</rdfs:label>
         <rdfs:label>Caballeronia insecticola RPE64 (Burkholderia sp. RPE64)</rdfs:label>
         <rdfs:label>Chlamydia muridarum Nigg3 CMUT3-5</rdfs:label>
@@ -62418,6 +62466,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_685">
         <oboInOwl:id>kegg.genome:685</oboInOwl:id>
+        <rdfs:label>Actinacidiphila glaucinigra NBC 01746</rdfs:label>
         <rdfs:label>Agarivorans sp. B2Z047</rdfs:label>
         <rdfs:label>Brucella abortus BER</rdfs:label>
         <rdfs:label>Candidatus Uabimicrobium amorphum SRT547</rdfs:label>
@@ -62521,6 +62570,7 @@
         <rdfs:label>Epirus cherry virus</rdfs:label>
         <rdfs:label>Lactococcus allomyrinae 1JSPR-7</rdfs:label>
         <rdfs:label>Little cherry virus 1</rdfs:label>
+        <rdfs:label>Methanosphaera sp. ISO3-F5</rdfs:label>
         <rdfs:label>Paralysiella testudinis 26B</rdfs:label>
         <rdfs:label>Streptococcus iniae SF1</rdfs:label>
         <rdfs:label>Streptomonospora nanhaiensis 12A09</rdfs:label>
@@ -62574,7 +62624,6 @@
         <oboInOwl:id>kegg.genome:6868</oboInOwl:id>
         <rdfs:label>Eimeria tenella RNA virus 1</rdfs:label>
         <rdfs:label>Microbacterium phage Quenya</rdfs:label>
-        <rdfs:label>Rusa timorensis papillomavirus type 1</rdfs:label>
     </owl:Class>
     
 
@@ -62593,6 +62642,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_687">
         <oboInOwl:id>kegg.genome:687</oboInOwl:id>
+        <rdfs:label>Actinoplanes oblitus NRRL 3884</rdfs:label>
         <rdfs:label>Ageratum yellow leaf curl betasatellite</rdfs:label>
         <rdfs:label>Alphachrysovirus cerasi</rdfs:label>
         <rdfs:label>Alteromonas sp. Mac1</rdfs:label>
@@ -62662,6 +62712,7 @@
         <rdfs:label>Apple latent spherical virus</rdfs:label>
         <rdfs:label>Beijerinckia indica subsp. indica ATCC 9039</rdfs:label>
         <rdfs:label>Chromobacterium rhizoryzae JP2-74</rdfs:label>
+        <rdfs:label>Comamonas resistens ZM22</rdfs:label>
         <rdfs:label>Corynebacterium diphtheriae INCA 402</rdfs:label>
         <rdfs:label>Deinococcus radiophilus ATCC 27603</rdfs:label>
         <rdfs:label>Erysipelothrix rhusiopathiae SY1027</rdfs:label>
@@ -62789,6 +62840,7 @@
         <rdfs:label>Nitrosopumilus oxyclinae HCE1</rdfs:label>
         <rdfs:label>Opitutus terrae PB90-1</rdfs:label>
         <rdfs:label>Polaromonas sp. SP1</rdfs:label>
+        <rdfs:label>Pseudomonas triclosanedens ZM23</rdfs:label>
         <rdfs:label>Rugosibacter aromaticivorans Ca6 (Rhodocyclaceae bacterium PG1-Ca6)</rdfs:label>
     </owl:Class>
     
@@ -62878,6 +62930,7 @@
         <rdfs:label>Mycobacterium tuberculosis KZN 4207</rdfs:label>
         <rdfs:label>Nitrosopumilus ureiphilus PS0</rdfs:label>
         <rdfs:label>Runella sp. SP2</rdfs:label>
+        <rdfs:label>Sphingomonas abietis PAMB00755</rdfs:label>
         <rdfs:label>Streptococcus pneumoniae CGSP14 (serotype 14)</rdfs:label>
         <rdfs:label>Wolbachia endosymbiont of Drosophila santomea wSan</rdfs:label>
     </owl:Class>
@@ -62937,6 +62990,7 @@
         <rdfs:label>Azoarcus sp. DN11</rdfs:label>
         <rdfs:label>Bacteroides fragilis 638R</rdfs:label>
         <rdfs:label>Corynebacterium glutamicum SCgG2</rdfs:label>
+        <rdfs:label>Flavobacteriaceae bacterium AU392</rdfs:label>
         <rdfs:label>Kosakonia cowanii JCM 10956 = DSM 18146</rdfs:label>
         <rdfs:label>Neobacillus mesonae H20-5</rdfs:label>
         <rdfs:label>Oriximina virus</rdfs:label>
@@ -62993,6 +63047,7 @@
         <rdfs:label>Bacillus velezensis CAU B946 (Bacillus amyloliquefaciens subsp. plantarum CAU B946)</rdfs:label>
         <rdfs:label>Candidatus Methanoliparum sp. LAM-1</rdfs:label>
         <rdfs:label>Candidatus Methanomassiliicoccus intestinalis Issoire-Mx1</rdfs:label>
+        <rdfs:label>Cobetia sp. 4B</rdfs:label>
         <rdfs:label>Cyanophage NATL2A-133</rdfs:label>
         <rdfs:label>Hoylesella buccalis FDAARGOS_1588</rdfs:label>
         <rdfs:label>Methanobacterium sp. BRmetb2</rdfs:label>
@@ -63078,6 +63133,7 @@
         <rdfs:label>Halorientalis sp. IM1011</rdfs:label>
         <rdfs:label>Leptospira biflexa serovar Patoc Patoc 1 (Paris)</rdfs:label>
         <rdfs:label>Martelella lutilitoris ZRK001</rdfs:label>
+        <rdfs:label>Massilia endophytica DM-R-R2A-13</rdfs:label>
         <rdfs:label>Methanococcus maripaludis OS7</rdfs:label>
         <rdfs:label>Okra yellow vein disease associated sequence</rdfs:label>
         <rdfs:label>Oryza sativa alphaendornavirus</rdfs:label>
@@ -63111,6 +63167,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_694">
         <oboInOwl:id>kegg.genome:694</oboInOwl:id>
+        <rdfs:label>Amycolatopsis rhabdoformis NCIMB 14900</rdfs:label>
         <rdfs:label>Arthrobacter polaris C1-1</rdfs:label>
         <rdfs:label>Bacillus paralicheniformis ATCC 9945a (Bacillus licheniformis 9945A)</rdfs:label>
         <rdfs:label>Bimbo virus</rdfs:label>
@@ -63178,6 +63235,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_695">
         <oboInOwl:id>kegg.genome:695</oboInOwl:id>
         <rdfs:label>Acholeplasma oculi 19L</rdfs:label>
+        <rdfs:label>Alcanivorax sp. ALC70</rdfs:label>
         <rdfs:label>Bordetella avium 197N</rdfs:label>
         <rdfs:label>Chitinimonas arctica R3-44</rdfs:label>
         <rdfs:label>Corynebacterium diphtheriae HC03</rdfs:label>
@@ -63245,7 +63303,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_696">
         <oboInOwl:id>kegg.genome:696</oboInOwl:id>
         <rdfs:label>Aquaspirillum sp. LM1</rdfs:label>
-        <rdfs:label>Candidatus Evansia muelleri</rdfs:label>
+        <rdfs:label>Candidatus Johnevansia muelleri</rdfs:label>
         <rdfs:label>Chitinibacter bivalviorum 2T18</rdfs:label>
         <rdfs:label>Clostridium botulinum B Eklund 17B (NRP)</rdfs:label>
         <rdfs:label>Cohnella candidum 18JY8-7</rdfs:label>
@@ -63254,6 +63312,7 @@
         <rdfs:label>Klebsiella africana 200023</rdfs:label>
         <rdfs:label>Micromonas pusilla CCMP1545</rdfs:label>
         <rdfs:label>Prochlorococcus phage P-HM2</rdfs:label>
+        <rdfs:label>Prosthecochloris sp. SCSIO W1101</rdfs:label>
         <rdfs:label>Radiobacillus kanasensis 80</rdfs:label>
     </owl:Class>
     
@@ -63316,6 +63375,7 @@
         <rdfs:label>Halosimplex pelagicum R2</rdfs:label>
         <rdfs:label>Melaka orthoreovirus</rdfs:label>
         <rdfs:label>Mycoplasma capricolum subsp. capripneumoniae 9231-Abomsa</rdfs:label>
+        <rdfs:label>Prosthecochloris sp. SCSIO W1103</rdfs:label>
         <rdfs:label>Pseudomonas asgharzadehiana SWRI132</rdfs:label>
         <rdfs:label>Sutterella megalosphaeroides 6FBBBH3</rdfs:label>
         <rdfs:label>Thioclava nitratireducens 25B10_4</rdfs:label>
@@ -63376,6 +63436,7 @@
         <rdfs:label>Photobacterium gaetbulicola Gung47</rdfs:label>
         <rdfs:label>Pseudomonas fakonensis COW40</rdfs:label>
         <rdfs:label>Streptococcus toyakuensis TP1632</rdfs:label>
+        <rdfs:label>Streptomyces flavofungini TRM90047</rdfs:label>
     </owl:Class>
     
 
@@ -63408,6 +63469,7 @@
         <rdfs:label>Corynebacterium diphtheriae C7 (beta)</rdfs:label>
         <rdfs:label>Flavobacterium bizetiae HJ-32-4</rdfs:label>
         <rdfs:label>Limosilactobacillus fermentum IFO 3956 (Lactobacillus fermentum IFO 3956)</rdfs:label>
+        <rdfs:label>Magnolia sinica</rdfs:label>
         <rdfs:label>Passerivirus A1</rdfs:label>
         <rdfs:label>Peribacillus butanolivorans PHB-7a</rdfs:label>
         <rdfs:label>Salehabad virus</rdfs:label>
@@ -63535,6 +63597,7 @@
         <rdfs:label>Prochlorococcus phage P-HM1</rdfs:label>
         <rdfs:label>Schlumbergera virus X</rdfs:label>
         <rdfs:label>Shigella boydii CDC 3083-94 (serotype 18)</rdfs:label>
+        <rdfs:label>Tigriopus californicus (tidepool copepod)</rdfs:label>
     </owl:Class>
     
 
@@ -63604,6 +63667,7 @@
         <rdfs:label>Limosilactobacillus reuteri I5007 (Lactobacillus reuteri I5007)</rdfs:label>
         <rdfs:label>Oscivirus A2</rdfs:label>
         <rdfs:label>Paenibacillus lautus E7593-69</rdfs:label>
+        <rdfs:label>Rhinichthys klamathensis goyatoka (western speckled dace)</rdfs:label>
         <rdfs:label>Roseateles amylovorans BIM B-1768</rdfs:label>
         <rdfs:label>Soybean mild mottle virus</rdfs:label>
         <rdfs:label>Varanus komodoensis (Komodo dragon)</rdfs:label>
@@ -63718,6 +63782,7 @@
         <rdfs:label>Spirosoma montaniterrae DY10</rdfs:label>
         <rdfs:label>Staphylococcus aureus CA-347, methicillin-resistant</rdfs:label>
         <rdfs:label>Streptomyces akebiae MG28</rdfs:label>
+        <rdfs:label>Synoicihabitans lomoniglobus LMO-M01</rdfs:label>
         <rdfs:label>Tulip mild mottle mosaic virus</rdfs:label>
     </owl:Class>
     
@@ -63817,6 +63882,7 @@
         <rdfs:label>Flavobacterium collinsii TRV642</rdfs:label>
         <rdfs:label>Mycoplasma capricolum subsp. capripneumoniae F38</rdfs:label>
         <rdfs:label>Penaeus japonicus (kuruma prawn)</rdfs:label>
+        <rdfs:label>Roseicyclus marinus Dej080120_10</rdfs:label>
         <rdfs:label>Simian foamy virus Pongo pygmaeus pygmaeus</rdfs:label>
         <rdfs:label>Streptococcus agalactiae 09mas018883</rdfs:label>
         <rdfs:label>Tessaracoccus flavescens SST-39T</rdfs:label>
@@ -63877,6 +63943,7 @@
         <rdfs:label>Avian adeno-associated virus ATCC VR-865</rdfs:label>
         <rdfs:label>Brucella abortus A13334</rdfs:label>
         <rdfs:label>Chryseobacterium sp. 6424</rdfs:label>
+        <rdfs:label>Limnobacter thiooxidans CS-K2</rdfs:label>
         <rdfs:label>Microbacterium terricola JCM 14903</rdfs:label>
         <rdfs:label>Mycoplasma capricolum subsp. capripneumoniae ILRI181</rdfs:label>
         <rdfs:label>Paenalcaligenes hominis 15S00501</rdfs:label>
@@ -63949,6 +64016,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_705">
         <oboInOwl:id>kegg.genome:705</oboInOwl:id>
+        <rdfs:label>Bergeyella porcorum QD2021</rdfs:label>
         <rdfs:label>Brucella canis HSK A52141</rdfs:label>
         <rdfs:label>Escherichia phage phiEcoM-GJ1</rdfs:label>
         <rdfs:label>Faecalibacter bovis ZY171143</rdfs:label>
@@ -64044,6 +64112,7 @@
         <oboInOwl:id>kegg.genome:706</oboInOwl:id>
         <rdfs:label>Brucella suis VBI22</rdfs:label>
         <rdfs:label>Enterobacter cloacae ECNIH5</rdfs:label>
+        <rdfs:label>Helcococcus ovis KG-36</rdfs:label>
         <rdfs:label>Pieris napi (green-veined white)</rdfs:label>
         <rdfs:label>Pseudomonas azerbaijanorientalis SWRI123</rdfs:label>
         <rdfs:label>Pseudomonas putida H8234</rdfs:label>
@@ -64144,6 +64213,7 @@
         <rdfs:label>Nitrosopumilus sp. K4</rdfs:label>
         <rdfs:label>Pseudomonas putida NBRC 14164</rdfs:label>
         <rdfs:label>Shewanella benthica DB21MT-2</rdfs:label>
+        <rdfs:label>Solobacterium moorei JCM 10645</rdfs:label>
         <rdfs:label>Streptococcus phage phiNIH1.1</rdfs:label>
     </owl:Class>
     
@@ -64192,6 +64262,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_7074">
         <oboInOwl:id>kegg.genome:7074</oboInOwl:id>
+        <rdfs:label>Carcinus maenas portunibunyavirus 1</rdfs:label>
         <rdfs:label>Pacific coast tick nairovirus</rdfs:label>
     </owl:Class>
     
@@ -64231,6 +64302,7 @@
         <rdfs:label>Leptonychotes weddellii (Weddell seal)</rdfs:label>
         <rdfs:label>Pseudomonas resinovorans NBRC 106553</rdfs:label>
         <rdfs:label>Trichlorobacter lovleyi SZ (Geobacter lovleyi SZ)</rdfs:label>
+        <rdfs:label>Williamsia herbipolensis NBC_00319</rdfs:label>
     </owl:Class>
     
 
@@ -64312,6 +64384,7 @@
         <rdfs:label>Halapricum desulfuricans HSR12-2</rdfs:label>
         <rdfs:label>Leptotrichia hongkongensis JMUB5056</rdfs:label>
         <rdfs:label>Microbulbifer agarilyticus GP101</rdfs:label>
+        <rdfs:label>Planktothrix rubescens PCC 7821</rdfs:label>
         <rdfs:label>Pseudodesulfovibrio mercurii ND132 (Desulfovibrio desulfuricans ND132)</rdfs:label>
         <rdfs:label>Treponema pallidum subsp. pallidum Nichols</rdfs:label>
     </owl:Class>
@@ -64395,6 +64468,7 @@
         <rdfs:label>Glycine max (soybean)</rdfs:label>
         <rdfs:label>His2 virus</rdfs:label>
         <rdfs:label>Lentilactobacillus kefiri DH5</rdfs:label>
+        <rdfs:label>Microbispora hainanensis NBC_00253</rdfs:label>
         <rdfs:label>Pantoea piersonii GABEKP28</rdfs:label>
         <rdfs:label>Saccharolobus caldissimus JCM32116</rdfs:label>
         <rdfs:label>Serratia plymuthica 4Rx13</rdfs:label>
@@ -64484,6 +64558,7 @@
         <rdfs:label>Pseudomonas aeruginosa RP73</rdfs:label>
         <rdfs:label>Rhinovirus A</rdfs:label>
         <rdfs:label>Shewanella khirikhana TH2012</rdfs:label>
+        <rdfs:label>Spirillospora sp. NBC_01491</rdfs:label>
         <rdfs:label>Synechococcus phage S-CBP42</rdfs:label>
         <rdfs:label>Tetragenococcus osmophilus JCM 31126</rdfs:label>
         <rdfs:label>Theilovirus</rdfs:label>
@@ -64551,6 +64626,7 @@
         <rdfs:label>Malaciobacter pacificus LMG 26638</rdfs:label>
         <rdfs:label>Mesorhizobium ciceri CC1192</rdfs:label>
         <rdfs:label>Mycoplasmoides pneumoniae 309 (Mycoplasma pneumoniae 309)</rdfs:label>
+        <rdfs:label>Pyrodictium abyssi AV2</rdfs:label>
     </owl:Class>
     
 
@@ -64605,6 +64681,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_713">
         <oboInOwl:id>kegg.genome:713</oboInOwl:id>
         <rdfs:label>Brachybacterium sp. P6-10-X1</rdfs:label>
+        <rdfs:label>Caproicibacterium argilliputei ZCY20-5</rdfs:label>
         <rdfs:label>Ferroplasma acidarmanus fer1</rdfs:label>
         <rdfs:label>Flavobacterium nackdongense GS13</rdfs:label>
         <rdfs:label>Francisella tularensis subsp. holarctica FTT_1</rdfs:label>
@@ -64661,6 +64738,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_714">
         <oboInOwl:id>kegg.genome:714</oboInOwl:id>
+        <rdfs:label>Bombiscardovia apis KimH</rdfs:label>
         <rdfs:label>Corynebacterium pseudogenitalium CCUG 27540</rdfs:label>
         <rdfs:label>Corynebacterium terpenotabidum Y-11</rdfs:label>
         <rdfs:label>Flavobacterium fluviale HYN0086</rdfs:label>
@@ -64776,6 +64854,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_715">
         <oboInOwl:id>kegg.genome:715</oboInOwl:id>
         <rdfs:label>Astrovirus MLB1</rdfs:label>
+        <rdfs:label>Bombiscardovia nodaiensis Kim37-2</rdfs:label>
         <rdfs:label>Clostridium tagluense CM022</rdfs:label>
         <rdfs:label>Francisella tularensis subsp. holarctica 425</rdfs:label>
         <rdfs:label>Mesorhizobium jarvisii ATCC 700743</rdfs:label>
@@ -64900,6 +64979,7 @@
         <rdfs:label>Serratia plymuthica S13</rdfs:label>
         <rdfs:label>Sinirhodobacter sp. HNIBRBA609</rdfs:label>
         <rdfs:label>Treponema pallidum subsp. pallidum SS14</rdfs:label>
+        <rdfs:label>Xylocopilactobacillus apis KimC2</rdfs:label>
         <rdfs:label>Yersinia mollaretii ATCC 43969</rdfs:label>
         <rdfs:label>Yersinia pestis PBM19</rdfs:label>
     </owl:Class>
@@ -64944,15 +65024,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/kegg.genome_7167 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_7167">
-        <oboInOwl:id>kegg.genome:7167</oboInOwl:id>
-        <rdfs:label>Pteropus lylei-associated alphaherpesvirus</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/kegg.genome_7169 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_7169">
@@ -64976,6 +65047,7 @@
         <rdfs:label>Staphylococcus aureus Bmb9393, methicillin-resistant</rdfs:label>
         <rdfs:label>Streptomyces clavuligerus F613-1</rdfs:label>
         <rdfs:label>Sweet potato leaf curl Spain virus</rdfs:label>
+        <rdfs:label>Xylocopilactobacillus apicola XA3</rdfs:label>
         <rdfs:label>Yersinia pestis Harbin35</rdfs:label>
     </owl:Class>
     
@@ -65026,6 +65098,7 @@
         <rdfs:label>Iocasia fonsfrigidae NS-1</rdfs:label>
         <rdfs:label>Neisseria chenwenguii 10023</rdfs:label>
         <rdfs:label>Rhodoblastus sp. SSC7</rdfs:label>
+        <rdfs:label>Scomber japonicus (chub mackerel)</rdfs:label>
         <rdfs:label>Sorangium cellulosum So0157-2</rdfs:label>
         <rdfs:label>Stenotrophomonas maltophilia K279a</rdfs:label>
         <rdfs:label>Streptomyces tanashiensis Kala</rdfs:label>
@@ -65077,6 +65150,7 @@
         <oboInOwl:id>kegg.genome:719</oboInOwl:id>
         <rdfs:label>Acidocella sp. MX-AZ03</rdfs:label>
         <rdfs:label>Alteromonas mediterranea 615 (Alteromonas macleodii English Channel 615)</rdfs:label>
+        <rdfs:label>Bactrocera dorsalis (oriental fruit fly)</rdfs:label>
         <rdfs:label>Enterobacter ludwigii EN-119</rdfs:label>
         <rdfs:label>Gordonia polyisoprenivorans VH2</rdfs:label>
         <rdfs:label>Mediterraneibacter gnavus ATCC 29149</rdfs:label>
@@ -65156,6 +65230,7 @@
         <rdfs:label>Haemophilus influenzae 10810 (serotype b)</rdfs:label>
         <rdfs:label>Haemophilus influenzae 477</rdfs:label>
         <rdfs:label>Halomonas alkaliphila X3</rdfs:label>
+        <rdfs:label>Hemiscyllium ocellatum (epaulette shark)</rdfs:label>
         <rdfs:label>Rhizobium etli CIAT 652</rdfs:label>
         <rdfs:label>Vespula pensylvanica (western yellowjacket)</rdfs:label>
         <rdfs:label>Yersinia phage phiA1122</rdfs:label>
@@ -65183,6 +65258,7 @@
         <rdfs:label>Methylocystis rosea GW6</rdfs:label>
         <rdfs:label>Natronosalvus halobius AGai3-5</rdfs:label>
         <rdfs:label>Nocardiopsis flavescens NA01583</rdfs:label>
+        <rdfs:label>Planctobacterium marinum Dej080120_11</rdfs:label>
         <rdfs:label>Rhodoferax koreense DCY110</rdfs:label>
         <rdfs:label>Rickettsia rickettsii Arizona</rdfs:label>
         <rdfs:label>Solea senegalensis (Senegalese sole)</rdfs:label>
@@ -65281,6 +65357,7 @@
         <rdfs:label>Rhinolophus ferrumequinum (greater horseshoe bat)</rdfs:label>
         <rdfs:label>Rhodopseudomonas palustris TIE-1</rdfs:label>
         <rdfs:label>Rickettsia rickettsii Colombia</rdfs:label>
+        <rdfs:label>Trinickia caryophylli HAMBI_2159</rdfs:label>
     </owl:Class>
     
 
@@ -65304,6 +65381,7 @@
         <rdfs:label>Janthinobacterium lividum EIF1</rdfs:label>
         <rdfs:label>Lacticaseibacillus paracasei BL23 (Lactobacillus casei BL23)</rdfs:label>
         <rdfs:label>Mariniplasma anaerobium Mahy22</rdfs:label>
+        <rdfs:label>Niabella yanshanensis HAMBI_3031</rdfs:label>
         <rdfs:label>Paracoccus suum SC2-6</rdfs:label>
         <rdfs:label>Rickettsia rickettsii Hauke</rdfs:label>
         <rdfs:label>Roseibium aggregatum RMAR6-6</rdfs:label>
@@ -65368,6 +65446,7 @@
         <rdfs:label>Corynebacterium stationis 622=DSM 20302</rdfs:label>
         <rdfs:label>Helicobacter pylori oki128</rdfs:label>
         <rdfs:label>Kingella oralis DSM 18271</rdfs:label>
+        <rdfs:label>Kribbella soli NBC_00380</rdfs:label>
         <rdfs:label>Melon severe mosaic tospovirus</rdfs:label>
         <rdfs:label>Metamycoplasma arthritidis 158L3-1 (Mycoplasma arthritidis 158L3-1)</rdfs:label>
         <rdfs:label>Methanothermobacter sp. THM-2</rdfs:label>
@@ -65447,6 +65526,7 @@
         <rdfs:label>Ralstonia solanacearum CMR15</rdfs:label>
         <rdfs:label>Shewanella baltica OS678</rdfs:label>
         <rdfs:label>Sulfolobus sp. S-194</rdfs:label>
+        <rdfs:label>Terrabacter sp. C0L_2</rdfs:label>
         <rdfs:label>Zingiber officinale (ginger)</rdfs:label>
     </owl:Class>
     
@@ -65501,6 +65581,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_726">
         <oboInOwl:id>kegg.genome:726</oboInOwl:id>
+        <rdfs:label>Acaryochloris sp. &apos;Moss Beach&apos;</rdfs:label>
         <rdfs:label>Acinetobacter baumannii BJAB07104</rdfs:label>
         <rdfs:label>Alenquer virus</rdfs:label>
         <rdfs:label>Bacillus phage phBC6A52</rdfs:label>
@@ -65582,6 +65663,7 @@
         <rdfs:label>Bovine papular stomatitis virus</rdfs:label>
         <rdfs:label>Campylobacter sp. RM12175</rdfs:label>
         <rdfs:label>Chagres virus</rdfs:label>
+        <rdfs:label>Chlamydophila parapsittaci Rostinovo-70</rdfs:label>
         <rdfs:label>Entomomonas moraniae QZS01</rdfs:label>
         <rdfs:label>Galeopterus variegatus (Sunda flying lemur)</rdfs:label>
         <rdfs:label>Helicobacter pylori oki673</rdfs:label>
@@ -65615,6 +65697,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_7277">
         <oboInOwl:id>kegg.genome:7277</oboInOwl:id>
         <rdfs:label>Lactococcus phage LP1502a</rdfs:label>
+        <rdfs:label>Rusa timorensis papillomavirus type 1</rdfs:label>
     </owl:Class>
     
 
@@ -65641,6 +65724,7 @@
         <rdfs:label>Helicobacter pylori oki828</rdfs:label>
         <rdfs:label>Neisseria gonorrhoeae NCCP11945</rdfs:label>
         <rdfs:label>Pantoea ananatis LMG 5342</rdfs:label>
+        <rdfs:label>Pseudomonas palleroniana X49</rdfs:label>
         <rdfs:label>Seal picornavirus type 1</rdfs:label>
         <rdfs:label>Siegesbeckia yellow vein Guangxi virus</rdfs:label>
         <rdfs:label>Tenuifilum thalassicum 38H-str</rdfs:label>
@@ -65750,6 +65834,7 @@
         <rdfs:label>Lacticaseibacillus paracasei LOCK919 (Lactobacillus casei LOCK919)</rdfs:label>
         <rdfs:label>Leanyer virus</rdfs:label>
         <rdfs:label>Lymphocystis disease virus - isolate China</rdfs:label>
+        <rdfs:label>Massilia litorea LPB0304</rdfs:label>
         <rdfs:label>Nakamurella antarctica s14-144</rdfs:label>
         <rdfs:label>Pasteurella multocida 36950</rdfs:label>
         <rdfs:label>Streptomyces griseochromogenes ATCC 14511</rdfs:label>
@@ -65810,6 +65895,7 @@
         <rdfs:label>Candidatus Amoebophilus asiaticus 5a2</rdfs:label>
         <rdfs:label>Cloacibacterium normanense NRS-1</rdfs:label>
         <rdfs:label>Conchiformibius steedae DSM 2580</rdfs:label>
+        <rdfs:label>Enterococcus montenegrensis CoE-012-22</rdfs:label>
         <rdfs:label>Georgenia yuyongxinii Z443</rdfs:label>
         <rdfs:label>Lacticaseibacillus rhamnosus LOCK900 (Lactobacillus rhamnosus LOCK900)</rdfs:label>
         <rdfs:label>Mesomycoplasma hyorhinis GDL-1 (Mycoplasma hyorhinis GDL-1)</rdfs:label>
@@ -65923,6 +66009,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_731">
         <oboInOwl:id>kegg.genome:731</oboInOwl:id>
+        <rdfs:label>Actinoallomurus sp. NBC_01490</rdfs:label>
         <rdfs:label>Adhaeribacter radiodurans KUDC8001</rdfs:label>
         <rdfs:label>Aggregatibacter sp. oral taxon 513 W11186</rdfs:label>
         <rdfs:label>Borreliella garinii CIP 103362</rdfs:label>
@@ -65999,6 +66086,7 @@
         <rdfs:label>Acetobacterium woodii DSM 1030</rdfs:label>
         <rdfs:label>Acinetobacter phage Acj61</rdfs:label>
         <rdfs:label>Adlercreutzia hattorii 8CFCBH1</rdfs:label>
+        <rdfs:label>Citrobacter enshiensis S171</rdfs:label>
         <rdfs:label>Haloplanus aerogenes JCM 16430</rdfs:label>
         <rdfs:label>Mycobacterium intracellulare subsp. yongonense 05-1390 (Mycobacterium yongonense 05-1390)</rdfs:label>
         <rdfs:label>Paraprevotella clara 1C4</rdfs:label>
@@ -66068,6 +66156,7 @@
         <rdfs:label>Klebsiella pneumoniae subsp. pneumoniae HS11286</rdfs:label>
         <rdfs:label>Leptotrichia trevisanii JMUB4039</rdfs:label>
         <rdfs:label>Malvastrum yellow mosaic Cameroon alphasatellite</rdfs:label>
+        <rdfs:label>Microbulbifer bruguierae H12</rdfs:label>
         <rdfs:label>Salivirus NG-J1</rdfs:label>
         <rdfs:label>Salmonella bongori N268-08</rdfs:label>
         <rdfs:label>Stenotrophomonas maltophilia R551-3</rdfs:label>
@@ -66115,6 +66204,7 @@
         <rdfs:label>Chromobacterium haemolyticum CH06-BL</rdfs:label>
         <rdfs:label>Endosymbiont &apos;TC1&apos; of Trimyema compressum</rdfs:label>
         <rdfs:label>Kosakonia sp. CCTCC M2018092</rdfs:label>
+        <rdfs:label>Lactobacillus xylocopicola Kim32-2</rdfs:label>
         <rdfs:label>Providencia stuartii BE2467</rdfs:label>
         <rdfs:label>Pseudomonas ogarae F113</rdfs:label>
         <rdfs:label>Salmonella enterica subsp. enterica serovar Cubana CFSAN002050</rdfs:label>
@@ -66138,6 +66228,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_735">
         <oboInOwl:id>kegg.genome:735</oboInOwl:id>
         <rdfs:label>Acetobacter aceti TMW2.1153</rdfs:label>
+        <rdfs:label>Actinomycetospora sp. NBC_00405</rdfs:label>
         <rdfs:label>Aggregatibacter phage S1249</rdfs:label>
         <rdfs:label>Bacillus aerophilus 232</rdfs:label>
         <rdfs:label>Bell pepper mottle virus</rdfs:label>
@@ -66246,6 +66337,7 @@
         <rdfs:label>Pseudomonas phage phi12</rdfs:label>
         <rdfs:label>Rickettsia canadensis CA410</rdfs:label>
         <rdfs:label>Salmonella enterica subsp. enterica serovar Heidelberg 41578</rdfs:label>
+        <rdfs:label>Thiorhodovibrio winogradskyi DSM 6702</rdfs:label>
     </owl:Class>
     
 
@@ -66291,6 +66383,7 @@
         <rdfs:label>Ideonella dechloratans CCUG 30977</rdfs:label>
         <rdfs:label>Komagataeibacter nataicola RZS01</rdfs:label>
         <rdfs:label>Petrocella atlantisensis 70B-A</rdfs:label>
+        <rdfs:label>Phyllopteryx taeniolatus (common seadragon)</rdfs:label>
         <rdfs:label>Rickettsia rickettsii Brazil</rdfs:label>
         <rdfs:label>Salmonella enterica subsp. enterica serovar Typhimurium var. 5- CFSAN001921</rdfs:label>
         <rdfs:label>Turuna virus</rdfs:label>
@@ -66334,6 +66427,7 @@
         <rdfs:label>Citrobacter amalonaticus FDAARGOS_165</rdfs:label>
         <rdfs:label>Cotesia glomerata</rdfs:label>
         <rdfs:label>Cupriavidus pauculus FDAARGOS_614</rdfs:label>
+        <rdfs:label>Daktulosphaira vitifoliae (grape phylloxera)</rdfs:label>
         <rdfs:label>Elephant endotheliotropic herpesvirus 5</rdfs:label>
         <rdfs:label>Rickettsia rickettsii Hino</rdfs:label>
         <rdfs:label>Salmonella enterica subsp. enterica serovar 4,[5],12:i:- str. 08-1736</rdfs:label>
@@ -66375,6 +66469,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_739">
         <oboInOwl:id>kegg.genome:739</oboInOwl:id>
+        <rdfs:label>Macrosteles quadrilineatus (aster leafhopper)</rdfs:label>
         <rdfs:label>Mycolicibacterium monacense DSM 44395</rdfs:label>
         <rdfs:label>Nique virus</rdfs:label>
         <rdfs:label>Pantoea agglomerans C410P1</rdfs:label>
@@ -66435,6 +66530,7 @@
         <rdfs:label>Mint virus 1</rdfs:label>
         <rdfs:label>Mumia sp. ZJ1417</rdfs:label>
         <rdfs:label>Paraburkholderia caledonica PHRS4</rdfs:label>
+        <rdfs:label>Persicobacter psychrovividus NBRC 101262</rdfs:label>
         <rdfs:label>Pseudomonas fitomaticsae FIT81</rdfs:label>
         <rdfs:label>Rio Grande virus</rdfs:label>
         <rdfs:label>Salmonella enterica subsp. enterica serovar Gallinarum/pullorum RKS5078</rdfs:label>
@@ -66517,6 +66613,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_741">
         <oboInOwl:id>kegg.genome:741</oboInOwl:id>
+        <rdfs:label>Actinomadura citrea NBC_00399</rdfs:label>
         <rdfs:label>Brucella suis bv. 2 Bs364CITA</rdfs:label>
         <rdfs:label>Caenibius tardaugens NBRC 16725 (Novosphingobium tardaugens NBRC 16725)</rdfs:label>
         <rdfs:label>Candidatus Nitrosotenuis sp. DW1</rdfs:label>
@@ -66566,6 +66663,7 @@
         <rdfs:label>Clostridium sp. AWRP</rdfs:label>
         <rdfs:label>Helicobacter pylori Shi470</rdfs:label>
         <rdfs:label>Nocardia asteroides NCTC11293</rdfs:label>
+        <rdfs:label>Nonomuraea fuscirosea NBC 01801</rdfs:label>
         <rdfs:label>Pseudomonadaceae bacterium T75</rdfs:label>
         <rdfs:label>Roseobacter phage RDJL Phi 1</rdfs:label>
         <rdfs:label>Salmonella enterica subsp. enterica serovar Typhimurium T000240</rdfs:label>
@@ -66621,6 +66719,7 @@
         <rdfs:label>Elizabethkingia anophelis JM-87</rdfs:label>
         <rdfs:label>Hymenobacter yonginensis KCTC 22745</rdfs:label>
         <rdfs:label>Methanobacterium formicicum DSM1535</rdfs:label>
+        <rdfs:label>Methylophaga thalassica IOM01</rdfs:label>
         <rdfs:label>Oceanidesulfovibrio marinus CS1</rdfs:label>
         <rdfs:label>Salmonella enterica subsp. enterica serovar Schwarzengrund CVM19633</rdfs:label>
         <rdfs:label>Salmonella enterica subsp. enterica serovar Typhimurium UK-1</rdfs:label>
@@ -66710,6 +66809,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_744">
         <oboInOwl:id>kegg.genome:744</oboInOwl:id>
+        <rdfs:label>Aureibacter tunicatorum NBRC 107587</rdfs:label>
         <rdfs:label>Campylobacter jejuni subsp. jejuni YH001</rdfs:label>
         <rdfs:label>Caulobacter sp. S6</rdfs:label>
         <rdfs:label>Chromobacterium phragmitis IIBBL 274-1</rdfs:label>
@@ -66756,6 +66856,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_745">
         <oboInOwl:id>kegg.genome:745</oboInOwl:id>
         <rdfs:label>Avian leukosis virus - RSA</rdfs:label>
+        <rdfs:label>Bifidobacterium faecale JCM 19861</rdfs:label>
         <rdfs:label>Campylobacter jejuni subsp. jejuni 35925B2</rdfs:label>
         <rdfs:label>Carya illinoinensis (pecan)</rdfs:label>
         <rdfs:label>Hydrogenobaculum sp. Y04AAS1</rdfs:label>
@@ -66815,6 +66916,7 @@
         <rdfs:label>Klebsiella pneumoniae 32192</rdfs:label>
         <rdfs:label>Lacibacter sediminis S13-6-22</rdfs:label>
         <rdfs:label>Mannheimia haemolytica D153</rdfs:label>
+        <rdfs:label>Marinobacter salinisoli LPB0319</rdfs:label>
         <rdfs:label>Polaribacter sp. BM10</rdfs:label>
         <rdfs:label>Prochlorococcus phage P-SSM2</rdfs:label>
         <rdfs:label>Propithecus coquereli (Coquerel&apos;s sifaka)</rdfs:label>
@@ -66888,6 +66990,7 @@
         <rdfs:label>Mannheimia haemolytica D171</rdfs:label>
         <rdfs:label>Oceanirhabdus sp. W0125-5</rdfs:label>
         <rdfs:label>Prochlorococcus phage P-SSM4</rdfs:label>
+        <rdfs:label>Pseudomonas phytophila ICMP 23753</rdfs:label>
         <rdfs:label>Sulfitobacter mediterraneus SC1-11</rdfs:label>
         <rdfs:label>Tessaracoccus sp. T2.5-30</rdfs:label>
         <rdfs:label>Wigglesworthia glossinidia, endosymbiont of Glossina morsitans morsitans (Yale colony)</rdfs:label>
@@ -66983,6 +67086,7 @@
         <rdfs:label>Bifidobacterium choerinum FMB-1</rdfs:label>
         <rdfs:label>Candidatus Mycobacterium methanotrophicum</rdfs:label>
         <rdfs:label>Frigoribacterium sp. NBH87</rdfs:label>
+        <rdfs:label>Fulvitalea axinellae DSM 100852</rdfs:label>
         <rdfs:label>Mannheimia haemolytica D174</rdfs:label>
         <rdfs:label>Mesta yellow vein mosaic Bahraich virus</rdfs:label>
         <rdfs:label>Paraneptunicella aestuarii NBU2194</rdfs:label>
@@ -67052,6 +67156,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_749">
         <oboInOwl:id>kegg.genome:749</oboInOwl:id>
+        <rdfs:label>Chryseobacterium fluminis MMS21-Ot14</rdfs:label>
         <rdfs:label>Citrifermentans bemidjiense Bem (Geobacter bemidjiensis Bem)</rdfs:label>
         <rdfs:label>Kribbella qitaiheensis SPB151</rdfs:label>
         <rdfs:label>Lachnospiraceae bacterium oral taxon 500 W11650</rdfs:label>
@@ -67170,6 +67275,7 @@
         <rdfs:label>Pseudocitrobacter corydidari G163CM</rdfs:label>
         <rdfs:label>Pseudoroseomonas cervicalis PL22-11A</rdfs:label>
         <rdfs:label>Rickettsiales sp. RICK01, endosymbiont of Stachyamoeba lipophora</rdfs:label>
+        <rdfs:label>Thalassospira tepidiphila IFOP_LL337</rdfs:label>
         <rdfs:label>Treponema pallidum subsp. pertenue Gauthier</rdfs:label>
     </owl:Class>
     
@@ -67232,6 +67338,7 @@
         <rdfs:label>Dendrolimus punctatus virus</rdfs:label>
         <rdfs:label>Glaciihabitans sp. INWT7</rdfs:label>
         <rdfs:label>Klebsiella sp. LTGPAF-6F</rdfs:label>
+        <rdfs:label>Marinomonas pontica 200518_36</rdfs:label>
         <rdfs:label>Parabacteroides merdae CL06T03C08</rdfs:label>
         <rdfs:label>Ralstonia pseudosolanacearum FQY_4 (Ralstonia solanacearum FQY_4)</rdfs:label>
         <rdfs:label>Salmonella enterica subsp. enterica serovar Agona SL483</rdfs:label>
@@ -67338,6 +67445,7 @@
         <rdfs:label>Bacillus thuringiensis YWC2-8</rdfs:label>
         <rdfs:label>Begonia flower breaking virus</rdfs:label>
         <rdfs:label>Blastococcus saxobsidens DD2</rdfs:label>
+        <rdfs:label>Borrelia nietonii YOR</rdfs:label>
         <rdfs:label>Candidatus Phytoplasma australiense</rdfs:label>
         <rdfs:label>Catharanthus mosaic virus</rdfs:label>
         <rdfs:label>Desulfuromonas versatilis NIT-T3</rdfs:label>
@@ -67440,6 +67548,7 @@
         <rdfs:label>Ludwigia leaf distortion betasatellite [India:Bahraich:Hibiscus:2006]</rdfs:label>
         <rdfs:label>Marinobacter alkaliphilus JY28</rdfs:label>
         <rdfs:label>Proteus mirabilis HI4320</rdfs:label>
+        <rdfs:label>Streptomyces changanensis HL-66</rdfs:label>
         <rdfs:label>Thermophilibacter immobilis LZLJ-2</rdfs:label>
         <rdfs:label>Thomasclavelia ramosa DSM 1402</rdfs:label>
     </owl:Class>
@@ -67547,6 +67656,7 @@
         <rdfs:label>Bordetella pertussis 137</rdfs:label>
         <rdfs:label>Loigolactobacillus backii TMW 1.1988 (Lactobacillus backii TMW 1.1988)</rdfs:label>
         <rdfs:label>Mycobacterium intracellulare MOTT-02</rdfs:label>
+        <rdfs:label>Myxococcus sp. MxC21-1</rdfs:label>
         <rdfs:label>Nitrospina watsonii 347</rdfs:label>
         <rdfs:label>Thiothrix litoralis AS</rdfs:label>
         <rdfs:label>Undibacterium parvum DSM 23061</rdfs:label>
@@ -67637,6 +67747,7 @@
         <rdfs:label>Aliarcobacter butzleri 7h1h</rdfs:label>
         <rdfs:label>Bacteroides eggerthii CL11T00C20</rdfs:label>
         <rdfs:label>Candidatus Endomicrobium trichonymphae Rs-D17 (Uncultured Termite group 1 bacterium phylotype Rs-D17)</rdfs:label>
+        <rdfs:label>Empedobacter haloabium ATCC 31962</rdfs:label>
         <rdfs:label>Geospiza fortis (medium ground-finch)</rdfs:label>
         <rdfs:label>Lilac leaf chlorosis virus</rdfs:label>
         <rdfs:label>Mycobacterium paraintracellulare MOTT-64 (Mycobacterium intracellulare MOTT-64)</rdfs:label>
@@ -67756,6 +67867,7 @@
         <rdfs:label>Bradyrhizobium daqingense CCBAU 15774</rdfs:label>
         <rdfs:label>Burkholderia pseudomallei MSHR305</rdfs:label>
         <rdfs:label>Clostridium cochlearium NCTC13027</rdfs:label>
+        <rdfs:label>Condylostylus longicornis</rdfs:label>
         <rdfs:label>Janthinobacterium sp. LM6</rdfs:label>
         <rdfs:label>Nipponia nippon (crested ibis)</rdfs:label>
         <rdfs:label>Nocardia cyriacigeorgica GUH-2</rdfs:label>
@@ -67831,6 +67943,7 @@
         <rdfs:label>Araujia mosaic virus</rdfs:label>
         <rdfs:label>Chryseobacterium indoltheticum ATCC 27950</rdfs:label>
         <rdfs:label>Elizabethkingia miricola BM10 (Elizabethkingia sp. BM10)</rdfs:label>
+        <rdfs:label>Fusarium keratoplasticum</rdfs:label>
         <rdfs:label>Helicobacter pylori UM298</rdfs:label>
         <rdfs:label>Klebsiella phage KP15</rdfs:label>
         <rdfs:label>Martelella mediterranea DSM 17316 MACL11</rdfs:label>
@@ -67933,6 +68046,7 @@
         <rdfs:label>Mannheimia haemolytica USMARC_2286</rdfs:label>
         <rdfs:label>Nitrosopumilus adriaticus NF5 (Candidatus Nitrosopumilus adriaticus NF5)</rdfs:label>
         <rdfs:label>Papaver somniferum (opium poppy)</rdfs:label>
+        <rdfs:label>Poeciliopsis prolifica (blackstripe livebearer)</rdfs:label>
         <rdfs:label>Propionibacterium phage PA6</rdfs:label>
         <rdfs:label>Rickettsia massiliae AZT80</rdfs:label>
         <rdfs:label>Thermospira aquatica F1F22</rdfs:label>
@@ -68019,12 +68133,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_759">
         <oboInOwl:id>kegg.genome:759</oboInOwl:id>
+        <rdfs:label>Actinomadura parvosata subsp. kistnae ATCC 55076 (Nonomuraea sp. ATCC 55076)</rdfs:label>
         <rdfs:label>Bracoviriform indiense</rdfs:label>
         <rdfs:label>Burkholderia sp. 2002721687</rdfs:label>
         <rdfs:label>Campylobacter jejuni 32488</rdfs:label>
+        <rdfs:label>Candidatus Thiocaldithrix dubininis GKL-01</rdfs:label>
         <rdfs:label>Human papillomavirus type 10</rdfs:label>
         <rdfs:label>Mannheimia granulomatis B 234/94</rdfs:label>
-        <rdfs:label>Nonomuraea sp. ATCC 55076</rdfs:label>
         <rdfs:label>Okra leaf curl betasatellite</rdfs:label>
         <rdfs:label>Pangasianodon hypophthalmus (striped catfish)</rdfs:label>
         <rdfs:label>Phocoena sinus (vaquita)</rdfs:label>
@@ -68070,6 +68185,7 @@
         <oboInOwl:id>kegg.genome:760</oboInOwl:id>
         <rdfs:label>Aliarcobacter cibarius LMG 21996</rdfs:label>
         <rdfs:label>Bradyrhizobium canariense WSM471</rdfs:label>
+        <rdfs:label>Candidatus Improbicoccus pseudotrichonymphae CfP3-15</rdfs:label>
         <rdfs:label>Human papillomavirus type 16</rdfs:label>
         <rdfs:label>Influenza A virus (A/Hong Kong/1073/99(H9N2))</rdfs:label>
         <rdfs:label>Methylorubrum populi BJ001</rdfs:label>
@@ -68114,6 +68230,7 @@
         <rdfs:label>Paralcaligenes sp. KSB-10</rdfs:label>
         <rdfs:label>Porphyromonas sp. oral taxon 275 W7780</rdfs:label>
         <rdfs:label>Salmonella enterica subsp. enterica serovar Enteritidis EC20090531</rdfs:label>
+        <rdfs:label>Streptomyces sp. TN58</rdfs:label>
         <rdfs:label>Tomato leaf curl Arusha virus</rdfs:label>
         <rdfs:label>Vibrio parahaemolyticus O1:Kuk FDA_R31</rdfs:label>
         <rdfs:label>human papillomavirus 18</rdfs:label>
@@ -68136,7 +68253,8 @@
         <rdfs:label>Oat chlorotic stunt virus</rdfs:label>
         <rdfs:label>Ralstonia pickettii 12J</rdfs:label>
         <rdfs:label>Salvelinus sp. IW2-2015 (Arctic char)</rdfs:label>
-        <rdfs:label>Thermoanaerosceptrum fracticalcis DRI-13</rdfs:label>
+        <rdfs:label>Synechococcus sp. NIES-970</rdfs:label>
+        <rdfs:label>Thermanaerosceptrum fracticalcis DRI-13</rdfs:label>
     </owl:Class>
     
 
@@ -68171,6 +68289,7 @@
         <rdfs:label>Mandrillus leucophaeus (drill)</rdfs:label>
         <rdfs:label>Melissococcus plutonius DAT561</rdfs:label>
         <rdfs:label>Panine betaherpesvirus 2</rdfs:label>
+        <rdfs:label>Pauljensenia hongkongensis HKU8</rdfs:label>
         <rdfs:label>Planococcus sp. Y42</rdfs:label>
         <rdfs:label>Protobothrops mucrosquamatus (Taiwan habu)</rdfs:label>
         <rdfs:label>Streptomyces phage phiSASD1</rdfs:label>
@@ -68212,6 +68331,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_764">
         <oboInOwl:id>kegg.genome:764</oboInOwl:id>
         <rdfs:label>Aconitum latent virus</rdfs:label>
+        <rdfs:label>Acutalibacter muris KB18</rdfs:label>
         <rdfs:label>Anaerocolumna cellulosilytica SN021</rdfs:label>
         <rdfs:label>Border disease virus</rdfs:label>
         <rdfs:label>Borrelia hermsii DAH</rdfs:label>
@@ -68329,6 +68449,7 @@
         <rdfs:label>Pseudorhizobium banfieldiae NT-26</rdfs:label>
         <rdfs:label>Streptococcus infantarius subsp. infantarius CJ18</rdfs:label>
         <rdfs:label>Tuber aestivum betaendornavirus</rdfs:label>
+        <rdfs:label>Ureaplasma diversum ATCC 49782</rdfs:label>
         <rdfs:label>Xanthomonas oryzae pv. oryzae PXO86</rdfs:label>
     </owl:Class>
     
@@ -68418,6 +68539,7 @@
         <rdfs:label>Chlorobium limicola DSM 245</rdfs:label>
         <rdfs:label>Marinobacter salinus Hb8</rdfs:label>
         <rdfs:label>Mycoplasmopsis columboralis NCTC10179</rdfs:label>
+        <rdfs:label>Nostoc piscinale CENA21</rdfs:label>
         <rdfs:label>Pleomorphomonas sp. SM30</rdfs:label>
         <rdfs:label>Pseudomonas simiae PCL1751 (Pseudomonas fluorescens PCL1751)</rdfs:label>
         <rdfs:label>Sida golden yellow vein virus-[Jamaica:Liguanea2:2008]</rdfs:label>
@@ -68444,6 +68566,7 @@
         <rdfs:label>Bat coronavirus 1A</rdfs:label>
         <rdfs:label>Chlamydia trachomatis RC-J/953</rdfs:label>
         <rdfs:label>Clostridium botulinum E3 Alaska E43</rdfs:label>
+        <rdfs:label>Crenobacter cavernae K1W11S-77</rdfs:label>
         <rdfs:label>Iodobacter ciconiae H11R3</rdfs:label>
         <rdfs:label>Mycolicibacterium flavescens NCTC10271</rdfs:label>
         <rdfs:label>Nocardiopsis eucommiae HDS5</rdfs:label>
@@ -68505,6 +68628,7 @@
         <rdfs:label>Lacticaseibacillus paracasei subsp. paracasei JCM 8130</rdfs:label>
         <rdfs:label>Leucobacter aridicollis J1</rdfs:label>
         <rdfs:label>Leuconostoc mesenteroides subsp. mesenteroides J18</rdfs:label>
+        <rdfs:label>Methanohalophilus portucalensis FDF-1</rdfs:label>
         <rdfs:label>Pseudomonas chlororaphis PCL1606</rdfs:label>
     </owl:Class>
     
@@ -68532,6 +68656,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_769">
         <oboInOwl:id>kegg.genome:769</oboInOwl:id>
+        <rdfs:label>Acidihalobacter aeolianus V6</rdfs:label>
         <rdfs:label>Borrelia recurrentis A1</rdfs:label>
         <rdfs:label>Candidatus Cloacimonas acidaminovorans Evry</rdfs:label>
         <rdfs:label>Chlamydia trachomatis RC-J/971</rdfs:label>
@@ -68624,6 +68749,7 @@
         <rdfs:label>Diplodia scrobiculata RNA virus 1</rdfs:label>
         <rdfs:label>Halorubrum sp. PV6</rdfs:label>
         <rdfs:label>Moritella viscosa MVIS1</rdfs:label>
+        <rdfs:label>Nonlabens marinus S1-08</rdfs:label>
         <rdfs:label>Rahnella aquatilis CIP 78.65 = ATCC 33071</rdfs:label>
         <rdfs:label>Rhizobium oryzihabitans M15</rdfs:label>
         <rdfs:label>Salmonella enterica subsp. enterica serovar Gallinarum 287/91</rdfs:label>
@@ -68694,6 +68820,7 @@
         <rdfs:label>Legionella fallonii LLAP-10</rdfs:label>
         <rdfs:label>Rhodovulum sp. MB263</rdfs:label>
         <rdfs:label>Winkia neuii subsp. anitrata NY0527</rdfs:label>
+        <rdfs:label>Yersinia entomophaga MH96</rdfs:label>
     </owl:Class>
     
 
@@ -68780,6 +68907,7 @@
         <rdfs:label>Pectobacterium versatile 3-2</rdfs:label>
         <rdfs:label>Pseudomonas pseudoalcaligenes CECT 5344</rdfs:label>
         <rdfs:label>Saccharomyces 20S RNA narnavirus</rdfs:label>
+        <rdfs:label>Silvanigrella aquatica MWH-Nonnen-W8red</rdfs:label>
     </owl:Class>
     
 
@@ -68789,7 +68917,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_7722">
         <oboInOwl:id>kegg.genome:7722</oboInOwl:id>
         <rdfs:label>Escherichia phage JLK-2012</rdfs:label>
-        <rdfs:label>Harrier picornavirus 1</rdfs:label>
     </owl:Class>
     
 
@@ -68822,6 +68949,7 @@
         <rdfs:label>Clostridium beijerinckii NCIMB 14988</rdfs:label>
         <rdfs:label>Coprothermobacter proteolyticus DSM 5265</rdfs:label>
         <rdfs:label>Diaphorobacter aerolatus KACC 16536</rdfs:label>
+        <rdfs:label>Ereboglobus luteus Ho45</rdfs:label>
         <rdfs:label>Frateuria aurantia DSM 6220</rdfs:label>
         <rdfs:label>Pocillopora damicornis (lace coral)</rdfs:label>
         <rdfs:label>Tichowtungia aerotolerans S-5007</rdfs:label>
@@ -68888,6 +69016,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/kegg.genome_7737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_7737">
+        <oboInOwl:id>kegg.genome:7737</oboInOwl:id>
+        <rdfs:label>Bat circovirus POA/2012/II</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/kegg.genome_7738 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_7738">
@@ -68919,6 +69056,7 @@
         <rdfs:label>Methanocella conradii HZ254</rdfs:label>
         <rdfs:label>Mycobacterium kubicae JCM 13573</rdfs:label>
         <rdfs:label>Mycobacterium marinum E11</rdfs:label>
+        <rdfs:label>Nocardia yunnanensis CFH S0054</rdfs:label>
         <rdfs:label>Stylophora pistillata (Smooth Cauliflower Coral)</rdfs:label>
         <rdfs:label>Tessaracoccus defluvii JCM 17540</rdfs:label>
     </owl:Class>
@@ -68964,6 +69102,7 @@
         <rdfs:label>Lactococcus virus jj50</rdfs:label>
         <rdfs:label>Mycobacterium tuberculosis RGTB327</rdfs:label>
         <rdfs:label>Myotis polyomavirus VM-2008</rdfs:label>
+        <rdfs:label>Osmia lignaria (orchard mason bee)</rdfs:label>
         <rdfs:label>Psychromicrobium lacuslunae IHBB 11108 (Arthrobacter sp. IHBB 11108)</rdfs:label>
         <rdfs:label>Shewanella yunxiaonensis FJAT-54481</rdfs:label>
         <rdfs:label>Streptococcus lutetiensis 033</rdfs:label>
@@ -69030,6 +69169,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_776">
         <oboInOwl:id>kegg.genome:776</oboInOwl:id>
+        <rdfs:label>Athalia rosae (coleseed sawfly)</rdfs:label>
         <rdfs:label>Bacillus pumilus SH-B9</rdfs:label>
         <rdfs:label>Bombus pyrosoma</rdfs:label>
         <rdfs:label>Gossypium arboreum (tree cotton)</rdfs:label>
@@ -69115,6 +69255,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_777">
         <oboInOwl:id>kegg.genome:777</oboInOwl:id>
+        <rdfs:label>Anastrepha obliqua (West Indian fruit fly)</rdfs:label>
         <rdfs:label>Athene cunicularia (burrowing owl)</rdfs:label>
         <rdfs:label>Bacteroides salyersiae BFG-256</rdfs:label>
         <rdfs:label>Candidatus Profftella armatura DC</rdfs:label>
@@ -69207,6 +69348,7 @@
         <rdfs:label>Escherichia coli O157:H7 EC4115 (EHEC)</rdfs:label>
         <rdfs:label>Hippoglossus hippoglossus (Atlantic halibut)</rdfs:label>
         <rdfs:label>Ooceraea biroi (clonal raider ant)</rdfs:label>
+        <rdfs:label>Quillaja saponaria (soapbark tree)</rdfs:label>
         <rdfs:label>Ralstonia mannitolilytica SN82F48</rdfs:label>
         <rdfs:label>Rhizobium etli bv. mimosae Mim1, endosymbiont of Mimosa affinis</rdfs:label>
         <rdfs:label>Shewanella seohaensis KCTC 23556</rdfs:label>
@@ -69298,6 +69440,7 @@
         <rdfs:label>Escherichia phage Min27</rdfs:label>
         <rdfs:label>Leptodesmis sichuanensis A121</rdfs:label>
         <rdfs:label>Oceanobacillus jeddahense QA-1986 374</rdfs:label>
+        <rdfs:label>Pseudomonas rhizophila S211</rdfs:label>
         <rdfs:label>Rhizobium leguminosarum bv. trifolii WSM2304, endosymbiont of Trifolium polymorphum</rdfs:label>
         <rdfs:label>Roseovarius mucosus SMR3</rdfs:label>
         <rdfs:label>Salmonella enterica subsp. enterica serovar Newport USMARC-S3124.1</rdfs:label>
@@ -69365,13 +69508,14 @@
         <oboInOwl:id>kegg.genome:780</oboInOwl:id>
         <rdfs:label>Corallococcus coralloides DSM 2259</rdfs:label>
         <rdfs:label>Cycloclasticus zancles 78-ME</rdfs:label>
-        <rdfs:label>Faecalibacterium prausnitzii A2-165</rdfs:label>
+        <rdfs:label>Faecalibacterium duncaniae A2165 (Faecalibacterium prausnitzii A2-165)</rdfs:label>
         <rdfs:label>Helicobacter ailurogastricus ASB7</rdfs:label>
         <rdfs:label>Lactobacillus phage phiPYB5</rdfs:label>
         <rdfs:label>Parabacteroides goldsteinii BFG-241</rdfs:label>
         <rdfs:label>Parasedimentitalea marina W43</rdfs:label>
         <rdfs:label>Rhodothermaceae bacterium RA</rdfs:label>
         <rdfs:label>Streptococcus pyogenes NZ131 (serotype M49)</rdfs:label>
+        <rdfs:label>Ureibacillus thermophilus LM102</rdfs:label>
         <rdfs:label>Xanthomonas citri pv. citri MN11 (Xanthomonas citri subsp. citri MN11)</rdfs:label>
     </owl:Class>
     
@@ -69472,6 +69616,7 @@
         <rdfs:label>Megasphaera massiliensis NBRC 114414</rdfs:label>
         <rdfs:label>Methylomonas rapida MP1</rdfs:label>
         <rdfs:label>Micromonas pusilla reovirus</rdfs:label>
+        <rdfs:label>Nissabacter sp. SGAir0207</rdfs:label>
         <rdfs:label>Oenococcus sp. UCMA 16435</rdfs:label>
         <rdfs:label>Paracoccus yeei FDAARGOS_252</rdfs:label>
         <rdfs:label>Paramecium bursaria Chlorella virus FR483</rdfs:label>
@@ -69548,6 +69693,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/kegg.genome_7818 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_7818">
+        <oboInOwl:id>kegg.genome:7818</oboInOwl:id>
+        <rdfs:label>Lactococcus phage vB_Llc_bIBB12</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/kegg.genome_782 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_782">
@@ -69566,6 +69720,7 @@
         <rdfs:label>Nonomuraea gerenzanensis L70</rdfs:label>
         <rdfs:label>Pariacoto virus</rdfs:label>
         <rdfs:label>Salmonella enterica subsp. enterica serovar Typhimurium 798</rdfs:label>
+        <rdfs:label>Sphaerospermopsis torques-reginae ITEP-024</rdfs:label>
     </owl:Class>
     
 
@@ -69634,6 +69789,7 @@
         <rdfs:label>Actinomyces slackii NCTC11923</rdfs:label>
         <rdfs:label>Afipia carboxidovorans OM5 (Mississippi) (Oligotropha carboxidovorans OM5)</rdfs:label>
         <rdfs:label>Candidatus Karelsulcia muelleri Sulcia-ALF</rdfs:label>
+        <rdfs:label>Candidatus Paraimprobicoccus trichonymphae RsTa-C01</rdfs:label>
         <rdfs:label>Cebus imitator (Panamanian white-faced capuchin)</rdfs:label>
         <rdfs:label>Ferroplasma acidiphilum Y</rdfs:label>
         <rdfs:label>Gemmatimonas groenlandica TET16</rdfs:label>
@@ -69759,6 +69915,7 @@
         <rdfs:label>Escherichia coli O152:H28 SE11 (commensal strain)</rdfs:label>
         <rdfs:label>Fragilariopsis cylindrus CCMP1102</rdfs:label>
         <rdfs:label>Grapevine deformation virus</rdfs:label>
+        <rdfs:label>Nguyenibacter sp. L1</rdfs:label>
         <rdfs:label>Nocardia huaxiensis WCH-YHL-001</rdfs:label>
         <rdfs:label>Opium poppy mosaic virus</rdfs:label>
         <rdfs:label>Penaeus monodon (black tiger shrimp)</rdfs:label>
@@ -69837,6 +69994,7 @@
         <rdfs:label>Sclerotinia sclerotiorum hypovirulence associated DNA virus 1</rdfs:label>
         <rdfs:label>Starkeya sp. ORNL1</rdfs:label>
         <rdfs:label>Streptococcus thermophilus S9</rdfs:label>
+        <rdfs:label>Streptomyces incarnatus NRRL 8089</rdfs:label>
         <rdfs:label>Sugarcane streak Egypt virus - [Giza]</rdfs:label>
         <rdfs:label>Syngnathus scovelli (Gulf pipefish)</rdfs:label>
         <rdfs:label>Vibrio navarrensis 2540-90</rdfs:label>
@@ -69907,6 +70065,7 @@
         <rdfs:label>Polaribacter litorisediminis OITF-11</rdfs:label>
         <rdfs:label>Pseudomonas frederiksbergensis AS1</rdfs:label>
         <rdfs:label>Rickettsia rhipicephali 3-7-female6-CWPP</rdfs:label>
+        <rdfs:label>Staphylococcus sp. AntiMn-1</rdfs:label>
         <rdfs:label>Thermomonas carbonis KCTC 42013</rdfs:label>
     </owl:Class>
     
@@ -69966,6 +70125,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_787">
         <oboInOwl:id>kegg.genome:787</oboInOwl:id>
         <rdfs:label>Acinetobacter schindleri ACE</rdfs:label>
+        <rdfs:label>Anabaenopsis elenkinii CCIBt3563</rdfs:label>
         <rdfs:label>Blautia massiliensis FDAARGOS_1576</rdfs:label>
         <rdfs:label>Coxiella burnetii CbuG_Q212</rdfs:label>
         <rdfs:label>Electrophorus electricus (electric eel)</rdfs:label>
@@ -70056,6 +70216,7 @@
         <rdfs:label>Frijoles virus VP-161A</rdfs:label>
         <rdfs:label>Helicobacter bilis AAQJH</rdfs:label>
         <rdfs:label>Klebsiella pneumoniae subsp. pneumoniae KPNIH10</rdfs:label>
+        <rdfs:label>Methanofollis formosanus ML15</rdfs:label>
         <rdfs:label>Paramormyrops kingsleyae</rdfs:label>
         <rdfs:label>Polynucleobacter yangtzensis KF023</rdfs:label>
         <rdfs:label>Rickettsia prowazekii BuV67-CWPP</rdfs:label>
@@ -70109,6 +70270,7 @@
         <rdfs:label>Escherichia phage JSE</rdfs:label>
         <rdfs:label>Hydrogenimonas sp. MAG</rdfs:label>
         <rdfs:label>Microbulbifer celer KCTC 12973</rdfs:label>
+        <rdfs:label>Polynucleobacter ibericus es-MAR-2</rdfs:label>
         <rdfs:label>Proteus mirabilis BB2000</rdfs:label>
         <rdfs:label>Pseudomonas aeruginosa NCGM 1900</rdfs:label>
         <rdfs:label>Rickettsia prowazekii Chernikova</rdfs:label>
@@ -70190,6 +70352,7 @@
         <rdfs:label>Escherichia phage JS10</rdfs:label>
         <rdfs:label>Icoaraci virus</rdfs:label>
         <rdfs:label>Melaminivora jejuensis KACC 19629</rdfs:label>
+        <rdfs:label>Rahnella inusitata Se8.10.12</rdfs:label>
         <rdfs:label>Ralstonia phage RSB1</rdfs:label>
         <rdfs:label>Rickettsia prowazekii Dachau</rdfs:label>
         <rdfs:label>Salmonella enterica subsp. enterica serovar Pullorum S06004</rdfs:label>
@@ -70239,6 +70402,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_791">
         <oboInOwl:id>kegg.genome:791</oboInOwl:id>
+        <rdfs:label>Acidihalobacter ferrooxydans V8</rdfs:label>
         <rdfs:label>Campylobacter jejuni subsp. jejuni 00-1597</rdfs:label>
         <rdfs:label>Cardiobacterium hominis NCTC10426</rdfs:label>
         <rdfs:label>Castor canadensis (American beaver)</rdfs:label>
@@ -70269,6 +70433,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_792">
         <oboInOwl:id>kegg.genome:792</oboInOwl:id>
         <rdfs:label>Acidianus filamentous virus 9</rdfs:label>
+        <rdfs:label>Alienimonas californiensis CA12</rdfs:label>
         <rdfs:label>Arcobacter suis CECT 7833</rdfs:label>
         <rdfs:label>Bos indicus (zebu cattle)</rdfs:label>
         <rdfs:label>Campylobacter jejuni subsp. jejuni 00-6200</rdfs:label>
@@ -70327,6 +70492,7 @@
         <rdfs:label>Acinetobacter baumannii AB0057</rdfs:label>
         <rdfs:label>Burkholderia dolosa AU0158</rdfs:label>
         <rdfs:label>Chryseobacterium carnipullorum G0188</rdfs:label>
+        <rdfs:label>Gimibacter soli 6D33</rdfs:label>
         <rdfs:label>Gossypium hirsutum (upland cotton)</rdfs:label>
         <rdfs:label>Hahella sp. KA22</rdfs:label>
         <rdfs:label>Haloterrigena alkaliphila KZCA68</rdfs:label>
@@ -70425,6 +70591,7 @@
         <rdfs:label>Borreliella burgdorferi CA382</rdfs:label>
         <rdfs:label>Burkholderia ubonensis MSMB22</rdfs:label>
         <rdfs:label>Corynebacterium hindlerae 1864</rdfs:label>
+        <rdfs:label>Dyadobacter pollutisoli U1</rdfs:label>
         <rdfs:label>Methanobacterium alkalithermotolerans CAN</rdfs:label>
         <rdfs:label>Mycolicibacterium aurum NCTC10437</rdfs:label>
         <rdfs:label>Streptococcus pyogenes MGAS15252 (serotype M59)</rdfs:label>
@@ -70508,6 +70675,7 @@
         <rdfs:label>Iamia majanohamensis DSM 19957</rdfs:label>
         <rdfs:label>Magnetospira sp. QH-2</rdfs:label>
         <rdfs:label>Myotis lucifugus (little brown bat)</rdfs:label>
+        <rdfs:label>Podospora bellae-mahoneyi CBS 112042</rdfs:label>
         <rdfs:label>Pollutimonas thiosulfatoxidans YE3</rdfs:label>
         <rdfs:label>Trametes versicolor FP-101664 SS1</rdfs:label>
     </owl:Class>
@@ -70590,6 +70758,7 @@
         <rdfs:label>Bacillus velezensis UCMB5113 (Bacillus methylotrophicus UCMB5113)</rdfs:label>
         <rdfs:label>Bradyrhizobium cosmicum S23321 (Bradyrhizobium sp. S23321)</rdfs:label>
         <rdfs:label>Colletotrichum fioriniae PJ7</rdfs:label>
+        <rdfs:label>Cryptococcus deuterogattii R265</rdfs:label>
         <rdfs:label>Escherichia coli O127:H6 E2348/69 (EPEC)</rdfs:label>
         <rdfs:label>Microbacterium paraoxydans 70447</rdfs:label>
         <rdfs:label>Mycobacterium tuberculosis variant bovis BCG ATCC 35743 (Mycobacterium bovis BCG ATCC 35743)</rdfs:label>
@@ -70692,6 +70861,7 @@
         <rdfs:label>Mauremys reevesii (Reeves&apos;s turtle)</rdfs:label>
         <rdfs:label>Paraburkholderia bryophila CA002</rdfs:label>
         <rdfs:label>Parolsenella catena JCM 31932</rdfs:label>
+        <rdfs:label>Podospora pseudocomata CBS 415.72m</rdfs:label>
         <rdfs:label>Streptococcus mutans UA159-FR</rdfs:label>
         <rdfs:label>Thermosipho africanus TCF52B</rdfs:label>
         <rdfs:label>Vagococcus carniphilus ATCC BAA-640</rdfs:label>
@@ -70814,6 +70984,7 @@
         <rdfs:label>Paenacidovorax monticola KACC 19171</rdfs:label>
         <rdfs:label>Salmonella phage Det7</rdfs:label>
         <rdfs:label>Sphingomonas changnyeongensis C33</rdfs:label>
+        <rdfs:label>Taurinivorans muris LT0009</rdfs:label>
         <rdfs:label>Veillonella atypica OK5</rdfs:label>
     </owl:Class>
     
@@ -70927,6 +71098,7 @@
         <oboInOwl:id>kegg.genome:799</oboInOwl:id>
         <rdfs:label>Bacillus cereus AH187</rdfs:label>
         <rdfs:label>Bracoviriform melanoscelae</rdfs:label>
+        <rdfs:label>Candidatus Andeanibacterium colombiense MAG_26</rdfs:label>
         <rdfs:label>Halobacillus mangrovi KTB 131</rdfs:label>
         <rdfs:label>Klebsiella pneumoniae JM45</rdfs:label>
         <rdfs:label>Lautropia mirabilis NCTC12852</rdfs:label>
@@ -71044,6 +71216,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_800">
         <oboInOwl:id>kegg.genome:800</oboInOwl:id>
+        <rdfs:label>Alkalicoccus halolimnae BZ-SZ-XJ29</rdfs:label>
         <rdfs:label>Allobranchiibius sp. GilTou73</rdfs:label>
         <rdfs:label>Dictyoglomus turgidum DSM 6724</rdfs:label>
         <rdfs:label>Halomonas sp. KO116</rdfs:label>
@@ -71130,6 +71303,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_801">
         <oboInOwl:id>kegg.genome:801</oboInOwl:id>
+        <rdfs:label>Corynebacterium riegelii PUDD_83A45</rdfs:label>
         <rdfs:label>Enterococcus phage EF62phi</rdfs:label>
         <rdfs:label>Listeria monocytogenes HCC23 (serotype 4a)</rdfs:label>
         <rdfs:label>Listeria monocytogenes J1-220 (serotype 4b)</rdfs:label>
@@ -71223,6 +71397,7 @@
         <rdfs:label>Methylocella silvestris BL2</rdfs:label>
         <rdfs:label>Mulard duck circovirus</rdfs:label>
         <rdfs:label>Paenibacillus beijingensis DSM 24997</rdfs:label>
+        <rdfs:label>Polynucleobacter wuianus QLW-P1FAT50C-4</rdfs:label>
         <rdfs:label>Rickettsia typhi TH1527</rdfs:label>
         <rdfs:label>Simian retrovirus 4</rdfs:label>
         <rdfs:label>Thermofilum adornatum 1910b (Thermofilum sp. 1910b)</rdfs:label>
@@ -71244,9 +71419,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_803">
         <oboInOwl:id>kegg.genome:803</oboInOwl:id>
-        <rdfs:label>Allomuricauda aquimarina F6</rdfs:label>
+        <rdfs:label>Candidatus Enterovibrio luxaltus CC26</rdfs:label>
         <rdfs:label>Clostridium scatologenes ATCC 25775</rdfs:label>
         <rdfs:label>Cyanophage S-RIM50</rdfs:label>
+        <rdfs:label>Flagellimonas marinaquae F6</rdfs:label>
         <rdfs:label>Geovibrio thiophilus DSM 11263</rdfs:label>
         <rdfs:label>Hylobates moloch (silvery gibbon)</rdfs:label>
         <rdfs:label>Iodobacter fluviatilis PCH194</rdfs:label>
@@ -71278,6 +71454,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/kegg.genome_8036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_8036">
+        <oboInOwl:id>kegg.genome:8036</oboInOwl:id>
+        <rdfs:label>Poecivirus BCCH-449</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/kegg.genome_8038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_8038">
+        <oboInOwl:id>kegg.genome:8038</oboInOwl:id>
+        <rdfs:label>Providencia phage vB PstP PS3</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/kegg.genome_8039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_8039">
@@ -71300,6 +71494,7 @@
         <rdfs:label>Empedobacter stercoris ES183</rdfs:label>
         <rdfs:label>Mytilus californianus (California mussel)</rdfs:label>
         <rdfs:label>Sorghum chlorotic spot virus</rdfs:label>
+        <rdfs:label>Stratiformator vulcanicus Pan189</rdfs:label>
         <rdfs:label>Thauera aminoaromatica MZ1T</rdfs:label>
     </owl:Class>
     
@@ -71309,6 +71504,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_8040">
         <oboInOwl:id>kegg.genome:8040</oboInOwl:id>
+        <rdfs:label>Corella adenovirus 1</rdfs:label>
         <rdfs:label>Water chestnut soymovirus 1</rdfs:label>
     </owl:Class>
     
@@ -71403,6 +71599,7 @@
         <rdfs:label>Kaistella haifensis G0079</rdfs:label>
         <rdfs:label>Mycobacterium phage Myrna</rdfs:label>
         <rdfs:label>Pseudoxanthomonas mexicana GTZY</rdfs:label>
+        <rdfs:label>Thalassoglobus polymorphus Mal48</rdfs:label>
         <rdfs:label>Thalassomonas haliotis A5K-61T</rdfs:label>
         <rdfs:label>Xenorhabdus poinarii G6</rdfs:label>
     </owl:Class>
@@ -71459,6 +71656,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_806">
         <oboInOwl:id>kegg.genome:806</oboInOwl:id>
         <rdfs:label>Aminipila luticellarii JN-18</rdfs:label>
+        <rdfs:label>Caulifigura coniformis Pan44</rdfs:label>
         <rdfs:label>Clostridium cellulosi DG5</rdfs:label>
         <rdfs:label>Enterococcus phage EFRM31</rdfs:label>
         <rdfs:label>Leifsonia shinshuensis INR9</rdfs:label>
@@ -71592,6 +71790,7 @@
         <rdfs:label>Mycobacterium phage ScottMcG</rdfs:label>
         <rdfs:label>Paenibacillus algicola HB172198</rdfs:label>
         <rdfs:label>Peptoniphilus sp. ING2-D1G</rdfs:label>
+        <rdfs:label>Solicola gregarius A5X3R13</rdfs:label>
     </owl:Class>
     
 
@@ -71713,6 +71912,7 @@
         <rdfs:label>Methanocaldococcus lauensis SG1</rdfs:label>
         <rdfs:label>Mycobacterium phage Giles</rdfs:label>
         <rdfs:label>Mycobacterium phage Spud</rdfs:label>
+        <rdfs:label>Qipengyuania soli 6D36</rdfs:label>
         <rdfs:label>Staphylococcus arlettae P2</rdfs:label>
     </owl:Class>
     
@@ -71743,6 +71943,7 @@
         <rdfs:label>Datura leaf curl virus</rdfs:label>
         <rdfs:label>Gordonia phage Vendetta</rdfs:label>
         <rdfs:label>Pseudomonas phage KPP21</rdfs:label>
+        <rdfs:label>Simian mastadenovirus WIV19</rdfs:label>
     </owl:Class>
     
 
@@ -71771,7 +71972,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_8085">
         <oboInOwl:id>kegg.genome:8085</oboInOwl:id>
-        <rdfs:label>Bactericera trigonica densovirus</rdfs:label>
         <rdfs:label>Piscine myocarditis-like virus</rdfs:label>
         <rdfs:label>Tacheng Tick Virus 3</rdfs:label>
     </owl:Class>
@@ -71836,6 +72036,7 @@
         <rdfs:label>Prevotella sp. oral taxon 299 F0039</rdfs:label>
         <rdfs:label>Ramie mosaic virus</rdfs:label>
         <rdfs:label>Rhizobium sp. N731</rdfs:label>
+        <rdfs:label>Sphingosinicella flava UDD2</rdfs:label>
     </owl:Class>
     
 
@@ -71844,7 +72045,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_8090">
         <oboInOwl:id>kegg.genome:8090</oboInOwl:id>
-        <rdfs:label>Providencia phage vB PstP PS3</rdfs:label>
         <rdfs:label>Staphylococcus phage SAP33</rdfs:label>
         <rdfs:label>Taishun Tick Virus</rdfs:label>
     </owl:Class>
@@ -71973,6 +72173,7 @@
         <oboInOwl:id>kegg.genome:810</oboInOwl:id>
         <rdfs:label>Acidithiobacillus ferrooxidans ATCC 23270</rdfs:label>
         <rdfs:label>Agrobacterium vitis VAR03-1</rdfs:label>
+        <rdfs:label>Calycomorphotria hydatis V22</rdfs:label>
         <rdfs:label>Cedecea lapagei NCTC11466</rdfs:label>
         <rdfs:label>Eriocheir sinensis reovirus</rdfs:label>
         <rdfs:label>Human papillomavirus type 85</rdfs:label>
@@ -72064,6 +72265,7 @@
         <rdfs:label>Clostridium estertheticum subsp. estertheticum DSM 8809</rdfs:label>
         <rdfs:label>Clostridium pasteurianum DSM 525 = ATCC 6013</rdfs:label>
         <rdfs:label>Escherichia fergusonii ATCC 35469</rdfs:label>
+        <rdfs:label>Pseudomonas inefficax 7.8.24</rdfs:label>
         <rdfs:label>Sphingomonas hankookensis SZ.B2R2</rdfs:label>
         <rdfs:label>Sphingosinicella microcystinivorans B9</rdfs:label>
         <rdfs:label>Spirochaeta africana DSM 8902</rdfs:label>
@@ -72171,6 +72373,7 @@
         <rdfs:label>Paenibacillus thiaminolyticus SY20</rdfs:label>
         <rdfs:label>Paraburkholderia terricola mHS1</rdfs:label>
         <rdfs:label>Planococcus plakortidis DSM 23997</rdfs:label>
+        <rdfs:label>Raphidiopsis curvata NIES-932</rdfs:label>
         <rdfs:label>Tomato leaf curl New Delhi betasatellite</rdfs:label>
         <rdfs:label>Tomato leaf curl betasatellite</rdfs:label>
         <rdfs:label>Vibrio atlanticus LGP32 (Vibrio tasmaniensis LGP32)</rdfs:label>
@@ -72273,6 +72476,7 @@
         <rdfs:label>Rhodovulum sp. P5</rdfs:label>
         <rdfs:label>Shewanella chilikensis DC57</rdfs:label>
         <rdfs:label>Sulfodiicoccus acidiphilus HS-1</rdfs:label>
+        <rdfs:label>Verrucomicrobium sp. GAS474</rdfs:label>
         <rdfs:label>Zinnia leaf curl virus-associated DNA beta</rdfs:label>
     </owl:Class>
     
@@ -72451,15 +72655,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_8147">
         <oboInOwl:id>kegg.genome:8147</oboInOwl:id>
         <rdfs:label>Caladenia virus A</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/kegg.genome_8149 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_8149">
-        <oboInOwl:id>kegg.genome:8149</oboInOwl:id>
-        <rdfs:label>Eel picornavirus 1</rdfs:label>
     </owl:Class>
     
 
@@ -73149,6 +73344,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_8220">
         <oboInOwl:id>kegg.genome:8220</oboInOwl:id>
         <rdfs:label>Bat coronavirus</rdfs:label>
+        <rdfs:label>Rhinolophus ferrumequinum circovirus 1</rdfs:label>
         <rdfs:label>Staphylococcus phage phiSa119</rdfs:label>
     </owl:Class>
     
@@ -73998,15 +74194,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/kegg.genome_8339 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_8339">
-        <oboInOwl:id>kegg.genome:8339</oboInOwl:id>
-        <rdfs:label>Thermus phage phiOH3</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/kegg.genome_834 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_834">
@@ -74249,7 +74436,7 @@
         <rdfs:label>Fructilactobacillus fructivorans LF543</rdfs:label>
         <rdfs:label>Halothermothrix orenii H 168</rdfs:label>
         <rdfs:label>Limosilactobacillus portuensis LV1276_C155</rdfs:label>
-        <rdfs:label>Macrococcus canis KM45013</rdfs:label>
+        <rdfs:label>Macrococcoides canis KM45013 (Macrococcus canis KM45013)</rdfs:label>
         <rdfs:label>Methanosarcina barkeri MS</rdfs:label>
         <rdfs:label>Mucisphaera calidilacus Pan265</rdfs:label>
         <rdfs:label>Peptoniphilus harei NCTC13077</rdfs:label>
@@ -74262,15 +74449,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_8380">
         <oboInOwl:id>kegg.genome:8380</oboInOwl:id>
         <rdfs:label>Sclerotium rolfsii hypovirus 1</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/kegg.genome_8383 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_8383">
-        <oboInOwl:id>kegg.genome:8383</oboInOwl:id>
-        <rdfs:label>Rosavirus M-7</rdfs:label>
     </owl:Class>
     
 
@@ -74965,7 +75143,7 @@
         <rdfs:label>Lagenaria mild mosaic virus</rdfs:label>
         <rdfs:label>Le Dantec virus</rdfs:label>
         <rdfs:label>Leptolyngbya boryana IAM M-101</rdfs:label>
-        <rdfs:label>Macrococcus caseolyticus JCSC5402</rdfs:label>
+        <rdfs:label>Macrococcoides caseolyticum JCSC5402 (Macrococcus caseolyticus JCSC5402)</rdfs:label>
         <rdfs:label>Mycoplasma nasistruthionis 2F1A</rdfs:label>
         <rdfs:label>Sphingomonas hengshuiensis WHSC-8</rdfs:label>
         <rdfs:label>Urochloa streak virus</rdfs:label>
@@ -76771,6 +76949,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_8716">
         <oboInOwl:id>kegg.genome:8716</oboInOwl:id>
+        <rdfs:label>Pteropus lylei-associated alphaherpesvirus</rdfs:label>
         <rdfs:label>Vibrio phage CHOED</rdfs:label>
     </owl:Class>
     
@@ -76780,6 +76959,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_8717">
         <oboInOwl:id>kegg.genome:8717</oboInOwl:id>
+        <rdfs:label>Blattodean nairo-related virus OKIAV321</rdfs:label>
         <rdfs:label>Mycobacterium phage 40AC</rdfs:label>
     </owl:Class>
     
@@ -77458,6 +77638,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_884">
         <oboInOwl:id>kegg.genome:884</oboInOwl:id>
         <rdfs:label>Acidianus filamentous virus 8</rdfs:label>
+        <rdfs:label>Acipenserid herpesvirus 2</rdfs:label>
         <rdfs:label>Aeromonas rivuli 20-VB00005</rdfs:label>
         <rdfs:label>Allomuricauda lutaonensis CC-HSB-11 (Muricauda lutaonensis CC-HSB-11)</rdfs:label>
         <rdfs:label>Anaerobacillus isosaccharinicus NB2006</rdfs:label>
@@ -78486,7 +78667,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_8978">
         <oboInOwl:id>kegg.genome:8978</oboInOwl:id>
         <rdfs:label>Pseudomonas phage tabernarius</rdfs:label>
-        <rdfs:label>Siadenovirus IDL19-3602</rdfs:label>
     </owl:Class>
     
 
@@ -79016,7 +79196,7 @@
         <oboInOwl:id>kegg.genome:906</oboInOwl:id>
         <rdfs:label>Agrobacterium sp. 33MFTa1.1</rdfs:label>
         <rdfs:label>Alkalitalea saponilacus SC/BZ-SP2</rdfs:label>
-        <rdfs:label>Arsenophonus endosymbiont of Apis mellifera ArsBeeUS</rdfs:label>
+        <rdfs:label>Arsenophonus apicola ArsBeeUS</rdfs:label>
         <rdfs:label>Blochmannia endosymbiont of Camponotus (Colobopsis) obliquus 757</rdfs:label>
         <rdfs:label>Chlamydia trachomatis G/9301</rdfs:label>
         <rdfs:label>Hyperthermophilic Archaeal Virus 2</rdfs:label>
@@ -81185,15 +81365,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/kegg.genome_9369 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_9369">
-        <oboInOwl:id>kegg.genome:9369</oboInOwl:id>
-        <rdfs:label>Carp picornavirus 1</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/kegg.genome_937 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_937">
@@ -83182,6 +83353,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_9624">
         <oboInOwl:id>kegg.genome:9624</oboInOwl:id>
         <rdfs:label>Microbacterium phage Golden</rdfs:label>
+        <rdfs:label>Siadenovirus IDL19-3602</rdfs:label>
     </owl:Class>
     
 
@@ -83765,8 +83937,8 @@
         <rdfs:label>Neisseria weixii 10022</rdfs:label>
         <rdfs:label>Paenibacillus polymyxa M1</rdfs:label>
         <rdfs:label>Phaeobacter gallaeciensis DSM 26640</rdfs:label>
+        <rdfs:label>Prodigiosinella confusarubida ATCC 39006</rdfs:label>
         <rdfs:label>Rippkaea orientalis PCC 8802</rdfs:label>
-        <rdfs:label>Serratia sp. ATCC 39006</rdfs:label>
         <rdfs:label>Singapore grouper iridovirus</rdfs:label>
         <rdfs:label>Streptomyces sp. CNQ-509</rdfs:label>
     </owl:Class>
@@ -84375,7 +84547,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_9744">
         <oboInOwl:id>kegg.genome:9744</oboInOwl:id>
         <rdfs:label>Botambi virus</rdfs:label>
+        <rdfs:label>Silurus glanis circovirus</rdfs:label>
         <rdfs:label>Whitefly-associated begomovirus 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/kegg.genome_9745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/kegg.genome_9745">
+        <oboInOwl:id>kegg.genome:9745</oboInOwl:id>
+        <rdfs:label>Botryosphaeria dothidea virus 1</rdfs:label>
     </owl:Class>
     
 

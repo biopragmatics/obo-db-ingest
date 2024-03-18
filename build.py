@@ -52,7 +52,7 @@ PREFIXES = [
     "zfin",  # after flybase
     "dictybase.gene",
     "cgnc",
-    "drugcentral",
+    # "drugcentral", # stalling on something
     "complexportal",
     "interpro",
     "mesh",

@@ -13,12 +13,12 @@
         "val" : "bio2obo:kegg.genome"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
-        "val" : "04:01:2024 19:07"
+        "val" : "14:03:2024 18:49"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
         "val" : "1.2"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/kegg.genome/109.0/kegg.genome.owl"
+      "version" : "http://purl.obolibrary.org/obo/kegg.genome/109.1/kegg.genome.owl"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_00",
@@ -949,6 +949,10 @@
       "lbl" : "Gordonia phage Frokostdame",
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/kegg.genome_0321",
+      "lbl" : "Avian paramyxovirus goose/Shimane/67/2000",
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_0322",
       "lbl" : "Gordonia phage NatB6",
       "type" : "CLASS"
@@ -1025,6 +1029,10 @@
       "lbl" : "Cyanophage S-RIM12 isolate RW_01_0310",
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/kegg.genome_0348",
+      "lbl" : "African bat icavirus PREDICT-06105",
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_0349",
       "lbl" : "kunsagivirus C1",
       "type" : "CLASS"
@@ -1049,8 +1057,16 @@
       "lbl" : "Pseudomonas phage UMP151",
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/kegg.genome_0354",
+      "lbl" : "Carp picornavirus 1",
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_0355",
       "lbl" : "Mycobacterium phage Beezoo",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/kegg.genome_0356",
+      "lbl" : "Chinese softshell turtle picornavirus 1",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_0358",
@@ -1121,12 +1137,20 @@
       "lbl" : "Ustilaginoidea virens RNA virus 3",
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/kegg.genome_0375",
+      "lbl" : "Harrier picornavirus 1",
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_0376",
       "lbl" : "Stenotrophomonas phage BUCT626",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_0377",
       "lbl" : "grusopivirus C1",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/kegg.genome_0378",
+      "lbl" : "Miniopterus schreibersii picornavirus 1",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_0379",
@@ -1202,7 +1226,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_0402",
-      "lbl" : "Tupaia glis polyomavirus 1",
+      "lbl" : "Wenling jack mackerels picornavirus",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_0403",
@@ -1347,6 +1371,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_0444",
       "lbl" : "Escherichia phage vB_EcoM_JS09",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/kegg.genome_0445",
+      "lbl" : "Thermus phage phiOH3",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_0449",
@@ -1655,6 +1683,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_0568",
       "lbl" : "Streptomyces phage Vash",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/kegg.genome_0569",
+      "lbl" : "Lymphocryptovirus Macaca/pfe-lcl-E3",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_057",
@@ -2678,7 +2710,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_095",
-      "lbl" : "Tepidibacter sp. 8C15b",
+      "lbl" : "Tepidibacter aestuarii 8C15b (Tepidibacter sp. 8C15b)",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_0950",
@@ -3237,10 +3269,6 @@
       "lbl" : "Bhindi yellow vein alphasatellite",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_1149",
-      "lbl" : "Hedgehog dicipivirus",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_115",
       "lbl" : "Vibrio rotiferianus B64D1",
       "type" : "CLASS"
@@ -3645,6 +3673,10 @@
       "lbl" : "Salmonella phage Vi01",
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/kegg.genome_1284",
+      "lbl" : "Sclerotinia sclerotiorum negative-stranded RNA virus 2-A",
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_1285",
       "lbl" : "Staphylococcus phage SP5",
       "type" : "CLASS"
@@ -3659,6 +3691,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_129",
       "lbl" : "Thermanaerovibrio acidaminovorans DSM 6589",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/kegg.genome_1295",
+      "lbl" : "Solanum violifolium ringspot virus",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_1297",
@@ -3710,7 +3746,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_1313",
-      "lbl" : "Ursus americanus chapparvovirus",
+      "lbl" : "Ursus americanus parvovirus",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_1314",
@@ -3718,7 +3754,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_1315",
-      "lbl" : "Vibrio phage 1.080.O._10N.286.48.A4",
+      "lbl" : "Wuhan redfin culter dimarhabodovirus",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_1316",
@@ -4414,7 +4450,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_1539",
-      "lbl" : "Vibrio virus 2019VC1",
+      "lbl" : "Mycobacterium phage SkinnyPete",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_154",
@@ -4989,10 +5025,6 @@
       "lbl" : "Bovine polyomavirus 3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_1706",
-      "lbl" : "Sclerotinia sclerotiorum negative-stranded RNA virus 2-A",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_1708",
       "lbl" : "Enterobacter phage KNP3",
       "type" : "CLASS"
@@ -5198,7 +5230,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_178",
-      "lbl" : "Wheat dwarf virus",
+      "lbl" : "Xiashengella succiniciproducens Ai-910",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_1780",
@@ -5223,10 +5255,6 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_1792",
       "lbl" : "Malvastrum leaf curl Guangdong betasatellite",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_1793",
-      "lbl" : "Solanum violifolium ringspot virus",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_1796",
@@ -5274,7 +5302,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_1806",
-      "lbl" : "Lake Sinai virus 1",
+      "lbl" : "Rosavirus M-7",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_1807",
@@ -6385,10 +6413,6 @@
       "lbl" : "Thermus thermophilus HB8",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_2201",
-      "lbl" : "Tadarida brasiliensis circovirus 1",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_2202",
       "lbl" : "Papaya leaf curl alphasatellite",
       "type" : "CLASS"
@@ -6523,10 +6547,6 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_2236",
       "lbl" : "Mothra virus",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_2237",
-      "lbl" : "Bat circovirus POA/2012/II",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_2238",
@@ -6862,7 +6882,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_233",
-      "lbl" : "Paracoccus zhejiangensis J6",
+      "lbl" : "Rhizosphaericola mali B3-10",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_2330",
@@ -11625,10 +11645,6 @@
       "lbl" : "Tomato mosaic Havana virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_3560",
-      "lbl" : "Bolahun virus variant 2",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_3561",
       "lbl" : "Wenzhou crab virus 4",
       "type" : "CLASS"
@@ -13509,10 +13525,6 @@
       "lbl" : "Largemouth bass bunyavirus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_4113",
-      "lbl" : "American bat vesiculovirus TFFN-2013",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_4115",
       "lbl" : "Mycobacterium phage Rey",
       "type" : "CLASS"
@@ -15293,10 +15305,6 @@
       "lbl" : "Cacatuid alphaherpesvirus 2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_4846",
-      "lbl" : "Surrounding non-legume associated secovirus",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_4849",
       "lbl" : "Pseudomonas phage OBP",
       "type" : "CLASS"
@@ -16233,10 +16241,6 @@
       "lbl" : "Saffold virus 2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_5212",
-      "lbl" : "Chaphamaparvovirus gyb-MR2/2015/HUN",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_5217",
       "lbl" : "Serratia phage JS26",
       "type" : "CLASS"
@@ -16590,7 +16594,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_5365",
-      "lbl" : "Miniopterus schreibersii picornavirus 1",
+      "lbl" : "Carrot closterovirus",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_5367",
@@ -16622,7 +16626,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_5373",
-      "lbl" : "Rhinolophus ferrumequinum circovirus 1",
+      "lbl" : "Escherichia phage SECphi18",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_5374",
@@ -16927,10 +16931,6 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_5480",
       "lbl" : "Tick associated torque teno virus",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_5481",
-      "lbl" : "Lactococcus phage vB_Llc_bIBB12",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_5482",
@@ -20938,7 +20938,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_653",
-      "lbl" : "Pectobacterium aquaticum A212-S19-A16",
+      "lbl" : "Psychrobacillus sp. INOP01",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_6530",
@@ -21158,7 +21158,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_658",
-      "lbl" : "Terrisporobacter hibernicus MCA3",
+      "lbl" : "Wolbachia endosymbiont of Drosophila aff. chauvacae BK-2020",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_6580",
@@ -21202,7 +21202,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_659",
-      "lbl" : "Larimichthys crocea (large yellow croaker)",
+      "lbl" : "Wolbachia endosymbiont of Zaprionus tsacasi",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_6590",
@@ -21338,7 +21338,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_662",
-      "lbl" : "Synechococcus phage S-RIM2 R1_1999",
+      "lbl" : "Vigna umbellata (ricebean)",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_6620",
@@ -21738,7 +21738,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_671",
-      "lbl" : "Rickettsia slovaca 13-B",
+      "lbl" : "Streptomyces roseicoloratus T14",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_6710",
@@ -21826,7 +21826,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_673",
-      "lbl" : "Ureaplasma parvum serovar 3 SV3F4",
+      "lbl" : "Vibrio metoecus ZF102",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_6730",
@@ -21870,7 +21870,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_674",
-      "lbl" : "Streptomyces mobaraensis NBRC 13819 = DSM 40847",
+      "lbl" : "Wolbachia endosymbiont of Listronotus oregonensis",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_6740",
@@ -22138,7 +22138,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_680",
-      "lbl" : "Vibrio furnissii NCTC 11218",
+      "lbl" : "Vicia villosa (hairy vetch)",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_6800",
@@ -22182,7 +22182,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_681",
-      "lbl" : "Sphingomonas echinoides B18",
+      "lbl" : "Syngnathoides biaculeatus (alligator pipefish)",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_6810",
@@ -22414,7 +22414,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_6868",
-      "lbl" : "Rusa timorensis papillomavirus type 1",
+      "lbl" : "Microbacterium phage Quenya",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_6869",
@@ -22698,7 +22698,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_698",
-      "lbl" : "Streptococcus toyakuensis TP1632",
+      "lbl" : "Streptomyces flavofungini TRM90047",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_6984",
@@ -22750,7 +22750,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_700",
-      "lbl" : "Shigella boydii CDC 3083-94 (serotype 18)",
+      "lbl" : "Tigriopus californicus (tidepool copepod)",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_7004",
@@ -23010,7 +23010,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_708",
-      "lbl" : "Trichlorobacter lovleyi SZ (Geobacter lovleyi SZ)",
+      "lbl" : "Williamsia herbipolensis NBC_00319",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_7080",
@@ -23126,7 +23126,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_712",
-      "lbl" : "Mycoplasmoides pneumoniae 309 (Mycoplasma pneumoniae 309)",
+      "lbl" : "Pyrodictium abyssi AV2",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_7122",
@@ -23277,10 +23277,6 @@
       "lbl" : "Cumuto virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_7167",
-      "lbl" : "Pteropus lylei-associated alphaherpesvirus",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_7169",
       "lbl" : "Streptococcus phage phiBHN167",
       "type" : "CLASS"
@@ -23394,7 +23390,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_722",
-      "lbl" : "Rickettsia rickettsii Colombia",
+      "lbl" : "Trinickia caryophylli HAMBI_2159",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_7225",
@@ -23518,7 +23514,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_7277",
-      "lbl" : "Lactococcus phage LP1502a",
+      "lbl" : "Rusa timorensis papillomavirus type 1",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_7279",
@@ -23742,7 +23738,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_736",
-      "lbl" : "Salmonella enterica subsp. enterica serovar Heidelberg 41578",
+      "lbl" : "Thiorhodovibrio winogradskyi DSM 6702",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_7360",
@@ -24418,7 +24414,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_762",
-      "lbl" : "Thermoanaerosceptrum fracticalcis DRI-13",
+      "lbl" : "Thermanaerosceptrum fracticalcis DRI-13",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_7622",
@@ -24614,7 +24610,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_771",
-      "lbl" : "Winkia neuii subsp. anitrata NY0527",
+      "lbl" : "Yersinia entomophaga MH96",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_7710",
@@ -24646,11 +24642,11 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_772",
-      "lbl" : "Saccharomyces 20S RNA narnavirus",
+      "lbl" : "Silvanigrella aquatica MWH-Nonnen-W8red",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_7722",
-      "lbl" : "Harrier picornavirus 1",
+      "lbl" : "Escherichia phage JLK-2012",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_7724",
@@ -24687,6 +24683,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_7736",
       "lbl" : "Leuconostoc phage Ln-7",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/kegg.genome_7737",
+      "lbl" : "Bat circovirus POA/2012/II",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_7738",
@@ -24937,8 +24937,12 @@
       "lbl" : "Spinach cryptic virus 1",
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/kegg.genome_7818",
+      "lbl" : "Lactococcus phage vB_Llc_bIBB12",
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_782",
-      "lbl" : "Salmonella enterica subsp. enterica serovar Typhimurium 798",
+      "lbl" : "Sphaerospermopsis torques-reginae ITEP-024",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_7821",
@@ -25557,6 +25561,14 @@
       "lbl" : "Porcine stool-associated circular virus 2",
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/kegg.genome_8036",
+      "lbl" : "Poecivirus BCCH-449",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/kegg.genome_8038",
+      "lbl" : "Providencia phage vB PstP PS3",
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_8039",
       "lbl" : "Pseudomonas phage PA8P1",
       "type" : "CLASS"
@@ -25670,7 +25682,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_807",
-      "lbl" : "Peptoniphilus sp. ING2-D1G",
+      "lbl" : "Solicola gregarius A5X3R13",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_8070",
@@ -25726,7 +25738,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_8082",
-      "lbl" : "Pseudomonas phage KPP21",
+      "lbl" : "Simian mastadenovirus WIV19",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_8083",
@@ -25758,7 +25770,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_809",
-      "lbl" : "Rhizobium sp. N731",
+      "lbl" : "Sphingosinicella flava UDD2",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_8090",
@@ -25979,10 +25991,6 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_8147",
       "lbl" : "Caladenia virus A",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_8149",
-      "lbl" : "Eel picornavirus 1",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_815",
@@ -26537,10 +26545,6 @@
       "lbl" : "Karukera tick virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_8339",
-      "lbl" : "Thermus phage phiOH3",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_834",
       "lbl" : "Streptococcus constellatus subsp. pharyngis C818",
       "type" : "CLASS"
@@ -26627,10 +26631,6 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_8380",
       "lbl" : "Sclerotium rolfsii hypovirus 1",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_8383",
-      "lbl" : "Rosavirus M-7",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_8385",
@@ -28142,7 +28142,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_8978",
-      "lbl" : "Siadenovirus IDL19-3602",
+      "lbl" : "Pseudomonas phage tabernarius",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_8979",
@@ -29129,10 +29129,6 @@
       "lbl" : "Pseudomonas phage BUCT566",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_9369",
-      "lbl" : "Carp picornavirus 1",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_937",
       "lbl" : "Streptomyces spongiicola HNM0071",
       "type" : "CLASS"
@@ -29850,7 +29846,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_9624",
-      "lbl" : "Microbacterium phage Golden",
+      "lbl" : "Siadenovirus IDL19-3602",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_9625",
@@ -30287,6 +30283,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_9744",
       "lbl" : "Whitefly-associated begomovirus 7",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/kegg.genome_9745",
+      "lbl" : "Botryosphaeria dothidea virus 1",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/kegg.genome_9746",
@@ -32030,6 +32030,10 @@
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_0321",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_0322",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
@@ -32106,6 +32110,10 @@
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_0348",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_0349",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
@@ -32130,7 +32138,15 @@
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_0354",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_0355",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_0356",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
@@ -32202,11 +32218,19 @@
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_0375",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_0376",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_0377",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_0378",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
@@ -32427,6 +32451,10 @@
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_0444",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_0445",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
@@ -32735,6 +32763,10 @@
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_0568",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_0569",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
@@ -34318,10 +34350,6 @@
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_1149",
-      "pred" : "is_a",
-      "obj" : "http://www.w3.org/2002/07/owl#Thing"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_115",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
@@ -34726,6 +34754,10 @@
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_1284",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_1285",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
@@ -34739,6 +34771,10 @@
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_129",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_1295",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
@@ -36070,10 +36106,6 @@
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_1706",
-      "pred" : "is_a",
-      "obj" : "http://www.w3.org/2002/07/owl#Thing"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_1708",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
@@ -36303,10 +36335,6 @@
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_1792",
-      "pred" : "is_a",
-      "obj" : "http://www.w3.org/2002/07/owl#Thing"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_1793",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
@@ -37466,10 +37494,6 @@
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_2201",
-      "pred" : "is_a",
-      "obj" : "http://www.w3.org/2002/07/owl#Thing"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_2202",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
@@ -37603,10 +37627,6 @@
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_2236",
-      "pred" : "is_a",
-      "obj" : "http://www.w3.org/2002/07/owl#Thing"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_2237",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
@@ -42706,10 +42726,6 @@
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_3560",
-      "pred" : "is_a",
-      "obj" : "http://www.w3.org/2002/07/owl#Thing"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_3561",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
@@ -44590,10 +44606,6 @@
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_4113",
-      "pred" : "is_a",
-      "obj" : "http://www.w3.org/2002/07/owl#Thing"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_4115",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
@@ -46374,10 +46386,6 @@
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_4846",
-      "pred" : "is_a",
-      "obj" : "http://www.w3.org/2002/07/owl#Thing"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_4849",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
@@ -47314,10 +47322,6 @@
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_5212",
-      "pred" : "is_a",
-      "obj" : "http://www.w3.org/2002/07/owl#Thing"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_5217",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
@@ -48007,10 +48011,6 @@
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_5480",
-      "pred" : "is_a",
-      "obj" : "http://www.w3.org/2002/07/owl#Thing"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_5481",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
@@ -54358,10 +54358,6 @@
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_7167",
-      "pred" : "is_a",
-      "obj" : "http://www.w3.org/2002/07/owl#Thing"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_7169",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
@@ -55770,6 +55766,10 @@
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_7737",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_7738",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
@@ -56015,6 +56015,10 @@
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_7817",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_7818",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
@@ -56638,6 +56642,14 @@
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_8036",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_8038",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_8039",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
@@ -57059,10 +57071,6 @@
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_8147",
-      "pred" : "is_a",
-      "obj" : "http://www.w3.org/2002/07/owl#Thing"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_8149",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
@@ -57618,10 +57626,6 @@
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_8339",
-      "pred" : "is_a",
-      "obj" : "http://www.w3.org/2002/07/owl#Thing"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_834",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
@@ -57707,10 +57711,6 @@
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_8380",
-      "pred" : "is_a",
-      "obj" : "http://www.w3.org/2002/07/owl#Thing"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_8383",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
@@ -60210,10 +60210,6 @@
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_9369",
-      "pred" : "is_a",
-      "obj" : "http://www.w3.org/2002/07/owl#Thing"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_937",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
@@ -61367,6 +61363,10 @@
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/kegg.genome_9744",
+      "pred" : "is_a",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/kegg.genome_9745",
       "pred" : "is_a",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
