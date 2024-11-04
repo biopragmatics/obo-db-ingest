@@ -13,6 +13,7 @@ The latest export was made on {{ site.data.manifest.date }}. The following softw
 <thead>
   <tr>
     <th>Name</th>
+    <th>Version</th>
     <th>Terms</th>
     <th>Synonyms</th>
     <th>Xrefs</th>
@@ -28,6 +29,7 @@ The latest export was made on {{ site.data.manifest.date }}. The following softw
 {% for resource in site.data.manifest.resources %}
   <tr>
     <td><a href="https://bioregistry.io/{{ resource[0] }}"><code>{{ resource[0] }}</code></a></td>
+    <td>{{ resource[1].summary.version }}</td>
     <td align="right">{{ resource[1].summary.terms }}</td>
     <td align="right">{{ resource[1].summary.synonyms }}</td>
     <td align="right">{{ resource[1].summary.xrefs }}</td>
