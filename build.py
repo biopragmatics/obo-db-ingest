@@ -262,8 +262,8 @@ def _make(
         else:
             tqdm.write(f"[{prefix}] done converting to OWL")
 
-        tqdm.write(f"[{prefix}] outputting OBO Graph JSON")
         try:
+            tqdm.write(f"[{prefix}] converting to OBO Graph JSON")
             convert(obo_path, obo_graph_json_path, merge=False, reason=False, debug=True)
             _, rv["obograph"] = _prepare_art(prefix, obo_graph_json_path, has_version, ".json.gz")
         except subprocess.CalledProcessError as e:

@@ -1022,11 +1022,11 @@ resources:
       xrefs: 635637
   uniprot:
     nodes:
-      gzipped: true
-      iri: https://w3id.org/biopragmatics/resources/uniprot/uniprot.tsv.gz
-      path: uniprot/uniprot.tsv.gz
-      version_iri: https://w3id.org/biopragmatics/resources/uniprot/2024_05/uniprot.tsv.gz
-      version_path: uniprot/2024_05/uniprot.tsv.gz
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/uniprot/uniprot.tsv
+      path: uniprot/uniprot.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/uniprot/2024_05/uniprot.tsv
+      version_path: uniprot/2024_05/uniprot.tsv
     obo:
       gzipped: true
       iri: https://w3id.org/biopragmatics/resources/uniprot/uniprot.obo.gz
@@ -1053,7 +1053,7 @@ resources:
       version_path: uniprot/2024_05/uniprot.sssom.tsv
     summary:
       alts: 0
-      definitions: 469043
+      definitions: 0
       parents: 0
       properties: 572214
       references: 1136558
