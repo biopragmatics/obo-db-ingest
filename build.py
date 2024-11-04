@@ -106,7 +106,7 @@ class Artifact(TypedDict):
     version_path: NotRequired[str]
 
 
-def _prepare_art(
+def _prepare_artifact(
     prefix: str, path: Path, has_version: bool, suffix: str
 ) -> tuple[Path, Artifact]:
     gzipped = os.path.getsize(path) > MAX_SIZE
@@ -232,23 +232,23 @@ def _make(
             traceback.print_exc(file=file)
         obo_path.unlink()
         return rv
-    obo_path, rv["obo"] = _prepare_art(prefix, obo_path, has_version, ".obo.gz")
+    obo_path, rv["obo"] = _prepare_artifact(prefix, obo_path, has_version, ".obo.gz")
 
     rv["summary"] = _get_summary(obo)
 
     _write_nodes(names_path, obo, prefix)
-    _, rv["nodes"] = _prepare_art(prefix, names_path, has_version, ".tsv.gz")
+    _, rv["nodes"] = _prepare_artifact(prefix, names_path, has_version, ".tsv.gz")
 
     sssom_df = pyobo.get_sssom_df(obo, names=False)
     sssom_df.to_csv(sssom_path, sep="\t", index=False)
-    _, rv["sssom"] = _prepare_art(prefix, sssom_path, has_version, ".sssom.tsv.gz")
+    _, rv["sssom"] = _prepare_artifact(prefix, sssom_path, has_version, ".sssom.tsv.gz")
 
     if do_convert:
         # add -vvv and search for org.semanticweb.owlapi.oboformat.OBOFormatOWLAPIParser on errors
         try:
             tqdm.write(f"[{prefix}] converting to OWL")
             convert(obo_path, owl_path, merge=False, reason=False, debug=True)
-            _, rv["owl"] = _prepare_art(prefix, owl_path, has_version, ".owl.gz")
+            _, rv["owl"] = _prepare_artifact(prefix, owl_path, has_version, ".owl.gz")
         except subprocess.CalledProcessError as e:
             tqdm.write(
                 click.style(
@@ -264,8 +264,12 @@ def _make(
 
         try:
             tqdm.write(f"[{prefix}] converting to OBO Graph JSON")
-            convert(obo_path, obo_graph_json_path, merge=False, reason=False, debug=True)
-            _, rv["obograph"] = _prepare_art(prefix, obo_graph_json_path, has_version, ".json.gz")
+            convert(
+                obo_path, obo_graph_json_path, merge=False, reason=False, debug=True
+            )
+            _, rv["obograph"] = _prepare_artifact(
+                prefix, obo_graph_json_path, has_version, ".json.gz"
+            )
         except subprocess.CalledProcessError as e:
             tqdm.write(
                 click.style(
