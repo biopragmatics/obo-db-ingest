@@ -243,24 +243,6 @@ def _make(
     sssom_df.to_csv(sssom_path, sep="\t", index=False)
     _, rv["sssom"] = _prepare_art(prefix, sssom_path, has_version, ".sssom.tsv.gz")
 
-    tqdm.write(f"[{prefix}] outputting OBO Graph JSON")
-    try:
-        obo.write_obograph(obo_graph_json_path)
-        _, rv["obograph"] = _prepare_art(
-            prefix, obo_graph_json_path, has_version, ".json.gz"
-        )
-    except Exception as e:
-        tqdm.write(
-            click.style(
-                f"[{prefix}] {type(e)} failed to convert to OBO Graph\n\t{e}",
-                fg="red",
-            )
-        )
-        with log_path.open("a") as file:
-            traceback.print_exc(file=file)
-    else:
-        tqdm.write(f"[{prefix}] done converting to OBO Graph JSON")
-
     if do_convert:
         # add -vvv and search for org.semanticweb.owlapi.oboformat.OBOFormatOWLAPIParser on errors
         try:
@@ -279,6 +261,24 @@ def _make(
                 file.write(str(e.stderr))
         else:
             tqdm.write(f"[{prefix}] done converting to OWL")
+
+        tqdm.write(f"[{prefix}] outputting OBO Graph JSON")
+        try:
+            convert(obo_path, obo_graph_json_path, merge=False, reason=False, debug=True)
+            _, rv["obograph"] = _prepare_art(prefix, obo_graph_json_path, has_version, ".json.gz")
+        except subprocess.CalledProcessError as e:
+            tqdm.write(
+                click.style(
+                    f"[{prefix}] {type(e)} - ROBOT failed to convert to OBO Graph JSON"
+                    f"\n\t{e}\n\t{' '.join(e.cmd)}",
+                    fg="red",
+                )
+            )
+            with log_path.open("a") as file:
+                traceback.print_exc(file=file)
+                file.write(str(e.stderr))
+        else:
+            tqdm.write(f"[{prefix}] done converting to OBO Graph JSON")
 
     return rv
 
