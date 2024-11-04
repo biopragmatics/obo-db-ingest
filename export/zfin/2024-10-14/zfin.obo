@@ -1,0 +1,25 @@
+format-version: 1.2
+date: 15:10:2024 21:57
+auto-generated-by: bio2obo:zfin
+data-version: 2024-10-14
+ontology: zfin
+property_value: http://purl.org/dc/elements/1.1/title "Zebrafish Information Network Gene" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "ZFIN serves as the zebrafish model organism database. This collection references all zebrafish biological entities in ZFIN." xsd:string
+
+[Typedef]
+id: RO:0002162
+name: in taxon
+
+[Typedef]
+id: RO:0002205
+name: has gene product
+inverse_of: RO:0002204 ! gene product of
+
+[Typedef]
+id: RO:HOM0000017
+name: in orthology relationship with
+is_symmetric: true
+
+[Typedef]
+id: skos:exactMatch
+name: exact match
