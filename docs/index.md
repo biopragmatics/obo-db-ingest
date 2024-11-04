@@ -16,6 +16,7 @@ The latest export was made on {{ site.data.manifest.date }}. The following softw
     <th>Terms</th>
     <th>Synonyms</th>
     <th>Xrefs</th>
+    <th>Relations</th>
     <th>OBO</th>
     <th>OWL</th>
     <th>JSON</th>
@@ -30,6 +31,7 @@ The latest export was made on {{ site.data.manifest.date }}. The following softw
     <td align="right">{{ resource[1].summary.terms }}</td>
     <td align="right">{{ resource[1].summary.synonyms }}</td>
     <td align="right">{{ resource[1].summary.xrefs }}</td>
+    <td align="right">{{ resource[1].summary.relations }}</td>
     <td><a href="{{ resource[1].obo.iri }}">OBO</a></td>
     <td><a href="{{ resource[1].owl.iri }}">OWL</a></td>
     <td><a href="{{ resource[1].obograph.iri }}">JSON</a></td>
