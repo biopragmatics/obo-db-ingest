@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/cthoyt/dev/obo-db-ingest/build.py", line 245, in _make
+    convert(obo_path, owl_path, merge=False, reason=False)
+  File "/Users/cthoyt/.virtualenvs/biopragmatics/lib/python3.12/site-packages/bioontologies/robot.py", line 499, in convert
+    ret = check_output(  # noqa:S603
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.7/Frameworks/Python.framework/Versions/3.12/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.7/Frameworks/Python.framework/Versions/3.12/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['java', '-jar', '/Users/cthoyt/.data/robot/robot.jar', 'convert', '-i', '/Users/cthoyt/dev/obo-db-ingest/export/slm/2024-11-03/slm.obo', '-o', '/Users/cthoyt/dev/obo-db-ingest/export/slm/2024-11-03/slm.owl']' returned non-zero exit status 1.
