@@ -1,4 +1,11 @@
-# -*- coding: utf-8 -*-
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "bioregistry>=0.11.23",
+#     "bioversions>=0.5.533",
+#     "bioontologies>=0.5.1",
+# ]
+# ///
 
 """Build OBO dumps of database.
 
@@ -9,24 +16,27 @@ import datetime
 import gzip
 import os
 import shutil
+import subprocess
+import traceback
 from pathlib import Path
 from typing import Optional, TypedDict
+
+import click
+import pystow.utils
+import yaml
+from more_click import verbose_option
+from tqdm import tqdm
+from tqdm.contrib.logging import logging_redirect_tqdm
+from typing_extensions import NotRequired
+import pyobo.constants
+import pyobo.version
+from pyobo import Obo
+from pyobo.sources import ontology_resolver
 
 import bioontologies.version
 import bioregistry
 import bioregistry.version
-import click
-import pyobo.version
-import pystow.utils
-import yaml
-from bioontologies.robot import convert, convert_to_obograph
-from more_click import verbose_option
-from pyobo import Obo
-from pyobo.sources import ontology_resolver
-from tqdm import tqdm
-from tqdm.contrib.logging import logging_redirect_tqdm
-from typing_extensions import NotRequired
-
+from bioontologies.robot import convert
 
 BASE_PURL = "https://w3id.org/biopragmatics/resources"
 HERE = Path(__file__).parent.resolve()
@@ -34,6 +44,7 @@ DATA = HERE.joinpath("docs", "_data")
 MANIFEST_PATH = DATA.joinpath("manifest.yml")
 EXPORT = HERE.joinpath("export")
 pystow.utils.GLOBAL_PROGRESS_BAR = False
+pyobo.constants.GLOBAL_CHECK_IDS = True
 #: This is the maximum file size (100MB, rounded down to
 #: be conservative) to put on GitHub
 MAX_SIZE = 100_000_000
@@ -52,7 +63,7 @@ PREFIXES = [
     "zfin",  # after flybase
     "dictybase.gene",
     "cgnc",
-    # "drugcentral", # stalling on something
+    "drugcentral",
     "complexportal",
     "interpro",
     "mesh",
@@ -77,7 +88,7 @@ NO_FORCE = {"drugbank", "drugbank.salt"}
 GZIP_OBO = {"mgi", "uniprot", "slm", "reactome", "pathbank", "mesh"}
 
 
-def _gzip(path: Path, suffix: str):
+def _gzip(path: Path, suffix: str) -> Path:
     output_path = path.with_suffix(suffix)
     with path.open("rb") as src, gzip.open(output_path, "wb") as dst:
         dst.writelines(src)
@@ -86,6 +97,8 @@ def _gzip(path: Path, suffix: str):
 
 
 class Artifact(TypedDict):
+    """Describes an artifact that was produced."""
+
     gzipped: bool
     iri: str
     path: str
@@ -93,7 +106,9 @@ class Artifact(TypedDict):
     version_path: NotRequired[str]
 
 
-def _prepare_art(prefix: str, path: Path, has_version: bool, suffix: str) -> Artifact:
+def _prepare_art(
+    prefix: str, path: Path, has_version: bool, suffix: str
+) -> tuple[Path, Artifact]:
     gzipped = os.path.getsize(path) > MAX_SIZE
     if gzipped:
         tqdm.write(f"[{prefix}] gzipping {path}")
@@ -125,7 +140,7 @@ def _prepare_art(prefix: str, path: Path, has_version: bool, suffix: str) -> Art
             version_iri=versioned_iri,
             version_path=version_relative.as_posix(),
         )
-    return rv
+    return output_path, rv
 
 
 def _get_summary(obo: Obo) -> dict:
@@ -149,37 +164,8 @@ def _get_summary(obo: Obo) -> dict:
     return rv
 
 
-def _make(prefix: str, module: type[Obo], do_convert: bool = False) -> dict:
-    rv = {}
-    obo = module(force=prefix not in NO_FORCE)
-
-    directory = EXPORT.joinpath(prefix)
-    has_version = bool(obo.data_version)
-    if has_version:
-        directory = directory.joinpath(obo.data_version)
-    else:
-        tqdm.write(click.style(f"[{prefix}] has no version info", fg="red"))
-    directory.mkdir(exist_ok=True, parents=True)
-    obo_path = directory.joinpath(f"{prefix}.obo")
-    names_path = directory.joinpath(f"{prefix}.tsv")
-    sssom_path = directory.joinpath(f"{prefix}.sssom.tsv")
-    obo_graph_json_path = directory.joinpath(f"{prefix}.json")
-    owl_path = directory.joinpath(f"{prefix}.owl")
-    log_path = directory.joinpath(f"{prefix}.log.txt")
-    log_path.unlink(missing_ok=True)
-
-    try:
-        obo.write_obo(obo_path)
-    except Exception as e:
-        tqdm.write(click.style(f"[{prefix}] failed to write OBO: {e}", fg="red"))
-        log_path.write_text(str(e))
-        obo_path.unlink()
-        return rv
-    rv["obo"] = _prepare_art(prefix, obo_path, has_version, ".obo.gz")
-
-    rv["summary"] = _get_summary(obo)
-
-    with names_path.open("w") as file:
+def _write_nodes(path: Path, obo: Obo, prefix: str) -> None:
+    with path.open("w") as file:
         print(
             "identifier",
             "name",
@@ -199,43 +185,100 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False) -> dict:
                 term.identifier,
                 term.name or "",
                 term.definition or "",
-                "|".join(s.name for s in term.synonyms),
-                "|".join(p.curie for p in term.alt_ids),
-                "|".join(p.curie for p in term.parents),
+                "|".join(sorted(s.name for s in term.synonyms)),
+                "|".join(sorted(p.curie for p in term.alt_ids)),
+                "|".join(sorted(p.curie for p in term.parents)),
                 species.curie if species else "",
                 sep="\t",
                 file=file,
             )
-    rv["nodes"] = _prepare_art(prefix, names_path, has_version, ".tsv.gz")
 
-    sssom_df = pyobo.get_sssom_df(obo)
-    sssom_df.to_csv(sssom_path, sep="\t", index=False)
-    rv["sssom"] = _prepare_art(prefix, sssom_path, has_version, ".sssom.tsv.gz")
 
-    if not do_convert:
-        return rv
+def _make(
+    prefix: str, module: type[Obo], do_convert: bool = False, no_force: bool = False
+) -> dict:
+    rv = {}
+    if no_force:
+        force = False
+    else:
+        force = prefix not in NO_FORCE
+    obo = module(force=force)
+
+    directory = EXPORT.joinpath(prefix)
+    has_version = bool(obo.data_version)
+    if has_version:
+        directory = directory.joinpath(obo.data_version)
+    else:
+        tqdm.write(click.style(f"[{prefix}] has no version info", fg="red"))
+    directory.mkdir(exist_ok=True, parents=True)
+    obo_path = directory.joinpath(f"{prefix}.obo")
+    names_path = directory.joinpath(f"{prefix}.tsv")
+    sssom_path = directory.joinpath(f"{prefix}.sssom.tsv")
+    obo_graph_json_path = directory.joinpath(f"{prefix}.json")
+    owl_path = directory.joinpath(f"{prefix}.owl")
+    log_path = directory.joinpath(f"{prefix}.log.txt")
+    log_path.unlink(missing_ok=True)
 
     try:
-        tqdm.write(f"[{prefix}] converting to OBO Graph JSON")
-        convert_to_obograph(input_path=obo_path, json_path=obo_graph_json_path)
-        rv["obograph"] = _prepare_art(
+        obo.write_obo(obo_path)
+    except Exception as e:
+        tqdm.write(
+            click.style(
+                f"[{prefix}] failed to write OBO: {e}\n\tWriting to {log_path.as_posix()}",
+                fg="red",
+            )
+        )
+        with log_path.open("w") as file:
+            traceback.print_exc(file=file)
+        obo_path.unlink()
+        return rv
+    obo_path, rv["obo"] = _prepare_art(prefix, obo_path, has_version, ".obo.gz")
+
+    rv["summary"] = _get_summary(obo)
+
+    _write_nodes(names_path, obo, prefix)
+    _, rv["nodes"] = _prepare_art(prefix, names_path, has_version, ".tsv.gz")
+
+    sssom_df = pyobo.get_sssom_df(obo, names=False)
+    sssom_df.to_csv(sssom_path, sep="\t", index=False)
+    _, rv["sssom"] = _prepare_art(prefix, sssom_path, has_version, ".sssom.tsv.gz")
+
+    tqdm.write(f"[{prefix}] outputting OBO Graph JSON")
+    try:
+        obo.write_obograph(obo_graph_json_path)
+        _, rv["obograph"] = _prepare_art(
             prefix, obo_graph_json_path, has_version, ".json.gz"
         )
-    except Exception:
+    except Exception as e:
         tqdm.write(
-            click.style(f"[{prefix}] ROBOT failed to convert to OBO Graph", fg="red")
+            click.style(
+                f"[{prefix}] {type(e)} failed to convert to OBO Graph\n\t{e}",
+                fg="red",
+            )
         )
+        with log_path.open("a") as file:
+            traceback.print_exc(file=file)
     else:
         tqdm.write(f"[{prefix}] done converting to OBO Graph JSON")
 
-    try:
-        tqdm.write(f"[{prefix}] converting to OWL")
-        convert(obo_path, owl_path)
-        rv["owl"] = _prepare_art(prefix, owl_path, has_version, ".owl.gz")
-    except Exception:
-        tqdm.write(click.style(f"[{prefix}] ROBOT failed to convert to OWL", fg="red"))
-    else:
-        tqdm.write(f"[{prefix}] done converting to OWL")
+    if do_convert:
+        # add -vvv and search for org.semanticweb.owlapi.oboformat.OBOFormatOWLAPIParser on errors
+        try:
+            tqdm.write(f"[{prefix}] converting to OWL")
+            convert(obo_path, owl_path, merge=False, reason=False, debug=True)
+            _, rv["owl"] = _prepare_art(prefix, owl_path, has_version, ".owl.gz")
+        except subprocess.CalledProcessError as e:
+            tqdm.write(
+                click.style(
+                    f"[{prefix}] {type(e)} - ROBOT failed to convert to OWL\n\t{e}\n\t{' '.join(e.cmd)}",
+                    fg="red",
+                )
+            )
+            with log_path.open("a") as file:
+                traceback.print_exc(file=file)
+                file.write(str(e.stderr))
+        else:
+            tqdm.write(f"[{prefix}] done converting to OWL")
 
     return rv
 
@@ -245,7 +288,8 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False) -> dict:
 @click.option("-m", "--minimum")
 @click.option("--no-convert", is_flag=True)
 @click.option("-x", "--xvalue", help="Select a specific ontology", multiple=True)
-def main(minimum: Optional[str], xvalue: list[str], no_convert: bool):
+@click.option("-w", "--no-force", is_flag=True)
+def main(minimum: Optional[str], xvalue: list[str], no_convert: bool, no_force: bool):
     """Build the PyOBO examples."""
     if xvalue:
         for prefix in xvalue:
@@ -268,9 +312,16 @@ def main(minimum: Optional[str], xvalue: list[str], no_convert: bool):
         tqdm.write(click.style(prefix, fg="green", bold=True))
         it.set_postfix(prefix=prefix)
         with logging_redirect_tqdm():
-            manifest[prefix] = _make(
-                prefix=prefix, module=cls, do_convert=not no_convert
-            )
+            try:
+                manifest[prefix] = _make(
+                    prefix=prefix,
+                    module=cls,
+                    do_convert=not no_convert,
+                    no_force=no_force,
+                )
+            except Exception as e:
+                tqdm.write(click.style(f"[{prefix}] {e}", fg="red"))
+                continue
 
     versions = {
         "pyobo": pyobo.version.get_version(with_git_hash=True),
