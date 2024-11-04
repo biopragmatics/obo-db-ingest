@@ -1,7 +1,6 @@
 format-version: 1.2
-date: 14:03:2024 14:04
 auto-generated-by: bio2obo:pombase
-data-version: 2024-03-01
+data-version: 2024-11-01
 ontology: pombase
 property_value: http://purl.org/dc/elements/1.1/title "PomBase" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "PomBase is a model organism database established to provide access to molecular data and biological information for the fission yeast Schizosaccharomyces pombe. It encompasses annotation of genomic sequence and features\, comprehensive manual literature curation and genome-wide data sets." xsd:string
@@ -111,7 +110,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC1002.09c
 name: dld1
-def: "dihydrolipoamide dehydrogenase Dld1" []
+def: "mitochondrial dihydrolipoamide dehydrogenase \(e3 component of oxoglutarate dehydrogenase complex\) Dld1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O00087 ! has gene product
@@ -182,7 +181,7 @@ synonym: "pmc5" EXACT []
 [Term]
 id: pombase:SPAC1002.16c
 name: tna1
-def: "carboxylic acid transmembrane transporter Tna1" []
+def: "plasma membrane carboxylic acid transmembrane transporter Tna1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9US44 ! has gene product
@@ -327,7 +326,7 @@ synonym: "SPAPJ730.01" EXACT []
 
 [Term]
 id: pombase:SPAC1039.01
-def: "amino acid transmembrane transporter" []
+def: "plasma membrane amino acid transmembrane transporter family\, related to 7-keto 8-aminopelargonic acid transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9US40 ! has gene product
@@ -352,7 +351,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC1039.04
-def: "carboxylic acid transmembrane transporter" []
+def: "plasma membrane carboxylic acid transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9US37 ! has gene product
@@ -393,7 +392,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC1039.08
-def: "serine acetyltransferase" []
+def: "serine O-acetyltransferase" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9US33 ! has gene product
@@ -402,7 +401,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC1039.09
 name: isp5
-def: "amino acid transmembrane transporter Isp5" []
+def: "plasma membrane amino acid transmembrane transporter Isp5" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P40901 ! has gene product
@@ -593,7 +592,7 @@ synonym: "SPAC926.01c" EXACT []
 
 [Term]
 id: pombase:SPAC1071.13
-def: "dubious" []
+def: "Schizosaccharomyces pombe specific protein\, predicted KOW-SH3 superfamily member" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:G2TRN1 ! has gene product
@@ -606,7 +605,6 @@ def: "mitochondrial PPR repeat protein Ppr5" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10451 ! has gene product
-relationship: RO:HOM0000017 hgnc:22198 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 synonym: "SPAC12B10.18" EXACT []
 
@@ -745,6 +743,7 @@ def: "Ino80 complex HMG box subunit Nht1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O42648 ! has gene product
+relationship: RO:HOM0000017 hgnc:13630 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 synonym: "hap1" EXACT []
 synonym: "nhp10" EXACT []
@@ -833,6 +832,7 @@ synonym: "mug134" EXACT []
 
 [Term]
 id: pombase:SPAC10F6.17c
+name: ptc5
 def: "mitochondrial pyruvate dehydrogenase \(lipoamide\) phosphatase" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -855,7 +855,7 @@ synonym: "SPAC140.05" EXACT []
 [Term]
 id: pombase:SPAC110.02
 name: pds5
-def: "mitotic and meiotic cohesin loader subunit Pds5" []
+def: "mitotic and meiotic cohesin unloading complex subunit Pds5" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9HFF5 ! has gene product
@@ -1055,7 +1055,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC11D3.08c
-def: "amino acid transmembrane transporter" []
+def: "amino acid/polyamine family transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10087 ! has gene product
@@ -1063,7 +1063,8 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC11D3.09
-def: "agmatinase" []
+name: agm1
+def: "agmatinase 1\, Agm1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10088 ! has gene product
@@ -1131,7 +1132,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC11D3.18c
-def: "carboxylic acid transmembrane transporter" []
+def: "plasma membrane carboxylic acid transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10097 ! has gene product
@@ -1147,7 +1148,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC11D3.19
-def: "Schizosaccharomyces pombe specific protein" []
+def: "Schizosaccharomyces pombe specific microprotein\, GPI anchored" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:G2TRM3 ! has gene product
@@ -1167,7 +1168,6 @@ def: "Swr1 complex histone chaperone module subunit\, SNF2 family ATP-dependent 
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O13682 ! has gene product
-relationship: RO:HOM0000017 hgnc:11958 ! in orthology relationship with
 relationship: RO:HOM0000017 hgnc:16974 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 synonym: "SPAC2H10.03c" EXACT []
@@ -1542,15 +1542,11 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC1296.04
 name: mug65
-def: "dysferlin-like membrane trafficking protein Mug65" []
+def: "tectonin WD repeat-containing\, dysferlin-like autophagy-related protein Mug65" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94611 ! has gene product
-relationship: RO:HOM0000017 hgnc:19044 ! in orthology relationship with
-relationship: RO:HOM0000017 hgnc:28065 ! in orthology relationship with
-relationship: RO:HOM0000017 hgnc:3097 ! in orthology relationship with
-relationship: RO:HOM0000017 hgnc:3656 ! in orthology relationship with
-relationship: RO:HOM0000017 hgnc:8515 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:22214 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -1766,10 +1762,11 @@ synonym: "SPAC630.01c" EXACT []
 [Term]
 id: pombase:SPAC12G12.03
 name: cip2
-def: "RNA-binding protein Cip2" []
+def: "splicing factor\, RNA-binding protein Cip2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q09868 ! has gene product
+relationship: RO:HOM0000017 hgnc:5046 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -2002,7 +1999,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC1399.02
-def: "basic amino acid transmembrane transporter" []
+def: "plasma membrane basic amino acid transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9HE13 ! has gene product
@@ -3008,7 +3005,7 @@ synonym: "ntf1" EXACT []
 [Term]
 id: pombase:SPAC1486.11
 name: fmc1
-def: "mitochondrial complex assembly factor\, LYR family Fmc1" []
+def: "mitochondrial proton-transporting ATP synthase complex assembly factor\, LYR family\, Fmc1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:G2TRM0 ! has gene product
@@ -3309,12 +3306,14 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC1565.02c
 name: rga10
-def: "RhoGAP\, with CRAL-TRIO_domain Rga10" []
+def: "RhoGAP\, with CRAL-TRIO domain Rga10" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P3B1 ! has gene product
 relationship: RO:HOM0000017 hgnc:673 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
+synonym: "BCH" EXACT []
+synonym: "p50RhoGAP" EXACT []
 
 [Term]
 id: pombase:SPAC1565.03
@@ -3346,7 +3345,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC1565.06c
 name: spg1
-def: "GTPase Spg1" []
+def: "SIN signalling GTPase Spg1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P87027 ! has gene product
@@ -3542,6 +3541,7 @@ def: "cytochrome c oxidase assembly protein Coa2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:G2TRM8 ! has gene product
+relationship: RO:HOM0000017 hgnc:7686 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 synonym: "new5" EXACT []
 
@@ -3969,7 +3969,7 @@ synonym: "rpl28" EXACT []
 
 [Term]
 id: pombase:SPAC1687.07
-def: "ER membrane DUF2015 family conserved fungal protein" []
+def: "membrane DUF2015 family conserved fungal protein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14068 ! has gene product
@@ -4408,7 +4408,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC16E8.12c
 name: png3
-def: "Clr6 histone deacetylase complex I'' complex ING family homolog Png3" []
+def: "ING family homolog Png3" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9C117 ! has gene product
@@ -4458,7 +4458,8 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC16E8.17c
-def: "succinate-CoA ligase alpha subunit" []
+name: sca1
+def: "succinate-CoA ligase alpha subunit Sca1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O13750 ! has gene product
@@ -4496,7 +4497,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC1705.03c
 name: ecm33
-def: "extracellular leucine-rich repeat domain\, receptor L domain-like Ecm33" []
+def: "GPI anchored cell surface receptor L domain-like Ecm33" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O13960 ! has gene product
@@ -4868,6 +4869,7 @@ def: "spliceosome complex disassembly protein Ntr2\, human GCFC2 ortholog" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O13758 ! has gene product
+relationship: RO:HOM0000017 hgnc:1317 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -5029,7 +5031,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC17A5.10
 name: hua1
-def: "conserved fungal protein\, possibly DNA J domain Hua1" []
+def: "conserved fungal protein\, possibly DNA J domain\, implicated in protein folding\, Hua1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O13772 ! has gene product
@@ -5327,7 +5329,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC17G6.03
-def: "5'-nucleotidase\, human NT5E family" []
+def: "extracellular 5'-nucleotidase\, human NT5E family" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O13781 ! has gene product
@@ -5574,6 +5576,7 @@ def: "Set1C complex subunit Shg1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10321 ! has gene product
+relationship: RO:HOM0000017 hgnc:25114 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -5942,10 +5945,12 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC1805.10
-def: "Schizosaccharomyces specific protein" []
+name: ccz1
+def: "Mon1-Ccz1 GEF complex subunit Ccz1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UTG5 ! has gene product
+relationship: RO:HOM0000017 hgnc:21691 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -6107,7 +6112,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC1834.05
 name: alg9
-def: "mannosyltransferase complex subunit Alg9" []
+def: "dol-P-Man\:Man\(6\)GlcNAc\(2\)-PP-Dol alpha-1\,2-mannosyltransferase/ dol-P-Man\:Man\(8\)GlcNAc\(2\)-PP-Dol alpha-1\,2-mannosyltransferase Alg9" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P7Q9 ! has gene product
@@ -6282,10 +6287,14 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC186.08c
-def: "L-lactate dehydrogenase" []
+name: ldh1
+def: "L-lactate dehydrogenase Ldh1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P7P7 ! has gene product
+relationship: RO:HOM0000017 hgnc:28335 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:6535 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:6541 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -6371,7 +6380,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC18B11.09c
-def: "serine O-acetyltransferase activity" []
+def: "O-acetyltransferase activity" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q09707 ! has gene product
@@ -6509,7 +6518,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC18G6.13
-def: "Schizosaccharomyces specific protein" []
+def: "ubiquitin family protein \(FoldSeek\)\, possible PF15874 family \(Pfam-N\)" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10112 ! has gene product
@@ -6570,7 +6579,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC1952.04c
-def: "conserved fungal protein" []
+def: "conserved fungal protein\, UPF0768 family" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q8J1M8 ! has gene product
@@ -6755,7 +6764,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC19A8.04
 name: erg5
-def: "C-22 sterol desaturase Erg5" []
+def: "C-22 sterol desaturase \(cytochrome P450\) Erg5" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O13820 ! has gene product
@@ -6780,7 +6789,7 @@ synonym: "vps27" EXACT []
 [Term]
 id: pombase:SPAC19A8.06
 name: pbr1
-def: "ER oxidoreductase Pbr1\, implicated in lipid metabolism" []
+def: "ER oxidoreductase Pbr1\, implicated in lipid metabolism\, or protein glycosylation" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O13822 ! has gene product
@@ -6881,7 +6890,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC19A8.16
 name: prl65
-def: "tudor domain superfamily protein" []
+def: "tudor domain superfamily protein\, potential role in central carbon metabolism based on C. neoformans metabolic data\, see PF11160" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:G2TRL4 ! has gene product
@@ -7633,7 +7642,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC1B3.08
-def: "TREX2 complex subunit-like \(poorly characterized\, implicated in transcription or splicing\)" []
+def: "TREX2 complex subunit-like\, poorly characterized\, implicated in transcription or RNA surveillance" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O13873 ! has gene product
@@ -7744,7 +7753,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC1B3.20
-def: "Schizosaccharomyces specific protein" []
+def: "Schizosaccharomyces specific microprotein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9Y7I1 ! has gene product
@@ -7835,7 +7844,6 @@ def: "Erd1 homolog" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10151 ! has gene product
-relationship: RO:HOM0000017 hgnc:12827 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -7860,7 +7868,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC1D4.09c
 name: rtf2
-def: "DNA replication termination factor Rtf2" []
+def: "splicing factor Rtf2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10154 ! has gene product
@@ -7982,7 +7990,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC1F12.08
 name: cab4
-def: "cytidylyltransferase" []
+def: "dephospho-CoA kinase" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10350 ! has gene product
@@ -8093,7 +8101,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC1F3.09
 name: mug161
-def: "CwfJ family protein\, splicing factor" []
+def: "CwfJ family protein\, splicing factor Mug161" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10414 ! has gene product
@@ -8173,7 +8181,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC1F5.08c
 name: yam8
-def: "plasma membrane stretch-activated calcium ion channel Yam8" []
+def: "plasma membrane stretch-activated calcium ion channel regulatory subunit Yam8" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10063 ! has gene product
@@ -8767,7 +8775,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC212.03
-def: "hypothetical protein" []
+def: "Schizosaccharomyces pombe specific protein\, F-box" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9HGP9 ! has gene product
@@ -8979,7 +8987,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC222.10c
 name: byr4
-def: "two-component GAP Byr4" []
+def: "SIN signalling inhibitor\, two-component GAP Byr4" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10951 ! has gene product
@@ -9050,7 +9058,7 @@ synonym: "SPAC821.02c" EXACT []
 
 [Term]
 id: pombase:SPAC222.17
-def: "conserved fungal protein" []
+def: "conserved fungal protein\, probable TBC1 domain \(GAP\)" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:C6Y4B9 ! has gene product
@@ -9083,7 +9091,6 @@ def: "retrograde transport protein\, Golgi to ER\, Erd1/Gmn2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UTD8 ! has gene product
-relationship: RO:HOM0000017 hgnc:12827 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 synonym: "SPAPB21F2.04c" EXACT []
 synonym: "gmn2" EXACT []
@@ -9268,7 +9275,8 @@ synonym: "SPAC2F7.01" EXACT []
 
 [Term]
 id: pombase:SPAC227.19c
-def: "pig-Y\, phosphatidylinositol N-acetylglucosaminyltransferase subunit Eri1" []
+name: pig25
+def: "pig-Y\, phosphatidylinositol N-acetylglucosaminyltransferase subunit" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:C6Y4B7 ! has gene product
@@ -9533,7 +9541,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC22E12.09c
 name: krp1
-def: "kexin" []
+def: "kexin\, type I membrane endopeptidase" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q09175 ! has gene product
@@ -9554,14 +9562,13 @@ def: "mitochondrial \[2Fe-2S\] cluster assembly ferredoxin Etp1/ heme O monooxyg
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10361 ! has gene product
-relationship: RO:HOM0000017 hgnc:2263 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 synonym: "cox15" EXACT []
 
 [Term]
 id: pombase:SPAC22E12.11c
 name: set3
-def: "possible histone H3 lysine methyltransferase Set3" []
+def: "histone H3 lysine methyltransferase Set3" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10362 ! has gene product
@@ -9616,7 +9623,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC22E12.18
-def: "human CCNDBP1 ortholog" []
+def: "human CCNDBP1 ortholog\, may coordinate transcription elongation and splicing based on human interactions" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10368 ! has gene product
@@ -9947,7 +9954,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC22G7.06c
 name: ura1
-def: "carbamoyl-phosphate synthase \(glutamine hydrolyzing\)\, aspartate carbamoyltransferase Ura1" []
+def: "trifunctional GLNase \(glutamine amidotransferase\)/CPSase \(carbamoylphosphate synthetase\)/ATCase \(aspartate transcarbamoylase\) Ura1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q09794 ! has gene product
@@ -10093,13 +10100,13 @@ synonym: "sto1" EXACT []
 
 [Term]
 id: pombase:SPAC22H10.11c
-name: ifh1
-def: "transcriptional coactivator for ribosomal proteins via TOR signaling pathway Ifh1" []
+name: crf1
+def: "transcriptional coactivator for ribosomal proteins via TOR signaling pathway Crf1/Ifh1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10304 ! has gene product
 property_value: chromosome "1" xsd:string
-synonym: "crf1" EXACT []
+synonym: "ifh1" EXACT []
 
 [Term]
 id: pombase:SPAC22H10.12c
@@ -10297,7 +10304,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC23A1.14c
-def: "cystathionine beta-lyase" []
+def: "pyridoxal phosphate-dependent transferase\, possible cystathionine beta-lyase implicated in sulfur metabolism" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O42851 ! has gene product
@@ -10531,14 +10538,15 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC23C11.17
-name: mdm28
-def: "mitochondrial inner membrane protein involved in translation Mdm28" []
+name: mdm38
+def: "mitochondrial inner membrane protein involved in translation Mdm38" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O13920 ! has gene product
 relationship: RO:HOM0000017 hgnc:14648 ! in orthology relationship with
 relationship: RO:HOM0000017 hgnc:6556 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
+synonym: "mdm28" EXACT []
 
 [Term]
 id: pombase:SPAC23C4.02
@@ -10668,7 +10676,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC23C4.14
 name: alg1
-def: "mannosyltransferase complex subunit Alg1" []
+def: "chitobiosyldiphosphodolichol beta-1\,4-mannosyltransferas Alg1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O13933 ! has gene product
@@ -10905,6 +10913,7 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10135 ! has gene product
 relationship: RO:HOM0000017 hgnc:21577 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:29079 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 synonym: "saf140" EXACT []
 synonym: "swm2" EXACT []
@@ -11070,7 +11079,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC23H3.05c
 name: swd1
-def: "Set1C complex subunit Swd1" []
+def: "Set1C complex WD repeat subunit Swd1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O42858 ! has gene product
@@ -11461,7 +11470,7 @@ synonym: "SPAC806.01" EXACT []
 
 [Term]
 id: pombase:SPAC24B11.14
-def: "dubious" []
+def: "Schizosaccharomyces pombe specific protein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UR21 ! has gene product
@@ -11487,6 +11496,7 @@ relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O13963 ! has gene product
 relationship: RO:HOM0000017 hgnc:7529 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
+synonym: "erg19" EXACT []
 
 [Term]
 id: pombase:SPAC24C9.04
@@ -11733,7 +11743,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC24H6.11c
 name: vsb1
-def: "sulfate transmembrane transporter Vsb1" []
+def: "plasma membrane sulfate transmembrane transporter Vsb1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q09764 ! has gene product
@@ -11751,7 +11761,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC24H6.13
-def: "calcium ion transmembrane transporter" []
+def: "plasma membrane calcium permeable gated cation channel" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q09766 ! has gene product
@@ -11783,7 +11793,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC25A8.03c
-def: "mitochondrial arginine methyltransferase\, human NDUFAF7 ortholog" []
+def: "mitochondrial repliratory complex assembly factro/arginine methyltransferase\, human NDUFAF7 ortholog" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14138 ! has gene product
@@ -12124,7 +12134,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC25H1.06
 name: pcf3
-def: "histone H3-H4 chaperone\, CAF assembly factor \(CAF-1\) complex subunit C\, Pcf3" []
+def: "histone H3-H4 chaperone\, CAF assembly factor \(CAF-1\) complex WD repeat subunit C\, Pcf3" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9Y825 ! has gene product
@@ -12428,7 +12438,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC26F1.07
-def: "NADPH-dependent aldo-keto reductase" []
+def: "aldose reductase \(NADPH\)" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10494 ! has gene product
@@ -12436,7 +12446,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC26F1.08c
-def: "malate transmembrane transporter" []
+def: "transmembrane protein\, implicated in transmembrane transport or endocytosis" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10495 ! has gene product
@@ -12521,7 +12531,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC26H5.03
 name: pcf2
-def: "histone H3-H4 chaperone\, CAF assembly factor \(CAF-1\) complex subunit B\, Pcf2" []
+def: "histone H3-H4 chaperone\, CAF assembly factor \(CAF-1\) complex WD repeat subunit\, Pcf2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O13985 ! has gene product
@@ -12603,7 +12613,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC26H5.11
 name: mug56
-def: "prospore membrane formation Mug56" []
+def: "prospore membrane formation protein Mug56" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O13992 ! has gene product
@@ -12626,6 +12636,8 @@ def: "inositol phoshorylceramide synthase regulatory subunit Kei1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O13994 ! has gene product
+relationship: RO:HOM0000017 hgnc:13646 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:29612 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -12851,7 +12863,7 @@ synonym: "SPAPJ698.01c" EXACT []
 
 [Term]
 id: pombase:SPAC27E2.11c
-def: "Schizosaccharomyces specific protein" []
+def: "Schizosaccharomyces specific protein\, GPI anchored" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UTA0 ! has gene product
@@ -12867,7 +12879,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC27E2.14
-def: "Schizosaccharomyces pombe specific protein" []
+def: "Schizosaccharomyces pombe specific microprotein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:C6Y4B0 ! has gene product
@@ -12916,7 +12928,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC27F1.06c
 name: ani2
-def: "nucleophismin-like histone chaperone/CENP-A amino terminus domain \(NTD\) isomerase Ani2/Fkbp40" []
+def: "nucleophosmin-like histone chaperone/CENP-A amino terminus domain \(NTD\) isomerase Ani2/Fkbp40" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10175 ! has gene product
@@ -12931,7 +12943,7 @@ synonym: "fkbp40" EXACT []
 [Term]
 id: pombase:SPAC27F1.07
 name: ost1
-def: "dolichyl-diphospho-oligosaccharide-protein glycosyltransferase Ost1" []
+def: "oligosaccharyltransferase complex alpha subunit\, Ost1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10176 ! has gene product
@@ -13139,7 +13151,7 @@ synonym: "atg43" EXACT []
 [Term]
 id: pombase:SPAC29A4.18
 name: prw1
-def: "histone chaperone\, Clr6 and Rpd3L complex subunit Prw1" []
+def: "histone chaperone\, Clr6 and Rpd3L complex WD repeat subunit Prw1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14021 ! has gene product
@@ -13481,7 +13493,7 @@ synonym: "dis3L2" EXACT []
 
 [Term]
 id: pombase:SPAC2C4.08
-def: "conserved fungal nucleolar protein\, implicated in rDNA metabolism or ribosome biogenesis" []
+def: "REX family exonuclease\, implicated in rDNA metabolism or ribosome biogenesis\, potential human ISG20L2 ortholog" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14041 ! has gene product
@@ -13504,6 +13516,8 @@ def: "SIP/FAR complex subunit Csc4" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14043 ! has gene product
+relationship: RO:HOM0000017 hgnc:23098 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:26119 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -13524,7 +13538,6 @@ def: "tRNA 2'-phosphotransferase Tpt1/ CIA machinery involved in ribosome biogen
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14045 ! has gene product
-relationship: RO:HOM0000017 hgnc:20316 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -13609,6 +13622,7 @@ def: "wtf element \(truncated\) Wtf1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "1" xsd:string
+synonym: "wts1" EXACT []
 
 [Term]
 id: pombase:SPAC2E1P3.01
@@ -13721,7 +13735,6 @@ def: "inositol phosphorylceramide mannosyltransferase activity Imt1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14084 ! has gene product
-relationship: RO:HOM0000017 hgnc:18149 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 synonym: "SPAC323.09" EXACT []
 
@@ -14079,7 +14092,7 @@ synonym: "vas1" EXACT []
 [Term]
 id: pombase:SPAC2G11.04
 name: rbm17
-def: "RNA-binding protein\, G-patch type\, splicing factor 45 ortholog" []
+def: "RNA-binding protein\, G-patch type\, alternative splicing factor 45" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q09806 ! has gene product
@@ -14131,7 +14144,7 @@ synonym: "yab8" EXACT []
 
 [Term]
 id: pombase:SPAC2G11.09
-def: "calcium ion transmembrane transporter" []
+def: "plasma membrane calcium permeable gated cation channel" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q09809 ! has gene product
@@ -14294,7 +14307,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC30C2.03
-def: "Schizosaccharomyces specific protein" []
+def: "NTPase related protein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P6K8 ! has gene product
@@ -14555,6 +14568,7 @@ def: "mitochondrial poly\(A\) RNA polymerase Atp25" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q09726 ! has gene product
+relationship: RO:HOM0000017 hgnc:25532 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -14998,12 +15012,11 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC328.05
 name: hrb1
-def: "RNA-binding protein involved in export of mRNAs Hrb1" []
+def: "mRNA splicing surveillance factor\, RNA-binding protein Hrb1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P3U1 ! has gene product
 relationship: RO:HOM0000017 hgnc:17940 ! in orthology relationship with
-relationship: RO:HOM0000017 hgnc:5046 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -15061,7 +15074,7 @@ synonym: "rps5-2" EXACT []
 [Term]
 id: pombase:SPAC32A11.01
 name: mug8
-def: "DUF1708 family conserved fungal protein\, cell division site" []
+def: "DUF1708 \(GAP\) family conserved fungal protein\, cell division site" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10326 ! has gene product
@@ -15069,7 +15082,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC32A11.02c
-def: "DUF4449 family conserved fungal protein\, involved in cell-cell communication in N. crassa" []
+def: "DUF4449 family conserved fungal protein\, involved in cell-cell communication in N. crassa\, and negative regulation of mating in C. neoformans" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10327 ! has gene product
@@ -16282,7 +16295,7 @@ synonym: "orp3" EXACT []
 [Term]
 id: pombase:SPAC3H1.02c
 name: sdd3
-def: "mitochondrial protease Sdd3" []
+def: "mitochondrial matrix protease Sdd3" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10068 ! has gene product
@@ -16322,7 +16335,7 @@ synonym: "ppp11" EXACT []
 
 [Term]
 id: pombase:SPAC3H1.06c
-def: "basic amino acid transmembrane transporter" []
+def: "plasma membrane basic amino acid transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10072 ! has gene product
@@ -17042,10 +17055,11 @@ synonym: "usp104" EXACT []
 [Term]
 id: pombase:SPAC4D7.14
 name: new13
-def: "conserved fungal protein" []
+def: "ERAD pathway protein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:G2TRK9 ! has gene product
+relationship: RO:HOM0000017 hgnc:25238 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -17640,10 +17654,11 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC4G9.11c
 name: cmb1
-def: "mitochondrial cytosine-mismatch binding protein 1\, candidate TFAM ortholog" []
+def: "mitochondrial transcription factor A" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10241 ! has gene product
+relationship: RO:HOM0000017 hgnc:11741 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -17785,12 +17800,14 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC4H3.06
-def: "human REX1BD ortholog\, implicated in DNA repair" []
+name: rss1
+def: "heterochromatin adaptor for Prw1-Clr6 REX1BD" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10214 ! has gene product
 relationship: RO:HOM0000017 hgnc:26098 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
+synonym: "rex1BD" EXACT []
 
 [Term]
 id: pombase:SPAC4H3.07c
@@ -17913,7 +17930,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC513.04
-def: "Schizosaccharomyces pombe specific protein" []
+def: "Schizosaccharomyces pombe specific protein\, implicated in mating" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UT62 ! has gene product
@@ -18247,7 +18264,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC57A10.06
 name: mug15
-def: "Schizosaccharomyces specific protein Mug15" []
+def: "Roadblock/LC7 domain superfamily protein Mug15" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P87054 ! has gene product
@@ -18338,7 +18355,7 @@ synonym: "pab11" EXACT []
 
 [Term]
 id: pombase:SPAC57A7.05
-def: "transmembrane transporter" []
+def: "transmembrane protein\, implicated in transmembrane transport or endocytosis" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P87136 ! has gene product
@@ -18431,7 +18448,8 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC57A7.15c
-def: "Schizosaccharomyces specific protein" []
+name: pex22
+def: "peroxisomal membrane E2 ubiquitin-conjugating activity activator Pex22" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:C6Y4B2 ! has gene product
@@ -18598,7 +18616,7 @@ synonym: "sep11" EXACT []
 [Term]
 id: pombase:SPAC5D6.06c
 name: alg14
-def: "UDP-GlcNAc transferase associated protein Alg14" []
+def: "UDP-N-acetylglucosamine transferase anchoring subunit Alg14" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14199 ! has gene product
@@ -18785,10 +18803,11 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC607.02c
-def: "conserved fungal nucleolar protein\, implicated in rDNA metabolism or ribosome biogenesis" []
+def: "conserved nucleolar protein\, human CCDC137 ortholog\, implicated in rDNA metabolism or ribosome biogenesis" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9US15 ! has gene product
+relationship: RO:HOM0000017 hgnc:33451 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -18902,15 +18921,16 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC630.06c
-def: "DUF2011 family conserved fungal protein\, implicated in fatty acid biosynthesis" []
+def: "conserved eukaryotic protein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UUH6 ! has gene product
+relationship: RO:HOM0000017 hgnc:25719 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC630.07c
-def: "Schizosaccharomyces specific protein" []
+def: "GTPase superfamily protein\, septin related" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UUH5 ! has gene product
@@ -18938,7 +18958,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC630.10
 name: bmt2
-def: "rRNA \(adenine\) methyltransferase activity Bmt2" []
+def: "rRNA \(adenine\) methyltransferase activity Bmt2/human SAMTOR \(S-adenosylmethionine sensor for the MTOR\) ortholog" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UUH2 ! has gene product
@@ -18958,7 +18978,8 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC630.12
-def: "GPI-remodelling mannose-ethanolamine phosphate phosphodiesterase" []
+name: ted2
+def: "GPI-remodelling mannose-ethanolamine phosphate phosphodiesterase Ted2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UUH0 ! has gene product
@@ -19081,8 +19102,6 @@ def: "3'-5'- exoribonuclease Rex1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94443 ! has gene product
-relationship: RO:HOM0000017 hgnc:24616 ! in orthology relationship with
-relationship: RO:HOM0000017 hgnc:24660 ! in orthology relationship with
 relationship: RO:HOM0000017 hgnc:24661 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
@@ -19361,7 +19380,7 @@ def: "ribosomal L7-like protein involved in ribosome biogenesis" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P17937 ! has gene product
-relationship: RO:HOM0000017 hgnc:10363 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:21370 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 synonym: "rpl7" EXACT []
 
@@ -19718,11 +19737,10 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC6B12.07c
 name: pqr1
-def: "ubiquitin-protein ligase E3 with SPX domain Pqr1/Spx1" []
+def: "ubiquitin-protein ligase E3\, phosphate quantity regulator Pqr1/Spx1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14212 ! has gene product
-relationship: RO:HOM0000017 hgnc:17765 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 synonym: "spx1" EXACT []
 
@@ -19946,6 +19964,7 @@ def: "COPI-coated vesicle associated protein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14223 ! has gene product
+relationship: RO:HOM0000017 hgnc:1365 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -20040,7 +20059,7 @@ synonym: "pbp2" EXACT []
 [Term]
 id: pombase:SPAC6F12.13c
 name: fps1
-def: "geranyltranstransferase Fps1" []
+def: "farnesyltranstransferase/ geranyltranstransferase Fps1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14230 ! has gene product
@@ -20121,19 +20140,17 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC6F6.04c
-def: "transmembrane transporter" []
+def: "MFS superfamily\, UNC-93 subfamily\, transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14237 ! has gene product
-relationship: RO:HOM0000017 hgnc:12570 ! in orthology relationship with
-relationship: RO:HOM0000017 hgnc:13481 ! in orthology relationship with
 relationship: RO:HOM0000017 hgnc:25458 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC6F6.05
 name: ost2
-def: "oligosaccharyltransferase epsilon subunit Ost2" []
+def: "oligosaccharyltransferase complex epsilon subunit\, Ost2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14238 ! has gene product
@@ -20162,7 +20179,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC6F6.08c
 name: cdc16
-def: "two-component GAP Cdc16" []
+def: "SIN signalling inhibitor\, two-component GAP Cdc16" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P36618 ! has gene product
@@ -20279,14 +20296,14 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC6G10.03c
-name: cld1
-def: "mitochondrial cardiolipin-specific phospholipase Cld1" []
+def: "lysophospholipid acyltransferase" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14249 ! has gene product
 relationship: RO:HOM0000017 hgnc:20154 ! in orthology relationship with
 relationship: RO:HOM0000017 hgnc:21396 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
+synonym: "cld1" EXACT []
 
 [Term]
 id: pombase:SPAC6G10.04c
@@ -20619,7 +20636,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC750.07c
-def: "S. pombe specific protein" []
+def: "Schizosaccharomyces pombe specific protein\, GPI anchored" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P3E4 ! has gene product
@@ -20708,8 +20725,6 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14463 ! has gene product
 relationship: RO:HOM0000017 hgnc:12435 ! in orthology relationship with
-relationship: RO:HOM0000017 hgnc:16470 ! in orthology relationship with
-relationship: RO:HOM0000017 hgnc:17772 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -20723,7 +20738,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC7D4.09c
 name: dfg10
-def: "3-oxo-5-alpha-steroid 4-dehydrogenase" []
+def: "ER polyprenol reductase Dfg10" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14264 ! has gene product
@@ -20743,7 +20758,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC7D4.11c
 name: sec39
-def: "secretory pathway protein Sec39" []
+def: "Dsl1/NZR complex secretory pathway protein Sec39" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14266 ! has gene product
@@ -20779,7 +20794,7 @@ synonym: "pir1" EXACT []
 [Term]
 id: pombase:SPAC7D4.15c
 name: ost4
-def: "oligosaccharyltransferase subunit Ost4" []
+def: "oligosaccharyltransferase complex subunit\, Ost4" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q96VG2 ! has gene product
@@ -20792,8 +20807,6 @@ def: "CIA machinery CIA1/CFD1 fusion protein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UT57 ! has gene product
-relationship: RO:HOM0000017 hgnc:14280 ! in orthology relationship with
-relationship: RO:HOM0000017 hgnc:8042 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -21086,11 +21099,13 @@ synonym: "pep5" EXACT []
 [Term]
 id: pombase:SPAC823.13c
 name: she9
-def: "mitochondrial inner membrane protein She9" []
+def: "mitochondrial inner membrane protein She9/Mdm33" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P6N3 ! has gene product
+relationship: RO:HOM0000017 hgnc:25714 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
+synonym: "mdm33" EXACT []
 
 [Term]
 id: pombase:SPAC823.14
@@ -21157,7 +21172,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC824.04
 name: swd22
-def: "mRNA cleavage and polyadenylation specificity factor complex\, WD repeat protein Swd22" []
+def: "mRNA cleavage and polyadenylation specificity factor complex\, WD repeat subunit Swd22" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UT39 ! has gene product
@@ -21193,7 +21208,7 @@ def: "glyoxalase II" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UT36 ! has gene product
-relationship: RO:HOM0000017 hgnc:9153 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:4805 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -21210,7 +21225,8 @@ synonym: "gdp1" EXACT []
 
 [Term]
 id: pombase:SPAC824.09c
-def: "GTPase activating protein" []
+name: age1
+def: "GTPase activating protein Age1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UT34 ! has gene product
@@ -21518,6 +21534,8 @@ def: "stress-responsive DNA-binding transcription factor Prr1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14283 ! has gene product
+relationship: RO:HOM0000017 hgnc:5224 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:5225 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
@@ -21614,15 +21632,17 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC8E11.05c
-def: "DUF5102 family conserved fungal protein\, associated with clathrin coated vesicles" []
+def: "DUF5102 family\, associated with clathrin coated vesicles" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O42882 ! has gene product
+relationship: RO:HOM0000017 hgnc:3659 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:3660 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC8E11.06
-def: "Schizosaccharomyces pombe specific protein" []
+def: "Schizosaccharomyces pombe specific microprotein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O42883 ! has gene product
@@ -21708,6 +21728,7 @@ def: "nuclear envelope protein Brr6/Brl1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UT30 ! has gene product
+relationship: RO:HOM0000017 hgnc:29675 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 synonym: "brl1" EXACT []
 
@@ -21873,7 +21894,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC922.04
-def: "Schizosaccharomyces specific protein" []
+def: "gamma crystallin family protein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9URX2 ! has gene product
@@ -21881,11 +21902,10 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC922.05c
-def: "transmembrane transporter" []
+def: "MFS superfamily\, UNC-93 subfamily\, transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9URX1 ! has gene product
-relationship: RO:HOM0000017 hgnc:12570 ! in orthology relationship with
 relationship: RO:HOM0000017 hgnc:25458 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 
@@ -22040,7 +22060,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAC959.04c
 name: omh6
-def: "Golgi alpha-1\,2-mannosyltransferase Omh6" []
+def: "alpha-1\,2-mannosyltransferase Omh6" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P4X2 ! has gene product
@@ -22241,7 +22261,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC977.14c
-def: "aldo/keto reductase\, predicted calcium channel regulator" []
+def: "NADP-dependent aldo/keto reductase\, unknown biological role\, implicated in cellular detoxification" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P7U2 ! has gene product
@@ -22283,7 +22303,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAC977.18
-def: "conserved fungal protein" []
+def: "conserved fungal protein\, UPF0768 family" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:G2TRM1 ! has gene product
@@ -22850,7 +22870,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAP27G11.04c
 name: tad3
-def: "tRNA specific adenosine deaminase subunit Tad3" []
+def: "tRNA specific adenosine-34 deaminase subunit Tad3" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P7N4 ! has gene product
@@ -22893,10 +22913,11 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAP27G11.08c
 name: meu32
-def: "Schizosaccharomyces specific protein Meu32" []
+def: "meiosis-specific with OB domain-containing protein\, human MEIOB ortholog\, Meu32" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P7N0 ! has gene product
+relationship: RO:HOM0000017 hgnc:28569 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
 synonym: "mug11" EXACT []
 
@@ -23321,7 +23342,7 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAPB17E12.11
 name: ost3
-def: "oligosaccharyltransferase gamma subunit Ost3" []
+def: "oligosaccharyltransferase complex gamma subunit\, Ost3" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q8TFH3 ! has gene product
@@ -23384,7 +23405,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAPB18E9.04c
-def: "Schizosaccharomyces pombe specific protein\, possible cell surface glycoprotein" []
+def: "Schizosaccharomyces pombe specific cell surface glycoprotein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q8TFG4 ! has gene product
@@ -23450,7 +23471,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAPB1A10.07c
-def: "sphingolipid biosynthesis protein" []
+def: "phospholipid scramblase" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9HDY3 ! has gene product
@@ -23558,7 +23579,7 @@ synonym: "SPAPB24D3.11" EXACT []
 
 [Term]
 id: pombase:SPAPB1A11.02
-def: "esterase/lipase implicated in lipid catobolism or detoxification" []
+def: "sterol esterase/lipase implicated in lipid catabolism or detoxification" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9HDX3 ! has gene product
@@ -23761,7 +23782,7 @@ synonym: "SPAPB2C8.02" EXACT []
 
 [Term]
 id: pombase:SPAPB24D3.02c
-def: "amino acid transmembrane transporter" []
+def: "amino acid/polyamine family transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9C0Z0 ! has gene product
@@ -23769,7 +23790,8 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAPB24D3.03
-def: "agmatinase" []
+name: agm2
+def: "agmatinase 2\, Agm2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9C0Y9 ! has gene product
@@ -23802,7 +23824,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAPB24D3.07c
-def: "Schizosaccharomyces pombe specific protein" []
+def: "glycosyl hydrolase \(predicted by Pfam-N\)" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9C0Y7 ! has gene product
@@ -23996,7 +24018,7 @@ property_value: chromosome "1" xsd:string
 
 [Term]
 id: pombase:SPAPB8E5.08
-def: "Schizosaccharomyces pombe specific protein" []
+def: "Schizosaccharomyces pombe specific protein\, GPI anchored" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9C0X7 ! has gene product
@@ -24015,11 +24037,15 @@ property_value: chromosome "1" xsd:string
 [Term]
 id: pombase:SPAPB8E5.10
 name: min8
-def: "mitochondrial mini protein\, single membrane pass Min8\, meiosis specific splicing in fission yeast" []
+def: "mitochondrial respiratory complex/ATP synthase complex assembly protein Mra1\, meiosis specific splicing in fission yeast" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9C0X5 ! has gene product
+relationship: RO:HOM0000017 hgnc:29836 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:29898 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:7687 ! in orthology relationship with
 property_value: chromosome "1" xsd:string
+synonym: "mra1" EXACT []
 
 [Term]
 id: pombase:SPAPJ691.02
@@ -24700,9 +24726,11 @@ relationship: RO:HOM0000017 hgnc:9441 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 synonym: "git6" EXACT []
 synonym: "sam1" EXACT []
+synonym: "sam2" EXACT []
 synonym: "sam5" EXACT []
 synonym: "sam6" EXACT []
 synonym: "sam7" EXACT []
+synonym: "sam8" EXACT []
 synonym: "tpk" EXACT []
 
 [Term]
@@ -24772,7 +24800,7 @@ synonym: "mts7" EXACT []
 [Term]
 id: pombase:SPBC106.17c
 name: cys2
-def: "homoserine O-acetyltransferase" []
+def: "serine O-acetyltransferase/serine O-succinyltransferase Cys2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10341 ! has gene product
@@ -24792,12 +24820,13 @@ synonym: "rpl25a" EXACT []
 [Term]
 id: pombase:SPBC106.19
 name: ppr10
-def: "mitochondrial PPR repeat protein Ppr10" []
+def: "mitochondrial translational activator\, PPR repeat Ppr10" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10340 ! has gene product
 property_value: chromosome "2" xsd:string
 synonym: "SPBC582.01" EXACT []
+synonym: "mpal10" EXACT []
 
 [Term]
 id: pombase:SPBC106.20
@@ -25026,7 +25055,7 @@ synonym: "SPBC887.21c" EXACT []
 [Term]
 id: pombase:SPBC1105.19
 name: tam12
-def: "Schizosaccharomyces specific protein Tam12" []
+def: "Schizosaccharomyces specific microprotein Tam12" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:G2TRR3 ! has gene product
@@ -25230,6 +25259,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC119.16c
+name: den11
 def: "DENN domain-like containing protein\, implicated in vesicle formation/trafficking" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
@@ -25340,12 +25370,13 @@ synonym: "ppp58" EXACT []
 
 [Term]
 id: pombase:SPBC1198.09
-name: ubc16
-def: "ubiquitin conjugating enzyme E2 Ubc16" []
+name: pex4
+def: "peroxisome membrane ubiquitin conjugating enzyme E2 Ubc16 Pex4" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P6I1 ! has gene product
 property_value: chromosome "2" xsd:string
+synonym: "ubc16" EXACT []
 
 [Term]
 id: pombase:SPBC1198.10c
@@ -25406,7 +25437,7 @@ synonym: "SPBC660.04c" EXACT []
 [Term]
 id: pombase:SPBC11B10.01
 name: alg2
-def: "mannosyltransferase complex subunit Alg2" []
+def: "GDP-Man\:Man1GlcNAc2-PP-Dol alpha-1\,3-mannosyltransferase/ GDP-Man\:Man2GlcNAc2-PP-dolichol alpha-1\,6-mannosyltransferase" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q96WW6 ! has gene product
@@ -25417,7 +25448,7 @@ synonym: "SPBC32H8.14" EXACT []
 [Term]
 id: pombase:SPBC11B10.02c
 name: his3
-def: "histidinol-phosphate aminotransferase imidazole acetol phosphate transaminase His3" []
+def: "histidinol-phosphate transaminase His3" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P36605 ! has gene product
@@ -25565,7 +25596,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC11C11.06c
-def: "Schizosaccharomyces specific protein" []
+def: "mitochondrial outer membrane receptor for cytosolic ribosomes" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10195 ! has gene product
@@ -25733,7 +25764,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC1271.02
 name: stt3
-def: "oligosaccharyltransferase subunit Stt3" []
+def: "oligosaccharyltransferase complex\, dolichyl-diphosphooligosaccharide-protein glycotransferase catalytic subunit\, Stt3" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94335 ! has gene product
@@ -26277,9 +26308,6 @@ def: "mitochondrial thioredoxin Trx2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94504 ! has gene product
-relationship: RO:HOM0000017 hgnc:12435 ! in orthology relationship with
-relationship: RO:HOM0000017 hgnc:16470 ! in orthology relationship with
-relationship: RO:HOM0000017 hgnc:17772 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 
 [Term]
@@ -26307,14 +26335,15 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC1306.01c
-name: mef1
-def: "mitochondrial translation elongation factor G Mef1" []
+name: gfm2
+def: "mitochondrial GTP dependent ribosome recycling factor Gfm2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9USZ1 ! has gene product
 relationship: RO:HOM0000017 hgnc:13780 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 synonym: "SPBC409.22c" EXACT []
+synonym: "mef1" EXACT []
 
 [Term]
 id: pombase:SPBC1306.02
@@ -26342,11 +26371,13 @@ synonym: "SPBC215.16c" EXACT []
 [Term]
 id: pombase:SPBC1347.02
 name: ani1
-def: "nucleophismin-like histone chaperone/CENP-A amino terminus domain \(NTD\) isomerase Ani1/Fkbp39" []
+def: "nucleophosmin-like histone chaperone/CENP-A amino terminus domain \(NTD\) isomerase Ani1/Fkbp39" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74191 ! has gene product
-relationship: RO:HOM0000017 hgnc:3712 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:7910 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:7930 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:7931 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 synonym: "fkbp39" EXACT []
 
@@ -26586,7 +26617,7 @@ synonym: "SPBPB8B6.01c" EXACT []
 
 [Term]
 id: pombase:SPBC1348.15
-def: "Schizosaccharomyces pombe specific protein" []
+def: "Schizosaccharomyces pombe specific protein\, F-box" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P0CS84 ! has gene product
@@ -26795,7 +26826,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC13G1.05
-def: "ER protein folding protein" []
+def: "ER membrane protein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O60067 ! has gene product
@@ -27008,6 +27039,7 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9Y802 ! has gene product
 relationship: RO:HOM0000017 hgnc:21577 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:29079 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 synonym: "saf110" EXACT []
 synonym: "swm1" EXACT []
@@ -27220,7 +27252,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC14C8.17c
 name: spt8
-def: "SAGA complex subunit Spt8" []
+def: "SAGA complex WD repeat subunit Spt8" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O60097 ! has gene product
@@ -27231,11 +27263,11 @@ synonym: "sep9" EXACT []
 [Term]
 id: pombase:SPBC14C8.19
 name: tam10
-def: "nucleolar RNA binding protein\, human KNOP1 ortholog\, implicated in mRNA processing" []
+def: "nucleolar RNA binding protein\, human SMAP ortholog\, implicated in mRNA processing" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:G2TRQ9 ! has gene product
-relationship: RO:HOM0000017 hgnc:34404 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:16990 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 
 [Term]
@@ -27516,7 +27548,7 @@ synonym: "rep1" EXACT []
 
 [Term]
 id: pombase:SPBC15C4.04c
-def: "amino acid transmembrane transporter" []
+def: "amino acid/polyamine family transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O60113 ! has gene product
@@ -27534,7 +27566,8 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC15C4.06c
-def: "ubiquitin-protein ligase E3\, human RNF181 like\, unknown biological role" []
+name: rnf181
+def: "ubiquitin-protein ligase E3\, human RNF181 like" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q1MTR5 ! has gene product
@@ -27577,15 +27610,15 @@ synonym: "hip2" EXACT []
 
 [Term]
 id: pombase:SPBC15D4.04
-name: gpt2
-def: "UDP-N-acetylglucosamine--dolichyl-phosphate N-acetylglucosaminephosphotransferase" []
+name: alg7
+def: "UDP-N-acetylglucosamine--dolichyl-phosphate N-acetylglucosaminephosphotransferase\, Alg7" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P42881 ! has gene product
 relationship: RO:HOM0000017 hgnc:2995 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
-synonym: "alg7" EXACT []
 synonym: "gpt" EXACT []
+synonym: "gpt2" EXACT []
 
 [Term]
 id: pombase:SPBC15D4.05
@@ -27760,7 +27793,7 @@ synonym: "nok4" EXACT []
 [Term]
 id: pombase:SPBC1604.07
 name: atp4
-def: "F1-FO ATP synthase subunit" []
+def: "F1-FO ATP synthase peripheral stalk-membrane subunit\, Atp4" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94373 ! has gene product
@@ -27937,7 +27970,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC1652.02
-def: "APC amino acid transmembrane transporter" []
+def: "plasma membrane amino acid transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q92367 ! has gene product
@@ -27979,7 +28012,8 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC1683.02
-def: "adenine deaminase" []
+name: dea3
+def: "adenine deaminase Dea3" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P6J8 ! has gene product
@@ -27996,7 +28030,8 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC1683.04
-def: "glycosyl hydrolase family 3" []
+name: ghf3
+def: "glycosyl hydrolase family 3\, Ghf3" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P6J6 ! has gene product
@@ -28071,7 +28106,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC1683.12
-def: "carboxylic acid transmembrane transporter" []
+def: "plasma membrane carboxylic acid transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P6J0 ! has gene product
@@ -28161,8 +28196,8 @@ def: "poly\(A\) polymerase Cid11\, terminal uridylyl transferase" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74326 ! has gene product
-relationship: RO:HOM0000017 hgnc:25532 ! in orthology relationship with
-relationship: RO:HOM0000017 hgnc:26184 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:25817 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:28981 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 
 [Term]
@@ -28280,7 +28315,7 @@ synonym: "SPBC543.01c" EXACT []
 
 [Term]
 id: pombase:SPBC16A3.02c
-def: "mitochondrial CH-OH group oxidoreductase\, human RTN4IP1 ortholog\, implicated in mitochondrial organization or tethering" []
+def: "mitochondrial CH-OH group oxidoreductase\, human RTN4IP1 ortholog\, implicated in isoprenoid or sterol metabolism" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O42909 ! has gene product
@@ -28290,7 +28325,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC16A3.03c
 name: ppr7
-def: "mitochondrial PPR repeat protein Ppr7" []
+def: "mitochondrial PPR repeat protein Ppr7\, mitochondrial splicing apparatus component" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O42910 ! has gene product
@@ -28378,7 +28413,6 @@ def: "mitotic cohesin N-acetyltransferase/DNA polymerase eta Eso1 fusion protein
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O42917 ! has gene product
-relationship: RO:HOM0000017 hgnc:9181 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 
 [Term]
@@ -28442,7 +28476,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC16A3.17c
-def: "basic amino acid transmembrane transporter" []
+def: "plasma membrane basic amino acid transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O42922 ! has gene product
@@ -28451,7 +28485,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC16A3.18
 name: cip1
-def: "RNA-binding protein Cip1" []
+def: "splicing factor\, RNA-binding protein Cip1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O42923 ! has gene product
@@ -28546,7 +28580,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC16C6.08c
 name: qcr6
-def: "ubiquinol-cytochrome-c reductase complex subunit 8\, hinge protein" []
+def: "ubiquinol-cytochrome-c reductase complex subunit 8\, hinge protein Qcr6" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O42932 ! has gene product
@@ -29152,7 +29186,7 @@ synonym: "cwf27" EXACT []
 [Term]
 id: pombase:SPBC16H5.06
 name: rip1
-def: "Rieske iron-sulfur protein\, ubiquinol-cytochrome-c reductase complex subunit 5\, Rip1" []
+def: "ubiquinol-cytochrome-c reductase complex subunit 5\, Rieske iron-sulfur protein\, Rip1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q09154 ! has gene product
@@ -29182,7 +29216,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC16H5.09c
 name: omh2
-def: "Golgi alpha-1\,2-mannosyltransferase Omh2" []
+def: "alpha-1\,2-mannosyltransferase Omh2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O42944 ! has gene product
@@ -29423,6 +29457,7 @@ is_a: SO:0000336 ! pseudogene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "2" xsd:string
 synonym: "SPBC1706.02" EXACT []
+synonym: "wts2" EXACT []
 
 [Term]
 id: pombase:SPBC1706.03
@@ -29793,7 +29828,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC1711.15c
-def: "Schizosaccharomyces pombe specific protein" []
+def: "Schizosaccharomyces pombe specific microprotein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P776 ! has gene product
@@ -29828,6 +29863,7 @@ def: "mitochondrial ribosomal protein subunit L31" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:G2TRQ8 ! has gene product
+relationship: RO:HOM0000017 hgnc:16686 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 synonym: "mrpl36" EXACT []
 
@@ -30157,7 +30193,7 @@ synonym: "yrb1" EXACT []
 [Term]
 id: pombase:SPBC1773.08c
 name: omh4
-def: "Golgi alpha-1\,2-mannosyltransferase Omh4" []
+def: "alpha-1\,2-mannosyltransferase Omh4" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94565 ! has gene product
@@ -30512,7 +30548,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC17D1.05
 name: rhs1
-def: "Schizosaccharomyces specific protein" []
+def: "fungal protein\, conserved in ascomycetes" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10203 ! has gene product
@@ -30543,7 +30579,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC17D1.17
 name: tam11
-def: "Schizosaccharomyces specific protein Tam11" []
+def: "Schizosaccharomyces specific microprotein Tam11" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:G2TRQ6 ! has gene product
@@ -30904,8 +30940,6 @@ def: "X-Pro dipeptidase" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UUD8 ! has gene product
-relationship: RO:HOM0000017 hgnc:12822 ! in orthology relationship with
-relationship: RO:HOM0000017 hgnc:12823 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 synonym: "SPBC4F6.19c" EXACT []
 synonym: "ppp52" EXACT []
@@ -30922,7 +30956,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC18E5.01
-def: "unknown with similarity to bacterial carboxy-cis\,cis-muconate cyclase" []
+def: "WD40/YVTN repeat-like-containing domain superfamily\, bacterial carboxy-cis\,cis-muconate cyclase-like" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O59681 ! has gene product
@@ -31110,7 +31144,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC18H10.06c
 name: swd2
-def: "Set1C complex subunit Swd2.1" []
+def: "Set1C complex WD repeat subunit Swd2.1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O60137 ! has gene product
@@ -31688,7 +31722,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC19F8.03c
 name: yap18
-def: "ENTH/VHS domain protein" []
+def: "endocytic adaptor\, ENTH/VHS domain Yap18" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O60167 ! has gene product
@@ -31719,7 +31753,7 @@ synonym: "pet123" EXACT []
 [Term]
 id: pombase:SPBC19F8.06c
 name: meu22
-def: "amino acid transmembrane transporter Meu22" []
+def: "plasma membrane amino acid transmembrane transporter Meu22" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O60170 ! has gene product
@@ -31921,10 +31955,12 @@ synonym: "SPBC36B7.01" EXACT []
 
 [Term]
 id: pombase:SPBC19G7.18c
-def: "Schizosaccharomyces specific protein" []
+def: "OCIA domain-containing protein\, involved in endocytosis pathway" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q7Z995 ! has gene product
+relationship: RO:HOM0000017 hgnc:16074 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:28685 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 synonym: "SPBC19G7.11c" EXACT []
 
@@ -32083,7 +32119,7 @@ synonym: "mug80" EXACT []
 [Term]
 id: pombase:SPBC1D7.04
 name: mlo3
-def: "RNA binding protein Mlo3" []
+def: "RNA-binding protein Mlo3" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q09330 ! has gene product
@@ -32116,7 +32152,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC1E8.03c
-def: "ER membrane protein\, conserved in fungi plants and protozoa" []
+def: "ER membrane protein\, conserved in fungi plants and protozoa\, glycosyl transferase family" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O42968 ! has gene product
@@ -32138,6 +32174,7 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O42970 ! has gene product
 property_value: chromosome "2" xsd:string
+synonym: "gaz2" EXACT []
 
 [Term]
 id: pombase:SPBC20F10.01
@@ -32296,7 +32333,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC21.06c
 name: cdc7
-def: "serine/threonine protein kinase SIN pathway Cdc7" []
+def: "SIN signalling serine/threonine protein kinase Cdc7" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P41892 ! has gene product
@@ -32626,7 +32663,7 @@ synonym: "SPBC646.01c" EXACT []
 
 [Term]
 id: pombase:SPBC21B10.02
-def: "conserved fungal protein" []
+def: "conserved fungal protein\, possibly RNA binding\, low similarity to ribosomal protein L3" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9USW0 ! has gene product
@@ -32645,12 +32682,13 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC21B10.04c
-name: nrf1
-def: "vacuolar transporter chaperone \(VTC\) complex\, GTPase regulator subunit Nrf1" []
+name: vtc1
+def: "vacuolar transporter chaperone \(VTC\) complex\, GTPase regulator subunit Vtc1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UR17 ! has gene product
 property_value: chromosome "2" xsd:string
+synonym: "nrf1" EXACT []
 
 [Term]
 id: pombase:SPBC21B10.05c
@@ -32745,7 +32783,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC21B10.14
 name: kgd4
-def: "mitochondrial alpha-ketoglutarate dehydrogenase Ymr31/Kgd4" []
+def: "mitochondrial alpha-ketoglutarate dehydrogenase adaptor subunit Ymr31/Kgd4" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:G2TRP3 ! has gene product
@@ -32755,7 +32793,7 @@ synonym: "ymr31" EXACT []
 
 [Term]
 id: pombase:SPBC21B10.15
-def: "Schizosaccharomyces specific protein" []
+def: "Schizosaccharomyces specific microprotein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:G2TRP4 ! has gene product
@@ -32897,12 +32935,10 @@ synonym: "rps19-1" EXACT []
 
 [Term]
 id: pombase:SPBC21C3.14c
-def: "chromatin binding protein ortholog" []
+def: "cell surface glycoprotein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P7L0 ! has gene product
-relationship: RO:HOM0000017 hgnc:20444 ! in orthology relationship with
-relationship: RO:HOM0000017 hgnc:20445 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 
 [Term]
@@ -32993,7 +33029,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC21D10.08c
-def: "conserved fungal protein" []
+def: "Schizosaccharomyces specific protein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74348 ! has gene product
@@ -33103,7 +33139,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC23E6.01c
 name: cxr1
-def: "splicing factor Cxr1" []
+def: "splicing factor\, RNA-binding Cxr1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O60176 ! has gene product
@@ -33628,7 +33664,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC25D12.06
 name: mrh5
-def: "mitochondrial ATP-dependent RNA helicase Mrh5" []
+def: "mitochondrial translation ATP-dependent RNA helicase Mrh5" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74356 ! has gene product
@@ -34150,7 +34186,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC27B12.12c
-def: "CorA family magnesium ion transmembrane transporter" []
+def: "plasma membrane CorA family magnesium ion transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O13657 ! has gene product
@@ -34494,7 +34530,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC29A10.13
 name: atp7
-def: "F1-FO ATP synthase subunit D" []
+def: "F1-FO ATP synthase peripheral stalk subunit d" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94390 ! has gene product
@@ -34643,7 +34679,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC29A3.10c
 name: atp14
-def: "F1-FO ATP synthase subunit H" []
+def: "F1-FO ATP synthase subunit H /peripheral stalk subunit F6\, Atp14" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O59673 ! has gene product
@@ -34737,7 +34773,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC29A3.21
-def: "Schizosaccharomyces pombe specific protein" []
+def: "Schizosaccharomyces pombe specific protein\, GPI anchored" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9C0X0 ! has gene product
@@ -34876,7 +34912,7 @@ synonym: "bin3" EXACT []
 [Term]
 id: pombase:SPBC2A9.11c
 name: iss9
-def: "SAC3/GANP/THP3 family protein\, human LENG8 ortholog" []
+def: "SAC3/GANP/THP3 family protein\, human LENG8 ortholog\, implicated in transcription or RNA surveillance" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q1MTP1 ! has gene product
@@ -34905,7 +34941,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC2A9.14
-def: "Schizosaccharomyces specific protein" []
+def: "Schizosaccharomyces specific microprotein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:G2TRR6 ! has gene product
@@ -35010,7 +35046,7 @@ synonym: "nap12" EXACT []
 [Term]
 id: pombase:SPBC2D10.12
 name: rhp23
-def: "Rad23 homolog Rhp23" []
+def: "proteasome-associated ubiquitin receptor\, S. cerevisiae Rad23 homolog\, Rhp23" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74803 ! has gene product
@@ -35027,6 +35063,7 @@ relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74804 ! has gene product
 relationship: RO:HOM0000017 hgnc:16792 ! in orthology relationship with
 relationship: RO:HOM0000017 hgnc:17809 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:24644 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 
 [Term]
@@ -35113,14 +35150,13 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC2F12.03c
-name: ebs1
-def: "EST1 family protein" []
+name: esl1
+def: "EST1 family protein\, implicated in NMD" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14338 ! has gene product
-relationship: RO:HOM0000017 hgnc:16792 ! in orthology relationship with
-relationship: RO:HOM0000017 hgnc:24644 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
+synonym: "ebs1" EXACT []
 
 [Term]
 id: pombase:SPBC2F12.04
@@ -35167,7 +35203,6 @@ def: "mRNA guanylyltransferase Ceg1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P40997 ! has gene product
-relationship: RO:HOM0000017 hgnc:10073 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 synonym: "pce1" EXACT []
 
@@ -35286,7 +35321,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC2G2.03c
 name: sbh1
-def: "translocon beta subunit Sbh1" []
+def: "translocon beta subunit\, GEF Sbh1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O43002 ! has gene product
@@ -35696,7 +35731,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC30D10.11
 name: gpi1
-def: "pig-Q" []
+def: "phosphatidylinositol N-acetylglucosaminyltransferase subunit pig-Q\, Gpi1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O14357 ! has gene product
@@ -35920,7 +35955,7 @@ synonym: "med17" EXACT []
 [Term]
 id: pombase:SPBC31F10.05
 name: mug37
-def: "conserved fungal protein" []
+def: "conserved fungal protein\, OB fold\, predicted role in DNA metabolism" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P87307 ! has gene product
@@ -36302,7 +36337,7 @@ synonym: "gpb1" EXACT []
 [Term]
 id: pombase:SPBC32H8.08c
 name: omh5
-def: "Golgi alpha-1\,2-mannosyltransferase Omh5" []
+def: "alpha-1\,2-mannosyltransferase Omh5" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q96WW1 ! has gene product
@@ -36615,7 +36650,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC337.09
 name: erg28
-def: "Erg28 protein" []
+def: "ER membrane adaptor Erg28 protein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74820 ! has gene product
@@ -36634,11 +36669,10 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC337.11
-def: "mitochondrial membrane CH-OH group oxidoreductase\, human RTN4IP1 ortholog\, implicated in mitochondrial organization or tethering" []
+def: "CH-OH group oxidoreductase" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74822 ! has gene product
-relationship: RO:HOM0000017 hgnc:18647 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 
 [Term]
@@ -36675,7 +36709,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC337.15c
 name: coq7
-def: "ubiquinone biosynthesis protein Coq7" []
+def: "3-demethoxyubiquinol 3-hydroxylase Coq7" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74826 ! has gene product
@@ -36695,7 +36729,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC342.01c
 name: alg6
-def: "glucosyltransferase Alg6" []
+def: "dolichyl pyrophosphate Man9GlcNAc2 alpha-1\,3-glucosyltransferase Alg6" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O43053 ! has gene product
@@ -36780,7 +36814,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC354.03
 name: swd3
-def: "Set1C complex WD repeat protein Swd3" []
+def: "Set1C complex WD repeat subunit Swd3" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O43017 ! has gene product
@@ -36864,6 +36898,7 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O43024 ! has gene product
 relationship: RO:HOM0000017 hgnc:14185 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:29877 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 
 [Term]
@@ -36908,7 +36943,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC359.01
-def: "amino acid transmembrane transporter" []
+def: "plasma membrane amino acid transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P5N4 ! has gene product
@@ -37079,7 +37114,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC36.11
-def: "Schizosaccharomyces specific protein" []
+def: "Schizosaccharomyces specific protein\, predicted plasma membrane receptor" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O59708 ! has gene product
@@ -37185,7 +37220,7 @@ synonym: "dfm1" EXACT []
 [Term]
 id: pombase:SPBC365.09c
 name: kin17
-def: "human KIN ortholog" []
+def: "human KIN ortholog\, implicated in DNA metabolism and RNA processing" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9Y7X9 ! has gene product
@@ -37282,7 +37317,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC36B7.03
 name: sec63
-def: "ER protein translocation subcomplex subunit Sec63" []
+def: "ER protein translocation subcomplex DNAJ domain subunit Sec63" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9HGN7 ! has gene product
@@ -37384,7 +37419,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC3B8.04c
 name: plt1
-def: "phosphate \(Pi\) transmembrane transporter Plt1" []
+def: "plasma membrane phosphate \(Pi\) transmembrane transporter Plt1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O59712 ! has gene product
@@ -38068,7 +38103,7 @@ synonym: "stl1" EXACT []
 [Term]
 id: pombase:SPBC3H7.02
 name: sul1
-def: "sulfate transmembrane transporter Sul1" []
+def: "plasma membrane sulfate transmembrane transporter Sul1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74377 ! has gene product
@@ -38086,7 +38121,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC3H7.03c
 name: kgd1
-def: "2-oxoglutarate dehydrogenase \(lipoamide\) \(e1 component of oxoglutarate dehydrogenase complex\)" []
+def: "mitochondrial 2-oxoglutarate dehydrogenase \(lipoamide\) \(e1 component of oxoglutarate dehydrogenase complex\)\, Kgd1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74378 ! has gene product
@@ -38131,7 +38166,8 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC3H7.08c
-def: "mitochondrial protein\, implicated in respiratory complex assembly" []
+name: mra2
+def: "mitochondrial respiratory complex/ ATP synthase assembly protein Mra2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74383 ! has gene product
@@ -38303,14 +38339,13 @@ def: "phosphoribosylamine-glycine ligase/phosphoribosylformylglycinamidine cyclo
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P20772 ! has gene product
-relationship: RO:HOM0000017 hgnc:4163 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 synonym: "SPBC4C3.02c" EXACT []
 synonym: "min4" EXACT []
 
 [Term]
 id: pombase:SPBC405.02c
-def: "Schizosaccharomyces specific protein" []
+def: "Schizosaccharomyces specific protein\, GPI anchored" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UUM6 ! has gene product
@@ -38457,7 +38492,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC409.11
 name: meu18
-def: "Schizosaccharomyces specific protein Meu18" []
+def: "Schizosaccharomyces specific protein Meu18\, C2 domain" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UUB3 ! has gene product
@@ -38691,11 +38726,13 @@ synonym: "cys2" EXACT []
 
 [Term]
 id: pombase:SPBC428.12c
-def: "peptidyl-prolyl cis-trans isomerase E" []
+def: "splicing factor\, RNA-binding" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94359 ! has gene product
-relationship: RO:HOM0000017 hgnc:9258 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:10789 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:27989 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:31852 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 
 [Term]
@@ -38743,7 +38780,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC428.17c
 name: wpl1
-def: "cohesin loading/unloading factor \(WAPL\) Wpl1" []
+def: "cohesin unloading factor \(WAPL\) Wpl1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94364 ! has gene product
@@ -38783,7 +38820,7 @@ synonym: "SPBC902.01c" EXACT []
 
 [Term]
 id: pombase:SPBC460.01c
-def: "amino acid transmembrane transporter" []
+def: "plasma membrane amino acid transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:B5BP45 ! has gene product
@@ -38993,7 +39030,7 @@ synonym: "rpa190" EXACT []
 [Term]
 id: pombase:SPBC4C3.06
 name: syp1
-def: "F-BAR domain protein Syp1" []
+def: "endocytic adaptor\, F-BAR domain protein Syp1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O43059 ! has gene product
@@ -39337,7 +39374,6 @@ def: "palmitoyl protein thioesterase/ dolichol pyrophosphate phosphatase fusion 
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O59747 ! has gene product
-relationship: RO:HOM0000017 hgnc:9325 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 
 [Term]
@@ -39772,7 +39808,8 @@ def: "inositol-polyphosphate 5-phosphatase\, synaptojanin homolog 2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9USQ6 ! has gene product
-relationship: RO:HOM0000017 hgnc:8108 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:11503 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:11504 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 
 [Term]
@@ -40135,7 +40172,7 @@ synonym: "rad14" EXACT []
 [Term]
 id: pombase:SPBC649.04
 name: uvi15
-def: "tail anchored plasma membrane protein Uvi15" []
+def: "plasma membrane protein\, palmitoylated\, Uvi15" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P40388 ! has gene product
@@ -40185,7 +40222,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC651.04
-def: "Schizosaccharomyces specific protein" []
+def: "Schizosaccharomyces specific protein\, C2 domain" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94662 ! has gene product
@@ -40378,7 +40415,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC660.15
 name: msi2
-def: "mRNA cleavage factor complex subunit Msi2" []
+def: "mRNA cleavage factor complex RNA-binding subunit Msi2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94432 ! has gene product
@@ -40417,7 +40454,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC685.03
-def: "Schizosaccharomyces specific protein" []
+def: "methyltransferase\, sterol related" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9Y7L5 ! has gene product
@@ -40500,7 +40537,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC691.02c
 name: drp1
-def: "RINT1 family protein" []
+def: "Dsl1/NZR complex secretory pathway protein RINT1 family" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9C0W8 ! has gene product
@@ -41092,7 +41129,7 @@ synonym: "lro1" EXACT []
 [Term]
 id: pombase:SPBC776.15c
 name: kgd2
-def: "dihydrolipoamide S-succinyltransferase\, e2 component of oxoglutarate dehydrogenase complex Kgd2" []
+def: "mitochondrial dihydrolipoamide S-succinyltransferase\, \(e2 component of oxoglutarate dehydrogenase complex\) Kgd2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94681 ! has gene product
@@ -41394,7 +41431,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC83.12
-def: "Schizosaccharomyces pombe specific protein" []
+def: "Schizosaccharomyces pombe specific protein\, ubiquitin conjugatiing enzyme-like" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94696 ! has gene product
@@ -41635,6 +41672,7 @@ def: "FKBP-type peptidyl-prolyl cis-trans isomerase Fkh1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O42993 ! has gene product
+relationship: RO:HOM0000017 hgnc:21376 ! in orthology relationship with
 relationship: RO:HOM0000017 hgnc:3711 ! in orthology relationship with
 relationship: RO:HOM0000017 hgnc:3712 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
@@ -41670,7 +41708,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC887.02
-def: "ClC chloride channel" []
+def: "plasma membrane ClC chloride channel" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94287 ! has gene product
@@ -42031,7 +42069,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC8D2.16c
-def: "SPOUT domain containing methyltransferase" []
+def: "SPOUT domain containing methyltransferase\, poorly characterised\, conflicting annotations between species\, implicated in ribosome or centrosome associated processes and gene expression" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O13641 ! has gene product
@@ -42101,7 +42139,8 @@ synonym: "SPBP4G3.01" EXACT []
 
 [Term]
 id: pombase:SPBC8E4.03
-def: "agmatinase 2" []
+name: agm3
+def: "agmatinase 3\, Agm3" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O42887 ! has gene product
@@ -42110,7 +42149,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBC8E4.04
-def: "alditol NADP+ 1-oxidoreductase activity" []
+def: "aldose reductase \(NADPH\)" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O42888 ! has gene product
@@ -42191,7 +42230,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBC947.01
 name: knk1
-def: "AAA family ATPase kink\, Knk1" []
+def: "microtubule severing ATPase kink\, Knk1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O43078 ! has gene product
@@ -42441,7 +42480,7 @@ def: "CCR4/nocturin family endoribonuclease" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9Y7M8 ! has gene product
-relationship: RO:HOM0000017 hgnc:25386 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:14254 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 
 [Term]
@@ -42557,7 +42596,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBP16F5.06
 name: nop8
-def: "ribosome biogenesis protein Nop8" []
+def: "ribosome biogenesis RNA-binding protein Nop8" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9HFE6 ! has gene product
@@ -42704,7 +42743,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBP22H7.05c
 name: abo2
-def: "ATPase histone chaperone" []
+def: "histone H3-H4 chaperone \(ATP-dependent\) Abo2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9C0W2 ! has gene product
@@ -42859,7 +42898,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBP23A10.12
 name: frg1
-def: "FRG1 family protein\, involved in mRNA splicing" []
+def: "mRNA splicing factor\, FRG1 family\, Frg1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P7X3 ! has gene product
@@ -43157,7 +43196,7 @@ synonym: "smc2" EXACT []
 
 [Term]
 id: pombase:SPBP4H10.07
-def: "ubiquitin-protein ligase E3\, unknown specificity" []
+def: "ubiquitin-protein ligase E3\, unknown specificity\, implicated in vesicle fusion\, possibly multiple pathways" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P7E1 ! has gene product
@@ -43171,6 +43210,7 @@ def: "ubiquinol-cytochrome-c reductase complex\, Reiske ISP-associated subunit Q
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P7E0 ! has gene product
+relationship: RO:HOM0000017 hgnc:30862 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 
 [Term]
@@ -43225,7 +43265,7 @@ synonym: "rps23-2" EXACT []
 
 [Term]
 id: pombase:SPBP4H10.14c
-def: "Schizosaccharomyces specific protein" []
+def: "Schizosaccharomyces specific protein\, possibly isoprenylated" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P7D5 ! has gene product
@@ -43332,7 +43372,7 @@ synonym: "rpl4-2" EXACT []
 [Term]
 id: pombase:SPBP8B7.04
 name: mug45
-def: "Schizosaccharomyces specific protein Mug45" []
+def: "Schizosaccharomyces specific protein\, probable surface anchored protein with carbohydrate binding domains Mug45" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94254 ! has gene product
@@ -43621,7 +43661,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBPB10D8.01
-def: "cysteine transmembrane transporter" []
+def: "plasma membrane cysteine transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9C0V8 ! has gene product
@@ -43655,7 +43695,8 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBPB10D8.04c
-def: "transmembrane transporter" []
+name: ssu1
+def: "plasma membrane sulfite transmembrane transporter Ssu1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P0CT94 ! has gene product
@@ -43663,7 +43704,8 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBPB10D8.05c
-def: "transmembrane transporter" []
+name: ssu2
+def: "plasma membrane sulphite transmembrane transporter Ssu2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P0CT95 ! has gene product
@@ -43671,7 +43713,8 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBPB10D8.06c
-def: "transmembrane transporter" []
+name: ssu3
+def: "plasma membrane sulphite transmembrane transporter Ssu3" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P0CT96 ! has gene product
@@ -43679,7 +43722,8 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBPB10D8.07c
-def: "transmembrane transporter" []
+name: ssu4
+def: "plasma membrane sulphite transmembrane transporter Ssu4" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P0CT97 ! has gene product
@@ -43782,7 +43826,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBPB2B2.01
 name: nrg1
-def: "amino acid transmembrane transporter Nrg1" []
+def: "plasma membrane amino acid transmembrane transporter Nrg1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9HDV2 ! has gene product
@@ -43921,7 +43965,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBPB2B2.18
-def: "conserved fungal protein" []
+def: "conserved fungal protein\, UPF0768 family" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9HDT9 ! has gene product
@@ -43937,7 +43981,7 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBPB7E8.01
-def: "Schizosaccharomyces specific protein\, predicted GPI anchor" []
+def: "Schizosaccharomyces specific protein\, predicted GPI anchor\, possible peptidase" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9C0V5 ! has gene product
@@ -44000,13 +44044,14 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPBPJ4664.01
 name: dps1
-def: "decaprenyl diphosphate synthase subunit Dps1" []
+def: "decaprenyl diphosphate synthase subunit Dps1/Coq1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O43091 ! has gene product
 relationship: RO:HOM0000017 hgnc:17759 ! in orthology relationship with
 property_value: chromosome "2" xsd:string
 synonym: "SPBPJ694.01" EXACT []
+synonym: "coq1" EXACT []
 
 [Term]
 id: pombase:SPBPJ4664.02
@@ -44037,7 +44082,8 @@ property_value: chromosome "2" xsd:string
 
 [Term]
 id: pombase:SPBPJ4664.05
-def: "endomembrane system protein\, FAR-17a/AIG1-like family protein\, human AIG1 and ADTRP ortholog" []
+name: aig1
+def: "endomembrane system protein\, FAR-17a/AIG1-like family protein\, Aig1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q96WV4 ! has gene product
@@ -44536,7 +44582,7 @@ property_value: chromosome "2" xsd:string
 [Term]
 id: pombase:SPCC1020.01c
 name: pma2
-def: "P-type proton ATPase\, P3-type Pma2" []
+def: "plasma membrane P-type proton ATPase\, P3-type Pma2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P28876 ! has gene product
@@ -44615,7 +44661,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC1020.09
 name: gnr1
-def: "human WRAP53 orthlog Gnr1" []
+def: "Telomerase Cajal body protein WRAP53 orthlog\, Gnr1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O59762 ! has gene product
@@ -44799,6 +44845,7 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74838 ! has gene product
 property_value: chromosome "3" xsd:string
+synonym: "wts10" EXACT []
 
 [Term]
 id: pombase:SPCC1183.11
@@ -44896,7 +44943,7 @@ synonym: "tif221" EXACT []
 [Term]
 id: pombase:SPCC11E10.08
 name: rik1
-def: "CLRC ubiquitin ligase complex WD repeat protein Rik1" []
+def: "CLRC ubiquitin ligase complex WD repeat subunit Rik1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q10426 ! has gene product
@@ -44913,14 +44960,15 @@ synonym: "SPCC188.01c" EXACT []
 
 [Term]
 id: pombase:SPCC1223.01
-name: hel2
-def: "ubiquitin-protein ligase E3 involved in rescue of stalled ribosomes Hel2" []
+name: rqt1
+def: "RQT complex subunit ubiquitin-protein ligase E3 subunit Rqt1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q76PD2 ! has gene product
 relationship: RO:HOM0000017 hgnc:28079 ! in orthology relationship with
 property_value: chromosome "3" xsd:string
 synonym: "SPCC285.18" EXACT []
+synonym: "hel2" EXACT []
 
 [Term]
 id: pombase:SPCC1223.02
@@ -45030,7 +45078,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC1223.12c
 name: meu10
-def: "cell surface protein involved in ascospore wall assembly\, GPI anchored Meu10" []
+def: "sporulation wall assembly GPI anchored protein\, Meu10" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74411 ! has gene product
@@ -45068,7 +45116,7 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC1235.01
-def: "Schizosaccharomyces specific protein" []
+def: "cell surface glycoprotein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O59779 ! has gene product
@@ -45150,7 +45198,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC1235.09
 name: hif2
-def: "Set3 complex subunit Hif2" []
+def: "Set3 complex WD repeat subunit Hif2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74845 ! has gene product
@@ -45291,6 +45339,7 @@ def: "Ino80 complex subunit Iec3" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94704 ! has gene product
+relationship: RO:HOM0000017 hgnc:26905 ! in orthology relationship with
 property_value: chromosome "3" xsd:string
 
 [Term]
@@ -45300,6 +45349,7 @@ def: "cytochrome c oxidase subunit VIIa" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94705 ! has gene product
+relationship: RO:HOM0000017 hgnc:2285 ! in orthology relationship with
 property_value: chromosome "3" xsd:string
 
 [Term]
@@ -45398,7 +45448,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC1259.15c
 name: ubc11
-def: "ubiquitin conjugating enzyme E2\, Ubc11/UbcP4" []
+def: "ubiquitin conjugating enzyme E2\, for APC Ubc11/UbcP4" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O00103 ! has gene product
@@ -45409,7 +45459,7 @@ synonym: "ubcdp" EXACT []
 
 [Term]
 id: pombase:SPCC1259.16
-def: "Schizosaccharomyces specific protein" []
+def: "Schizosaccharomyces specific microprotein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:G2TRU4 ! has gene product
@@ -45654,6 +45704,7 @@ relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q96WS1 ! has gene product
 property_value: chromosome "3" xsd:string
 synonym: "meu24" EXACT []
+synonym: "wts1112a" EXACT []
 
 [Term]
 id: pombase:SPCC132.01c
@@ -45768,7 +45819,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC1322.07c
 name: mug150
-def: "Schizosaccharomyces pombe specific protein Mug150" []
+def: "Schizosaccharomyces pombe specific protein\, GPI anchored\, Mug150" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94546 ! has gene product
@@ -45786,7 +45837,7 @@ synonym: "mkp1" EXACT []
 
 [Term]
 id: pombase:SPCC1322.09
-def: "Golgi protein\, associated with COP vesicles \(predicted\)\, DUF5427" []
+def: "Golgi protein\, associated with COP vesicles\, DUF5427" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94548 ! has gene product
@@ -45838,7 +45889,7 @@ synonym: "min1" EXACT []
 [Term]
 id: pombase:SPCC1322.14c
 name: vtc4
-def: "vacuolar transporter chaperone \(VTC\) complex subunit Vtc4" []
+def: "vacuolar transporter chaperone \(VTC\) complex polyphosphate synthase subunit Vtc4" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P78810 ! has gene product
@@ -45918,7 +45969,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC1393.07c
 name: mug4
-def: "Schizosaccharomyces specific protein\, DNAJ domain" []
+def: "Schizosaccharomyces specific protein\, possible cell surface protein Mug4" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94719 ! has gene product
@@ -45961,6 +46012,7 @@ def: "mitochondrial ribosomal protein subunit L58" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94723 ! has gene product
+relationship: RO:HOM0000017 hgnc:18077 ! in orthology relationship with
 property_value: chromosome "3" xsd:string
 
 [Term]
@@ -46016,7 +46068,7 @@ def: "hydroxyacylglutathione hydrolase" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94250 ! has gene product
-relationship: RO:HOM0000017 hgnc:9153 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:4805 ! in orthology relationship with
 property_value: chromosome "3" xsd:string
 
 [Term]
@@ -46072,7 +46124,7 @@ synonym: "SPCC1450.19" EXACT []
 [Term]
 id: pombase:SPCC1442.04c
 name: rmr1
-def: "conserved fungal protein\, DUF2420 family\, implicated in meiotic recombination\, Rmr1" []
+def: "conserved fungal protein with ubiquitin-like domain\, DUF2420 family\, implicated in meiotic recombination\, Rmr1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94577 ! has gene product
@@ -46274,6 +46326,7 @@ def: "mediator complex subunit Med19" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9Y7N2 ! has gene product
+relationship: RO:HOM0000017 hgnc:29600 ! in orthology relationship with
 property_value: chromosome "3" xsd:string
 synonym: "med19" EXACT []
 
@@ -46305,6 +46358,7 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9Y7N5 ! has gene product
 property_value: chromosome "3" xsd:string
+synonym: "wts16" EXACT []
 
 [Term]
 id: pombase:SPCC1450.09c
@@ -46345,7 +46399,7 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC1450.12
-def: "mitochondrial DUF3818 and PXA domain conserved fungal protein" []
+def: "mitochondrial DUF3818 and PXA domain conserved fungal protein\, potential lipid transport protein implicated in membrane organization\, ergosterol distribution" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9Y7N9 ! has gene product
@@ -46392,7 +46446,7 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC1494.01
-def: "iron/ascorbate oxidoreductase family" []
+def: "2-OG-Fe\(II\) oxygenase superfamily protein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q7LL04 ! has gene product
@@ -46550,7 +46604,7 @@ synonym: "SPCC794.14" EXACT []
 [Term]
 id: pombase:SPCC162.01c
 name: snp27
-def: "U4/U6 x U5 tri-snRNP complex subunit" []
+def: "U4/U6 x U5 tri-snRNP complex subunit Snp27" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74418 ! has gene product
@@ -46559,7 +46613,7 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC162.02c
-def: "AMP-binding dehydrogenase" []
+def: "AMP-dependent synthetase/ligase domain/Fatty acyl-coenzyme A reductase-like\, NAD-binding domain\, implicated in fatty acid metabolism\, or amino acid metabolism" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74419 ! has gene product
@@ -46581,11 +46635,12 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74420 ! has gene product
 property_value: chromosome "3" xsd:string
+synonym: "wts13" EXACT []
 
 [Term]
 id: pombase:SPCC162.05
 name: coq3
-def: "hexaprenyldihydroxybenzoate methyltransferase Coq3" []
+def: "decaprenyldihydroxybenzoate methyltransferase Coq3" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74421 ! has gene product
@@ -46686,6 +46741,7 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94409 ! has gene product
 property_value: chromosome "3" xsd:string
+synonym: "wts23" EXACT []
 
 [Term]
 id: pombase:SPCC1620.03
@@ -46907,7 +46963,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC1672.10
 name: mis16
-def: "histone H4 chaperone\, CENP-A recruiting complex CENP-A chaperone Mis16" []
+def: "histone H4 chaperone\, CENP-A recruiting complex CENP-A chaperone\, WD repeat subunit Mis16" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94244 ! has gene product
@@ -46959,7 +47015,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC1682.03c
 name: mug174
-def: "human coilin ortholog Mug174" []
+def: "coilin\, Mug174" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74434 ! has gene product
@@ -47083,7 +47139,7 @@ synonym: "rpl19-2" EXACT []
 [Term]
 id: pombase:SPCC1682.15
 name: mug122
-def: "PX/PXA domain protein" []
+def: "PX/PXA domain protein\, implicated in membrane organization or lipid metabolism" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74444 ! has gene product
@@ -47318,10 +47374,12 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC16C4.04
-def: "Schizosaccharomyces specific protein" []
+name: pex26
+def: "peroxisomal membrane protein anchor Pex26" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74449 ! has gene product
+relationship: RO:HOM0000017 hgnc:22965 ! in orthology relationship with
 property_value: chromosome "3" xsd:string
 
 [Term]
@@ -47490,6 +47548,7 @@ def: "Ino80 complex HMG box protein Hap2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P7Z9 ! has gene product
+relationship: RO:HOM0000017 hgnc:13630 ! in orthology relationship with
 property_value: chromosome "3" xsd:string
 
 [Term]
@@ -47665,6 +47724,7 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74474 ! has gene product
 property_value: chromosome "3" xsd:string
+synonym: "wts21" EXACT []
 
 [Term]
 id: pombase:SPCC1742.01
@@ -47726,7 +47786,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC1753.05
 name: rsm1
-def: "zinc finger C3HC-type containing RNA export factor Rsm1" []
+def: "pre-mRNA leakage protein Rsm1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94506 ! has gene product
@@ -47852,7 +47912,7 @@ synonym: "slh3" EXACT []
 
 [Term]
 id: pombase:SPCC1795.12c
-def: "Schizosaccharomyces specific protein" []
+def: "Schizosaccharomyces specific protein\, GPI anchored" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O59776 ! has gene product
@@ -48031,7 +48091,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC18.18c
 name: fum1
-def: "fumarate hydratase" []
+def: "fumarate hydratase Fum1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94552 ! has gene product
@@ -48042,7 +48102,7 @@ synonym: "SPCC290.01c" EXACT []
 [Term]
 id: pombase:SPCC18.19c
 name: ost5
-def: "oligosaccharyltransferase complex zeta subunit Ost5" []
+def: "oligosaccharyltransferase complex zeta subunit\, Ost5" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:G2TRU0 ! has gene product
@@ -48120,13 +48180,14 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC1827.07c
 name: spx2
-def: "SPX/EXS domain protein Spx2" []
+def: "plasma membrane phosphate exporter Spx2/Xpr1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UU86 ! has gene product
 relationship: RO:HOM0000017 hgnc:12827 ! in orthology relationship with
 property_value: chromosome "3" xsd:string
 synonym: "SPCP1E11.01c" EXACT []
+synonym: "xpr1" EXACT []
 
 [Term]
 id: pombase:SPCC1827.08c
@@ -48198,7 +48259,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC1840.06
 name: atp5
-def: "F1-FO ATP synthase delta subunit" []
+def: "F1-FO ATP synthase peripheral stalk subunit OSCP Atp5" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74479 ! has gene product
@@ -48576,6 +48637,7 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74486 ! has gene product
 property_value: chromosome "3" xsd:string
+synonym: "wts1920a" EXACT []
 
 [Term]
 id: pombase:SPCC1906.04
@@ -48585,6 +48647,7 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74487 ! has gene product
 property_value: chromosome "3" xsd:string
+synonym: "wts1920b" EXACT []
 
 [Term]
 id: pombase:SPCC191.01
@@ -48702,7 +48765,7 @@ synonym: "ppk34" EXACT []
 [Term]
 id: pombase:SPCC1919.02
 name: pbn1
-def: "pig-X\, glycosylphosphatidylinositol-mannosyltransferase I complex subunit" []
+def: "pig-X\, glycosylphosphatidylinositol-mannosyltransferase I complex subunit pig-X" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94472 ! has gene product
@@ -48746,6 +48809,7 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:U3H0P2 ! has gene product
 property_value: chromosome "3" xsd:string
+synonym: "wts25" EXACT []
 
 [Term]
 id: pombase:SPCC1919.07
@@ -48856,7 +48920,8 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC23B6.02c
-def: "ribosome large subunit export factor" []
+name: ecm1
+def: "ribosome large subunit export factor\, Alb1 family\, Ecm1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UUA0 ! has gene product
@@ -49141,6 +49206,7 @@ def: "wtf element Wtf17 \(no initiator methionine\)" []
 is_a: SO:0000336 ! pseudogene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "3" xsd:string
+synonym: "wts1817b" EXACT []
 
 [Term]
 id: pombase:SPCC285.07c
@@ -49150,6 +49216,7 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74495 ! has gene product
 property_value: chromosome "3" xsd:string
+synonym: "wts1817a" EXACT []
 
 [Term]
 id: pombase:SPCC285.08
@@ -49292,7 +49359,6 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P50526 ! has gene product
 relationship: RO:HOM0000017 hgnc:1469 ! in orthology relationship with
-relationship: RO:HOM0000017 hgnc:1470 ! in orthology relationship with
 property_value: chromosome "3" xsd:string
 
 [Term]
@@ -49346,7 +49412,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC2H8.05c
 name: dbl1
-def: "double strand break localizing Dbl1\, implicated in DNA repair" []
+def: "double strand break localizing protein Dbl1\, implicated in DNA repair" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9Y7S8 ! has gene product
@@ -49376,7 +49442,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC306.04c
 name: set1
-def: "histone H3-K4 methyltransferase Set1" []
+def: "histone H3-K4 methyltransferase\, Set1C/COMPASS complex\, Set1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9Y7R4 ! has gene product
@@ -49444,10 +49510,11 @@ def: "wtf element Wtf8 \(frameshifted\)" []
 is_a: SO:0000336 ! pseudogene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "3" xsd:string
+synonym: "wts8" EXACT []
 
 [Term]
 id: pombase:SPCC306.11
-def: "Schizosaccharomyces specific protein" []
+def: "cell surface membrane anchored protein\, probably carbohydrate binding domain" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9Y7R9 ! has gene product
@@ -49535,7 +49602,8 @@ synonym: "not6" EXACT []
 
 [Term]
 id: pombase:SPCC320.03
-def: "DNA-binding transcription factor" []
+name: rgt1
+def: "DNA-binding transcription factor Rgt1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O59780 ! has gene product
@@ -49971,7 +50039,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC338.15
 name: wbp1
-def: "dolichyl-di-phosphooligosaccharide-protein glycotransferase subunit Wbp1" []
+def: "oligosaccharyltransferase complex beta subunit\, Wbp1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O59866 ! has gene product
@@ -50114,7 +50182,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC417.06c
 name: mug27
-def: "meiosis specific serine/threonine protein kinase \(NDR family\) Mug27/Slk1" []
+def: "meiosis specific Sid2-related serine/threonine protein kinase \(NDR family\) Mug27/Slk1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94487 ! has gene product
@@ -50144,13 +50212,12 @@ def: "translation elongation factor eEF3" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94489 ! has gene product
-relationship: RO:HOM0000017 hgnc:71 ! in orthology relationship with
-relationship: RO:HOM0000017 hgnc:72 ! in orthology relationship with
 property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC417.09c
-def: "DNA-binding transcription factor" []
+name: sdr1
+def: "DNA-binding transcription factor\, sulfur depletion response\, Sdr1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94490 ! has gene product
@@ -50398,7 +50465,7 @@ synonym: "cab2" EXACT []
 [Term]
 id: pombase:SPCC4B3.20
 name: cmc2
-def: "copper-binding protein of the mitochondrial inner membrane Cmc2" []
+def: "cytochrome c oxidase assembly protein\, copper-binding\, Cmc2" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:G2TRU5 ! has gene product
@@ -50618,7 +50685,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC4G3.16
 name: rib2
-def: "CMP deaminase family/ methyltransferase bifunctional enzyme involved in riboflavin biosynthesis and tRNA pseudouridine biosynthesis Rib2" []
+def: "tandem fusion lysine methyltransferase/ citidine deaminase involved in riboflavin biosynthesis" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P87241 ! has gene product
@@ -50656,7 +50723,7 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC4G3.20
-def: "Schizosaccharomyces pombe specific protein" []
+def: "Schizosaccharomyces pombe specific microprotein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "3" xsd:string
@@ -50670,6 +50737,7 @@ relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "3" xsd:string
 synonym: "SPCC548.02" EXACT []
 synonym: "meu9" EXACT []
+synonym: "wts0403b" EXACT []
 
 [Term]
 id: pombase:SPCC548.03c
@@ -50680,6 +50748,7 @@ relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P3V0 ! has gene product
 property_value: chromosome "3" xsd:string
 synonym: "SPCC548.03" EXACT []
+synonym: "wts0403a" EXACT []
 
 [Term]
 id: pombase:SPCC548.04
@@ -50920,11 +50989,12 @@ is_a: SO:0000336 ! pseudogene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "3" xsd:string
 synonym: "SPCC553.05" EXACT []
+synonym: "wts6" EXACT []
 
 [Term]
 id: pombase:SPCC553.06
 name: swp1
-def: "oligosaccharyltransferase delta subunit Swp1" []
+def: "oligosaccharyltransferase compex delta subunit\, Swp1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74943 ! has gene product
@@ -51039,7 +51109,7 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC569.06
-def: "Schizosaccharomyces specific multicopy membrane protein family 1" []
+def: "7 transmembrane receptor family protein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9Y7S5 ! has gene product
@@ -51061,7 +51131,6 @@ def: "phosphoribosylglycinamide formyltransferase" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UUK7 ! has gene product
-relationship: RO:HOM0000017 hgnc:4163 ! in orthology relationship with
 property_value: chromosome "3" xsd:string
 synonym: "SPCC24E4.01" EXACT []
 
@@ -51099,6 +51168,7 @@ def: "thioredoxin peroxidase Tpx1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74887 ! has gene product
+relationship: RO:HOM0000017 hgnc:9352 ! in orthology relationship with
 relationship: RO:HOM0000017 hgnc:9353 ! in orthology relationship with
 property_value: chromosome "3" xsd:string
 
@@ -51230,6 +51300,7 @@ def: "wtf element Wtf22 \(frameshifted\)" []
 is_a: SO:0000336 ! pseudogene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "3" xsd:string
+synonym: "wts22" EXACT []
 
 [Term]
 id: pombase:SPCC576.17c
@@ -51318,7 +51389,7 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC584.13
-def: "amino acid transmembrane transporter" []
+def: "amino acid/polyamine family transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q09887 ! has gene product
@@ -51351,7 +51422,7 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC584.16c
-def: "Schizosaccharomyces specific protein" []
+def: "Schizosaccharomyces specific protein\, fatty acid binding protein-like" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q09890 ! has gene product
@@ -51360,7 +51431,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC594.01
 name: duc1
-def: "DUF1769 family protein" []
+def: "plasma membrane phosphatidylinositol-4\,5-bisphosphate binding protein Duc1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74504 ! has gene product
@@ -51425,7 +51496,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC5E4.03c
 name: taf5
-def: "SAGA complex/TATA-binding protein associated factor/transcription factor TFIID complex subunit Taf5" []
+def: "SAGA complex/TATA-binding protein associated factor/transcription factor TFIID complex WD repeat subunit Taf5" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O13282 ! has gene product
@@ -51528,7 +51599,7 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC61.05
-def: "Schizosaccharomyces specific multicopy membrane protein family 1" []
+def: "7 transmembrane receptor family protein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94349 ! has gene product
@@ -51687,7 +51758,7 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC622.06c
-def: "Schizosaccharomyces specific protein" []
+def: "Schizosaccharomyces pombe specific protein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94596 ! has gene product
@@ -51859,6 +51930,7 @@ def: "wtf element Wtf12 \(truncated\)" []
 is_a: SO:0000336 ! pseudogene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "3" xsd:string
+synonym: "wts1112b" EXACT []
 
 [Term]
 id: pombase:SPCC63.02c
@@ -52089,7 +52161,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC645.11c
 name: mug117
-def: "conserved fungal protein\, meiotic Mug117" []
+def: "lectin and fungal killer toxin kp4-like domain\, cysteine-rich\, possibly secreted Mug117" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9Y7V0 ! has gene product
@@ -52144,6 +52216,7 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74512 ! has gene product
 property_value: chromosome "3" xsd:string
+synonym: "wts1415a" EXACT []
 
 [Term]
 id: pombase:SPCC663.03
@@ -52265,7 +52338,7 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC663.15c
-def: "DUF3818 and PXA domain conserved fungal protein" []
+def: "DUF3818 and PXA domain conserved fungal protein\, implicated in lipid metabolism/ membrane organization or vesicle-mediated transport" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74521 ! has gene product
@@ -52279,6 +52352,7 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:G2TRU7 ! has gene product
 property_value: chromosome "3" xsd:string
+synonym: "wts1415b" EXACT []
 
 [Term]
 id: pombase:SPCC663.18
@@ -52420,6 +52494,7 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q7Z9I5 ! has gene product
 property_value: chromosome "3" xsd:string
+synonym: "wts7" EXACT []
 
 [Term]
 id: pombase:SPCC736.06
@@ -52635,7 +52710,7 @@ synonym: "ucp9" EXACT []
 
 [Term]
 id: pombase:SPCC74.04
-def: "amino acid transmembrane transporter" []
+def: "amino acid/polyamine family transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74537 ! has gene product
@@ -52821,7 +52896,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC777.04
 name: dip5
-def: "amino acid transmembrane transporter Dip5" []
+def: "plasma membrane amino acid transmembrane transporter Dip5" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74543 ! has gene product
@@ -52854,7 +52929,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC777.07
 name: omh3
-def: "Golgi alpha-1\,2-mannosyltransferase Omh3" []
+def: "alpha-1\,2-mannosyltransferase Omh3" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74546 ! has gene product
@@ -52990,10 +53065,11 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q8TF80 ! has gene product
 property_value: chromosome "3" xsd:string
+synonym: "wts5" EXACT []
 
 [Term]
 id: pombase:SPCC794.03
-def: "amino acid transmembrane transporter" []
+def: "amino acid/polyamine family transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O59813 ! has gene product
@@ -53018,7 +53094,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC794.07
 name: lat1
-def: "dihydrolipoamide S-acetyltransferase E2\, Lat1" []
+def: "mitochondrial dihydrolipoamide S-acetyltransferase \(e3 component\)\, Lat1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O59816 ! has gene product
@@ -53161,6 +53237,7 @@ def: "wtf element Wtf24 \(frameshifted\)" []
 is_a: SO:0000336 ! pseudogene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 property_value: chromosome "3" xsd:string
+synonym: "wts24" EXACT []
 
 [Term]
 id: pombase:SPCC830.03
@@ -53312,7 +53389,7 @@ synonym: "mtc1" EXACT []
 
 [Term]
 id: pombase:SPCC895.08c
-def: "Schizosaccharomyces specific protein" []
+def: "arrestin family protein" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O94535 ! has gene product
@@ -53466,7 +53543,7 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC965.09
-def: "mitochondrial omega-amidase" []
+def: "omega-amidase" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O59829 ! has gene product
@@ -53518,7 +53595,8 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCC965.14c
-def: "cytosine deaminase" []
+name: fcy1
+def: "cytosine deaminase Fcy1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O59834 ! has gene product
@@ -53549,7 +53627,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCC970.03
 name: cbr1
-def: "NADH-dependent reductase for Dph3\, Cbr1" []
+def: "cytochrome-b5 reductase activity/ NAD\(P\)H-dependent reductase for Dph3\, Cbr1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74557 ! has gene product
@@ -53648,6 +53726,7 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:O74564 ! has gene product
 property_value: chromosome "3" xsd:string
+synonym: "wts9" EXACT []
 
 [Term]
 id: pombase:SPCC970.12
@@ -53657,6 +53736,7 @@ is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9P802 ! has gene product
 relationship: RO:HOM0000017 hgnc:1286 ! in orthology relationship with
+relationship: RO:HOM0000017 hgnc:20300 ! in orthology relationship with
 property_value: chromosome "3" xsd:string
 
 [Term]
@@ -53747,6 +53827,7 @@ def: "ankyrin repeat protein\, unknown biological role" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9UU77 ! has gene product
+relationship: RO:HOM0000017 hgnc:14941 ! in orthology relationship with
 property_value: chromosome "3" xsd:string
 
 [Term]
@@ -53947,7 +54028,7 @@ property_value: chromosome "3" xsd:string
 [Term]
 id: pombase:SPCPB1C11.01
 name: amt1
-def: "plasma membrane ammonium transmembrane transporter Amt1" []
+def: "plasma membrane ammonium transmembrane transporter\, high affinity Amt1" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9C0V1 ! has gene product
@@ -53955,7 +54036,7 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCPB1C11.02
-def: "amino acid transmembrane transporter" []
+def: "plasma membrane amino acid transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9C0V0 ! has gene product
@@ -53968,7 +54049,7 @@ property_value: chromosome "3" xsd:string
 
 [Term]
 id: pombase:SPCPB1C11.03
-def: "cysteine transmembrane transporter" []
+def: "plasma membrane cysteine transmembrane transporter" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:Q9C0U9 ! has gene product
@@ -54374,7 +54455,7 @@ property_value: chromosome "al" xsd:string
 [Term]
 id: pombase:SPMIT.04
 name: cox3
-def: "cytochrome c oxidase subunit 3" []
+def: "cytochrome c oxidase subunit 3 \(cytochrome a3 subunit\)" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P14575 ! has gene product
@@ -54405,7 +54486,7 @@ property_value: chromosome "al" xsd:string
 [Term]
 id: pombase:SPMIT.07
 name: atp6
-def: "F1-FO ATP synthase subunit 6" []
+def: "F1-FO ATP synthase membrane subunit\, Atp6" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P21535 ! has gene product
@@ -54427,7 +54508,7 @@ synonym: "urfa" EXACT []
 [Term]
 id: pombase:SPMIT.09
 name: atp8
-def: "F1-FO ATP synthase subunit 8" []
+def: "F1-FO ATP synthase membrane subunit\, Atp8" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P21536 ! has gene product
@@ -54437,7 +54518,7 @@ property_value: chromosome "al" xsd:string
 [Term]
 id: pombase:SPMIT.10
 name: atp9
-def: "F1-FO ATP synthase subunit 9" []
+def: "F1-FO ATP synthase membrane subunit\, Atp9" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P21537 ! has gene product
@@ -54642,7 +54723,7 @@ property_value: chromosome "al" xsd:string
 [Term]
 id: pombase:SPMTR.01
 name: mat2-Pc
-def: "silenced P-specific trancription factor Pc" []
+def: "silenced P-specific transcription factor Pc" []
 is_a: SO:0001217 ! protein_coding_gene
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 relationship: RO:0002205 uniprot:P10841 ! has gene product
@@ -106608,22 +106689,8 @@ property_value: chromosome "2" xsd:string
 synonym: "snu3B" EXACT []
 
 [Term]
-id: pombase:gene_systematic_id
-name: gene_name
-def: "gene_product" []
-is_a: SO:0000704 ! gene
-relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
-relationship: RO:0002205 uniprot:id ! has gene product
-property_value: chromosome "id" xsd:string
-synonym: "synonyms" EXACT []
-
-[Term]
 id: SO:0000336
 name: pseudogene
-
-[Term]
-id: SO:0000704
-name: gene
 
 [Term]
 id: SO:0001217
