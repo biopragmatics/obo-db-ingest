@@ -162,11 +162,11 @@ resources:
       version_iri: https://w3id.org/biopragmatics/resources/eccode/2024-10-02/eccode.obo
       version_path: eccode/2024-10-02/eccode.obo
     obograph:
-      gzipped: true
-      iri: https://w3id.org/biopragmatics/resources/eccode/eccode.json.gz
-      path: eccode/eccode.json.gz
-      version_iri: https://w3id.org/biopragmatics/resources/eccode/2024-10-02/eccode.json.gz
-      version_path: eccode/2024-10-02/eccode.json.gz
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/eccode/eccode.json
+      path: eccode/eccode.json
+      version_iri: https://w3id.org/biopragmatics/resources/eccode/2024-10-02/eccode.json
+      version_path: eccode/2024-10-02/eccode.json
     owl:
       gzipped: true
       iri: https://w3id.org/biopragmatics/resources/eccode/eccode.owl.gz
@@ -866,11 +866,11 @@ resources:
       version_iri: https://w3id.org/biopragmatics/resources/rgd/2024-10-25/rgd.obo
       version_path: rgd/2024-10-25/rgd.obo
     obograph:
-      gzipped: true
-      iri: https://w3id.org/biopragmatics/resources/rgd/rgd.json.gz
-      path: rgd/rgd.json.gz
-      version_iri: https://w3id.org/biopragmatics/resources/rgd/2024-10-25/rgd.json.gz
-      version_path: rgd/2024-10-25/rgd.json.gz
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/rgd/rgd.json
+      path: rgd/rgd.json
+      version_iri: https://w3id.org/biopragmatics/resources/rgd/2024-10-25/rgd.json
+      version_path: rgd/2024-10-25/rgd.json
     owl:
       gzipped: true
       iri: https://w3id.org/biopragmatics/resources/rgd/rgd.owl.gz
@@ -1149,4 +1149,4 @@ resources:
 versions:
   bioontologies: 0.5.2-dev-3e46aa69
   bioregistry: 0.11.24-dev-9900364b
-  pyobo: 0.11.1-dev-a376f97d
+  pyobo: 0.11.1-dev-b4a18517
