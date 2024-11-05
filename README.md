@@ -1,5 +1,7 @@
 # OBO Database Ingestion
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10829095.svg)](https://doi.org/10.5281/zenodo.10829095)
+
 This repository shows how databases can be formalized as an OBO Ontology in the OBO flat file format,
 OWL format, and OBO Graph JSON format. A list of the databases whose controlled vocabularies and related
 content can be readily converted to OBO can be in found in the [PyOBO](https://github.com/pyobo/pyobo)
@@ -26,7 +28,7 @@ A manifest of all resources is available at [manifest.yml](docs/_data/manifest.y
 
 To generate OBO files, run the following shell commands (Python 3.8+):
 
-```shell
+```console
 $ pip install tox
 $ tox
 ```
