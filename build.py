@@ -12,6 +12,8 @@
 This script requires ``pip install pyobo``.
 """
 
+from __future__ import annotations
+
 import datetime
 import gzip
 import os
@@ -19,7 +21,7 @@ import shutil
 import subprocess
 import traceback
 from pathlib import Path
-from typing import Optional, TypedDict
+from typing import TypedDict
 
 import click
 import pystow.utils
@@ -293,7 +295,7 @@ def _make(
 @click.option("--no-convert", is_flag=True)
 @click.option("-x", "--xvalue", help="Select a specific ontology", multiple=True)
 @click.option("-w", "--no-force", is_flag=True)
-def main(minimum: Optional[str], xvalue: list[str], no_convert: bool, no_force: bool):
+def main(minimum: str | None, xvalue: list[str], no_convert: bool, no_force: bool):
     """Build the PyOBO examples."""
     if xvalue:
         for prefix in xvalue:
