@@ -21,12 +21,14 @@ import shutil
 import subprocess
 import traceback
 from pathlib import Path
+from textwrap import dedent
 from typing import TypedDict
 
 import click
 import pystow.utils
 import yaml
 from more_click import verbose_option
+from tabulate import tabulate
 from tqdm import tqdm
 from tqdm.contrib.logging import logging_redirect_tqdm
 from typing_extensions import NotRequired
@@ -80,6 +82,7 @@ PREFIXES = [
     "npass",
     "kegg.genome",
     "slm",
+    "gtdb",
 ]
 
 for _prefix in PREFIXES:
@@ -88,6 +91,13 @@ for _prefix in PREFIXES:
 
 NO_FORCE = {"drugbank", "drugbank.salt"}
 GZIP_OBO = {"mgi", "uniprot", "slm", "reactome", "pathbank", "mesh"}
+ARTIFACT_LABELS = {
+    "obo": "OBO",
+    "owl": "OWL",
+    "sssom": "SSSOM",
+    "nodes": "Nodes",
+    "obograph": "OBO Graph JSON",
+}
 
 
 def _gzip(path: Path, suffix: str) -> Path:
@@ -207,6 +217,8 @@ def _make(
     obo = module(force=force)
 
     directory = EXPORT.joinpath(prefix)
+    readme_path = directory.joinpath("README.md")
+
     has_version = bool(obo.data_version)
     if has_version:
         directory = directory.joinpath(obo.data_version)
@@ -285,6 +297,30 @@ def _make(
                 file.write(str(e.stderr))
         else:
             tqdm.write(f"[{prefix}] done converting to OBO Graph JSON")
+
+    purls_table_rows = [
+        (ARTIFACT_LABELS[key], data["iri"], data.get("version_iri"))
+        for key, data in rv.items()
+        if "iri" in data
+    ]
+
+    # Write a README file, so anyone who navigates there can see what's going on
+    summary = sorted((k, v) for k, v in rv["summary"].items() if k != "version")
+    text = dedent(f"""\
+# {bioregistry.get_name(prefix)}
+
+{bioregistry.get_description(prefix)}
+
+## PURLs
+
+{tabulate(purls_table_rows, headers=['Artifact', 'Download PURL', 'Versioned Download PURL'], tablefmt="github")}
+
+## Summary
+
+{tabulate(summary, headers=['field', 'count'], tablefmt='github')}
+
+""").strip()
+    readme_path.write_text(text)
 
     return rv
 
