@@ -84,6 +84,10 @@ PREFIXES = [
     "slm",
     "gtdb",
 ]
+SLIMS = {
+    "rhea",
+    "eccode",
+}
 
 for _prefix in PREFIXES:
     if _prefix != bioregistry.normalize_prefix(_prefix):
@@ -226,10 +230,12 @@ def _make(
         tqdm.write(click.style(f"[{prefix}] has no version info", fg="red"))
     directory.mkdir(exist_ok=True, parents=True)
     obo_path = directory.joinpath(f"{prefix}.obo")
+    obo_slim_path = directory.joinpath(f"{prefix}-slim.obo")
     names_path = directory.joinpath(f"{prefix}.tsv")
     sssom_path = directory.joinpath(f"{prefix}.sssom.tsv")
     obo_graph_json_path = directory.joinpath(f"{prefix}.json")
     owl_path = directory.joinpath(f"{prefix}.owl")
+    owl_slim_path = directory.joinpath(f"{prefix}-slim.owl")
     log_path = directory.joinpath(f"{prefix}.log.txt")
     log_path.unlink(missing_ok=True)
 
@@ -247,6 +253,14 @@ def _make(
         obo_path.unlink()
         return rv
     obo_path, rv["obo"] = _prepare_artifact(prefix, obo_path, has_version, ".obo.gz")
+
+    if prefix in SLIMS:
+        obo.write_obo(
+            obo_slim_path, emit_object_properties=False, emit_annotation_properties=True
+        )
+        obo_slim_path, rv["obo-slim"] = _prepare_artifact(
+            prefix, obo_slim_path, has_version, ".obo.gz"
+        )
 
     rv["summary"] = _get_summary(obo)
 
@@ -275,6 +289,13 @@ def _make(
                 file.write(str(e.stderr))
         else:
             tqdm.write(f"[{prefix}] done converting to OWL")
+
+            # for now, assume if the non-slim worked, so will the slim
+            if prefix in SLIMS:
+                convert(obo_slim_path, owl_slim_path, merge=False, reason=False, debug=True)
+                _, rv["owl-slim"] = _prepare_artifact(
+                    prefix, owl_slim_path, has_version, ".owl.gz"
+                )
 
         try:
             tqdm.write(f"[{prefix}] converting to OBO Graph JSON")
