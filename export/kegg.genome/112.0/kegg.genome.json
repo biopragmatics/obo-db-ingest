@@ -3,10 +3,13 @@
     "id" : "http://purl.obolibrary.org/obo/kegg.genome.owl",
     "meta" : {
       "basicPropertyValues" : [ {
-        "pred" : "http://purl.org/dc/elements/1.1/description",
+        "pred" : "http://purl.org/dc/terms/description",
         "val" : "KEGG Genome is a collection of organisms whose genomes have been completely sequenced."
       }, {
-        "pred" : "http://purl.org/dc/elements/1.1/title",
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "https://www.kegg.jp/kegg/legal.html"
+      }, {
+        "pred" : "http://purl.org/dc/terms/title",
         "val" : "KEGG Genome"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",

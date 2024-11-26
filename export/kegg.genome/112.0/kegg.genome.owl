@@ -1,17 +1,18 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/kegg.genome.owl#"
      xml:base="http://purl.obolibrary.org/obo/kegg.genome.owl"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/kegg.genome.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/kegg.genome/112.0/kegg.genome.owl"/>
-        <dc:description>KEGG Genome is a collection of organisms whose genomes have been completely sequenced.</dc:description>
-        <dc:title>KEGG Genome</dc:title>
+        <terms:description>KEGG Genome is a collection of organisms whose genomes have been completely sequenced.</terms:description>
+        <terms:license>https://www.kegg.jp/kegg/legal.html</terms:license>
+        <terms:title>KEGG Genome</terms:title>
         <oboInOwl:auto-generated-by>bio2obo:kegg.genome</oboInOwl:auto-generated-by>
         <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
     </owl:Ontology>
@@ -29,15 +30,21 @@
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/description -->
+    <!-- http://purl.org/dc/terms/description -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/title -->
+    <!-- http://purl.org/dc/terms/license -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
     
 
 

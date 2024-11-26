@@ -2,8 +2,9 @@ format-version: 1.2
 auto-generated-by: bio2obo:kegg.genome
 data-version: 112.0
 ontology: kegg.genome
-property_value: http://purl.org/dc/elements/1.1/title "KEGG Genome" xsd:string
-property_value: http://purl.org/dc/elements/1.1/description "KEGG Genome is a collection of organisms whose genomes have been completely sequenced." xsd:string
+property_value: http://purl.org/dc/terms/title "KEGG Genome" xsd:string
+property_value: http://purl.org/dc/terms/license "https://www.kegg.jp/kegg/legal.html" xsd:string
+property_value: http://purl.org/dc/terms/description "KEGG Genome is a collection of organisms whose genomes have been completely sequenced." xsd:string
 
 [Term]
 id: kegg.genome:000
