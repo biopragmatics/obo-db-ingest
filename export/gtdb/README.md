@@ -2,6 +2,8 @@
 
 The Genome Taxonomy Database (GTDB) is an initiative to establish a standardized microbial taxonomy based on genome phylogeny.
 
+**License**: CC-BY-SA-4.0
+
 ## PURLs
 
 | Artifact       | Download PURL                                                | Versioned Download PURL                                          |
@@ -18,10 +20,10 @@ The Genome Taxonomy Database (GTDB) is an initiative to establish a standardized
 |-------------|---------|
 | alts        |       0 |
 | definitions |       0 |
+| mappings    |  596859 |
 | parents     | 3581154 |
 | properties  | 4178013 |
 | references  |       0 |
 | relations   |       0 |
 | synonyms    |       0 |
 | terms       | 4178013 |
-| xrefs       |  596859 |
