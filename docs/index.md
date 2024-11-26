@@ -37,7 +37,7 @@ The latest export was made on {{ site.data.manifest.date }}. The following softw
     <td><a href="{{ resource[1].obo.iri }}">OBO</a></td>
     <td><a href="{{ resource[1].owl.iri }}">OWL</a></td>
     <td><a href="{{ resource[1].obograph.iri }}">JSON</a></td>
-    <td>{% if resource[1].summary.xrefs > 0 %}<a href="{{ resource[1].sssom.iri }}">SSSOM</a>{% endif %}</td>
+    <td>{% if resource[1].summary.mappings > 0 %}<a href="{{ resource[1].sssom.iri }}">SSSOM</a>{% endif %}</td>
     <td><a href="{{ resource[1].nodes.iri }}">Nodes</a></td>
   </tr>
 {% endfor %}
