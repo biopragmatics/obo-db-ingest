@@ -3,10 +3,13 @@
     "id" : "http://purl.obolibrary.org/obo/pfam.clan.owl",
     "meta" : {
       "basicPropertyValues" : [ {
-        "pred" : "http://purl.org/dc/elements/1.1/description",
+        "pred" : "http://purl.org/dc/terms/description",
         "val" : "Higher order grouping of Pfam families"
       }, {
-        "pred" : "http://purl.org/dc/elements/1.1/title",
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "CC0-1.0"
+      }, {
+        "pred" : "http://purl.org/dc/terms/title",
         "val" : "Pfam Clans"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
