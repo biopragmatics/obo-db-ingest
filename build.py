@@ -24,23 +24,23 @@ from pathlib import Path
 from textwrap import dedent
 from typing import TypedDict
 
+import bioontologies.version
+import bioregistry
+import bioregistry.version
 import click
 import pystow.utils
 import yaml
+from bioontologies.robot import convert
 from more_click import verbose_option
 from tabulate import tabulate
 from tqdm import tqdm
 from tqdm.contrib.logging import logging_redirect_tqdm
 from typing_extensions import NotRequired
+
 import pyobo.constants
 import pyobo.version
 from pyobo import Obo
 from pyobo.sources import ontology_resolver
-
-import bioontologies.version
-import bioregistry
-import bioregistry.version
-from bioontologies.robot import convert
 
 BASE_PURL = "https://w3id.org/biopragmatics/resources"
 HERE = Path(__file__).parent.resolve()
@@ -163,15 +163,19 @@ def _get_summary(obo: Obo) -> dict:
             len(values) for term in terms for values in term.relationships.values()
         ),
         "properties": sum(
-            len(values) for term in terms for values in term.properties.values()
+            len(values)
+            for term in terms
+            for dd in [term.annotations_literal, term.annotations_object]
+            for values in dd.values()
         ),
         "synonyms": sum(len(term.synonyms) for term in terms),
-        "xrefs": sum(len(term.xrefs) for term in terms),
+        "mappings": sum(len(term.get_mappings(include_xrefs=True)) for term in terms),
         "alts": sum(len(term.alt_ids) for term in terms),
         "parents": sum(len(term.parents) for term in terms),
         "references": sum(len(term.provenance) for term in terms),
         "definitions": sum(term.definition is not None for term in terms),
         "version": obo.data_version,
+        "license": bioregistry.get_license(obo.ontology),
     }
     return rv
 
@@ -253,7 +257,7 @@ def _make(
     _write_nodes(names_path, obo, prefix)
     _, rv["nodes"] = _prepare_artifact(prefix, names_path, has_version, ".tsv.gz")
 
-    sssom_df = pyobo.get_sssom_df(obo, names=False)
+    sssom_df = pyobo.get_mappings_df(obo, names=False)
     sssom_df.to_csv(sssom_path, sep="\t", index=False)
     _, rv["sssom"] = _prepare_artifact(prefix, sssom_path, has_version, ".sssom.tsv.gz")
 
@@ -306,20 +310,25 @@ def _make(
 
     # Write a README file, so anyone who navigates there can see what's going on
     summary = sorted((k, v) for k, v in rv["summary"].items() if k != "version")
-    text = dedent(f"""\
+    text = (
+        dedent(f"""\
 # {bioregistry.get_name(prefix)}
 
 {bioregistry.get_description(prefix)}
 
+**License**: {bioregistry.get_license(prefix) or '_unlicensed_'}
+
 ## PURLs
 
-{tabulate(purls_table_rows, headers=['Artifact', 'Download PURL', 'Versioned Download PURL'], tablefmt="github")}
+{tabulate(purls_table_rows, headers=['Artifact', 'Download PURL', 'Latest Versioned Download PURL'], tablefmt="github")}
 
 ## Summary
 
 {tabulate(summary, headers=['field', 'count'], tablefmt='github')}
 
 """).strip()
+        + "\n"
+    )
     readme_path.write_text(text)
 
     return rv
@@ -330,8 +339,8 @@ def _make(
 @click.option("-m", "--minimum")
 @click.option("--no-convert", is_flag=True)
 @click.option("-x", "--xvalue", help="Select a specific ontology", multiple=True)
-@click.option("-w", "--no-force", is_flag=True)
-def main(minimum: str | None, xvalue: list[str], no_convert: bool, no_force: bool):
+@click.option("--force/--no-force")
+def main(minimum: str | None, xvalue: list[str], no_convert: bool, force: bool):
     """Build the PyOBO examples."""
     if xvalue:
         for prefix in xvalue:
@@ -344,6 +353,10 @@ def main(minimum: str | None, xvalue: list[str], no_convert: bool, no_force: boo
         ]
     else:
         prefixes = PREFIXES
+
+    for prefix in prefixes:
+        if not bioregistry.get_license(prefix):
+            click.secho(f"missing license for `{prefix}`", fg="yellow")
 
     it = [(prefix, ontology_resolver.lookup(prefix)) for prefix in prefixes]
     it = tqdm(it, desc="Making OBO examples")
@@ -359,7 +372,7 @@ def main(minimum: str | None, xvalue: list[str], no_convert: bool, no_force: boo
                     prefix=prefix,
                     module=cls,
                     do_convert=not no_convert,
-                    no_force=no_force,
+                    no_force=not force,
                 )
             except Exception as e:
                 tqdm.write(click.style(f"[{prefix}] {e}", fg="red"))
