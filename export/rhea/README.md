@@ -8,24 +8,20 @@ Rhea covers the reactions described by the IUBMB Enzyme Nomenclature as well as 
 
 ## PURLs
 
-| Artifact       | Download PURL                                                | Versioned Download PURL                                          |
+| Artifact       | Download PURL                                                | Latest Versioned Download PURL                                   |
 |----------------|--------------------------------------------------------------|------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/rhea/rhea.obo       | https://w3id.org/biopragmatics/resources/rhea/135/rhea.obo       |
-| Nodes          | https://w3id.org/biopragmatics/resources/rhea/rhea.tsv       | https://w3id.org/biopragmatics/resources/rhea/135/rhea.tsv       |
-| SSSOM          | https://w3id.org/biopragmatics/resources/rhea/rhea.sssom.tsv | https://w3id.org/biopragmatics/resources/rhea/135/rhea.sssom.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/rhea/rhea.owl.gz    | https://w3id.org/biopragmatics/resources/rhea/135/rhea.owl.gz    |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/rhea/rhea.json.gz   | https://w3id.org/biopragmatics/resources/rhea/135/rhea.json.gz   |
+| OBO            | https://w3id.org/biopragmatics/resources/rhea/rhea.obo       | https://w3id.org/biopragmatics/resources/rhea/136/rhea.obo       |
+| Nodes          | https://w3id.org/biopragmatics/resources/rhea/rhea.tsv       | https://w3id.org/biopragmatics/resources/rhea/136/rhea.tsv       |
+| SSSOM          | https://w3id.org/biopragmatics/resources/rhea/rhea.sssom.tsv | https://w3id.org/biopragmatics/resources/rhea/136/rhea.sssom.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/rhea/rhea.owl.gz    | https://w3id.org/biopragmatics/resources/rhea/136/rhea.owl.gz    |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/rhea/rhea.json.gz   | https://w3id.org/biopragmatics/resources/rhea/136/rhea.json.gz   |
 
 ## Summary
 
-| field       |   count |
-|-------------|---------|
-| alts        |       0 |
-| definitions |       0 |
-| mappings    |   19627 |
-| parents     |   69210 |
-| properties  |  165016 |
-| references  |       0 |
-| relations   |  597421 |
-| synonyms    |       0 |
-| terms       |   67880 |
+| field      |   count |
+|------------|---------|
+| mappings   |   19769 |
+| parents    |   69857 |
+| properties |  166512 |
+| relations  |  601285 |
+| terms      |   68524 |

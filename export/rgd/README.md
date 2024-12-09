@@ -6,24 +6,22 @@ Rat Genome Database seeks to collect, consolidate, and integrate rat genomic and
 
 ## PURLs
 
-| Artifact       | Download PURL                                              | Versioned Download PURL                                               |
+| Artifact       | Download PURL                                              | Latest Versioned Download PURL                                        |
 |----------------|------------------------------------------------------------|-----------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/rgd/rgd.obo       | https://w3id.org/biopragmatics/resources/rgd/2024-11-22/rgd.obo       |
-| Nodes          | https://w3id.org/biopragmatics/resources/rgd/rgd.tsv       | https://w3id.org/biopragmatics/resources/rgd/2024-11-22/rgd.tsv       |
-| SSSOM          | https://w3id.org/biopragmatics/resources/rgd/rgd.sssom.tsv | https://w3id.org/biopragmatics/resources/rgd/2024-11-22/rgd.sssom.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/rgd/rgd.owl.gz    | https://w3id.org/biopragmatics/resources/rgd/2024-11-22/rgd.owl.gz    |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/rgd/rgd.json      | https://w3id.org/biopragmatics/resources/rgd/2024-11-22/rgd.json      |
+| OBO            | https://w3id.org/biopragmatics/resources/rgd/rgd.obo       | https://w3id.org/biopragmatics/resources/rgd/2024-12-06/rgd.obo       |
+| Nodes          | https://w3id.org/biopragmatics/resources/rgd/rgd.tsv       | https://w3id.org/biopragmatics/resources/rgd/2024-12-06/rgd.tsv       |
+| SSSOM          | https://w3id.org/biopragmatics/resources/rgd/rgd.sssom.tsv | https://w3id.org/biopragmatics/resources/rgd/2024-12-06/rgd.sssom.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/rgd/rgd.owl.gz    | https://w3id.org/biopragmatics/resources/rgd/2024-12-06/rgd.owl.gz    |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/rgd/rgd.json      | https://w3id.org/biopragmatics/resources/rgd/2024-12-06/rgd.json      |
 
 ## Summary
 
 | field       |   count |
 |-------------|---------|
-| alts        |       0 |
-| definitions |   51054 |
-| mappings    |  103906 |
-| parents     |       0 |
-| properties  |   79013 |
-| references  |  124654 |
+| definitions |   51104 |
+| mappings    |  105984 |
+| properties  |   79164 |
+| references  |  124709 |
 | relations   |   61331 |
-| synonyms    |  139322 |
+| synonyms    |  139395 |
 | terms       |   61331 |

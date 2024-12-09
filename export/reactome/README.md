@@ -6,24 +6,18 @@ The Reactome project is a collaboration to develop a curated resource of core pa
 
 ## PURLs
 
-| Artifact       | Download PURL                                                        | Versioned Download PURL                                                 |
+| Artifact       | Download PURL                                                        | Latest Versioned Download PURL                                          |
 |----------------|----------------------------------------------------------------------|-------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/reactome/reactome.obo       | https://w3id.org/biopragmatics/resources/reactome/90/reactome.obo       |
-| Nodes          | https://w3id.org/biopragmatics/resources/reactome/reactome.tsv       | https://w3id.org/biopragmatics/resources/reactome/90/reactome.tsv       |
-| SSSOM          | https://w3id.org/biopragmatics/resources/reactome/reactome.sssom.tsv | https://w3id.org/biopragmatics/resources/reactome/90/reactome.sssom.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/reactome/reactome.owl.gz    | https://w3id.org/biopragmatics/resources/reactome/90/reactome.owl.gz    |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/reactome/reactome.json.gz   | https://w3id.org/biopragmatics/resources/reactome/90/reactome.json.gz   |
+| OBO            | https://w3id.org/biopragmatics/resources/reactome/reactome.obo       | https://w3id.org/biopragmatics/resources/reactome/91/reactome.obo       |
+| Nodes          | https://w3id.org/biopragmatics/resources/reactome/reactome.tsv       | https://w3id.org/biopragmatics/resources/reactome/91/reactome.tsv       |
+| SSSOM          | https://w3id.org/biopragmatics/resources/reactome/reactome.sssom.tsv | https://w3id.org/biopragmatics/resources/reactome/91/reactome.sssom.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/reactome/reactome.owl.gz    | https://w3id.org/biopragmatics/resources/reactome/91/reactome.owl.gz    |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/reactome/reactome.json.gz   | https://w3id.org/biopragmatics/resources/reactome/91/reactome.json.gz   |
 
 ## Summary
 
-| field       |   count |
-|-------------|---------|
-| alts        |       0 |
-| definitions |       0 |
-| mappings    |       0 |
-| parents     |   22675 |
-| properties  |       0 |
-| references  |       0 |
-| relations   | 1160810 |
-| synonyms    |       0 |
-| terms       |   22537 |
+| field     |   count |
+|-----------|---------|
+| parents   |   22746 |
+| relations | 1164839 |
+| terms     |   22608 |

@@ -6,24 +6,18 @@ The dictyBase database provides data on the model organism Dictyostelium discoid
 
 ## PURLs
 
-| Artifact       | Download PURL                                                                    | Versioned Download PURL   |
-|----------------|----------------------------------------------------------------------------------|---------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.obo       |                           |
-| Nodes          | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.tsv       |                           |
-| SSSOM          | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.sssom.tsv |                           |
-| OWL            | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.owl       |                           |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.json      |                           |
+| Artifact       | Download PURL                                                                    | Latest Versioned Download PURL   |
+|----------------|----------------------------------------------------------------------------------|----------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.obo       |                                  |
+| Nodes          | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.tsv       |                                  |
+| SSSOM          | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.sssom.tsv |                                  |
+| OWL            | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.owl       |                                  |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.json      |                                  |
 
 ## Summary
 
-| field       |   count |
-|-------------|---------|
-| alts        |       0 |
-| definitions |       0 |
-| mappings    |       0 |
-| parents     |       0 |
-| properties  |       0 |
-| references  |       0 |
-| relations   |   14222 |
-| synonyms    |   16000 |
-| terms       |   14222 |
+| field     |   count |
+|-----------|---------|
+| relations |   14222 |
+| synonyms  |   16000 |
+| terms     |   14222 |

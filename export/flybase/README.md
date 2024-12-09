@@ -6,7 +6,7 @@ FlyBase is the database of the Drosophila Genome Projects and of associated lite
 
 ## PURLs
 
-| Artifact       | Download PURL                                                      | Versioned Download PURL                                                    |
+| Artifact       | Download PURL                                                      | Latest Versioned Download PURL                                             |
 |----------------|--------------------------------------------------------------------|----------------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/flybase/flybase.obo       | https://w3id.org/biopragmatics/resources/flybase/2024_05/flybase.obo       |
 | Nodes          | https://w3id.org/biopragmatics/resources/flybase/flybase.tsv       | https://w3id.org/biopragmatics/resources/flybase/2024_05/flybase.tsv       |
@@ -18,12 +18,8 @@ FlyBase is the database of the Drosophila Genome Projects and of associated lite
 
 | field       |   count |
 |-------------|---------|
-| alts        |       0 |
 | definitions |   35702 |
-| mappings    |       0 |
 | parents     |   35298 |
-| properties  |       0 |
-| references  |       0 |
 | relations   |   35702 |
 | synonyms    |   24869 |
 | terms       |   35702 |

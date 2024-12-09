@@ -6,7 +6,7 @@ MeSH (Medical Subject Headings) is the National Library of Medicine's controlled
 
 ## PURLs
 
-| Artifact       | Download PURL                                                | Versioned Download PURL                                           |
+| Artifact       | Download PURL                                                | Latest Versioned Download PURL                                    |
 |----------------|--------------------------------------------------------------|-------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/mesh/mesh.obo       | https://w3id.org/biopragmatics/resources/mesh/2024/mesh.obo       |
 | Nodes          | https://w3id.org/biopragmatics/resources/mesh/mesh.tsv       | https://w3id.org/biopragmatics/resources/mesh/2024/mesh.tsv       |
@@ -18,12 +18,7 @@ MeSH (Medical Subject Headings) is the National Library of Medicine's controlled
 
 | field       |   count |
 |-------------|---------|
-| alts        |       0 |
 | definitions |   30613 |
-| mappings    |       0 |
 | parents     |   42021 |
-| properties  |       0 |
-| references  |       0 |
-| relations   |       0 |
 | synonyms    |  634143 |
 | terms       |  354471 |

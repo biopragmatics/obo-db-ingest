@@ -6,24 +6,20 @@ The Enzyme Classification contains the recommendations of the Nomenclature Commi
 
 ## PURLs
 
-| Artifact       | Download PURL                                                    | Versioned Download PURL                                                     |
+| Artifact       | Download PURL                                                    | Latest Versioned Download PURL                                              |
 |----------------|------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/eccode/eccode.obo       | https://w3id.org/biopragmatics/resources/eccode/2024-10-02/eccode.obo       |
-| Nodes          | https://w3id.org/biopragmatics/resources/eccode/eccode.tsv       | https://w3id.org/biopragmatics/resources/eccode/2024-10-02/eccode.tsv       |
-| SSSOM          | https://w3id.org/biopragmatics/resources/eccode/eccode.sssom.tsv | https://w3id.org/biopragmatics/resources/eccode/2024-10-02/eccode.sssom.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/eccode/eccode.owl       | https://w3id.org/biopragmatics/resources/eccode/2024-10-02/eccode.owl       |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/eccode/eccode.json      | https://w3id.org/biopragmatics/resources/eccode/2024-10-02/eccode.json      |
+| OBO            | https://w3id.org/biopragmatics/resources/eccode/eccode.obo       | https://w3id.org/biopragmatics/resources/eccode/2024-11-27/eccode.obo       |
+| Nodes          | https://w3id.org/biopragmatics/resources/eccode/eccode.tsv       | https://w3id.org/biopragmatics/resources/eccode/2024-11-27/eccode.tsv       |
+| SSSOM          | https://w3id.org/biopragmatics/resources/eccode/eccode.sssom.tsv | https://w3id.org/biopragmatics/resources/eccode/2024-11-27/eccode.sssom.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/eccode/eccode.owl       | https://w3id.org/biopragmatics/resources/eccode/2024-11-27/eccode.owl       |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/eccode/eccode.json      | https://w3id.org/biopragmatics/resources/eccode/2024-11-27/eccode.json      |
 
 ## Summary
 
-| field       |   count |
-|-------------|---------|
-| alts        |       0 |
-| definitions |       0 |
-| mappings    |       0 |
-| parents     |    7244 |
-| properties  |  254949 |
-| references  |       0 |
-| relations   |    4777 |
-| synonyms    |   10465 |
-| terms       |    8736 |
+| field      |   count |
+|------------|---------|
+| parents    |    7286 |
+| properties |  255208 |
+| relations  |    4483 |
+| synonyms   |   10483 |
+| terms      |    8778 |

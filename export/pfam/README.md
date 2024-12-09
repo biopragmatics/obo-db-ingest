@@ -6,7 +6,7 @@ The Pfam database contains information about protein domains and families. For e
 
 ## PURLs
 
-| Artifact       | Download PURL                                                | Versioned Download PURL                                           |
+| Artifact       | Download PURL                                                | Latest Versioned Download PURL                                    |
 |----------------|--------------------------------------------------------------|-------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/pfam/pfam.obo       | https://w3id.org/biopragmatics/resources/pfam/37.1/pfam.obo       |
 | Nodes          | https://w3id.org/biopragmatics/resources/pfam/pfam.tsv       | https://w3id.org/biopragmatics/resources/pfam/37.1/pfam.tsv       |
@@ -18,12 +18,6 @@ The Pfam database contains information about protein domains and families. For e
 
 | field       |   count |
 |-------------|---------|
-| alts        |       0 |
 | definitions |   23794 |
-| mappings    |       0 |
 | parents     |   10923 |
-| properties  |       0 |
-| references  |       0 |
-| relations   |       0 |
-| synonyms    |       0 |
 | terms       |   23794 |

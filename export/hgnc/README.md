@@ -6,24 +6,23 @@ The HGNC (HUGO Gene Nomenclature Committee) provides an approved gene name and s
 
 ## PURLs
 
-| Artifact       | Download PURL                                                | Versioned Download PURL                                                 |
+| Artifact       | Download PURL                                                | Latest Versioned Download PURL                                          |
 |----------------|--------------------------------------------------------------|-------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/hgnc/hgnc.obo       | https://w3id.org/biopragmatics/resources/hgnc/2024-10-01/hgnc.obo       |
-| Nodes          | https://w3id.org/biopragmatics/resources/hgnc/hgnc.tsv       | https://w3id.org/biopragmatics/resources/hgnc/2024-10-01/hgnc.tsv       |
-| SSSOM          | https://w3id.org/biopragmatics/resources/hgnc/hgnc.sssom.tsv | https://w3id.org/biopragmatics/resources/hgnc/2024-10-01/hgnc.sssom.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/hgnc/hgnc.owl.gz    | https://w3id.org/biopragmatics/resources/hgnc/2024-10-01/hgnc.owl.gz    |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/hgnc/hgnc.json.gz   | https://w3id.org/biopragmatics/resources/hgnc/2024-10-01/hgnc.json.gz   |
+| OBO            | https://w3id.org/biopragmatics/resources/hgnc/hgnc.obo       | https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.obo       |
+| Nodes          | https://w3id.org/biopragmatics/resources/hgnc/hgnc.tsv       | https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.tsv       |
+| SSSOM          | https://w3id.org/biopragmatics/resources/hgnc/hgnc.sssom.tsv | https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.sssom.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/hgnc/hgnc.owl.gz    | https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.owl.gz    |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/hgnc/hgnc.json.gz   | https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.json.gz   |
 
 ## Summary
 
 | field       |   count |
 |-------------|---------|
-| alts        |       0 |
-| definitions |   43882 |
-| mappings    |  260015 |
-| parents     |   43882 |
-| properties  |  295301 |
-| references  |   34994 |
-| relations   |  151684 |
-| synonyms    |  105217 |
-| terms       |   43882 |
+| definitions |   43839 |
+| mappings    |  259747 |
+| parents     |   43839 |
+| properties  |  294987 |
+| references  |   35052 |
+| relations   |  151570 |
+| synonyms    |  105407 |
+| terms       |   43839 |

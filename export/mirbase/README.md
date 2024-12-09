@@ -6,7 +6,7 @@ The miRBase Sequence Database is a searchable database of published miRNA sequen
 
 ## PURLs
 
-| Artifact       | Download PURL                                                      | Versioned Download PURL                                                 |
+| Artifact       | Download PURL                                                      | Latest Versioned Download PURL                                          |
 |----------------|--------------------------------------------------------------------|-------------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/mirbase/mirbase.obo       | https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.obo       |
 | Nodes          | https://w3id.org/biopragmatics/resources/mirbase/mirbase.tsv       | https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.tsv       |
@@ -18,12 +18,8 @@ The miRBase Sequence Database is a searchable database of published miRNA sequen
 
 | field       |   count |
 |-------------|---------|
-| alts        |       0 |
 | definitions |   38589 |
 | mappings    |    8814 |
-| parents     |       0 |
-| properties  |       0 |
-| references  |       0 |
 | relations   |   69253 |
 | synonyms    |    1441 |
 | terms       |   38589 |

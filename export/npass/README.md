@@ -7,7 +7,7 @@ Database for integrating species source of natural products & connecting natural
 
 ## PURLs
 
-| Artifact       | Download PURL                                                  | Versioned Download PURL                                            |
+| Artifact       | Download PURL                                                  | Latest Versioned Download PURL                                     |
 |----------------|----------------------------------------------------------------|--------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/npass/npass.obo       | https://w3id.org/biopragmatics/resources/npass/2.0/npass.obo       |
 | Nodes          | https://w3id.org/biopragmatics/resources/npass/npass.tsv       | https://w3id.org/biopragmatics/resources/npass/2.0/npass.tsv       |
@@ -17,14 +17,8 @@ Database for integrating species source of natural products & connecting natural
 
 ## Summary
 
-| field       |   count |
-|-------------|---------|
-| alts        |       0 |
-| definitions |       0 |
-| mappings    |  103085 |
-| parents     |       0 |
-| properties  |       0 |
-| references  |       0 |
-| relations   |       0 |
-| synonyms    |   22501 |
-| terms       |   96420 |
+| field    |   count |
+|----------|---------|
+| mappings |  103085 |
+| synonyms |   22501 |
+| terms    |   96420 |

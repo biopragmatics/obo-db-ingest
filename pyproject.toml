@@ -1,0 +1,37 @@
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+# See https://docs.astral.sh/ruff/rules
+extend-select = [
+    "F", # pyflakes
+    "E", # pycodestyle errors
+    "W", # pycodestyle warnings
+    "C90", # mccabe
+    "I", # isort
+    "UP", # pyupgrade
+    "D", # pydocstyle
+    "DOC", # pydoclint
+    "B", # bugbear
+    "S", # bandit
+    "T20", # print
+    "N", # pep8 naming
+    "ERA", # eradicate commented out code
+    "NPY", # numpy checks
+    "RUF", # ruff rules
+    "C4", # comprehensions
+]
+ignore = [
+    "D105", # Missing docstring in magic method
+    "E203", # Black conflicts with the following
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "pep257"
+
+[tool.ruff.lint.isort]
+relative-imports-order = "closest-to-furthest"
+
+[tool.ruff.format]
+# see https://docs.astral.sh/ruff/settings/#format_docstring-code-format
+docstring-code-format = true

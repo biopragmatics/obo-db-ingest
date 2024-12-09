@@ -6,7 +6,7 @@ PathBank is an interactive, visual database containing more than 100 000 machine
 
 ## PURLs
 
-| Artifact       | Download PURL                                                        | Versioned Download PURL                                                  |
+| Artifact       | Download PURL                                                        | Latest Versioned Download PURL                                           |
 |----------------|----------------------------------------------------------------------|--------------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/pathbank/pathbank.obo.gz    | https://w3id.org/biopragmatics/resources/pathbank/2.0/pathbank.obo.gz    |
 | Nodes          | https://w3id.org/biopragmatics/resources/pathbank/pathbank.tsv       | https://w3id.org/biopragmatics/resources/pathbank/2.0/pathbank.tsv       |
@@ -16,14 +16,9 @@ PathBank is an interactive, visual database containing more than 100 000 machine
 
 ## Summary
 
-| field       |   count |
-|-------------|---------|
-| alts        |       0 |
-| definitions |       0 |
-| mappings    |  110242 |
-| parents     |       0 |
-| properties  |  220484 |
-| references  |       0 |
-| relations   | 2455553 |
-| synonyms    |       0 |
-| terms       |  110242 |
+| field      |   count |
+|------------|---------|
+| mappings   |  110242 |
+| properties |  220484 |
+| relations  | 2455553 |
+| terms      |  110242 |

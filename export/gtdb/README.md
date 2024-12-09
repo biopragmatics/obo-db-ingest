@@ -6,7 +6,7 @@ The Genome Taxonomy Database (GTDB) is an initiative to establish a standardized
 
 ## PURLs
 
-| Artifact       | Download PURL                                                | Versioned Download PURL                                          |
+| Artifact       | Download PURL                                                | Latest Versioned Download PURL                                   |
 |----------------|--------------------------------------------------------------|------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/gtdb/gtdb.obo.gz    | https://w3id.org/biopragmatics/resources/gtdb/220/gtdb.obo.gz    |
 | Nodes          | https://w3id.org/biopragmatics/resources/gtdb/gtdb.tsv.gz    | https://w3id.org/biopragmatics/resources/gtdb/220/gtdb.tsv.gz    |
@@ -16,14 +16,9 @@ The Genome Taxonomy Database (GTDB) is an initiative to establish a standardized
 
 ## Summary
 
-| field       |   count |
-|-------------|---------|
-| alts        |       0 |
-| definitions |       0 |
-| mappings    |  596859 |
-| parents     | 3581154 |
-| properties  | 4178013 |
-| references  |       0 |
-| relations   |       0 |
-| synonyms    |       0 |
-| terms       | 4178013 |
+| field      |   count |
+|------------|---------|
+| mappings   |  596859 |
+| parents    | 3581154 |
+| properties | 4178013 |
+| terms      | 4178013 |

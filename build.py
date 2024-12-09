@@ -28,19 +28,18 @@ import bioontologies.version
 import bioregistry
 import bioregistry.version
 import click
+import pyobo.constants
+import pyobo.version
 import pystow.utils
 import yaml
 from bioontologies.robot import convert
 from more_click import verbose_option
+from pyobo import Obo
+from pyobo.sources import ontology_resolver
 from tabulate import tabulate
 from tqdm import tqdm
 from tqdm.contrib.logging import logging_redirect_tqdm
 from typing_extensions import NotRequired
-
-import pyobo.constants
-import pyobo.version
-from pyobo import Obo
-from pyobo.sources import ontology_resolver
 
 BASE_PURL = "https://w3id.org/biopragmatics/resources"
 HERE = Path(__file__).parent.resolve()
@@ -76,13 +75,20 @@ PREFIXES = [
     "reactome",
     "wikipathways",
     "pathbank",
-    #  "msigdb",
     "pfam",
     "pfam.clan",
     "npass",
     "kegg.genome",
     "slm",
     "gtdb",
+    # TODO
+    # "msigdb",
+    # "uniprot.ptm",
+    # "credit",
+    # "cvx",
+    # "cpt",
+    # "gard",
+    # "bigg.metabolite",
 ]
 
 for _prefix in PREFIXES:
@@ -159,9 +165,7 @@ def _get_summary(obo: Obo) -> dict:
     terms = [t for t in obo if t.prefix == obo.ontology]
     rv = {
         "terms": sum(term.prefix == obo.ontology for term in obo),
-        "relations": sum(
-            len(values) for term in terms for values in term.relationships.values()
-        ),
+        "relations": sum(len(values) for term in terms for values in term.relationships.values()),
         "properties": sum(
             len(values)
             for term in terms
@@ -210,9 +214,7 @@ def _write_nodes(path: Path, obo: Obo, prefix: str) -> None:
             )
 
 
-def _make(
-    prefix: str, module: type[Obo], do_convert: bool = False, no_force: bool = False
-) -> dict:
+def _make(prefix: str, module: type[Obo], do_convert: bool = False, no_force: bool = False) -> dict:
     rv = {}
     if no_force:
         force = False
@@ -282,9 +284,7 @@ def _make(
 
         try:
             tqdm.write(f"[{prefix}] converting to OBO Graph JSON")
-            convert(
-                obo_path, obo_graph_json_path, merge=False, reason=False, debug=True
-            )
+            convert(obo_path, obo_graph_json_path, merge=False, reason=False, debug=True)
             _, rv["obograph"] = _prepare_artifact(
                 prefix, obo_graph_json_path, has_version, ".json.gz"
             )
@@ -308,8 +308,11 @@ def _make(
         if "iri" in data
     ]
 
-    # Write a README file, so anyone who navigates there can see what's going on
-    summary = sorted((k, v) for k, v in rv["summary"].items() if k != "version")
+    # Write a README file, so anyone who navigates there can see what's going on.
+    # skip any entries that have 0 values
+    summary = sorted(
+        (k, v) for k, v in rv["summary"].items() if k not in {"version", "license"} and v
+    )
     text = (
         dedent(f"""\
 # {bioregistry.get_name(prefix)}
@@ -348,11 +351,16 @@ def main(minimum: str | None, xvalue: list[str], no_convert: bool, force: bool):
                 raise ValueError(f"invalid prefix: {prefix}")
         prefixes = xvalue
     elif minimum:
-        prefixes = [
-            prefix for prefix in PREFIXES if not (minimum and prefix < minimum.lower())
-        ]
+        prefixes = [prefix for prefix in PREFIXES if not (minimum and prefix < minimum.lower())]
     else:
         prefixes = PREFIXES
+
+        all_classes = {ontology_resolver.lookup(prefix) for prefix in PREFIXES}
+        missing = sorted(
+            o.ontology for o in set(ontology_resolver.lookup_dict.values()).difference(all_classes)
+        )
+        for cls in missing:
+            click.secho(f"Skipping: {cls}", fg="yellow")
 
     for prefix in prefixes:
         if not bioregistry.get_license(prefix):

@@ -6,24 +6,20 @@ The UniProt Knowledgebase (UniProtKB) is a comprehensive resource for protein se
 
 ## PURLs
 
-| Artifact       | Download PURL                                                      | Versioned Download PURL                                                    |
+| Artifact       | Download PURL                                                      | Latest Versioned Download PURL                                             |
 |----------------|--------------------------------------------------------------------|----------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/uniprot/uniprot.obo.gz    | https://w3id.org/biopragmatics/resources/uniprot/2024_05/uniprot.obo.gz    |
-| Nodes          | https://w3id.org/biopragmatics/resources/uniprot/uniprot.tsv       | https://w3id.org/biopragmatics/resources/uniprot/2024_05/uniprot.tsv       |
-| SSSOM          | https://w3id.org/biopragmatics/resources/uniprot/uniprot.sssom.tsv | https://w3id.org/biopragmatics/resources/uniprot/2024_05/uniprot.sssom.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/uniprot/uniprot.owl.gz    | https://w3id.org/biopragmatics/resources/uniprot/2024_05/uniprot.owl.gz    |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/uniprot/uniprot.json.gz   | https://w3id.org/biopragmatics/resources/uniprot/2024_05/uniprot.json.gz   |
+| OBO            | https://w3id.org/biopragmatics/resources/uniprot/uniprot.obo.gz    | https://w3id.org/biopragmatics/resources/uniprot/2024_06/uniprot.obo.gz    |
+| Nodes          | https://w3id.org/biopragmatics/resources/uniprot/uniprot.tsv       | https://w3id.org/biopragmatics/resources/uniprot/2024_06/uniprot.tsv       |
+| SSSOM          | https://w3id.org/biopragmatics/resources/uniprot/uniprot.sssom.tsv | https://w3id.org/biopragmatics/resources/uniprot/2024_06/uniprot.sssom.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/uniprot/uniprot.owl.gz    | https://w3id.org/biopragmatics/resources/uniprot/2024_06/uniprot.owl.gz    |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/uniprot/uniprot.json.gz   | https://w3id.org/biopragmatics/resources/uniprot/2024_06/uniprot.json.gz   |
 
 ## Summary
 
-| field       |   count |
-|-------------|---------|
-| alts        |       0 |
-| definitions |       0 |
-| mappings    |  315074 |
-| parents     |       0 |
-| properties  | 5249411 |
-| references  | 1136558 |
-| relations   | 1035701 |
-| synonyms    |       0 |
-| terms       |  572214 |
+| field      |   count |
+|------------|---------|
+| mappings   |  322825 |
+| properties | 5349510 |
+| references | 1139426 |
+| relations  | 1036159 |
+| terms      |  572619 |

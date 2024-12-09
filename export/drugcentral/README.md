@@ -6,7 +6,7 @@ DrugCentral  provides information on active ingredients chemical entities, pharm
 
 ## PURLs
 
-| Artifact       | Download PURL                                                              | Versioned Download PURL                                                       |
+| Artifact       | Download PURL                                                              | Latest Versioned Download PURL                                                |
 |----------------|----------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/drugcentral/drugcentral.obo       | https://w3id.org/biopragmatics/resources/drugcentral/54/drugcentral.obo       |
 | Nodes          | https://w3id.org/biopragmatics/resources/drugcentral/drugcentral.tsv       | https://w3id.org/biopragmatics/resources/drugcentral/54/drugcentral.tsv       |
@@ -18,12 +18,8 @@ DrugCentral  provides information on active ingredients chemical entities, pharm
 
 | field       |   count |
 |-------------|---------|
-| alts        |       0 |
 | definitions |    3267 |
 | mappings    |   76519 |
-| parents     |       0 |
 | properties  |   17913 |
-| references  |       0 |
-| relations   |       0 |
 | synonyms    |   19053 |
 | terms       |    4995 |

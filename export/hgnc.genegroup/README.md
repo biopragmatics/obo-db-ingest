@@ -6,23 +6,20 @@ The HGNC (HUGO Gene Nomenclature Committee) provides an approved gene name and s
 
 ## PURLs
 
-| Artifact       | Download PURL                                                                    | Versioned Download PURL                                                                     |
+| Artifact       | Download PURL                                                                    | Latest Versioned Download PURL                                                              |
 |----------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.obo       | https://w3id.org/biopragmatics/resources/hgnc.genegroup/2024-10-01/hgnc.genegroup.obo       |
-| Nodes          | https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.tsv       | https://w3id.org/biopragmatics/resources/hgnc.genegroup/2024-10-01/hgnc.genegroup.tsv       |
-| SSSOM          | https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.sssom.tsv | https://w3id.org/biopragmatics/resources/hgnc.genegroup/2024-10-01/hgnc.genegroup.sssom.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.owl       | https://w3id.org/biopragmatics/resources/hgnc.genegroup/2024-10-01/hgnc.genegroup.owl       |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.json      | https://w3id.org/biopragmatics/resources/hgnc.genegroup/2024-10-01/hgnc.genegroup.json      |
+| OBO            | https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.obo       | https://w3id.org/biopragmatics/resources/hgnc.genegroup/2024-12-03/hgnc.genegroup.obo       |
+| Nodes          | https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.tsv       | https://w3id.org/biopragmatics/resources/hgnc.genegroup/2024-12-03/hgnc.genegroup.tsv       |
+| SSSOM          | https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.sssom.tsv | https://w3id.org/biopragmatics/resources/hgnc.genegroup/2024-12-03/hgnc.genegroup.sssom.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.owl       | https://w3id.org/biopragmatics/resources/hgnc.genegroup/2024-12-03/hgnc.genegroup.owl       |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.json      | https://w3id.org/biopragmatics/resources/hgnc.genegroup/2024-12-03/hgnc.genegroup.json      |
 
 ## Summary
 
 | field       |   count |
 |-------------|---------|
-| alts        |       0 |
 | definitions |     730 |
-| mappings    |       0 |
 | parents     |    1885 |
-| properties  |       0 |
 | references  |    1612 |
 | relations   |    1828 |
 | synonyms    |    1160 |
