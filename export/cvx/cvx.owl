@@ -1,0 +1,3879 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/cvx.owl#"
+     xml:base="http://purl.obolibrary.org/obo/cvx.owl"
+     xmlns:cvx="http://purl.obolibrary.org/obo/cvx#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cvx.owl">
+        <terms:description>The CDC&apos;s National Center of Immunization and Respiratory Diseases (NCIRD) developed and maintains the CVX (vaccine administered) code set. The table below has the most up to date values. It includes both active and inactive vaccines available in the US. CVX codes for inactive vaccines allow transmission of historical immunization records.</terms:description>
+        <terms:title>Vaccine administered code set</terms:title>
+        <oboInOwl:auto-generated-by>bio2obo:cvx</oboInOwl:auto-generated-by>
+        <oboInOwl:date>10:12:2024 11:38</oboInOwl:date>
+        <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label>has_obo_format_version</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <rdfs:label>id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#deprecated -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#deprecated"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx#nonvaccine -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/cvx#nonvaccine"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx#status -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/cvx#status"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_01 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_01">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>DTP</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:01</oboInOwl:id>
+        <rdfs:label>diphtheria, tetanus toxoids and pertussis vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_02 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_02">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_89"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>OPV</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:02</oboInOwl:id>
+        <rdfs:comment>This is the OPV that was used in the US</rdfs:comment>
+        <rdfs:label>trivalent poliovirus vaccine, live, oral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_03 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_03">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_03"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>MMR</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:03</oboInOwl:id>
+        <rdfs:label>measles, mumps and rubella virus vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_04 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_04">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_03"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>M/R</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:04</oboInOwl:id>
+        <rdfs:label>measles and rubella virus vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_05 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_05">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_03"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>measles</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:05</oboInOwl:id>
+        <rdfs:label>measles virus vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_06 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_06">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_03"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>rubella</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:06</oboInOwl:id>
+        <rdfs:label>rubella virus vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_07 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_07">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_03"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>mumps</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:07</oboInOwl:id>
+        <rdfs:label>mumps virus vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_08 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_08">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_45"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Hep B, adolescent or pediatric</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:08</oboInOwl:id>
+        <rdfs:comment>This code applies to any standard pediatric formulation of Hepatitis B vaccine. It should not be used for the 2-dose hepatitis B schedule for adolescents (11-15 year olds). It requires Merck&apos;s Recombivax HB adult formulation. Use code 43 for that vaccine.</rdfs:comment>
+        <rdfs:label>hepatitis B vaccine, pediatric or pediatric/adolescent dosage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_09 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_09">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_139"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Td (adult), 2 Lf tetanus toxoid, preservative free, adsorbed</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:09</oboInOwl:id>
+        <rdfs:label>tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use (2 Lf of tetanus toxoid and 2 Lf of diphtheria toxoid)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_10 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_10">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_89"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>IPV</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:10</oboInOwl:id>
+        <rdfs:label>poliovirus vaccine, inactivated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_152"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>pneumococcal conjugate PCV 7</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:100</oboInOwl:id>
+        <rdfs:label>pneumococcal conjugate vaccine, 7 valent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_91"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>typhoid, ViCPs</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:101</oboInOwl:id>
+        <rdfs:label>typhoid Vi capsular polysaccharide vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_107"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_17"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_45"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>DTP-Hib-Hep B</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:102</oboInOwl:id>
+        <rdfs:comment>This CVX has been corrected. This non-US vaccine contained DTP, Hib and Hep B. It was withdrawn in 2007 .</rdfs:comment>
+        <rdfs:label>DTP- Haemophilus influenzae type b conjugate and hepatitis b vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_108"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>meningococcal C conjugate</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:103</oboInOwl:id>
+        <rdfs:label>meningococcal C conjugate vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_45"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_85"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Hep A-Hep B</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:104</oboInOwl:id>
+        <rdfs:label>hepatitis A and hepatitis B vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_75"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>vaccinia (smallpox) diluted</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:105</oboInOwl:id>
+        <rdfs:label>vaccinia (smallpox) vaccine, diluted</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_107"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>DTaP, 5 pertussis antigens</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:106</oboInOwl:id>
+        <rdfs:label>diphtheria, tetanus toxoids and acellular pertussis vaccine, 5 pertussis antigens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_107"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>DTaP, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:107</oboInOwl:id>
+        <rdfs:comment>This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a DTaP vaccination when noted on a vaccination card)</rdfs:comment>
+        <rdfs:label>diphtheria, tetanus toxoids and acellular pertussis vaccine, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_108"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>meningococcal ACWY, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:108</oboInOwl:id>
+        <rdfs:comment>This CVX is intended for use when one of the meningococcal vaccines containing serogroups A, C, W and Y (conjugate or polysaccaride) was given and the exact formulation was not recorded. It should not be used to record newly administered immunizations. It is not to be used when one of the meningococcal vaccines containing other serogroups was administered.</rdfs:comment>
+        <rdfs:label>meningococcal ACWY vaccine, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_152"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_33"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>pneumococcal, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:109</oboInOwl:id>
+        <rdfs:comment>This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a pneumococcal vaccination when noted on a vaccination card)</rdfs:comment>
+        <rdfs:label>pneumococcal vaccine, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_11 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_11">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>pertussis</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:11</oboInOwl:id>
+        <rdfs:label>pertussis vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_107"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_45"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_89"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>DTaP-Hep B-IPV</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:110</oboInOwl:id>
+        <rdfs:label>DTaP-hepatitis B and poliovirus vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:id>cvx:111</oboInOwl:id>
+        <rdfs:comment>Trivalent code reactivated for 2024/2025 season</rdfs:comment>
+        <rdfs:label>Influenza, live, trivalent, intranasal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_112">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:id>cvx:112</oboInOwl:id>
+        <rdfs:label>tetanus toxoid, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_139"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:113</oboInOwl:id>
+        <rdfs:label>tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use (5 Lf of tetanus toxoid and 2 Lf of diphtheria toxoid)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_108"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>meningococcal MCV4P</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:114</oboInOwl:id>
+        <rdfs:label>meningococcal polysaccharide (groups A, C, Y and W-135) diphtheria toxoid conjugate vaccine (MCV4P)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_115"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Tdap</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:115</oboInOwl:id>
+        <rdfs:label>tetanus toxoid, reduced diphtheria toxoid, and acellular pertussis vaccine, adsorbed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_122"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>rotavirus, pentavalent</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:116</oboInOwl:id>
+        <rdfs:label>rotavirus, live, pentavalent vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_117">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Never Active</cvx:status>
+        <oboInOwl:hasExactSynonym>VZIG (IND)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:117</oboInOwl:id>
+        <rdfs:label>varicella zoster immune globulin (Investigational New Drug)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_137"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>HPV, bivalent</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:118</oboInOwl:id>
+        <rdfs:label>human papilloma virus vaccine, bivalent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_122"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>rotavirus, monovalent</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:119</oboInOwl:id>
+        <rdfs:label>rotavirus, live, monovalent vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_12 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_12">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:id>cvx:12</oboInOwl:id>
+        <rdfs:label>diphtheria antitoxin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_107"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_17"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_89"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>DTaP-Hib-IPV</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:120</oboInOwl:id>
+        <rdfs:label>diphtheria, tetanus toxoids and acellular pertussis vaccine, Haemophilus influenzae type b conjugate, and poliovirus vaccine, inactivated (DTaP-Hib-IPV)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_188"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>zoster live</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:121</oboInOwl:id>
+        <rdfs:label>zoster vaccine, live</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_122"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>rotavirus, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:122</oboInOwl:id>
+        <rdfs:label>rotavirus vaccine, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_123"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>influenza, H5N1-1203</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:123</oboInOwl:id>
+        <rdfs:label>influenza virus vaccine, H5N1, A/Vietnam/1203/2004 (national stockpile)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_128"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Novel Influenza-H1N1-09, nasal</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:125</oboInOwl:id>
+        <rdfs:label>Novel Influenza-H1N1-09, live virus for nasal administration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_128"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Novel influenza-H1N1-09, preservative-free</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:126</oboInOwl:id>
+        <rdfs:label>Novel influenza-H1N1-09, preservative-free, injectable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_128"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Novel influenza-H1N1-09</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:127</oboInOwl:id>
+        <rdfs:label>Novel influenza-H1N1-09, injectable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_128"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Novel Influenza-H1N1-09, all formulations</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:128</oboInOwl:id>
+        <rdfs:comment>This code is used whenever the actual formulation is not determined or when aggregating all Novel H1N1 Influenza-09 immunizations for reporting to CRA. It should not be used for seasonal influenza vaccine that is not otherwise specified. (NOS)</rdfs:comment>
+        <rdfs:label>Novel influenza-H1N1-09, all formulations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_129"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Japanese Encephalitis, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:129</oboInOwl:id>
+        <rdfs:comment>This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a JE vaccination when noted on a vaccination card)</rdfs:comment>
+        <rdfs:label>Japanese Encephalitis vaccine, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_13 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_13">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>TIG</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:13</oboInOwl:id>
+        <rdfs:label>tetanus immune globulin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_107"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_89"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>DTaP-IPV</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:130</oboInOwl:id>
+        <rdfs:label>Diphtheria, tetanus toxoids and acellular pertussis vaccine, and poliovirus vaccine, inactivated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_131">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>typhus, historical</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:131</oboInOwl:id>
+        <rdfs:label>Historical record of a typhus vaccination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_107"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_17"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_45"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_89"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>DTaP-IPV-HIB-HEP B, historical</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:132</oboInOwl:id>
+        <rdfs:comment>This is not the same as CVX 146, Hexavalent vaccine.</rdfs:comment>
+        <rdfs:label>Historical diphtheria and tetanus toxoids and acellular pertussis, poliovirus, Haemophilus b conjugate and hepatitis B (recombinant) vaccine.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_152"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Pneumococcal conjugate PCV 13</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:133</oboInOwl:id>
+        <rdfs:label>pneumococcal conjugate vaccine, 13 valent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_129"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Japanese Encephalitis IM</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:134</oboInOwl:id>
+        <rdfs:label>Japanese Encephalitis vaccine for intramuscular administration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Influenza, high-dose, trivalent, PF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:135</oboInOwl:id>
+        <rdfs:comment>Trivalent code reactivated for 2024/2025 season</rdfs:comment>
+        <rdfs:label>Influenza, high-dose, split virus, trivalent, injectable, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_108"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Meningococcal MCV4O</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:136</oboInOwl:id>
+        <rdfs:label>meningococcal oligosaccharide (groups A, C, Y and W-135) diphtheria toxoid conjugate vaccine (MCV4O)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_137"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:id>cvx:137</oboInOwl:id>
+        <rdfs:comment>This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a HPV vaccination when noted on a vaccination card)</rdfs:comment>
+        <rdfs:label>HPV, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_139"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Td (adult)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:138</oboInOwl:id>
+        <rdfs:comment>Note that this Td is not adsorbed.</rdfs:comment>
+        <rdfs:label>tetanus and diphtheria toxoids, not adsorbed, for adult use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_139"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:id>cvx:139</oboInOwl:id>
+        <rdfs:comment>This CVX code allows reporting of a historic vaccination when the formulation is unknown (for example, when recording a Td vaccination when noted on a vaccination card)</rdfs:comment>
+        <rdfs:label>Td(adult) unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_14 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_14">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>IG, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:14</oboInOwl:id>
+        <rdfs:label>immune globulin, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Influenza, split virus, trivalent, PF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:140</oboInOwl:id>
+        <rdfs:comment>Trivalent code reactivated for 2024/2025 season</rdfs:comment>
+        <rdfs:label>Influenza, split virus, trivalent, injectable, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Influenza, split virus, trivalent, preservative</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:141</oboInOwl:id>
+        <rdfs:comment>Trivalent code reactivated for 2024/2025 season</rdfs:comment>
+        <rdfs:label>Influenza, split virus, trivalent, injectable, contains preservative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_142">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:id>cvx:142</oboInOwl:id>
+        <rdfs:label>tetanus toxoid, not adsorbed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_82"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Adenovirus types 4 and 7</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:143</oboInOwl:id>
+        <rdfs:comment>This vaccine is administered as 2 tablets.</rdfs:comment>
+        <rdfs:label>Adenovirus, type 4 and type 7, live, oral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>influenza, seasonal, intradermal, preservative free</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:144</oboInOwl:id>
+        <rdfs:comment>IIV3. No US product available since 2014/2015 flu season</rdfs:comment>
+        <rdfs:label>seasonal influenza, intradermal, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_145">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Never Active</cvx:status>
+        <oboInOwl:hasExactSynonym>RSV-MAb (new)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:145</oboInOwl:id>
+        <rdfs:label>respiratory syncytial virus monoclonal antibody (motavizumab), intramuscular</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_107"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_17"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_45"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_89"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>DTaP,IPV,Hib,HepB</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:146</oboInOwl:id>
+        <rdfs:comment>This vaccine is different from CVX 132. Code may be used to document non-US vaccines (e.g. Hexamin) of the same component formulation</rdfs:comment>
+        <rdfs:label>Diphtheria and Tetanus Toxoids and Acellular Pertussis Adsorbed, Inactivated Poliovirus, Haemophilus b Conjugate (Meningococcal Protein Conjugate), and Hepatitis B (Recombinant) Vaccine.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_108"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>meningococcal MCV4, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:147</oboInOwl:id>
+        <rdfs:comment>This CVX should only be used for historical doses of meningococcal conjugate vaccine where the formulation is unknown (oligosaccharide vs polysaccharide). It is not the same as CVX 108, Meningococcal, unspecified formulation. This CVX is for unspecified Meningococcal conjugate vaccines.</rdfs:comment>
+        <rdfs:label>Meningococcal, MCV4, unspecified conjugate formulation(groups A, C, Y and W-135)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_108"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_17"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Meningococcal C/Y-HIB PRP</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:148</oboInOwl:id>
+        <rdfs:label>Meningococcal Groups C and Y and Haemophilus b Tetanus Toxoid Conjugate Vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:id>cvx:149</oboInOwl:id>
+        <rdfs:comment>Quadrivalent code starting 2013/2014 season</rdfs:comment>
+        <rdfs:label>Influenza, live, quadrivalent, intranasal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_15 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_15">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>influenza, split (incl. purified surface antigen)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:15</oboInOwl:id>
+        <rdfs:comment>This code is being retired. It will still be found in older immunization records. It included both preservative free and non-preservative free.</rdfs:comment>
+        <rdfs:label>influenza virus vaccine, split virus (incl. purified surface antigen)-retired CODE</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Influenza, split virus, quadrivalent, PF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:150</oboInOwl:id>
+        <rdfs:comment>Quadrivalent code starting 2013/2014 season</rdfs:comment>
+        <rdfs:label>Influenza, split virus, quadrivalent, injectable, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:id>cvx:151</oboInOwl:id>
+        <rdfs:comment>This CVX should only be used for historical records where the formulation of nasal flu vaccine is not known.</rdfs:comment>
+        <rdfs:label>influenza nasal, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_152"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:id>cvx:152</oboInOwl:id>
+        <rdfs:comment>This CVX should only be used for historical records where the formulation of pneumococcal conjugate vaccine is not known.</rdfs:comment>
+        <rdfs:label>Pneumococcal Conjugate, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Influenza, MDCK, trivalent, PF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:153</oboInOwl:id>
+        <rdfs:comment>Trivalent code reactivated for 2024/2025 season</rdfs:comment>
+        <rdfs:label>Influenza, Madin Darby Canine Kidney, subunit, trivalent, injectable, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_154">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/cvx_86"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Never Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Hep A, IG</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:154</oboInOwl:id>
+        <rdfs:comment>Do not use this code. This product may be used for Hep A and other viral infections. The correct vaccine / CVX is 86 (IG).</rdfs:comment>
+        <rdfs:label>Hepatitis A immune globulin</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Influenza, recombinant, trivalent, PF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:155</oboInOwl:id>
+        <rdfs:comment>Trivalent code reactivated for 2024/2025 season</rdfs:comment>
+        <rdfs:label>Influenza, recombinant, trivalent, injectable, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_156">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Rho(D)-IG</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:156</oboInOwl:id>
+        <rdfs:comment>This immune globulin may be administered either IM or IV.</rdfs:comment>
+        <rdfs:label>Rho(D) Immune globulin- IV or IM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_157">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Rho(D) -IG IM</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:157</oboInOwl:id>
+        <rdfs:comment>This immune globulin may be administered IM only.</rdfs:comment>
+        <rdfs:label>Rho(D) Immune globulin - IM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Influenza, split virus, quadrivalent, preservative</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:158</oboInOwl:id>
+        <rdfs:comment>Quadrivalent code starting 2013/2014 season</rdfs:comment>
+        <rdfs:label>Influenza, split virus, quadrivalent, injectable, contains preservative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_159">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Rho(D) - Unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:159</oboInOwl:id>
+        <rdfs:label>Rho(D) Unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_16 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_16">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>influenza, whole</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:16</oboInOwl:id>
+        <rdfs:label>influenza virus vaccine, whole virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_123"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Influenza A monovalent (H5N1), ADJUVANTED-2013</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:160</oboInOwl:id>
+        <rdfs:comment>Approved by FDA 2013, adjuvant is mixed at point of administration.</rdfs:comment>
+        <rdfs:label>Influenza A monovalent (H5N1), adjuvanted, National stockpile 2013</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_161">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:id>cvx:161</oboInOwl:id>
+        <rdfs:label>Influenza, injectable,quadrivalent, preservative free, pediatric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_162">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_164"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>meningococcal B, recombinant</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:162</oboInOwl:id>
+        <rdfs:label>meningococcal B vaccine, fully recombinant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_164"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>meningococcal B, OMV</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:163</oboInOwl:id>
+        <rdfs:label>meningococcal B vaccine, recombinant, OMV, adjuvanted</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_164"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>meningococcal B, unspecified</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:164</oboInOwl:id>
+        <rdfs:label>meningococcal B, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_165">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_137"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>HPV9</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:165</oboInOwl:id>
+        <rdfs:label>Human Papillomavirus 9-valent vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>influenza, intradermal, quadrivalent, preservative free</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:166</oboInOwl:id>
+        <rdfs:comment>No US product available since 2017/2018 flu season</rdfs:comment>
+        <rdfs:label>influenza, intradermal, quadrivalent, preservative free, injectable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_167">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>meningococcal, unknown serogroups</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:167</oboInOwl:id>
+        <rdfs:comment>This CVX is intended for use when any one of the meningococcal vaccines is recorded and there is no information about which serogroups are protected against. This code should not be used when a newly administered immunization is recorded.</rdfs:comment>
+        <rdfs:label>meningococcal vaccine of unknown formulation and unknown serogroups</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Influenza, adjuvanted, trivalent, PF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:168</oboInOwl:id>
+        <rdfs:comment>Trivalent code reactivated for 2024/2025 season</rdfs:comment>
+        <rdfs:label>Influenza, adjuvanted, inactivated, trivalent, injectable, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_169">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>Hep A, live attenuated</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:169</oboInOwl:id>
+        <rdfs:comment>This vaccine is not available in the US.</rdfs:comment>
+        <rdfs:label>Hep A, live attenuated-IM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_17 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_17">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_17"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Hib, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:17</oboInOwl:id>
+        <rdfs:label>Haemophilus influenzae type b vaccine, conjugate unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_170">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_107"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_17"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_89"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>DTAP/IPV/HIB - non-US</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:170</oboInOwl:id>
+        <rdfs:comment>This CVX was split off from CVX 102, to correctly identify the contents of the vaccine.</rdfs:comment>
+        <rdfs:label>non-US diphtheria, tetanus toxoids and acellular pertussis vaccine, Haemophilus influenzae type b conjugate, and poliovirus vaccine, inactivated (DTaP-Hib-IPV)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Influenza, MDCK, quadrivalent, PF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:171</oboInOwl:id>
+        <rdfs:comment>Quadrivalent code starting 2016/2017 season</rdfs:comment>
+        <rdfs:label>Influenza, Madin Darby Canine Kidney, subunit, quadrivalent, injectable, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_172">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_26"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:id>cvx:172</oboInOwl:id>
+        <rdfs:label>cholera, WC-rBS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_173">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_26"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:id>cvx:173</oboInOwl:id>
+        <rdfs:label>cholera, BivWC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_26"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:id>cvx:174</oboInOwl:id>
+        <rdfs:label>cholera, live attenuated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_90"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Rabies - IM Diploid cell culture</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:175</oboInOwl:id>
+        <rdfs:label>Human Rabies vaccine from human diploid cell culture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_176">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_90"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Rabies - IM fibroblast culture</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:176</oboInOwl:id>
+        <rdfs:label>Human rabies vaccine from Chicken fibroblast culture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_177">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_152"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>PCV10</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:177</oboInOwl:id>
+        <rdfs:comment>This is a foreign vaccine</rdfs:comment>
+        <rdfs:label>pneumococcal conjugate vaccine, 10 valent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_178">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>OPV bivalent</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:178</oboInOwl:id>
+        <rdfs:comment>This is a non-US vaccine that may be seen in some immunization histories.</rdfs:comment>
+        <rdfs:label>Non-US bivalent oral polio vaccine (types 1 and 3)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_179">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>OPV ,monovalent, unspecified</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:179</oboInOwl:id>
+        <rdfs:comment>This is a non-US vaccine that may be seen in some immunization histories. It is composed of either Type 1, Type 2 or Type 3 oral polio vaccine.</rdfs:comment>
+        <rdfs:label>Non-US monovalent oral polio vaccine, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_18 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_18">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_90"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>rabies, intramuscular injection</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:18</oboInOwl:id>
+        <rdfs:comment>This CVX code has been retired. It is replace by CVX 175,  or CVX 176. It will continue to be found in historic records.</rdfs:comment>
+        <rdfs:label>rabies vaccine, for intramuscular injection RETIRED CODE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_180">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/cvx_13"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:id>cvx:180</oboInOwl:id>
+        <rdfs:comment>This record duplicates CVX 13 (TIG). Do not use CVX 180.</rdfs:comment>
+        <rdfs:label>tetanus immune globulin</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_181">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:id>cvx:181</oboInOwl:id>
+        <rdfs:label>anthrax immune globulin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_182">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>OPV, Unspecified</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:182</oboInOwl:id>
+        <rdfs:comment>This code represents an oral polio vaccine where the specific formulation is unknown.</rdfs:comment>
+        <rdfs:label>Oral Polio Vaccine, Unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_184"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Yellow fever vaccine live - alt</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:183</oboInOwl:id>
+        <rdfs:comment>This CVX is associated to an FDA unapproved drug to be used when there is a drug shortage. Stabilized with sorbitol and lactose and has been used outside the US for some time.</rdfs:comment>
+        <rdfs:label>Yellow fever vaccine live - alternative formulation for vaccine shortage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_184"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Yellow fever, unspecified</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:184</oboInOwl:id>
+        <rdfs:label>Yellow fever vaccine, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Influenza, recombinant, quadrivalent, PF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:185</oboInOwl:id>
+        <rdfs:comment>Quadrivalent code starting 2017/2018 season</rdfs:comment>
+        <rdfs:label>Influenza, recombinant, quadrivalent, injectable, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Influenza, MDCK, quadrivalent, preservative</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:186</oboInOwl:id>
+        <rdfs:comment>Quadrivalent code starting 2017/2018 season</rdfs:comment>
+        <rdfs:label>Influenza, Madin Darby Canine Kidney, subunit, quadrivalent, injectable, contains preservative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_188"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>zoster recombinant</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:187</oboInOwl:id>
+        <rdfs:label>zoster vaccine recombinant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_188"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>zoster, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:188</oboInOwl:id>
+        <rdfs:comment>This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a zoster vaccination when noted on a vaccination card)</rdfs:comment>
+        <rdfs:label>zoster vaccine, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_45"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>HepB-CpG</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:189</oboInOwl:id>
+        <rdfs:label>Hepatitis B vaccine (recombinant), CpG adjuvanted</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_19 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_19">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_19"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>BCG</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:19</oboInOwl:id>
+        <rdfs:label>Bacillus Calmette-Guerin vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_190">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>Typhoid conjugate vaccine (TCV)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:190</oboInOwl:id>
+        <rdfs:label>Typhoid conjugate vaccine (non-US)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_191">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>meningococcal A polysaccharide (non-US)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:191</oboInOwl:id>
+        <rdfs:label>meningococcal A polysaccharide vaccine (non-US)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_192">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>meningococcal AC polysaccharide (non-US)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:192</oboInOwl:id>
+        <rdfs:label>meningococcal AC polysaccharide vaccine (non-US)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_45"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_85"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>Hep A-Hep B, pediatric/adolescent</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:193</oboInOwl:id>
+        <rdfs:comment>e.g. Twinrix Junior available in Canada</rdfs:comment>
+        <rdfs:label>hepatitis A and hepatitis B vaccine, pediatric/adolescent (non-US)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Influenza, Southern Hemisphere</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:194</oboInOwl:id>
+        <rdfs:comment>This CVX code should be used to record administration of Southern Hemisphere influenza vaccine where formulation is unknown</rdfs:comment>
+        <rdfs:label>influenza, Southern Hemisphere, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_139"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_89"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>DT, IPV adsorbed</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:195</oboInOwl:id>
+        <rdfs:comment>This code should be used to document non-US vaccines for DT,IPV such as Revaxis</rdfs:comment>
+        <rdfs:label>Diphtheria, Tetanus, Poliomyelitis adsorbed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_139"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Td, adsorbed, preservative free, adult use, Lf unspecified</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:196</oboInOwl:id>
+        <rdfs:comment>Used when Td Lf specification is unknown</rdfs:comment>
+        <rdfs:label>tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use, Lf unspecified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_197">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Influenza, high-dose, quadrivalent, PF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:197</oboInOwl:id>
+        <rdfs:comment>Quadrivalent code starting season 2020/2021</rdfs:comment>
+        <rdfs:label>Influenza, high-dose, split virus, quadrivalent, injectable, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_198">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>DTP-hepB-Hib Pentavalent Non-US</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:198</oboInOwl:id>
+        <rdfs:comment>This represents the non-US pentavalent vaccine.  Should be used for historic documentation in US</rdfs:comment>
+        <rdfs:label>Diphtheria, pertussis, tetanus, hepatitis B, Haemophilus Influenza Type b, (Pentavalent)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_20 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_20">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_107"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>DTaP</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:20</oboInOwl:id>
+        <rdfs:label>diphtheria, tetanus toxoids and acellular pertussis vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>influenza, Southern Hemisphere, pediatric, preservative free</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:200</oboInOwl:id>
+        <rdfs:comment>Pediatric dose for ages 6-35 months</rdfs:comment>
+        <rdfs:label>influenza, seasonal, Southern Hemisphere, quadrivalent, pediatric 0.25mL dose, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_201">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>influenza, Southern Hemisphere, preservative free</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:201</oboInOwl:id>
+        <rdfs:comment>Represents single dose vial</rdfs:comment>
+        <rdfs:label>influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5mL dose, no preservative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>influenza, Southern Hemisphere, quadrivalent, with preservative</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:202</oboInOwl:id>
+        <rdfs:comment>Represents multi-dose vial</rdfs:comment>
+        <rdfs:label>influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5mL dose, with preservative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_108"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>meningococcal conjugate quadrivalent, MenACWY-TT (MCV4)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:203</oboInOwl:id>
+        <rdfs:label>meningococcal polysaccharide (groups A, C, Y, W-135) tetanus toxoid conjugate vaccine 0.5mL dose, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_204">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_214"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:id>cvx:204</oboInOwl:id>
+        <rdfs:comment>FDA Approved ERVEBO Vaccine.</rdfs:comment>
+        <rdfs:label>Ebola Zaire vaccine, live, recombinant, 1mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Influenza, adjuvanted, quadrivalent, PF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:205</oboInOwl:id>
+        <rdfs:comment>Quadrivalent code starting 2020/2021 season</rdfs:comment>
+        <rdfs:label>Influenza, adjuvanted, inactivated, quadrivalent, injectable, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_75"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:206</oboInOwl:id>
+        <rdfs:comment>Associated to FDA US Licensed product JYNNEOS, non-US tradenames IMVANEX, IMVAMUNE. Review CDC &amp; FDA guidance for updates regarding administration</rdfs:comment>
+        <rdfs:label>Vaccinia, smallpox monkeypox vaccine, live attenuated, preservative free, subcutaneous or intradermal injection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:207</oboInOwl:id>
+        <rdfs:comment>Original monovalent Moderna adult vaccine. FDA rescinded all doses for US use 4/18/2023. Continue to used to record historic US Moderna vaccines and those administered in non-US locations (includes tradename Spikevax)</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:208</oboInOwl:id>
+        <rdfs:comment>Original monovalent Pfizer adult vaccine (12+ yrs). FDA rescinded all doses for US use 4/18/2023.  Continue to use to record historic US Pfizer vaccines and Non-US vaccines administered (includes tradename Comirnaty)</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 30 mcg/0.3mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_21 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_21">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_21"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>varicella</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:21</oboInOwl:id>
+        <rdfs:label>varicella virus vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_210">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19 vaccine, vector-nr, rS-ChAdOx1, PF, 0.5 mL</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:210</oboInOwl:id>
+        <rdfs:comment>WHO authorized pandemic vaccine.  Recognized towards immunity in US.  AstraZeneca vaccine non-US WHO authorized tradenames/identifiers include VAXZEVRIA, AZD1222, ChAdOx1 nCoV-19, COVISHIELD</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, vector non-replicating, recombinant spike protein-ChAdOx1, preservative free, 0.5 mL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, subunit, rS-nanoparticle+Matrix-M1 Adjuvant, PF, 0.5 mL</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:211</oboInOwl:id>
+        <rdfs:comment>Original monovalent Novavax vaccine (12+ years), FDA rescinded for US doses 10/03/2023. Continue to use to record Novavax Non-US vaccines administered (includes tradenames NUVAXOVID, COVOVAX)</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, subunit, recombinant spike protein-nanoparticle+Matrix-M1 Adjuvant, preservative free, 0.5mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19 vaccine, vector-nr, rS-Ad26, PF, 0.5 mL</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:212</oboInOwl:id>
+        <rdfs:comment>Original monovalent Janssen/J&amp;J adult vaccine. All NDCs expired 6/20/2023, not reauthorized by FDA for Fall 2023 US doses. Continue to use to record Jansses/J&amp;J Non-US vaccines administered vaccines administered</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, vector non-replicating, recombinant spike protein-Ad26, preservative free, 0.5 mL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:id>cvx:213</oboInOwl:id>
+        <rdfs:comment>Unspecified code for COVID-19 not to be used to record patient US administration. May be used to record historic US administration if product not known.  CVX code 500 should be used to record Non-US vaccine where product is not known.</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_214">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_214"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:id>cvx:214</oboInOwl:id>
+        <rdfs:label>Ebola, unspecified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_152"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Pneumococcal conjugate PCV15, polysaccharide CRM197 conjugate, adjuvant, PF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:215</oboInOwl:id>
+        <rdfs:label>Pneumococcal conjugate vaccine 15-valent (PCV15), polysaccharide CRM197 conjugate, adjuvant, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_152"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Pneumococcal conjugate PCV20, polysaccharide CRM197 conjugate, adjuvant, PF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:216</oboInOwl:id>
+        <rdfs:label>Pneumococcal conjugate vaccine 20-valent (PCV20), polysaccharide CRM197 conjugate, adjuvant, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose, tris-sucrose</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:217</oboInOwl:id>
+        <rdfs:comment>Original monovalent Pfizer tris-sucrose formulation FDA EUA (12+ yrs) and BLA (16+ yrs), FDA rescinded monovalent use 08/31/2022, BLA NDCs not retired until 09/11/2023.</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 30 mcg/0.3mL dose, tris-sucrose formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL dose, tris-sucrose</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:218</oboInOwl:id>
+        <rdfs:comment>Original monovalent Pfizer tris-sucrose formulation (5 yrs through 11 yrs), FDA rescinded 4/18/2023</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 10 mcg/0.2mL dose, tris-sucrose formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, mRNA, LNP-S, PF, 3 mcg/0.2 mL dose, tris-sucrose</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:219</oboInOwl:id>
+        <rdfs:comment>Original monovalent Pfizer tris-sucrose formulation (6 mo through 4 yrs), FDA rescinded 4/18/2023</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 3 mcg/0.2mL dose, tris-sucrose formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_22 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_22">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_107"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_17"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>DTP-Hib</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:22</oboInOwl:id>
+        <rdfs:label>DTP-Haemophilus influenzae type b conjugate vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_220">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_45"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>HepB recombinant, 3-antigen, Al(OH)3</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:220</oboInOwl:id>
+        <rdfs:comment>New Hep B vaccine 1/2022</rdfs:comment>
+        <rdfs:label>Hepatitis B vaccine (recombinant), 3-antigen, Al(OH)3 adjuvanted</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_221">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL dose</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:221</oboInOwl:id>
+        <rdfs:comment>Original monovalent Moderna, (Adult) FDA rescinded 4/18/2023, (6 yrs through 11 yrs) FDA rescinded 04/18/2023</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 50 mcg/0.5 mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_222">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_222"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Tick-borne encephalitis, unspecified</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:222</oboInOwl:id>
+        <rdfs:comment>Unspecified Code - should only be used when specific vaccine administered is unknown</rdfs:comment>
+        <rdfs:label>Tick-borne encephalitis vaccine, unspecified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_222"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Tick-borne encephalitis, inactivated, PF, 0.25mL</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:223</oboInOwl:id>
+        <rdfs:comment>Pediatric dose vaccine</rdfs:comment>
+        <rdfs:label>Tick-borne encephalitis vaccine, inactivated, preservative free, 0.25mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_224">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_222"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Tick-borne encephalitis, inactivated, PF, 0.5mL</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:224</oboInOwl:id>
+        <rdfs:comment>Adult dose vaccine</rdfs:comment>
+        <rdfs:label>Tick-borne encephalitis vaccine, inactivated, preservative free, 0.5mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_225">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Never Active</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, D614, recomb, preS dTM, AS03 adjuvant add, PF, 5mcg/0.5mL</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:225</oboInOwl:id>
+        <rdfs:comment>EUA submission withdrawn by Sanofi</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, D614, prefusion spike recombinant protein subunit (CoV2 preS dTM), AS03 adjuvant added, preservative free, 5mcg/0.5mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_226">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Never Active</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, D614, recomb, preS dTM, AS03 adjuvant add, PF, 10mcg/0.5mL</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:226</oboInOwl:id>
+        <rdfs:comment>EUA submission withdrawn by Sanofi</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, D614, prefusion spike recombinant protein subunit (CoV2 preS dTM), AS03 adjuvant added, preservative free, 10mcg/0.5mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, mRNA, LNP-S, PF, pediatric 50 mcg/0.5 mL dose</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:227</oboInOwl:id>
+        <rdfs:comment>Original monovalent Moderna pediatric vaccine (FDA rescinded 4/18/2023). Inactivated 6/14/2022 to use CVX code 221 product instead</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, pediatric 50 mcg/0.5 mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_228">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, mRNA, LNP-S, PF, pediatric 25 mcg/0.25 mL dose</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:228</oboInOwl:id>
+        <rdfs:comment>Original monovalent Moderna pediatric vaccine (6 mo through 5 yrs), FDA rescinded 4/18/2023</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, pediatric 25 mcg/0.25 mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_229">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, mRNA, LNP-S, bivalent, PF, 50 mcg/0.5 mL or 25mcg/0.25 mL dose</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:229</oboInOwl:id>
+        <rdfs:comment>Original strain + omicron BA.4/BA.5 bivalent Moderna vaccine (6 mo and older), FDA rescinded 9/11/2023.  Continue to use to record Non-US vaccines administered (tradename Spikevax Bivalent)</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, bivalent, preservative free, 50 mcg/0.5 mL or 25 mcg/0.25 mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_23 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_23">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_23"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>plague</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:23</oboInOwl:id>
+        <rdfs:label>plague vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, mRNA, LNP-S, bivalent, PF, 10 mcg/0.2 mL</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:230</oboInOwl:id>
+        <rdfs:comment>Original strain + omicron BA.4/BA.5 bivalent Moderna vaccine (6 mo through 5 yrs), FDA rescinded 9/11/2023</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, bivalent, preservative free, 10 mcg/0.2 mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>influenza, Southern Hemisphere, high-dose, quadrivalent</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:231</oboInOwl:id>
+        <rdfs:comment>Target population 65 and older, starting Southern Hemisphere season 2023</rdfs:comment>
+        <rdfs:label>influenza, seasonal, Southern Hemisphere, high-dose, quadrivalent, 0.7mL dose, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_24 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_24">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_319"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Anthrax, pre-exposure prophylaxis, post-exposure prophylaxis</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:24</oboInOwl:id>
+        <rdfs:label>Anthrax vaccine, adsorbed, pre-exposure and post-exposure prophylaxis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_25 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_25">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_91"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>typhoid, oral</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:25</oboInOwl:id>
+        <rdfs:label>typhoid vaccine, live, oral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_26 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_26">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_26"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>cholera, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:26</oboInOwl:id>
+        <rdfs:label>cholera vaccine, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_27 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_27">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:id>cvx:27</oboInOwl:id>
+        <rdfs:label>botulinum antitoxin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_28 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_28">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_107"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>DT (pediatric)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:28</oboInOwl:id>
+        <rdfs:label>diphtheria and tetanus toxoids, adsorbed for pediatric use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_29 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_29">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>CMVIG</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:29</oboInOwl:id>
+        <rdfs:label>cytomegalovirus immune globulin, intravenous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_30 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_30">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>HBIG</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:30</oboInOwl:id>
+        <rdfs:label>hepatitis B immune globulin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, mRNA, LNP-S, bivalent, PF, 30 mcg/0.3 mL dose</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:300</oboInOwl:id>
+        <rdfs:comment>Original strain + omicron BA.4/BA.5 bivalent Pfizer vaccine (12 yrs and older). FDA rescinded 09/11/2023.  Continue to use to record Non-US vaccines administered (tradename Comirnaty Bivalent)</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, bivalent, preservative free, 30 mcg/0.3 mL dose, tris-sucrose formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_301">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, mRNA, LNP-S, bivalent, PF, 10 mcg/0.2 mL dose</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:301</oboInOwl:id>
+        <rdfs:comment>Original strain + omicron BA.4/BA.5 bivalent Pfizer vaccine (5 yrs through 11 yrs), FDA rescinded 9/11/2023</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, bivalent, preservative free, 10 mcg/0.2 mL dose, tris-sucrose formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, mRNA, LNP-S, bivalent, PF, 3 mcg/0.2 mL dose</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:302</oboInOwl:id>
+        <rdfs:comment>Original strain + omicron BA.4/BA.5 bivalent Pfizer vaccine (6 mo through 4 yrs), FDA rescinded 09/11/2023</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, bivalent, preservative free, 3 mcg/0.2 mL dose, tris-sucrose formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_304"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:303</oboInOwl:id>
+        <rdfs:comment>Adults 60 years and older</rdfs:comment>
+        <rdfs:label>Respiratory syncytial virus (RSV), vaccine, recombinant, protein subunit RSV prefusion F, adjuvant reconstituted, 0.5 mL, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_304">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_304"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:id>cvx:304</oboInOwl:id>
+        <rdfs:comment>Unspecified, for historic records where it is not known if RSV vaccine or RSV MAB was administered</rdfs:comment>
+        <rdfs:label>Respiratory syncytial virus (RSV), unspecified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_304"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:305</oboInOwl:id>
+        <rdfs:comment>Adults 60 years and older, pregnant individuals</rdfs:comment>
+        <rdfs:label>Respiratory syncytial virus (RSV), vaccine, bivalent, protein subunit RSV prefusion F, diluent reconstituted, 0.5 mL, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_304"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:306</oboInOwl:id>
+        <rdfs:comment>RSV monoclonal antibody (Beyfortus)</rdfs:comment>
+        <rdfs:label>Respiratory syncytial virus (RSV) monoclonal antibody, IgG1κ, (nirsevimab-alip), 0.5 mL, neonates and children to 24 months</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_307">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_304"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>RSV, mAb, nirsevimab-alip, 1 mL, neonate to 24 months</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:307</oboInOwl:id>
+        <rdfs:comment>RSV monoclonal antibody (Beyfortus)</rdfs:comment>
+        <rdfs:label>Respiratory syncytial virus (RSV) monoclonal antibody, IgG1κ, (nirsevimab-alip), 1 mL, neonates and children to 24 months</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_308">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:308</oboInOwl:id>
+        <rdfs:comment>Pfizer Fall Seasonal 6 months through 4 years of age</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, tris-sucrose, 3 mcg/0.3 mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, mRNA, LNP-S, PF, tris-sucrose, 30 mcg/0.3 mL</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:309</oboInOwl:id>
+        <rdfs:comment>Pfizer Fall Seasonal 12 years and older</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, tris-sucrose, 30 mcg/0.3 mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_31 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_31">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_85"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/cvx_85"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Hep A, pediatric, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:31</oboInOwl:id>
+        <rdfs:comment>Do NOT use this code.  If formulation is unknown, use CVX 85.  There is only one formulation of Hep A, peds.</rdfs:comment>
+        <rdfs:label>hepatitis A vaccine, pediatric dosage, unspecified formulation</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, mRNA, LNP-S, PF, tris-sucrose, 10 mcg/0.3 mL</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:310</oboInOwl:id>
+        <rdfs:comment>Pfizer Fall Seasonal 5 years through 11 years of age</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, tris-sucrose, 10 mcg/0.3 mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_311">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, mRNA, LNP-S, PF, 25 mcg/0.25 mL</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:311</oboInOwl:id>
+        <rdfs:comment>Moderna Fall Seasonal 6 months through 11 years of age</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 25 mcg/0.25 mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_312">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:312</oboInOwl:id>
+        <rdfs:comment>Moderna Fall Seasonal 12 years and older</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 50 mcg/0.5 mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_313">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19, subunit, rS-nanoparticle, adjuvanted, PF, 5 mcg/0.5 mL</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:313</oboInOwl:id>
+        <rdfs:comment>Novavax Fall Seasonal 12 years and older</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, subunit, recombinant spike protein-nanoparticle+Matrix-M1 Adjuvant, preservative free, 5 mcg/0.5 mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_314">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_304"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:id>cvx:314</oboInOwl:id>
+        <rdfs:comment>Unspecified, for historic records where the specific vaccine administered is not known</rdfs:comment>
+        <rdfs:label>Respiratory syncytial virus (RSV) vaccine, unspecified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_315">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_304"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Respiratory syncytial virus (RSV) MAB, unspecified</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:315</oboInOwl:id>
+        <rdfs:comment>Unspecified, for historic records where the specific RSV MAB administered is not known</rdfs:comment>
+        <rdfs:label>Respiratory syncytial virus (RSV) monoclonal antibody (MAB), unspecified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_316">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_108"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_164"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:316</oboInOwl:id>
+        <rdfs:comment>Meningococcal pentavalent vaccine strains ABCW and Y</rdfs:comment>
+        <rdfs:label>Meningococcal polysaccharide (groups A, C, Y, W) tetanus toxoid conjugate, meningococcal B recombinant vaccine, 0.5mL, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_317"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Chikungunya live attenuated vaccine, 0.5 mL, PF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:317</oboInOwl:id>
+        <rdfs:comment>Chikungunya Vaccine</rdfs:comment>
+        <rdfs:label>Chikungunya, live attenuated vaccine, 0.5 mL, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_319"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Anthrax, post-exposure prophylaxis</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:318</oboInOwl:id>
+        <rdfs:comment>National stockpile vaccine (Cyfendus)</rdfs:comment>
+        <rdfs:label>Anthrax vaccine, adsorbed, adjuvanted, post-exposure prophylaxis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_319">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_319"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:id>cvx:319</oboInOwl:id>
+        <rdfs:comment>Unspecified code to record historic administration when specific product is unknown</rdfs:comment>
+        <rdfs:label>Anthrax vaccine, unspecified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_32 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_32">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_108"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>meningococcal MPSV4</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:32</oboInOwl:id>
+        <rdfs:label>meningococcal polysaccharide vaccine (MPSV4)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_320">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Influenza, MDCK, trivalent, preservative</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:320</oboInOwl:id>
+        <rdfs:comment>Trivalent code starting 2024/2025 season</rdfs:comment>
+        <rdfs:label>Influenza, Madin Darby Canine Kidney, subunit, trivalent, injectable, contains preservative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_321">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_323"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Influenza-avian, H5N8, monovalent, PF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:321</oboInOwl:id>
+        <rdfs:comment>Novel Bird Flu H5N8 Vaccine 2024</rdfs:comment>
+        <rdfs:label>Influenza-avian, H5N8, viral-vector, monovalent, injectable, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_322">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_323"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Influenza-avian, H5N8, monovalent, preservative</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:322</oboInOwl:id>
+        <rdfs:comment>Novel Bird Flu H5N8 Vaccine 2024</rdfs:comment>
+        <rdfs:label>Influenza-avian, H5N8, viral-vector, monovalent, injectable, contains preservative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_323"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:id>cvx:323</oboInOwl:id>
+        <rdfs:comment>Unspecified code H5xx vaccines to be used when specific formulation is unknown - for vaccines administered starting 2024</rdfs:comment>
+        <rdfs:label>Influenza-avian, H5, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_324">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_89"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:id>cvx:324</oboInOwl:id>
+        <rdfs:comment>Non-US polio vaccine administered since 2016</rdfs:comment>
+        <rdfs:label>Poliovirus, inactivated, fractional-dose (fIPV)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_326">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_304"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>RSV, mRNA, injectable, PF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:326</oboInOwl:id>
+        <rdfs:comment>mRNA RSV vaccine added 2024</rdfs:comment>
+        <rdfs:label>Respiratory syncytial virus (RSV), mRNA, injectable, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_152"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Pneumococcal conjugate PCV21, polysaccharide CRM197 conjugate, PF</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:327</oboInOwl:id>
+        <rdfs:label>Pneumococcal conjugate vaccine, 21 valent (PCV21), polysaccharide CRM197 conjugate, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_33 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_33">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_33"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>pneumococcal polysaccharide PPV23</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:33</oboInOwl:id>
+        <rdfs:label>pneumococcal polysaccharide vaccine, 23 valent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_34 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_34">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>RIG</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:34</oboInOwl:id>
+        <rdfs:label>rabies immune globulin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_35 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_35">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_139"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:id>cvx:35</oboInOwl:id>
+        <rdfs:label>tetanus toxoid, adsorbed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_36 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_36">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>VZIG</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:36</oboInOwl:id>
+        <rdfs:label>varicella zoster immune globulin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_37 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_37">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_184"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>yellow fever live</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:37</oboInOwl:id>
+        <rdfs:comment>This is the YF vaccine that has been available in the US for years. It is stabilized with sorbitol and gelatin.</rdfs:comment>
+        <rdfs:label>yellow fever vaccine live</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_38 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_38">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_03"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>rubella/mumps</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:38</oboInOwl:id>
+        <rdfs:label>rubella and mumps virus vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_39 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_39">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_129"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Japanese encephalitis SC</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:39</oboInOwl:id>
+        <rdfs:label>Japanese Encephalitis Vaccine SC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_40 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_40">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_90"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>rabies, intradermal injection</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:40</oboInOwl:id>
+        <rdfs:label>rabies vaccine, for intradermal injection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_41 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_41">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_91"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>typhoid, parenteral</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:41</oboInOwl:id>
+        <rdfs:label>typhoid vaccine, parenteral, other than acetone-killed, dried</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_42 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_42">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_45"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Hep B, adolescent/high risk infant</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:42</oboInOwl:id>
+        <rdfs:comment>As of August 27, 1998, Merck ceased distribution of their adolescent/high risk infant hepatitis B vaccine dosage. Code 42 should only be used to record historical records. For current administration of hepatitis B vaccine, pediatric/adolescent dosage, use code 08.</rdfs:comment>
+        <rdfs:label>hepatitis B vaccine, adolescent/high risk infant dosage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_43 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_43">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_45"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Hep B, adult</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:43</oboInOwl:id>
+        <rdfs:comment>As of September 1999, a 2-dose hepatitis B schedule for adolescents (11-15 year olds) was FDA approved for Merck&apos;s Recombivax HB adult formulation. Use code 43 for the 2-dose. This code should be used for any use of standard adult formulation of hepatitis B vaccine.</rdfs:comment>
+        <rdfs:label>hepatitis B vaccine, adult dosage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_44 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_44">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_45"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Hep B, dialysis</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:44</oboInOwl:id>
+        <rdfs:comment>NDCs that are used for both vaccine and dialysis (e.g. Engerix-B)  are mapped to CVX 43 which is not specific to dialysis use</rdfs:comment>
+        <rdfs:label>hepatitis B vaccine, dialysis patient dosage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_45 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_45">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_45"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Hep B, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:45</oboInOwl:id>
+        <rdfs:comment>This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a HepB vaccination when noted on a vaccination card)</rdfs:comment>
+        <rdfs:label>hepatitis B vaccine, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_46 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_46">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_17"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Hib (PRP-D)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:46</oboInOwl:id>
+        <rdfs:label>Haemophilus influenzae type b vaccine, PRP-D conjugate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_47 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_47">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_17"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Hib (HbOC)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:47</oboInOwl:id>
+        <rdfs:label>Haemophilus influenzae type b vaccine, HbOC conjugate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_48 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_48">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_17"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Hib (PRP-T)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:48</oboInOwl:id>
+        <rdfs:label>Haemophilus influenzae type b vaccine, PRP-T conjugate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_49 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_49">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_17"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Hib (PRP-OMP)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:49</oboInOwl:id>
+        <rdfs:label>Haemophilus influenzae type b vaccine, PRP-OMP conjugate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_50 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_50">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_107"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_17"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>DTaP-Hib</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:50</oboInOwl:id>
+        <rdfs:label>DTaP-Haemophilus influenzae type b conjugate vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_500 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_500">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19 Non-US Vaccine, Product Unknown</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:500</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Covid Administration - specific CVX or product unknown</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 Non-US Vaccine, Specific Product Unknown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_501">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19 IV Non-US Vaccine (QAZCOVID-IN)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:501</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 Inactivated Virus Non-US Vaccine Product (QAZCOVID-IN)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_502">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19 IV Non-US Vaccine (COVAXIN)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:502</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine Authorized by WHO 11-3-2021, recognized toward immunity in US, https://extranet.who.int/pqweb/vaccines/who-recommendation-bharat-biotech-international-ltd-covid-19-vaccine-whole-virion</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 Inactivated Virus Non-US Vaccine Product (COVAXIN)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_503 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_503">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19 LAV Non-US Vaccine (COVIVAC)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:503</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 Live Attenuated Virus Non-US Vaccine Product (COVIVAC)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_504 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_504">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19 VVnr Non-US Vaccine (Sputnik Light)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:504</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 Viral Vector Non-replicating Non-US Vaccine Product (Sputnik Light)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_505 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_505">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19 VVnr Non-US Vaccine (Sputnik V)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:505</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 Viral Vector Non-replicating Non-US Vaccine Product (Sputnik V)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_506 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_506">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19 VVnr Non-US Vaccine (CanSino Biological Inc./Beijing Institute of Biotechnology</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:506</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine. Authorized by WHO 5/19/2022 - Counted toward immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 Viral Vector Non-replicating Non-US Vaccine Product (CONVIDECIA), CanSino Biological Inc./Beijing Institute of Biotechnology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_507">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom Biopharm + Inst of Micro, Chinese Acad of Sciences)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:507</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (Anhui Zhifei Longcom Biopharmaceutical + Institute of Microbiology, Chinese Academy of Sciences)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_508 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_508">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19 PS Non-US Vaccine (Jiangsu Province Centers for Disease Control and Prevention)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:508</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (Jiangsu Province Centers for Disease Control and Prevention)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_509 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_509">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19 PS Non-US Vaccine (EpiVacCorona)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:509</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (EpiVacCorona)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_51 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_51">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_17"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_45"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Hib-Hep B</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:51</oboInOwl:id>
+        <rdfs:comment>This vaccine may still be in use until the existing lots expire on 8/19/16.</rdfs:comment>
+        <rdfs:label>Haemophilus influenzae type b conjugate and Hepatitis B vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_510 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_510">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19 IV Non-US Vaccine (BIBP, Sinopharm)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:510</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine. Authorized by WHO - Counted toward immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 Inactivated Virus Non-US Vaccine Product (BIBP, Sinopharm)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_511 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_511">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19 IV Non-US Vaccine (CoronaVac, Sinovac)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:511</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine. Authorized by WHO - Counted toward immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 Inactivated Virus Non-US Vaccine Product (CoronaVac, Sinovac)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_512 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_512">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>SARS-COV-2 COVID-19 VLP Non-US Vaccine (Medicago, Covifenz)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:512</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine not Authorized by WHO - ACIP does recognize towards immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 Virus Like Particle (VLP) Non-US Vaccine Product (Medicago, Covifenz)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_513 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_513">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>SARS-COV-2 COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom, Zifivax)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:513</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (Anhui Zhifei Longcom, Zifivax)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_514 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_514">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>SARS-COV-2 COVID-19 DNA Non-US Vaccine (Zydus Cadila, ZyCoV-D)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:514</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 DNA Non-US Vaccine Product (Zydus Cadila, ZyCoV-D)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_515 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_515">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>SARS-COV-2 COVID-19 PS Non-US Vaccine (Medigen, MVC-COV1901)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:515</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (Medigen, MVC-COV1901)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_516 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_516">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>COV-2 COVID-19 Inactivated Non-US Vaccine Product (Minhai Biotechnology Co, KCONVAC)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:516</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 Inactivated Non-US Vaccine Product (Minhai Biotechnology Co, KCONVAC)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_517 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_517">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>SARS-COV-2 COVID-19 PS Non-US Vaccine (Biological E Limited, Corbevax)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:517</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (Biological E Limited, Corbevax)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_518">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19 Inactivated, Non-US Vaccine (VLA2001, Valneva)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:518</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 Inactivated, Non-US Vaccine (VLA2001, Valneva)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_519 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_519">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine (Spikevax Bivalent), Moderna</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:519</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine not Authorized by WHO - Is authorized by EU and counted toward immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine (Spikevax Bivalent), Moderna</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_52 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_52">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_85"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Hep A, adult</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:52</oboInOwl:id>
+        <rdfs:label>hepatitis A vaccine, adult dosage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_520 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_520">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine Product, Pfizer-BioNTech</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:520</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine. Authorized by WHO 10/19/2022 - Counted toward immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine Product (Comirnaty Bivalent), Pfizer-BioNTech</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_521 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_521">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_213"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:hasExactSynonym>COVID-19 SP, protein-based, adjuvanted (VidPrevtyn Beta), Sanofi-GSK</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:521</oboInOwl:id>
+        <rdfs:comment>Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine SP, protein-based, adjuvanted, B.1.351 strain (VidPrevtyn Beta), Sanofi-GSK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_53 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_53">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_91"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>typhoid, parenteral, AKD (U.S. military)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:53</oboInOwl:id>
+        <rdfs:label>typhoid vaccine, parenteral, acetone-killed, dried (U.S. military)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_54 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_54">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_82"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>adenovirus, type 4</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:54</oboInOwl:id>
+        <rdfs:label>adenovirus vaccine, type 4, live, oral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_55 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_55">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_82"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>adenovirus, type 7</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:55</oboInOwl:id>
+        <rdfs:label>adenovirus vaccine, type 7, live, oral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_56 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_56">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_56"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>dengue fever tetravalent</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:56</oboInOwl:id>
+        <rdfs:comment>Applies to tetravalent product (e.g. DENGVAXIA)</rdfs:comment>
+        <rdfs:label>dengue fever vaccine, tetravalent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_57 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_57">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Never Active</cvx:status>
+        <oboInOwl:hasExactSynonym>hantavirus</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:57</oboInOwl:id>
+        <rdfs:label>hantavirus vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_58 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_58">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Never Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Hep C</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:58</oboInOwl:id>
+        <rdfs:label>hepatitis C vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_59 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_59">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Never Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Hep E</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:59</oboInOwl:id>
+        <rdfs:label>hepatitis E vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_60 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_60">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Never Active</cvx:status>
+        <oboInOwl:hasExactSynonym>herpes simplex 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:60</oboInOwl:id>
+        <rdfs:label>herpes simplex virus, type 2 vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_61 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_61">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Never Active</cvx:status>
+        <oboInOwl:hasExactSynonym>HIV</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:61</oboInOwl:id>
+        <rdfs:label>human immunodeficiency virus vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_62 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_62">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_137"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>HPV, quadrivalent</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:62</oboInOwl:id>
+        <rdfs:label>human papilloma virus vaccine, quadrivalent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_63 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_63">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Never Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Junin virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:63</oboInOwl:id>
+        <rdfs:label>Junin virus vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_64 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_64">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Never Active</cvx:status>
+        <oboInOwl:hasExactSynonym>leishmaniasis</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:64</oboInOwl:id>
+        <rdfs:label>leishmaniasis vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_65 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_65">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Never Active</cvx:status>
+        <oboInOwl:hasExactSynonym>leprosy</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:65</oboInOwl:id>
+        <rdfs:label>leprosy vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_66 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_66">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_66"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Lyme disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:66</oboInOwl:id>
+        <rdfs:label>Lyme disease vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_67 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_67">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Never Active</cvx:status>
+        <oboInOwl:hasExactSynonym>malaria</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:67</oboInOwl:id>
+        <rdfs:label>malaria vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_68 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_68">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Never Active</cvx:status>
+        <oboInOwl:hasExactSynonym>melanoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:68</oboInOwl:id>
+        <rdfs:label>melanoma vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_69 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_69">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>parainfluenza-3</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:69</oboInOwl:id>
+        <rdfs:label>parainfluenza-3 virus vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_70 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_70">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Never Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Q fever</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:70</oboInOwl:id>
+        <rdfs:label>Q fever vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_71 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_71">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>RSV-IGIV</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:71</oboInOwl:id>
+        <rdfs:comment>No active NDCs or CPT codes associated to this CVX</rdfs:comment>
+        <rdfs:label>respiratory syncytial virus immune globulin, intravenous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_72 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_72">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Never Active</cvx:status>
+        <oboInOwl:hasExactSynonym>rheumatic fever</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:72</oboInOwl:id>
+        <rdfs:label>rheumatic fever vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_73 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_73">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Never Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Rift Valley fever</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:73</oboInOwl:id>
+        <rdfs:label>Rift Valley fever vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_74 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_74">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_122"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>rotavirus, tetravalent</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:74</oboInOwl:id>
+        <rdfs:label>rotavirus, live, tetravalent vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_75 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_75">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_75"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>vaccinia (smallpox)</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:75</oboInOwl:id>
+        <rdfs:label>vaccinia (smallpox) vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_76 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_76">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Staphylococcus bacterio lysate</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:76</oboInOwl:id>
+        <rdfs:label>Staphylococcus bacteriophage lysate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_77 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_77">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_222"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Non-US</cvx:status>
+        <oboInOwl:id>cvx:77</oboInOwl:id>
+        <rdfs:comment>Non-US vaccine</rdfs:comment>
+        <rdfs:label>Tick-borne encephalitis vaccine (non-US)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_78 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_78">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:id>cvx:78</oboInOwl:id>
+        <rdfs:label>tularemia vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_79 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_79">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:id>cvx:79</oboInOwl:id>
+        <rdfs:label>vaccinia immune globulin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_80 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_80">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_92"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>VEE, live</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:80</oboInOwl:id>
+        <rdfs:label>Venezuelan equine encephalitis, live, attenuated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_801 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_801">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:id>cvx:801</oboInOwl:id>
+        <rdfs:comment>This is the adjuvant that is packaged with H5N1 vaccine, adjuvanted</rdfs:comment>
+        <rdfs:label>AS03 Adjuvant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_81 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_81">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_92"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>VEE, inactivated</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:81</oboInOwl:id>
+        <rdfs:label>Venezuelan equine encephalitis, inactivated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_82 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_82">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_82"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>adenovirus, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:82</oboInOwl:id>
+        <rdfs:comment>This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a adenovirus vaccination when noted on a vaccination card)</rdfs:comment>
+        <rdfs:label>adenovirus vaccine, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_83 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_83">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_85"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>Hep A, ped/adol, 2 dose</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:83</oboInOwl:id>
+        <rdfs:label>hepatitis A vaccine, pediatric/adolescent dosage, 2 dose schedule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_84 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_84">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_85"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Hep A, ped/adol, 3 dose</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:84</oboInOwl:id>
+        <rdfs:comment>This vaccine formulation is inactive and should not be used, except to record historic vaccinations with this formulation.</rdfs:comment>
+        <rdfs:label>hepatitis A vaccine, pediatric/adolescent dosage, 3 dose schedule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_85 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_85">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_85"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>Hep A, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:85</oboInOwl:id>
+        <rdfs:comment>This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a HepA vaccination when noted on a vaccination card)</rdfs:comment>
+        <rdfs:label>hepatitis A vaccine, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_86 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_86">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>IG</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:86</oboInOwl:id>
+        <rdfs:label>immune globulin, intramuscular</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_87 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_87">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>IGIV</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:87</oboInOwl:id>
+        <rdfs:label>immune globulin, intravenous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_88 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_88">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_88"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>influenza, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:88</oboInOwl:id>
+        <rdfs:comment>This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a Influenza vaccination when noted on a vaccination card)</rdfs:comment>
+        <rdfs:label>influenza virus vaccine, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_89 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_89">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_89"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>polio, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:89</oboInOwl:id>
+        <rdfs:comment>This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a polio vaccination when noted on a vaccination card)</rdfs:comment>
+        <rdfs:label>poliovirus vaccine, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_90 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_90">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_90"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>rabies, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:90</oboInOwl:id>
+        <rdfs:comment>This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a rabies vaccination when noted on a vaccination card)</rdfs:comment>
+        <rdfs:label>rabies vaccine, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_91 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_91">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_91"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>typhoid, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:91</oboInOwl:id>
+        <rdfs:comment>This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a typhoid vaccination when noted on a vaccination card)</rdfs:comment>
+        <rdfs:label>typhoid vaccine, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_92 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_92">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_92"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>VEE, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:92</oboInOwl:id>
+        <rdfs:comment>This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a VEE vaccination when noted on a vaccination card)</rdfs:comment>
+        <rdfs:label>Venezuelan equine encephalitis vaccine, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_93 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_93">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>RSV-MAb</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:93</oboInOwl:id>
+        <rdfs:label>respiratory syncytial virus monoclonal antibody (palivizumab), intramuscular</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_94 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_94">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_03"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cvx_21"/>
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx:nonvaccine>
+        <cvx:status>Active</cvx:status>
+        <oboInOwl:hasExactSynonym>MMRV</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:94</oboInOwl:id>
+        <rdfs:label>measles, mumps, rubella, and varicella virus vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_95 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_95">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>TST-OT tine test</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:95</oboInOwl:id>
+        <rdfs:comment>TB Skin test is not vaccine.</rdfs:comment>
+        <rdfs:label>tuberculin skin test; old tuberculin, multipuncture device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_96 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_96">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>TST-PPD intradermal</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:96</oboInOwl:id>
+        <rdfs:comment>TB Skin test is not vaccine.</rdfs:comment>
+        <rdfs:label>tuberculin skin test; purified protein derivative solution, intradermal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_97 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_97">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>TST-PPD tine test</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:97</oboInOwl:id>
+        <rdfs:comment>TB Skin test is not vaccine.</rdfs:comment>
+        <rdfs:label>tuberculin skin test; purified protein derivative, multipuncture device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_98 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_98">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>TST, unspecified formulation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:98</oboInOwl:id>
+        <rdfs:comment>TB Skin test is not vaccine.</rdfs:comment>
+        <rdfs:label>tuberculin skin test; unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_998 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_998">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:id>cvx:998</oboInOwl:id>
+        <rdfs:comment>Code 998 was added for use in VXU HL7 messages where the OBX segment is nested with the RXA segment, but the message does not contain information about a vaccine administration. An example of this use is to report the vaccines due next for a patient when no vaccine administration is being reported.</rdfs:comment>
+        <rdfs:label>no vaccine administered</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cvx_999 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cvx_999">
+        <cvx:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</cvx:nonvaccine>
+        <cvx:status>Inactive</cvx:status>
+        <oboInOwl:hasExactSynonym>unknown</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>cvx:999</oboInOwl:id>
+        <rdfs:comment>This CVX code has little utility and should rarely be used.</rdfs:comment>
+        <rdfs:label>unknown vaccine or immune globulin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/cvx#nonvaccine">
+        <oboInOwl:id>nonvaccine</oboInOwl:id>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/cvx#status">
+        <oboInOwl:id>status</oboInOwl:id>
+        <rdfs:label>has status</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

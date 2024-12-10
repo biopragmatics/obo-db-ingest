@@ -1,0 +1,2090 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/bigg.model.owl#"
+     xml:base="http://purl.obolibrary.org/obo/bigg.model.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:bigg.model="http://bigg.ucsd.edu/models/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bigg.model.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bigg.model/1.6.0/bigg.model.owl"/>
+        <terms:description>BiGG is a knowledgebase of Biochemically, Genetically and Genomically structured genome-scale metabolic network reconstructions. It more published genome-scale metabolic networks into a single database with a set of stardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations, and metabolites are linked to many external databases (KEGG, PubChem, and many more). This collection references individual models.</terms:description>
+        <terms:license>http://bigg.ucsd.edu/license#license</terms:license>
+        <terms:title>BiGG Model</terms:title>
+        <oboInOwl:auto-generated-by>bio2obo:bigg.model</oboInOwl:auto-generated-by>
+        <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label>has_obo_format_version</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <rdfs:label>id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002162 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/RECON1 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/RECON1">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:RECON1</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/Recon3D -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/Recon3D">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:Recon3D</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/STM_v1_0 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/STM_v1_0">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_99287"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:STM_v1_0</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/e_coli_core -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/e_coli_core">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_511145"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:e_coli_core</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iAB_RBC_283 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iAB_RBC_283">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iAB_RBC_283</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iAF1260 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iAF1260">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_511145"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iAF1260</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iAF1260b -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iAF1260b">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_511145"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iAF1260b</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iAF692 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iAF692">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_269797"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iAF692</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iAF987 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iAF987">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_269799"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iAF987</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iAM_Pb448 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iAM_Pb448">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5821"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iAM_Pb448</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iAM_Pc455 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iAM_Pc455">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1120755"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iAM_Pc455</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iAM_Pf480 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iAM_Pf480">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_36329"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iAM_Pf480</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iAM_Pk459 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iAM_Pk459">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5851"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iAM_Pk459</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iAM_Pv461 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iAM_Pv461">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_126793"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iAM_Pv461</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iAPECO1_1312 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iAPECO1_1312">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_405955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iAPECO1_1312</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iAT_PLT_636 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iAT_PLT_636">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iAT_PLT_636</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iB21_1397 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iB21_1397">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_469008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iB21_1397</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iBWG_1329 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iBWG_1329">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_595496"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iBWG_1329</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iCHOv1 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iCHOv1">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10029"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iCHOv1</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iCHOv1_DG44 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iCHOv1_DG44">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10029"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iCHOv1_DG44</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iCN718 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iCN718">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_509173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iCN718</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iCN900 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iCN900">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_272563"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iCN900</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iE2348C_1286 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iE2348C_1286">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_574521"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iE2348C_1286</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iEC042_1314 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iEC042_1314">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_216592"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iEC042_1314</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iEC1344_C -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iEC1344_C">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_498388"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iEC1344_C</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iEC1349_Crooks -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iEC1349_Crooks">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_481805"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iEC1349_Crooks</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iEC1356_Bl21DE3 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iEC1356_Bl21DE3">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_469008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iEC1356_Bl21DE3</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iEC1364_W -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iEC1364_W">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_566546"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iEC1364_W</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iEC1368_DH5a -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iEC1368_DH5a">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_668369"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iEC1368_DH5a</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iEC1372_W3110 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iEC1372_W3110">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_316407"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iEC1372_W3110</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iEC55989_1330 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iEC55989_1330">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_585055"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iEC55989_1330</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECABU_c1320 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECABU_c1320">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_655817"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECABU_c1320</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECBD_1354 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECBD_1354">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_866768"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECBD_1354</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECB_1328 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECB_1328">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_413997"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECB_1328</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECDH10B_1368 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECDH10B_1368">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_316385"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECDH10B_1368</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECDH1ME8569_1439 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECDH1ME8569_1439">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_536056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECDH1ME8569_1439</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECD_1391 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECD_1391">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_469008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECD_1391</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECED1_1282 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECED1_1282">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_585397"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECED1_1282</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECH74115_1262 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECH74115_1262">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_444450"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECH74115_1262</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECIAI1_1343 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECIAI1_1343">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_585034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECIAI1_1343</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECIAI39_1322 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECIAI39_1322">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_585057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECIAI39_1322</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECNA114_1301 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECNA114_1301">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1033813"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECNA114_1301</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECO103_1326 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECO103_1326">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_585395"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECO103_1326</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECO111_1330 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECO111_1330">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_585396"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECO111_1330</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECO26_1355 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECO26_1355">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_573235"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECO26_1355</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECOK1_1307 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECOK1_1307">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_714962"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECOK1_1307</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECP_1309 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECP_1309">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_362663"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECP_1309</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECS88_1305 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECS88_1305">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_585035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECS88_1305</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECSE_1348 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECSE_1348">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_409438"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECSE_1348</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECSF_1327 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECSF_1327">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_431946"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECSF_1327</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECSP_1301 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECSP_1301">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_544404"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECSP_1301</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECUMN_1333 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECUMN_1333">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_585056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECUMN_1333</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECW_1372 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECW_1372">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_566546"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECW_1372</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iECs_1301 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iECs_1301">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_386585"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iECs_1301</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iEK1008 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iEK1008">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_83332"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iEK1008</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iEKO11_1354 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iEKO11_1354">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_595495"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iEKO11_1354</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iETEC_1333 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iETEC_1333">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_316401"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iETEC_1333</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iEcDH1_1363 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iEcDH1_1363">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_536056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iEcDH1_1363</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iEcE24377_1341 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iEcE24377_1341">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_331111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iEcE24377_1341</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iEcHS_1320 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iEcHS_1320">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_331112"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iEcHS_1320</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iEcSMS35_1347 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iEcSMS35_1347">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_439855"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iEcSMS35_1347</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iEcolC_1368 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iEcolC_1368">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_481805"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iEcolC_1368</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iG2583_1286 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iG2583_1286">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_701177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iG2583_1286</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iHN637 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iHN637">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_748727"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iHN637</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iIS312 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iIS312">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1416333"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iIS312</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iIS312_Amastigote -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iIS312_Amastigote">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1416333"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iIS312_Amastigote</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iIS312_Epimastigote -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iIS312_Epimastigote">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1416333"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iIS312_Epimastigote</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iIS312_Trypomastigote -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iIS312_Trypomastigote">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1416333"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iIS312_Trypomastigote</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iIT341 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iIT341">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_85962"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iIT341</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iJB785 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iJB785">
+        <oboInOwl:id>bigg.model:iJB785</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iJN1463 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iJN1463">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_160488"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iJN1463</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iJN678 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iJN678">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1148"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iJN678</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iJN746 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iJN746">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_160488"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iJN746</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iJO1366 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iJO1366">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_511145"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iJO1366</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iJR904 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iJR904">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_511145"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iJR904</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iLB1027_lipid -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iLB1027_lipid">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_556484"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iLB1027_lipid</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iLF82_1304 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iLF82_1304">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_591946"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iLF82_1304</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iLJ478 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iLJ478">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_243274"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iLJ478</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iML1515 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iML1515">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_511145"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iML1515</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iMM1415 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iMM1415">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iMM1415</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iMM904 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iMM904">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_559292"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iMM904</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iND750 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iND750">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_559292"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iND750</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iNF517 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iNF517">
+        <oboInOwl:id>bigg.model:iNF517</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iNJ661 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iNJ661">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_83332"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iNJ661</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iNRG857_1313 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iNRG857_1313">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_685038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iNRG857_1313</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iPC815 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iPC815">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_214092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iPC815</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iRC1080 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iRC1080">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3055"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iRC1080</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iSB619 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iSB619">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_158879"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iSB619</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iSBO_1134 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iSBO_1134">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_300268"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iSBO_1134</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iSDY_1059 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iSDY_1059">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_300267"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iSDY_1059</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iSFV_1184 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iSFV_1184">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_373384"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iSFV_1184</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iSF_1195 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iSF_1195">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_198214"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iSF_1195</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iSFxv_1172 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iSFxv_1172">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_591020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iSFxv_1172</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iSSON_1240 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iSSON_1240">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_300269"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iSSON_1240</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iS_1188 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iS_1188">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_198215"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iS_1188</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iSbBS512_1146 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iSbBS512_1146">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_344609"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iSbBS512_1146</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iSynCJ816 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iSynCJ816">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1148"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iSynCJ816</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iUMN146_1321 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iUMN146_1321">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_869729"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iUMN146_1321</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iUMNK88_1353 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iUMNK88_1353">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_696406"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iUMNK88_1353</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iUTI89_1310 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iUTI89_1310">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_364106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iUTI89_1310</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iWFL_1372 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iWFL_1372">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_566546"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iWFL_1372</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iY75_1357 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iY75_1357">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_316407"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iY75_1357</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iYL1228 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iYL1228">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_272620"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iYL1228</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iYO844 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iYO844">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_224308"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iYO844</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iYS1720 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iYS1720">
+        <oboInOwl:id>bigg.model:iYS1720</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iYS854 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iYS854">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_451516"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iYS854</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/iZ_1308 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iZ_1308">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_155864"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:iZ_1308</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/models/ic_1306 -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/ic_1306">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_199310"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>bigg.model:ic_1306</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10029"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1033813 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1033813"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1120755 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1120755"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1148"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_126793 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_126793"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1416333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1416333"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_155864 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_155864"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_158879 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_158879"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_160488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_160488"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_198214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_198214"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_198215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_198215"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_199310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_199310"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_214092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_214092"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_216592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216592"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_224308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_224308"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_243274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_243274"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_269797 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_269797"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_269799 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_269799"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_272563 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_272563"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_272620 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_272620"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_300267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_300267"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_300268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_300268"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_300269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_300269"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3055"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_316385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_316385"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_316401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_316401"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_316407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_316407"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_331111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_331111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_331112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_331112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_344609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_344609"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_362663 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_362663"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_36329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_36329"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_364106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_364106"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_373384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_373384"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_386585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_386585"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_405955 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_405955"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_409438 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_409438"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_413997 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_413997"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_431946 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_431946"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_439855 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_439855"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_444450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_444450"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_451516 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_451516"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_469008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_469008"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_481805 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_481805"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_498388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_498388"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_509173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_509173"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_511145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_511145"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_536056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_536056"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_544404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_544404"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_556484 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_556484"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_559292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_559292"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_566546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_566546"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_573235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_573235"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_574521 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_574521"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5821 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5821"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_585034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_585034"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_585035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_585035"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_585055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_585055"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_585056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_585056"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_585057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_585057"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5851 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5851"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_585395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_585395"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_585396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_585396"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_585397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_585397"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_591020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_591020"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_591946 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_591946"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_595495 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_595495"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_595496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_595496"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_655817 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_655817"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_668369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_668369"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_685038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_685038"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_696406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_696406"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_701177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_701177"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_714962 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_714962"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_748727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_748727"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_83332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_83332"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_85962 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_85962"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_866768 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_866768"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_869729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_869729"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_99287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_99287"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

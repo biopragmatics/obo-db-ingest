@@ -1,0 +1,437 @@
+format-version: 1.2
+auto-generated-by: bio2obo:bigg.model
+data-version: 1.6.0
+idspace: bigg.model http://bigg.ucsd.edu/models/ "BiGG Model"
+ontology: bigg.model
+property_value: http://purl.org/dc/terms/title "BiGG Model" xsd:string
+property_value: http://purl.org/dc/terms/license "http://bigg.ucsd.edu/license#license" xsd:string
+property_value: http://purl.org/dc/terms/description "BiGG is a knowledgebase of Biochemically\, Genetically and Genomically structured genome-scale metabolic network reconstructions. It more published genome-scale metabolic networks into a single database with a set of stardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations\, and metabolites are linked to many external databases \(KEGG\, PubChem\, and many more\). This collection references individual models." xsd:string
+
+[Term]
+id: bigg.model:RECON1
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+
+[Term]
+id: bigg.model:Recon3D
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+
+[Term]
+id: bigg.model:STM_v1_0
+relationship: RO:0002162 NCBITaxon:99287 ! in taxon Salmonella enterica subsp. enterica serovar Typhimurium str. LT2
+
+[Term]
+id: bigg.model:e_coli_core
+relationship: RO:0002162 NCBITaxon:511145 ! in taxon Escherichia coli str. K-12 substr. MG1655
+
+[Term]
+id: bigg.model:iAB_RBC_283
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+
+[Term]
+id: bigg.model:iAF1260
+relationship: RO:0002162 NCBITaxon:511145 ! in taxon Escherichia coli str. K-12 substr. MG1655
+
+[Term]
+id: bigg.model:iAF1260b
+relationship: RO:0002162 NCBITaxon:511145 ! in taxon Escherichia coli str. K-12 substr. MG1655
+
+[Term]
+id: bigg.model:iAF692
+relationship: RO:0002162 NCBITaxon:269797 ! in taxon Methanosarcina barkeri str. Fusaro
+
+[Term]
+id: bigg.model:iAF987
+relationship: RO:0002162 NCBITaxon:269799 ! in taxon Geobacter metallireducens GS-15
+
+[Term]
+id: bigg.model:iAM_Pb448
+relationship: RO:0002162 NCBITaxon:5821 ! in taxon Plasmodium berghei
+
+[Term]
+id: bigg.model:iAM_Pc455
+relationship: RO:0002162 NCBITaxon:1120755 ! in taxon Plasmodium cynomolgi strain B
+
+[Term]
+id: bigg.model:iAM_Pf480
+relationship: RO:0002162 NCBITaxon:36329 ! in taxon Plasmodium falciparum 3D7
+
+[Term]
+id: bigg.model:iAM_Pk459
+relationship: RO:0002162 NCBITaxon:5851 ! in taxon Plasmodium knowlesi strain H
+
+[Term]
+id: bigg.model:iAM_Pv461
+relationship: RO:0002162 NCBITaxon:126793 ! in taxon Plasmodium vivax Sal-1
+
+[Term]
+id: bigg.model:iAPECO1_1312
+relationship: RO:0002162 NCBITaxon:405955 ! in taxon Escherichia coli APEC O1
+
+[Term]
+id: bigg.model:iAT_PLT_636
+relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
+
+[Term]
+id: bigg.model:iB21_1397
+relationship: RO:0002162 NCBITaxon:469008 ! in taxon Escherichia coli BL21(DE3)
+
+[Term]
+id: bigg.model:iBWG_1329
+relationship: RO:0002162 NCBITaxon:595496 ! in taxon Escherichia coli BW2952
+
+[Term]
+id: bigg.model:iCHOv1
+relationship: RO:0002162 NCBITaxon:10029 ! in taxon Cricetulus griseus
+
+[Term]
+id: bigg.model:iCHOv1_DG44
+relationship: RO:0002162 NCBITaxon:10029 ! in taxon Cricetulus griseus
+
+[Term]
+id: bigg.model:iCN718
+relationship: RO:0002162 NCBITaxon:509173 ! in taxon Acinetobacter baumannii AYE
+
+[Term]
+id: bigg.model:iCN900
+relationship: RO:0002162 NCBITaxon:272563 ! in taxon Clostridioides difficile 630
+
+[Term]
+id: bigg.model:iE2348C_1286
+relationship: RO:0002162 NCBITaxon:574521 ! in taxon Escherichia coli O127:H6 str. E2348/69
+
+[Term]
+id: bigg.model:iEC042_1314
+relationship: RO:0002162 NCBITaxon:216592 ! in taxon Escherichia coli 042
+
+[Term]
+id: bigg.model:iEC1344_C
+relationship: RO:0002162 NCBITaxon:498388 ! in taxon Escherichia coli C
+
+[Term]
+id: bigg.model:iEC1349_Crooks
+relationship: RO:0002162 NCBITaxon:481805 ! in taxon Escherichia coli ATCC 8739
+
+[Term]
+id: bigg.model:iEC1356_Bl21DE3
+relationship: RO:0002162 NCBITaxon:469008 ! in taxon Escherichia coli BL21(DE3)
+
+[Term]
+id: bigg.model:iEC1364_W
+relationship: RO:0002162 NCBITaxon:566546 ! in taxon Escherichia coli W
+
+[Term]
+id: bigg.model:iEC1368_DH5a
+relationship: RO:0002162 NCBITaxon:668369 ! in taxon Escherichia coli DH5[alpha]
+
+[Term]
+id: bigg.model:iEC1372_W3110
+relationship: RO:0002162 NCBITaxon:316407 ! in taxon Escherichia coli str. K-12 substr. W3110
+
+[Term]
+id: bigg.model:iEC55989_1330
+relationship: RO:0002162 NCBITaxon:585055 ! in taxon Escherichia coli 55989
+
+[Term]
+id: bigg.model:iECABU_c1320
+relationship: RO:0002162 NCBITaxon:655817 ! in taxon Escherichia coli ABU 83972
+
+[Term]
+id: bigg.model:iECBD_1354
+relationship: RO:0002162 NCBITaxon:866768 ! in taxon Escherichia coli 'BL21-Gold(DE3)pLysS AG'
+
+[Term]
+id: bigg.model:iECB_1328
+relationship: RO:0002162 NCBITaxon:413997 ! in taxon Escherichia coli B str. REL606
+
+[Term]
+id: bigg.model:iECDH10B_1368
+relationship: RO:0002162 NCBITaxon:316385 ! in taxon Escherichia coli str. K-12 substr. DH10B
+
+[Term]
+id: bigg.model:iECDH1ME8569_1439
+relationship: RO:0002162 NCBITaxon:536056 ! in taxon Escherichia coli DH1
+
+[Term]
+id: bigg.model:iECD_1391
+relationship: RO:0002162 NCBITaxon:469008 ! in taxon Escherichia coli BL21(DE3)
+
+[Term]
+id: bigg.model:iECED1_1282
+relationship: RO:0002162 NCBITaxon:585397 ! in taxon Escherichia coli ED1a
+
+[Term]
+id: bigg.model:iECH74115_1262
+relationship: RO:0002162 NCBITaxon:444450 ! in taxon Escherichia coli O157:H7 str. EC4115
+
+[Term]
+id: bigg.model:iECIAI1_1343
+relationship: RO:0002162 NCBITaxon:585034 ! in taxon Escherichia coli IAI1
+
+[Term]
+id: bigg.model:iECIAI39_1322
+relationship: RO:0002162 NCBITaxon:585057 ! in taxon Escherichia coli IAI39
+
+[Term]
+id: bigg.model:iECNA114_1301
+relationship: RO:0002162 NCBITaxon:1033813 ! in taxon Escherichia coli NA114
+
+[Term]
+id: bigg.model:iECO103_1326
+relationship: RO:0002162 NCBITaxon:585395 ! in taxon Escherichia coli O103:H2 str. 12009
+
+[Term]
+id: bigg.model:iECO111_1330
+relationship: RO:0002162 NCBITaxon:585396 ! in taxon Escherichia coli O111:H- str. 11128
+
+[Term]
+id: bigg.model:iECO26_1355
+relationship: RO:0002162 NCBITaxon:573235 ! in taxon Escherichia coli O26:H11 str. 11368
+
+[Term]
+id: bigg.model:iECOK1_1307
+relationship: RO:0002162 NCBITaxon:714962 ! in taxon Escherichia coli IHE3034
+
+[Term]
+id: bigg.model:iECP_1309
+relationship: RO:0002162 NCBITaxon:362663 ! in taxon Escherichia coli 536
+
+[Term]
+id: bigg.model:iECS88_1305
+relationship: RO:0002162 NCBITaxon:585035 ! in taxon Escherichia coli S88
+
+[Term]
+id: bigg.model:iECSE_1348
+relationship: RO:0002162 NCBITaxon:409438 ! in taxon Escherichia coli SE11
+
+[Term]
+id: bigg.model:iECSF_1327
+relationship: RO:0002162 NCBITaxon:431946 ! in taxon Escherichia coli SE15
+
+[Term]
+id: bigg.model:iECSP_1301
+relationship: RO:0002162 NCBITaxon:544404 ! in taxon Escherichia coli O157:H7 str. TW14359
+
+[Term]
+id: bigg.model:iECUMN_1333
+relationship: RO:0002162 NCBITaxon:585056 ! in taxon Escherichia coli UMN026
+
+[Term]
+id: bigg.model:iECW_1372
+relationship: RO:0002162 NCBITaxon:566546 ! in taxon Escherichia coli W
+
+[Term]
+id: bigg.model:iECs_1301
+relationship: RO:0002162 NCBITaxon:386585 ! in taxon Escherichia coli O157:H7 str. Sakai
+
+[Term]
+id: bigg.model:iEK1008
+relationship: RO:0002162 NCBITaxon:83332 ! in taxon Mycobacterium tuberculosis H37Rv
+
+[Term]
+id: bigg.model:iEKO11_1354
+relationship: RO:0002162 NCBITaxon:595495 ! in taxon Escherichia coli KO11FL
+
+[Term]
+id: bigg.model:iETEC_1333
+relationship: RO:0002162 NCBITaxon:316401 ! in taxon Escherichia coli ETEC H10407
+
+[Term]
+id: bigg.model:iEcDH1_1363
+relationship: RO:0002162 NCBITaxon:536056 ! in taxon Escherichia coli DH1
+
+[Term]
+id: bigg.model:iEcE24377_1341
+relationship: RO:0002162 NCBITaxon:331111 ! in taxon Escherichia coli O139:H28 str. E24377A
+
+[Term]
+id: bigg.model:iEcHS_1320
+relationship: RO:0002162 NCBITaxon:331112 ! in taxon Escherichia coli HS
+
+[Term]
+id: bigg.model:iEcSMS35_1347
+relationship: RO:0002162 NCBITaxon:439855 ! in taxon Escherichia coli SMS-3-5
+
+[Term]
+id: bigg.model:iEcolC_1368
+relationship: RO:0002162 NCBITaxon:481805 ! in taxon Escherichia coli ATCC 8739
+
+[Term]
+id: bigg.model:iG2583_1286
+relationship: RO:0002162 NCBITaxon:701177 ! in taxon Escherichia coli O55:H7 str. CB9615
+
+[Term]
+id: bigg.model:iHN637
+relationship: RO:0002162 NCBITaxon:748727 ! in taxon Clostridium ljungdahlii DSM 13528
+
+[Term]
+id: bigg.model:iIS312
+relationship: RO:0002162 NCBITaxon:1416333 ! in taxon Trypanosoma cruzi Dm28c
+
+[Term]
+id: bigg.model:iIS312_Amastigote
+relationship: RO:0002162 NCBITaxon:1416333 ! in taxon Trypanosoma cruzi Dm28c
+
+[Term]
+id: bigg.model:iIS312_Epimastigote
+relationship: RO:0002162 NCBITaxon:1416333 ! in taxon Trypanosoma cruzi Dm28c
+
+[Term]
+id: bigg.model:iIS312_Trypomastigote
+relationship: RO:0002162 NCBITaxon:1416333 ! in taxon Trypanosoma cruzi Dm28c
+
+[Term]
+id: bigg.model:iIT341
+relationship: RO:0002162 NCBITaxon:85962 ! in taxon Helicobacter pylori 26695
+
+[Term]
+id: bigg.model:iJB785
+
+[Term]
+id: bigg.model:iJN1463
+relationship: RO:0002162 NCBITaxon:160488 ! in taxon Pseudomonas putida KT2440
+
+[Term]
+id: bigg.model:iJN678
+relationship: RO:0002162 NCBITaxon:1148 ! in taxon Synechocystis sp. PCC 6803
+
+[Term]
+id: bigg.model:iJN746
+relationship: RO:0002162 NCBITaxon:160488 ! in taxon Pseudomonas putida KT2440
+
+[Term]
+id: bigg.model:iJO1366
+relationship: RO:0002162 NCBITaxon:511145 ! in taxon Escherichia coli str. K-12 substr. MG1655
+
+[Term]
+id: bigg.model:iJR904
+relationship: RO:0002162 NCBITaxon:511145 ! in taxon Escherichia coli str. K-12 substr. MG1655
+
+[Term]
+id: bigg.model:iLB1027_lipid
+relationship: RO:0002162 NCBITaxon:556484 ! in taxon Phaeodactylum tricornutum CCAP 1055/1
+
+[Term]
+id: bigg.model:iLF82_1304
+relationship: RO:0002162 NCBITaxon:591946 ! in taxon Escherichia coli LF82
+
+[Term]
+id: bigg.model:iLJ478
+relationship: RO:0002162 NCBITaxon:243274 ! in taxon Thermotoga maritima MSB8
+
+[Term]
+id: bigg.model:iML1515
+relationship: RO:0002162 NCBITaxon:511145 ! in taxon Escherichia coli str. K-12 substr. MG1655
+
+[Term]
+id: bigg.model:iMM1415
+relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
+
+[Term]
+id: bigg.model:iMM904
+relationship: RO:0002162 NCBITaxon:559292 ! in taxon Saccharomyces cerevisiae S288C
+
+[Term]
+id: bigg.model:iND750
+relationship: RO:0002162 NCBITaxon:559292 ! in taxon Saccharomyces cerevisiae S288C
+
+[Term]
+id: bigg.model:iNF517
+
+[Term]
+id: bigg.model:iNJ661
+relationship: RO:0002162 NCBITaxon:83332 ! in taxon Mycobacterium tuberculosis H37Rv
+
+[Term]
+id: bigg.model:iNRG857_1313
+relationship: RO:0002162 NCBITaxon:685038 ! in taxon Escherichia coli O83:H1 str. NRG 857C
+
+[Term]
+id: bigg.model:iPC815
+relationship: RO:0002162 NCBITaxon:214092 ! in taxon Yersinia pestis CO92
+
+[Term]
+id: bigg.model:iRC1080
+relationship: RO:0002162 NCBITaxon:3055 ! in taxon Chlamydomonas reinhardtii
+
+[Term]
+id: bigg.model:iSB619
+relationship: RO:0002162 NCBITaxon:158879 ! in taxon Staphylococcus aureus subsp. aureus N315
+
+[Term]
+id: bigg.model:iSBO_1134
+relationship: RO:0002162 NCBITaxon:300268 ! in taxon Shigella boydii Sb227
+
+[Term]
+id: bigg.model:iSDY_1059
+relationship: RO:0002162 NCBITaxon:300267 ! in taxon Shigella dysenteriae Sd197
+
+[Term]
+id: bigg.model:iSFV_1184
+relationship: RO:0002162 NCBITaxon:373384 ! in taxon Shigella flexneri 5 str. 8401
+
+[Term]
+id: bigg.model:iSF_1195
+relationship: RO:0002162 NCBITaxon:198214 ! in taxon Shigella flexneri 2a str. 301
+
+[Term]
+id: bigg.model:iSFxv_1172
+relationship: RO:0002162 NCBITaxon:591020 ! in taxon Shigella flexneri 2002017
+
+[Term]
+id: bigg.model:iSSON_1240
+relationship: RO:0002162 NCBITaxon:300269 ! in taxon Shigella sonnei Ss046
+
+[Term]
+id: bigg.model:iS_1188
+relationship: RO:0002162 NCBITaxon:198215 ! in taxon Shigella flexneri 2a str. 2457T
+
+[Term]
+id: bigg.model:iSbBS512_1146
+relationship: RO:0002162 NCBITaxon:344609 ! in taxon Shigella boydii CDC 3083-94
+
+[Term]
+id: bigg.model:iSynCJ816
+relationship: RO:0002162 NCBITaxon:1148 ! in taxon Synechocystis sp. PCC 6803
+
+[Term]
+id: bigg.model:iUMN146_1321
+relationship: RO:0002162 NCBITaxon:869729 ! in taxon Escherichia coli UM146
+
+[Term]
+id: bigg.model:iUMNK88_1353
+relationship: RO:0002162 NCBITaxon:696406 ! in taxon Escherichia coli UMNK88
+
+[Term]
+id: bigg.model:iUTI89_1310
+relationship: RO:0002162 NCBITaxon:364106 ! in taxon Escherichia coli UTI89
+
+[Term]
+id: bigg.model:iWFL_1372
+relationship: RO:0002162 NCBITaxon:566546 ! in taxon Escherichia coli W
+
+[Term]
+id: bigg.model:iY75_1357
+relationship: RO:0002162 NCBITaxon:316407 ! in taxon Escherichia coli str. K-12 substr. W3110
+
+[Term]
+id: bigg.model:iYL1228
+relationship: RO:0002162 NCBITaxon:272620 ! in taxon Klebsiella pneumoniae subsp. pneumoniae MGH 78578
+
+[Term]
+id: bigg.model:iYO844
+relationship: RO:0002162 NCBITaxon:224308 ! in taxon Bacillus subtilis subsp. subtilis str. 168
+
+[Term]
+id: bigg.model:iYS1720
+
+[Term]
+id: bigg.model:iYS854
+relationship: RO:0002162 NCBITaxon:451516 ! in taxon Staphylococcus aureus subsp. aureus USA300_TCH1516
+
+[Term]
+id: bigg.model:iZ_1308
+relationship: RO:0002162 NCBITaxon:155864 ! in taxon Escherichia coli O157:H7 str. EDL933
+
+[Term]
+id: bigg.model:ic_1306
+relationship: RO:0002162 NCBITaxon:199310 ! in taxon Escherichia coli CFT073

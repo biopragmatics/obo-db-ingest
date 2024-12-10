@@ -1,0 +1,171 @@
+{
+  "graphs" : [ {
+    "id" : "http://purl.obolibrary.org/obo/credit.owl",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/terms/description",
+        "val" : "CRediT (Contributor Roles Taxonomy) is high-level taxonomy, including 14 roles, that can be used to represent the roles typically played by contributors to scientific scholarly output. The roles describe each contributor’s specific contribution to the scholarly output."
+      }, {
+        "pred" : "http://purl.org/dc/terms/title",
+        "val" : "CASRAI Contributor Roles Taxonomy"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
+        "val" : "bio2obo:credit"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+        "val" : "1.2"
+      } ],
+      "version" : "http://purl.obolibrary.org/obo/credit/2022/credit.owl"
+    },
+    "nodes" : [ {
+      "id" : "https://credit.niso.org/contributor-roles/conceptualization",
+      "lbl" : "Conceptualization",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Ideas; formulation or evolution of overarching research goals and aims."
+        }
+      }
+    }, {
+      "id" : "https://credit.niso.org/contributor-roles/data-curation",
+      "lbl" : "Data curation",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later re-use."
+        }
+      }
+    }, {
+      "id" : "https://credit.niso.org/contributor-roles/formal-analysis",
+      "lbl" : "Formal analysis",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Application of statistical, mathematical, computational, or other formal techniques to analyse or synthesize study data."
+        }
+      }
+    }, {
+      "id" : "https://credit.niso.org/contributor-roles/funding-acquisition",
+      "lbl" : "Funding acquisition",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Acquisition of the financial support for the project leading to this publication."
+        }
+      }
+    }, {
+      "id" : "https://credit.niso.org/contributor-roles/investigation",
+      "lbl" : "Investigation",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection."
+        }
+      }
+    }, {
+      "id" : "https://credit.niso.org/contributor-roles/methodology",
+      "lbl" : "Methodology",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Development or design of methodology; creation of models."
+        }
+      }
+    }, {
+      "id" : "https://credit.niso.org/contributor-roles/project-administration",
+      "lbl" : "Project administration",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Management and coordination responsibility for the research activity planning and execution."
+        }
+      }
+    }, {
+      "id" : "https://credit.niso.org/contributor-roles/resources",
+      "lbl" : "Resources",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools."
+        }
+      }
+    }, {
+      "id" : "https://credit.niso.org/contributor-roles/software",
+      "lbl" : "Software",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components."
+        }
+      }
+    }, {
+      "id" : "https://credit.niso.org/contributor-roles/supervision",
+      "lbl" : "Supervision",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team."
+        }
+      }
+    }, {
+      "id" : "https://credit.niso.org/contributor-roles/validation",
+      "lbl" : "Validation",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Verification, whether as a part of the activity or separate, of the overall replication/reproducibility of results/experiments and other research outputs."
+        }
+      }
+    }, {
+      "id" : "https://credit.niso.org/contributor-roles/visualization",
+      "lbl" : "Visualization",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Preparation, creation and/or presentation of the published work, specifically visualization/data presentation."
+        }
+      }
+    }, {
+      "id" : "https://credit.niso.org/contributor-roles/writing-original-draft",
+      "lbl" : "Writing – original draft",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation)."
+        }
+      }
+    }, {
+      "id" : "https://credit.niso.org/contributor-roles/writing-review-editing",
+      "lbl" : "Writing – review & editing",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision — including pre- or post-publication stages."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "lbl" : "definition",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+      "lbl" : "has_obo_format_version",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#id",
+      "lbl" : "id",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    } ]
+  } ]
+}

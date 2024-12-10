@@ -1,0 +1,1030 @@
+{
+  "graphs" : [ {
+    "id" : "http://purl.obolibrary.org/obo/bigg.model.owl",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/terms/description",
+        "val" : "BiGG is a knowledgebase of Biochemically, Genetically and Genomically structured genome-scale metabolic network reconstructions. It more published genome-scale metabolic networks into a single database with a set of stardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations, and metabolites are linked to many external databases (KEGG, PubChem, and many more). This collection references individual models."
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "http://bigg.ucsd.edu/license#license"
+      }, {
+        "pred" : "http://purl.org/dc/terms/title",
+        "val" : "BiGG Model"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
+        "val" : "bio2obo:bigg.model"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+        "val" : "1.2"
+      } ],
+      "version" : "http://purl.obolibrary.org/obo/bigg.model/1.6.0/bigg.model.owl"
+    },
+    "nodes" : [ {
+      "id" : "http://bigg.ucsd.edu/models/RECON1",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/Recon3D",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/STM_v1_0",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/e_coli_core",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iAB_RBC_283",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iAF1260",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iAF1260b",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iAF692",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iAF987",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iAM_Pb448",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iAM_Pc455",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iAM_Pf480",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iAM_Pk459",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iAM_Pv461",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iAPECO1_1312",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iAT_PLT_636",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iB21_1397",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iBWG_1329",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iCHOv1",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iCHOv1_DG44",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iCN718",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iCN900",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iE2348C_1286",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iEC042_1314",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iEC1344_C",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iEC1349_Crooks",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iEC1356_Bl21DE3",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iEC1364_W",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iEC1368_DH5a",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iEC1372_W3110",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iEC55989_1330",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECABU_c1320",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECBD_1354",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECB_1328",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECDH10B_1368",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECDH1ME8569_1439",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECD_1391",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECED1_1282",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECH74115_1262",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECIAI1_1343",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECIAI39_1322",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECNA114_1301",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECO103_1326",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECO111_1330",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECO26_1355",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECOK1_1307",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECP_1309",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECS88_1305",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECSE_1348",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECSF_1327",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECSP_1301",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECUMN_1333",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECW_1372",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iECs_1301",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iEK1008",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iEKO11_1354",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iETEC_1333",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iEcDH1_1363",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iEcE24377_1341",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iEcHS_1320",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iEcSMS35_1347",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iEcolC_1368",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iG2583_1286",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iHN637",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iIS312",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iIS312_Amastigote",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iIS312_Epimastigote",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iIS312_Trypomastigote",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iIT341",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iJB785",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iJN1463",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iJN678",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iJN746",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iJO1366",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iJR904",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iLB1027_lipid",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iLF82_1304",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iLJ478",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iML1515",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iMM1415",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iMM904",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iND750",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iNF517",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iNJ661",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iNRG857_1313",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iPC815",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iRC1080",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iSB619",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iSBO_1134",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iSDY_1059",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iSFV_1184",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iSF_1195",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iSFxv_1172",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iSSON_1240",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iS_1188",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iSbBS512_1146",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iSynCJ816",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iUMN146_1321",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iUMNK88_1353",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iUTI89_1310",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iWFL_1372",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iY75_1357",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iYL1228",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iYO844",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iYS1720",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iYS854",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/iZ_1308",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/models/ic_1306",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10029",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10090",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1033813",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1120755",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1148",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_126793",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1416333",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_155864",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_158879",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_160488",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_198214",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_198215",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_199310",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_214092",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_216592",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_224308",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_243274",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_269797",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_269799",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_272563",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_272620",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_300267",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_300268",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_300269",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_3055",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_316385",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_316401",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_316407",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_331111",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_331112",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_344609",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_362663",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_36329",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_364106",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_373384",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_386585",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_405955",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_409438",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_413997",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_431946",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_439855",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_444450",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_451516",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_469008",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_481805",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_498388",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_509173",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_511145",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_536056",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_544404",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_556484",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_559292",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_566546",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_573235",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_574521",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_5821",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_585034",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_585035",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_585055",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_585056",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_585057",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_5851",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_585395",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_585396",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_585397",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_591020",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_591946",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_595495",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_595496",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_655817",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_668369",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_685038",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_696406",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_701177",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_714962",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_748727",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_83332",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_85962",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_866768",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_869729",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_99287",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+      "lbl" : "has_obo_format_version",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#id",
+      "lbl" : "id",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    } ],
+    "edges" : [ {
+      "sub" : "http://bigg.ucsd.edu/models/RECON1",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/Recon3D",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/STM_v1_0",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_99287"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/e_coli_core",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iAB_RBC_283",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iAF1260",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iAF1260b",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iAF692",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_269797"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iAF987",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_269799"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iAM_Pb448",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_5821"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iAM_Pc455",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1120755"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iAM_Pf480",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_36329"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iAM_Pk459",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_5851"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iAM_Pv461",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_126793"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iAPECO1_1312",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_405955"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iAT_PLT_636",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iB21_1397",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_469008"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iBWG_1329",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_595496"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iCHOv1",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10029"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iCHOv1_DG44",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10029"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iCN718",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_509173"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iCN900",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_272563"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iE2348C_1286",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_574521"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iEC042_1314",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_216592"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iEC1344_C",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_498388"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iEC1349_Crooks",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_481805"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iEC1356_Bl21DE3",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_469008"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iEC1364_W",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_566546"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iEC1368_DH5a",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_668369"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iEC1372_W3110",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_316407"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iEC55989_1330",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_585055"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECABU_c1320",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_655817"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECBD_1354",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_866768"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECB_1328",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_413997"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECDH10B_1368",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_316385"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECDH1ME8569_1439",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_536056"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECD_1391",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_469008"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECED1_1282",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_585397"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECH74115_1262",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_444450"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECIAI1_1343",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_585034"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECIAI39_1322",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_585057"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECNA114_1301",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1033813"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECO103_1326",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_585395"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECO111_1330",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_585396"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECO26_1355",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_573235"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECOK1_1307",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_714962"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECP_1309",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_362663"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECS88_1305",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_585035"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECSE_1348",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_409438"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECSF_1327",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_431946"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECSP_1301",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_544404"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECUMN_1333",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_585056"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECW_1372",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_566546"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iECs_1301",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_386585"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iEK1008",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_83332"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iEKO11_1354",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_595495"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iETEC_1333",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_316401"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iEcDH1_1363",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_536056"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iEcE24377_1341",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_331111"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iEcHS_1320",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_331112"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iEcSMS35_1347",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_439855"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iEcolC_1368",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_481805"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iG2583_1286",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_701177"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iHN637",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_748727"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iIS312",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1416333"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iIS312_Amastigote",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1416333"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iIS312_Epimastigote",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1416333"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iIS312_Trypomastigote",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1416333"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iIT341",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_85962"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iJN1463",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_160488"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iJN678",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1148"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iJN746",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_160488"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iJO1366",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iJR904",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iLB1027_lipid",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_556484"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iLF82_1304",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_591946"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iLJ478",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_243274"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iML1515",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_511145"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iMM1415",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iMM904",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_559292"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iND750",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_559292"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iNJ661",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_83332"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iNRG857_1313",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_685038"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iPC815",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_214092"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iRC1080",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_3055"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iSB619",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_158879"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iSBO_1134",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_300268"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iSDY_1059",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_300267"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iSFV_1184",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_373384"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iSF_1195",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_198214"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iSFxv_1172",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_591020"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iSSON_1240",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_300269"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iS_1188",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_198215"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iSbBS512_1146",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_344609"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iSynCJ816",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1148"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iUMN146_1321",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_869729"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iUMNK88_1353",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_696406"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iUTI89_1310",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_364106"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iWFL_1372",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_566546"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iY75_1357",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_316407"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iYL1228",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_272620"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iYO844",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_224308"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iYS854",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_451516"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/iZ_1308",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_155864"
+    }, {
+      "sub" : "http://bigg.ucsd.edu/models/ic_1306",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_199310"
+    } ]
+  } ]
+}

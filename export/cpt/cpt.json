@@ -1,0 +1,1930 @@
+{
+  "graphs" : [ {
+    "id" : "http://purl.obolibrary.org/obo/cpt.owl",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/terms/description",
+        "val" : "Current Procedural Terminology, more commonly known as CPT®, refers to a medical code set created and maintained by the American Medical Association — and used by physicians, allied health professionals, nonphysician practitioners, hospitals, outpatient facilities, and laboratories to represent the services and procedures they perform. No provider of outpatient services gets paid without reporting the proper CPT® codes. [Description taken from this site](https://www.aapc.com/codes/cpt-codes-range/)]"
+      }, {
+        "pred" : "http://purl.org/dc/terms/title",
+        "val" : "Current Procedural Terminology"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
+        "val" : "bio2obo:cpt"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
+        "val" : "10:12:2024 11:38"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+        "val" : "1.2"
+      } ]
+    },
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90281",
+      "lbl" : "IG",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immune globulin (Ig), human, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:86"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90283",
+      "lbl" : "IGIV",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immune globulin (IgIV), human, for intravenous use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:87"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90287",
+      "lbl" : "botulinum antitoxin",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Botulinum antitoxin, equine, any route"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:27"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90291",
+      "lbl" : "CMVIG",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Cytomegalovirus immune globulin (CMV-IgIV), human, for intravenous use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:29"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90296",
+      "lbl" : "diphtheria antitoxin",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Diphtheria antitoxin, equine, any route"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:12"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90371",
+      "lbl" : "HBIG",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Hepatitis B immune globulin (HBIg), human, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:30"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90375",
+      "lbl" : "RIG",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Rabies immune globulin (RIg), human, for intramuscular and/or subcutaneous use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:34"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90376",
+      "lbl" : "RIG",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Rabies immune globulin, heat-treated (RIg-HT), human, for intramuscular and/or subcutaneous use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:34"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90378",
+      "lbl" : "RSV-MAb",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Respiratory syncytial virus, monoclonal antibody, recombinant, for intramuscular use, 50 mg, each"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:93"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90380",
+      "lbl" : "RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Respiratory syncytial virus, monoclonal antibody, seasonal dose; 0.5 mL dosage, for intramuscular use"
+        },
+        "comments" : [ "CPT Code to be used for Beyfortus 0.5 mL" ],
+        "xrefs" : [ {
+          "val" : "cvx:306"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90381",
+      "lbl" : "RSV, mAb, nirsevimab-alip, 1 mL, neonate to 24 months",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Respiratory syncytial virus, monoclonal antibody, seasonal dose; 1 mL dosage, for intramuscular use"
+        },
+        "comments" : [ "CPT Code to be used for Beyfortus 1.0 mL" ],
+        "xrefs" : [ {
+          "val" : "cvx:307"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90389",
+      "lbl" : "TIG",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Tetanus immune globulin (TIg), human, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:13"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90393",
+      "lbl" : "vaccinia immune globulin",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Vaccinia immune globulin, human, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:79"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90396",
+      "lbl" : "VZIG",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Varicella-zoster immune globulin, human, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:36"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90470",
+      "lbl" : "Novel Influenza-H1N1-09, all formulations",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "H1N1 immunization administration (intramuscular, intranasal), including counseling when performed"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:128"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90476",
+      "lbl" : "adenovirus, type 4",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Adenovirus vaccine, type 4, live, for oral use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:54"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90477",
+      "lbl" : "adenovirus, type 7",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Adenovirus vaccine, type 7, live, for oral use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:55"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90581",
+      "lbl" : "Anthrax, pre-exposure prophylaxis, post-exposure prophylaxis",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Anthrax vaccine, for subcutaneous or intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:24"
+        }, {
+          "val" : "cvx:318"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90585",
+      "lbl" : "BCG",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Bacillus Calmette-Guerin vaccine (BCG) for tuberculosis, live, for percutaneous use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:19"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90589",
+      "lbl" : "Chikungunya live attenuated vaccine, 0.5 mL, PF",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Chikungunya virus vaccine, live attenuated, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:317"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90611",
+      "lbl" : "Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Smallpox and monkeypox vaccine, attenuated vaccinia virus, live, non-replicating, preservative free, 0.5 mL dosage, suspension, for subcutaneous use"
+        },
+        "comments" : [ "CPT Code to be used for JYNNEOS vaccine" ],
+        "xrefs" : [ {
+          "val" : "cvx:206"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90619",
+      "lbl" : "meningococcal conjugate quadrivalent, MenACWY-TT (MCV4)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Meningococcal conjugate vaccine, serogroups A, C, W, Y, quadrivalent, tetanus toxoid carrier (MenACWY-TT), for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:203"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90620",
+      "lbl" : "meningococcal B, OMV",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Meningococcal recombinant protein and outer membrane vesicle vaccine, serogroup B (MenB-4C), 2 dose schedule, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:163"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90621",
+      "lbl" : "meningococcal B, recombinant",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Meningococcal recombinant lipoprotein vaccine, serogroup B (MenB-FHbp), 2 or 3 dose schedule, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:162"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90622",
+      "lbl" : "vaccinia (smallpox)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Vaccinia (smallpox) virus vaccine, live, lyophilized, 0.3 mL dosage, for percutaneous use"
+        },
+        "comments" : [ "CPT Code to be used for ACAM2000 vaccine" ],
+        "xrefs" : [ {
+          "val" : "cvx:75"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90623",
+      "lbl" : "Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Meningococcal pentavalent vaccine, conjugated Men A, C, W, Y- tetanus toxoid carrier, and Men B-FHbp, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:316"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90625",
+      "lbl" : "cholera, live attenuated",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Cholera vaccine, live, adult dosage, 1 dose schedule, for oral use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:174"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90626",
+      "lbl" : "Tick-borne encephalitis, inactivated, PF, 0.25mL",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Tick-borne encephalitis virus vaccine, inactivated; 0.25 mL dosage, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:223"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90627",
+      "lbl" : "Tick-borne encephalitis, inactivated, PF, 0.5mL",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Tick-borne encephalitis virus vaccine, inactivated; 0.5 mL dosage, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:224"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90630",
+      "lbl" : "influenza, intradermal, quadrivalent, preservative free",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, quadrivalent (IIV4), split virus, preservative free, for intradermal use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:166"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90632",
+      "lbl" : "Hep A, adult",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Hepatitis A vaccine (HepA), adult dosage, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:52"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90633",
+      "lbl" : "Hep A, ped/adol, 2 dose",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Hepatitis A vaccine (HepA), pediatric/adolescent dosage-2 dose schedule, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:83"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90634",
+      "lbl" : "Hep A, ped/adol, 3 dose",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Hepatitis A vaccine (HepA), pediatric/adolescent dosage-3 dose schedule, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:84"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90636",
+      "lbl" : "Hep A-Hep B",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Hepatitis A and hepatitis B vaccine (HepA-HepB), adult dosage, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:104"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90644",
+      "lbl" : "Meningococcal C/Y-HIB PRP",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Meningococcal conjugate vaccine, serogroups C & Y and Haemophilus influenzae type b vaccine (Hib-MenCY), 4 dose schedule, when administered to children 6 weeks-18 months of age, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:148"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90645",
+      "lbl" : "Hib (HbOC)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Hemophilus influenza b vaccine (Hib), HbOC conjugate (4 dose schedule), for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:47"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90646",
+      "lbl" : "Hib (PRP-D)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Hemophilus influenza b vaccine (Hib), PRP-D conjugate, for booster use only, intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:46"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90647",
+      "lbl" : "Hib (PRP-OMP)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Haemophilus influenzae type b vaccine (Hib), PRP-OMP conjugate, 3 dose schedule, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:49"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90648",
+      "lbl" : "Hib (PRP-T)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Haemophilus influenzae type b vaccine (Hib), PRP-T conjugate, 4 dose schedule, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:48"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90649",
+      "lbl" : "HPV, quadrivalent",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Human Papillomavirus vaccine, types 6, 11, 16, 18, quadrivalent (4vHPV), 3 dose schedule, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:62"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90650",
+      "lbl" : "HPV, bivalent",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Human Papillomavirus vaccine, types 16, 18, bivalent (2vHPV), 3 dose schedule, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:118"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90651",
+      "lbl" : "HPV9",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Human Papillomavirus vaccine types 6, 11, 16, 18, 31, 33, 45, 52, 58, nonavalent (9vHPV), 2 or 3 dose schedule, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:165"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90653",
+      "lbl" : "Influenza, adjuvanted, trivalent, PF",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza vaccine, inactivated (IIV), subunit, adjuvanted, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:168"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90654",
+      "lbl" : "influenza, seasonal, intradermal, preservative free",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, trivalent (IIV3), split virus, preservative-free, for intradermal use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:144"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90656",
+      "lbl" : "Influenza, split virus, trivalent, PF",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, trivalent (IIV3), split virus, preservative free, 0.5 mL dosage, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:140"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90657",
+      "lbl" : "Influenza, split virus, trivalent, preservative",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, trivalent (IIV3), split virus, 0.25 mL dosage, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:141"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90658",
+      "lbl" : "Influenza, split virus, trivalent, preservative",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, trivalent (IIV3), split virus, 0.5 mL dosage, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:141"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90659",
+      "lbl" : "influenza, whole",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, whole virus, for intramuscular or jet injection use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:16"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90660",
+      "lbl" : "Influenza, live, trivalent, intranasal",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, trivalent, live (LAIV3), for intranasal use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:111"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90661",
+      "lbl" : "Influenza, MDCK, trivalent, preservative",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:153"
+        }, {
+          "val" : "cvx:320"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90662",
+      "lbl" : "Influenza, high-dose, trivalent, PF",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine (IIV), split virus, preservative free, enhanced immunogenicity via increased antigen content, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:135"
+        }, {
+          "val" : "cvx:197"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90663",
+      "lbl" : "Novel Influenza-H1N1-09, all formulations",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, pandemic formulation, H1N1"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:128"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90664",
+      "lbl" : "Novel Influenza-H1N1-09, nasal",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, live (LAIV), pandemic formulation, for intranasal use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:125"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90665",
+      "lbl" : "Lyme disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Lyme disease vaccine, adult dosage, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:66"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90666",
+      "lbl" : "Novel influenza-H1N1-09, preservative-free",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine (IIV), pandemic formulation, split virus, preservative free, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:126"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90668",
+      "lbl" : "Novel influenza-H1N1-09",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine (IIV), pandemic formulation, split virus, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:127"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90669",
+      "lbl" : "pneumococcal conjugate PCV 7",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Pneumococcal conjugate vaccine, 7 valent, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:100"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90670",
+      "lbl" : "Pneumococcal conjugate PCV 13",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Pneumococcal conjugate vaccine, 13 valent (PCV13), for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:133"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90671",
+      "lbl" : "Pneumococcal conjugate PCV15, polysaccharide CRM197 conjugate, adjuvant, PF",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Pneumococcal conjugate vaccine, 15 valent (PCV15), for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:215"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90672",
+      "lbl" : "Influenza, live, quadrivalent, intranasal",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, quadrivalent, live (LAIV4), for intranasal use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:149"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90673",
+      "lbl" : "Influenza, recombinant, trivalent, PF",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, trivalent (RIV3), derived from recombinant DNA, hemagglutinin (HA) protein only, preservative and antibiotic free, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:155"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90674",
+      "lbl" : "Influenza, MDCK, quadrivalent, PF",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, quadrivalent (ccIIV4), derived from cell cultures, subunit, preservative and antibiotic free, 0.5 mL dosage, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:171"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90675",
+      "lbl" : "Rabies - IM fibroblast culture",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Rabies vaccine, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:175"
+        }, {
+          "val" : "cvx:176"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90676",
+      "lbl" : "rabies, intradermal injection",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Rabies vaccine, for intradermal use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:40"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90677",
+      "lbl" : "Pneumococcal conjugate PCV20, polysaccharide CRM197 conjugate, adjuvant, PF",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Pneumococcal conjugate vaccine, 20 valent (PCV20), for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:216"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90678",
+      "lbl" : "RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Respiratory syncytial virus vaccine, preF, subunit, bivalent, for intramuscular use"
+        },
+        "comments" : [ "CPT Code to be used for ABRYSVO" ],
+        "xrefs" : [ {
+          "val" : "cvx:305"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90679",
+      "lbl" : "RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Respiratory syncytial virus vaccine, preF, recombinant, subunit, adjuvanted, for intramuscular use"
+        },
+        "comments" : [ "CPT Code to be Used for Arexvy" ],
+        "xrefs" : [ {
+          "val" : "cvx:303"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90680",
+      "lbl" : "rotavirus, pentavalent",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Rotavirus vaccine, pentavalent (RV5), 3 dose schedule, live, for oral use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:116"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90681",
+      "lbl" : "rotavirus, monovalent",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Rotavirus vaccine, human, attenuated (RV1), 2 dose schedule, live, for oral use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:119"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90682",
+      "lbl" : "Influenza, recombinant, quadrivalent, PF",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, quadrivalent (RIV4), derived from recombinant DNA, hemagglutinin (HA) protein only, preservative and antibiotic free, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:185"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90683",
+      "lbl" : "RSV, mRNA, injectable, PF",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Respiratory syncytial virus vaccine, mRNA lipid nanoparticles, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:326"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90684",
+      "lbl" : "Pneumococcal conjugate PCV21, polysaccharide CRM197 conjugate, PF",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Pneumococcal conjugate vaccine, 21 valent (PCV21), for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:327"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90685",
+      "lbl" : "Influenza, injectable,quadrivalent, preservative free, pediatric",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, quadrivalent (IIV4), split virus, preservative free, 0.25 mL dosage, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:161"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90686",
+      "lbl" : "Influenza, split virus, quadrivalent, PF",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, quadrivalent (IIV4), split virus, preservative free, 0.5 mL dosage, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:150"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90687",
+      "lbl" : "Influenza, split virus, quadrivalent, preservative",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, quadrivalent (IIV4), split virus, 0.25 mL dosage, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:158"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90688",
+      "lbl" : "Influenza, split virus, quadrivalent, preservative",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, quadrivalent (IIV4), split virus, 0.5 mL dosage, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:158"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90690",
+      "lbl" : "typhoid, oral",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Typhoid vaccine, live, oral"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:25"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90691",
+      "lbl" : "typhoid, ViCPs",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Typhoid vaccine, Vi capsular polysaccharide (ViCPs), for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:101"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90692",
+      "lbl" : "typhoid, parenteral",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Typhoid vaccine, heat- and phenol-inactivated (H-P), for subcutaneous or intradermal use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:41"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90693",
+      "lbl" : "typhoid, parenteral, AKD (U.S. military)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Typhoid vaccine, acetone-killed, dried (AKD), for subcutaneous use (U.S. military)"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:53"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90694",
+      "lbl" : "Influenza, adjuvanted, quadrivalent, PF",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, quadrivalent (aIIV4), inactivated, adjuvanted, preservative free, 0.5 mL dosage, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:205"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90696",
+      "lbl" : "DTaP-IPV",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Diphtheria, tetanus toxoids, acellular pertussis vaccine and inactivated poliovirus vaccine (DTaP-IPV), when administered to children 4 through 6 years of age, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:130"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90697",
+      "lbl" : "DTaP,IPV,Hib,HepB",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Diphtheria, tetanus toxoids, acellular pertussis vaccine, inactivated poliovirus vaccine, Haemophilus influenzae type b PRP-OMP conjugate vaccine, and hepatitis B vaccine (DTaP-IPV-Hib-HepB), for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:146"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90698",
+      "lbl" : "DTaP-Hib-IPV",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Diphtheria, tetanus toxoids, acellular pertussis vaccine, Haemophilus influenzae type b, and inactivated poliovirus vaccine, (DTaP-IPV/Hib), for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:120"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90700",
+      "lbl" : "DTaP, 5 pertussis antigens",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Diphtheria, tetanus toxoids, and acellular pertussis vaccine (DTaP), when administered to individuals younger than 7 years, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:106"
+        }, {
+          "val" : "cvx:20"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90701",
+      "lbl" : "DTP",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Diphtheria, tetanus toxoids, and whole cell pertussis vaccine (DTP), for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:01"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90702",
+      "lbl" : "DT (pediatric)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Diphtheria and tetanus toxoids adsorbed (DT) when administered to individuals younger than 7 years, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:28"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90703",
+      "lbl" : "tetanus toxoid, adsorbed",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Tetanus toxoid adsorbed, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:35"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90704",
+      "lbl" : "mumps",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mumps virus vaccine, live, for subcutaneous use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:07"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90705",
+      "lbl" : "measles",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Measles virus vaccine, live, for subcutaneous use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:05"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90706",
+      "lbl" : "rubella",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Rubella virus vaccine, live, for subcutaneous use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:06"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90707",
+      "lbl" : "MMR",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Measles, mumps and rubella virus vaccine (MMR), live, for subcutaneous use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:03"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90708",
+      "lbl" : "M/R",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Measles and rubella virus vaccine, live, for subcutaneous use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:04"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90710",
+      "lbl" : "MMRV",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Measles, mumps, rubella, and varicella vaccine (MMRV), live, for subcutaneous use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:94"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90712",
+      "lbl" : "OPV, Unspecified",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Poliovirus vaccine, (any type[s]) (OPV), live, for oral use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:182"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90713",
+      "lbl" : "IPV",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Poliovirus vaccine, inactivated (IPV), for subcutaneous or intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:10"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90714",
+      "lbl" : "Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Tetanus and diphtheria toxoids adsorbed (Td), preservative free, when administered to individuals 7 years or older, for intramuscular use"
+        },
+        "comments" : [ "Beginning in 2005, this CPT code maps to TD preservative free. Remapped to CVX code 09 10/2021 to support active products mapped to that code." ],
+        "xrefs" : [ {
+          "val" : "cvx:09"
+        }, {
+          "val" : "cvx:113"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90715",
+      "lbl" : "Tdap",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Tetanus, diphtheria toxoids and acellular pertussis vaccine (Tdap), when administered to individuals 7 years or older, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:115"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90716",
+      "lbl" : "varicella",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Varicella virus vaccine (VAR), live, for subcutaneous use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:21"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90717",
+      "lbl" : "yellow fever live",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Yellow fever vaccine, live, for subcutaneous use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:183"
+        }, {
+          "val" : "cvx:37"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90720",
+      "lbl" : "DTP-Hib",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Diphtheria, tetanus toxoids, and whole cell pertussis vaccine and Hemophilus influenza B vaccine (DTP-Hib), for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:22"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90721",
+      "lbl" : "DTaP-Hib",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Diphtheria, tetanus toxoids, and acellular pertussis vaccine and Hemophilus influenza B vaccine (DTaP/Hib), for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:50"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90723",
+      "lbl" : "DTaP-Hep B-IPV",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Diphtheria, tetanus toxoids, acellular pertussis vaccine, hepatitis B, and inactivated poliovirus vaccine (DTaP-HepB-IPV), for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:110"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90724",
+      "lbl" : "influenza, unspecified formulation",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:88"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90725",
+      "lbl" : "cholera, unspecified formulation",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Cholera vaccine for injectable use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:26"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90727",
+      "lbl" : "plague",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Plague vaccine, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:23"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90728",
+      "lbl" : "BCG",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "BCG vaccine"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:19"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90730",
+      "lbl" : "Hep A, unspecified formulation",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Hepatitis A vaccine"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:85"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90731",
+      "lbl" : "Hep B, unspecified formulation",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Hepatitis B vaccine"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:45"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90732",
+      "lbl" : "pneumococcal polysaccharide PPV23",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Pneumococcal polysaccharide vaccine, 23-valent (PPSV23), adult or immunosuppressed patient dosage, when administered to individuals 2 years or older, for subcutaneous or intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:33"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90733",
+      "lbl" : "meningococcal MPSV4",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Meningococcal polysaccharide vaccine, serogroups A, C, Y, W-135, quadrivalent (MPSV4), for subcutaneous use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:32"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90734",
+      "lbl" : "meningococcal MCV4P",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Meningococcal conjugate vaccine, serogroups A, C, W, Y, quadrivalent, diphtheria toxoid carrier (MenACWY-D) or CRM197 carrier (MenACWY-CRM), for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:114"
+        }, {
+          "val" : "cvx:136"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90735",
+      "lbl" : "Japanese encephalitis SC",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Japanese encephalitis virus vaccine, for subcutaneous use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:39"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90736",
+      "lbl" : "zoster live",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Zoster (shingles) vaccine (HZV), live, for subcutaneous injection"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:121"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90737",
+      "lbl" : "Hib, unspecified formulation",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Hemophilus influenza B"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:17"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90738",
+      "lbl" : "Japanese Encephalitis IM",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Japanese encephalitis virus vaccine, inactivated, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:134"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90739",
+      "lbl" : "HepB-CpG",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Hepatitis B vaccine (HepB), CpG-adjuvanted, adult dosage, 2 dose or 4 dose schedule, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:189"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90740",
+      "lbl" : "Hep B, dialysis",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 3 dose schedule, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:44"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90741",
+      "lbl" : "IG, unspecified formulation",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Immunization, passive; immune serum globulin, human (ISG)"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:14"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90743",
+      "lbl" : "Hep B, adult",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Hepatitis B vaccine (HepB), adolescent, 2 dose schedule, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:43"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90744",
+      "lbl" : "Hep B, adolescent or pediatric",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Hepatitis B vaccine (HepB), pediatric/adolescent dosage, 3 dose schedule, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:08"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90745",
+      "lbl" : "Hep B, adolescent/high risk infant",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Hepatitis B vaccine, adolescent/high risk infant dosage, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:42"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90746",
+      "lbl" : "Hep B, adult",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Hepatitis B vaccine (HepB), adult dosage, 3 dose schedule, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:43"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90747",
+      "lbl" : "Hep B, adult",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 4 dose schedule, for intramuscular use"
+        },
+        "comments" : [ "Note that the NDCs for Engerix-B are mapped to CVX 43 which is not specific to dialysis use" ],
+        "xrefs" : [ {
+          "val" : "cvx:43"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90748",
+      "lbl" : "Hib-Hep B",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Hepatitis B and Haemophilus influenzae type b vaccine (Hib-HepB), for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:51"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90750",
+      "lbl" : "zoster recombinant",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Zoster (shingles) vaccine (HZV), recombinant, subunit, adjuvanted, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:187"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90756",
+      "lbl" : "Influenza, MDCK, quadrivalent, preservative",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Influenza virus vaccine, quadrivalent (ccIIV4), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use"
+        },
+        "comments" : [ "Effective 1/1/2018" ],
+        "xrefs" : [ {
+          "val" : "cvx:186"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90758",
+      "lbl" : "Ebola Zaire vaccine, live, recombinant, 1mL dose",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Zaire ebolavirus vaccine, live, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:204"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90759",
+      "lbl" : "HepB recombinant, 3-antigen, Al(OH)3",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Hepatitis B vaccine (HepB), 3-antigen (S, Pre-S1, Pre-S2), 10 mcg dosage, 3 dose schedule, for intramuscular use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:220"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91300",
+      "lbl" : "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 30 mcg/0.3 mL dosage, diluent reconstituted, for intramuscular use"
+        },
+        "comments" : [ "COVID-19 Vaccine - EUA authorized 12/11/2020" ],
+        "xrefs" : [ {
+          "val" : "cvx:208"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91301",
+      "lbl" : "COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 100 mcg/0.5 mL dosage, for intramuscular use"
+        },
+        "comments" : [ "COVID-19 Vaccine - BLA Licensed and EUA authorized" ],
+        "xrefs" : [ {
+          "val" : "cvx:207"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91302",
+      "lbl" : "COVID-19 vaccine, vector-nr, rS-ChAdOx1, PF, 0.5 mL",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, DNA, spike protein, chimpanzee adenovirus Oxford 1 (ChAdOx1) vector, preservative free, 5x1010 viral particles/0.5 mL dosage, for intramuscular use"
+        },
+        "comments" : [ "COVID-19 Vaccine - EUA submission withdrawn" ],
+        "xrefs" : [ {
+          "val" : "cvx:210"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91303",
+      "lbl" : "COVID-19 vaccine, vector-nr, rS-Ad26, PF, 0.5 mL",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, DNA, spike protein, adenovirus type 26 (Ad26) vector, preservative free, 5x1010 viral particles/0.5 mL dosage, for intramuscular use"
+        },
+        "comments" : [ "COVID-19 Vaccine - EUA authorized 2/27/2021" ],
+        "xrefs" : [ {
+          "val" : "cvx:212"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91304",
+      "lbl" : "COVID-19, subunit, rS-nanoparticle, adjuvanted, PF, 5 mcg/0.5 mL",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, recombinant spike protein nanoparticle, saponin-based adjuvant, 5 mcg/0.5 mL dosage, for intramuscular use"
+        },
+        "comments" : [ "Original and Fall COVID-19 vaccine starting 2023" ],
+        "xrefs" : [ {
+          "val" : "cvx:211"
+        }, {
+          "val" : "cvx:313"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91305",
+      "lbl" : "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose, tris-sucrose",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
+        },
+        "comments" : [ "COVID-19 Vaccine - EUA authorized for primary series and IC, EUA rescinded 8/31/202 for monovalent boosters" ],
+        "xrefs" : [ {
+          "val" : "cvx:217"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91306",
+      "lbl" : "COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 50 mcg/0.25 mL dosage, for intramuscular use"
+        },
+        "comments" : [ "COVID-19 Vaccine - EUA authorization rescinded 8/31/2022 for adult monovalent booster dose" ],
+        "xrefs" : [ {
+          "val" : "cvx:207"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91307",
+      "lbl" : "COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL dose, tris-sucrose",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 10 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
+        },
+        "comments" : [ "COVID-19 Vaccine - EUA authorized, pediatric 5 yrs through 11 yrs dose requires dilution" ],
+        "xrefs" : [ {
+          "val" : "cvx:218"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91308",
+      "lbl" : "COVID-19, mRNA, LNP-S, PF, 3 mcg/0.2 mL dose, tris-sucrose",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 3 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
+        },
+        "comments" : [ "COVID-19 Vaccine - EUA authorized for children under 5 yrs" ],
+        "xrefs" : [ {
+          "val" : "cvx:219"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91309",
+      "lbl" : "COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL dose",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 50 mcg/0.5 mL dosage, for intramuscular use"
+        },
+        "comments" : [ "COVID-19 Vaccine - EUA authorized for pediatric, EUA rescinded 8/31/2022 for adult monovalent booster dose" ],
+        "xrefs" : [ {
+          "val" : "cvx:221"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91310",
+      "lbl" : "COVID-19, D614, recomb, preS dTM, AS03 adjuvant add, PF, 5mcg/0.5mL",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, monovalent, preservative free, 5 mcg/0.5 mL dosage, adjuvant AS03 emulsion, for intramuscular use"
+        },
+        "comments" : [ "COVID-19 Vaccine - Potential EUA authorization booster dose" ],
+        "xrefs" : [ {
+          "val" : "cvx:225"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91311",
+      "lbl" : "COVID-19, mRNA, LNP-S, PF, pediatric 25 mcg/0.25 mL dose",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 25 mcg/0.25 mL dosage, for intramuscular use"
+        },
+        "comments" : [ "COVID-19 Vaccine - EUA authorized for ages 6 mo through 5 yrs" ],
+        "xrefs" : [ {
+          "val" : "cvx:228"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91312",
+      "lbl" : "COVID-19, mRNA, LNP-S, bivalent, PF, 30 mcg/0.3 mL dose",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, bivalent spike protein, preservative free, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
+        },
+        "comments" : [ "COVID-19 Vaccine - EUA authorized 8/31/2022 bivalent booster ages 12+ yrs" ],
+        "xrefs" : [ {
+          "val" : "cvx:300"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91313",
+      "lbl" : "COVID-19, mRNA, LNP-S, bivalent, PF, 50 mcg/0.5 mL or 25mcg/0.25 mL dose",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 50 mcg/0.5 mL dosage, for intramuscular use"
+        },
+        "comments" : [ "COVID-19 Vaccine - EUA authorized 8/31/2022 bivalent booster for ages 18+ yrs, potential EUA ages 6 yrs through 17 yrs" ],
+        "xrefs" : [ {
+          "val" : "cvx:229"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91314",
+      "lbl" : "COVID-19, mRNA, LNP-S, bivalent, PF, 50 mcg/0.5 mL or 25mcg/0.25 mL dose",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 25 mcg/0.25 mL dosage, for intramuscular use"
+        },
+        "comments" : [ "COVID-19 Vaccine - EUA authorized 8/31/2022 bivalent booster for ages 6 yrs through 11 yrs" ],
+        "xrefs" : [ {
+          "val" : "cvx:229"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91315",
+      "lbl" : "COVID-19, mRNA, LNP-S, bivalent, PF, 10 mcg/0.2 mL dose",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, bivalent spike protein, preservative free, 10 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
+        },
+        "comments" : [ "COVID-19 Vaccine - Potential EUA authorization bivalent booster for ages 5 yrs through 11 yrs" ],
+        "xrefs" : [ {
+          "val" : "cvx:301"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91316",
+      "lbl" : "COVID-19, mRNA, LNP-S, bivalent, PF, 10 mcg/0.2 mL",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 10 mcg/0.2 mL dosage, for intramuscular use"
+        },
+        "comments" : [ "COVID-19 Vaccine - EUA authorized 12/8/2022  bivalent booster (Moderna) for ages 6 mo through 5 yrs" ],
+        "xrefs" : [ {
+          "val" : "cvx:230"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91317",
+      "lbl" : "COVID-19, mRNA, LNP-S, bivalent, PF, 3 mcg/0.2 mL dose",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, bivalent spike protein, preservative free, 3 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
+        },
+        "comments" : [ "COVID-19 Vaccine - EUA authorized 12/8/2022  bivalent vaccine (Pfizer) for ages 6 mo through 4 yrs" ],
+        "xrefs" : [ {
+          "val" : "cvx:302"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91318",
+      "lbl" : "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 3 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
+        },
+        "comments" : [ "Fall COVID-19 vaccine starting 2023" ],
+        "xrefs" : [ {
+          "val" : "cvx:308"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91319",
+      "lbl" : "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 10 mcg/0.3 mL",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 10 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
+        },
+        "comments" : [ "Fall COVID-19 vaccine starting 2023" ],
+        "xrefs" : [ {
+          "val" : "cvx:310"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91320",
+      "lbl" : "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 30 mcg/0.3 mL",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
+        },
+        "comments" : [ "Fall COVID-19 vaccine starting 2023" ],
+        "xrefs" : [ {
+          "val" : "cvx:309"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91321",
+      "lbl" : "COVID-19, mRNA, LNP-S, PF, 25 mcg/0.25 mL",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, 25 mcg/0.25 mL dosage, for intramuscular use"
+        },
+        "comments" : [ "Fall COVID-19 vaccine starting 2023" ],
+        "xrefs" : [ {
+          "val" : "cvx:311"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_91322",
+      "lbl" : "COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, 50 mcg/0.5 mL dosage, for intramuscular use"
+        },
+        "comments" : [ "Fall COVID-19 vaccine starting 2023" ],
+        "xrefs" : [ {
+          "val" : "cvx:312"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "lbl" : "definition",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#date",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "lbl" : "database_cross_reference",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+      "lbl" : "has_obo_format_version",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#id",
+      "lbl" : "id",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    } ]
+  } ]
+}

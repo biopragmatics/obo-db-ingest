@@ -81,14 +81,15 @@ PREFIXES = [
     "kegg.genome",
     "slm",
     "gtdb",
-    # TODO
-    # "msigdb",
-    # "uniprot.ptm",
-    # "credit",
-    # "cvx",
-    # "cpt",
-    # "gard",
-    # "bigg.metabolite",
+    "msigdb",
+    "uniprot.ptm",
+    "credit",
+    "cvx",
+    "cpt",
+    "gard",
+    "bigg.metabolite",
+    "bigg.model",
+    "bigg.reaction",
 ]
 
 for _prefix in PREFIXES:

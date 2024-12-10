@@ -1,0 +1,1830 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/cpt.owl#"
+     xml:base="http://purl.obolibrary.org/obo/cpt.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cpt.owl">
+        <terms:description>Current Procedural Terminology, more commonly known as CPT®, refers to a medical code set created and maintained by the American Medical Association — and used by physicians, allied health professionals, nonphysician practitioners, hospitals, outpatient facilities, and laboratories to represent the services and procedures they perform. No provider of outpatient services gets paid without reporting the proper CPT® codes. [Description taken from this site](https://www.aapc.com/codes/cpt-codes-range/)]</terms:description>
+        <terms:title>Current Procedural Terminology</terms:title>
+        <oboInOwl:auto-generated-by>bio2obo:cpt</oboInOwl:auto-generated-by>
+        <oboInOwl:date>10:12:2024 11:38</oboInOwl:date>
+        <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label>has_obo_format_version</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <rdfs:label>id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90281">
+        <obo:IAO_0000115>Immune globulin (Ig), human, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:86</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90281</oboInOwl:id>
+        <rdfs:label>IG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90283">
+        <obo:IAO_0000115>Immune globulin (IgIV), human, for intravenous use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:87</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90283</oboInOwl:id>
+        <rdfs:label>IGIV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90287">
+        <obo:IAO_0000115>Botulinum antitoxin, equine, any route</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:27</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90287</oboInOwl:id>
+        <rdfs:label>botulinum antitoxin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90291">
+        <obo:IAO_0000115>Cytomegalovirus immune globulin (CMV-IgIV), human, for intravenous use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:29</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90291</oboInOwl:id>
+        <rdfs:label>CMVIG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90296">
+        <obo:IAO_0000115>Diphtheria antitoxin, equine, any route</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:12</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90296</oboInOwl:id>
+        <rdfs:label>diphtheria antitoxin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90371">
+        <obo:IAO_0000115>Hepatitis B immune globulin (HBIg), human, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:30</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90371</oboInOwl:id>
+        <rdfs:label>HBIG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90375">
+        <obo:IAO_0000115>Rabies immune globulin (RIg), human, for intramuscular and/or subcutaneous use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:34</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90375</oboInOwl:id>
+        <rdfs:label>RIG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90376">
+        <obo:IAO_0000115>Rabies immune globulin, heat-treated (RIg-HT), human, for intramuscular and/or subcutaneous use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:34</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90376</oboInOwl:id>
+        <rdfs:label>RIG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90378">
+        <obo:IAO_0000115>Respiratory syncytial virus, monoclonal antibody, recombinant, for intramuscular use, 50 mg, each</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:93</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90378</oboInOwl:id>
+        <rdfs:label>RSV-MAb</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90380">
+        <obo:IAO_0000115>Respiratory syncytial virus, monoclonal antibody, seasonal dose; 0.5 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:306</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90380</oboInOwl:id>
+        <rdfs:comment>CPT Code to be used for Beyfortus 0.5 mL</rdfs:comment>
+        <rdfs:label>RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90381">
+        <obo:IAO_0000115>Respiratory syncytial virus, monoclonal antibody, seasonal dose; 1 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:307</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90381</oboInOwl:id>
+        <rdfs:comment>CPT Code to be used for Beyfortus 1.0 mL</rdfs:comment>
+        <rdfs:label>RSV, mAb, nirsevimab-alip, 1 mL, neonate to 24 months</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90389">
+        <obo:IAO_0000115>Tetanus immune globulin (TIg), human, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:13</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90389</oboInOwl:id>
+        <rdfs:label>TIG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90393">
+        <obo:IAO_0000115>Vaccinia immune globulin, human, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:79</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90393</oboInOwl:id>
+        <rdfs:label>vaccinia immune globulin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90396">
+        <obo:IAO_0000115>Varicella-zoster immune globulin, human, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:36</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90396</oboInOwl:id>
+        <rdfs:label>VZIG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90470">
+        <obo:IAO_0000115>H1N1 immunization administration (intramuscular, intranasal), including counseling when performed</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:128</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90470</oboInOwl:id>
+        <rdfs:label>Novel Influenza-H1N1-09, all formulations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90476 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90476">
+        <obo:IAO_0000115>Adenovirus vaccine, type 4, live, for oral use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:54</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90476</oboInOwl:id>
+        <rdfs:label>adenovirus, type 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90477 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90477">
+        <obo:IAO_0000115>Adenovirus vaccine, type 7, live, for oral use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:55</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90477</oboInOwl:id>
+        <rdfs:label>adenovirus, type 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90581 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90581">
+        <obo:IAO_0000115>Anthrax vaccine, for subcutaneous or intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:24</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>cvx:318</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90581</oboInOwl:id>
+        <rdfs:label>Anthrax, post-exposure prophylaxis</rdfs:label>
+        <rdfs:label>Anthrax, pre-exposure prophylaxis, post-exposure prophylaxis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90585">
+        <obo:IAO_0000115>Bacillus Calmette-Guerin vaccine (BCG) for tuberculosis, live, for percutaneous use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:19</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90585</oboInOwl:id>
+        <rdfs:label>BCG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90589 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90589">
+        <obo:IAO_0000115>Chikungunya virus vaccine, live attenuated, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:317</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90589</oboInOwl:id>
+        <rdfs:label>Chikungunya live attenuated vaccine, 0.5 mL, PF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90611 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90611">
+        <obo:IAO_0000115>Smallpox and monkeypox vaccine, attenuated vaccinia virus, live, non-replicating, preservative free, 0.5 mL dosage, suspension, for subcutaneous use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:206</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90611</oboInOwl:id>
+        <rdfs:comment>CPT Code to be used for JYNNEOS vaccine</rdfs:comment>
+        <rdfs:label>Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90619 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90619">
+        <obo:IAO_0000115>Meningococcal conjugate vaccine, serogroups A, C, W, Y, quadrivalent, tetanus toxoid carrier (MenACWY-TT), for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:203</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90619</oboInOwl:id>
+        <rdfs:label>meningococcal conjugate quadrivalent, MenACWY-TT (MCV4)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90620 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90620">
+        <obo:IAO_0000115>Meningococcal recombinant protein and outer membrane vesicle vaccine, serogroup B (MenB-4C), 2 dose schedule, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:163</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90620</oboInOwl:id>
+        <rdfs:label>meningococcal B, OMV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90621">
+        <obo:IAO_0000115>Meningococcal recombinant lipoprotein vaccine, serogroup B (MenB-FHbp), 2 or 3 dose schedule, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:162</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90621</oboInOwl:id>
+        <rdfs:label>meningococcal B, recombinant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90622">
+        <obo:IAO_0000115>Vaccinia (smallpox) virus vaccine, live, lyophilized, 0.3 mL dosage, for percutaneous use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:75</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90622</oboInOwl:id>
+        <rdfs:comment>CPT Code to be used for ACAM2000 vaccine</rdfs:comment>
+        <rdfs:label>vaccinia (smallpox)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90623">
+        <obo:IAO_0000115>Meningococcal pentavalent vaccine, conjugated Men A, C, W, Y- tetanus toxoid carrier, and Men B-FHbp, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:316</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90623</oboInOwl:id>
+        <rdfs:label>Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90625">
+        <obo:IAO_0000115>Cholera vaccine, live, adult dosage, 1 dose schedule, for oral use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:174</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90625</oboInOwl:id>
+        <rdfs:label>cholera, live attenuated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90626 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90626">
+        <obo:IAO_0000115>Tick-borne encephalitis virus vaccine, inactivated; 0.25 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:223</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90626</oboInOwl:id>
+        <rdfs:label>Tick-borne encephalitis, inactivated, PF, 0.25mL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90627 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90627">
+        <obo:IAO_0000115>Tick-borne encephalitis virus vaccine, inactivated; 0.5 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:224</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90627</oboInOwl:id>
+        <rdfs:label>Tick-borne encephalitis, inactivated, PF, 0.5mL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90630">
+        <obo:IAO_0000115>Influenza virus vaccine, quadrivalent (IIV4), split virus, preservative free, for intradermal use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:166</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90630</oboInOwl:id>
+        <rdfs:label>influenza, intradermal, quadrivalent, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90632">
+        <obo:IAO_0000115>Hepatitis A vaccine (HepA), adult dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:52</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90632</oboInOwl:id>
+        <rdfs:label>Hep A, adult</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90633">
+        <obo:IAO_0000115>Hepatitis A vaccine (HepA), pediatric/adolescent dosage-2 dose schedule, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:83</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90633</oboInOwl:id>
+        <rdfs:label>Hep A, ped/adol, 2 dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90634">
+        <obo:IAO_0000115>Hepatitis A vaccine (HepA), pediatric/adolescent dosage-3 dose schedule, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:84</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90634</oboInOwl:id>
+        <rdfs:label>Hep A, ped/adol, 3 dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90636 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90636">
+        <obo:IAO_0000115>Hepatitis A and hepatitis B vaccine (HepA-HepB), adult dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:104</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90636</oboInOwl:id>
+        <rdfs:label>Hep A-Hep B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90644">
+        <obo:IAO_0000115>Meningococcal conjugate vaccine, serogroups C &amp; Y and Haemophilus influenzae type b vaccine (Hib-MenCY), 4 dose schedule, when administered to children 6 weeks-18 months of age, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:148</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90644</oboInOwl:id>
+        <rdfs:label>Meningococcal C/Y-HIB PRP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90645 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90645">
+        <obo:IAO_0000115>Hemophilus influenza b vaccine (Hib), HbOC conjugate (4 dose schedule), for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:47</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90645</oboInOwl:id>
+        <rdfs:label>Hib (HbOC)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90646 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90646">
+        <obo:IAO_0000115>Hemophilus influenza b vaccine (Hib), PRP-D conjugate, for booster use only, intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:46</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90646</oboInOwl:id>
+        <rdfs:label>Hib (PRP-D)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90647">
+        <obo:IAO_0000115>Haemophilus influenzae type b vaccine (Hib), PRP-OMP conjugate, 3 dose schedule, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:49</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90647</oboInOwl:id>
+        <rdfs:label>Hib (PRP-OMP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90648 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90648">
+        <obo:IAO_0000115>Haemophilus influenzae type b vaccine (Hib), PRP-T conjugate, 4 dose schedule, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:48</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90648</oboInOwl:id>
+        <rdfs:label>Hib (PRP-T)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90649 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90649">
+        <obo:IAO_0000115>Human Papillomavirus vaccine, types 6, 11, 16, 18, quadrivalent (4vHPV), 3 dose schedule, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:62</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90649</oboInOwl:id>
+        <rdfs:label>HPV, quadrivalent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90650">
+        <obo:IAO_0000115>Human Papillomavirus vaccine, types 16, 18, bivalent (2vHPV), 3 dose schedule, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:118</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90650</oboInOwl:id>
+        <rdfs:label>HPV, bivalent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90651 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90651">
+        <obo:IAO_0000115>Human Papillomavirus vaccine types 6, 11, 16, 18, 31, 33, 45, 52, 58, nonavalent (9vHPV), 2 or 3 dose schedule, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:165</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90651</oboInOwl:id>
+        <rdfs:label>HPV9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90653 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90653">
+        <obo:IAO_0000115>Influenza vaccine, inactivated (IIV), subunit, adjuvanted, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:168</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90653</oboInOwl:id>
+        <rdfs:label>Influenza, adjuvanted, trivalent, PF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90654 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90654">
+        <obo:IAO_0000115>Influenza virus vaccine, trivalent (IIV3), split virus, preservative-free, for intradermal use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:144</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90654</oboInOwl:id>
+        <rdfs:label>influenza, seasonal, intradermal, preservative free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90656">
+        <obo:IAO_0000115>Influenza virus vaccine, trivalent (IIV3), split virus, preservative free, 0.5 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:140</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90656</oboInOwl:id>
+        <rdfs:label>Influenza, split virus, trivalent, PF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90657 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90657">
+        <obo:IAO_0000115>Influenza virus vaccine, trivalent (IIV3), split virus, 0.25 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:141</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90657</oboInOwl:id>
+        <rdfs:label>Influenza, split virus, trivalent, preservative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90658">
+        <obo:IAO_0000115>Influenza virus vaccine, trivalent (IIV3), split virus, 0.5 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:141</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90658</oboInOwl:id>
+        <rdfs:label>Influenza, split virus, trivalent, preservative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90659">
+        <obo:IAO_0000115>Influenza virus vaccine, whole virus, for intramuscular or jet injection use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:16</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90659</oboInOwl:id>
+        <rdfs:label>influenza, whole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90660 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90660">
+        <obo:IAO_0000115>Influenza virus vaccine, trivalent, live (LAIV3), for intranasal use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:111</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90660</oboInOwl:id>
+        <rdfs:label>Influenza, live, trivalent, intranasal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90661 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90661">
+        <obo:IAO_0000115>Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>cvx:320</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90661</oboInOwl:id>
+        <rdfs:label>Influenza, MDCK, trivalent, PF</rdfs:label>
+        <rdfs:label>Influenza, MDCK, trivalent, preservative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90662 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90662">
+        <obo:IAO_0000115>Influenza virus vaccine (IIV), split virus, preservative free, enhanced immunogenicity via increased antigen content, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:135</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>cvx:197</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90662</oboInOwl:id>
+        <rdfs:label>Influenza, high-dose, quadrivalent, PF</rdfs:label>
+        <rdfs:label>Influenza, high-dose, trivalent, PF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90663 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90663">
+        <obo:IAO_0000115>Influenza virus vaccine, pandemic formulation, H1N1</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:128</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90663</oboInOwl:id>
+        <rdfs:label>Novel Influenza-H1N1-09, all formulations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90664 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90664">
+        <obo:IAO_0000115>Influenza virus vaccine, live (LAIV), pandemic formulation, for intranasal use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:125</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90664</oboInOwl:id>
+        <rdfs:label>Novel Influenza-H1N1-09, nasal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90665 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90665">
+        <obo:IAO_0000115>Lyme disease vaccine, adult dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:66</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90665</oboInOwl:id>
+        <rdfs:label>Lyme disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90666">
+        <obo:IAO_0000115>Influenza virus vaccine (IIV), pandemic formulation, split virus, preservative free, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:126</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90666</oboInOwl:id>
+        <rdfs:label>Novel influenza-H1N1-09, preservative-free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90668 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90668">
+        <obo:IAO_0000115>Influenza virus vaccine (IIV), pandemic formulation, split virus, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:127</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90668</oboInOwl:id>
+        <rdfs:label>Novel influenza-H1N1-09</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90669 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90669">
+        <obo:IAO_0000115>Pneumococcal conjugate vaccine, 7 valent, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:100</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90669</oboInOwl:id>
+        <rdfs:label>pneumococcal conjugate PCV 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90670 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90670">
+        <obo:IAO_0000115>Pneumococcal conjugate vaccine, 13 valent (PCV13), for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:133</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90670</oboInOwl:id>
+        <rdfs:label>Pneumococcal conjugate PCV 13</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90671 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90671">
+        <obo:IAO_0000115>Pneumococcal conjugate vaccine, 15 valent (PCV15), for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:215</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90671</oboInOwl:id>
+        <rdfs:label>Pneumococcal conjugate PCV15, polysaccharide CRM197 conjugate, adjuvant, PF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90672 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90672">
+        <obo:IAO_0000115>Influenza virus vaccine, quadrivalent, live (LAIV4), for intranasal use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:149</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90672</oboInOwl:id>
+        <rdfs:label>Influenza, live, quadrivalent, intranasal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90673">
+        <obo:IAO_0000115>Influenza virus vaccine, trivalent (RIV3), derived from recombinant DNA, hemagglutinin (HA) protein only, preservative and antibiotic free, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:155</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90673</oboInOwl:id>
+        <rdfs:label>Influenza, recombinant, trivalent, PF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90674">
+        <obo:IAO_0000115>Influenza virus vaccine, quadrivalent (ccIIV4), derived from cell cultures, subunit, preservative and antibiotic free, 0.5 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:171</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90674</oboInOwl:id>
+        <rdfs:label>Influenza, MDCK, quadrivalent, PF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90675 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90675">
+        <obo:IAO_0000115>Rabies vaccine, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:175</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>cvx:176</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90675</oboInOwl:id>
+        <rdfs:label>Rabies - IM Diploid cell culture</rdfs:label>
+        <rdfs:label>Rabies - IM fibroblast culture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90676">
+        <obo:IAO_0000115>Rabies vaccine, for intradermal use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:40</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90676</oboInOwl:id>
+        <rdfs:label>rabies, intradermal injection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90677 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90677">
+        <obo:IAO_0000115>Pneumococcal conjugate vaccine, 20 valent (PCV20), for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:216</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90677</oboInOwl:id>
+        <rdfs:label>Pneumococcal conjugate PCV20, polysaccharide CRM197 conjugate, adjuvant, PF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90678 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90678">
+        <obo:IAO_0000115>Respiratory syncytial virus vaccine, preF, subunit, bivalent, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:305</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90678</oboInOwl:id>
+        <rdfs:comment>CPT Code to be used for ABRYSVO</rdfs:comment>
+        <rdfs:label>RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90679 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90679">
+        <obo:IAO_0000115>Respiratory syncytial virus vaccine, preF, recombinant, subunit, adjuvanted, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:303</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90679</oboInOwl:id>
+        <rdfs:comment>CPT Code to be Used for Arexvy</rdfs:comment>
+        <rdfs:label>RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90680">
+        <obo:IAO_0000115>Rotavirus vaccine, pentavalent (RV5), 3 dose schedule, live, for oral use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:116</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90680</oboInOwl:id>
+        <rdfs:label>rotavirus, pentavalent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90681">
+        <obo:IAO_0000115>Rotavirus vaccine, human, attenuated (RV1), 2 dose schedule, live, for oral use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:119</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90681</oboInOwl:id>
+        <rdfs:label>rotavirus, monovalent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90682 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90682">
+        <obo:IAO_0000115>Influenza virus vaccine, quadrivalent (RIV4), derived from recombinant DNA, hemagglutinin (HA) protein only, preservative and antibiotic free, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:185</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90682</oboInOwl:id>
+        <rdfs:label>Influenza, recombinant, quadrivalent, PF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90683 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90683">
+        <obo:IAO_0000115>Respiratory syncytial virus vaccine, mRNA lipid nanoparticles, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:326</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90683</oboInOwl:id>
+        <rdfs:label>RSV, mRNA, injectable, PF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90684 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90684">
+        <obo:IAO_0000115>Pneumococcal conjugate vaccine, 21 valent (PCV21), for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:327</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90684</oboInOwl:id>
+        <rdfs:label>Pneumococcal conjugate PCV21, polysaccharide CRM197 conjugate, PF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90685 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90685">
+        <obo:IAO_0000115>Influenza virus vaccine, quadrivalent (IIV4), split virus, preservative free, 0.25 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:161</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90685</oboInOwl:id>
+        <rdfs:label>Influenza, injectable,quadrivalent, preservative free, pediatric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90686 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90686">
+        <obo:IAO_0000115>Influenza virus vaccine, quadrivalent (IIV4), split virus, preservative free, 0.5 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:150</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90686</oboInOwl:id>
+        <rdfs:label>Influenza, split virus, quadrivalent, PF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90687">
+        <obo:IAO_0000115>Influenza virus vaccine, quadrivalent (IIV4), split virus, 0.25 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:158</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90687</oboInOwl:id>
+        <rdfs:label>Influenza, split virus, quadrivalent, preservative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90688 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90688">
+        <obo:IAO_0000115>Influenza virus vaccine, quadrivalent (IIV4), split virus, 0.5 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:158</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90688</oboInOwl:id>
+        <rdfs:label>Influenza, split virus, quadrivalent, preservative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90690">
+        <obo:IAO_0000115>Typhoid vaccine, live, oral</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:25</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90690</oboInOwl:id>
+        <rdfs:label>typhoid, oral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90691 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90691">
+        <obo:IAO_0000115>Typhoid vaccine, Vi capsular polysaccharide (ViCPs), for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:101</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90691</oboInOwl:id>
+        <rdfs:label>typhoid, ViCPs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90692">
+        <obo:IAO_0000115>Typhoid vaccine, heat- and phenol-inactivated (H-P), for subcutaneous or intradermal use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:41</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90692</oboInOwl:id>
+        <rdfs:label>typhoid, parenteral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90693">
+        <obo:IAO_0000115>Typhoid vaccine, acetone-killed, dried (AKD), for subcutaneous use (U.S. military)</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:53</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90693</oboInOwl:id>
+        <rdfs:label>typhoid, parenteral, AKD (U.S. military)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90694">
+        <obo:IAO_0000115>Influenza virus vaccine, quadrivalent (aIIV4), inactivated, adjuvanted, preservative free, 0.5 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:205</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90694</oboInOwl:id>
+        <rdfs:label>Influenza, adjuvanted, quadrivalent, PF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90696">
+        <obo:IAO_0000115>Diphtheria, tetanus toxoids, acellular pertussis vaccine and inactivated poliovirus vaccine (DTaP-IPV), when administered to children 4 through 6 years of age, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:130</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90696</oboInOwl:id>
+        <rdfs:label>DTaP-IPV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90697">
+        <obo:IAO_0000115>Diphtheria, tetanus toxoids, acellular pertussis vaccine, inactivated poliovirus vaccine, Haemophilus influenzae type b PRP-OMP conjugate vaccine, and hepatitis B vaccine (DTaP-IPV-Hib-HepB), for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:146</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90697</oboInOwl:id>
+        <rdfs:label>DTaP,IPV,Hib,HepB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90698 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90698">
+        <obo:IAO_0000115>Diphtheria, tetanus toxoids, acellular pertussis vaccine, Haemophilus influenzae type b, and inactivated poliovirus vaccine, (DTaP-IPV/Hib), for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:120</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90698</oboInOwl:id>
+        <rdfs:label>DTaP-Hib-IPV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90700 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90700">
+        <obo:IAO_0000115>Diphtheria, tetanus toxoids, and acellular pertussis vaccine (DTaP), when administered to individuals younger than 7 years, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:106</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>cvx:20</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90700</oboInOwl:id>
+        <rdfs:label>DTaP</rdfs:label>
+        <rdfs:label>DTaP, 5 pertussis antigens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90701 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90701">
+        <obo:IAO_0000115>Diphtheria, tetanus toxoids, and whole cell pertussis vaccine (DTP), for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:01</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90701</oboInOwl:id>
+        <rdfs:label>DTP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90702 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90702">
+        <obo:IAO_0000115>Diphtheria and tetanus toxoids adsorbed (DT) when administered to individuals younger than 7 years, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:28</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90702</oboInOwl:id>
+        <rdfs:label>DT (pediatric)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90703 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90703">
+        <obo:IAO_0000115>Tetanus toxoid adsorbed, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:35</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90703</oboInOwl:id>
+        <rdfs:label>tetanus toxoid, adsorbed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90704">
+        <obo:IAO_0000115>Mumps virus vaccine, live, for subcutaneous use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:07</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90704</oboInOwl:id>
+        <rdfs:label>mumps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90705 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90705">
+        <obo:IAO_0000115>Measles virus vaccine, live, for subcutaneous use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:05</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90705</oboInOwl:id>
+        <rdfs:label>measles</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90706 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90706">
+        <obo:IAO_0000115>Rubella virus vaccine, live, for subcutaneous use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:06</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90706</oboInOwl:id>
+        <rdfs:label>rubella</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90707">
+        <obo:IAO_0000115>Measles, mumps and rubella virus vaccine (MMR), live, for subcutaneous use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:03</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90707</oboInOwl:id>
+        <rdfs:label>MMR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90708">
+        <obo:IAO_0000115>Measles and rubella virus vaccine, live, for subcutaneous use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:04</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90708</oboInOwl:id>
+        <rdfs:label>M/R</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90710">
+        <obo:IAO_0000115>Measles, mumps, rubella, and varicella vaccine (MMRV), live, for subcutaneous use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:94</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90710</oboInOwl:id>
+        <rdfs:label>MMRV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90712">
+        <obo:IAO_0000115>Poliovirus vaccine, (any type[s]) (OPV), live, for oral use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:182</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90712</oboInOwl:id>
+        <rdfs:label>OPV, Unspecified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90713 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90713">
+        <obo:IAO_0000115>Poliovirus vaccine, inactivated (IPV), for subcutaneous or intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:10</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90713</oboInOwl:id>
+        <rdfs:label>IPV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90714 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90714">
+        <obo:IAO_0000115>Tetanus and diphtheria toxoids adsorbed (Td), preservative free, when administered to individuals 7 years or older, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:09</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>cvx:113</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90714</oboInOwl:id>
+        <rdfs:comment>Beginning in 2005, this CPT code maps to TD preservative free. Remapped to CVX code 09 10/2021 to support active products mapped to that code.</rdfs:comment>
+        <rdfs:label>Td (adult), 2 Lf tetanus toxoid, preservative free, adsorbed</rdfs:label>
+        <rdfs:label>Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90715 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90715">
+        <obo:IAO_0000115>Tetanus, diphtheria toxoids and acellular pertussis vaccine (Tdap), when administered to individuals 7 years or older, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:115</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90715</oboInOwl:id>
+        <rdfs:label>Tdap</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90716">
+        <obo:IAO_0000115>Varicella virus vaccine (VAR), live, for subcutaneous use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:21</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90716</oboInOwl:id>
+        <rdfs:label>varicella</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90717 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90717">
+        <obo:IAO_0000115>Yellow fever vaccine, live, for subcutaneous use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:183</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>cvx:37</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90717</oboInOwl:id>
+        <rdfs:label>Yellow fever vaccine live - alt</rdfs:label>
+        <rdfs:label>yellow fever live</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90720 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90720">
+        <obo:IAO_0000115>Diphtheria, tetanus toxoids, and whole cell pertussis vaccine and Hemophilus influenza B vaccine (DTP-Hib), for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:22</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90720</oboInOwl:id>
+        <rdfs:label>DTP-Hib</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90721 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90721">
+        <obo:IAO_0000115>Diphtheria, tetanus toxoids, and acellular pertussis vaccine and Hemophilus influenza B vaccine (DTaP/Hib), for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:50</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90721</oboInOwl:id>
+        <rdfs:label>DTaP-Hib</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90723 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90723">
+        <obo:IAO_0000115>Diphtheria, tetanus toxoids, acellular pertussis vaccine, hepatitis B, and inactivated poliovirus vaccine (DTaP-HepB-IPV), for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:110</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90723</oboInOwl:id>
+        <rdfs:label>DTaP-Hep B-IPV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90724 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90724">
+        <obo:IAO_0000115>Influenza virus vaccine</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:88</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90724</oboInOwl:id>
+        <rdfs:label>influenza, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90725">
+        <obo:IAO_0000115>Cholera vaccine for injectable use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:26</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90725</oboInOwl:id>
+        <rdfs:label>cholera, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90727">
+        <obo:IAO_0000115>Plague vaccine, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:23</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90727</oboInOwl:id>
+        <rdfs:label>plague</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90728 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90728">
+        <obo:IAO_0000115>BCG vaccine</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:19</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90728</oboInOwl:id>
+        <rdfs:label>BCG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90730 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90730">
+        <obo:IAO_0000115>Hepatitis A vaccine</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:85</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90730</oboInOwl:id>
+        <rdfs:label>Hep A, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90731 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90731">
+        <obo:IAO_0000115>Hepatitis B vaccine</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:45</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90731</oboInOwl:id>
+        <rdfs:label>Hep B, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90732 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90732">
+        <obo:IAO_0000115>Pneumococcal polysaccharide vaccine, 23-valent (PPSV23), adult or immunosuppressed patient dosage, when administered to individuals 2 years or older, for subcutaneous or intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:33</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90732</oboInOwl:id>
+        <rdfs:label>pneumococcal polysaccharide PPV23</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90733 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90733">
+        <obo:IAO_0000115>Meningococcal polysaccharide vaccine, serogroups A, C, Y, W-135, quadrivalent (MPSV4), for subcutaneous use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:32</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90733</oboInOwl:id>
+        <rdfs:label>meningococcal MPSV4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90734 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90734">
+        <obo:IAO_0000115>Meningococcal conjugate vaccine, serogroups A, C, W, Y, quadrivalent, diphtheria toxoid carrier (MenACWY-D) or CRM197 carrier (MenACWY-CRM), for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:114</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>cvx:136</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90734</oboInOwl:id>
+        <rdfs:label>Meningococcal MCV4O</rdfs:label>
+        <rdfs:label>meningococcal MCV4P</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90735 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90735">
+        <obo:IAO_0000115>Japanese encephalitis virus vaccine, for subcutaneous use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:39</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90735</oboInOwl:id>
+        <rdfs:label>Japanese encephalitis SC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90736 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90736">
+        <obo:IAO_0000115>Zoster (shingles) vaccine (HZV), live, for subcutaneous injection</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:121</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90736</oboInOwl:id>
+        <rdfs:label>zoster live</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90737">
+        <obo:IAO_0000115>Hemophilus influenza B</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:17</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90737</oboInOwl:id>
+        <rdfs:label>Hib, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90738 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90738">
+        <obo:IAO_0000115>Japanese encephalitis virus vaccine, inactivated, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:134</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90738</oboInOwl:id>
+        <rdfs:label>Japanese Encephalitis IM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90739 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90739">
+        <obo:IAO_0000115>Hepatitis B vaccine (HepB), CpG-adjuvanted, adult dosage, 2 dose or 4 dose schedule, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:189</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90739</oboInOwl:id>
+        <rdfs:label>HepB-CpG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90740">
+        <obo:IAO_0000115>Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 3 dose schedule, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:44</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90740</oboInOwl:id>
+        <rdfs:label>Hep B, dialysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90741">
+        <obo:IAO_0000115>Immunization, passive; immune serum globulin, human (ISG)</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:14</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90741</oboInOwl:id>
+        <rdfs:label>IG, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90743">
+        <obo:IAO_0000115>Hepatitis B vaccine (HepB), adolescent, 2 dose schedule, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:43</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90743</oboInOwl:id>
+        <rdfs:label>Hep B, adult</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90744">
+        <obo:IAO_0000115>Hepatitis B vaccine (HepB), pediatric/adolescent dosage, 3 dose schedule, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:08</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90744</oboInOwl:id>
+        <rdfs:label>Hep B, adolescent or pediatric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90745">
+        <obo:IAO_0000115>Hepatitis B vaccine, adolescent/high risk infant dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:42</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90745</oboInOwl:id>
+        <rdfs:label>Hep B, adolescent/high risk infant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90746">
+        <obo:IAO_0000115>Hepatitis B vaccine (HepB), adult dosage, 3 dose schedule, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:43</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90746</oboInOwl:id>
+        <rdfs:label>Hep B, adult</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90747">
+        <obo:IAO_0000115>Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 4 dose schedule, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:43</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90747</oboInOwl:id>
+        <rdfs:comment>Note that the NDCs for Engerix-B are mapped to CVX 43 which is not specific to dialysis use</rdfs:comment>
+        <rdfs:label>Hep B, adult</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90748 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90748">
+        <obo:IAO_0000115>Hepatitis B and Haemophilus influenzae type b vaccine (Hib-HepB), for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:51</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90748</oboInOwl:id>
+        <rdfs:label>Hib-Hep B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90750 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90750">
+        <obo:IAO_0000115>Zoster (shingles) vaccine (HZV), recombinant, subunit, adjuvanted, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:187</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90750</oboInOwl:id>
+        <rdfs:label>zoster recombinant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90756">
+        <obo:IAO_0000115>Influenza virus vaccine, quadrivalent (ccIIV4), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:186</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90756</oboInOwl:id>
+        <rdfs:comment>Effective 1/1/2018</rdfs:comment>
+        <rdfs:label>Influenza, MDCK, quadrivalent, preservative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90758 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90758">
+        <obo:IAO_0000115>Zaire ebolavirus vaccine, live, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:204</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90758</oboInOwl:id>
+        <rdfs:label>Ebola Zaire vaccine, live, recombinant, 1mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90759 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90759">
+        <obo:IAO_0000115>Hepatitis B vaccine (HepB), 3-antigen (S, Pre-S1, Pre-S2), 10 mcg dosage, 3 dose schedule, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:220</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90759</oboInOwl:id>
+        <rdfs:label>HepB recombinant, 3-antigen, Al(OH)3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91300">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 30 mcg/0.3 mL dosage, diluent reconstituted, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:208</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91300</oboInOwl:id>
+        <rdfs:comment>COVID-19 Vaccine - EUA authorized 12/11/2020</rdfs:comment>
+        <rdfs:label>COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91301">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 100 mcg/0.5 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:207</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91301</oboInOwl:id>
+        <rdfs:comment>COVID-19 Vaccine - BLA Licensed and EUA authorized</rdfs:comment>
+        <rdfs:label>COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91302">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, DNA, spike protein, chimpanzee adenovirus Oxford 1 (ChAdOx1) vector, preservative free, 5x1010 viral particles/0.5 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:210</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91302</oboInOwl:id>
+        <rdfs:comment>COVID-19 Vaccine - EUA submission withdrawn</rdfs:comment>
+        <rdfs:label>COVID-19 vaccine, vector-nr, rS-ChAdOx1, PF, 0.5 mL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91303">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, DNA, spike protein, adenovirus type 26 (Ad26) vector, preservative free, 5x1010 viral particles/0.5 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:212</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91303</oboInOwl:id>
+        <rdfs:comment>COVID-19 Vaccine - EUA authorized 2/27/2021</rdfs:comment>
+        <rdfs:label>COVID-19 vaccine, vector-nr, rS-Ad26, PF, 0.5 mL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91304">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, recombinant spike protein nanoparticle, saponin-based adjuvant, 5 mcg/0.5 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:211</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>cvx:313</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91304</oboInOwl:id>
+        <rdfs:comment>Original and Fall COVID-19 vaccine starting 2023</rdfs:comment>
+        <rdfs:label>COVID-19, subunit, rS-nanoparticle+Matrix-M1 Adjuvant, PF, 0.5 mL</rdfs:label>
+        <rdfs:label>COVID-19, subunit, rS-nanoparticle, adjuvanted, PF, 5 mcg/0.5 mL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91305">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:217</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91305</oboInOwl:id>
+        <rdfs:comment>COVID-19 Vaccine - EUA authorized for primary series and IC, EUA rescinded 8/31/202 for monovalent boosters</rdfs:comment>
+        <rdfs:label>COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose, tris-sucrose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91306">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 50 mcg/0.25 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:207</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91306</oboInOwl:id>
+        <rdfs:comment>COVID-19 Vaccine - EUA authorization rescinded 8/31/2022 for adult monovalent booster dose</rdfs:comment>
+        <rdfs:label>COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91307">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 10 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:218</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91307</oboInOwl:id>
+        <rdfs:comment>COVID-19 Vaccine - EUA authorized, pediatric 5 yrs through 11 yrs dose requires dilution</rdfs:comment>
+        <rdfs:label>COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL dose, tris-sucrose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91308">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 3 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:219</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91308</oboInOwl:id>
+        <rdfs:comment>COVID-19 Vaccine - EUA authorized for children under 5 yrs</rdfs:comment>
+        <rdfs:label>COVID-19, mRNA, LNP-S, PF, 3 mcg/0.2 mL dose, tris-sucrose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91309">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 50 mcg/0.5 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:221</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91309</oboInOwl:id>
+        <rdfs:comment>COVID-19 Vaccine - EUA authorized for pediatric, EUA rescinded 8/31/2022 for adult monovalent booster dose</rdfs:comment>
+        <rdfs:label>COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91310">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, monovalent, preservative free, 5 mcg/0.5 mL dosage, adjuvant AS03 emulsion, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:225</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91310</oboInOwl:id>
+        <rdfs:comment>COVID-19 Vaccine - Potential EUA authorization booster dose</rdfs:comment>
+        <rdfs:label>COVID-19, D614, recomb, preS dTM, AS03 adjuvant add, PF, 5mcg/0.5mL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91311">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 25 mcg/0.25 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:228</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91311</oboInOwl:id>
+        <rdfs:comment>COVID-19 Vaccine - EUA authorized for ages 6 mo through 5 yrs</rdfs:comment>
+        <rdfs:label>COVID-19, mRNA, LNP-S, PF, pediatric 25 mcg/0.25 mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91312">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, bivalent spike protein, preservative free, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:300</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91312</oboInOwl:id>
+        <rdfs:comment>COVID-19 Vaccine - EUA authorized 8/31/2022 bivalent booster ages 12+ yrs</rdfs:comment>
+        <rdfs:label>COVID-19, mRNA, LNP-S, bivalent, PF, 30 mcg/0.3 mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91313">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 50 mcg/0.5 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:229</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91313</oboInOwl:id>
+        <rdfs:comment>COVID-19 Vaccine - EUA authorized 8/31/2022 bivalent booster for ages 18+ yrs, potential EUA ages 6 yrs through 17 yrs</rdfs:comment>
+        <rdfs:label>COVID-19, mRNA, LNP-S, bivalent, PF, 50 mcg/0.5 mL or 25mcg/0.25 mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91314">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 25 mcg/0.25 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:229</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91314</oboInOwl:id>
+        <rdfs:comment>COVID-19 Vaccine - EUA authorized 8/31/2022 bivalent booster for ages 6 yrs through 11 yrs</rdfs:comment>
+        <rdfs:label>COVID-19, mRNA, LNP-S, bivalent, PF, 50 mcg/0.5 mL or 25mcg/0.25 mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91315">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, bivalent spike protein, preservative free, 10 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:301</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91315</oboInOwl:id>
+        <rdfs:comment>COVID-19 Vaccine - Potential EUA authorization bivalent booster for ages 5 yrs through 11 yrs</rdfs:comment>
+        <rdfs:label>COVID-19, mRNA, LNP-S, bivalent, PF, 10 mcg/0.2 mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91316">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 10 mcg/0.2 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:230</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91316</oboInOwl:id>
+        <rdfs:comment>COVID-19 Vaccine - EUA authorized 12/8/2022  bivalent booster (Moderna) for ages 6 mo through 5 yrs</rdfs:comment>
+        <rdfs:label>COVID-19, mRNA, LNP-S, bivalent, PF, 10 mcg/0.2 mL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91317">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, bivalent spike protein, preservative free, 3 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:302</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91317</oboInOwl:id>
+        <rdfs:comment>COVID-19 Vaccine - EUA authorized 12/8/2022  bivalent vaccine (Pfizer) for ages 6 mo through 4 yrs</rdfs:comment>
+        <rdfs:label>COVID-19, mRNA, LNP-S, bivalent, PF, 3 mcg/0.2 mL dose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91318">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 3 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:308</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91318</oboInOwl:id>
+        <rdfs:comment>Fall COVID-19 vaccine starting 2023</rdfs:comment>
+        <rdfs:label>COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91319">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 10 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:310</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91319</oboInOwl:id>
+        <rdfs:comment>Fall COVID-19 vaccine starting 2023</rdfs:comment>
+        <rdfs:label>COVID-19, mRNA, LNP-S, PF, tris-sucrose, 10 mcg/0.3 mL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91320">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:309</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91320</oboInOwl:id>
+        <rdfs:comment>Fall COVID-19 vaccine starting 2023</rdfs:comment>
+        <rdfs:label>COVID-19, mRNA, LNP-S, PF, tris-sucrose, 30 mcg/0.3 mL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91321">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, 25 mcg/0.25 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:311</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91321</oboInOwl:id>
+        <rdfs:comment>Fall COVID-19 vaccine starting 2023</rdfs:comment>
+        <rdfs:label>COVID-19, mRNA, LNP-S, PF, 25 mcg/0.25 mL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_91322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_91322">
+        <obo:IAO_0000115>Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, 50 mcg/0.5 mL dosage, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:312</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:91322</oboInOwl:id>
+        <rdfs:comment>Fall COVID-19 vaccine starting 2023</rdfs:comment>
+        <rdfs:label>COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+
