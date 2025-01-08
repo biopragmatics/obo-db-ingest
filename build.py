@@ -4,6 +4,7 @@
 #     "bioregistry>=0.11.23",
 #     "bioversions>=0.5.533",
 #     "bioontologies>=0.5.1",
+#     "pyobo>=0.12.0",
 # ]
 # ///
 
@@ -52,21 +53,28 @@ pyobo.constants.GLOBAL_CHECK_IDS = True
 #: be conservative) to put on GitHub
 MAX_SIZE = 100_000_000
 PREFIXES = [
+    "bigg.compartment",
+    # "omim.ps", # TODO fix data versioning
+    "ccle",
+    "icd11",
+    # "nlm", # has instances
+    # "geonames", # has instances
+    # "ror", # has instances
     "eccode",
-    "uniprot",  # this one is used for basically everything after
     "rgd",
     "sgd",
     "mirbase",
     "mgi",
     "hgnc",
     "hgnc.genegroup",
-    "pombase",  # after hgnc
+    "pombase",
     "rhea",
     "flybase",
-    "zfin",  # after flybase
+    "zfin",
     "dictybase.gene",
     "cgnc",
     "drugcentral",
+    "nlm",
     "complexportal",
     "interpro",
     "mesh",
@@ -90,6 +98,7 @@ PREFIXES = [
     "bigg.metabolite",
     "bigg.model",
     "bigg.reaction",
+    "uniprot",  # do last since takes longest
 ]
 
 for _prefix in PREFIXES:
@@ -170,8 +179,7 @@ def _get_summary(obo: Obo) -> dict:
         "properties": sum(
             len(values)
             for term in terms
-            for dd in [term.annotations_literal, term.annotations_object]
-            for values in dd.values()
+            for values in term.properties.values()
         ),
         "synonyms": sum(len(term.synonyms) for term in terms),
         "mappings": sum(len(term.get_mappings(include_xrefs=True)) for term in terms),
