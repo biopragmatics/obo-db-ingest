@@ -18,6 +18,6 @@ Database of rare diseases and related terms, including symptoms, healthcare reso
 
 | field    |   count |
 |----------|---------|
-| parents  |   14749 |
-| synonyms |    9492 |
-| terms    |    6236 |
+| parents  |    6234 |
+| synonyms |   20147 |
+| terms    |    6234 |

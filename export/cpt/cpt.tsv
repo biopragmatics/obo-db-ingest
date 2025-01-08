@@ -16,9 +16,10 @@ identifier	name	definition	synonyms	alts	parents	species
 90470	Novel Influenza-H1N1-09, all formulations	H1N1 immunization administration (intramuscular, intranasal), including counseling when performed				
 90476	adenovirus, type 4	Adenovirus vaccine, type 4, live, for oral use				
 90477	adenovirus, type 7	Adenovirus vaccine, type 7, live, for oral use				
-90581	Anthrax, pre-exposure prophylaxis, post-exposure prophylaxis	Anthrax vaccine, for subcutaneous or intramuscular use				
 90581	Anthrax, post-exposure prophylaxis	Anthrax vaccine, for subcutaneous or intramuscular use				
+90581	Anthrax, pre-exposure prophylaxis, post-exposure prophylaxis	Anthrax vaccine, for subcutaneous or intramuscular use				
 90585	BCG	Bacillus Calmette-Guerin vaccine (BCG) for tuberculosis, live, for percutaneous use				
+90587	dengue fever tetravalent	Dengue vaccine, quadrivalent, live, 3 dose schedule, for subcutaneous use				
 90589	Chikungunya live attenuated vaccine, 0.5 mL, PF	Chikungunya virus vaccine, live attenuated, for intramuscular use				
 90611	Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection	Smallpox and monkeypox vaccine, attenuated vaccinia virus, live, non-replicating, preservative free, 0.5 mL dosage, suspension, for subcutaneous use				
 90619	meningococcal conjugate quadrivalent, MenACWY-TT (MCV4)	Meningococcal conjugate vaccine, serogroups A, C, W, Y, quadrivalent, tetanus toxoid carrier (MenACWY-TT), for intramuscular use				
@@ -49,10 +50,10 @@ identifier	name	definition	synonyms	alts	parents	species
 90658	Influenza, split virus, trivalent, preservative	Influenza virus vaccine, trivalent (IIV3), split virus, 0.5 mL dosage, for intramuscular use				
 90659	influenza, whole	Influenza virus vaccine, whole virus, for intramuscular or jet injection use				
 90660	Influenza, live, trivalent, intranasal	Influenza virus vaccine, trivalent, live (LAIV3), for intranasal use				
-90661	Influenza, MDCK, trivalent, PF	Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use				
 90661	Influenza, MDCK, trivalent, preservative	Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use				
-90662	Influenza, high-dose, trivalent, PF	Influenza virus vaccine (IIV), split virus, preservative free, enhanced immunogenicity via increased antigen content, for intramuscular use				
+90661	Influenza, MDCK, trivalent, PF	Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use				
 90662	Influenza, high-dose, quadrivalent, PF	Influenza virus vaccine (IIV), split virus, preservative free, enhanced immunogenicity via increased antigen content, for intramuscular use				
+90662	Influenza, high-dose, trivalent, PF	Influenza virus vaccine (IIV), split virus, preservative free, enhanced immunogenicity via increased antigen content, for intramuscular use				
 90663	Novel Influenza-H1N1-09, all formulations	Influenza virus vaccine, pandemic formulation, H1N1				
 90664	Novel Influenza-H1N1-09, nasal	Influenza virus vaccine, live (LAIV), pandemic formulation, for intranasal use				
 90665	Lyme disease	Lyme disease vaccine, adult dosage, for intramuscular use				
@@ -87,8 +88,8 @@ identifier	name	definition	synonyms	alts	parents	species
 90696	DTaP-IPV	Diphtheria, tetanus toxoids, acellular pertussis vaccine and inactivated poliovirus vaccine (DTaP-IPV), when administered to children 4 through 6 years of age, for intramuscular use				
 90697	DTaP,IPV,Hib,HepB	Diphtheria, tetanus toxoids, acellular pertussis vaccine, inactivated poliovirus vaccine, Haemophilus influenzae type b PRP-OMP conjugate vaccine, and hepatitis B vaccine (DTaP-IPV-Hib-HepB), for intramuscular use				
 90698	DTaP-Hib-IPV	Diphtheria, tetanus toxoids, acellular pertussis vaccine, Haemophilus influenzae type b, and inactivated poliovirus vaccine, (DTaP-IPV/Hib), for intramuscular use				
-90700	DTaP	Diphtheria, tetanus toxoids, and acellular pertussis vaccine (DTaP), when administered to individuals younger than 7 years, for intramuscular use				
 90700	DTaP, 5 pertussis antigens	Diphtheria, tetanus toxoids, and acellular pertussis vaccine (DTaP), when administered to individuals younger than 7 years, for intramuscular use				
+90700	DTaP	Diphtheria, tetanus toxoids, and acellular pertussis vaccine (DTaP), when administered to individuals younger than 7 years, for intramuscular use				
 90701	DTP	Diphtheria, tetanus toxoids, and whole cell pertussis vaccine (DTP), for intramuscular use				
 90702	DT (pediatric)	Diphtheria and tetanus toxoids adsorbed (DT) when administered to individuals younger than 7 years, for intramuscular use				
 90703	tetanus toxoid, adsorbed	Tetanus toxoid adsorbed, for intramuscular use				
@@ -111,6 +112,7 @@ identifier	name	definition	synonyms	alts	parents	species
 90723	DTaP-Hep B-IPV	Diphtheria, tetanus toxoids, acellular pertussis vaccine, hepatitis B, and inactivated poliovirus vaccine (DTaP-HepB-IPV), for intramuscular use				
 90724	influenza, unspecified formulation	Influenza virus vaccine				
 90725	cholera, unspecified formulation	Cholera vaccine for injectable use				
+90726	rabies, unspecified formulation	Rabies vaccine				
 90727	plague	Plague vaccine, for intramuscular use				
 90728	BCG	BCG vaccine				
 90730	Hep A, unspecified formulation	Hepatitis A vaccine				
@@ -124,13 +126,14 @@ identifier	name	definition	synonyms	alts	parents	species
 90737	Hib, unspecified formulation	Hemophilus influenza B				
 90738	Japanese Encephalitis IM	Japanese encephalitis virus vaccine, inactivated, for intramuscular use				
 90739	HepB-CpG	Hepatitis B vaccine (HepB), CpG-adjuvanted, adult dosage, 2 dose or 4 dose schedule, for intramuscular use				
-90740	Hep B, dialysis	Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 3 dose schedule, for intramuscular use				
+90740	Hep B, high-dosage, dialysis or IC	Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 3 dose schedule, for intramuscular use				
 90741	IG, unspecified formulation	Immunization, passive; immune serum globulin, human (ISG)				
+90743	Hep B, adolescent or pediatric	Hepatitis B vaccine (HepB), adolescent, 2 dose schedule, for intramuscular use				
 90743	Hep B, adult	Hepatitis B vaccine (HepB), adolescent, 2 dose schedule, for intramuscular use				
 90744	Hep B, adolescent or pediatric	Hepatitis B vaccine (HepB), pediatric/adolescent dosage, 3 dose schedule, for intramuscular use				
 90745	Hep B, adolescent/high risk infant	Hepatitis B vaccine, adolescent/high risk infant dosage, for intramuscular use				
 90746	Hep B, adult	Hepatitis B vaccine (HepB), adult dosage, 3 dose schedule, for intramuscular use				
-90747	Hep B, adult	Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 4 dose schedule, for intramuscular use				
+90747	Hep B, high-dosage, dialysis or IC	Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 4 dose schedule, for intramuscular use				
 90748	Hib-Hep B	Hepatitis B and Haemophilus influenzae type b vaccine (Hib-HepB), for intramuscular use				
 90750	zoster recombinant	Zoster (shingles) vaccine (HZV), recombinant, subunit, adjuvanted, for intramuscular use				
 90756	Influenza, MDCK, quadrivalent, preservative	Influenza virus vaccine, quadrivalent (ccIIV4), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use				
@@ -140,8 +143,8 @@ identifier	name	definition	synonyms	alts	parents	species
 91301	COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose	Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 100 mcg/0.5 mL dosage, for intramuscular use				
 91302	COVID-19 vaccine, vector-nr, rS-ChAdOx1, PF, 0.5 mL	Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, DNA, spike protein, chimpanzee adenovirus Oxford 1 (ChAdOx1) vector, preservative free, 5x1010 viral particles/0.5 mL dosage, for intramuscular use				
 91303	COVID-19 vaccine, vector-nr, rS-Ad26, PF, 0.5 mL	Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, DNA, spike protein, adenovirus type 26 (Ad26) vector, preservative free, 5x1010 viral particles/0.5 mL dosage, for intramuscular use				
-91304	COVID-19, subunit, rS-nanoparticle+Matrix-M1 Adjuvant, PF, 0.5 mL	Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, recombinant spike protein nanoparticle, saponin-based adjuvant, 5 mcg/0.5 mL dosage, for intramuscular use				
 91304	COVID-19, subunit, rS-nanoparticle, adjuvanted, PF, 5 mcg/0.5 mL	Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, recombinant spike protein nanoparticle, saponin-based adjuvant, 5 mcg/0.5 mL dosage, for intramuscular use				
+91304	COVID-19, subunit, rS-nanoparticle+Matrix-M1 Adjuvant, PF, 0.5 mL	Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, recombinant spike protein nanoparticle, saponin-based adjuvant, 5 mcg/0.5 mL dosage, for intramuscular use				
 91305	COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose, tris-sucrose	Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use				
 91306	COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose	Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 50 mcg/0.25 mL dosage, for intramuscular use				
 91307	COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL dose, tris-sucrose	Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 10 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use				

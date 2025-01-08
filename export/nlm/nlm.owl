@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/nlm.owl#"
+     xml:base="http://purl.obolibrary.org/obo/nlm.owl"
+     xmlns:MI="http://purl.obolibrary.org/obo/MI_"
+     xmlns:IAO="http://purl.obolibrary.org/obo/IAO_"
+     xmlns:nlm="https://www.ncbi.nlm.nih.gov/nlmcatalog/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:sio="http://semanticscience.org/resource/SIO_"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:FBcv="http://purl.obolibrary.org/obo/FBcv_"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:issn="https://portal.issn.org/resource/ISSN/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:schema="http://schema.org/"
+     xmlns:biolink="https://w3id.org/biolink/vocab/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:uniprot.core="http://purl.uniprot.org/core/"
+     xmlns:nlm.publisher="https://bioregistry.io/nlm.publisher:">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/nlm.owl">
+        <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/nlm#journal"/>
+        <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <dcterms:description>The NLM Catalog provides access to NLM bibliographic data for journals\, books\, audiovisuals\, computer software\, electronic resources and other materials. Links to the library&apos;s holdings in LocatorPlus\, NLM&apos;s online public access catalog\, are also provided. \[from homepage\]</dcterms:description>
+        <dcterms:title>National Library of Medicine Catalog</dcterms:title>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-fd7cd1a1 on 2025-01-08T23:21:24.325438</oboInOwl:auto-generated-by>
+        <oboInOwl:hasOBOFormatVersion>1.4</oboInOwl:hasOBOFormatVersion>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000700 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000700"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dcat_endDate -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/dcat_endDate">
+        <oboInOwl:id>dcat:endDate</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:label>has end date</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dcat_startDate -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/dcat_startDate">
+        <oboInOwl:id>dcat:startDate</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:label>has start date</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label>has_obo_format_version</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <rdfs:label>id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label>shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
+        <oboInOwl:id>skos:exactMatch</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:label>exact match</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/biolink/vocab/published_in -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/biolink/vocab/published_in">
+        <oboInOwl:hasDbXref>biolink:published_in</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>uniprot.core:publishedIn</oboInOwl:hasDbXref>
+        <oboInOwl:id>published_in</oboInOwl:id>
+        <oboInOwl:shorthand>published_in</oboInOwl:shorthand>
+        <rdfs:label>published in</rdfs:label>
+    </owl:ObjectProperty>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

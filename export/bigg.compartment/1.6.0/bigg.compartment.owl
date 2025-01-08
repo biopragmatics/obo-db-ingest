@@ -1,0 +1,316 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/bigg.compartment.owl#"
+     xml:base="http://purl.obolibrary.org/obo/bigg.compartment.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:bigg.compartment="http://bigg.ucsd.edu/compartments/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bigg.compartment.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bigg.compartment/1.6.0/bigg.compartment.owl"/>
+        <dcterms:description>BiGG is a knowledgebase of Biochemically\, Genetically and Genomically structured genome-scale metabolic network reconstructions. It more published genome-scale metabolic networks into a single database with a set of stardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations\, and metabolites are linked to many external databases \(KEGG\, PubChem\, and many more\). This collection references model compartments.</dcterms:description>
+        <dcterms:license>http://bigg.ucsd.edu/license#license</dcterms:license>
+        <dcterms:title>BiGG Compartment</dcterms:title>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-fd7cd1a1 on 2025-01-08T23:12:59.486371</oboInOwl:auto-generated-by>
+        <oboInOwl:hasOBOFormatVersion>1.4</oboInOwl:hasOBOFormatVersion>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label>has_obo_format_version</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <rdfs:label>id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/c -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/c">
+        <oboInOwl:id>bigg.compartment:c</oboInOwl:id>
+        <rdfs:label>cytosol</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0005829"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/cm -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/cm">
+        <oboInOwl:id>bigg.compartment:cm</oboInOwl:id>
+        <rdfs:label>cytosolic membrane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/cx -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/cx">
+        <oboInOwl:id>bigg.compartment:cx</oboInOwl:id>
+        <rdfs:label>carboxyzome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/e -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/e">
+        <oboInOwl:id>bigg.compartment:e</oboInOwl:id>
+        <rdfs:label>extracellular space</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0005615"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/f -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/f">
+        <oboInOwl:id>bigg.compartment:f</oboInOwl:id>
+        <rdfs:label>flagellum</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0005929"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/g -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/g">
+        <oboInOwl:id>bigg.compartment:g</oboInOwl:id>
+        <rdfs:label>golgi apparatus</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0005794"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/h -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/h">
+        <oboInOwl:id>bigg.compartment:h</oboInOwl:id>
+        <rdfs:label>chloroplast</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0009507"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/i -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/i">
+        <oboInOwl:id>bigg.compartment:i</oboInOwl:id>
+        <rdfs:label>inner mitochondrial compartment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/im -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/im">
+        <oboInOwl:id>bigg.compartment:im</oboInOwl:id>
+        <rdfs:label>intermembrane space of mitochondria</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0005758"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/l -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/l">
+        <oboInOwl:id>bigg.compartment:l</oboInOwl:id>
+        <rdfs:label>lysosome</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0005764"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/m -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/m">
+        <oboInOwl:id>bigg.compartment:m</oboInOwl:id>
+        <rdfs:label>mitochondria</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0005739"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/mm -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/mm">
+        <oboInOwl:id>bigg.compartment:mm</oboInOwl:id>
+        <rdfs:label>mitochondrial intermembrane</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0005743"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/n -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/n">
+        <oboInOwl:id>bigg.compartment:n</oboInOwl:id>
+        <rdfs:label>nucleus</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/p -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/p">
+        <oboInOwl:id>bigg.compartment:p</oboInOwl:id>
+        <rdfs:label>periplasm</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0042597"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/r -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/r">
+        <oboInOwl:id>bigg.compartment:r</oboInOwl:id>
+        <rdfs:label>endoplasmic reticulum</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0005783"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/s -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/s">
+        <oboInOwl:id>bigg.compartment:s</oboInOwl:id>
+        <rdfs:label>eyespot</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GO_1990413"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/u -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/u">
+        <oboInOwl:id>bigg.compartment:u</oboInOwl:id>
+        <rdfs:label>thylakoid</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0009579"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/um -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/um">
+        <oboInOwl:id>bigg.compartment:um</oboInOwl:id>
+        <rdfs:label>thylakoid membrane</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0042651"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/v -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/v">
+        <oboInOwl:id>bigg.compartment:v</oboInOwl:id>
+        <rdfs:label>vacuole</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0005773"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/w -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/w">
+        <oboInOwl:id>bigg.compartment:w</oboInOwl:id>
+        <rdfs:label>wildtype staph aureus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/x -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/x">
+        <oboInOwl:id>bigg.compartment:x</oboInOwl:id>
+        <rdfs:label>peroxisome/glyoxysome</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0005777"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg.ucsd.edu/compartments/y -->
+
+    <owl:Class rdf:about="http://bigg.ucsd.edu/compartments/y">
+        <oboInOwl:id>bigg.compartment:y</oboInOwl:id>
+        <rdfs:label>cytochrome complex</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0070069"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

@@ -1,10 +1,12 @@
-format-version: 1.2
-auto-generated-by: bio2obo:credit
+format-version: 1.4
 data-version: 2022
+auto-generated-by: PyOBO v0.12.0-dev-669c37f2 on 2025-01-08T23:48:34.961726
 idspace: credit https://credit.niso.org/contributor-roles/ "CASRAI Contributor Roles Taxonomy"
+idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
 ontology: credit
-property_value: http://purl.org/dc/terms/title "CASRAI Contributor Roles Taxonomy" xsd:string
-property_value: http://purl.org/dc/terms/description "CRediT \(Contributor Roles Taxonomy\) is high-level taxonomy\, including 14 roles\, that can be used to represent the roles typically played by contributors to scientific scholarly output. The roles describe each contributor’s specific contribution to the scholarly output." xsd:string
+property_value: dcterms:title "CASRAI Contributor Roles Taxonomy" xsd:string
+property_value: dcterms:description "CRediT \\\(Contributor Roles Taxonomy\\\) is high-level taxonomy\\\, including 14 roles\\\, that can be used to represent the roles typically played by contributors to scientific scholarly output. The roles describe each contributor’s specific contribution to the scholarly output." xsd:string
 
 [Term]
 id: credit:conceptualization

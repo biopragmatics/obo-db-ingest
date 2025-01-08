@@ -4,19 +4,16 @@
     "meta" : {
       "basicPropertyValues" : [ {
         "pred" : "http://purl.org/dc/terms/description",
-        "val" : "Current Procedural Terminology, more commonly known as CPT®, refers to a medical code set created and maintained by the American Medical Association — and used by physicians, allied health professionals, nonphysician practitioners, hospitals, outpatient facilities, and laboratories to represent the services and procedures they perform. No provider of outpatient services gets paid without reporting the proper CPT® codes. [Description taken from this site](https://www.aapc.com/codes/cpt-codes-range/)]"
+        "val" : "Current Procedural Terminology\\, more commonly known as CPT®\\, refers to a medical code set created and maintained by the American Medical Association — and used by physicians\\, allied health professionals\\, nonphysician practitioners\\, hospitals\\, outpatient facilities\\, and laboratories to represent the services and procedures they perform. No provider of outpatient services gets paid without reporting the proper CPT® codes. \\[Description taken from this site\\]\\(https\\://www.aapc.com/codes/cpt-codes-range/\\)\\]"
       }, {
         "pred" : "http://purl.org/dc/terms/title",
         "val" : "Current Procedural Terminology"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-        "val" : "bio2obo:cpt"
-      }, {
-        "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
-        "val" : "10:12:2024 11:38"
+        "val" : "PyOBO v0.12.0-dev-669c37f2 on 2025-01-08T23:48:38.395527"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
-        "val" : "1.2"
+        "val" : "1.4"
       } ]
     },
     "nodes" : [ {
@@ -249,6 +246,18 @@
         },
         "xrefs" : [ {
           "val" : "cvx:19"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90587",
+      "lbl" : "dengue fever tetravalent",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Dengue vaccine, quadrivalent, live, 3 dose schedule, for subcutaneous use"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:56"
         } ]
       }
     }, {
@@ -1301,6 +1310,18 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/cpt_90726",
+      "lbl" : "rabies, unspecified formulation",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Rabies vaccine"
+        },
+        "xrefs" : [ {
+          "val" : "cvx:90"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/cpt_90727",
       "lbl" : "plague",
       "type" : "CLASS",
@@ -1448,7 +1469,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/cpt_90740",
-      "lbl" : "Hep B, dialysis",
+      "lbl" : "Hep B, high-dosage, dialysis or IC",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -1479,6 +1500,8 @@
           "val" : "Hepatitis B vaccine (HepB), adolescent, 2 dose schedule, for intramuscular use"
         },
         "xrefs" : [ {
+          "val" : "cvx:08"
+        }, {
           "val" : "cvx:43"
         } ]
       }
@@ -1520,15 +1543,14 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/cpt_90747",
-      "lbl" : "Hep B, adult",
+      "lbl" : "Hep B, high-dosage, dialysis or IC",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 4 dose schedule, for intramuscular use"
         },
-        "comments" : [ "Note that the NDCs for Engerix-B are mapped to CVX 43 which is not specific to dialysis use" ],
         "xrefs" : [ {
-          "val" : "cvx:43"
+          "val" : "cvx:44"
         } ]
       }
     }, {
@@ -1900,10 +1922,6 @@
       "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#date",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {

@@ -4,19 +4,16 @@
     "meta" : {
       "basicPropertyValues" : [ {
         "pred" : "http://purl.org/dc/terms/description",
-        "val" : "The CDC's National Center of Immunization and Respiratory Diseases (NCIRD) developed and maintains the CVX (vaccine administered) code set. The table below has the most up to date values. It includes both active and inactive vaccines available in the US. CVX codes for inactive vaccines allow transmission of historical immunization records."
+        "val" : "The CDC's National Center of Immunization and Respiratory Diseases \\(NCIRD\\) developed and maintains the CVX \\(vaccine administered\\) code set. The table below has the most up to date values. It includes both active and inactive vaccines available in the US. CVX codes for inactive vaccines allow transmission of historical immunization records."
       }, {
         "pred" : "http://purl.org/dc/terms/title",
         "val" : "Vaccine administered code set"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-        "val" : "bio2obo:cvx"
-      }, {
-        "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
-        "val" : "10:12:2024 11:38"
+        "val" : "PyOBO v0.12.0-dev-669c37f2 on 2025-01-08T23:48:36.004741"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
-        "val" : "1.2"
+        "val" : "1.4"
       } ]
     },
     "nodes" : [ {
@@ -34,6 +31,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -52,6 +52,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -69,6 +72,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -86,6 +92,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -103,6 +112,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -120,6 +132,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -137,6 +152,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -144,7 +162,7 @@
       "lbl" : "hepatitis B vaccine, pediatric or pediatric/adolescent dosage",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "This code applies to any standard pediatric formulation of Hepatitis B vaccine. It should not be used for the 2-dose hepatitis B schedule for adolescents (11-15 year olds). It requires Merck's Recombivax HB adult formulation. Use code 43 for that vaccine." ],
+        "comments" : [ "This code applies to any standard pediatric formulation of Hepatitis B vaccine. It should not be used for the 2-dose hepatitis B schedule for adolescents (11-15 year olds). Use code 43 for that vaccine." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Hep B, adolescent or pediatric"
@@ -155,6 +173,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -172,6 +193,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -189,6 +213,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -206,6 +233,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -223,6 +253,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -241,6 +274,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -258,6 +294,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -275,6 +314,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -292,6 +334,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -309,6 +354,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -327,6 +375,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -345,6 +396,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -363,6 +417,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -380,6 +437,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -397,6 +457,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -411,6 +474,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -424,6 +490,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -441,6 +510,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -458,6 +530,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -475,6 +550,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -492,6 +570,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -509,6 +590,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Never Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -526,6 +610,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -543,6 +630,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -556,6 +646,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -573,6 +666,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -580,6 +676,7 @@
       "lbl" : "zoster vaccine, live",
       "type" : "CLASS",
       "meta" : {
+        "comments" : [ "Zostavax vaccine associated to this CVX Code retired 10/2022" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "zoster live"
@@ -589,7 +686,10 @@
           "val" : "false"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
-          "val" : "Active"
+          "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -607,6 +707,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -624,6 +727,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -641,6 +747,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -658,6 +767,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -675,6 +787,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -693,6 +808,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -711,6 +829,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -728,6 +849,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -745,6 +869,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -762,6 +889,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -780,6 +910,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -797,6 +930,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -814,6 +950,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -832,6 +971,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -849,6 +991,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -863,6 +1008,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -881,6 +1029,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -895,6 +1046,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -912,6 +1066,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -930,6 +1087,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -948,6 +1108,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -961,6 +1124,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -979,6 +1145,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -997,6 +1166,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1014,6 +1186,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Never Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1032,6 +1207,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1050,6 +1228,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1067,6 +1248,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1081,6 +1265,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1118,6 +1305,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1132,6 +1322,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1146,6 +1339,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1164,6 +1360,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1204,6 +1403,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1222,6 +1424,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1240,6 +1445,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1258,6 +1466,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1275,6 +1486,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1292,6 +1506,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1310,6 +1527,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1323,6 +1543,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1340,6 +1563,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1357,6 +1583,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1374,6 +1603,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1391,6 +1623,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1409,6 +1644,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1427,6 +1665,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1445,6 +1686,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1463,6 +1707,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1480,6 +1727,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1498,6 +1748,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1516,6 +1769,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1529,6 +1785,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1542,6 +1801,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1555,6 +1817,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1572,6 +1837,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1589,6 +1857,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1607,6 +1878,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1625,6 +1899,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1643,6 +1920,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1661,6 +1941,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1692,6 +1975,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1710,6 +1996,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1728,6 +2017,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1745,6 +2037,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1763,6 +2058,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1781,6 +2079,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1798,6 +2099,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1816,6 +2120,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1833,6 +2140,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1850,6 +2160,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1867,6 +2180,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1884,6 +2200,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1901,6 +2220,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1919,6 +2241,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1937,6 +2262,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1955,6 +2283,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1973,6 +2304,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -1991,6 +2325,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2009,6 +2346,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2026,6 +2366,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2044,6 +2387,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2062,6 +2408,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2080,6 +2429,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2097,6 +2449,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2111,6 +2466,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2129,6 +2487,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2147,6 +2508,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2165,6 +2529,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2183,6 +2550,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2200,6 +2570,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2218,6 +2591,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2236,6 +2612,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2254,6 +2633,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2268,6 +2650,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2281,6 +2666,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2298,6 +2686,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2315,6 +2706,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2333,6 +2727,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2351,6 +2748,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2369,6 +2769,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2386,6 +2789,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2393,7 +2799,7 @@
       "lbl" : "Hepatitis B vaccine (recombinant), 3-antigen, Al(OH)3 adjuvanted",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "New Hep B vaccine 1/2022" ],
+        "comments" : [ "Manufacturer VBI has ceased operations - Prehevbrio Hep B vaccine voluntary recall effective 11/15/2024" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "HepB recombinant, 3-antigen, Al(OH)3"
@@ -2403,7 +2809,10 @@
           "val" : "false"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
-          "val" : "Active"
+          "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2422,6 +2831,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2440,6 +2852,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2458,6 +2873,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2476,6 +2894,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2494,6 +2915,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Never Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2512,6 +2936,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Never Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2530,6 +2957,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2548,6 +2978,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2566,6 +2999,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2583,6 +3019,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2601,6 +3040,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2619,6 +3061,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2636,6 +3081,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2653,6 +3101,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2670,6 +3121,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2683,6 +3137,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2690,6 +3147,7 @@
       "lbl" : "diphtheria and tetanus toxoids, adsorbed for pediatric use",
       "type" : "CLASS",
       "meta" : {
+        "comments" : [ "Retired effective 04/30/2023.  All vaccine NDCs retired.  No further vaccines expected for this formulation." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "DT (pediatric)"
@@ -2699,7 +3157,10 @@
           "val" : "false"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
-          "val" : "Active"
+          "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2717,6 +3178,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2734,6 +3198,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2752,6 +3219,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2770,6 +3240,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2788,6 +3261,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2806,6 +3282,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2820,6 +3299,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2838,6 +3320,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2856,6 +3341,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2874,6 +3362,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2892,6 +3383,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2910,6 +3404,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2950,6 +3447,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2968,6 +3468,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -2986,6 +3489,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3004,6 +3510,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3018,6 +3527,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3036,6 +3548,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3054,6 +3569,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3072,6 +3590,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3090,6 +3611,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3104,6 +3628,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3121,6 +3648,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3139,6 +3669,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3157,6 +3690,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3175,6 +3711,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3189,6 +3728,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3203,6 +3745,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3221,6 +3766,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3238,6 +3786,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3255,6 +3806,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3272,6 +3826,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3285,6 +3842,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3302,6 +3862,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3320,6 +3883,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3337,6 +3903,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3354,6 +3923,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3371,6 +3943,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3388,6 +3963,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3406,6 +3984,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3413,7 +3994,7 @@
       "lbl" : "hepatitis B vaccine, adult dosage",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "As of September 1999, a 2-dose hepatitis B schedule for adolescents (11-15 year olds) was FDA approved for Merck's Recombivax HB adult formulation. Use code 43 for the 2-dose. This code should be used for any use of standard adult formulation of hepatitis B vaccine." ],
+        "comments" : [ "This code applies to any standard adult dose and schedule. Also use CVX 43 for the FDA approved Recombivax HB 2-dose hepatitis B schedule for adolescents (11-15 year olds) using the adult formulation." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Hep B, adult"
@@ -3424,17 +4005,20 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/cvx_44",
-      "lbl" : "hepatitis B vaccine, dialysis patient dosage",
+      "lbl" : "Hepatitis B vaccine (Hep B), high-dosage, dialysis or immunocompromised patient",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "NDCs that are used for both vaccine and dialysis (e.g. Engerix-B)  are mapped to CVX 43 which is not specific to dialysis use" ],
+        "comments" : [ "This code is used record patient high dosage vaccine administration for dialysis or immunocompromised patients. For NDCs that are used for both regular vaccine and dialysis/IC high-dosage schedules (e.g. Engerix-B), are mapped to both CVX 43 and CVX 44. CVX code 44 should be utilized to record dialysis/IC dosing." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "Hep B, dialysis"
+          "val" : "Hep B, high-dosage, dialysis or IC"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
@@ -3442,6 +4026,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3460,6 +4047,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3477,6 +4067,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3494,6 +4087,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3511,6 +4107,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3528,6 +4127,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3545,6 +4147,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3563,6 +4168,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3581,6 +4189,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3599,6 +4210,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3617,6 +4231,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3635,6 +4252,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3653,6 +4273,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3671,6 +4294,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3689,6 +4315,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3707,6 +4336,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3725,6 +4357,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3743,6 +4378,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3761,6 +4399,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3779,6 +4420,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3797,6 +4441,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3815,6 +4462,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3833,6 +4483,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3851,6 +4504,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3869,6 +4525,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3887,6 +4546,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3905,6 +4567,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3923,6 +4588,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3940,6 +4608,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3958,6 +4629,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3976,6 +4650,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -3993,6 +4670,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4010,6 +4690,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4027,6 +4710,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4045,6 +4731,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4062,6 +4751,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Never Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4079,6 +4771,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Never Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4096,6 +4791,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Never Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4113,6 +4811,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Never Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4130,6 +4831,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Never Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4147,6 +4851,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4164,6 +4871,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Never Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4181,6 +4891,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Never Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4198,6 +4911,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Never Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4215,6 +4931,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4232,6 +4951,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Never Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4249,6 +4971,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Never Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4266,6 +4991,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4283,6 +5011,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Never Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4301,6 +5032,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4318,6 +5052,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Never Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4335,6 +5072,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Never Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4352,6 +5092,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4369,6 +5112,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4386,6 +5132,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4400,6 +5149,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Non-US"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4413,6 +5165,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4426,6 +5181,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4443,6 +5201,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4457,6 +5218,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4474,6 +5238,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4492,6 +5259,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4509,6 +5279,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4527,6 +5300,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4545,6 +5321,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4562,6 +5341,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4579,6 +5361,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4597,6 +5382,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4615,6 +5403,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4633,6 +5424,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4651,6 +5445,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4669,6 +5466,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4686,6 +5486,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4703,6 +5506,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4721,6 +5527,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4739,6 +5548,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4757,6 +5569,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4775,6 +5590,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4789,6 +5607,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4807,6 +5628,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
           "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
         } ]
       }
     }, {
@@ -4820,10 +5644,6 @@
       "propertyType" : "OBJECT"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#date",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {

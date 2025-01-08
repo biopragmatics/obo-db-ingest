@@ -1,0 +1,239 @@
+{
+  "graphs" : [ {
+    "id" : "http://purl.obolibrary.org/obo/bigg.compartment.owl",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/terms/description",
+        "val" : "BiGG is a knowledgebase of Biochemically\\, Genetically and Genomically structured genome-scale metabolic network reconstructions. It more published genome-scale metabolic networks into a single database with a set of stardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations\\, and metabolites are linked to many external databases \\(KEGG\\, PubChem\\, and many more\\). This collection references model compartments."
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "http://bigg.ucsd.edu/license#license"
+      }, {
+        "pred" : "http://purl.org/dc/terms/title",
+        "val" : "BiGG Compartment"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
+        "val" : "PyOBO v0.12.0-dev-fd7cd1a1 on 2025-01-08T23:12:59.486371"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+        "val" : "1.4"
+      } ],
+      "version" : "http://purl.obolibrary.org/obo/bigg.compartment/1.6.0/bigg.compartment.owl"
+    },
+    "nodes" : [ {
+      "id" : "http://bigg.ucsd.edu/compartments/c",
+      "lbl" : "cytosol",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/GO_0005829"
+        } ]
+      }
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/cm",
+      "lbl" : "cytosolic membrane",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/cx",
+      "lbl" : "carboxyzome",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/e",
+      "lbl" : "extracellular space",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/GO_0005615"
+        } ]
+      }
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/f",
+      "lbl" : "flagellum",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/GO_0005929"
+        } ]
+      }
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/g",
+      "lbl" : "golgi apparatus",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/GO_0005794"
+        } ]
+      }
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/h",
+      "lbl" : "chloroplast",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/GO_0009507"
+        } ]
+      }
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/i",
+      "lbl" : "inner mitochondrial compartment",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/im",
+      "lbl" : "intermembrane space of mitochondria",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/GO_0005758"
+        } ]
+      }
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/l",
+      "lbl" : "lysosome",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/GO_0005764"
+        } ]
+      }
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/m",
+      "lbl" : "mitochondria",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/GO_0005739"
+        } ]
+      }
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/mm",
+      "lbl" : "mitochondrial intermembrane",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/GO_0005743"
+        } ]
+      }
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/n",
+      "lbl" : "nucleus",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/GO_0005634"
+        } ]
+      }
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/p",
+      "lbl" : "periplasm",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/GO_0042597"
+        } ]
+      }
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/r",
+      "lbl" : "endoplasmic reticulum",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/GO_0005783"
+        } ]
+      }
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/s",
+      "lbl" : "eyespot",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/GO_1990413"
+        } ]
+      }
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/u",
+      "lbl" : "thylakoid",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/GO_0009579"
+        } ]
+      }
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/um",
+      "lbl" : "thylakoid membrane",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/GO_0042651"
+        } ]
+      }
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/v",
+      "lbl" : "vacuole",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/GO_0005773"
+        } ]
+      }
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/w",
+      "lbl" : "wildtype staph aureus",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/x",
+      "lbl" : "peroxisome/glyoxysome",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/GO_0005777"
+        } ]
+      }
+    }, {
+      "id" : "http://bigg.ucsd.edu/compartments/y",
+      "lbl" : "cytochrome complex",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.obolibrary.org/obo/GO_0070069"
+        } ]
+      }
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+      "lbl" : "has_obo_format_version",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#id",
+      "lbl" : "id",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    } ]
+  } ]
+}

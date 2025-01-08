@@ -1,10 +1,12 @@
-format-version: 1.2
-auto-generated-by: bio2obo:mirbase.family
+format-version: 1.4
 data-version: 22.1
+auto-generated-by: PyOBO v0.12.0-dev-fd7cd1a1 on 2025-01-08T23:22:53.909928
+idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
 ontology: mirbase.family
-property_value: http://purl.org/dc/terms/title "miRBase Families" xsd:string
-property_value: http://purl.org/dc/terms/license "public domain" xsd:string
-property_value: http://purl.org/dc/terms/description "The miRBase database is a searchable database of published miRNA sequences and annotation. Each entry in the miRBase Sequence database represents a predicted hairpin portion of a miRNA transcript \(termed mir in the database\)\, with information on the location and sequence of the mature miRNA sequence \(termed miR\). Both hairpin and mature sequences are available for searching and browsing\, and entries can also be retrieved by name\, keyword\, references and annotation. All sequence and annotation data are also available for download." xsd:string
+property_value: dcterms:title "miRBase Families" xsd:string
+property_value: dcterms:license "public domain" xsd:string
+property_value: dcterms:description "The miRBase database is a searchable database of published miRNA sequences and annotation. Each entry in the miRBase Sequence database represents a predicted hairpin portion of a miRNA transcript \\\(termed mir in the database\\\)\\\, with information on the location and sequence of the mature miRNA sequence \\\(termed miR\\\). Both hairpin and mature sequences are available for searching and browsing\\\, and entries can also be retrieved by name\\\, keyword\\\, references and annotation. All sequence and annotation data are also available for download." xsd:string
 
 [Typedef]
 id: RO:0002351

@@ -7,15 +7,16 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/hgnc.genegroup.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hgnc.genegroup/2024-12-03/hgnc.genegroup.owl"/>
-        <terms:description>The HGNC (HUGO Gene Nomenclature Committee) provides an approved gene name and symbol (short-form abbreviation) for each known human gene. All approved symbols are stored in the HGNC database, and each symbol is unique. In addition, HGNC also provides a unique numerical ID to identify gene families, providing a display of curated hierarchical relationships between families.</terms:description>
-        <terms:license>CC0-1.0</terms:license>
-        <terms:title>HGNC Gene Group</terms:title>
-        <oboInOwl:auto-generated-by>bio2obo:hgnc.genegroup</oboInOwl:auto-generated-by>
-        <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
+        <dcterms:description>The HGNC \(HUGO Gene Nomenclature Committee\) provides an approved gene name and symbol \(short-form abbreviation\) for each known human gene. All approved symbols are stored in the HGNC database\, and each symbol is unique. In addition\, HGNC also provides a unique numerical ID to identify gene families\, providing a display of curated hierarchical relationships between families.</dcterms:description>
+        <dcterms:license>CC0-1.0</dcterms:license>
+        <dcterms:title>HGNC Gene Group</dcterms:title>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-fd7cd1a1 on 2025-01-08T23:18:20.996482</oboInOwl:auto-generated-by>
+        <oboInOwl:hasOBOFormatVersion>1.4</oboInOwl:hasOBOFormatVersion>
     </owl:Ontology>
     
 

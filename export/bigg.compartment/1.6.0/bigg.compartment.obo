@@ -1,0 +1,116 @@
+format-version: 1.4
+data-version: 1.6.0
+auto-generated-by: PyOBO v0.12.0-dev-fd7cd1a1 on 2025-01-08T23:12:59.486371
+idspace: bigg.compartment http://bigg.ucsd.edu/compartments/ "BiGG Compartment"
+idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
+ontology: bigg.compartment
+property_value: dcterms:title "BiGG Compartment" xsd:string
+property_value: dcterms:license "http\://bigg.ucsd.edu/license#license" xsd:string
+property_value: dcterms:description "BiGG is a knowledgebase of Biochemically\\\, Genetically and Genomically structured genome-scale metabolic network reconstructions. It more published genome-scale metabolic networks into a single database with a set of stardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations\\\, and metabolites are linked to many external databases \\\(KEGG\\\, PubChem\\\, and many more\\\). This collection references model compartments." xsd:string
+
+[Term]
+id: bigg.compartment:c
+name: cytosol
+property_value: skos:exactMatch GO:0005829 ! exact match cytosol
+
+[Term]
+id: bigg.compartment:cm
+name: cytosolic membrane
+
+[Term]
+id: bigg.compartment:cx
+name: carboxyzome
+
+[Term]
+id: bigg.compartment:e
+name: extracellular space
+property_value: skos:exactMatch GO:0005615 ! exact match extracellular space
+
+[Term]
+id: bigg.compartment:f
+name: flagellum
+property_value: skos:exactMatch GO:0005929 ! exact match cilium
+
+[Term]
+id: bigg.compartment:g
+name: golgi apparatus
+property_value: skos:exactMatch GO:0005794 ! exact match Golgi apparatus
+
+[Term]
+id: bigg.compartment:h
+name: chloroplast
+property_value: skos:exactMatch GO:0009507 ! exact match chloroplast
+
+[Term]
+id: bigg.compartment:i
+name: inner mitochondrial compartment
+
+[Term]
+id: bigg.compartment:im
+name: intermembrane space of mitochondria
+property_value: skos:exactMatch GO:0005758 ! exact match mitochondrial intermembrane space
+
+[Term]
+id: bigg.compartment:l
+name: lysosome
+property_value: skos:exactMatch GO:0005764 ! exact match lysosome
+
+[Term]
+id: bigg.compartment:m
+name: mitochondria
+property_value: skos:exactMatch GO:0005739 ! exact match mitochondrion
+
+[Term]
+id: bigg.compartment:mm
+name: mitochondrial intermembrane
+property_value: skos:exactMatch GO:0005743 ! exact match mitochondrial inner membrane
+
+[Term]
+id: bigg.compartment:n
+name: nucleus
+property_value: skos:exactMatch GO:0005634 ! exact match nucleus
+
+[Term]
+id: bigg.compartment:p
+name: periplasm
+property_value: skos:exactMatch GO:0042597 ! exact match periplasmic space
+
+[Term]
+id: bigg.compartment:r
+name: endoplasmic reticulum
+property_value: skos:exactMatch GO:0005783 ! exact match endoplasmic reticulum
+
+[Term]
+id: bigg.compartment:s
+name: eyespot
+property_value: skos:exactMatch GO:1990413 ! exact match eyespot apparatus
+
+[Term]
+id: bigg.compartment:u
+name: thylakoid
+property_value: skos:exactMatch GO:0009579 ! exact match thylakoid
+
+[Term]
+id: bigg.compartment:um
+name: thylakoid membrane
+property_value: skos:exactMatch GO:0042651 ! exact match thylakoid membrane
+
+[Term]
+id: bigg.compartment:v
+name: vacuole
+property_value: skos:exactMatch GO:0005773 ! exact match vacuole
+
+[Term]
+id: bigg.compartment:w
+name: wildtype staph aureus
+
+[Term]
+id: bigg.compartment:x
+name: peroxisome/glyoxysome
+property_value: skos:exactMatch GO:0005777 ! exact match peroxisome
+
+[Term]
+id: bigg.compartment:y
+name: cytochrome complex
+property_value: skos:exactMatch GO:0070069 ! exact match cytochrome complex

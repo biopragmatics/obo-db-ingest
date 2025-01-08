@@ -18,7 +18,7 @@ Current Procedural Terminology, more commonly known as CPT®, refers to a medica
 
 | field       |   count |
 |-------------|---------|
-| definitions |     161 |
-| mappings    |     161 |
-| properties  |      34 |
-| terms       |     161 |
+| definitions |     164 |
+| mappings    |     164 |
+| properties  |      33 |
+| terms       |     164 |

@@ -6,16 +6,17 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:bigg.model="http://bigg.ucsd.edu/models/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bigg.model.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bigg.model/1.6.0/bigg.model.owl"/>
-        <terms:description>BiGG is a knowledgebase of Biochemically, Genetically and Genomically structured genome-scale metabolic network reconstructions. It more published genome-scale metabolic networks into a single database with a set of stardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations, and metabolites are linked to many external databases (KEGG, PubChem, and many more). This collection references individual models.</terms:description>
-        <terms:license>http://bigg.ucsd.edu/license#license</terms:license>
-        <terms:title>BiGG Model</terms:title>
-        <oboInOwl:auto-generated-by>bio2obo:bigg.model</oboInOwl:auto-generated-by>
-        <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
+        <dcterms:description>BiGG is a knowledgebase of Biochemically\, Genetically and Genomically structured genome-scale metabolic network reconstructions. It more published genome-scale metabolic networks into a single database with a set of stardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations\, and metabolites are linked to many external databases \(KEGG\, PubChem\, and many more\). This collection references individual models.</dcterms:description>
+        <dcterms:license>http://bigg.ucsd.edu/license#license</dcterms:license>
+        <dcterms:title>BiGG Model</dcterms:title>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-669c37f2 on 2025-01-08T23:49:04.260569</oboInOwl:auto-generated-by>
+        <oboInOwl:hasOBOFormatVersion>1.4</oboInOwl:hasOBOFormatVersion>
     </owl:Ontology>
     
 

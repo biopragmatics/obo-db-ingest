@@ -7,14 +7,14 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cpt.owl">
-        <terms:description>Current Procedural Terminology, more commonly known as CPT®, refers to a medical code set created and maintained by the American Medical Association — and used by physicians, allied health professionals, nonphysician practitioners, hospitals, outpatient facilities, and laboratories to represent the services and procedures they perform. No provider of outpatient services gets paid without reporting the proper CPT® codes. [Description taken from this site](https://www.aapc.com/codes/cpt-codes-range/)]</terms:description>
-        <terms:title>Current Procedural Terminology</terms:title>
-        <oboInOwl:auto-generated-by>bio2obo:cpt</oboInOwl:auto-generated-by>
-        <oboInOwl:date>10:12:2024 11:38</oboInOwl:date>
-        <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
+        <dcterms:description>Current Procedural Terminology\, more commonly known as CPT®\, refers to a medical code set created and maintained by the American Medical Association — and used by physicians\, allied health professionals\, nonphysician practitioners\, hospitals\, outpatient facilities\, and laboratories to represent the services and procedures they perform. No provider of outpatient services gets paid without reporting the proper CPT® codes. \[Description taken from this site\]\(https\://www.aapc.com/codes/cpt-codes-range/\)\]</dcterms:description>
+        <dcterms:title>Current Procedural Terminology</dcterms:title>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-669c37f2 on 2025-01-08T23:48:38.395527</oboInOwl:auto-generated-by>
+        <oboInOwl:hasOBOFormatVersion>1.4</oboInOwl:hasOBOFormatVersion>
     </owl:Ontology>
     
 
@@ -53,12 +53,6 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#date -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
     
 
 
@@ -312,6 +306,17 @@
         <oboInOwl:hasDbXref>cvx:19</oboInOwl:hasDbXref>
         <oboInOwl:id>cpt:90585</oboInOwl:id>
         <rdfs:label>BCG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cpt_90587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90587">
+        <obo:IAO_0000115>Dengue vaccine, quadrivalent, live, 3 dose schedule, for subcutaneous use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:56</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90587</oboInOwl:id>
+        <rdfs:label>dengue fever tetravalent</rdfs:label>
     </owl:Class>
     
 
@@ -1279,6 +1284,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/cpt_90726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90726">
+        <obo:IAO_0000115>Rabies vaccine</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:90</oboInOwl:hasDbXref>
+        <oboInOwl:id>cpt:90726</oboInOwl:id>
+        <rdfs:label>rabies, unspecified formulation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/cpt_90727 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90727">
@@ -1419,7 +1435,7 @@
         <obo:IAO_0000115>Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 3 dose schedule, for intramuscular use</obo:IAO_0000115>
         <oboInOwl:hasDbXref>cvx:44</oboInOwl:hasDbXref>
         <oboInOwl:id>cpt:90740</oboInOwl:id>
-        <rdfs:label>Hep B, dialysis</rdfs:label>
+        <rdfs:label>Hep B, high-dosage, dialysis or IC</rdfs:label>
     </owl:Class>
     
 
@@ -1439,8 +1455,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90743">
         <obo:IAO_0000115>Hepatitis B vaccine (HepB), adolescent, 2 dose schedule, for intramuscular use</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>cvx:08</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>cvx:43</oboInOwl:hasDbXref>
         <oboInOwl:id>cpt:90743</oboInOwl:id>
+        <rdfs:label>Hep B, adolescent or pediatric</rdfs:label>
         <rdfs:label>Hep B, adult</rdfs:label>
     </owl:Class>
     
@@ -1483,10 +1501,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/cpt_90747">
         <obo:IAO_0000115>Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 4 dose schedule, for intramuscular use</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>cvx:43</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>cvx:44</oboInOwl:hasDbXref>
         <oboInOwl:id>cpt:90747</oboInOwl:id>
-        <rdfs:comment>Note that the NDCs for Engerix-B are mapped to CVX 43 which is not specific to dialysis use</rdfs:comment>
-        <rdfs:label>Hep B, adult</rdfs:label>
+        <rdfs:label>Hep B, high-dosage, dialysis or IC</rdfs:label>
     </owl:Class>
     
 

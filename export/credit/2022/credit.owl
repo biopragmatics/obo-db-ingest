@@ -7,15 +7,16 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:credit="https://credit.niso.org/contributor-roles/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/credit.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/credit/2022/credit.owl"/>
-        <terms:description>CRediT (Contributor Roles Taxonomy) is high-level taxonomy, including 14 roles, that can be used to represent the roles typically played by contributors to scientific scholarly output. The roles describe each contributor’s specific contribution to the scholarly output.</terms:description>
-        <terms:title>CASRAI Contributor Roles Taxonomy</terms:title>
-        <oboInOwl:auto-generated-by>bio2obo:credit</oboInOwl:auto-generated-by>
-        <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
+        <dcterms:description>CRediT \(Contributor Roles Taxonomy\) is high-level taxonomy\, including 14 roles\, that can be used to represent the roles typically played by contributors to scientific scholarly output. The roles describe each contributor’s specific contribution to the scholarly output.</dcterms:description>
+        <dcterms:title>CASRAI Contributor Roles Taxonomy</dcterms:title>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-669c37f2 on 2025-01-08T23:48:34.961726</oboInOwl:auto-generated-by>
+        <oboInOwl:hasOBOFormatVersion>1.4</oboInOwl:hasOBOFormatVersion>
     </owl:Ontology>
     
 

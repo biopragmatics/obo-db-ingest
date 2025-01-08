@@ -1,11 +1,13 @@
-format-version: 1.2
-auto-generated-by: bio2obo:bigg.model
+format-version: 1.4
 data-version: 1.6.0
+auto-generated-by: PyOBO v0.12.0-dev-669c37f2 on 2025-01-08T23:49:04.260569
 idspace: bigg.model http://bigg.ucsd.edu/models/ "BiGG Model"
+idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
 ontology: bigg.model
-property_value: http://purl.org/dc/terms/title "BiGG Model" xsd:string
-property_value: http://purl.org/dc/terms/license "http://bigg.ucsd.edu/license#license" xsd:string
-property_value: http://purl.org/dc/terms/description "BiGG is a knowledgebase of Biochemically\, Genetically and Genomically structured genome-scale metabolic network reconstructions. It more published genome-scale metabolic networks into a single database with a set of stardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations\, and metabolites are linked to many external databases \(KEGG\, PubChem\, and many more\). This collection references individual models." xsd:string
+property_value: dcterms:title "BiGG Model" xsd:string
+property_value: dcterms:license "http\://bigg.ucsd.edu/license#license" xsd:string
+property_value: dcterms:description "BiGG is a knowledgebase of Biochemically\\\, Genetically and Genomically structured genome-scale metabolic network reconstructions. It more published genome-scale metabolic networks into a single database with a set of stardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations\\\, and metabolites are linked to many external databases \\\(KEGG\\\, PubChem\\\, and many more\\\). This collection references individual models." xsd:string
 
 [Term]
 id: bigg.model:RECON1

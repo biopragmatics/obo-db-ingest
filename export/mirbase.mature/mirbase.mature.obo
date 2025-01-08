@@ -1,10 +1,12 @@
-format-version: 1.2
-auto-generated-by: bio2obo:mirbase.mature
+format-version: 1.4
 data-version: 22.1
+auto-generated-by: PyOBO v0.12.0-dev-fd7cd1a1 on 2025-01-08T23:22:58.289398
+idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
 ontology: mirbase.mature
-property_value: http://purl.org/dc/terms/title "miRBase mature miRNA" xsd:string
-property_value: http://purl.org/dc/terms/license "public domain" xsd:string
-property_value: http://purl.org/dc/terms/description "The miRBase Sequence Database is a searchable database of published miRNA sequences and annotation. This collection refers specifically to the mature miRNA sequence." xsd:string
+property_value: dcterms:title "miRBase mature miRNA" xsd:string
+property_value: dcterms:license "public domain" xsd:string
+property_value: dcterms:description "The miRBase Sequence Database is a searchable database of published miRNA sequences and annotation. This collection refers specifically to the mature miRNA sequence." xsd:string
 
 [Term]
 id: mirbase.mature:MIMAT0000001

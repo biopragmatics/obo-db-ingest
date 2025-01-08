@@ -8,17 +8,17 @@ MeSH (Medical Subject Headings) is the National Library of Medicine's controlled
 
 | Artifact       | Download PURL                                                | Latest Versioned Download PURL                                    |
 |----------------|--------------------------------------------------------------|-------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/mesh/mesh.obo       | https://w3id.org/biopragmatics/resources/mesh/2024/mesh.obo       |
-| Nodes          | https://w3id.org/biopragmatics/resources/mesh/mesh.tsv       | https://w3id.org/biopragmatics/resources/mesh/2024/mesh.tsv       |
-| SSSOM          | https://w3id.org/biopragmatics/resources/mesh/mesh.sssom.tsv | https://w3id.org/biopragmatics/resources/mesh/2024/mesh.sssom.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/mesh/mesh.owl.gz    | https://w3id.org/biopragmatics/resources/mesh/2024/mesh.owl.gz    |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/mesh/mesh.json.gz   | https://w3id.org/biopragmatics/resources/mesh/2024/mesh.json.gz   |
+| OBO            | https://w3id.org/biopragmatics/resources/mesh/mesh.obo       | https://w3id.org/biopragmatics/resources/mesh/2025/mesh.obo       |
+| Nodes          | https://w3id.org/biopragmatics/resources/mesh/mesh.tsv       | https://w3id.org/biopragmatics/resources/mesh/2025/mesh.tsv       |
+| SSSOM          | https://w3id.org/biopragmatics/resources/mesh/mesh.sssom.tsv | https://w3id.org/biopragmatics/resources/mesh/2025/mesh.sssom.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/mesh/mesh.owl.gz    | https://w3id.org/biopragmatics/resources/mesh/2025/mesh.owl.gz    |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/mesh/mesh.json.gz   | https://w3id.org/biopragmatics/resources/mesh/2025/mesh.json.gz   |
 
 ## Summary
 
 | field       |   count |
 |-------------|---------|
-| definitions |   30613 |
-| parents     |   42021 |
-| synonyms    |  634143 |
-| terms       |  354471 |
+| definitions |   30808 |
+| parents     |   42287 |
+| synonyms    |  636462 |
+| terms       |  355011 |

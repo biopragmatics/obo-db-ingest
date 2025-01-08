@@ -6,14 +6,14 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/uniprot.ptm.owl">
-        <terms:description>The post-translational modifications used in the UniProt knowledgebase (Swiss-Prot and TrEMBL). The definition of the post-translational modifications usage as well as other information is provided in the following format</terms:description>
-        <terms:title>UniProt Post-Translational Modification</terms:title>
-        <oboInOwl:auto-generated-by>bio2obo:uniprot.ptm</oboInOwl:auto-generated-by>
-        <oboInOwl:date>10:12:2024 11:38</oboInOwl:date>
-        <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
+        <dcterms:description>The post-translational modifications used in the UniProt knowledgebase \(Swiss-Prot and TrEMBL\). The definition of the post-translational modifications usage as well as other information is provided in the following format</dcterms:description>
+        <dcterms:title>UniProt Post-Translational Modification</dcterms:title>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-669c37f2 on 2025-01-08T23:48:33.549659</oboInOwl:auto-generated-by>
+        <oboInOwl:hasOBOFormatVersion>1.4</oboInOwl:hasOBOFormatVersion>
     </owl:Ontology>
     
 
@@ -44,12 +44,6 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#date -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
     
 
 

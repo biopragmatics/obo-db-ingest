@@ -1,0 +1,25 @@
+# National Library of Medicine Catalog
+
+The NLM Catalog provides access to NLM bibliographic data for journals, books, audiovisuals, computer software, electronic resources and other materials. Links to the library's holdings in LocatorPlus, NLM's online public access catalog, are also provided. [from homepage]
+
+**License**: _unlicensed_
+
+## PURLs
+
+| Artifact       | Download PURL                                              | Latest Versioned Download PURL   |
+|----------------|------------------------------------------------------------|----------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/nlm/nlm.obo       |                                  |
+| Nodes          | https://w3id.org/biopragmatics/resources/nlm/nlm.tsv       |                                  |
+| SSSOM          | https://w3id.org/biopragmatics/resources/nlm/nlm.sssom.tsv |                                  |
+| OWL            | https://w3id.org/biopragmatics/resources/nlm/nlm.owl       |                                  |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/nlm/nlm.json      |                                  |
+
+## Summary
+
+| field      |   count |
+|------------|---------|
+| mappings   |   50602 |
+| parents    |   41583 |
+| properties |   61559 |
+| synonyms   |   83576 |
+| terms      |   41583 |

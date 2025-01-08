@@ -1,9 +1,10 @@
-format-version: 1.2
-auto-generated-by: bio2obo:uniprot.ptm
-date: 10:12:2024 11:38
+format-version: 1.4
+auto-generated-by: PyOBO v0.12.0-dev-669c37f2 on 2025-01-08T23:48:33.549659
+idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
 ontology: uniprot.ptm
-property_value: http://purl.org/dc/terms/title "UniProt Post-Translational Modification" xsd:string
-property_value: http://purl.org/dc/terms/description "The post-translational modifications used in the UniProt knowledgebase \(Swiss-Prot and TrEMBL\). The definition of the post-translational modifications usage as well as other information is provided in the following format" xsd:string
+property_value: dcterms:title "UniProt Post-Translational Modification" xsd:string
+property_value: dcterms:description "The post-translational modifications used in the UniProt knowledgebase \\\(Swiss-Prot and TrEMBL\\\). The definition of the post-translational modifications usage as well as other information is provided in the following format" xsd:string
 
 [Term]
 id: uniprot.ptm:PTM-0001
