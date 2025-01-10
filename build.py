@@ -53,11 +53,11 @@ pyobo.constants.GLOBAL_CHECK_IDS = True
 #: be conservative) to put on GitHub
 MAX_SIZE = 100_000_000
 PREFIXES = [
+    "icd10",
     "bigg.compartment",
     # "omim.ps", # TODO fix data versioning
     "ccle",
     "icd11",
-    # "nlm", # has instances
     # "geonames", # has instances
     # "ror", # has instances
     "eccode",
