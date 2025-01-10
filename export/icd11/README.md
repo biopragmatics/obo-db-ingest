@@ -19,6 +19,8 @@ Diagnostic tool for epidemiology, health management and clinical purposes, maint
 | field       |   count |
 |-------------|---------|
 | definitions |   17840 |
+| mappings    |   29474 |
 | parents     |   77508 |
+| properties  |   29474 |
 | synonyms    |   46545 |
 | terms       |   69477 |
