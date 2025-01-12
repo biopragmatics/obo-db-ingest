@@ -29,7 +29,7 @@ A manifest of all resources is available at [manifest.yml](docs/_data/manifest.y
 To generate OBO files, run the following shell commands (Python 3.8+):
 
 ```console
-$ pip install tox
+$ uv tool install tox --with tox-uv
 $ tox
 ```
 
@@ -39,12 +39,12 @@ See PURL configuration at https://github.com/perma-id/w3id.org/tree/master/biopr
 This W3ID entry makes ontology artifacts in the "export" folder (https://github.com/biopragmatics/obo-db-ingest/tree/main/export) resolvable.
 Here are a few examples:
 
-| Resource | Version Type | Example PURL                                                                   |
-|----------|--------------|--------------------------------------------------------------------------------|
-| Reactome | Sequential   | https://w3id.org/biopragmatics/resources/reactome/83/reactome.obo              |
-| Interpro | Major/Minor  | https://w3id.org/biopragmatics/resources/interpro/92.0/interpro.obo            |
-| Interpro | Semantic     | https://w3id.org/biopragmatics/resources/drugbank.salt/5.1.9/drugbank.salt.obo |
-| MeSH     | Year         | https://w3id.org/biopragmatics/resources/mesh/2003/mesh.obo.gz                 |
-| UniProt  | Year/Month   | https://w3id.org/biopragmatics/resources/uniprot/2022_05/uniprot.obo.gz        |
-| HGNC     | Date         | https://w3id.org/biopragmatics/resources/hgnc/2023-02-01/hgnc.obo              |
-| CGNC     | unversioned  | https://w3id.org/biopragmatics/resources/cgnc/cgnc.obo                         |
+| Resource      | Version Type | Example PURL                                                                   |
+|---------------|--------------|--------------------------------------------------------------------------------|
+| Reactome      | Sequential   | https://w3id.org/biopragmatics/resources/reactome/83/reactome.obo              |
+| Interpro      | Major/Minor  | https://w3id.org/biopragmatics/resources/interpro/92.0/interpro.obo            |
+| DrugBank Salt | Semantic     | https://w3id.org/biopragmatics/resources/drugbank.salt/5.1.9/drugbank.salt.obo |
+| MeSH          | Year         | https://w3id.org/biopragmatics/resources/mesh/2003/mesh.obo.gz                 |
+| UniProt       | Year/Month   | https://w3id.org/biopragmatics/resources/uniprot/2022_05/uniprot.obo.gz        |
+| HGNC          | Date         | https://w3id.org/biopragmatics/resources/hgnc/2023-02-01/hgnc.obo              |
+| CGNC          | unversioned  | https://w3id.org/biopragmatics/resources/cgnc/cgnc.obo                         |

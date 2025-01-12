@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: home
 ---
+
 The latest export was made on {{ site.data.manifest.date }}. The following software packages were used:
 
 <ul>
@@ -14,6 +15,7 @@ The latest export was made on {{ site.data.manifest.date }}. The following softw
   <tr>
     <th>Name</th>
     <th>Version</th>
+    <th>License</th>
     <th>Terms</th>
     <th>Synonyms</th>
     <th>Mappings</th>
@@ -30,6 +32,14 @@ The latest export was made on {{ site.data.manifest.date }}. The following softw
   <tr>
     <td><a href="https://bioregistry.io/{{ resource[0] }}"><code>{{ resource[0] }}</code></a></td>
     <td>{{ resource[1].summary.version }}</td>
+    <td>
+    {% assign license = resource[1].summary.license %}
+    {% if license contains "http" %}
+        <a href="{{ license }}">Custom</a>
+    {% else %}
+        {{ license }}
+    {% endif %}
+</td>
     <td align="right">{{ resource[1].summary.terms }}</td>
     <td align="right">{{ resource[1].summary.synonyms }}</td>
     <td align="right">{{ resource[1].summary.mappings }}</td>
