@@ -20,6 +20,7 @@ import gzip
 import os
 import shutil
 import subprocess
+import tempfile
 import traceback
 from pathlib import Path
 from textwrap import dedent
@@ -53,13 +54,13 @@ pyobo.constants.GLOBAL_CHECK_IDS = True
 #: be conservative) to put on GitHub
 MAX_SIZE = 100_000_000
 PREFIXES = [
+    "geonames",  # has instances
+    "ror",  # has instances
     "icd10",
     "bigg.compartment",
     # "omim.ps", # TODO fix data versioning
     "ccle",
     "icd11",
-    # "geonames", # has instances
-    # "ror", # has instances
     "eccode",
     "rgd",
     "sgd",
@@ -110,6 +111,7 @@ GZIP_OBO = {"mgi", "uniprot", "slm", "reactome", "pathbank", "mesh"}
 ARTIFACT_LABELS = {
     "obo": "OBO",
     "owl": "OWL",
+    "ofn": "OFN",
     "sssom": "SSSOM",
     "nodes": "Nodes",
     "obograph": "OBO Graph JSON",
@@ -240,12 +242,15 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False, no_force: bo
     else:
         tqdm.write(click.style(f"[{prefix}] has no version info", fg="red"))
     directory.mkdir(exist_ok=True, parents=True)
-    obo_path = directory.joinpath(f"{prefix}.obo")
-    names_path = directory.joinpath(f"{prefix}.tsv")
-    sssom_path = directory.joinpath(f"{prefix}.sssom.tsv")
-    obo_graph_json_path = directory.joinpath(f"{prefix}.json")
-    owl_path = directory.joinpath(f"{prefix}.owl")
-    log_path = directory.joinpath(f"{prefix}.log.txt")
+
+    stub_path = directory.joinpath(prefix)
+    obo_path = stub_path.with_suffix(".obo")
+    names_path = stub_path.with_suffix(".tsv")
+    sssom_path = stub_path.with_suffix(".sssom.tsv")
+    obo_graph_json_path = stub_path.with_suffix(".json")
+    ofn_path = stub_path.with_suffix(".ofn")
+    owl_path = stub_path.with_suffix(".owl")
+    log_path = stub_path.with_suffix(".log.txt")
     log_path.unlink(missing_ok=True)
 
     try:
@@ -261,13 +266,30 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False, no_force: bo
             traceback.print_exc(file=file)
         obo_path.unlink()
         return rv
+
+    try:
+        obo.write_ofn(ofn_path)
+    except Exception as e:
+        tqdm.write(
+            click.style(
+                f"[{prefix}] failed to write OFN: {e}\n\tWriting to {log_path.as_posix()}",
+                fg="red",
+            )
+        )
+        with log_path.open("w") as file:
+            traceback.print_exc(file=file)
+        obo_path.unlink()
+        return rv
+
     obo_path, rv["obo"] = _prepare_artifact(prefix, obo_path, has_version, ".obo.gz")
+    ofn_path, rv["ofn"] = _prepare_artifact(prefix, ofn_path, has_version, ".ofn.gz")
 
     rv["summary"] = _get_summary(obo)
 
     _write_nodes(names_path, obo, prefix)
     _, rv["nodes"] = _prepare_artifact(prefix, names_path, has_version, ".tsv.gz")
 
+    tqdm.write(f"[{prefix}] writing SSSOM")
     sssom_df = pyobo.get_mappings_df(obo, names=False)
     sssom_df.to_csv(sssom_path, sep="\t", index=False)
     _, rv["sssom"] = _prepare_artifact(prefix, sssom_path, has_version, ".sssom.tsv.gz")
@@ -275,8 +297,8 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False, no_force: bo
     if do_convert:
         # add -vvv and search for org.semanticweb.owlapi.oboformat.OBOFormatOWLAPIParser on errors
         try:
-            tqdm.write(f"[{prefix}] converting to OWL")
-            convert(obo_path, owl_path, merge=False, reason=False, debug=True)
+            tqdm.write(f"[{prefix}] converting OFN to OWL")
+            convert(ofn_path, owl_path, merge=False, reason=False, debug=True)
             _, rv["owl"] = _prepare_artifact(prefix, owl_path, has_version, ".owl.gz")
         except subprocess.CalledProcessError as e:
             tqdm.write(
@@ -292,8 +314,8 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False, no_force: bo
             tqdm.write(f"[{prefix}] done converting to OWL")
 
         try:
-            tqdm.write(f"[{prefix}] converting to OBO Graph JSON")
-            convert(obo_path, obo_graph_json_path, merge=False, reason=False, debug=True)
+            tqdm.write(f"[{prefix}] converting OFN to OBO Graph JSON")
+            convert(ofn_path, obo_graph_json_path, merge=False, reason=False, debug=True)
             _, rv["obograph"] = _prepare_artifact(
                 prefix, obo_graph_json_path, has_version, ".json.gz"
             )
@@ -317,6 +339,7 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False, no_force: bo
         if "iri" in data
     ]
 
+    tqdm.write(f"[{prefix}] writing README")
     # Write a README file, so anyone who navigates there can see what's going on.
     # skip any entries that have 0 values
     summary = sorted(
@@ -392,7 +415,7 @@ def main(minimum: str | None, xvalue: list[str], no_convert: bool, force: bool):
                     no_force=not force,
                 )
             except Exception as e:
-                tqdm.write(click.style(f"[{prefix}] {e}", fg="red"))
+                tqdm.write(click.style(f"[{prefix}] got exception in _make: {e}", fg="red"))
                 continue
 
     versions = {
