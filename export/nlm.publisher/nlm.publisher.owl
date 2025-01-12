@@ -1,0 +1,4209 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:absolute:nlm.publisher#"
+     xml:base="urn:absolute:nlm.publisher"
+     xmlns:MI="http://purl.obolibrary.org/obo/MI_"
+     xmlns:IAO="http://purl.obolibrary.org/obo/IAO_"
+     xmlns:OMO="http://purl.obolibrary.org/obo/OMO_"
+     xmlns:nlm="https://www.ncbi.nlm.nih.gov/nlmcatalog/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:sio="http://semanticscience.org/resource/SIO_"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:FBcv="http://purl.obolibrary.org/obo/FBcv_"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:issn="https://portal.issn.org/resource/ISSN/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:orcid="https://orcid.org/"
+     xmlns:sssom="https://w3id.org/sssom/"
+     xmlns:schema="http://schema.org/"
+     xmlns:semapv="https://w3id.org/semapv/vocab/"
+     xmlns:biolink="https://w3id.org/biolink/vocab/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:NCBITaxon="http://purl.obolibrary.org/obo/NCBITaxon_"
+     xmlns:uniprot.core="http://purl.uniprot.org/core/"
+     xmlns:nlm.publisher="https://bioregistry.io/nlm.publisher:">
+    <owl:Ontology rdf:about="urn:absolute:nlm.publisher">
+        <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <dcterms:description>Publisher short codes appearin in the NLM Catalog.</dcterms:description>
+        <dcterms:license>public domain</dcterms:license>
+        <dcterms:title>NLM Publisher Codes</dcterms:title>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000700 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000700">
+        <rdfs:label>has ontology root term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
+        <rdfs:label>Homo sapiens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nlm#publisher -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nlm#publisher">
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:comment>injected by PyOBO source</rdfs:comment>
+        <rdfs:label>publisher</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.uniprot.org/core/publisher"/>
+        <skos:exactMatch rdf:resource="http://schema.org/publisher"/>
+        <skos:exactMatch rdf:resource="https://w3id.org/biolink/vocab/publisher"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:FSR -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:FSR">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Forensic Science Review</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:aaem -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:aaem">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Institute of Rural Health</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:aafp -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:aafp">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>American Academy of Family Physicians</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:acs -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:acs">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>American Chemical Society</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:aebi -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:aebi">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Asociacion Espanola de Bioetica y Etica Medica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:aegis -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:aegis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>AEGIS Communications</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:aerzteverlag -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:aerzteverlag">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Aerzteverlag medinfo AG</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:afhsc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:afhsc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Armed Forces Health Surveillance Branch</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ageb -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ageb">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Acta Gastro-Enterologica Belgica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ahrq -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ahrq">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Agency for Healthcare Research and Quality</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:aimsbu -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:aimsbu">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>American Institute of Mathematical Sciences and Beihang University</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:aip -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:aip">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>American Institute of Physics</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:airitip -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:airitip">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Ainosco Press</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ajj -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ajj">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Anthony J. Jannetti, Inc.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:akademperiodyka -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:akademperiodyka">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Publishing House “Akademperiodyka”</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:akdema -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:akdema">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Akdema Informatics and Publication</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:alimsthai -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:alimsthai">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Allergy and Immunology Society of Thailand</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ama -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ama">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>American Medical Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ambit -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ambit">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>proLekare.cz</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:amepub -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:amepub">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>AME Publishing Company</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:amha -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:amha">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Croatian Scientific Society for the History of Medicine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:amjdent -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:amjdent">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>American Journal of Dentistry</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ampsych -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ampsych">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>American Psychological Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:amsir -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:amsir">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Academy Of Medical Sciences of I.R. of Iran</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:aosis -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:aosis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>AOSIS OpenJournals</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:apocp -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:apocp">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Asian Pacific Organization for Cancer Prevention</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:aps -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:aps">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>American Physical Society</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:apslovak -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:apslovak">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>AEPress, s r. o.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:aran -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:aran">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Aran ediciones, S.L.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:arhfr -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:arhfr">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>JCU, James Cook University</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ariesdue -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ariesdue">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Ariesdue Srl</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:armam -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:armam">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Automation in Microbiology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:asabe -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:asabe">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>American Society of Agricultural and Biological Engineers Publications</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:asabh -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:asabh">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Acta Medica Academica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ascmed -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ascmed">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Clinical Care Targeted Communications Group, LLC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ascr -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ascr">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Institute of Physiology, Academy of Sciences of the Czech Republic, Prague</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:atrachim -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:atrachim">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Academy of Traditional Chinese Medicine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:atypon -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:atypon">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Atypon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:audha -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:audha">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Office of Health Protection, Australian Government Department of Health</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ayubmedcoll -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ayubmedcoll">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Ayub Medical College</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:basuni -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:basuni">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Baskent University, Publishers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:baycinar -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:baycinar">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Baycinar Tibbi Yayincilik</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:bcm_mosc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:bcm_mosc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Biochemistry (Moscow)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:bcs -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:bcs">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>BCS Learning and Development</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:begell -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:begell">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>BegellHouse Publisher, Inc.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:belsurg -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:belsurg">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Acta Gastroenterol Belg</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:bentham -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:bentham">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Bentham Science Publishers Ltd.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:bhjd -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:bhjd">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Bulletin of the NYU Hospital for Joint Diseases</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:bilimsel -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:bilimsel">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Bilimsel Tip Publishing House</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:bionika -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:bionika">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Bionika</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:bjbms -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:bjbms">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Association of Basic Medical Sciences Federation of Bosnia and Herzegovina</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:bmc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:bmc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>BioMed Central</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:bmjgrp -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:bmjgrp">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>BMJ Publishing Group</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:bonejointp -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:bonejointp">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>The British Editorial Society of Bone &amp; Joint Surgery</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:brsocu -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:brsocu">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>International Brazilian J Urol</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cairn -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cairn">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Cairn</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:camup -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:camup">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Cambridge University Press</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:canurol -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:canurol">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>The Canadian Journal of Urology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cap -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cap">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Chinese Association of Pathophysiology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:capemedia -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:capemedia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Health and Medical Publishing Group</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:catchwrd -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:catchwrd">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Ingenta plc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cccm -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cccm">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Journal Office of Chinese Critical Care Medicine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cda -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cda">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Canadian Dental Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cdc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cdc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>CDC-NCEZID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cdcan -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cdcan">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Public Health Agency of Canada</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cdcnchs -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cdcnchs">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>National Center for Health Statistics</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cdcpcd -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cdcpcd">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Centers for Disease Control and Prevention</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cejph -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cejph">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>National Institute of Public Health, Czech Republic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:celsius -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:celsius">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Editura Celsius</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cenveo -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cenveo">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Cenveo Publisher Services</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cersas -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cersas">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Clinical and Experimental Rheumatology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:chaos -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:chaos">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>The Society for Chaos Theory in Psychology and Life Sciences</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:chinacam -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:chinacam">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Chinese Academy of Medical Sciences</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:chinacdc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:chinacdc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Chinese Center for Disease Control and Prevention</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:chinjappphys -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:chinjappphys">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Editorial Office of Chinese Journal of Applied Physiology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:chinmatmed -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:chinmatmed">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>China Journal of Chinese Materia Medica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:chosunu -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:chosunu">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Korean Society for Biochemistry and Molecular Biology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cirycir -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cirycir">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Instituto Mexicano del Seguro Social</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cjae -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cjae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Chinese Journal of Applied Ecology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cjbt -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cjbt">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Editorial Office of Sheng Wu Gong Cheng Xue Bao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cjcpub -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cjcpub">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Chinese Journal of Contemporary Pediatrics</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cjlc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cjlc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Editorial Office of Chinese Journal of Lung Cancer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cjmi -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cjmi">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Chinese Journal of Medical Instrumentation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cjot -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cjot">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>China journal of orthopaedics and traumatology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cjrrs -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cjrrs">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Chinese journal of reparative and reconstructive surgery</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cjsc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cjsc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Chinese journal of schistosomiasis control</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:clinlabpub -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:clinlabpub">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Clinical Laboratory</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cmaph -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cmaph">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Chinese Medical Association Publishing House Ltd.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cmbfr -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cmbfr">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>CMB-Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cmica -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cmica">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Colegio Mexicano de Inmunología clínica y alergia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cnai -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cnai">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Consociazione Nazionale Associazione Infermieri</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cnhi -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cnhi">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Colombian National Health Institute</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cohresp -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cohresp">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Ordem dos Medicos / Portuguese Medical Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:compuscript -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:compuscript">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Compuscript Limited</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:copdfoun -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:copdfoun">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>COPD Foundation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:copes -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:copes">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Psicothema</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cordoba -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cordoba">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Cordoba: Universidad Nacional De Cordoba, Facultad De Ciencias Medicas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:core -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:core">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>National Institute for Health and Care Research Journals Library</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cpbpress -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cpbpress">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Cell Physiol Biochem Press GmbH Co KG</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cpspak -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cpspak">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>College of Physicians and Surgeons</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:crie -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:crie">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Central Research Institute of Epidemiology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:croderm -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:croderm">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Croatian Dermatovenerological Society</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:csimm -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:csimm">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Chinese Society for Immunology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:csiro -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:csiro">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>CSIRO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:cspot -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:cspot">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Ceska spolecnost pro ortopedii a traumatologii</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:dadl -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:dadl">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Danish Medical Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:datapage -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:datapage">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Datapage</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:datatrace -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:datatrace">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Data Trace Publishing Company</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:dclab -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:dclab">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Data Conversion Labs</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ddsczech -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ddsczech">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>DDS on behalf of Universitas Carolina</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:dearzte -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:dearzte">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Deutsches Aerzteblatt International</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:debarber -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:debarber">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Dennis Barber Ltd.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:degruyter -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:degruyter">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>De Gruyter</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:derm -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:derm">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Arthur C Huntley MD, California Digital Library</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:dismed -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:dismed">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Discovery Medicine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:djs -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:djs">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Dartmouth Journal Services</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:dustri -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:dustri">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Dustri-Verlag Dr. Karl Feistle GmbH &amp; Co. KG</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:eacts -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:eacts">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Multimedia Manual for Cardio-Thoracic Surgery</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ebmed -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ebmed">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>EB Medicine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ecri -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ecri">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>ECRI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:edpsci -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:edpsci">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>EDP Sciences</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:edqm -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:edqm">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>European Directorate for the Quality of Medicines, Council of Europe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:edralswr -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:edralswr">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>EDRA LSWR SpA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:edscientific -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:edscientific">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Editora Scientific</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:egyptai -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:egyptai">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Egyptian Association of Immunologists</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:elifesci -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:elifesci">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>eLife Sciences Publications, Ltd</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:elsevier -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:elsevier">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Elsevier Science</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:embs -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:embs">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>IEEE Engineering in Medicine and Biology Society</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:emerald -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:emerald">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Emerald Group Publishing Limited</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:endoresctr -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:endoresctr">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Endocrinology Research Centre</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:envscichn -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:envscichn">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Environmental Science (Huan Jing Ke Xue)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:equinox -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:equinox">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Equinox Publishing Ltd</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ergon -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ergon">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Ergon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:esmon -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:esmon">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Esmon Publicidad</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:eurobs -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:eurobs">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>European Observatory on Health Systems and Policies</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:europa -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:europa">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Europa Digital &amp; Publishing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:eurotext -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:eurotext">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>John Libbey Eurotext</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:exerimm -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:exerimm">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>International Society of Exercise and Immunology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:fecolsog -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:fecolsog">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Federacion Colombiana de Obstetricia y Ginecologia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:fmes -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:fmes">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Forum for Medical Ethics Society</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:fmmuch -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:fmmuch">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>SOUTHERN MEDICAL UNIVERSITY</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:fphuk -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:fphuk">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Faculty of Pharmacy University of Karachi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:furevmed -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:furevmed">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Fundacion Revista Medicina (Buenos Aires)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:fyxzz -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:fyxzz">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Fayixue Zazhi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:galenos -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:galenos">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Aves Yayincilik</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:galenosyay -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:galenosyay">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Galenos Yayinevi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:genden -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:genden">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Academy of General Dentistry</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:gennet -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:gennet">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>GN1 Sistemas e Publicacoes, LTDA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:geotar -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:geotar">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>GEOTAR Media Publishing Group</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:gffcc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:gffcc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Gulf Federation for Cancer Control</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:gmsante -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:gmsante">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Global Media Sante</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:graphimedic -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:graphimedic">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Graphimedic, S.A. de C.V.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:gstut -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:gstut">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Gesellschaft Schweizer Tieraerztinnen und Tieraerzte</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:hastings -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:hastings">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>The Hastings Center</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:heidelbg -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:heidelbg">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>JMIR Publications</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:hellenpsych -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:hellenpsych">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Hellenic Psychiatric Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:herbj -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:herbj">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Hereditas(Beijing)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:highwire -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:highwire">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>HighWire</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:hkam -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:hkam">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Hong Kong Academy of Medicine Press</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:hmp -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:hmp">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>HMP Communications, LLC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:huaspsy -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:huaspsy">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Neuropsychopharmacologia Hungarica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:humssph -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:humssph">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Hamadan University of Medical Sciences, School of Public Health</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:hupsas -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:hupsas">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Hungarian Psychiatric Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:hybrid -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:hybrid">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>van Zuiden Communications</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:iausa -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:iausa">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>IAS-USA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ibmcrams -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ibmcrams">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Institute of Biomedical Chemistry, Russian Academy of Medical Sciences</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ic -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ic">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>IndexCopernicus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:icemj -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:icemj">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Domus Medica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:icmhpe -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:icmhpe">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>International Center of Mental Health Policy and Economics</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ifactory -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ifactory">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Sheridan PubFactory</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ifp -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ifp">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Institute of Pharmacology Polish Academy of Sciences</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:igakushoin -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:igakushoin">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>IGAKU-SHOIN Ltd.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:iitalant -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:iitalant">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Istituto Italiano di Antropologia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ijhpm -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ijhpm">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>International journal of health policy and management</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ijim -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ijim">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Indonesian Society of Internal Medicine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ijme -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ijme">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>International journal of medical education</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ijpc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ijpc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>International Journal of Pharmaceutical Compounding</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:imd -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:imd">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Aluna Publishing (Wydawnictwo Aluna)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:imdimc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:imdimc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>instytut Matki i Dziecka/Institute of Mother and Child</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:imolpgs -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:imolpgs">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Institute of Molecular Physiology and Genetics, Slovak Academy of Sciences</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:impact -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:impact">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Impact Journals, LLC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:imrpress -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:imrpress">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>IMR Press</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:inacse -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:inacse">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>International Academy of Science, Education, I ndustry &amp; Arts</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:indian -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:indian">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Indian Pediatrics</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:inferenze -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:inferenze">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Inferenze scarl</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:inforang -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:inforang">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Inforang</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:iniestares -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:iniestares">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Archivos Espanoles de Urologia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:innovis -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:innovis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>InnoVision Professional Media</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:instparczech -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:instparczech">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Institute of Parasitology, Biology Centrum the Academy of Sciences of the Czech Republic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:intres -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:intres">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Inter-Research Science Center</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:intsoclymph -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:intsoclymph">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>International Society Of Lymphology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:iop -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:iop">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>IOP Publishing Ltd.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:iosp -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:iosp">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>IOS Press</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:iransn -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:iransn">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Iranian Society of Nephrology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:irct -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:irct">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>International Rehabilitation Council for Torture Victims</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:irmedorg -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:irmedorg">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Irish Medical Organisation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:isdis -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:isdis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Istituto Superiore di Sanita</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:isiasicr -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:isiasicr">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Iranian Society of Immunology and Allergy and Shiraz Institute for Cancer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:isrameda -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:isrameda">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Israel Medical Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:italchir -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:italchir">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Annali Italiani di Chirurgia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:iucr -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:iucr">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>International Union of Crystallography</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:iwapub -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:iwapub">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>IWA Publishing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:iyaku -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:iyaku">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>IYAKU MEDICINE and Drug JOURNAL CO LTD</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jagt -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jagt">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Association Of Genetic Technologists</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jagup -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jagup">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Jagiellonian University Press</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:japi -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:japi">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>The Association of Physicians of India</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jappm -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jappm">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Journal of Applied Measurement</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jaypee -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jaypee">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Jaypee Brothers Medical Publishers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jbechn -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jbechn">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Journal of Biomedical Engineering (China)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jbiosci -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jbiosci">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Indian Academy of Sciences</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jbr -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jbr">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Journal of Biomedical Research</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jcd -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jcd">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Journal of Clinical Dentistry</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jco -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jco">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Journal of Clinical Orthodontics</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jcohns -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jcohns">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Lin Chung Er Bi Yan Hou Tou Jing Wai Ke Za Zhi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jcsuph -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jcsuph">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>CENTRAL SOUTH UNIVERSITY</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jforodon -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jforodon">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>journal of forensic odontostomatology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jhupress -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jhupress">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Project MUSE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jinfdevc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jinfdevc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>The Journal of Infection in Developing Countries</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jlh -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jlh">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Journal of law and health, Cleveland-Marshall College of Law</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jmni -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jmni">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>International Society of Musculoskeletal and Neuronal Interactions</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jnbna -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jnbna">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>National Black Nurses Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jnlci -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jnlci">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>American Society for Clinical Investigation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jogh -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jogh">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Journal of Global Health (JoGH)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jpgm -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jpgm">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Medknow Publications and Media Pvt Ltd</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:jscb -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:jscb">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>J-STAGE, Japan Science and Technology Information Aggregator, Electronic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:karger -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:karger">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>S. Karger AG, Basel, Switzerland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:katuni -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:katuni">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Kathmandu University</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:kaunas -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:kaunas">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Lithuanian University of Health Sciences</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:kbbid -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:kbbid">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Kare Publishing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:kdcpa -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:kdcpa">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Korea Disease Control and Prevention Agency</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:kerums -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:kerums">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Kermanshah University of Medical Sciences</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:knwc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:knwc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Sunmedia PierOnline</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:kobe -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:kobe">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Kobe Journal of Medical Sciences Publisher</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:konmed -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:konmed">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Konsilium Medikum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:korshmed -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:korshmed">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>The Korean Society for the History of Medicine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ksen -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ksen">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Korean Society for Exercise Nutrition</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ksg -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ksg">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>The Korean Society of Gastroenterology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ksmbt -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ksmbt">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>The Korean Society for Microbiology and Biotechnology.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:kstc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:kstc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Korean Society of Nursing Science</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:kurenai -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:kurenai">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Kyoto University Research Information Repository - Kiyo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:lavoisier -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:lavoisier">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Lavoisier</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:lemali -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:lemali">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Societe medicale du Mali</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:litmed -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:litmed">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Literatura Medica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:lumina -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:lumina">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Lumina Datamatics Ltd.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:lwwips -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:lwwips">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Wolters Kluwer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:m2comm -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:m2comm">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>M2PI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:macpatho -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:macpatho">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>College of Pathologists, Academy of Medicine of Malaysia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:malaymeda -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:malaymeda">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Malaysian Medical Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:mapress -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:mapress">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Magnolia Press</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:mars -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:mars">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>MARS - LHC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:mattioli -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:mattioli">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Mattioli 1885, Spa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:mdadv -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:mdadv">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>MDAdvantage</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:mdpi -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:mdpi">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>MDPI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:medfarma -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:medfarma">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Sociedade Portuguesa de Reumatologia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:medglas -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:medglas">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Medical Association of Zenica-Doboj Canton, Bosnia and Herzegovina</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:meditsina -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:meditsina">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Meditsina</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:medletr -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:medletr">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Medical Letter on Drugs and Therapeutics</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:mednak -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:mednak">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Medicinska naklada d.o.o.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:medoral -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:medoral">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Medicina Oral S.L.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:medpharm -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:medpharm">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Medpharm Publications</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:medprakt -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:medprakt">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Medycyna Praktyczna</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:medrevs -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:medrevs">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>MedReviews, LLC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:medsci -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:medsci">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>International Scientific Literature, Ltd.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:medwave -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:medwave">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Medwave</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:mersenne -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:mersenne">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Centre Mersenne</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:minerva -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:minerva">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Minerva Medica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:mmcb -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:mmcb">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Mymensingh Medical College, Bangladesh</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:mmp -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:mmp">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Millennium Medical Publishing, Inc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:mmpub -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:mmpub">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Maghira AND Maas Publications (Sweden)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:mmwr -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:mmwr">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>CDC - Morbidity and Mortality Weekly Report</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:molbiolmosk -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:molbiolmosk">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Molekuliarnaia biologiia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:morion -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:morion">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>MORION LLC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:mrepress -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:mrepress">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>MRE Press</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:msanidad -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:msanidad">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Revista Espanola de Salud Publica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:msp -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:msp">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Medical Science Publishing International, Inc.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:msphera -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:msphera">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Media Sphera Publishing Group</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:msptm -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:msptm">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Malaysian Society of Parasitology and Tropical Medicine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:nanjinggh -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:nanjinggh">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Nanjing Jun Qu Nanjing Zong Yi Yuan zhu ban</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:nature -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:nature">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Nature Publishing Group</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:navarra -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:navarra">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Departamento de Salud - Gobierno de Navarra</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ncmedj -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ncmedj">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>North Carolina Medical Journal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:nebo -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:nebo">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Nebo (Italy)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:nejm -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:nejm">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>New England Journal of Medicine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:nencki -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:nencki">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Nencki Institute of Experimental Biology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:nephrc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:nephrc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Nepal Health Research Council</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:nepmedas -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:nepmedas">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Nepal Medical Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:nepoph -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:nepoph">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Nepal Ophthalmic Society</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:newgen -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:newgen">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Newgen DigitalWorks Pvt.Ltd</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:niaaa -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:niaaa">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>National Institute on Alcohol Abuse and Alcoholism</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:niehs -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:niehs">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>National Toxicology Program</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:nizppzh -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:nizppzh">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>National Institute of Public Health - National Institute of Hygiene (NIPH-NIH), Poland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:nma -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:nma">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Norwegian Medical Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:noferiom -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:noferiom">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Nofer Institute of Occupational Medicine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:nrcrm -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:nrcrm">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>National Research Center for Radiation Medicine of the National Academy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ntvg -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ntvg">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Vereniging NTvG</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:oie -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:oie">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>World Organisation for Animal Health (OIE)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:oiiq -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:oiiq">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Order of Nurses of Quebec</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:okayama -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:okayama">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Okayama University Medical School</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:oldcitypub -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:oldcitypub">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Old City Publishing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:oncnurs -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:oncnurs">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Oncology Nursing Society</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:osapub -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:osapub">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Optica Publishing Group</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:pacinied -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:pacinied">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Pacini Editore</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:pagepress -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:pagepress">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Pagepress Publications</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:painmd -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:painmd">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Pain Physician</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:pakmed -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:pakmed">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Pakistan Medical Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:paluni -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:paluni">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Palacky University Olomouc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:pasifika -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:pasifika">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Pasifika Medical Association Group</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:pasjumc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:pasjumc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Polish Academy of Sciences &amp; Jagiellonian University Medical College</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:pavia -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:pavia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Pavia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:pbs -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:pbs">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Postepy Biochem, Inc.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:pekuni -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:pekuni">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Journal of Peking University (Health Sciences)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:pensierosci -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:pensierosci">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Il Pensiero Scientifico Editore</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:pensoftpub -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:pensoftpub">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Pensoft Publishers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:performis -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:performis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Performis BV</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:perpub -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:perpub">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Permanyer Publications</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:peru -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:peru">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>La Sociedad De Gastroenterologia Del Peru</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:phsocn -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:phsocn">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Physiological Society of Nigeria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:physpostgrad -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:physpostgrad">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Physicians Postgraduate Press, Inc.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:pinsir -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:pinsir">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Pasteur Institute of Iran</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:pjbs -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:pjbs">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Pakistan Journal of Biological Sciences</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:plos -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:plos">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Public Library of Science</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:pmc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:pmc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>PubMed Central</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:polacadsci -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:polacadsci">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Polish Academy of Sciences</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:polemos -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:polemos">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Polemos S.A. (Argentina)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:polparsoc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:polparsoc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Polish Parasitological Society</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:polpsych -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:polpsych">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Polish Psychiatric Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:por -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:por">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Hungarian Oncological Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:prelum -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:prelum">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Prelum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:pzico -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:pzico">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>P.Ziti and Co</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:qhc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:qhc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Frontline Medical Communications Inc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:qingdao -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:qingdao">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Journal House of Qingdao University</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:quint -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:quint">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Quintessence Publishing Company</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:quintpub -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:quintpub">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Quintessence Publishing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:racgp -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:racgp">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Australian Family Physician</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:rcni -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:rcni">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>RCNi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:revmedch -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:revmedch">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Geneve: Medecine et hygiene</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:rhinologic -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:rhinologic">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>International Rhinologic Society</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:rilapub -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:rilapub">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Rila Publications Ltd</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:rims -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:rims">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Rhode Island Medical Society</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:rmlg -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:rmlg">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Revue Medicale de Liege</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:rosogast -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:rosogast">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Iuliu Hatieganu Medical Publishing House</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:royan -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:royan">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Royan Institute</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:rpcctv -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:rpcctv">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Sociedade Portuguesa de Cirurgia Cardio-Toracica e Vascular</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:rsc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:rsc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Royal Society of Chemistry</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:rsumpc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:rsumpc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Romanian Society of Morphology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:rvc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:rvc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>The Royal Veterinary College, London, UK</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:safrica -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:safrica">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Cardiovascular Journal of Africa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:saio -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:saio">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Sociedad Argentina de Investigacion Odontologica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:saned -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:saned">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Grupo Saned</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:sanova -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:sanova">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>SanovaWorks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:saxinst -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:saxinst">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Sax Institute</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:scg -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:scg">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Swiss Chemical Society</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:schweizerbart -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:schweizerbart">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Schweizerbart Scientific Publishers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:sciamsn -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:sciamsn">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Scientific American</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:sciandmed -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:sciandmed">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Science &amp; Medicine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:scielo -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:scielo">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Scientific Electronic Library Online</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:scischolar -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:scischolar">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Scientific Scholar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:scsmt -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:scsmt">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Societat Catalana de Seguretat i Medicina del Treball</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:sdsma -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:sdsma">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>South Dakota Medicine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:sepu -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:sepu">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Se Pu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:seq -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:seq">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Sociedad Espanola de Quimioterapia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:serdi -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:serdi">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Serdi Edition</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:serra -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:serra">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Fabrizio Serra Editore</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:seuit -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:seuit">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Societa Editrice Universo, srl</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:shangbio -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:shangbio">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>China Science Publishing and Media Ltd.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:shanstoma -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:shanstoma">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>School of Stomatology, SHJTU</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:sibs -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:sibs">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Acta Physiologica Sinica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:silverchair -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:silverchair">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Silverchair Information Systems</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:simmoc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:simmoc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Italian Society for Medical, Odontoiatric, and Clinical Microbiology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:sinitaly -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:sinitaly">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>SIN Società Italiana di Nefrologia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:sjweh -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:sjweh">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Scandinavian Journal of Work, Environment &amp; Health</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:skinther -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:skinther">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Skin Therapy Letter</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:sldesoc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:sldesoc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Slovenian Dermatovenerological Society</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:slma -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:slma">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Sri Lanka Medical Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:slovchem -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:slovchem">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Slovenian Chemical Society</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:sma -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:sma">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Southern Medical Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:socargped -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:socargped">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Sociedad Argentina de Pediatria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:socdra -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:socdra">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Socidrogalcohol</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:spackin -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:spackin">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>SpackIndia Solutions</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:spadv -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:spadv">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>MJS Publishing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:spandido -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:spandido">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Spandidos Publications</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:spectrum -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:spectrum">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Spektrum Akademischer Verlag</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:spibg -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:spibg">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Saint Petersburg Institute of Bioregulation and Gerontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:spiglobal -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:spiglobal">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>SPi Global</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:spm -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:spm">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Salud Publica de Mexico</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:springer -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:springer">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Springer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:spums -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:spums">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>South Pacific Underwater Medicine Society</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ssopub -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ssopub">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Schweizerische Zahnaertze-Gesellschaft SSO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:stapp -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:stapp">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>The Stapp Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:stchad -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:stchad">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Statistics Canada-Health Analysis Division</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:stfm -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:stfm">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Society of Teachers of Family Medicine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:stme -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:stme">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>International Foundation Juan Jose Lopez Ibor</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:suntec -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:suntec">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>SunTec Web Services Pvt. Ltd., New Delhi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:swedmed -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:swedmed">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Swedish Medical Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:swissmed -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:swissmed">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>SMW supporting association (Trägerverein Swiss Medical Weekly SMW)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:taineursoc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:taineursoc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Taiwan Neurological Society</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:tanmh -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:tanmh">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Turkish Journal of Psychiatry</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:tates -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:tates">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>LookUs Bilisim</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:terasaki -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:terasaki">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Terasaki Research Institute</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:terph -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:terph">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Termedia Publishing House Ltd.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:texmed -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:texmed">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Texas Medical Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:textal -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:textal">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Department of Veterans Affairs, Rehabilitation Research &amp; Development Service</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:thieme -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:thieme">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Georg Thieme Verlag Stuttgart, New York</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:thomreuters -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:thomreuters">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Thomson Reuters</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:tokaimed -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:tokaimed">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Tokai Medical Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:trios -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:trios">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>TRIOS, Czech</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:tspsych -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:tspsych">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Tijdschrift voor Psychiatrie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:tums -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:tums">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Tehran University of Medical Sciences, The Center for Electronic Resources Provision &amp; Journals Development</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:tunismed -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:tunismed">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Tunisian Society for Medical Sciences</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:tunsoc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:tunsoc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Turkish Neurosurgical Society</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:turkpath -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:turkpath">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Turkish Journal of Pathology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:twnna -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:twnna">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Taiwan Nurses Association</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ubasq -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ubasq">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>The International Journal of Developmental Biology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ubmedica -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ubmedica">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>UBM Medica LLC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:uchsc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:uchsc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>University of Colorado, Health Services Center</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:udea -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:udea">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Universidad de Antioquia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:uhmed -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:uhmed">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Undersea and Hyperbaric Medical Society</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:uicsys -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:uicsys">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>University of Illinois at Chicago Library Publishing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:umedpr -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:umedpr">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Universal Medical Press</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:umesp -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:umesp">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Sercrisma International S.L.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:unila -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:unila">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Erudit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:univlanus -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:univlanus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Universidad Nacional de Lanus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:univpisa -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:univpisa">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>University of Pisa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:unrc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:unrc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Urology and Nephrology Research Center</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:uprmsc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:uprmsc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Conrado F. Asenjo Library (University of Puerto Rico Medical Sciences Campus)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:urologiia -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:urologiia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Urologiia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:usarmymeddept -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:usarmymeddept">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>US Army Medical Department, Fort Sam Houston, Texas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:usbcb -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:usbcb">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>University of South Bohemia in Ceske Budejovice</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:ussocom -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ussocom">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Journal of Special Operations Medicine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:uvanurs -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:uvanurs">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Center for Nursing Historical Inquiry, University of Virginia, School of Nursing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:uwisclib -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:uwisclib">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>University of Wisconsin-Madison</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:verduci -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:verduci">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>European Review for Medical and Pharmacological Sciences</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:vetitalia -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:vetitalia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Istituto zooprofilattico sperimentale dell Abruzzo e del Molise G. Caporale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:viamedia -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:viamedia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Via Medica Medical Publishers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:viguera -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:viguera">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Viguera Editores, S. L.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:wafrica -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:wafrica">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>West African College of Physicians and West African College of Surgeons</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:wcjs -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:wcjs">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>West China Journal of Stomatology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:wcums -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:wcums">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>WEST CHINA UNIVERSITY OF MEDICAL SCIENCES</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:westonmed -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:westonmed">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Weston Medical Publishing, LLC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:wharc -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:wharc">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Women&apos;s Health and Action Research Centre</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:whoemro -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:whoemro">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>World Health Organization, Regional Office for the Eastern Mediterranean</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:wiley -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:wiley">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Wiley</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:worldsci -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:worldsci">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>World Scientific Publishing Company</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:wormbook -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:wormbook">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>WormBook</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:wroclaw -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:wroclaw">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Wroclaw Medical University</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:xmlink -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:xmlink">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>XMLink</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:yonsei -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:yonsei">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Yonsei University College of Medicine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:zagreb -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:zagreb">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>University of Zagreb School of Medicine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:zcyj -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:zcyj">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>ZHENCI YANJIU</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:zjup -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:zjup">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Zhejiang University Press</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:zoorescn -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:zoorescn">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Editorial Office of Zoological Research</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://bioregistry.io/nlm.publisher:zzj -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:zzj">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Zhongguo Zhen Jiu - Chinese acupuncture and moxibustion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-4423-4370 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-4423-4370">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <rdfs:label>Charles Tapley Hoyt</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

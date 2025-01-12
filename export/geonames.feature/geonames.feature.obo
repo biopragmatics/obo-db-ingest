@@ -1,0 +1,4127 @@
+format-version: 1.4
+auto-generated-by: PyOBO v0.12.0-dev-24fb6c6e on 2025-01-12T14:57:22.931983
+idspace: NCBITaxon http://purl.obolibrary.org/obo/NCBITaxon_ "NCBI Taxonomy"
+idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: geonames.feature https://www.geonames.org/recent-changes/featurecode/ "GeoNames Feature Code"
+idspace: orcid https://orcid.org/ "Open Researcher and Contributor"
+idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
+ontology: geonames.feature
+property_value: dcterms:title "GeoNames Feature Code" xsd:string
+property_value: dcterms:license "CC-BY-4.0" xsd:string
+property_value: dcterms:description "All geographical features in GeoNames are categorized into one out of nine feature classes and further subcategorized into one out of 645 feature codes." xsd:string
+
+[Term]
+id: geonames.feature:A.ADM1H
+name: historical first-order administrative division
+def: "a former first-order administrative division" []
+is_a: A
+
+[Term]
+id: geonames.feature:A.ADM2
+name: second-order administrative division
+def: "a subdivision of a first-order administrative division" []
+is_a: A
+
+[Term]
+id: geonames.feature:A.ADM2H
+name: historical second-order administrative division
+def: "a former second-order administrative division" []
+is_a: A
+
+[Term]
+id: geonames.feature:A.ADM3
+name: third-order administrative division
+def: "a subdivision of a second-order administrative division" []
+is_a: A
+
+[Term]
+id: geonames.feature:A.ADM3H
+name: historical third-order administrative division
+def: "a former third-order administrative division" []
+is_a: A
+
+[Term]
+id: geonames.feature:A.ADM4
+name: fourth-order administrative division
+def: "a subdivision of a third-order administrative division" []
+is_a: A
+
+[Term]
+id: geonames.feature:A.ADM4H
+name: historical fourth-order administrative division
+def: "a former fourth-order administrative division" []
+is_a: A
+
+[Term]
+id: geonames.feature:A.ADM5
+name: fifth-order administrative division
+def: "a subdivision of a fourth-order administrative division" []
+is_a: A
+
+[Term]
+id: geonames.feature:A.ADM5H
+name: historical fifth-order administrative division
+def: "a former fifth-order administrative division" []
+is_a: A
+
+[Term]
+id: geonames.feature:A.ADMD
+name: administrative division
+def: "an administrative division of a country\, undifferentiated as to administrative level" []
+is_a: A
+
+[Term]
+id: geonames.feature:A.ADMDH
+name: historical administrative division 
+def: "a former administrative division of a political entity\, undifferentiated as to administrative level" []
+is_a: A
+
+[Term]
+id: geonames.feature:A.ADMS
+name: school district
+def: "school district" []
+is_a: A
+
+[Term]
+id: geonames.feature:A.LTER
+name: leased area
+def: "a tract of land leased to another country\, usually for military installations" []
+is_a: A
+
+[Term]
+id: geonames.feature:A.PCL
+name: political entity
+is_a: A
+
+[Term]
+id: geonames.feature:A.PCLD
+name: dependent political entity
+is_a: A
+
+[Term]
+id: geonames.feature:A.PCLF
+name: freely associated state
+is_a: A
+
+[Term]
+id: geonames.feature:A.PCLH
+name: historical political entity
+def: "a former political entity" []
+is_a: A
+
+[Term]
+id: geonames.feature:A.PCLI
+name: independent political entity
+is_a: A
+
+[Term]
+id: geonames.feature:A.PCLIX
+name: section of independent political entity
+is_a: A
+
+[Term]
+id: geonames.feature:A.PCLS
+name: semi-independent political entity
+is_a: A
+
+[Term]
+id: geonames.feature:A.PRSH
+name: parish
+def: "an ecclesiastical district" []
+is_a: A
+
+[Term]
+id: geonames.feature:A.TERR
+name: territory
+is_a: A
+
+[Term]
+id: geonames.feature:A.ZN
+name: zone
+is_a: A
+
+[Term]
+id: geonames.feature:A.ZNB
+name: buffer zone
+def: "a zone recognized as a buffer between two nations in which military presence is minimal or absent" []
+is_a: A
+
+[Term]
+id: geonames.feature:H.AIRS
+name: seaplane landing area
+def: "a place on a waterbody where floatplanes land and take off" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.ANCH
+name: anchorage
+def: "an area where vessels may anchor" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.BAY
+name: bay
+def: "a coastal indentation between two capes or headlands\, larger than a cove but smaller than a gulf" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.BAYS
+name: bays
+def: "coastal indentations between two capes or headlands\, larger than a cove but smaller than a gulf" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.BGHT
+name: bight\(s\)
+def: "an open body of water forming a slight recession in a coastline" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.BNK
+name: bank\(s\)
+def: "an elevation\, typically located on a shelf\, over which the depth of water is relatively shallow but sufficient for most surface navigation" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.BNKR
+name: stream bank
+def: "a sloping margin of a stream channel which normally confines the stream to its channel on land" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.BNKX
+name: section of bank
+is_a: H
+
+[Term]
+id: geonames.feature:H.BOG
+name: bog\(s\)
+def: "a wetland characterized by peat forming sphagnum moss\, sedge\, and other acid-water plants" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.CAPG
+name: icecap
+def: "a dome-shaped mass of glacial ice covering an area of mountain summits or other high lands; smaller than an ice sheet" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.CHN
+name: channel
+def: "the deepest part of a stream\, bay\, lagoon\, or strait\, through which the main current flows" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.CHNL
+name: lake channel\(s\)
+def: "that part of a lake having water deep enough for navigation between islands\, shoals\, etc." []
+is_a: H
+
+[Term]
+id: geonames.feature:H.CHNM
+name: marine channel
+def: "that part of a body of water deep enough for navigation through an area otherwise not suitable" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.CHNN
+name: navigation channel
+def: "a buoyed channel of sufficient depth for the safe navigation of vessels" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.CNFL
+name: confluence
+def: "a place where two or more streams or intermittent streams flow together" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.CNL
+name: canal
+def: "an artificial watercourse" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.CNLA
+name: aqueduct
+def: "a conduit used to carry water" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.CNLB
+name: canal bend
+def: "a conspicuously curved or bent section of a canal" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.CNLD
+name: drainage canal
+def: "an artificial waterway carrying water away from a wetland or from drainage ditches" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.CNLI
+name: irrigation canal
+def: "a canal which serves as a main conduit for irrigation water" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.CNLN
+name: navigation canal\(s\)
+def: "a watercourse constructed for navigation of vessels" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.CNLQ
+name: abandoned canal
+is_a: H
+
+[Term]
+id: geonames.feature:H.CNLSB
+name: underground irrigation canal\(s\)
+def: "a gently inclined underground tunnel bringing water for irrigation from aquifers" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.CNLX
+name: section of canal
+is_a: H
+
+[Term]
+id: geonames.feature:H.COVE
+name: cove\(s\)
+def: "a small coastal indentation\, smaller than a bay" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.CRKT
+name: tidal creek\(s\)
+def: "a meandering channel in a coastal wetland subject to bi-directional tidal currents" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.CRNT
+name: current
+def: "a horizontal flow of water in a given direction with uniform velocity" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.CUTF
+name: cutoff
+def: "a channel formed as a result of a stream cutting through a meander neck" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.DCK
+name: dock\(s\)
+def: "a waterway between two piers\, or cut into the land for the berthing of ships" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.DCKB
+name: docking basin
+def: "a part of a harbor where ships dock" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.DOMG
+name: icecap dome
+def: "a comparatively elevated area on an icecap" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.DPRG
+name: icecap depression
+def: "a comparatively depressed area on an icecap" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.DTCH
+name: ditch
+def: "a small artificial watercourse dug for draining or irrigating the land" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.DTCHD
+name: drainage ditch
+def: "a ditch which serves to drain the land" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.DTCHI
+name: irrigation ditch
+def: "a ditch which serves to distribute irrigation water" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.DTCHM
+name: ditch mouth\(s\)
+def: "an area where a drainage ditch enters a lagoon\, lake or bay" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.ESTY
+name: estuary
+def: "a funnel-shaped stream mouth or embayment where fresh water mixes with sea water under tidal influences" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.FISH
+name: fishing area
+def: "a fishing ground\, bank or area where fishermen go to catch fish" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.FJD
+name: fjord
+def: "a long\, narrow\, steep-walled\, deep-water arm of the sea at high latitudes\, usually along mountainous coasts" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.FJDS
+name: fjords
+def: "long\, narrow\, steep-walled\, deep-water arms of the sea at high latitudes\, usually along mountainous coasts" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.FLLS
+name: waterfall\(s\)
+def: "a perpendicular or very steep descent of the water of a stream" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.FLLSX
+name: section of waterfall\(s\)
+is_a: H
+
+[Term]
+id: geonames.feature:H.FLTM
+name: mud flat\(s\)
+def: "a relatively level area of mud either between high and low tide lines\, or subject to flooding" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.FLTT
+name: tidal flat\(s\)
+def: "a large flat area of mud or sand attached to the shore and alternately covered and uncovered by the tide" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.GLCR
+name: glacier\(s\)
+def: "a mass of ice\, usually at high latitudes or high elevations\, with sufficient thickness to flow away from the source area in lobes\, tongues\, or masses" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.GULF
+name: gulf
+def: "a large recess in the coastline\, larger than a bay" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.GYSR
+name: geyser
+def: "a type of hot spring with intermittent eruptions of jets of hot water and steam" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.HBR
+name: harbor\(s\)
+def: "a haven or space of deep water so sheltered by the adjacent land as to afford a safe anchorage for ships" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.HBRX
+name: section of harbor
+is_a: H
+
+[Term]
+id: geonames.feature:H.INLT
+name: inlet
+def: "a narrow waterway extending into the land\, or connecting a bay or lagoon with a larger body of water" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.INLTQ
+name: former inlet
+def: "an inlet which has been filled in\, or blocked by deposits" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.LBED
+name: lake bed\(s\)
+def: "a dried up or drained area of a former lake" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.LGN
+name: lagoon
+def: "a shallow coastal waterbody\, completely or partly separated from a larger body of water by a barrier island\, coral reef or other depositional feature" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.LGNS
+name: lagoons
+def: "shallow coastal waterbodies\, completely or partly separated from a larger body of water by a barrier island\, coral reef or other depositional feature" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.LGNX
+name: section of lagoon
+is_a: H
+
+[Term]
+id: geonames.feature:H.LK
+name: lake
+def: "a large inland body of standing water" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.LKC
+name: crater lake
+def: "a lake in a crater or caldera" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.LKI
+name: intermittent lake
+is_a: H
+
+[Term]
+id: geonames.feature:H.LKN
+name: salt lake
+def: "an inland body of salt water with no outlet" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.LKNI
+name: intermittent salt lake
+is_a: H
+
+[Term]
+id: geonames.feature:H.LKO
+name: oxbow lake
+def: "a crescent-shaped lake commonly found adjacent to meandering streams" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.LKOI
+name: intermittent oxbow lake
+is_a: H
+
+[Term]
+id: geonames.feature:H.LKS
+name: lakes
+def: "large inland bodies of standing water" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.LKSB
+name: underground lake
+def: "a standing body of water in a cave" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.LKSC
+name: crater lakes
+def: "lakes in a crater or caldera" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.LKSI
+name: intermittent lakes
+is_a: H
+
+[Term]
+id: geonames.feature:H.LKSN
+name: salt lakes
+def: "inland bodies of salt water with no outlet" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.LKSNI
+name: intermittent salt lakes
+is_a: H
+
+[Term]
+id: geonames.feature:H.LKX
+name: section of lake
+is_a: H
+
+[Term]
+id: geonames.feature:H.MFGN
+name: salt evaporation ponds
+def: "diked salt ponds used in the production of solar evaporated salt" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.MGV
+name: mangrove swamp
+def: "a tropical tidal mud flat characterized by mangrove vegetation" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.MOOR
+name: moor\(s\)
+def: "an area of open ground overlaid with wet peaty soils" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.MRSH
+name: marsh\(es\)
+def: "a wetland dominated by grass-like vegetation" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.MRSHN
+name: salt marsh
+def: "a flat area\, subject to periodic salt water inundation\, dominated by grassy salt-tolerant plants" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.NRWS
+name: narrows
+def: "a navigable narrow part of a bay\, strait\, river\, etc." []
+is_a: H
+
+[Term]
+id: geonames.feature:H.OCN
+name: ocean
+def: "one of the major divisions of the vast expanse of salt water covering part of the earth" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.OVF
+name: overfalls
+def: "an area of breaking waves caused by the meeting of currents or by waves moving against the current" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.PND
+name: pond
+def: "a small standing waterbody" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.PNDI
+name: intermittent pond
+is_a: H
+
+[Term]
+id: geonames.feature:H.PNDN
+name: salt pond
+def: "a small standing body of salt water often in a marsh or swamp\, usually along a seacoast" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.PNDNI
+name: intermittent salt pond\(s\)
+is_a: H
+
+[Term]
+id: geonames.feature:H.PNDS
+name: ponds
+def: "small standing waterbodies" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.PNDSF
+name: fishponds
+def: "ponds or enclosures in which fish are kept or raised" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.PNDSI
+name: intermittent ponds
+is_a: H
+
+[Term]
+id: geonames.feature:H.PNDSN
+name: salt ponds
+def: "small standing bodies of salt water often in a marsh or swamp\, usually along a seacoast" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.POOL
+name: pool\(s\)
+def: "a small and comparatively still\, deep part of a larger body of water such as a stream or harbor; or a small body of standing water" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.POOLI
+name: intermittent pool
+is_a: H
+
+[Term]
+id: geonames.feature:H.RCH
+name: reach
+def: "a straight section of a navigable stream or channel between two bends" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.RDGG
+name: icecap ridge
+def: "a linear elevation on an icecap" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.RDST
+name: roadstead
+def: "an open anchorage affording less protection than a harbor" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.RF
+name: reef\(s\)
+def: "a surface-navigation hazard composed of consolidated material" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.RFC
+name: coral reef\(s\)
+def: "a surface-navigation hazard composed of coral" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.RFX
+name: section of reef
+is_a: H
+
+[Term]
+id: geonames.feature:H.RPDS
+name: rapids
+def: "a turbulent section of a stream associated with a steep\, irregular stream bed" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.RSV
+name: reservoir\(s\)
+def: "an artificial pond or lake" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.RSVI
+name: intermittent reservoir
+is_a: H
+
+[Term]
+id: geonames.feature:H.RSVT
+name: water tank
+def: "a contained pool or tank of water at\, below\, or above ground level" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.RVN
+name: ravine\(s\)
+def: "a small\, narrow\, deep\, steep-sided stream channel\, smaller than a gorge" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.SBKH
+name: sabkha\(s\)
+def: "a salt flat or salt encrusted plain subject to periodic inundation from flooding or high tides" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.SD
+name: sound
+def: "a long arm of the sea forming a channel between the mainland and an island or islands; or connecting two larger bodies of water" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.SEA
+name: sea
+def: "a large body of salt water more or less confined by continuous land or chains of islands forming a subdivision of an ocean" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.SHOL
+name: shoal\(s\)
+def: "a surface-navigation hazard composed of unconsolidated material" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.SILL
+name: sill
+def: "the low part of an underwater gap or saddle separating basins\, including a similar feature at the mouth of a fjord" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.SPNG
+name: spring\(s\)
+def: "a place where ground water flows naturally out of the ground" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.SPNS
+name: sulphur spring\(s\)
+def: "a place where sulphur ground water flows naturally out of the ground" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.SPNT
+name: hot spring\(s\)
+def: "a place where hot ground water flows naturally out of the ground" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.STM
+name: stream
+def: "a body of running water moving to a lower level in a channel on land" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.STMA
+name: anabranch
+def: "a diverging branch flowing out of a main stream and rejoining it downstream" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.STMB
+name: stream bend
+def: "a conspicuously curved or bent segment of a stream" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.STMC
+name: canalized stream
+def: "a stream that has been substantially ditched\, diked\, or straightened" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.STMD
+name: distributary\(-ies\)
+def: "a branch which flows away from the main stream\, as in a delta or irrigation canal" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.STMH
+name: headwaters
+def: "the source and upper part of a stream\, including the upper drainage basin" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.STMI
+name: intermittent stream
+is_a: H
+
+[Term]
+id: geonames.feature:H.STMIX
+name: section of intermittent stream
+is_a: H
+
+[Term]
+id: geonames.feature:H.STMM
+name: stream mouth\(s\)
+def: "a place where a stream discharges into a lagoon\, lake\, or the sea" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.STMQ
+name: abandoned watercourse
+def: "a former stream or distributary no longer carrying flowing water\, but still evident due to lakes\, wetland\, topographic or vegetation patterns" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.STMS
+name: streams
+def: "bodies of running water moving to a lower level in a channel on land" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.STMSB
+name: lost river
+def: "a surface stream that disappears into an underground channel\, or dries up in an arid area" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.STMX
+name: section of stream
+is_a: H
+
+[Term]
+id: geonames.feature:H.STRT
+name: strait
+def: "a relatively narrow waterway\, usually narrower and less extensive than a sound\, connecting two larger bodies of water" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.SWMP
+name: swamp
+def: "a wetland dominated by tree vegetation" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.SYSI
+name: irrigation system
+def: "a network of ditches and one or more of the following elements\: water supply\, reservoir\, canal\, pump\, well\, drain\, etc." []
+is_a: H
+
+[Term]
+id: geonames.feature:H.TNLC
+name: canal tunnel
+def: "a tunnel through which a canal passes" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.WAD
+name: wadi
+def: "a valley or ravine\, bounded by relatively steep banks\, which in the rainy season becomes a watercourse; found primarily in North Africa and the Middle East" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.WADB
+name: wadi bend
+def: "a conspicuously curved or bent segment of a wadi" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.WADJ
+name: wadi junction
+def: "a place where two or more wadies join" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.WADM
+name: wadi mouth
+def: "the lower terminus of a wadi where it widens into an adjoining floodplain\, depression\, or waterbody" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.WADS
+name: wadies
+def: "valleys or ravines\, bounded by relatively steep banks\, which in the rainy season become watercourses; found primarily in North Africa and the Middle East" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.WADX
+name: section of wadi
+is_a: H
+
+[Term]
+id: geonames.feature:H.WHRL
+name: whirlpool
+def: "a turbulent\, rotating movement of water in a stream" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.WLL
+name: well
+def: "a cylindrical hole\, pit\, or tunnel drilled or dug down to a depth from which water\, oil\, or gas can be pumped or brought to the surface" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.WLLQ
+name: abandoned well
+is_a: H
+
+[Term]
+id: geonames.feature:H.WLLS
+name: wells
+def: "cylindrical holes\, pits\, or tunnels drilled or dug down to a depth from which water\, oil\, or gas can be pumped or brought to the surface" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.WTLD
+name: wetland
+def: "an area subject to inundation\, usually characterized by bog\, marsh\, or swamp vegetation" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.WTLDI
+name: intermittent wetland
+is_a: H
+
+[Term]
+id: geonames.feature:H.WTRC
+name: watercourse
+def: "a natural\, well-defined channel produced by flowing water\, or an artificial channel designed to carry flowing water" []
+is_a: H
+
+[Term]
+id: geonames.feature:H.WTRH
+name: waterhole\(s\)
+def: "a natural hole\, hollow\, or small depression that contains water\, used by man and animals\, especially in arid areas" []
+is_a: H
+
+[Term]
+id: geonames.feature:L.AGRC
+name: agricultural colony
+def: "a tract of land set aside for agricultural settlement" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.AMUS
+name: amusement park
+def: "Amusement Park are theme parks\, adventure parks offering entertainment\, similar to funfairs but with a fix location" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.AREA
+name: area
+def: "a tract of land without homogeneous character or boundaries" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.BSND
+name: drainage basin
+def: "an area drained by a stream" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.BSNP
+name: petroleum basin
+def: "an area underlain by an oil-rich structural basin" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.BTL
+name: battlefield
+def: "a site of a land battle of historical importance" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.CLG
+name: clearing
+def: "an area in a forest with trees removed" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.CMN
+name: common
+def: "a park or pasture for community use" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.CNS
+name: concession area
+def: "a lease of land by a government for economic development\, e.g.\, mining\, forestry" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.COLF
+name: coalfield
+def: "a region in which coal deposits of possible economic value occur" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.CONT
+name: continent
+def: "continent\: Europe\, Africa\, Asia\, North America\, South America\, Oceania\, Antarctica" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.CST
+name: coast
+def: "a zone of variable width straddling the shoreline" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.CTRB
+name: business center
+def: "a place where a number of businesses are located" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.DEVH
+name: housing development
+def: "a tract of land on which many houses of similar design are built according to a development plan" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.FLD
+name: field\(s\)
+def: "an open as opposed to wooded area" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.FLDI
+name: irrigated field\(s\)
+def: "a tract of level or terraced land which is irrigated" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.GASF
+name: gasfield
+def: "an area containing a subterranean store of natural gas of economic value" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.GRAZ
+name: grazing area
+def: "an area of grasses and shrubs used for grazing" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.GVL
+name: gravel area
+def: "an area covered with gravel" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.INDS
+name: industrial area
+def: "an area characterized by industrial activity" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.LAND
+name: arctic land
+def: "a tract of land in the Arctic" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.LCTY
+name: locality
+def: "a minor area or place of unspecified or mixed character and indefinite boundaries" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.MILB
+name: military base
+def: "a place used by an army or other armed service for storing arms and supplies\, and for accommodating and training troops\, a base from which operations can be initiated" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.MNA
+name: mining area
+def: "an area of mine sites where minerals and ores are extracted" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.MVA
+name: maneuver area
+def: "a tract of land where military field exercises are carried out" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.NVB
+name: naval base
+def: "an area used to store supplies\, provide barracks for troops and naval personnel\, a port for naval vessels\, and from which operations are initiated" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.OAS
+name: oasis\(-es\)
+def: "an area in a desert made productive by the availability of water" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.OILF
+name: oilfield
+def: "an area containing a subterranean store of petroleum of economic value" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.PEAT
+name: peat cutting area
+def: "an area where peat is harvested" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.PRK
+name: park
+def: "an area\, often of forested land\, maintained as a place of beauty\, or for recreation" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.PRT
+name: port
+def: "a place provided with terminal and transfer facilities for loading and discharging waterborne cargo or passengers\, usually located in a harbor" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.QCKS
+name: quicksand
+def: "an area where loose sand with water moving through it may become unstable when heavy objects are placed at the surface\, causing them to sink" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.RES
+name: reserve
+def: "a tract of public land reserved for future use or restricted as to use" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.RESA
+name: agricultural reserve
+def: "a tract of land reserved for agricultural reclamation and/or development" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.RESF
+name: forest reserve
+def: "a forested area set aside for preservation or controlled use" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.RESH
+name: hunting reserve
+def: "a tract of land used primarily for hunting" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.RESN
+name: nature reserve
+def: "an area reserved for the maintenance of a natural habitat" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.RESP
+name: palm tree reserve
+def: "an area of palm trees where use is controlled" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.RESV
+name: reservation
+def: "a tract of land set aside for aboriginal\, tribal\, or native populations" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.RESW
+name: wildlife reserve
+def: "a tract of public land reserved for the preservation of wildlife" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.RGN
+name: region
+def: "an area distinguished by one or more observable physical or cultural characteristics" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.RGNE
+name: economic region
+def: "a region of a country established for economic development or for statistical purposes" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.RGNH
+name: historical region
+def: "a former historic area distinguished by one or more observable physical or cultural characteristics" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.RGNL
+name: lake region
+def: "a tract of land distinguished by numerous lakes" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.RNGA
+name: artillery range
+def: "a tract of land used for artillery firing practice" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.SALT
+name: salt area
+def: "a shallow basin or flat where salt accumulates after periodic inundation" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.SNOW
+name: snowfield
+def: "an area of permanent snow and ice forming the accumulation area of a glacier" []
+is_a: L
+
+[Term]
+id: geonames.feature:L.TRB
+name: tribal area
+def: "a tract of land used by nomadic or other tribes" []
+is_a: L
+
+[Term]
+id: geonames.feature:P.PPL
+name: populated place
+def: "a city\, town\, village\, or other agglomeration of buildings where people live and work" []
+is_a: P
+
+[Term]
+id: geonames.feature:P.PPLA
+name: seat of a first-order administrative division
+def: "seat of a first-order administrative division \(PPLC takes precedence over PPLA\)" []
+is_a: P
+
+[Term]
+id: geonames.feature:P.PPLA2
+name: seat of a second-order administrative division
+is_a: P
+
+[Term]
+id: geonames.feature:P.PPLA3
+name: seat of a third-order administrative division
+is_a: P
+
+[Term]
+id: geonames.feature:P.PPLA4
+name: seat of a fourth-order administrative division
+is_a: P
+
+[Term]
+id: geonames.feature:P.PPLA5
+name: seat of a fifth-order administrative division
+is_a: P
+
+[Term]
+id: geonames.feature:P.PPLC
+name: capital of a political entity
+def: "capital of a political entity designated as an independent state" []
+is_a: P
+
+[Term]
+id: geonames.feature:P.PPLCD
+name: capital of a dependency or special area
+def: "capital or administrative center of a dependent political territory or area of special sovereignty" []
+is_a: P
+
+[Term]
+id: geonames.feature:P.PPLCH
+name: historical capital of a political entity
+def: "a former capital of a political entity" []
+is_a: P
+
+[Term]
+id: geonames.feature:P.PPLF
+name: farm village
+def: "a populated place where the population is largely engaged in agricultural activities" []
+is_a: P
+
+[Term]
+id: geonames.feature:P.PPLG
+name: seat of government of a political entity
+is_a: P
+
+[Term]
+id: geonames.feature:P.PPLH
+name: historical populated place
+def: "a populated place that no longer exists" []
+is_a: P
+
+[Term]
+id: geonames.feature:P.PPLL
+name: populated locality
+def: "an area similar to a locality but with a small group of dwellings or other buildings" []
+is_a: P
+
+[Term]
+id: geonames.feature:P.PPLQ
+name: abandoned populated place
+is_a: P
+
+[Term]
+id: geonames.feature:P.PPLR
+name: religious populated place
+def: "a populated place whose population is largely engaged in religious occupations" []
+is_a: P
+
+[Term]
+id: geonames.feature:P.PPLS
+name: populated places
+def: "cities\, towns\, villages\, or other agglomerations of buildings where people live and work" []
+is_a: P
+
+[Term]
+id: geonames.feature:P.PPLW
+name: destroyed populated place
+def: "a village\, town or city destroyed by a natural disaster\, or by war" []
+is_a: P
+
+[Term]
+id: geonames.feature:P.PPLX
+name: section of populated place
+is_a: P
+
+[Term]
+id: geonames.feature:P.STLMT
+name: israeli settlement
+is_a: P
+
+[Term]
+id: geonames.feature:R.CSWY
+name: causeway
+def: "a raised roadway across wet ground or shallow water" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.OILP
+name: oil pipeline
+def: "a pipeline used for transporting oil" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.PRMN
+name: promenade
+def: "a place for public walking\, usually along a beach front" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.PTGE
+name: portage
+def: "a place where boats\, goods\, etc.\, are carried overland between navigable waters" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.RD
+name: road
+def: "an open way with improved surface for transportation of animals\, people and vehicles" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.RDA
+name: ancient road
+def: "the remains of a road used by ancient cultures" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.RDB
+name: road bend
+def: "a conspicuously curved or bent section of a road" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.RDCUT
+name: road cut
+def: "an excavation cut through a hill or ridge for a road" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.RDJCT
+name: road junction
+def: "a place where two or more roads join" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.RJCT
+name: railroad junction
+def: "a place where two or more railroad tracks join" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.RR
+name: railroad
+def: "a permanent twin steel-rail track on which freight and passenger cars move long distances" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.RRQ
+name: abandoned railroad
+is_a: R
+
+[Term]
+id: geonames.feature:R.RTE
+name: caravan route
+def: "the route taken by caravans" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.RYD
+name: railroad yard
+def: "a system of tracks used for the making up of trains\, and switching and storing freight cars" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.ST
+name: street
+def: "a paved urban thoroughfare" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.STKR
+name: stock route
+def: "a route taken by livestock herds" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.TNL
+name: tunnel
+def: "a subterranean passageway for transportation" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.TNLN
+name: natural tunnel
+def: "a cave that is open at both ends" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.TNLRD
+name: road tunnel
+def: "a tunnel through which a road passes" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.TNLRR
+name: railroad tunnel
+def: "a tunnel through which a railroad passes" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.TNLS
+name: tunnels
+def: "subterranean passageways for transportation" []
+is_a: R
+
+[Term]
+id: geonames.feature:R.TRL
+name: trail
+def: "a path\, track\, or route used by pedestrians\, animals\, or off-road vehicles" []
+is_a: R
+
+[Term]
+id: geonames.feature:S.ADMF
+name: administrative facility
+def: "a government building" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.AGRF
+name: agricultural facility
+def: "a building and/or tract of land used for improving agriculture" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.AIRB
+name: airbase
+def: "an area used to store supplies\, provide barracks for air force personnel\, hangars and runways for aircraft\, and from which operations are initiated" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.AIRF
+name: airfield
+def: "a place on land where aircraft land and take off; no facilities provided for the commercial handling of passengers and cargo" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.AIRH
+name: heliport
+def: "a place where helicopters land and take off" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.AIRP
+name: airport
+def: "a place where aircraft regularly land and take off\, with runways\, navigational aids\, and major facilities for the commercial handling of passengers and cargo" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.AIRQ
+name: abandoned airfield
+is_a: S
+
+[Term]
+id: geonames.feature:S.AIRT
+name: terminal
+def: "airport facilities for the handling of freight and passengers" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.AMTH
+name: amphitheater
+def: "an oval or circular structure with rising tiers of seats about a stage or open space" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.ANS
+name: archaeological/prehistoric site
+def: "a place where archeological remains\, old structures\, or cultural artifacts are located" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.AQC
+name: aquaculture facility
+def: "facility or area for the cultivation of aquatic animals and plants\, especially fish\, shellfish\, and seaweed\, in natural or controlled marine or freshwater environments; underwater agriculture" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.ARCH
+name: arch
+def: "a natural or man-made structure in the form of an arch" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.ARCHV
+name: archive
+def: "a place or institution where documents are preserved" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.ART
+name: piece of art
+def: "a piece of art\, like a sculpture\, painting. In contrast to monument \(MNMT\) it is not commemorative." []
+is_a: S
+
+[Term]
+id: geonames.feature:S.ASTR
+name: astronomical station
+def: "a point on the earth whose position has been determined by observations of celestial bodies" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.ASYL
+name: asylum
+def: "a facility where the insane are cared for and protected" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.ATHF
+name: athletic field
+def: "a tract of land used for playing team sports\, and athletic track and field events" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.ATM
+name: automatic teller machine
+def: "An unattended electronic machine in a public place\, connected to a data system and related equipment and activated by a bank customer to obtain cash withdrawals and other banking services. " []
+is_a: S
+
+[Term]
+id: geonames.feature:S.BANK
+name: bank
+def: "A business establishment in which money is kept for saving or commercial purposes or is invested\, supplied for loans\, or exchanged. " []
+is_a: S
+
+[Term]
+id: geonames.feature:S.BCN
+name: beacon
+def: "a fixed artificial navigation mark" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.BDG
+name: bridge
+def: "a structure erected across an obstacle such as a stream\, road\, etc.\, in order to carry roads\, railroads\, and pedestrians across" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.BDGQ
+name: ruined bridge
+def: "a destroyed or decayed bridge which is no longer functional" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.BLDA
+name: apartment building
+def: "a building containing several individual apartments" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.BLDG
+name: building\(s\)
+def: "a structure built for permanent use\, as a house\, factory\, etc." []
+is_a: S
+
+[Term]
+id: geonames.feature:S.BLDO
+name: office building
+def: "commercial building where business and/or services are conducted" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.BP
+name: boundary marker
+def: "a fixture marking a point along a boundary" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.BRKS
+name: barracks
+def: "a building for lodging military personnel" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.BRKW
+name: breakwater
+def: "a structure erected to break the force of waves at the entrance to a harbor or port" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.BSTN
+name: baling station
+def: "a facility for baling agricultural products" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.BTYD
+name: boatyard
+def: "a waterside facility for servicing\, repairing\, and building small vessels" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.BUR
+name: burial cave\(s\)
+def: "a cave used for human burials" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.BUSTN
+name: bus station
+def: "a facility comprising ticket office\, platforms\, etc. for loading and unloading passengers " []
+is_a: S
+
+[Term]
+id: geonames.feature:S.BUSTP
+name: bus stop
+def: "a place lacking station facilities" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CARN
+name: cairn
+def: "a heap of stones erected as a landmark or for other purposes" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CAVE
+name: cave\(s\)
+def: "an underground passageway or chamber\, or cavity on the side of a cliff" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CH
+name: church
+def: "a building for public Christian worship" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CMP
+name: camp\(s\)
+def: "a site occupied by tents\, huts\, or other shelters for temporary use" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CMPL
+name: logging camp
+def: "a camp used by loggers" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CMPLA
+name: labor camp
+def: "a camp used by migrant or temporary laborers" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CMPMN
+name: mining camp
+def: "a camp used by miners" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CMPO
+name: oil camp
+def: "a camp used by oilfield workers" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CMPQ
+name: abandoned camp
+is_a: S
+
+[Term]
+id: geonames.feature:S.CMPRF
+name: refugee camp
+def: "a camp used by refugees" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CMTY
+name: cemetery
+def: "a burial place or ground" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.COMC
+name: communication center
+def: "a facility\, including buildings\, antennae\, towers and electronic equipment for receiving and transmitting information" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CRRL
+name: corral\(s\)
+def: "a pen or enclosure for confining or capturing animals" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CSNO
+name: casino
+def: "a building used for entertainment\, especially gambling" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CSTL
+name: castle
+def: "a large fortified building or set of buildings" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CSTM
+name: customs house
+def: "a building in a port where customs and duties are paid\, and where vessels are entered and cleared" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CTHSE
+name: courthouse
+def: "a building in which courts of law are held" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CTRA
+name: atomic center
+def: "a facility where atomic research is carried out" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CTRCM
+name: community center
+def: "a facility for community recreation and other activities" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CTRF
+name: facility center
+def: "a place where more than one facility is situated" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CTRM
+name: medical center
+def: "a complex of health care buildings including two or more of the following\: hospital\, medical school\, clinic\, pharmacy\, doctor's offices\, etc." []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CTRR
+name: religious center
+def: "a facility where more than one religious activity is carried out\, e.g.\, retreat\, school\, monastery\, worship" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CTRS
+name: space center
+def: "a facility for launching\, tracking\, or controlling satellites and space vehicles" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CTYD
+name: courtyard
+def: "an area surrounded by a building or complex and open to the sky" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.CVNT
+name: convent
+def: "a building where a community of nuns lives in seclusion" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.DAM
+name: dam
+def: "a barrier constructed across a stream to impound water" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.DAMQ
+name: ruined dam
+def: "a destroyed or decayed dam which is no longer functional" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.DAMSB
+name: sub-surface dam
+def: "a dam put down to bedrock in a sand river" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.DARY
+name: dairy
+def: "a facility for the processing\, sale and distribution of milk or milk products" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.DCKD
+name: dry dock
+def: "a dock providing support for a vessel\, and means for removing the water so that the bottom of the vessel can be exposed" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.DCKY
+name: dockyard
+def: "a facility for servicing\, building\, or repairing ships" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.DIKE
+name: dike
+def: "an earth or stone embankment usually constructed for flood or stream control" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.DIP
+name: diplomatic facility
+def: "office\, residence\, or facility of a foreign government\, which may include an embassy\, consulate\, chancery\, office of charge d'affaires\, or other diplomatic\, economic\, military\, or cultural mission" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.DPOF
+name: fuel depot
+def: "an area where fuel is stored" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.EST
+name: estate\(s\)
+def: "a large commercialized agricultural landholding with associated buildings and other facilities" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.ESTO
+name: oil palm plantation
+def: "an estate specializing in the cultivation of oil palm trees" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.ESTR
+name: rubber plantation
+def: "an estate which specializes in growing and tapping rubber trees" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.ESTSG
+name: sugar plantation
+def: "an estate that specializes in growing sugar cane" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.ESTT
+name: tea plantation
+def: "an estate which specializes in growing tea bushes" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.ESTX
+name: section of estate
+is_a: S
+
+[Term]
+id: geonames.feature:S.FCL
+name: facility
+def: "a building or buildings housing a center\, institute\, foundation\, hospital\, prison\, mission\, courthouse\, etc." []
+is_a: S
+
+[Term]
+id: geonames.feature:S.FIRE
+name: fire station
+def: "building housing firefighters and/or fire fighting equipment" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.FNDY
+name: foundry
+def: "a building or works where metal casting is carried out" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.FRM
+name: farm
+def: "a tract of land with associated buildings devoted to agriculture" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.FRMQ
+name: abandoned farm
+is_a: S
+
+[Term]
+id: geonames.feature:S.FRMS
+name: farms
+def: "tracts of land with associated buildings devoted to agriculture" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.FRMT
+name: farmstead
+def: "the buildings and adjacent service areas of a farm" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.FT
+name: fort
+def: "a defensive structure or earthworks" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.FY
+name: ferry
+def: "a boat or other floating conveyance and terminal facilities regularly used to transport people and vehicles across a waterbody" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.FYT
+name: ferry terminal
+def: "a place where ferries pick-up and discharge passengers\, vehicles and or cargo" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.GATE
+name: gate
+def: "a controlled access entrance or exit" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.GDN
+name: garden\(s\)
+def: "an enclosure for displaying selected plant or animal life" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.GHAT
+name: ghat
+def: "a set of steps leading to a river\, which are of religious significance\, and at their base is usually a platform for bathing" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.GHSE
+name: guest house
+def: "a house used to provide lodging for paying guests" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.GOSP
+name: gas-oil separator plant
+def: "a facility for separating gas from oil" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.GOVL
+name: local government office
+def: "a facility housing local governmental offices\, usually a city\, town\, or village hall" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.GRVE
+name: grave
+def: "a burial site" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.HERM
+name: hermitage
+def: "a secluded residence\, usually for religious sects" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.HLT
+name: halting place
+def: "a place where caravans stop for rest" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.HMSD
+name: homestead
+def: "a residence\, owner's or manager's\, on a sheep or cattle station\, woolshed\, outcamp\, or Aboriginal outstation\, specific to Australia and New Zealand " []
+is_a: S
+
+[Term]
+id: geonames.feature:S.HSE
+name: house\(s\)
+def: "a building used as a human habitation" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.HSEC
+name: country house
+def: "a large house\, mansion\, or chateau\, on a large estate" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.HSP
+name: hospital
+def: "a building in which sick or injured\, especially those confined to bed\, are medically treated" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.HSPC
+name: clinic
+def: "a medical facility associated with a hospital for outpatients" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.HSPD
+name: dispensary
+def: "a building where medical or dental aid is dispensed" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.HSPL
+name: leprosarium
+def: "an asylum or hospital for lepers" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.HSTS
+name: historical site
+def: "a place of historical importance" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.HTL
+name: hotel
+def: "a building providing lodging and/or meals for the public" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.HUT
+name: hut
+def: "a small primitive house" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.HUTS
+name: huts
+def: "small primitive houses" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.INSM
+name: military installation
+def: "a facility for use of and control by armed forces" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.ITTR
+name: research institute
+def: "a facility where research is carried out" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.JTY
+name: jetty
+def: "a structure built out into the water at a river mouth or harbor entrance to regulate currents and silting" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.LDNG
+name: landing
+def: "a place where boats receive or discharge passengers and freight\, but lacking most port facilities" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.LEPC
+name: leper colony
+def: "a settled area inhabited by lepers in relative isolation" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.LIBR
+name: library
+def: "A place in which information resources such as books are kept for reading\, reference\, or lending." []
+is_a: S
+
+[Term]
+id: geonames.feature:S.LNDF
+name: landfill
+def: "a place for trash and garbage disposal in which the waste is buried between layers of earth to build up low-lying land" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.LOCK
+name: lock\(s\)
+def: "a basin in a waterway with gates at each end by means of which vessels are passed from one water level to another" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.LTHSE
+name: lighthouse
+def: "a distinctive structure exhibiting a major navigation light" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MALL
+name: mall
+def: "A large\, often enclosed shopping complex containing various stores\, businesses\, and restaurants usually accessible by common passageways." []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MAR
+name: marina
+def: "a harbor facility for small boats\, yachts\, etc." []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MFG
+name: factory
+def: "one or more buildings where goods are manufactured\, processed or fabricated" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MFGB
+name: brewery
+def: "one or more buildings where beer is brewed" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MFGC
+name: cannery
+def: "a building where food items are canned" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MFGCU
+name: copper works
+def: "a facility for processing copper ore" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MFGLM
+name: limekiln
+def: "a furnace in which limestone is reduced to lime" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MFGM
+name: munitions plant
+def: "a factory where ammunition is made" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MFGPH
+name: phosphate works
+def: "a facility for producing fertilizer" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MFGQ
+name: abandoned factory
+is_a: S
+
+[Term]
+id: geonames.feature:S.MFGSG
+name: sugar refinery
+def: "a facility for converting raw sugar into refined sugar" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MKT
+name: market
+def: "a place where goods are bought and sold at regular intervals" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.ML
+name: mill\(s\)
+def: "a building housing machines for transforming\, shaping\, finishing\, grinding\, or extracting products" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MLM
+name: ore treatment plant
+def: "a facility for improving the metal content of ore by concentration" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MLO
+name: olive oil mill
+def: "a mill where oil is extracted from olives" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MLSG
+name: sugar mill
+def: "a facility where sugar cane is processed into raw sugar" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MLSGQ
+name: former sugar mill
+def: "a sugar mill no longer used as a sugar mill" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MLSW
+name: sawmill
+def: "a mill where logs or lumber are sawn to specified shapes and sizes" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MLWND
+name: windmill
+def: "a mill or water pump powered by wind" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MLWTR
+name: water mill
+def: "a mill powered by running water" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MN
+name: mine\(s\)
+def: "a site where mineral ores are extracted from the ground by excavating surface pits and subterranean passages" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MNAU
+name: gold mine\(s\)
+def: "a mine where gold ore\, or alluvial gold is extracted" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MNC
+name: coal mine\(s\)
+def: "a mine where coal is extracted" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MNCR
+name: chrome mine\(s\)
+def: "a mine where chrome ore is extracted" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MNCU
+name: copper mine\(s\)
+def: "a mine where copper ore is extracted" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MNFE
+name: iron mine\(s\)
+def: "a mine where iron ore is extracted" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MNMT
+name: monument
+def: "a commemorative structure or statue" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MNN
+name: salt mine\(s\)
+def: "a mine from which salt is extracted" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MNQ
+name: abandoned mine
+is_a: S
+
+[Term]
+id: geonames.feature:S.MNQR
+name: quarry\(-ies\)
+def: "a surface mine where building stone or gravel and sand\, etc. are extracted" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MOLE
+name: mole
+def: "a massive structure of masonry or large stones serving as a pier or breakwater" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MSQE
+name: mosque
+def: "a building for public Islamic worship" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MSSN
+name: mission
+def: "a place characterized by dwellings\, school\, church\, hospital and other facilities operated by a religious group for the purpose of providing charitable services and to propagate religion" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MSSNQ
+name: abandoned mission
+is_a: S
+
+[Term]
+id: geonames.feature:S.MSTY
+name: monastery
+def: "a building and grounds where a community of monks lives in seclusion" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MTRO
+name: metro station
+def: "metro station \(Underground\, Tube\, or Metro\) " []
+is_a: S
+
+[Term]
+id: geonames.feature:S.MUS
+name: museum
+def: "a building where objects of permanent interest in one or more of the arts and sciences are preserved and exhibited" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.NOV
+name: novitiate
+def: "a religious house or school where novices are trained" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.NSY
+name: nursery\(-ies\)
+def: "a place where plants are propagated for transplanting or grafting" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.OBPT
+name: observation point
+def: "a wildlife or scenic observation point" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.OBS
+name: observatory
+def: "a facility equipped for observation of atmospheric or space phenomena" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.OBSR
+name: radio observatory
+def: "a facility equipped with an array of antennae for receiving radio waves from space" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.OILJ
+name: oil pipeline junction
+def: "a section of an oil pipeline where two or more pipes join together" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.OILQ
+name: abandoned oil well
+is_a: S
+
+[Term]
+id: geonames.feature:S.OILR
+name: oil refinery
+def: "a facility for converting crude oil into refined petroleum products" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.OILT
+name: tank farm
+def: "a tract of land occupied by large\, cylindrical\, metal tanks in which oil or liquid petrochemicals are stored" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.OILW
+name: oil well
+def: "a well from which oil may be pumped" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.OPRA
+name: opera house
+def: "A theater designed chiefly for the performance of operas." []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PAL
+name: palace
+def: "a large stately house\, often a royal or presidential residence" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PGDA
+name: pagoda
+def: "a tower-like storied structure\, usually a Buddhist shrine" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PIER
+name: pier
+def: "a structure built out into navigable water on piles providing berthing for ships and recreation" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PKLT
+name: parking lot
+def: "an area used for parking vehicles" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PMPO
+name: oil pumping station
+def: "a facility for pumping oil through a pipeline" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PMPW
+name: water pumping station
+def: "a facility for pumping water from a major well or through a pipeline" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PO
+name: post office
+def: "a public building in which mail is received\, sorted and distributed" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PP
+name: police post
+def: "a building in which police are stationed" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PPQ
+name: abandoned police post
+is_a: S
+
+[Term]
+id: geonames.feature:S.PRKGT
+name: park gate
+def: "a controlled access to a park" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PRKHQ
+name: park headquarters
+def: "a park administrative facility" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PRN
+name: prison
+def: "a facility for confining prisoners" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PRNJ
+name: reformatory
+def: "a facility for confining\, training\, and reforming young law offenders" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PRNQ
+name: abandoned prison
+is_a: S
+
+[Term]
+id: geonames.feature:S.PS
+name: power station
+def: "a facility for generating electric power" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PSH
+name: hydroelectric power station
+def: "a building where electricity is generated from water power" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PSN
+name: nuclear power station
+def: "nuclear power station" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PSTB
+name: border post
+def: "a post or station at an international boundary for the regulation of movement of people and goods" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PSTC
+name: customs post
+def: "a building at an international boundary where customs and duties are paid on goods" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PSTP
+name: patrol post
+def: "a post from which patrols are sent out" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PYR
+name: pyramid
+def: "an ancient massive structure of square ground plan with four triangular faces meeting at a point and used for enclosing tombs" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.PYRS
+name: pyramids
+def: "ancient massive structures of square ground plan with four triangular faces meeting at a point and used for enclosing tombs" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.QUAY
+name: quay
+def: "a structure of solid construction along a shore or bank which provides berthing for ships and which generally provides cargo handling facilities" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.RDCR
+name: traffic circle
+def: "a road junction formed around a central circle about which traffic moves in one direction only" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.RDIN
+name: intersection
+def: "a junction of two or more highways by a system of separate levels that permit traffic to pass from one to another without the crossing of traffic streams" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.RECG
+name: golf course
+def: "a recreation field where golf is played" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.RECR
+name: racetrack
+def: "a track where races are held" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.REST
+name: restaurant
+def: "A place where meals are served to the public" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.RET
+name: store
+def: "a building where goods and/or services are offered for sale" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.RHSE
+name: resthouse
+def: "a structure maintained for the rest and shelter of travelers" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.RKRY
+name: rookery
+def: "a breeding place of a colony of birds or seals" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.RLG
+name: religious site
+def: "an ancient site of significant religious importance" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.RLGR
+name: retreat
+def: "a place of temporary seclusion\, especially for religious groups" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.RNCH
+name: ranch\(es\)
+def: "a large farm specializing in extensive grazing of livestock" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.RSD
+name: railroad siding
+def: "a short track parallel to and joining the main track" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.RSGNL
+name: railroad signal
+def: "a signal at the entrance of a particular section of track governing the movement of trains" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.RSRT
+name: resort
+def: "a specialized facility for vacation\, health\, or participation sports activities" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.RSTN
+name: railroad station
+def: "a facility comprising ticket office\, platforms\, etc. for loading and unloading train passengers and freight" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.RSTNQ
+name: abandoned railroad station
+is_a: S
+
+[Term]
+id: geonames.feature:S.RSTP
+name: railroad stop
+def: "a place lacking station facilities where trains stop to pick up and unload passengers and freight" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.RSTPQ
+name: abandoned railroad stop
+is_a: S
+
+[Term]
+id: geonames.feature:S.RUIN
+name: ruin\(s\)
+def: "a destroyed or decayed structure which is no longer functional" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.SCH
+name: school
+def: "building\(s\) where instruction in one or more branches of knowledge takes place" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.SCHA
+name: agricultural school
+def: "a school with a curriculum focused on agriculture" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.SCHC
+name: college
+def: "the grounds and buildings of an institution of higher learning" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.SCHL
+name: language school
+def: "Language Schools & Institutions" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.SCHM
+name: military school
+def: "a school at which military science forms the core of the curriculum" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.SCHN
+name: maritime school
+def: "a school at which maritime sciences form the core of the curriculum" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.SCHT
+name: technical school
+def: "post-secondary school with a specifically technical or vocational curriculum" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.SECP
+name: State Exam Prep Centre
+def: "state exam preparation centres" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.SHPF
+name: sheepfold
+def: "a fence or wall enclosure for sheep and other small herd animals" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.SHRN
+name: shrine
+def: "a structure or place memorializing a person or religious concept" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.SHSE
+name: storehouse
+def: "a building for storing goods\, especially provisions" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.SLCE
+name: sluice
+def: "a conduit or passage for carrying off surplus water from a waterbody\, usually regulated by means of a sluice gate" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.SNTR
+name: sanatorium
+def: "a facility where victims of physical or mental disorders are treated" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.SPA
+name: spa
+def: "a resort area usually developed around a medicinal spring" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.SPLY
+name: spillway
+def: "a passage or outlet through which surplus water flows over\, around or through a dam" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.SQR
+name: square
+def: "a broad\, open\, public area near the center of a town or city" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.STBL
+name: stable
+def: "a building for the shelter and feeding of farm animals\, especially horses" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.STDM
+name: stadium
+def: "a structure with an enclosure for athletic games with tiers of seats for spectators" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.STNB
+name: scientific research base
+def: "a scientific facility used as a base from which research is carried out or monitored" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.STNC
+name: coast guard station
+def: "a facility from which the coast is guarded by armed vessels" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.STNE
+name: experiment station
+def: "a facility for carrying out experiments" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.STNF
+name: forest station
+def: "a collection of buildings and facilities for carrying out forest management" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.STNI
+name: inspection station
+def: "a station at which vehicles\, goods\, and people are inspected" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.STNM
+name: meteorological station
+def: "a station at which weather elements are recorded" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.STNR
+name: radio station
+def: "a facility for producing and transmitting information by radio waves" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.STNS
+name: satellite station
+def: "a facility for tracking and communicating with orbiting satellites" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.STNW
+name: whaling station
+def: "a facility for butchering whales and processing train oil" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.STPS
+name: steps
+def: "stones or slabs placed for ease in ascending or descending a steep slope" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.SWT
+name: sewage treatment plant
+def: "facility for the processing of sewage and/or wastewater" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.SYG
+name: synagogue
+def: "a place for Jewish worship and religious instruction" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.THTR
+name: theater
+def: "a building or outdoor area used for live theatrical presentations\, concerts\, opera or dance productions\, cinema\, and/or other stage productions" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.TMB
+name: tomb\(s\)
+def: "a structure for interring bodies" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.TMPL
+name: temple\(s\)
+def: "an edifice dedicated to religious worship" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.TNKD
+name: cattle dipping tank
+def: "a small artificial pond used for immersing cattle in chemically treated water for disease control" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.TOLL
+name: toll gate/barrier
+def: "highway toll collection station" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.TOWR
+name: tower
+def: "a high conspicuous structure\, typically much higher than its diameter" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.TRAM
+name: tram
+def: "rail vehicle along urban streets \(also known as streetcar or trolley\)" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.TRANT
+name: transit terminal
+def: "facilities for the handling of vehicular freight and passengers" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.TRIG
+name: triangulation station
+def: "a point on the earth whose position has been determined by triangulation" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.TRMO
+name: oil pipeline terminal
+def: "a tank farm or loading facility at the end of an oil pipeline" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.TWO
+name: temp work office
+def: "Temporary Work Offices" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.UNIP
+name: university prep school
+def: "University Preparation Schools & Institutions" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.UNIV
+name: university
+def: "An institution for higher learning with teaching and research facilities constituting a graduate school and professional schools that award master's degrees and doctorates and an undergraduate division that awards bachelor's degrees." []
+is_a: S
+
+[Term]
+id: geonames.feature:S.USGE
+name: united states government establishment
+def: "a facility operated by the United States Government in Panama" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.VETF
+name: veterinary facility
+def: "a building or camp at which veterinary services are available" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.WALL
+name: wall
+def: "a thick masonry structure\, usually enclosing a field or building\, or forming the side of a structure" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.WALLA
+name: ancient wall
+def: "the remains of a linear defensive stone structure" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.WEIR
+name: weir\(s\)
+def: "a small dam in a stream\, designed to raise the water level or to divert stream flow through a desired channel" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.WHRF
+name: wharf\(-ves\)
+def: "a structure of open rather than solid construction along a shore or a bank which provides berthing for ships and cargo-handling facilities" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.WRCK
+name: wreck
+def: "the site of the remains of a wrecked vessel" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.WTRW
+name: waterworks
+def: "a facility for supplying potable water through a water source and a system of pumps and filtration beds" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.ZNF
+name: free trade zone
+def: "an area\, usually a section of a port\, where goods may be received and shipped free of customs duty and of most customs regulations" []
+is_a: S
+
+[Term]
+id: geonames.feature:S.ZOO
+name: zoo
+def: "a zoological garden or park where wild animals are kept for exhibition" []
+is_a: S
+
+[Term]
+id: geonames.feature:T.ASPH
+name: asphalt lake
+def: "a small basin containing naturally occurring asphalt" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.ATOL
+name: atoll\(s\)
+def: "a ring-shaped coral reef which has closely spaced islands on it encircling a lagoon" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.BAR
+name: bar
+def: "a shallow ridge or mound of coarse unconsolidated material in a stream channel\, at the mouth of a stream\, estuary\, or lagoon and in the wave-break zone along coasts" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.BCH
+name: beach
+def: "a shore zone of coarse unconsolidated sediment that extends from the low-water line to the highest reach of storm waves" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.BCHS
+name: beaches
+def: "a shore zone of coarse unconsolidated sediment that extends from the low-water line to the highest reach of storm waves" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.BDLD
+name: badlands
+def: "an area characterized by a maze of very closely spaced\, deep\, narrow\, steep-sided ravines\, and sharp crests and pinnacles" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.BLDR
+name: boulder field
+def: "a high altitude or high latitude bare\, flat area covered with large angular rocks" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.BLHL
+name: blowhole\(s\)
+def: "a hole in coastal rock through which sea water is forced by a rising tide or waves and spurted through an outlet into the air" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.BLOW
+name: blowout\(s\)
+def: "a small depression in sandy terrain\, caused by wind erosion" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.BNCH
+name: bench
+def: "a long\, narrow bedrock platform bounded by steeper slopes above and below\, usually overlooking a waterbody" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.BUTE
+name: butte\(s\)
+def: "a small\, isolated\, usually flat-topped hill with steep sides" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.CAPE
+name: cape
+def: "a land area\, more prominent than a point\, projecting into the sea and marking a notable change in coastal direction" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.CFT
+name: cleft\(s\)
+def: "a deep narrow slot\, notch\, or groove in a coastal cliff" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.CLDA
+name: caldera
+def: "a depression measuring kilometers across formed by the collapse of a volcanic mountain" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.CLF
+name: cliff\(s\)
+def: "a high\, steep to perpendicular slope overlooking a waterbody or lower area" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.CNYN
+name: canyon
+def: "a deep\, narrow valley with steep sides cutting into a plateau or mountainous area" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.CONE
+name: cone\(s\)
+def: "a conical landform composed of mud or volcanic material" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.CRDR
+name: corridor
+def: "a strip or area of land having significance as an access way" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.CRQ
+name: cirque
+def: "a bowl-like hollow partially surrounded by cliffs or steep slopes at the head of a glaciated valley" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.CRQS
+name: cirques
+def: "bowl-like hollows partially surrounded by cliffs or steep slopes at the head of a glaciated valley" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.CRTR
+name: crater\(s\)
+def: "a generally circular saucer or bowl-shaped depression caused by volcanic or meteorite explosive action" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.CUET
+name: cuesta\(s\)
+def: "an asymmetric ridge formed on tilted strata" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.DLTA
+name: delta
+def: "a flat plain formed by alluvial deposits at the mouth of a stream" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.DPR
+name: depression\(s\)
+def: "a low area surrounded by higher land and usually characterized by interior drainage" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.DSRT
+name: desert
+def: "a large area with little or no vegetation due to extreme environmental conditions" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.DUNE
+name: dune\(s\)
+def: "a wave form\, ridge or star shape feature composed of sand" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.DVD
+name: divide
+def: "a line separating adjacent drainage basins" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.ERG
+name: sandy desert
+def: "an extensive tract of shifting sand and sand dunes" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.FAN
+name: fan\(s\)
+def: "a fan-shaped wedge of coarse alluvium with apex merging with a mountain stream bed and the fan spreading out at a low angle slope onto an adjacent plain" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.FORD
+name: ford
+def: "a shallow part of a stream which can be crossed on foot or by land vehicle" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.FSR
+name: fissure
+def: "a crack associated with volcanism" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.GAP
+name: gap
+def: "a low place in a ridge\, not used for transportation" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.GRGE
+name: gorge\(s\)
+def: "a short\, narrow\, steep-sided section of a stream valley" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.HDLD
+name: headland
+def: "a high projection of land extending into a large body of water beyond the line of the coast" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.HLL
+name: hill
+def: "a rounded elevation of limited extent rising above the surrounding land with local relief of less than 300m" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.HLLS
+name: hills
+def: "rounded elevations of limited extent rising above the surrounding land with local relief of less than 300m" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.HMCK
+name: hammock\(s\)
+def: "a patch of ground\, distinct from and slightly above the surrounding plain or wetland. Often occurs in groups" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.HMDA
+name: rock desert
+def: "a relatively sand-free\, high bedrock plateau in a hot desert\, with or without a gravel veneer" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.INTF
+name: interfluve
+def: "a relatively undissected upland between adjacent stream valleys" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.ISL
+name: island
+def: "a tract of land\, smaller than a continent\, surrounded by water at high water" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.ISLET
+name: islet
+def: "small island\, bigger than rock\, smaller than island." []
+is_a: T
+
+[Term]
+id: geonames.feature:T.ISLF
+name: artificial island
+def: "an island created by landfill or diking and filling in a wetland\, bay\, or lagoon" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.ISLM
+name: mangrove island
+def: "a mangrove swamp surrounded by a waterbody" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.ISLS
+name: islands
+def: "tracts of land\, smaller than a continent\, surrounded by water at high water" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.ISLT
+name: land-tied island
+def: "a coastal island connected to the mainland by barrier beaches\, levees or dikes" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.ISLX
+name: section of island
+is_a: T
+
+[Term]
+id: geonames.feature:T.ISTH
+name: isthmus
+def: "a narrow strip of land connecting two larger land masses and bordered by water" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.KRST
+name: karst area
+def: "a distinctive landscape developed on soluble rock such as limestone characterized by sinkholes\, caves\, disappearing streams\, and underground drainage" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.LAVA
+name: lava area
+def: "an area of solidified lava" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.LEV
+name: levee
+def: "a natural low embankment bordering a distributary or meandering stream; often built up artificially to control floods" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.MESA
+name: mesa\(s\)
+def: "a flat-topped\, isolated elevation with steep slopes on all sides\, less extensive than a plateau" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.MND
+name: mound\(s\)
+def: "a low\, isolated\, rounded hill" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.MRN
+name: moraine
+def: "a mound\, ridge\, or other accumulation of glacial till" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.MT
+name: mountain
+def: "an elevation standing high above the surrounding area with small summit area\, steep slopes and local relief of 300m or more" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.MTS
+name: mountains
+def: "a mountain range or a group of mountains or high ridges" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.NKM
+name: meander neck
+def: "a narrow strip of land between the two limbs of a meander loop at its narrowest point" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.NTK
+name: nunatak
+def: "a rock or mountain peak protruding through glacial ice" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.NTKS
+name: nunataks
+def: "rocks or mountain peaks protruding through glacial ice" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.PAN
+name: pan
+def: "a near-level shallow\, natural depression or basin\, usually containing an intermittent lake\, pond\, or pool" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.PANS
+name: pans
+def: "a near-level shallow\, natural depression or basin\, usually containing an intermittent lake\, pond\, or pool" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.PASS
+name: pass
+def: "a break in a mountain range or other high obstruction\, used for transportation from one side to the other \[See also gap\]" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.PEN
+name: peninsula
+def: "an elongate area of land projecting into a body of water and nearly surrounded by water" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.PENX
+name: section of peninsula
+is_a: T
+
+[Term]
+id: geonames.feature:T.PK
+name: peak
+def: "a pointed elevation atop a mountain\, ridge\, or other hypsographic feature" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.PKS
+name: peaks
+def: "pointed elevations atop a mountain\, ridge\, or other hypsographic features" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.PLAT
+name: plateau
+def: "an elevated plain with steep slopes on one or more sides\, and often with incised streams" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.PLATX
+name: section of plateau
+is_a: T
+
+[Term]
+id: geonames.feature:T.PLDR
+name: polder
+def: "an area reclaimed from the sea by diking and draining" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.PLN
+name: plain\(s\)
+def: "an extensive area of comparatively level to gently undulating land\, lacking surface irregularities\, and usually adjacent to a higher area" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.PLNX
+name: section of plain
+is_a: T
+
+[Term]
+id: geonames.feature:T.PROM
+name: promontory\(-ies\)
+def: "a bluff or prominent hill overlooking or projecting into a lowland" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.PT
+name: point
+def: "a tapering piece of land projecting into a body of water\, less prominent than a cape" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.PTS
+name: points
+def: "tapering pieces of land projecting into a body of water\, less prominent than a cape" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.RDGB
+name: beach ridge
+def: "a ridge of sand just inland and parallel to the beach\, usually in series" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.RDGE
+name: ridge\(s\)
+def: "a long narrow elevation with steep sides\, and a more or less continuous crest" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.REG
+name: stony desert
+def: "a desert plain characterized by a surface veneer of gravel and stones" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.RK
+name: rock
+def: "a conspicuous\, isolated rocky mass" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.RKFL
+name: rockfall
+def: "an irregular mass of fallen rock at the base of a cliff or steep slope" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.RKS
+name: rocks
+def: "conspicuous\, isolated rocky masses" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.SAND
+name: sand area
+def: "a tract of land covered with sand" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.SBED
+name: dry stream bed
+def: "a channel formerly containing the water of a stream" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.SCRP
+name: escarpment
+def: "a long line of cliffs or steep slopes separating level surfaces above and below" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.SDL
+name: saddle
+def: "a broad\, open pass crossing a ridge or between hills or mountains" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.SHOR
+name: shore
+def: "a narrow zone bordering a waterbody which covers and uncovers at high and low water\, respectively" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.SINK
+name: sinkhole
+def: "a small crater-shape depression in a karst area" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.SLID
+name: slide
+def: "a mound of earth material\, at the base of a slope and the associated scoured area" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.SLP
+name: slope\(s\)
+def: "a surface with a relatively uniform slope angle" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.SPIT
+name: spit
+def: "a narrow\, straight or curved continuation of a beach into a waterbody" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.SPUR
+name: spur\(s\)
+def: "a subordinate ridge projecting outward from a hill\, mountain or other elevation" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.TAL
+name: talus slope
+def: "a steep concave slope formed by an accumulation of loose rock fragments at the base of a cliff or steep slope" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.TRGD
+name: interdune trough\(s\)
+def: "a long wind-swept trough between parallel longitudinal dunes" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.TRR
+name: terrace
+def: "a long\, narrow alluvial platform bounded by steeper slopes above and below\, usually overlooking a waterbody" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.UPLD
+name: upland
+def: "an extensive interior region of high land with low to moderate surface relief" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.VAL
+name: valley
+def: "an elongated depression usually traversed by a stream" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.VALG
+name: hanging valley
+def: "a valley the floor of which is notably higher than the valley or shore to which it leads; most common in areas that have been glaciated" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.VALS
+name: valleys
+def: "elongated depressions usually traversed by a stream" []
+is_a: T
+
+[Term]
+id: geonames.feature:T.VALX
+name: section of valley
+is_a: T
+
+[Term]
+id: geonames.feature:T.VLC
+name: volcano
+def: "a conical elevation composed of volcanic materials with a crater at the top" []
+is_a: T
+
+[Term]
+id: geonames.feature:U.APNU
+name: apron
+def: "a gentle slope\, with a generally smooth surface\, particularly found around groups of islands and seamounts" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.ARCU
+name: arch
+def: "a low bulge around the southeastern end of the island of Hawaii" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.ARRU
+name: arrugado
+def: "an area of subdued corrugations off Baja California" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.BDLU
+name: borderland
+def: "a region adjacent to a continent\, normally occupied by or bordering a shelf\, that is highly irregular with depths well in excess of those typical of a shelf" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.BKSU
+name: banks
+def: "elevations\, typically located on a shelf\, over which the depth of water is relatively shallow but sufficient for safe surface navigation" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.BNKU
+name: bank
+def: "an elevation\, typically located on a shelf\, over which the depth of water is relatively shallow but sufficient for safe surface navigation" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.BSNU
+name: basin
+def: "a depression more or less equidimensional in plan and of variable extent" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.CDAU
+name: cordillera
+def: "an entire mountain system including the subordinate ranges\, interior plateaus\, and basins" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.CNSU
+name: canyons
+def: "relatively narrow\, deep depressions with steep sides\, the bottom of which generally has a continuous slope" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.CNYU
+name: canyon
+def: "a relatively narrow\, deep depression with steep sides\, the bottom of which generally has a continuous slope" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.CRSU
+name: continental rise
+def: "a gentle slope rising from oceanic depths towards the foot of a continental slope" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.DEPU
+name: deep
+def: "a localized deep area within the confines of a larger feature\, such as a trough\, basin or trench" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.EDGU
+name: shelf edge
+def: "a line along which there is a marked increase of slope at the outer margin of a continental shelf or island shelf" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.ESCU
+name: escarpment \(or scarp\)
+def: "an elongated and comparatively steep slope separating flat or gently sloping areas" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.FANU
+name: fan
+def: "a relatively smooth feature normally sloping away from the lower termination of a canyon or canyon system" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.FLTU
+name: flat
+def: "a small level or nearly level area" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.FRZU
+name: fracture zone
+def: "an extensive linear zone of irregular topography of the sea floor\, characterized by steep-sided or asymmetrical ridges\, troughs\, or escarpments" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.FURU
+name: furrow
+def: "a closed\, linear\, narrow\, shallow depression" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.GAPU
+name: gap
+def: "a narrow break in a ridge or rise" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.GLYU
+name: gully
+def: "a small valley-like feature" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.HLLU
+name: hill
+def: "an elevation rising generally less than 500 meters" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.HLSU
+name: hills
+def: "elevations rising generally less than 500 meters" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.HOLU
+name: hole
+def: "a small depression of the sea floor" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.KNLU
+name: knoll
+def: "an elevation rising generally more than 500 meters and less than 1\,000 meters and of limited extent across the summit" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.KNSU
+name: knolls
+def: "elevations rising generally more than 500 meters and less than 1\,000 meters and of limited extent across the summits" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.LDGU
+name: ledge
+def: "a rocky projection or outcrop\, commonly linear and near shore" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.LEVU
+name: levee
+def: "an embankment bordering a canyon\, valley\, or seachannel" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.MESU
+name: mesa
+def: "an isolated\, extensive\, flat-topped elevation on the shelf\, with relatively steep sides" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.MNDU
+name: mound
+def: "a low\, isolated\, rounded hill" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.MOTU
+name: moat
+def: "an annular depression that may not be continuous\, located at the base of many seamounts\, islands\, and other isolated elevations" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.MTU
+name: mountain
+def: "a well-delineated subdivision of a large and complex positive feature" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.PKSU
+name: peaks
+def: "prominent elevations\, part of a larger feature\, either pointed or of very limited extent across the summit" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.PKU
+name: peak
+def: "a prominent elevation\, part of a larger feature\, either pointed or of very limited extent across the summit" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.PLNU
+name: plain
+def: "a flat\, gently sloping or nearly level region" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.PLTU
+name: plateau
+def: "a comparatively flat-topped feature of considerable extent\, dropping off abruptly on one or more sides" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.PNLU
+name: pinnacle
+def: "a high tower or spire-shaped pillar of rock or coral\, alone or cresting a summit" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.PRVU
+name: province
+def: "a region identifiable by a group of similar physiographic features whose characteristics are markedly in contrast with surrounding areas" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.RDGU
+name: ridge
+def: "a long narrow elevation with steep sides" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.RDSU
+name: ridges
+def: "long narrow elevations with steep sides" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.RFSU
+name: reefs
+def: "surface-navigation hazards composed of consolidated material" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.RFU
+name: reef
+def: "a surface-navigation hazard composed of consolidated material" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.RISU
+name: rise
+def: "a broad elevation that rises gently\, and generally smoothly\, from the sea floor" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.SCNU
+name: seachannel
+def: "a continuously sloping\, elongated depression commonly found in fans or plains and customarily bordered by levees on one or two sides" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.SCSU
+name: seachannels
+def: "continuously sloping\, elongated depressions commonly found in fans or plains and customarily bordered by levees on one or two sides" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.SDLU
+name: saddle
+def: "a low part\, resembling in shape a saddle\, in a ridge or between contiguous seamounts" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.SHFU
+name: shelf
+def: "a zone adjacent to a continent \(or around an island\) that extends from the low water line to a depth at which there is usually a marked increase of slope towards oceanic depths" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.SHLU
+name: shoal
+def: "a surface-navigation hazard composed of unconsolidated material" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.SHSU
+name: shoals
+def: "hazards to surface navigation composed of unconsolidated material" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.SHVU
+name: shelf valley
+def: "a valley on the shelf\, generally the shoreward extension of a canyon" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.SILU
+name: sill
+def: "the low part of a gap or saddle separating basins" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.SLPU
+name: slope
+def: "the slope seaward from the shelf edge to the beginning of a continental rise or the point where there is a general reduction in slope" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.SMSU
+name: seamounts
+def: "elevations rising generally more than 1\,000 meters and of limited extent across the summit" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.SMU
+name: seamount
+def: "an elevation rising generally more than 1\,000 meters and of limited extent across the summit" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.SPRU
+name: spur
+def: "a subordinate elevation\, ridge\, or rise projecting outward from a larger feature" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.TERU
+name: terrace
+def: "a relatively flat horizontal or gently inclined surface\, sometimes long and narrow\, which is bounded by a steeper ascending slope on one side and by a steep descending slope on the opposite side" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.TMSU
+name: tablemounts \(or guyots\)
+def: "seamounts having a comparatively smooth\, flat top" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.TMTU
+name: tablemount \(or guyot\)
+def: "a seamount having a comparatively smooth\, flat top" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.TNGU
+name: tongue
+def: "an elongate \(tongue-like\) extension of a flat sea floor into an adjacent higher feature" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.TRGU
+name: trough
+def: "a long depression of the sea floor characteristically flat bottomed and steep sided\, and normally shallower than a trench" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.TRNU
+name: trench
+def: "a long\, narrow\, characteristically very deep and asymmetrical depression of the sea floor\, with relatively steep sides" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.VALU
+name: valley
+def: "a relatively shallow\, wide depression\, the bottom of which usually has a continuous gradient" []
+is_a: U
+
+[Term]
+id: geonames.feature:U.VLSU
+name: valleys
+def: "a relatively shallow\, wide depression\, the bottom of which usually has a continuous gradient" []
+is_a: U
+
+[Term]
+id: geonames.feature:V.BUSH
+name: bush\(es\)
+def: "a small clump of conspicuous bushes in an otherwise bare area" []
+is_a: V
+
+[Term]
+id: geonames.feature:V.CULT
+name: cultivated area
+def: "an area under cultivation" []
+is_a: V
+
+[Term]
+id: geonames.feature:V.FRST
+name: forest\(s\)
+def: "an area dominated by tree vegetation" []
+is_a: V
+
+[Term]
+id: geonames.feature:V.FRSTF
+name: fossilized forest
+def: "a forest fossilized by geologic processes and now exposed at the earth's surface" []
+is_a: V
+
+[Term]
+id: geonames.feature:V.GROVE
+name: grove
+def: "a small wooded area or collection of trees growing closely together\, occurring naturally or deliberately planted" []
+is_a: V
+
+[Term]
+id: geonames.feature:V.GRSLD
+name: grassland
+def: "an area dominated by grass vegetation" []
+is_a: V
+
+[Term]
+id: geonames.feature:V.GRVC
+name: coconut grove
+def: "a planting of coconut trees" []
+is_a: V
+
+[Term]
+id: geonames.feature:V.GRVO
+name: olive grove
+def: "a planting of olive trees" []
+is_a: V
+
+[Term]
+id: geonames.feature:V.GRVP
+name: palm grove
+def: "a planting of palm trees" []
+is_a: V
+
+[Term]
+id: geonames.feature:V.GRVPN
+name: pine grove
+def: "a planting of pine trees" []
+is_a: V
+
+[Term]
+id: geonames.feature:V.HTH
+name: heath
+def: "an upland moor or sandy area dominated by low shrubby vegetation including heather" []
+is_a: V
+
+[Term]
+id: geonames.feature:V.MDW
+name: meadow
+def: "a small\, poorly drained area dominated by grassy vegetation" []
+is_a: V
+
+[Term]
+id: geonames.feature:V.OCH
+name: orchard\(s\)
+def: "a planting of fruit or nut trees" []
+is_a: V
+
+[Term]
+id: geonames.feature:V.SCRB
+name: scrubland
+def: "an area of low trees\, bushes\, and shrubs stunted by some environmental limitation" []
+is_a: V
+
+[Term]
+id: geonames.feature:V.TREE
+name: tree\(s\)
+def: "a conspicuous tree used as a landmark" []
+is_a: V
+
+[Term]
+id: geonames.feature:V.TUND
+name: tundra
+def: "a marshy\, treeless\, high latitude plain\, dominated by mosses\, lichens\, and low shrub vegetation under permafrost conditions" []
+is_a: V
+
+[Term]
+id: geonames.feature:V.VIN
+name: vineyard
+def: "a planting of grapevines" []
+is_a: V
+
+[Term]
+id: geonames.feature:V.VINS
+name: vineyards
+def: "plantings of grapevines" []
+is_a: V
+
+[Term]
+id: NCBITaxon:9606
+name: Homo sapiens
+
+[Term]
+id: A
+name: geopolitical feature
+comment: "injected by PyOBO source"
+property_value: dcterms:contributor orcid:0000-0003-4423-4370 ! contributor Charles Tapley Hoyt
+is_a: feature
+
+[Term]
+id: H
+name: aquatic feature
+comment: "injected by PyOBO source"
+property_value: dcterms:contributor orcid:0000-0003-4423-4370 ! contributor Charles Tapley Hoyt
+is_a: feature
+
+[Term]
+id: L
+name: parks feature
+comment: "injected by PyOBO source"
+property_value: dcterms:contributor orcid:0000-0003-4423-4370 ! contributor Charles Tapley Hoyt
+is_a: feature
+
+[Term]
+id: P
+name: city feature
+comment: "injected by PyOBO source"
+property_value: dcterms:contributor orcid:0000-0003-4423-4370 ! contributor Charles Tapley Hoyt
+is_a: feature
+
+[Term]
+id: R
+name: road or rail feature
+comment: "injected by PyOBO source"
+property_value: dcterms:contributor orcid:0000-0003-4423-4370 ! contributor Charles Tapley Hoyt
+is_a: feature
+
+[Term]
+id: S
+name: building feature
+comment: "injected by PyOBO source"
+property_value: dcterms:contributor orcid:0000-0003-4423-4370 ! contributor Charles Tapley Hoyt
+is_a: feature
+
+[Term]
+id: T
+name: geographic feature
+comment: "injected by PyOBO source"
+property_value: dcterms:contributor orcid:0000-0003-4423-4370 ! contributor Charles Tapley Hoyt
+is_a: feature
+
+[Term]
+id: U
+name: undersea feature
+comment: "injected by PyOBO source"
+property_value: dcterms:contributor orcid:0000-0003-4423-4370 ! contributor Charles Tapley Hoyt
+is_a: feature
+
+[Term]
+id: V
+name: floral feature feature
+comment: "injected by PyOBO source"
+property_value: dcterms:contributor orcid:0000-0003-4423-4370 ! contributor Charles Tapley Hoyt
+is_a: feature
+
+[Term]
+id: feature
+name: GeoNames feature
+
+[Instance]
+id: orcid:0000-0003-4423-4370
+name: Charles Tapley Hoyt
+instance_of: NCBITaxon:9606 ! Homo sapiens

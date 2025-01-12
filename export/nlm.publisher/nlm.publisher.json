@@ -1,0 +1,3675 @@
+{
+  "graphs" : [ {
+    "id" : "urn:absolute:nlm.publisher",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.obolibrary.org/obo/IAO_0000700",
+        "val" : "http://purl.obolibrary.org/obo/nlm#publisher"
+      }, {
+        "pred" : "http://purl.org/dc/terms/description",
+        "val" : "Publisher short codes appearin in the NLM Catalog."
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "public domain"
+      }, {
+        "pred" : "http://purl.org/dc/terms/title",
+        "val" : "NLM Publisher Codes"
+      } ]
+    },
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+      "lbl" : "Homo sapiens",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/nlm#publisher",
+      "lbl" : "publisher",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "injected by PyOBO source" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0003-4423-4370"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://purl.uniprot.org/core/publisher"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "http://schema.org/publisher"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "https://w3id.org/biolink/vocab/publisher"
+        } ]
+      }
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:FSR",
+      "lbl" : "Forensic Science Review",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:aaem",
+      "lbl" : "Institute of Rural Health",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:aafp",
+      "lbl" : "American Academy of Family Physicians",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:acs",
+      "lbl" : "American Chemical Society",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:aebi",
+      "lbl" : "Asociacion Espanola de Bioetica y Etica Medica",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:aegis",
+      "lbl" : "AEGIS Communications",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:aerzteverlag",
+      "lbl" : "Aerzteverlag medinfo AG",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:afhsc",
+      "lbl" : "Armed Forces Health Surveillance Branch",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ageb",
+      "lbl" : "Acta Gastro-Enterologica Belgica",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ahrq",
+      "lbl" : "Agency for Healthcare Research and Quality",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:aimsbu",
+      "lbl" : "American Institute of Mathematical Sciences and Beihang University",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:aip",
+      "lbl" : "American Institute of Physics",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:airitip",
+      "lbl" : "Ainosco Press",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ajj",
+      "lbl" : "Anthony J. Jannetti, Inc.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:akademperiodyka",
+      "lbl" : "Publishing House “Akademperiodyka”",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:akdema",
+      "lbl" : "Akdema Informatics and Publication",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:alimsthai",
+      "lbl" : "Allergy and Immunology Society of Thailand",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ama",
+      "lbl" : "American Medical Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ambit",
+      "lbl" : "proLekare.cz",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:amepub",
+      "lbl" : "AME Publishing Company",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:amha",
+      "lbl" : "Croatian Scientific Society for the History of Medicine",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:amjdent",
+      "lbl" : "American Journal of Dentistry",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ampsych",
+      "lbl" : "American Psychological Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:amsir",
+      "lbl" : "Academy Of Medical Sciences of I.R. of Iran",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:aosis",
+      "lbl" : "AOSIS OpenJournals",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:apocp",
+      "lbl" : "Asian Pacific Organization for Cancer Prevention",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:aps",
+      "lbl" : "American Physical Society",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:apslovak",
+      "lbl" : "AEPress, s r. o.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:aran",
+      "lbl" : "Aran ediciones, S.L.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:arhfr",
+      "lbl" : "JCU, James Cook University",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ariesdue",
+      "lbl" : "Ariesdue Srl",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:armam",
+      "lbl" : "Automation in Microbiology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:asabe",
+      "lbl" : "American Society of Agricultural and Biological Engineers Publications",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:asabh",
+      "lbl" : "Acta Medica Academica",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ascmed",
+      "lbl" : "Clinical Care Targeted Communications Group, LLC",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ascr",
+      "lbl" : "Institute of Physiology, Academy of Sciences of the Czech Republic, Prague",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:atrachim",
+      "lbl" : "Academy of Traditional Chinese Medicine",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:atypon",
+      "lbl" : "Atypon",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:audha",
+      "lbl" : "Office of Health Protection, Australian Government Department of Health",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ayubmedcoll",
+      "lbl" : "Ayub Medical College",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:basuni",
+      "lbl" : "Baskent University, Publishers",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:baycinar",
+      "lbl" : "Baycinar Tibbi Yayincilik",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:bcm_mosc",
+      "lbl" : "Biochemistry (Moscow)",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:bcs",
+      "lbl" : "BCS Learning and Development",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:begell",
+      "lbl" : "BegellHouse Publisher, Inc.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:belsurg",
+      "lbl" : "Acta Gastroenterol Belg",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:bentham",
+      "lbl" : "Bentham Science Publishers Ltd.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:bhjd",
+      "lbl" : "Bulletin of the NYU Hospital for Joint Diseases",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:bilimsel",
+      "lbl" : "Bilimsel Tip Publishing House",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:bionika",
+      "lbl" : "Bionika",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:bjbms",
+      "lbl" : "Association of Basic Medical Sciences Federation of Bosnia and Herzegovina",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:bmc",
+      "lbl" : "BioMed Central",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:bmjgrp",
+      "lbl" : "BMJ Publishing Group",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:bonejointp",
+      "lbl" : "The British Editorial Society of Bone & Joint Surgery",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:brsocu",
+      "lbl" : "International Brazilian J Urol",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cairn",
+      "lbl" : "Cairn",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:camup",
+      "lbl" : "Cambridge University Press",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:canurol",
+      "lbl" : "The Canadian Journal of Urology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cap",
+      "lbl" : "Chinese Association of Pathophysiology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:capemedia",
+      "lbl" : "Health and Medical Publishing Group",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:catchwrd",
+      "lbl" : "Ingenta plc",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cccm",
+      "lbl" : "Journal Office of Chinese Critical Care Medicine",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cda",
+      "lbl" : "Canadian Dental Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cdc",
+      "lbl" : "CDC-NCEZID",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cdcan",
+      "lbl" : "Public Health Agency of Canada",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cdcnchs",
+      "lbl" : "National Center for Health Statistics",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cdcpcd",
+      "lbl" : "Centers for Disease Control and Prevention",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cejph",
+      "lbl" : "National Institute of Public Health, Czech Republic",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:celsius",
+      "lbl" : "Editura Celsius",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cenveo",
+      "lbl" : "Cenveo Publisher Services",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cersas",
+      "lbl" : "Clinical and Experimental Rheumatology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:chaos",
+      "lbl" : "The Society for Chaos Theory in Psychology and Life Sciences",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:chinacam",
+      "lbl" : "Chinese Academy of Medical Sciences",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:chinacdc",
+      "lbl" : "Chinese Center for Disease Control and Prevention",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:chinjappphys",
+      "lbl" : "Editorial Office of Chinese Journal of Applied Physiology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:chinmatmed",
+      "lbl" : "China Journal of Chinese Materia Medica",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:chosunu",
+      "lbl" : "Korean Society for Biochemistry and Molecular Biology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cirycir",
+      "lbl" : "Instituto Mexicano del Seguro Social",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cjae",
+      "lbl" : "Chinese Journal of Applied Ecology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cjbt",
+      "lbl" : "Editorial Office of Sheng Wu Gong Cheng Xue Bao",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cjcpub",
+      "lbl" : "Chinese Journal of Contemporary Pediatrics",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cjlc",
+      "lbl" : "Editorial Office of Chinese Journal of Lung Cancer",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cjmi",
+      "lbl" : "Chinese Journal of Medical Instrumentation",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cjot",
+      "lbl" : "China journal of orthopaedics and traumatology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cjrrs",
+      "lbl" : "Chinese journal of reparative and reconstructive surgery",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cjsc",
+      "lbl" : "Chinese journal of schistosomiasis control",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:clinlabpub",
+      "lbl" : "Clinical Laboratory",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cmaph",
+      "lbl" : "Chinese Medical Association Publishing House Ltd.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cmbfr",
+      "lbl" : "CMB-Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cmica",
+      "lbl" : "Colegio Mexicano de Inmunología clínica y alergia",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cnai",
+      "lbl" : "Consociazione Nazionale Associazione Infermieri",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cnhi",
+      "lbl" : "Colombian National Health Institute",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cohresp",
+      "lbl" : "Ordem dos Medicos / Portuguese Medical Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:compuscript",
+      "lbl" : "Compuscript Limited",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:copdfoun",
+      "lbl" : "COPD Foundation",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:copes",
+      "lbl" : "Psicothema",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cordoba",
+      "lbl" : "Cordoba: Universidad Nacional De Cordoba, Facultad De Ciencias Medicas",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:core",
+      "lbl" : "National Institute for Health and Care Research Journals Library",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cpbpress",
+      "lbl" : "Cell Physiol Biochem Press GmbH Co KG",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cpspak",
+      "lbl" : "College of Physicians and Surgeons",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:crie",
+      "lbl" : "Central Research Institute of Epidemiology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:croderm",
+      "lbl" : "Croatian Dermatovenerological Society",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:csimm",
+      "lbl" : "Chinese Society for Immunology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:csiro",
+      "lbl" : "CSIRO",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:cspot",
+      "lbl" : "Ceska spolecnost pro ortopedii a traumatologii",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:dadl",
+      "lbl" : "Danish Medical Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:datapage",
+      "lbl" : "Datapage",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:datatrace",
+      "lbl" : "Data Trace Publishing Company",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:dclab",
+      "lbl" : "Data Conversion Labs",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ddsczech",
+      "lbl" : "DDS on behalf of Universitas Carolina",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:dearzte",
+      "lbl" : "Deutsches Aerzteblatt International",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:debarber",
+      "lbl" : "Dennis Barber Ltd.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:degruyter",
+      "lbl" : "De Gruyter",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:derm",
+      "lbl" : "Arthur C Huntley MD, California Digital Library",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:dismed",
+      "lbl" : "Discovery Medicine",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:djs",
+      "lbl" : "Dartmouth Journal Services",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:dustri",
+      "lbl" : "Dustri-Verlag Dr. Karl Feistle GmbH & Co. KG",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:eacts",
+      "lbl" : "Multimedia Manual for Cardio-Thoracic Surgery",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ebmed",
+      "lbl" : "EB Medicine",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ecri",
+      "lbl" : "ECRI",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:edpsci",
+      "lbl" : "EDP Sciences",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:edqm",
+      "lbl" : "European Directorate for the Quality of Medicines, Council of Europe",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:edralswr",
+      "lbl" : "EDRA LSWR SpA",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:edscientific",
+      "lbl" : "Editora Scientific",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:egyptai",
+      "lbl" : "Egyptian Association of Immunologists",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:elifesci",
+      "lbl" : "eLife Sciences Publications, Ltd",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:elsevier",
+      "lbl" : "Elsevier Science",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:embs",
+      "lbl" : "IEEE Engineering in Medicine and Biology Society",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:emerald",
+      "lbl" : "Emerald Group Publishing Limited",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:endoresctr",
+      "lbl" : "Endocrinology Research Centre",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:envscichn",
+      "lbl" : "Environmental Science (Huan Jing Ke Xue)",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:equinox",
+      "lbl" : "Equinox Publishing Ltd",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ergon",
+      "lbl" : "Ergon",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:esmon",
+      "lbl" : "Esmon Publicidad",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:eurobs",
+      "lbl" : "European Observatory on Health Systems and Policies",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:europa",
+      "lbl" : "Europa Digital & Publishing",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:eurotext",
+      "lbl" : "John Libbey Eurotext",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:exerimm",
+      "lbl" : "International Society of Exercise and Immunology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:fecolsog",
+      "lbl" : "Federacion Colombiana de Obstetricia y Ginecologia",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:fmes",
+      "lbl" : "Forum for Medical Ethics Society",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:fmmuch",
+      "lbl" : "SOUTHERN MEDICAL UNIVERSITY",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:fphuk",
+      "lbl" : "Faculty of Pharmacy University of Karachi",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:furevmed",
+      "lbl" : "Fundacion Revista Medicina (Buenos Aires)",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:fyxzz",
+      "lbl" : "Fayixue Zazhi",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:galenos",
+      "lbl" : "Aves Yayincilik",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:galenosyay",
+      "lbl" : "Galenos Yayinevi",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:genden",
+      "lbl" : "Academy of General Dentistry",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:gennet",
+      "lbl" : "GN1 Sistemas e Publicacoes, LTDA",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:geotar",
+      "lbl" : "GEOTAR Media Publishing Group",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:gffcc",
+      "lbl" : "Gulf Federation for Cancer Control",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:gmsante",
+      "lbl" : "Global Media Sante",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:graphimedic",
+      "lbl" : "Graphimedic, S.A. de C.V.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:gstut",
+      "lbl" : "Gesellschaft Schweizer Tieraerztinnen und Tieraerzte",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:hastings",
+      "lbl" : "The Hastings Center",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:heidelbg",
+      "lbl" : "JMIR Publications",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:hellenpsych",
+      "lbl" : "Hellenic Psychiatric Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:herbj",
+      "lbl" : "Hereditas(Beijing)",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:highwire",
+      "lbl" : "HighWire",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:hkam",
+      "lbl" : "Hong Kong Academy of Medicine Press",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:hmp",
+      "lbl" : "HMP Communications, LLC",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:huaspsy",
+      "lbl" : "Neuropsychopharmacologia Hungarica",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:humssph",
+      "lbl" : "Hamadan University of Medical Sciences, School of Public Health",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:hupsas",
+      "lbl" : "Hungarian Psychiatric Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:hybrid",
+      "lbl" : "van Zuiden Communications",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:iausa",
+      "lbl" : "IAS-USA",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ibmcrams",
+      "lbl" : "Institute of Biomedical Chemistry, Russian Academy of Medical Sciences",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ic",
+      "lbl" : "IndexCopernicus",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:icemj",
+      "lbl" : "Domus Medica",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:icmhpe",
+      "lbl" : "International Center of Mental Health Policy and Economics",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ifactory",
+      "lbl" : "Sheridan PubFactory",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ifp",
+      "lbl" : "Institute of Pharmacology Polish Academy of Sciences",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:igakushoin",
+      "lbl" : "IGAKU-SHOIN Ltd.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:iitalant",
+      "lbl" : "Istituto Italiano di Antropologia",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ijhpm",
+      "lbl" : "International journal of health policy and management",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ijim",
+      "lbl" : "Indonesian Society of Internal Medicine",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ijme",
+      "lbl" : "International journal of medical education",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ijpc",
+      "lbl" : "International Journal of Pharmaceutical Compounding",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:imd",
+      "lbl" : "Aluna Publishing (Wydawnictwo Aluna)",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:imdimc",
+      "lbl" : "instytut Matki i Dziecka/Institute of Mother and Child",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:imolpgs",
+      "lbl" : "Institute of Molecular Physiology and Genetics, Slovak Academy of Sciences",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:impact",
+      "lbl" : "Impact Journals, LLC",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:imrpress",
+      "lbl" : "IMR Press",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:inacse",
+      "lbl" : "International Academy of Science, Education, I ndustry & Arts",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:indian",
+      "lbl" : "Indian Pediatrics",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:inferenze",
+      "lbl" : "Inferenze scarl",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:inforang",
+      "lbl" : "Inforang",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:iniestares",
+      "lbl" : "Archivos Espanoles de Urologia",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:innovis",
+      "lbl" : "InnoVision Professional Media",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:instparczech",
+      "lbl" : "Institute of Parasitology, Biology Centrum the Academy of Sciences of the Czech Republic",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:intres",
+      "lbl" : "Inter-Research Science Center",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:intsoclymph",
+      "lbl" : "International Society Of Lymphology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:iop",
+      "lbl" : "IOP Publishing Ltd.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:iosp",
+      "lbl" : "IOS Press",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:iransn",
+      "lbl" : "Iranian Society of Nephrology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:irct",
+      "lbl" : "International Rehabilitation Council for Torture Victims",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:irmedorg",
+      "lbl" : "Irish Medical Organisation",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:isdis",
+      "lbl" : "Istituto Superiore di Sanita",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:isiasicr",
+      "lbl" : "Iranian Society of Immunology and Allergy and Shiraz Institute for Cancer",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:isrameda",
+      "lbl" : "Israel Medical Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:italchir",
+      "lbl" : "Annali Italiani di Chirurgia",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:iucr",
+      "lbl" : "International Union of Crystallography",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:iwapub",
+      "lbl" : "IWA Publishing",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:iyaku",
+      "lbl" : "IYAKU MEDICINE and Drug JOURNAL CO LTD",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jagt",
+      "lbl" : "Association Of Genetic Technologists",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jagup",
+      "lbl" : "Jagiellonian University Press",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:japi",
+      "lbl" : "The Association of Physicians of India",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jappm",
+      "lbl" : "Journal of Applied Measurement",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jaypee",
+      "lbl" : "Jaypee Brothers Medical Publishers",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jbechn",
+      "lbl" : "Journal of Biomedical Engineering (China)",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jbiosci",
+      "lbl" : "Indian Academy of Sciences",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jbr",
+      "lbl" : "Journal of Biomedical Research",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jcd",
+      "lbl" : "Journal of Clinical Dentistry",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jco",
+      "lbl" : "Journal of Clinical Orthodontics",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jcohns",
+      "lbl" : "Lin Chung Er Bi Yan Hou Tou Jing Wai Ke Za Zhi",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jcsuph",
+      "lbl" : "CENTRAL SOUTH UNIVERSITY",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jforodon",
+      "lbl" : "journal of forensic odontostomatology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jhupress",
+      "lbl" : "Project MUSE",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jinfdevc",
+      "lbl" : "The Journal of Infection in Developing Countries",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jlh",
+      "lbl" : "Journal of law and health, Cleveland-Marshall College of Law",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jmni",
+      "lbl" : "International Society of Musculoskeletal and Neuronal Interactions",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jnbna",
+      "lbl" : "National Black Nurses Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jnlci",
+      "lbl" : "American Society for Clinical Investigation",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jogh",
+      "lbl" : "Journal of Global Health (JoGH)",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jpgm",
+      "lbl" : "Medknow Publications and Media Pvt Ltd",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:jscb",
+      "lbl" : "J-STAGE, Japan Science and Technology Information Aggregator, Electronic",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:karger",
+      "lbl" : "S. Karger AG, Basel, Switzerland",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:katuni",
+      "lbl" : "Kathmandu University",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:kaunas",
+      "lbl" : "Lithuanian University of Health Sciences",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:kbbid",
+      "lbl" : "Kare Publishing",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:kdcpa",
+      "lbl" : "Korea Disease Control and Prevention Agency",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:kerums",
+      "lbl" : "Kermanshah University of Medical Sciences",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:knwc",
+      "lbl" : "Sunmedia PierOnline",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:kobe",
+      "lbl" : "Kobe Journal of Medical Sciences Publisher",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:konmed",
+      "lbl" : "Konsilium Medikum",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:korshmed",
+      "lbl" : "The Korean Society for the History of Medicine",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ksen",
+      "lbl" : "Korean Society for Exercise Nutrition",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ksg",
+      "lbl" : "The Korean Society of Gastroenterology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ksmbt",
+      "lbl" : "The Korean Society for Microbiology and Biotechnology.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:kstc",
+      "lbl" : "Korean Society of Nursing Science",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:kurenai",
+      "lbl" : "Kyoto University Research Information Repository - Kiyo",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:lavoisier",
+      "lbl" : "Lavoisier",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:lemali",
+      "lbl" : "Societe medicale du Mali",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:litmed",
+      "lbl" : "Literatura Medica",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:lumina",
+      "lbl" : "Lumina Datamatics Ltd.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:lwwips",
+      "lbl" : "Wolters Kluwer",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:m2comm",
+      "lbl" : "M2PI",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:macpatho",
+      "lbl" : "College of Pathologists, Academy of Medicine of Malaysia",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:malaymeda",
+      "lbl" : "Malaysian Medical Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:mapress",
+      "lbl" : "Magnolia Press",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:mars",
+      "lbl" : "MARS - LHC",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:mattioli",
+      "lbl" : "Mattioli 1885, Spa",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:mdadv",
+      "lbl" : "MDAdvantage",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:mdpi",
+      "lbl" : "MDPI",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:medfarma",
+      "lbl" : "Sociedade Portuguesa de Reumatologia",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:medglas",
+      "lbl" : "Medical Association of Zenica-Doboj Canton, Bosnia and Herzegovina",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:meditsina",
+      "lbl" : "Meditsina",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:medletr",
+      "lbl" : "Medical Letter on Drugs and Therapeutics",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:mednak",
+      "lbl" : "Medicinska naklada d.o.o.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:medoral",
+      "lbl" : "Medicina Oral S.L.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:medpharm",
+      "lbl" : "Medpharm Publications",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:medprakt",
+      "lbl" : "Medycyna Praktyczna",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:medrevs",
+      "lbl" : "MedReviews, LLC",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:medsci",
+      "lbl" : "International Scientific Literature, Ltd.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:medwave",
+      "lbl" : "Medwave",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:mersenne",
+      "lbl" : "Centre Mersenne",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:minerva",
+      "lbl" : "Minerva Medica",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:mmcb",
+      "lbl" : "Mymensingh Medical College, Bangladesh",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:mmp",
+      "lbl" : "Millennium Medical Publishing, Inc",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:mmpub",
+      "lbl" : "Maghira AND Maas Publications (Sweden)",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:mmwr",
+      "lbl" : "CDC - Morbidity and Mortality Weekly Report",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:molbiolmosk",
+      "lbl" : "Molekuliarnaia biologiia",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:morion",
+      "lbl" : "MORION LLC",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:mrepress",
+      "lbl" : "MRE Press",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:msanidad",
+      "lbl" : "Revista Espanola de Salud Publica",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:msp",
+      "lbl" : "Medical Science Publishing International, Inc.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:msphera",
+      "lbl" : "Media Sphera Publishing Group",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:msptm",
+      "lbl" : "Malaysian Society of Parasitology and Tropical Medicine",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:nanjinggh",
+      "lbl" : "Nanjing Jun Qu Nanjing Zong Yi Yuan zhu ban",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:nature",
+      "lbl" : "Nature Publishing Group",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:navarra",
+      "lbl" : "Departamento de Salud - Gobierno de Navarra",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ncmedj",
+      "lbl" : "North Carolina Medical Journal",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:nebo",
+      "lbl" : "Nebo (Italy)",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:nejm",
+      "lbl" : "New England Journal of Medicine",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:nencki",
+      "lbl" : "Nencki Institute of Experimental Biology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:nephrc",
+      "lbl" : "Nepal Health Research Council",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:nepmedas",
+      "lbl" : "Nepal Medical Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:nepoph",
+      "lbl" : "Nepal Ophthalmic Society",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:newgen",
+      "lbl" : "Newgen DigitalWorks Pvt.Ltd",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:niaaa",
+      "lbl" : "National Institute on Alcohol Abuse and Alcoholism",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:niehs",
+      "lbl" : "National Toxicology Program",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:nizppzh",
+      "lbl" : "National Institute of Public Health - National Institute of Hygiene (NIPH-NIH), Poland",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:nma",
+      "lbl" : "Norwegian Medical Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:noferiom",
+      "lbl" : "Nofer Institute of Occupational Medicine",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:nrcrm",
+      "lbl" : "National Research Center for Radiation Medicine of the National Academy",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ntvg",
+      "lbl" : "Vereniging NTvG",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:oie",
+      "lbl" : "World Organisation for Animal Health (OIE)",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:oiiq",
+      "lbl" : "Order of Nurses of Quebec",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:okayama",
+      "lbl" : "Okayama University Medical School",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:oldcitypub",
+      "lbl" : "Old City Publishing",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:oncnurs",
+      "lbl" : "Oncology Nursing Society",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:osapub",
+      "lbl" : "Optica Publishing Group",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:pacinied",
+      "lbl" : "Pacini Editore",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:pagepress",
+      "lbl" : "Pagepress Publications",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:painmd",
+      "lbl" : "Pain Physician",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:pakmed",
+      "lbl" : "Pakistan Medical Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:paluni",
+      "lbl" : "Palacky University Olomouc",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:pasifika",
+      "lbl" : "Pasifika Medical Association Group",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:pasjumc",
+      "lbl" : "Polish Academy of Sciences & Jagiellonian University Medical College",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:pavia",
+      "lbl" : "Pavia",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:pbs",
+      "lbl" : "Postepy Biochem, Inc.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:pekuni",
+      "lbl" : "Journal of Peking University (Health Sciences)",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:pensierosci",
+      "lbl" : "Il Pensiero Scientifico Editore",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:pensoftpub",
+      "lbl" : "Pensoft Publishers",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:performis",
+      "lbl" : "Performis BV",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:perpub",
+      "lbl" : "Permanyer Publications",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:peru",
+      "lbl" : "La Sociedad De Gastroenterologia Del Peru",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:phsocn",
+      "lbl" : "Physiological Society of Nigeria",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:physpostgrad",
+      "lbl" : "Physicians Postgraduate Press, Inc.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:pinsir",
+      "lbl" : "Pasteur Institute of Iran",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:pjbs",
+      "lbl" : "Pakistan Journal of Biological Sciences",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:plos",
+      "lbl" : "Public Library of Science",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:pmc",
+      "lbl" : "PubMed Central",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:polacadsci",
+      "lbl" : "Polish Academy of Sciences",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:polemos",
+      "lbl" : "Polemos S.A. (Argentina)",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:polparsoc",
+      "lbl" : "Polish Parasitological Society",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:polpsych",
+      "lbl" : "Polish Psychiatric Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:por",
+      "lbl" : "Hungarian Oncological Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:prelum",
+      "lbl" : "Prelum",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:pzico",
+      "lbl" : "P.Ziti and Co",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:qhc",
+      "lbl" : "Frontline Medical Communications Inc",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:qingdao",
+      "lbl" : "Journal House of Qingdao University",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:quint",
+      "lbl" : "Quintessence Publishing Company",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:quintpub",
+      "lbl" : "Quintessence Publishing",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:racgp",
+      "lbl" : "Australian Family Physician",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:rcni",
+      "lbl" : "RCNi",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:revmedch",
+      "lbl" : "Geneve: Medecine et hygiene",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:rhinologic",
+      "lbl" : "International Rhinologic Society",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:rilapub",
+      "lbl" : "Rila Publications Ltd",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:rims",
+      "lbl" : "Rhode Island Medical Society",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:rmlg",
+      "lbl" : "Revue Medicale de Liege",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:rosogast",
+      "lbl" : "Iuliu Hatieganu Medical Publishing House",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:royan",
+      "lbl" : "Royan Institute",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:rpcctv",
+      "lbl" : "Sociedade Portuguesa de Cirurgia Cardio-Toracica e Vascular",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:rsc",
+      "lbl" : "Royal Society of Chemistry",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:rsumpc",
+      "lbl" : "Romanian Society of Morphology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:rvc",
+      "lbl" : "The Royal Veterinary College, London, UK",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:safrica",
+      "lbl" : "Cardiovascular Journal of Africa",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:saio",
+      "lbl" : "Sociedad Argentina de Investigacion Odontologica",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:saned",
+      "lbl" : "Grupo Saned",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:sanova",
+      "lbl" : "SanovaWorks",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:saxinst",
+      "lbl" : "Sax Institute",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:scg",
+      "lbl" : "Swiss Chemical Society",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:schweizerbart",
+      "lbl" : "Schweizerbart Scientific Publishers",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:sciamsn",
+      "lbl" : "Scientific American",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:sciandmed",
+      "lbl" : "Science & Medicine",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:scielo",
+      "lbl" : "Scientific Electronic Library Online",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:scischolar",
+      "lbl" : "Scientific Scholar",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:scsmt",
+      "lbl" : "Societat Catalana de Seguretat i Medicina del Treball",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:sdsma",
+      "lbl" : "South Dakota Medicine",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:sepu",
+      "lbl" : "Se Pu",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:seq",
+      "lbl" : "Sociedad Espanola de Quimioterapia",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:serdi",
+      "lbl" : "Serdi Edition",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:serra",
+      "lbl" : "Fabrizio Serra Editore",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:seuit",
+      "lbl" : "Societa Editrice Universo, srl",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:shangbio",
+      "lbl" : "China Science Publishing and Media Ltd.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:shanstoma",
+      "lbl" : "School of Stomatology, SHJTU",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:sibs",
+      "lbl" : "Acta Physiologica Sinica",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:silverchair",
+      "lbl" : "Silverchair Information Systems",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:simmoc",
+      "lbl" : "Italian Society for Medical, Odontoiatric, and Clinical Microbiology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:sinitaly",
+      "lbl" : "SIN Società Italiana di Nefrologia",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:sjweh",
+      "lbl" : "Scandinavian Journal of Work, Environment & Health",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:skinther",
+      "lbl" : "Skin Therapy Letter",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:sldesoc",
+      "lbl" : "Slovenian Dermatovenerological Society",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:slma",
+      "lbl" : "Sri Lanka Medical Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:slovchem",
+      "lbl" : "Slovenian Chemical Society",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:sma",
+      "lbl" : "Southern Medical Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:socargped",
+      "lbl" : "Sociedad Argentina de Pediatria",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:socdra",
+      "lbl" : "Socidrogalcohol",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:spackin",
+      "lbl" : "SpackIndia Solutions",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:spadv",
+      "lbl" : "MJS Publishing",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:spandido",
+      "lbl" : "Spandidos Publications",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:spectrum",
+      "lbl" : "Spektrum Akademischer Verlag",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:spibg",
+      "lbl" : "Saint Petersburg Institute of Bioregulation and Gerontology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:spiglobal",
+      "lbl" : "SPi Global",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:spm",
+      "lbl" : "Salud Publica de Mexico",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:springer",
+      "lbl" : "Springer",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:spums",
+      "lbl" : "South Pacific Underwater Medicine Society",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ssopub",
+      "lbl" : "Schweizerische Zahnaertze-Gesellschaft SSO",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:stapp",
+      "lbl" : "The Stapp Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:stchad",
+      "lbl" : "Statistics Canada-Health Analysis Division",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:stfm",
+      "lbl" : "Society of Teachers of Family Medicine",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:stme",
+      "lbl" : "International Foundation Juan Jose Lopez Ibor",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:suntec",
+      "lbl" : "SunTec Web Services Pvt. Ltd., New Delhi",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:swedmed",
+      "lbl" : "Swedish Medical Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:swissmed",
+      "lbl" : "SMW supporting association (Trägerverein Swiss Medical Weekly SMW)",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:taineursoc",
+      "lbl" : "Taiwan Neurological Society",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:tanmh",
+      "lbl" : "Turkish Journal of Psychiatry",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:tates",
+      "lbl" : "LookUs Bilisim",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:terasaki",
+      "lbl" : "Terasaki Research Institute",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:terph",
+      "lbl" : "Termedia Publishing House Ltd.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:texmed",
+      "lbl" : "Texas Medical Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:textal",
+      "lbl" : "Department of Veterans Affairs, Rehabilitation Research & Development Service",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:thieme",
+      "lbl" : "Georg Thieme Verlag Stuttgart, New York",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:thomreuters",
+      "lbl" : "Thomson Reuters",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:tokaimed",
+      "lbl" : "Tokai Medical Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:trios",
+      "lbl" : "TRIOS, Czech",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:tspsych",
+      "lbl" : "Tijdschrift voor Psychiatrie",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:tums",
+      "lbl" : "Tehran University of Medical Sciences, The Center for Electronic Resources Provision & Journals Development",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:tunismed",
+      "lbl" : "Tunisian Society for Medical Sciences",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:tunsoc",
+      "lbl" : "Turkish Neurosurgical Society",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:turkpath",
+      "lbl" : "Turkish Journal of Pathology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:twnna",
+      "lbl" : "Taiwan Nurses Association",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ubasq",
+      "lbl" : "The International Journal of Developmental Biology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ubmedica",
+      "lbl" : "UBM Medica LLC",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:uchsc",
+      "lbl" : "University of Colorado, Health Services Center",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:udea",
+      "lbl" : "Universidad de Antioquia",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:uhmed",
+      "lbl" : "Undersea and Hyperbaric Medical Society",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:uicsys",
+      "lbl" : "University of Illinois at Chicago Library Publishing",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:umedpr",
+      "lbl" : "Universal Medical Press",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:umesp",
+      "lbl" : "Sercrisma International S.L.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:unila",
+      "lbl" : "Erudit",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:univlanus",
+      "lbl" : "Universidad Nacional de Lanus",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:univpisa",
+      "lbl" : "University of Pisa",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:unrc",
+      "lbl" : "Urology and Nephrology Research Center",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:uprmsc",
+      "lbl" : "Conrado F. Asenjo Library (University of Puerto Rico Medical Sciences Campus)",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:urologiia",
+      "lbl" : "Urologiia",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:usarmymeddept",
+      "lbl" : "US Army Medical Department, Fort Sam Houston, Texas",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:usbcb",
+      "lbl" : "University of South Bohemia in Ceske Budejovice",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ussocom",
+      "lbl" : "Journal of Special Operations Medicine",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:uvanurs",
+      "lbl" : "Center for Nursing Historical Inquiry, University of Virginia, School of Nursing",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:uwisclib",
+      "lbl" : "University of Wisconsin-Madison",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:verduci",
+      "lbl" : "European Review for Medical and Pharmacological Sciences",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:vetitalia",
+      "lbl" : "Istituto zooprofilattico sperimentale dell Abruzzo e del Molise G. Caporale",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:viamedia",
+      "lbl" : "Via Medica Medical Publishers",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:viguera",
+      "lbl" : "Viguera Editores, S. L.",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:wafrica",
+      "lbl" : "West African College of Physicians and West African College of Surgeons",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:wcjs",
+      "lbl" : "West China Journal of Stomatology",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:wcums",
+      "lbl" : "WEST CHINA UNIVERSITY OF MEDICAL SCIENCES",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:westonmed",
+      "lbl" : "Weston Medical Publishing, LLC",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:wharc",
+      "lbl" : "Women's Health and Action Research Centre",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:whoemro",
+      "lbl" : "World Health Organization, Regional Office for the Eastern Mediterranean",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:wiley",
+      "lbl" : "Wiley",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:worldsci",
+      "lbl" : "World Scientific Publishing Company",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:wormbook",
+      "lbl" : "WormBook",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:wroclaw",
+      "lbl" : "Wroclaw Medical University",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:xmlink",
+      "lbl" : "XMLink",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:yonsei",
+      "lbl" : "Yonsei University College of Medicine",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:zagreb",
+      "lbl" : "University of Zagreb School of Medicine",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:zcyj",
+      "lbl" : "ZHENCI YANJIU",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:zjup",
+      "lbl" : "Zhejiang University Press",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:zoorescn",
+      "lbl" : "Editorial Office of Zoological Research",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://bioregistry.io/nlm.publisher:zzj",
+      "lbl" : "Zhongguo Zhen Jiu - Chinese acupuncture and moxibustion",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "https://orcid.org/0000-0003-4423-4370",
+      "lbl" : "Charles Tapley Hoyt",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000700",
+      "lbl" : "has ontology root term",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    } ],
+    "edges" : [ {
+      "sub" : "https://bioregistry.io/nlm.publisher:FSR",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:aaem",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:aafp",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:acs",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:aebi",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:aegis",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:aerzteverlag",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:afhsc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ageb",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ahrq",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:aimsbu",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:aip",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:airitip",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ajj",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:akademperiodyka",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:akdema",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:alimsthai",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ama",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ambit",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:amepub",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:amha",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:amjdent",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ampsych",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:amsir",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:aosis",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:apocp",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:aps",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:apslovak",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:aran",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:arhfr",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ariesdue",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:armam",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:asabe",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:asabh",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ascmed",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ascr",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:atrachim",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:atypon",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:audha",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ayubmedcoll",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:basuni",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:baycinar",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:bcm_mosc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:bcs",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:begell",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:belsurg",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:bentham",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:bhjd",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:bilimsel",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:bionika",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:bjbms",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:bmc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:bmjgrp",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:bonejointp",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:brsocu",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cairn",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:camup",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:canurol",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cap",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:capemedia",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:catchwrd",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cccm",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cda",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cdc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cdcan",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cdcnchs",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cdcpcd",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cejph",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:celsius",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cenveo",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cersas",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:chaos",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:chinacam",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:chinacdc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:chinjappphys",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:chinmatmed",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:chosunu",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cirycir",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cjae",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cjbt",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cjcpub",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cjlc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cjmi",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cjot",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cjrrs",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cjsc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:clinlabpub",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cmaph",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cmbfr",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cmica",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cnai",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cnhi",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cohresp",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:compuscript",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:copdfoun",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:copes",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cordoba",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:core",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cpbpress",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cpspak",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:crie",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:croderm",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:csimm",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:csiro",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:cspot",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:dadl",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:datapage",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:datatrace",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:dclab",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ddsczech",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:dearzte",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:debarber",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:degruyter",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:derm",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:dismed",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:djs",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:dustri",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:eacts",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ebmed",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ecri",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:edpsci",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:edqm",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:edralswr",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:edscientific",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:egyptai",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:elifesci",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:elsevier",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:embs",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:emerald",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:endoresctr",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:envscichn",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:equinox",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ergon",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:esmon",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:eurobs",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:europa",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:eurotext",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:exerimm",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:fecolsog",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:fmes",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:fmmuch",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:fphuk",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:furevmed",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:fyxzz",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:galenos",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:galenosyay",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:genden",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:gennet",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:geotar",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:gffcc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:gmsante",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:graphimedic",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:gstut",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:hastings",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:heidelbg",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:hellenpsych",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:herbj",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:highwire",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:hkam",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:hmp",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:huaspsy",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:humssph",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:hupsas",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:hybrid",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:iausa",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ibmcrams",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ic",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:icemj",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:icmhpe",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ifactory",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ifp",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:igakushoin",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:iitalant",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ijhpm",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ijim",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ijme",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ijpc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:imd",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:imdimc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:imolpgs",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:impact",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:imrpress",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:inacse",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:indian",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:inferenze",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:inforang",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:iniestares",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:innovis",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:instparczech",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:intres",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:intsoclymph",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:iop",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:iosp",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:iransn",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:irct",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:irmedorg",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:isdis",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:isiasicr",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:isrameda",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:italchir",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:iucr",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:iwapub",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:iyaku",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jagt",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jagup",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:japi",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jappm",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jaypee",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jbechn",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jbiosci",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jbr",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jcd",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jco",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jcohns",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jcsuph",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jforodon",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jhupress",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jinfdevc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jlh",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jmni",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jnbna",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jnlci",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jogh",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jpgm",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:jscb",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:karger",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:katuni",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:kaunas",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:kbbid",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:kdcpa",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:kerums",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:knwc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:kobe",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:konmed",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:korshmed",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ksen",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ksg",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ksmbt",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:kstc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:kurenai",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:lavoisier",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:lemali",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:litmed",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:lumina",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:lwwips",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:m2comm",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:macpatho",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:malaymeda",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:mapress",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:mars",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:mattioli",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:mdadv",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:mdpi",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:medfarma",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:medglas",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:meditsina",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:medletr",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:mednak",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:medoral",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:medpharm",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:medprakt",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:medrevs",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:medsci",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:medwave",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:mersenne",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:minerva",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:mmcb",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:mmp",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:mmpub",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:mmwr",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:molbiolmosk",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:morion",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:mrepress",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:msanidad",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:msp",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:msphera",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:msptm",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:nanjinggh",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:nature",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:navarra",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ncmedj",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:nebo",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:nejm",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:nencki",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:nephrc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:nepmedas",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:nepoph",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:newgen",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:niaaa",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:niehs",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:nizppzh",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:nma",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:noferiom",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:nrcrm",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ntvg",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:oie",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:oiiq",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:okayama",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:oldcitypub",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:oncnurs",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:osapub",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:pacinied",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:pagepress",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:painmd",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:pakmed",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:paluni",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:pasifika",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:pasjumc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:pavia",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:pbs",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:pekuni",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:pensierosci",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:pensoftpub",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:performis",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:perpub",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:peru",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:phsocn",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:physpostgrad",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:pinsir",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:pjbs",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:plos",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:pmc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:polacadsci",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:polemos",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:polparsoc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:polpsych",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:por",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:prelum",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:pzico",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:qhc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:qingdao",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:quint",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:quintpub",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:racgp",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:rcni",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:revmedch",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:rhinologic",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:rilapub",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:rims",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:rmlg",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:rosogast",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:royan",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:rpcctv",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:rsc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:rsumpc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:rvc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:safrica",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:saio",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:saned",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:sanova",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:saxinst",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:scg",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:schweizerbart",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:sciamsn",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:sciandmed",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:scielo",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:scischolar",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:scsmt",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:sdsma",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:sepu",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:seq",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:serdi",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:serra",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:seuit",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:shangbio",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:shanstoma",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:sibs",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:silverchair",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:simmoc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:sinitaly",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:sjweh",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:skinther",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:sldesoc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:slma",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:slovchem",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:sma",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:socargped",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:socdra",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:spackin",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:spadv",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:spandido",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:spectrum",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:spibg",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:spiglobal",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:spm",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:springer",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:spums",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ssopub",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:stapp",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:stchad",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:stfm",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:stme",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:suntec",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:swedmed",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:swissmed",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:taineursoc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:tanmh",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:tates",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:terasaki",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:terph",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:texmed",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:textal",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:thieme",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:thomreuters",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:tokaimed",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:trios",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:tspsych",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:tums",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:tunismed",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:tunsoc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:turkpath",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:twnna",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ubasq",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ubmedica",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:uchsc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:udea",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:uhmed",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:uicsys",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:umedpr",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:umesp",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:unila",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:univlanus",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:univpisa",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:unrc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:uprmsc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:urologiia",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:usarmymeddept",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:usbcb",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ussocom",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:uvanurs",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:uwisclib",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:verduci",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:vetitalia",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:viamedia",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:viguera",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:wafrica",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:wcjs",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:wcums",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:westonmed",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:wharc",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:whoemro",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:wiley",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:worldsci",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:wormbook",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:wroclaw",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:xmlink",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:yonsei",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:zagreb",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:zcyj",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:zjup",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:zoorescn",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:zzj",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
+      "sub" : "https://orcid.org/0000-0003-4423-4370",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    } ]
+  } ]
+}

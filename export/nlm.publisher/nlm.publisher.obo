@@ -1,0 +1,2300 @@
+format-version: 1.4
+auto-generated-by: PyOBO v0.12.0-dev-24fb6c6e on 2025-01-12T14:57:06.962729
+idspace: FBcv http://purl.obolibrary.org/obo/FBcv_ "FlyBase Controlled Vocabulary"
+idspace: IAO http://purl.obolibrary.org/obo/IAO_ "Information Artifact Ontology"
+idspace: MI http://purl.obolibrary.org/obo/MI_ "Molecular Interactions Controlled Vocabulary"
+idspace: NCBITaxon http://purl.obolibrary.org/obo/NCBITaxon_ "NCBI Taxonomy"
+idspace: bibo http://purl.org/ontology/bibo/ "The Bibliographic Ontology"
+idspace: biolink https://w3id.org/biolink/vocab/ "Biolink Model"
+idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: issn https://portal.issn.org/resource/ISSN/ "International Standard Serial Number"
+idspace: nlm https://www.ncbi.nlm.nih.gov/nlmcatalog/ "National Library of Medicine Catalog"
+idspace: nlm.publisher https://bioregistry.io/nlm.publisher: "NLM Publisher Codes"
+idspace: orcid https://orcid.org/ "Open Researcher and Contributor"
+idspace: schema http://schema.org/ "Schema.org"
+idspace: sio http://semanticscience.org/resource/SIO_ "Semanticscience Integrated Ontology"
+idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
+idspace: uniprot.core http://purl.uniprot.org/core/ "Uniprot Core Ontology"
+ontology: nlm.publisher
+property_value: dcterms:title "NLM Publisher Codes" xsd:string
+property_value: dcterms:license "public domain" xsd:string
+property_value: dcterms:description "Publisher short codes appearin in the NLM Catalog." xsd:string
+property_value: IAO:0000700 obo:nlm#publisher
+
+[Term]
+id: NCBITaxon:9606
+name: Homo sapiens
+
+[Instance]
+id: nlm.publisher:FSR
+name: Forensic Science Review
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:aaem
+name: Institute of Rural Health
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:aafp
+name: American Academy of Family Physicians
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:acs
+name: American Chemical Society
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:aebi
+name: Asociacion Espanola de Bioetica y Etica Medica
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:aegis
+name: AEGIS Communications
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:aerzteverlag
+name: Aerzteverlag medinfo AG
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:afhsc
+name: Armed Forces Health Surveillance Branch
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ageb
+name: Acta Gastro-Enterologica Belgica
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ahrq
+name: Agency for Healthcare Research and Quality
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:aimsbu
+name: American Institute of Mathematical Sciences and Beihang University
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:aip
+name: American Institute of Physics
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:airitip
+name: Ainosco Press
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ajj
+name: Anthony J. Jannetti\, Inc.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:akademperiodyka
+name: Publishing House “Akademperiodyka”
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:akdema
+name: Akdema Informatics and Publication
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:alimsthai
+name: Allergy and Immunology Society of Thailand
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ama
+name: American Medical Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ambit
+name: proLekare.cz
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:amepub
+name: AME Publishing Company
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:amha
+name: Croatian Scientific Society for the History of Medicine
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:amjdent
+name: American Journal of Dentistry
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ampsych
+name: American Psychological Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:amsir
+name: Academy Of Medical Sciences of I.R. of Iran
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:aosis
+name: AOSIS OpenJournals
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:apocp
+name: Asian Pacific Organization for Cancer Prevention
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:aps
+name: American Physical Society
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:apslovak
+name: AEPress\, s r. o.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:aran
+name: Aran ediciones\, S.L.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:arhfr
+name: JCU\, James Cook University
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ariesdue
+name: Ariesdue Srl
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:armam
+name: Automation in Microbiology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:asabe
+name: American Society of Agricultural and Biological Engineers Publications
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:asabh
+name: Acta Medica Academica
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ascmed
+name: Clinical Care Targeted Communications Group\, LLC
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ascr
+name: Institute of Physiology\, Academy of Sciences of the Czech Republic\, Prague
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:atrachim
+name: Academy of Traditional Chinese Medicine
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:atypon
+name: Atypon
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:audha
+name: Office of Health Protection\, Australian Government Department of Health
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ayubmedcoll
+name: Ayub Medical College
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:basuni
+name: Baskent University\, Publishers
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:baycinar
+name: Baycinar Tibbi Yayincilik
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:bcm_mosc
+name: Biochemistry \(Moscow\)
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:bcs
+name: BCS Learning and Development
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:begell
+name: BegellHouse Publisher\, Inc.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:belsurg
+name: Acta Gastroenterol Belg
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:bentham
+name: Bentham Science Publishers Ltd.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:bhjd
+name: Bulletin of the NYU Hospital for Joint Diseases
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:bilimsel
+name: Bilimsel Tip Publishing House
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:bionika
+name: Bionika
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:bjbms
+name: Association of Basic Medical Sciences Federation of Bosnia and Herzegovina
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:bmc
+name: BioMed Central
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:bmjgrp
+name: BMJ Publishing Group
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:bonejointp
+name: The British Editorial Society of Bone & Joint Surgery
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:brsocu
+name: International Brazilian J Urol
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cairn
+name: Cairn
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:camup
+name: Cambridge University Press
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:canurol
+name: The Canadian Journal of Urology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cap
+name: Chinese Association of Pathophysiology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:capemedia
+name: Health and Medical Publishing Group
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:catchwrd
+name: Ingenta plc
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cccm
+name: Journal Office of Chinese Critical Care Medicine
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cda
+name: Canadian Dental Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cdc
+name: CDC-NCEZID
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cdcan
+name: Public Health Agency of Canada
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cdcnchs
+name: National Center for Health Statistics
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cdcpcd
+name: Centers for Disease Control and Prevention
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cejph
+name: National Institute of Public Health\, Czech Republic
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:celsius
+name: Editura Celsius
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cenveo
+name: Cenveo Publisher Services
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cersas
+name: Clinical and Experimental Rheumatology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:chaos
+name: The Society for Chaos Theory in Psychology and Life Sciences
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:chinacam
+name: Chinese Academy of Medical Sciences
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:chinacdc
+name: Chinese Center for Disease Control and Prevention
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:chinjappphys
+name: Editorial Office of Chinese Journal of Applied Physiology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:chinmatmed
+name: China Journal of Chinese Materia Medica
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:chosunu
+name: Korean Society for Biochemistry and Molecular Biology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cirycir
+name: Instituto Mexicano del Seguro Social
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cjae
+name: Chinese Journal of Applied Ecology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cjbt
+name: Editorial Office of Sheng Wu Gong Cheng Xue Bao
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cjcpub
+name: Chinese Journal of Contemporary Pediatrics
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cjlc
+name: Editorial Office of Chinese Journal of Lung Cancer
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cjmi
+name: Chinese Journal of Medical Instrumentation
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cjot
+name: China journal of orthopaedics and traumatology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cjrrs
+name: Chinese journal of reparative and reconstructive surgery
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cjsc
+name: Chinese journal of schistosomiasis control
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:clinlabpub
+name: Clinical Laboratory
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cmaph
+name: Chinese Medical Association Publishing House Ltd.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cmbfr
+name: CMB-Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cmica
+name: Colegio Mexicano de Inmunología clínica y alergia
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cnai
+name: Consociazione Nazionale Associazione Infermieri
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cnhi
+name: Colombian National Health Institute
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cohresp
+name: Ordem dos Medicos / Portuguese Medical Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:compuscript
+name: Compuscript Limited
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:copdfoun
+name: COPD Foundation
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:copes
+name: Psicothema
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cordoba
+name: Cordoba\: Universidad Nacional De Cordoba\, Facultad De Ciencias Medicas
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:core
+name: National Institute for Health and Care Research Journals Library
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cpbpress
+name: Cell Physiol Biochem Press GmbH Co KG
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cpspak
+name: College of Physicians and Surgeons
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:crie
+name: Central Research Institute of Epidemiology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:croderm
+name: Croatian Dermatovenerological Society
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:csimm
+name: Chinese Society for Immunology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:csiro
+name: CSIRO
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:cspot
+name: Ceska spolecnost pro ortopedii a traumatologii
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:dadl
+name: Danish Medical Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:datapage
+name: Datapage
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:datatrace
+name: Data Trace Publishing Company
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:dclab
+name: Data Conversion Labs
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ddsczech
+name: DDS on behalf of Universitas Carolina
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:dearzte
+name: Deutsches Aerzteblatt International
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:debarber
+name: Dennis Barber Ltd.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:degruyter
+name: De Gruyter
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:derm
+name: Arthur C Huntley MD\, California Digital Library
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:dismed
+name: Discovery Medicine
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:djs
+name: Dartmouth Journal Services
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:dustri
+name: Dustri-Verlag Dr. Karl Feistle GmbH & Co. KG
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:eacts
+name: Multimedia Manual for Cardio-Thoracic Surgery
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ebmed
+name: EB Medicine
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ecri
+name: ECRI
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:edpsci
+name: EDP Sciences
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:edqm
+name: European Directorate for the Quality of Medicines\, Council of Europe
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:edralswr
+name: EDRA LSWR SpA
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:edscientific
+name: Editora Scientific
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:egyptai
+name: Egyptian Association of Immunologists
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:elifesci
+name: eLife Sciences Publications\, Ltd
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:elsevier
+name: Elsevier Science
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:embs
+name: IEEE Engineering in Medicine and Biology Society
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:emerald
+name: Emerald Group Publishing Limited
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:endoresctr
+name: Endocrinology Research Centre
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:envscichn
+name: Environmental Science \(Huan Jing Ke Xue\)
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:equinox
+name: Equinox Publishing Ltd
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ergon
+name: Ergon
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:esmon
+name: Esmon Publicidad
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:eurobs
+name: European Observatory on Health Systems and Policies
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:europa
+name: Europa Digital & Publishing
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:eurotext
+name: John Libbey Eurotext
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:exerimm
+name: International Society of Exercise and Immunology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:fecolsog
+name: Federacion Colombiana de Obstetricia y Ginecologia
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:fmes
+name: Forum for Medical Ethics Society
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:fmmuch
+name: SOUTHERN MEDICAL UNIVERSITY
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:fphuk
+name: Faculty of Pharmacy University of Karachi
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:furevmed
+name: Fundacion Revista Medicina \(Buenos Aires\)
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:fyxzz
+name: Fayixue Zazhi
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:galenos
+name: Aves Yayincilik
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:galenosyay
+name: Galenos Yayinevi
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:genden
+name: Academy of General Dentistry
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:gennet
+name: GN1 Sistemas e Publicacoes\, LTDA
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:geotar
+name: GEOTAR Media Publishing Group
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:gffcc
+name: Gulf Federation for Cancer Control
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:gmsante
+name: Global Media Sante
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:graphimedic
+name: Graphimedic\, S.A. de C.V.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:gstut
+name: Gesellschaft Schweizer Tieraerztinnen und Tieraerzte
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:hastings
+name: The Hastings Center
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:heidelbg
+name: JMIR Publications
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:hellenpsych
+name: Hellenic Psychiatric Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:herbj
+name: Hereditas\(Beijing\)
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:highwire
+name: HighWire
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:hkam
+name: Hong Kong Academy of Medicine Press
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:hmp
+name: HMP Communications\, LLC
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:huaspsy
+name: Neuropsychopharmacologia Hungarica
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:humssph
+name: Hamadan University of Medical Sciences\, School of Public Health
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:hupsas
+name: Hungarian Psychiatric Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:hybrid
+name: van Zuiden Communications
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:iausa
+name: IAS-USA
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ibmcrams
+name: Institute of Biomedical Chemistry\, Russian Academy of Medical Sciences
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ic
+name: IndexCopernicus
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:icemj
+name: Domus Medica
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:icmhpe
+name: International Center of Mental Health Policy and Economics
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ifactory
+name: Sheridan PubFactory
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ifp
+name: Institute of Pharmacology Polish Academy of Sciences
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:igakushoin
+name: IGAKU-SHOIN Ltd.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:iitalant
+name: Istituto Italiano di Antropologia
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ijhpm
+name: International journal of health policy and management
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ijim
+name: Indonesian Society of Internal Medicine
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ijme
+name: International journal of medical education
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ijpc
+name: International Journal of Pharmaceutical Compounding
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:imd
+name: Aluna Publishing \(Wydawnictwo Aluna\)
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:imdimc
+name: instytut Matki i Dziecka/Institute of Mother and Child
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:imolpgs
+name: Institute of Molecular Physiology and Genetics\, Slovak Academy of Sciences
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:impact
+name: Impact Journals\, LLC
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:imrpress
+name: IMR Press
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:inacse
+name: International Academy of Science\, Education\, I ndustry & Arts
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:indian
+name: Indian Pediatrics
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:inferenze
+name: Inferenze scarl
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:inforang
+name: Inforang
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:iniestares
+name: Archivos Espanoles de Urologia
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:innovis
+name: InnoVision Professional Media
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:instparczech
+name: Institute of Parasitology\, Biology Centrum the Academy of Sciences of the Czech Republic
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:intres
+name: Inter-Research Science Center
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:intsoclymph
+name: International Society Of Lymphology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:iop
+name: IOP Publishing Ltd.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:iosp
+name: IOS Press
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:iransn
+name: Iranian Society of Nephrology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:irct
+name: International Rehabilitation Council for Torture Victims
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:irmedorg
+name: Irish Medical Organisation
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:isdis
+name: Istituto Superiore di Sanita
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:isiasicr
+name: Iranian Society of Immunology and Allergy and Shiraz Institute for Cancer
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:isrameda
+name: Israel Medical Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:italchir
+name: Annali Italiani di Chirurgia
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:iucr
+name: International Union of Crystallography
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:iwapub
+name: IWA Publishing
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:iyaku
+name: IYAKU MEDICINE and Drug JOURNAL CO LTD
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jagt
+name: Association Of Genetic Technologists
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jagup
+name: Jagiellonian University Press
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:japi
+name: The Association of Physicians of India
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jappm
+name: Journal of Applied Measurement
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jaypee
+name: Jaypee Brothers Medical Publishers
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jbechn
+name: Journal of Biomedical Engineering \(China\)
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jbiosci
+name: Indian Academy of Sciences
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jbr
+name: Journal of Biomedical Research
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jcd
+name: Journal of Clinical Dentistry
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jco
+name: Journal of Clinical Orthodontics
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jcohns
+name: Lin Chung Er Bi Yan Hou Tou Jing Wai Ke Za Zhi
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jcsuph
+name: CENTRAL SOUTH UNIVERSITY
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jforodon
+name: journal of forensic odontostomatology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jhupress
+name: Project MUSE
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jinfdevc
+name: The Journal of Infection in Developing Countries
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jlh
+name: Journal of law and health\, Cleveland-Marshall College of Law
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jmni
+name: International Society of Musculoskeletal and Neuronal Interactions
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jnbna
+name: National Black Nurses Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jnlci
+name: American Society for Clinical Investigation
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jogh
+name: Journal of Global Health \(JoGH\)
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jpgm
+name: Medknow Publications and Media Pvt Ltd
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:jscb
+name: J-STAGE\, Japan Science and Technology Information Aggregator\, Electronic
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:karger
+name: S. Karger AG\, Basel\, Switzerland
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:katuni
+name: Kathmandu University
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:kaunas
+name: Lithuanian University of Health Sciences
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:kbbid
+name: Kare Publishing
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:kdcpa
+name: Korea Disease Control and Prevention Agency
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:kerums
+name: Kermanshah University of Medical Sciences
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:knwc
+name: Sunmedia PierOnline
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:kobe
+name: Kobe Journal of Medical Sciences Publisher
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:konmed
+name: Konsilium Medikum
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:korshmed
+name: The Korean Society for the History of Medicine
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ksen
+name: Korean Society for Exercise Nutrition
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ksg
+name: The Korean Society of Gastroenterology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ksmbt
+name: The Korean Society for Microbiology and Biotechnology.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:kstc
+name: Korean Society of Nursing Science
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:kurenai
+name: Kyoto University Research Information Repository - Kiyo
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:lavoisier
+name: Lavoisier
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:lemali
+name: Societe medicale du Mali
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:litmed
+name: Literatura Medica
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:lumina
+name: Lumina Datamatics Ltd.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:lwwips
+name: Wolters Kluwer
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:m2comm
+name: M2PI
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:macpatho
+name: College of Pathologists\, Academy of Medicine of Malaysia
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:malaymeda
+name: Malaysian Medical Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:mapress
+name: Magnolia Press
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:mars
+name: MARS - LHC
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:mattioli
+name: Mattioli 1885\, Spa
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:mdadv
+name: MDAdvantage
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:mdpi
+name: MDPI
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:medfarma
+name: Sociedade Portuguesa de Reumatologia
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:medglas
+name: Medical Association of Zenica-Doboj Canton\, Bosnia and Herzegovina
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:meditsina
+name: Meditsina
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:medletr
+name: Medical Letter on Drugs and Therapeutics
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:mednak
+name: Medicinska naklada d.o.o.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:medoral
+name: Medicina Oral S.L.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:medpharm
+name: Medpharm Publications
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:medprakt
+name: Medycyna Praktyczna
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:medrevs
+name: MedReviews\, LLC
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:medsci
+name: International Scientific Literature\, Ltd.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:medwave
+name: Medwave
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:mersenne
+name: Centre Mersenne
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:minerva
+name: Minerva Medica
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:mmcb
+name: Mymensingh Medical College\, Bangladesh
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:mmp
+name: Millennium Medical Publishing\, Inc
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:mmpub
+name: Maghira AND Maas Publications \(Sweden\)
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:mmwr
+name: CDC - Morbidity and Mortality Weekly Report
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:molbiolmosk
+name: Molekuliarnaia biologiia
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:morion
+name: MORION LLC
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:mrepress
+name: MRE Press
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:msanidad
+name: Revista Espanola de Salud Publica
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:msp
+name: Medical Science Publishing International\, Inc.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:msphera
+name: Media Sphera Publishing Group
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:msptm
+name: Malaysian Society of Parasitology and Tropical Medicine
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:nanjinggh
+name: Nanjing Jun Qu Nanjing Zong Yi Yuan zhu ban
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:nature
+name: Nature Publishing Group
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:navarra
+name: Departamento de Salud - Gobierno de Navarra
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ncmedj
+name: North Carolina Medical Journal
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:nebo
+name: Nebo \(Italy\)
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:nejm
+name: New England Journal of Medicine
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:nencki
+name: Nencki Institute of Experimental Biology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:nephrc
+name: Nepal Health Research Council
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:nepmedas
+name: Nepal Medical Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:nepoph
+name: Nepal Ophthalmic Society
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:newgen
+name: Newgen DigitalWorks Pvt.Ltd
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:niaaa
+name: National Institute on Alcohol Abuse and Alcoholism
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:niehs
+name: National Toxicology Program
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:nizppzh
+name: National Institute of Public Health - National Institute of Hygiene \(NIPH-NIH\)\, Poland
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:nma
+name: Norwegian Medical Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:noferiom
+name: Nofer Institute of Occupational Medicine
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:nrcrm
+name: National Research Center for Radiation Medicine of the National Academy
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ntvg
+name: Vereniging NTvG
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:oie
+name: World Organisation for Animal Health \(OIE\)
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:oiiq
+name: Order of Nurses of Quebec
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:okayama
+name: Okayama University Medical School
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:oldcitypub
+name: Old City Publishing
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:oncnurs
+name: Oncology Nursing Society
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:osapub
+name: Optica Publishing Group
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:pacinied
+name: Pacini Editore
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:pagepress
+name: Pagepress Publications
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:painmd
+name: Pain Physician
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:pakmed
+name: Pakistan Medical Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:paluni
+name: Palacky University Olomouc
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:pasifika
+name: Pasifika Medical Association Group
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:pasjumc
+name: Polish Academy of Sciences & Jagiellonian University Medical College
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:pavia
+name: Pavia
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:pbs
+name: Postepy Biochem\, Inc.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:pekuni
+name: Journal of Peking University \(Health Sciences\)
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:pensierosci
+name: Il Pensiero Scientifico Editore
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:pensoftpub
+name: Pensoft Publishers
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:performis
+name: Performis BV
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:perpub
+name: Permanyer Publications
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:peru
+name: La Sociedad De Gastroenterologia Del Peru
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:phsocn
+name: Physiological Society of Nigeria
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:physpostgrad
+name: Physicians Postgraduate Press\, Inc.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:pinsir
+name: Pasteur Institute of Iran
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:pjbs
+name: Pakistan Journal of Biological Sciences
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:plos
+name: Public Library of Science
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:pmc
+name: PubMed Central
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:polacadsci
+name: Polish Academy of Sciences
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:polemos
+name: Polemos S.A. \(Argentina\)
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:polparsoc
+name: Polish Parasitological Society
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:polpsych
+name: Polish Psychiatric Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:por
+name: Hungarian Oncological Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:prelum
+name: Prelum
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:pzico
+name: P.Ziti and Co
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:qhc
+name: Frontline Medical Communications Inc
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:qingdao
+name: Journal House of Qingdao University
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:quint
+name: Quintessence Publishing Company
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:quintpub
+name: Quintessence Publishing
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:racgp
+name: Australian Family Physician
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:rcni
+name: RCNi
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:revmedch
+name: Geneve\: Medecine et hygiene
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:rhinologic
+name: International Rhinologic Society
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:rilapub
+name: Rila Publications Ltd
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:rims
+name: Rhode Island Medical Society
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:rmlg
+name: Revue Medicale de Liege
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:rosogast
+name: Iuliu Hatieganu Medical Publishing House
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:royan
+name: Royan Institute
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:rpcctv
+name: Sociedade Portuguesa de Cirurgia Cardio-Toracica e Vascular
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:rsc
+name: Royal Society of Chemistry
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:rsumpc
+name: Romanian Society of Morphology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:rvc
+name: The Royal Veterinary College\, London\, UK
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:safrica
+name: Cardiovascular Journal of Africa
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:saio
+name: Sociedad Argentina de Investigacion Odontologica
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:saned
+name: Grupo Saned
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:sanova
+name: SanovaWorks
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:saxinst
+name: Sax Institute
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:scg
+name: Swiss Chemical Society
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:schweizerbart
+name: Schweizerbart Scientific Publishers
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:sciamsn
+name: Scientific American
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:sciandmed
+name: Science & Medicine
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:scielo
+name: Scientific Electronic Library Online
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:scischolar
+name: Scientific Scholar
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:scsmt
+name: Societat Catalana de Seguretat i Medicina del Treball
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:sdsma
+name: South Dakota Medicine
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:sepu
+name: Se Pu
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:seq
+name: Sociedad Espanola de Quimioterapia
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:serdi
+name: Serdi Edition
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:serra
+name: Fabrizio Serra Editore
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:seuit
+name: Societa Editrice Universo\, srl
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:shangbio
+name: China Science Publishing and Media Ltd.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:shanstoma
+name: School of Stomatology\, SHJTU
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:sibs
+name: Acta Physiologica Sinica
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:silverchair
+name: Silverchair Information Systems
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:simmoc
+name: Italian Society for Medical\, Odontoiatric\, and Clinical Microbiology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:sinitaly
+name: SIN Società Italiana di Nefrologia
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:sjweh
+name: Scandinavian Journal of Work\, Environment & Health
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:skinther
+name: Skin Therapy Letter
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:sldesoc
+name: Slovenian Dermatovenerological Society
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:slma
+name: Sri Lanka Medical Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:slovchem
+name: Slovenian Chemical Society
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:sma
+name: Southern Medical Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:socargped
+name: Sociedad Argentina de Pediatria
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:socdra
+name: Socidrogalcohol
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:spackin
+name: SpackIndia Solutions
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:spadv
+name: MJS Publishing
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:spandido
+name: Spandidos Publications
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:spectrum
+name: Spektrum Akademischer Verlag
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:spibg
+name: Saint Petersburg Institute of Bioregulation and Gerontology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:spiglobal
+name: SPi Global
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:spm
+name: Salud Publica de Mexico
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:springer
+name: Springer
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:spums
+name: South Pacific Underwater Medicine Society
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ssopub
+name: Schweizerische Zahnaertze-Gesellschaft SSO
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:stapp
+name: The Stapp Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:stchad
+name: Statistics Canada-Health Analysis Division
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:stfm
+name: Society of Teachers of Family Medicine
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:stme
+name: International Foundation Juan Jose Lopez Ibor
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:suntec
+name: SunTec Web Services Pvt. Ltd.\, New Delhi
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:swedmed
+name: Swedish Medical Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:swissmed
+name: SMW supporting association \(Trägerverein Swiss Medical Weekly SMW\)
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:taineursoc
+name: Taiwan Neurological Society
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:tanmh
+name: Turkish Journal of Psychiatry
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:tates
+name: LookUs Bilisim
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:terasaki
+name: Terasaki Research Institute
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:terph
+name: Termedia Publishing House Ltd.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:texmed
+name: Texas Medical Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:textal
+name: Department of Veterans Affairs\, Rehabilitation Research & Development Service
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:thieme
+name: Georg Thieme Verlag Stuttgart\, New York
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:thomreuters
+name: Thomson Reuters
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:tokaimed
+name: Tokai Medical Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:trios
+name: TRIOS\, Czech
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:tspsych
+name: Tijdschrift voor Psychiatrie
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:tums
+name: Tehran University of Medical Sciences\, The Center for Electronic Resources Provision & Journals Development
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:tunismed
+name: Tunisian Society for Medical Sciences
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:tunsoc
+name: Turkish Neurosurgical Society
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:turkpath
+name: Turkish Journal of Pathology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:twnna
+name: Taiwan Nurses Association
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ubasq
+name: The International Journal of Developmental Biology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ubmedica
+name: UBM Medica LLC
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:uchsc
+name: University of Colorado\, Health Services Center
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:udea
+name: Universidad de Antioquia
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:uhmed
+name: Undersea and Hyperbaric Medical Society
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:uicsys
+name: University of Illinois at Chicago Library Publishing
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:umedpr
+name: Universal Medical Press
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:umesp
+name: Sercrisma International S.L.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:unila
+name: Erudit
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:univlanus
+name: Universidad Nacional de Lanus
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:univpisa
+name: University of Pisa
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:unrc
+name: Urology and Nephrology Research Center
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:uprmsc
+name: Conrado F. Asenjo Library \(University of Puerto Rico Medical Sciences Campus\)
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:urologiia
+name: Urologiia
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:usarmymeddept
+name: US Army Medical Department\, Fort Sam Houston\, Texas
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:usbcb
+name: University of South Bohemia in Ceske Budejovice
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:ussocom
+name: Journal of Special Operations Medicine
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:uvanurs
+name: Center for Nursing Historical Inquiry\, University of Virginia\, School of Nursing
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:uwisclib
+name: University of Wisconsin-Madison
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:verduci
+name: European Review for Medical and Pharmacological Sciences
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:vetitalia
+name: Istituto zooprofilattico sperimentale dell Abruzzo e del Molise G. Caporale
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:viamedia
+name: Via Medica Medical Publishers
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:viguera
+name: Viguera Editores\, S. L.
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:wafrica
+name: West African College of Physicians and West African College of Surgeons
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:wcjs
+name: West China Journal of Stomatology
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:wcums
+name: WEST CHINA UNIVERSITY OF MEDICAL SCIENCES
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:westonmed
+name: Weston Medical Publishing\, LLC
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:wharc
+name: Women's Health and Action Research Centre
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:whoemro
+name: World Health Organization\, Regional Office for the Eastern Mediterranean
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:wiley
+name: Wiley
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:worldsci
+name: World Scientific Publishing Company
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:wormbook
+name: WormBook
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:wroclaw
+name: Wroclaw Medical University
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:xmlink
+name: XMLink
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:yonsei
+name: Yonsei University College of Medicine
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:zagreb
+name: University of Zagreb School of Medicine
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:zcyj
+name: ZHENCI YANJIU
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:zjup
+name: Zhejiang University Press
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:zoorescn
+name: Editorial Office of Zoological Research
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
+id: nlm.publisher:zzj
+name: Zhongguo Zhen Jiu - Chinese acupuncture and moxibustion
+instance_of: obo:nlm#publisher ! publisher
+
+[Term]
+id: obo:nlm#publisher
+name: publisher
+comment: "injected by PyOBO source"
+property_value: skos:exactMatch biolink:publisher
+property_value: skos:exactMatch schema:publisher
+property_value: skos:exactMatch uniprot.core:publisher
+property_value: dcterms:contributor orcid:0000-0003-4423-4370 ! contributor Charles Tapley Hoyt
+
+[Instance]
+id: orcid:0000-0003-4423-4370
+name: Charles Tapley Hoyt
+instance_of: NCBITaxon:9606 ! Homo sapiens

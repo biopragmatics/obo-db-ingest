@@ -632,6 +632,43 @@ resources:
       synonyms: 1514
       terms: 61550
       version: null
+  geonames.feature:
+    nodes:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.tsv
+      path: geonames.feature/geonames.feature.tsv
+    obo:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.obo
+      path: geonames.feature/geonames.feature.obo
+    obograph:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.json
+      path: geonames.feature/geonames.feature.json
+    ofn:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.ofn
+      path: geonames.feature/geonames.feature.ofn
+    owl:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.owl
+      path: geonames.feature/geonames.feature.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.sssom.tsv
+      path: geonames.feature/geonames.feature.sssom.tsv
+    summary:
+      alts: 0
+      definitions: 683
+      license: CC-BY-4.0
+      mappings: 0
+      parents: 683
+      properties: 0
+      references: 0
+      relations: 0
+      synonyms: 0
+      terms: 683
+      version: null
   gtdb:
     nodes:
       gzipped: true
@@ -1184,6 +1221,10 @@ resources:
       gzipped: false
       iri: https://w3id.org/biopragmatics/resources/nlm/nlm.json
       path: nlm/nlm.json
+    ofn:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/nlm/nlm.ofn
+      path: nlm/nlm.ofn
     owl:
       gzipped: false
       iri: https://w3id.org/biopragmatics/resources/nlm/nlm.owl
@@ -1195,14 +1236,51 @@ resources:
     summary:
       alts: 0
       definitions: 0
-      license: "public domain"
+      license: public domain
       mappings: 50602
       parents: 41583
-      properties: 61559
+      properties: 61558
       references: 0
       relations: 0
       synonyms: 83576
       terms: 41583
+      version: null
+  nlm.publisher:
+    nodes:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/nlm.publisher/nlm.publisher.tsv
+      path: nlm.publisher/nlm.publisher.tsv
+    obo:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/nlm.publisher/nlm.publisher.obo
+      path: nlm.publisher/nlm.publisher.obo
+    obograph:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/nlm.publisher/nlm.publisher.json
+      path: nlm.publisher/nlm.publisher.json
+    ofn:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/nlm.publisher/nlm.publisher.ofn
+      path: nlm.publisher/nlm.publisher.ofn
+    owl:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/nlm.publisher/nlm.publisher.owl
+      path: nlm.publisher/nlm.publisher.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/nlm.publisher/nlm.publisher.sssom.tsv
+      path: nlm.publisher/nlm.publisher.sssom.tsv
+    summary:
+      alts: 0
+      definitions: 0
+      license: public domain
+      mappings: 0
+      parents: 452
+      properties: 0
+      references: 0
+      relations: 0
+      synonyms: 0
+      terms: 452
       version: null
   npass:
     nodes:
@@ -1847,5 +1925,5 @@ resources:
       version: '2025-01-07'
 versions:
   bioontologies: 0.5.3-dev-a2eed901
-  bioregistry: 0.11.33-dev-0a727781
-  pyobo: 0.12.0-dev-2f661c0b
+  bioregistry: 0.11.33-dev-3909766b
+  pyobo: 0.12.0-dev-24fb6c6e

@@ -20,7 +20,6 @@ import gzip
 import os
 import shutil
 import subprocess
-import tempfile
 import traceback
 from pathlib import Path
 from textwrap import dedent
@@ -54,6 +53,8 @@ pyobo.constants.GLOBAL_CHECK_IDS = True
 #: be conservative) to put on GitHub
 MAX_SIZE = 100_000_000
 PREFIXES = [
+    "nlm.publisher",
+    "geonames.feature",
     "geonames",  # has instances
     "ror",  # has instances
     "icd10",
@@ -178,11 +179,7 @@ def _get_summary(obo: Obo) -> dict:
     rv = {
         "terms": sum(term.prefix == obo.ontology for term in obo),
         "relations": sum(len(values) for term in terms for values in term.relationships.values()),
-        "properties": sum(
-            len(values)
-            for term in terms
-            for values in term.properties.values()
-        ),
+        "properties": sum(len(values) for term in terms for values in term.properties.values()),
         "synonyms": sum(len(term.synonyms) for term in terms),
         "mappings": sum(len(term.get_mappings(include_xrefs=True)) for term in terms),
         "alts": sum(len(term.alt_ids) for term in terms),
@@ -243,14 +240,15 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False, no_force: bo
         tqdm.write(click.style(f"[{prefix}] has no version info", fg="red"))
     directory.mkdir(exist_ok=True, parents=True)
 
-    stub_path = directory.joinpath(prefix)
-    obo_path = stub_path.with_suffix(".obo")
-    names_path = stub_path.with_suffix(".tsv")
-    sssom_path = stub_path.with_suffix(".sssom.tsv")
-    obo_graph_json_path = stub_path.with_suffix(".json")
-    ofn_path = stub_path.with_suffix(".ofn")
-    owl_path = stub_path.with_suffix(".owl")
-    log_path = stub_path.with_suffix(".log.txt")
+    # can't use the stub path because if the
+    # prefix has a dot in it, gets overridden
+    obo_path = directory.joinpath(f"{prefix}.obo")
+    names_path = directory.joinpath(f"{prefix}.tsv")
+    sssom_path = directory.joinpath(f"{prefix}.sssom.tsv")
+    obo_graph_json_path = directory.joinpath(f"{prefix}.json")
+    ofn_path = directory.joinpath(f"{prefix}.ofn")
+    owl_path = directory.joinpath(f"{prefix}.owl")
+    log_path = directory.joinpath(f"{prefix}.log.txt")
     log_path.unlink(missing_ok=True)
 
     try:
@@ -351,15 +349,15 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False, no_force: bo
 
 {bioregistry.get_description(prefix)}
 
-**License**: {bioregistry.get_license(prefix) or '_unlicensed_'}
+**License**: {bioregistry.get_license(prefix) or "_unlicensed_"}
 
 ## PURLs
 
-{tabulate(purls_table_rows, headers=['Artifact', 'Download PURL', 'Latest Versioned Download PURL'], tablefmt="github")}
+{tabulate(purls_table_rows, headers=["Artifact", "Download PURL", "Latest Versioned Download PURL"], tablefmt="github")}
 
 ## Summary
 
-{tabulate(summary, headers=['field', 'count'], tablefmt='github')}
+{tabulate(summary, headers=["field", "count"], tablefmt="github")}
 
 """).strip()
         + "\n"
