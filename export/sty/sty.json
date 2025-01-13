@@ -1,0 +1,1104 @@
+{
+  "graphs" : [ {
+    "id" : "https://w3id.org/biopragmatics/resources/sty/sty.ofn",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/terms/description",
+        "val" : "UMLS Semantic Network The Semantic Network consists of \\(1\\) a set of broad subject categories\\, or Semantic Types\\, that provide a consistent categorization of all concepts represented in the UMLS Metathesaurus\\, and \\(2\\) a set of useful and important relationships\\, or Semantic Relations\\, that exist between Semantic Types."
+      }, {
+        "pred" : "http://purl.org/dc/terms/title",
+        "val" : "UMLS Semantic Types Ontology"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
+        "val" : "PyOBO v0.12.0-dev-d933dfeb on 2025-01-13T21:48:18.351986"
+      }, {
+        "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
+        "val" : "2024AB"
+      } ],
+      "version" : "https://w3id.org/biopragmatics/resources/sty/2024AB/sty.ofn"
+    },
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/sty#ACTI",
+      "lbl" : "Activities & Behaviors",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/sty#ANAT",
+      "lbl" : "Anatomy",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/sty#CHEM",
+      "lbl" : "Chemicals & Drugs",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/sty#CONC",
+      "lbl" : "Concepts & Ideas",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/sty#DEVI",
+      "lbl" : "Devices",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/sty#DISO",
+      "lbl" : "Disorders",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/sty#GENE",
+      "lbl" : "Genes & Molecular Sequences",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/sty#GEOG",
+      "lbl" : "Geographic Areas",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/sty#LIVB",
+      "lbl" : "Living Beings",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/sty#OBJC",
+      "lbl" : "Objects",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/sty#OCCU",
+      "lbl" : "Occupations",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/sty#ORGA",
+      "lbl" : "Organizations",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/sty#PHEN",
+      "lbl" : "Phenomena",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/sty#PHYS",
+      "lbl" : "Physiology",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/sty#PROC",
+      "lbl" : "Procedures",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T001",
+      "lbl" : "Organism",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T002",
+      "lbl" : "Plant",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T004",
+      "lbl" : "Fungus",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T005",
+      "lbl" : "Virus",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T007",
+      "lbl" : "Bacterium",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T008",
+      "lbl" : "Animal",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T010",
+      "lbl" : "Vertebrate",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T011",
+      "lbl" : "Amphibian",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T012",
+      "lbl" : "Bird",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T013",
+      "lbl" : "Fish",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T014",
+      "lbl" : "Reptile",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T015",
+      "lbl" : "Mammal",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T016",
+      "lbl" : "Human",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T017",
+      "lbl" : "Anatomical Structure",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T018",
+      "lbl" : "Embryonic Structure",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T019",
+      "lbl" : "Congenital Abnormality",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T020",
+      "lbl" : "Acquired Abnormality",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T021",
+      "lbl" : "Fully Formed Anatomical Structure",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T022",
+      "lbl" : "Body System",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T023",
+      "lbl" : "Body Part, Organ, or Organ Component",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T024",
+      "lbl" : "Tissue",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T025",
+      "lbl" : "Cell",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T026",
+      "lbl" : "Cell Component",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T028",
+      "lbl" : "Gene or Genome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T029",
+      "lbl" : "Body Location or Region",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T030",
+      "lbl" : "Body Space or Junction",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T031",
+      "lbl" : "Body Substance",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T032",
+      "lbl" : "Organism Attribute",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T033",
+      "lbl" : "Finding",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T034",
+      "lbl" : "Laboratory or Test Result",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T037",
+      "lbl" : "Injury or Poisoning",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T038",
+      "lbl" : "Biologic Function",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T039",
+      "lbl" : "Physiologic Function",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T040",
+      "lbl" : "Organism Function",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T041",
+      "lbl" : "Mental Process",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T042",
+      "lbl" : "Organ or Tissue Function",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T043",
+      "lbl" : "Cell Function",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T044",
+      "lbl" : "Molecular Function",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T045",
+      "lbl" : "Genetic Function",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T046",
+      "lbl" : "Pathologic Function",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T047",
+      "lbl" : "Disease or Syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T048",
+      "lbl" : "Mental or Behavioral Dysfunction",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T049",
+      "lbl" : "Cell or Molecular Dysfunction",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T050",
+      "lbl" : "Experimental Model of Disease",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T051",
+      "lbl" : "Event",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T052",
+      "lbl" : "Activity",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T053",
+      "lbl" : "Behavior",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T054",
+      "lbl" : "Social Behavior",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T055",
+      "lbl" : "Individual Behavior",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T056",
+      "lbl" : "Daily or Recreational Activity",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T057",
+      "lbl" : "Occupational Activity",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T058",
+      "lbl" : "Health Care Activity",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T059",
+      "lbl" : "Laboratory Procedure",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T060",
+      "lbl" : "Diagnostic Procedure",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T061",
+      "lbl" : "Therapeutic or Preventive Procedure",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T062",
+      "lbl" : "Research Activity",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T063",
+      "lbl" : "Molecular Biology Research Technique",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T064",
+      "lbl" : "Governmental or Regulatory Activity",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T065",
+      "lbl" : "Educational Activity",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T066",
+      "lbl" : "Machine Activity",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T067",
+      "lbl" : "Phenomenon or Process",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T068",
+      "lbl" : "Human-caused Phenomenon or Process",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T069",
+      "lbl" : "Environmental Effect of Humans",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T070",
+      "lbl" : "Natural Phenomenon or Process",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T071",
+      "lbl" : "Entity",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T072",
+      "lbl" : "Physical Object",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T073",
+      "lbl" : "Manufactured Object",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T074",
+      "lbl" : "Medical Device",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T075",
+      "lbl" : "Research Device",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T077",
+      "lbl" : "Conceptual Entity",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T078",
+      "lbl" : "Idea or Concept",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T079",
+      "lbl" : "Temporal Concept",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T080",
+      "lbl" : "Qualitative Concept",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T081",
+      "lbl" : "Quantitative Concept",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T082",
+      "lbl" : "Spatial Concept",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T083",
+      "lbl" : "Geographic Area",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T085",
+      "lbl" : "Molecular Sequence",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T086",
+      "lbl" : "Nucleotide Sequence",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T087",
+      "lbl" : "Amino Acid Sequence",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T088",
+      "lbl" : "Carbohydrate Sequence",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T089",
+      "lbl" : "Regulation or Law",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T090",
+      "lbl" : "Occupation or Discipline",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T091",
+      "lbl" : "Biomedical Occupation or Discipline",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T092",
+      "lbl" : "Organization",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T093",
+      "lbl" : "Health Care Related Organization",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T094",
+      "lbl" : "Professional Society",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T095",
+      "lbl" : "Self-help or Relief Organization",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T096",
+      "lbl" : "Group",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T097",
+      "lbl" : "Professional or Occupational Group",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T098",
+      "lbl" : "Population Group",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T099",
+      "lbl" : "Family Group",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T100",
+      "lbl" : "Age Group",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T101",
+      "lbl" : "Patient or Disabled Group",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T102",
+      "lbl" : "Group Attribute",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T103",
+      "lbl" : "Chemical",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T104",
+      "lbl" : "Chemical Viewed Structurally",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T109",
+      "lbl" : "Organic Chemical",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T114",
+      "lbl" : "Nucleic Acid, Nucleoside, or Nucleotide",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T116",
+      "lbl" : "Amino Acid, Peptide, or Protein",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T120",
+      "lbl" : "Chemical Viewed Functionally",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T121",
+      "lbl" : "Pharmacologic Substance",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T122",
+      "lbl" : "Biomedical or Dental Material",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T123",
+      "lbl" : "Biologically Active Substance",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T125",
+      "lbl" : "Hormone",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T126",
+      "lbl" : "Enzyme",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T127",
+      "lbl" : "Vitamin",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T129",
+      "lbl" : "Immunologic Factor",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T130",
+      "lbl" : "Indicator, Reagent, or Diagnostic Aid",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T131",
+      "lbl" : "Hazardous or Poisonous Substance",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T167",
+      "lbl" : "Substance",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T168",
+      "lbl" : "Food",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T169",
+      "lbl" : "Functional Concept",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T170",
+      "lbl" : "Intellectual Product",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T171",
+      "lbl" : "Language",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T184",
+      "lbl" : "Sign or Symptom",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T185",
+      "lbl" : "Classification",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T190",
+      "lbl" : "Anatomical Abnormality",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T191",
+      "lbl" : "Neoplastic Process",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T192",
+      "lbl" : "Receptor",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T194",
+      "lbl" : "Archaeon",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T195",
+      "lbl" : "Antibiotic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T196",
+      "lbl" : "Element, Ion, or Isotope",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T197",
+      "lbl" : "Inorganic Chemical",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T200",
+      "lbl" : "Clinical Drug",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T201",
+      "lbl" : "Clinical Attribute",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T203",
+      "lbl" : "Drug Delivery Device",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T204",
+      "lbl" : "Eukaryote",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://w3id.org/biolink/vocab/category",
+      "lbl" : "has category",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    } ],
+    "edges" : [ {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T011",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T012",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T013",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T014",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T015",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T016",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T017",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ANAT"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T018",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ANAT"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T019",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#DISO"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T020",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#DISO"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T021",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ANAT"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T022",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ANAT"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T023",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ANAT"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T024",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ANAT"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T025",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ANAT"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T026",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ANAT"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T028",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#GENE"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T029",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ANAT"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T030",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ANAT"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T031",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ANAT"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T032",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PHYS"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T033",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#DISO"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T034",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PHEN"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T037",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#DISO"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T038",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PHEN"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T039",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PHYS"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T040",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PHYS"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T041",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PHYS"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T042",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PHYS"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T043",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PHYS"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T044",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PHYS"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T045",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PHYS"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T046",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#DISO"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T047",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#DISO"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T048",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#DISO"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T049",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#DISO"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T050",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#DISO"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T051",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ACTI"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T052",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ACTI"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T053",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ACTI"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T054",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ACTI"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T055",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ACTI"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T056",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ACTI"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T057",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ACTI"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T058",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PROC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T059",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PROC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T060",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PROC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T061",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PROC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T062",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PROC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T063",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PROC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T064",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ACTI"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T065",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PROC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T066",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ACTI"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T067",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PHEN"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T068",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PHEN"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T069",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PHEN"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T070",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PHEN"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T071",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#OBJC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T072",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#OBJC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T073",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#OBJC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T074",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#DEVI"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T075",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#DEVI"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T077",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CONC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T078",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CONC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T079",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CONC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T080",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CONC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T081",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CONC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T082",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CONC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T083",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#GEOG"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T085",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#GENE"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T086",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#GENE"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T087",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#GENE"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T088",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#GENE"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T089",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CONC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T090",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#OCCU"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T091",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#OCCU"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T092",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ORGA"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T093",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ORGA"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T094",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ORGA"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T095",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#ORGA"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T096",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T097",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T098",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T099",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T100",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T101",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T102",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CONC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T103",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T104",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T109",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T114",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T116",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T120",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T121",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T122",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T123",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T125",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T126",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T127",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T129",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T130",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T131",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T167",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#OBJC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T168",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#OBJC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T169",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CONC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T170",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CONC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T171",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CONC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T184",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#DISO"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T185",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CONC"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T190",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#DISO"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T191",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#DISO"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T192",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T194",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T195",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T196",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T197",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T200",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#CHEM"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T201",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#PHYS"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T203",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#DEVI"
+    }, {
+      "sub" : "https://uts.nlm.nih.gov/uts/umls/semantic-network/T204",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/sty#LIVB"
+    } ]
+  } ]
+}

@@ -1,0 +1,709 @@
+format-version: 1.4
+data-version: 2024AB
+auto-generated-by: PyOBO v0.12.0-dev-d933dfeb on 2025-01-13T21:48:18.351986
+idspace: biolink https://w3id.org/biolink/vocab/ "Biolink Model"
+idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: sty https://uts.nlm.nih.gov/uts/umls/semantic-network/ "UMLS Semantic Types Ontology"
+ontology: sty
+property_value: dcterms:title "UMLS Semantic Types Ontology" xsd:string
+property_value: dcterms:description "UMLS Semantic Network The Semantic Network consists of \\\(1\\\) a set of broad subject categories\\\, or Semantic Types\\\, that provide a consistent categorization of all concepts represented in the UMLS Metathesaurus\\\, and \\\(2\\\) a set of useful and important relationships\\\, or Semantic Relations\\\, that exist between Semantic Types." xsd:string
+
+[Typedef]
+id: biolink:category
+name: has category
+is_metadata_tag: true
+
+[Term]
+id: ACTI
+name: Activities & Behaviors
+
+[Term]
+id: ANAT
+name: Anatomy
+
+[Term]
+id: CHEM
+name: Chemicals & Drugs
+
+[Term]
+id: CONC
+name: Concepts & Ideas
+
+[Term]
+id: DEVI
+name: Devices
+
+[Term]
+id: DISO
+name: Disorders
+
+[Term]
+id: GENE
+name: Genes & Molecular Sequences
+
+[Term]
+id: GEOG
+name: Geographic Areas
+
+[Term]
+id: LIVB
+name: Living Beings
+
+[Term]
+id: OBJC
+name: Objects
+
+[Term]
+id: OCCU
+name: Occupations
+
+[Term]
+id: ORGA
+name: Organizations
+
+[Term]
+id: PHEN
+name: Phenomena
+
+[Term]
+id: PHYS
+name: Physiology
+
+[Term]
+id: PROC
+name: Procedures
+
+[Term]
+id: sty:T001
+name: Organism
+is_a: LIVB
+
+[Term]
+id: sty:T002
+name: Plant
+is_a: LIVB
+
+[Term]
+id: sty:T004
+name: Fungus
+is_a: LIVB
+
+[Term]
+id: sty:T005
+name: Virus
+is_a: LIVB
+
+[Term]
+id: sty:T007
+name: Bacterium
+is_a: LIVB
+
+[Term]
+id: sty:T008
+name: Animal
+is_a: LIVB
+
+[Term]
+id: sty:T010
+name: Vertebrate
+is_a: LIVB
+
+[Term]
+id: sty:T011
+name: Amphibian
+is_a: LIVB
+
+[Term]
+id: sty:T012
+name: Bird
+is_a: LIVB
+
+[Term]
+id: sty:T013
+name: Fish
+is_a: LIVB
+
+[Term]
+id: sty:T014
+name: Reptile
+is_a: LIVB
+
+[Term]
+id: sty:T015
+name: Mammal
+is_a: LIVB
+
+[Term]
+id: sty:T016
+name: Human
+is_a: LIVB
+
+[Term]
+id: sty:T017
+name: Anatomical Structure
+is_a: ANAT
+
+[Term]
+id: sty:T018
+name: Embryonic Structure
+is_a: ANAT
+
+[Term]
+id: sty:T019
+name: Congenital Abnormality
+is_a: DISO
+
+[Term]
+id: sty:T020
+name: Acquired Abnormality
+is_a: DISO
+
+[Term]
+id: sty:T021
+name: Fully Formed Anatomical Structure
+is_a: ANAT
+
+[Term]
+id: sty:T022
+name: Body System
+is_a: ANAT
+
+[Term]
+id: sty:T023
+name: Body Part\, Organ\, or Organ Component
+is_a: ANAT
+
+[Term]
+id: sty:T024
+name: Tissue
+is_a: ANAT
+
+[Term]
+id: sty:T025
+name: Cell
+is_a: ANAT
+
+[Term]
+id: sty:T026
+name: Cell Component
+is_a: ANAT
+
+[Term]
+id: sty:T028
+name: Gene or Genome
+is_a: GENE
+
+[Term]
+id: sty:T029
+name: Body Location or Region
+is_a: ANAT
+
+[Term]
+id: sty:T030
+name: Body Space or Junction
+is_a: ANAT
+
+[Term]
+id: sty:T031
+name: Body Substance
+is_a: ANAT
+
+[Term]
+id: sty:T032
+name: Organism Attribute
+is_a: PHYS
+
+[Term]
+id: sty:T033
+name: Finding
+is_a: DISO
+
+[Term]
+id: sty:T034
+name: Laboratory or Test Result
+is_a: PHEN
+
+[Term]
+id: sty:T037
+name: Injury or Poisoning
+is_a: DISO
+
+[Term]
+id: sty:T038
+name: Biologic Function
+is_a: PHEN
+
+[Term]
+id: sty:T039
+name: Physiologic Function
+is_a: PHYS
+
+[Term]
+id: sty:T040
+name: Organism Function
+is_a: PHYS
+
+[Term]
+id: sty:T041
+name: Mental Process
+is_a: PHYS
+
+[Term]
+id: sty:T042
+name: Organ or Tissue Function
+is_a: PHYS
+
+[Term]
+id: sty:T043
+name: Cell Function
+is_a: PHYS
+
+[Term]
+id: sty:T044
+name: Molecular Function
+is_a: PHYS
+
+[Term]
+id: sty:T045
+name: Genetic Function
+is_a: PHYS
+
+[Term]
+id: sty:T046
+name: Pathologic Function
+is_a: DISO
+
+[Term]
+id: sty:T047
+name: Disease or Syndrome
+is_a: DISO
+
+[Term]
+id: sty:T048
+name: Mental or Behavioral Dysfunction
+is_a: DISO
+
+[Term]
+id: sty:T049
+name: Cell or Molecular Dysfunction
+is_a: DISO
+
+[Term]
+id: sty:T050
+name: Experimental Model of Disease
+is_a: DISO
+
+[Term]
+id: sty:T051
+name: Event
+is_a: ACTI
+
+[Term]
+id: sty:T052
+name: Activity
+is_a: ACTI
+
+[Term]
+id: sty:T053
+name: Behavior
+is_a: ACTI
+
+[Term]
+id: sty:T054
+name: Social Behavior
+is_a: ACTI
+
+[Term]
+id: sty:T055
+name: Individual Behavior
+is_a: ACTI
+
+[Term]
+id: sty:T056
+name: Daily or Recreational Activity
+is_a: ACTI
+
+[Term]
+id: sty:T057
+name: Occupational Activity
+is_a: ACTI
+
+[Term]
+id: sty:T058
+name: Health Care Activity
+is_a: PROC
+
+[Term]
+id: sty:T059
+name: Laboratory Procedure
+is_a: PROC
+
+[Term]
+id: sty:T060
+name: Diagnostic Procedure
+is_a: PROC
+
+[Term]
+id: sty:T061
+name: Therapeutic or Preventive Procedure
+is_a: PROC
+
+[Term]
+id: sty:T062
+name: Research Activity
+is_a: PROC
+
+[Term]
+id: sty:T063
+name: Molecular Biology Research Technique
+is_a: PROC
+
+[Term]
+id: sty:T064
+name: Governmental or Regulatory Activity
+is_a: ACTI
+
+[Term]
+id: sty:T065
+name: Educational Activity
+is_a: PROC
+
+[Term]
+id: sty:T066
+name: Machine Activity
+is_a: ACTI
+
+[Term]
+id: sty:T067
+name: Phenomenon or Process
+is_a: PHEN
+
+[Term]
+id: sty:T068
+name: Human-caused Phenomenon or Process
+is_a: PHEN
+
+[Term]
+id: sty:T069
+name: Environmental Effect of Humans
+is_a: PHEN
+
+[Term]
+id: sty:T070
+name: Natural Phenomenon or Process
+is_a: PHEN
+
+[Term]
+id: sty:T071
+name: Entity
+is_a: OBJC
+
+[Term]
+id: sty:T072
+name: Physical Object
+is_a: OBJC
+
+[Term]
+id: sty:T073
+name: Manufactured Object
+is_a: OBJC
+
+[Term]
+id: sty:T074
+name: Medical Device
+is_a: DEVI
+
+[Term]
+id: sty:T075
+name: Research Device
+is_a: DEVI
+
+[Term]
+id: sty:T077
+name: Conceptual Entity
+is_a: CONC
+
+[Term]
+id: sty:T078
+name: Idea or Concept
+is_a: CONC
+
+[Term]
+id: sty:T079
+name: Temporal Concept
+is_a: CONC
+
+[Term]
+id: sty:T080
+name: Qualitative Concept
+is_a: CONC
+
+[Term]
+id: sty:T081
+name: Quantitative Concept
+is_a: CONC
+
+[Term]
+id: sty:T082
+name: Spatial Concept
+is_a: CONC
+
+[Term]
+id: sty:T083
+name: Geographic Area
+is_a: GEOG
+
+[Term]
+id: sty:T085
+name: Molecular Sequence
+is_a: GENE
+
+[Term]
+id: sty:T086
+name: Nucleotide Sequence
+is_a: GENE
+
+[Term]
+id: sty:T087
+name: Amino Acid Sequence
+is_a: GENE
+
+[Term]
+id: sty:T088
+name: Carbohydrate Sequence
+is_a: GENE
+
+[Term]
+id: sty:T089
+name: Regulation or Law
+is_a: CONC
+
+[Term]
+id: sty:T090
+name: Occupation or Discipline
+is_a: OCCU
+
+[Term]
+id: sty:T091
+name: Biomedical Occupation or Discipline
+is_a: OCCU
+
+[Term]
+id: sty:T092
+name: Organization
+is_a: ORGA
+
+[Term]
+id: sty:T093
+name: Health Care Related Organization
+is_a: ORGA
+
+[Term]
+id: sty:T094
+name: Professional Society
+is_a: ORGA
+
+[Term]
+id: sty:T095
+name: Self-help or Relief Organization
+is_a: ORGA
+
+[Term]
+id: sty:T096
+name: Group
+is_a: LIVB
+
+[Term]
+id: sty:T097
+name: Professional or Occupational Group
+is_a: LIVB
+
+[Term]
+id: sty:T098
+name: Population Group
+is_a: LIVB
+
+[Term]
+id: sty:T099
+name: Family Group
+is_a: LIVB
+
+[Term]
+id: sty:T100
+name: Age Group
+is_a: LIVB
+
+[Term]
+id: sty:T101
+name: Patient or Disabled Group
+is_a: LIVB
+
+[Term]
+id: sty:T102
+name: Group Attribute
+is_a: CONC
+
+[Term]
+id: sty:T103
+name: Chemical
+is_a: CHEM
+
+[Term]
+id: sty:T104
+name: Chemical Viewed Structurally
+is_a: CHEM
+
+[Term]
+id: sty:T109
+name: Organic Chemical
+is_a: CHEM
+
+[Term]
+id: sty:T114
+name: Nucleic Acid\, Nucleoside\, or Nucleotide
+is_a: CHEM
+
+[Term]
+id: sty:T116
+name: Amino Acid\, Peptide\, or Protein
+is_a: CHEM
+
+[Term]
+id: sty:T120
+name: Chemical Viewed Functionally
+is_a: CHEM
+
+[Term]
+id: sty:T121
+name: Pharmacologic Substance
+is_a: CHEM
+
+[Term]
+id: sty:T122
+name: Biomedical or Dental Material
+is_a: CHEM
+
+[Term]
+id: sty:T123
+name: Biologically Active Substance
+is_a: CHEM
+
+[Term]
+id: sty:T125
+name: Hormone
+is_a: CHEM
+
+[Term]
+id: sty:T126
+name: Enzyme
+is_a: CHEM
+
+[Term]
+id: sty:T127
+name: Vitamin
+is_a: CHEM
+
+[Term]
+id: sty:T129
+name: Immunologic Factor
+is_a: CHEM
+
+[Term]
+id: sty:T130
+name: Indicator\, Reagent\, or Diagnostic Aid
+is_a: CHEM
+
+[Term]
+id: sty:T131
+name: Hazardous or Poisonous Substance
+is_a: CHEM
+
+[Term]
+id: sty:T167
+name: Substance
+is_a: OBJC
+
+[Term]
+id: sty:T168
+name: Food
+is_a: OBJC
+
+[Term]
+id: sty:T169
+name: Functional Concept
+is_a: CONC
+
+[Term]
+id: sty:T170
+name: Intellectual Product
+is_a: CONC
+
+[Term]
+id: sty:T171
+name: Language
+is_a: CONC
+
+[Term]
+id: sty:T184
+name: Sign or Symptom
+is_a: DISO
+
+[Term]
+id: sty:T185
+name: Classification
+is_a: CONC
+
+[Term]
+id: sty:T190
+name: Anatomical Abnormality
+is_a: DISO
+
+[Term]
+id: sty:T191
+name: Neoplastic Process
+is_a: DISO
+
+[Term]
+id: sty:T192
+name: Receptor
+is_a: CHEM
+
+[Term]
+id: sty:T194
+name: Archaeon
+is_a: LIVB
+
+[Term]
+id: sty:T195
+name: Antibiotic
+is_a: CHEM
+
+[Term]
+id: sty:T196
+name: Element\, Ion\, or Isotope
+is_a: CHEM
+
+[Term]
+id: sty:T197
+name: Inorganic Chemical
+is_a: CHEM
+
+[Term]
+id: sty:T200
+name: Clinical Drug
+is_a: CHEM
+
+[Term]
+id: sty:T201
+name: Clinical Attribute
+is_a: PHYS
+
+[Term]
+id: sty:T203
+name: Drug Delivery Device
+is_a: DEVI
+
+[Term]
+id: sty:T204
+name: Eukaryote
+is_a: LIVB

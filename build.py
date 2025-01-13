@@ -52,6 +52,9 @@ pyobo.constants.GLOBAL_CHECK_IDS = True
 #: be conservative) to put on GitHub
 MAX_SIZE = 100_000_000
 PREFIXES = [
+    "signor",
+    "sty",
+    "omim.ps",
     "nlm.publisher",
     "geonames.feature",
     "geonames",  # has instances
@@ -97,7 +100,7 @@ PREFIXES = [
     "gard",
     "bigg.metabolite",
     "bigg.model",
-    "bigg.reaction",  # FIXME error in parentheses in IDs breaks OFN
+    "bigg.reaction",
     "uniprot",
 ]
 

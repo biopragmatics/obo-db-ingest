@@ -1,0 +1,128 @@
+identifier	name	definition	synonyms	alts	parents	species
+T001	Organism				obo:sty#LIVB	
+T002	Plant				obo:sty#LIVB	
+T004	Fungus				obo:sty#LIVB	
+T005	Virus				obo:sty#LIVB	
+T007	Bacterium				obo:sty#LIVB	
+T008	Animal				obo:sty#LIVB	
+T010	Vertebrate				obo:sty#LIVB	
+T011	Amphibian				obo:sty#LIVB	
+T012	Bird				obo:sty#LIVB	
+T013	Fish				obo:sty#LIVB	
+T014	Reptile				obo:sty#LIVB	
+T015	Mammal				obo:sty#LIVB	
+T016	Human				obo:sty#LIVB	
+T017	Anatomical Structure				obo:sty#ANAT	
+T018	Embryonic Structure				obo:sty#ANAT	
+T019	Congenital Abnormality				obo:sty#DISO	
+T020	Acquired Abnormality				obo:sty#DISO	
+T021	Fully Formed Anatomical Structure				obo:sty#ANAT	
+T022	Body System				obo:sty#ANAT	
+T023	Body Part, Organ, or Organ Component				obo:sty#ANAT	
+T024	Tissue				obo:sty#ANAT	
+T025	Cell				obo:sty#ANAT	
+T026	Cell Component				obo:sty#ANAT	
+T028	Gene or Genome				obo:sty#GENE	
+T029	Body Location or Region				obo:sty#ANAT	
+T030	Body Space or Junction				obo:sty#ANAT	
+T031	Body Substance				obo:sty#ANAT	
+T032	Organism Attribute				obo:sty#PHYS	
+T033	Finding				obo:sty#DISO	
+T034	Laboratory or Test Result				obo:sty#PHEN	
+T037	Injury or Poisoning				obo:sty#DISO	
+T038	Biologic Function				obo:sty#PHEN	
+T039	Physiologic Function				obo:sty#PHYS	
+T040	Organism Function				obo:sty#PHYS	
+T041	Mental Process				obo:sty#PHYS	
+T042	Organ or Tissue Function				obo:sty#PHYS	
+T043	Cell Function				obo:sty#PHYS	
+T044	Molecular Function				obo:sty#PHYS	
+T045	Genetic Function				obo:sty#PHYS	
+T046	Pathologic Function				obo:sty#DISO	
+T047	Disease or Syndrome				obo:sty#DISO	
+T048	Mental or Behavioral Dysfunction				obo:sty#DISO	
+T049	Cell or Molecular Dysfunction				obo:sty#DISO	
+T050	Experimental Model of Disease				obo:sty#DISO	
+T051	Event				obo:sty#ACTI	
+T052	Activity				obo:sty#ACTI	
+T053	Behavior				obo:sty#ACTI	
+T054	Social Behavior				obo:sty#ACTI	
+T055	Individual Behavior				obo:sty#ACTI	
+T056	Daily or Recreational Activity				obo:sty#ACTI	
+T057	Occupational Activity				obo:sty#ACTI	
+T058	Health Care Activity				obo:sty#PROC	
+T059	Laboratory Procedure				obo:sty#PROC	
+T060	Diagnostic Procedure				obo:sty#PROC	
+T061	Therapeutic or Preventive Procedure				obo:sty#PROC	
+T062	Research Activity				obo:sty#PROC	
+T063	Molecular Biology Research Technique				obo:sty#PROC	
+T064	Governmental or Regulatory Activity				obo:sty#ACTI	
+T065	Educational Activity				obo:sty#PROC	
+T066	Machine Activity				obo:sty#ACTI	
+T067	Phenomenon or Process				obo:sty#PHEN	
+T068	Human-caused Phenomenon or Process				obo:sty#PHEN	
+T069	Environmental Effect of Humans				obo:sty#PHEN	
+T070	Natural Phenomenon or Process				obo:sty#PHEN	
+T071	Entity				obo:sty#OBJC	
+T072	Physical Object				obo:sty#OBJC	
+T073	Manufactured Object				obo:sty#OBJC	
+T074	Medical Device				obo:sty#DEVI	
+T075	Research Device				obo:sty#DEVI	
+T077	Conceptual Entity				obo:sty#CONC	
+T078	Idea or Concept				obo:sty#CONC	
+T079	Temporal Concept				obo:sty#CONC	
+T080	Qualitative Concept				obo:sty#CONC	
+T081	Quantitative Concept				obo:sty#CONC	
+T082	Spatial Concept				obo:sty#CONC	
+T083	Geographic Area				obo:sty#GEOG	
+T085	Molecular Sequence				obo:sty#GENE	
+T086	Nucleotide Sequence				obo:sty#GENE	
+T087	Amino Acid Sequence				obo:sty#GENE	
+T088	Carbohydrate Sequence				obo:sty#GENE	
+T089	Regulation or Law				obo:sty#CONC	
+T090	Occupation or Discipline				obo:sty#OCCU	
+T091	Biomedical Occupation or Discipline				obo:sty#OCCU	
+T092	Organization				obo:sty#ORGA	
+T093	Health Care Related Organization				obo:sty#ORGA	
+T094	Professional Society				obo:sty#ORGA	
+T095	Self-help or Relief Organization				obo:sty#ORGA	
+T096	Group				obo:sty#LIVB	
+T097	Professional or Occupational Group				obo:sty#LIVB	
+T098	Population Group				obo:sty#LIVB	
+T099	Family Group				obo:sty#LIVB	
+T100	Age Group				obo:sty#LIVB	
+T101	Patient or Disabled Group				obo:sty#LIVB	
+T102	Group Attribute				obo:sty#CONC	
+T103	Chemical				obo:sty#CHEM	
+T104	Chemical Viewed Structurally				obo:sty#CHEM	
+T109	Organic Chemical				obo:sty#CHEM	
+T114	Nucleic Acid, Nucleoside, or Nucleotide				obo:sty#CHEM	
+T116	Amino Acid, Peptide, or Protein				obo:sty#CHEM	
+T120	Chemical Viewed Functionally				obo:sty#CHEM	
+T121	Pharmacologic Substance				obo:sty#CHEM	
+T122	Biomedical or Dental Material				obo:sty#CHEM	
+T123	Biologically Active Substance				obo:sty#CHEM	
+T125	Hormone				obo:sty#CHEM	
+T126	Enzyme				obo:sty#CHEM	
+T127	Vitamin				obo:sty#CHEM	
+T129	Immunologic Factor				obo:sty#CHEM	
+T130	Indicator, Reagent, or Diagnostic Aid				obo:sty#CHEM	
+T131	Hazardous or Poisonous Substance				obo:sty#CHEM	
+T167	Substance				obo:sty#OBJC	
+T168	Food				obo:sty#OBJC	
+T169	Functional Concept				obo:sty#CONC	
+T170	Intellectual Product				obo:sty#CONC	
+T171	Language				obo:sty#CONC	
+T184	Sign or Symptom				obo:sty#DISO	
+T185	Classification				obo:sty#CONC	
+T190	Anatomical Abnormality				obo:sty#DISO	
+T191	Neoplastic Process				obo:sty#DISO	
+T192	Receptor				obo:sty#CHEM	
+T194	Archaeon				obo:sty#LIVB	
+T195	Antibiotic				obo:sty#CHEM	
+T196	Element, Ion, or Isotope				obo:sty#CHEM	
+T197	Inorganic Chemical				obo:sty#CHEM	
+T200	Clinical Drug				obo:sty#CHEM	
+T201	Clinical Attribute				obo:sty#PHYS	
+T203	Drug Delivery Device				obo:sty#DEVI	
+T204	Eukaryote				obo:sty#LIVB	

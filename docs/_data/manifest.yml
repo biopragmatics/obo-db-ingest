@@ -1,5 +1,5 @@
 date: '2025-01-13'
-errors: []
+errors: [ ]
 resources:
   bigg.compartment:
     nodes:
@@ -1486,6 +1486,55 @@ resources:
       synonyms: 22501
       terms: 96420
       version: '2.0'
+  omim.ps:
+    nodes:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/omim.ps/omim.ps.tsv
+      path: omim.ps/omim.ps.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-01-10/omim.ps.tsv
+      version_path: omim.ps/2025-01-10/omim.ps.tsv
+    obo:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/omim.ps/omim.ps.obo
+      path: omim.ps/omim.ps.obo
+      version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-01-10/omim.ps.obo
+      version_path: omim.ps/2025-01-10/omim.ps.obo
+    obograph:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/omim.ps/omim.ps.json
+      path: omim.ps/omim.ps.json
+      version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-01-10/omim.ps.json
+      version_path: omim.ps/2025-01-10/omim.ps.json
+    ofn:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/omim.ps/omim.ps.ofn
+      path: omim.ps/omim.ps.ofn
+      version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-01-10/omim.ps.ofn
+      version_path: omim.ps/2025-01-10/omim.ps.ofn
+    owl:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/omim.ps/omim.ps.owl
+      path: omim.ps/omim.ps.owl
+      version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-01-10/omim.ps.owl
+      version_path: omim.ps/2025-01-10/omim.ps.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/omim.ps/omim.ps.sssom.tsv
+      path: omim.ps/omim.ps.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-01-10/omim.ps.sssom.tsv
+      version_path: omim.ps/2025-01-10/omim.ps.sssom.tsv
+    summary:
+      alts: 0
+      definitions: 0
+      license: https://www.omim.org/help/agreement
+      mappings: 0
+      parents: 0
+      properties: 0
+      references: 0
+      relations: 0
+      synonyms: 0
+      terms: 587
+      version: '2025-01-10'
   pathbank:
     nodes:
       gzipped: false
@@ -1927,6 +1976,55 @@ resources:
       synonyms: 11109
       terms: 6600
       version: R64-5-1
+  signor:
+    nodes:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/signor/signor.tsv
+      path: signor/signor.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/signor/2025-01-01/signor.tsv
+      version_path: signor/2025-01-01/signor.tsv
+    obo:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/signor/signor.obo
+      path: signor/signor.obo
+      version_iri: https://w3id.org/biopragmatics/resources/signor/2025-01-01/signor.obo
+      version_path: signor/2025-01-01/signor.obo
+    obograph:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/signor/signor.json
+      path: signor/signor.json
+      version_iri: https://w3id.org/biopragmatics/resources/signor/2025-01-01/signor.json
+      version_path: signor/2025-01-01/signor.json
+    ofn:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/signor/signor.ofn
+      path: signor/signor.ofn
+      version_iri: https://w3id.org/biopragmatics/resources/signor/2025-01-01/signor.ofn
+      version_path: signor/2025-01-01/signor.ofn
+    owl:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/signor/signor.owl
+      path: signor/signor.owl
+      version_iri: https://w3id.org/biopragmatics/resources/signor/2025-01-01/signor.owl
+      version_path: signor/2025-01-01/signor.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/signor/signor.sssom.tsv
+      path: signor/signor.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/signor/2025-01-01/signor.sssom.tsv
+      version_path: signor/2025-01-01/signor.sssom.tsv
+    summary:
+      alts: 0
+      definitions: 1710
+      license: CC-BY-NC-4.0
+      mappings: 0
+      parents: 2338
+      properties: 3391
+      references: 0
+      relations: 0
+      synonyms: 0
+      terms: 2338
+      version: '2025-01-01'
   slm:
     nodes:
       gzipped: true
@@ -1976,6 +2074,55 @@ resources:
       synonyms: 1344722
       terms: 779249
       version: '2025-01-13'
+  sty:
+    nodes:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/sty/sty.tsv
+      path: sty/sty.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.tsv
+      version_path: sty/2024AB/sty.tsv
+    obo:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/sty/sty.obo
+      path: sty/sty.obo
+      version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.obo
+      version_path: sty/2024AB/sty.obo
+    obograph:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/sty/sty.json
+      path: sty/sty.json
+      version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.json
+      version_path: sty/2024AB/sty.json
+    ofn:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/sty/sty.ofn
+      path: sty/sty.ofn
+      version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.ofn
+      version_path: sty/2024AB/sty.ofn
+    owl:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/sty/sty.owl
+      path: sty/sty.owl
+      version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.owl
+      version_path: sty/2024AB/sty.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/sty/sty.sssom.tsv
+      path: sty/sty.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.sssom.tsv
+      version_path: sty/2024AB/sty.sssom.tsv
+    summary:
+      alts: 0
+      definitions: 0
+      license: null
+      mappings: 0
+      parents: 127
+      properties: 0
+      references: 0
+      relations: 0
+      synonyms: 0
+      terms: 127
+      version: 2024AB
   uniprot:
     nodes:
       gzipped: false

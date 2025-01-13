@@ -1,0 +1,1337 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/biopragmatics/resources/sty/sty.ofn#"
+     xml:base="https://w3id.org/biopragmatics/resources/sty/sty.ofn"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:sty="https://uts.nlm.nih.gov/uts/umls/semantic-network/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:biolink="https://w3id.org/biolink/vocab/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="https://w3id.org/biopragmatics/resources/sty/sty.ofn">
+        <owl:versionIRI rdf:resource="https://w3id.org/biopragmatics/resources/sty/2024AB/sty.ofn"/>
+        <dcterms:description>UMLS Semantic Network The Semantic Network consists of \(1\) a set of broad subject categories\, or Semantic Types\, that provide a consistent categorization of all concepts represented in the UMLS Metathesaurus\, and \(2\) a set of useful and important relationships\, or Semantic Relations\, that exist between Semantic Types.</dcterms:description>
+        <dcterms:title>UMLS Semantic Types Ontology</dcterms:title>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-d933dfeb on 2025-01-13T21:48:18.351986</oboInOwl:auto-generated-by>
+        <owl:versionInfo>2024AB</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    
+
+
+    <!-- https://w3id.org/biolink/vocab/category -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/biolink/vocab/category">
+        <rdfs:label>has category</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/sty#ACTI -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/sty#ACTI">
+        <rdfs:label>Activities &amp; Behaviors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/sty#ANAT -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/sty#ANAT">
+        <rdfs:label>Anatomy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/sty#CHEM -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/sty#CHEM">
+        <rdfs:label>Chemicals &amp; Drugs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/sty#CONC -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/sty#CONC">
+        <rdfs:label>Concepts &amp; Ideas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/sty#DEVI -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/sty#DEVI">
+        <rdfs:label>Devices</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/sty#DISO -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/sty#DISO">
+        <rdfs:label>Disorders</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/sty#GENE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/sty#GENE">
+        <rdfs:label>Genes &amp; Molecular Sequences</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/sty#GEOG -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/sty#GEOG">
+        <rdfs:label>Geographic Areas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/sty#LIVB -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/sty#LIVB">
+        <rdfs:label>Living Beings</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/sty#OBJC -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/sty#OBJC">
+        <rdfs:label>Objects</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/sty#OCCU -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/sty#OCCU">
+        <rdfs:label>Occupations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/sty#ORGA -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/sty#ORGA">
+        <rdfs:label>Organizations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/sty#PHEN -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/sty#PHEN">
+        <rdfs:label>Phenomena</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/sty#PHYS -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/sty#PHYS">
+        <rdfs:label>Physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/sty#PROC -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/sty#PROC">
+        <rdfs:label>Procedures</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T001 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T002 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Plant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T004 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Fungus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T005 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T007 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Bacterium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T008 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Animal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T010 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Vertebrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T011 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Amphibian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T012 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Bird</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T013 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Fish</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T014 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Reptile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T015 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Mammal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T016 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T017 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ANAT"/>
+        <rdfs:label>Anatomical Structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T018 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ANAT"/>
+        <rdfs:label>Embryonic Structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T019 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#DISO"/>
+        <rdfs:label>Congenital Abnormality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T020 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#DISO"/>
+        <rdfs:label>Acquired Abnormality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T021 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ANAT"/>
+        <rdfs:label>Fully Formed Anatomical Structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T022 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ANAT"/>
+        <rdfs:label>Body System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T023 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ANAT"/>
+        <rdfs:label>Body Part, Organ, or Organ Component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T024 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ANAT"/>
+        <rdfs:label>Tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T025 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ANAT"/>
+        <rdfs:label>Cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T026 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ANAT"/>
+        <rdfs:label>Cell Component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T028 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#GENE"/>
+        <rdfs:label>Gene or Genome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T029 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ANAT"/>
+        <rdfs:label>Body Location or Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T030 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ANAT"/>
+        <rdfs:label>Body Space or Junction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T031 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ANAT"/>
+        <rdfs:label>Body Substance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T032 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PHYS"/>
+        <rdfs:label>Organism Attribute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T033 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#DISO"/>
+        <rdfs:label>Finding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T034 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PHEN"/>
+        <rdfs:label>Laboratory or Test Result</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T037 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#DISO"/>
+        <rdfs:label>Injury or Poisoning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T038 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PHEN"/>
+        <rdfs:label>Biologic Function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T039 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PHYS"/>
+        <rdfs:label>Physiologic Function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T040 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PHYS"/>
+        <rdfs:label>Organism Function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T041 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PHYS"/>
+        <rdfs:label>Mental Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T042 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PHYS"/>
+        <rdfs:label>Organ or Tissue Function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T043 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PHYS"/>
+        <rdfs:label>Cell Function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T044 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PHYS"/>
+        <rdfs:label>Molecular Function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T045 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PHYS"/>
+        <rdfs:label>Genetic Function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T046 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#DISO"/>
+        <rdfs:label>Pathologic Function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T047 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#DISO"/>
+        <rdfs:label>Disease or Syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T048 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#DISO"/>
+        <rdfs:label>Mental or Behavioral Dysfunction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T049 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#DISO"/>
+        <rdfs:label>Cell or Molecular Dysfunction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T050 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#DISO"/>
+        <rdfs:label>Experimental Model of Disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T051 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ACTI"/>
+        <rdfs:label>Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T052 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ACTI"/>
+        <rdfs:label>Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T053 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ACTI"/>
+        <rdfs:label>Behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T054 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ACTI"/>
+        <rdfs:label>Social Behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T055 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ACTI"/>
+        <rdfs:label>Individual Behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T056 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ACTI"/>
+        <rdfs:label>Daily or Recreational Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T057 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ACTI"/>
+        <rdfs:label>Occupational Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T058 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PROC"/>
+        <rdfs:label>Health Care Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T059 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PROC"/>
+        <rdfs:label>Laboratory Procedure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T060 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PROC"/>
+        <rdfs:label>Diagnostic Procedure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T061 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PROC"/>
+        <rdfs:label>Therapeutic or Preventive Procedure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T062 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PROC"/>
+        <rdfs:label>Research Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T063 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PROC"/>
+        <rdfs:label>Molecular Biology Research Technique</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T064 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ACTI"/>
+        <rdfs:label>Governmental or Regulatory Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T065 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PROC"/>
+        <rdfs:label>Educational Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T066 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ACTI"/>
+        <rdfs:label>Machine Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T067 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PHEN"/>
+        <rdfs:label>Phenomenon or Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T068 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PHEN"/>
+        <rdfs:label>Human-caused Phenomenon or Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T069 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PHEN"/>
+        <rdfs:label>Environmental Effect of Humans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T070 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PHEN"/>
+        <rdfs:label>Natural Phenomenon or Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T071 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#OBJC"/>
+        <rdfs:label>Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T072 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#OBJC"/>
+        <rdfs:label>Physical Object</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T073 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#OBJC"/>
+        <rdfs:label>Manufactured Object</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T074 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#DEVI"/>
+        <rdfs:label>Medical Device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T075 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#DEVI"/>
+        <rdfs:label>Research Device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T077 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CONC"/>
+        <rdfs:label>Conceptual Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T078 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CONC"/>
+        <rdfs:label>Idea or Concept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T079 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CONC"/>
+        <rdfs:label>Temporal Concept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T080 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CONC"/>
+        <rdfs:label>Qualitative Concept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T081 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CONC"/>
+        <rdfs:label>Quantitative Concept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T082 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CONC"/>
+        <rdfs:label>Spatial Concept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T083 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#GEOG"/>
+        <rdfs:label>Geographic Area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T085 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#GENE"/>
+        <rdfs:label>Molecular Sequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T086 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#GENE"/>
+        <rdfs:label>Nucleotide Sequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T087 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#GENE"/>
+        <rdfs:label>Amino Acid Sequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T088 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#GENE"/>
+        <rdfs:label>Carbohydrate Sequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T089 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CONC"/>
+        <rdfs:label>Regulation or Law</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T090 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#OCCU"/>
+        <rdfs:label>Occupation or Discipline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T091 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#OCCU"/>
+        <rdfs:label>Biomedical Occupation or Discipline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T092 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ORGA"/>
+        <rdfs:label>Organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T093 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ORGA"/>
+        <rdfs:label>Health Care Related Organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T094 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ORGA"/>
+        <rdfs:label>Professional Society</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T095 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#ORGA"/>
+        <rdfs:label>Self-help or Relief Organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T096 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T097 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Professional or Occupational Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T098 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Population Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T099 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Family Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T100 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Age Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T101 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Patient or Disabled Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T102 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CONC"/>
+        <rdfs:label>Group Attribute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T103 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Chemical</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T104 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Chemical Viewed Structurally</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T109 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Organic Chemical</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T114 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Nucleic Acid, Nucleoside, or Nucleotide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T116 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Amino Acid, Peptide, or Protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T120 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Chemical Viewed Functionally</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T121 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Pharmacologic Substance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T122 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Biomedical or Dental Material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T123 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Biologically Active Substance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T125 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Hormone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T126 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Enzyme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T127 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Vitamin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T129 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Immunologic Factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T130 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Indicator, Reagent, or Diagnostic Aid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T131 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Hazardous or Poisonous Substance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T167 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#OBJC"/>
+        <rdfs:label>Substance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T168 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#OBJC"/>
+        <rdfs:label>Food</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T169 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T169">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CONC"/>
+        <rdfs:label>Functional Concept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T170 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T170">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CONC"/>
+        <rdfs:label>Intellectual Product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T171 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CONC"/>
+        <rdfs:label>Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T184 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#DISO"/>
+        <rdfs:label>Sign or Symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T185 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CONC"/>
+        <rdfs:label>Classification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T190 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#DISO"/>
+        <rdfs:label>Anatomical Abnormality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T191 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#DISO"/>
+        <rdfs:label>Neoplastic Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T192 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Receptor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T194 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Archaeon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T195 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Antibiotic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T196 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Element, Ion, or Isotope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T197 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T197">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Inorganic Chemical</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T200 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#CHEM"/>
+        <rdfs:label>Clinical Drug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T201 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T201">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#PHYS"/>
+        <rdfs:label>Clinical Attribute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T203 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#DEVI"/>
+        <rdfs:label>Drug Delivery Device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://uts.nlm.nih.gov/uts/umls/semantic-network/T204 -->
+
+    <owl:Class rdf:about="https://uts.nlm.nih.gov/uts/umls/semantic-network/T204">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/sty#LIVB"/>
+        <rdfs:label>Eukaryote</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+
