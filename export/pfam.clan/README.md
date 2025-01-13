@@ -9,6 +9,7 @@ Higher order grouping of Pfam families
 | Artifact       | Download PURL                                                          | Latest Versioned Download PURL                                              |
 |----------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.obo       | https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.obo       |
+| OFN            | https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.ofn       | https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.ofn       |
 | Nodes          | https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.tsv       | https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.tsv       |
 | SSSOM          | https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.sssom.tsv | https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.sssom.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.owl       | https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.owl       |

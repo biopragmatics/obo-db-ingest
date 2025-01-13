@@ -1,6 +1,6 @@
 {
   "graphs" : [ {
-    "id" : "http://purl.obolibrary.org/obo/kegg.genome.owl",
+    "id" : "https://w3id.org/biopragmatics/resources/kegg.genome/kegg.genome.ofn",
     "meta" : {
       "basicPropertyValues" : [ {
         "pred" : "http://purl.org/dc/terms/description",
@@ -13,4031 +13,4013 @@
         "val" : "KEGG Genome"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-        "val" : "PyOBO v0.12.0-dev-2737b355 on 2025-01-08T23:28:46.799723"
+        "val" : "PyOBO v0.12.0-dev-63556853 on 2025-01-13T18:26:13.945775"
       }, {
-        "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
-        "val" : "1.4"
+        "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
+        "val" : "113.0"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/kegg.genome/113.0/kegg.genome.owl"
+      "version" : "https://w3id.org/biopragmatics/resources/kegg.genome/113.0/kegg.genome.ofn"
     },
     "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_000",
+      "id" : "http://www.kegg.jp/entry/000",
       "lbl" : "Sinorhizobium numidicum CIP 109850 (Ensifer numidicus CIP 109850)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_001",
+      "id" : "http://www.kegg.jp/entry/001",
       "lbl" : "Thermocrinis ruber DSM 23557",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_002",
+      "id" : "http://www.kegg.jp/entry/002",
       "lbl" : "Pseudomonas cichorii JBC1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_003",
+      "id" : "http://www.kegg.jp/entry/003",
       "lbl" : "Spiroplasma mirum ATCC 29335",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_004",
+      "id" : "http://www.kegg.jp/entry/004",
       "lbl" : "Synechocystis sp. PCC 6803",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_005",
+      "id" : "http://www.kegg.jp/entry/005",
       "lbl" : "Thermococcus paralvinellae (Thermococcus sp. ES1)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_006",
+      "id" : "http://www.kegg.jp/entry/006",
       "lbl" : "Salinimonas iocasae KX18D6",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_007",
+      "id" : "http://www.kegg.jp/entry/007",
       "lbl" : "Sporosarcina pasteurii BNCC 337394",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_008",
+      "id" : "http://www.kegg.jp/entry/008",
       "lbl" : "Staphylococcus pseudintermedius ED99",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_009",
+      "id" : "http://www.kegg.jp/entry/009",
       "lbl" : "Thermus thermophilus JL-18",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_010",
+      "id" : "http://www.kegg.jp/entry/010",
       "lbl" : "Yersinia enterocolitica subsp. palearctica Y11 (serotype:0:3)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_011",
+      "id" : "http://www.kegg.jp/entry/011",
       "lbl" : "Xenopus tropicalis (tropical clawed frog)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_012",
+      "id" : "http://www.kegg.jp/entry/012",
       "lbl" : "Zaire ebolavirus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_013",
+      "id" : "http://www.kegg.jp/entry/013",
       "lbl" : "Trypanosoma brucei brucei TREU927",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_014",
+      "id" : "http://www.kegg.jp/entry/014",
       "lbl" : "Sudan ebolavirus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_015",
+      "id" : "http://www.kegg.jp/entry/015",
       "lbl" : "Vagococcus luciliae G314F",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_016",
+      "id" : "http://www.kegg.jp/entry/016",
       "lbl" : "Vollenhovia emeryi",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_017",
+      "id" : "http://www.kegg.jp/entry/017",
       "lbl" : "Vigna unguiculata (cowpea)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_018",
+      "id" : "http://www.kegg.jp/entry/018",
       "lbl" : "Streptococcus gallolyticus subsp. gallolyticus ATCC 43143",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_019",
+      "id" : "http://www.kegg.jp/entry/019",
       "lbl" : "Thiohalocapsa sp. PB-PSB1 PB-PSB1-LS01-2011a",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_020",
+      "id" : "http://www.kegg.jp/entry/020",
       "lbl" : "Vibrio lentus ED252",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_021",
+      "id" : "http://www.kegg.jp/entry/021",
       "lbl" : "Streptococcus suis D12 (serotype 9)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_022",
+      "id" : "http://www.kegg.jp/entry/022",
       "lbl" : "Trichomonas vaginalis G3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_023",
+      "id" : "http://www.kegg.jp/entry/023",
       "lbl" : "Streptomyces cavourensis 1AS2a",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_024",
+      "id" : "http://www.kegg.jp/entry/024",
       "lbl" : "Xenia sp. Carnegie-2017 (soft corals)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_025",
+      "id" : "http://www.kegg.jp/entry/025",
       "lbl" : "Thermomonas aquatica SY21",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_026",
+      "id" : "http://www.kegg.jp/entry/026",
       "lbl" : "Streptococcus thermophilus JIM 8232",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_027",
+      "id" : "http://www.kegg.jp/entry/027",
       "lbl" : "Sutterella faecalis KGMB03119",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_028",
+      "id" : "http://www.kegg.jp/entry/028",
       "lbl" : "Venezuelan equine encephalitis virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_029",
+      "id" : "http://www.kegg.jp/entry/029",
       "lbl" : "West Nile virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_030",
+      "id" : "http://www.kegg.jp/entry/030",
       "lbl" : "Serratia fonticola DSM 4576",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_031",
+      "id" : "http://www.kegg.jp/entry/031",
       "lbl" : "Zhouia spongiae HN-Y44",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_032",
+      "id" : "http://www.kegg.jp/entry/032",
       "lbl" : "Thermobifida halotolerans DSM 44931",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_033",
+      "id" : "http://www.kegg.jp/entry/033",
       "lbl" : "Yarrowia lipolytica DSM 3286",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_034",
+      "id" : "http://www.kegg.jp/entry/034",
       "lbl" : "Vibrio cholerae O1 El Tor N16961",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_035",
+      "id" : "http://www.kegg.jp/entry/035",
       "lbl" : "Vulgatibacter incomptus DSM 27710",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_036",
+      "id" : "http://www.kegg.jp/entry/036",
       "lbl" : "Vreelandella piezotolerans NBT06E8 (Halomonas piezotolerans NBT06E8)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_037",
+      "id" : "http://www.kegg.jp/entry/037",
       "lbl" : "Vibrio spartinae 3.6",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_038",
+      "id" : "http://www.kegg.jp/entry/038",
       "lbl" : "Streptomyces longhuiensis BH-MK-02",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_039",
+      "id" : "http://www.kegg.jp/entry/039",
       "lbl" : "Streptococcus acidominimus NCTC11291",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_040",
+      "id" : "http://www.kegg.jp/entry/040",
       "lbl" : "Ureaplasma parvum serovar 3 ATCC 700970",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_041",
+      "id" : "http://www.kegg.jp/entry/041",
       "lbl" : "Theropithecus gelada (gelada)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_042",
+      "id" : "http://www.kegg.jp/entry/042",
       "lbl" : "Thermoplasma volcanium GSS1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_043",
+      "id" : "http://www.kegg.jp/entry/043",
       "lbl" : "Staphylococcus aureus subsp. aureus 71193, methicillin-sensitive",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_044",
+      "id" : "http://www.kegg.jp/entry/044",
       "lbl" : "Streptomyces dangxiongensis Z022",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_045",
+      "id" : "http://www.kegg.jp/entry/045",
       "lbl" : "Staphylococcus hominis FDAARGOS_575",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_046",
+      "id" : "http://www.kegg.jp/entry/046",
       "lbl" : "Tribolium castaneum (red flour beetle)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_047",
+      "id" : "http://www.kegg.jp/entry/047",
       "lbl" : "Thermococcus gorgonarius W-12",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_048",
+      "id" : "http://www.kegg.jp/entry/048",
       "lbl" : "Spirosoma rhododendri CJU-R4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_049",
+      "id" : "http://www.kegg.jp/entry/049",
       "lbl" : "Zika virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_050",
+      "id" : "http://www.kegg.jp/entry/050",
       "lbl" : "Streptomyces buecherae AC541",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_051",
+      "id" : "http://www.kegg.jp/entry/051",
       "lbl" : "Streptococcus vestibularis NCTC12167",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_052",
+      "id" : "http://www.kegg.jp/entry/052",
       "lbl" : "Streptomyces rimosus ATCC 10970",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_053",
+      "id" : "http://www.kegg.jp/entry/053",
       "lbl" : "Western equine encephalitis virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_054",
+      "id" : "http://www.kegg.jp/entry/054",
       "lbl" : "Wolbachia endosymbiont of Aedes aegypti wMel_YK_2020",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_055",
+      "id" : "http://www.kegg.jp/entry/055",
       "lbl" : "Streptomyces ambofaciens ATCC 23877",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_056",
+      "id" : "http://www.kegg.jp/entry/056",
       "lbl" : "Wohlfahrtiimonas chitiniclastica BM-Y",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_057",
+      "id" : "http://www.kegg.jp/entry/057",
       "lbl" : "Yersinia similis 228",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_058",
+      "id" : "http://www.kegg.jp/entry/058",
       "lbl" : "Sinorhizobium meliloti 1021, endosymbiont of Medicago sativa and Medicago truncatula",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_059",
+      "id" : "http://www.kegg.jp/entry/059",
       "lbl" : "Staphylococcus aureus subsp. aureus HO 5096 0412, methicillin-resistant",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_060",
+      "id" : "http://www.kegg.jp/entry/060",
       "lbl" : "Streptococcus pneumoniae R6 (avirulent serotype 2) (laboratory-adapted D39 derivative)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_061",
+      "id" : "http://www.kegg.jp/entry/061",
       "lbl" : "Tick-borne encephalitis virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_062",
+      "id" : "http://www.kegg.jp/entry/062",
       "lbl" : "Sulfurisphaera tokodaii 7 (Sulfolobus tokodaii 7)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_063",
+      "id" : "http://www.kegg.jp/entry/063",
       "lbl" : "Yersinia pestis CO92 (biovar Orientalis)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_064",
+      "id" : "http://www.kegg.jp/entry/064",
       "lbl" : "Sandfly fever Naples virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_065",
+      "id" : "http://www.kegg.jp/entry/065",
       "lbl" : "Thermococcus nautili 30-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_066",
+      "id" : "http://www.kegg.jp/entry/066",
       "lbl" : "Weissella soli KACC 11848",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_067",
+      "id" : "http://www.kegg.jp/entry/067",
       "lbl" : "Uruburuella suis 1258/02",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_068",
+      "id" : "http://www.kegg.jp/entry/068",
       "lbl" : "Variovorax boronicumulans J1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_069",
+      "id" : "http://www.kegg.jp/entry/069",
       "lbl" : "Trichoplax adhaerens (placozoan)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_070",
+      "id" : "http://www.kegg.jp/entry/070",
       "lbl" : "Trueperella pyogenes TP6375",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_071",
+      "id" : "http://www.kegg.jp/entry/071",
       "lbl" : "Staphylococcus aureus subsp. aureus ST398, methicillin-resistant",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_072",
+      "id" : "http://www.kegg.jp/entry/072",
       "lbl" : "Streptococcus pneumoniae INV104 (serotype 1)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_073",
+      "id" : "http://www.kegg.jp/entry/073",
       "lbl" : "Streptomyces pristinaespiralis HCCB 10218",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_074",
+      "id" : "http://www.kegg.jp/entry/074",
       "lbl" : "Streptomyces sp. CFMR 7",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_075",
+      "id" : "http://www.kegg.jp/entry/075",
       "lbl" : "Pyrococcus furiosus DSM 3638",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_076",
+      "id" : "http://www.kegg.jp/entry/076",
       "lbl" : "Thermococcus celer Vu 13",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_077",
+      "id" : "http://www.kegg.jp/entry/077",
       "lbl" : "Sphingomonas sediminicola KACC 15039",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_078",
+      "id" : "http://www.kegg.jp/entry/078",
       "lbl" : "Varicella Zoster Virus (Human alphaherpesvirus 3)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_079",
+      "id" : "http://www.kegg.jp/entry/079",
       "lbl" : "Stutzerimonas zhaodongensis A252",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_080",
+      "id" : "http://www.kegg.jp/entry/080",
       "lbl" : "Swingsia samuiensis AH83",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_081",
+      "id" : "http://www.kegg.jp/entry/081",
       "lbl" : "Vagococcus hydrophili HDW17B",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_082",
+      "id" : "http://www.kegg.jp/entry/082",
       "lbl" : "Xanthomonas hortorum B07-007",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_083",
+      "id" : "http://www.kegg.jp/entry/083",
       "lbl" : "Xanthomonas campestris pv. campestris ATCC 33913",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_084",
+      "id" : "http://www.kegg.jp/entry/084",
       "lbl" : "Xanthomonas citri pv. citri 306 (Xanthomonas axonopodis pv. citri 306)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_085",
+      "id" : "http://www.kegg.jp/entry/085",
       "lbl" : "Streptomyces coelicolor A3(2)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_086",
+      "id" : "http://www.kegg.jp/entry/086",
       "lbl" : "Vibrio kanaloae R17",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_087",
+      "id" : "http://www.kegg.jp/entry/087",
       "lbl" : "Streptomyces subrutilus ATCC 27467",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_088",
+      "id" : "http://www.kegg.jp/entry/088",
       "lbl" : "Zea mays (maize)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_089",
+      "id" : "http://www.kegg.jp/entry/089",
       "lbl" : "Streptococcus salivarius JIM8777",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_090",
+      "id" : "http://www.kegg.jp/entry/090",
       "lbl" : "Varibaculum cambriense UMB0796",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_091",
+      "id" : "http://www.kegg.jp/entry/091",
       "lbl" : "Streptococcus agalactiae 2603 (serotype V)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_092",
+      "id" : "http://www.kegg.jp/entry/092",
       "lbl" : "Yersinia pestis KIM10+ (biovar Mediaevalis)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_093",
+      "id" : "http://www.kegg.jp/entry/093",
       "lbl" : "Toxoplasma gondii ME49",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_094",
+      "id" : "http://www.kegg.jp/entry/094",
       "lbl" : "Xanthomonas citri pv. fuscans 4834-R (Xanthomonas fuscans subsp. fuscans 4834-R)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_095",
+      "id" : "http://www.kegg.jp/entry/095",
       "lbl" : "Tepidibacter aestuarii 8C15b (Tepidibacter sp. 8C15b)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_096",
+      "id" : "http://www.kegg.jp/entry/096",
       "lbl" : "Xanthomonas arboricola 17",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_097",
+      "id" : "http://www.kegg.jp/entry/097",
       "lbl" : "Sinorhizobium terangae CB3126",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_098",
+      "id" : "http://www.kegg.jp/entry/098",
       "lbl" : "Vicugna pacos (alpaca)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_099",
+      "id" : "http://www.kegg.jp/entry/099",
       "lbl" : "Yamadazyma tenuis ATCC 10573 (Candida tenuis ATCC 10573)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_100",
+      "id" : "http://www.kegg.jp/entry/100",
       "lbl" : "Zobellella denitrificans F13-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_101",
+      "id" : "http://www.kegg.jp/entry/101",
       "lbl" : "Wigglesworthia glossinidia (Wigglesworthia brevipalpis), endosymbiont of Glossina brevipalpis (tsetse fly)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_102",
+      "id" : "http://www.kegg.jp/entry/102",
       "lbl" : "Phaeoacremonium minimum UCRPA7 (Togninia minima UCRPA7)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_103",
+      "id" : "http://www.kegg.jp/entry/103",
       "lbl" : "Thermococcus siculi RG-20",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_104",
+      "id" : "http://www.kegg.jp/entry/104",
       "lbl" : "Thermococcus thioreducens OGL-20P",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_105",
+      "id" : "http://www.kegg.jp/entry/105",
       "lbl" : "Proteiniborus sp. MB09-C3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_106",
+      "id" : "http://www.kegg.jp/entry/106",
       "lbl" : "Weissella cibaria CH2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_107",
+      "id" : "http://www.kegg.jp/entry/107",
       "lbl" : "Vibrio antiquarius EX25",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_108",
+      "id" : "http://www.kegg.jp/entry/108",
       "lbl" : "Vibrio vulnificus CMCP6",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_109",
+      "id" : "http://www.kegg.jp/entry/109",
       "lbl" : "Wujia chipingensis NSJ-4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_110",
+      "id" : "http://www.kegg.jp/entry/110",
       "lbl" : "Zymomonas mobilis subsp. mobilis NCIMB 11163",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_111",
+      "id" : "http://www.kegg.jp/entry/111",
       "lbl" : "Stenotrophomonas aracearum A5588",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_112",
+      "id" : "http://www.kegg.jp/entry/112",
       "lbl" : "Streptomyces tendae 139",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_113",
+      "id" : "http://www.kegg.jp/entry/113",
       "lbl" : "Xylella fastidiosa Temecula1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_114",
+      "id" : "http://www.kegg.jp/entry/114",
       "lbl" : "Vibrio europaeus 07/118 T2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_115",
+      "id" : "http://www.kegg.jp/entry/115",
       "lbl" : "Vibrio rotiferianus B64D1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_116",
+      "id" : "http://www.kegg.jp/entry/116",
       "lbl" : "Vibrio parahaemolyticus UCM-V493",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_117",
+      "id" : "http://www.kegg.jp/entry/117",
       "lbl" : "Tropheryma whipplei TW08/27",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_118",
+      "id" : "http://www.kegg.jp/entry/118",
       "lbl" : "Zygosaccharomyces rouxii CBS 732",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_119",
+      "id" : "http://www.kegg.jp/entry/119",
       "lbl" : "Tachysurus fulvidraco (yellow catfish)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_120",
+      "id" : "http://www.kegg.jp/entry/120",
       "lbl" : "Weissella paramesenteroides FDAARGOS_414",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_121",
+      "id" : "http://www.kegg.jp/entry/121",
       "lbl" : "Salmonella enterica subsp. enterica serovar Typhi Ty2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_122",
+      "id" : "http://www.kegg.jp/entry/122",
       "lbl" : "Wansuia hejianensis NSJ-29",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_123",
+      "id" : "http://www.kegg.jp/entry/123",
       "lbl" : "Streptomyces marincola SCSIO 03032",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_124",
+      "id" : "http://www.kegg.jp/entry/124",
       "lbl" : "Yimella sp. cx-51",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_125",
+      "id" : "http://www.kegg.jp/entry/125",
       "lbl" : "Tarenaya hassleriana (spider flower)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_126",
+      "id" : "http://www.kegg.jp/entry/126",
       "lbl" : "Wielerella bovis CCUG 44465",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_127",
+      "id" : "http://www.kegg.jp/entry/127",
       "lbl" : "Thermomonospora curvata DSM 43183",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_128",
+      "id" : "http://www.kegg.jp/entry/128",
       "lbl" : "Tula virus (Tula orthohantavirus)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_129",
+      "id" : "http://www.kegg.jp/entry/129",
       "lbl" : "Thermanaerovibrio acidaminovorans DSM 6589",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_130",
+      "id" : "http://www.kegg.jp/entry/130",
       "lbl" : "Veillonella parvula DSM 2008",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_131",
+      "id" : "http://www.kegg.jp/entry/131",
       "lbl" : "Sphaerotilus microaerophilus FB-5",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_132",
+      "id" : "http://www.kegg.jp/entry/132",
       "lbl" : "Uncinocarpus reesii 1704",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_133",
+      "id" : "http://www.kegg.jp/entry/133",
       "lbl" : "Tomato marchitez virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_134",
+      "id" : "http://www.kegg.jp/entry/134",
       "lbl" : "Tomato torrado virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_135",
+      "id" : "http://www.kegg.jp/entry/135",
       "lbl" : "Xylanimonas cellulosilytica DSM 15894",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_136",
+      "id" : "http://www.kegg.jp/entry/136",
       "lbl" : "Zootermopsis nevadensis (dampwood termite)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_137",
+      "id" : "http://www.kegg.jp/entry/137",
       "lbl" : "Tomato mosaic virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_138",
+      "id" : "http://www.kegg.jp/entry/138",
       "lbl" : "Tomato mottle virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_139",
+      "id" : "http://www.kegg.jp/entry/139",
       "lbl" : "Tremella mesenterica DSM 1558",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_140",
+      "id" : "http://www.kegg.jp/entry/140",
       "lbl" : "Youhaiella tibetensis fig4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_141",
+      "id" : "http://www.kegg.jp/entry/141",
       "lbl" : "Sphaerochaeta associata GLS2T",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_142",
+      "id" : "http://www.kegg.jp/entry/142",
       "lbl" : "Wallemia mellicola CBS 633.66 (Wallemia sebi CBS 633.66)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_143",
+      "id" : "http://www.kegg.jp/entry/143",
       "lbl" : "Tomato infectious chlorosis virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_144",
+      "id" : "http://www.kegg.jp/entry/144",
       "lbl" : "Wolbachia endosymbiont of Howardula sp. HA_SPA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_145",
+      "id" : "http://www.kegg.jp/entry/145",
       "lbl" : "Tobacco leaf curl virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_146",
+      "id" : "http://www.kegg.jp/entry/146",
       "lbl" : "Wolinella succinogenes DSM 1740",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_147",
+      "id" : "http://www.kegg.jp/entry/147",
       "lbl" : "Tobacco rattle virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_148",
+      "id" : "http://www.kegg.jp/entry/148",
       "lbl" : "Tobacco ringspot virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_149",
+      "id" : "http://www.kegg.jp/entry/149",
       "lbl" : "Tobacco streak virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_150",
+      "id" : "http://www.kegg.jp/entry/150",
       "lbl" : "Vibrio vulnificus YJ016 (biotype 1)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_151",
+      "id" : "http://www.kegg.jp/entry/151",
       "lbl" : "Thalassotalea psychrophila SQ149",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_152",
+      "id" : "http://www.kegg.jp/entry/152",
       "lbl" : "Thiopseudomonas alkaliphila B4199 (Oblitimonas alkaliphila B4199)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_153",
+      "id" : "http://www.kegg.jp/entry/153",
       "lbl" : "Vitreoscilla stercoraria SAG 1488-6",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_154",
+      "id" : "http://www.kegg.jp/entry/154",
       "lbl" : "Vairimorpha necatrix Illinois isolate",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_155",
+      "id" : "http://www.kegg.jp/entry/155",
       "lbl" : "Streptomyces tsukubensis NRRL 18488",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_156",
+      "id" : "http://www.kegg.jp/entry/156",
       "lbl" : "Xanthomonas phaseoli pv. phaseoli CFBP6546R",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_157",
+      "id" : "http://www.kegg.jp/entry/157",
       "lbl" : "Turneriella parva DSM 21527",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_158",
+      "id" : "http://www.kegg.jp/entry/158",
       "lbl" : "Saccharolobus islandicus L.D.8.5 (Sulfolobus islandicus L.D.8.5)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_159",
+      "id" : "http://www.kegg.jp/entry/159",
       "lbl" : "Thermobifida alba DSM 43795",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_160",
+      "id" : "http://www.kegg.jp/entry/160",
       "lbl" : "Zymomonas mobilis subsp. mobilis NRRL B-12526",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_161",
+      "id" : "http://www.kegg.jp/entry/161",
       "lbl" : "Xanthomonas rydalmerensis DAR34857",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_162",
+      "id" : "http://www.kegg.jp/entry/162",
       "lbl" : "Solibacillus silvestris StLB046",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_163",
+      "id" : "http://www.kegg.jp/entry/163",
       "lbl" : "Synechococcus elongatus PCC 6301",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_164",
+      "id" : "http://www.kegg.jp/entry/164",
       "lbl" : "Spirosoma sp. KCTC 42546",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_165",
+      "id" : "http://www.kegg.jp/entry/165",
       "lbl" : "Yersinia pestis 91001 (biovar Microtus)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_166",
+      "id" : "http://www.kegg.jp/entry/166",
       "lbl" : "Treponema ruminis RU1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_167",
+      "id" : "http://www.kegg.jp/entry/167",
       "lbl" : "Thalassotalea fonticola S1-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_168",
+      "id" : "http://www.kegg.jp/entry/168",
       "lbl" : "Thalassotalea nanhaiensis SQ345",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_169",
+      "id" : "http://www.kegg.jp/entry/169",
       "lbl" : "Tropicibacter oceani YMD87",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_170",
+      "id" : "http://www.kegg.jp/entry/170",
       "lbl" : "Thermus thermophilus HB27",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_171",
+      "id" : "http://www.kegg.jp/entry/171",
       "lbl" : "Streptococcus gallolyticus UCN34",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_172",
+      "id" : "http://www.kegg.jp/entry/172",
       "lbl" : "Vallitalea guaymasensis Ra1766G1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_173",
+      "id" : "http://www.kegg.jp/entry/173",
       "lbl" : "Streptococcus suis YB51 (serotype 3)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_174",
+      "id" : "http://www.kegg.jp/entry/174",
       "lbl" : "Thiothrix unzii A1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_175",
+      "id" : "http://www.kegg.jp/entry/175",
       "lbl" : "Rice black streaked dwarf virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_176",
+      "id" : "http://www.kegg.jp/entry/176",
       "lbl" : "Xenorhabdus budapestensis C72",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_177",
+      "id" : "http://www.kegg.jp/entry/177",
       "lbl" : "Triticum mosaic virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_178",
+      "id" : "http://www.kegg.jp/entry/178",
       "lbl" : "Xiashengella succiniciproducens Ai-910",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_179",
+      "id" : "http://www.kegg.jp/entry/179",
       "lbl" : "Yersinia hibernica LC20 (Yersinia enterocolitica LC20)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_180",
+      "id" : "http://www.kegg.jp/entry/180",
       "lbl" : "Wheat streak mosaic virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_181",
+      "id" : "http://www.kegg.jp/entry/181",
       "lbl" : "Wheat yellow mosaic virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_182",
+      "id" : "http://www.kegg.jp/entry/182",
       "lbl" : "Sweet potato chlorotic stunt virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_183",
+      "id" : "http://www.kegg.jp/entry/183",
       "lbl" : "Thermomonas sp. XSG",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_184",
+      "id" : "http://www.kegg.jp/entry/184",
       "lbl" : "Thermococcus guaymasensis DSM 11113",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_185",
+      "id" : "http://www.kegg.jp/entry/185",
       "lbl" : "Treponema pallidum subsp. pallidum Sea 81-4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_186",
+      "id" : "http://www.kegg.jp/entry/186",
       "lbl" : "Xenorhabdus bovienii SS-2004",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_187",
+      "id" : "http://www.kegg.jp/entry/187",
       "lbl" : "Zymomonas mobilis subsp. mobilis ATCC 29191",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_188",
+      "id" : "http://www.kegg.jp/entry/188",
       "lbl" : "Sweet potato leaf curl Canary virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_189",
+      "id" : "http://www.kegg.jp/entry/189",
       "lbl" : "Terrilactibacillus sp. S3-3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_190",
+      "id" : "http://www.kegg.jp/entry/190",
       "lbl" : "Sweet potato leaf curl Lanzarote virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_191",
+      "id" : "http://www.kegg.jp/entry/191",
       "lbl" : "Sweet potato leaf curl South Carolina virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_192",
+      "id" : "http://www.kegg.jp/entry/192",
       "lbl" : "Thermosulfidibacter takaii ABI70S6",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_193",
+      "id" : "http://www.kegg.jp/entry/193",
       "lbl" : "Vibrio syngnathi K08M4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_194",
+      "id" : "http://www.kegg.jp/entry/194",
       "lbl" : "Sweet potato leaf curl virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_195",
+      "id" : "http://www.kegg.jp/entry/195",
       "lbl" : "Yersinia pseudotuberculosis IP 32953 (serotype I)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_196",
+      "id" : "http://www.kegg.jp/entry/196",
       "lbl" : "Symbiobacterium thermophilum IAM 14863",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_197",
+      "id" : "http://www.kegg.jp/entry/197",
       "lbl" : "Shewanella bicestrii JAB-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_198",
+      "id" : "http://www.kegg.jp/entry/198",
       "lbl" : "Sphingobacterium oryzagri KACC 22765",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_199",
+      "id" : "http://www.kegg.jp/entry/199",
       "lbl" : "Treponema parvum ATCC 700770",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_200",
+      "id" : "http://www.kegg.jp/entry/200",
       "lbl" : "Sneathiella marina PHK-P5",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_201",
+      "id" : "http://www.kegg.jp/entry/201",
       "lbl" : "Sphingobium indicum UT26S (Sphingobium japonicum UT26S)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_202",
+      "id" : "http://www.kegg.jp/entry/202",
       "lbl" : "Vibrio gigantis ACE001",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_203",
+      "id" : "http://www.kegg.jp/entry/203",
       "lbl" : "Sugarcane mosaic virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_204",
+      "id" : "http://www.kegg.jp/entry/204",
       "lbl" : "Shouchella lehensis G1 (Alkalihalobacillus lehensis G1 (Bacillus lehensis G1))",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_205",
+      "id" : "http://www.kegg.jp/entry/205",
       "lbl" : "Streptomyces laurentii ATCC 31255",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_206",
+      "id" : "http://www.kegg.jp/entry/206",
       "lbl" : "Shewanella violacea DSS12",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_207",
+      "id" : "http://www.kegg.jp/entry/207",
       "lbl" : "Tunicatimonas pelagia NBRC 107804",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_208",
+      "id" : "http://www.kegg.jp/entry/208",
       "lbl" : "Tenacibaculum dicentrarchi AY7486TD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_209",
+      "id" : "http://www.kegg.jp/entry/209",
       "lbl" : "Williamsoniiplasma luminosum PIMN-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_210",
+      "id" : "http://www.kegg.jp/entry/210",
       "lbl" : "Yersinia pestis Z176003",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_211",
+      "id" : "http://www.kegg.jp/entry/211",
       "lbl" : "Tunturibacter gelidoferens M8UP39",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_212",
+      "id" : "http://www.kegg.jp/entry/212",
       "lbl" : "Xylanibacter ruminicola (Prevotella ruminicola 23)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_213",
+      "id" : "http://www.kegg.jp/entry/213",
       "lbl" : "Tunturibacter psychrotolerans X5P6",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_214",
+      "id" : "http://www.kegg.jp/entry/214",
       "lbl" : "Streptococcus suis S735 (serotype 2)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_215",
+      "id" : "http://www.kegg.jp/entry/215",
       "lbl" : "Streptomyces deccanensis KCTC 19241",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_216",
+      "id" : "http://www.kegg.jp/entry/216",
       "lbl" : "Zunongwangia profunda SM-A87",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_217",
+      "id" : "http://www.kegg.jp/entry/217",
       "lbl" : "Trichoderma atroviride P1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_218",
+      "id" : "http://www.kegg.jp/entry/218",
       "lbl" : "Roseinatronobacter bogoriensis subsp. barguzinensis alga05 (Rhodobaca barguzinensis alga05)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_219",
+      "id" : "http://www.kegg.jp/entry/219",
       "lbl" : "Virgibacillus sp. SK37",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_220",
+      "id" : "http://www.kegg.jp/entry/220",
       "lbl" : "Thermus thermophilus HB8",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_221",
+      "id" : "http://www.kegg.jp/entry/221",
       "lbl" : "Zymomonas mobilis subsp. mobilis ZM4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_222",
+      "id" : "http://www.kegg.jp/entry/222",
       "lbl" : "Sturnira hondurensis",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_223",
+      "id" : "http://www.kegg.jp/entry/223",
       "lbl" : "Plantibacter flavus 251",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_224",
+      "id" : "http://www.kegg.jp/entry/224",
       "lbl" : "Thalassospira marina CSC3H3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_225",
+      "id" : "http://www.kegg.jp/entry/225",
       "lbl" : "Trachypithecus francoisi (Francois's langur)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_226",
+      "id" : "http://www.kegg.jp/entry/226",
       "lbl" : "Thermococcus kodakarensis KOD1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_227",
+      "id" : "http://www.kegg.jp/entry/227",
       "lbl" : "Vreelandella olivaria TYRC17 (Halomonas olivaria TYRC17)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_228",
+      "id" : "http://www.kegg.jp/entry/228",
       "lbl" : "Weissella tructae WS08 (Weissella ceti WS08)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_229",
+      "id" : "http://www.kegg.jp/entry/229",
       "lbl" : "Vagococcus intermedius STAA11",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_230",
+      "id" : "http://www.kegg.jp/entry/230",
       "lbl" : "Vibrio sinaloensis YA2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_231",
+      "id" : "http://www.kegg.jp/entry/231",
       "lbl" : "Thermothelomyces thermophilus ATCC 42464 (Myceliophthora thermophila ATCC 42464)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_232",
+      "id" : "http://www.kegg.jp/entry/232",
       "lbl" : "Triticum urartu (red wild einkorn wheat)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_233",
+      "id" : "http://www.kegg.jp/entry/233",
       "lbl" : "Streptomyces profundus MA3_2.13",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_234",
+      "id" : "http://www.kegg.jp/entry/234",
       "lbl" : "Wolbachia sp. wBm, endosymbiont strain TRS of Brugia malayi (nematode)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_235",
+      "id" : "http://www.kegg.jp/entry/235",
       "lbl" : "Xanthomonas oryzae pv. oryzae KACC 10331",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_236",
+      "id" : "http://www.kegg.jp/entry/236",
       "lbl" : "Torulaspora delbrueckii CBS 1146",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_237",
+      "id" : "http://www.kegg.jp/entry/237",
       "lbl" : "Thermosphaera aggregans DSM 11486",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_238",
+      "id" : "http://www.kegg.jp/entry/238",
       "lbl" : "Thermocoleostomius sinensis A174",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_239",
+      "id" : "http://www.kegg.jp/entry/239",
       "lbl" : "Zobellia laminariae AS94",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_240",
+      "id" : "http://www.kegg.jp/entry/240",
       "lbl" : "Vibrio splendidus 2_C04b",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_241",
+      "id" : "http://www.kegg.jp/entry/241",
       "lbl" : "Sulfuricaulis limicola HA5",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_242",
+      "id" : "http://www.kegg.jp/entry/242",
       "lbl" : "Tenacibaculum mesophilum DSM 13764",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_243",
+      "id" : "http://www.kegg.jp/entry/243",
       "lbl" : "Wolbachia endosymbiont of Delia radicum",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_244",
+      "id" : "http://www.kegg.jp/entry/244",
       "lbl" : "Raspberry leaf mottle virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_245",
+      "id" : "http://www.kegg.jp/entry/245",
       "lbl" : "Thermococcus sp. 2319x1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_246",
+      "id" : "http://www.kegg.jp/entry/246",
       "lbl" : "Thalassospira sp. GO-4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_247",
+      "id" : "http://www.kegg.jp/entry/247",
       "lbl" : "Xanthomonas campestris pv. campestris 8004 (Beijing)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_248",
+      "id" : "http://www.kegg.jp/entry/248",
       "lbl" : "Streptococcus agalactiae GD201008-001 (serotype Ia)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_249",
+      "id" : "http://www.kegg.jp/entry/249",
       "lbl" : "Terrisporobacter glycolicus WW3900",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_250",
+      "id" : "http://www.kegg.jp/entry/250",
       "lbl" : "Thermoanaerobacter mathranii subsp. mathranii A3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_251",
+      "id" : "http://www.kegg.jp/entry/251",
       "lbl" : "Thrips palmi (melon thrips)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_252",
+      "id" : "http://www.kegg.jp/entry/252",
       "lbl" : "Streptomyces gardneri ATCC 15439",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_253",
+      "id" : "http://www.kegg.jp/entry/253",
       "lbl" : "Thiocapsa sp. M50B4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_254",
+      "id" : "http://www.kegg.jp/entry/254",
       "lbl" : "Undibacterium cyanobacteriorum 20NA77.5",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_255",
+      "id" : "http://www.kegg.jp/entry/255",
       "lbl" : "Waddlia chondrophila WSU 86-1044",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_256",
+      "id" : "http://www.kegg.jp/entry/256",
       "lbl" : "Tripterygium wilfordii (thunder duke vine)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_257",
+      "id" : "http://www.kegg.jp/entry/257",
       "lbl" : "Tomato aspermy virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_258",
+      "id" : "http://www.kegg.jp/entry/258",
       "lbl" : "Sphingobacterium sp. ML3W",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_259",
+      "id" : "http://www.kegg.jp/entry/259",
       "lbl" : "Vibrio qinghaiensis Q67",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_260",
+      "id" : "http://www.kegg.jp/entry/260",
       "lbl" : "Squash leaf curl virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_261",
+      "id" : "http://www.kegg.jp/entry/261",
       "lbl" : "Virgibacillus dokdonensis 21D",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_262",
+      "id" : "http://www.kegg.jp/entry/262",
       "lbl" : "Streptococcus pyogenes MGAS5005 (serotype M1)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_263",
+      "id" : "http://www.kegg.jp/entry/263",
       "lbl" : "Treponema sp. OMZ 803 BF2M",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_264",
+      "id" : "http://www.kegg.jp/entry/264",
       "lbl" : "Vreelandella sulfidaeris ATCC BAA-803 (Halomonas sulfidaeris ATCC BAA-803)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_265",
+      "id" : "http://www.kegg.jp/entry/265",
       "lbl" : "Thermobifida fusca YX",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_266",
+      "id" : "http://www.kegg.jp/entry/266",
       "lbl" : "Pseudomonas savastanoi pv. phaseolicola 1448A (Pseudomonas syringae pv. phaseolicola 1448A)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_267",
+      "id" : "http://www.kegg.jp/entry/267",
       "lbl" : "Tsukamurella tyrosinosolvens (Tsukamurella sp. MH1)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_268",
+      "id" : "http://www.kegg.jp/entry/268",
       "lbl" : "Rothia aeria JCM 11412",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_269",
+      "id" : "http://www.kegg.jp/entry/269",
       "lbl" : "Streptococcus dysgalactiae subsp. equisimilis RE378",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_270",
+      "id" : "http://www.kegg.jp/entry/270",
       "lbl" : "Sugiyamaella lignohabitans CBS 10342",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_271",
+      "id" : "http://www.kegg.jp/entry/271",
       "lbl" : "Ursus maritimus (polar bear)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_272",
+      "id" : "http://www.kegg.jp/entry/272",
       "lbl" : "Staphylococcus nepalensis JS1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_273",
+      "id" : "http://www.kegg.jp/entry/273",
       "lbl" : "Treponema pallidum subsp. pallidum Mexico A",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_274",
+      "id" : "http://www.kegg.jp/entry/274",
       "lbl" : "Xenorhabdus nematophila ATCC 19061",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_275",
+      "id" : "http://www.kegg.jp/entry/275",
       "lbl" : "Zootoca vivipara (common lizard)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_276",
+      "id" : "http://www.kegg.jp/entry/276",
       "lbl" : "Thermacetogenium phaeum DSM 12270",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_277",
+      "id" : "http://www.kegg.jp/entry/277",
       "lbl" : "Trichormus variabilis ATCC 29413 (Anabaena variabilis ATCC 29413)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_278",
+      "id" : "http://www.kegg.jp/entry/278",
       "lbl" : "Triticum dicoccoides (wild emmer wheat)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_279",
+      "id" : "http://www.kegg.jp/entry/279",
       "lbl" : "Turnip crinkle virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_280",
+      "id" : "http://www.kegg.jp/entry/280",
       "lbl" : "Weissella ceti WS74",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_281",
+      "id" : "http://www.kegg.jp/entry/281",
       "lbl" : "White clover mosaic virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_282",
+      "id" : "http://www.kegg.jp/entry/282",
       "lbl" : "Tuber melanosporum Mel28",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_283",
+      "id" : "http://www.kegg.jp/entry/283",
       "lbl" : "Spiroplasma floricola 23-6",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_284",
+      "id" : "http://www.kegg.jp/entry/284",
       "lbl" : "Pseudomonas mediterranea S58",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_285",
+      "id" : "http://www.kegg.jp/entry/285",
       "lbl" : "Zymoseptoria tritici IPO323",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_286",
+      "id" : "http://www.kegg.jp/entry/286",
       "lbl" : "Streptococcus iniae ISNO",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_287",
+      "id" : "http://www.kegg.jp/entry/287",
       "lbl" : "Streptococcus sp. VT 162",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_288",
+      "id" : "http://www.kegg.jp/entry/288",
       "lbl" : "Xanthomonas euvesicatoria pv. vesicatoria 85-10 (Xanthomonas campestris pv. vesicatoria 85-10)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_289",
+      "id" : "http://www.kegg.jp/entry/289",
       "lbl" : "Thermosediminibacter oceani DSM 16646",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_290",
+      "id" : "http://www.kegg.jp/entry/290",
       "lbl" : "Streptococcus porcinus NCTC10925",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_291",
+      "id" : "http://www.kegg.jp/entry/291",
       "lbl" : "Styela clava (leathery sea squirt)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_292",
+      "id" : "http://www.kegg.jp/entry/292",
       "lbl" : "Synechococcus sp. CC9605",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_293",
+      "id" : "http://www.kegg.jp/entry/293",
       "lbl" : "Zerene cesonia (dogface butterfly)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_294",
+      "id" : "http://www.kegg.jp/entry/294",
       "lbl" : "Vibrio vulnificus 93U204",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_295",
+      "id" : "http://www.kegg.jp/entry/295",
       "lbl" : "Weissella ceti WS105",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_296",
+      "id" : "http://www.kegg.jp/entry/296",
       "lbl" : "Turnip mosaic virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_297",
+      "id" : "http://www.kegg.jp/entry/297",
       "lbl" : "Synechocystis sp. PCC 7338",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_298",
+      "id" : "http://www.kegg.jp/entry/298",
       "lbl" : "Sulfurimonas lithotrophica GYSZ_1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_299",
+      "id" : "http://www.kegg.jp/entry/299",
       "lbl" : "Thermoanaerobacterium thermosaccharolyticum DSM 571",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_300",
+      "id" : "http://www.kegg.jp/entry/300",
       "lbl" : "Thermoanaerobacter sp. RKWS2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_301",
+      "id" : "http://www.kegg.jp/entry/301",
       "lbl" : "Streptomyces cadmiisoli ZFG47",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_302",
+      "id" : "http://www.kegg.jp/entry/302",
       "lbl" : "Streptomyces coeruleorubidus ATCC 13740",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_303",
+      "id" : "http://www.kegg.jp/entry/303",
       "lbl" : "Streptomyces sp. PBH53",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_304",
+      "id" : "http://www.kegg.jp/entry/304",
       "lbl" : "Rubus yellow net virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_305",
+      "id" : "http://www.kegg.jp/entry/305",
       "lbl" : "Thermatribacter velox B11",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_306",
+      "id" : "http://www.kegg.jp/entry/306",
       "lbl" : "Tetragenococcus halophilus YJ1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_307",
+      "id" : "http://www.kegg.jp/entry/307",
       "lbl" : "Yersinia pseudotuberculosis ATCC 6904",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_308",
+      "id" : "http://www.kegg.jp/entry/308",
       "lbl" : "Tepidiforma bonchosmolovskayae 3753O",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_309",
+      "id" : "http://www.kegg.jp/entry/309",
       "lbl" : "Tessaracoccus lacteus T21",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_310",
+      "id" : "http://www.kegg.jp/entry/310",
       "lbl" : "Sulfurisphaera ohwakuensis TA-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_311",
+      "id" : "http://www.kegg.jp/entry/311",
       "lbl" : "Xiphias gladius (swordfish)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_312",
+      "id" : "http://www.kegg.jp/entry/312",
       "lbl" : "Salinibacter ruber DSM 13855",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_313",
+      "id" : "http://www.kegg.jp/entry/313",
       "lbl" : "Vulcanisaeta distributa DSM 14429",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_314",
+      "id" : "http://www.kegg.jp/entry/314",
       "lbl" : "Streptomyces lavendulae subsp. lavendulae CCM 3239",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_315",
+      "id" : "http://www.kegg.jp/entry/315",
       "lbl" : "Zhongshania aliphaticivorans SM2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_316",
+      "id" : "http://www.kegg.jp/entry/316",
       "lbl" : "Thermococcus argininiproducens IOH2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_317",
+      "id" : "http://www.kegg.jp/entry/317",
       "lbl" : "Xylella fastidiosa MUL0034",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_318",
+      "id" : "http://www.kegg.jp/entry/318",
       "lbl" : "Xylella fastidiosa subsp. sandyi Ann-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_319",
+      "id" : "http://www.kegg.jp/entry/319",
       "lbl" : "Wolbachia endosymbiont of Frankliniella intonsa wWF",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_320",
+      "id" : "http://www.kegg.jp/entry/320",
       "lbl" : "Variibacter gotjawalensis GJW-30",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_321",
+      "id" : "http://www.kegg.jp/entry/321",
       "lbl" : "Sulfurifustis variabilis skN76",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_322",
+      "id" : "http://www.kegg.jp/entry/322",
       "lbl" : "Streptomyces mirabilis P16B-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_323",
+      "id" : "http://www.kegg.jp/entry/323",
       "lbl" : "Streptomyces spectabilis ATCC 27465",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_324",
+      "id" : "http://www.kegg.jp/entry/324",
       "lbl" : "Staphylococcus aureus subsp. aureus NCTC 8325",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_325",
+      "id" : "http://www.kegg.jp/entry/325",
       "lbl" : "Variovorax sp. PAMC 28711",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_326",
+      "id" : "http://www.kegg.jp/entry/326",
       "lbl" : "Streptomyces nojiriensis JCM 3382",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_327",
+      "id" : "http://www.kegg.jp/entry/327",
       "lbl" : "Streptomyces glaucescens GLA.O",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_328",
+      "id" : "http://www.kegg.jp/entry/328",
       "lbl" : "Turicibacter bilis MMM721",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_329",
+      "id" : "http://www.kegg.jp/entry/329",
       "lbl" : "Rocio virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_330",
+      "id" : "http://www.kegg.jp/entry/330",
       "lbl" : "Volvox carteri f. nagariensis",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_331",
+      "id" : "http://www.kegg.jp/entry/331",
       "lbl" : "Virgibacillus salarius 19.PP.Sc1.6",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_332",
+      "id" : "http://www.kegg.jp/entry/332",
       "lbl" : "Vibrio diabolicus FDAARGOS_96",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_333",
+      "id" : "http://www.kegg.jp/entry/333",
       "lbl" : "Streptococcus dysgalactiae subsp. equisimilis AC-2713",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_334",
+      "id" : "http://www.kegg.jp/entry/334",
       "lbl" : "Streptococcus pneumoniae gamPNI0373 (virulent serotype 1)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_335",
+      "id" : "http://www.kegg.jp/entry/335",
       "lbl" : "Streptomyces antimycoticus FIM95-F1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_336",
+      "id" : "http://www.kegg.jp/entry/336",
       "lbl" : "Vitreoscilla sp. C1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_337",
+      "id" : "http://www.kegg.jp/entry/337",
       "lbl" : "Sulfurimonas sediminis S2-6",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_338",
+      "id" : "http://www.kegg.jp/entry/338",
       "lbl" : "Streptococcus agalactiae SA20 (Streptococcus agalactiae SA20-06)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_339",
+      "id" : "http://www.kegg.jp/entry/339",
       "lbl" : "Staphylococcus aureus 08BA02176, livestock-associated methicillin-resistant",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_340",
+      "id" : "http://www.kegg.jp/entry/340",
       "lbl" : "Streptomyces camelliae HUAS 2-6",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_341",
+      "id" : "http://www.kegg.jp/entry/341",
       "lbl" : "Streptomyces platensis ATCC 23948",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_342",
+      "id" : "http://www.kegg.jp/entry/342",
       "lbl" : "Treponema phagedenis S11.1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_343",
+      "id" : "http://www.kegg.jp/entry/343",
       "lbl" : "Streptomyces aureoverticillatus HN6",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_344",
+      "id" : "http://www.kegg.jp/entry/344",
       "lbl" : "Synechococcus sp. KORDI-100",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_345",
+      "id" : "http://www.kegg.jp/entry/345",
       "lbl" : "Xanthomonas hyacinthi CFBP 1156",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_346",
+      "id" : "http://www.kegg.jp/entry/346",
       "lbl" : "Thermus oshimai JL-2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_347",
+      "id" : "http://www.kegg.jp/entry/347",
       "lbl" : "Trachemys scripta elegans (red-eared slider)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_348",
+      "id" : "http://www.kegg.jp/entry/348",
       "lbl" : "Pseudomonas kribbensis 46-2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_349",
+      "id" : "http://www.kegg.jp/entry/349",
       "lbl" : "Terrisporobacter petrolearius HSE",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_350",
+      "id" : "http://www.kegg.jp/entry/350",
       "lbl" : "Thermosynechococcus sichuanensis E542",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_351",
+      "id" : "http://www.kegg.jp/entry/351",
       "lbl" : "Psychrobacter sp. KH172YL61",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_352",
+      "id" : "http://www.kegg.jp/entry/352",
       "lbl" : "Rubripirellula lacrimiformis K22_7",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_353",
+      "id" : "http://www.kegg.jp/entry/353",
       "lbl" : "Staphylococcus saccharolyticus FDAARGOS_1074",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_354",
+      "id" : "http://www.kegg.jp/entry/354",
       "lbl" : "Sphingomonas bisphenolicum AO1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_355",
+      "id" : "http://www.kegg.jp/entry/355",
       "lbl" : "Streptococcus pyogenes MGAS10270 (serotype M2)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_356",
+      "id" : "http://www.kegg.jp/entry/356",
       "lbl" : "Streptococcus pyogenes MGAS10750 (serotype M4)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_357",
+      "id" : "http://www.kegg.jp/entry/357",
       "lbl" : "Usutu virus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_358",
+      "id" : "http://www.kegg.jp/entry/358",
       "lbl" : "Streptococcus pyogenes MGAS9429 (serotype M12)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_359",
+      "id" : "http://www.kegg.jp/entry/359",
       "lbl" : "Tolypothrix tenuis PCC 7101 NIES-37",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_360",
+      "id" : "http://www.kegg.jp/entry/360",
       "lbl" : "Xanthomonas oryzae pv. oryzae MAFF 311018",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_361",
+      "id" : "http://www.kegg.jp/entry/361",
       "lbl" : "Sphingopyxis alaskensis RB2256",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_362",
+      "id" : "http://www.kegg.jp/entry/362",
       "lbl" : "Pulveribacter suum SC2-7",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_363",
+      "id" : "http://www.kegg.jp/entry/363",
       "lbl" : "Xiphophorus hellerii (green swordtail)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_364",
+      "id" : "http://www.kegg.jp/entry/364",
       "lbl" : "Thalassospira sp. A40-3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_365",
+      "id" : "http://www.kegg.jp/entry/365",
       "lbl" : "Shewanella maritima D4-2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_366",
+      "id" : "http://www.kegg.jp/entry/366",
       "lbl" : "Stutzerimonas decontaminans 19SMN4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_367",
+      "id" : "http://www.kegg.jp/entry/367",
       "lbl" : "Tritonibacter mobilis F1926",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_368",
+      "id" : "http://www.kegg.jp/entry/368",
       "lbl" : "Xanthomonas prunicola Arg-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_369",
+      "id" : "http://www.kegg.jp/entry/369",
       "lbl" : "Yersinia pestis Antiqua (biovar Antiqua)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_370",
+      "id" : "http://www.kegg.jp/entry/370",
       "lbl" : "Yersinia pestis Nepal516 (biovar Antiqua)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_371",
+      "id" : "http://www.kegg.jp/entry/371",
       "lbl" : "Thermus antranikianii RBS10-92",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_372",
+      "id" : "http://www.kegg.jp/entry/372",
       "lbl" : "Sphingopyxis granuli TFA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_373",
+      "id" : "http://www.kegg.jp/entry/373",
       "lbl" : "Sulfurimonas sp. CVO",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_374",
+      "id" : "http://www.kegg.jp/entry/374",
       "lbl" : "Streptomyces sp. MOE7",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_375",
+      "id" : "http://www.kegg.jp/entry/375",
       "lbl" : "Sulfitobacter sp. CB2047",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_376",
+      "id" : "http://www.kegg.jp/entry/376",
       "lbl" : "Spiroplasma phoeniceum P40",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_377",
+      "id" : "http://www.kegg.jp/entry/377",
       "lbl" : "Thermococcus barophilus MP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_378",
+      "id" : "http://www.kegg.jp/entry/378",
       "lbl" : "Streptomyces chromofuscus DSM 40273",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_379",
+      "id" : "http://www.kegg.jp/entry/379",
       "lbl" : "Vibrio fluvialis ATCC 33809",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_380",
+      "id" : "http://www.kegg.jp/entry/380",
       "lbl" : "Vibrio harveyi ATCC 43516",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_381",
+      "id" : "http://www.kegg.jp/entry/381",
       "lbl" : "Vibrio mimicus ATCC 33654",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_382",
+      "id" : "http://www.kegg.jp/entry/382",
       "lbl" : "Spiroplasma mirum ATCC 29335 SMCA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_383",
+      "id" : "http://www.kegg.jp/entry/383",
       "lbl" : "Xylophilus rhododendri KACC 21265",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_384",
+      "id" : "http://www.kegg.jp/entry/384",
       "lbl" : "Stenotrophomonas sp. MYb57",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_385",
+      "id" : "http://www.kegg.jp/entry/385",
       "lbl" : "Zymomonas mobilis subsp. mobilis CP4 = NRRL B-14023",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_386",
+      "id" : "http://www.kegg.jp/entry/386",
       "lbl" : "Venturia canescens",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_387",
+      "id" : "http://www.kegg.jp/entry/387",
       "lbl" : "Trichodesmium erythraeum IMS101",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_388",
+      "id" : "http://www.kegg.jp/entry/388",
       "lbl" : "Xanthomonas vasicola pv. vasculorum SAM119",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_389",
+      "id" : "http://www.kegg.jp/entry/389",
       "lbl" : "Vibrio cholerae O1 2012EL-2176",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_390",
+      "id" : "http://www.kegg.jp/entry/390",
       "lbl" : "Trueperella pecoris 19M2397",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_391",
+      "id" : "http://www.kegg.jp/entry/391",
       "lbl" : "Thermovibrio ammonificans HB-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_392",
+      "id" : "http://www.kegg.jp/entry/392",
       "lbl" : "Variovorax paradoxus EPS",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_393",
+      "id" : "http://www.kegg.jp/entry/393",
       "lbl" : "Vibrio cyclitrophicus ECSMB14105",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_394",
+      "id" : "http://www.kegg.jp/entry/394",
       "lbl" : "Thermobacillus composti KWC4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_395",
+      "id" : "http://www.kegg.jp/entry/395",
       "lbl" : "Sphingobacterium mizutaii NCTC12149",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_396",
+      "id" : "http://www.kegg.jp/entry/396",
       "lbl" : "Thiothrix lacustris MK1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_397",
+      "id" : "http://www.kegg.jp/entry/397",
       "lbl" : "Thioflavicoccus mobilis 8321",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_398",
+      "id" : "http://www.kegg.jp/entry/398",
       "lbl" : "Virgibacillus sp. MSP4-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_399",
+      "id" : "http://www.kegg.jp/entry/399",
       "lbl" : "Streptomyces sp. S1D4-11",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_400",
+      "id" : "http://www.kegg.jp/entry/400",
       "lbl" : "Xenorhabdus griffiniae Kalro",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_401",
+      "id" : "http://www.kegg.jp/entry/401",
       "lbl" : "Staphylococcus kloosii ATCC 43959",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_402",
+      "id" : "http://www.kegg.jp/entry/402",
       "lbl" : "Yersinia massiliensis GTA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_403",
+      "id" : "http://www.kegg.jp/entry/403",
       "lbl" : "Rhipicephalus microplus (southern cattle tick)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_404",
+      "id" : "http://www.kegg.jp/entry/404",
       "lbl" : "Shewanella sp. WE21",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_405",
+      "id" : "http://www.kegg.jp/entry/405",
       "lbl" : "Streptococcus koreensis JS71",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_406",
+      "id" : "http://www.kegg.jp/entry/406",
       "lbl" : "Streptomyces solisilvae HNM0141",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_407",
+      "id" : "http://www.kegg.jp/entry/407",
       "lbl" : "Thermoanaerobacterium thermosaccharolyticum M0795",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_408",
+      "id" : "http://www.kegg.jp/entry/408",
       "lbl" : "Thioalkalivibrio nitratireducens DSM 14787",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_409",
+      "id" : "http://www.kegg.jp/entry/409",
       "lbl" : "Vibrio parahaemolyticus BB22OP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_410",
+      "id" : "http://www.kegg.jp/entry/410",
       "lbl" : "Winslowiella toletana 1.2.20",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_411",
+      "id" : "http://www.kegg.jp/entry/411",
       "lbl" : "Stenotrophomonas geniculata BR23",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_412",
+      "id" : "http://www.kegg.jp/entry/412",
       "lbl" : "Rhodocytophaga rosea 172606-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_413",
+      "id" : "http://www.kegg.jp/entry/413",
       "lbl" : "Synechococcus sp. SynAce01",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_414",
+      "id" : "http://www.kegg.jp/entry/414",
       "lbl" : "Thermus scotoductus SA-01",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_415",
+      "id" : "http://www.kegg.jp/entry/415",
       "lbl" : "Vibrio vulnificus MO6-24/O",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_416",
+      "id" : "http://www.kegg.jp/entry/416",
       "lbl" : "Streptomyces formicae KY5",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_417",
+      "id" : "http://www.kegg.jp/entry/417",
       "lbl" : "Varroa jacobsoni",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_418",
+      "id" : "http://www.kegg.jp/entry/418",
       "lbl" : "Thermaerobacter sp. PB12/4term",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_419",
+      "id" : "http://www.kegg.jp/entry/419",
       "lbl" : "Vibrio sp. STUT-A11",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_420",
+      "id" : "http://www.kegg.jp/entry/420",
       "lbl" : "Vibrio sp. STUT-A16",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_421",
+      "id" : "http://www.kegg.jp/entry/421",
       "lbl" : "Thermococcus eurythermalis A501",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_422",
+      "id" : "http://www.kegg.jp/entry/422",
       "lbl" : "Vitreoscilla massiliensis SN4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_423",
+      "id" : "http://www.kegg.jp/entry/423",
       "lbl" : "Parasphingorhabdus halotolerans JK6",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_424",
+      "id" : "http://www.kegg.jp/entry/424",
       "lbl" : "Vreelandella aquamarina SCSIO 43005 (Halomonas meridiana SCSIO 43005)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_425",
+      "id" : "http://www.kegg.jp/entry/425",
       "lbl" : "Stigmatella aurantiaca DW4/3-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_426",
+      "id" : "http://www.kegg.jp/entry/426",
       "lbl" : "Thalassotalea sp. LPB0316",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_427",
+      "id" : "http://www.kegg.jp/entry/427",
       "lbl" : "Woeseia oceani XK5",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_428",
+      "id" : "http://www.kegg.jp/entry/428",
       "lbl" : "Tuwongella immobilis MBLW1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_429",
+      "id" : "http://www.kegg.jp/entry/429",
       "lbl" : "Syntrophobotulus glycolicus DSM 8271",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_430",
+      "id" : "http://www.kegg.jp/entry/430",
       "lbl" : "Virgibacillus pantothenticus DSM 26",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_431",
+      "id" : "http://www.kegg.jp/entry/431",
       "lbl" : "Stutzerimonas degradans XL272",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_432",
+      "id" : "http://www.kegg.jp/entry/432",
       "lbl" : "Vibrio paracholerae NCTC 30",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_433",
+      "id" : "http://www.kegg.jp/entry/433",
       "lbl" : "Serratia sp. FGI94",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_434",
+      "id" : "http://www.kegg.jp/entry/434",
       "lbl" : "Tepidanaerobacter acetatoxydans Re1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_435",
+      "id" : "http://www.kegg.jp/entry/435",
       "lbl" : "Vulpes lagopus (Arctic fox)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_436",
+      "id" : "http://www.kegg.jp/entry/436",
       "lbl" : "Streptomyces koyangensis VK-A60T",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_437",
+      "id" : "http://www.kegg.jp/entry/437",
       "lbl" : "Pseudomonas batumici Koz11",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_438",
+      "id" : "http://www.kegg.jp/entry/438",
       "lbl" : "Sedimentibacter sp. MB35-C1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_439",
+      "id" : "http://www.kegg.jp/entry/439",
       "lbl" : "Sphingopyxis sp. BSN-002",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_440",
+      "id" : "http://www.kegg.jp/entry/440",
       "lbl" : "Zoogloeaceae bacteirum Par-f-2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_441",
+      "id" : "http://www.kegg.jp/entry/441",
       "lbl" : "Weeksella virosa DSM 16922",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_442",
+      "id" : "http://www.kegg.jp/entry/442",
       "lbl" : "Mycoplasma suis KI3806",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_443",
+      "id" : "http://www.kegg.jp/entry/443",
       "lbl" : "Xiamenia xianingshaonis zg-886",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_444",
+      "id" : "http://www.kegg.jp/entry/444",
       "lbl" : "Wenyingzhuangia fucanilytica CZ1127",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_445",
+      "id" : "http://www.kegg.jp/entry/445",
       "lbl" : "Vibrio tubiashii ATCC 19109",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_446",
+      "id" : "http://www.kegg.jp/entry/446",
       "lbl" : "Yersinia canariae NCTC 14382",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_447",
+      "id" : "http://www.kegg.jp/entry/447",
       "lbl" : "Saliniradius amylolyticus HMF8227",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_448",
+      "id" : "http://www.kegg.jp/entry/448",
       "lbl" : "Serratia marcescens WW4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_449",
+      "id" : "http://www.kegg.jp/entry/449",
       "lbl" : "Vibrio ziniensis ZWAL4003",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_450",
+      "id" : "http://www.kegg.jp/entry/450",
       "lbl" : "Weissella coleopterorum HDW19",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_451",
+      "id" : "http://www.kegg.jp/entry/451",
       "lbl" : "Rhizobium sp. S41",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_452",
+      "id" : "http://www.kegg.jp/entry/452",
       "lbl" : "Thermoleptolyngbya oregonensis NK1-22",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_453",
+      "id" : "http://www.kegg.jp/entry/453",
       "lbl" : "Sulfolobus acidocaldarius Ron12/I",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_454",
+      "id" : "http://www.kegg.jp/entry/454",
       "lbl" : "Treponema sp. OMZ 838",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_455",
+      "id" : "http://www.kegg.jp/entry/455",
       "lbl" : "Mesitornis unicolor (brown roatelo)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_456",
+      "id" : "http://www.kegg.jp/entry/456",
       "lbl" : "Pseudomonas poae RE*1-1-14",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_457",
+      "id" : "http://www.kegg.jp/entry/457",
       "lbl" : "Wallemia ichthyophaga EXF-994",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_458",
+      "id" : "http://www.kegg.jp/entry/458",
       "lbl" : "Thermoanaerobacterium sp. RBIITD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_459",
+      "id" : "http://www.kegg.jp/entry/459",
       "lbl" : "Trichlorobacter ammonificans G1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_460",
+      "id" : "http://www.kegg.jp/entry/460",
       "lbl" : "Xanthomonas dyei 22-321",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_461",
+      "id" : "http://www.kegg.jp/entry/461",
       "lbl" : "Treponema succinifaciens DSM 2489",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_462",
+      "id" : "http://www.kegg.jp/entry/462",
       "lbl" : "Vespa crabro (European hornet)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_463",
+      "id" : "http://www.kegg.jp/entry/463",
       "lbl" : "Symbiopectobacterium purcellii SyEd1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_464",
+      "id" : "http://www.kegg.jp/entry/464",
       "lbl" : "Sphingosinithalassobacter tenebrarum zrk23",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_465",
+      "id" : "http://www.kegg.jp/entry/465",
       "lbl" : "Spironucleus salmonicida ATCC 50377",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_466",
+      "id" : "http://www.kegg.jp/entry/466",
       "lbl" : "Tsuneonella dongtanensis KCTC 22672 (Altererythrobacter dongtanensis KCTC 22672)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_467",
+      "id" : "http://www.kegg.jp/entry/467",
       "lbl" : "Thomasclavelia spiroformis DSM 1552",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_468",
+      "id" : "http://www.kegg.jp/entry/468",
       "lbl" : "Terrihabitans soli IZ6",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_469",
+      "id" : "http://www.kegg.jp/entry/469",
       "lbl" : "Yersinia enterocolitica subsp. enterocolitica 8081 (serotype 0:8)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_470",
+      "id" : "http://www.kegg.jp/entry/470",
       "lbl" : "Streptococcus suis ST3 (serotype 3)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_471",
+      "id" : "http://www.kegg.jp/entry/471",
       "lbl" : "Ralstonia insidiosa FC1138",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_472",
+      "id" : "http://www.kegg.jp/entry/472",
       "lbl" : "Streptococcus pyogenes STAB901 (serotype M44)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_473",
+      "id" : "http://www.kegg.jp/entry/473",
       "lbl" : "Streptococcus sanguinis SK36",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_474",
+      "id" : "http://www.kegg.jp/entry/474",
       "lbl" : "Tannerella serpentiformis W11667",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_475",
+      "id" : "http://www.kegg.jp/entry/475",
       "lbl" : "Sulfurospirillum halorespirans DSM 13726",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_476",
+      "id" : "http://www.kegg.jp/entry/476",
       "lbl" : "Thalassospira lucentensis LC.270.F.C4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_477",
+      "id" : "http://www.kegg.jp/entry/477",
       "lbl" : "Serratia sp. MYb239",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_478",
+      "id" : "http://www.kegg.jp/entry/478",
       "lbl" : "Shewanella baltica OS155",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_479",
+      "id" : "http://www.kegg.jp/entry/479",
       "lbl" : "Sphingomonas sp. NIC1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_480",
+      "id" : "http://www.kegg.jp/entry/480",
       "lbl" : "Yersinia enterocolitica subsp. palearctica 105.5R(r) (serotype:O:9)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_481",
+      "id" : "http://www.kegg.jp/entry/481",
       "lbl" : "Pseudodesulfovibrio piezophilus C1TLV30 (Desulfovibrio piezophilus C1TLV30)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_482",
+      "id" : "http://www.kegg.jp/entry/482",
       "lbl" : "Woronichinia naegeliana WA131",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_483",
+      "id" : "http://www.kegg.jp/entry/483",
       "lbl" : "Reichenbachiella agarivorans BKB1-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_484",
+      "id" : "http://www.kegg.jp/entry/484",
       "lbl" : "Pyrofollis japonicus YC29",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_485",
+      "id" : "http://www.kegg.jp/entry/485",
       "lbl" : "Staphylothermus marinus F1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_486",
+      "id" : "http://www.kegg.jp/entry/486",
       "lbl" : "Thiomicrorhabdus lithotrophica XGS-01",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_487",
+      "id" : "http://www.kegg.jp/entry/487",
       "lbl" : "Pyrococcus sp. NA2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_488",
+      "id" : "http://www.kegg.jp/entry/488",
       "lbl" : "Thermodesulfobium narugense DSM 14796",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_489",
+      "id" : "http://www.kegg.jp/entry/489",
       "lbl" : "Treponema brennaborense DSM 12168",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_490",
+      "id" : "http://www.kegg.jp/entry/490",
       "lbl" : "Tenericutes bacterium MZ-XQ",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_491",
+      "id" : "http://www.kegg.jp/entry/491",
       "lbl" : "Staphylococcus aureus 502A",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_492",
+      "id" : "http://www.kegg.jp/entry/492",
       "lbl" : "Wolbachia endosymbiont of Oryzaephilus surinamensis JKI-2014",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_493",
+      "id" : "http://www.kegg.jp/entry/493",
       "lbl" : "Zophobihabitans entericus IPMB12",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_494",
+      "id" : "http://www.kegg.jp/entry/494",
       "lbl" : "Vibrio sp. NTOU-M3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_495",
+      "id" : "http://www.kegg.jp/entry/495",
       "lbl" : "Thermotoga sp. Cell2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_496",
+      "id" : "http://www.kegg.jp/entry/496",
       "lbl" : "Selaginella moellendorffii",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_497",
+      "id" : "http://www.kegg.jp/entry/497",
       "lbl" : "Vibrio coralliilyticus OCN014",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_498",
+      "id" : "http://www.kegg.jp/entry/498",
       "lbl" : "Thermomonas sp. HDW16",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_499",
+      "id" : "http://www.kegg.jp/entry/499",
       "lbl" : "Streptococcus pyogenes M1 476 (serotype M1)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_500",
+      "id" : "http://www.kegg.jp/entry/500",
       "lbl" : "Xanthomonas axonopodis Xac29-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_501",
+      "id" : "http://www.kegg.jp/entry/501",
       "lbl" : "Rhizobium sp. Kim5",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_502",
+      "id" : "http://www.kegg.jp/entry/502",
       "lbl" : "Victivallales bacterium CCUG 44730",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_503",
+      "id" : "http://www.kegg.jp/entry/503",
       "lbl" : "Trinickia violacea DHOD12",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_504",
+      "id" : "http://www.kegg.jp/entry/504",
       "lbl" : "Tolypothrix sp. PCC 7910",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_505",
+      "id" : "http://www.kegg.jp/entry/505",
       "lbl" : "Yersinia pestis Pestoides F (biovar Antiqua)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_506",
+      "id" : "http://www.kegg.jp/entry/506",
       "lbl" : "Sulfitobacter dubius CI.11.F.A3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_507",
+      "id" : "http://www.kegg.jp/entry/507",
       "lbl" : "Treponema primitia ZAS-2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_508",
+      "id" : "http://www.kegg.jp/entry/508",
       "lbl" : "Vulcanimicrobium alpinum WC8-2 (Vulcanimicrobium alpinus WC8-2)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_509",
+      "id" : "http://www.kegg.jp/entry/509",
       "lbl" : "Thauera humireducens Piv1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_510",
+      "id" : "http://www.kegg.jp/entry/510",
       "lbl" : "Vibrio japonicus JCM 31412",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_511",
+      "id" : "http://www.kegg.jp/entry/511",
       "lbl" : "Stutzerimonas stutzeri A1501 (Pseudomonas stutzeri A1501)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_512",
+      "id" : "http://www.kegg.jp/entry/512",
       "lbl" : "Yoonia algicola G8-12",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_513",
+      "id" : "http://www.kegg.jp/entry/513",
       "lbl" : "Yoonia rhodophyticola SS1-5",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_514",
+      "id" : "http://www.kegg.jp/entry/514",
       "lbl" : "Streptococcus suis 05ZYH33 (serotype 2)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_515",
+      "id" : "http://www.kegg.jp/entry/515",
       "lbl" : "Streptococcus suis 98HAH33 (serotype 2)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_516",
+      "id" : "http://www.kegg.jp/entry/516",
       "lbl" : "Utexia brackfieldae lpD01",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_517",
+      "id" : "http://www.kegg.jp/entry/517",
       "lbl" : "Thiomicrospira cyclica ALM1 (Thioalkalimicrobium cyclicum ALM1)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_518",
+      "id" : "http://www.kegg.jp/entry/518",
       "lbl" : "Tamlana sp. s12",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_519",
+      "id" : "http://www.kegg.jp/entry/519",
       "lbl" : "Yokenella regensburgei W13",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_520",
+      "id" : "http://www.kegg.jp/entry/520",
       "lbl" : "Vibrio cholerae O1 O395",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_521",
+      "id" : "http://www.kegg.jp/entry/521",
       "lbl" : "Yersinia alsatica SCPM-O-B-7604",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_522",
+      "id" : "http://www.kegg.jp/entry/522",
       "lbl" : "Streptococcus sp. A12",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_523",
+      "id" : "http://www.kegg.jp/entry/523",
       "lbl" : "Synechococcus sp. RCC307",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_524",
+      "id" : "http://www.kegg.jp/entry/524",
       "lbl" : "Synechococcus sp. WH 7803",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_525",
+      "id" : "http://www.kegg.jp/entry/525",
       "lbl" : "Thermotoga petrophila RKU-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_526",
+      "id" : "http://www.kegg.jp/entry/526",
       "lbl" : "Trypanosoma brucei gambiense DAL972",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_527",
+      "id" : "http://www.kegg.jp/entry/527",
       "lbl" : "Thermoclostridium stercorarium subsp. stercorarium DSM 8532 (Clostridium stercorarium subsp. stercorarium DSM 8532)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_528",
+      "id" : "http://www.kegg.jp/entry/528",
       "lbl" : "Tepidibacter hydrothermalis SWIR-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_529",
+      "id" : "http://www.kegg.jp/entry/529",
       "lbl" : "Thalassolituus oleivorans MIL-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_530",
+      "id" : "http://www.kegg.jp/entry/530",
       "lbl" : "Pectobacterium punjabense SS95",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_531",
+      "id" : "http://www.kegg.jp/entry/531",
       "lbl" : "Uncultured Sphingopyxis sp. UC10",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_532",
+      "id" : "http://www.kegg.jp/entry/532",
       "lbl" : "Thermoplasmatales archaeon BRNA1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_533",
+      "id" : "http://www.kegg.jp/entry/533",
       "lbl" : "Thalassovita gelatinovora NEB572",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_534",
+      "id" : "http://www.kegg.jp/entry/534",
       "lbl" : "Xanthomonas sp. SS",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_535",
+      "id" : "http://www.kegg.jp/entry/535",
       "lbl" : "Romboutsia sp. CE17",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_536",
+      "id" : "http://www.kegg.jp/entry/536",
       "lbl" : "Vibrio anguillarum 775",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_537",
+      "id" : "http://www.kegg.jp/entry/537",
       "lbl" : "Thalassolituus hydrocarboniclasticus alknpb1M-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_538",
+      "id" : "http://www.kegg.jp/entry/538",
       "lbl" : "Xenorhabdus hominickii ANU1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_539",
+      "id" : "http://www.kegg.jp/entry/539",
       "lbl" : "Xanthomonas indica PPL560",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_540",
+      "id" : "http://www.kegg.jp/entry/540",
       "lbl" : "Sphingomonas sabuli sand1-3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_541",
+      "id" : "http://www.kegg.jp/entry/541",
       "lbl" : "Streptococcus sp. NPS 308",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_542",
+      "id" : "http://www.kegg.jp/entry/542",
       "lbl" : "Vibrio ruber HNIBRBA4764",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_543",
+      "id" : "http://www.kegg.jp/entry/543",
       "lbl" : "Spiroplasma monobiae MQ-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_544",
+      "id" : "http://www.kegg.jp/entry/544",
       "lbl" : "Siccibacter colletis YSD_YN2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_545",
+      "id" : "http://www.kegg.jp/entry/545",
       "lbl" : "Tsukamurella sp. PLM1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_546",
+      "id" : "http://www.kegg.jp/entry/546",
       "lbl" : "Thermodesulfatator indicus DSM 15286",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_547",
+      "id" : "http://www.kegg.jp/entry/547",
       "lbl" : "Thermodesulfobacterium geofontis OPF15",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_548",
+      "id" : "http://www.kegg.jp/entry/548",
       "lbl" : "Virgibacillus halodenitrificans PDB-F2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_549",
+      "id" : "http://www.kegg.jp/entry/549",
       "lbl" : "Paracoccidioides brasiliensis Pb18",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_550",
+      "id" : "http://www.kegg.jp/entry/550",
       "lbl" : "Thermosipho melanesiensis BI429",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_551",
+      "id" : "http://www.kegg.jp/entry/551",
       "lbl" : "Thermococcus camini IRI35c",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_552",
+      "id" : "http://www.kegg.jp/entry/552",
       "lbl" : "Prescottella soli DSD51W",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_553",
+      "id" : "http://www.kegg.jp/entry/553",
       "lbl" : "Xanthomonas cucurbitae ATCC 23378",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_554",
+      "id" : "http://www.kegg.jp/entry/554",
       "lbl" : "Pseudothermotoga thermarum DSM 5069",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_555",
+      "id" : "http://www.kegg.jp/entry/555",
       "lbl" : "Treponema paraluiscuniculi Cuniculi A",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_556",
+      "id" : "http://www.kegg.jp/entry/556",
       "lbl" : "Zymomonas mobilis subsp. pomaceae ATCC 29192",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_557",
+      "id" : "http://www.kegg.jp/entry/557",
       "lbl" : "Staphylococcus aureus subsp. aureus Newman",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_558",
+      "id" : "http://www.kegg.jp/entry/558",
       "lbl" : "Vibrio pelagius WXL662",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_559",
+      "id" : "http://www.kegg.jp/entry/559",
       "lbl" : "Sphingomonas aliaeris DH-S5",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_560",
+      "id" : "http://www.kegg.jp/entry/560",
       "lbl" : "Tinamus guttatus (white-throated tinamou)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_561",
+      "id" : "http://www.kegg.jp/entry/561",
       "lbl" : "Thiorhodovibrio frisius 970",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_562",
+      "id" : "http://www.kegg.jp/entry/562",
       "lbl" : "Staphylococcus roterodami BDS-53E",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_563",
+      "id" : "http://www.kegg.jp/entry/563",
       "lbl" : "Sulfitobacter sp. SK012",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_564",
+      "id" : "http://www.kegg.jp/entry/564",
       "lbl" : "Variovorax sp. EBFNA2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_565",
+      "id" : "http://www.kegg.jp/entry/565",
       "lbl" : "Pseudodesulfovibrio methanolicus 5S69",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_566",
+      "id" : "http://www.kegg.jp/entry/566",
       "lbl" : "Xanthomonas sacchari R1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_567",
+      "id" : "http://www.kegg.jp/entry/567",
       "lbl" : "Streptococcus sobrinus 10919",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_568",
+      "id" : "http://www.kegg.jp/entry/568",
       "lbl" : "Xylella taiwanensis PLS235",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_569",
+      "id" : "http://www.kegg.jp/entry/569",
       "lbl" : "Pseudomonas siliginis OTU6BANIB1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_570",
+      "id" : "http://www.kegg.jp/entry/570",
       "lbl" : "Yersinia pseudotuberculosis IP 31758 (serotype O:1b)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_571",
+      "id" : "http://www.kegg.jp/entry/571",
       "lbl" : "Stutzerimonas stutzeri ATCC 17588 = LMG 11199 (Pseudomonas stutzeri ATCC 17588 = LMG 11199)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_572",
+      "id" : "http://www.kegg.jp/entry/572",
       "lbl" : "Thermodesulfovibrio obliviosus 3462-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_573",
+      "id" : "http://www.kegg.jp/entry/573",
       "lbl" : "Thermodesulfovibrio autotrophicus 3907-1M",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_574",
+      "id" : "http://www.kegg.jp/entry/574",
       "lbl" : "Vibrio astriarenae HN897",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_575",
+      "id" : "http://www.kegg.jp/entry/575",
       "lbl" : "Pseudomonas sessilinigenes CMR12a",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_576",
+      "id" : "http://www.kegg.jp/entry/576",
       "lbl" : "Sulfobacillus acidophilus TPY",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_577",
+      "id" : "http://www.kegg.jp/entry/577",
       "lbl" : "Weissella koreensis KACC 15510",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_578",
+      "id" : "http://www.kegg.jp/entry/578",
       "lbl" : "Vagococcus teuberi DSM 21459",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_579",
+      "id" : "http://www.kegg.jp/entry/579",
       "lbl" : "Trueperella pyogenes TP8",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_580",
+      "id" : "http://www.kegg.jp/entry/580",
       "lbl" : "Streptococcus salivarius CCHSS3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_581",
+      "id" : "http://www.kegg.jp/entry/581",
       "lbl" : "Xanthobacter autotrophicus Py2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_582",
+      "id" : "http://www.kegg.jp/entry/582",
       "lbl" : "Sphingobium phenoxybenzoativorans Tas13",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_583",
+      "id" : "http://www.kegg.jp/entry/583",
       "lbl" : "Wolbachia endosymbiont of Carposina sasakii",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_584",
+      "id" : "http://www.kegg.jp/entry/584",
       "lbl" : "Xanthomonas citri subsp. citri A306",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_585",
+      "id" : "http://www.kegg.jp/entry/585",
       "lbl" : "Syntrophotalea acetylenica DSM 3246 (Pelobacter acetylenicus DSM 3246)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_586",
+      "id" : "http://www.kegg.jp/entry/586",
       "lbl" : "Zobellia galactanivorans DsiJT",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_587",
+      "id" : "http://www.kegg.jp/entry/587",
       "lbl" : "Streptomyces sp. ICC4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_588",
+      "id" : "http://www.kegg.jp/entry/588",
       "lbl" : "Vulcanisaeta souniana JCM 11219",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_589",
+      "id" : "http://www.kegg.jp/entry/589",
       "lbl" : "Vibrio campbellii ATCC BAA-1116; BB120 (Vibrio harveyi ATCC BAA-1116)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_590",
+      "id" : "http://www.kegg.jp/entry/590",
       "lbl" : "Thioalkalivibrio paradoxus ARh 1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_591",
+      "id" : "http://www.kegg.jp/entry/591",
       "lbl" : "Sulfuritalea hydrogenivorans sk43H",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_592",
+      "id" : "http://www.kegg.jp/entry/592",
       "lbl" : "Serratia marcescens SM39",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_593",
+      "id" : "http://www.kegg.jp/entry/593",
       "lbl" : "Sphingomonas glaciei S8-45",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_594",
+      "id" : "http://www.kegg.jp/entry/594",
       "lbl" : "Syntrophotalea acetylenivorans SFB93 (Pelobacter sp. SFB93)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_595",
+      "id" : "http://www.kegg.jp/entry/595",
       "lbl" : "Serratia proteamaculans 568",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_596",
+      "id" : "http://www.kegg.jp/entry/596",
       "lbl" : "Virgibacillus sp. 6R",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_597",
+      "id" : "http://www.kegg.jp/entry/597",
       "lbl" : "Stygiolobus caldivivus KN-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_598",
+      "id" : "http://www.kegg.jp/entry/598",
       "lbl" : "Roseburia intestinalis M50/1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_599",
+      "id" : "http://www.kegg.jp/entry/599",
       "lbl" : "Paenarthrobacter sp. YJN-D",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_600",
+      "id" : "http://www.kegg.jp/entry/600",
       "lbl" : "Xylophilus sp. GOD-11R",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_601",
+      "id" : "http://www.kegg.jp/entry/601",
       "lbl" : "Veillonella rogosae KCOM 3468",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_602",
+      "id" : "http://www.kegg.jp/entry/602",
       "lbl" : "Virgibacillus natechei DSM 25609",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_603",
+      "id" : "http://www.kegg.jp/entry/603",
       "lbl" : "Winogradskyella sp. PG-2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_604",
+      "id" : "http://www.kegg.jp/entry/604",
       "lbl" : "Wolbachia endosymbiont of Drosophila mauritiana wMau",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_605",
+      "id" : "http://www.kegg.jp/entry/605",
       "lbl" : "Yersinia aldovae 670-83",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_606",
+      "id" : "http://www.kegg.jp/entry/606",
       "lbl" : "Yersinia frederiksenii Y225",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_607",
+      "id" : "http://www.kegg.jp/entry/607",
       "lbl" : "Thermoleptolyngbya sichuanensis A183",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_608",
+      "id" : "http://www.kegg.jp/entry/608",
       "lbl" : "Yersinia intermedia Y228",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_609",
+      "id" : "http://www.kegg.jp/entry/609",
       "lbl" : "Yersinia rochesterensis Y231 (Yersinia kristensenii Y231)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_610",
+      "id" : "http://www.kegg.jp/entry/610",
       "lbl" : "Yersinia rohdei YRA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_611",
+      "id" : "http://www.kegg.jp/entry/611",
       "lbl" : "Yersinia ruckeri YRB",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_612",
+      "id" : "http://www.kegg.jp/entry/612",
       "lbl" : "Thauera chlorobenzoica 3CB1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_613",
+      "id" : "http://www.kegg.jp/entry/613",
       "lbl" : "Salinispora arenicola CNS-205",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_614",
+      "id" : "http://www.kegg.jp/entry/614",
       "lbl" : "Wolbachia endosymbiont of Brugia pahangi",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_615",
+      "id" : "http://www.kegg.jp/entry/615",
       "lbl" : "Wolbachia endosymbiont of Spodoptera picta Spic_B",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_616",
+      "id" : "http://www.kegg.jp/entry/616",
       "lbl" : "Xanthomonas euvesicatoria pv. citrumelo F1 (Xanthomonas axonopodis pv. citrumelo F1)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_617",
+      "id" : "http://www.kegg.jp/entry/617",
       "lbl" : "Vogesella sp. XCS3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_618",
+      "id" : "http://www.kegg.jp/entry/618",
       "lbl" : "Staphylococcus aureus M1, methicillin-resistant",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_619",
+      "id" : "http://www.kegg.jp/entry/619",
       "lbl" : "Streptomyces sp. PAMC 26508",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_620",
+      "id" : "http://www.kegg.jp/entry/620",
       "lbl" : "Streptococcus ratti ATCC 31377",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_621",
+      "id" : "http://www.kegg.jp/entry/621",
       "lbl" : "Sulfuriferula plumbiphila Gro7",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_622",
+      "id" : "http://www.kegg.jp/entry/622",
       "lbl" : "Sphingobium sp. SYK-6",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_623",
+      "id" : "http://www.kegg.jp/entry/623",
       "lbl" : "Streptomyces rutgersensis NBH77",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_624",
+      "id" : "http://www.kegg.jp/entry/624",
       "lbl" : "Tenacibaculum tangerinum GRR-S3-23",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_625",
+      "id" : "http://www.kegg.jp/entry/625",
       "lbl" : "Thermosipho sp. 1063",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_626",
+      "id" : "http://www.kegg.jp/entry/626",
       "lbl" : "Roseivirga spongicola OXR-11",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_627",
+      "id" : "http://www.kegg.jp/entry/627",
       "lbl" : "Thalassobaculum sp. OXR-137",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_628",
+      "id" : "http://www.kegg.jp/entry/628",
       "lbl" : "Wolbachia sp. wCle, endosymbiont of Cimex lectularius (bed bug)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_629",
+      "id" : "http://www.kegg.jp/entry/629",
       "lbl" : "Weissella tructae W-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_630",
+      "id" : "http://www.kegg.jp/entry/630",
       "lbl" : "Streptomyces auratus AGR0001",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_631",
+      "id" : "http://www.kegg.jp/entry/631",
       "lbl" : "Streptococcus pneumoniae SPN994039 (serotype 3)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_632",
+      "id" : "http://www.kegg.jp/entry/632",
       "lbl" : "Weissella jogaejeotgali FOL01",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_633",
+      "id" : "http://www.kegg.jp/entry/633",
       "lbl" : "Vescimonas fastidiosa MM35",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_634",
+      "id" : "http://www.kegg.jp/entry/634",
       "lbl" : "Vreelandella neptunia ATCC BAA-805 (Halomonas neptunia ATCC BAA-805)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_635",
+      "id" : "http://www.kegg.jp/entry/635",
       "lbl" : "Yersinia pestis Angola (virulent Pestoides isolate)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_636",
+      "id" : "http://www.kegg.jp/entry/636",
       "lbl" : "Wolbachia endosymbiont of Drosophila ananassae W2.1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_637",
+      "id" : "http://www.kegg.jp/entry/637",
       "lbl" : "Wolbachia endosymbiont of Chrysomya megacephala wMeg",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_638",
+      "id" : "http://www.kegg.jp/entry/638",
       "lbl" : "Thermococcus sp. AM4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_639",
+      "id" : "http://www.kegg.jp/entry/639",
       "lbl" : "Vreelandella aquamarina Althf1 (Halomonas axialensis Althf1)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_640",
+      "id" : "http://www.kegg.jp/entry/640",
       "lbl" : "Wolbachia sp. wHa, endosymbiont of Drosophila simulans",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_641",
+      "id" : "http://www.kegg.jp/entry/641",
       "lbl" : "Wolbachia sp. wNo, endosymbiont of Drosophila simulans",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_642",
+      "id" : "http://www.kegg.jp/entry/642",
       "lbl" : "Sanguibacter biliveldensis 4.1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_643",
+      "id" : "http://www.kegg.jp/entry/643",
       "lbl" : "Yersinia enterocolitica WA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_644",
+      "id" : "http://www.kegg.jp/entry/644",
       "lbl" : "Yersinia enterocolitica 2516-87",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_645",
+      "id" : "http://www.kegg.jp/entry/645",
       "lbl" : "Stenotrophomonas sp. 169",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_646",
+      "id" : "http://www.kegg.jp/entry/646",
       "lbl" : "Zymobacter palmae IAM14233",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_647",
+      "id" : "http://www.kegg.jp/entry/647",
       "lbl" : "Sulfolobus sp. E11-6",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_648",
+      "id" : "http://www.kegg.jp/entry/648",
       "lbl" : "Thermoanaerobacter sp. X514",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_649",
+      "id" : "http://www.kegg.jp/entry/649",
       "lbl" : "Vibrio breoganii FF50",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_650",
+      "id" : "http://www.kegg.jp/entry/650",
       "lbl" : "Vibrio scophthalmi VS-12",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_651",
+      "id" : "http://www.kegg.jp/entry/651",
       "lbl" : "Treponema pallidum Fribourg-Blanc",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_652",
+      "id" : "http://www.kegg.jp/entry/652",
       "lbl" : "Tateyamaria omphalii DOK1-4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_653",
+      "id" : "http://www.kegg.jp/entry/653",
       "lbl" : "Psychrobacillus sp. INOP01",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_654",
+      "id" : "http://www.kegg.jp/entry/654",
       "lbl" : "Wolbachia endosymbiont of Litomosoides sigmodontis wLsig",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_655",
+      "id" : "http://www.kegg.jp/entry/655",
       "lbl" : "Rhodoferax antarcticus DSM 24876",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_656",
+      "id" : "http://www.kegg.jp/entry/656",
       "lbl" : "Thermosipho ferrireducens JL129W03",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_657",
+      "id" : "http://www.kegg.jp/entry/657",
       "lbl" : "Wolbachia endosymbiont of Drosophila yakuba wYak",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_658",
+      "id" : "http://www.kegg.jp/entry/658",
       "lbl" : "Wolbachia endosymbiont of Drosophila aff. chauvacae BK-2020",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_659",
+      "id" : "http://www.kegg.jp/entry/659",
       "lbl" : "Wolbachia endosymbiont of Zaprionus tsacasi",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_660",
+      "id" : "http://www.kegg.jp/entry/660",
       "lbl" : "Vigna angularis (adzuki bean)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_661",
+      "id" : "http://www.kegg.jp/entry/661",
       "lbl" : "Vibrio ostreae OG9-811",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_662",
+      "id" : "http://www.kegg.jp/entry/662",
       "lbl" : "Vigna umbellata (ricebean)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_663",
+      "id" : "http://www.kegg.jp/entry/663",
       "lbl" : "Thermotoga maritima MSB8",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_664",
+      "id" : "http://www.kegg.jp/entry/664",
       "lbl" : "Stomoxys calcitrans (stable fly)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_665",
+      "id" : "http://www.kegg.jp/entry/665",
       "lbl" : "Yersinia pseudotuberculosis YPIII (serotype O:3)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_666",
+      "id" : "http://www.kegg.jp/entry/666",
       "lbl" : "Vibrio cholerae O1 El Tor MS6",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_667",
+      "id" : "http://www.kegg.jp/entry/667",
       "lbl" : "Xanthomonas fragariae Fap21",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_668",
+      "id" : "http://www.kegg.jp/entry/668",
       "lbl" : "Xanthomonas hortorum pv. gardneri ICMP 7383 (Xanthomonas gardneri ICMP 7383)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_669",
+      "id" : "http://www.kegg.jp/entry/669",
       "lbl" : "Thermotoga sp. RQ7",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_670",
+      "id" : "http://www.kegg.jp/entry/670",
       "lbl" : "Sphingobacterium sp. B29",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_671",
+      "id" : "http://www.kegg.jp/entry/671",
       "lbl" : "Streptomyces roseicoloratus T14",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_672",
+      "id" : "http://www.kegg.jp/entry/672",
       "lbl" : "Yersinia kristensenii 2012N-4030",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_673",
+      "id" : "http://www.kegg.jp/entry/673",
       "lbl" : "Vibrio metoecus ZF102",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_674",
+      "id" : "http://www.kegg.jp/entry/674",
       "lbl" : "Wolbachia endosymbiont of Listronotus oregonensis",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_675",
+      "id" : "http://www.kegg.jp/entry/675",
       "lbl" : "Secundilactobacillus paracollinoides TMW 1.1994 (Lactobacillus paracollinoides TMW 1.1994)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_676",
+      "id" : "http://www.kegg.jp/entry/676",
       "lbl" : "Streptomyces prasinus ATCC 13879",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_677",
+      "id" : "http://www.kegg.jp/entry/677",
       "lbl" : "Yersinia pseudotuberculosis MD67",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_678",
+      "id" : "http://www.kegg.jp/entry/678",
       "lbl" : "Yersinia pseudotuberculosis EP2/+",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_679",
+      "id" : "http://www.kegg.jp/entry/679",
       "lbl" : "Yersinia pseudotuberculosis 1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_680",
+      "id" : "http://www.kegg.jp/entry/680",
       "lbl" : "Vicia villosa (hairy vetch)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_681",
+      "id" : "http://www.kegg.jp/entry/681",
       "lbl" : "Syngnathoides biaculeatus (alligator pipefish)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_682",
+      "id" : "http://www.kegg.jp/entry/682",
       "lbl" : "Tannerella forsythia 92A2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_683",
+      "id" : "http://www.kegg.jp/entry/683",
       "lbl" : "Vibrio tarriae 2521-89",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_684",
+      "id" : "http://www.kegg.jp/entry/684",
       "lbl" : "Sphingobium amiense DSM 16289",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_685",
+      "id" : "http://www.kegg.jp/entry/685",
       "lbl" : "Streptomyces parvulus 2297",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_686",
+      "id" : "http://www.kegg.jp/entry/686",
       "lbl" : "Streptomyces qinzhouensis SSL-25",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_687",
+      "id" : "http://www.kegg.jp/entry/687",
       "lbl" : "Wolbachia endosymbiont of Wiebesia pumilae",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_688",
+      "id" : "http://www.kegg.jp/entry/688",
       "lbl" : "Tessaracoccus flavus RP1T",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_689",
+      "id" : "http://www.kegg.jp/entry/689",
       "lbl" : "Rugosibacter aromaticivorans Ca6 (Rhodocyclaceae bacterium PG1-Ca6)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_690",
+      "id" : "http://www.kegg.jp/entry/690",
       "lbl" : "Wolbachia endosymbiont of Drosophila santomea wSan",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_691",
+      "id" : "http://www.kegg.jp/entry/691",
       "lbl" : "Streptomyces griseus subsp. griseus NBRC 13350",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_692",
+      "id" : "http://www.kegg.jp/entry/692",
       "lbl" : "Xylella fastidiosa M23",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_693",
+      "id" : "http://www.kegg.jp/entry/693",
       "lbl" : "Salinarchaeum sp. Harcht-Bsk1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_694",
+      "id" : "http://www.kegg.jp/entry/694",
       "lbl" : "Novibacillus thermophilus SG-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_695",
+      "id" : "http://www.kegg.jp/entry/695",
       "lbl" : "Treponema medium ATCC 700293",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_696",
+      "id" : "http://www.kegg.jp/entry/696",
       "lbl" : "Radiobacillus kanasensis 80",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_697",
+      "id" : "http://www.kegg.jp/entry/697",
       "lbl" : "Virgibacillus sp. NKC19-16",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_698",
+      "id" : "http://www.kegg.jp/entry/698",
       "lbl" : "Streptomyces flavofungini TRM90047",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_699",
+      "id" : "http://www.kegg.jp/entry/699",
       "lbl" : "Wolbachia endosymbiont of Dirofilaria (Dirofilaria) immitis FR3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_700",
+      "id" : "http://www.kegg.jp/entry/700",
       "lbl" : "Tigriopus californicus (tidepool copepod)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_701",
+      "id" : "http://www.kegg.jp/entry/701",
       "lbl" : "Varanus komodoensis (Komodo dragon)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_702",
+      "id" : "http://www.kegg.jp/entry/702",
       "lbl" : "Synoicihabitans lomoniglobus LMO-M01",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_703",
+      "id" : "http://www.kegg.jp/entry/703",
       "lbl" : "Tessaracoccus flavescens SST-39T",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_704",
+      "id" : "http://www.kegg.jp/entry/704",
       "lbl" : "Streptococcus agalactiae ILRI005",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_705",
+      "id" : "http://www.kegg.jp/entry/705",
       "lbl" : "Wolbachia endosymbiont of Drosophila pseudotakahashii",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_706",
+      "id" : "http://www.kegg.jp/entry/706",
       "lbl" : "Thermotoga sp. RQ2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_707",
+      "id" : "http://www.kegg.jp/entry/707",
       "lbl" : "Solobacterium moorei JCM 10645",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_708",
+      "id" : "http://www.kegg.jp/entry/708",
       "lbl" : "Williamsia herbipolensis NBC_00319",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_709",
+      "id" : "http://www.kegg.jp/entry/709",
       "lbl" : "Treponema pallidum subsp. pallidum Nichols",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_710",
+      "id" : "http://www.kegg.jp/entry/710",
       "lbl" : "Tetragenococcus koreensis KCTC 3924",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_711",
+      "id" : "http://www.kegg.jp/entry/711",
       "lbl" : "Tetragenococcus osmophilus JCM 31126",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_712",
+      "id" : "http://www.kegg.jp/entry/712",
       "lbl" : "Pyrodictium abyssi AV2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_713",
+      "id" : "http://www.kegg.jp/entry/713",
       "lbl" : "Pseudomonas lijiangensis LJ2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_714",
+      "id" : "http://www.kegg.jp/entry/714",
       "lbl" : "Winogradskyella sp. J14-2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_715",
+      "id" : "http://www.kegg.jp/entry/715",
       "lbl" : "Vagococcus penaei CD276",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_716",
+      "id" : "http://www.kegg.jp/entry/716",
       "lbl" : "Yersinia pestis PBM19",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_717",
+      "id" : "http://www.kegg.jp/entry/717",
       "lbl" : "Yersinia pestis Harbin35",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_718",
+      "id" : "http://www.kegg.jp/entry/718",
       "lbl" : "Yersinia pestis Shasta",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_719",
+      "id" : "http://www.kegg.jp/entry/719",
       "lbl" : "Yersinia pestis El Dorado",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_720",
+      "id" : "http://www.kegg.jp/entry/720",
       "lbl" : "Vreelandella alkaliphila X3 (Halomonas alkaliphila X3)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_721",
+      "id" : "http://www.kegg.jp/entry/721",
       "lbl" : "Solea senegalensis (Senegalese sole)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_722",
+      "id" : "http://www.kegg.jp/entry/722",
       "lbl" : "Trinickia caryophylli HAMBI_2159",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_723",
+      "id" : "http://www.kegg.jp/entry/723",
       "lbl" : "Salinivibrio proteolyticus TGB10",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_724",
+      "id" : "http://www.kegg.jp/entry/724",
       "lbl" : "Salmonella enterica subsp. enterica serovar Typhimurium SL1344",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_725",
+      "id" : "http://www.kegg.jp/entry/725",
       "lbl" : "Zingiber officinale (ginger)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_726",
+      "id" : "http://www.kegg.jp/entry/726",
       "lbl" : "Wolbachia sp. Berlin, endosymbiont of Folsomia candida (springtail)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_727",
+      "id" : "http://www.kegg.jp/entry/727",
       "lbl" : "Shinella zoogloeoides ATCC 19623",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_728",
+      "id" : "http://www.kegg.jp/entry/728",
       "lbl" : "Thermococcus peptonophilus OG-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_729",
+      "id" : "http://www.kegg.jp/entry/729",
       "lbl" : "Streptomyces griseochromogenes ATCC 14511",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_730",
+      "id" : "http://www.kegg.jp/entry/730",
       "lbl" : "Thermodesulfomicrobium sp. WS",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_731",
+      "id" : "http://www.kegg.jp/entry/731",
       "lbl" : "Sinorhizobium fredii HH103, endosymbiont of legumes",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_732",
+      "id" : "http://www.kegg.jp/entry/732",
       "lbl" : "Tessaracoccus aquimaris NSG39",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_733",
+      "id" : "http://www.kegg.jp/entry/733",
       "lbl" : "Xanthomonas citri pv. citri UI7 (Xanthomonas citri subsp. citri UI7)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_734",
+      "id" : "http://www.kegg.jp/entry/734",
       "lbl" : "Xanthomonas citri pv. citri NT17 (Xanthomonas citri subsp. citri NT17)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_735",
+      "id" : "http://www.kegg.jp/entry/735",
       "lbl" : "Xanthomonas citri pv. citri MN12 (Xanthomonas citri subsp. citri MN12)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_736",
+      "id" : "http://www.kegg.jp/entry/736",
       "lbl" : "Thiorhodovibrio winogradskyi DSM 6702",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_737",
+      "id" : "http://www.kegg.jp/entry/737",
       "lbl" : "Salmonella enterica subsp. enterica serovar Typhimurium var. 5- CFSAN001921",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_738",
+      "id" : "http://www.kegg.jp/entry/738",
       "lbl" : "Tardiphaga robiniae 581",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_739",
+      "id" : "http://www.kegg.jp/entry/739",
       "lbl" : "Yersinia enterocolitica (type O:5) YE53/03",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_740",
+      "id" : "http://www.kegg.jp/entry/740",
       "lbl" : "Serratia liquefaciens ATCC 27592",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_741",
+      "id" : "http://www.kegg.jp/entry/741",
       "lbl" : "Xanthomonas vesicatoria ATCC 35937 LMG911",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_742",
+      "id" : "http://www.kegg.jp/entry/742",
       "lbl" : "Tabrizicola piscis K13M18",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_743",
+      "id" : "http://www.kegg.jp/entry/743",
       "lbl" : "Streptococcus pyogenes HSC5 (serotype M14)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_744",
+      "id" : "http://www.kegg.jp/entry/744",
       "lbl" : "Yersinia pseudotuberculosis PB1/+ (serotype 1B)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_745",
+      "id" : "http://www.kegg.jp/entry/745",
       "lbl" : "Staphylococcus aureus subsp. aureus VC40",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_746",
+      "id" : "http://www.kegg.jp/entry/746",
       "lbl" : "Sulfobacillus acidophilus DSM 10332",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_747",
+      "id" : "http://www.kegg.jp/entry/747",
       "lbl" : "Wigglesworthia glossinidia, endosymbiont of Glossina morsitans morsitans (Yale colony)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_748",
+      "id" : "http://www.kegg.jp/entry/748",
       "lbl" : "Treponema pallidum subsp. pallidum DAL-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_749",
+      "id" : "http://www.kegg.jp/entry/749",
       "lbl" : "Yinghuangia sp. ASG 101",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_750",
+      "id" : "http://www.kegg.jp/entry/750",
       "lbl" : "Treponema pallidum subsp. pertenue Gauthier",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_751",
+      "id" : "http://www.kegg.jp/entry/751",
       "lbl" : "Treponema pallidum subsp. pertenue SamoaD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_752",
+      "id" : "http://www.kegg.jp/entry/752",
       "lbl" : "Xenorhabdus nematophila AN6/1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_753",
+      "id" : "http://www.kegg.jp/entry/753",
       "lbl" : "Thomasclavelia ramosa DSM 1402",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_754",
+      "id" : "http://www.kegg.jp/entry/754",
       "lbl" : "Undibacterium parvum DSM 23061",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_755",
+      "id" : "http://www.kegg.jp/entry/755",
       "lbl" : "Xanthomonas sp. GW",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_756",
+      "id" : "http://www.kegg.jp/entry/756",
       "lbl" : "Streptomyces nigrescens HEK616",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_757",
+      "id" : "http://www.kegg.jp/entry/757",
       "lbl" : "Triticum aestivum (bread wheat)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_758",
+      "id" : "http://www.kegg.jp/entry/758",
       "lbl" : "Thermospira aquatica F1F22",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_759",
+      "id" : "http://www.kegg.jp/entry/759",
       "lbl" : "Xanthomonas campestris pv. campestris B100",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_760",
+      "id" : "http://www.kegg.jp/entry/760",
       "lbl" : "Vibrio parahaemolyticus O1:K33 CDC_K4557",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_761",
+      "id" : "http://www.kegg.jp/entry/761",
       "lbl" : "Vibrio parahaemolyticus O1:Kuk FDA_R31",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_762",
+      "id" : "http://www.kegg.jp/entry/762",
       "lbl" : "Thermanaerosceptrum fracticalcis DRI-13",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_763",
+      "id" : "http://www.kegg.jp/entry/763",
       "lbl" : "Xanthomonas oryzae pv. oryzae PXO99A",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_764",
+      "id" : "http://www.kegg.jp/entry/764",
       "lbl" : "Saprospira grandis Lewin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_765",
+      "id" : "http://www.kegg.jp/entry/765",
       "lbl" : "Xanthomonas oryzae pv. oryzae PXO86",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_766",
+      "id" : "http://www.kegg.jp/entry/766",
       "lbl" : "Vibrio cholerae O1 IEC224",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_767",
+      "id" : "http://www.kegg.jp/entry/767",
       "lbl" : "Staphylococcus argenteus MSHR1132",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_768",
+      "id" : "http://www.kegg.jp/entry/768",
       "lbl" : "Pseudomonas chlororaphis PCL1606",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_769",
+      "id" : "http://www.kegg.jp/entry/769",
       "lbl" : "Pseudomonas synxantha LBUM223 (Pseudomonas fluorescens LBUM223)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_770",
+      "id" : "http://www.kegg.jp/entry/770",
       "lbl" : "Streptococcus agalactiae CJB111",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_771",
+      "id" : "http://www.kegg.jp/entry/771",
       "lbl" : "Yersinia entomophaga MH96",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_772",
+      "id" : "http://www.kegg.jp/entry/772",
       "lbl" : "Silvanigrella aquatica MWH-Nonnen-W8red",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_773",
+      "id" : "http://www.kegg.jp/entry/773",
       "lbl" : "Tichowtungia aerotolerans S-5007",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_774",
+      "id" : "http://www.kegg.jp/entry/774",
       "lbl" : "Tessaracoccus defluvii JCM 17540",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_775",
+      "id" : "http://www.kegg.jp/entry/775",
       "lbl" : "Thermodesulfovibrio yellowstonii DSM 11347",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_776",
+      "id" : "http://www.kegg.jp/entry/776",
       "lbl" : "Vibrio crassostreae ED395",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_777",
+      "id" : "http://www.kegg.jp/entry/777",
       "lbl" : "Synechocystis sp. PCC 6803 GT-I",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_778",
+      "id" : "http://www.kegg.jp/entry/778",
       "lbl" : "Xanthomonas perforans LH3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_779",
+      "id" : "http://www.kegg.jp/entry/779",
       "lbl" : "Xanthomonas citri pv. citri MN10 (Xanthomonas citri subsp. citri MN10)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_780",
+      "id" : "http://www.kegg.jp/entry/780",
       "lbl" : "Xanthomonas citri pv. citri MN11 (Xanthomonas citri subsp. citri MN11)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_781",
+      "id" : "http://www.kegg.jp/entry/781",
       "lbl" : "Xanthomonas citri pv. citri mf20 (Xanthomonas citri subsp. citri mf20)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_782",
+      "id" : "http://www.kegg.jp/entry/782",
       "lbl" : "Sphaerospermopsis torques-reginae ITEP-024",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_783",
+      "id" : "http://www.kegg.jp/entry/783",
       "lbl" : "Synechococcus sp. WH 8109",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_784",
+      "id" : "http://www.kegg.jp/entry/784",
       "lbl" : "Xenorhabdus doucetiae FRM16",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_785",
+      "id" : "http://www.kegg.jp/entry/785",
       "lbl" : "Vibrio navarrensis 2540-90",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_786",
+      "id" : "http://www.kegg.jp/entry/786",
       "lbl" : "Thermomonas carbonis KCTC 42013",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_787",
+      "id" : "http://www.kegg.jp/entry/787",
       "lbl" : "Sutcliffiella cohnii DSM 6307 (Bacillus cohnii DSM 6307)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_788",
+      "id" : "http://www.kegg.jp/entry/788",
       "lbl" : "Rickettsia prowazekii BuV67-CWPP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_789",
+      "id" : "http://www.kegg.jp/entry/789",
       "lbl" : "Thermococcus onnurineus NA1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_790",
+      "id" : "http://www.kegg.jp/entry/790",
       "lbl" : "Staphylococcus aureus subsp. aureus SA268, community-associated methicillin-resistant",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_791",
+      "id" : "http://www.kegg.jp/entry/791",
       "lbl" : "Shewanella piezotolerans WP3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_792",
+      "id" : "http://www.kegg.jp/entry/792",
       "lbl" : "Streptomyces peucetius subsp. caesius ATCC 27952",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_793",
+      "id" : "http://www.kegg.jp/entry/793",
       "lbl" : "Tenacibaculum ovolyticum 20-4135-2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_794",
+      "id" : "http://www.kegg.jp/entry/794",
       "lbl" : "Ziziphus jujuba (Chinese jujube)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_795",
+      "id" : "http://www.kegg.jp/entry/795",
       "lbl" : "Trametes versicolor FP-101664 SS1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_796",
+      "id" : "http://www.kegg.jp/entry/796",
       "lbl" : "Thiomicrospira sp. S5",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_797",
+      "id" : "http://www.kegg.jp/entry/797",
       "lbl" : "Vagococcus carniphilus ATCC BAA-640",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_798",
+      "id" : "http://www.kegg.jp/entry/798",
       "lbl" : "Veillonella atypica OK5",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_799",
+      "id" : "http://www.kegg.jp/entry/799",
       "lbl" : "Selenomonas ruminantium subsp. lactilytica TAM6421",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_800",
+      "id" : "http://www.kegg.jp/entry/800",
       "lbl" : "Thermococcus litoralis DSM 5473",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_801",
+      "id" : "http://www.kegg.jp/entry/801",
       "lbl" : "Wolbachia endosymbiont of Anopheles demeilloni",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_802",
+      "id" : "http://www.kegg.jp/entry/802",
       "lbl" : "Thermofilum adornatum 1910b (Thermofilum sp. 1910b)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_803",
+      "id" : "http://www.kegg.jp/entry/803",
       "lbl" : "Treponema pedis T A4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_804",
+      "id" : "http://www.kegg.jp/entry/804",
       "lbl" : "Thauera aminoaromatica MZ1T",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_805",
+      "id" : "http://www.kegg.jp/entry/805",
       "lbl" : "Xenorhabdus poinarii G6",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_806",
+      "id" : "http://www.kegg.jp/entry/806",
       "lbl" : "Streptomyces noursei ATCC 11455",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_807",
+      "id" : "http://www.kegg.jp/entry/807",
       "lbl" : "Solicola gregarius A5X3R13",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_808",
+      "id" : "http://www.kegg.jp/entry/808",
       "lbl" : "Staphylococcus arlettae P2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_809",
+      "id" : "http://www.kegg.jp/entry/809",
       "lbl" : "Sphingosinicella flava UDD2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_810",
+      "id" : "http://www.kegg.jp/entry/810",
       "lbl" : "Tepiditoga spiralis sy52",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_811",
+      "id" : "http://www.kegg.jp/entry/811",
       "lbl" : "Streptomyces cyaneochromogenes MK-45",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_812",
+      "id" : "http://www.kegg.jp/entry/812",
       "lbl" : "Vibrio atlanticus LGP32 (Vibrio tasmaniensis LGP32)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_813",
+      "id" : "http://www.kegg.jp/entry/813",
       "lbl" : "Verrucomicrobium sp. GAS474",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_814",
+      "id" : "http://www.kegg.jp/entry/814",
       "lbl" : "Xylanimonas allomyrinae 2JSPR-7",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_815",
+      "id" : "http://www.kegg.jp/entry/815",
       "lbl" : "Xylanimonas protaetiae FW10M-9",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_816",
+      "id" : "http://www.kegg.jp/entry/816",
       "lbl" : "Tyto alba (Barn owl)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_817",
+      "id" : "http://www.kegg.jp/entry/817",
       "lbl" : "Salmonella enterica subsp. enterica serovar Enteritidis OLF-SE1-1019-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_818",
+      "id" : "http://www.kegg.jp/entry/818",
       "lbl" : "Sulfuriroseicoccus oceanibius T37",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_819",
+      "id" : "http://www.kegg.jp/entry/819",
       "lbl" : "Streptomyces calvus DSM 41452 (Streptomyces asterosporus DSM 41452)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_820",
+      "id" : "http://www.kegg.jp/entry/820",
       "lbl" : "Theileria equi WA (Babesia equi)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_821",
+      "id" : "http://www.kegg.jp/entry/821",
       "lbl" : "Pseudomonas yamanorum LBUM636",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_822",
+      "id" : "http://www.kegg.jp/entry/822",
       "lbl" : "Nocardioides okcheonensis MMS20-HV4-12",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_823",
+      "id" : "http://www.kegg.jp/entry/823",
       "lbl" : "Vibrio anguillarum M3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_824",
+      "id" : "http://www.kegg.jp/entry/824",
       "lbl" : "Suttonella sp. R2A3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_825",
+      "id" : "http://www.kegg.jp/entry/825",
       "lbl" : "Wolbachia endosymbiont of Drosophila innubila",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_826",
+      "id" : "http://www.kegg.jp/entry/826",
       "lbl" : "Thalassomonas actiniarum A5K-106",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_827",
+      "id" : "http://www.kegg.jp/entry/827",
       "lbl" : "Vibrio cholerae O1 El Tor FJ147",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_828",
+      "id" : "http://www.kegg.jp/entry/828",
       "lbl" : "Vibrio cholerae O49 1154-74",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_829",
+      "id" : "http://www.kegg.jp/entry/829",
       "lbl" : "Vibrio cholerae O27 10432-62",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_830",
+      "id" : "http://www.kegg.jp/entry/830",
       "lbl" : "Verrucomicrobia bacterium IMCC26134",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_831",
+      "id" : "http://www.kegg.jp/entry/831",
       "lbl" : "Yersinia pestis A1122",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_832",
+      "id" : "http://www.kegg.jp/entry/832",
       "lbl" : "Yersinia pseudotuberculosis IP 32953 (serotype 1)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_833",
+      "id" : "http://www.kegg.jp/entry/833",
       "lbl" : "Yersinia pestis D182038",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_834",
+      "id" : "http://www.kegg.jp/entry/834",
       "lbl" : "Streptococcus constellatus subsp. pharyngis C818",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_835",
+      "id" : "http://www.kegg.jp/entry/835",
       "lbl" : "Variovorax paradoxus B4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_836",
+      "id" : "http://www.kegg.jp/entry/836",
       "lbl" : "Secundilactobacillus malefermentans CBA3618",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_837",
+      "id" : "http://www.kegg.jp/entry/837",
       "lbl" : "Vibrio campbellii ATCC BAA-1116",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_838",
+      "id" : "http://www.kegg.jp/entry/838",
       "lbl" : "Peptoniphilus harei NCTC13077",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_839",
+      "id" : "http://www.kegg.jp/entry/839",
       "lbl" : "Streptomyces nodosus ATCC 14899",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_840",
+      "id" : "http://www.kegg.jp/entry/840",
       "lbl" : "Vibrio alginolyticus NBRC 15630 = ATCC 17749",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_841",
+      "id" : "http://www.kegg.jp/entry/841",
       "lbl" : "Vibrio alfacsensis CAIM 1831",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_842",
+      "id" : "http://www.kegg.jp/entry/842",
       "lbl" : "Wolbachia pipientis wAlbB, endosymbiont of Aedes albopictus (mosquito)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_843",
+      "id" : "http://www.kegg.jp/entry/843",
       "lbl" : "Streptomyces tirandamycinicus HNM0039",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_844",
+      "id" : "http://www.kegg.jp/entry/844",
       "lbl" : "Vibrio owensii XSBZ03",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_845",
+      "id" : "http://www.kegg.jp/entry/845",
       "lbl" : "Xenorhabdus bovienii CS03",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_846",
+      "id" : "http://www.kegg.jp/entry/846",
       "lbl" : "Yersinia pseudotuberculosis PA3606",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_847",
+      "id" : "http://www.kegg.jp/entry/847",
       "lbl" : "Thermotoga neapolitana DSM 4359",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_848",
+      "id" : "http://www.kegg.jp/entry/848",
       "lbl" : "Veillonella dispar NCTC11831",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_849",
+      "id" : "http://www.kegg.jp/entry/849",
       "lbl" : "Streptomyces kanamyceticus ATCC 12853",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_850",
+      "id" : "http://www.kegg.jp/entry/850",
       "lbl" : "Staphylococcus aureus subsp. aureus SA957, community-associated methicillin-resistant",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_851",
+      "id" : "http://www.kegg.jp/entry/851",
       "lbl" : "Vagococcus fluvialis 36B2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_852",
+      "id" : "http://www.kegg.jp/entry/852",
       "lbl" : "Pseudomonas wenzhouensis A20",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_853",
+      "id" : "http://www.kegg.jp/entry/853",
       "lbl" : "Umezawaea sp. Da 62-37",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_854",
+      "id" : "http://www.kegg.jp/entry/854",
       "lbl" : "Yoonia vestfoldensis SMR4r",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_855",
+      "id" : "http://www.kegg.jp/entry/855",
       "lbl" : "Sphingobium sp. YBL2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_856",
+      "id" : "http://www.kegg.jp/entry/856",
       "lbl" : "Thiosulfativibrio zosterae AkT22",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_857",
+      "id" : "http://www.kegg.jp/entry/857",
       "lbl" : "Sulfuriferula sp. AH1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_858",
+      "id" : "http://www.kegg.jp/entry/858",
       "lbl" : "Tenacibaculum retecalamus 18-3228-7B",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_859",
+      "id" : "http://www.kegg.jp/entry/859",
       "lbl" : "Thiosulfatimonas sediminis aks77",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_860",
+      "id" : "http://www.kegg.jp/entry/860",
       "lbl" : "Streptomyces roseirectus CRXT-G-22",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_861",
+      "id" : "http://www.kegg.jp/entry/861",
       "lbl" : "Streptomyces xanthii CRXT-Y-14",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_862",
+      "id" : "http://www.kegg.jp/entry/862",
       "lbl" : "Sulfurimonas paralvinellae GO25",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_863",
+      "id" : "http://www.kegg.jp/entry/863",
       "lbl" : "Streptomonospora litoralis M2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_864",
+      "id" : "http://www.kegg.jp/entry/864",
       "lbl" : "Thermoactinomyces vulgaris CDF",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_865",
+      "id" : "http://www.kegg.jp/entry/865",
       "lbl" : "Streptomyces vinaceus ATCC 27476",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_866",
+      "id" : "http://www.kegg.jp/entry/866",
       "lbl" : "Wolbachia sp. wRi, endosymbiont of Drosophila simulans",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_867",
+      "id" : "http://www.kegg.jp/entry/867",
       "lbl" : "Thermus thermophilus SG0.5JP17-16",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_868",
+      "id" : "http://www.kegg.jp/entry/868",
       "lbl" : "Xanthomonas oryzae pv. oryzicola CFBP7342",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_869",
+      "id" : "http://www.kegg.jp/entry/869",
       "lbl" : "Staphylococcus aureus subsp. aureus ED133",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_870",
+      "id" : "http://www.kegg.jp/entry/870",
       "lbl" : "Streptococcus dysgalactiae subsp. equisimilis 167",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_871",
+      "id" : "http://www.kegg.jp/entry/871",
       "lbl" : "Vibrio nigripulchritudo SFn1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_872",
+      "id" : "http://www.kegg.jp/entry/872",
       "lbl" : "Xanthomonas campestris pv. raphani 756C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_873",
+      "id" : "http://www.kegg.jp/entry/873",
       "lbl" : "Xanthomonas oryzae pv. oryzicola BLS256",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_874",
+      "id" : "http://www.kegg.jp/entry/874",
       "lbl" : "Zalophus californianus (California sea lion)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_875",
+      "id" : "http://www.kegg.jp/entry/875",
       "lbl" : "Zymomonas mobilis subsp. mobilis ATCC 10988",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_876",
+      "id" : "http://www.kegg.jp/entry/876",
       "lbl" : "Weissella diestrammenae KACC 16890",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_877",
+      "id" : "http://www.kegg.jp/entry/877",
       "lbl" : "Treponema rectale CHPA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_878",
+      "id" : "http://www.kegg.jp/entry/878",
       "lbl" : "Ruania alkalisoli RN3S43",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_879",
+      "id" : "http://www.kegg.jp/entry/879",
       "lbl" : "Talaromyces rugulosus W13939",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_880",
+      "id" : "http://www.kegg.jp/entry/880",
       "lbl" : "Tenacibaculum finnmarkense LI C6 FM3-F",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_881",
+      "id" : "http://www.kegg.jp/entry/881",
       "lbl" : "Rosistilla ulvae EC9",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_882",
+      "id" : "http://www.kegg.jp/entry/882",
       "lbl" : "Rhodococcus opacus B4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_883",
+      "id" : "http://www.kegg.jp/entry/883",
       "lbl" : "Shigella flexneri 2002017 (serotype Fxv)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_884",
+      "id" : "http://www.kegg.jp/entry/884",
       "lbl" : "Telluria mixta ACM 1762",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_885",
+      "id" : "http://www.kegg.jp/entry/885",
       "lbl" : "Sinorhizobium meliloti SM11, endosymbiont of Medicago sativa (alfalfa)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_886",
+      "id" : "http://www.kegg.jp/entry/886",
       "lbl" : "Staphylococcus aureus subsp. aureus Z172, methicillin-resistant, vancomycin-intermediate resistance",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_887",
+      "id" : "http://www.kegg.jp/entry/887",
       "lbl" : "Yersinia ruckeri Big Creek 74 (serotype O2)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_888",
+      "id" : "http://www.kegg.jp/entry/888",
       "lbl" : "Staphylococcus aureus subsp. aureus T0131, methicillin-resistant",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_889",
+      "id" : "http://www.kegg.jp/entry/889",
       "lbl" : "Streptomyces nitrosporeus ATCC 12769",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_890",
+      "id" : "http://www.kegg.jp/entry/890",
       "lbl" : "Yersinia enterocolitica FORC_002",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_891",
+      "id" : "http://www.kegg.jp/entry/891",
       "lbl" : "Vibrio cholerae O1 M66-2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_892",
+      "id" : "http://www.kegg.jp/entry/892",
       "lbl" : "Vreelandella venusta MA-ZP17-13 (Halomonas venusta MA-ZP17-13)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_893",
+      "id" : "http://www.kegg.jp/entry/893",
       "lbl" : "Sulfitobacter donghicola SB1155",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_894",
+      "id" : "http://www.kegg.jp/entry/894",
       "lbl" : "Xanthomonas citri subsp. citri UI6",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_895",
+      "id" : "http://www.kegg.jp/entry/895",
       "lbl" : "Shewanella inventionis D1489",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_896",
+      "id" : "http://www.kegg.jp/entry/896",
       "lbl" : "Superficieibacter sp. HKU1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_897",
+      "id" : "http://www.kegg.jp/entry/897",
       "lbl" : "Pseudomonas sp. VLB120",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_898",
+      "id" : "http://www.kegg.jp/entry/898",
       "lbl" : "Sphingorhabdus lacus IMCC1753",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_899",
+      "id" : "http://www.kegg.jp/entry/899",
       "lbl" : "Pseudomonas fluorescens SBW25",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_900",
+      "id" : "http://www.kegg.jp/entry/900",
       "lbl" : "Thermotoga maritima Tma100",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_901",
+      "id" : "http://www.kegg.jp/entry/901",
       "lbl" : "Thermotoga maritima Tma200",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_902",
+      "id" : "http://www.kegg.jp/entry/902",
       "lbl" : "Xanthomonas euroxanthea CPBF 367",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_903",
+      "id" : "http://www.kegg.jp/entry/903",
       "lbl" : "Vibrio cholerae O1 MJ-1236",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_904",
+      "id" : "http://www.kegg.jp/entry/904",
       "lbl" : "Tolumonas auensis DSM 9187",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_905",
+      "id" : "http://www.kegg.jp/entry/905",
       "lbl" : "Spiroplasma chinense CCH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_906",
+      "id" : "http://www.kegg.jp/entry/906",
       "lbl" : "Vibrio neptunius KCTC 12702",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_907",
+      "id" : "http://www.kegg.jp/entry/907",
       "lbl" : "Streptomyces rapamycinicus NRRL 5491",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_908",
+      "id" : "http://www.kegg.jp/entry/908",
       "lbl" : "Xiphophorus couchianus (Monterrey platyfish)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_909",
+      "id" : "http://www.kegg.jp/entry/909",
       "lbl" : "Ursus arctos (brown bear)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_910",
+      "id" : "http://www.kegg.jp/entry/910",
       "lbl" : "Telopea speciosissima (New South Wales waratah)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_911",
+      "id" : "http://www.kegg.jp/entry/911",
       "lbl" : "Zonotrichia albicollis (white-throated sparrow)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_912",
+      "id" : "http://www.kegg.jp/entry/912",
       "lbl" : "Streptococcus troglodytae TKU 31",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_913",
+      "id" : "http://www.kegg.jp/entry/913",
       "lbl" : "Tautonia plasticadhaerens ElP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_914",
+      "id" : "http://www.kegg.jp/entry/914",
       "lbl" : "Paenibacillus lentus DSM 25539",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_915",
+      "id" : "http://www.kegg.jp/entry/915",
       "lbl" : "Plutella xylostella DBM-FZ-S (diamondback moth)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_916",
+      "id" : "http://www.kegg.jp/entry/916",
       "lbl" : "Variovorax paradoxus S110",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_917",
+      "id" : "http://www.kegg.jp/entry/917",
       "lbl" : "Streptomyces hawaiiensis ATCC 12236",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_918",
+      "id" : "http://www.kegg.jp/entry/918",
       "lbl" : "Sinomonas cyclohexanicum ATCC 51369 (Corynebacterium cyclohexanicum ATCC 51369)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_919",
+      "id" : "http://www.kegg.jp/entry/919",
       "lbl" : "Wolbachia endosymbiont of Corcyra cephalonica",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_920",
+      "id" : "http://www.kegg.jp/entry/920",
       "lbl" : "Thermococcus gammatolerans EJ3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_921",
+      "id" : "http://www.kegg.jp/entry/921",
       "lbl" : "Trichomycterus rosablanca",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_922",
+      "id" : "http://www.kegg.jp/entry/922",
       "lbl" : "Paenibacillus barcinonensis KACC11450",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_923",
+      "id" : "http://www.kegg.jp/entry/923",
       "lbl" : "Xiphophorus maculatus (southern platyfish)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_924",
+      "id" : "http://www.kegg.jp/entry/924",
       "lbl" : "Pestalotiopsis fici W106-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_925",
+      "id" : "http://www.kegg.jp/entry/925",
       "lbl" : "Xylella fastidiosa Hib4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_926",
+      "id" : "http://www.kegg.jp/entry/926",
       "lbl" : "Thalassotalea sp. HSM 43",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_927",
+      "id" : "http://www.kegg.jp/entry/927",
       "lbl" : "Streptomyces rectiverticillatus B15-08",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_928",
+      "id" : "http://www.kegg.jp/entry/928",
       "lbl" : "Thermococcus sibiricus MM 739",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_929",
+      "id" : "http://www.kegg.jp/entry/929",
       "lbl" : "Streptomyces ficellus NRRL 8067",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_930",
+      "id" : "http://www.kegg.jp/entry/930",
       "lbl" : "Thermaerobacter sp. FW80",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_931",
+      "id" : "http://www.kegg.jp/entry/931",
       "lbl" : "Ursus americanus (American black bear)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_932",
+      "id" : "http://www.kegg.jp/entry/932",
       "lbl" : "Zymomonas mobilis subsp. mobilis CP4 = NRRL B-14023",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_933",
+      "id" : "http://www.kegg.jp/entry/933",
       "lbl" : "Vibrio gazogenes ATCC 43942",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_934",
+      "id" : "http://www.kegg.jp/entry/934",
       "lbl" : "Tatumella sp. TA1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_935",
+      "id" : "http://www.kegg.jp/entry/935",
       "lbl" : "Streptococcus suis BM407 (serotype 2)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_936",
+      "id" : "http://www.kegg.jp/entry/936",
       "lbl" : "Vibrio mediterranei QT6D1 (Vibrio shilonii QT6D1)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_937",
+      "id" : "http://www.kegg.jp/entry/937",
       "lbl" : "Streptomyces spongiicola HNM0071",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_938",
+      "id" : "http://www.kegg.jp/entry/938",
       "lbl" : "Streptomyces tubbatahanensis DSD3025",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_939",
+      "id" : "http://www.kegg.jp/entry/939",
       "lbl" : "Novosphingobium olei DW067",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_940",
+      "id" : "http://www.kegg.jp/entry/940",
       "lbl" : "Salinicoccus halodurans H3B36",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_941",
+      "id" : "http://www.kegg.jp/entry/941",
       "lbl" : "Thermococcus piezophilus CDGS",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_942",
+      "id" : "http://www.kegg.jp/entry/942",
       "lbl" : "Pseudoalteromonas piscicida DE2-B",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_943",
+      "id" : "http://www.kegg.jp/entry/943",
       "lbl" : "Staphylococcus pettenkoferi FDAARGOS_288",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_944",
+      "id" : "http://www.kegg.jp/entry/944",
       "lbl" : "Symmachiella dynata Mal52",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_945",
+      "id" : "http://www.kegg.jp/entry/945",
       "lbl" : "Spongiibacter sp. IMCC21906",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_946",
+      "id" : "http://www.kegg.jp/entry/946",
       "lbl" : "Streptomyces cathayae HUAS 5",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_947",
+      "id" : "http://www.kegg.jp/entry/947",
       "lbl" : "Staphylococcus schweitzeri NCTC13712",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_948",
+      "id" : "http://www.kegg.jp/entry/948",
       "lbl" : "Siniperca chuatsi (mandarin fish)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_949",
+      "id" : "http://www.kegg.jp/entry/949",
       "lbl" : "Trifolium pratense (red clover)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_950",
+      "id" : "http://www.kegg.jp/entry/950",
       "lbl" : "Vreelandella titanicae SOB56",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_951",
+      "id" : "http://www.kegg.jp/entry/951",
       "lbl" : "Wolbachia endosymbiont of Ceratosolen solmsi",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_952",
+      "id" : "http://www.kegg.jp/entry/952",
       "lbl" : "Teredinibacter turnerae T7901",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_953",
+      "id" : "http://www.kegg.jp/entry/953",
       "lbl" : "Saccharolobus islandicus REY15A (Sulfolobus islandicus REY15A)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_954",
+      "id" : "http://www.kegg.jp/entry/954",
       "lbl" : "Stella sp. ATCC 35155",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_955",
+      "id" : "http://www.kegg.jp/entry/955",
       "lbl" : "Staphylococcus simiae NCTC13838",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_956",
+      "id" : "http://www.kegg.jp/entry/956",
       "lbl" : "Salinivibrio kushneri AL184",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_957",
+      "id" : "http://www.kegg.jp/entry/957",
       "lbl" : "Streptomyces cinnabarinus DSM 40467",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_958",
+      "id" : "http://www.kegg.jp/entry/958",
       "lbl" : "Zonotrichia leucophrys gambelii (white-crowned sparrow)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_959",
+      "id" : "http://www.kegg.jp/entry/959",
       "lbl" : "Trueperella bialowiezensis NCTC13354",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_960",
+      "id" : "http://www.kegg.jp/entry/960",
       "lbl" : "Vitreoscilla filiformis ATCC 15551",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_961",
+      "id" : "http://www.kegg.jp/entry/961",
       "lbl" : "Yersinia hibernica CFS1934",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_962",
+      "id" : "http://www.kegg.jp/entry/962",
       "lbl" : "Streptomyces xanthophaeus KPP03845",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_963",
+      "id" : "http://www.kegg.jp/entry/963",
       "lbl" : "Stenotrophomonas sp. WZN-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_964",
+      "id" : "http://www.kegg.jp/entry/964",
       "lbl" : "Streptomyces paludis GSSD-12",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_965",
+      "id" : "http://www.kegg.jp/entry/965",
       "lbl" : "Xanthomonas theicola CFBP 4691",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_966",
+      "id" : "http://www.kegg.jp/entry/966",
       "lbl" : "Providencia zhijiangensis D4759",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_967",
+      "id" : "http://www.kegg.jp/entry/967",
       "lbl" : "Tympanuchus pallidicinctus (lesser prairie-chicken)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_968",
+      "id" : "http://www.kegg.jp/entry/968",
       "lbl" : "Streptomyces sp. CNQ-509",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_969",
+      "id" : "http://www.kegg.jp/entry/969",
       "lbl" : "Vibrio aquimaris THAF100",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_970",
+      "id" : "http://www.kegg.jp/entry/970",
       "lbl" : "Staphylococcus capitis subsp. capitis AYP1020",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_971",
+      "id" : "http://www.kegg.jp/entry/971",
       "lbl" : "Rhizobium rhododendri rho-6.2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_972",
+      "id" : "http://www.kegg.jp/entry/972",
       "lbl" : "Veillonella nakazawae T1-7",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_973",
+      "id" : "http://www.kegg.jp/entry/973",
       "lbl" : "Vermiphilus pyriformis TW-EDP1-1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_974",
+      "id" : "http://www.kegg.jp/entry/974",
       "lbl" : "Spiroplasma eriocheiris DSM 21848",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_975",
+      "id" : "http://www.kegg.jp/entry/975",
       "lbl" : "Tessaracoccus lapidicaptus TLA_E",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_976",
+      "id" : "http://www.kegg.jp/entry/976",
       "lbl" : "Zygotorulaspora mrakii NRRL Y-6702",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_977",
+      "id" : "http://www.kegg.jp/entry/977",
       "lbl" : "Thermosynechococcus sp. NK55",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_978",
+      "id" : "http://www.kegg.jp/entry/978",
       "lbl" : "Tupaia chinensis (Chinese tree shrew)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_979",
+      "id" : "http://www.kegg.jp/entry/979",
       "lbl" : "Xylella fastidiosa subsp. fastidiosa GB514",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_980",
+      "id" : "http://www.kegg.jp/entry/980",
       "lbl" : "Thermostichus vulcanus NIES-2134",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_981",
+      "id" : "http://www.kegg.jp/entry/981",
       "lbl" : "Torulaspora globosa CBS764",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_982",
+      "id" : "http://www.kegg.jp/entry/982",
       "lbl" : "Streptococcus alactolyticus LGM",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_983",
+      "id" : "http://www.kegg.jp/entry/983",
       "lbl" : "Thiomicrorhabdus sediminis G1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_984",
+      "id" : "http://www.kegg.jp/entry/984",
       "lbl" : "Poecilia formosa (Amazon molly)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_985",
+      "id" : "http://www.kegg.jp/entry/985",
       "lbl" : "Sphingobium fuliginis KK22",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_986",
+      "id" : "http://www.kegg.jp/entry/986",
       "lbl" : "Streptomyces fagopyri QMT-28",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_987",
+      "id" : "http://www.kegg.jp/entry/987",
       "lbl" : "Sphingomonas sp. KC8",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_988",
+      "id" : "http://www.kegg.jp/entry/988",
       "lbl" : "Rugamonas sp. DEMB1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_989",
+      "id" : "http://www.kegg.jp/entry/989",
       "lbl" : "Rhinopithecus roxellana (golden snub-nosed monkey)",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_990",
+      "id" : "http://www.kegg.jp/entry/990",
       "lbl" : "Xanthomonas hawaiiensis A6251",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_991",
+      "id" : "http://www.kegg.jp/entry/991",
       "lbl" : "Weissella viridescens NJ100",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_992",
+      "id" : "http://www.kegg.jp/entry/992",
       "lbl" : "Roseomonas fluvialis S08",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_993",
+      "id" : "http://www.kegg.jp/entry/993",
       "lbl" : "Thermotomaculum hydrothermale AC55",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_994",
+      "id" : "http://www.kegg.jp/entry/994",
       "lbl" : "Yersinia aleksiciae 159",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_995",
+      "id" : "http://www.kegg.jp/entry/995",
       "lbl" : "Usitatibacter palustris Swamp67",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_996",
+      "id" : "http://www.kegg.jp/entry/996",
       "lbl" : "Rufibacter radiotolerans DG31D",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_997",
+      "id" : "http://www.kegg.jp/entry/997",
       "lbl" : "Thioclava electrotropha Elox9",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_998",
+      "id" : "http://www.kegg.jp/entry/998",
       "lbl" : "Ruminococcus bovis JE7A12",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/kegg.genome_999",
+      "id" : "http://www.kegg.jp/entry/999",
       "lbl" : "Natrarchaeobaculum aegyptiacum JW/NM-HA 15 (Natronolimnobius aegyptiacus JW/NM-HA 15)",
       "type" : "CLASS"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
-      "lbl" : "has_obo_format_version",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#id",
-      "lbl" : "id",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
     } ]
   } ]
 }

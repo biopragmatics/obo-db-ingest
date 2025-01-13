@@ -1,6 +1,6 @@
 {
   "graphs" : [ {
-    "id" : "http://purl.obolibrary.org/obo/pfam.clan.owl",
+    "id" : "https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.ofn",
     "meta" : {
       "basicPropertyValues" : [ {
         "pred" : "http://purl.org/dc/terms/description",
@@ -13,3107 +13,3089 @@
         "val" : "Pfam Clans"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-        "val" : "PyOBO v0.12.0-dev-2737b355 on 2025-01-08T23:28:22.774271"
+        "val" : "PyOBO v0.12.0-dev-63556853 on 2025-01-13T18:25:40.259883"
       }, {
-        "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
-        "val" : "1.4"
+        "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
+        "val" : "37.2"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pfam.clan/37.2/pfam.clan.owl"
+      "version" : "https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.ofn"
     },
     "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0001",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0001",
       "lbl" : "EGF",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0003",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0003",
       "lbl" : "SAM",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0004",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0004",
       "lbl" : "Concanavalin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0005",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0005",
       "lbl" : "Kazal",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0007",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0007",
       "lbl" : "KH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0010",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0010",
       "lbl" : "SH3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0012",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0012",
       "lbl" : "Histone",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0013",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0013",
       "lbl" : "Beta-lactamase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0014",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0014",
       "lbl" : "Glutaminase_I",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0015",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0015",
       "lbl" : "MFS",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0016",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0016",
       "lbl" : "PKinase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0018",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0018",
       "lbl" : "bZIP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0020",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0020",
       "lbl" : "TPR",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0021",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0021",
       "lbl" : "OB",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0022",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0022",
       "lbl" : "LRR",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0023",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0023",
       "lbl" : "P-loop_NTPase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0025",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0025",
       "lbl" : "His_Kinase_A",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0026",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0026",
       "lbl" : "CU_oxidase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0027",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0027",
       "lbl" : "RdRP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0028",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0028",
       "lbl" : "AB_hydrolase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0029",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0029",
       "lbl" : "Cupin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0030",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0030",
       "lbl" : "Ion_channel",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0031",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0031",
       "lbl" : "Phosphatase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0032",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0032",
       "lbl" : "Dim_A_B_barrel",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0033",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0033",
       "lbl" : "POZ",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0036",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0036",
       "lbl" : "TIM_barrel",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0037",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0037",
       "lbl" : "Lysozyme",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0039",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0039",
       "lbl" : "HUP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0040",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0040",
       "lbl" : "tRNA_synt_II",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0041",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0041",
       "lbl" : "Death",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0042",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0042",
       "lbl" : "Flavoprotein",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0043",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0043",
       "lbl" : "Chelatase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0044",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0044",
       "lbl" : "Ferritin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0046",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0046",
       "lbl" : "Thiolase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0047",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0047",
       "lbl" : "CuAO_N2_N3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0048",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0048",
       "lbl" : "LolA_LolB",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0050",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0050",
       "lbl" : "HotDog",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0051",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0051",
       "lbl" : "NTF2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0052",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0052",
       "lbl" : "NTN",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0053",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0053",
       "lbl" : "4H_Cytokine",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0054",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0054",
       "lbl" : "Knottin_1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0055",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0055",
       "lbl" : "Nucleoplasmin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0056",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0056",
       "lbl" : "C_Lectin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0057",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0057",
       "lbl" : "Met_repress",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0059",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0059",
       "lbl" : "6_Hairpin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0060",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0060",
       "lbl" : "DNA_clamp",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0061",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0061",
       "lbl" : "PLP_aminotran",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0062",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0062",
       "lbl" : "APC",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0063",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0063",
       "lbl" : "NADP_Rossmann",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0064",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0064",
       "lbl" : "CPA_AT",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0065",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0065",
       "lbl" : "Cyclin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0066",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0066",
       "lbl" : "Trefoil",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0067",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0067",
       "lbl" : "SIS",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0068",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0068",
       "lbl" : "RIIa",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0069",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0069",
       "lbl" : "GFP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0070",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0070",
       "lbl" : "ACT",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0071",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0071",
       "lbl" : "His_phosphatase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0072",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0072",
       "lbl" : "Ubiquitin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0073",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0073",
       "lbl" : "P53-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0074",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0074",
       "lbl" : "Matrix",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0075",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0075",
       "lbl" : "Defensin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0077",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0077",
       "lbl" : "FAD_PCMH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0079",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0079",
       "lbl" : "Cystine-knot",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0080",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0080",
       "lbl" : "Beta-tent",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0081",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0081",
       "lbl" : "MBD-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0082",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0082",
       "lbl" : "MIF",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0083",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0083",
       "lbl" : "Omega_toxin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0084",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0084",
       "lbl" : "ADP-ribosyl",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0087",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0087",
       "lbl" : "Acyl-CoA_dh",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0088",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0088",
       "lbl" : "Alk_phosphatase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0089",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0089",
       "lbl" : "GlnB-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0090",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0090",
       "lbl" : "Globin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0091",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0091",
       "lbl" : "NAD_Ferredoxin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0092",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0092",
       "lbl" : "ADF",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0093",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0093",
       "lbl" : "Peptidase_CD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0094",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0094",
       "lbl" : "Peptidase_ME",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0095",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0095",
       "lbl" : "Peptidase_ML",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0096",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0096",
       "lbl" : "Pept_Inhib_IE",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0097",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0097",
       "lbl" : "TypeIII_Chap",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0098",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0098",
       "lbl" : "SPOUT",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0099",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0099",
       "lbl" : "ALDH-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0100",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0100",
       "lbl" : "C1q_TNF",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0101",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0101",
       "lbl" : "PELOTA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0103",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0103",
       "lbl" : "Gal_mutarotase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0104",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0104",
       "lbl" : "Glyoxalase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0105",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0105",
       "lbl" : "Hybrid",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0106",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0106",
       "lbl" : "6PGD_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0108",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0108",
       "lbl" : "Actin_ATPase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0109",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0109",
       "lbl" : "CDA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0110",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0110",
       "lbl" : "GT-A",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0111",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0111",
       "lbl" : "GT-C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0112",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0112",
       "lbl" : "Yip1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0113",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0113",
       "lbl" : "GT-B",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0114",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0114",
       "lbl" : "HMG-box",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0115",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0115",
       "lbl" : "Steroid_dh",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0116",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0116",
       "lbl" : "Calycin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0117",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0117",
       "lbl" : "uPAR_Ly6_toxin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0118",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0118",
       "lbl" : "Ribokinase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0122",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0122",
       "lbl" : "UTRA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0123",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0123",
       "lbl" : "HTH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0124",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0124",
       "lbl" : "Peptidase_PA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0125",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0125",
       "lbl" : "Peptidase_CA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0126",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0126",
       "lbl" : "Peptidase_MA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0127",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0127",
       "lbl" : "ClpP_crotonase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0128",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0128",
       "lbl" : "vWA-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0129",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0129",
       "lbl" : "Peptidase_AA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0130",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0130",
       "lbl" : "Peptidase_AD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0131",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0131",
       "lbl" : "DoxD-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0132",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0132",
       "lbl" : "AbrB",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0133",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0133",
       "lbl" : "AT14A-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0135",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0135",
       "lbl" : "Arrestin_N-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0136",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0136",
       "lbl" : "Plasmid_toxin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0137",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0137",
       "lbl" : "HAD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0139",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0139",
       "lbl" : "GADPH_aa-bio_dh",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0140",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0140",
       "lbl" : "Viral_NABP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0141",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0141",
       "lbl" : "MtN3-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0142",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0142",
       "lbl" : "Membrane_trans",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0143",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0143",
       "lbl" : "B_Fructosidase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0144",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0144",
       "lbl" : "Periplas_BP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0145",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0145",
       "lbl" : "Golgi-transport",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0146",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0146",
       "lbl" : "Herpes_glyco",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0148",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0148",
       "lbl" : "Viral_Gag",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0149",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0149",
       "lbl" : "CoA-acyltrans",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0153",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0153",
       "lbl" : "dUTPase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0154",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0154",
       "lbl" : "C2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0155",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0155",
       "lbl" : "CBM_14_19",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0156",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0156",
       "lbl" : "Nucleocapsid",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0157",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0157",
       "lbl" : "Kleisin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0158",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0158",
       "lbl" : "GH_CE",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0159",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0159",
       "lbl" : "E-set",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0161",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0161",
       "lbl" : "GAF",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0163",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0163",
       "lbl" : "Calcineurin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0164",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0164",
       "lbl" : "CUB",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0165",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0165",
       "lbl" : "Cache",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0166",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0166",
       "lbl" : "PRD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0167",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0167",
       "lbl" : "Zn_Beta_Ribbon",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0168",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0168",
       "lbl" : "PAN",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0169",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0169",
       "lbl" : "Rep",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0170",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0170",
       "lbl" : "Peptidase_MD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0171",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0171",
       "lbl" : "Phospoesterase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0172",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0172",
       "lbl" : "Thioredoxin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0173",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0173",
       "lbl" : "STIR",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0174",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0174",
       "lbl" : "TetR_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0175",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0175",
       "lbl" : "TRASH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0176",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0176",
       "lbl" : "Chemosens_recp",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0177",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0177",
       "lbl" : "PBP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0178",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0178",
       "lbl" : "PUA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0179",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0179",
       "lbl" : "ATP-grasp",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0181",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0181",
       "lbl" : "ABC-2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0182",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0182",
       "lbl" : "IT",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0183",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0183",
       "lbl" : "PAS_Fold",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0184",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0184",
       "lbl" : "DMT",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0186",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0186",
       "lbl" : "Beta_propeller",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0187",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0187",
       "lbl" : "LysM",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0188",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0188",
       "lbl" : "CH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0190",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0190",
       "lbl" : "HSP20",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0191",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0191",
       "lbl" : "POTRA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0192",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0192",
       "lbl" : "GPCR_A",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0193",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0193",
       "lbl" : "MBB",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0194",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0194",
       "lbl" : "DNA_pol_B-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0195",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0195",
       "lbl" : "DBL",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0196",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0196",
       "lbl" : "DSRM",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0197",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0197",
       "lbl" : "GME",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0198",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0198",
       "lbl" : "HHH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0199",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0199",
       "lbl" : "DPBB",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0200",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0200",
       "lbl" : "Prefoldin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0201",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0201",
       "lbl" : "Peptidase_SH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0202",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0202",
       "lbl" : "GBD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0203",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0203",
       "lbl" : "CBD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0204",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0204",
       "lbl" : "Adhesin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0205",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0205",
       "lbl" : "Di-copper",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0207",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0207",
       "lbl" : "Rhomboid-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0208",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0208",
       "lbl" : "UBC",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0209",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0209",
       "lbl" : "Bet_v_1_like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0210",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0210",
       "lbl" : "HNOX-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0212",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0212",
       "lbl" : "SNARE",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0213",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0213",
       "lbl" : "ShK-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0214",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0214",
       "lbl" : "UBA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0217",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0217",
       "lbl" : "Rotavirus_VP7",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0219",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0219",
       "lbl" : "RNase_H",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0220",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0220",
       "lbl" : "EF_hand",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0221",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0221",
       "lbl" : "RRM",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0222",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0222",
       "lbl" : "MviN_MATE",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0223",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0223",
       "lbl" : "MACRO",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0224",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0224",
       "lbl" : "DHQS",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0225",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0225",
       "lbl" : "FtsL",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0226",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0226",
       "lbl" : "M6PR",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0227",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0227",
       "lbl" : "Enolase_N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0228",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0228",
       "lbl" : "Acyltransferase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0229",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0229",
       "lbl" : "RING",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0230",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0230",
       "lbl" : "HO",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0231",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0231",
       "lbl" : "MazG",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0232",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0232",
       "lbl" : "NifU",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0233",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0233",
       "lbl" : "SufE_NifU",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0234",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0234",
       "lbl" : "CTPT",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0235",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0235",
       "lbl" : "PspA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0236",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0236",
       "lbl" : "PDDEXK",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0237",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0237",
       "lbl" : "HD_PDEase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0238",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0238",
       "lbl" : "PP2C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0239",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0239",
       "lbl" : "Insulin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0240",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0240",
       "lbl" : "PFK",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0241",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0241",
       "lbl" : "ABC_membrane",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0242",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0242",
       "lbl" : "DNA_primase_lrg",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0243",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0243",
       "lbl" : "AEP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0244",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0244",
       "lbl" : "PGBD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0245",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0245",
       "lbl" : "EDD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0247",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0247",
       "lbl" : "2H",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0248",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0248",
       "lbl" : "ParBc",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0249",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0249",
       "lbl" : "Phage_tail_L",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0250",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0250",
       "lbl" : "GAD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0251",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0251",
       "lbl" : "MORN",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0254",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0254",
       "lbl" : "THDP-binding",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0255",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0255",
       "lbl" : "ATP_synthase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0257",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0257",
       "lbl" : "Acetyltrans",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0258",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0258",
       "lbl" : "DALR",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0259",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0259",
       "lbl" : "OstA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0260",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0260",
       "lbl" : "NTP_transf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0261",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0261",
       "lbl" : "NUDIX",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0262",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0262",
       "lbl" : "Trigger_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0263",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0263",
       "lbl" : "His-Me_finger",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0264",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0264",
       "lbl" : "SGNH_hydrolase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0265",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0265",
       "lbl" : "HIT",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0266",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0266",
       "lbl" : "PH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0267",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0267",
       "lbl" : "S11_L18p",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0268",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0268",
       "lbl" : "Pec_lyase-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0269",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0269",
       "lbl" : "Maf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0270",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0270",
       "lbl" : "Iso_DH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0271",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0271",
       "lbl" : "F-box",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0272",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0272",
       "lbl" : "RGS",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0273",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0273",
       "lbl" : "CYTH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0274",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0274",
       "lbl" : "WRKY-GCM1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0276",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0276",
       "lbl" : "Nucleot_cyclase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0277",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0277",
       "lbl" : "FAD-oxidase_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0278",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0278",
       "lbl" : "AIG2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0279",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0279",
       "lbl" : "GatB_YqeY",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0280",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0280",
       "lbl" : "PIN",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0281",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0281",
       "lbl" : "CCT",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0282",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0282",
       "lbl" : "Serum_albumin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0283",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0283",
       "lbl" : "LigB",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0284",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0284",
       "lbl" : "Allatostatin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0285",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0285",
       "lbl" : "YycI_YycH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0286",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0286",
       "lbl" : "GCS",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0287",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0287",
       "lbl" : "Transthyretin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0288",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0288",
       "lbl" : "DAP_epimerase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0289",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0289",
       "lbl" : "FBD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0290",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0290",
       "lbl" : "EPT_RTPC",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0291",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0291",
       "lbl" : "KNTase_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0292",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0292",
       "lbl" : "LysE",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0293",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0293",
       "lbl" : "CDC",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0296",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0296",
       "lbl" : "GroES",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0297",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0297",
       "lbl" : "PhoU",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0298",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0298",
       "lbl" : "tRNA_bind_arm",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0299",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0299",
       "lbl" : "Peptidase_SF",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0300",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0300",
       "lbl" : "TAT",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0301",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0301",
       "lbl" : "PA14",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0302",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0302",
       "lbl" : "Arginase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0303",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0303",
       "lbl" : "H2TH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0304",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0304",
       "lbl" : "CheY",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0305",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0305",
       "lbl" : "PTH2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0306",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0306",
       "lbl" : "HeH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0307",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0307",
       "lbl" : "FUSC",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0308",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0308",
       "lbl" : "DMSO_reductase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0310",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0310",
       "lbl" : "DinB",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0311",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0311",
       "lbl" : "SCP2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0312",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0312",
       "lbl" : "HemS_ChuX",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0314",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0314",
       "lbl" : "PP-binding",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0315",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0315",
       "lbl" : "Gx_transp",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0316",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0316",
       "lbl" : "Acyl_transf_3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0317",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0317",
       "lbl" : "Multiheme_cytos",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0318",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0318",
       "lbl" : "Cytochrome-c",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0319",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0319",
       "lbl" : "SHS2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0320",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0320",
       "lbl" : "PepSY",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0321",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0321",
       "lbl" : "PLAT",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0322",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0322",
       "lbl" : "RND_permease",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0323",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0323",
       "lbl" : "Patatin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0324",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0324",
       "lbl" : "Homing_endonuc",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0326",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0326",
       "lbl" : "Reo_sigma",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0327",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0327",
       "lbl" : "Pilus",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0328",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0328",
       "lbl" : "2heme_cytochrom",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0329",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0329",
       "lbl" : "S5",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0330",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0330",
       "lbl" : "AVL9",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0331",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0331",
       "lbl" : "EpsM",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0333",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0333",
       "lbl" : "gCrystallin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0334",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0334",
       "lbl" : "THBO-biosyn",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0335",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0335",
       "lbl" : "FumRed-TM",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0336",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0336",
       "lbl" : "FMN-binding",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0337",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0337",
       "lbl" : "RF",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0339",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0339",
       "lbl" : "PFL-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0340",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0340",
       "lbl" : "PTase-anion_tr",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0341",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0341",
       "lbl" : "LDH_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0342",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0342",
       "lbl" : "TolB_N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0343",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0343",
       "lbl" : "MHC",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0344",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0344",
       "lbl" : "4Fe-4S",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0345",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0345",
       "lbl" : "Aerolisin_ETX",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0346",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0346",
       "lbl" : "Ribo_L29",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0347",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0347",
       "lbl" : "TSPAN_4TM-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0348",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0348",
       "lbl" : "Phage_tail",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0349",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0349",
       "lbl" : "SLOG",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0350",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0350",
       "lbl" : "PRC-barrel",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0351",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0351",
       "lbl" : "CHCH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0352",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0352",
       "lbl" : "EsxAB",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0353",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0353",
       "lbl" : "TIMP-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0354",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0354",
       "lbl" : "bBprotInhib",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0355",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0355",
       "lbl" : "CheC-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0356",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0356",
       "lbl" : "AMP_N-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0357",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0357",
       "lbl" : "SMAD-FHA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0359",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0359",
       "lbl" : "Intron-mat_II",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0360",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0360",
       "lbl" : "MTH1187-YkoF",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0361",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0361",
       "lbl" : "C2H2-zf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0362",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0362",
       "lbl" : "RAMPS-Cas5-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0363",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0363",
       "lbl" : "H-int",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0364",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0364",
       "lbl" : "Leu-IlvD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0365",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0365",
       "lbl" : "MurF-HprK_N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0366",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0366",
       "lbl" : "JAB",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0367",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0367",
       "lbl" : "CI-2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0368",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0368",
       "lbl" : "PhosC-NucP1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0369",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0369",
       "lbl" : "GHD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0370",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0370",
       "lbl" : "Uteroglobin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0371",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0371",
       "lbl" : "Inovirus-Coat",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0373",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0373",
       "lbl" : "Phage-coat",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0374",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0374",
       "lbl" : "PEP-carboxyk",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0375",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0375",
       "lbl" : "Transporter",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0376",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0376",
       "lbl" : "Oxa1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0377",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0377",
       "lbl" : "FAH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0378",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0378",
       "lbl" : "ANL",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0379",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0379",
       "lbl" : "PgaPase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0380",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0380",
       "lbl" : "IDO-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0381",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0381",
       "lbl" : "Metallo-HOrase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0382",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0382",
       "lbl" : "DNA-mend",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0383",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0383",
       "lbl" : "PheT-TilS",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0385",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0385",
       "lbl" : "Hydrophilin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0387",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0387",
       "lbl" : "DHFred",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0388",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0388",
       "lbl" : "FadR-C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0389",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0389",
       "lbl" : "TRAF",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0391",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0391",
       "lbl" : "CAP_C-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0392",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0392",
       "lbl" : "Chaperone-J",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0394",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0394",
       "lbl" : "DsrEFH-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0395",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0395",
       "lbl" : "Tubby_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0396",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0396",
       "lbl" : "Marvel-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0397",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0397",
       "lbl" : "TusA-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0398",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0398",
       "lbl" : "RMMBL_DRMBL",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0399",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0399",
       "lbl" : "Asp-glut_race",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0400",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0400",
       "lbl" : "GG-leader",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0402",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0402",
       "lbl" : "Cdc48_2-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0403",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0403",
       "lbl" : "ADC-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0404",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0404",
       "lbl" : "BPD_transp_1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0405",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0405",
       "lbl" : "DNA_b-psBarrel",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0406",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0406",
       "lbl" : "YjbJ-CsbD-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0407",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0407",
       "lbl" : "TBP-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0408",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0408",
       "lbl" : "PUP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0409",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0409",
       "lbl" : "GAP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0410",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0410",
       "lbl" : "LEF-8-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0411",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0411",
       "lbl" : "Vir",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0412",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0412",
       "lbl" : "Frag1-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0413",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0413",
       "lbl" : "Toprim-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0414",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0414",
       "lbl" : "TerB",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0416",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0416",
       "lbl" : "Anoctamin-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0417",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0417",
       "lbl" : "BIR-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0418",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0418",
       "lbl" : "GIY-YIG",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0419",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0419",
       "lbl" : "T3SS-Chaperone",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0420",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0420",
       "lbl" : "GlpM-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0421",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0421",
       "lbl" : "LppaM",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0422",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0422",
       "lbl" : "Fibrinogen_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0423",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0423",
       "lbl" : "AhpD-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0424",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0424",
       "lbl" : "T3SS-hook",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0425",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0425",
       "lbl" : "ComplexI-N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0426",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0426",
       "lbl" : "HRDC-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0428",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0428",
       "lbl" : "TolA-TonB-Cterm",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0429",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0429",
       "lbl" : "UcrQ-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0430",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0430",
       "lbl" : "CopD_like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0431",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0431",
       "lbl" : "PF",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0433",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0433",
       "lbl" : "SPFH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0435",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0435",
       "lbl" : "NPR",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0436",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0436",
       "lbl" : "FliG",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0437",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0437",
       "lbl" : "EF-G_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0439",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0439",
       "lbl" : "NusG-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0441",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0441",
       "lbl" : "AlbA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0442",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0442",
       "lbl" : "Tubulin_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0445",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0445",
       "lbl" : "SNARE-fusion",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0446",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0446",
       "lbl" : "Bacteriocin_TLN",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0447",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0447",
       "lbl" : "Hypoth_1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0448",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0448",
       "lbl" : "Cargo_bd_muHD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0449",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0449",
       "lbl" : "G-PATCH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0451",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0451",
       "lbl" : "FnI-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0452",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0452",
       "lbl" : "Tropomyosin-lke",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0453",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0453",
       "lbl" : "Apoptosis-Inhib",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0456",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0456",
       "lbl" : "Golgi_traff",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0457",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0457",
       "lbl" : "4HB_MCP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0458",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0458",
       "lbl" : "IIaaRS-ABD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0459",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0459",
       "lbl" : "BRCT-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0461",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0461",
       "lbl" : "Metallothionein",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0462",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0462",
       "lbl" : "TPA-repeat",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0464",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0464",
       "lbl" : "5_3_exonuc_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0465",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0465",
       "lbl" : "Ank",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0466",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0466",
       "lbl" : "PDZ-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0469",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0469",
       "lbl" : "l-integrase_N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0470",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0470",
       "lbl" : "ThrE",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0471",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0471",
       "lbl" : "DUF362",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0472",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0472",
       "lbl" : "Peptidase_U",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0474",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0474",
       "lbl" : "SICA_like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0475",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0475",
       "lbl" : "Cyclophil-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0476",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0476",
       "lbl" : "tRNA-IECD_N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0477",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0477",
       "lbl" : "TRD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0478",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0478",
       "lbl" : "ATPase_I_AtpR",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0479",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0479",
       "lbl" : "PLD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0481",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0481",
       "lbl" : "HUH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0482",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0482",
       "lbl" : "Prolamin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0484",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0484",
       "lbl" : "Peroxisome",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0486",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0486",
       "lbl" : "Fer2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0487",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0487",
       "lbl" : "FKBP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0488",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0488",
       "lbl" : "FixH-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0489",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0489",
       "lbl" : "SAF",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0490",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0490",
       "lbl" : "PepSY_TM-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0491",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0491",
       "lbl" : "LYR-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0492",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0492",
       "lbl" : "S4",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0493",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0493",
       "lbl" : "PTS_EIIC",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0494",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0494",
       "lbl" : "DnaA_N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0496",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0496",
       "lbl" : "Tad-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0497",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0497",
       "lbl" : "GST_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0498",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0498",
       "lbl" : "Nribosyltransf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0499",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0499",
       "lbl" : "O-anti_assembly",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0500",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0500",
       "lbl" : "Glycine-zipper",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0502",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0502",
       "lbl" : "STAS",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0504",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0504",
       "lbl" : "Phage_barrel",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0505",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0505",
       "lbl" : "Pentapeptide",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0506",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0506",
       "lbl" : "Succ_CoA_synth",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0507",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0507",
       "lbl" : "Fungal_trans",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0508",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0508",
       "lbl" : "YkuD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0509",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0509",
       "lbl" : "RBP11-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0511",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0511",
       "lbl" : "Retroviral_zf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0512",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0512",
       "lbl" : "CRAL_TRIO",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0513",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0513",
       "lbl" : "LCCL-domain",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0515",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0515",
       "lbl" : "LTXXQ-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0516",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0516",
       "lbl" : "ISP-domain",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0517",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0517",
       "lbl" : "MBOAT-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0520",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0520",
       "lbl" : "Keratin_assoc",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0521",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0521",
       "lbl" : "GOLD-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0522",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0522",
       "lbl" : "YbjQ-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0523",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0523",
       "lbl" : "GAG-polyprotein",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0524",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0524",
       "lbl" : "MPT63-MPB63",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0525",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0525",
       "lbl" : "pap2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0526",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0526",
       "lbl" : "SUKH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0528",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0528",
       "lbl" : "DUF1214",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0529",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0529",
       "lbl" : "FMN-dep-NRtase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0530",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0530",
       "lbl" : "DNase_I-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0531",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0531",
       "lbl" : "AMP-binding_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0532",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0532",
       "lbl" : "LIG",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0533",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0533",
       "lbl" : "PRTase-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0534",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0534",
       "lbl" : "YjgF-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0535",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0535",
       "lbl" : "CBM",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0536",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0536",
       "lbl" : "HEXAPEP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0537",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0537",
       "lbl" : "CCCH_zf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0539",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0539",
       "lbl" : "RNase_III",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0540",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0540",
       "lbl" : "GCP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0541",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0541",
       "lbl" : "SH2-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0542",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0542",
       "lbl" : "RAS_GEF_N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0543",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0543",
       "lbl" : "Viral_gly_cn_dm",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0544",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0544",
       "lbl" : "AcylCoA_ox_dh_N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0545",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0545",
       "lbl" : "APCOP-app_sub",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0546",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0546",
       "lbl" : "Hexosaminidase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0547",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0547",
       "lbl" : "GF_recep_C-rich",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0548",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0548",
       "lbl" : "IHF-likeDNA-bdg",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0550",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0550",
       "lbl" : "SRCR",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0551",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0551",
       "lbl" : "BCLiA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0552",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0552",
       "lbl" : "Hect",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0559",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0559",
       "lbl" : "CBD9-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0560",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0560",
       "lbl" : "Chalcone-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0561",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0561",
       "lbl" : "LisH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0562",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0562",
       "lbl" : "Holin-V",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0563",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0563",
       "lbl" : "Holin-II",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0564",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0564",
       "lbl" : "Holin-III",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0567",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0567",
       "lbl" : "Phage_TACs",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0568",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0568",
       "lbl" : "Man_lectin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0570",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0570",
       "lbl" : "PPP-I",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0571",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0571",
       "lbl" : "30K_movement",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0572",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0572",
       "lbl" : "TIKI",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0573",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0573",
       "lbl" : "KA1-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0576",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0576",
       "lbl" : "STARBD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0577",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0577",
       "lbl" : "Paramyxovirin_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0578",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0578",
       "lbl" : "AbiEI",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0580",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0580",
       "lbl" : "YqgF",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0582",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0582",
       "lbl" : "TrkA_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0584",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0584",
       "lbl" : "FF",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0586",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0586",
       "lbl" : "CTC1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0587",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0587",
       "lbl" : "STAND_N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0588",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0588",
       "lbl" : "Ribos_L15p_L18e",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0589",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0589",
       "lbl" : "KIX_like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0590",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0590",
       "lbl" : "OML_zippers",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0591",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0591",
       "lbl" : "TKC_like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0592",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0592",
       "lbl" : "beta_Roll",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0593",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0593",
       "lbl" : "G5",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0595",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0595",
       "lbl" : "Fusion_gly",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0596",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0596",
       "lbl" : "VPS23_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0597",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0597",
       "lbl" : "Post-HMGL",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0598",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0598",
       "lbl" : "B_GA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0599",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0599",
       "lbl" : "GH57_38_middle",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0600",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0600",
       "lbl" : "S15_NS1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0601",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0601",
       "lbl" : "Cob_adeno_trans",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0602",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0602",
       "lbl" : "Kringle",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0603",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0603",
       "lbl" : "AA_dh_N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0604",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0604",
       "lbl" : "post-AAA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0605",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0605",
       "lbl" : "ssDNA_NP_VP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0606",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0606",
       "lbl" : "Phage_fibre",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0607",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0607",
       "lbl" : "TNF_receptor",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0608",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0608",
       "lbl" : "Reductase_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0609",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0609",
       "lbl" : "sPC4_like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0611",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0611",
       "lbl" : "Hexon",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0612",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0612",
       "lbl" : "PHM_PNGase_F",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0613",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0613",
       "lbl" : "Terp_synthase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0614",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0614",
       "lbl" : "L27",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0615",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0615",
       "lbl" : "ALDC",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0616",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0616",
       "lbl" : "SPOC",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0617",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0617",
       "lbl" : "Peroxidase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0618",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0618",
       "lbl" : "MCR",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0619",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0619",
       "lbl" : "Mog1p_PsbP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0620",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0620",
       "lbl" : "Antihemostatic",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0621",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0621",
       "lbl" : "Colipase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0622",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0622",
       "lbl" : "Acylphosphatase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0623",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0623",
       "lbl" : "SRP9_14",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0625",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0625",
       "lbl" : "eIF4e",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0626",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0626",
       "lbl" : "Levi_coat",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0627",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0627",
       "lbl" : "Antibiotic_NAT",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0628",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0628",
       "lbl" : "EspA_CesA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0629",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0629",
       "lbl" : "PLA2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0630",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0630",
       "lbl" : "PSI",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0631",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0631",
       "lbl" : "YgaC_TfoX-N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0632",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0632",
       "lbl" : "FERM_M",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0633",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0633",
       "lbl" : "NusB",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0634",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0634",
       "lbl" : "CheY-binding",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0635",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0635",
       "lbl" : "DmpA_ArgJ",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0636",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0636",
       "lbl" : "Leukocidin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0637",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0637",
       "lbl" : "KaiA_RbsU",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0639",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0639",
       "lbl" : "Rof",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0640",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0640",
       "lbl" : "Colicin_D_E5",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0642",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0642",
       "lbl" : "SOCS_box",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0643",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0643",
       "lbl" : "YqbG",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0644",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0644",
       "lbl" : "Fz",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0645",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0645",
       "lbl" : "Anti-sigma_N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0646",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0646",
       "lbl" : "T3SS",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0647",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0647",
       "lbl" : "FG_rpt",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0648",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0648",
       "lbl" : "Aha1_BPI",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0649",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0649",
       "lbl" : "PseudoU_synth",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0650",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0650",
       "lbl" : "AOC_barrel",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0651",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0651",
       "lbl" : "Mad2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0652",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0652",
       "lbl" : "S24e_L23_L15e",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0653",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0653",
       "lbl" : "VCCI",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0654",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0654",
       "lbl" : "WYL",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0655",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0655",
       "lbl" : "PilP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0656",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0656",
       "lbl" : "VSA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0658",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0658",
       "lbl" : "OB_enterotoxin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0659",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0659",
       "lbl" : "CAP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0660",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0660",
       "lbl" : "SHOCT",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0661",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0661",
       "lbl" : "Gain",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0662",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0662",
       "lbl" : "Triple_barrel",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0663",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0663",
       "lbl" : "CNF1_YfiH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0664",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0664",
       "lbl" : "UB2H",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0665",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0665",
       "lbl" : "BET",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0666",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0666",
       "lbl" : "Vault",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0667",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0667",
       "lbl" : "Fer2_BFD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0668",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0668",
       "lbl" : "Pre-PUA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0669",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0669",
       "lbl" : "NOG1_N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0670",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0670",
       "lbl" : "4PPT",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0671",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0671",
       "lbl" : "AAA_lid",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0672",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0672",
       "lbl" : "p35",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0673",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0673",
       "lbl" : "GYF",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0674",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0674",
       "lbl" : "Triple_B_spiral",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0676",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0676",
       "lbl" : "SLATT",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0677",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0677",
       "lbl" : "GHMP_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0678",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0678",
       "lbl" : "CLIP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0679",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0679",
       "lbl" : "TACC",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0680",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0680",
       "lbl" : "WW",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0681",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0681",
       "lbl" : "HAMP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0682",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0682",
       "lbl" : "MBG",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0683",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0683",
       "lbl" : "MICOS",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0684",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0684",
       "lbl" : "NFACT_RNA-bind",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0685",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0685",
       "lbl" : "AmpE_CobD-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0686",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0686",
       "lbl" : "aG_PT",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0687",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0687",
       "lbl" : "Zn_chelatase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0688",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0688",
       "lbl" : "BECR",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0689",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0689",
       "lbl" : "TSP3",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0690",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0690",
       "lbl" : "TrbC_VirB2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0691",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0691",
       "lbl" : "Tail_Terminator",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0692",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0692",
       "lbl" : "TSP1",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0693",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0693",
       "lbl" : "Cas9_lobe",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0694",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0694",
       "lbl" : "Choline_binding",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0695",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0695",
       "lbl" : "EndoU",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0696",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0696",
       "lbl" : "Vmethyltransf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0697",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0697",
       "lbl" : "SDH_beta",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0698",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0698",
       "lbl" : "TrbL",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0700",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0700",
       "lbl" : "ArdcN",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0701",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0701",
       "lbl" : "NAD_kinase_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0702",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0702",
       "lbl" : "UIM",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0703",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0703",
       "lbl" : "YtcA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0704",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0704",
       "lbl" : "HMA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0705",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0705",
       "lbl" : "VBS-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0706",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0706",
       "lbl" : "EMC6",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0707",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0707",
       "lbl" : "Saposin_like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0708",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0708",
       "lbl" : "Polo-box",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0709",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0709",
       "lbl" : "STING",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0710",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0710",
       "lbl" : "YeeE",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0713",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0713",
       "lbl" : "Acyl-CoA_desat",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0714",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0714",
       "lbl" : "COX1-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0715",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0715",
       "lbl" : "Nckap1_CYFIP1-2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0716",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0716",
       "lbl" : "Aquaporin-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0717",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0717",
       "lbl" : "YbaB",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0718",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0718",
       "lbl" : "Perilipin_sf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0719",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0719",
       "lbl" : "Moesin_tail",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0720",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0720",
       "lbl" : "Lag3_N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0721",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0721",
       "lbl" : "LAMP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0722",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0722",
       "lbl" : "SDH_alpha",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0723",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0723",
       "lbl" : "TRADD-N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0724",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0724",
       "lbl" : "Kinetochore",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0725",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0725",
       "lbl" : "Apolipoprotein",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0726",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0726",
       "lbl" : "Resistin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0727",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0727",
       "lbl" : "Nucleosidase",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0728",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0728",
       "lbl" : "Cas2",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0729",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0729",
       "lbl" : "Kre28-like_sf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0730",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0730",
       "lbl" : "IL8",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0731",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0731",
       "lbl" : "SPOCS",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0732",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0732",
       "lbl" : "RMP1-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0733",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0733",
       "lbl" : "Ribosomal_L25",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0734",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0734",
       "lbl" : "Rpp14-Pop5-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0735",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0735",
       "lbl" : "GatC-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0736",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0736",
       "lbl" : "Get5_C_sf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0737",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0737",
       "lbl" : "Mtd",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0738",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0738",
       "lbl" : "Arg_repressor_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0740",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0740",
       "lbl" : "GCV_T_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0741",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0741",
       "lbl" : "RGM",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0742",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0742",
       "lbl" : "PTS_IIA-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0743",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0743",
       "lbl" : "Spectrin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0745",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0745",
       "lbl" : "MIT",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0746",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0746",
       "lbl" : "AFF4_CHD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0747",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0747",
       "lbl" : "THUMP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0748",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0748",
       "lbl" : "DNA_prim_N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0749",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0749",
       "lbl" : "GH127_M",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0750",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0750",
       "lbl" : "ADAM_CR_sf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0751",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0751",
       "lbl" : "Secretin_N0",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0752",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0752",
       "lbl" : "PsbQ-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0753",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0753",
       "lbl" : "ATPD-E_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0754",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0754",
       "lbl" : "PGM_I-III",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0755",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0755",
       "lbl" : "SASP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0756",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0756",
       "lbl" : "GMC",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0757",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0757",
       "lbl" : "TRAP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0758",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0758",
       "lbl" : "L31",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0759",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0759",
       "lbl" : "Nop_N_sf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0760",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0760",
       "lbl" : "RBG",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0761",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0761",
       "lbl" : "ABC_sf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0762",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0762",
       "lbl" : "GlyR",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0763",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0763",
       "lbl" : "GpW_gp25-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0764",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0764",
       "lbl" : "PHP14-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0765",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0765",
       "lbl" : "PAC",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0766",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0766",
       "lbl" : "NCPF",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0767",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0767",
       "lbl" : "MXAN_049",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0768",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0768",
       "lbl" : "DUF960",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0769",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0769",
       "lbl" : "SsdA_imm",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0770",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0770",
       "lbl" : "GH84_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0771",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0771",
       "lbl" : "YaaA-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0772",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0772",
       "lbl" : "YqiB",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0773",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0773",
       "lbl" : "STD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0774",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0774",
       "lbl" : "MTHFR_C-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0775",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0775",
       "lbl" : "MlaD-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0776",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0776",
       "lbl" : "PBP_NTD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0777",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0777",
       "lbl" : "XRCC4_N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0778",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0778",
       "lbl" : "BON",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0779",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0779",
       "lbl" : "Head_shaft",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0780",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0780",
       "lbl" : "LppM-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0781",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0781",
       "lbl" : "NadN_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0782",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0782",
       "lbl" : "BBOX",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0783",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0783",
       "lbl" : "WWE",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0785",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0785",
       "lbl" : "VPS9",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0786",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0786",
       "lbl" : "H-NS_histone_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0787",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0787",
       "lbl" : "NADAR-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0788",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0788",
       "lbl" : "CorA-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0789",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0789",
       "lbl" : "SUD_C-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0790",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0790",
       "lbl" : "Cas9_WED-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0791",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0791",
       "lbl" : "Ago_N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0792",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0792",
       "lbl" : "MLKL_N-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0793",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0793",
       "lbl" : "GspE_N-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0794",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0794",
       "lbl" : "Mur_ligase_C_sf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0795",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0795",
       "lbl" : "NSUN_ferredox",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0796",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0796",
       "lbl" : "Mu-transpos_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0797",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0797",
       "lbl" : "RXXXE-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0798",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0798",
       "lbl" : "INSIG-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0799",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0799",
       "lbl" : "PRMT_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0800",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0800",
       "lbl" : "LiaI-LiaF-TM",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0801",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0801",
       "lbl" : "OST_core",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0802",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0802",
       "lbl" : "MinC_N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0803",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0803",
       "lbl" : "PBP_GOBP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0804",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0804",
       "lbl" : "PurM_N-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0805",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0805",
       "lbl" : "PWI-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0806",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0806",
       "lbl" : "SNaCT",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0807",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0807",
       "lbl" : "WY-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0808",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0808",
       "lbl" : "Sufu_N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0809",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0809",
       "lbl" : "CXC",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0810",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0810",
       "lbl" : "GRIP-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0812",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0812",
       "lbl" : "YKT-like_S",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0813",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0813",
       "lbl" : "COMMD_HN",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0814",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0814",
       "lbl" : "Brichos_S",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0815",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0815",
       "lbl" : "BACOVA_03322_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0816",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0816",
       "lbl" : "TBC-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0817",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0817",
       "lbl" : "SPMIP5_TBD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0818",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0818",
       "lbl" : "GT-D-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0819",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0819",
       "lbl" : "TIL",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0820",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0820",
       "lbl" : "RBAF-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0821",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0821",
       "lbl" : "C4-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0822",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0822",
       "lbl" : "WIV",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0823",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0823",
       "lbl" : "XPD_ARCH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0824",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0824",
       "lbl" : "HHD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0825",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0825",
       "lbl" : "CTLH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0826",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0826",
       "lbl" : "NuiA-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0827",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0827",
       "lbl" : "bHLH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0828",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0828",
       "lbl" : "PABC-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0829",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0829",
       "lbl" : "PAH",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0831",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0831",
       "lbl" : "SAND",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0832",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0832",
       "lbl" : "CobW_C",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0833",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0833",
       "lbl" : "Nup120_hel_sf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0834",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0834",
       "lbl" : "BAAB_hairpin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0835",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0835",
       "lbl" : "MYCPN_LP",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0836",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0836",
       "lbl" : "TMEM126",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0838",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0838",
       "lbl" : "Phage_portal",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0839",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0839",
       "lbl" : "Tbcl_zf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0840",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0840",
       "lbl" : "H_lectin",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0841",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0841",
       "lbl" : "Wzc_PBSD",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0842",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0842",
       "lbl" : "UPA-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0843",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0843",
       "lbl" : "MFPT-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0844",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0844",
       "lbl" : "Matrix_Mononaga",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0845",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0845",
       "lbl" : "Beta_tulip",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0846",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0846",
       "lbl" : "HVO_1158-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0847",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0847",
       "lbl" : "Ice_binding",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0848",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0848",
       "lbl" : "YphA",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0849",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0849",
       "lbl" : "3b-a_propeller",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0850",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0850",
       "lbl" : "INO80_complex",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0851",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0851",
       "lbl" : "YhhM-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0852",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0852",
       "lbl" : "DH-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0853",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0853",
       "lbl" : "TMD0-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0854",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0854",
       "lbl" : "DGR_Avd-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0855",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0855",
       "lbl" : "TMMD-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0856",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0856",
       "lbl" : "Imm33",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0857",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0857",
       "lbl" : "APA-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0858",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0858",
       "lbl" : "ColE3imm-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0859",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0859",
       "lbl" : "DMP12-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0860",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0860",
       "lbl" : "LMG18311-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0861",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0861",
       "lbl" : "MavL-like_sf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0862",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0862",
       "lbl" : "LTE-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0863",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0863",
       "lbl" : "TP53I11-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0864",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0864",
       "lbl" : "NACHT_N",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0865",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0865",
       "lbl" : "ZnExoPePases",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0866",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0866",
       "lbl" : "ALR_C-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0867",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0867",
       "lbl" : "NqrA_FMN-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0868",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0868",
       "lbl" : "p22phox-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0869",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0869",
       "lbl" : "AraA_N-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0870",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0870",
       "lbl" : "EXR-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0871",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0871",
       "lbl" : "YefM-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0872",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0872",
       "lbl" : "PfC-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0873",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0873",
       "lbl" : "RBM_T3SS-Flag",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0874",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0874",
       "lbl" : "PMD-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0875",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0875",
       "lbl" : "MscS_C_sf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0876",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0876",
       "lbl" : "SLD5_C-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0877",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0877",
       "lbl" : "RHS_sf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0878",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0878",
       "lbl" : "CamS-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0879",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0879",
       "lbl" : "R3H-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0880",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0880",
       "lbl" : "SLC44-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0881",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0881",
       "lbl" : "SUEL-RBL_sf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0882",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0882",
       "lbl" : "Agd3_CE_sf",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0883",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0883",
       "lbl" : "CBM87",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0884",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0884",
       "lbl" : "MmeI_HD-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0885",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0885",
       "lbl" : "L9_N_sp",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0886",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0886",
       "lbl" : "ADH_DHQS_C-like",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pfam.clan_CL0887",
+      "id" : "https://www.ebi.ac.uk/interpro/set/pfam/CL0887",
       "lbl" : "MliC_ACP-like",
       "type" : "CLASS"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
-      "lbl" : "has_obo_format_version",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#id",
-      "lbl" : "id",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
     } ]
   } ]
 }

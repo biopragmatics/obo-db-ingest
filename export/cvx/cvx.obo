@@ -1,33 +1,35 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.0-dev-669c37f2 on 2025-01-08T23:48:36.004741
+auto-generated-by: PyOBO v0.12.0-dev-63556853 on 2025-01-13T18:29:04.492669
+idspace: cvx https://biopragmatics.github.io/providers/cvx/ "Vaccine administered code set"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
-idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
 ontology: cvx
 property_value: dcterms:title "Vaccine administered code set" xsd:string
 property_value: dcterms:description "The CDC's National Center of Immunization and Respiratory Diseases \\\(NCIRD\\\) developed and maintains the CVX \\\(vaccine administered\\\) code set. The table below has the most up to date values. It includes both active and inactive vaccines available in the US. CVX codes for inactive vaccines allow transmission of historical immunization records." xsd:string
 
 [Typedef]
 id: nonvaccine
+is_metadata_tag: true
 
 [Typedef]
 id: status
 name: has status
+is_metadata_tag: true
 
 [Term]
 id: cvx:01
 name: diphtheria\, tetanus toxoids and pertussis vaccine
 synonym: "DTP" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:02
 name: trivalent poliovirus vaccine\, live\, oral
+comment: "This is the OPV that was used in the US"
 synonym: "OPV" EXACT []
-property_value: rdfs:comment "This is the OPV that was used in the US" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:89 ! poliovirus vaccine, unspecified formulation
 is_obsolete: false
 
@@ -35,8 +37,8 @@ is_obsolete: false
 id: cvx:03
 name: measles\, mumps and rubella virus vaccine
 synonym: "MMR" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:03 ! measles, mumps and rubella virus vaccine
 is_obsolete: false
 
@@ -44,8 +46,8 @@ is_obsolete: false
 id: cvx:04
 name: measles and rubella virus vaccine
 synonym: "M/R" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:03 ! measles, mumps and rubella virus vaccine
 is_obsolete: false
 
@@ -53,8 +55,8 @@ is_obsolete: false
 id: cvx:05
 name: measles virus vaccine
 synonym: "measles" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:03 ! measles, mumps and rubella virus vaccine
 is_obsolete: false
 
@@ -62,8 +64,8 @@ is_obsolete: false
 id: cvx:06
 name: rubella virus vaccine
 synonym: "rubella" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:03 ! measles, mumps and rubella virus vaccine
 is_obsolete: false
 
@@ -71,18 +73,18 @@ is_obsolete: false
 id: cvx:07
 name: mumps virus vaccine
 synonym: "mumps" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:03 ! measles, mumps and rubella virus vaccine
 is_obsolete: false
 
 [Term]
 id: cvx:08
 name: hepatitis B vaccine\, pediatric or pediatric/adolescent dosage
+comment: "This code applies to any standard pediatric formulation of Hepatitis B vaccine. It should not be used for the 2-dose hepatitis B schedule for adolescents (11-15 year olds). Use code 43 for that vaccine."
 synonym: "Hep B, adolescent or pediatric" EXACT []
-property_value: rdfs:comment "This code applies to any standard pediatric formulation of Hepatitis B vaccine. It should not be used for the 2-dose hepatitis B schedule for adolescents (11-15 year olds). Use code 43 for that vaccine." xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:45 ! hepatitis B vaccine, unspecified formulation
 is_obsolete: false
 
@@ -90,8 +92,8 @@ is_obsolete: false
 id: cvx:09
 name: tetanus and diphtheria toxoids\, adsorbed\, preservative free\, for adult use \(2 Lf of tetanus toxoid and 2 Lf of diphtheria toxoid\)
 synonym: "Td (adult), 2 Lf tetanus toxoid, preservative free, adsorbed" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:139 ! Td(adult) unspecified formulation
 is_obsolete: false
 
@@ -99,8 +101,8 @@ is_obsolete: false
 id: cvx:10
 name: poliovirus vaccine\, inactivated
 synonym: "IPV" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:89 ! poliovirus vaccine, unspecified formulation
 is_obsolete: false
 
@@ -108,8 +110,8 @@ is_obsolete: false
 id: cvx:100
 name: pneumococcal conjugate vaccine\, 7 valent
 synonym: "pneumococcal conjugate PCV 7" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:152 ! Pneumococcal Conjugate, unspecified formulation
 is_obsolete: false
 
@@ -117,18 +119,18 @@ is_obsolete: false
 id: cvx:101
 name: typhoid Vi capsular polysaccharide vaccine
 synonym: "typhoid, ViCPs" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:91 ! typhoid vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:102
 name: DTP- Haemophilus influenzae type b conjugate and hepatitis b vaccine
+comment: "This CVX has been corrected. This non-US vaccine contained DTP, Hib and Hep B. It was withdrawn in 2007 ."
 synonym: "DTP-Hib-Hep B" EXACT []
-property_value: rdfs:comment "This CVX has been corrected. This non-US vaccine contained DTP, Hib and Hep B. It was withdrawn in 2007 ." xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:107 ! diphtheria, tetanus toxoids and acellular pertussis vaccine, unspecified formulation
 is_a: cvx:17 ! Haemophilus influenzae type b vaccine, conjugate unspecified formulation
 is_a: cvx:45 ! hepatitis B vaccine, unspecified formulation
@@ -138,8 +140,8 @@ is_obsolete: false
 id: cvx:103
 name: meningococcal C conjugate vaccine
 synonym: "meningococcal C conjugate" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:108 ! meningococcal ACWY vaccine, unspecified formulation
 is_obsolete: false
 
@@ -147,8 +149,8 @@ is_obsolete: false
 id: cvx:104
 name: hepatitis A and hepatitis B vaccine
 synonym: "Hep A-Hep B" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:45 ! hepatitis B vaccine, unspecified formulation
 is_a: cvx:85 ! hepatitis A vaccine, unspecified formulation
 is_obsolete: false
@@ -157,8 +159,8 @@ is_obsolete: false
 id: cvx:105
 name: vaccinia \(smallpox\) vaccine\, diluted
 synonym: "vaccinia (smallpox) diluted" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:75 ! vaccinia (smallpox) vaccine
 is_obsolete: false
 
@@ -166,38 +168,38 @@ is_obsolete: false
 id: cvx:106
 name: diphtheria\, tetanus toxoids and acellular pertussis vaccine\, 5 pertussis antigens
 synonym: "DTaP, 5 pertussis antigens" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:107 ! diphtheria, tetanus toxoids and acellular pertussis vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:107
 name: diphtheria\, tetanus toxoids and acellular pertussis vaccine\, unspecified formulation
+comment: "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a DTaP vaccination when noted on a vaccination card)"
 synonym: "DTaP, unspecified formulation" EXACT []
-property_value: rdfs:comment "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a DTaP vaccination when noted on a vaccination card)" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:107 ! diphtheria, tetanus toxoids and acellular pertussis vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:108
 name: meningococcal ACWY vaccine\, unspecified formulation
+comment: "This CVX is intended for use when one of the meningococcal vaccines containing serogroups A, C, W and Y (conjugate or polysaccaride) was given and the exact formulation was not recorded. It should not be used to record newly administered immunizations. It is not to be used when one of the meningococcal vaccines containing other serogroups was administered."
 synonym: "meningococcal ACWY, unspecified formulation" EXACT []
-property_value: rdfs:comment "This CVX is intended for use when one of the meningococcal vaccines containing serogroups A, C, W and Y (conjugate or polysaccaride) was given and the exact formulation was not recorded. It should not be used to record newly administered immunizations. It is not to be used when one of the meningococcal vaccines containing other serogroups was administered." xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:108 ! meningococcal ACWY vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:109
 name: pneumococcal vaccine\, unspecified formulation
+comment: "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a pneumococcal vaccination when noted on a vaccination card)"
 synonym: "pneumococcal, unspecified formulation" EXACT []
-property_value: rdfs:comment "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a pneumococcal vaccination when noted on a vaccination card)" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:152 ! Pneumococcal Conjugate, unspecified formulation
 is_a: cvx:33 ! pneumococcal polysaccharide vaccine, 23 valent
 is_obsolete: false
@@ -206,16 +208,16 @@ is_obsolete: false
 id: cvx:11
 name: pertussis vaccine
 synonym: "pertussis" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:110
 name: DTaP-hepatitis B and poliovirus vaccine
 synonym: "DTaP-Hep B-IPV" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:107 ! diphtheria, tetanus toxoids and acellular pertussis vaccine, unspecified formulation
 is_a: cvx:45 ! hepatitis B vaccine, unspecified formulation
 is_a: cvx:89 ! poliovirus vaccine, unspecified formulation
@@ -224,25 +226,25 @@ is_obsolete: false
 [Term]
 id: cvx:111
 name: Influenza\, live\, trivalent\, intranasal
-property_value: rdfs:comment "Trivalent code reactivated for 2024/2025 season" xsd:string
-property_value: status "Active" xsd:string
+comment: "Trivalent code reactivated for 2024/2025 season"
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:112
 name: tetanus toxoid\, unspecified formulation
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:113
 name: tetanus and diphtheria toxoids\, adsorbed\, preservative free\, for adult use \(5 Lf of tetanus toxoid and 2 Lf of diphtheria toxoid\)
 synonym: "Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:139 ! Td(adult) unspecified formulation
 is_obsolete: false
 
@@ -250,8 +252,8 @@ is_obsolete: false
 id: cvx:114
 name: meningococcal polysaccharide \(groups A\, C\, Y and W-135\) diphtheria toxoid conjugate vaccine \(MCV4P\)
 synonym: "meningococcal MCV4P" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:108 ! meningococcal ACWY vaccine, unspecified formulation
 is_obsolete: false
 
@@ -259,8 +261,8 @@ is_obsolete: false
 id: cvx:115
 name: tetanus toxoid\, reduced diphtheria toxoid\, and acellular pertussis vaccine\, adsorbed
 synonym: "Tdap" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:115 ! tetanus toxoid, reduced diphtheria toxoid, and acellular pertussis vaccine, adsorbed
 is_obsolete: false
 
@@ -268,8 +270,8 @@ is_obsolete: false
 id: cvx:116
 name: rotavirus\, live\, pentavalent vaccine
 synonym: "rotavirus, pentavalent" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:122 ! rotavirus vaccine, unspecified formulation
 is_obsolete: false
 
@@ -277,16 +279,16 @@ is_obsolete: false
 id: cvx:117
 name: varicella zoster immune globulin \(Investigational New Drug\)
 synonym: "VZIG (IND)" EXACT []
-property_value: status "Never Active" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Never Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:118
 name: human papilloma virus vaccine\, bivalent
 synonym: "HPV, bivalent" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:137 ! HPV, unspecified formulation
 is_obsolete: false
 
@@ -294,24 +296,24 @@ is_obsolete: false
 id: cvx:119
 name: rotavirus\, live\, monovalent vaccine
 synonym: "rotavirus, monovalent" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:122 ! rotavirus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:12
 name: diphtheria antitoxin
-property_value: status "Active" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:120
 name: diphtheria\, tetanus toxoids and acellular pertussis vaccine\, Haemophilus influenzae type b conjugate\, and poliovirus vaccine\, inactivated \(DTaP-Hib-IPV\)
 synonym: "DTaP-Hib-IPV" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:107 ! diphtheria, tetanus toxoids and acellular pertussis vaccine, unspecified formulation
 is_a: cvx:17 ! Haemophilus influenzae type b vaccine, conjugate unspecified formulation
 is_a: cvx:89 ! poliovirus vaccine, unspecified formulation
@@ -320,10 +322,10 @@ is_obsolete: false
 [Term]
 id: cvx:121
 name: zoster vaccine\, live
+comment: "Zostavax vaccine associated to this CVX Code retired 10/2022"
 synonym: "zoster live" EXACT []
-property_value: rdfs:comment "Zostavax vaccine associated to this CVX Code retired 10/2022" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:188 ! zoster vaccine, unspecified formulation
 is_obsolete: false
 
@@ -331,8 +333,8 @@ is_obsolete: false
 id: cvx:122
 name: rotavirus vaccine\, unspecified formulation
 synonym: "rotavirus, unspecified formulation" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:122 ! rotavirus vaccine, unspecified formulation
 is_obsolete: false
 
@@ -340,8 +342,8 @@ is_obsolete: false
 id: cvx:123
 name: influenza virus vaccine\, H5N1\, A/Vietnam/1203/2004 \(national stockpile\)
 synonym: "influenza, H5N1-1203" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:123 ! influenza virus vaccine, H5N1, A/Vietnam/1203/2004 (national stockpile)
 is_obsolete: false
 
@@ -349,8 +351,8 @@ is_obsolete: false
 id: cvx:125
 name: Novel Influenza-H1N1-09\, live virus for nasal administration
 synonym: "Novel Influenza-H1N1-09, nasal" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:128 ! Novel influenza-H1N1-09, all formulations
 is_obsolete: false
 
@@ -358,8 +360,8 @@ is_obsolete: false
 id: cvx:126
 name: Novel influenza-H1N1-09\, preservative-free\, injectable
 synonym: "Novel influenza-H1N1-09, preservative-free" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:128 ! Novel influenza-H1N1-09, all formulations
 is_obsolete: false
 
@@ -367,28 +369,28 @@ is_obsolete: false
 id: cvx:127
 name: Novel influenza-H1N1-09\, injectable
 synonym: "Novel influenza-H1N1-09" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:128 ! Novel influenza-H1N1-09, all formulations
 is_obsolete: false
 
 [Term]
 id: cvx:128
 name: Novel influenza-H1N1-09\, all formulations
+comment: "This code is used whenever the actual formulation is not determined or when aggregating all Novel H1N1 Influenza-09 immunizations for reporting to CRA. It should not be used for seasonal influenza vaccine that is not otherwise specified. (NOS)"
 synonym: "Novel Influenza-H1N1-09, all formulations" EXACT []
-property_value: rdfs:comment "This code is used whenever the actual formulation is not determined or when aggregating all Novel H1N1 Influenza-09 immunizations for reporting to CRA. It should not be used for seasonal influenza vaccine that is not otherwise specified. (NOS)" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:128 ! Novel influenza-H1N1-09, all formulations
 is_obsolete: false
 
 [Term]
 id: cvx:129
 name: Japanese Encephalitis vaccine\, unspecified formulation
+comment: "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a JE vaccination when noted on a vaccination card)"
 synonym: "Japanese Encephalitis, unspecified formulation" EXACT []
-property_value: rdfs:comment "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a JE vaccination when noted on a vaccination card)" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:129 ! Japanese Encephalitis vaccine, unspecified formulation
 is_obsolete: false
 
@@ -396,16 +398,16 @@ is_obsolete: false
 id: cvx:13
 name: tetanus immune globulin
 synonym: "TIG" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:130
 name: Diphtheria\, tetanus toxoids and acellular pertussis vaccine\, and poliovirus vaccine\, inactivated
 synonym: "DTaP-IPV" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:107 ! diphtheria, tetanus toxoids and acellular pertussis vaccine, unspecified formulation
 is_a: cvx:89 ! poliovirus vaccine, unspecified formulation
 is_obsolete: false
@@ -414,17 +416,17 @@ is_obsolete: false
 id: cvx:131
 name: Historical record of a typhus vaccination
 synonym: "typhus, historical" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:132
 name: Historical diphtheria and tetanus toxoids and acellular pertussis\, poliovirus\, Haemophilus b conjugate and hepatitis B \(recombinant\) vaccine.
+comment: "This is not the same as CVX 146, Hexavalent vaccine."
 synonym: "DTaP-IPV-HIB-HEP B, historical" EXACT []
-property_value: rdfs:comment "This is not the same as CVX 146, Hexavalent vaccine." xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:107 ! diphtheria, tetanus toxoids and acellular pertussis vaccine, unspecified formulation
 is_a: cvx:17 ! Haemophilus influenzae type b vaccine, conjugate unspecified formulation
 is_a: cvx:45 ! hepatitis B vaccine, unspecified formulation
@@ -435,8 +437,8 @@ is_obsolete: false
 id: cvx:133
 name: pneumococcal conjugate vaccine\, 13 valent
 synonym: "Pneumococcal conjugate PCV 13" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:152 ! Pneumococcal Conjugate, unspecified formulation
 is_obsolete: false
 
@@ -444,18 +446,18 @@ is_obsolete: false
 id: cvx:134
 name: Japanese Encephalitis vaccine for intramuscular administration
 synonym: "Japanese Encephalitis IM" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:129 ! Japanese Encephalitis vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:135
 name: Influenza\, high-dose\, split virus\, trivalent\, injectable\, preservative free
+comment: "Trivalent code reactivated for 2024/2025 season"
 synonym: "Influenza, high-dose, trivalent, PF" EXACT []
-property_value: rdfs:comment "Trivalent code reactivated for 2024/2025 season" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
@@ -463,36 +465,36 @@ is_obsolete: false
 id: cvx:136
 name: meningococcal oligosaccharide \(groups A\, C\, Y and W-135\) diphtheria toxoid conjugate vaccine \(MCV4O\)
 synonym: "Meningococcal MCV4O" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:108 ! meningococcal ACWY vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:137
 name: HPV\, unspecified formulation
-property_value: rdfs:comment "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a HPV vaccination when noted on a vaccination card)" xsd:string
-property_value: status "Inactive" xsd:string
+comment: "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a HPV vaccination when noted on a vaccination card)"
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:137 ! HPV, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:138
 name: tetanus and diphtheria toxoids\, not adsorbed\, for adult use
+comment: "Note that this Td is not adsorbed."
 synonym: "Td (adult)" EXACT []
-property_value: rdfs:comment "Note that this Td is not adsorbed." xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:139 ! Td(adult) unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:139
 name: Td\(adult\) unspecified formulation
-property_value: rdfs:comment "This CVX code allows reporting of a historic vaccination when the formulation is unknown (for example, when recording a Td vaccination when noted on a vaccination card)" xsd:string
-property_value: status "Inactive" xsd:string
+comment: "This CVX code allows reporting of a historic vaccination when the formulation is unknown (for example, when recording a Td vaccination when noted on a vaccination card)"
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:139 ! Td(adult) unspecified formulation
 is_obsolete: false
 
@@ -500,54 +502,54 @@ is_obsolete: false
 id: cvx:14
 name: immune globulin\, unspecified formulation
 synonym: "IG, unspecified formulation" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:140
 name: Influenza\, split virus\, trivalent\, injectable\, preservative free
+comment: "Trivalent code reactivated for 2024/2025 season"
 synonym: "Influenza, split virus, trivalent, PF" EXACT []
-property_value: rdfs:comment "Trivalent code reactivated for 2024/2025 season" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:141
 name: Influenza\, split virus\, trivalent\, injectable\, contains preservative
+comment: "Trivalent code reactivated for 2024/2025 season"
 synonym: "Influenza, split virus, trivalent, preservative" EXACT []
-property_value: rdfs:comment "Trivalent code reactivated for 2024/2025 season" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:142
 name: tetanus toxoid\, not adsorbed
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:143
 name: Adenovirus\, type 4 and type 7\, live\, oral
+comment: "This vaccine is administered as 2 tablets."
 synonym: "Adenovirus types 4 and 7" EXACT []
-property_value: rdfs:comment "This vaccine is administered as 2 tablets." xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:82 ! adenovirus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:144
 name: seasonal influenza\, intradermal\, preservative free
+comment: "IIV3. No US product available since 2014/2015 flu season"
 synonym: "influenza, seasonal, intradermal, preservative free" EXACT []
-property_value: rdfs:comment "IIV3. No US product available since 2014/2015 flu season" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
@@ -555,17 +557,17 @@ is_obsolete: false
 id: cvx:145
 name: respiratory syncytial virus monoclonal antibody \(motavizumab\)\, intramuscular
 synonym: "RSV-MAb (new)" EXACT []
-property_value: status "Never Active" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Never Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:146
 name: Diphtheria and Tetanus Toxoids and Acellular Pertussis Adsorbed\, Inactivated Poliovirus\, Haemophilus b Conjugate \(Meningococcal Protein Conjugate\)\, and Hepatitis B \(Recombinant\) Vaccine.
+comment: "This vaccine is different from CVX 132. Code may be used to document non-US vaccines (e.g. Hexamin) of the same component formulation"
 synonym: "DTaP,IPV,Hib,HepB" EXACT []
-property_value: rdfs:comment "This vaccine is different from CVX 132. Code may be used to document non-US vaccines (e.g. Hexamin) of the same component formulation" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:107 ! diphtheria, tetanus toxoids and acellular pertussis vaccine, unspecified formulation
 is_a: cvx:17 ! Haemophilus influenzae type b vaccine, conjugate unspecified formulation
 is_a: cvx:45 ! hepatitis B vaccine, unspecified formulation
@@ -575,10 +577,10 @@ is_obsolete: false
 [Term]
 id: cvx:147
 name: Meningococcal\, MCV4\, unspecified conjugate formulation\(groups A\, C\, Y and W-135\)
+comment: "This CVX should only be used for historical doses of meningococcal conjugate vaccine where the formulation is unknown (oligosaccharide vs polysaccharide). It is not the same as CVX 108, Meningococcal, unspecified formulation. This CVX is for unspecified Meningococcal conjugate vaccines."
 synonym: "meningococcal MCV4, unspecified formulation" EXACT []
-property_value: rdfs:comment "This CVX should only be used for historical doses of meningococcal conjugate vaccine where the formulation is unknown (oligosaccharide vs polysaccharide). It is not the same as CVX 108, Meningococcal, unspecified formulation. This CVX is for unspecified Meningococcal conjugate vaccines." xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:108 ! meningococcal ACWY vaccine, unspecified formulation
 is_obsolete: false
 
@@ -586,8 +588,8 @@ is_obsolete: false
 id: cvx:148
 name: Meningococcal Groups C and Y and Haemophilus b Tetanus Toxoid Conjugate Vaccine
 synonym: "Meningococcal C/Y-HIB PRP" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:108 ! meningococcal ACWY vaccine, unspecified formulation
 is_a: cvx:17 ! Haemophilus influenzae type b vaccine, conjugate unspecified formulation
 is_obsolete: false
@@ -595,105 +597,105 @@ is_obsolete: false
 [Term]
 id: cvx:149
 name: Influenza\, live\, quadrivalent\, intranasal
-property_value: rdfs:comment "Quadrivalent code starting 2013/2014 season" xsd:string
-property_value: status "Active" xsd:string
+comment: "Quadrivalent code starting 2013/2014 season"
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:15
 name: influenza virus vaccine\, split virus \(incl. purified surface antigen\)-retired CODE
+comment: "This code is being retired. It will still be found in older immunization records. It included both preservative free and non-preservative free."
 synonym: "influenza, split (incl. purified surface antigen)" EXACT []
-property_value: rdfs:comment "This code is being retired. It will still be found in older immunization records. It included both preservative free and non-preservative free." xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: true
 
 [Term]
 id: cvx:150
 name: Influenza\, split virus\, quadrivalent\, injectable\, preservative free
+comment: "Quadrivalent code starting 2013/2014 season"
 synonym: "Influenza, split virus, quadrivalent, PF" EXACT []
-property_value: rdfs:comment "Quadrivalent code starting 2013/2014 season" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:151
 name: influenza nasal\, unspecified formulation
-property_value: rdfs:comment "This CVX should only be used for historical records where the formulation of nasal flu vaccine is not known." xsd:string
-property_value: status "Inactive" xsd:string
+comment: "This CVX should only be used for historical records where the formulation of nasal flu vaccine is not known."
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:152
 name: Pneumococcal Conjugate\, unspecified formulation
-property_value: rdfs:comment "This CVX should only be used for historical records where the formulation of pneumococcal conjugate vaccine is not known." xsd:string
-property_value: status "Inactive" xsd:string
+comment: "This CVX should only be used for historical records where the formulation of pneumococcal conjugate vaccine is not known."
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:152 ! Pneumococcal Conjugate, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:153
 name: Influenza\, Madin Darby Canine Kidney\, subunit\, trivalent\, injectable\, preservative free
+comment: "Trivalent code reactivated for 2024/2025 season"
 synonym: "Influenza, MDCK, trivalent, PF" EXACT []
-property_value: rdfs:comment "Trivalent code reactivated for 2024/2025 season" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:154
 name: Hepatitis A immune globulin
+comment: "Do not use this code. This product may be used for Hep A and other viral infections. The correct vaccine / CVX is 86 (IG)."
 synonym: "Hep A, IG" EXACT []
-property_value: rdfs:comment "Do not use this code. This product may be used for Hep A and other viral infections. The correct vaccine / CVX is 86 (IG)." xsd:string
-property_value: IAO:0100001 cvx:86
-property_value: status "Never Active" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Never Active" xsd:string
 is_obsolete: true
+replaced_by: cvx:86
 
 [Term]
 id: cvx:155
 name: Influenza\, recombinant\, trivalent\, injectable\, preservative free
+comment: "Trivalent code reactivated for 2024/2025 season"
 synonym: "Influenza, recombinant, trivalent, PF" EXACT []
-property_value: rdfs:comment "Trivalent code reactivated for 2024/2025 season" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:156
 name: Rho\(D\) Immune globulin- IV or IM
+comment: "This immune globulin may be administered either IM or IV."
 synonym: "Rho(D)-IG" EXACT []
-property_value: rdfs:comment "This immune globulin may be administered either IM or IV." xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:157
 name: Rho\(D\) Immune globulin - IM
+comment: "This immune globulin may be administered IM only."
 synonym: "Rho(D) -IG IM" EXACT []
-property_value: rdfs:comment "This immune globulin may be administered IM only." xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:158
 name: Influenza\, split virus\, quadrivalent\, injectable\, contains preservative
+comment: "Quadrivalent code starting 2013/2014 season"
 synonym: "Influenza, split virus, quadrivalent, preservative" EXACT []
-property_value: rdfs:comment "Quadrivalent code starting 2013/2014 season" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
@@ -701,34 +703,34 @@ is_obsolete: false
 id: cvx:159
 name: Rho\(D\) Unspecified formulation
 synonym: "Rho(D) - Unspecified formulation" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:16
 name: influenza virus vaccine\, whole virus
 synonym: "influenza, whole" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:160
 name: Influenza A monovalent \(H5N1\)\, adjuvanted\, National stockpile 2013
+comment: "Approved by FDA 2013, adjuvant is mixed at point of administration."
 synonym: "Influenza A monovalent (H5N1), ADJUVANTED-2013" EXACT []
-property_value: rdfs:comment "Approved by FDA 2013, adjuvant is mixed at point of administration." xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:123 ! influenza virus vaccine, H5N1, A/Vietnam/1203/2004 (national stockpile)
 is_obsolete: false
 
 [Term]
 id: cvx:161
 name: Influenza\, injectable\,quadrivalent\, preservative free\, pediatric
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
@@ -736,8 +738,8 @@ is_obsolete: false
 id: cvx:162
 name: meningococcal B vaccine\, fully recombinant
 synonym: "meningococcal B, recombinant" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:164 ! meningococcal B, unspecified formulation
 is_obsolete: false
 
@@ -745,8 +747,8 @@ is_obsolete: false
 id: cvx:163
 name: meningococcal B vaccine\, recombinant\, OMV\, adjuvanted
 synonym: "meningococcal B, OMV" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:164 ! meningococcal B, unspecified formulation
 is_obsolete: false
 
@@ -754,8 +756,8 @@ is_obsolete: false
 id: cvx:164
 name: meningococcal B\, unspecified formulation
 synonym: "meningococcal B, unspecified" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:164 ! meningococcal B, unspecified formulation
 is_obsolete: false
 
@@ -763,65 +765,65 @@ is_obsolete: false
 id: cvx:165
 name: Human Papillomavirus 9-valent vaccine
 synonym: "HPV9" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:137 ! HPV, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:166
 name: influenza\, intradermal\, quadrivalent\, preservative free\, injectable
+comment: "No US product available since 2017/2018 flu season"
 synonym: "influenza, intradermal, quadrivalent, preservative free" EXACT []
-property_value: rdfs:comment "No US product available since 2017/2018 flu season" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:167
 name: meningococcal vaccine of unknown formulation and unknown serogroups
+comment: "This CVX is intended for use when any one of the meningococcal vaccines is recorded and there is no information about which serogroups are protected against. This code should not be used when a newly administered immunization is recorded."
 synonym: "meningococcal, unknown serogroups" EXACT []
-property_value: rdfs:comment "This CVX is intended for use when any one of the meningococcal vaccines is recorded and there is no information about which serogroups are protected against. This code should not be used when a newly administered immunization is recorded." xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:168
 name: Influenza\, adjuvanted\, inactivated\, trivalent\, injectable\, preservative free
+comment: "Trivalent code reactivated for 2024/2025 season"
 synonym: "Influenza, adjuvanted, trivalent, PF" EXACT []
-property_value: rdfs:comment "Trivalent code reactivated for 2024/2025 season" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:169
 name: Hep A\, live attenuated-IM
+comment: "This vaccine is not available in the US."
 synonym: "Hep A, live attenuated" EXACT []
-property_value: rdfs:comment "This vaccine is not available in the US." xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:17
 name: Haemophilus influenzae type b vaccine\, conjugate unspecified formulation
 synonym: "Hib, unspecified formulation" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:17 ! Haemophilus influenzae type b vaccine, conjugate unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:170
 name: non-US diphtheria\, tetanus toxoids and acellular pertussis vaccine\, Haemophilus influenzae type b conjugate\, and poliovirus vaccine\, inactivated \(DTaP-Hib-IPV\)
+comment: "This CVX was split off from CVX 102, to correctly identify the contents of the vaccine."
 synonym: "DTAP/IPV/HIB - non-US" EXACT []
-property_value: rdfs:comment "This CVX was split off from CVX 102, to correctly identify the contents of the vaccine." xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:107 ! diphtheria, tetanus toxoids and acellular pertussis vaccine, unspecified formulation
 is_a: cvx:17 ! Haemophilus influenzae type b vaccine, conjugate unspecified formulation
 is_a: cvx:89 ! poliovirus vaccine, unspecified formulation
@@ -830,34 +832,34 @@ is_obsolete: false
 [Term]
 id: cvx:171
 name: Influenza\, Madin Darby Canine Kidney\, subunit\, quadrivalent\, injectable\, preservative free
+comment: "Quadrivalent code starting 2016/2017 season"
 synonym: "Influenza, MDCK, quadrivalent, PF" EXACT []
-property_value: rdfs:comment "Quadrivalent code starting 2016/2017 season" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:172
 name: cholera\, WC-rBS
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:26 ! cholera vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:173
 name: cholera\, BivWC
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:26 ! cholera vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:174
 name: cholera\, live attenuated
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:26 ! cholera vaccine, unspecified formulation
 is_obsolete: false
 
@@ -865,8 +867,8 @@ is_obsolete: false
 id: cvx:175
 name: Human Rabies vaccine from human diploid cell culture
 synonym: "Rabies - IM Diploid cell culture" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:90 ! rabies vaccine, unspecified formulation
 is_obsolete: false
 
@@ -874,81 +876,81 @@ is_obsolete: false
 id: cvx:176
 name: Human rabies vaccine from Chicken fibroblast culture
 synonym: "Rabies - IM fibroblast culture" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:90 ! rabies vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:177
 name: pneumococcal conjugate vaccine\, 10 valent
+comment: "This is a foreign vaccine"
 synonym: "PCV10" EXACT []
-property_value: rdfs:comment "This is a foreign vaccine" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:152 ! Pneumococcal Conjugate, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:178
 name: Non-US bivalent oral polio vaccine \(types 1 and 3\)
+comment: "This is a non-US vaccine that may be seen in some immunization histories."
 synonym: "OPV bivalent" EXACT []
-property_value: rdfs:comment "This is a non-US vaccine that may be seen in some immunization histories." xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:179
 name: Non-US monovalent oral polio vaccine\, unspecified formulation
+comment: "This is a non-US vaccine that may be seen in some immunization histories. It is composed of either Type 1, Type 2 or Type 3 oral polio vaccine."
 synonym: "OPV ,monovalent, unspecified" EXACT []
-property_value: rdfs:comment "This is a non-US vaccine that may be seen in some immunization histories. It is composed of either Type 1, Type 2 or Type 3 oral polio vaccine." xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:18
 name: rabies vaccine\, for intramuscular injection RETIRED CODE
+comment: "This CVX code has been retired. It is replace by CVX 175,  or CVX 176. It will continue to be found in historic records."
 synonym: "rabies, intramuscular injection" EXACT []
-property_value: rdfs:comment "This CVX code has been retired. It is replace by CVX 175,  or CVX 176. It will continue to be found in historic records." xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:90 ! rabies vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:180
 name: tetanus immune globulin
-property_value: rdfs:comment "This record duplicates CVX 13 (TIG). Do not use CVX 180." xsd:string
-property_value: IAO:0100001 cvx:13
-property_value: status "Inactive" xsd:string
+comment: "This record duplicates CVX 13 (TIG). Do not use CVX 180."
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: true
+replaced_by: cvx:13
 
 [Term]
 id: cvx:181
 name: anthrax immune globulin
-property_value: status "Active" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:182
 name: Oral Polio Vaccine\, Unspecified formulation
+comment: "This code represents an oral polio vaccine where the specific formulation is unknown."
 synonym: "OPV, Unspecified" EXACT []
-property_value: rdfs:comment "This code represents an oral polio vaccine where the specific formulation is unknown." xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:183
 name: Yellow fever vaccine live - alternative formulation for vaccine shortage
+comment: "This CVX is associated to an FDA unapproved drug to be used when there is a drug shortage. Stabilized with sorbitol and lactose and has been used outside the US for some time."
 synonym: "Yellow fever vaccine live - alt" EXACT []
-property_value: rdfs:comment "This CVX is associated to an FDA unapproved drug to be used when there is a drug shortage. Stabilized with sorbitol and lactose and has been used outside the US for some time." xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:184 ! Yellow fever vaccine, unspecified formulation
 is_obsolete: false
 
@@ -956,28 +958,28 @@ is_obsolete: false
 id: cvx:184
 name: Yellow fever vaccine\, unspecified formulation
 synonym: "Yellow fever, unspecified" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:184 ! Yellow fever vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:185
 name: Influenza\, recombinant\, quadrivalent\, injectable\, preservative free
+comment: "Quadrivalent code starting 2017/2018 season"
 synonym: "Influenza, recombinant, quadrivalent, PF" EXACT []
-property_value: rdfs:comment "Quadrivalent code starting 2017/2018 season" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:186
 name: Influenza\, Madin Darby Canine Kidney\, subunit\, quadrivalent\, injectable\, contains preservative
+comment: "Quadrivalent code starting 2017/2018 season"
 synonym: "Influenza, MDCK, quadrivalent, preservative" EXACT []
-property_value: rdfs:comment "Quadrivalent code starting 2017/2018 season" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
@@ -985,18 +987,18 @@ is_obsolete: false
 id: cvx:187
 name: zoster vaccine recombinant
 synonym: "zoster recombinant" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:188 ! zoster vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:188
 name: zoster vaccine\, unspecified formulation
+comment: "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a zoster vaccination when noted on a vaccination card)"
 synonym: "zoster, unspecified formulation" EXACT []
-property_value: rdfs:comment "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a zoster vaccination when noted on a vaccination card)" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:188 ! zoster vaccine, unspecified formulation
 is_obsolete: false
 
@@ -1004,8 +1006,8 @@ is_obsolete: false
 id: cvx:189
 name: Hepatitis B vaccine \(recombinant\)\, CpG adjuvanted
 synonym: "HepB-CpG" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:45 ! hepatitis B vaccine, unspecified formulation
 is_obsolete: false
 
@@ -1013,8 +1015,8 @@ is_obsolete: false
 id: cvx:19
 name: Bacillus Calmette-Guerin vaccine
 synonym: "BCG" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:19 ! Bacillus Calmette-Guerin vaccine
 is_obsolete: false
 
@@ -1022,33 +1024,33 @@ is_obsolete: false
 id: cvx:190
 name: Typhoid conjugate vaccine \(non-US\)
 synonym: "Typhoid conjugate vaccine (TCV)" EXACT []
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:191
 name: meningococcal A polysaccharide vaccine \(non-US\)
 synonym: "meningococcal A polysaccharide (non-US)" EXACT []
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:192
 name: meningococcal AC polysaccharide vaccine \(non-US\)
 synonym: "meningococcal AC polysaccharide (non-US)" EXACT []
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:193
 name: hepatitis A and hepatitis B vaccine\, pediatric/adolescent \(non-US\)
+comment: "e.g. Twinrix Junior available in Canada"
 synonym: "Hep A-Hep B, pediatric/adolescent" EXACT []
-property_value: rdfs:comment "e.g. Twinrix Junior available in Canada" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:45 ! hepatitis B vaccine, unspecified formulation
 is_a: cvx:85 ! hepatitis A vaccine, unspecified formulation
 is_obsolete: false
@@ -1056,20 +1058,20 @@ is_obsolete: false
 [Term]
 id: cvx:194
 name: influenza\, Southern Hemisphere\, unspecified formulation
+comment: "This CVX code should be used to record administration of Southern Hemisphere influenza vaccine where formulation is unknown"
 synonym: "Influenza, Southern Hemisphere" EXACT []
-property_value: rdfs:comment "This CVX code should be used to record administration of Southern Hemisphere influenza vaccine where formulation is unknown" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:195
 name: Diphtheria\, Tetanus\, Poliomyelitis adsorbed
+comment: "This code should be used to document non-US vaccines for DT,IPV such as Revaxis"
 synonym: "DT, IPV adsorbed" EXACT []
-property_value: rdfs:comment "This code should be used to document non-US vaccines for DT,IPV such as Revaxis" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:139 ! Td(adult) unspecified formulation
 is_a: cvx:89 ! poliovirus vaccine, unspecified formulation
 is_obsolete: false
@@ -1077,68 +1079,68 @@ is_obsolete: false
 [Term]
 id: cvx:196
 name: tetanus and diphtheria toxoids\, adsorbed\, preservative free\, for adult use\, Lf unspecified
+comment: "Used when Td Lf specification is unknown"
 synonym: "Td, adsorbed, preservative free, adult use, Lf unspecified" EXACT []
-property_value: rdfs:comment "Used when Td Lf specification is unknown" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:139 ! Td(adult) unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:197
 name: Influenza\, high-dose\, split virus\, quadrivalent\, injectable\, preservative free
+comment: "Quadrivalent code starting season 2020/2021"
 synonym: "Influenza, high-dose, quadrivalent, PF" EXACT []
-property_value: rdfs:comment "Quadrivalent code starting season 2020/2021" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:198
 name: Diphtheria\, pertussis\, tetanus\, hepatitis B\, Haemophilus Influenza Type b\, \(Pentavalent\)
+comment: "This represents the non-US pentavalent vaccine.  Should be used for historic documentation in US"
 synonym: "DTP-hepB-Hib Pentavalent Non-US" EXACT []
-property_value: rdfs:comment "This represents the non-US pentavalent vaccine.  Should be used for historic documentation in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:20
 name: diphtheria\, tetanus toxoids and acellular pertussis vaccine
 synonym: "DTaP" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:107 ! diphtheria, tetanus toxoids and acellular pertussis vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:200
 name: influenza\, seasonal\, Southern Hemisphere\, quadrivalent\, pediatric 0.25mL dose\, preservative free
+comment: "Pediatric dose for ages 6-35 months"
 synonym: "influenza, Southern Hemisphere, pediatric, preservative free" EXACT []
-property_value: rdfs:comment "Pediatric dose for ages 6-35 months" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:201
 name: influenza\, seasonal\, Southern Hemisphere\, quadrivalent\, 0.5mL dose\, no preservative
+comment: "Represents single dose vial"
 synonym: "influenza, Southern Hemisphere, preservative free" EXACT []
-property_value: rdfs:comment "Represents single dose vial" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:202
 name: influenza\, seasonal\, Southern Hemisphere\, quadrivalent\, 0.5mL dose\, with preservative
+comment: "Represents multi-dose vial"
 synonym: "influenza, Southern Hemisphere, quadrivalent, with preservative" EXACT []
-property_value: rdfs:comment "Represents multi-dose vial" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
@@ -1146,57 +1148,57 @@ is_obsolete: false
 id: cvx:203
 name: meningococcal polysaccharide \(groups A\, C\, Y\, W-135\) tetanus toxoid conjugate vaccine 0.5mL dose\, preservative free
 synonym: "meningococcal conjugate quadrivalent, MenACWY-TT (MCV4)" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:108 ! meningococcal ACWY vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:204
 name: Ebola Zaire vaccine\, live\, recombinant\, 1mL dose
-property_value: rdfs:comment "FDA Approved ERVEBO Vaccine." xsd:string
-property_value: status "Active" xsd:string
+comment: "FDA Approved ERVEBO Vaccine."
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:214 ! Ebola, unspecified
 is_obsolete: false
 
 [Term]
 id: cvx:205
 name: Influenza\, adjuvanted\, inactivated\, quadrivalent\, injectable\, preservative free
+comment: "Quadrivalent code starting 2020/2021 season"
 synonym: "Influenza, adjuvanted, quadrivalent, PF" EXACT []
-property_value: rdfs:comment "Quadrivalent code starting 2020/2021 season" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:206
 name: Vaccinia\, smallpox monkeypox vaccine\, live attenuated\, preservative free\, subcutaneous or intradermal injection
+comment: "Associated to FDA US Licensed product JYNNEOS, non-US tradenames IMVANEX, IMVAMUNE. Review CDC & FDA guidance for updates regarding administration"
 synonym: "Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection" EXACT []
-property_value: rdfs:comment "Associated to FDA US Licensed product JYNNEOS, non-US tradenames IMVANEX, IMVAMUNE. Review CDC & FDA guidance for updates regarding administration" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:75 ! vaccinia (smallpox) vaccine
 is_obsolete: false
 
 [Term]
 id: cvx:207
 name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, preservative free\, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose
+comment: "Original monovalent Moderna adult vaccine. FDA rescinded all doses for US use 4/18/2023. Continue to used to record historic US Moderna vaccines and those administered in non-US locations (includes tradename Spikevax)"
 synonym: "COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose" EXACT []
-property_value: rdfs:comment "Original monovalent Moderna adult vaccine. FDA rescinded all doses for US use 4/18/2023. Continue to used to record historic US Moderna vaccines and those administered in non-US locations (includes tradename Spikevax)" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:208
 name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, preservative free\, 30 mcg/0.3mL dose
+comment: "Original monovalent Pfizer adult vaccine (12+ yrs). FDA rescinded all doses for US use 4/18/2023.  Continue to use to record historic US Pfizer vaccines and Non-US vaccines administered (includes tradename Comirnaty)"
 synonym: "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose" EXACT []
-property_value: rdfs:comment "Original monovalent Pfizer adult vaccine (12+ yrs). FDA rescinded all doses for US use 4/18/2023.  Continue to use to record historic US Pfizer vaccines and Non-US vaccines administered (includes tradename Comirnaty)" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
@@ -1204,55 +1206,55 @@ is_obsolete: false
 id: cvx:21
 name: varicella virus vaccine
 synonym: "varicella" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:21 ! varicella virus vaccine
 is_obsolete: false
 
 [Term]
 id: cvx:210
 name: SARS-COV-2 \(COVID-19\) vaccine\, vector non-replicating\, recombinant spike protein-ChAdOx1\, preservative free\, 0.5 mL
+comment: "WHO authorized pandemic vaccine.  Recognized towards immunity in US.  AstraZeneca vaccine non-US WHO authorized tradenames/identifiers include VAXZEVRIA, AZD1222, ChAdOx1 nCoV-19, COVISHIELD"
 synonym: "COVID-19 vaccine, vector-nr, rS-ChAdOx1, PF, 0.5 mL" EXACT []
-property_value: rdfs:comment "WHO authorized pandemic vaccine.  Recognized towards immunity in US.  AstraZeneca vaccine non-US WHO authorized tradenames/identifiers include VAXZEVRIA, AZD1222, ChAdOx1 nCoV-19, COVISHIELD" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:211
 name: SARS-COV-2 \(COVID-19\) vaccine\, subunit\, recombinant spike protein-nanoparticle+Matrix-M1 Adjuvant\, preservative free\, 0.5mL dose
+comment: "Original monovalent Novavax vaccine (12+ years), FDA rescinded for US doses 10/03/2023. Continue to use to record Novavax Non-US vaccines administered (includes tradenames NUVAXOVID, COVOVAX)"
 synonym: "COVID-19, subunit, rS-nanoparticle+Matrix-M1 Adjuvant, PF, 0.5 mL" EXACT []
-property_value: rdfs:comment "Original monovalent Novavax vaccine (12+ years), FDA rescinded for US doses 10/03/2023. Continue to use to record Novavax Non-US vaccines administered (includes tradenames NUVAXOVID, COVOVAX)" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:212
 name: SARS-COV-2 \(COVID-19\) vaccine\, vector non-replicating\, recombinant spike protein-Ad26\, preservative free\, 0.5 mL
+comment: "Original monovalent Janssen/J&J adult vaccine. All NDCs expired 6/20/2023, not reauthorized by FDA for Fall 2023 US doses. Continue to use to record Jansses/J&J Non-US vaccines administered vaccines administered"
 synonym: "COVID-19 vaccine, vector-nr, rS-Ad26, PF, 0.5 mL" EXACT []
-property_value: rdfs:comment "Original monovalent Janssen/J&J adult vaccine. All NDCs expired 6/20/2023, not reauthorized by FDA for Fall 2023 US doses. Continue to use to record Jansses/J&J Non-US vaccines administered vaccines administered" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:213
 name: SARS-COV-2 \(COVID-19\) vaccine\, UNSPECIFIED
-property_value: rdfs:comment "Unspecified code for COVID-19 not to be used to record patient US administration. May be used to record historic US administration if product not known.  CVX code 500 should be used to record Non-US vaccine where product is not known." xsd:string
-property_value: status "Inactive" xsd:string
+comment: "Unspecified code for COVID-19 not to be used to record patient US administration. May be used to record historic US administration if product not known.  CVX code 500 should be used to record Non-US vaccine where product is not known."
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:214
 name: Ebola\, unspecified
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:214 ! Ebola, unspecified
 is_obsolete: false
 
@@ -1260,8 +1262,8 @@ is_obsolete: false
 id: cvx:215
 name: Pneumococcal conjugate vaccine 15-valent \(PCV15\)\, polysaccharide CRM197 conjugate\, adjuvant\, preservative free
 synonym: "Pneumococcal conjugate PCV15, polysaccharide CRM197 conjugate, adjuvant, PF" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:152 ! Pneumococcal Conjugate, unspecified formulation
 is_obsolete: false
 
@@ -1269,38 +1271,38 @@ is_obsolete: false
 id: cvx:216
 name: Pneumococcal conjugate vaccine 20-valent \(PCV20\)\, polysaccharide CRM197 conjugate\, adjuvant\, preservative free
 synonym: "Pneumococcal conjugate PCV20, polysaccharide CRM197 conjugate, adjuvant, PF" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:152 ! Pneumococcal Conjugate, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:217
 name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, preservative free\, 30 mcg/0.3mL dose\, tris-sucrose formulation
+comment: "Original monovalent Pfizer tris-sucrose formulation FDA EUA (12+ yrs) and BLA (16+ yrs), FDA rescinded monovalent use 08/31/2022, BLA NDCs not retired until 09/11/2023."
 synonym: "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose, tris-sucrose" EXACT []
-property_value: rdfs:comment "Original monovalent Pfizer tris-sucrose formulation FDA EUA (12+ yrs) and BLA (16+ yrs), FDA rescinded monovalent use 08/31/2022, BLA NDCs not retired until 09/11/2023." xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:218
 name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, preservative free\, 10 mcg/0.2mL dose\, tris-sucrose formulation
+comment: "Original monovalent Pfizer tris-sucrose formulation (5 yrs through 11 yrs), FDA rescinded 4/18/2023"
 synonym: "COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL dose, tris-sucrose" EXACT []
-property_value: rdfs:comment "Original monovalent Pfizer tris-sucrose formulation (5 yrs through 11 yrs), FDA rescinded 4/18/2023" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:219
 name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, preservative free\, 3 mcg/0.2mL dose\, tris-sucrose formulation
+comment: "Original monovalent Pfizer tris-sucrose formulation (6 mo through 4 yrs), FDA rescinded 4/18/2023"
 synonym: "COVID-19, mRNA, LNP-S, PF, 3 mcg/0.2 mL dose, tris-sucrose" EXACT []
-property_value: rdfs:comment "Original monovalent Pfizer tris-sucrose formulation (6 mo through 4 yrs), FDA rescinded 4/18/2023" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
@@ -1308,8 +1310,8 @@ is_obsolete: false
 id: cvx:22
 name: DTP-Haemophilus influenzae type b conjugate vaccine
 synonym: "DTP-Hib" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:107 ! diphtheria, tetanus toxoids and acellular pertussis vaccine, unspecified formulation
 is_a: cvx:17 ! Haemophilus influenzae type b vaccine, conjugate unspecified formulation
 is_obsolete: false
@@ -1317,100 +1319,100 @@ is_obsolete: false
 [Term]
 id: cvx:220
 name: Hepatitis B vaccine \(recombinant\)\, 3-antigen\, Al\(OH\)3 adjuvanted
+comment: "Manufacturer VBI has ceased operations - Prehevbrio Hep B vaccine voluntary recall effective 11/15/2024"
 synonym: "HepB recombinant, 3-antigen, Al(OH)3" EXACT []
-property_value: rdfs:comment "Manufacturer VBI has ceased operations - Prehevbrio Hep B vaccine voluntary recall effective 11/15/2024" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:45 ! hepatitis B vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:221
 name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, preservative free\, 50 mcg/0.5 mL dose
+comment: "Original monovalent Moderna, (Adult) FDA rescinded 4/18/2023, (6 yrs through 11 yrs) FDA rescinded 04/18/2023"
 synonym: "COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL dose" EXACT []
-property_value: rdfs:comment "Original monovalent Moderna, (Adult) FDA rescinded 4/18/2023, (6 yrs through 11 yrs) FDA rescinded 04/18/2023" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:222
 name: Tick-borne encephalitis vaccine\, unspecified
+comment: "Unspecified Code - should only be used when specific vaccine administered is unknown"
 synonym: "Tick-borne encephalitis, unspecified" EXACT []
-property_value: rdfs:comment "Unspecified Code - should only be used when specific vaccine administered is unknown" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:222 ! Tick-borne encephalitis vaccine, unspecified
 is_obsolete: false
 
 [Term]
 id: cvx:223
 name: Tick-borne encephalitis vaccine\, inactivated\, preservative free\, 0.25mL dose
+comment: "Pediatric dose vaccine"
 synonym: "Tick-borne encephalitis, inactivated, PF, 0.25mL" EXACT []
-property_value: rdfs:comment "Pediatric dose vaccine" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:222 ! Tick-borne encephalitis vaccine, unspecified
 is_obsolete: false
 
 [Term]
 id: cvx:224
 name: Tick-borne encephalitis vaccine\, inactivated\, preservative free\, 0.5mL dose
+comment: "Adult dose vaccine"
 synonym: "Tick-borne encephalitis, inactivated, PF, 0.5mL" EXACT []
-property_value: rdfs:comment "Adult dose vaccine" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:222 ! Tick-borne encephalitis vaccine, unspecified
 is_obsolete: false
 
 [Term]
 id: cvx:225
 name: SARS-COV-2 \(COVID-19\) vaccine\, D614\, prefusion spike recombinant protein subunit \(CoV2 preS dTM\)\, AS03 adjuvant added\, preservative free\, 5mcg/0.5mL dose
+comment: "EUA submission withdrawn by Sanofi"
 synonym: "COVID-19, D614, recomb, preS dTM, AS03 adjuvant add, PF, 5mcg/0.5mL" EXACT []
-property_value: rdfs:comment "EUA submission withdrawn by Sanofi" xsd:string
-property_value: status "Never Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Never Active" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:226
 name: SARS-COV-2 \(COVID-19\) vaccine\, D614\, prefusion spike recombinant protein subunit \(CoV2 preS dTM\)\, AS03 adjuvant added\, preservative free\, 10mcg/0.5mL dose
+comment: "EUA submission withdrawn by Sanofi"
 synonym: "COVID-19, D614, recomb, preS dTM, AS03 adjuvant add, PF, 10mcg/0.5mL" EXACT []
-property_value: rdfs:comment "EUA submission withdrawn by Sanofi" xsd:string
-property_value: status "Never Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Never Active" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:227
 name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, preservative free\, pediatric 50 mcg/0.5 mL dose
+comment: "Original monovalent Moderna pediatric vaccine (FDA rescinded 4/18/2023). Inactivated 6/14/2022 to use CVX code 221 product instead"
 synonym: "COVID-19, mRNA, LNP-S, PF, pediatric 50 mcg/0.5 mL dose" EXACT []
-property_value: rdfs:comment "Original monovalent Moderna pediatric vaccine (FDA rescinded 4/18/2023). Inactivated 6/14/2022 to use CVX code 221 product instead" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:228
 name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, preservative free\, pediatric 25 mcg/0.25 mL dose
+comment: "Original monovalent Moderna pediatric vaccine (6 mo through 5 yrs), FDA rescinded 4/18/2023"
 synonym: "COVID-19, mRNA, LNP-S, PF, pediatric 25 mcg/0.25 mL dose" EXACT []
-property_value: rdfs:comment "Original monovalent Moderna pediatric vaccine (6 mo through 5 yrs), FDA rescinded 4/18/2023" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:229
 name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, bivalent\, preservative free\, 50 mcg/0.5 mL or 25 mcg/0.25 mL dose
+comment: "Original strain + omicron BA.4/BA.5 bivalent Moderna vaccine (6 mo and older), FDA rescinded 9/11/2023.  Continue to use to record Non-US vaccines administered (tradename Spikevax Bivalent)"
 synonym: "COVID-19, mRNA, LNP-S, bivalent, PF, 50 mcg/0.5 mL or 25mcg/0.25 mL dose" EXACT []
-property_value: rdfs:comment "Original strain + omicron BA.4/BA.5 bivalent Moderna vaccine (6 mo and older), FDA rescinded 9/11/2023.  Continue to use to record Non-US vaccines administered (tradename Spikevax Bivalent)" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
@@ -1418,28 +1420,28 @@ is_obsolete: false
 id: cvx:23
 name: plague vaccine
 synonym: "plague" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:23 ! plague vaccine
 is_obsolete: false
 
 [Term]
 id: cvx:230
 name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, bivalent\, preservative free\, 10 mcg/0.2 mL dose
+comment: "Original strain + omicron BA.4/BA.5 bivalent Moderna vaccine (6 mo through 5 yrs), FDA rescinded 9/11/2023"
 synonym: "COVID-19, mRNA, LNP-S, bivalent, PF, 10 mcg/0.2 mL" EXACT []
-property_value: rdfs:comment "Original strain + omicron BA.4/BA.5 bivalent Moderna vaccine (6 mo through 5 yrs), FDA rescinded 9/11/2023" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:231
 name: influenza\, seasonal\, Southern Hemisphere\, high-dose\, quadrivalent\, 0.7mL dose\, preservative free
+comment: "Target population 65 and older, starting Southern Hemisphere season 2023"
 synonym: "influenza, Southern Hemisphere, high-dose, quadrivalent" EXACT []
-property_value: rdfs:comment "Target population 65 and older, starting Southern Hemisphere season 2023" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
@@ -1447,8 +1449,8 @@ is_obsolete: false
 id: cvx:24
 name: Anthrax vaccine\, adsorbed\, pre-exposure and post-exposure prophylaxis
 synonym: "Anthrax, pre-exposure prophylaxis, post-exposure prophylaxis" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:319 ! Anthrax vaccine, unspecified
 is_obsolete: false
 
@@ -1456,8 +1458,8 @@ is_obsolete: false
 id: cvx:25
 name: typhoid vaccine\, live\, oral
 synonym: "typhoid, oral" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:91 ! typhoid vaccine, unspecified formulation
 is_obsolete: false
 
@@ -1465,25 +1467,25 @@ is_obsolete: false
 id: cvx:26
 name: cholera vaccine\, unspecified formulation
 synonym: "cholera, unspecified formulation" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:26 ! cholera vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:27
 name: botulinum antitoxin
-property_value: status "Active" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:28
 name: diphtheria and tetanus toxoids\, adsorbed for pediatric use
+comment: "Retired effective 04/30/2023.  All vaccine NDCs retired.  No further vaccines expected for this formulation."
 synonym: "DT (pediatric)" EXACT []
-property_value: rdfs:comment "Retired effective 04/30/2023.  All vaccine NDCs retired.  No further vaccines expected for this formulation." xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:107 ! diphtheria, tetanus toxoids and acellular pertussis vaccine, unspecified formulation
 is_obsolete: false
 
@@ -1491,194 +1493,194 @@ is_obsolete: false
 id: cvx:29
 name: cytomegalovirus immune globulin\, intravenous
 synonym: "CMVIG" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:30
 name: hepatitis B immune globulin
 synonym: "HBIG" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:300
 name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, bivalent\, preservative free\, 30 mcg/0.3 mL dose\, tris-sucrose formulation
+comment: "Original strain + omicron BA.4/BA.5 bivalent Pfizer vaccine (12 yrs and older). FDA rescinded 09/11/2023.  Continue to use to record Non-US vaccines administered (tradename Comirnaty Bivalent)"
 synonym: "COVID-19, mRNA, LNP-S, bivalent, PF, 30 mcg/0.3 mL dose" EXACT []
-property_value: rdfs:comment "Original strain + omicron BA.4/BA.5 bivalent Pfizer vaccine (12 yrs and older). FDA rescinded 09/11/2023.  Continue to use to record Non-US vaccines administered (tradename Comirnaty Bivalent)" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:301
 name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, bivalent\, preservative free\, 10 mcg/0.2 mL dose\, tris-sucrose formulation
+comment: "Original strain + omicron BA.4/BA.5 bivalent Pfizer vaccine (5 yrs through 11 yrs), FDA rescinded 9/11/2023"
 synonym: "COVID-19, mRNA, LNP-S, bivalent, PF, 10 mcg/0.2 mL dose" EXACT []
-property_value: rdfs:comment "Original strain + omicron BA.4/BA.5 bivalent Pfizer vaccine (5 yrs through 11 yrs), FDA rescinded 9/11/2023" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:302
 name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, bivalent\, preservative free\, 3 mcg/0.2 mL dose\, tris-sucrose formulation
+comment: "Original strain + omicron BA.4/BA.5 bivalent Pfizer vaccine (6 mo through 4 yrs), FDA rescinded 09/11/2023"
 synonym: "COVID-19, mRNA, LNP-S, bivalent, PF, 3 mcg/0.2 mL dose" EXACT []
-property_value: rdfs:comment "Original strain + omicron BA.4/BA.5 bivalent Pfizer vaccine (6 mo through 4 yrs), FDA rescinded 09/11/2023" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:303
 name: Respiratory syncytial virus \(RSV\)\, vaccine\, recombinant\, protein subunit RSV prefusion F\, adjuvant reconstituted\, 0.5 mL\, preservative free
+comment: "Adults 60 years and older"
 synonym: "RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF" EXACT []
-property_value: rdfs:comment "Adults 60 years and older" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:304 ! Respiratory syncytial virus (RSV), unspecified
 is_obsolete: false
 
 [Term]
 id: cvx:304
 name: Respiratory syncytial virus \(RSV\)\, unspecified
-property_value: rdfs:comment "Unspecified, for historic records where it is not known if RSV vaccine or RSV MAB was administered" xsd:string
-property_value: status "Inactive" xsd:string
+comment: "Unspecified, for historic records where it is not known if RSV vaccine or RSV MAB was administered"
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:304 ! Respiratory syncytial virus (RSV), unspecified
 is_obsolete: false
 
 [Term]
 id: cvx:305
 name: Respiratory syncytial virus \(RSV\)\, vaccine\, bivalent\, protein subunit RSV prefusion F\, diluent reconstituted\, 0.5 mL\, preservative free
+comment: "Adults 60 years and older, pregnant individuals"
 synonym: "RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF" EXACT []
-property_value: rdfs:comment "Adults 60 years and older, pregnant individuals" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:304 ! Respiratory syncytial virus (RSV), unspecified
 is_obsolete: false
 
 [Term]
 id: cvx:306
 name: Respiratory syncytial virus \(RSV\) monoclonal antibody\, IgG1κ\, \(nirsevimab-alip\)\, 0.5 mL\, neonates and children to 24 months
+comment: "RSV monoclonal antibody (Beyfortus)"
 synonym: "RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months" EXACT []
-property_value: rdfs:comment "RSV monoclonal antibody (Beyfortus)" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:304 ! Respiratory syncytial virus (RSV), unspecified
 is_obsolete: false
 
 [Term]
 id: cvx:307
 name: Respiratory syncytial virus \(RSV\) monoclonal antibody\, IgG1κ\, \(nirsevimab-alip\)\, 1 mL\, neonates and children to 24 months
+comment: "RSV monoclonal antibody (Beyfortus)"
 synonym: "RSV, mAb, nirsevimab-alip, 1 mL, neonate to 24 months" EXACT []
-property_value: rdfs:comment "RSV monoclonal antibody (Beyfortus)" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:304 ! Respiratory syncytial virus (RSV), unspecified
 is_obsolete: false
 
 [Term]
 id: cvx:308
 name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, preservative free\, tris-sucrose\, 3 mcg/0.3 mL dose
+comment: "Pfizer Fall Seasonal 6 months through 4 years of age"
 synonym: "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL" EXACT []
-property_value: rdfs:comment "Pfizer Fall Seasonal 6 months through 4 years of age" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:309
 name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, preservative free\, tris-sucrose\, 30 mcg/0.3 mL dose
+comment: "Pfizer Fall Seasonal 12 years and older"
 synonym: "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 30 mcg/0.3 mL" EXACT []
-property_value: rdfs:comment "Pfizer Fall Seasonal 12 years and older" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:31
 name: hepatitis A vaccine\, pediatric dosage\, unspecified formulation
+comment: "Do NOT use this code.  If formulation is unknown, use CVX 85.  There is only one formulation of Hep A, peds."
 synonym: "Hep A, pediatric, unspecified formulation" EXACT []
-property_value: rdfs:comment "Do NOT use this code.  If formulation is unknown, use CVX 85.  There is only one formulation of Hep A, peds." xsd:string
-property_value: IAO:0100001 cvx:85
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:85 ! hepatitis A vaccine, unspecified formulation
 is_obsolete: true
+replaced_by: cvx:85
 
 [Term]
 id: cvx:310
 name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, preservative free\, tris-sucrose\, 10 mcg/0.3 mL dose
+comment: "Pfizer Fall Seasonal 5 years through 11 years of age"
 synonym: "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 10 mcg/0.3 mL" EXACT []
-property_value: rdfs:comment "Pfizer Fall Seasonal 5 years through 11 years of age" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:311
 name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, preservative free\, 25 mcg/0.25 mL dose
+comment: "Moderna Fall Seasonal 6 months through 11 years of age"
 synonym: "COVID-19, mRNA, LNP-S, PF, 25 mcg/0.25 mL" EXACT []
-property_value: rdfs:comment "Moderna Fall Seasonal 6 months through 11 years of age" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:312
 name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, preservative free\, 50 mcg/0.5 mL dose
+comment: "Moderna Fall Seasonal 12 years and older"
 synonym: "COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL" EXACT []
-property_value: rdfs:comment "Moderna Fall Seasonal 12 years and older" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:313
 name: SARS-COV-2 \(COVID-19\) vaccine\, subunit\, recombinant spike protein-nanoparticle+Matrix-M1 Adjuvant\, preservative free\, 5 mcg/0.5 mL dose
+comment: "Novavax Fall Seasonal 12 years and older"
 synonym: "COVID-19, subunit, rS-nanoparticle, adjuvanted, PF, 5 mcg/0.5 mL" EXACT []
-property_value: rdfs:comment "Novavax Fall Seasonal 12 years and older" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:314
 name: Respiratory syncytial virus \(RSV\) vaccine\, unspecified
-property_value: rdfs:comment "Unspecified, for historic records where the specific vaccine administered is not known" xsd:string
-property_value: status "Inactive" xsd:string
+comment: "Unspecified, for historic records where the specific vaccine administered is not known"
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:304 ! Respiratory syncytial virus (RSV), unspecified
 is_obsolete: false
 
 [Term]
 id: cvx:315
 name: Respiratory syncytial virus \(RSV\) monoclonal antibody \(MAB\)\, unspecified
+comment: "Unspecified, for historic records where the specific RSV MAB administered is not known"
 synonym: "Respiratory syncytial virus (RSV) MAB, unspecified" EXACT []
-property_value: rdfs:comment "Unspecified, for historic records where the specific RSV MAB administered is not known" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:304 ! Respiratory syncytial virus (RSV), unspecified
 is_obsolete: false
 
 [Term]
 id: cvx:316
 name: Meningococcal polysaccharide \(groups A\, C\, Y\, W\) tetanus toxoid conjugate\, meningococcal B recombinant vaccine\, 0.5mL\, preservative free
+comment: "Meningococcal pentavalent vaccine strains ABCW and Y"
 synonym: "Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF" EXACT []
-property_value: rdfs:comment "Meningococcal pentavalent vaccine strains ABCW and Y" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:108 ! meningococcal ACWY vaccine, unspecified formulation
 is_a: cvx:164 ! meningococcal B, unspecified formulation
 is_obsolete: false
@@ -1686,29 +1688,29 @@ is_obsolete: false
 [Term]
 id: cvx:317
 name: Chikungunya\, live attenuated vaccine\, 0.5 mL\, preservative free
+comment: "Chikungunya Vaccine"
 synonym: "Chikungunya live attenuated vaccine, 0.5 mL, PF" EXACT []
-property_value: rdfs:comment "Chikungunya Vaccine" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:317 ! Chikungunya, live attenuated vaccine, 0.5 mL, preservative free
 is_obsolete: false
 
 [Term]
 id: cvx:318
 name: Anthrax vaccine\, adsorbed\, adjuvanted\, post-exposure prophylaxis
+comment: "National stockpile vaccine (Cyfendus)"
 synonym: "Anthrax, post-exposure prophylaxis" EXACT []
-property_value: rdfs:comment "National stockpile vaccine (Cyfendus)" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:319 ! Anthrax vaccine, unspecified
 is_obsolete: false
 
 [Term]
 id: cvx:319
 name: Anthrax vaccine\, unspecified
-property_value: rdfs:comment "Unspecified code to record historic administration when specific product is unknown" xsd:string
-property_value: status "Inactive" xsd:string
+comment: "Unspecified code to record historic administration when specific product is unknown"
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:319 ! Anthrax vaccine, unspecified
 is_obsolete: false
 
@@ -1716,66 +1718,66 @@ is_obsolete: false
 id: cvx:32
 name: meningococcal polysaccharide vaccine \(MPSV4\)
 synonym: "meningococcal MPSV4" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:108 ! meningococcal ACWY vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:320
 name: Influenza\, Madin Darby Canine Kidney\, subunit\, trivalent\, injectable\, contains preservative
+comment: "Trivalent code starting 2024/2025 season"
 synonym: "Influenza, MDCK, trivalent, preservative" EXACT []
-property_value: rdfs:comment "Trivalent code starting 2024/2025 season" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:321
 name: Influenza-avian\, H5N8\, viral-vector\, monovalent\, injectable\, preservative free
+comment: "Novel Bird Flu H5N8 Vaccine 2024"
 synonym: "Influenza-avian, H5N8, monovalent, PF" EXACT []
-property_value: rdfs:comment "Novel Bird Flu H5N8 Vaccine 2024" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:323 ! Influenza-avian, H5, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:322
 name: Influenza-avian\, H5N8\, viral-vector\, monovalent\, injectable\, contains preservative
+comment: "Novel Bird Flu H5N8 Vaccine 2024"
 synonym: "Influenza-avian, H5N8, monovalent, preservative" EXACT []
-property_value: rdfs:comment "Novel Bird Flu H5N8 Vaccine 2024" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:323 ! Influenza-avian, H5, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:323
 name: Influenza-avian\, H5\, unspecified formulation
-property_value: rdfs:comment "Unspecified code H5xx vaccines to be used when specific formulation is unknown - for vaccines administered starting 2024" xsd:string
-property_value: status "Inactive" xsd:string
+comment: "Unspecified code H5xx vaccines to be used when specific formulation is unknown - for vaccines administered starting 2024"
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:323 ! Influenza-avian, H5, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:324
 name: Poliovirus\, inactivated\, fractional-dose \(fIPV\)
-property_value: rdfs:comment "Non-US polio vaccine administered since 2016" xsd:string
-property_value: status "Non-US" xsd:string
+comment: "Non-US polio vaccine administered since 2016"
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:89 ! poliovirus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:326
 name: Respiratory syncytial virus \(RSV\)\, mRNA\, injectable\, preservative free
+comment: "mRNA RSV vaccine added 2024"
 synonym: "RSV, mRNA, injectable, PF" EXACT []
-property_value: rdfs:comment "mRNA RSV vaccine added 2024" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:304 ! Respiratory syncytial virus (RSV), unspecified
 is_obsolete: false
 
@@ -1783,8 +1785,8 @@ is_obsolete: false
 id: cvx:327
 name: Pneumococcal conjugate vaccine\, 21 valent \(PCV21\)\, polysaccharide CRM197 conjugate\, preservative free
 synonym: "Pneumococcal conjugate PCV21, polysaccharide CRM197 conjugate, PF" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:152 ! Pneumococcal Conjugate, unspecified formulation
 is_obsolete: false
 
@@ -1792,8 +1794,8 @@ is_obsolete: false
 id: cvx:33
 name: pneumococcal polysaccharide vaccine\, 23 valent
 synonym: "pneumococcal polysaccharide PPV23" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:33 ! pneumococcal polysaccharide vaccine, 23 valent
 is_obsolete: false
 
@@ -1801,15 +1803,15 @@ is_obsolete: false
 id: cvx:34
 name: rabies immune globulin
 synonym: "RIG" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:35
 name: tetanus toxoid\, adsorbed
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:139 ! Td(adult) unspecified formulation
 is_obsolete: false
 
@@ -1817,17 +1819,17 @@ is_obsolete: false
 id: cvx:36
 name: varicella zoster immune globulin
 synonym: "VZIG" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:37
 name: yellow fever vaccine live
+comment: "This is the YF vaccine that has been available in the US for years. It is stabilized with sorbitol and gelatin."
 synonym: "yellow fever live" EXACT []
-property_value: rdfs:comment "This is the YF vaccine that has been available in the US for years. It is stabilized with sorbitol and gelatin." xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:184 ! Yellow fever vaccine, unspecified formulation
 is_obsolete: false
 
@@ -1835,8 +1837,8 @@ is_obsolete: false
 id: cvx:38
 name: rubella and mumps virus vaccine
 synonym: "rubella/mumps" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:03 ! measles, mumps and rubella virus vaccine
 is_obsolete: false
 
@@ -1844,8 +1846,8 @@ is_obsolete: false
 id: cvx:39
 name: Japanese Encephalitis Vaccine SC
 synonym: "Japanese encephalitis SC" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:129 ! Japanese Encephalitis vaccine, unspecified formulation
 is_obsolete: false
 
@@ -1853,8 +1855,8 @@ is_obsolete: false
 id: cvx:40
 name: rabies vaccine\, for intradermal injection
 synonym: "rabies, intradermal injection" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:90 ! rabies vaccine, unspecified formulation
 is_obsolete: false
 
@@ -1862,48 +1864,48 @@ is_obsolete: false
 id: cvx:41
 name: typhoid vaccine\, parenteral\, other than acetone-killed\, dried
 synonym: "typhoid, parenteral" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:91 ! typhoid vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:42
 name: hepatitis B vaccine\, adolescent/high risk infant dosage
+comment: "As of August 27, 1998, Merck ceased distribution of their adolescent/high risk infant hepatitis B vaccine dosage. Code 42 should only be used to record historical records. For current administration of hepatitis B vaccine, pediatric/adolescent dosage, use code 08."
 synonym: "Hep B, adolescent/high risk infant" EXACT []
-property_value: rdfs:comment "As of August 27, 1998, Merck ceased distribution of their adolescent/high risk infant hepatitis B vaccine dosage. Code 42 should only be used to record historical records. For current administration of hepatitis B vaccine, pediatric/adolescent dosage, use code 08." xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:45 ! hepatitis B vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:43
 name: hepatitis B vaccine\, adult dosage
+comment: "This code applies to any standard adult dose and schedule. Also use CVX 43 for the FDA approved Recombivax HB 2-dose hepatitis B schedule for adolescents (11-15 year olds) using the adult formulation."
 synonym: "Hep B, adult" EXACT []
-property_value: rdfs:comment "This code applies to any standard adult dose and schedule. Also use CVX 43 for the FDA approved Recombivax HB 2-dose hepatitis B schedule for adolescents (11-15 year olds) using the adult formulation." xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:45 ! hepatitis B vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:44
 name: Hepatitis B vaccine \(Hep B\)\, high-dosage\, dialysis or immunocompromised patient
+comment: "This code is used record patient high dosage vaccine administration for dialysis or immunocompromised patients. For NDCs that are used for both regular vaccine and dialysis/IC high-dosage schedules (e.g. Engerix-B), are mapped to both CVX 43 and CVX 44. CVX code 44 should be utilized to record dialysis/IC dosing."
 synonym: "Hep B, high-dosage, dialysis or IC" EXACT []
-property_value: rdfs:comment "This code is used record patient high dosage vaccine administration for dialysis or immunocompromised patients. For NDCs that are used for both regular vaccine and dialysis/IC high-dosage schedules (e.g. Engerix-B), are mapped to both CVX 43 and CVX 44. CVX code 44 should be utilized to record dialysis/IC dosing." xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:45 ! hepatitis B vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:45
 name: hepatitis B vaccine\, unspecified formulation
+comment: "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a HepB vaccination when noted on a vaccination card)"
 synonym: "Hep B, unspecified formulation" EXACT []
-property_value: rdfs:comment "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a HepB vaccination when noted on a vaccination card)" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:45 ! hepatitis B vaccine, unspecified formulation
 is_obsolete: false
 
@@ -1911,8 +1913,8 @@ is_obsolete: false
 id: cvx:46
 name: Haemophilus influenzae type b vaccine\, PRP-D conjugate
 synonym: "Hib (PRP-D)" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:17 ! Haemophilus influenzae type b vaccine, conjugate unspecified formulation
 is_obsolete: false
 
@@ -1920,8 +1922,8 @@ is_obsolete: false
 id: cvx:47
 name: Haemophilus influenzae type b vaccine\, HbOC conjugate
 synonym: "Hib (HbOC)" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:17 ! Haemophilus influenzae type b vaccine, conjugate unspecified formulation
 is_obsolete: false
 
@@ -1929,8 +1931,8 @@ is_obsolete: false
 id: cvx:48
 name: Haemophilus influenzae type b vaccine\, PRP-T conjugate
 synonym: "Hib (PRP-T)" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:17 ! Haemophilus influenzae type b vaccine, conjugate unspecified formulation
 is_obsolete: false
 
@@ -1938,8 +1940,8 @@ is_obsolete: false
 id: cvx:49
 name: Haemophilus influenzae type b vaccine\, PRP-OMP conjugate
 synonym: "Hib (PRP-OMP)" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:17 ! Haemophilus influenzae type b vaccine, conjugate unspecified formulation
 is_obsolete: false
 
@@ -1947,8 +1949,8 @@ is_obsolete: false
 id: cvx:50
 name: DTaP-Haemophilus influenzae type b conjugate vaccine
 synonym: "DTaP-Hib" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:107 ! diphtheria, tetanus toxoids and acellular pertussis vaccine, unspecified formulation
 is_a: cvx:17 ! Haemophilus influenzae type b vaccine, conjugate unspecified formulation
 is_obsolete: false
@@ -1956,110 +1958,110 @@ is_obsolete: false
 [Term]
 id: cvx:500
 name: SARS-COV-2 COVID-19 Non-US Vaccine\, Specific Product Unknown
+comment: "Pandemic Non-US Covid Administration - specific CVX or product unknown"
 synonym: "COVID-19 Non-US Vaccine, Product Unknown" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Covid Administration - specific CVX or product unknown" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:501
 name: SARS-COV-2 COVID-19 Inactivated Virus Non-US Vaccine Product \(QAZCOVID-IN\)
+comment: "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US"
 synonym: "COVID-19 IV Non-US Vaccine (QAZCOVID-IN)" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:502
 name: SARS-COV-2 COVID-19 Inactivated Virus Non-US Vaccine Product \(COVAXIN\)
+comment: "Pandemic Non-US Vaccine Authorized by WHO 11-3-2021, recognized toward immunity in US, https://extranet.who.int/pqweb/vaccines/who-recommendation-bharat-biotech-international-ltd-covid-19-vaccine-whole-virion"
 synonym: "COVID-19 IV Non-US Vaccine (COVAXIN)" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine Authorized by WHO 11-3-2021, recognized toward immunity in US, https://extranet.who.int/pqweb/vaccines/who-recommendation-bharat-biotech-international-ltd-covid-19-vaccine-whole-virion" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:503
 name: SARS-COV-2 COVID-19 Live Attenuated Virus Non-US Vaccine Product \(COVIVAC\)
+comment: "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US"
 synonym: "COVID-19 LAV Non-US Vaccine (COVIVAC)" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:504
 name: SARS-COV-2 COVID-19 Viral Vector Non-replicating Non-US Vaccine Product \(Sputnik Light\)
+comment: "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US"
 synonym: "COVID-19 VVnr Non-US Vaccine (Sputnik Light)" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:505
 name: SARS-COV-2 COVID-19 Viral Vector Non-replicating Non-US Vaccine Product \(Sputnik V\)
+comment: "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US"
 synonym: "COVID-19 VVnr Non-US Vaccine (Sputnik V)" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:506
 name: SARS-COV-2 COVID-19 Viral Vector Non-replicating Non-US Vaccine Product \(CONVIDECIA\)\, CanSino Biological Inc./Beijing Institute of Biotechnology
+comment: "Pandemic Non-US Vaccine. Authorized by WHO 5/19/2022 - Counted toward immunity in US"
 synonym: "COVID-19 VVnr Non-US Vaccine (CanSino Biological Inc./Beijing Institute of Biotechnology" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine. Authorized by WHO 5/19/2022 - Counted toward immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:507
 name: SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product \(Anhui Zhifei Longcom Biopharmaceutical + Institute of Microbiology\, Chinese Academy of Sciences\)
+comment: "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US"
 synonym: "COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom Biopharm + Inst of Micro, Chinese Acad of Sciences)" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:508
 name: SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product \(Jiangsu Province Centers for Disease Control and Prevention\)
+comment: "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US"
 synonym: "COVID-19 PS Non-US Vaccine (Jiangsu Province Centers for Disease Control and Prevention)" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:509
 name: SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product \(EpiVacCorona\)
+comment: "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US"
 synonym: "COVID-19 PS Non-US Vaccine (EpiVacCorona)" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:51
 name: Haemophilus influenzae type b conjugate and Hepatitis B vaccine
+comment: "This vaccine may still be in use until the existing lots expire on 8/19/16."
 synonym: "Hib-Hep B" EXACT []
-property_value: rdfs:comment "This vaccine may still be in use until the existing lots expire on 8/19/16." xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:17 ! Haemophilus influenzae type b vaccine, conjugate unspecified formulation
 is_a: cvx:45 ! hepatitis B vaccine, unspecified formulation
 is_obsolete: false
@@ -2067,100 +2069,100 @@ is_obsolete: false
 [Term]
 id: cvx:510
 name: SARS-COV-2 COVID-19 Inactivated Virus Non-US Vaccine Product \(BIBP\, Sinopharm\)
+comment: "Pandemic Non-US Vaccine. Authorized by WHO - Counted toward immunity in US"
 synonym: "COVID-19 IV Non-US Vaccine (BIBP, Sinopharm)" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine. Authorized by WHO - Counted toward immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:511
 name: SARS-COV-2 COVID-19 Inactivated Virus Non-US Vaccine Product \(CoronaVac\, Sinovac\)
+comment: "Pandemic Non-US Vaccine. Authorized by WHO - Counted toward immunity in US"
 synonym: "COVID-19 IV Non-US Vaccine (CoronaVac, Sinovac)" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine. Authorized by WHO - Counted toward immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:512
 name: SARS-COV-2 COVID-19 Virus Like Particle \(VLP\) Non-US Vaccine Product \(Medicago\, Covifenz\)
+comment: "Pandemic Non-US Vaccine not Authorized by WHO - ACIP does recognize towards immunity in US"
 synonym: "SARS-COV-2 COVID-19 VLP Non-US Vaccine (Medicago, Covifenz)" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine not Authorized by WHO - ACIP does recognize towards immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:513
 name: SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product \(Anhui Zhifei Longcom\, Zifivax\)
+comment: "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US"
 synonym: "SARS-COV-2 COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom, Zifivax)" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:514
 name: SARS-COV-2 COVID-19 DNA Non-US Vaccine Product \(Zydus Cadila\, ZyCoV-D\)
+comment: "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US"
 synonym: "SARS-COV-2 COVID-19 DNA Non-US Vaccine (Zydus Cadila, ZyCoV-D)" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:515
 name: SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product \(Medigen\, MVC-COV1901\)
+comment: "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US"
 synonym: "SARS-COV-2 COVID-19 PS Non-US Vaccine (Medigen, MVC-COV1901)" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:516
 name: SARS-COV-2 COVID-19 Inactivated Non-US Vaccine Product \(Minhai Biotechnology Co\, KCONVAC\)
+comment: "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US"
 synonym: "COV-2 COVID-19 Inactivated Non-US Vaccine Product (Minhai Biotechnology Co, KCONVAC)" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:517
 name: SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product \(Biological E Limited\, Corbevax\)
+comment: "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US"
 synonym: "SARS-COV-2 COVID-19 PS Non-US Vaccine (Biological E Limited, Corbevax)" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:518
 name: SARS-COV-2 COVID-19 Inactivated\, Non-US Vaccine \(VLA2001\, Valneva\)
+comment: "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US"
 synonym: "COVID-19 Inactivated, Non-US Vaccine (VLA2001, Valneva)" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:519
 name: SARS-COV-2 COVID-19 mRNA\, bivalent\, original/Omicron BA.1\, Non-US Vaccine \(Spikevax Bivalent\)\, Moderna
+comment: "Pandemic Non-US Vaccine not Authorized by WHO - Is authorized by EU and counted toward immunity in US"
 synonym: "COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine (Spikevax Bivalent), Moderna" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine not Authorized by WHO - Is authorized by EU and counted toward immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
@@ -2168,28 +2170,28 @@ is_obsolete: false
 id: cvx:52
 name: hepatitis A vaccine\, adult dosage
 synonym: "Hep A, adult" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:85 ! hepatitis A vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:520
 name: SARS-COV-2 COVID-19 mRNA\, bivalent\, original/Omicron BA.1\, Non-US Vaccine Product \(Comirnaty Bivalent\)\, Pfizer-BioNTech
+comment: "Pandemic Non-US Vaccine. Authorized by WHO 10/19/2022 - Counted toward immunity in US"
 synonym: "COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine Product, Pfizer-BioNTech" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine. Authorized by WHO 10/19/2022 - Counted toward immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
 [Term]
 id: cvx:521
 name: SARS-COV-2 \(COVID-19\) vaccine SP\, protein-based\, adjuvanted\, B.1.351 strain \(VidPrevtyn Beta\)\, Sanofi-GSK
+comment: "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US"
 synonym: "COVID-19 SP, protein-based, adjuvanted (VidPrevtyn Beta), Sanofi-GSK" EXACT []
-property_value: rdfs:comment "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US" xsd:string
-property_value: status "Non-US" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
@@ -2197,8 +2199,8 @@ is_obsolete: false
 id: cvx:53
 name: typhoid vaccine\, parenteral\, acetone-killed\, dried \(U.S. military\)
 synonym: "typhoid, parenteral, AKD (U.S. military)" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:91 ! typhoid vaccine, unspecified formulation
 is_obsolete: false
 
@@ -2206,8 +2208,8 @@ is_obsolete: false
 id: cvx:54
 name: adenovirus vaccine\, type 4\, live\, oral
 synonym: "adenovirus, type 4" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:82 ! adenovirus vaccine, unspecified formulation
 is_obsolete: false
 
@@ -2215,18 +2217,18 @@ is_obsolete: false
 id: cvx:55
 name: adenovirus vaccine\, type 7\, live\, oral
 synonym: "adenovirus, type 7" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:82 ! adenovirus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:56
 name: dengue fever vaccine\, tetravalent
+comment: "Applies to tetravalent product (e.g. DENGVAXIA)"
 synonym: "dengue fever tetravalent" EXACT []
-property_value: rdfs:comment "Applies to tetravalent product (e.g. DENGVAXIA)" xsd:string
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:56 ! dengue fever vaccine, tetravalent
 is_obsolete: false
 
@@ -2234,48 +2236,48 @@ is_obsolete: false
 id: cvx:57
 name: hantavirus vaccine
 synonym: "hantavirus" EXACT []
-property_value: status "Never Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Never Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:58
 name: hepatitis C vaccine
 synonym: "Hep C" EXACT []
-property_value: status "Never Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Never Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:59
 name: hepatitis E vaccine
 synonym: "Hep E" EXACT []
-property_value: status "Never Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Never Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:60
 name: herpes simplex virus\, type 2 vaccine
 synonym: "herpes simplex 2" EXACT []
-property_value: status "Never Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Never Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:61
 name: human immunodeficiency virus vaccine
 synonym: "HIV" EXACT []
-property_value: status "Never Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Never Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:62
 name: human papilloma virus vaccine\, quadrivalent
 synonym: "HPV, quadrivalent" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:137 ! HPV, unspecified formulation
 is_obsolete: false
 
@@ -2283,32 +2285,32 @@ is_obsolete: false
 id: cvx:63
 name: Junin virus vaccine
 synonym: "Junin virus" EXACT []
-property_value: status "Never Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Never Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:64
 name: leishmaniasis vaccine
 synonym: "leishmaniasis" EXACT []
-property_value: status "Never Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Never Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:65
 name: leprosy vaccine
 synonym: "leprosy" EXACT []
-property_value: status "Never Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Never Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:66
 name: Lyme disease vaccine
 synonym: "Lyme disease" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:66 ! Lyme disease vaccine
 is_obsolete: false
 
@@ -2316,65 +2318,65 @@ is_obsolete: false
 id: cvx:67
 name: malaria vaccine
 synonym: "malaria" EXACT []
-property_value: status "Never Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Never Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:68
 name: melanoma vaccine
 synonym: "melanoma" EXACT []
-property_value: status "Never Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Never Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:69
 name: parainfluenza-3 virus vaccine
 synonym: "parainfluenza-3" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:70
 name: Q fever vaccine
 synonym: "Q fever" EXACT []
-property_value: status "Never Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Never Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:71
 name: respiratory syncytial virus immune globulin\, intravenous
+comment: "No active NDCs or CPT codes associated to this CVX"
 synonym: "RSV-IGIV" EXACT []
-property_value: rdfs:comment "No active NDCs or CPT codes associated to this CVX" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:72
 name: rheumatic fever vaccine
 synonym: "rheumatic fever" EXACT []
-property_value: status "Never Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Never Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:73
 name: Rift Valley fever vaccine
 synonym: "Rift Valley fever" EXACT []
-property_value: status "Never Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Never Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:74
 name: rotavirus\, live\, tetravalent vaccine
 synonym: "rotavirus, tetravalent" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:122 ! rotavirus vaccine, unspecified formulation
 is_obsolete: false
 
@@ -2382,8 +2384,8 @@ is_obsolete: false
 id: cvx:75
 name: vaccinia \(smallpox\) vaccine
 synonym: "vaccinia (smallpox)" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:75 ! vaccinia (smallpox) vaccine
 is_obsolete: false
 
@@ -2391,66 +2393,66 @@ is_obsolete: false
 id: cvx:76
 name: Staphylococcus bacteriophage lysate
 synonym: "Staphylococcus bacterio lysate" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:77
 name: Tick-borne encephalitis vaccine \(non-US\)
-property_value: rdfs:comment "Non-US vaccine" xsd:string
-property_value: status "Non-US" xsd:string
+comment: "Non-US vaccine"
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Non-US" xsd:string
 is_a: cvx:222 ! Tick-borne encephalitis vaccine, unspecified
 is_obsolete: false
 
 [Term]
 id: cvx:78
 name: tularemia vaccine
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:79
 name: vaccinia immune globulin
-property_value: status "Active" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:80
 name: Venezuelan equine encephalitis\, live\, attenuated
 synonym: "VEE, live" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:92 ! Venezuelan equine encephalitis vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:801
 name: AS03 Adjuvant
-property_value: rdfs:comment "This is the adjuvant that is packaged with H5N1 vaccine, adjuvanted" xsd:string
-property_value: status "Active" xsd:string
+comment: "This is the adjuvant that is packaged with H5N1 vaccine, adjuvanted"
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:81
 name: Venezuelan equine encephalitis\, inactivated
 synonym: "VEE, inactivated" EXACT []
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:92 ! Venezuelan equine encephalitis vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:82
 name: adenovirus vaccine\, unspecified formulation
+comment: "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a adenovirus vaccination when noted on a vaccination card)"
 synonym: "adenovirus, unspecified formulation" EXACT []
-property_value: rdfs:comment "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a adenovirus vaccination when noted on a vaccination card)" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:82 ! adenovirus vaccine, unspecified formulation
 is_obsolete: false
 
@@ -2458,28 +2460,28 @@ is_obsolete: false
 id: cvx:83
 name: hepatitis A vaccine\, pediatric/adolescent dosage\, 2 dose schedule
 synonym: "Hep A, ped/adol, 2 dose" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:85 ! hepatitis A vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:84
 name: hepatitis A vaccine\, pediatric/adolescent dosage\, 3 dose schedule
+comment: "This vaccine formulation is inactive and should not be used, except to record historic vaccinations with this formulation."
 synonym: "Hep A, ped/adol, 3 dose" EXACT []
-property_value: rdfs:comment "This vaccine formulation is inactive and should not be used, except to record historic vaccinations with this formulation." xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:85 ! hepatitis A vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:85
 name: hepatitis A vaccine\, unspecified formulation
+comment: "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a HepA vaccination when noted on a vaccination card)"
 synonym: "Hep A, unspecified formulation" EXACT []
-property_value: rdfs:comment "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a HepA vaccination when noted on a vaccination card)" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:85 ! hepatitis A vaccine, unspecified formulation
 is_obsolete: false
 
@@ -2487,65 +2489,65 @@ is_obsolete: false
 id: cvx:86
 name: immune globulin\, intramuscular
 synonym: "IG" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:87
 name: immune globulin\, intravenous
 synonym: "IGIV" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:88
 name: influenza virus vaccine\, unspecified formulation
+comment: "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a Influenza vaccination when noted on a vaccination card)"
 synonym: "influenza, unspecified formulation" EXACT []
-property_value: rdfs:comment "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a Influenza vaccination when noted on a vaccination card)" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:89
 name: poliovirus vaccine\, unspecified formulation
+comment: "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a polio vaccination when noted on a vaccination card)"
 synonym: "polio, unspecified formulation" EXACT []
-property_value: rdfs:comment "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a polio vaccination when noted on a vaccination card)" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:89 ! poliovirus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:90
 name: rabies vaccine\, unspecified formulation
+comment: "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a rabies vaccination when noted on a vaccination card)"
 synonym: "rabies, unspecified formulation" EXACT []
-property_value: rdfs:comment "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a rabies vaccination when noted on a vaccination card)" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:90 ! rabies vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:91
 name: typhoid vaccine\, unspecified formulation
+comment: "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a typhoid vaccination when noted on a vaccination card)"
 synonym: "typhoid, unspecified formulation" EXACT []
-property_value: rdfs:comment "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a typhoid vaccination when noted on a vaccination card)" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:91 ! typhoid vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
 id: cvx:92
 name: Venezuelan equine encephalitis vaccine\, unspecified formulation
+comment: "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a VEE vaccination when noted on a vaccination card)"
 synonym: "VEE, unspecified formulation" EXACT []
-property_value: rdfs:comment "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a VEE vaccination when noted on a vaccination card)" xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_a: cvx:92 ! Venezuelan equine encephalitis vaccine, unspecified formulation
 is_obsolete: false
 
@@ -2553,16 +2555,16 @@ is_obsolete: false
 id: cvx:93
 name: respiratory syncytial virus monoclonal antibody \(palivizumab\)\, intramuscular
 synonym: "RSV-MAb" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Active" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:94
 name: measles\, mumps\, rubella\, and varicella virus vaccine
 synonym: "MMRV" EXACT []
-property_value: status "Active" xsd:string
 property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
 is_a: cvx:03 ! measles, mumps and rubella virus vaccine
 is_a: cvx:21 ! varicella virus vaccine
 is_obsolete: false
@@ -2570,52 +2572,52 @@ is_obsolete: false
 [Term]
 id: cvx:95
 name: tuberculin skin test; old tuberculin\, multipuncture device
+comment: "TB Skin test is not vaccine."
 synonym: "TST-OT tine test" EXACT []
-property_value: rdfs:comment "TB Skin test is not vaccine." xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:96
 name: tuberculin skin test; purified protein derivative solution\, intradermal
+comment: "TB Skin test is not vaccine."
 synonym: "TST-PPD intradermal" EXACT []
-property_value: rdfs:comment "TB Skin test is not vaccine." xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:97
 name: tuberculin skin test; purified protein derivative\, multipuncture device
+comment: "TB Skin test is not vaccine."
 synonym: "TST-PPD tine test" EXACT []
-property_value: rdfs:comment "TB Skin test is not vaccine." xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:98
 name: tuberculin skin test; unspecified formulation
+comment: "TB Skin test is not vaccine."
 synonym: "TST, unspecified formulation" EXACT []
-property_value: rdfs:comment "TB Skin test is not vaccine." xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:998
 name: no vaccine administered
-property_value: rdfs:comment "Code 998 was added for use in VXU HL7 messages where the OBX segment is nested with the RXA segment, but the message does not contain information about a vaccine administration. An example of this use is to report the vaccines due next for a patient when no vaccine administration is being reported." xsd:string
-property_value: status "Inactive" xsd:string
+comment: "Code 998 was added for use in VXU HL7 messages where the OBX segment is nested with the RXA segment, but the message does not contain information about a vaccine administration. An example of this use is to report the vaccines due next for a patient when no vaccine administration is being reported."
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: false
 
 [Term]
 id: cvx:999
 name: unknown vaccine or immune globulin
+comment: "This CVX code has little utility and should rarely be used."
 synonym: "unknown" EXACT []
-property_value: rdfs:comment "This CVX code has little utility and should rarely be used." xsd:string
-property_value: status "Inactive" xsd:string
 property_value: nonvaccine "true" xsd:boolean
+property_value: status "Inactive" xsd:string
 is_obsolete: false

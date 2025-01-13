@@ -9,6 +9,7 @@ The Pfam database contains information about protein domains and families. For e
 | Artifact       | Download PURL                                                | Latest Versioned Download PURL                                    |
 |----------------|--------------------------------------------------------------|-------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/pfam/pfam.obo       | https://w3id.org/biopragmatics/resources/pfam/37.2/pfam.obo       |
+| OFN            | https://w3id.org/biopragmatics/resources/pfam/pfam.ofn       | https://w3id.org/biopragmatics/resources/pfam/37.2/pfam.ofn       |
 | Nodes          | https://w3id.org/biopragmatics/resources/pfam/pfam.tsv       | https://w3id.org/biopragmatics/resources/pfam/37.2/pfam.tsv       |
 | SSSOM          | https://w3id.org/biopragmatics/resources/pfam/pfam.sssom.tsv | https://w3id.org/biopragmatics/resources/pfam/37.2/pfam.sssom.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/pfam/pfam.owl       | https://w3id.org/biopragmatics/resources/pfam/37.2/pfam.owl       |

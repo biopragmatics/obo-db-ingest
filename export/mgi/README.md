@@ -9,6 +9,7 @@ The Mouse Genome Database (MGD) project includes data on gene characterization, 
 | Artifact       | Download PURL                                              | Latest Versioned Download PURL                                  |
 |----------------|------------------------------------------------------------|-----------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/mgi/mgi.obo.gz    | https://w3id.org/biopragmatics/resources/mgi/6.24/mgi.obo.gz    |
+| OFN            | https://w3id.org/biopragmatics/resources/mgi/mgi.ofn.gz    | https://w3id.org/biopragmatics/resources/mgi/6.24/mgi.ofn.gz    |
 | Nodes          | https://w3id.org/biopragmatics/resources/mgi/mgi.tsv       | https://w3id.org/biopragmatics/resources/mgi/6.24/mgi.tsv       |
 | SSSOM          | https://w3id.org/biopragmatics/resources/mgi/mgi.sssom.tsv | https://w3id.org/biopragmatics/resources/mgi/6.24/mgi.sssom.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/mgi/mgi.owl.gz    | https://w3id.org/biopragmatics/resources/mgi/6.24/mgi.owl.gz    |

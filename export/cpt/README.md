@@ -9,6 +9,7 @@ Current Procedural Terminology, more commonly known as CPT®, refers to a medica
 | Artifact       | Download PURL                                              | Latest Versioned Download PURL   |
 |----------------|------------------------------------------------------------|----------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/cpt/cpt.obo       |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/cpt/cpt.ofn       |                                  |
 | Nodes          | https://w3id.org/biopragmatics/resources/cpt/cpt.tsv       |                                  |
 | SSSOM          | https://w3id.org/biopragmatics/resources/cpt/cpt.sssom.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/cpt/cpt.owl       |                                  |

@@ -9,6 +9,7 @@ PomBase is a model organism database established to provide access to molecular 
 | Artifact       | Download PURL                                                      | Latest Versioned Download PURL                                                |
 |----------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/pombase/pombase.obo       | https://w3id.org/biopragmatics/resources/pombase/2025-01-01/pombase.obo       |
+| OFN            | https://w3id.org/biopragmatics/resources/pombase/pombase.ofn       | https://w3id.org/biopragmatics/resources/pombase/2025-01-01/pombase.ofn       |
 | Nodes          | https://w3id.org/biopragmatics/resources/pombase/pombase.tsv       | https://w3id.org/biopragmatics/resources/pombase/2025-01-01/pombase.tsv       |
 | SSSOM          | https://w3id.org/biopragmatics/resources/pombase/pombase.sssom.tsv | https://w3id.org/biopragmatics/resources/pombase/2025-01-01/pombase.sssom.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/pombase/pombase.owl       | https://w3id.org/biopragmatics/resources/pombase/2025-01-01/pombase.owl       |

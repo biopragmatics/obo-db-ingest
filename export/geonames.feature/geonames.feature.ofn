@@ -3,20 +3,17 @@ Prefix(geonames.feature:=<https://www.geonames.org/recent-changes/featurecode/>)
 Prefix(NCBITaxon:=<http://purl.obolibrary.org/obo/NCBITaxon_>)
 Prefix(obo:=<http://purl.obolibrary.org/obo/>)
 Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
-Prefix(OMO:=<http://purl.obolibrary.org/obo/OMO_>)
 Prefix(orcid:=<https://orcid.org/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-Prefix(semapv:=<https://w3id.org/semapv/vocab/>)
-Prefix(skos:=<http://www.w3.org/2004/02/skos/core#>)
-Prefix(sssom:=<https://w3id.org/sssom/>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 
-Ontology(<geonames.feature>
+Ontology(<https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.ofn>
 Annotation(dcterms:title "GeoNames Feature Code"^^xsd:string)
 Annotation(dcterms:license "CC-BY-4.0"^^xsd:string)
 Annotation(dcterms:description "All geographical features in GeoNames are categorized into one out of nine feature classes and further subcategorized into one out of 645 feature codes."^^xsd:string)
+Annotation(oboInOwl:auto-generated-by "PyOBO v0.12.0-dev-63556853 on 2025-01-13T18:21:48.931146"^^xsd:string)
 
 Declaration(Class(geonames.feature:A.ADM1H))
 SubClassOf(geonames.feature:A.ADM1H obo:geonames.feature#A)

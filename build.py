@@ -8,14 +8,12 @@
 # ]
 # ///
 
-"""Build OBO dumps of database.
-
-This script requires ``pip install pyobo``.
-"""
+"""Build OBO dumps of database."""
 
 from __future__ import annotations
 
 import datetime
+import functools
 import gzip
 import os
 import shutil
@@ -39,6 +37,7 @@ from pyobo import Obo
 from pyobo.sources import ontology_resolver
 from tabulate import tabulate
 from tqdm import tqdm
+from tqdm.contrib.concurrent import process_map
 from tqdm.contrib.logging import logging_redirect_tqdm
 from typing_extensions import NotRequired
 
@@ -59,18 +58,18 @@ PREFIXES = [
     "ror",  # has instances
     "icd10",
     "bigg.compartment",
-    # "omim.ps", # TODO fix data versioning
     "ccle",
     "icd11",
     "eccode",
-    "rgd",
     "sgd",
     "mirbase",
+    "mirbase.family",
+    "mirbase.mature",
     "mgi",
     "hgnc",
     "hgnc.genegroup",
+    "rgd",
     "pombase",
-    "rhea",
     "flybase",
     "zfin",
     "dictybase.gene",
@@ -80,8 +79,6 @@ PREFIXES = [
     "complexportal",
     "interpro",
     "mesh",
-    "mirbase.family",
-    "mirbase.mature",
     "reactome",
     "wikipathways",
     "pathbank",
@@ -90,6 +87,7 @@ PREFIXES = [
     "npass",
     "kegg.genome",
     "slm",
+    "rhea",
     "gtdb",
     "msigdb",
     "uniprot.ptm",
@@ -99,8 +97,8 @@ PREFIXES = [
     "gard",
     "bigg.metabolite",
     "bigg.model",
-    "bigg.reaction",
-    "uniprot",  # do last since takes longest
+    "bigg.reaction",  # FIXME error in parentheses in IDs breaks OFN
+    "uniprot",
 ]
 
 for _prefix in PREFIXES:
@@ -222,13 +220,34 @@ def _write_nodes(path: Path, obo: Obo, prefix: str) -> None:
             )
 
 
-def _make(prefix: str, module: type[Obo], do_convert: bool = False, no_force: bool = False) -> dict:
-    rv = {}
+def _make_safe(
+    cls: type[Obo], *, do_convert: bool = False, no_force: bool = False
+) -> tuple[str, dict, bool]:
+    prefix = cls.ontology
+    tqdm.write(click.style(prefix, fg="green", bold=True))
+    with logging_redirect_tqdm():
+        try:
+            rv, errored = _make(cls, do_convert=do_convert, no_force=no_force)
+        except Exception as e:
+            tqdm.write(click.style(f"[{prefix}] got exception in _make: {e}", fg="red"))
+            traceback.print_exc()
+            return prefix, None
+        else:
+            return prefix, rv, errored
+
+
+def _make(  # noqa:C901
+    module: type[Obo], *, do_convert: bool = False, no_force: bool = False
+) -> tuple[dict, bool]:
+    prefix = module.ontology
+    errored = False
     if no_force:
         force = False
     else:
         force = prefix not in NO_FORCE
     obo = module(force=force)
+
+    rv = {"summary": _get_summary(obo)}
 
     directory = EXPORT.joinpath(prefix)
     readme_path = directory.joinpath("README.md")
@@ -254,35 +273,35 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False, no_force: bo
     try:
         obo.write_obo(obo_path)
     except Exception as e:
-        tqdm.write(
-            click.style(
-                f"[{prefix}] failed to write OBO: {e}\n\tWriting to {log_path.as_posix()}",
-                fg="red",
-            )
+        errored = True
+        msg = click.style(
+            f"[{prefix}] failed to write OBO: {e}\n\tWriting to {log_path.as_posix()}",
+            fg="red",
         )
-        with log_path.open("w") as file:
+        tqdm.write(msg)
+        with log_path.open("a") as file:
+            file.write(f"\n\n{msg}\n\n")
             traceback.print_exc(file=file)
         obo_path.unlink()
-        return rv
+
+    else:
+        obo_path, rv["obo"] = _prepare_artifact(prefix, obo_path, has_version, ".obo.gz")
 
     try:
         obo.write_ofn(ofn_path)
     except Exception as e:
-        tqdm.write(
-            click.style(
-                f"[{prefix}] failed to write OFN: {e}\n\tWriting to {log_path.as_posix()}",
-                fg="red",
-            )
+        errored = True
+        msg = click.style(
+            f"[{prefix}] failed to write OFN: {e}\n\tWriting to {log_path.as_posix()}",
+            fg="red",
         )
-        with log_path.open("w") as file:
+        tqdm.write(msg)
+        with log_path.open("a") as file:
+            file.write(f"\n\n{msg}\n\n")
             traceback.print_exc(file=file)
         obo_path.unlink()
-        return rv
-
-    obo_path, rv["obo"] = _prepare_artifact(prefix, obo_path, has_version, ".obo.gz")
-    ofn_path, rv["ofn"] = _prepare_artifact(prefix, ofn_path, has_version, ".ofn.gz")
-
-    rv["summary"] = _get_summary(obo)
+    else:
+        ofn_path, rv["ofn"] = _prepare_artifact(prefix, ofn_path, has_version, ".ofn.gz")
 
     _write_nodes(names_path, obo, prefix)
     _, rv["nodes"] = _prepare_artifact(prefix, names_path, has_version, ".tsv.gz")
@@ -295,17 +314,20 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False, no_force: bo
     if do_convert:
         # add -vvv and search for org.semanticweb.owlapi.oboformat.OBOFormatOWLAPIParser on errors
         try:
-            tqdm.write(f"[{prefix}] converting OFN to OWL")
+            tqdm.write(f"[{prefix}] converting OFN to OWL ({ofn_path})")
+            # FIXME add a way to update the ontology IRI and version IRI
             convert(ofn_path, owl_path, merge=False, reason=False, debug=True)
             _, rv["owl"] = _prepare_artifact(prefix, owl_path, has_version, ".owl.gz")
         except subprocess.CalledProcessError as e:
-            tqdm.write(
-                click.style(
-                    f"[{prefix}] {type(e)} - ROBOT failed to convert to OWL\n\t{e}\n\t{' '.join(e.cmd)}",
-                    fg="red",
-                )
+            errored = True
+            msg = click.style(
+                f"[{prefix}] {type(e)} - ROBOT failed to convert to OWL"
+                f"\n\t{e}\n\t{' '.join(e.cmd)}",
+                fg="red",
             )
+            tqdm.write(msg)
             with log_path.open("a") as file:
+                file.write(f"\n\n{msg}\n\n")
                 traceback.print_exc(file=file)
                 file.write(str(e.stderr))
         else:
@@ -318,14 +340,15 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False, no_force: bo
                 prefix, obo_graph_json_path, has_version, ".json.gz"
             )
         except subprocess.CalledProcessError as e:
-            tqdm.write(
-                click.style(
-                    f"[{prefix}] {type(e)} - ROBOT failed to convert to OBO Graph JSON"
-                    f"\n\t{e}\n\t{' '.join(e.cmd)}",
-                    fg="red",
-                )
+            errored = True
+            msg = click.style(
+                f"[{prefix}] {type(e)} - ROBOT failed to convert to OBO Graph JSON"
+                f"\n\t{e}\n\t{' '.join(e.cmd)}",
+                fg="red",
             )
+            tqdm.write(msg)
             with log_path.open("a") as file:
+                file.write(f"\n\n{msg}\n\n")
                 traceback.print_exc(file=file)
                 file.write(str(e.stderr))
         else:
@@ -343,6 +366,11 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False, no_force: bo
     summary = sorted(
         (k, v) for k, v in rv["summary"].items() if k not in {"version", "license"} and v
     )
+    purls_table_text = tabulate(
+        purls_table_rows,
+        headers=["Artifact", "Download PURL", "Latest Versioned Download PURL"],
+        tablefmt="github",
+    )
     text = (
         dedent(f"""\
 # {bioregistry.get_name(prefix)}
@@ -353,7 +381,7 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False, no_force: bo
 
 ## PURLs
 
-{tabulate(purls_table_rows, headers=["Artifact", "Download PURL", "Latest Versioned Download PURL"], tablefmt="github")}
+{purls_table_text}
 
 ## Summary
 
@@ -364,7 +392,7 @@ def _make(prefix: str, module: type[Obo], do_convert: bool = False, no_force: bo
     )
     readme_path.write_text(text)
 
-    return rv
+    return rv, errored
 
 
 @click.command()
@@ -396,40 +424,39 @@ def main(minimum: str | None, xvalue: list[str], no_convert: bool, force: bool):
         if not bioregistry.get_license(prefix):
             click.secho(f"missing license for `{prefix}`", fg="yellow")
 
-    it = [(prefix, ontology_resolver.lookup(prefix)) for prefix in prefixes]
-    it = tqdm(it, desc="Making OBO examples")
+    it = [ontology_resolver.lookup(prefix) for prefix in prefixes]
 
-    manifest = {}
+    make_wrapped = functools.partial(
+        _make_safe,
+        do_convert=not no_convert,
+        no_force=not force,
+    )
 
-    for prefix, cls in it:
-        tqdm.write(click.style(prefix, fg="green", bold=True))
-        it.set_postfix(prefix=prefix)
-        with logging_redirect_tqdm():
-            try:
-                manifest[prefix] = _make(
-                    prefix=prefix,
-                    module=cls,
-                    do_convert=not no_convert,
-                    no_force=not force,
-                )
-            except Exception as e:
-                tqdm.write(click.style(f"[{prefix}] got exception in _make: {e}", fg="red"))
-                continue
+    errors: list[str] = []
+    manifest: dict[str, dict] = {}
+    for prefix, result, errored in process_map(make_wrapped, it, unit="ontology", max_workers=4):
+        manifest[prefix] = result
+        if errored:
+            errors.append(prefix)
 
-    versions = {
-        "pyobo": pyobo.version.get_version(with_git_hash=True),
-        "bioontologies": bioontologies.version.get_version(with_git_hash=True),
-        "bioregistry": bioregistry.version.get_version(with_git_hash=True),
-    }
     MANIFEST_PATH.write_text(
         yaml.safe_dump(
             {
                 "date": datetime.date.today().strftime("%Y-%m-%d"),
-                "versions": versions,
+                "versions": _get_build_dependency_versions(),
                 "resources": manifest,
+                "errors": errors,
             },
         )
     )
+
+
+def _get_build_dependency_versions() -> dict[str, str]:
+    return {
+        "pyobo": pyobo.version.get_version(with_git_hash=True),
+        "bioontologies": bioontologies.version.get_version(with_git_hash=True),
+        "bioregistry": bioregistry.version.get_version(with_git_hash=True),
+    }
 
 
 if __name__ == "__main__":

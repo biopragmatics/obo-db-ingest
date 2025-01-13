@@ -1,6 +1,6 @@
 {
   "graphs" : [ {
-    "id" : "urn:absolute:geonames.feature",
+    "id" : "https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.ofn",
     "meta" : {
       "basicPropertyValues" : [ {
         "pred" : "http://purl.org/dc/terms/description",
@@ -11,6 +11,9 @@
       }, {
         "pred" : "http://purl.org/dc/terms/title",
         "val" : "GeoNames Feature Code"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
+        "val" : "PyOBO v0.12.0-dev-63556853 on 2025-01-13T18:21:48.931146"
       } ]
     },
     "nodes" : [ {

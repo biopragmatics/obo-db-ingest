@@ -9,6 +9,7 @@ BiGG is a knowledgebase of Biochemically, Genetically and Genomically structured
 | Artifact       | Download PURL                                                                        | Latest Versioned Download PURL                                                             |
 |----------------|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/bigg.compartment/bigg.compartment.obo       | https://w3id.org/biopragmatics/resources/bigg.compartment/1.6.0/bigg.compartment.obo       |
+| OFN            | https://w3id.org/biopragmatics/resources/bigg.compartment/bigg.compartment.ofn       | https://w3id.org/biopragmatics/resources/bigg.compartment/1.6.0/bigg.compartment.ofn       |
 | Nodes          | https://w3id.org/biopragmatics/resources/bigg.compartment/bigg.compartment.tsv       | https://w3id.org/biopragmatics/resources/bigg.compartment/1.6.0/bigg.compartment.tsv       |
 | SSSOM          | https://w3id.org/biopragmatics/resources/bigg.compartment/bigg.compartment.sssom.tsv | https://w3id.org/biopragmatics/resources/bigg.compartment/1.6.0/bigg.compartment.sssom.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/bigg.compartment/bigg.compartment.owl       | https://w3id.org/biopragmatics/resources/bigg.compartment/1.6.0/bigg.compartment.owl       |

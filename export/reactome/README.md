@@ -9,6 +9,7 @@ The Reactome project is a collaboration to develop a curated resource of core pa
 | Artifact       | Download PURL                                                        | Latest Versioned Download PURL                                          |
 |----------------|----------------------------------------------------------------------|-------------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/reactome/reactome.obo       | https://w3id.org/biopragmatics/resources/reactome/91/reactome.obo       |
+| OFN            | https://w3id.org/biopragmatics/resources/reactome/reactome.ofn.gz    | https://w3id.org/biopragmatics/resources/reactome/91/reactome.ofn.gz    |
 | Nodes          | https://w3id.org/biopragmatics/resources/reactome/reactome.tsv       | https://w3id.org/biopragmatics/resources/reactome/91/reactome.tsv       |
 | SSSOM          | https://w3id.org/biopragmatics/resources/reactome/reactome.sssom.tsv | https://w3id.org/biopragmatics/resources/reactome/91/reactome.sssom.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/reactome/reactome.owl.gz    | https://w3id.org/biopragmatics/resources/reactome/91/reactome.owl.gz    |

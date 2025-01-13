@@ -9,6 +9,7 @@ The HGNC (HUGO Gene Nomenclature Committee) provides an approved gene name and s
 | Artifact       | Download PURL                                                | Latest Versioned Download PURL                                          |
 |----------------|--------------------------------------------------------------|-------------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/hgnc/hgnc.obo       | https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.obo       |
+| OFN            | https://w3id.org/biopragmatics/resources/hgnc/hgnc.ofn       | https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.ofn       |
 | Nodes          | https://w3id.org/biopragmatics/resources/hgnc/hgnc.tsv       | https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.tsv       |
 | SSSOM          | https://w3id.org/biopragmatics/resources/hgnc/hgnc.sssom.tsv | https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.sssom.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/hgnc/hgnc.owl.gz    | https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.owl.gz    |
@@ -21,7 +22,7 @@ The HGNC (HUGO Gene Nomenclature Committee) provides an approved gene name and s
 | definitions |   43839 |
 | mappings    |  259747 |
 | parents     |   43839 |
-| properties  |  294987 |
+| properties  |  330039 |
 | references  |   35052 |
 | relations   |  151570 |
 | synonyms    |  105407 |

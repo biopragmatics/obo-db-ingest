@@ -1,6 +1,6 @@
 {
   "graphs" : [ {
-    "id" : "http://purl.obolibrary.org/obo/bigg.compartment.owl",
+    "id" : "https://w3id.org/biopragmatics/resources/bigg.compartment/bigg.compartment.ofn",
     "meta" : {
       "basicPropertyValues" : [ {
         "pred" : "http://purl.org/dc/terms/description",
@@ -13,12 +13,12 @@
         "val" : "BiGG Compartment"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-        "val" : "PyOBO v0.12.0-dev-fd7cd1a1 on 2025-01-08T23:12:59.486371"
+        "val" : "PyOBO v0.12.0-dev-63556853 on 2025-01-13T18:21:50.641268"
       }, {
-        "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
-        "val" : "1.4"
+        "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
+        "val" : "1.6.0"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/bigg.compartment/1.6.0/bigg.compartment.owl"
+      "version" : "https://w3id.org/biopragmatics/resources/bigg.compartment/1.6.0/bigg.compartment.ofn"
     },
     "nodes" : [ {
       "id" : "http://bigg.ucsd.edu/compartments/c",
@@ -216,24 +216,6 @@
           "val" : "http://purl.obolibrary.org/obo/GO_0070069"
         } ]
       }
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
-      "lbl" : "has_obo_format_version",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#id",
-      "lbl" : "id",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
     } ]
   } ]
 }

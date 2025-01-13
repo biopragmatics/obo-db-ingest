@@ -1,10 +1,11 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.0-dev-b1e183d4 on 2025-01-10T14:10:40.760216
+auto-generated-by: PyOBO v0.12.0-dev-63556853 on 2025-01-13T18:21:50.222364
+idspace: biolink https://w3id.org/biolink/vocab/ "Biolink Model"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
-idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
+idspace: icd10 https://icd.who.int/browse10/2019/en#/ "International Classification of Diseases, 10th Revision"
 ontology: icd10
 property_value: dcterms:title "International Classification of Diseases\, 10th Revision" xsd:string
-property_value: dcterms:license "https\://cdn.who.int/media/docs/default-source/publishing-policies/copyright/who-faq-licensing-icd-10.pdf" xsd:string
+property_value: dcterms:license "https\://cdn.who.int/media/docs/default-source/publishing-policies/copyright/who-faq-licensing-icd-10.pdf" xsd:anyURI
 property_value: dcterms:description "The 10th revision of the International Classification of Diseases \\\(ICD\\\) issued by the World Health Organization \\\(WHO\\\). ICD is formally named 'The International Statistical Classification of Diseases and Related Health Problems'. It contains codes for diseases\\\, signs and symptoms\\\, abnormal findings\\\, complaints\\\, social circumstances\\\, and external causes of injury or diseases.\\n\\nNote that the WHO version of ICD-10 is distinct from the ICD-10-CM \\\(Clinical Modification\\\) issued by the U.S. National Center for Health Statistics for use in the United States." xsd:string
 
 [Typedef]

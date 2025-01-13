@@ -1,12 +1,12 @@
 format-version: 1.4
 data-version: 1.6.0
-auto-generated-by: PyOBO v0.12.0-dev-fd7cd1a1 on 2025-01-08T23:12:59.486371
+auto-generated-by: PyOBO v0.12.0-dev-63556853 on 2025-01-13T18:21:50.641268
 idspace: bigg.compartment http://bigg.ucsd.edu/compartments/ "BiGG Compartment"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
 idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
 ontology: bigg.compartment
 property_value: dcterms:title "BiGG Compartment" xsd:string
-property_value: dcterms:license "http\://bigg.ucsd.edu/license#license" xsd:string
+property_value: dcterms:license "http\://bigg.ucsd.edu/license#license" xsd:anyURI
 property_value: dcterms:description "BiGG is a knowledgebase of Biochemically\\\, Genetically and Genomically structured genome-scale metabolic network reconstructions. It more published genome-scale metabolic networks into a single database with a set of stardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations\\\, and metabolites are linked to many external databases \\\(KEGG\\\, PubChem\\\, and many more\\\). This collection references model compartments." xsd:string
 
 [Term]

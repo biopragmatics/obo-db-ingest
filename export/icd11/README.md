@@ -1,6 +1,6 @@
-# International Classification of Diseases, 11th Revision
+# International Classification of Diseases, 11th Revision (Foundation Component)
 
-Diagnostic tool for epidemiology, health management and clinical purposes, maintained by the World Health Organization (WHO). It provides a system of diagnostic codes for classifying diseases, including nuanced classifications of a wide variety of signs, symptoms, abnormal findings, complaints, social circumstances, and external causes of injury or disease.
+The ICD-11 Foundation is the comprehensive base layer of the International Classification of Diseases, encompassing all diagnostic concepts, definitions, and semantic relationships, designed for flexibility and adaptability across various use cases, including research, ontology development, and detailed health data analysis.
 
 **License**: CC-BY-ND-3.0-IGO
 
@@ -9,6 +9,7 @@ Diagnostic tool for epidemiology, health management and clinical purposes, maint
 | Artifact       | Download PURL                                                  | Latest Versioned Download PURL   |
 |----------------|----------------------------------------------------------------|----------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/icd11/icd11.obo       |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/icd11/icd11.ofn       |                                  |
 | Nodes          | https://w3id.org/biopragmatics/resources/icd11/icd11.tsv       |                                  |
 | SSSOM          | https://w3id.org/biopragmatics/resources/icd11/icd11.sssom.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/icd11/icd11.owl       |                                  |

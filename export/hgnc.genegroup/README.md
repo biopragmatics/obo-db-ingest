@@ -9,6 +9,7 @@ The HGNC (HUGO Gene Nomenclature Committee) provides an approved gene name and s
 | Artifact       | Download PURL                                                                    | Latest Versioned Download PURL                                                              |
 |----------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.obo       | https://w3id.org/biopragmatics/resources/hgnc.genegroup/2024-12-03/hgnc.genegroup.obo       |
+| OFN            | https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.ofn       | https://w3id.org/biopragmatics/resources/hgnc.genegroup/2024-12-03/hgnc.genegroup.ofn       |
 | Nodes          | https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.tsv       | https://w3id.org/biopragmatics/resources/hgnc.genegroup/2024-12-03/hgnc.genegroup.tsv       |
 | SSSOM          | https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.sssom.tsv | https://w3id.org/biopragmatics/resources/hgnc.genegroup/2024-12-03/hgnc.genegroup.sssom.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/hgnc.genegroup/hgnc.genegroup.owl       | https://w3id.org/biopragmatics/resources/hgnc.genegroup/2024-12-03/hgnc.genegroup.owl       |
@@ -20,7 +21,8 @@ The HGNC (HUGO Gene Nomenclature Committee) provides an approved gene name and s
 |-------------|---------|
 | definitions |     730 |
 | parents     |    1885 |
-| references  |    1612 |
+| properties  |    1611 |
+| references  |    1611 |
 | relations   |    1828 |
 | synonyms    |    1160 |
 | terms       |    1815 |

@@ -11,6 +11,7 @@ Note that the WHO version of ICD-10 is distinct from the ICD-10-CM (Clinical Mod
 | Artifact       | Download PURL                                                  | Latest Versioned Download PURL   |
 |----------------|----------------------------------------------------------------|----------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/icd10/icd10.obo       |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/icd10/icd10.ofn       |                                  |
 | Nodes          | https://w3id.org/biopragmatics/resources/icd10/icd10.tsv       |                                  |
 | SSSOM          | https://w3id.org/biopragmatics/resources/icd10/icd10.sssom.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/icd10/icd10.owl       |                                  |

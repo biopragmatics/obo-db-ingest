@@ -9,6 +9,7 @@ Database of rare diseases and related terms, including symptoms, healthcare reso
 | Artifact       | Download PURL                                                | Latest Versioned Download PURL   |
 |----------------|--------------------------------------------------------------|----------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/gard/gard.obo       |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/gard/gard.ofn       |                                  |
 | Nodes          | https://w3id.org/biopragmatics/resources/gard/gard.tsv       |                                  |
 | SSSOM          | https://w3id.org/biopragmatics/resources/gard/gard.sssom.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/gard/gard.owl       |                                  |

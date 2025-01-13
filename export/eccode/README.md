@@ -9,6 +9,7 @@ The Enzyme Classification contains the recommendations of the Nomenclature Commi
 | Artifact       | Download PURL                                                    | Latest Versioned Download PURL                                              |
 |----------------|------------------------------------------------------------------|-----------------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/eccode/eccode.obo       | https://w3id.org/biopragmatics/resources/eccode/2024-11-27/eccode.obo       |
+| OFN            | https://w3id.org/biopragmatics/resources/eccode/eccode.ofn       | https://w3id.org/biopragmatics/resources/eccode/2024-11-27/eccode.ofn       |
 | Nodes          | https://w3id.org/biopragmatics/resources/eccode/eccode.tsv       | https://w3id.org/biopragmatics/resources/eccode/2024-11-27/eccode.tsv       |
 | SSSOM          | https://w3id.org/biopragmatics/resources/eccode/eccode.sssom.tsv | https://w3id.org/biopragmatics/resources/eccode/2024-11-27/eccode.sssom.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/eccode/eccode.owl       | https://w3id.org/biopragmatics/resources/eccode/2024-11-27/eccode.owl       |
@@ -18,6 +19,7 @@ The Enzyme Classification contains the recommendations of the Nomenclature Commi
 
 | field      |   count |
 |------------|---------|
+| mappings   |    1472 |
 | parents    |    7286 |
 | properties |  255208 |
 | relations  |    4483 |

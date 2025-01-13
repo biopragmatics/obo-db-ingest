@@ -1,9 +1,11 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.0-dev-669c37f2 on 2025-01-08T23:48:33.549659
+auto-generated-by: PyOBO v0.12.0-dev-63556853 on 2025-01-13T18:29:02.137261
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
-idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
+idspace: unimod http://www.unimod.org/modifications_view.php?editid1= "Unimod protein modification database for mass spectrometry"
+idspace: uniprot.ptm https://biopragmatics.github.io/providers/uniprot.ptm/ "UniProt Post-Translational Modification"
 ontology: uniprot.ptm
 property_value: dcterms:title "UniProt Post-Translational Modification" xsd:string
+property_value: dcterms:license "CC-BY-4.0" xsd:string
 property_value: dcterms:description "The post-translational modifications used in the UniProt knowledgebase \\\(Swiss-Prot and TrEMBL\\\). The definition of the post-translational modifications usage as well as other information is provided in the following format" xsd:string
 
 [Term]

@@ -1,9 +1,5 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.0-dev-24fb6c6e on 2025-01-12T14:57:06.962729
-idspace: FBcv http://purl.obolibrary.org/obo/FBcv_ "FlyBase Controlled Vocabulary"
-idspace: IAO http://purl.obolibrary.org/obo/IAO_ "Information Artifact Ontology"
-idspace: MI http://purl.obolibrary.org/obo/MI_ "Molecular Interactions Controlled Vocabulary"
-idspace: NCBITaxon http://purl.obolibrary.org/obo/NCBITaxon_ "NCBI Taxonomy"
+auto-generated-by: PyOBO v0.12.0-dev-63556853 on 2025-01-13T18:21:48.941951
 idspace: bibo http://purl.org/ontology/bibo/ "The Bibliographic Ontology"
 idspace: biolink https://w3id.org/biolink/vocab/ "Biolink Model"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
@@ -2289,10 +2285,10 @@ instance_of: obo:nlm#publisher ! publisher
 id: obo:nlm#publisher
 name: publisher
 comment: "injected by PyOBO source"
+property_value: dcterms:contributor orcid:0000-0003-4423-4370 ! contributor Charles Tapley Hoyt
 property_value: skos:exactMatch biolink:publisher
 property_value: skos:exactMatch schema:publisher
 property_value: skos:exactMatch uniprot.core:publisher
-property_value: dcterms:contributor orcid:0000-0003-4423-4370 ! contributor Charles Tapley Hoyt
 
 [Instance]
 id: orcid:0000-0003-4423-4370

@@ -9,6 +9,7 @@ A database that describes manually curated macromolecular complexes and provides
 | Artifact       | Download PURL                                                                  | Latest Versioned Download PURL                                                            |
 |----------------|--------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/complexportal/complexportal.obo       | https://w3id.org/biopragmatics/resources/complexportal/2024-11-29/complexportal.obo       |
+| OFN            | https://w3id.org/biopragmatics/resources/complexportal/complexportal.ofn       | https://w3id.org/biopragmatics/resources/complexportal/2024-11-29/complexportal.ofn       |
 | Nodes          | https://w3id.org/biopragmatics/resources/complexportal/complexportal.tsv       | https://w3id.org/biopragmatics/resources/complexportal/2024-11-29/complexportal.tsv       |
 | SSSOM          | https://w3id.org/biopragmatics/resources/complexportal/complexportal.sssom.tsv | https://w3id.org/biopragmatics/resources/complexportal/2024-11-29/complexportal.sssom.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/complexportal/complexportal.owl       | https://w3id.org/biopragmatics/resources/complexportal/2024-11-29/complexportal.owl       |
@@ -20,7 +21,7 @@ A database that describes manually curated macromolecular complexes and provides
 |-------------|---------|
 | definitions |    4922 |
 | mappings    |   10801 |
-| properties  |   20101 |
+| properties  |   33044 |
 | references  |   12943 |
 | relations   |    4922 |
 | synonyms    |   12246 |

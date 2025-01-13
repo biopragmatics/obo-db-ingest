@@ -19,8 +19,8 @@ The GeoNames geographical database covers all countries and contains over eleven
 
 | field      |   count |
 |------------|---------|
-| parents    |   61550 |
+| parents    |   66781 |
 | properties |   56319 |
-| relations  |   66184 |
+| relations  |   60953 |
 | synonyms   |    1514 |
 | terms      |   61550 |

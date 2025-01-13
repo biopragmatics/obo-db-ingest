@@ -11,6 +11,7 @@ Rhea covers the reactions described by the IUBMB Enzyme Nomenclature as well as 
 | Artifact       | Download PURL                                                | Latest Versioned Download PURL                                   |
 |----------------|--------------------------------------------------------------|------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/rhea/rhea.obo       | https://w3id.org/biopragmatics/resources/rhea/136/rhea.obo       |
+| OFN            | https://w3id.org/biopragmatics/resources/rhea/rhea.ofn       | https://w3id.org/biopragmatics/resources/rhea/136/rhea.ofn       |
 | Nodes          | https://w3id.org/biopragmatics/resources/rhea/rhea.tsv       | https://w3id.org/biopragmatics/resources/rhea/136/rhea.tsv       |
 | SSSOM          | https://w3id.org/biopragmatics/resources/rhea/rhea.sssom.tsv | https://w3id.org/biopragmatics/resources/rhea/136/rhea.sssom.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/rhea/rhea.owl.gz    | https://w3id.org/biopragmatics/resources/rhea/136/rhea.owl.gz    |

@@ -2130,7 +2130,7 @@ ADSELR2	Phosphoadenylyl selenate reductase  glutaredoxin 	3padsel_c + grxrd_c <-
 ADSHm	Adenosylhomocysteinase, mitochondria	ahcys_m + h2o_m <-> adn_m + hcys__L_m				
 ADSK	Adenylyl-sulfate kinase	aps_c + atp_c <-> adp_c + h_c + paps_c		bigg.reaction:AASP|bigg.reaction:ADSKr		
 ADSKn	Adenylyl-sulfate kinase, nuclear	aps_n + atp_n <-> adp_n + h_n + paps_n				
-ADSL1r	Adenylsuccinate lyase	dcamp_c <-> amp_c + fum_c		bigg.reaction:AAL(fum)_c|bigg.reaction:AAL_LPAREN_fum_RPAREN_|bigg.reaction:ADSL1		
+ADSL1r	Adenylsuccinate lyase	dcamp_c <-> amp_c + fum_c		bigg.reaction:AAL_LPAREN_fum_RPAREN_|bigg.reaction:ADSL1		
 ADSL2r	Adenylosuccinate lyase	25aics_c <-> aicar_c + fum_c		bigg.reaction:ADSL2|bigg.reaction:AIAL|bigg.reaction:AIAL_c		
 ADSS	Adenylosuccinate synthase	asp__L_c + gtp_c + imp_c <-> dcamp_c + gdp_c + 2.0 h_c + pi_c		bigg.reaction:ADSS_c|bigg.reaction:ADSS_i		
 ADSSh	Adenylosuccinate synthase, chloroplast	asp__L_h + gtp_h + imp_h <-> dcamp_h + gdp_h + 3.0 h_h + pi_h				
@@ -6811,7 +6811,7 @@ DM_sph1p_n	Demand for  (2S,3R)-2-Azaniumyl-3-Hydroxyoctadecyl Phosphate	sph1p_n 
 DM_sphs1p_n	Demand for  Sphingosine 1-Phosphate	sphs1p_n <-> 		bigg.reaction:DM_sphs1p[n]		
 DM_sprm_c	Demand for  Spermine,  Cytosolic	sprm_c <-> 		bigg.reaction:DM_sprm[c]|bigg.reaction:DM_sprm_c_		
 DM_srtn_c	DM srtn[c]	srtn_c <-> 		bigg.reaction:DM_srtn[c]		
-DM_succ_c	Modeling: demand reaction (succ c)	succ_c <-> 		bigg.reaction:DM_succ(c)		
+DM_succ_c	Modeling: demand reaction (succ c)	succ_c <-> 				
 DM_taur_c	Demand for Taurine	taur_c <-> 		bigg.reaction:DM_taur[c]		
 DM_tbsinol_c	Tbsinol c Demand reaction	tbsinol_c <-> 				
 DM_tca3s_c	DM tca3s(c)	tca3s_c <-> 		bigg.reaction:DM_tca3s[c]		
@@ -8382,7 +8382,7 @@ EX_abg4_e		abg4_e <->
 EX_abt__D_e	D-Arabitol exchange	abt__D_e <-> 		bigg.reaction:EX_abt_D[e]|bigg.reaction:EX_abt_D_LPAREN_e_RPAREN_|bigg.reaction:EX_abt_D_e		
 EX_abt__L_e	L Arabinitol exchange	abt__L_e <-> 		bigg.reaction:EX_abt_e_		
 EX_abt_e	L Arabinitol exchange	abt_e <-> 		bigg.reaction:EX_abt[e]|bigg.reaction:EX_abt_LPAREN_e_RPAREN_|bigg.reaction:EX_abt_e_		
-EX_ac_e	Acetate exchange	ac_e <-> 		bigg.reaction:EX_ac|bigg.reaction:EX_ac(e)|bigg.reaction:EX_ac[e]|bigg.reaction:EX_ac_LPAREN_e_RPAREN_|bigg.reaction:EX_ac_e_		
+EX_ac_e	Acetate exchange	ac_e <-> 		bigg.reaction:EX_ac|bigg.reaction:EX_ac[e]|bigg.reaction:EX_ac_LPAREN_e_RPAREN_|bigg.reaction:EX_ac_e_		
 EX_acac_e	Acetoacetate exchange	acac_e <-> 		bigg.reaction:EX_acac[e]|bigg.reaction:EX_acac_LPAREN_e_RPAREN_|bigg.reaction:EX_acac_e_		
 EX_acald_e	Acetaldehyde exchange	acald_e <-> 		bigg.reaction:EX_acald|bigg.reaction:EX_acald[e]|bigg.reaction:EX_acald_LPAREN_e_RPAREN_|bigg.reaction:EX_acald_e_		
 EX_aces_e	Acetic ester exchange	aces_e <-> 		bigg.reaction:EX_aces_e_		
@@ -8462,12 +8462,12 @@ EX_ala_L_gln__L_e	Ala Gln exchange	ala_L_gln__L_e <-> 		bigg.reaction:EX_ala_L_g
 EX_ala_L_glu__L_e	Ala L glu L exchange	ala_L_glu__L_e <-> 		bigg.reaction:EX_ala_L_glu_L_e_|bigg.reaction:EX_ala__L_glu__L_e		
 EX_ala_L_his__L_e	Ala His exchange	ala_L_his__L_e <-> 		bigg.reaction:EX_ala_L_his_L_e_		
 EX_ala_L_leu__L_e	Ala Leu exchange	ala_L_leu__L_e <-> 		bigg.reaction:EX_ala_L_leu_L_e_		
-EX_ala__D_e	D-Alanine exchange	ala__D_e <-> 		bigg.reaction:EX_ala-D(e)|bigg.reaction:EX_ala_D|bigg.reaction:EX_ala_DASH_D_LPAREN_e_RPAREN_|bigg.reaction:EX_ala_D[e]|bigg.reaction:EX_ala_D_LPAREN_e_RPAREN_|bigg.reaction:EX_ala_D_e|bigg.reaction:EX_ala_D_e_|bigg.reaction:EX_ala__D(e)		
-EX_ala__L_e	L-Alanine exchange	ala__L_e <-> 		bigg.reaction:EX_ala_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_ala_DASH_L_e|bigg.reaction:EX_ala_L|bigg.reaction:EX_ala_L(e)|bigg.reaction:EX_ala_L[e]|bigg.reaction:EX_ala_L_LPAREN_e_RPAREN_|bigg.reaction:EX_ala_L_e|bigg.reaction:EX_ala_L_e_		
+EX_ala__D_e	D-Alanine exchange	ala__D_e <-> 		bigg.reaction:EX_ala_D|bigg.reaction:EX_ala_DASH_D_LPAREN_e_RPAREN_|bigg.reaction:EX_ala_D[e]|bigg.reaction:EX_ala_D_LPAREN_e_RPAREN_|bigg.reaction:EX_ala_D_e|bigg.reaction:EX_ala_D_e_		
+EX_ala__L_e	L-Alanine exchange	ala__L_e <-> 		bigg.reaction:EX_ala_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_ala_DASH_L_e|bigg.reaction:EX_ala_L|bigg.reaction:EX_ala_L[e]|bigg.reaction:EX_ala_L_LPAREN_e_RPAREN_|bigg.reaction:EX_ala_L_e|bigg.reaction:EX_ala_L_e_		
 EX_ala_gln_e	Ala-gln exchange	ala_gln_e <-> 				
 EX_ala_his_e	Ala-His exchange	ala_his_e <-> 				
 EX_ala_leu_e	Ala-leu exchange	ala_leu_e <-> 				
-EX_alaala_e	D-Alanyl-D-alanine exchange	alaala_e <-> 		bigg.reaction:EX_alaala(e)|bigg.reaction:EX_alaala[e]|bigg.reaction:EX_alaala_LPAREN_e_RPAREN_|bigg.reaction:EX_alaala_e_		
+EX_alaala_e	D-Alanyl-D-alanine exchange	alaala_e <-> 		bigg.reaction:EX_alaala[e]|bigg.reaction:EX_alaala_LPAREN_e_RPAREN_|bigg.reaction:EX_alaala_e_		
 EX_alaargcys_e	Exchange of AlaArgCys	alaargcys_e <-> 		bigg.reaction:EX_alaargcys[e]		
 EX_alaarggly_e	Exchange of AlaArgGly	alaarggly_e <-> 		bigg.reaction:EX_alaarggly[e]		
 EX_alaasnleu_e	Exchange of AlaAsnLeu	alaasnleu_e <-> 		bigg.reaction:EX_alaasnleu[e]		
@@ -8488,7 +8488,7 @@ EX_algac_MG_41_e	Alginate  4 units of acetylated D mannuronate and one unit of L
 EX_algac__M_e	Alginate  5 units of  D mannuronate completelly acetylated  exchange	algac__M_e <-> 				
 EX_all__D_e	D-Allose exchange	all__D_e <-> 		bigg.reaction:EX_all_DASH_D_LPAREN_e_RPAREN_|bigg.reaction:EX_all_D_LPAREN_e_RPAREN_|bigg.reaction:EX_all_D_e		
 EX_allop_e	Exchange reaction for allopurinol in intestinal lumen	allop_e <-> 		bigg.reaction:EX_allop[e]		
-EX_alltn_e	Allantoin exchange	alltn_e <-> 		bigg.reaction:EX_alltn(e)|bigg.reaction:EX_alltn[e]|bigg.reaction:EX_alltn_LPAREN_e_RPAREN_|bigg.reaction:EX_alltn_e_		
+EX_alltn_e	Allantoin exchange	alltn_e <-> 		bigg.reaction:EX_alltn[e]|bigg.reaction:EX_alltn_LPAREN_e_RPAREN_|bigg.reaction:EX_alltn_e_		
 EX_alltt_e	Allantoate exchange	alltt_e <-> 		bigg.reaction:EX_alltt_LPAREN_e_RPAREN_|bigg.reaction:EX_alltt_e_		
 EX_am19cs_e	Exchange reaction for AM19-cyclosporine in hepatic vein	am19cs_e <-> 		bigg.reaction:EX_am19cs[e]		
 EX_am1a4ncs_e	Exchange reaction for AM1A4N-cyclosporine in bile	am1a4ncs_e <-> 		bigg.reaction:EX_am1a4ncs[e]		
@@ -8508,7 +8508,7 @@ EX_amet_e	S Adenosyl L methionine exchange	amet_e <-> 		bigg.reaction:EX_amet[e]
 EX_ametam_e	Exchange of S-Adenosylmethioninamine	ametam_e <-> 		bigg.reaction:EX_ametam[e]		
 EX_amp_e	AMP exchange	amp_e <-> 		bigg.reaction:EX_amp[e]|bigg.reaction:EX_amp_LPAREN_e_RPAREN_|bigg.reaction:EX_amp_e_		
 EX_amylase_e	Mature Bacillus subtilis amylase exchange	amylase_e <-> 		bigg.reaction:EX_amylase_e_		
-EX_amylose300_e	Amylose (n=300 repeat units, alpha-1,4-glc) exchange	amylose300_e <-> 		bigg.reaction:EX_amylose300(e)		
+EX_amylose300_e	Amylose (n=300 repeat units, alpha-1,4-glc) exchange	amylose300_e <-> 				
 EX_and19one_e	Exchange of 19-Hydroxyandrost-4-Ene-3, 17-Dione	and19one_e <-> 		bigg.reaction:EX_and19one[e]		
 EX_andrstandn_e	Exchange of 5Alpha-Androstane-3, 17-Dione	andrstandn_e <-> 		bigg.reaction:EX_andrstandn[e]		
 EX_andrstndn_e	Exchange of Androst-4-Ene-3, 17-Dione	andrstndn_e <-> 		bigg.reaction:EX_andrstndn[e]		
@@ -8524,8 +8524,8 @@ EX_appnn_e	(+)-alpha-Pinene exchange	appnn_e <-> 		bigg.reaction:EX_appnn[e]|big
 EX_aprgstrn_e	20alpha-Hydroxyprogesterone exchange	aprgstrn_e <-> 		bigg.reaction:EX_aprgstrn[e]|bigg.reaction:EX_aprgstrn_LPAREN_e_RPAREN_|bigg.reaction:EX_aprgstrn_e_		
 EX_aqcobal_e	Aquacob(III)alamin exchange	aqcobal_e <-> 		bigg.reaction:EX_aqcobal[e]|bigg.reaction:EX_aqcobal_LPAREN_e_RPAREN_|bigg.reaction:EX_aqcobal_e_		
 EX_arab__D_e	D Arabinose exchange	arab__D_e <-> 		bigg.reaction:EX_arab_D|bigg.reaction:EX_arab_DASH_D_RPAREN_e_LPAREN_|bigg.reaction:EX_arab_D_LPAREN_e_RPAREN_|bigg.reaction:EX_arab_D_e_|bigg.reaction:EX_arab__D_LPAREN_e_RPAREN_		
-EX_arab__L_e	L-Arabinose exchange	arab__L_e <-> 		bigg.reaction:EX_arab-L(e)|bigg.reaction:EX_arab_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_arab_L|bigg.reaction:EX_arab_L(e)|bigg.reaction:EX_arab_L[e]|bigg.reaction:EX_arab_L_LPAREN_e_RPAREN_|bigg.reaction:EX_arab_L_e|bigg.reaction:EX_arab_L_e_		
-EX_araban__L_e	Alpha-L-Arabinan (3 subunits) exchange	araban__L_e <-> 		bigg.reaction:EX_araban-L(e)		
+EX_arab__L_e	L-Arabinose exchange	arab__L_e <-> 		bigg.reaction:EX_arab_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_arab_L|bigg.reaction:EX_arab_L[e]|bigg.reaction:EX_arab_L_LPAREN_e_RPAREN_|bigg.reaction:EX_arab_L_e|bigg.reaction:EX_arab_L_e_		
+EX_araban__L_e	Alpha-L-Arabinan (3 subunits) exchange	araban__L_e <-> 				
 EX_arach_e	Arachidic acid exchange	arach_e <-> 		bigg.reaction:EX_arach[e]|bigg.reaction:EX_arach_LPAREN_e_RPAREN_|bigg.reaction:EX_arach_e_		
 EX_arachcoa_e	Arachidyl coenzyme A exchange	arachcoa_e <-> 		bigg.reaction:EX_arachcoa[e]|bigg.reaction:EX_arachcoa_e_		
 EX_arachd_e	NC20:4 exchange	arachd_e <-> 		bigg.reaction:EX_arachd[e]|bigg.reaction:EX_arachd_LPAREN_e_RPAREN_|bigg.reaction:EX_arachd_e_		
@@ -8535,7 +8535,7 @@ EX_arbt_e	Arbutin exchange	arbt_e <-> 		bigg.reaction:EX_arbt_LPAREN_e_RPAREN_|b
 EX_arbtn_e	Aerobactin minus Fe3 exchange	arbtn_e <-> 		bigg.reaction:EX_arbtn_LPAREN_e_RPAREN_		
 EX_arbtn_fe3_e	Aerobactin exchange	arbtn_fe3_e <-> 		bigg.reaction:EX_arbtn_DASH_fe3_LPAREN_e_RPAREN_|bigg.reaction:EX_arbtn__fe3_e|bigg.reaction:EX_arbtn_fe3_LPAREN_e_RPAREN_		
 EX_arg__D_e	Exchange of D-Arginine	arg__D_e <-> 		bigg.reaction:EX_arg_D[e]		
-EX_arg__L_e	L-Arginine exchange	arg__L_e <-> 		bigg.reaction:EX_arg-L(e)|bigg.reaction:EX_arg_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_arg_L|bigg.reaction:EX_arg_L[e]|bigg.reaction:EX_arg_L_LPAREN_e_RPAREN_|bigg.reaction:EX_arg_L_e|bigg.reaction:EX_arg_L_e_|bigg.reaction:EX_arg__L(e)		
+EX_arg__L_e	L-Arginine exchange	arg__L_e <-> 		bigg.reaction:EX_arg_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_arg_L|bigg.reaction:EX_arg_L[e]|bigg.reaction:EX_arg_L_LPAREN_e_RPAREN_|bigg.reaction:EX_arg_L_e|bigg.reaction:EX_arg_L_e_		
 EX_argalaala_e	Exchange of ArgAlaAla	argalaala_e <-> 		bigg.reaction:EX_argalaala[e]		
 EX_argalaphe_e	Exchange of ArgAlaPhe	argalaphe_e <-> 		bigg.reaction:EX_argalaphe[e]		
 EX_argalathr_e	Exchange of ArgAlaThr	argalathr_e <-> 		bigg.reaction:EX_argalathr[e]		
@@ -8565,7 +8565,7 @@ EX_arsna_e	Arsenate exchange	arsna_e <-> 		bigg.reaction:EX_arsna_e_
 EX_arsni2_e	Arsenite exchange	arsni2_e <-> 		bigg.reaction:EX_arsni2_e_		
 EX_ascb__L_e	L-Ascorbate exchange	ascb__L_e <-> 		bigg.reaction:EX_ascb_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_ascb_L[e]|bigg.reaction:EX_ascb_L_LPAREN_e_RPAREN_|bigg.reaction:EX_ascb_L_e|bigg.reaction:EX_ascb_L_e_		
 EX_asn__D_e	D Asparagine exchange	asn__D_e <-> 				
-EX_asn__L_e	L-Asparagine exchange	asn__L_e <-> 		bigg.reaction:EX_asn-L(e)|bigg.reaction:EX_asn_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_asn_L|bigg.reaction:EX_asn_L[e]|bigg.reaction:EX_asn_L_LPAREN_e_RPAREN_|bigg.reaction:EX_asn_L_e|bigg.reaction:EX_asn_L_e_|bigg.reaction:EX_asn__L(e)		
+EX_asn__L_e	L-Asparagine exchange	asn__L_e <-> 		bigg.reaction:EX_asn_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_asn_L|bigg.reaction:EX_asn_L[e]|bigg.reaction:EX_asn_L_LPAREN_e_RPAREN_|bigg.reaction:EX_asn_L_e|bigg.reaction:EX_asn_L_e_		
 EX_asnasnarg_e	Exchange of AsnAsnArg	asnasnarg_e <-> 		bigg.reaction:EX_asnasnarg[e]		
 EX_asncyscys_e	Exchange of AsnCysCys	asncyscys_e <-> 		bigg.reaction:EX_asncyscys[e]		
 EX_asnmetpro_e	Exchange of AsnMetPro	asnmetpro_e <-> 		bigg.reaction:EX_asnmetpro[e]		
@@ -8577,7 +8577,7 @@ EX_asntyrthr_e	Exchange of AsntyrThr	asntyrthr_e <-> 		bigg.reaction:EX_asntyrth
 EX_aso3_e	Arsenite exchange	aso3_e <-> 		bigg.reaction:EX_aso3_LPAREN_e_RPAREN_		
 EX_aso4_e	Arsenate exchange	aso4_e <-> 				
 EX_asp__D_e	D-Aspartate exchange	asp__D_e <-> 		bigg.reaction:EX_asp_D[e]|bigg.reaction:EX_asp_D_LPAREN_e_RPAREN_|bigg.reaction:EX_asp_D_e_		
-EX_asp__L_e	L-Aspartate exchange	asp__L_e <-> 		bigg.reaction:EX_asp-L(e)|bigg.reaction:EX_asp_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_asp_DASH_L_e|bigg.reaction:EX_asp_L|bigg.reaction:EX_asp_L[e]|bigg.reaction:EX_asp_L_LPAREN_e_RPAREN_|bigg.reaction:EX_asp_L_e|bigg.reaction:EX_asp_L_e_		
+EX_asp__L_e	L-Aspartate exchange	asp__L_e <-> 		bigg.reaction:EX_asp_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_asp_DASH_L_e|bigg.reaction:EX_asp_L|bigg.reaction:EX_asp_L[e]|bigg.reaction:EX_asp_L_LPAREN_e_RPAREN_|bigg.reaction:EX_asp_L_e|bigg.reaction:EX_asp_L_e_		
 EX_aspalaarg_e	Exchange of AspAlaArg	aspalaarg_e <-> 		bigg.reaction:EX_aspalaarg[e]		
 EX_aspasnglu_e	Exchange of AspAsnGlu	aspasnglu_e <-> 		bigg.reaction:EX_aspasnglu[e]		
 EX_aspglu_e	Exchange of AspGlu	aspglu_e <-> 		bigg.reaction:EX_aspglu[e]		
@@ -8612,11 +8612,11 @@ EX_biliverd_e	Exchange of Biliverdin	biliverd_e <-> 		bigg.reaction:EX_biliverd[
 EX_biocyt_e	Biocytin exchange	biocyt_e <-> 		bigg.reaction:EX_biocyt[e]|bigg.reaction:EX_biocyt_LPAREN_e_RPAREN_|bigg.reaction:EX_biocyt_e_		
 EX_bmn_e	EX bmn LPAREN e RPAREN 	bmn_e <-> 		bigg.reaction:EX_bmn|bigg.reaction:EX_bmn_LPAREN_e_RPAREN_		
 EX_btbet_e	Butyro-betaine exchange	btbet_e <-> 				
-EX_btd_RR_e	 R R  2 3 Butanediol exchange	btd_RR_e <-> 		bigg.reaction:EX_btd-RR(e)|bigg.reaction:EX_btd_RR_LPAREN_e_RPAREN_|bigg.reaction:EX_btd_RR_e_		
-EX_btn_e	Biotin exchange	btn_e <-> 		bigg.reaction:EX_biotin_e|bigg.reaction:EX_btn|bigg.reaction:EX_btn(e)|bigg.reaction:EX_btn[e]|bigg.reaction:EX_btn_LPAREN_e_RPAREN_|bigg.reaction:EX_btn_e_		
-EX_btoh_e	Butanol exchange	btoh_e <-> 		bigg.reaction:EX_btoh(e)		
+EX_btd_RR_e	 R R  2 3 Butanediol exchange	btd_RR_e <-> 		bigg.reaction:EX_btd_RR_LPAREN_e_RPAREN_|bigg.reaction:EX_btd_RR_e_		
+EX_btn_e	Biotin exchange	btn_e <-> 		bigg.reaction:EX_biotin_e|bigg.reaction:EX_btn|bigg.reaction:EX_btn[e]|bigg.reaction:EX_btn_LPAREN_e_RPAREN_|bigg.reaction:EX_btn_e_		
+EX_btoh_e	Butanol exchange	btoh_e <-> 				
 EX_butACP_e	Butyryl-ACP (n-C4:0ACP) exchange	butACP_e <-> 				
-EX_but_e	Butyrate (n-C4:0) exchange	but_e <-> 		bigg.reaction:EX_but(e)|bigg.reaction:EX_but[e]|bigg.reaction:EX_but_LPAREN_e_RPAREN_|bigg.reaction:EX_but_e_		
+EX_but_e	Butyrate (n-C4:0) exchange	but_e <-> 		bigg.reaction:EX_but[e]|bigg.reaction:EX_but_LPAREN_e_RPAREN_|bigg.reaction:EX_but_e_		
 EX_buts_e	Butanesulfonate exchange	buts_e <-> 		bigg.reaction:EX_buts_e_		
 EX_butso3_e	Butanesulfonate exchange	butso3_e <-> 		bigg.reaction:EX_butso3_LPAREN_e_RPAREN_		
 EX_bvite_e	Beta-tocopherol exchange	bvite_e <-> 		bigg.reaction:EX_bvite[e]|bigg.reaction:EX_bvite_LPAREN_e_RPAREN_|bigg.reaction:EX_bvite_e_		
@@ -8639,7 +8639,7 @@ EX_c81crn_e	Exchange of Octenoyl Carnitine	c81crn_e <-> 		bigg.reaction:EX_c81cr
 EX_c8crn_e	Exchange reaction for octanoyl carnitine	c8crn_e <-> 		bigg.reaction:EX_c8crn|bigg.reaction:EX_c8crn[e]		
 EX_c8dc_e	Exchange reaction for suberyl carnitine	c8dc_e <-> 		bigg.reaction:EX_c8dc|bigg.reaction:EX_c8dc[e]		
 EX_ca24g_e	EX ca24g(e)	ca24g_e <-> 		bigg.reaction:EX_ca24g[e]		
-EX_ca2_e	Calcium exchange	ca2_e <-> 		bigg.reaction:EX_ca2|bigg.reaction:EX_ca2(e)|bigg.reaction:EX_ca2_LPAREN_e_RPAREN_|bigg.reaction:EX_ca2_e_		
+EX_ca2_e	Calcium exchange	ca2_e <-> 		bigg.reaction:EX_ca2|bigg.reaction:EX_ca2_LPAREN_e_RPAREN_|bigg.reaction:EX_ca2_e_		
 EX_ca3s_e	EX ca3s(e)	ca3s_e <-> 		bigg.reaction:EX_ca3s[e]		
 EX_cala_e	Exchange of N-Carbamoyl-Beta-Alaninate	cala_e <-> 		bigg.reaction:EX_cala[e]		
 EX_camp_e	CAMP exchange	camp_e <-> 		bigg.reaction:EX_camp[e]|bigg.reaction:EX_camp_LPAREN_e_RPAREN_|bigg.reaction:EX_camp_e_		
@@ -8663,15 +8663,15 @@ EX_cdca3g_e	EX cdca3g(e)	cdca3g_e <-> 		bigg.reaction:EX_cdca3g[e]
 EX_cdp_e	CDP(3-) exchange	cdp_e <-> 		bigg.reaction:EX_cdp[e]|bigg.reaction:EX_cdp_e_		
 EX_cdpea_e	Exchange of CDP-Ethanolamine 	cdpea_e <-> 		bigg.reaction:EX_cdpea[e]		
 EX_cdpg_e		cdpg_e <-> 				
-EX_cell4_e	Cellulose (n=4 repeating units) exchange	cell4_e <-> 		bigg.reaction:EX_cell4(e)		
-EX_cell500_e	Celluose (n=500 repeating units, beta-1,4 glc) exchange	cell500_e <-> 		bigg.reaction:EX_cell500(e)		
-EX_cell6_e	Cellulose (n=6 repeating units) exchange	cell6_e <-> 		bigg.reaction:EX_cell6(e)		
-EX_cellb_e	Cellobiose exchange	cellb_e <-> 		bigg.reaction:EX_cellb(e)|bigg.reaction:EX_cellb_LPAREN_e_RPAREN_|bigg.reaction:EX_cellb_e_		
+EX_cell4_e	Cellulose (n=4 repeating units) exchange	cell4_e <-> 				
+EX_cell500_e	Celluose (n=500 repeating units, beta-1,4 glc) exchange	cell500_e <-> 				
+EX_cell6_e	Cellulose (n=6 repeating units) exchange	cell6_e <-> 				
+EX_cellb_e	Cellobiose exchange	cellb_e <-> 		bigg.reaction:EX_cellb_LPAREN_e_RPAREN_|bigg.reaction:EX_cellb_e_		
 EX_cgly_e	Cys-Gly exchange	cgly_e <-> 		bigg.reaction:EX_cgly[e]|bigg.reaction:EX_cgly_LPAREN_e_RPAREN_|bigg.reaction:EX_cgly_e_		
 EX_ch4_e	EX ch4 LPAREN e RPAREN 	ch4_e <-> 		bigg.reaction:EX_ch4_LPAREN_e_RPAREN_		
 EX_ch4s_e	EX ch4s LPAREN e RPAREN 	ch4s_e <-> 		bigg.reaction:EX_ch4s_LPAREN_e_RPAREN_		
 EX_chitob_e	Chitobiose exchange	chitob_e <-> 		bigg.reaction:EX_chitob_LPAREN_e_RPAREN_|bigg.reaction:EX_chitob_e_		
-EX_chol_e	Choline exchange	chol_e <-> 		bigg.reaction:EX_chol|bigg.reaction:EX_chol(e)|bigg.reaction:EX_chol[e]|bigg.reaction:EX_chol_LPAREN_e_RPAREN_|bigg.reaction:EX_chol_e_		
+EX_chol_e	Choline exchange	chol_e <-> 		bigg.reaction:EX_chol|bigg.reaction:EX_chol[e]|bigg.reaction:EX_chol_LPAREN_e_RPAREN_|bigg.reaction:EX_chol_e_		
 EX_cholate_e	Cholate exchange	cholate_e <-> 		bigg.reaction:EX_cholate[e]|bigg.reaction:EX_cholate_LPAREN_e_RPAREN_|bigg.reaction:EX_cholate_e_		
 EX_cholp_e	Exchange of Choline Phosphate	cholp_e <-> 		bigg.reaction:EX_cholp[e]		
 EX_chols_e	EX chols LPAREN e RPAREN 	chols_e <-> 		bigg.reaction:EX_chols_LPAREN_e_RPAREN_|bigg.reaction:EX_chols_e_		
@@ -8681,20 +8681,20 @@ EX_chsterols_e	Exchange of Cholesterol Sulfate	chsterols_e <-> 		bigg.reaction:E
 EX_chtbs_e	Chitobiose exchange	chtbs_e <-> 		bigg.reaction:EX_chtbs_LPAREN_e_RPAREN_		
 EX_chtn_e	Chitin exchange	chtn_e <-> 		bigg.reaction:EX_chtn[e]|bigg.reaction:EX_chtn_LPAREN_e_RPAREN_|bigg.reaction:EX_chtn_e_		
 EX_cinnm_e	Trans Cinnamate exchange	cinnm_e <-> 				
-EX_cit_e	Citrate exchange	cit_e <-> 		bigg.reaction:EX_cit|bigg.reaction:EX_cit(e)|bigg.reaction:EX_cit[e]|bigg.reaction:EX_cit_LPAREN_e_RPAREN_|bigg.reaction:EX_cit_e_		
+EX_cit_e	Citrate exchange	cit_e <-> 		bigg.reaction:EX_cit|bigg.reaction:EX_cit[e]|bigg.reaction:EX_cit_LPAREN_e_RPAREN_|bigg.reaction:EX_cit_e_		
 EX_cital_e	Citalopram exchange	cital_e <-> 		bigg.reaction:EX_cital_LPAREN_e_RPAREN_		
-EX_citr__L_e	L-Citrulline exchange	citr__L_e <-> 		bigg.reaction:EX_citr|bigg.reaction:EX_citr-L(e)|bigg.reaction:EX_citr_L[e]|bigg.reaction:EX_citr_L_e_		
-EX_cl_e	Chloride exchange	cl_e <-> 		bigg.reaction:EX_cl|bigg.reaction:EX_cl(e)|bigg.reaction:EX_cl_LPAREN_e_RPAREN_|bigg.reaction:EX_cl_e_		
+EX_citr__L_e	L-Citrulline exchange	citr__L_e <-> 		bigg.reaction:EX_citr|bigg.reaction:EX_citr_L[e]|bigg.reaction:EX_citr_L_e_		
+EX_cl_e	Chloride exchange	cl_e <-> 		bigg.reaction:EX_cl|bigg.reaction:EX_cl_LPAREN_e_RPAREN_|bigg.reaction:EX_cl_e_		
 EX_clpnd_e	Clupanodonic acid (docosapentaenoic (n-3)) exchange	clpnd_e <-> 		bigg.reaction:EX_CLPND_LPAREN_e_RPAREN_|bigg.reaction:EX_CLPND_e|bigg.reaction:EX_CLPND_e_|bigg.reaction:EX_clpnd[e]		
 EX_cm_e	Chloramphenicol exchange	cm_e <-> 		bigg.reaction:EX_cm_LPAREN_e_RPAREN_		
 EX_cmcbtt_e	Carboxymycobactin T  R8 carbon  final carbon is carboxyl group  exchange	cmcbtt_e <-> 				
 EX_cmp_e	CMP exchange	cmp_e <-> 		bigg.reaction:EX_cmp[e]|bigg.reaction:EX_cmp_LPAREN_e_RPAREN_|bigg.reaction:EX_cmp_e_		
 EX_cmpacna_e	Exchange of CMP-N-Acetyl-Beta-Neuraminate 	cmpacna_e <-> 		bigg.reaction:EX_cmpacna[e]		
 EX_co1dam_e		co1dam_e <-> 				
-EX_co2_e	CO2 exchange	co2_e <-> 		bigg.reaction:EX_co2|bigg.reaction:EX_co2(e)|bigg.reaction:EX_co2[e]|bigg.reaction:EX_co2_LPAREN_e_RPAREN_|bigg.reaction:EX_co2_e_		
-EX_co_e	EX co LPAREN e RPAREN 	co_e <-> 		bigg.reaction:EX_co|bigg.reaction:EX_co(e)|bigg.reaction:EX_co[e]|bigg.reaction:EX_co_LPAREN_e_RPAREN_|bigg.reaction:EX_co_e_		
+EX_co2_e	CO2 exchange	co2_e <-> 		bigg.reaction:EX_co2|bigg.reaction:EX_co2[e]|bigg.reaction:EX_co2_LPAREN_e_RPAREN_|bigg.reaction:EX_co2_e_		
+EX_co_e	EX co LPAREN e RPAREN 	co_e <-> 		bigg.reaction:EX_co|bigg.reaction:EX_co[e]|bigg.reaction:EX_co_LPAREN_e_RPAREN_|bigg.reaction:EX_co_e_		
 EX_coa_e	EX coa LPAREN e RPAREN 	coa_e <-> 		bigg.reaction:EX_coa|bigg.reaction:EX_coa[e]|bigg.reaction:EX_coa_LPAREN_e_RPAREN_|bigg.reaction:EX_coa_e_		
-EX_cobalt2_e	Co2+ exchange	cobalt2_e <-> 		bigg.reaction:EX_cobalt2|bigg.reaction:EX_cobalt2(e)|bigg.reaction:EX_cobalt2_LPAREN_e_RPAREN_|bigg.reaction:EX_cobalt2_e_		
+EX_cobalt2_e	Co2+ exchange	cobalt2_e <-> 		bigg.reaction:EX_cobalt2|bigg.reaction:EX_cobalt2_LPAREN_e_RPAREN_|bigg.reaction:EX_cobalt2_e_		
 EX_coke_e	Exchange of Cocaine	coke_e <-> 		bigg.reaction:EX_coke[e]		
 EX_colipa20Oag_e	O antigen x20 core oligosaccharide lipid A exchange	colipa20Oag_e <-> 		bigg.reaction:EX_colipa20Oag_LPAREN_e_RPAREN_		
 EX_colipaOA_e	Membrane LPS mixture Exchange	colipaOA_e <-> 		bigg.reaction:EX_colipaOA_LPAREN_e_RPAREN_		
@@ -8734,7 +8734,7 @@ EX_crvsm24_e	Exchange reaction for cerivastatin-M24 in hepatic vein	crvsm24_e <-
 EX_cs1_e	Cesium ion exchange	cs1_e <-> 				
 EX_csa_e	Exchange reaction for cyclosporine in intestinal lumen	csa_e <-> 		bigg.reaction:EX_csa[e]		
 EX_csasulp_e	Exchange reaction for cyclosporine-sulphate in hepatic vein	csasulp_e <-> 		bigg.reaction:EX_csasulp[e]		
-EX_csn_e	Cytosine exchange	csn_e <-> 		bigg.reaction:EX_csn(e)|bigg.reaction:EX_csn[e]|bigg.reaction:EX_csn_LPAREN_e_RPAREN_|bigg.reaction:EX_csn_e_		
+EX_csn_e	Cytosine exchange	csn_e <-> 		bigg.reaction:EX_csn[e]|bigg.reaction:EX_csn_LPAREN_e_RPAREN_|bigg.reaction:EX_csn_e_		
 EX_cspg_a_e	Chondroitin sulfate A (GalNAc4S-GlcA) proteoglycan exchange	cspg_a_e <-> 		bigg.reaction:EX_cspg_a[e]|bigg.reaction:EX_cspg_a_LPAREN_e_RPAREN_|bigg.reaction:EX_cspg_a_e_		
 EX_cspg_b_e	Chondroitin sulfate B / dermatan sulfate (IdoA2S-GalNAc4S) proteoglycan exchange	cspg_b_e <-> 		bigg.reaction:EX_cspg_b[e]|bigg.reaction:EX_cspg_b_LPAREN_e_RPAREN_|bigg.reaction:EX_cspg_b_e_		
 EX_cspg_c_e	Chondroitin sulfate C (GalNAc6S-GlcA) proteoglycan exchange	cspg_c_e <-> 		bigg.reaction:EX_cspg_c[e]|bigg.reaction:EX_cspg_c_LPAREN_e_RPAREN_|bigg.reaction:EX_cspg_c_e_		
@@ -8742,12 +8742,12 @@ EX_cspg_d_e	Chondroitin sulfate D (GlcNAc6S-GlcA2S) proteoglycan exchange	cspg_d
 EX_cspg_e_e	Chondroitin sulfate E (GalNAc4,6diS-GlcA) proteoglycan exchange	cspg_e_e <-> 		bigg.reaction:EX_cspg_e[e]|bigg.reaction:EX_cspg_e_LPAREN_e_RPAREN_|bigg.reaction:EX_cspg_e_e_		
 EX_ctbt_e	Crotonobetaine exchange	ctbt_e <-> 		bigg.reaction:EX_ctbt_e_		
 EX_ctp_e	Exchange of CTP(4-)	ctp_e <-> 		bigg.reaction:EX_ctp[e]|bigg.reaction:EX_ctp_e_		
-EX_cu2_e	Cu2+ exchange	cu2_e <-> 		bigg.reaction:EX_cu2|bigg.reaction:EX_cu2(e)|bigg.reaction:EX_cu2_LPAREN_e_RPAREN_|bigg.reaction:EX_cu2_e_		
+EX_cu2_e	Cu2+ exchange	cu2_e <-> 		bigg.reaction:EX_cu2|bigg.reaction:EX_cu2_LPAREN_e_RPAREN_|bigg.reaction:EX_cu2_e_		
 EX_cu_e	Cu+ exchange	cu_e <-> 		bigg.reaction:EX_cu_LPAREN_e_RPAREN_		
 EX_cyan_e	Hydrogen cyanide exchange	cyan_e <-> 		bigg.reaction:EX_cyan[e]|bigg.reaction:EX_cyan_LPAREN_e_RPAREN_|bigg.reaction:EX_cyan_e_		
 EX_cynt_e	Cyanate exchange	cynt_e <-> 		bigg.reaction:EX_cynt[e]|bigg.reaction:EX_cynt_LPAREN_e_RPAREN_		
 EX_cys__D_e	D-Cysteine exchange	cys__D_e <-> 		bigg.reaction:EX_cys_DASH_D_LPAREN_e_RPAREN_|bigg.reaction:EX_cys_D_LPAREN_e_RPAREN_|bigg.reaction:EX_cys_D_e|bigg.reaction:EX_cys_D_e_		
-EX_cys__L_e	L-Cysteine exchange	cys__L_e <-> 		bigg.reaction:EX_cys-L(e)|bigg.reaction:EX_cys_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_cys_L[e]|bigg.reaction:EX_cys_L_LPAREN_e_RPAREN_|bigg.reaction:EX_cys_L_e|bigg.reaction:EX_cys_L_e_|bigg.reaction:EX_cys__L(e)		
+EX_cys__L_e	L-Cysteine exchange	cys__L_e <-> 		bigg.reaction:EX_cys_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_cys_L[e]|bigg.reaction:EX_cys_L_LPAREN_e_RPAREN_|bigg.reaction:EX_cys_L_e|bigg.reaction:EX_cys_L_e_		
 EX_cysacmp_e	Exchange reaction for cysteine-conjugate-acetaminophen in hepatic vein	cysacmp_e <-> 		bigg.reaction:EX_cysacmp[e]		
 EX_cysam_e	Exchange reaction for cysam	cysam_e <-> 		bigg.reaction:EX_cysam[e]|bigg.reaction:EX_cysam_e_		
 EX_cysasnmet_e	Exchange of CysAsnMet	cysasnmet_e <-> 		bigg.reaction:EX_cysasnmet[e]		
@@ -8841,7 +8841,7 @@ EX_dopa_e	Dopamine exchange	dopa_e <-> 		bigg.reaction:EX_dopa[e]|bigg.reaction:
 EX_dopasf_e	Dopamine 3-O-sulfate exchange	dopasf_e <-> 		bigg.reaction:EX_dopasf[e]|bigg.reaction:EX_dopasf_LPAREN_e_RPAREN_|bigg.reaction:EX_dopasf_e_		
 EX_doxrbcn_e	Doxorubicin exchange	doxrbcn_e <-> 		bigg.reaction:EX_doxrbcn_LPAREN_e_RPAREN_		
 EX_dpcoa_e	Exchange reaction for dpcoa	dpcoa_e <-> 		bigg.reaction:EX_dpcoa[e]|bigg.reaction:EX_dpcoa_e_		
-EX_drib_e	Deoxy D Ribose exchange	drib_e <-> 		bigg.reaction:EX_drib(e)|bigg.reaction:EX_drib[e]|bigg.reaction:EX_drib_LPAREN_e_RPAREN_|bigg.reaction:EX_drib_e_		
+EX_drib_e	Deoxy D Ribose exchange	drib_e <-> 		bigg.reaction:EX_drib[e]|bigg.reaction:EX_drib_LPAREN_e_RPAREN_|bigg.reaction:EX_drib_e_		
 EX_dsT_antigen_e	Exchange of Disialyl-T Antigen 	dsT_antigen_e <-> 		bigg.reaction:EX_dsT_antigen[e]		
 EX_dsmsterol_e	Exchange of Desmosterol	dsmsterol_e <-> 		bigg.reaction:EX_dsmsterol[e]		
 EX_dspvs_e	Exchange reaction of desacyl dehydro-pravastatin in hepatic vein	dspvs_e <-> 		bigg.reaction:EX_dspvs[e]		
@@ -8877,7 +8877,7 @@ EX_enter_e	Enterochelin exchange	enter_e <-> 		bigg.reaction:EX_enter_LPAREN_e_R
 EX_epist_e	Episterol exchange	epist_e <-> 		bigg.reaction:EX_epist_e_		
 EX_epistest_SC_e	Episterol ester  yeast specific exchange	epistest_SC_e <-> 		bigg.reaction:EX_epistest_SC_e_		
 EX_epoxtac_e	Exchange reaction for 31-O-Desmethyl,19-Hydroxy,37, 39-Epoxy-tacrolimus in hepatic vein	epoxtac_e <-> 		bigg.reaction:EX_epoxtac[e]		
-EX_ergst_e	Ergosterol exchange	ergst_e <-> 		bigg.reaction:EX_ergst(e)|bigg.reaction:EX_ergst_LPAREN_e_RPAREN_|bigg.reaction:EX_ergst_e_		
+EX_ergst_e	Ergosterol exchange	ergst_e <-> 		bigg.reaction:EX_ergst_LPAREN_e_RPAREN_|bigg.reaction:EX_ergst_e_		
 EX_ergstest_SC_e	Ergosterol ester  yeast specific exchange	ergstest_SC_e <-> 		bigg.reaction:EX_ergstest_SC_e_		
 EX_escul_e		escul_e <-> 				
 EX_escut_e		escut_e <-> 				
@@ -8893,15 +8893,15 @@ EX_ethamp_e	Exchange of Ethanolamine Phosphate	ethamp_e <-> 		bigg.reaction:EX_e
 EX_ethmalac_e	Exchange of Ethylmalonic Acid	ethmalac_e <-> 		bigg.reaction:EX_ethmalac[e]		
 EX_eths_e	Ethanesulfonate exchange	eths_e <-> 		bigg.reaction:EX_eths_e_		
 EX_ethso3_e	Ethanesulfonate exchange	ethso3_e <-> 		bigg.reaction:EX_ethso3_LPAREN_e_RPAREN_		
-EX_etoh_e	Ethanol exchange	etoh_e <-> 		bigg.reaction:EX_etoh|bigg.reaction:EX_etoh(e)|bigg.reaction:EX_etoh[e]|bigg.reaction:EX_etoh_LPAREN_e_RPAREN_|bigg.reaction:EX_etoh_e_		
+EX_etoh_e	Ethanol exchange	etoh_e <-> 		bigg.reaction:EX_etoh|bigg.reaction:EX_etoh[e]|bigg.reaction:EX_etoh_LPAREN_e_RPAREN_|bigg.reaction:EX_etoh_e_		
 EX_f1a_e	Exchange of F1Alpha (Mucin O-Glycan) 	f1a_e <-> 		bigg.reaction:EX_f1a[e]		
 EX_f6p_e	D-fructose 6-phosphate exchange	f6p_e <-> 		bigg.reaction:EX_f6p_LPAREN_e_RPAREN_|bigg.reaction:Sink_f6p		
 EX_fad_e	Exchange of Flavin adenine dinucleotide oxidized	fad_e <-> 		bigg.reaction:EX_fad[e]|bigg.reaction:EX_fad_e_		
 EX_fald_e	Formaldehyde exchange	fald_e <-> 		bigg.reaction:EX_fald[e]|bigg.reaction:EX_fald_LPAREN_e_RPAREN_|bigg.reaction:EX_fald_e_		
 EX_fcmcbtt_e	Iron III  chelated carboxymycobactin T  R8 carbon  final carbon is carboxyl group  exchange	fcmcbtt_e <-> 				
 EX_fdp_e	Exchange of D-Fructose 1,6-Bisphosphate	fdp_e <-> 		bigg.reaction:EX_fdp[e]		
-EX_fe2_e	Fe2+ exchange	fe2_e <-> 		bigg.reaction:EX_fe2|bigg.reaction:EX_fe2(e)|bigg.reaction:EX_fe2[e]|bigg.reaction:EX_fe2_LPAREN_e_RPAREN_|bigg.reaction:EX_fe2_e_		
-EX_fe3_e	Fe3+ exchange	fe3_e <-> 		bigg.reaction:EX_fe3|bigg.reaction:EX_fe3(e)|bigg.reaction:EX_fe3[e]|bigg.reaction:EX_fe3_LPAREN_e_RPAREN_|bigg.reaction:EX_fe3_e_		
+EX_fe2_e	Fe2+ exchange	fe2_e <-> 		bigg.reaction:EX_fe2|bigg.reaction:EX_fe2[e]|bigg.reaction:EX_fe2_LPAREN_e_RPAREN_|bigg.reaction:EX_fe2_e_		
+EX_fe3_e	Fe3+ exchange	fe3_e <-> 		bigg.reaction:EX_fe3|bigg.reaction:EX_fe3[e]|bigg.reaction:EX_fe3_LPAREN_e_RPAREN_|bigg.reaction:EX_fe3_e_		
 EX_fe3dcit_e	Fe(III)dicitrate exchange	fe3dcit_e <-> 		bigg.reaction:EX_fe3dcit_LPAREN_e_RPAREN_		
 EX_fe3dhbzs3_e	2-3-dihydroxybenzoylserine trimer-Fe-III Exchange	fe3dhbzs3_e <-> 		bigg.reaction:EX_fe3dhbzs3_LPAREN_e_RPAREN_		
 EX_fe3dhbzs_e	Ferric 2,3-dihydroxybenzoylserine exchange	fe3dhbzs_e <-> 		bigg.reaction:EX_fe3dhbzs_LPAREN_e_RPAREN_		
@@ -8929,11 +8929,11 @@ EX_ferrich_e	Ferrichrome exchange	ferrich_e <-> 		bigg.reaction:EX_ferrich_e_
 EX_ferxa_e	Ferroxamine exchange	ferxa_e <-> 		bigg.reaction:EX_ferxa_e_		
 EX_fmn_e	FMN exchange	fmn_e <-> 		bigg.reaction:EX_fmn[e]|bigg.reaction:EX_fmn_LPAREN_e_RPAREN_|bigg.reaction:EX_fmn_e_		
 EX_fna5moxam_e	Exchange of Formyl-N-Acetyl-5-Methoxykynurenamine	fna5moxam_e <-> 		bigg.reaction:EX_fna5moxam[e]		
-EX_fol_e	EX fol LPAREN e RPAREN 	fol_e <-> 		bigg.reaction:EX_fol(e)|bigg.reaction:EX_fol[e]|bigg.reaction:EX_fol_LPAREN_e_RPAREN_|bigg.reaction:EX_fol_e_		
-EX_for_e	Formate exchange	for_e <-> 		bigg.reaction:EX_for|bigg.reaction:EX_for(e)|bigg.reaction:EX_for[e]|bigg.reaction:EX_for_LPAREN_e_RPAREN_|bigg.reaction:EX_for_e_		
+EX_fol_e	EX fol LPAREN e RPAREN 	fol_e <-> 		bigg.reaction:EX_fol[e]|bigg.reaction:EX_fol_LPAREN_e_RPAREN_|bigg.reaction:EX_fol_e_		
+EX_for_e	Formate exchange	for_e <-> 		bigg.reaction:EX_for|bigg.reaction:EX_for[e]|bigg.reaction:EX_for_LPAREN_e_RPAREN_|bigg.reaction:EX_for_e_		
 EX_forglu_e	Exchange of N-Formimidoyl-L-Glutamate	forglu_e <-> 		bigg.reaction:EX_forglu[e]		
 EX_frmd_e	Formamide exchange	frmd_e <-> 		bigg.reaction:EX_foam_LPAREN_e_RPAREN_|bigg.reaction:EX_foam_e		
-EX_fru_e	D-Fructose exchange	fru_e <-> 		bigg.reaction:EX_fru(e)|bigg.reaction:EX_fru[e]|bigg.reaction:EX_fru_LPAREN_e_RPAREN_|bigg.reaction:EX_fru_e_		
+EX_fru_e	D-Fructose exchange	fru_e <-> 		bigg.reaction:EX_fru[e]|bigg.reaction:EX_fru_LPAREN_e_RPAREN_|bigg.reaction:EX_fru_e_		
 EX_frulys_e	Fructoselysine exchange	frulys_e <-> 		bigg.reaction:EX_frulys_LPAREN_e_RPAREN_		
 EX_fruur_e	D-Fructuronate exchange	fruur_e <-> 		bigg.reaction:EX_fruur_LPAREN_e_RPAREN_		
 EX_fuc13galacglcgal14acglcgalgluside_cho_e	III3Fuc-nLc6Cer exchange	fuc13galacglcgal14acglcgalgluside_cho_e <-> 		bigg.reaction:EX_fuc13galacglcgal14acglcgalgluside_cho_e_		
@@ -8983,12 +8983,12 @@ EX_ga1_hs_e	Exchange of Gibberellin A1	ga1_hs_e <-> 		bigg.reaction:EX_ga1_hs[e]
 EX_ga_e	EX ga LPAREN e RPAREN 	ga_e <-> 		bigg.reaction:EX_ga_LPAREN_e_RPAREN_		
 EX_gal1p_e	Alpha-D-Galactose 1-phosphate exchange	gal1p_e <-> 		bigg.reaction:EX_gal1p_LPAREN_e_RPAREN_		
 EX_gal_bD_e	Beta D-Galactose exchange	gal_bD_e <-> 		bigg.reaction:EX_gal_DASH_bD_LPAREN_e_RPAREN_|bigg.reaction:EX_gal__bD_e|bigg.reaction:EX_gal_bD_LPAREN_e_RPAREN_		
-EX_gal_e	D-Galactose exchange	gal_e <-> 		bigg.reaction:EX_gal|bigg.reaction:EX_gal(e)|bigg.reaction:EX_gal[e]|bigg.reaction:EX_gal_LPAREN_e_RPAREN_|bigg.reaction:EX_gal_e_		
+EX_gal_e	D-Galactose exchange	gal_e <-> 		bigg.reaction:EX_gal|bigg.reaction:EX_gal[e]|bigg.reaction:EX_gal_LPAREN_e_RPAREN_|bigg.reaction:EX_gal_e_		
 EX_galacglcgalgbside_cho_e	Gal-GlcNAc-Gal globoside (cho) exchange	galacglcgalgbside_cho_e <-> 		bigg.reaction:EX_galacglcgalgbside_cho_e_		
 EX_galacglcgalgbside_hs_e	Gal-GlcNAc-Gal globoside (homo sapiens) exchange	galacglcgalgbside_hs_e <-> 		bigg.reaction:EX_galacglcgalgbside_hs[e]|bigg.reaction:EX_galacglcgalgbside_hs_LPAREN_e_RPAREN_		
 EX_galam_e	D Galactosamine exchange	galam_e <-> 		bigg.reaction:EX_galam[e]|bigg.reaction:EX_galam_LPAREN_e_RPAREN_|bigg.reaction:EX_galam_e_		
 EX_galct__D_e	D-Galactarate exchange	galct__D_e <-> 		bigg.reaction:EX_galct_DASH_D_LPAREN_e_RPAREN_|bigg.reaction:EX_galct_D_LPAREN_e_RPAREN_|bigg.reaction:EX_galct_D_e		
-EX_galctn__D_e	D-Galactonate exchange	galctn__D_e <-> 		bigg.reaction:EX_galctn-D(e)|bigg.reaction:EX_galctn_DASH_D_LPAREN_e_RPAREN_|bigg.reaction:EX_galctn_D_LPAREN_e_RPAREN_|bigg.reaction:EX_galctn_D_e		
+EX_galctn__D_e	D-Galactonate exchange	galctn__D_e <-> 		bigg.reaction:EX_galctn_DASH_D_LPAREN_e_RPAREN_|bigg.reaction:EX_galctn_D_LPAREN_e_RPAREN_|bigg.reaction:EX_galctn_D_e		
 EX_galctn__L_e	L-Galactonate exchange	galctn__L_e <-> 		bigg.reaction:EX_galctn_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_galctn_L_LPAREN_e_RPAREN_|bigg.reaction:EX_galctn_L_e		
 EX_galctr__D_e	D Galactarate exchange	galctr__D_e <-> 		bigg.reaction:EX_galctr_D_e_		
 EX_galfuc12gal14acglcgalgluside_cho_e	(Gal)3 (Glc)1 (GlcNAc)1 (LFuc)1 (Cer)1 exchange	galfuc12gal14acglcgalgluside_cho_e <-> 		bigg.reaction:EX_galfuc12gal14acglcgalgluside_cho_e_		
@@ -9000,13 +9000,13 @@ EX_galgalfucfucgalacglcgalacglcgal14acglcgalgluside_hs_e	(Gal)6 (Glc)1 (GlcNAc)3
 EX_galgalgalthcrm_cho_e	Gal-Gal-Gal-Gal-Gal-Glc-Cer (cho) exchange	galgalgalthcrm_cho_e <-> 		bigg.reaction:EX_galgalgalthcrm_cho_e_		
 EX_galgalgalthcrm_hs_e	Gal-Gal-Gal-Gal-Gal-Glc-Cer (homo sapiens) exchange	galgalgalthcrm_hs_e <-> 		bigg.reaction:EX_galgalgalthcrm_hs[e]|bigg.reaction:EX_galgalgalthcrm_hs_LPAREN_e_RPAREN_		
 EX_galgluside_hs_e	Exchange of Galactosyl Glucosyl Ceramide	galgluside_hs_e <-> 		bigg.reaction:EX_galgluside_hs[e]		
-EX_galman4_e	Galactomannan(n=4 repeat units mannose, beta-1,4 man) exchange	galman4_e <-> 		bigg.reaction:EX_galman4(e)		
-EX_galman600_e	Galactomannan (n=600 repeat units mannose, beta-1,4 man) exchange	galman600_e <-> 		bigg.reaction:EX_galman600(e)		
-EX_galman6_e	Galactomannan(n=6 repeat units mannose, beta-1,4 man) exchange	galman6_e <-> 		bigg.reaction:EX_galman6(e)		
+EX_galman4_e	Galactomannan(n=4 repeat units mannose, beta-1,4 man) exchange	galman4_e <-> 				
+EX_galman600_e	Galactomannan (n=600 repeat units mannose, beta-1,4 man) exchange	galman600_e <-> 				
+EX_galman6_e	Galactomannan(n=6 repeat units mannose, beta-1,4 man) exchange	galman6_e <-> 				
 EX_galside_cho_e	D-galactosyl-N-acylsphingosine exchange	galside_cho_e <-> 		bigg.reaction:EX_galside_cho_e_		
 EX_galside_hs_e	Exchange of D-Galactosyl-N-Acylsphingosine 	galside_hs_e <-> 		bigg.reaction:EX_galside_hs[e]		
 EX_galt_e	Galactitol exchange	galt_e <-> 		bigg.reaction:EX_galt[e]|bigg.reaction:EX_galt_LPAREN_e_RPAREN_|bigg.reaction:EX_galt_e_		
-EX_galur_e	D-Galacturonate exchange	galur_e <-> 		bigg.reaction:EX_galur(e)|bigg.reaction:EX_galur_LPAREN_e_RPAREN_|bigg.reaction:EX_galur_e_		
+EX_galur_e	D-Galacturonate exchange	galur_e <-> 		bigg.reaction:EX_galur_LPAREN_e_RPAREN_|bigg.reaction:EX_galur_e_		
 EX_gam6p_e	D-Glucosamine 6-phosphate exchange	gam6p_e <-> 		bigg.reaction:EX_gam6p_LPAREN_e_RPAREN_|bigg.reaction:EX_gam6p_e_		
 EX_gam_e	D-Glucosamine exchange	gam_e <-> 		bigg.reaction:EX_gam[e]|bigg.reaction:EX_gam_LPAREN_e_RPAREN_|bigg.reaction:EX_gam_e_		
 EX_gbbtn_e	Gamma-butyrobetaine exchange	gbbtn_e <-> 		bigg.reaction:EX_gbbtn_LPAREN_e_RPAREN_|bigg.reaction:EX_gbbtn_e_		
@@ -9028,18 +9028,18 @@ EX_gdca3s_e	EX gdca3s(e)	gdca3s_e <-> 		bigg.reaction:EX_gdca3s[e]
 EX_gdchola_e	Glycochenodeoxycholate exchange	gdchola_e <-> 		bigg.reaction:EX_gdchola_LPAREN_e_RPAREN_		
 EX_gdp_e	GDP exchange	gdp_e <-> 		bigg.reaction:EX_gdp[e]|bigg.reaction:EX_gdp_LPAREN_e_RPAREN_|bigg.reaction:EX_gdp_e_		
 EX_glc3meacp_e	Exchange reaction for glucuronide-conjugate of 3-methoxy-acetaminophen in hepatic vein	glc3meacp_e <-> 		bigg.reaction:EX_glc3meacp[e]		
-EX_glc__D_e	D-Glucose exchange	glc__D_e <-> 		bigg.reaction:EX_glc|bigg.reaction:EX_glc(e)|bigg.reaction:EX_glc_D[e]|bigg.reaction:EX_glc_D_e|bigg.reaction:EX_glc_LPAREN_e_RPAREN_|bigg.reaction:EX_glc_e|bigg.reaction:EX_glc_e_		
+EX_glc__D_e	D-Glucose exchange	glc__D_e <-> 		bigg.reaction:EX_glc|bigg.reaction:EX_glc_D[e]|bigg.reaction:EX_glc_D_e|bigg.reaction:EX_glc_LPAREN_e_RPAREN_|bigg.reaction:EX_glc_e|bigg.reaction:EX_glc_e_		
 EX_glcglyc_e	Glcglyc exchange	glcglyc_e <-> 		bigg.reaction:EX_glcglyc_LPAREN_e_RPAREN_		
-EX_glcman4_e	Glucomannan (n=4 repeat units, glc beta-1,4 man) exchange	glcman4_e <-> 		bigg.reaction:EX_glcman4(e)		
-EX_glcman600_e	Glucomannan (n=600 repeat units, glc beta-1,4 man) exchange	glcman600_e <-> 		bigg.reaction:EX_glcman600(e)		
-EX_glcman6_e	Glucomannan (n=6 repeat units, glc beta-1,4 man) exchange	glcman6_e <-> 		bigg.reaction:EX_glcman6(e)		
+EX_glcman4_e	Glucomannan (n=4 repeat units, glc beta-1,4 man) exchange	glcman4_e <-> 				
+EX_glcman600_e	Glucomannan (n=600 repeat units, glc beta-1,4 man) exchange	glcman600_e <-> 				
+EX_glcman6_e	Glucomannan (n=6 repeat units, glc beta-1,4 man) exchange	glcman6_e <-> 				
 EX_glcn__D_e	D Gluconate exchange	glcn__D_e <-> 		bigg.reaction:EX_glcn_D_LPAREN_e_RPAREN_|bigg.reaction:EX_glcn_D_e_		
-EX_glcn_e	D-Gluconate exchange	glcn_e <-> 		bigg.reaction:EX_glcn(e)|bigg.reaction:EX_glcn[e]|bigg.reaction:EX_glcn_LPAREN_e_RPAREN_		
+EX_glcn_e	D-Gluconate exchange	glcn_e <-> 		bigg.reaction:EX_glcn[e]|bigg.reaction:EX_glcn_LPAREN_e_RPAREN_		
 EX_glcr_e	D-Glucarate exchange	glcr_e <-> 		bigg.reaction:EX_glcr[e]|bigg.reaction:EX_glcr_LPAREN_e_RPAREN_|bigg.reaction:EX_glcr_e_		
 EX_glcur1p_e	D-Glucuronate 1-phosphate exchange	glcur1p_e <-> 		bigg.reaction:EX_glcur1p_LPAREN_e_RPAREN_		
-EX_glcur_e	D-Glucuronate exchange	glcur_e <-> 		bigg.reaction:EX_glcur(e)|bigg.reaction:EX_glcur[e]|bigg.reaction:EX_glcur_LPAREN_e_RPAREN_|bigg.reaction:EX_glcur_e_		
+EX_glcur_e	D-Glucuronate exchange	glcur_e <-> 		bigg.reaction:EX_glcur[e]|bigg.reaction:EX_glcur_LPAREN_e_RPAREN_|bigg.reaction:EX_glcur_e_		
 EX_glgchlo_e	Exchange reaction for beta glucan-glycocholate complex	glgchlo_e <-> 		bigg.reaction:EX_glgchlo[e]|bigg.reaction:EX_glgchlo_e_		
-EX_gln__L_e	L-Glutamine exchange	gln__L_e <-> 		bigg.reaction:EX_gln-L(e)|bigg.reaction:EX_gln_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_gln_L|bigg.reaction:EX_gln_L[e]|bigg.reaction:EX_gln_L_LPAREN_e_RPAREN_|bigg.reaction:EX_gln_L_e|bigg.reaction:EX_gln_L_e_|bigg.reaction:EX_gln__L(e)		
+EX_gln__L_e	L-Glutamine exchange	gln__L_e <-> 		bigg.reaction:EX_gln_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_gln_L|bigg.reaction:EX_gln_L[e]|bigg.reaction:EX_gln_L_LPAREN_e_RPAREN_|bigg.reaction:EX_gln_L_e|bigg.reaction:EX_gln_L_e_		
 EX_glnasngln_e	Exchange of GlnAsnGln	glnasngln_e <-> 		bigg.reaction:EX_glnasngln[e]		
 EX_glnhishis_e	Exchange of GlnHisHis	glnhishis_e <-> 		bigg.reaction:EX_glnhishis[e]		
 EX_glnhislys_e	Exchange of GlnHisLys	glnhislys_e <-> 		bigg.reaction:EX_glnhislys[e]		
@@ -9051,13 +9051,13 @@ EX_glntyrleu_e	Exchange of GlntyrLeu	glntyrleu_e <-> 		bigg.reaction:EX_glntyrle
 EX_gltcho_e	Exchange reaction for beta glucan-taurocholic acid complex	gltcho_e <-> 		bigg.reaction:EX_gltcho[e]|bigg.reaction:EX_gltcho_e_		
 EX_gltdechol_e	Exchange reaction for beta glucan-taurodeoxycholic acid complex	gltdechol_e <-> 		bigg.reaction:EX_gltdechol[e]|bigg.reaction:EX_gltdechol_e_		
 EX_glu__D_e	D Glutamate exchange	glu__D_e <-> 		bigg.reaction:EX_glu_D_e_		
-EX_glu__L_e	L-Glutamate exchange	glu__L_e <-> 		bigg.reaction:EX_glu-L(e)|bigg.reaction:EX_glu_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_glu_DASH_L_e|bigg.reaction:EX_glu_L|bigg.reaction:EX_glu_L[e]|bigg.reaction:EX_glu_L_LPAREN_e_RPAREN_|bigg.reaction:EX_glu_L_e|bigg.reaction:EX_glu_L_e_		
+EX_glu__L_e	L-Glutamate exchange	glu__L_e <-> 		bigg.reaction:EX_glu_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_glu_DASH_L_e|bigg.reaction:EX_glu_L|bigg.reaction:EX_glu_L[e]|bigg.reaction:EX_glu_L_LPAREN_e_RPAREN_|bigg.reaction:EX_glu_L_e|bigg.reaction:EX_glu_L_e_		
 EX_gluala_e	5-L-Glutamyl-L-alanine exchange	gluala_e <-> 		bigg.reaction:EX_gluala[e]|bigg.reaction:EX_gluala_LPAREN_e_RPAREN_|bigg.reaction:EX_gluala_e_		
 EX_gluargleu_e	Exchange of GluArgLeu	gluargleu_e <-> 		bigg.reaction:EX_gluargleu[e]		
 EX_gluasnleu_e	Exchange of GluAsnLeu	gluasnleu_e <-> 		bigg.reaction:EX_gluasnleu[e]		
-EX_glucan1500_e	Beta-1,3/1,4-glucan (Barley, n=1500, Glc beta1->3,4 Glc) exchange	glucan1500_e <-> 		bigg.reaction:EX_glucan1500(e)		
-EX_glucan4_e	Beta-1,3/1,4-glucan (Barley, n=4, Glc beta1->3,4 Glc) exchange	glucan4_e <-> 		bigg.reaction:EX_glucan4(e)		
-EX_glucan6_e	Beta-1,3/1,4-glucan (Barley, n=6, Glc beta1->3,4 Glc) exchange	glucan6_e <-> 		bigg.reaction:EX_glucan6(e)		
+EX_glucan1500_e	Beta-1,3/1,4-glucan (Barley, n=1500, Glc beta1->3,4 Glc) exchange	glucan1500_e <-> 				
+EX_glucan4_e	Beta-1,3/1,4-glucan (Barley, n=4, Glc beta1->3,4 Glc) exchange	glucan4_e <-> 				
+EX_glucan6_e	Beta-1,3/1,4-glucan (Barley, n=6, Glc beta1->3,4 Glc) exchange	glucan6_e <-> 				
 EX_glucys_e	Exchange of Gamma-L-Glutamyl-L-Cysteine	glucys_e <-> 		bigg.reaction:EX_glucys[e]		
 EX_gluglu_e	Exchange of GluGlu	gluglu_e <-> 		bigg.reaction:EX_gluglu[e]		
 EX_gluilelys_e	Exchange of GluIleLys	gluilelys_e <-> 		bigg.reaction:EX_gluilelys[e]		
@@ -9074,7 +9074,7 @@ EX_glx_e	Glyoxylate exchange	glx_e <-> 		bigg.reaction:EX_glx[e]|bigg.reaction:E
 EX_gly_asn__L_e	Gly asn L exchange	gly_asn__L_e <-> 		bigg.reaction:EX_gly_asn_L_e_		
 EX_gly_asp__L_e	Gly asp L exchange	gly_asp__L_e <-> 		bigg.reaction:EX_gly_asp_L_e_		
 EX_gly_cys_e	Gly-cys exchange	gly_cys_e <-> 				
-EX_gly_e	Glycine exchange	gly_e <-> 		bigg.reaction:EX_gly|bigg.reaction:EX_gly(e)|bigg.reaction:EX_gly[e]|bigg.reaction:EX_gly_LPAREN_e_RPAREN_|bigg.reaction:EX_gly_e_		
+EX_gly_e	Glycine exchange	gly_e <-> 		bigg.reaction:EX_gly|bigg.reaction:EX_gly[e]|bigg.reaction:EX_gly_LPAREN_e_RPAREN_|bigg.reaction:EX_gly_e_		
 EX_gly_gln__L_e	Gly Gln exchange	gly_gln__L_e <-> 		bigg.reaction:EX_gly_gln_L_e_		
 EX_gly_glu__L_e	Gly glu L exchange	gly_glu__L_e <-> 		bigg.reaction:EX_gly_glu_L_e_		
 EX_gly_met__L_e	Gly Met exchange	gly_met__L_e <-> 		bigg.reaction:EX_gly_met_L_e_		
@@ -9083,14 +9083,14 @@ EX_gly_phe_e	Gly-Phe exchange	gly_phe_e <->
 EX_gly_pro__L_e	Gly pro L exchange	gly_pro__L_e <-> 		bigg.reaction:EX_gly__pro__L_e|bigg.reaction:EX_gly_pro_L_e_		
 EX_gly_tyr_e	Gly-tyr exchange	gly_tyr_e <-> 				
 EX_glyald_e	D-Glyceraldehyde exchange	glyald_e <-> 		bigg.reaction:EX_glyald[e]|bigg.reaction:EX_glyald_LPAREN_e_RPAREN_		
-EX_glyb_e	Glycine betaine exchange	glyb_e <-> 		bigg.reaction:EX_glyb|bigg.reaction:EX_glyb(e)|bigg.reaction:EX_glyb[e]|bigg.reaction:EX_glyb_LPAREN_e_RPAREN_|bigg.reaction:EX_glyb_e_		
+EX_glyb_e	Glycine betaine exchange	glyb_e <-> 		bigg.reaction:EX_glyb|bigg.reaction:EX_glyb[e]|bigg.reaction:EX_glyb_LPAREN_e_RPAREN_|bigg.reaction:EX_glyb_e_		
 EX_glyc2p_e	Glycerol 2-phosphate exchange	glyc2p_e <-> 		bigg.reaction:EX_glyc2p[e]|bigg.reaction:EX_glyc2p_LPAREN_e_RPAREN_		
-EX_glyc3p_e	Glycerol 3-phosphate exchange	glyc3p_e <-> 		bigg.reaction:EX_glyc3p|bigg.reaction:EX_glyc3p(e)|bigg.reaction:EX_glyc3p[e]|bigg.reaction:EX_glyc3p_LPAREN_e_RPAREN_|bigg.reaction:EX_glyc3p_e_		
+EX_glyc3p_e	Glycerol 3-phosphate exchange	glyc3p_e <-> 		bigg.reaction:EX_glyc3p|bigg.reaction:EX_glyc3p[e]|bigg.reaction:EX_glyc3p_LPAREN_e_RPAREN_|bigg.reaction:EX_glyc3p_e_		
 EX_glyc__R_e	(R)-Glycerate exchange	glyc__R_e <-> 		bigg.reaction:EX_glyc_DASH_R_LPAREN_e_RPAREN_|bigg.reaction:EX_glyc_R[e]|bigg.reaction:EX_glyc_R_LPAREN_e_RPAREN_|bigg.reaction:EX_glyc_R_e		
 EX_glyc__S_e	(S)-Glycerate exchange	glyc__S_e <-> 		bigg.reaction:EX_glyc_S[e]|bigg.reaction:EX_glyc_S_LPAREN_e_RPAREN_|bigg.reaction:EX_glyc_S_e_		
-EX_glyc_e	Glycerol exchange	glyc_e <-> 		bigg.reaction:EX_glyc|bigg.reaction:EX_glyc(e)|bigg.reaction:EX_glyc[e]|bigg.reaction:EX_glyc_LPAREN_e_RPAREN_|bigg.reaction:EX_glyc_e_		
+EX_glyc_e	Glycerol exchange	glyc_e <-> 		bigg.reaction:EX_glyc|bigg.reaction:EX_glyc[e]|bigg.reaction:EX_glyc_LPAREN_e_RPAREN_|bigg.reaction:EX_glyc_e_		
 EX_glyclt_e	Glycolate exchange	glyclt_e <-> 		bigg.reaction:EX_glyclt|bigg.reaction:EX_glyclt[e]|bigg.reaction:EX_glyclt_LPAREN_e_RPAREN_|bigg.reaction:EX_glyclt_e_		
-EX_glycogen1500_e	Glycogen (n=1500 repeat units) (glc alpha 1,4/6 glc) exchange	glycogen1500_e <-> 		bigg.reaction:EX_glycogen1500(e)		
+EX_glycogen1500_e	Glycogen (n=1500 repeat units) (glc alpha 1,4/6 glc) exchange	glycogen1500_e <-> 				
 EX_glycogen_e	Glycogen exchange	glycogen_e <-> 		bigg.reaction:EX_glycogen_e_		
 EX_glycol_e	Glycol exchange	glycol_e <-> 				
 EX_glygln_e	L glycinylglutamine exchange	glygln_e <-> 				
@@ -9137,9 +9137,9 @@ EX_gt1a_hs_e	GT1a (homo sapiens) exchange	gt1a_hs_e <-> 		bigg.reaction:EX_gt1a_
 EX_gt1b_hs_e	Exchange of Gt1B	gt1b_hs_e <-> 		bigg.reaction:EX_gt1b_hs[e]		
 EX_gtacmp_e	Exchange reaction for glucuronide-thiomethyl-acetaminophen conjugate in hepatic vein	gtacmp_e <-> 		bigg.reaction:EX_gtacmp[e]		
 EX_gthox_e	Oxidized glutathione exchange	gthox_e <-> 		bigg.reaction:EX_gthox[e]|bigg.reaction:EX_gthox_LPAREN_e_RPAREN_|bigg.reaction:EX_gthox_e_		
-EX_gthrd_e	Reduced glutathione exchange	gthrd_e <-> 		bigg.reaction:EX_gthrd|bigg.reaction:EX_gthrd(e)|bigg.reaction:EX_gthrd[e]|bigg.reaction:EX_gthrd_LPAREN_e_RPAREN_|bigg.reaction:EX_gthrd_e_		
+EX_gthrd_e	Reduced glutathione exchange	gthrd_e <-> 		bigg.reaction:EX_gthrd|bigg.reaction:EX_gthrd[e]|bigg.reaction:EX_gthrd_LPAREN_e_RPAREN_|bigg.reaction:EX_gthrd_e_		
 EX_gtp_e	GTP exchange	gtp_e <-> 		bigg.reaction:EX_gtp[e]|bigg.reaction:EX_gtp_LPAREN_e_RPAREN_|bigg.reaction:EX_gtp_e_		
-EX_gua_e	Guanine exchange	gua_e <-> 		bigg.reaction:EX_gua|bigg.reaction:EX_gua(e)|bigg.reaction:EX_gua[e]|bigg.reaction:EX_gua_LPAREN_e_RPAREN_|bigg.reaction:EX_gua_e_		
+EX_gua_e	Guanine exchange	gua_e <-> 		bigg.reaction:EX_gua|bigg.reaction:EX_gua[e]|bigg.reaction:EX_gua_LPAREN_e_RPAREN_|bigg.reaction:EX_gua_e_		
 EX_gudac_e	Exchange of Guanidinoacetic Acid	gudac_e <-> 		bigg.reaction:EX_gudac[e]		
 EX_gudca3s_e	EX gudca3s(e)	gudca3s_e <-> 		bigg.reaction:EX_gudca3s[e]		
 EX_gudptn_e	Delta Guanidinovaleric acid exchange	gudptn_e <-> 				
@@ -9148,13 +9148,13 @@ EX_gum_e	Exchange reaction for guar gums	gum_e <-> 		bigg.reaction:EX_gum[e]|big
 EX_gumdchac_e	Exchange reaction for guar gum-deoxyxholic acid complex	gumdchac_e <-> 		bigg.reaction:EX_gumdchac[e]|bigg.reaction:EX_gumdchac_e_		
 EX_gumgchol_e	Exchange reaction for guar gum-glycocholate complex	gumgchol_e <-> 		bigg.reaction:EX_gumgchol[e]|bigg.reaction:EX_gumgchol_e_		
 EX_gumtchol_e	Exchange reaction for guar gum-taurocholic acid complex	gumtchol_e <-> 		bigg.reaction:EX_gumtchol[e]|bigg.reaction:EX_gumtchol_e_		
-EX_h2_e	H2 exchange	h2_e <-> 		bigg.reaction:EX_h2|bigg.reaction:EX_h2(e)|bigg.reaction:EX_h2_LPAREN_e_RPAREN_		
+EX_h2_e	H2 exchange	h2_e <-> 		bigg.reaction:EX_h2|bigg.reaction:EX_h2_LPAREN_e_RPAREN_		
 EX_h2co3_e	EX h2co3 LPAREN e RPAREN 	h2co3_e <-> 		bigg.reaction:EX_h2co3|bigg.reaction:EX_h2co3[e]|bigg.reaction:EX_h2co3_LPAREN_e_RPAREN_		
 EX_h2o2_e	Hydrogen peroxide exchange	h2o2_e <-> 		bigg.reaction:EX_h2o2[e]|bigg.reaction:EX_h2o2_LPAREN_e_RPAREN_|bigg.reaction:EX_h2o2_e_		
-EX_h2o_e	H2O exchange	h2o_e <-> 		bigg.reaction:EX_h2o|bigg.reaction:EX_h2o(e)|bigg.reaction:EX_h2o[e]|bigg.reaction:EX_h2o_LPAREN_e_RPAREN_|bigg.reaction:EX_h2o_e_		
-EX_h2s_e	Hydrogen sulfide exchange	h2s_e <-> 		bigg.reaction:EX_h2s|bigg.reaction:EX_h2s(e)|bigg.reaction:EX_h2s_LPAREN_e_RPAREN_		
+EX_h2o_e	H2O exchange	h2o_e <-> 		bigg.reaction:EX_h2o|bigg.reaction:EX_h2o[e]|bigg.reaction:EX_h2o_LPAREN_e_RPAREN_|bigg.reaction:EX_h2o_e_		
+EX_h2s_e	Hydrogen sulfide exchange	h2s_e <-> 		bigg.reaction:EX_h2s|bigg.reaction:EX_h2s_LPAREN_e_RPAREN_		
 EX_hLkynr_e	Exchange 	hLkynr_e <-> 		bigg.reaction:EX_hLkynr[e]		
-EX_h_e	H+ exchange	h_e <-> 		bigg.reaction:EX_h|bigg.reaction:EX_h(e)|bigg.reaction:EX_h[e]|bigg.reaction:EX_h_LPAREN_e_RPAREN_|bigg.reaction:EX_h_e_		
+EX_h_e	H+ exchange	h_e <-> 		bigg.reaction:EX_h|bigg.reaction:EX_h[e]|bigg.reaction:EX_h_LPAREN_e_RPAREN_|bigg.reaction:EX_h_e_		
 EX_ha_e	Hyaluronan exchange	ha_e <-> 		bigg.reaction:EX_ha[e]|bigg.reaction:EX_ha_LPAREN_e_RPAREN_|bigg.reaction:EX_ha_e_		
 EX_ha_pre1_e	Hyaluronan biosynthesis, precursor 1 exchange	ha_pre1_e <-> 		bigg.reaction:EX_ha_pre1[e]|bigg.reaction:EX_ha_pre1_LPAREN_e_RPAREN_|bigg.reaction:EX_ha_pre1_e_		
 EX_hacolipa_e	Hepta-acylated core oligosaccharide lipid A (E. coli) exchange	hacolipa_e <-> 		bigg.reaction:EX_hacolipa_LPAREN_e_RPAREN_		
@@ -9162,7 +9162,7 @@ EX_halipa_e	Hepta-acylated KDO(2)-lipid (A) exchange	halipa_e <-> 		bigg.reactio
 EX_ham_e		ham_e <-> 				
 EX_hca24g_e	EX hca24g(e)	hca24g_e <-> 		bigg.reaction:EX_hca24g[e]		
 EX_hca6g_e	EX hca6g(e)	hca6g_e <-> 		bigg.reaction:EX_hca6g[e]		
-EX_hco3_e	EX hco3 LPAREN e RPAREN 	hco3_e <-> 		bigg.reaction:EX_hco3(e)|bigg.reaction:EX_hco3[e]|bigg.reaction:EX_hco3_LPAREN_e_RPAREN_|bigg.reaction:EX_hco3_e_		
+EX_hco3_e	EX hco3 LPAREN e RPAREN 	hco3_e <-> 		bigg.reaction:EX_hco3[e]|bigg.reaction:EX_hco3_LPAREN_e_RPAREN_|bigg.reaction:EX_hco3_e_		
 EX_hcoumarin_e	Hydroxy coumarin exchange	hcoumarin_e <-> 		bigg.reaction:EX_hcoumarin[e]|bigg.reaction:EX_hcoumarin_LPAREN_e_RPAREN_|bigg.reaction:EX_hcoumarin_e_		
 EX_hcys__L_e	L-homocysteine exchange	hcys__L_e <-> 		bigg.reaction:EX_hcys_L[e]|bigg.reaction:EX_hcyst_DASH_L_LPAREN_e_RPAREN_		
 EX_hdca24g_e	EX hdca24g(e)	hdca24g_e <-> 		bigg.reaction:EX_hdca24g[e]		
@@ -9185,7 +9185,7 @@ EX_hexs_e	Hexanesulfonate exchange	hexs_e <-> 		bigg.reaction:EX_hexs_e_
 EX_hg2_e	Hg2+ exchange	hg2_e <-> 		bigg.reaction:EX_hg2_LPAREN_e_RPAREN_|bigg.reaction:EX_hg2_e_		
 EX_hgentis_e	Exchange of Homogentisate	hgentis_e <-> 		bigg.reaction:EX_hgentis[e]		
 EX_hia_e		hia_e <-> 		bigg.reaction:EX_hia		
-EX_his__L_e	L-Histidine exchange	his__L_e <-> 		bigg.reaction:EX_his-L(e)|bigg.reaction:EX_his_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_his_L|bigg.reaction:EX_his_L[e]|bigg.reaction:EX_his_L_LPAREN_e_RPAREN_|bigg.reaction:EX_his_L_e|bigg.reaction:EX_his_L_e_|bigg.reaction:EX_his__L(e)		
+EX_his__L_e	L-Histidine exchange	his__L_e <-> 		bigg.reaction:EX_his_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_his_L|bigg.reaction:EX_his_L[e]|bigg.reaction:EX_his_L_LPAREN_e_RPAREN_|bigg.reaction:EX_his_L_e|bigg.reaction:EX_his_L_e_		
 EX_hisargcys_e	Exchange of HisArgCys	hisargcys_e <-> 		bigg.reaction:EX_hisargcys[e]		
 EX_hisargser_e	Exchange of HisArgSer	hisargser_e <-> 		bigg.reaction:EX_hisargser[e]		
 EX_hisasp_e	Exchange of HisAsp	hisasp_e <-> 		bigg.reaction:EX_hisasp[e]		
@@ -9221,7 +9221,7 @@ EX_hretn_e	EX hretn[e]	hretn_e <-> 		bigg.reaction:EX_hretn[e]
 EX_hspg_e	Heparan sulfate proteoglycan exchange	hspg_e <-> 		bigg.reaction:EX_chopg_e_|bigg.reaction:EX_hspg[e]|bigg.reaction:EX_hspg_LPAREN_e_RPAREN_		
 EX_htaxol_e	Hydroxylated taxol exchange	htaxol_e <-> 		bigg.reaction:EX_htaxol[e]|bigg.reaction:EX_htaxol_LPAREN_e_RPAREN_|bigg.reaction:EX_htaxol_e_		
 EX_hxa_e	Hexanoate (n-C6:0) exchange	hxa_e <-> 		bigg.reaction:EX_hxa[e]|bigg.reaction:EX_hxa_LPAREN_e_RPAREN_		
-EX_hxan_e	Hypoxanthine exchange	hxan_e <-> 		bigg.reaction:EX_hxan(e)|bigg.reaction:EX_hxan[e]|bigg.reaction:EX_hxan_LPAREN_e_RPAREN_|bigg.reaction:EX_hxan_e_		
+EX_hxan_e	Hypoxanthine exchange	hxan_e <-> 		bigg.reaction:EX_hxan[e]|bigg.reaction:EX_hxan_LPAREN_e_RPAREN_|bigg.reaction:EX_hxan_e_		
 EX_hxcoa_e	Exchange of Hexanoate	hxcoa_e <-> 		bigg.reaction:EX_hxcoa[e]		
 EX_hyochol_e	EX hyochol(e)	hyochol_e <-> 		bigg.reaction:EX_hyochol[e]		
 EX_hyptaur_e	Exchange of hypotaurine	hyptaur_e <-> 		bigg.reaction:EX_hyptaur[e]|bigg.reaction:EX_hyptaur_e_		
@@ -9242,7 +9242,7 @@ EX_idl_hs_e	Exchange of IDL Hs	idl_hs_e <-> 		bigg.reaction:EX_idl_hs[e]
 EX_idon__L_e	L-Idonate exchange	idon__L_e <-> 		bigg.reaction:EX_idon_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_idon_L_LPAREN_e_RPAREN_|bigg.reaction:EX_idon_L_e		
 EX_idour_e	Exchange of L-iduronate	idour_e <-> 		bigg.reaction:EX_idour[e]|bigg.reaction:EX_idour_e_		
 EX_idp_e	IDP exchange	idp_e <-> 		bigg.reaction:EX_idp[e]|bigg.reaction:EX_idp_LPAREN_e_RPAREN_|bigg.reaction:EX_idp_e_		
-EX_ile__L_e	L-Isoleucine exchange	ile__L_e <-> 		bigg.reaction:EX_ile-L(e)|bigg.reaction:EX_ile_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_ile_L|bigg.reaction:EX_ile_L(e)|bigg.reaction:EX_ile_L[e]|bigg.reaction:EX_ile_L_LPAREN_e_RPAREN_|bigg.reaction:EX_ile_L_e|bigg.reaction:EX_ile_L_e_|bigg.reaction:EX_ile__L(e)		
+EX_ile__L_e	L-Isoleucine exchange	ile__L_e <-> 		bigg.reaction:EX_ile_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_ile_L|bigg.reaction:EX_ile_L[e]|bigg.reaction:EX_ile_L_LPAREN_e_RPAREN_|bigg.reaction:EX_ile_L_e|bigg.reaction:EX_ile_L_e_		
 EX_ileargile_e	Exchange of IleArgIle	ileargile_e <-> 		bigg.reaction:EX_ileargile[e]		
 EX_ileasnhis_e	Exchange of IleAsnHis	ileasnhis_e <-> 		bigg.reaction:EX_ileasnhis[e]		
 EX_ileasp_e	Exchange of IleAsp	ileasp_e <-> 		bigg.reaction:EX_ileasp[e]		
@@ -9256,7 +9256,7 @@ EX_imp_e	IMP exchange	imp_e <-> 		bigg.reaction:EX_imp[e]|bigg.reaction:EX_imp_L
 EX_ind3ac_e	EX ind3ac LPAREN e RPAREN 	ind3ac_e <-> 		bigg.reaction:EX_ind3ac[e]|bigg.reaction:EX_ind3ac_LPAREN_e_RPAREN_		
 EX_ind3eth_e	Indole 3 ethanol exchange	ind3eth_e <-> 		bigg.reaction:EX_ind3eth_e_		
 EX_indole_e	Indole exchange	indole_e <-> 		bigg.reaction:EX_indole_LPAREN_e_RPAREN_		
-EX_inost_e	Myo-Inositol exchange	inost_e <-> 		bigg.reaction:EX_inost(e)|bigg.reaction:EX_inost[e]|bigg.reaction:EX_inost_LPAREN_e_RPAREN_|bigg.reaction:EX_inost_e_		
+EX_inost_e	Myo-Inositol exchange	inost_e <-> 		bigg.reaction:EX_inost[e]|bigg.reaction:EX_inost_LPAREN_e_RPAREN_|bigg.reaction:EX_inost_e_		
 EX_ins_e	Inosine exchange	ins_e <-> 		bigg.reaction:EX_ins[e]|bigg.reaction:EX_ins_LPAREN_e_RPAREN_|bigg.reaction:EX_ins_e_		
 EX_isetac_e	Isethionic acid exchange	isetac_e <-> 		bigg.reaction:EX_isetac_LPAREN_e_RPAREN_		
 EX_isobuta_e		isobuta_e <-> 				
@@ -9271,7 +9271,7 @@ EX_itacon_e	EX itacon[e]	itacon_e <-> 		bigg.reaction:EX_itacon[e]
 EX_itp_e	Exchange of ITP	itp_e <-> 		bigg.reaction:EX_itp[e]		
 EX_ival_e		ival_e <-> 				
 EX_ivcrn_e	Exchange reaction for isovaleryl carnitine	ivcrn_e <-> 		bigg.reaction:EX_ivcrn|bigg.reaction:EX_ivcrn[e]		
-EX_k_e	K+ exchange	k_e <-> 		bigg.reaction:EX_k|bigg.reaction:EX_k(e)|bigg.reaction:EX_k[e]|bigg.reaction:EX_k_LPAREN_e_RPAREN_|bigg.reaction:EX_k_e_		
+EX_k_e	K+ exchange	k_e <-> 		bigg.reaction:EX_k|bigg.reaction:EX_k[e]|bigg.reaction:EX_k_LPAREN_e_RPAREN_|bigg.reaction:EX_k_e_		
 EX_kdn_e	EX kdn[e]	kdn_e <-> 		bigg.reaction:EX_kdn[e]		
 EX_kdo2lipid4_e	KDO(2)-lipid IV(A) exchange	kdo2lipid4_e <-> 		bigg.reaction:EX_kdo2lipid4_LPAREN_e_RPAREN_		
 EX_kdo2lipid4b_e	KDO(2)-lipid IV(B) exchange	kdo2lipid4b_e <-> 				
@@ -9281,18 +9281,18 @@ EX_ksi_e	Keratan sulfate I exchange	ksi_e <-> 		bigg.reaction:EX_ksi[e]|bigg.rea
 EX_ksii_core2_e	Keratan sulfate II (core 2-linked) exchange	ksii_core2_e <-> 		bigg.reaction:EX_ksii_core2[e]|bigg.reaction:EX_ksii_core2_LPAREN_e_RPAREN_|bigg.reaction:EX_ksii_core2_e_		
 EX_ksii_core4_e	Keratan sulfate II (core 4-linked) exchange	ksii_core4_e <-> 		bigg.reaction:EX_ksii_core4[e]|bigg.reaction:EX_ksii_core4_LPAREN_e_RPAREN_|bigg.reaction:EX_ksii_core4_e_		
 EX_kynate_e	Exchange of Kynurenic Acid	kynate_e <-> 		bigg.reaction:EX_kynate[e]		
-EX_lac__D_e	D-lactate exchange	lac__D_e <-> 		bigg.reaction:EX_lac-D(e)|bigg.reaction:EX_lac_DASH_D_LPAREN_e_RPAREN_|bigg.reaction:EX_lac_D[e]|bigg.reaction:EX_lac_D_LPAREN_e_RPAREN_|bigg.reaction:EX_lac_D_e|bigg.reaction:EX_lac_D_e_|bigg.reaction:EX_lac_d_e		
-EX_lac__L_e	L-Lactate exchange	lac__L_e <-> 		bigg.reaction:EX_lac-L(e)|bigg.reaction:EX_lac_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_lac_L|bigg.reaction:EX_lac_L(e)|bigg.reaction:EX_lac_L[e]|bigg.reaction:EX_lac_L_LPAREN_e_RPAREN_|bigg.reaction:EX_lac_L_e|bigg.reaction:EX_lac_L_e_		
+EX_lac__D_e	D-lactate exchange	lac__D_e <-> 		bigg.reaction:EX_lac_DASH_D_LPAREN_e_RPAREN_|bigg.reaction:EX_lac_D[e]|bigg.reaction:EX_lac_D_LPAREN_e_RPAREN_|bigg.reaction:EX_lac_D_e|bigg.reaction:EX_lac_D_e_|bigg.reaction:EX_lac_d_e		
+EX_lac__L_e	L-Lactate exchange	lac__L_e <-> 		bigg.reaction:EX_lac_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_lac_L|bigg.reaction:EX_lac_L[e]|bigg.reaction:EX_lac_L_LPAREN_e_RPAREN_|bigg.reaction:EX_lac_L_e|bigg.reaction:EX_lac_L_e_		
 EX_lanost_e	Lanosterol exchange	lanost_e <-> 		bigg.reaction:EX_lanost[e]|bigg.reaction:EX_lanost_e_		
 EX_lanostest_SC_e	Lanosterol ester  yeast specific exchange	lanostest_SC_e <-> 		bigg.reaction:EX_lanostest_SC_e_		
 EX_lanth_e	Lanthionine exchange	lanth_e <-> 		bigg.reaction:EX_lanth_e_		
 EX_lca24g_e	EX lca24g(e)	lca24g_e <-> 		bigg.reaction:EX_lca24g[e]		
 EX_lca3g_e	EX lca3g(e)	lca3g_e <-> 		bigg.reaction:EX_lca3g[e]		
 EX_lca3s_e	EX lca3s(e)	lca3s_e <-> 		bigg.reaction:EX_lca3s[e]		
-EX_lcts_e	Lactose exchange	lcts_e <-> 		bigg.reaction:EX_lcts|bigg.reaction:EX_lcts(e)|bigg.reaction:EX_lcts[e]|bigg.reaction:EX_lcts_LPAREN_e_RPAREN_|bigg.reaction:EX_lcts_e_		
+EX_lcts_e	Lactose exchange	lcts_e <-> 		bigg.reaction:EX_lcts|bigg.reaction:EX_lcts[e]|bigg.reaction:EX_lcts_LPAREN_e_RPAREN_|bigg.reaction:EX_lcts_e_		
 EX_ldl_hs_e	Exchange of LDL Hs	ldl_hs_e <-> 		bigg.reaction:EX_ldl_hs[e]		
 EX_leu__D_e	D Leucine exchange	leu__D_e <-> 				
-EX_leu__L_e	L-Leucine exchange	leu__L_e <-> 		bigg.reaction:EX_leu-L(e)|bigg.reaction:EX_leu_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_leu_L|bigg.reaction:EX_leu_L(e)|bigg.reaction:EX_leu_L[e]|bigg.reaction:EX_leu_L_LPAREN_e_RPAREN_|bigg.reaction:EX_leu_L_e|bigg.reaction:EX_leu_L_e_|bigg.reaction:EX_leu__L(e)		
+EX_leu__L_e	L-Leucine exchange	leu__L_e <-> 		bigg.reaction:EX_leu_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_leu_L|bigg.reaction:EX_leu_L[e]|bigg.reaction:EX_leu_L_LPAREN_e_RPAREN_|bigg.reaction:EX_leu_L_e|bigg.reaction:EX_leu_L_e_		
 EX_leualaarg_e	Exchange of LeuAlaArg	leualaarg_e <-> 		bigg.reaction:EX_leualaarg[e]		
 EX_leuasnasp_e	Exchange of LeuAsnAsp	leuasnasp_e <-> 		bigg.reaction:EX_leuasnasp[e]		
 EX_leuasplys_e	Exchange of LeuAspLys	leuasplys_e <-> 		bigg.reaction:EX_leuasplys[e]		
@@ -9325,8 +9325,8 @@ EX_lipb_e	KDO(2)-lipid (B) exchange	lipb_e <->
 EX_lipidA_core_e	 core lipidA exchange	lipidA_core_e <-> 		bigg.reaction:EX_lipidA_core_e_		
 EX_lipoate_e	Lipoate exchange	lipoate_e <-> 		bigg.reaction:EX_lipoate[e]|bigg.reaction:EX_lipoate_LPAREN_e_RPAREN_|bigg.reaction:EX_lipoate_e_		
 EX_lipt_e	Lipoate exchange	lipt_e <-> 		bigg.reaction:EX_lipt_e_		
-EX_lmn2_e	Laminaribiose exchange	lmn2_e <-> 		bigg.reaction:EX_lmnrib(e)		
-EX_lmn30_e	Laminarin (n=30 repeat units, beta -1,3 glc) exchange	lmn30_e <-> 		bigg.reaction:EX_lmn30(e)		
+EX_lmn2_e	Laminaribiose exchange	lmn2_e <-> 				
+EX_lmn30_e	Laminarin (n=30 repeat units, beta -1,3 glc) exchange	lmn30_e <-> 				
 EX_lneldc_e	Linoelaidic acid exchange	lneldc_e <-> 		bigg.reaction:EX_lneldc[e]|bigg.reaction:EX_lneldc_LPAREN_e_RPAREN_|bigg.reaction:EX_lneldc_e_		
 EX_lneldccrn_e	Exchange of 6Z,9Z-Octadecadienoylcarnitine	lneldccrn_e <-> 		bigg.reaction:EX_lneldccrn[e]		
 EX_lnlc_e	Linoleic acid (all cis C18:2) exchange	lnlc_e <-> 		bigg.reaction:EX_lnlc[e]|bigg.reaction:EX_lnlc_LPAREN_e_RPAREN_|bigg.reaction:EX_lnlc_dup_e|bigg.reaction:EX_lnlc_e_		
@@ -9349,7 +9349,7 @@ EX_lthstrl_e	Exchange of Lathosterol	lthstrl_e <-> 		bigg.reaction:EX_lthstrl[e]
 EX_lvst_e	Exchange reaction for lovastatin in intestinal lumen	lvst_e <-> 		bigg.reaction:EX_lvst[e]		
 EX_lvstacid_e	EX lvstacid(e)	lvstacid_e <-> 		bigg.reaction:EX_lvstacid[e]		
 EX_lys__D_e	D Lysine exchange	lys__D_e <-> 				
-EX_lys__L_e	L-Lysine exchange	lys__L_e <-> 		bigg.reaction:EX_lys-L(e)|bigg.reaction:EX_lys_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_lys_L|bigg.reaction:EX_lys_L[e]|bigg.reaction:EX_lys_L_LPAREN_e_RPAREN_|bigg.reaction:EX_lys_L_e|bigg.reaction:EX_lys_L_e_|bigg.reaction:EX_lys__L(e)		
+EX_lys__L_e	L-Lysine exchange	lys__L_e <-> 		bigg.reaction:EX_lys_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_lys_L|bigg.reaction:EX_lys_L[e]|bigg.reaction:EX_lys_L_LPAREN_e_RPAREN_|bigg.reaction:EX_lys_L_e|bigg.reaction:EX_lys_L_e_		
 EX_lysargleu_e	Exchange of LysArgLeu	lysargleu_e <-> 		bigg.reaction:EX_lysargleu[e]		
 EX_lyscyshis_e	Exchange of LysCysHis	lyscyshis_e <-> 		bigg.reaction:EX_lyscyshis[e]		
 EX_lysglnphe_e	Exchange of LysGlnPhe	lysglnphe_e <-> 		bigg.reaction:EX_lysglnphe[e]		
@@ -9376,27 +9376,27 @@ EX_magste_hs_e	Exchange of 1-Stearoylglycerol	magste_hs_e <-> 		bigg.reaction:EX
 EX_mal__D_e	D-Malate exchange	mal__D_e <-> 		bigg.reaction:EX_mal_DASH_D_LPAREN_e_RPAREN_|bigg.reaction:EX_mal_D_LPAREN_e_RPAREN_|bigg.reaction:EX_mal_D_e|bigg.reaction:EX_mal_D_e_		
 EX_mal__L_e	L-Malate exchange	mal__L_e <-> 		bigg.reaction:EX_mal_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_mal_L|bigg.reaction:EX_mal_L[e]|bigg.reaction:EX_mal_L_LPAREN_e_RPAREN_|bigg.reaction:EX_mal_L_e|bigg.reaction:EX_mal_L_e_		
 EX_malcoa_e	Malonyl-CoA(4-) exchange	malcoa_e <-> 		bigg.reaction:EX_malcoa[e]|bigg.reaction:EX_malcoa_e_		
-EX_malt_e	Maltose exchange	malt_e <-> 		bigg.reaction:EX_malt|bigg.reaction:EX_malt(e)|bigg.reaction:EX_malt[e]|bigg.reaction:EX_malt_LPAREN_e_RPAREN_|bigg.reaction:EX_malt_e_		
+EX_malt_e	Maltose exchange	malt_e <-> 		bigg.reaction:EX_malt|bigg.reaction:EX_malt[e]|bigg.reaction:EX_malt_LPAREN_e_RPAREN_|bigg.reaction:EX_malt_e_		
 EX_malthp_e	EX malthp LPAREN e RPAREN 	malthp_e <-> 		bigg.reaction:EX_malthp|bigg.reaction:EX_malthp[e]|bigg.reaction:EX_malthp_LPAREN_e_RPAREN_|bigg.reaction:EX_malthp_e_		
-EX_malthx_e	Maltohexaose exchange	malthx_e <-> 		bigg.reaction:EX_malthx(e)|bigg.reaction:EX_malthx[e]|bigg.reaction:EX_malthx_LPAREN_e_RPAREN_|bigg.reaction:EX_malthx_e_		
+EX_malthx_e	Maltohexaose exchange	malthx_e <-> 		bigg.reaction:EX_malthx[e]|bigg.reaction:EX_malthx_LPAREN_e_RPAREN_|bigg.reaction:EX_malthx_e_		
 EX_maltpt_e	Maltopentaose exchange	maltpt_e <-> 		bigg.reaction:EX_maltpt[e]|bigg.reaction:EX_maltpt_LPAREN_e_RPAREN_|bigg.reaction:EX_maltpt_e_		
-EX_malttr_e	Maltotriose exchange	malttr_e <-> 		bigg.reaction:EX_malttr(e)|bigg.reaction:EX_malttr[e]|bigg.reaction:EX_malttr_LPAREN_e_RPAREN_|bigg.reaction:EX_malttr_e_		
-EX_maltttr_e	Maltotetraose exchange	maltttr_e <-> 		bigg.reaction:EX_maltttr(e)|bigg.reaction:EX_maltttr[e]|bigg.reaction:EX_maltttr_LPAREN_e_RPAREN_|bigg.reaction:EX_maltttr_e_		
+EX_malttr_e	Maltotriose exchange	malttr_e <-> 		bigg.reaction:EX_malttr[e]|bigg.reaction:EX_malttr_LPAREN_e_RPAREN_|bigg.reaction:EX_malttr_e_		
+EX_maltttr_e	Maltotetraose exchange	maltttr_e <-> 		bigg.reaction:EX_maltttr[e]|bigg.reaction:EX_maltttr_LPAREN_e_RPAREN_|bigg.reaction:EX_maltttr_e_		
 EX_man1p_e	D Mannose 1 phosphate exchange	man1p_e <-> 		bigg.reaction:EX_man1p_e_		
 EX_man6p_e	D-Mannose 6-phosphate exchange	man6p_e <-> 		bigg.reaction:EX_man6p_LPAREN_e_RPAREN_|bigg.reaction:EX_man6p_e_		
 EX_man6pglyc_e		man6pglyc_e <-> 				
-EX_man_e	D-Mannose exchange	man_e <-> 		bigg.reaction:EX_man(e)|bigg.reaction:EX_man[e]|bigg.reaction:EX_man_LPAREN_e_RPAREN_|bigg.reaction:EX_man_e_		
-EX_manb_e	Mannobiose (beta-1,4) exchange	manb_e <-> 		bigg.reaction:EX_manb(e)		
+EX_man_e	D-Mannose exchange	man_e <-> 		bigg.reaction:EX_man[e]|bigg.reaction:EX_man_LPAREN_e_RPAREN_|bigg.reaction:EX_man_e_		
+EX_manb_e	Mannobiose (beta-1,4) exchange	manb_e <-> 				
 EX_manglyc_e	2(alpha-D-Mannosyl)-D-glycerate exchange	manglyc_e <-> 		bigg.reaction:EX_manglyc_LPAREN_e_RPAREN_		
-EX_mantr_e	Mannotriose (beta-1,4) exchange	mantr_e <-> 		bigg.reaction:EX_mantr(e)		
-EX_manttr_e	Mannotetraose exchange	manttr_e <-> 		bigg.reaction:EX_manttr(e)		
+EX_mantr_e	Mannotriose (beta-1,4) exchange	mantr_e <-> 				
+EX_manttr_e	Mannotetraose exchange	manttr_e <-> 				
 EX_manur_e	D Mannuronate exchange	manur_e <-> 				
 EX_mbdg_e	Beta Methylglucoside exchange	mbdg_e <-> 		bigg.reaction:EX_mbdg_e_		
 EX_mcbtt_e	Mycobactin T exchange	mcbtt_e <-> 				
 EX_mdz_e	Exchange reaction for midazolam in intestinal lumen	mdz_e <-> 		bigg.reaction:EX_mdz[e]		
 EX_mdzglc_e	Exchange reaction for midazolam-glucuronide in hepatic vein	mdzglc_e <-> 		bigg.reaction:EX_mdzglc[e]		
 EX_melatn_e	Exchange of Melatonine	melatn_e <-> 		bigg.reaction:EX_melatn[e]		
-EX_melib_e	Melibiose exchange	melib_e <-> 		bigg.reaction:EX_melib(e)|bigg.reaction:EX_melib_LPAREN_e_RPAREN_|bigg.reaction:EX_melib_e_		
+EX_melib_e	Melibiose exchange	melib_e <-> 		bigg.reaction:EX_melib_LPAREN_e_RPAREN_|bigg.reaction:EX_melib_e_		
 EX_mem2emgacpail_prot_hs_e	HMR 9712	mem2emgacpail_prot_hs_e <-> 		bigg.reaction:sink_xolest2_hs[l]		
 EX_meoh_e	Methanol exchange	meoh_e <-> 		bigg.reaction:EX_meoh|bigg.reaction:EX_meoh[e]|bigg.reaction:EX_meoh_LPAREN_e_RPAREN_|bigg.reaction:EX_meoh_e_		
 EX_mepi_e	Metanephrine exchange	mepi_e <-> 		bigg.reaction:EX_mepi[e]|bigg.reaction:EX_mepi_LPAREN_e_RPAREN_|bigg.reaction:EX_mepi_e_		
@@ -9405,7 +9405,7 @@ EX_meracmp_e	Exchange reaction for acetaminophen-mercapturate-conjugate in porta
 EX_mercplaccys_e	3-mercaptolactate-cysteine disulfide exchange	mercplaccys_e <-> 		bigg.reaction:EX_mercplaccys[e]|bigg.reaction:EX_mercplaccys_LPAREN_e_RPAREN_|bigg.reaction:EX_mercplaccys_e_		
 EX_met_L_ala__L_e	Met L ala L exchange	met_L_ala__L_e <-> 		bigg.reaction:EX_met_L_ala_L_e_|bigg.reaction:EX_met__L_ala__L_e		
 EX_met__D_e	D-Methionine exchange	met__D_e <-> 		bigg.reaction:EX_met_DASH_D_LPAREN_e_RPAREN_|bigg.reaction:EX_met_D_LPAREN_e_RPAREN_|bigg.reaction:EX_met_D_e|bigg.reaction:EX_met_D_e_		
-EX_met__L_e	L-Methionine exchange	met__L_e <-> 		bigg.reaction:EX_met-L(e)|bigg.reaction:EX_met_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_met_L|bigg.reaction:EX_met_L[e]|bigg.reaction:EX_met_L_LPAREN_e_RPAREN_|bigg.reaction:EX_met_L_e|bigg.reaction:EX_met_L_e_|bigg.reaction:EX_met__L(e)		
+EX_met__L_e	L-Methionine exchange	met__L_e <-> 		bigg.reaction:EX_met_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_met_L|bigg.reaction:EX_met_L[e]|bigg.reaction:EX_met_L_LPAREN_e_RPAREN_|bigg.reaction:EX_met_L_e|bigg.reaction:EX_met_L_e_		
 EX_metargleu_e	Exchange of MetArgLeu	metargleu_e <-> 		bigg.reaction:EX_metargleu[e]		
 EX_metasntyr_e	Exchange of MetAsntyr	metasntyr_e <-> 		bigg.reaction:EX_metasntyr[e]		
 EX_metglcur_e	1-O-methyl-Beta-D-glucuronate exchange	metglcur_e <-> 				
@@ -9422,7 +9422,7 @@ EX_metsox_S__L_e	L-Methionine S-oxide exchange	metsox_S__L_e <-> 		bigg.reaction
 EX_mettrpphe_e	Exchange of MetTrpPhe	mettrpphe_e <-> 		bigg.reaction:EX_mettrpphe[e]		
 EX_mevR_e		mevR_e <-> 				
 EX_mev__R_e	Exchange of (R)-Mevalonate	mev__R_e <-> 		bigg.reaction:EX_mev_R[e]		
-EX_mg2_e	Mg exchange	mg2_e <-> 		bigg.reaction:EX_mg2|bigg.reaction:EX_mg2(e)|bigg.reaction:EX_mg2_LPAREN_e_RPAREN_|bigg.reaction:EX_mg2_e_		
+EX_mg2_e	Mg exchange	mg2_e <-> 		bigg.reaction:EX_mg2|bigg.reaction:EX_mg2_LPAREN_e_RPAREN_|bigg.reaction:EX_mg2_e_		
 EX_mhglz_e	Exchange reaction for Methyl-hydroxy-gliclazide in hepatic vein	mhglz_e <-> 		bigg.reaction:EX_mhglz[e]		
 EX_mhista_e	Exchange of N(Tele)-Methylhistaminium	mhista_e <-> 		bigg.reaction:EX_mhista[e]		
 EX_mi1p__D_e	Exchange of Myo-Inositol 1-Phosphate	mi1p__D_e <-> 		bigg.reaction:EX_mi1p_D[e]		
@@ -9431,11 +9431,11 @@ EX_minohp_e	Myo-Inositol hexakisphosphate exchange	minohp_e <-> 		bigg.reaction:
 EX_mlthf_e	Exchange of 5,10-Methylenetetrahydrofolate	mlthf_e <-> 		bigg.reaction:EX_mlthf[e]		
 EX_mma_e	EX mma LPAREN e RPAREN 	mma_e <-> 		bigg.reaction:EX_mma[e]|bigg.reaction:EX_mma_LPAREN_e_RPAREN_		
 EX_mmet_e	S-Methyl-L-methionine exchange	mmet_e <-> 		bigg.reaction:EX_mmet_LPAREN_e_RPAREN_|bigg.reaction:EX_mmet_e_		
-EX_mn2_e	Mn2+ exchange	mn2_e <-> 		bigg.reaction:EX_mn2|bigg.reaction:EX_mn2(e)|bigg.reaction:EX_mn2_LPAREN_e_RPAREN_|bigg.reaction:EX_mn2_e_		
+EX_mn2_e	Mn2+ exchange	mn2_e <-> 		bigg.reaction:EX_mn2|bigg.reaction:EX_mn2_LPAREN_e_RPAREN_|bigg.reaction:EX_mn2_e_		
 EX_mn4_e	Mn4+ exchange	mn4_e <-> 				
 EX_mnl1p_e	D-Mannitol 1-phosphate exchange	mnl1p_e <-> 				
 EX_mnl_e	D-Mannitol exchange	mnl_e <-> 		bigg.reaction:EX_mnl_LPAREN_e_RPAREN_|bigg.reaction:EX_mnl_e_		
-EX_mobd_e	Molybdate exchange	mobd_e <-> 		bigg.reaction:EX_mobd|bigg.reaction:EX_mobd(e)|bigg.reaction:EX_mobd_LPAREN_e_RPAREN_|bigg.reaction:EX_mobd_e_		
+EX_mobd_e	Molybdate exchange	mobd_e <-> 		bigg.reaction:EX_mobd|bigg.reaction:EX_mobd_LPAREN_e_RPAREN_|bigg.reaction:EX_mobd_e_		
 EX_mops_e	MOPS exchange	mops_e <-> 		bigg.reaction:EX_mops_e_		
 EX_mqn10_e	Exchange of Menaquinone 10 	mqn10_e <-> 		bigg.reaction:EX_mqn10[e]		
 EX_mqn11_e	Exchange of Menaquinone 11 	mqn11_e <-> 		bigg.reaction:EX_mqn11[e]		
@@ -9446,17 +9446,17 @@ EX_mso3_e	Methanesulfonate exchange	mso3_e <-> 		bigg.reaction:EX_mso3_LPAREN_e_
 EX_mthgxl_e	Methylglyoxal exchange	mthgxl_e <-> 		bigg.reaction:EX_mthgxl[e]|bigg.reaction:EX_mthgxl_LPAREN_e_RPAREN_|bigg.reaction:EX_mthgxl_e_		
 EX_mththf_e	(2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran exchange	mththf_e <-> 				
 EX_mtsoxin_e	Methionine sulfoximine exchange	mtsoxin_e <-> 				
-EX_murein4p3p_e	Two linked disacharide tetrapeptide and tripeptide murein units (uncrosslinked, middle of chain) exchange	murein4p3p_e <-> 		bigg.reaction:EX_murein4p3p(e)		
-EX_murein4p4p_e	Two linked disacharide tetrapeptide murein units (uncrosslinked, middle of chain) exchange	murein4p4p_e <-> 		bigg.reaction:EX_murein4p4p(e)		
-EX_murein4px4p_e	Two disacharide linked murein units, tetrapeptide corsslinked tetrapeptide (A2pm->D-ala) (middle of chain) exchange	murein4px4p_e <-> 		bigg.reaction:EX_murein4px4p(e)		
-EX_murein4px4px4p_e	Three disacharide linked murein units (tetrapeptide crosslinked tetrapeptide (A2pm->D-ala) & tetrapeptide corsslinked tetrapeptide (A2pm->D-ala)) (middle of chain) exchange	murein4px4px4p_e <-> 		bigg.reaction:EX_murein4px4px4p(e)		
-EX_murein5p3p_e	Two linked disacharide pentapeptide and tripeptide murein units (uncrosslinked, middle of chain) exchange	murein5p3p_e <-> 		bigg.reaction:EX_murein5p3p(e)		
-EX_murein5p4p_e	Two linked disacharide pentapeptide and tetrapeptide murein units (uncrosslinked, middle of chain) exchange	murein5p4p_e <-> 		bigg.reaction:EX_murein5p4p(e)		
-EX_murein5p5p5p_e	Three linked disacharide pentapeptide murein units (uncrosslinked, middle of chain) exchange	murein5p5p5p_e <-> 		bigg.reaction:EX_murein5p5p5p(e)		
-EX_murein5p5p_e	Two linked disacharide pentapeptide murein units (uncrosslinked, middle of chain) exchange	murein5p5p_e <-> 		bigg.reaction:EX_murein5p5p(e)		
-EX_murein5px3p_e	Two disacharide linked murein units, pentapeptide corsslinked tripeptide (A2pm->A2pm) (middle of chain) exchange	murein5px3p_e <-> 		bigg.reaction:EX_murein5px3p(e)		
-EX_murein5px4p_e	Two disacharide linked murein units, pentapeptide crosslinked tetrapeptide (A2pm->D-ala) (middle of chain) exchange	murein5px4p_e <-> 		bigg.reaction:EX_murein5px4p(e)		
-EX_murein5px4px4p_e	Three disacharide linked murein units (pentapeptide crosslinked tetrapeptide (A2pm->D-ala) tetrapeptide corsslinked tetrapeptide (A2pm->D-ala)) (middle of chain) exchange	murein5px4px4p_e <-> 		bigg.reaction:EX_murein5px4px4p(e)		
+EX_murein4p3p_e	Two linked disacharide tetrapeptide and tripeptide murein units (uncrosslinked, middle of chain) exchange	murein4p3p_e <-> 				
+EX_murein4p4p_e	Two linked disacharide tetrapeptide murein units (uncrosslinked, middle of chain) exchange	murein4p4p_e <-> 				
+EX_murein4px4p_e	Two disacharide linked murein units, tetrapeptide corsslinked tetrapeptide (A2pm->D-ala) (middle of chain) exchange	murein4px4p_e <-> 				
+EX_murein4px4px4p_e	Three disacharide linked murein units (tetrapeptide crosslinked tetrapeptide (A2pm->D-ala) & tetrapeptide corsslinked tetrapeptide (A2pm->D-ala)) (middle of chain) exchange	murein4px4px4p_e <-> 				
+EX_murein5p3p_e	Two linked disacharide pentapeptide and tripeptide murein units (uncrosslinked, middle of chain) exchange	murein5p3p_e <-> 				
+EX_murein5p4p_e	Two linked disacharide pentapeptide and tetrapeptide murein units (uncrosslinked, middle of chain) exchange	murein5p4p_e <-> 				
+EX_murein5p5p5p_e	Three linked disacharide pentapeptide murein units (uncrosslinked, middle of chain) exchange	murein5p5p5p_e <-> 				
+EX_murein5p5p_e	Two linked disacharide pentapeptide murein units (uncrosslinked, middle of chain) exchange	murein5p5p_e <-> 				
+EX_murein5px3p_e	Two disacharide linked murein units, pentapeptide corsslinked tripeptide (A2pm->A2pm) (middle of chain) exchange	murein5px3p_e <-> 				
+EX_murein5px4p_e	Two disacharide linked murein units, pentapeptide crosslinked tetrapeptide (A2pm->D-ala) (middle of chain) exchange	murein5px4p_e <-> 				
+EX_murein5px4px4p_e	Three disacharide linked murein units (pentapeptide crosslinked tetrapeptide (A2pm->D-ala) tetrapeptide corsslinked tetrapeptide (A2pm->D-ala)) (middle of chain) exchange	murein5px4px4p_e <-> 				
 EX_mvlac_e	Exchange of Mevalonate-Lactone	mvlac_e <-> 		bigg.reaction:EX_mvlac[e]		
 EX_myrsACP_e	Myristoyl-ACP (n-C14:0ACP) exchange	myrsACP_e <-> 				
 EX_n2_e	N2 exchange	n2_e <-> 		bigg.reaction:EX_n2_LPAREN_e_RPAREN_		
@@ -9465,27 +9465,27 @@ EX_n2o_e	Nitrous oxide exchange	n2o_e <-> 		bigg.reaction:EX_n2o_LPAREN_e_RPAREN
 EX_n2one_e	2 Nonanone exchange	n2one_e <-> 				
 EX_n5m2masn_e	EX n5m2masn[e]	n5m2masn_e <-> 		bigg.reaction:EX_n5m2masn[e]		
 EX_n8aspmd_e	Exchange of N(8)-Acetylspermidine	n8aspmd_e <-> 		bigg.reaction:EX_n8aspmd[e]		
-EX_na1_e	Sodium exchange	na1_e <-> 		bigg.reaction:EX_na1|bigg.reaction:EX_na1(e)|bigg.reaction:EX_na1[e]|bigg.reaction:EX_na1_LPAREN_e_RPAREN_|bigg.reaction:EX_na1_e_		
-EX_nac_e	Nicotinate exchange	nac_e <-> 		bigg.reaction:EX_nac(e)|bigg.reaction:EX_nac[e]|bigg.reaction:EX_nac_LPAREN_e_RPAREN_|bigg.reaction:EX_nac_e_		
+EX_na1_e	Sodium exchange	na1_e <-> 		bigg.reaction:EX_na1|bigg.reaction:EX_na1[e]|bigg.reaction:EX_na1_LPAREN_e_RPAREN_|bigg.reaction:EX_na1_e_		
+EX_nac_e	Nicotinate exchange	nac_e <-> 		bigg.reaction:EX_nac[e]|bigg.reaction:EX_nac_LPAREN_e_RPAREN_|bigg.reaction:EX_nac_e_		
 EX_nacvanala_e	Exchange of Acetyl-Vanilalanine	nacvanala_e <-> 		bigg.reaction:EX_nacvanala[e]		
 EX_nad_e	Nicotinamide adenine dinucleotide exchange	nad_e <-> 		bigg.reaction:EX_nad[e]|bigg.reaction:EX_nad_LPAREN_e_RPAREN_|bigg.reaction:EX_nad_e_		
 EX_nadh_e	Exchange of Nicotinamide Adenine Dinucleotide - Reduced	nadh_e <-> 		bigg.reaction:EX_nadh[e]		
 EX_nadp_e	Nicotinamide adenine dinucleotide phosphate exchange	nadp_e <-> 		bigg.reaction:EX_nadp[e]|bigg.reaction:EX_nadp_LPAREN_e_RPAREN_|bigg.reaction:EX_nadp_e_		
-EX_ncam_e	Nicotinamide exchange	ncam_e <-> 		bigg.reaction:EX_ncam(e)|bigg.reaction:EX_ncam[e]|bigg.reaction:EX_ncam_LPAREN_e_RPAREN_|bigg.reaction:EX_ncam_e_		
+EX_ncam_e	Nicotinamide exchange	ncam_e <-> 		bigg.reaction:EX_ncam[e]|bigg.reaction:EX_ncam_LPAREN_e_RPAREN_|bigg.reaction:EX_ncam_e_		
 EX_ndersv_e	Exchange reaction for N-desmethyl-rosuvastatin in bile	ndersv_e <-> 		bigg.reaction:EX_ndersv[e]		
 EX_nfd_e	Exchange reaction for nifedipine in intestinal lumen	nfd_e <-> 		bigg.reaction:EX_nfd[e]		
 EX_nfdac_e	Exchange reaction of acid metabolite of nifedipine in portal vein	nfdac_e <-> 		bigg.reaction:EX_nfdac[e]		
 EX_nfdlac_e	Exchange reaction of lactone form of nifedipine in portal vein	nfdlac_e <-> 		bigg.reaction:EX_nfdlac[e]		
 EX_nfdnpy_e	Exchange reaction of nitropyridine metabolite of nifedipine in portal vein	nfdnpy_e <-> 		bigg.reaction:EX_nfdnpy[e]		
 EX_nfdoh_e	Exchange reaction of hydroxy metabolite of nifedipine in portal vein	nfdoh_e <-> 		bigg.reaction:EX_nfdoh[e]		
-EX_nh3_e	Ammonia exchange	nh3_e <-> 		bigg.reaction:EX_nh3(e)		
-EX_nh4_e	Ammonia exchange	nh4_e <-> 		bigg.reaction:EX_nh4|bigg.reaction:EX_nh4(e)|bigg.reaction:EX_nh4[e]|bigg.reaction:EX_nh4_LPAREN_e_RPAREN_|bigg.reaction:EX_nh4_e_		
-EX_ni2_e	Ni2+ exchange	ni2_e <-> 		bigg.reaction:EX_ni2|bigg.reaction:EX_ni2(e)|bigg.reaction:EX_ni2_LPAREN_e_RPAREN_|bigg.reaction:EX_ni2_e_		
+EX_nh3_e	Ammonia exchange	nh3_e <-> 				
+EX_nh4_e	Ammonia exchange	nh4_e <-> 		bigg.reaction:EX_nh4|bigg.reaction:EX_nh4[e]|bigg.reaction:EX_nh4_LPAREN_e_RPAREN_|bigg.reaction:EX_nh4_e_		
+EX_ni2_e	Ni2+ exchange	ni2_e <-> 		bigg.reaction:EX_ni2|bigg.reaction:EX_ni2_LPAREN_e_RPAREN_|bigg.reaction:EX_ni2_e_		
 EX_nicrnt_e	Exchange 	nicrnt_e <-> 		bigg.reaction:EX_nicrnt[e]		
 EX_nifedipine_e	Nifedipine exchange	nifedipine_e <-> 		bigg.reaction:EX_nifedipine[e]|bigg.reaction:EX_nifedipine_LPAREN_e_RPAREN_|bigg.reaction:EX_nifedipine_e_		
 EX_nmn_e	NMN exchange	nmn_e <-> 		bigg.reaction:EX_nmn_LPAREN_e_RPAREN_|bigg.reaction:EX_nmn_e_		
-EX_no2_e	Nitrite exchange	no2_e <-> 		bigg.reaction:EX_no2|bigg.reaction:EX_no2(e)|bigg.reaction:EX_no2[e]|bigg.reaction:EX_no2_LPAREN_e_RPAREN_|bigg.reaction:EX_no2_e_		
-EX_no3_e	Nitrate exchange	no3_e <-> 		bigg.reaction:EX_no3|bigg.reaction:EX_no3(e)|bigg.reaction:EX_no3_LPAREN_e_RPAREN_|bigg.reaction:EX_no3_e_		
+EX_no2_e	Nitrite exchange	no2_e <-> 		bigg.reaction:EX_no2|bigg.reaction:EX_no2[e]|bigg.reaction:EX_no2_LPAREN_e_RPAREN_|bigg.reaction:EX_no2_e_		
+EX_no3_e	Nitrate exchange	no3_e <-> 		bigg.reaction:EX_no3|bigg.reaction:EX_no3_LPAREN_e_RPAREN_|bigg.reaction:EX_no3_e_		
 EX_no_e	Nitric oxide exchange	no_e <-> 		bigg.reaction:EX_no|bigg.reaction:EX_no[e]|bigg.reaction:EX_no_LPAREN_e_RPAREN_|bigg.reaction:EX_no_e_		
 EX_nodcoa_e	Nodcoa exchange	nodcoa_e <-> 		bigg.reaction:EX_nodcoa		
 EX_nona_e	Nonanoate exchange	nona_e <-> 				
@@ -9522,7 +9522,7 @@ EX_orn__L_e	Ornithine exchange	orn__L_e <-> 		bigg.reaction:EX_orn_L_LPAREN_e_RP
 EX_orn_e	Ornithine exchange	orn_e <-> 		bigg.reaction:EX_orn|bigg.reaction:EX_orn[e]|bigg.reaction:EX_orn_LPAREN_e_RPAREN_|bigg.reaction:EX_orn_e_		
 EX_orot5p_e	Exchange 	orot5p_e <-> 		bigg.reaction:EX_orot5p[e]		
 EX_orot_e	Orotate exchange	orot_e <-> 		bigg.reaction:EX_orot[e]|bigg.reaction:EX_orot_LPAREN_e_RPAREN_|bigg.reaction:EX_orot_e_		
-EX_oxa_e	Oxalate exchange	oxa_e <-> 		bigg.reaction:EX_oxa(e)|bigg.reaction:EX_oxa[e]|bigg.reaction:EX_oxa_LPAREN_e_RPAREN_|bigg.reaction:EX_oxa_e_		
+EX_oxa_e	Oxalate exchange	oxa_e <-> 		bigg.reaction:EX_oxa[e]|bigg.reaction:EX_oxa_LPAREN_e_RPAREN_|bigg.reaction:EX_oxa_e_		
 EX_oxy1rb_e	Exchange reaction for oxypurinol-1-riboside in hepatic vein	oxy1rb_e <-> 		bigg.reaction:EX_oxyp1rb[e]		
 EX_oxy7rb_e	Exchange reaction for oxypurinol-7-riboside in hepatic vein	oxy7rb_e <-> 		bigg.reaction:EX_oxyp7rb[e]		
 EX_oxyp_e	Exchange reaction for oxypurinol in portal blood	oxyp_e <-> 		bigg.reaction:EX_oxyp[e]		
@@ -9618,7 +9618,7 @@ EX_pglyc_hs_e	Phosphatidylglycerol (homo sapiens) exchange	pglyc_hs_e <-> 		bigg
 EX_phacgly_e	Exchange of Phenylacetylglycine	phacgly_e <-> 		bigg.reaction:EX_phacgly[e]		
 EX_phdca_e	EX phdca LPAREN e RPAREN 	phdca_e <-> 		bigg.reaction:EX_phdca|bigg.reaction:EX_phdca_LPAREN_e_RPAREN_		
 EX_phe__D_e	D Phenylalanine exchange	phe__D_e <-> 				
-EX_phe__L_e	L-Phenylalanine exchange	phe__L_e <-> 		bigg.reaction:EX_phe_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_phe_L|bigg.reaction:EX_phe_L[e]|bigg.reaction:EX_phe_L_LPAREN_e_RPAREN_|bigg.reaction:EX_phe_L_e|bigg.reaction:EX_phe_L_e_|bigg.reaction:EX_phe__L(e)		
+EX_phe__L_e	L-Phenylalanine exchange	phe__L_e <-> 		bigg.reaction:EX_phe_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_phe_L|bigg.reaction:EX_phe_L[e]|bigg.reaction:EX_phe_L_LPAREN_e_RPAREN_|bigg.reaction:EX_phe_L_e|bigg.reaction:EX_phe_L_e_		
 EX_pheac_e	Phenethyl acetate exchange	pheac_e <-> 		bigg.reaction:EX_pheac_e_		
 EX_pheacgln_e	Alpha-N-Phenylacetyl-L-glutamine exchange	pheacgln_e <-> 		bigg.reaction:EX_pheacgln[e]|bigg.reaction:EX_pheacgln_LPAREN_e_RPAREN_|bigg.reaction:EX_pheacgln_e_		
 EX_pheacgly_e	Exchange of Phenylacetylglycine 	pheacgly_e <-> 		bigg.reaction:EX_pheacgly[e]		
@@ -9669,7 +9669,7 @@ EX_photonVis_e	Photon emission	photonVis_e <-> 		bigg.reaction:EX_photonVis_LPAR
 EX_photon_e	Photon exchange	photon_e <-> 		bigg.reaction:EX_photon_LPAREN_e_RPAREN_		
 EX_phpyr_e	Exchange of Phenylpyruvate	phpyr_e <-> 		bigg.reaction:EX_phpyr[e]		
 EX_phyt_e	Phytanic acid exchange	phyt_e <-> 		bigg.reaction:EX_phyt[e]|bigg.reaction:EX_phyt_LPAREN_e_RPAREN_|bigg.reaction:EX_phyt_e_		
-EX_pi_e	Phosphate exchange	pi_e <-> 		bigg.reaction:EX_pi|bigg.reaction:EX_pi(e)|bigg.reaction:EX_pi[e]|bigg.reaction:EX_pi_LPAREN_e_RPAREN_|bigg.reaction:EX_pi_e_		
+EX_pi_e	Phosphate exchange	pi_e <-> 		bigg.reaction:EX_pi|bigg.reaction:EX_pi[e]|bigg.reaction:EX_pi_LPAREN_e_RPAREN_|bigg.reaction:EX_pi_e_		
 EX_pime_e	EX pime LPAREN e RPAREN 	pime_e <-> 		bigg.reaction:EX_pime_LPAREN_e_RPAREN_		
 EX_pmeth_e	Exchange of Palmitoylethanolamide	pmeth_e <-> 		bigg.reaction:EX_pmeth[e]		
 EX_pmtcrn_e	Exchange of L-Palmitoylcarnitine	pmtcrn_e <-> 		bigg.reaction:EX_pmtcrn[e]		
@@ -9697,7 +9697,7 @@ EX_prgnlones_e	Exchange of Pregnenolone Sulfate	prgnlones_e <-> 		bigg.reaction:
 EX_prgstrn_e	Progesterone exchange	prgstrn_e <-> 		bigg.reaction:EX_prgstrn[e]|bigg.reaction:EX_prgstrn_e_		
 EX_prist_e	Exchange of Pristanic Acid	prist_e <-> 		bigg.reaction:EX_prist[e]		
 EX_pro__D_e	D-Proline exchange	pro__D_e <-> 		bigg.reaction:EX_pro_D_LPAREN_e_RPAREN_|bigg.reaction:EX_pro_D_e_		
-EX_pro__L_e	L-Proline exchange	pro__L_e <-> 		bigg.reaction:EX_pro-L(e)|bigg.reaction:EX_pro_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_pro_DASH_L_e|bigg.reaction:EX_pro_L|bigg.reaction:EX_pro_L[e]|bigg.reaction:EX_pro_L_LPAREN_e_RPAREN_|bigg.reaction:EX_pro_L_e|bigg.reaction:EX_pro_L_e_		
+EX_pro__L_e	L-Proline exchange	pro__L_e <-> 		bigg.reaction:EX_pro_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_pro_DASH_L_e|bigg.reaction:EX_pro_L|bigg.reaction:EX_pro_L[e]|bigg.reaction:EX_pro_L_LPAREN_e_RPAREN_|bigg.reaction:EX_pro_L_e|bigg.reaction:EX_pro_L_e_		
 EX_proargasp_e	Exchange of ProArgAsp	proargasp_e <-> 		bigg.reaction:EX_proargasp[e]		
 EX_proargcys_e	Exchange of ProArgCys	proargcys_e <-> 		bigg.reaction:EX_proargcys[e]		
 EX_proasncys_e	Exchange of ProAsnCys	proasncys_e <-> 		bigg.reaction:EX_proasncys[e]		
@@ -9736,30 +9736,30 @@ EX_psyltdechol_e	Exchange reaction for psyllium-taurodeoxycholic acid complex	ps
 EX_pta_e	Pentanoate exchange	pta_e <-> 				
 EX_ptd1ino_SC_e	Phosphatidyl 1D myo inositol  yeast specific exchange	ptd1ino_SC_e <-> 		bigg.reaction:EX_ptd1ino_SC_e_		
 EX_ptdca_e	Pentadecanoate exchange	ptdca_e <-> 		bigg.reaction:EX_ptdca[e]|bigg.reaction:EX_ptdca_LPAREN_e_RPAREN_|bigg.reaction:EX_ptdca_e_		
-EX_ptrc_e	Putrescine exchange	ptrc_e <-> 		bigg.reaction:EX_ptrc(e)|bigg.reaction:EX_ptrc[e]|bigg.reaction:EX_ptrc_LPAREN_e_RPAREN_|bigg.reaction:EX_ptrc_e_		
+EX_ptrc_e	Putrescine exchange	ptrc_e <-> 		bigg.reaction:EX_ptrc[e]|bigg.reaction:EX_ptrc_LPAREN_e_RPAREN_|bigg.reaction:EX_ptrc_e_		
 EX_ptsla_e	Petroselaidic acid exchange	ptsla_e <-> 				
 EX_ptth_e	Exchange reaction for ptth	ptth_e <-> 		bigg.reaction:EX_ptth[e]|bigg.reaction:EX_ptth_e_		
 EX_ptvst_e	Exchange reaction for pitavastatin in intestinal lumen	ptvst_e <-> 		bigg.reaction:EX_ptvst[e]		
 EX_ptvstlac_e	Exchange reaction for pravastatin-lactone in hepatic vein	ptvstlac_e <-> 		bigg.reaction:EX_ptvstlac[e]		
 EX_ptvstm13_e	EX ptvstm13(e)	ptvstm13_e <-> 		bigg.reaction:EX_ptvstm13[e]		
 EX_ptvstm3_e	Exchange reaction for pitavastatin-M3 in bile	ptvstm3_e <-> 		bigg.reaction:EX_ptvstm3[e]		
-EX_pullulan1200_e	Pullulan (n=1200 repeat units, alpha-1,4 and alph-1,6 bounds) exchange	pullulan1200_e <-> 		bigg.reaction:EX_pullulan1200(e)		
+EX_pullulan1200_e	Pullulan (n=1200 repeat units, alpha-1,4 and alph-1,6 bounds) exchange	pullulan1200_e <-> 				
 EX_pur_e	Puromycin exchange	pur_e <-> 		bigg.reaction:EX_pur_e_		
 EX_pvs_e	Exchange reaction for pravastatin in intestinal lumen	pvs_e <-> 		bigg.reaction:EX_pvs[e]		
 EX_pvsgluc_e	Exchange reaction of pravastatin glucuronide in hepatic vein	pvsgluc_e <-> 		bigg.reaction:EX_pvsgluc[e]		
 EX_pydam_e	Pyridoxamine exchange	pydam_e <-> 		bigg.reaction:EX_pydam[e]|bigg.reaction:EX_pydam_LPAREN_e_RPAREN_|bigg.reaction:EX_pydam_e_		
 EX_pydx5p_e	Exchange of pyridoxal 5-phosphate(2-)	pydx5p_e <-> 		bigg.reaction:EX_pydx5p[e]|bigg.reaction:EX_pydx5p_e_		
 EX_pydx_e	Pyridoxal exchange	pydx_e <-> 		bigg.reaction:EX_pydx[e]|bigg.reaction:EX_pydx_LPAREN_e_RPAREN_|bigg.reaction:EX_pydx_e_		
-EX_pydxn_e	Pyridoxine exchange	pydxn_e <-> 		bigg.reaction:EX_pydxn|bigg.reaction:EX_pydxn(e)|bigg.reaction:EX_pydxn[e]|bigg.reaction:EX_pydxn_LPAREN_e_RPAREN_|bigg.reaction:EX_pydxn_e_		
+EX_pydxn_e	Pyridoxine exchange	pydxn_e <-> 		bigg.reaction:EX_pydxn|bigg.reaction:EX_pydxn[e]|bigg.reaction:EX_pydxn_LPAREN_e_RPAREN_|bigg.reaction:EX_pydxn_e_		
 EX_pyovd_e	Pyoverdine exchange	pyovd_e <-> 				
 EX_pyovd_kt_e	Pyoverdine  P putida specific  exchange	pyovd_kt_e <-> 				
-EX_pyr_e	Pyruvate exchange	pyr_e <-> 		bigg.reaction:EX_pyr|bigg.reaction:EX_pyr(e)|bigg.reaction:EX_pyr[e]|bigg.reaction:EX_pyr_LPAREN_e_RPAREN_|bigg.reaction:EX_pyr_e_		
+EX_pyr_e	Pyruvate exchange	pyr_e <-> 		bigg.reaction:EX_pyr|bigg.reaction:EX_pyr[e]|bigg.reaction:EX_pyr_LPAREN_e_RPAREN_|bigg.reaction:EX_pyr_e_		
 EX_q10_e	Exchange reaction for ubiquinone	q10_e <-> 		bigg.reaction:EX_q10[e]|bigg.reaction:EX_q10_e_		
 EX_q10h2_e	Exchange reaction for ubiquinol	q10h2_e <-> 		bigg.reaction:EX_q10h2[e]|bigg.reaction:EX_q10h2_e_		
 EX_quin_e	Quinate exchange	quin_e <-> 		bigg.reaction:EX_quin_LPAREN_e_RPAREN_|bigg.reaction:EX_quin_kt_LPAREN_e_RPAREN_		
 EX_quln_e	Exchange of Quinolinic Acid	quln_e <-> 		bigg.reaction:EX_quln[e]		
 EX_r5p_e	Alpha-D-Ribose 5-phosphate exchange	r5p_e <-> 		bigg.reaction:EX_r5p_LPAREN_e_RPAREN_		
-EX_raffin_e	Raffinose exchange	raffin_e <-> 		bigg.reaction:EX_raffin(e)|bigg.reaction:EX_raffin_LPAREN_e_RPAREN_|bigg.reaction:EX_raffin_e_		
+EX_raffin_e	Raffinose exchange	raffin_e <-> 		bigg.reaction:EX_raffin_LPAREN_e_RPAREN_|bigg.reaction:EX_raffin_e_		
 EX_rbl_B_e	Salicin exchange	rbl_B_e <-> 		bigg.reaction:EX_rbl__B_e		
 EX_rbl__D_e	EX rbl D[e]	rbl__D_e <-> 		bigg.reaction:EX_rbl_D[e]		
 EX_rbt_e	Ribitol exchange	rbt_e <-> 		bigg.reaction:EX_rbt[e]|bigg.reaction:EX_rbt_LPAREN_e_RPAREN_|bigg.reaction:EX_rbt_e_		
@@ -9774,9 +9774,9 @@ EX_retnglc_e	Retinoyl glucuronide exchange	retnglc_e <-> 		bigg.reaction:EX_retn
 EX_retpalm_SPACE_deleted_SPACE_10_09_2005_SPACE_SPACE_06_COLON_18_COLON_49_SPACE_PM_e	EX retpalm	retpalm_SPACE_deleted_SPACE_10_09_2005_SPACE_SPACE_06_COLON_18_COLON_49_SPACE_PM_e <-> 		bigg.reaction:EX_retpalm|bigg.reaction:EX_retpalm_e		
 EX_retpalm_e	Retinyl palminate exchange	retpalm_e <-> 		bigg.reaction:EX_retpalm|bigg.reaction:EX_retpalm_LPAREN_e_RPAREN_		
 EX_rfamp_e	Rifampin exchange	rfamp_e <-> 		bigg.reaction:EX_rfamp_LPAREN_e_RPAREN_		
-EX_rib__D_e	D-Ribose exchange	rib__D_e <-> 		bigg.reaction:EX_rib-D(e)|bigg.reaction:EX_rib_D|bigg.reaction:EX_rib_D(e)|bigg.reaction:EX_rib_DASH_D_LPAREN_e_RPAREN_|bigg.reaction:EX_rib_D[e]|bigg.reaction:EX_rib_D_LPAREN_e_RPAREN_|bigg.reaction:EX_rib_D_e|bigg.reaction:EX_rib_D_e_		
-EX_ribflv_e	Riboflavin exchange	ribflv_e <-> 		bigg.reaction:EX_ribflv(e)|bigg.reaction:EX_ribflv[e]|bigg.reaction:EX_ribflv_LPAREN_e_RPAREN_|bigg.reaction:EX_ribflv_e_		
-EX_rmn_e	L-Rhamnose exchange	rmn_e <-> 		bigg.reaction:EX_rmn(e)|bigg.reaction:EX_rmn_LPAREN_e_RPAREN_|bigg.reaction:EX_rmn_e_		
+EX_rib__D_e	D-Ribose exchange	rib__D_e <-> 		bigg.reaction:EX_rib_D|bigg.reaction:EX_rib_DASH_D_LPAREN_e_RPAREN_|bigg.reaction:EX_rib_D[e]|bigg.reaction:EX_rib_D_LPAREN_e_RPAREN_|bigg.reaction:EX_rib_D_e|bigg.reaction:EX_rib_D_e_		
+EX_ribflv_e	Riboflavin exchange	ribflv_e <-> 		bigg.reaction:EX_ribflv[e]|bigg.reaction:EX_ribflv_LPAREN_e_RPAREN_|bigg.reaction:EX_ribflv_e_		
+EX_rmn_e	L-Rhamnose exchange	rmn_e <-> 		bigg.reaction:EX_rmn_LPAREN_e_RPAREN_|bigg.reaction:EX_rmn_e_		
 EX_rnam_e	N-Ribosylnicotinamide Exchange	rnam_e <-> 		bigg.reaction:EX_rnam_LPAREN_e_RPAREN_		
 EX_rsv_e	Exchange reaction for rosuvastatin in intestinal lumen	rsv_e <-> 		bigg.reaction:EX_rsv[e]		
 EX_rsvlac_e	Exchange reaction for rosuvastatin-5S-lactone in bile	rsvlac_e <-> 		bigg.reaction:EX_rsvlac[e]		
@@ -9785,7 +9785,7 @@ EX_s2l2n2m2m_e	Exchange of De-Fuc Form of Pa6 (W/O Peptide Linkage) 	s2l2n2m2m_e
 EX_s2l2n2m2masn_e	De-Fuc form of PA6 exchange	s2l2n2m2masn_e <-> 		bigg.reaction:EX_s2l2n2m2masn[e]|bigg.reaction:EX_s2l2n2m2masn_LPAREN_e_RPAREN_|bigg.reaction:EX_s2l2n2m2masn_e_		
 EX_s3meacmp_e	Exchange reaction for sulphate-conjugate-3-methoxy-acetaminophen in hepatic vein	s3meacmp_e <-> 		bigg.reaction:EX_s3meacmp[e]		
 EX_sTn_antigen_e	Exchange of Sialyl-Tn Antigen 	sTn_antigen_e <-> 		bigg.reaction:EX_sTn_antigen[e]		
-EX_s_e	EX s LPAREN e RPAREN 	s_e <-> 		bigg.reaction:EX_s(e)|bigg.reaction:EX_s_LPAREN_e_RPAREN_		
+EX_s_e	EX s LPAREN e RPAREN 	s_e <-> 		bigg.reaction:EX_s_LPAREN_e_RPAREN_		
 EX_saccrp__L_e	Exchange of L-Saccharopinate	saccrp__L_e <-> 		bigg.reaction:EX_saccrp_L[e]		
 EX_salc_e	4-Hydroxy-benzyl alcohol exchange	salc_e <-> 				
 EX_salchs2_e	Salmochelin-S2 Exchange	salchs2_e <-> 		bigg.reaction:EX_salchs2_LPAREN_e_RPAREN_		
@@ -9800,8 +9800,8 @@ EX_sbt__D_e	D-Sorbitol exchange	sbt__D_e <-> 		bigg.reaction:EX_sbt_DASH_D_LPARE
 EX_sbt__L_e	L Sorbitol exchange	sbt__L_e <-> 		bigg.reaction:EX_sbt_L_LPAREN_e_RPAREN_|bigg.reaction:EX_sbt_L_e_		
 EX_sebacid_e	Exchange of Sebacic Acid	sebacid_e <-> 		bigg.reaction:EX_sebacid[e]		
 EX_sel_e	Selenate exchange	sel_e <-> 		bigg.reaction:EX_sel_LPAREN_e_RPAREN_|bigg.reaction:EX_sel_e_		
-EX_ser__D_e	D-Serine exchange	ser__D_e <-> 		bigg.reaction:EX_ser-D(e)|bigg.reaction:EX_ser_D|bigg.reaction:EX_ser_DASH_D_LPAREN_e_RPAREN_|bigg.reaction:EX_ser_D_LPAREN_e_RPAREN_|bigg.reaction:EX_ser_D_e|bigg.reaction:EX_ser_D_e_		
-EX_ser__L_e	L-Serine exchange	ser__L_e <-> 		bigg.reaction:EX_ser-L(e)|bigg.reaction:EX_ser_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_ser_L|bigg.reaction:EX_ser_L[e]|bigg.reaction:EX_ser_L_LPAREN_e_RPAREN_|bigg.reaction:EX_ser_L_e|bigg.reaction:EX_ser_L_e_|bigg.reaction:EX_ser__L(e)		
+EX_ser__D_e	D-Serine exchange	ser__D_e <-> 		bigg.reaction:EX_ser_D|bigg.reaction:EX_ser_DASH_D_LPAREN_e_RPAREN_|bigg.reaction:EX_ser_D_LPAREN_e_RPAREN_|bigg.reaction:EX_ser_D_e|bigg.reaction:EX_ser_D_e_		
+EX_ser__L_e	L-Serine exchange	ser__L_e <-> 		bigg.reaction:EX_ser_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_ser_L|bigg.reaction:EX_ser_L[e]|bigg.reaction:EX_ser_L_LPAREN_e_RPAREN_|bigg.reaction:EX_ser_L_e|bigg.reaction:EX_ser_L_e_		
 EX_serargala_e	Exchange of SerArgAla	serargala_e <-> 		bigg.reaction:EX_serargala[e]		
 EX_serargtrp_e	Exchange of SerArgTrp	serargtrp_e <-> 		bigg.reaction:EX_serargtrp[e]		
 EX_sercysarg_e	Exchange of SerCysArg	sercysarg_e <-> 		bigg.reaction:EX_sercysarg[e]		
@@ -9818,7 +9818,7 @@ EX_smv_e	Exchange reaction for simvastatin in intestinal lumen	smv_e <-> 		bigg.
 EX_smvacid_e	Exchange reaction for simvastatin dihydroxy acid form in hepatic vein	smvacid_e <-> 		bigg.reaction:EX_smvacid[e]		
 EX_so2_e	Sulfur dioxide exchange	so2_e <-> 		bigg.reaction:EX_so2_LPAREN_e_RPAREN_		
 EX_so3_e	Sulfite exchange	so3_e <-> 		bigg.reaction:EX_hso3_e|bigg.reaction:EX_so3[e]|bigg.reaction:EX_so3_LPAREN_e_RPAREN_|bigg.reaction:EX_so3_e_		
-EX_so4_e	Sulfate exchange	so4_e <-> 		bigg.reaction:EX_so4|bigg.reaction:EX_so4(e)|bigg.reaction:EX_so4[e]|bigg.reaction:EX_so4_LPAREN_e_RPAREN_|bigg.reaction:EX_so4_e_		
+EX_so4_e	Sulfate exchange	so4_e <-> 		bigg.reaction:EX_so4|bigg.reaction:EX_so4[e]|bigg.reaction:EX_so4_LPAREN_e_RPAREN_|bigg.reaction:EX_so4_e_		
 EX_spc_cho_e	Sphingosylphosphorylcholine (cho) exchange	spc_cho_e <-> 		bigg.reaction:EX_spc_cho_e_		
 EX_spc_hs_e	Sphingosylphosphorylcholine (homo sapiens) exchange	spc_hs_e <-> 		bigg.reaction:EX_spc_hs[e]|bigg.reaction:EX_spc_hs_LPAREN_e_RPAREN_		
 EX_sph1p_e	Sphinganine 1-phosphate exchange	sph1p_e <-> 		bigg.reaction:EX_sph1p[e]|bigg.reaction:EX_sph1p_LPAREN_e_RPAREN_|bigg.reaction:EX_sph1p_e_		
@@ -9842,14 +9842,14 @@ EX_sphmyln1824_hs_e	Exchange of Sphingomyelin (D18:0/24:0)	sphmyln1824_hs_e <-> 
 EX_sphmyln1825_hs_e	Exchange of Sphingomyelin (D18:0/25:0)	sphmyln1825_hs_e <-> 		bigg.reaction:EX_sphmyln1825_hs[e]		
 EX_sphmyln_hs_e	Exchange of Sphingomyelin	sphmyln_hs_e <-> 		bigg.reaction:EX_sphmyln_hs[e]		
 EX_sphs1p_e	Sphingosine 1-phosphate exchange	sphs1p_e <-> 		bigg.reaction:EX_sphs1p[e]|bigg.reaction:EX_sphs1p_LPAREN_e_RPAREN_|bigg.reaction:EX_sphs1p_e_		
-EX_spmd_e	Spermidine exchange	spmd_e <-> 		bigg.reaction:EX_spmd(e)|bigg.reaction:EX_spmd[e]|bigg.reaction:EX_spmd_LPAREN_e_RPAREN_|bigg.reaction:EX_spmd_e_		
+EX_spmd_e	Spermidine exchange	spmd_e <-> 		bigg.reaction:EX_spmd[e]|bigg.reaction:EX_spmd_LPAREN_e_RPAREN_|bigg.reaction:EX_spmd_e_		
 EX_sprm_e	Spermine exchange	sprm_e <-> 		bigg.reaction:EX_sprm[e]|bigg.reaction:EX_sprm_LPAREN_e_RPAREN_|bigg.reaction:EX_sprm_e_		
 EX_sq_e	Sulphoquinovose exchange	sq_e <-> 				
 EX_sql_e	Exchange of Squalene	sql_e <-> 		bigg.reaction:EX_sql[e]		
 EX_srb__L_e	L Sorbose exchange	srb__L_e <-> 		bigg.reaction:EX_srb_L_LPAREN_e_RPAREN_|bigg.reaction:EX_srb_L_e_		
 EX_srtn_e	Serotonin exchange	srtn_e <-> 		bigg.reaction:EX_srtn[e]|bigg.reaction:EX_srtn_LPAREN_e_RPAREN_|bigg.reaction:EX_srtn_e_		
 EX_stacmp_e	Exchange reaction for sulphate-thiomethyl-acetaminophen conjugate in hepatic vein	stacmp_e <-> 		bigg.reaction:EX_stacmp[ev]		
-EX_starch1200_e	Starch n=1200 repeat units (300 repeat units amylose, 900 repeat units amylopectin, corresponds to potatoe starch) exchange	starch1200_e <-> 		bigg.reaction:EX_starch1200(e)		
+EX_starch1200_e	Starch n=1200 repeat units (300 repeat units amylose, 900 repeat units amylopectin, corresponds to potatoe starch) exchange	starch1200_e <-> 				
 EX_starch_e	Starch exchange	starch_e <-> 		bigg.reaction:EX_starch_e_		
 EX_stcrn_e	Exchange of O-Octadecanoyl-R-Carnitine	stcrn_e <-> 		bigg.reaction:EX_stcrn[e]		
 EX_steeth_e	Exchange of Stearoyl Ethanolamide	steeth_e <-> 		bigg.reaction:EX_steeth[e]		
@@ -9863,7 +9863,7 @@ EX_subgly_e	Exchange of Suberyl-Glycine	subgly_e <-> 		bigg.reaction:EX_subgly[e
 EX_subtilisin_e	Mature Bacillus subtilis subtilisin exchange	subtilisin_e <-> 		bigg.reaction:EX_subtilisin_e_		
 EX_sucaceto_e	Exchange of Succinylacetone	sucaceto_e <-> 		bigg.reaction:EX_sucaceto[e]		
 EX_succ_e	Succinate exchange	succ_e <-> 		bigg.reaction:EX_succ|bigg.reaction:EX_succ[e]|bigg.reaction:EX_succ_LPAREN_e_RPAREN_|bigg.reaction:EX_succ_e_		
-EX_sucr_e	Sucrose exchange	sucr_e <-> 		bigg.reaction:EX_sucr(e)|bigg.reaction:EX_sucr[e]|bigg.reaction:EX_sucr_LPAREN_e_RPAREN_|bigg.reaction:EX_sucr_e_		
+EX_sucr_e	Sucrose exchange	sucr_e <-> 		bigg.reaction:EX_sucr[e]|bigg.reaction:EX_sucr_LPAREN_e_RPAREN_|bigg.reaction:EX_sucr_e_		
 EX_sucsal_e	Exchange of Succinic Semialdehyde	sucsal_e <-> 		bigg.reaction:EX_sucsal[e]		
 EX_sula_e	Sulfoacetate exchange	sula_e <-> 		bigg.reaction:EX_sula_e_		
 EX_sulfac_e	Sulfoacetate exchange	sulfac_e <-> 		bigg.reaction:EX_sulfac_LPAREN_e_RPAREN_		
@@ -9879,7 +9879,7 @@ EX_tag_hs_e	Triacylglycerol (homo sapiens) exchange	tag_hs_e <-> 		bigg.reaction
 EX_tagur_e		tagur_e <-> 				
 EX_tartr__D_e	D-tartrate exchange	tartr__D_e <-> 		bigg.reaction:EX_tartr_DASH_D_LPAREN_e_RPAREN_|bigg.reaction:EX_tartr_D_e		
 EX_tartr__L_e	L-tartrate exchange	tartr__L_e <-> 		bigg.reaction:EX_tartr_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_tartr_L|bigg.reaction:EX_tartr_L_LPAREN_e_RPAREN_|bigg.reaction:EX_tartr_L_e		
-EX_taur_e	Taurine exchange	taur_e <-> 		bigg.reaction:EX_taur(e)|bigg.reaction:EX_taur[e]|bigg.reaction:EX_taur_LPAREN_e_RPAREN_|bigg.reaction:EX_taur_e_		
+EX_taur_e	Taurine exchange	taur_e <-> 		bigg.reaction:EX_taur[e]|bigg.reaction:EX_taur_LPAREN_e_RPAREN_|bigg.reaction:EX_taur_e_		
 EX_tauribup__S_e	Exchange reaction for taurine conjugate of S-ibuprofen in hepatic vein	tauribup__S_e <-> 		bigg.reaction:EX_tauribup_S[e]		
 EX_taxol_e	Paclitaxel exchange	taxol_e <-> 		bigg.reaction:EX_taxol[e]|bigg.reaction:EX_taxol_LPAREN_e_RPAREN_|bigg.reaction:EX_taxol_e_		
 EX_tc4_e	Technetium(IV) exchange	tc4_e <-> 				
@@ -9909,11 +9909,11 @@ EX_thcholstoic_e	Exchange of 3Alpha, 7Alpha, 12Alpha-Trihydroxy-5Beta-Cholestano
 EX_thexdd_e	Exchange of 7Z, 10Z-Hexadecadienoic Acid	thexdd_e <-> 		bigg.reaction:EX_thexdd[e]		
 EX_thf_e	5,6,7,8-Tetrahydrofolate exchange	thf_e <-> 		bigg.reaction:EX_thf[e]|bigg.reaction:EX_thf_LPAREN_e_RPAREN_|bigg.reaction:EX_thf_e_		
 EX_thiog_e	Thioglycolate exchange	thiog_e <-> 		bigg.reaction:EX_thiog_e_		
-EX_thm_e	Thiamin exchange	thm_e <-> 		bigg.reaction:EX_thm(e)|bigg.reaction:EX_thm[e]|bigg.reaction:EX_thm_LPAREN_e_RPAREN_|bigg.reaction:EX_thm_e_		
+EX_thm_e	Thiamin exchange	thm_e <-> 		bigg.reaction:EX_thm[e]|bigg.reaction:EX_thm_LPAREN_e_RPAREN_|bigg.reaction:EX_thm_e_		
 EX_thmmp_e	Thiamin monophosphate exchange	thmmp_e <-> 		bigg.reaction:EX_thmmp[e]|bigg.reaction:EX_thmmp_LPAREN_e_RPAREN_|bigg.reaction:EX_thmmp_e_		
 EX_thmpp_e	Thiamine diphosphate exchange	thmpp_e <-> 		bigg.reaction:EX_thmpp_LPAREN_e_RPAREN_|bigg.reaction:EX_thmpp_e_		
 EX_thmtp_e	Thiamin triphosphate exchange	thmtp_e <-> 		bigg.reaction:EX_thmtp[e]|bigg.reaction:EX_thmtp_LPAREN_e_RPAREN_|bigg.reaction:EX_thmtp_e_		
-EX_thr__L_e	L-Threonine exchange	thr__L_e <-> 		bigg.reaction:EX_thr_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_thr_DASH_L_e|bigg.reaction:EX_thr_L|bigg.reaction:EX_thr_L(e)|bigg.reaction:EX_thr_L[e]|bigg.reaction:EX_thr_L_LPAREN_e_RPAREN_|bigg.reaction:EX_thr_L_e|bigg.reaction:EX_thr_L_e_		
+EX_thr__L_e	L-Threonine exchange	thr__L_e <-> 		bigg.reaction:EX_thr_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_thr_DASH_L_e|bigg.reaction:EX_thr_L|bigg.reaction:EX_thr_L[e]|bigg.reaction:EX_thr_L_LPAREN_e_RPAREN_|bigg.reaction:EX_thr_L_e|bigg.reaction:EX_thr_L_e_		
 EX_thrargtyr_e	Exchange of ThrArgtyr	thrargtyr_e <-> 		bigg.reaction:EX_thrargtyr[e]		
 EX_thrasntyr_e	Exchange of ThrAsntyr	thrasntyr_e <-> 		bigg.reaction:EX_thrasntyr[e]		
 EX_thrfvs_e	Exchange reaction for threo-isomer of fluvastain in hepatic vein	thrfvs_e <-> 		bigg.reaction:EX_thrfvs[e]		
@@ -9928,7 +9928,7 @@ EX_thrphearg_e	Exchange of ThrPheArg	thrphearg_e <-> 		bigg.reaction:EX_thrphear
 EX_thrserarg_e	Exchange of ThrSerArg	thrserarg_e <-> 		bigg.reaction:EX_thrserarg[e]		
 EX_thrthrarg_e	Exchange of ThrThrArg	thrthrarg_e <-> 		bigg.reaction:EX_thrthrarg[e]		
 EX_thrtyrmet_e	Exchange of ThrtyrMet	thrtyrmet_e <-> 		bigg.reaction:EX_thrtyrmet[e]		
-EX_thym_e	Thymine exchange	thym_e <-> 		bigg.reaction:EX_thym(e)|bigg.reaction:EX_thym[e]|bigg.reaction:EX_thym_LPAREN_e_RPAREN_|bigg.reaction:EX_thym_e_		
+EX_thym_e	Thymine exchange	thym_e <-> 		bigg.reaction:EX_thym[e]|bigg.reaction:EX_thym_LPAREN_e_RPAREN_|bigg.reaction:EX_thym_e_		
 EX_thymd_e	Thymidine exchange	thymd_e <-> 		bigg.reaction:EX_thymd[e]|bigg.reaction:EX_thymd_LPAREN_e_RPAREN_|bigg.reaction:EX_thymd_e_		
 EX_thyochol_e	EX thyochol(e)	thyochol_e <-> 		bigg.reaction:EX_thyochol[e]		
 EX_thyox__L_e	L-Thyroxine exchange	thyox__L_e <-> 		bigg.reaction:EX_thyox_L[e]|bigg.reaction:EX_thyox_L_LPAREN_e_RPAREN_|bigg.reaction:EX_thyox_L_e_		
@@ -9949,12 +9949,12 @@ EX_tnt_e	2 4 6 Trinitrotoluene exchange	tnt_e <->
 EX_tol_e	EX tol LPAREN e RPAREN 	tol_e <-> 		bigg.reaction:EX_tol_LPAREN_e_RPAREN_		
 EX_tolbutamide_e	Tolbutamide exchange	tolbutamide_e <-> 		bigg.reaction:EX_tolbutamide[e]|bigg.reaction:EX_tolbutamide_LPAREN_e_RPAREN_|bigg.reaction:EX_tolbutamide_e_		
 EX_tre6p_e	Alpha,alpha'-Trehalose 6-phosphate exchange	tre6p_e <-> 				
-EX_tre_e	Trehalose exchange	tre_e <-> 		bigg.reaction:EX_tre|bigg.reaction:EX_tre(e)|bigg.reaction:EX_tre[e]|bigg.reaction:EX_tre_LPAREN_e_RPAREN_|bigg.reaction:EX_tre_e_		
+EX_tre_e	Trehalose exchange	tre_e <-> 		bigg.reaction:EX_tre|bigg.reaction:EX_tre[e]|bigg.reaction:EX_tre_LPAREN_e_RPAREN_|bigg.reaction:EX_tre_e_		
 EX_trideceth_e	Exchange of Tridecanoyl Thanolamide (C13:0)	trideceth_e <-> 		bigg.reaction:EX_trideceth[e]		
 EX_triodthy_e	Triiodothyronine exchange	triodthy_e <-> 		bigg.reaction:EX_triodthy[e]|bigg.reaction:EX_triodthy_LPAREN_e_RPAREN_|bigg.reaction:EX_triodthy_e_		
 EX_triodthysuf_e	Triiodothyronine sulfate exchange	triodthysuf_e <-> 		bigg.reaction:EX_triodthysuf[e]|bigg.reaction:EX_triodthysuf_LPAREN_e_RPAREN_|bigg.reaction:EX_triodthysuf_e_		
 EX_tripvs_e	Exchange reaction of triol metabolite of pravastatin in hepatic vein	tripvs_e <-> 		bigg.reaction:EX_tripvs[e]		
-EX_trp__L_e	L-Tryptophan exchange	trp__L_e <-> 		bigg.reaction:EX_trp-L(e)|bigg.reaction:EX_trp_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_trp_L|bigg.reaction:EX_trp_L[e]|bigg.reaction:EX_trp_L_LPAREN_e_RPAREN_|bigg.reaction:EX_trp_L_e|bigg.reaction:EX_trp_L_e_		
+EX_trp__L_e	L-Tryptophan exchange	trp__L_e <-> 		bigg.reaction:EX_trp_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_trp_L|bigg.reaction:EX_trp_L[e]|bigg.reaction:EX_trp_L_LPAREN_e_RPAREN_|bigg.reaction:EX_trp_L_e|bigg.reaction:EX_trp_L_e_		
 EX_trpalapro_e	Exchange of TrpAlaPro	trpalapro_e <-> 		bigg.reaction:EX_trpalapro[e]		
 EX_trpargala_e	Exchange of TrpArgAla	trpargala_e <-> 		bigg.reaction:EX_trpargala[e]		
 EX_trpaspasp_e	Exchange of TrpAspAsp	trpaspasp_e <-> 		bigg.reaction:EX_trpaspasp[e]		
@@ -10022,16 +10022,16 @@ EX_tyrtyr_e	Exchange of Tyrtyr	tyrtyr_e <-> 		bigg.reaction:EX_tyrtyr[e]
 EX_tyrvalmet_e	Exchange of TyrValMet	tyrvalmet_e <-> 		bigg.reaction:EX_tyrvalmet[e]		
 EX_u4_e	Uranium(IV) exchange	u4_e <-> 				
 EX_u6_e	Uranium(VI) exchange	u6_e <-> 				
-EX_uaagmda_e	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala exchange	uaagmda_e <-> 		bigg.reaction:EX_uaagmda(e)		
+EX_uaagmda_e	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala exchange	uaagmda_e <-> 				
 EX_uaccg_e		uaccg_e <-> 				
 EX_uacgam_e	UDP-N-acetyl-D-glucosamine exchange	uacgam_e <-> 		bigg.reaction:EX_uacgam_LPAREN_e_RPAREN_		
 EX_uchol_e	EX uchol(e)	uchol_e <-> 		bigg.reaction:EX_uchol[e]		
 EX_udca3s_e	EX udca3s(e)	udca3s_e <-> 		bigg.reaction:EX_udca3s[e]		
-EX_udcpdp_e	Undecaprenyl diphosphate exchange	udcpdp_e <-> 		bigg.reaction:EX_udcpdp(e)		
+EX_udcpdp_e	Undecaprenyl diphosphate exchange	udcpdp_e <-> 				
 EX_udcpo4_e	Undecaprenyl diphosphate galactose-rhamnose-mannose-abequose Exchange	udcpo4_e <-> 		bigg.reaction:EX_udcpo4_LPAREN_e_RPAREN_		
 EX_udcpo4min_e	Undecaprenyl diphosphate galactose-rhamnose-mannose min Exchange	udcpo4min_e <-> 				
 EX_udcpo5_e	Undecaprenyl diphosphate galactose-rhamnose-mannose-abequose-acetyl Exchange	udcpo5_e <-> 		bigg.reaction:EX_udcpo5_LPAREN_e_RPAREN_		
-EX_udcpp_e	Undecaprenyl phosphate exchange	udcpp_e <-> 		bigg.reaction:EX_udcpp(e)		
+EX_udcpp_e	Undecaprenyl phosphate exchange	udcpp_e <-> 				
 EX_udp_e	UDP exchange	udp_e <-> 		bigg.reaction:EX_udp[e]|bigg.reaction:EX_udp_LPAREN_e_RPAREN_|bigg.reaction:EX_udp_e_		
 EX_udpacgal_e	UDP-N-acetyl-D-galactosamine exchange	udpacgal_e <-> 		bigg.reaction:EX_udpacgal_LPAREN_e_RPAREN_		
 EX_udpg_e	UDPglucose exchange	udpg_e <-> 		bigg.reaction:EX_udpg[e]|bigg.reaction:EX_udpg_LPAREN_e_RPAREN_|bigg.reaction:EX_udpg_e_		
@@ -10041,17 +10041,17 @@ EX_ump_e	UMP exchange	ump_e <-> 		bigg.reaction:EX_ump[e]|bigg.reaction:EX_ump_L
 EX_und2one_e	2 Undecanone exchange	und2one_e <-> 				
 EX_unknown_cbl1deg_e	EX unknown cbl1deg LPAREN e RPAREN 	unknown_cbl1deg_e <-> 		bigg.reaction:EX_unknown_cbl1deg_LPAREN_e_RPAREN_		
 EX_unknown_rbfdeg_e	EX unknown rbfdeg LPAREN e RPAREN 	unknown_rbfdeg_e <-> 		bigg.reaction:EX_unknown_rbfdeg_LPAREN_e_RPAREN_		
-EX_ura_e	Uracil exchange	ura_e <-> 		bigg.reaction:EX_ura(e)|bigg.reaction:EX_ura[e]|bigg.reaction:EX_ura_LPAREN_e_RPAREN_|bigg.reaction:EX_ura_e_		
+EX_ura_e	Uracil exchange	ura_e <-> 		bigg.reaction:EX_ura[e]|bigg.reaction:EX_ura_LPAREN_e_RPAREN_|bigg.reaction:EX_ura_e_		
 EX_urate_e	Urate exchange	urate_e <-> 		bigg.reaction:EX_urate[e]|bigg.reaction:EX_urate_LPAREN_e_RPAREN_|bigg.reaction:EX_urate_e_		
 EX_urcan_e	Exchange of Urocanate	urcan_e <-> 		bigg.reaction:EX_urcan[e]		
-EX_urea_e	Urea exchange	urea_e <-> 		bigg.reaction:EX_urea|bigg.reaction:EX_urea(e)|bigg.reaction:EX_urea[e]|bigg.reaction:EX_urea_LPAREN_e_RPAREN_|bigg.reaction:EX_urea_e_		
+EX_urea_e	Urea exchange	urea_e <-> 		bigg.reaction:EX_urea|bigg.reaction:EX_urea[e]|bigg.reaction:EX_urea_LPAREN_e_RPAREN_|bigg.reaction:EX_urea_e_		
 EX_uri_e	Uridine exchange	uri_e <-> 		bigg.reaction:EX_uri[e]|bigg.reaction:EX_uri_LPAREN_e_RPAREN_|bigg.reaction:EX_uri_e_		
 EX_utp_e	UTP exchange	utp_e <-> 		bigg.reaction:EX_utp[e]|bigg.reaction:EX_utp_LPAREN_e_RPAREN_|bigg.reaction:EX_utp_e_		
 EX_v4_e	Vanadium(IV) exchange	v4_e <-> 				
 EX_v5_e	Vanadium(V) exchange	v5_e <-> 				
 EX_vacc_e	Vaccenic acid exchange	vacc_e <-> 		bigg.reaction:EX_vacc[e]|bigg.reaction:EX_vacc_LPAREN_e_RPAREN_|bigg.reaction:EX_vacc_e_		
 EX_val__D_e	D Valine exchange	val__D_e <-> 				
-EX_val__L_e	L-Valine exchange	val__L_e <-> 		bigg.reaction:EX_val-L(e)|bigg.reaction:EX_val_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_val_L|bigg.reaction:EX_val_L(e)|bigg.reaction:EX_val_L[e]|bigg.reaction:EX_val_L_LPAREN_e_RPAREN_|bigg.reaction:EX_val_L_e|bigg.reaction:EX_val_L_e_|bigg.reaction:EX_val__L(e)		
+EX_val__L_e	L-Valine exchange	val__L_e <-> 		bigg.reaction:EX_val_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_val_L|bigg.reaction:EX_val_L[e]|bigg.reaction:EX_val_L_LPAREN_e_RPAREN_|bigg.reaction:EX_val_L_e|bigg.reaction:EX_val_L_e_		
 EX_valarggly_e	Exchange of ValArgGly	valarggly_e <-> 		bigg.reaction:EX_valarggly[e]		
 EX_valhisasn_e	Exchange of ValHisAsn	valhisasn_e <-> 		bigg.reaction:EX_valhisasn[e]		
 EX_valleuphe_e	Exchange of ValLeuPhe	valleuphe_e <-> 		bigg.reaction:EX_valleuphe[e]		
@@ -10073,7 +10073,7 @@ EX_whddca_e	Omega hydroxy dodecanoate (n-C12:0) exchange	whddca_e <-> 		bigg.rea
 EX_whhdca_e	Omega hydroxy hexadecanoate (n-C16:0) exchange	whhdca_e <-> 		bigg.reaction:EX_whhdca[e]|bigg.reaction:EX_whhdca_LPAREN_e_RPAREN_|bigg.reaction:EX_whhdca_e_		
 EX_whtststerone_e	W hydroxy testosterone exchange	whtststerone_e <-> 		bigg.reaction:EX_whtststerone[e]|bigg.reaction:EX_whtststerone_LPAREN_e_RPAREN_|bigg.reaction:EX_whtststerone_e_		
 EX_whttdca_e	Omega hydroxy tetradecanoate (n-C14:0) exchange	whttdca_e <-> 		bigg.reaction:EX_whttdca[e]|bigg.reaction:EX_whttdca_LPAREN_e_RPAREN_|bigg.reaction:EX_whttdca_e_		
-EX_xan_e	Xanthine exchange	xan_e <-> 		bigg.reaction:EX_xan(e)|bigg.reaction:EX_xan[e]|bigg.reaction:EX_xan_LPAREN_e_RPAREN_|bigg.reaction:EX_xan_e_		
+EX_xan_e	Xanthine exchange	xan_e <-> 		bigg.reaction:EX_xan[e]|bigg.reaction:EX_xan_LPAREN_e_RPAREN_|bigg.reaction:EX_xan_e_		
 EX_xmp_e	Xanthosine 5'-phosphate exchange	xmp_e <-> 		bigg.reaction:EX_xmp[e]|bigg.reaction:EX_xmp_LPAREN_e_RPAREN_		
 EX_xol24oh_e	Exchange of (24S)-24-Hydroxycholesterol	xol24oh_e <-> 		bigg.reaction:EX_xol24oh[e]		
 EX_xol25oh_e	Exchange of 25-Hydroxycholesterol	xol25oh_e <-> 		bigg.reaction:EX_xol25oh[e]		
@@ -10095,18 +10095,18 @@ EX_xoltri24_e	7-alpha,24(S)-Dihydroxycholesterol exchange	xoltri24_e <-> 		bigg.
 EX_xoltri25_e	7-alpha,25-Dihydroxycholesterol exchange	xoltri25_e <-> 		bigg.reaction:EX_xoltri25[e]|bigg.reaction:EX_xoltri25_LPAREN_e_RPAREN_|bigg.reaction:EX_xoltri25_e_		
 EX_xoltri27_e	7-alpha,27-Dihydroxycholesterol exchange	xoltri27_e <-> 		bigg.reaction:EX_xoltri27[e]|bigg.reaction:EX_xoltri27_LPAREN_e_RPAREN_|bigg.reaction:EX_xoltri27_e_		
 EX_xsiderophore_e		xsiderophore_e <-> 		bigg.reaction:EX_XSIDEROPHORE_E		
-EX_xtsn_e	Xanthosine exchange	xtsn_e <-> 		bigg.reaction:EX_xtsn(e)|bigg.reaction:EX_xtsn[e]|bigg.reaction:EX_xtsn_LPAREN_e_RPAREN_|bigg.reaction:EX_xtsn_e_		
-EX_xyl3_e	Xylotriose exchange	xyl3_e <-> 		bigg.reaction:EX_xyl3(e)		
-EX_xyl__D_e	D-Xylose exchange	xyl__D_e <-> 		bigg.reaction:EX_xyl-D(e)|bigg.reaction:EX_xyl_D(e)|bigg.reaction:EX_xyl_DASH_D_LPAREN_e_RPAREN_|bigg.reaction:EX_xyl_D[e]|bigg.reaction:EX_xyl_D_LPAREN_e_RPAREN_|bigg.reaction:EX_xyl_D_e|bigg.reaction:EX_xyl_D_e_		
-EX_xylan12_e	Xylan (12 backbone units, 3 glcur side chain) exchange	xylan12_e <-> 		bigg.reaction:EX_xylan12(e)		
-EX_xylan4_e	Xylan (4 backbone units, 1 glcur side chain) exchange	xylan4_e <-> 		bigg.reaction:EX_xylan4(e)		
-EX_xylan8_e	Xylan (8 backbone units, 2 glcur side chain) exchange	xylan8_e <-> 		bigg.reaction:EX_xylan8(e)		
-EX_xylb_e	Xylobiose exchange	xylb_e <-> 		bigg.reaction:EX_xylb(e)		
+EX_xtsn_e	Xanthosine exchange	xtsn_e <-> 		bigg.reaction:EX_xtsn[e]|bigg.reaction:EX_xtsn_LPAREN_e_RPAREN_|bigg.reaction:EX_xtsn_e_		
+EX_xyl3_e	Xylotriose exchange	xyl3_e <-> 				
+EX_xyl__D_e	D-Xylose exchange	xyl__D_e <-> 		bigg.reaction:EX_xyl_DASH_D_LPAREN_e_RPAREN_|bigg.reaction:EX_xyl_D[e]|bigg.reaction:EX_xyl_D_LPAREN_e_RPAREN_|bigg.reaction:EX_xyl_D_e|bigg.reaction:EX_xyl_D_e_		
+EX_xylan12_e	Xylan (12 backbone units, 3 glcur side chain) exchange	xylan12_e <-> 				
+EX_xylan4_e	Xylan (4 backbone units, 1 glcur side chain) exchange	xylan4_e <-> 				
+EX_xylan8_e	Xylan (8 backbone units, 2 glcur side chain) exchange	xylan8_e <-> 				
+EX_xylb_e	Xylobiose exchange	xylb_e <-> 				
 EX_xylt_e	Xylitol exchange	xylt_e <-> 		bigg.reaction:EX_xylt[e]|bigg.reaction:EX_xylt_LPAREN_e_RPAREN_|bigg.reaction:EX_xylt_e_		
 EX_xylu__D_e	Exchange of Xylu D	xylu__D_e <-> 		bigg.reaction:EX_xylu_D[e]		
 EX_xylu__L_e	L-Xylulose exchange	xylu__L_e <-> 		bigg.reaction:EX_xylu_DASH_L_LPAREN_e_RPAREN_|bigg.reaction:EX_xylu_L[e]|bigg.reaction:EX_xylu_L_LPAREN_e_RPAREN_|bigg.reaction:EX_xylu_L_e		
 EX_yvite_e	Gamma-Tocopherol exchange	gtocophe_e <-> 		bigg.reaction:EX_yvite[e]|bigg.reaction:EX_yvite_LPAREN_e_RPAREN_|bigg.reaction:EX_yvite_e_		
-EX_zn2_e	Zinc exchange	zn2_e <-> 		bigg.reaction:EX_zn2(e)|bigg.reaction:EX_zn2_LPAREN_e_RPAREN_|bigg.reaction:EX_zn2_e_		
+EX_zn2_e	Zinc exchange	zn2_e <-> 		bigg.reaction:EX_zn2_LPAREN_e_RPAREN_|bigg.reaction:EX_zn2_e_		
 EX_zymst_e	Zymosterol exchange	zymst_e <-> 		bigg.reaction:EX_zymst_LPAREN_e_RPAREN_|bigg.reaction:EX_zymst_e_		
 EX_zymstest_SC_e	Zymosterol ester  yeast specific exchange	zymstest_SC_e <-> 		bigg.reaction:EX_zymstest_SC_e_		
 F1Ate	Transport of F1Alpha, Lysosomal	f1a_e <-> f1a_l				
@@ -11678,9 +11678,9 @@ GALM2pp	Aldose-1-epimerase	gal_bD_p <-> gal_p
 GALMAN4	Hydrolysis of galactomannan	galman4_c + 3.0 h2o_c <-> gal_c + 3.0 man_c				
 GALMAN4abc	Galactomannan transport via ABC system	atp_c + h2o_c + galman4_e <-> adp_c + galman4_c + h_c + pi_c				
 GALMAN6	Hydrolysis of galactomannan	galman6_c + 5.0 h2o_c <-> 2.0 gal_c + 4.0 man_c				
-GALMAN600a_e	Hydrolysis of galactomannan (extracellular)	galman600_e + 149.0 h2o_e <-> 150.0 galman4_e		bigg.reaction:GALMAN600a(e)		
-GALMAN600b_e	Hydrolysis of galactomannan (extracellular)	galman600_e + 99.0 h2o_e <-> 100.0 galman6_e		bigg.reaction:GALMAN600b(e)		
-GALMAN600c_e	Hydrolysis of galactomannan (extracellular)	galman600_e + 124.0 h2o_e <-> 75.0 galman4_e + 50.0 galman6_e		bigg.reaction:GALMAN600c(e)		
+GALMAN600a_e	Hydrolysis of galactomannan (extracellular)	galman600_e + 149.0 h2o_e <-> 150.0 galman4_e				
+GALMAN600b_e	Hydrolysis of galactomannan (extracellular)	galman600_e + 99.0 h2o_e <-> 100.0 galman6_e				
+GALMAN600c_e	Hydrolysis of galactomannan (extracellular)	galman600_e + 124.0 h2o_e <-> 75.0 galman4_e + 50.0 galman6_e				
 GALMAN6abc	Galactomannan transport via ABC system	atp_c + h2o_c + galman6_e <-> adp_c + galman6_c + h_c + pi_c				
 GALNACT1g	UDPGal-chondroitin acetylgalactosaminyltransferase I, Golgi	udpacgal_g + cs_hs_linkage_g <-> h_g + udp_g + cs_pre_g				
 GALNACT1g_cho	UDPGal-chondroitin acetylgalactosaminyltransferase I, Golgi	cs_cho_linkage_g + udpacgal_g <-> cs_pre_g + h_g + udp_g				
@@ -12217,9 +12217,9 @@ GLCGSDv	Glucan 1 4 alpha glucosidase  vacuole	glycogen_v + h2o_v <-> glc__D_v
 GLCMAN4	Hydrolysis of glucomannan	glcman4_c + 3.0 h2o_c <-> glc__D_c + 3.0 man_c				
 GLCMAN4abc	Glucomannan transport via ABC system	atp_c + h2o_c + glcman4_e <-> adp_c + glcman4_c + h_c + pi_c				
 GLCMAN6	Hydrolysis of glucomannan	glcman6_c + 5.0 h2o_c <-> 2.0 glc__D_c + 4.0 man_c				
-GLCMAN600a_e	Hydrolysis of glucomannan (extracellular)	glcman600_e + 149.0 h2o_e <-> 150.0 glcman4_e		bigg.reaction:GLCMAN600a(e)		
-GLCMAN600b_e	Hydrolysis of glucomannan (extracellular)	glcman600_e + 99.0 h2o_e <-> 100.0 glcman6_e		bigg.reaction:GLCMAN600b(e)		
-GLCMAN600c_e	Hydrolysis of glucomannan (extracellular)	glcman600_e + 124.0 h2o_e <-> 75.0 glcman4_e + 50.0 glcman6_e		bigg.reaction:GLCMAN600c(e)		
+GLCMAN600a_e	Hydrolysis of glucomannan (extracellular)	glcman600_e + 149.0 h2o_e <-> 150.0 glcman4_e				
+GLCMAN600b_e	Hydrolysis of glucomannan (extracellular)	glcman600_e + 99.0 h2o_e <-> 100.0 glcman6_e				
+GLCMAN600c_e	Hydrolysis of glucomannan (extracellular)	glcman600_e + 124.0 h2o_e <-> 75.0 glcman4_e + 50.0 glcman6_e				
 GLCMAN6abc	Glucomannan transport via ABC system	atp_c + h2o_c + glcman6_e <-> adp_c + glcman6_c + h_c + pi_c				
 GLCMter	Glucose transport via membrane vesicle	glc__D_r <-> glc__D_e				
 GLCNACAMS	N-acetyl-alpha-D-glucosaminyl L-malate synthase	mal__L_c + uacgam_c <-> acgamm_c + h_c + udp_c				
@@ -17788,8 +17788,8 @@ NDHPQR_h	NADH:plastoquinone reductase (non-electrogenic)	h_h + nadh_h + pq_u <->
 NDHPQRcm	NADH:plastoquinone reductase (non-electrogenic)	h_c + nadh_c + pq_cm <-> nad_c + pqh2_cm				
 NDHPQRum	NADH:plastoquinone reductase (non-electrogenic)	h_c + nadh_c + pq_um <-> nad_c + pqh2_um				
 NDH_1	NDH 1	mqn6_c + 3.0 h_c + nadph_c <-> mql6_c + 2.0 h_e + nadp_c				
-NDH_1_1_um	NAD(P)H dehydrogenase (plastoquinone-8 & 4 protons)( Thylakoid)	2.0 fdxrd_c + 5.0 h_c + pq_um <-> 2.0 fdxox_c + 3.0 h_u + pqh2_um		bigg.reaction:NDH-1(1)um|bigg.reaction:NDH-1(2)um		
-NDH_1_4_um	NAD(P)H dehydrogenase, carbon dioxide coupled (plastoquinone-8 & 4 protons)( Thylakoid)	co2_c + 2.0 fdxrd_c + h2o_c + 4.0 h_c + pq_um <-> 2.0 fdxox_c + 3.0 h_u + hco3_c + pqh2_um		bigg.reaction:NDH-1(3)um|bigg.reaction:NDH-1(4)um		
+NDH_1_1_um	NAD(P)H dehydrogenase (plastoquinone-8 & 4 protons)( Thylakoid)	2.0 fdxrd_c + 5.0 h_c + pq_um <-> 2.0 fdxox_c + 3.0 h_u + pqh2_um				
+NDH_1_4_um	NAD(P)H dehydrogenase, carbon dioxide coupled (plastoquinone-8 & 4 protons)( Thylakoid)	co2_c + 2.0 fdxrd_c + h2o_c + 4.0 h_c + pq_um <-> 2.0 fdxox_c + 3.0 h_u + hco3_c + pqh2_um				
 NDP1	Nucleoside diphosphatase  ADP 	adp_c + h2o_c <-> amp_c + h_c + pi_c		bigg.reaction:ADPA|bigg.reaction:ADPH_c|bigg.reaction:r0028		
 NDP10ex	Nucleoside-diphosphatase (IDP), extracellular	h2o_e + idp_e <-> imp_e + h_e + pi_e				
 NDP3	Nucleoside diphosphatase  GDP 	gdp_c + h2o_c <-> gmp_c + h_c + pi_c		bigg.reaction:GDPA|bigg.reaction:GDPH_c		
@@ -24191,22 +24191,22 @@ RNAMtpp	Nicotinamide riboside transport	rnam_p <-> rnam_c
 RNAS_LLA	RNA synthesis lactis specific	0.66 atp_c + 0.2 ctp_c + 0.32 gtp_c + 0.4 h2o_c + 0.22 utp_c <-> 0.01 RNA_LLA_c + 0.4 adp_c + 0.4 h_c + 0.4 pi_c + ppi_c				
 RNA_1		atp_c + ctp_c + gtp_c + h2o_c + utp_c <-> RNA_c + adp_c + pi_c + ppi_c		bigg.reaction:RNA		
 RNDR1	Ribonucleoside-diphosphate reductase (ADP)	adp_c + trdrd_c <-> dadp_c + h2o_c + trdox_c		bigg.reaction:DAOTO|bigg.reaction:DAOTO_c		
-RNDR1_n	Ribonucleoside-diphosphate reductase, nuclear (tryparedoxin)	adp_n + trpdrd_n <-> dadp_n + h2o_n + trpdox_n		bigg.reaction:RNDR1(n)		
+RNDR1_n	Ribonucleoside-diphosphate reductase, nuclear (tryparedoxin)	adp_n + trpdrd_n <-> dadp_n + h2o_n + trpdox_n				
 RNDR1b	Ribonucleoside-diphosphate reductase (ADP) (glutaredoxin)	adp_c + grxrd_c <-> dadp_c + grxox_c + h2o_c				
 RNDR1c	Ribonucleoside-diphosphate reductase(ADP)(plasmoredoxin)	adp_c + plrxrd_c <-> dadp_c + h2o_c + plrxox_c				
 RNDR1n	Ribonucleoside diphosphate reductase  nuclear	adp_n + trdrd_n <-> dadp_n + h2o_n + trdox_n				
 RNDR2	Ribonucleoside-diphosphate reductase (GDP)	gdp_c + trdrd_c <-> dgdp_c + h2o_c + trdox_c		bigg.reaction:DGOTO|bigg.reaction:DGOTO_c		
-RNDR2_n	Ribonucleoside-diphosphate reductase (GDP), nuclear (tryparedoxin)	gdp_n + trpdrd_n <-> dgdp_n + h2o_n + trpdox_n		bigg.reaction:RNDR2(n)		
+RNDR2_n	Ribonucleoside-diphosphate reductase (GDP), nuclear (tryparedoxin)	gdp_n + trpdrd_n <-> dgdp_n + h2o_n + trpdox_n				
 RNDR2b	Ribonucleoside-diphosphate reductase (GDP) (glutaredoxin)	gdp_c + grxrd_c <-> dgdp_c + grxox_c + h2o_c				
 RNDR2c	Ribonucleoside-diphosphate reductase(GDP)(plasmoredoxin)	gdp_c + plrxrd_c <-> dgdp_c + h2o_c + plrxox_c				
 RNDR2n	Ribonucleoside diphosphate reductase  GDP   nuclear	gdp_n + trdrd_n <-> dgdp_n + h2o_n + trdox_n				
 RNDR3	Ribonucleoside-diphosphate reductase (CDP)	cdp_c + trdrd_c <-> dcdp_c + h2o_c + trdox_c		bigg.reaction:DCDT|bigg.reaction:DCDT_c		
-RNDR3_n	Ribonucleoside-diphosphate reductase (CDP), nuclear (tryparedoxin)	cdp_n + trpdrd_n <-> dcdp_n + h2o_n + trpdox_n		bigg.reaction:RNDR3(n)		
+RNDR3_n	Ribonucleoside-diphosphate reductase (CDP), nuclear (tryparedoxin)	cdp_n + trpdrd_n <-> dcdp_n + h2o_n + trpdox_n				
 RNDR3b	Ribonucleoside-diphosphate reductase (CDP) (glutaredoxin)	cdp_c + grxrd_c <-> dcdp_c + grxox_c + h2o_c				
 RNDR3c	Ribonucleoside-diphosphate reductase(CDP)(plasmoredoxin)	cdp_c + plrxrd_c <-> dcdp_c + h2o_c + plrxox_c				
 RNDR3n	Ribonucleoside diphosphate reductase  CDP   nuclear	cdp_n + trdrd_n <-> dcdp_n + h2o_n + trdox_n				
 RNDR4	Ribonucleoside-diphosphate reductase (UDP)	trdrd_c + udp_c <-> dudp_c + h2o_c + trdox_c		bigg.reaction:DUDT		
-RNDR4_n	Ribonucleoside-diphosphate reductase (UDP), nuclear (tryparedoxin)	trpdrd_n + udp_n <-> dudp_n + h2o_n + trpdox_n		bigg.reaction:RNDR4(n)		
+RNDR4_n	Ribonucleoside-diphosphate reductase (UDP), nuclear (tryparedoxin)	trpdrd_n + udp_n <-> dudp_n + h2o_n + trpdox_n				
 RNDR4b	Ribonucleoside-diphosphate reductase (UDP) (glutaredoxin)	grxrd_c + udp_c <-> dudp_c + grxox_c + h2o_c				
 RNDR4c	Ribonucleoside-diphosphate reductase(UDP)(plasmoredoxin)	plrxrd_c + udp_c <-> dudp_c + h2o_c + plrxox_c				
 RNDR4n	Ribonucleoside diphosphate reductase  UDP   nuclear	trdrd_n + udp_n <-> dudp_n + h2o_n + trdox_n				

@@ -1,8 +1,9 @@
 format-version: 1.4
 data-version: 22.1
-auto-generated-by: PyOBO v0.12.0-dev-fd7cd1a1 on 2025-01-08T23:22:53.909928
+auto-generated-by: PyOBO v0.12.0-dev-63556853 on 2025-01-13T18:22:20.627586
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
-idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
+idspace: mirbase http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc= "miRBase pre-miRNA"
+idspace: mirbase.family http://www.mirbase.org/cgi-bin/mirna_summary.pl?fam= "miRBase Families"
 ontology: mirbase.family
 property_value: dcterms:title "miRBase Families" xsd:string
 property_value: dcterms:license "public domain" xsd:string

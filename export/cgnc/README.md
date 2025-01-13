@@ -9,6 +9,7 @@ Nomenclature Consortium around Chicken genes (analogous to the HGNC for humans)
 | Artifact       | Download PURL                                                | Latest Versioned Download PURL   |
 |----------------|--------------------------------------------------------------|----------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/cgnc/cgnc.obo       |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/cgnc/cgnc.ofn       |                                  |
 | Nodes          | https://w3id.org/biopragmatics/resources/cgnc/cgnc.tsv       |                                  |
 | SSSOM          | https://w3id.org/biopragmatics/resources/cgnc/cgnc.sssom.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/cgnc/cgnc.owl       |                                  |

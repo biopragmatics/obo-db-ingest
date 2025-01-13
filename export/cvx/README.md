@@ -9,6 +9,7 @@ The CDC's National Center of Immunization and Respiratory Diseases (NCIRD) devel
 | Artifact       | Download PURL                                              | Latest Versioned Download PURL   |
 |----------------|------------------------------------------------------------|----------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/cvx/cvx.obo       |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/cvx/cvx.ofn       |                                  |
 | Nodes          | https://w3id.org/biopragmatics/resources/cvx/cvx.tsv       |                                  |
 | SSSOM          | https://w3id.org/biopragmatics/resources/cvx/cvx.sssom.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/cvx/cvx.owl       |                                  |
@@ -18,6 +19,7 @@ The CDC's National Center of Immunization and Respiratory Diseases (NCIRD) devel
 
 | field      |   count |
 |------------|---------|
+| mappings   |       3 |
 | parents    |     246 |
 | properties |     717 |
 | synonyms   |     249 |

@@ -10,6 +10,7 @@ Database for integrating species source of natural products & connecting natural
 | Artifact       | Download PURL                                                  | Latest Versioned Download PURL                                     |
 |----------------|----------------------------------------------------------------|--------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/npass/npass.obo       | https://w3id.org/biopragmatics/resources/npass/2.0/npass.obo       |
+| OFN            | https://w3id.org/biopragmatics/resources/npass/npass.ofn       | https://w3id.org/biopragmatics/resources/npass/2.0/npass.ofn       |
 | Nodes          | https://w3id.org/biopragmatics/resources/npass/npass.tsv       | https://w3id.org/biopragmatics/resources/npass/2.0/npass.tsv       |
 | SSSOM          | https://w3id.org/biopragmatics/resources/npass/npass.sssom.tsv | https://w3id.org/biopragmatics/resources/npass/2.0/npass.sssom.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/npass/npass.owl       | https://w3id.org/biopragmatics/resources/npass/2.0/npass.owl       |
@@ -19,6 +20,6 @@ Database for integrating species source of natural products & connecting natural
 
 | field    |   count |
 |----------|---------|
-| mappings |  103085 |
+| mappings |  103082 |
 | synonyms |   22501 |
 | terms    |   96420 |

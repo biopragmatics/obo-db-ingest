@@ -9,6 +9,7 @@ The Saccharomyces Genome Database (SGD) project collects information and maintai
 | Artifact       | Download PURL                                              | Latest Versioned Download PURL                                     |
 |----------------|------------------------------------------------------------|--------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/sgd/sgd.obo       | https://w3id.org/biopragmatics/resources/sgd/R64-5-1/sgd.obo       |
+| OFN            | https://w3id.org/biopragmatics/resources/sgd/sgd.ofn       | https://w3id.org/biopragmatics/resources/sgd/R64-5-1/sgd.ofn       |
 | Nodes          | https://w3id.org/biopragmatics/resources/sgd/sgd.tsv       | https://w3id.org/biopragmatics/resources/sgd/R64-5-1/sgd.tsv       |
 | SSSOM          | https://w3id.org/biopragmatics/resources/sgd/sgd.sssom.tsv | https://w3id.org/biopragmatics/resources/sgd/R64-5-1/sgd.sssom.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/sgd/sgd.owl       | https://w3id.org/biopragmatics/resources/sgd/R64-5-1/sgd.owl       |

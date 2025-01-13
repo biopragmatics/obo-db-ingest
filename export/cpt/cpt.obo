@@ -1,7 +1,8 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.0-dev-669c37f2 on 2025-01-08T23:48:38.395527
+auto-generated-by: PyOBO v0.12.0-dev-63556853 on 2025-01-13T18:29:06.639731
+idspace: cpt https://www.aapc.com/codes/cpt-codes/ "Current Procedural Terminology"
+idspace: cvx https://biopragmatics.github.io/providers/cvx/ "Vaccine administered code set"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
-idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
 ontology: cpt
 property_value: dcterms:title "Current Procedural Terminology" xsd:string
 property_value: dcterms:description "Current Procedural Terminology\\\, more commonly known as CPT®\\\, refers to a medical code set created and maintained by the American Medical Association — and used by physicians\\\, allied health professionals\\\, nonphysician practitioners\\\, hospitals\\\, outpatient facilities\\\, and laboratories to represent the services and procedures they perform. No provider of outpatient services gets paid without reporting the proper CPT® codes. \\\[Description taken from this site\\\]\\\(https\\\://www.aapc.com/codes/cpt-codes-range/\\\)\\\]" xsd:string
@@ -64,15 +65,15 @@ xref: cvx:93
 id: cpt:90380
 name: RSV\, mAb\, nirsevimab-alip\, 0.5 mL\, neonate to 24 months
 def: "Respiratory syncytial virus\, monoclonal antibody\, seasonal dose; 0.5 mL dosage\, for intramuscular use" []
+comment: "CPT Code to be used for Beyfortus 0.5 mL"
 xref: cvx:306
-property_value: rdfs:comment "CPT Code to be used for Beyfortus 0.5 mL" xsd:string
 
 [Term]
 id: cpt:90381
 name: RSV\, mAb\, nirsevimab-alip\, 1 mL\, neonate to 24 months
 def: "Respiratory syncytial virus\, monoclonal antibody\, seasonal dose; 1 mL dosage\, for intramuscular use" []
+comment: "CPT Code to be used for Beyfortus 1.0 mL"
 xref: cvx:307
-property_value: rdfs:comment "CPT Code to be used for Beyfortus 1.0 mL" xsd:string
 
 [Term]
 id: cpt:90389
@@ -144,8 +145,8 @@ xref: cvx:317
 id: cpt:90611
 name: Vaccinia\, smallpox Mpox vaccine live\, PF\, SQ or ID injection
 def: "Smallpox and monkeypox vaccine\, attenuated vaccinia virus\, live\, non-replicating\, preservative free\, 0.5 mL dosage\, suspension\, for subcutaneous use" []
+comment: "CPT Code to be used for JYNNEOS vaccine"
 xref: cvx:206
-property_value: rdfs:comment "CPT Code to be used for JYNNEOS vaccine" xsd:string
 
 [Term]
 id: cpt:90619
@@ -169,8 +170,8 @@ xref: cvx:162
 id: cpt:90622
 name: vaccinia \(smallpox\)
 def: "Vaccinia \(smallpox\) virus vaccine\, live\, lyophilized\, 0.3 mL dosage\, for percutaneous use" []
+comment: "CPT Code to be used for ACAM2000 vaccine"
 xref: cvx:75
-property_value: rdfs:comment "CPT Code to be used for ACAM2000 vaccine" xsd:string
 
 [Term]
 id: cpt:90623
@@ -434,15 +435,15 @@ xref: cvx:216
 id: cpt:90678
 name: RSV\, bivalent\, protein subunit RSVpreF\, diluent reconstituted\, 0.5 mL\, PF
 def: "Respiratory syncytial virus vaccine\, preF\, subunit\, bivalent\, for intramuscular use" []
+comment: "CPT Code to be used for ABRYSVO"
 xref: cvx:305
-property_value: rdfs:comment "CPT Code to be used for ABRYSVO" xsd:string
 
 [Term]
 id: cpt:90679
 name: RSV\, recombinant\, protein subunit RSVpreF\, adjuvant reconstituted\, 0.5 mL\, PF
 def: "Respiratory syncytial virus vaccine\, preF\, recombinant\, subunit\, adjuvanted\, for intramuscular use" []
+comment: "CPT Code to be Used for Arexvy"
 xref: cvx:303
-property_value: rdfs:comment "CPT Code to be Used for Arexvy" xsd:string
 
 [Term]
 id: cpt:90680
@@ -628,15 +629,15 @@ xref: cvx:10
 id: cpt:90714
 name: Td \(adult\)\, 5 Lf tetanus toxoid\, preservative free\, adsorbed
 def: "Tetanus and diphtheria toxoids adsorbed \(Td\)\, preservative free\, when administered to individuals 7 years or older\, for intramuscular use" []
+comment: "Beginning in 2005, this CPT code maps to TD preservative free. Remapped to CVX code 09 10/2021 to support active products mapped to that code."
 xref: cvx:113
-property_value: rdfs:comment "Beginning in 2005, this CPT code maps to TD preservative free. Remapped to CVX code 09 10/2021 to support active products mapped to that code." xsd:string
 
 [Term]
 id: cpt:90714
 name: Td \(adult\)\, 2 Lf tetanus toxoid\, preservative free\, adsorbed
 def: "Tetanus and diphtheria toxoids adsorbed \(Td\)\, preservative free\, when administered to individuals 7 years or older\, for intramuscular use" []
+comment: "Beginning in 2005, this CPT code maps to TD preservative free. Remapped to CVX code 09 10/2021 to support active products mapped to that code."
 xref: cvx:09
-property_value: rdfs:comment "Beginning in 2005, this CPT code maps to TD preservative free. Remapped to CVX code 09 10/2021 to support active products mapped to that code." xsd:string
 
 [Term]
 id: cpt:90715
@@ -840,8 +841,8 @@ xref: cvx:187
 id: cpt:90756
 name: Influenza\, MDCK\, quadrivalent\, preservative
 def: "Influenza virus vaccine\, quadrivalent \(ccIIV4\)\, derived from cell cultures\, subunit\, antibiotic free\, 0.5 mL dosage\, for intramuscular use" []
+comment: "Effective 1/1/2018"
 xref: cvx:186
-property_value: rdfs:comment "Effective 1/1/2018" xsd:string
 
 [Term]
 id: cpt:90758
@@ -859,166 +860,166 @@ xref: cvx:220
 id: cpt:91300
 name: COVID-19\, mRNA\, LNP-S\, PF\, 30 mcg/0.3 mL dose
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, spike protein\, preservative free\, 30 mcg/0.3 mL dosage\, diluent reconstituted\, for intramuscular use" []
+comment: "COVID-19 Vaccine - EUA authorized 12/11/2020"
 xref: cvx:208
-property_value: rdfs:comment "COVID-19 Vaccine - EUA authorized 12/11/2020" xsd:string
 
 [Term]
 id: cpt:91301
 name: COVID-19\, mRNA\, LNP-S\, PF\, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, spike protein\, preservative free\, 100 mcg/0.5 mL dosage\, for intramuscular use" []
+comment: "COVID-19 Vaccine - BLA Licensed and EUA authorized"
 xref: cvx:207
-property_value: rdfs:comment "COVID-19 Vaccine - BLA Licensed and EUA authorized" xsd:string
 
 [Term]
 id: cpt:91302
 name: COVID-19 vaccine\, vector-nr\, rS-ChAdOx1\, PF\, 0.5 mL
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, DNA\, spike protein\, chimpanzee adenovirus Oxford 1 \(ChAdOx1\) vector\, preservative free\, 5x1010 viral particles/0.5 mL dosage\, for intramuscular use" []
+comment: "COVID-19 Vaccine - EUA submission withdrawn"
 xref: cvx:210
-property_value: rdfs:comment "COVID-19 Vaccine - EUA submission withdrawn" xsd:string
 
 [Term]
 id: cpt:91303
 name: COVID-19 vaccine\, vector-nr\, rS-Ad26\, PF\, 0.5 mL
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, DNA\, spike protein\, adenovirus type 26 \(Ad26\) vector\, preservative free\, 5x1010 viral particles/0.5 mL dosage\, for intramuscular use" []
+comment: "COVID-19 Vaccine - EUA authorized 2/27/2021"
 xref: cvx:212
-property_value: rdfs:comment "COVID-19 Vaccine - EUA authorized 2/27/2021" xsd:string
 
 [Term]
 id: cpt:91304
 name: COVID-19\, subunit\, rS-nanoparticle\, adjuvanted\, PF\, 5 mcg/0.5 mL
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, recombinant spike protein nanoparticle\, saponin-based adjuvant\, 5 mcg/0.5 mL dosage\, for intramuscular use" []
+comment: "Original and Fall COVID-19 vaccine starting 2023"
 xref: cvx:313
-property_value: rdfs:comment "Original and Fall COVID-19 vaccine starting 2023" xsd:string
 
 [Term]
 id: cpt:91304
 name: COVID-19\, subunit\, rS-nanoparticle+Matrix-M1 Adjuvant\, PF\, 0.5 mL
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, recombinant spike protein nanoparticle\, saponin-based adjuvant\, 5 mcg/0.5 mL dosage\, for intramuscular use" []
+comment: "Original and Fall COVID-19 vaccine starting 2023"
 xref: cvx:211
-property_value: rdfs:comment "Original and Fall COVID-19 vaccine starting 2023" xsd:string
 
 [Term]
 id: cpt:91305
 name: COVID-19\, mRNA\, LNP-S\, PF\, 30 mcg/0.3 mL dose\, tris-sucrose
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, spike protein\, preservative free\, 30 mcg/0.3 mL dosage\, tris-sucrose formulation\, for intramuscular use" []
+comment: "COVID-19 Vaccine - EUA authorized for primary series and IC, EUA rescinded 8/31/202 for monovalent boosters"
 xref: cvx:217
-property_value: rdfs:comment "COVID-19 Vaccine - EUA authorized for primary series and IC, EUA rescinded 8/31/202 for monovalent boosters" xsd:string
 
 [Term]
 id: cpt:91306
 name: COVID-19\, mRNA\, LNP-S\, PF\, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, spike protein\, preservative free\, 50 mcg/0.25 mL dosage\, for intramuscular use" []
+comment: "COVID-19 Vaccine - EUA authorization rescinded 8/31/2022 for adult monovalent booster dose"
 xref: cvx:207
-property_value: rdfs:comment "COVID-19 Vaccine - EUA authorization rescinded 8/31/2022 for adult monovalent booster dose" xsd:string
 
 [Term]
 id: cpt:91307
 name: COVID-19\, mRNA\, LNP-S\, PF\, 10 mcg/0.2 mL dose\, tris-sucrose
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, spike protein\, preservative free\, 10 mcg/0.2 mL dosage\, diluent reconstituted\, tris-sucrose formulation\, for intramuscular use" []
+comment: "COVID-19 Vaccine - EUA authorized, pediatric 5 yrs through 11 yrs dose requires dilution"
 xref: cvx:218
-property_value: rdfs:comment "COVID-19 Vaccine - EUA authorized, pediatric 5 yrs through 11 yrs dose requires dilution" xsd:string
 
 [Term]
 id: cpt:91308
 name: COVID-19\, mRNA\, LNP-S\, PF\, 3 mcg/0.2 mL dose\, tris-sucrose
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, spike protein\, preservative free\, 3 mcg/0.2 mL dosage\, diluent reconstituted\, tris-sucrose formulation\, for intramuscular use" []
+comment: "COVID-19 Vaccine - EUA authorized for children under 5 yrs"
 xref: cvx:219
-property_value: rdfs:comment "COVID-19 Vaccine - EUA authorized for children under 5 yrs" xsd:string
 
 [Term]
 id: cpt:91309
 name: COVID-19\, mRNA\, LNP-S\, PF\, 50 mcg/0.5 mL dose
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, spike protein\, preservative free\, 50 mcg/0.5 mL dosage\, for intramuscular use" []
+comment: "COVID-19 Vaccine - EUA authorized for pediatric, EUA rescinded 8/31/2022 for adult monovalent booster dose"
 xref: cvx:221
-property_value: rdfs:comment "COVID-19 Vaccine - EUA authorized for pediatric, EUA rescinded 8/31/2022 for adult monovalent booster dose" xsd:string
 
 [Term]
 id: cpt:91310
 name: COVID-19\, D614\, recomb\, preS dTM\, AS03 adjuvant add\, PF\, 5mcg/0.5mL
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, monovalent\, preservative free\, 5 mcg/0.5 mL dosage\, adjuvant AS03 emulsion\, for intramuscular use" []
+comment: "COVID-19 Vaccine - Potential EUA authorization booster dose"
 xref: cvx:225
-property_value: rdfs:comment "COVID-19 Vaccine - Potential EUA authorization booster dose" xsd:string
 
 [Term]
 id: cpt:91311
 name: COVID-19\, mRNA\, LNP-S\, PF\, pediatric 25 mcg/0.25 mL dose
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, spike protein\, preservative free\, 25 mcg/0.25 mL dosage\, for intramuscular use" []
+comment: "COVID-19 Vaccine - EUA authorized for ages 6 mo through 5 yrs"
 xref: cvx:228
-property_value: rdfs:comment "COVID-19 Vaccine - EUA authorized for ages 6 mo through 5 yrs" xsd:string
 
 [Term]
 id: cpt:91312
 name: COVID-19\, mRNA\, LNP-S\, bivalent\, PF\, 30 mcg/0.3 mL dose
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, bivalent spike protein\, preservative free\, 30 mcg/0.3 mL dosage\, tris-sucrose formulation\, for intramuscular use" []
+comment: "COVID-19 Vaccine - EUA authorized 8/31/2022 bivalent booster ages 12+ yrs"
 xref: cvx:300
-property_value: rdfs:comment "COVID-19 Vaccine - EUA authorized 8/31/2022 bivalent booster ages 12+ yrs" xsd:string
 
 [Term]
 id: cpt:91313
 name: COVID-19\, mRNA\, LNP-S\, bivalent\, PF\, 50 mcg/0.5 mL or 25mcg/0.25 mL dose
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, spike protein\, bivalent\, preservative free\, 50 mcg/0.5 mL dosage\, for intramuscular use" []
+comment: "COVID-19 Vaccine - EUA authorized 8/31/2022 bivalent booster for ages 18+ yrs, potential EUA ages 6 yrs through 17 yrs"
 xref: cvx:229
-property_value: rdfs:comment "COVID-19 Vaccine - EUA authorized 8/31/2022 bivalent booster for ages 18+ yrs, potential EUA ages 6 yrs through 17 yrs" xsd:string
 
 [Term]
 id: cpt:91314
 name: COVID-19\, mRNA\, LNP-S\, bivalent\, PF\, 50 mcg/0.5 mL or 25mcg/0.25 mL dose
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, spike protein\, bivalent\, preservative free\, 25 mcg/0.25 mL dosage\, for intramuscular use" []
+comment: "COVID-19 Vaccine - EUA authorized 8/31/2022 bivalent booster for ages 6 yrs through 11 yrs"
 xref: cvx:229
-property_value: rdfs:comment "COVID-19 Vaccine - EUA authorized 8/31/2022 bivalent booster for ages 6 yrs through 11 yrs" xsd:string
 
 [Term]
 id: cpt:91315
 name: COVID-19\, mRNA\, LNP-S\, bivalent\, PF\, 10 mcg/0.2 mL dose
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, bivalent spike protein\, preservative free\, 10 mcg/0.2 mL dosage\, diluent reconstituted\, tris-sucrose formulation\, for intramuscular use" []
+comment: "COVID-19 Vaccine - Potential EUA authorization bivalent booster for ages 5 yrs through 11 yrs"
 xref: cvx:301
-property_value: rdfs:comment "COVID-19 Vaccine - Potential EUA authorization bivalent booster for ages 5 yrs through 11 yrs" xsd:string
 
 [Term]
 id: cpt:91316
 name: COVID-19\, mRNA\, LNP-S\, bivalent\, PF\, 10 mcg/0.2 mL
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, spike protein\, bivalent\, preservative free\, 10 mcg/0.2 mL dosage\, for intramuscular use" []
+comment: "COVID-19 Vaccine - EUA authorized 12/8/2022  bivalent booster (Moderna) for ages 6 mo through 5 yrs"
 xref: cvx:230
-property_value: rdfs:comment "COVID-19 Vaccine - EUA authorized 12/8/2022  bivalent booster (Moderna) for ages 6 mo through 5 yrs" xsd:string
 
 [Term]
 id: cpt:91317
 name: COVID-19\, mRNA\, LNP-S\, bivalent\, PF\, 3 mcg/0.2 mL dose
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, bivalent spike protein\, preservative free\, 3 mcg/0.2 mL dosage\, diluent reconstituted\, tris-sucrose formulation\, for intramuscular use" []
+comment: "COVID-19 Vaccine - EUA authorized 12/8/2022  bivalent vaccine (Pfizer) for ages 6 mo through 4 yrs"
 xref: cvx:302
-property_value: rdfs:comment "COVID-19 Vaccine - EUA authorized 12/8/2022  bivalent vaccine (Pfizer) for ages 6 mo through 4 yrs" xsd:string
 
 [Term]
 id: cpt:91318
 name: COVID-19\, mRNA\, LNP-S\, PF\, tris-sucrose\, 3 mcg/0.3 mL
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, spike protein\, 3 mcg/0.3 mL dosage\, tris-sucrose formulation\, for intramuscular use" []
+comment: "Fall COVID-19 vaccine starting 2023"
 xref: cvx:308
-property_value: rdfs:comment "Fall COVID-19 vaccine starting 2023" xsd:string
 
 [Term]
 id: cpt:91319
 name: COVID-19\, mRNA\, LNP-S\, PF\, tris-sucrose\, 10 mcg/0.3 mL
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, spike protein\, 10 mcg/0.3 mL dosage\, tris-sucrose formulation\, for intramuscular use" []
+comment: "Fall COVID-19 vaccine starting 2023"
 xref: cvx:310
-property_value: rdfs:comment "Fall COVID-19 vaccine starting 2023" xsd:string
 
 [Term]
 id: cpt:91320
 name: COVID-19\, mRNA\, LNP-S\, PF\, tris-sucrose\, 30 mcg/0.3 mL
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, spike protein\, 30 mcg/0.3 mL dosage\, tris-sucrose formulation\, for intramuscular use" []
+comment: "Fall COVID-19 vaccine starting 2023"
 xref: cvx:309
-property_value: rdfs:comment "Fall COVID-19 vaccine starting 2023" xsd:string
 
 [Term]
 id: cpt:91321
 name: COVID-19\, mRNA\, LNP-S\, PF\, 25 mcg/0.25 mL
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, 25 mcg/0.25 mL dosage\, for intramuscular use" []
+comment: "Fall COVID-19 vaccine starting 2023"
 xref: cvx:311
-property_value: rdfs:comment "Fall COVID-19 vaccine starting 2023" xsd:string
 
 [Term]
 id: cpt:91322
 name: COVID-19\, mRNA\, LNP-S\, PF\, 50 mcg/0.5 mL
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, 50 mcg/0.5 mL dosage\, for intramuscular use" []
+comment: "Fall COVID-19 vaccine starting 2023"
 xref: cvx:312
-property_value: rdfs:comment "Fall COVID-19 vaccine starting 2023" xsd:string

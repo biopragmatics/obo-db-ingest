@@ -9,6 +9,7 @@ MeSH (Medical Subject Headings) is the National Library of Medicine's controlled
 | Artifact       | Download PURL                                                | Latest Versioned Download PURL                                    |
 |----------------|--------------------------------------------------------------|-------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/mesh/mesh.obo       | https://w3id.org/biopragmatics/resources/mesh/2025/mesh.obo       |
+| OFN            | https://w3id.org/biopragmatics/resources/mesh/mesh.ofn.gz    | https://w3id.org/biopragmatics/resources/mesh/2025/mesh.ofn.gz    |
 | Nodes          | https://w3id.org/biopragmatics/resources/mesh/mesh.tsv       | https://w3id.org/biopragmatics/resources/mesh/2025/mesh.tsv       |
 | SSSOM          | https://w3id.org/biopragmatics/resources/mesh/mesh.sssom.tsv | https://w3id.org/biopragmatics/resources/mesh/2025/mesh.sssom.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/mesh/mesh.owl.gz    | https://w3id.org/biopragmatics/resources/mesh/2025/mesh.owl.gz    |

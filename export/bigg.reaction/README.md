@@ -9,6 +9,7 @@ BiGG is a knowledgebase of Biochemically, Genetically and Genomically structured
 | Artifact       | Download PURL                                                                  | Latest Versioned Download PURL                                                       |
 |----------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | OBO            | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.obo       | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.obo       |
+| OFN            | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.ofn       | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.ofn       |
 | Nodes          | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.tsv       | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.tsv       |
 | SSSOM          | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.sssom.tsv | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.sssom.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.owl       | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.owl       |
@@ -18,8 +19,8 @@ BiGG is a knowledgebase of Biochemically, Genetically and Genomically structured
 
 | field       |   count |
 |-------------|---------|
-| alts        |    8386 |
+| alts        |    8200 |
 | definitions |   28301 |
-| mappings    |   72720 |
-| properties  |  251422 |
+| mappings    |   80920 |
+| properties  |  259622 |
 | terms       |   28301 |

@@ -1,6 +1,6 @@
 {
   "graphs" : [ {
-    "id" : "urn:absolute:nlm.publisher",
+    "id" : "https://w3id.org/biopragmatics/resources/nlm.publisher/nlm.publisher.ofn",
     "meta" : {
       "basicPropertyValues" : [ {
         "pred" : "http://purl.obolibrary.org/obo/IAO_0000700",
@@ -14,6 +14,9 @@
       }, {
         "pred" : "http://purl.org/dc/terms/title",
         "val" : "NLM Publisher Codes"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
+        "val" : "PyOBO v0.12.0-dev-63556853 on 2025-01-13T18:21:48.941951"
       } ]
     },
     "nodes" : [ {

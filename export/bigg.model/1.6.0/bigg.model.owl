@@ -1,22 +1,23 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/bigg.model.owl#"
-     xml:base="http://purl.obolibrary.org/obo/bigg.model.owl"
+<rdf:RDF xmlns="https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.ofn#"
+     xml:base="https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.ofn"
+     xmlns:RO="http://purl.obolibrary.org/obo/RO_"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:NCBITaxon="http://purl.obolibrary.org/obo/NCBITaxon_"
      xmlns:bigg.model="http://bigg.ucsd.edu/models/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bigg.model.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bigg.model/1.6.0/bigg.model.owl"/>
+    <owl:Ontology rdf:about="https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.ofn">
+        <owl:versionIRI rdf:resource="https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.ofn"/>
         <dcterms:description>BiGG is a knowledgebase of Biochemically\, Genetically and Genomically structured genome-scale metabolic network reconstructions. It more published genome-scale metabolic networks into a single database with a set of stardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations\, and metabolites are linked to many external databases \(KEGG\, PubChem\, and many more\). This collection references individual models.</dcterms:description>
-        <dcterms:license>http://bigg.ucsd.edu/license#license</dcterms:license>
+        <dcterms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://bigg.ucsd.edu/license#license</dcterms:license>
         <dcterms:title>BiGG Model</dcterms:title>
-        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-669c37f2 on 2025-01-08T23:49:04.260569</oboInOwl:auto-generated-by>
-        <oboInOwl:hasOBOFormatVersion>1.4</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-63556853 on 2025-01-13T18:29:32.262042</oboInOwl:auto-generated-by>
+        <owl:versionInfo>1.6.0</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -53,22 +54,6 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
-        <rdfs:label>has_obo_format_version</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
-        <rdfs:label>id</rdfs:label>
-    </owl:AnnotationProperty>
     
 
 
@@ -109,7 +94,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:RECON1</oboInOwl:id>
     </owl:Class>
     
 
@@ -123,7 +107,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:Recon3D</oboInOwl:id>
     </owl:Class>
     
 
@@ -137,7 +120,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_99287"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:STM_v1_0</oboInOwl:id>
     </owl:Class>
     
 
@@ -151,7 +133,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_511145"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:e_coli_core</oboInOwl:id>
     </owl:Class>
     
 
@@ -165,7 +146,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iAB_RBC_283</oboInOwl:id>
     </owl:Class>
     
 
@@ -179,7 +159,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_511145"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iAF1260</oboInOwl:id>
     </owl:Class>
     
 
@@ -193,7 +172,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_511145"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iAF1260b</oboInOwl:id>
     </owl:Class>
     
 
@@ -207,7 +185,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_269797"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iAF692</oboInOwl:id>
     </owl:Class>
     
 
@@ -221,7 +198,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_269799"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iAF987</oboInOwl:id>
     </owl:Class>
     
 
@@ -235,7 +211,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5821"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iAM_Pb448</oboInOwl:id>
     </owl:Class>
     
 
@@ -249,7 +224,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1120755"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iAM_Pc455</oboInOwl:id>
     </owl:Class>
     
 
@@ -263,7 +237,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_36329"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iAM_Pf480</oboInOwl:id>
     </owl:Class>
     
 
@@ -277,7 +250,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5851"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iAM_Pk459</oboInOwl:id>
     </owl:Class>
     
 
@@ -291,7 +263,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_126793"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iAM_Pv461</oboInOwl:id>
     </owl:Class>
     
 
@@ -305,7 +276,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_405955"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iAPECO1_1312</oboInOwl:id>
     </owl:Class>
     
 
@@ -319,7 +289,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iAT_PLT_636</oboInOwl:id>
     </owl:Class>
     
 
@@ -333,7 +302,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_469008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iB21_1397</oboInOwl:id>
     </owl:Class>
     
 
@@ -347,7 +315,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_595496"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iBWG_1329</oboInOwl:id>
     </owl:Class>
     
 
@@ -361,7 +328,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10029"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iCHOv1</oboInOwl:id>
     </owl:Class>
     
 
@@ -375,7 +341,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10029"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iCHOv1_DG44</oboInOwl:id>
     </owl:Class>
     
 
@@ -389,7 +354,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_509173"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iCN718</oboInOwl:id>
     </owl:Class>
     
 
@@ -403,7 +367,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_272563"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iCN900</oboInOwl:id>
     </owl:Class>
     
 
@@ -417,7 +380,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_574521"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iE2348C_1286</oboInOwl:id>
     </owl:Class>
     
 
@@ -431,7 +393,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_216592"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iEC042_1314</oboInOwl:id>
     </owl:Class>
     
 
@@ -445,7 +406,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_498388"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iEC1344_C</oboInOwl:id>
     </owl:Class>
     
 
@@ -459,7 +419,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_481805"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iEC1349_Crooks</oboInOwl:id>
     </owl:Class>
     
 
@@ -473,7 +432,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_469008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iEC1356_Bl21DE3</oboInOwl:id>
     </owl:Class>
     
 
@@ -487,7 +445,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_566546"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iEC1364_W</oboInOwl:id>
     </owl:Class>
     
 
@@ -501,7 +458,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_668369"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iEC1368_DH5a</oboInOwl:id>
     </owl:Class>
     
 
@@ -515,7 +471,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_316407"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iEC1372_W3110</oboInOwl:id>
     </owl:Class>
     
 
@@ -529,7 +484,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_585055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iEC55989_1330</oboInOwl:id>
     </owl:Class>
     
 
@@ -543,7 +497,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_655817"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECABU_c1320</oboInOwl:id>
     </owl:Class>
     
 
@@ -557,7 +510,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_866768"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECBD_1354</oboInOwl:id>
     </owl:Class>
     
 
@@ -571,7 +523,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_413997"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECB_1328</oboInOwl:id>
     </owl:Class>
     
 
@@ -585,7 +536,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_316385"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECDH10B_1368</oboInOwl:id>
     </owl:Class>
     
 
@@ -599,7 +549,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_536056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECDH1ME8569_1439</oboInOwl:id>
     </owl:Class>
     
 
@@ -613,7 +562,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_469008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECD_1391</oboInOwl:id>
     </owl:Class>
     
 
@@ -627,7 +575,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_585397"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECED1_1282</oboInOwl:id>
     </owl:Class>
     
 
@@ -641,7 +588,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_444450"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECH74115_1262</oboInOwl:id>
     </owl:Class>
     
 
@@ -655,7 +601,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_585034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECIAI1_1343</oboInOwl:id>
     </owl:Class>
     
 
@@ -669,7 +614,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_585057"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECIAI39_1322</oboInOwl:id>
     </owl:Class>
     
 
@@ -683,7 +627,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1033813"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECNA114_1301</oboInOwl:id>
     </owl:Class>
     
 
@@ -697,7 +640,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_585395"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECO103_1326</oboInOwl:id>
     </owl:Class>
     
 
@@ -711,7 +653,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_585396"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECO111_1330</oboInOwl:id>
     </owl:Class>
     
 
@@ -725,7 +666,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_573235"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECO26_1355</oboInOwl:id>
     </owl:Class>
     
 
@@ -739,7 +679,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_714962"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECOK1_1307</oboInOwl:id>
     </owl:Class>
     
 
@@ -753,7 +692,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_362663"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECP_1309</oboInOwl:id>
     </owl:Class>
     
 
@@ -767,7 +705,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_585035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECS88_1305</oboInOwl:id>
     </owl:Class>
     
 
@@ -781,7 +718,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_409438"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECSE_1348</oboInOwl:id>
     </owl:Class>
     
 
@@ -795,7 +731,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_431946"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECSF_1327</oboInOwl:id>
     </owl:Class>
     
 
@@ -809,7 +744,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_544404"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECSP_1301</oboInOwl:id>
     </owl:Class>
     
 
@@ -823,7 +757,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_585056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECUMN_1333</oboInOwl:id>
     </owl:Class>
     
 
@@ -837,7 +770,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_566546"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECW_1372</oboInOwl:id>
     </owl:Class>
     
 
@@ -851,7 +783,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_386585"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iECs_1301</oboInOwl:id>
     </owl:Class>
     
 
@@ -865,7 +796,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_83332"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iEK1008</oboInOwl:id>
     </owl:Class>
     
 
@@ -879,7 +809,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_595495"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iEKO11_1354</oboInOwl:id>
     </owl:Class>
     
 
@@ -893,7 +822,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_316401"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iETEC_1333</oboInOwl:id>
     </owl:Class>
     
 
@@ -907,7 +835,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_536056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iEcDH1_1363</oboInOwl:id>
     </owl:Class>
     
 
@@ -921,7 +848,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_331111"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iEcE24377_1341</oboInOwl:id>
     </owl:Class>
     
 
@@ -935,7 +861,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_331112"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iEcHS_1320</oboInOwl:id>
     </owl:Class>
     
 
@@ -949,7 +874,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_439855"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iEcSMS35_1347</oboInOwl:id>
     </owl:Class>
     
 
@@ -963,7 +887,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_481805"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iEcolC_1368</oboInOwl:id>
     </owl:Class>
     
 
@@ -977,7 +900,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_701177"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iG2583_1286</oboInOwl:id>
     </owl:Class>
     
 
@@ -991,7 +913,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_748727"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iHN637</oboInOwl:id>
     </owl:Class>
     
 
@@ -1005,7 +926,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1416333"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iIS312</oboInOwl:id>
     </owl:Class>
     
 
@@ -1019,7 +939,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1416333"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iIS312_Amastigote</oboInOwl:id>
     </owl:Class>
     
 
@@ -1033,7 +952,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1416333"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iIS312_Epimastigote</oboInOwl:id>
     </owl:Class>
     
 
@@ -1047,7 +965,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1416333"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iIS312_Trypomastigote</oboInOwl:id>
     </owl:Class>
     
 
@@ -1061,16 +978,13 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_85962"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iIT341</oboInOwl:id>
     </owl:Class>
     
 
 
     <!-- http://bigg.ucsd.edu/models/iJB785 -->
 
-    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iJB785">
-        <oboInOwl:id>bigg.model:iJB785</oboInOwl:id>
-    </owl:Class>
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iJB785"/>
     
 
 
@@ -1083,7 +997,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_160488"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iJN1463</oboInOwl:id>
     </owl:Class>
     
 
@@ -1097,7 +1010,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iJN678</oboInOwl:id>
     </owl:Class>
     
 
@@ -1111,7 +1023,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_160488"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iJN746</oboInOwl:id>
     </owl:Class>
     
 
@@ -1125,7 +1036,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_511145"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iJO1366</oboInOwl:id>
     </owl:Class>
     
 
@@ -1139,7 +1049,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_511145"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iJR904</oboInOwl:id>
     </owl:Class>
     
 
@@ -1153,7 +1062,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_556484"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iLB1027_lipid</oboInOwl:id>
     </owl:Class>
     
 
@@ -1167,7 +1075,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_591946"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iLF82_1304</oboInOwl:id>
     </owl:Class>
     
 
@@ -1181,7 +1088,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_243274"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iLJ478</oboInOwl:id>
     </owl:Class>
     
 
@@ -1195,7 +1101,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_511145"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iML1515</oboInOwl:id>
     </owl:Class>
     
 
@@ -1209,7 +1114,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iMM1415</oboInOwl:id>
     </owl:Class>
     
 
@@ -1223,7 +1127,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_559292"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iMM904</oboInOwl:id>
     </owl:Class>
     
 
@@ -1237,16 +1140,13 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_559292"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iND750</oboInOwl:id>
     </owl:Class>
     
 
 
     <!-- http://bigg.ucsd.edu/models/iNF517 -->
 
-    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iNF517">
-        <oboInOwl:id>bigg.model:iNF517</oboInOwl:id>
-    </owl:Class>
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iNF517"/>
     
 
 
@@ -1259,7 +1159,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_83332"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iNJ661</oboInOwl:id>
     </owl:Class>
     
 
@@ -1273,7 +1172,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_685038"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iNRG857_1313</oboInOwl:id>
     </owl:Class>
     
 
@@ -1287,7 +1185,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_214092"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iPC815</oboInOwl:id>
     </owl:Class>
     
 
@@ -1301,7 +1198,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iRC1080</oboInOwl:id>
     </owl:Class>
     
 
@@ -1315,7 +1211,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_158879"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iSB619</oboInOwl:id>
     </owl:Class>
     
 
@@ -1329,7 +1224,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_300268"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iSBO_1134</oboInOwl:id>
     </owl:Class>
     
 
@@ -1343,7 +1237,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_300267"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iSDY_1059</oboInOwl:id>
     </owl:Class>
     
 
@@ -1357,7 +1250,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_373384"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iSFV_1184</oboInOwl:id>
     </owl:Class>
     
 
@@ -1371,7 +1263,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_198214"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iSF_1195</oboInOwl:id>
     </owl:Class>
     
 
@@ -1385,7 +1276,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_591020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iSFxv_1172</oboInOwl:id>
     </owl:Class>
     
 
@@ -1399,7 +1289,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_300269"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iSSON_1240</oboInOwl:id>
     </owl:Class>
     
 
@@ -1413,7 +1302,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_198215"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iS_1188</oboInOwl:id>
     </owl:Class>
     
 
@@ -1427,7 +1315,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_344609"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iSbBS512_1146</oboInOwl:id>
     </owl:Class>
     
 
@@ -1441,7 +1328,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iSynCJ816</oboInOwl:id>
     </owl:Class>
     
 
@@ -1455,7 +1341,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_869729"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iUMN146_1321</oboInOwl:id>
     </owl:Class>
     
 
@@ -1469,7 +1354,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_696406"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iUMNK88_1353</oboInOwl:id>
     </owl:Class>
     
 
@@ -1483,7 +1367,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_364106"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iUTI89_1310</oboInOwl:id>
     </owl:Class>
     
 
@@ -1497,7 +1380,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_566546"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iWFL_1372</oboInOwl:id>
     </owl:Class>
     
 
@@ -1511,7 +1393,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_316407"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iY75_1357</oboInOwl:id>
     </owl:Class>
     
 
@@ -1525,7 +1406,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_272620"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iYL1228</oboInOwl:id>
     </owl:Class>
     
 
@@ -1539,16 +1419,13 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_224308"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iYO844</oboInOwl:id>
     </owl:Class>
     
 
 
     <!-- http://bigg.ucsd.edu/models/iYS1720 -->
 
-    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iYS1720">
-        <oboInOwl:id>bigg.model:iYS1720</oboInOwl:id>
-    </owl:Class>
+    <owl:Class rdf:about="http://bigg.ucsd.edu/models/iYS1720"/>
     
 
 
@@ -1561,7 +1438,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_451516"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iYS854</oboInOwl:id>
     </owl:Class>
     
 
@@ -1575,7 +1451,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_155864"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:iZ_1308</oboInOwl:id>
     </owl:Class>
     
 
@@ -1589,7 +1464,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_199310"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:id>bigg.model:ic_1306</oboInOwl:id>
     </owl:Class>
     
 
