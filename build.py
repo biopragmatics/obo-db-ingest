@@ -1,14 +1,23 @@
 # /// script
 # requires-python = ">=3.12"
 # dependencies = [
-#     "bioregistry>=0.11.23",
-#     "bioversions>=0.5.533",
-#     "bioontologies>=0.5.1",
-#     "pyobo>=0.12.0",
+#     "bioregistry",
+#     "bioversions",
+#     "bioontologies",
+#     "pyobo",
 # ]
+#
+# [tool.uv.sources]
+# bioversions = { path = "../bioversions" }
+# bioregistry = { path = "../bioregistry" }
+# pyobo = { path = "../pyobo" }
+# bioontologies = { path = "../bioontologies" }
 # ///
 
-"""Build OBO dumps of database."""
+"""Build OBO dumps of database.
+
+Run with ``uv run --script build.py``
+"""
 
 from __future__ import annotations
 
@@ -52,6 +61,12 @@ pyobo.constants.GLOBAL_CHECK_IDS = True
 #: be conservative) to put on GitHub
 MAX_SIZE = 100_000_000
 PREFIXES = [
+    "pid.pathway",
+    "ncbi.gc",
+    "civic.gid",
+    "itis",
+    "depmap",
+    "clinicaltrials",
     "signor",
     "sty",
     "omim.ps",

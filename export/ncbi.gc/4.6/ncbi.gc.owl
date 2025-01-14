@@ -1,0 +1,501 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/biopragmatics/resources/ncbi.gc/ncbi.gc.ofn#"
+     xml:base="https://w3id.org/biopragmatics/resources/ncbi.gc/ncbi.gc.ofn"
+     xmlns:GO="http://purl.obolibrary.org/obo/GO_"
+     xmlns:IAO="http://purl.obolibrary.org/obo/IAO_"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:orcid="https://orcid.org/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:ncbi.gc="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:NCBITaxon="http://purl.obolibrary.org/obo/NCBITaxon_">
+    <owl:Ontology rdf:about="https://w3id.org/biopragmatics/resources/ncbi.gc/ncbi.gc.ofn">
+        <owl:versionIRI rdf:resource="https://w3id.org/biopragmatics/resources/ncbi.gc/4.6/ncbi.gc.ofn"/>
+        <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#root"/>
+        <dcterms:description>Genetic code\, mitochontrial genetic code\, and other linked information to NCBI taxonomy entries.</dcterms:description>
+        <dcterms:license>public domain</dcterms:license>
+        <dcterms:title>Genetic Code</dcterms:title>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-8ea0f762 on 2025-01-14T13:20:49.101056</oboInOwl:auto-generated-by>
+        <owl:versionInfo>4.6</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000700 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000700">
+        <rdfs:label>has ontology root term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
+        <rdfs:label>term replaced by</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor">
+        <rdfs:label>contributor</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+        <rdfs:label>comment</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+        <rdfs:label>see also</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ncbi.gc#hasGeneticCodeTranslationTable -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ncbi.gc#hasGeneticCodeTranslationTable">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#root"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:description>Connects a taxonomy term to a genetic code translation table</dcterms:description>
+        <rdfs:label>has genetic code translation table</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005634">
+        <rdfs:label>nucleus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005739 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005739">
+        <rdfs:label>mitochondrion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009536 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009536">
+        <rdfs:label>plastid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1">
+        <rdfs:label>root</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
+        <rdfs:label>Homo sapiens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#root"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:comment>Injected by PyOBO</rdfs:comment>
+        <rdfs:label>mitochondrial genetic code translation table</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/GO_0005739"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#root"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:comment>Injected by PyOBO</rdfs:comment>
+        <rdfs:label>nuclear genetic code translation table</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ncbi.gc#plastid-genetic-code -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ncbi.gc#plastid-genetic-code">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#root"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:comment>Injected by PyOBO</rdfs:comment>
+        <rdfs:label>plastid genetic code translation table</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/GO_0009536"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ncbi.gc#root -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ncbi.gc#root">
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:description>A table for translating codons into amino acids. This can change for different taxa, or be different in different organelles that include genetic information.</dcterms:description>
+        <rdfs:comment>Injected by PyOBO</rdfs:comment>
+        <rdfs:label>genetic code translation table</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG1 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#root"/>
+        <rdfs:label>Standard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG10 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG10">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"/>
+        <rdfs:label>Euplotid Nuclear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG11 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG11">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#plastid-genetic-code"/>
+        <rdfs:label>Bacterial, Archaeal and Plant Plastid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG12 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG12">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"/>
+        <rdfs:label>Alternative Yeast Nuclear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG13 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG13">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"/>
+        <rdfs:label>Ascidian Mitochondrial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG14 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG14">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"/>
+        <rdfs:label>Alternative Flatworm Mitochondrial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG15 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG15">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"/>
+        <rdfs:label>Blepharisma Macronuclear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG16 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG16">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"/>
+        <rdfs:label>Chlorophycean Mitochondrial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG2 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"/>
+        <rdfs:label>Vertebrate Mitochondrial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG21 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG21">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"/>
+        <rdfs:label>Trematode Mitochondrial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG22 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG22">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"/>
+        <rdfs:label>Scenedesmus obliquus Mitochondrial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG23 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG23">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"/>
+        <rdfs:label>Thraustochytrium Mitochondrial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG24 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG24">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"/>
+        <rdfs:label>Rhabdopleuridae Mitochondrial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG25 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG25">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#root"/>
+        <rdfs:label>Candidate Division SR1 and Gracilibacteria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG26 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG26">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"/>
+        <rdfs:label>Pachysolen tannophilus Nuclear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG27 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG27">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"/>
+        <rdfs:label>Karyorelict Nuclear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG28 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG28">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"/>
+        <rdfs:label>Condylostoma Nuclear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG29 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG29">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"/>
+        <rdfs:label>Mesodinium Nuclear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG3 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"/>
+        <rdfs:label>Yeast Mitochondrial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG30 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG30">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"/>
+        <rdfs:label>Peritrich Nuclear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG31 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG31">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"/>
+        <rdfs:label>Blastocrithidia Nuclear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG32 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG32">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#plastid-genetic-code"/>
+        <rdfs:label>Balanophoraceae Plastid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG4 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"/>
+        <rdfs:label>Mold Mitochondrial; Protozoan Mitochondrial; Coelenterate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG5 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"/>
+        <rdfs:label>Invertebrate Mitochondrial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG6 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG6">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"/>
+        <rdfs:label>Ciliate Nuclear; Dasycladacean Nuclear; Hexamita Nuclear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG7 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG7">
+        <obo:IAO_0100001 rdf:resource="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG4"/>
+        <rdfs:comment>Kinetoplast code now merged in code id 4, as of 1995.</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG8 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG8">
+        <obo:IAO_0100001 rdf:resource="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG1"/>
+        <rdfs:comment>all plant chloroplast differences due to RNA edit, as of 1995.</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG9 -->
+
+    <owl:Class rdf:about="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG9">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"/>
+        <rdfs:label>Echinoderm Mitochondrial; Flatworm Mitochondrial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://orcid.org/0000-0003-4423-4370 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-4423-4370">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <rdfs:label>Charles Tapley Hoyt</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,3026 @@
+format-version: 1.4
+data-version: 2025-01-01
+auto-generated-by: PyOBO v0.12.0-dev-8ea0f762 on 2025-01-14T13:20:49.897101
+idspace: NCBIGene https://www.ncbi.nlm.nih.gov/gene/ "NCBI Gene"
+idspace: civic.gid https://civicdb.org/links/gene/ "CIViC gene"
+idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
+ontology: civic.gid
+property_value: dcterms:title "CIViC gene" xsd:string
+property_value: dcterms:license "CC0-1.0" xsd:string
+property_value: dcterms:description "A CIViC Gene Summary is created to provide a high-level overview of clinical relevance of cancer variants for the gene. Gene Summaries in CIViC focus on emphasizing the clinical relevance from a molecular perspective rather than describing the biological function of the gene unless necessary to contextualize its clinical relevance in cancer. Gene Summaries include relevant cancer subtypes\\\, specific treatments for the gene’s associated variants\\\, pathway interactions\\\, functional alterations caused by the variants in the gene\\\, and normal/abnormal functions of the gene with associated roles in oncogenesis" xsd:string
+
+[Term]
+id: civic.gid:1
+name: ALK
+def: "ALK amplifications\, fusions and mutations have been shown to be driving events in non-small cell lung cancer. While crizontinib has demonstrated efficacy in treating the amplification\, mutations in ALK have been shown to confer resistance to current tyrosine kinase inhibitors. Second-generation TKI's have seen varied success in treating these resistant cases\, and the HSP90 inhibitor 17-AAG has been shown to be cytostatic in ALK-altered cell lines." []
+property_value: skos:exactMatch NCBIGene:238
+
+[Term]
+id: civic.gid:2
+name: AKT1
+def: "AKT1\, also referred to as protein kinase B\, is a known oncogene. AKT activation relies on the PI3K pathway\, and is recognized as a critical node in the pathway. The E17 hotspot is the most characterized of AKT1 mutations\, and has been shown to result in activation of the protein. Mutations in AKT1 have also been shown to confer resistance to allosteric kinase inhibitors in vitro." []
+property_value: skos:exactMatch NCBIGene:207
+
+[Term]
+id: civic.gid:3
+name: ARAF
+def: "ARAF has recently become increasingly considered for its oncogenic potential. Its potential as a target for informing clinical action was demonstrated by a single case of advanced lung adenocarcinoma harboring an S214C mutation that\, when treated with sorafenib\, acheived near-complete clinical remission. This finding has brought new focus on ARAF as a marker that should be assayed for in cancer treatment." []
+property_value: skos:exactMatch NCBIGene:369
+
+[Term]
+id: civic.gid:4
+name: ABL1
+def: "ABL1 is most relevant to cancer in its role in the BCR-ABL fusion protein that has become a signature of chronic myeloid leukemia \(CML\). Cells harboring this fusion have shown sensitivity to imatinib\, greatly improving the prognostic outlook of the disease. However\, additional mutations in ABL1 have been shown to confer resistance to imatinib. In these resistance cases\, second-generation tyrosine kinase inhibitors such as dasatinib and nilotinib have exhibited some efficacy and are currently undergoing clinical trials for treating acquired resistance in CML." []
+property_value: skos:exactMatch NCBIGene:25
+
+[Term]
+id: civic.gid:5
+name: BRAF
+def: "BRAF mutations are found to be recurrent in many cancer types. Of these\, the mutation of valine 600 to glutamic acid \(V600E\) is the most prevalent. V600E has been determined to be an activating mutation\, and cells that harbor it\, along with other V600 mutations are sensitive to the BRAF inhibitor dabrafenib. It is also common to use MEK inhibition as a substitute for BRAF inhibitors\, and the MEK inhibitor trametinib has seen some success in BRAF mutant melanomas. BRAF mutations have also been correlated with poor prognosis in many cancer types\, although there is at least one study that questions this conclusion in papillary thyroid cancer. Oncogenic BRAF mutations are divided into three categories that determine their sensitivity to inhibitors. Class 1 BRAF mutations \(V600\) are RAS-independent\, signal as monomers and are sensitive to current RAF monomer inhibitors. Class 2 BRAF mutations \(K601E\, K601N\, K601T\, L597Q\, L597V\, G469A\, G469V\, G469R\, G464V\, G464E\, and fusions\) are RAS-independent\, signaling as constitutive dimers and are resistant to vemurafenib. Such mutants may be sensitive to novel RAF dimer inhibitors or MEK inhibitors. Class 3 BRAF mutations \(D287H\, V459L\, G466V\, G466E\, G466A\, S467L\, G469E\, N581S\, N581I\, D594N\, D594G\, D594A\, D594H\, F595L\, G596D\, and G596R\) with low or absent kinase activity are RAS-dependent and they activate ERK by increasing their binding to activated RAS and wild-type CRAF. Class 3 BRAF mutations coexist with mutations in RAS or NF1 in melanoma may be treated with MEK inhibitors. In epithelial tumors such as CRC or NSCLC may be effectively treated with combinations that include inhibitors of receptor tyrosine kinase." []
+property_value: skos:exactMatch NCBIGene:673
+
+[Term]
+id: civic.gid:6
+name: BRCA1
+def: "BRCA1 mutations in the germline have become a hallmark for hereditary breast and ovarian cancers. Variants that have been demonstrated to reduce the function of the protein have been shown to increase the risk for these cancers\, as well as prostate and pancreatic cancer. These findings have been the impetus for the increased popularity of genetic testing of healthy individuals to assess risk. Recent studies in ovarian cancer have also demonstrated that BRCA mutation status can predict treatment response. A number of trials assessing BRCA mutation status have shown an improved response to platinum agents\, and more recently has led to the FDA-approval of PARP inhibitors for BRCA-positive ovarian cancers. These studies have resulted in the Society of Gynecologic Oncology to recommend germline BRCA testing in all patients with a diagnosis of ovarian cancer." []
+property_value: skos:exactMatch NCBIGene:672
+
+[Term]
+id: civic.gid:7
+name: BRCA2
+def: "BRCA2 mutations in the germline have become a hallmark for hereditary breast and ovarian cancers. Variants that have been demonstrated to reduce the function of the protein have been shown to increase the risk for these cancers\, as well as prostate and pancreatic cancer. These findings have been the impetus for the increased popularity of genetic testing of healthy individuals to assess risk. Recent studies in ovarian cancer have also demonstrated that BRCA mutation status can predict treatment response. A number of trials assessing BRCA mutation status have shown an improved response to platinum agents\, and more recently has led to the FDA-approval of PARP inhibitors for BRCA-positive ovarian cancers. These studies have resulted in the Society of Gynecologic Oncology to recommend germline BRCA testing in all patients with a diagnosis of ovarian cancer." []
+property_value: skos:exactMatch NCBIGene:675
+
+[Term]
+id: civic.gid:8
+name: CCND1
+def: "Cyclin D has been shown in many cancer types to be misregulated. Well established for their oncogenic properties\, the cyclins\, and the cyclin-dependent kinases \(CDK's\) they activate\, have been the focus of major research and development efforts over the past decade. The methods by which the cyclins are misregulated are widely variable\, ranging from genomic amplification to changes in promoter methylation. While Cyclin D2 has only been found to be significantly deregulated in glioma\, Cyclin D1 seems to be a pan-cancer actor. Cyclin D misregulation has been shown to lead to poorer outcomes in a number of studies\, but currently there are no FDA-approved targeted therapies." []
+property_value: skos:exactMatch NCBIGene:595
+
+[Term]
+id: civic.gid:9
+name: CCND2
+def: "Cyclin D has been shown in many cancer types to be misregulated. Well established for their oncogenic properties\, the cyclins and the cyclin-dependent kinases \(CDK's\) they activate have been the focus of major research and development efforts over the past decade. The methods by which the cyclins are misregulated are widely variable\, ranging from genomic amplification to changes in promoter methylation. While Cyclin D2 has only been found to be significantly deregulated in glioma\, Cyclin D1 in particular seems to be a pan-cancer actor. Cyclin D misregulation has been shown to lead to poorer outcomes in a number of studies\, and currently there are no FDA-approved targeted therapies." []
+property_value: skos:exactMatch NCBIGene:894
+
+[Term]
+id: civic.gid:10
+name: CCND3
+def: "Cyclin D has been shown in many cancer types to be misregulated. Well established for their oncogenic properties\, the cyclins and the cyclin-dependent kinases \(CDK's\) they activate have been the focus of major research and development efforts over the past decade. The methods by which the cyclins are misregulated are widely variable\, ranging from genomic amplification to changes in promoter methylation. Cyclin D3 loss has been reported in T-ALL\, a seemingly unique trend when compared to the amplifcations and overexpressions of the other cyclin D's. In a mouse study\, the targeted therapeutic palbociclib significantly increased the median survival of the cyclin D3 knockouts." []
+property_value: skos:exactMatch NCBIGene:896
+
+[Term]
+id: civic.gid:11
+name: CCNE1
+def: "Cyclin E\, while currenly not as widely implicated as its cyclin D counterparts\, has been implicated in various carcinomas\, including breast\, gastric\, stomach and colorectal. High levels of cyclin E\, either by gene amplification or overexpression\, have been shown to lead to poorer prognosis in gastic carcinoma\, and these measurements are correlated with later stage disease. In lung cancer\, neoplastic cells with higher levels of the cyclin E/CDK2 complex are more radiosensitive than their more lowly expressed counterparts." []
+property_value: skos:exactMatch NCBIGene:898
+
+[Term]
+id: civic.gid:12
+name: CDK6
+def: "CDK6\, along with its partner CDK4\, are key players in cell cycle progression. The complex has been implicated in a number of cancer types\, and is the focus of therapeutic research and development. One targeted therapy for CDK inhibition is palbociclib\, which may slow the growth of advanced stage breast cancers. It has also been shown\, in mouse\, that CDK inhibition may sensitize mutant PIK3CA tumors to PI3K inhibitors." []
+property_value: skos:exactMatch NCBIGene:1021
+
+[Term]
+id: civic.gid:13
+name: CDK4
+def: "CDK4\, along with its partner CDK6\, are key players in cell cycle progression. The complex has been implicated in a number of cancer types\, and is the focus of therapeutic research and development. One targeted therapy for CDK inhibition is palbociclib\, which may slow the growth of advanced stage breast cancers. It has also been shown\, in mouse\, that CDK inhibition may sensitize mutant PIK3CA tumors to PI3K inhibitors." []
+property_value: skos:exactMatch NCBIGene:1019
+
+[Term]
+id: civic.gid:14
+name: CDKN2A
+def: "CDKN2A loss has been shown to be a significant event in a number of cancer types. While no targeted therapeutic has been engaged in clinical trials\, the prognostic impact has been studied by a number of meta-analyses. In majority of cases CDKN2A is inactivated by homozygous deletions. One of the mechanisms by which loss of CDKN2A can occur is by hypermethylation of the promoter region for the gene. However\, the prognostic impact of promoter hypermethylation has been relatively ambiguous. Many studies have suggesting poorer prognostic outcome for patients with hypermethylation in colorectal\, liver\, and younger lung cancer patients. This being said\, there is still research to be done before this becomes a widely-accepted prognostic indicator. Additionally\, CDKN2A \(p16\) expression is a surrogate marker for HPV infection. As such\, CDKN2A expression is prognostic in Oropharyngeal and probably also non-oropharyngeal head and neck squamous cell carcinomas." []
+property_value: skos:exactMatch NCBIGene:1029
+
+[Term]
+id: civic.gid:15
+name: CEBPA
+def: "'AML with mutated CEBPA' is a provisional entity in the WHO classification of acute myeloid leukemia \(AML\) and is recommended to be tested for in patients with AML. CEBPA mutations are particularly associated with cytogenetically normal AML \(CN-AML\). CEBPA is an intronless gene that is required for granulocyte formation in mice. N-terminal nonsense mutations result in a dominant negative C/EBP-alpha protein while C-terminal mutations reduce the DNA-binding potential of this transcription factor. CEBPA mutations are associated with a favorable prognosis\, however\, NPM1 and FLT3 mutations should also be assessed in CN-AML patients as concurrent mutations may have prognostic implications." []
+property_value: skos:exactMatch NCBIGene:1050
+
+[Term]
+id: civic.gid:18
+name: DNMT3A
+def: "DNMT3A is one of several epigenetic modifiers identified as recurrently mutated in acute myeloid leukemia \(AML\). DNMT3A mutations are associated with cytogenetically normal AML. In vitro experiments indicate that the R882H mutation acts in a dominant negative manner to disrupt the de novo methyltransferase activity of wildtype homotetramers. AML patient bone marrow harboring R882 mutations were similarly demonstrated to be hypomethylated compared to patients with wildtype DNMT3A. These studies also indicated that non-R882 DNMT3A mutations may act in a functionally distinct manner from R882 mutations. Alternative mechanisms indicate independent prognostic outcomes and treatment protocols may need to be considered for these two classes of DNMT3A mutations." []
+property_value: skos:exactMatch NCBIGene:1788
+
+[Term]
+id: civic.gid:19
+name: EGFR
+def: "EGFR is widely recognized for its importance in cancer. Amplification and mutations have been shown to be driving events in many cancer types. Its role in non-small cell lung cancer\, glioblastoma and basal-like breast cancers has spurred many research and drug development efforts. Tyrosine kinase inhibitors have shown efficacy in EGFR amplfied tumors\, most notably gefitinib and erlotinib. Mutations in EGFR have been shown to confer resistance to these drugs\, particularly the variant T790M\, which has been functionally characterized as a resistance marker for both of these drugs. The later generation TKI's have seen some success in treating these resistant cases\, and targeted sequencing of the EGFR locus has become a common practice in treatment of non-small cell lung cancer. Overproduction of ligands is another possible mechanism of activation of EGFR. ERBB ligands include EGF\, TGF-a\, AREG\, EPG\, BTC\, HB-EGF\, EPR and NRG1-4 \(for detailed information please refer to the respective ligand section\)." []
+property_value: skos:exactMatch NCBIGene:1956
+
+[Term]
+id: civic.gid:20
+name: ERBB2
+def: "ERBB2\, commonly referred to as HER2\, is amplified and/or overexpressed in 20-30% of invasive breast carcinomas. HER2-positive breast cancer is treated in a separate manner from other subtypes of breast cancer and commonly presents as more aggressive disease. Metastatic HER2-positive breast cancer is now commonly treated with HER2-targeted therapy. Apart from being amplified/overexpressed\, ERBB2 activating mutations have been shown to have clinical importance in HER2-negative breast cancer. These mutations have shown sensitivity to the tyrosine kinase inhibitor neratinib\, and highlight the importance of clinical sequencing efforts in treating breast cancer." []
+property_value: skos:exactMatch NCBIGene:2064
+
+[Term]
+id: civic.gid:21
+name: ESR1
+def: "ESR1 has been a focus in breast cancer for quite some time\, but is also clinically relevant in endometrial\, ovarian and other cancer types. The identification of ER-positive breast cancers that are resistant to hormone therapy have inspired clinical sequencing efforts to shed light on the mechanisms of this resistance. A number of mutations in the ligand binding domain of ESR1 have been implicated in hormone resistance and anti-estrogen therapies. These observations have spurred efforts to develop therapeutics that stimulate ESR1 protein degradation \(e.g. Fulvestrant\)\, rather than acting as a small molecule antagonist. These agents are currently in clinical trials and have seen some success." []
+property_value: skos:exactMatch NCBIGene:2099
+
+[Term]
+id: civic.gid:22
+name: FGFR2
+def: "The FGFR proteins are involved in a wide array of pathways known to play a signficant role in cancer. Activation of these receptors can lead to activation of the RAS-MAPK pathway and the PI3K-AKT pathway\, among others. The mechanisms by which FGFR can be misregulated vary between cancers. Amplification of the receptors has been observed in lung and breast cancers\, coding mutations and deletions have been seen in many cancers\, and more recently\, FGFR fusions that lead to pathway actiation have been demonstrated to have oncogenic potential across multiple cancer types. The targeted therapeutics ponatinib\, dovitinib and pazopanib have seen success in treating over-active FGFR signalling\, prompting use of diagnostic sequencing targeting the FGFR genes\, especially in lung cancer patients." []
+property_value: skos:exactMatch NCBIGene:2263
+
+[Term]
+id: civic.gid:23
+name: FGFR3
+def: "The FGFR proteins are involved in a wide array of pathways known to play a signficant role in cancer. Activation of these receptors can lead to activation of the RAS-MAPK pathway and the PI3K-AKT pathway\, among others. The mechanisms by which FGFR can be misregulated vary between cancers. Amplification of the receptors has been observed in lung and breast cancers\, coding mutations and deletions have been seen in many cancers\, and more recently\, FGFR fusions that lead to pathway actiation have been demonstrated to have oncogenic potential across multiple cancer types. The targeted therapeutics ponatinib\, dovitinib and pazopanib have seen success in treating over-active FGFR signalling\, prompting use of diagnostic sequencing targeting the FGFR genes\, especially in lung cancer patients." []
+property_value: skos:exactMatch NCBIGene:2261
+
+[Term]
+id: civic.gid:24
+name: FLT3
+def: "FLT3 is an important cytokine receptor involved in normal hematopoiesis. Mutations in this gene are common in acute myeloid leukemia \(AML\) and screening for mutations in this gene has been recommended by the World Health Organization in patients with AML\, particularly in cases of cytogenetically normal AML \(CN-AML\). FLT3 mutations commonly co-occur with mutations such as NPM1 that are associated with CN-AML and likely modulate prognostic impact. While FLT3-ITD mutations have been associated with poorer prognosis in AML\, the prognostic impact of FLT3-TKD mutations are still up for debate." []
+property_value: skos:exactMatch NCBIGene:2322
+
+[Term]
+id: civic.gid:25
+name: GATA2
+def: "GATA2 is a transcription factor involved in stem cell maintenance with key roles in hematopoietic development. GATA2 mutations are associated with a variety of inherited and acquired immune disorders including myelodysplastic syndrome and acute myeloid leukemia. In addition to a role in hematopoiesis\, the maintenance GATA2 expression has been implicated as a requirement in KRAS-driven non-small cell lung cancer. Preclinical models have indicated therapeutic benefit from targeting GATA2-mediated pathways in the context of KRAS-driven NSCLC." []
+property_value: skos:exactMatch NCBIGene:2624
+
+[Term]
+id: civic.gid:26
+name: IDH1
+def: "IDH1 mutations have been observed in a number of cancer types\, including sarcomas\, hematologic malignancies\, colon cancer and brain cancer. Mutations in the two isocitrate dehydrogenase enzymes involved in cytoplasmic \(IDH1\) and mitochondrial \(IDH2\) conversion of alpha-ketoglutarate to D-2-hydroxyglutarate have been described as mutually exclusive in many of these cancer types. The most frequent mutations involve R132 \(IDH1\) and R172 \(IDH2\) involve the active site and result in neomorphic enzyme activity. The implications of mutations in this gene vary greatly by cancer type. In myelodysplastic syndromes and acute myeloid leukemia \(AML\)\, IDH1 mutations have been associated with worse outcome\, shorter overall survival\, and normal karyotype. However\, in glioblastoma and astrocytoma\, patients with IDH1 mutations have shown better overall survival than patients with wild-type IDH1. Unlike the association with cytogenetically normal AML\, in glioblastoma\, IDH1 mutations have been associated with specific cytogenetic abnormalities\, 1p and 19q deletions." []
+property_value: skos:exactMatch NCBIGene:3417
+
+[Term]
+id: civic.gid:27
+name: IDH2
+def: "IDH2 mutations have been observed in a number of cancer types\, including sarcomas\, hematologic malignancies\, colon cancer and brain cancer. Mutations in the two isocitrate dehydrogenase enzymes involved in cytoplasmic \(IDH1\) and mitochondrial \(IDH2\) conversion of alpha-ketoglutarate to D-2-hydroxyglutarate have been described as mutually exclusive in many of these cancer types. The most frequent mutations involve R132 \(IDH1\) and R172 \(IDH2\) involve the active site and result in neomorphic enzyme activity. Although IDH2 \(R172\) mutations are associated with poorer overall prognosis in AML patients\, its utility as a prognostic marker in MDS is still under debate. Additionally\, IDH2 \(R140\) has been associated with improved overall survival in AML. IDH2 mutations have been associated with improved prognosis in gliomas." []
+property_value: skos:exactMatch NCBIGene:3418
+
+[Term]
+id: civic.gid:28
+name: JAK2
+def: "JAK2 is a kinase that is misregulated or mutated in a number of myeloproliferative diseases and cancers. The mutation V617F is the most clinically relevant variant\, and is seen in around half of myeloproliferative disorders. The variant is a known activating mutation\, and activated JAK2 is sufficient to drive myeloproliferative disorders in mouse models. V617F\, while most recurrent\, is not the only mechanism by which JAK2 can be activated in patients. JAK2 is now one of the first diagnostic markers tested upon diagnosis with a myeloproliferative disorder." []
+property_value: skos:exactMatch NCBIGene:3717
+
+[Term]
+id: civic.gid:29
+name: KIT
+def: "c-KIT activation has been shown to have oncogenic activity in gastrointestinal stromal tumors \(GISTs\)\, melanomas\, lung cancer\, and other tumor types. The targeted therapeutics nilotinib and sunitinib have shown efficacy in treating KIT overactive patients\, and are in late-stage trials in melanoma and GIST. KIT overactivity can be the result of many genomic events from genomic amplification to overexpression to missense mutations. Missense mutations have been shown to be key players in mediating clinical response and acquired resistance in patients being treated with these targeted therapeutics." []
+property_value: skos:exactMatch NCBIGene:3815
+
+[Term]
+id: civic.gid:30
+name: KRAS
+def: "Mutations in the RAS family of proteins are frequently observed across cancer types. The amino acid positions that account for the overwhelming majority of these mutations are G12\, G13 and Q61. The different protein isoforms\, despite their raw similarity\, also behave very differently when expressed in non-native tissue types\, likely due to differences in the C-terminal hyper-variable regions. Mis-regulation of isoform expression has been shown to be a driving event in cancer\, as well as missense mutations at the three hotspots previously mentioned. While highly recurrent in cancer\, attempts to target these RAS mutants with inhibitors have not been successful\, and has not yet become common practice in the clinic. The prognostic implications for KRAS mutations vary between cancer types\, but have been shown to be associated with poor outcome in colorectal cancer\, non-small cell lung cancer\, and others." []
+property_value: skos:exactMatch NCBIGene:3845
+
+[Term]
+id: civic.gid:31
+name: MAP2K1
+def: "MAP2K1 is a dual-specificity kinase known for it's involvement in the ERK pathway by activation of ERK1 and ERK2. MAP2K1 activating mutations have been observed in a number of cancers including ovarian\, melanoma and lung. These activating mutations are generally found in the N-terminal negative regulatory region or the ATP-binding region of the N-terminal lobe. Inhibitors of MEK genes have been shown to inhibit tumor growth in these cases." []
+property_value: skos:exactMatch NCBIGene:5604
+
+[Term]
+id: civic.gid:32
+name: MEF2D
+property_value: skos:exactMatch NCBIGene:4209
+
+[Term]
+id: civic.gid:33
+name: CSF1R
+property_value: skos:exactMatch NCBIGene:1436
+
+[Term]
+id: civic.gid:34
+name: MGMT
+property_value: skos:exactMatch NCBIGene:4255
+
+[Term]
+id: civic.gid:35
+name: NPM1
+def: "AML with mutated NPM1 is a provisional entity in the WHO classification of AML and is recommended to be tested in patients with cytogenetically normal AML \(CN-AML\). FLT3 mutations should be evaluated concurrently as they have prognostic consequences. NPM1 mutations are concentrated in exon 12\, most frequently W288fs which results in cytoplasmic sequestration of the protein. Exon 12 NPM1 mutations in the absence of FLT3-ITD are associated with good prognostic outcomes. Mice expressing the Npm1-W288fs mutation develop myeloproliferative neoplasms but not overt leukemia\, indicating it may require additional mutations to promote leukemic development." []
+property_value: skos:exactMatch NCBIGene:4869
+
+[Term]
+id: civic.gid:36
+name: NRAS
+def: "Mutations in the RAS family of proteins have frequently been observed across cancer types. The amino acid positions G12\, G13 and Q61 account for the overwhelming majority of these mutations. The isoforms\, despite their raw similarity\, also behave very differently when expressed in non-native tissue types\, likely due to differences in the C-terminal hyper-variable regions. Mis-regulation of isoform expression has been shown to be a driving event in cancer\, as well as missense mutations at the three hotspots previously mentioned. While highly recurrent in cancer\, targeting these RAS mutants has also been very elusive\, and has not yet become common practice in the clinic." []
+property_value: skos:exactMatch NCBIGene:4893
+
+[Term]
+id: civic.gid:37
+name: PIK3CA
+def: "PIK3CA is the most recurrently mutated gene in breast cancer\, and has been found to important in a number of cancer types. An integral part of the PI3K pathway\, PIK3CA has long been described as an oncogene\, with two main hotspots for activating mutations\, the 542/545 region of the helical domain\, and the 1047 region of the kinase domain. PIK3CA\, and its interaction with the AKT and mTOR pathways\, is the subject of an immense amount of research and development\, and PI3K inhibition has seen some limited success in recent clinical trials. While monotherapies seem to be limited in their potential\, there is a recent interest in pursuing PI3K inhibition as part of a combination therapy regiment with inhibition partners including TKI's\, MEK inhibitors\, PARP inhibitors\, and in breast cancer\, aromatase inhibitors." []
+property_value: skos:exactMatch NCBIGene:5290
+
+[Term]
+id: civic.gid:38
+name: PDGFRA
+def: "Commonly mutated in GI tract tumors\, PDGFR family genes \(mutually exclusive to KIT mutations\) are a hallmark of gastrointestinal stromal tumors. Gene fusions involving the PDGFRA kinase domain are highly correlated with eosinophilia\, and the WHO classifies myeloid and lymphoid neoplasms with these characteristics as a distinct disorder. Mutations in the 842 region of PDGFRA have been often found to confer resistance to the tyrosine kinase inhibitor\, imatinib." []
+property_value: skos:exactMatch NCBIGene:5156
+
+[Term]
+id: civic.gid:39
+name: PML
+def: "The PML-RARA fusion is the result of a recurrent\, balanced translocation between chromosomes 15 and 17\, denoted as t\(15;17\)\(q22;q12\)\, and a diagnostic event in acute promyelocytic leukemia \(APL\). Both in vitro and in vivo studies have shown sensitivity to ATRA \(all-trans retinoic acid\) in APL patients harboring the PML-RARA fusion. Recent interest has been shown in combining ATRA and arsenic trioxide for treating these patients\, and early results seem promising. However\, newly discovered mutations in the B2 domain of PML have started to show conferred resistance to ATRA in these patients." []
+property_value: skos:exactMatch NCBIGene:5371
+
+[Term]
+id: civic.gid:41
+name: PTEN
+def: "PTEN is a multi-functional tumor suppressor that is very commonly lost in human cancer. Observed in prostate cancer\, glioblastoma\, endometrial\, lung and breast cancer to varying degrees. Up to 70% of prostate cancer patients have been observed to have loss of expression of the gene. It is a part of the PI3K/AKT/mTOR pathway and mTOR inhibitors have been relatively ineffective in treating patients with PTEN loss. New appoaches using microRNAs are currently being investigated." []
+property_value: skos:exactMatch NCBIGene:5728
+
+[Term]
+id: civic.gid:42
+name: RET
+def: "RET mutations and the RET fusion RET-PTC lead to activation of this tyrosine kinase receptor and are associated with thyroid cancers. RET point mutations are the most common mutations identified in medullary thyroid cancer \(MTC\) with germline and somatic mutations in RET associated with hereditary and sporadic forms\, respectively. The most common somatic form mutation is M918T \(exon 16\) and a variety of other mutations effecting exons 10\, 11 and 15 have been described. The prognostic significance of these mutations have been hotly debated in the field\, however\, data suggests that some RET mutation may confer drug resistance. Highly selective and well-tolerated RET inhibitors\, selpercatinib \(LOXO-292\) and pralsetinib \(BLU-667\)\, have been FDA approved recently for the treatment of RET fusion-positive non-small-cell lung cancer\, RET fusion-positive thyroid cancer and RET-mutant medullary thyroid cancer." []
+property_value: skos:exactMatch NCBIGene:5979
+
+[Term]
+id: civic.gid:43
+name: RUNX1
+def: "RUNX1 is a transcription factor that forms a complex with the cofactor CBFB. This complex provides stability to the RUNX1 protein which is involved in the generation of hematopoietic stem cells and for their differentiation into myeloid and lymphoid lines. Loss of RUNX1 function has been shown to impair differentiation between myeloid and lymphoid lines often resulting in the development of leukemia." []
+property_value: skos:exactMatch NCBIGene:861
+
+[Term]
+id: civic.gid:44
+name: SF3B1
+def: "SF3B1 mutations have been described in several myeloid malignancies\, predominantly myelodysplastic syndromes \(MDS\)\, as well as other hematologic malignancies\, breast cancer\, and uveal melanoma \(UM\). SF3B1 is one of several genes involved in RNA splicing that has been identified as recurrently mutated in MDS and other malignanices. The mutations affecting SF3B1 are typically heterozygous\, point mutations suspected to be functionally deleterious with R625 and K700E described as a major mutation hotspots. MDS patients with SF3B1 mutations have been reported to have better overall and event-free survival than their wildtype counterparts. Additionally\, these mutations are highly associated with subtypes of MDS characterized by ringed sideroblasts \(refractory anemia with ringed sideroblasts and refractory cytopenia with multilineage dysplasia and ring sideroblasts\). In UM patients\, SF3B1 mutations have been reported to be associated with chromosome 3 disomy\, which defines a subgroup with low risk of metastasis." []
+property_value: skos:exactMatch NCBIGene:23451
+
+[Term]
+id: civic.gid:45
+name: TP53
+def: "TP53 mutations are universal across cancer types. The loss of a tumor suppressor is most often through large deleterious events\, such as frameshift mutations\, or premature stop codons. In TP53 however\, many of the observed mutations in cancer are found to be single nucleotide missense variants. These variants are broadly distributed throughout the gene\, but with the majority localizing in the DNA binding domain. There is no single hotspot in the DNA binding domain\, but a majority of mutations occur in amino acid positions 175\, 245\, 248\, 273\, and 282 \(NM_000546\) \(Olivier et al.\, 2010\). To fulfill its proper biological function four TP53 polypeptides must form a tetramer which functions as a transcription factor\, therefore even if one out of four polypeptides has inactivating mutation it may lead to dominant negative phenotype of variable degree. While a large proportion of cancer genomics research is focused on somatic variants\, TP53 is also of note in the germline. Germline TP53 mutations are the hallmark of Li-Fraumeni syndrome\, and many \(both germline and somatic\) variants have been found to have a prognostic impact on patient outcomes. The significance of many polymorphisms for susceptibility and prognosis of disease is still very much up for debate." []
+property_value: skos:exactMatch NCBIGene:7157
+
+[Term]
+id: civic.gid:46
+name: TSC1
+property_value: skos:exactMatch NCBIGene:7248
+
+[Term]
+id: civic.gid:47
+name: TSC2
+property_value: skos:exactMatch NCBIGene:7249
+
+[Term]
+id: civic.gid:48
+name: U2AF1
+def: "U2AF1 is one of several spliceosome complex genes frequently mutated in a variety of hematologic malignancies\, particularly de novo myelodysplastic syndromes \(MDS\)\, as well as solid tumors such as lung and pancreatic cancers. Two hotspot mutations \(S34 and Q157\) occur within the two zinc-finger domains of the U2AF1 protein. These mutations have been associated with altered splicing patterns in vitro and in vivo. U2AF1 mutations in MDS have been associated with an increased risk of transformation to secondary acute myeloid leukemia\, however\, the impact of these mutations on overall survival has been an area of debate." []
+property_value: skos:exactMatch NCBIGene:7307
+
+[Term]
+id: civic.gid:49
+name: WT1
+def: "WT1 is a tumor suppressor gene associated with the development of Wilms' Tumor\, from which it was named. Mutations in exon 7 and 9 of WT1 have been recurrently identified in acute myeloid leukemia and associated with poorer prognosis and chemotherapy resistance." []
+property_value: skos:exactMatch NCBIGene:7490
+
+[Term]
+id: civic.gid:50
+name: NOTCH1
+def: "NOTCH1 is one of four known genes encoding the NOTCH family of proteins\, a group of receptors involved in the Notch signaling pathway. NOTCH proteins are characterized by N-terminal EGF-like repeats followed by LNR domains which form a complex with ligands to prevent signaling. The Notch signaling pathway is involved in processes related to cell fate specification\, differentiation\, proliferation\, and survival. Activation of Notch has been shown to be correlative with mammary tumorgenesis in mice and increased expression of Notch receptors has been observed in a variety of cancer types including cervical\, colon\, head and neck\, lung\, renal\, pancreatic\, leukemia\, and breast cancer. A number of treatment modalities have been explored related to Notch inhibition especially in breast cancer with mixed results." []
+property_value: skos:exactMatch NCBIGene:4851
+
+[Term]
+id: civic.gid:51
+name: DDR2
+property_value: skos:exactMatch NCBIGene:4921
+
+[Term]
+id: civic.gid:52
+name: MET
+def: "Mesenchymal Epithelial Transition MET is a prototypical receptor tyrosine kinase. Its ligand is Hepatocyte Growth Factor \(HGF\). MET alterations are drivers of human cancer. Amplification and resulting overexpression has been reported in several cancers\, and make the receptor's activity independent of HGF. Gene fusions also decouple kinase activity from the cell membrane and render it constitutively active. Finally\, exclusion of the juxtamembrane \(JM\) domain of the kinase by \"skipping\" of exon 14 activates the kinase. FDA-approved selective MET inhibitors\, including tepotinib and capmatinib\, have shown efficacy in cancers with exon 14 skipping mutations or MET amplification." []
+property_value: skos:exactMatch NCBIGene:4233
+
+[Term]
+id: civic.gid:54
+name: EWSR1
+def: "Fusions between EWSR1 and multiple 3` partners are regularly identified in soft tissue sarcomas and can aid in differential diagnosis. The fusion product usually contains the N-terminal transcription-activating domain of EWSR1 and the C-terminal DNA-binding domain of the fusion partner\, generating a novel transcription factor." []
+property_value: skos:exactMatch NCBIGene:2130
+
+[Term]
+id: civic.gid:55
+name: TET2
+property_value: skos:exactMatch NCBIGene:54790
+
+[Term]
+id: civic.gid:56
+name: FOXP1
+property_value: skos:exactMatch NCBIGene:27086
+
+[Term]
+id: civic.gid:57
+name: REL
+property_value: skos:exactMatch NCBIGene:5966
+
+[Term]
+id: civic.gid:58
+name: VHL
+def: "Von Hippel-Lindau \(VHL\) disease is characterized by heterozygous germline mutation in VHL gene on chromosome 3p. Patients are predisposed to developing hemangioblastomas of the brain\, spinal cord\, and retina; renal cysts and clear cell renal cell carcinoma; pheochromocytoma\, pancreatic cysts and neuroendocrine tumors; endolymphatic sac tumors; and epididymal and broad ligament cysts. Cerebellar hemangioblastomas may be associated with headache\, vomiting\, gait disturbances\, or ataxia. Spinal hemangioblastomas and related syrinx usually present with pain. Sensory and motor loss may develop with cord compression. Retinal hemangioblastomas may be the initial manifestation of VHL disease and can cause vision loss. Renal cell carcinoma occurs in about 70% of individuals with VHL and is the leading cause of mortality. Pheochromocytomas can be asymptomatic but may cause sustained or episodic hypertension. Pancreatic lesions often remain asymptomatic and rarely cause endocrine or exocrine insufficiency. Endolymphatic sac tumors can cause hearing loss of varying severity\, which can be a presenting symptom. Cystadenomas of the epididymis are relatively common. They rarely cause problems\, unless bilateral\, in which case they may result in infertility. The VHL gene product encodes pVHL\, which binds to elongin C\, elongin B\, cullin-2 and Rbx1. This complex catalyzes the polyubiquitinylation of specific proteins and targets them for degradation by proteosomes. For example\, under normoxic conditions\, hydroxylated hypoxia-inducble factor alpha subunits \(HIFα\) binds pVHL targets HIFα for degradation. Under hypoxic conditions\, HIF1α is not hydroxylated\, pVHL does not bind\, and HIF1α subunits accumulate. HIF1α forms heterodimers with HIF1β and activates transcription of a variety of hypoxia-inducible genes \(i.e.\, VEGF\, EPO\, TGFα\, PDGFβ\). Likewise\, when pVHL is absent or mutated\, HIF1α subunits accumulate\, resulting in cell proliferation and the neovascularization of tumors characteristic of VHL disease. Pathogenic variants in VHL either prevent its expression \(i.e.\, deletions\, frameshifts\, nonsense mutations\, and splice site mutations\) or lead to the expression of an abnormal protein \(i.e.\, missense mutations\). Missense mutations that destabilize packing of the alpha-helical domains\, decrease the stability of the alpha-beta domain interface\, interfere with binding of elongin C and HIF1α\, or disrupt hydrophobic core residues result in loss of HIF regulation and are more likely to result in VHL type 1 \(no predisposition to pheochromocytoma\). Missense mutations that result in pVHL that is normal with respect to HIF regulation are more likely to be associated with VHL with clinical pheochromocytoma. Acquired somatic pathogenic variants in VHL may give rise to sporadic VHL-type tumors \(i.e.\, clear cell RCC and hemangioblastoma\) without other associated tumors characteristic of the hereditary disease. It should be noted that >90% of the most common form of kidney cancer \(clear cell renal cell carcinoma\) are associated with bi-allelic somatic mutation in the VHL gene\, and is the rationale for the anti-angiogenic therapy for RCC patients." []
+property_value: skos:exactMatch NCBIGene:7428
+
+[Term]
+id: civic.gid:59
+name: BCL2
+property_value: skos:exactMatch NCBIGene:596
+
+[Term]
+id: civic.gid:60
+name: IGF2
+property_value: skos:exactMatch NCBIGene:3481
+
+[Term]
+id: civic.gid:61
+name: AURKA
+property_value: skos:exactMatch NCBIGene:6790
+
+[Term]
+id: civic.gid:62
+name: PBRM1
+property_value: skos:exactMatch NCBIGene:55193
+
+[Term]
+id: civic.gid:63
+name: EZH2
+property_value: skos:exactMatch NCBIGene:2146
+
+[Term]
+id: civic.gid:64
+name: KMT2D
+property_value: skos:exactMatch NCBIGene:8085
+
+[Term]
+id: civic.gid:65
+name: BTK
+property_value: skos:exactMatch NCBIGene:695
+
+[Term]
+id: civic.gid:66
+name: APC
+property_value: skos:exactMatch NCBIGene:324
+
+[Term]
+id: civic.gid:67
+name: AR
+property_value: skos:exactMatch NCBIGene:367
+
+[Term]
+id: civic.gid:68
+name: ASXL1
+property_value: skos:exactMatch NCBIGene:171023
+
+[Term]
+id: civic.gid:69
+name: ATM
+def: "Ataxia-telangiectasia \(A-T\) is a recessive disorder resulting from germline mutation of the A-T mutated \(ATM\) gene on chromosome 11q. Upon sensing double-stranded breaks \(DSB\)\, the wild-type kinase encoded by ATM initiates the DNA-damage response by phosphorylating histone H2AX and\, subsequently\, various other proteins\, such as BRCA1 and the MRE11–RAD50–NBS1 \(MRN\) complex\, which are recruited to the damaged site. Additionally\, ATM phosphorylates p53\, resulting in expression of the cyclin-dependent kinase inhibitor p21 and leading to senescence or apoptosis. Somatic variants can result in inhibition or loss of these functions and can cause resistance to therapies that rely on inducing apoptosis via DSBs. Germline variants in A-T patients result in a predisposition to cancer\, most frequently hematologic or breast. PARP inhibition has been studied for its potential in treating ATM mutated breast cancer patients." []
+property_value: skos:exactMatch NCBIGene:472
+
+[Term]
+id: civic.gid:70
+name: BAP1
+def: "BAP1 is a deubiquitylase thought to be a key regulator of many cancer-associated pathways. Germline alterations in BAP1 have been characterized as predisposing variants to familial melanocytic skin tumors. These alterations also have been linked to the development of mesothelioma\, uveal melanoma\, cutaneous melanoma and others. Clinically\, the role of BAP1 is still being investigated. However\, the development of intradermal tumors known as melanocytic BAP1-associated intradermal tumors \(MBAITs\) are enough for a patient to be subject to more intense surveillance to catch other malignancies as early as possible." []
+property_value: skos:exactMatch NCBIGene:8314
+
+[Term]
+id: civic.gid:71
+name: ERG
+property_value: skos:exactMatch NCBIGene:2078
+
+[Term]
+id: civic.gid:72
+name: FOXL2
+property_value: skos:exactMatch NCBIGene:668
+
+[Term]
+id: civic.gid:73
+name: IKZF1
+property_value: skos:exactMatch NCBIGene:10320
+
+[Term]
+id: civic.gid:74
+name: NCOA3
+property_value: skos:exactMatch NCBIGene:8202
+
+[Term]
+id: civic.gid:75
+name: PAX8
+def: "PAX8 is one of nine transcription factors within the PAX gene family. It has been observed to be expressed during embryonic development however expression attenuates after development in all but a few tissues. Research has indicated that over-expression of PAX proteins in general are not an initiating event in tumorgenesis however they may facilitate malignant development. PAX8 is expressed in 80-96% of all High-grade serous carcinomas \(HGSC\) and is commonly used as a marker for the disease. In addition PAX8 has become a useful biomarker for differentiating between mullerian mucinous and non-mullerian tumors. PAX8 has also been associated with neoplasms in the kidney and thyroid." []
+property_value: skos:exactMatch NCBIGene:7849
+
+[Term]
+id: civic.gid:76
+name: PGR
+property_value: skos:exactMatch NCBIGene:5241
+
+[Term]
+id: civic.gid:77
+name: SMAD4
+property_value: skos:exactMatch NCBIGene:4089
+
+[Term]
+id: civic.gid:78
+name: SMARCA4
+property_value: skos:exactMatch NCBIGene:6597
+
+[Term]
+id: civic.gid:79
+name: TERT
+property_value: skos:exactMatch NCBIGene:7015
+
+[Term]
+id: civic.gid:80
+name: TTF1
+property_value: skos:exactMatch NCBIGene:7270
+
+[Term]
+id: civic.gid:101
+name: ABL2
+property_value: skos:exactMatch NCBIGene:27
+
+[Term]
+id: civic.gid:128
+name: ACTA1
+property_value: skos:exactMatch NCBIGene:58
+
+[Term]
+id: civic.gid:130
+name: ACTB
+property_value: skos:exactMatch NCBIGene:60
+
+[Term]
+id: civic.gid:150
+name: ACTL6A
+property_value: skos:exactMatch NCBIGene:86
+
+[Term]
+id: civic.gid:154
+name: ACVR1
+property_value: skos:exactMatch NCBIGene:90
+
+[Term]
+id: civic.gid:199
+name: PARP1
+property_value: skos:exactMatch NCBIGene:142
+
+[Term]
+id: civic.gid:221
+name: AEBP1
+property_value: skos:exactMatch NCBIGene:165
+
+[Term]
+id: civic.gid:254
+name: AKT2
+property_value: skos:exactMatch NCBIGene:208
+
+[Term]
+id: civic.gid:259
+name: ALCAM
+property_value: skos:exactMatch NCBIGene:214
+
+[Term]
+id: civic.gid:353
+name: BIRC3
+property_value: skos:exactMatch NCBIGene:330
+
+[Term]
+id: civic.gid:355
+name: BIRC5
+property_value: skos:exactMatch NCBIGene:332
+
+[Term]
+id: civic.gid:375
+name: FAS
+property_value: skos:exactMatch NCBIGene:355
+
+[Term]
+id: civic.gid:389
+name: AREG
+property_value: skos:exactMatch NCBIGene:374
+
+[Term]
+id: civic.gid:399
+name: RHOA
+property_value: skos:exactMatch NCBIGene:387
+
+[Term]
+id: civic.gid:436
+name: ASCL1
+property_value: skos:exactMatch NCBIGene:429
+
+[Term]
+id: civic.gid:446
+name: ASNS
+property_value: skos:exactMatch NCBIGene:440
+
+[Term]
+id: civic.gid:450
+name: ASS1
+property_value: skos:exactMatch NCBIGene:445
+
+[Term]
+id: civic.gid:524
+name: ATR
+property_value: skos:exactMatch NCBIGene:545
+
+[Term]
+id: civic.gid:525
+name: ATRX
+property_value: skos:exactMatch NCBIGene:546
+
+[Term]
+id: civic.gid:533
+name: AXL
+property_value: skos:exactMatch NCBIGene:558
+
+[Term]
+id: civic.gid:537
+name: B2M
+property_value: skos:exactMatch NCBIGene:567
+
+[Term]
+id: civic.gid:549
+name: BARD1
+property_value: skos:exactMatch NCBIGene:580
+
+[Term]
+id: civic.gid:550
+name: BAX
+property_value: skos:exactMatch NCBIGene:581
+
+[Term]
+id: civic.gid:566
+name: BCL6
+property_value: skos:exactMatch NCBIGene:604
+
+[Term]
+id: civic.gid:567
+name: BCL7A
+property_value: skos:exactMatch NCBIGene:605
+
+[Term]
+id: civic.gid:570
+name: TNFRSF17
+property_value: skos:exactMatch NCBIGene:608
+
+[Term]
+id: civic.gid:588
+name: CEACAM1
+property_value: skos:exactMatch NCBIGene:634
+
+[Term]
+id: civic.gid:593
+name: PRDM1
+property_value: skos:exactMatch NCBIGene:639
+
+[Term]
+id: civic.gid:594
+name: BLK
+property_value: skos:exactMatch NCBIGene:640
+
+[Term]
+id: civic.gid:608
+name: BMP7
+property_value: skos:exactMatch NCBIGene:655
+
+[Term]
+id: civic.gid:625
+name: ZFP36L1
+property_value: skos:exactMatch NCBIGene:677
+
+[Term]
+id: civic.gid:634
+name: KLF5
+property_value: skos:exactMatch NCBIGene:688
+
+[Term]
+id: civic.gid:638
+name: BTG1
+property_value: skos:exactMatch NCBIGene:694
+
+[Term]
+id: civic.gid:732
+name: CALR
+property_value: skos:exactMatch NCBIGene:811
+
+[Term]
+id: civic.gid:761
+name: CASP8
+property_value: skos:exactMatch NCBIGene:841
+
+[Term]
+id: civic.gid:778
+name: CBL
+property_value: skos:exactMatch NCBIGene:867
+
+[Term]
+id: civic.gid:779
+name: CBLB
+property_value: skos:exactMatch NCBIGene:868
+
+[Term]
+id: civic.gid:826
+name: CD19
+property_value: skos:exactMatch NCBIGene:930
+
+[Term]
+id: civic.gid:827
+name: MS4A1
+property_value: skos:exactMatch NCBIGene:931
+
+[Term]
+id: civic.gid:855
+name: CD44
+property_value: skos:exactMatch NCBIGene:960
+
+[Term]
+id: civic.gid:859
+name: CD58
+property_value: skos:exactMatch NCBIGene:965
+
+[Term]
+id: civic.gid:864
+name: CD70
+property_value: skos:exactMatch NCBIGene:970
+
+[Term]
+id: civic.gid:868
+name: CD79B
+property_value: skos:exactMatch NCBIGene:974
+
+[Term]
+id: civic.gid:888
+name: CDH1
+property_value: skos:exactMatch NCBIGene:999
+
+[Term]
+id: civic.gid:906
+name: CDK2
+property_value: skos:exactMatch NCBIGene:1017
+
+[Term]
+id: civic.gid:908
+name: CDK5
+property_value: skos:exactMatch NCBIGene:1020
+
+[Term]
+id: civic.gid:912
+name: CDK9
+property_value: skos:exactMatch NCBIGene:1025
+
+[Term]
+id: civic.gid:913
+name: CDKN1A
+property_value: skos:exactMatch NCBIGene:1026
+
+[Term]
+id: civic.gid:914
+name: CDKN1B
+property_value: skos:exactMatch NCBIGene:1027
+
+[Term]
+id: civic.gid:916
+name: CDKN2B
+property_value: skos:exactMatch NCBIGene:1030
+
+[Term]
+id: civic.gid:927
+name: CDX2
+property_value: skos:exactMatch NCBIGene:1045
+
+[Term]
+id: civic.gid:981
+name: CHEK1
+property_value: skos:exactMatch NCBIGene:1111
+
+[Term]
+id: civic.gid:1193
+name: CREBBP
+property_value: skos:exactMatch NCBIGene:1387
+
+[Term]
+id: civic.gid:1204
+name: CRKL
+property_value: skos:exactMatch NCBIGene:1399
+
+[Term]
+id: civic.gid:1234
+name: CSF1
+property_value: skos:exactMatch NCBIGene:1435
+
+[Term]
+id: civic.gid:1239
+name: CSF3R
+property_value: skos:exactMatch NCBIGene:1441
+
+[Term]
+id: civic.gid:1278
+name: CTAG1B
+property_value: skos:exactMatch NCBIGene:1485
+
+[Term]
+id: civic.gid:1283
+name: CCN2
+property_value: skos:exactMatch NCBIGene:1490
+
+[Term]
+id: civic.gid:1285
+name: CTLA4
+property_value: skos:exactMatch NCBIGene:1493
+
+[Term]
+id: civic.gid:1290
+name: CTNNB1
+property_value: skos:exactMatch NCBIGene:1499
+
+[Term]
+id: civic.gid:1342
+name: CYP2D6
+property_value: skos:exactMatch NCBIGene:1565
+
+[Term]
+id: civic.gid:1390
+name: DBI
+property_value: skos:exactMatch NCBIGene:1622
+
+[Term]
+id: civic.gid:1396
+name: DCC
+property_value: skos:exactMatch NCBIGene:1630
+
+[Term]
+id: civic.gid:1411
+name: GADD45A
+property_value: skos:exactMatch NCBIGene:1647
+
+[Term]
+id: civic.gid:1417
+name: DDX3X
+property_value: skos:exactMatch NCBIGene:1654
+
+[Term]
+id: civic.gid:1428
+name: DEFA1
+property_value: skos:exactMatch NCBIGene:1667
+
+[Term]
+id: civic.gid:1463
+name: NQO1
+property_value: skos:exactMatch NCBIGene:1728
+
+[Term]
+id: civic.gid:1510
+name: DNMT1
+property_value: skos:exactMatch NCBIGene:1786
+
+[Term]
+id: civic.gid:1526
+name: DPYD
+property_value: skos:exactMatch NCBIGene:1806
+
+[Term]
+id: civic.gid:1536
+name: DRD5
+property_value: skos:exactMatch NCBIGene:1816
+
+[Term]
+id: civic.gid:1559
+name: DTX1
+property_value: skos:exactMatch NCBIGene:1840
+
+[Term]
+id: civic.gid:1563
+name: DUSP2
+property_value: skos:exactMatch NCBIGene:1844
+
+[Term]
+id: civic.gid:1567
+name: DUSP6
+property_value: skos:exactMatch NCBIGene:1848
+
+[Term]
+id: civic.gid:1590
+name: EBF1
+property_value: skos:exactMatch NCBIGene:1879
+
+[Term]
+id: civic.gid:1603
+name: S1PR1
+property_value: skos:exactMatch NCBIGene:1901
+
+[Term]
+id: civic.gid:1627
+name: EFNA2
+property_value: skos:exactMatch NCBIGene:1943
+
+[Term]
+id: civic.gid:1634
+name: EGF
+property_value: skos:exactMatch NCBIGene:1950
+
+[Term]
+id: civic.gid:1646
+name: EIF1AX
+property_value: skos:exactMatch NCBIGene:1964
+
+[Term]
+id: civic.gid:1651
+name: EIF4A1
+property_value: skos:exactMatch NCBIGene:1973
+
+[Term]
+id: civic.gid:1655
+name: EIF4EBP1
+property_value: skos:exactMatch NCBIGene:1978
+
+[Term]
+id: civic.gid:1701
+name: SLC29A1
+property_value: skos:exactMatch NCBIGene:2030
+
+[Term]
+id: civic.gid:1704
+name: EP300
+property_value: skos:exactMatch NCBIGene:2033
+
+[Term]
+id: civic.gid:1705
+name: EPAS1
+property_value: skos:exactMatch NCBIGene:2034
+
+[Term]
+id: civic.gid:1719
+name: EPHB2
+property_value: skos:exactMatch NCBIGene:2048
+
+[Term]
+id: civic.gid:1721
+name: EPHB4
+property_value: skos:exactMatch NCBIGene:2050
+
+[Term]
+id: civic.gid:1728
+name: EPOR
+property_value: skos:exactMatch NCBIGene:2057
+
+[Term]
+id: civic.gid:1733
+name: ERBB3
+property_value: skos:exactMatch NCBIGene:2065
+
+[Term]
+id: civic.gid:1734
+name: ERBB4
+def: "ErbB4 \(HER4\) is one of the four members in the EGFR subfamily of receptor tyrosine kinases. Ligands include EGF\, epiregulin\, betacellulin and the neuregulins \(Sundvall et. al.\). Of these\, NRG3 and NRG4 exclusively bind HER4 \(Hynes et. al.\). Mutations in ERBB4 have been identified in various cancer types including melanoma\, lung adenocarcinoma and medulloblastoma. A therapeutic value of these aberrations still remains unknown \(Arteaga et. al.\)." []
+property_value: skos:exactMatch NCBIGene:2066
+
+[Term]
+id: civic.gid:1735
+name: ERCC1
+property_value: skos:exactMatch NCBIGene:2067
+
+[Term]
+id: civic.gid:1736
+name: ERCC2
+def: "ERCC2 functions as a DNA repair gene involved in separating the double helix via 5’-3’ helicase activity. It forms a part of the transcription factor II Human \(TFIIH\) complex and is ATP-dependent. The TFIIH complex is known to be involved in the nucleotide excision repair pathway \(NER\) which can repair DNA damage caused by chemotherapeutic treatment and basal transcription. ERCC2 variants have been observed in a variety of cancers. A number of studies have suggested ERCC2 variants can act as biomarkers to predict response to neoadjuvant treatment\, and cancer prognosis. Additionally the Lys751Gln polymorphism has been observed to increase risk in a number of cancer types; however\, results have been conflicting." []
+property_value: skos:exactMatch NCBIGene:2068
+
+[Term]
+id: civic.gid:1737
+name: EREG
+property_value: skos:exactMatch NCBIGene:2069
+
+[Term]
+id: civic.gid:1741
+name: ERCC5
+property_value: skos:exactMatch NCBIGene:2073
+
+[Term]
+id: civic.gid:1742
+name: ERCC6
+property_value: skos:exactMatch NCBIGene:2074
+
+[Term]
+id: civic.gid:1753
+name: ESR2
+property_value: skos:exactMatch NCBIGene:2100
+
+[Term]
+id: civic.gid:1762
+name: ETS1
+property_value: skos:exactMatch NCBIGene:2113
+
+[Term]
+id: civic.gid:1763
+name: ETS2
+property_value: skos:exactMatch NCBIGene:2114
+
+[Term]
+id: civic.gid:1764
+name: ETV1
+property_value: skos:exactMatch NCBIGene:2115
+
+[Term]
+id: civic.gid:1767
+name: ETV4
+property_value: skos:exactMatch NCBIGene:2118
+
+[Term]
+id: civic.gid:1768
+name: ETV5
+property_value: skos:exactMatch NCBIGene:2119
+
+[Term]
+id: civic.gid:1769
+name: ETV6
+property_value: skos:exactMatch NCBIGene:2120
+
+[Term]
+id: civic.gid:1771
+name: MECOM
+property_value: skos:exactMatch NCBIGene:2122
+
+[Term]
+id: civic.gid:1810
+name: FANCA
+property_value: skos:exactMatch NCBIGene:2175
+
+[Term]
+id: civic.gid:1811
+name: FANCC
+property_value: skos:exactMatch NCBIGene:2176
+
+[Term]
+id: civic.gid:1842
+name: FCGR2A
+property_value: skos:exactMatch NCBIGene:2212
+
+[Term]
+id: civic.gid:1843
+name: FCGR2B
+property_value: skos:exactMatch NCBIGene:2213
+
+[Term]
+id: civic.gid:1844
+name: FCGR3A
+property_value: skos:exactMatch NCBIGene:2214
+
+[Term]
+id: civic.gid:1872
+name: FGF2
+property_value: skos:exactMatch NCBIGene:2247
+
+[Term]
+id: civic.gid:1873
+name: FGF3
+def: "FGF3 is a member of the basic fibroblast growth factor \(FGF\) gene family and was first identified based on it's similarity to the mouse proto-oncogene int-2. Amplifications of this gene and the surrounding region \(11q13\) have been observed in various cancers including breast cancer\, esophogeal cancer\, melanoma\, bladder cancer and hepatocellular carcinoma \(HCC\). Lower tumor grade and stage have been associated with FGF3 amplifications in HCC; however\, this event is fairly rare in this tumor type." []
+property_value: skos:exactMatch NCBIGene:2248
+
+[Term]
+id: civic.gid:1883
+name: FGF13
+property_value: skos:exactMatch NCBIGene:2258
+
+[Term]
+id: civic.gid:1885
+name: FGFR1
+def: "FGFR1 is a member of the Fibroblast Growth Factor family\, comprising of 4 receptors and 18 Ligands. FGFR1 signalling downstream functions mainly via PI3K and MAPK pathways \(Turner et. al.\). Several ways of involvement of FGFR1 in cancer have been proposed\: auto- and paracrine activation\, amplification and overexpression \(Marshall et. al\, Weiss et. al.\, Cheng et. al.\). Especially amplification of FGFR1 in lung cancer is an emerging treatment target with clinical studies currently ongoing \(e.g. NCT01004224\). However\, FGFR1 amplification does not always correlate with protein expression and predictive biomarkers still remain to be defined in clinic \(von Mässenhausen et. al.\). Mutation of FGFR1 seems to be less common\, but has been described in glioblastoma\, pilocytic astrocytomas and Ewing's sarcoma \(Rand et. al.\, Jones et. al.\, Agelopoulos et. al.\)." []
+property_value: skos:exactMatch NCBIGene:2260
+
+[Term]
+id: civic.gid:1887
+name: FGFR4
+property_value: skos:exactMatch NCBIGene:2264
+
+[Term]
+id: civic.gid:1911
+name: FOXF1
+property_value: skos:exactMatch NCBIGene:2294
+
+[Term]
+id: civic.gid:1920
+name: FOXC2
+property_value: skos:exactMatch NCBIGene:2303
+
+[Term]
+id: civic.gid:1925
+name: FOXO1
+property_value: skos:exactMatch NCBIGene:2308
+
+[Term]
+id: civic.gid:1926
+name: FOXO3
+property_value: skos:exactMatch NCBIGene:2309
+
+[Term]
+id: civic.gid:1937
+name: FLT3LG
+property_value: skos:exactMatch NCBIGene:2323
+
+[Term]
+id: civic.gid:1938
+name: FLT4
+property_value: skos:exactMatch NCBIGene:2324
+
+[Term]
+id: civic.gid:1947
+name: FN1
+property_value: skos:exactMatch NCBIGene:2335
+
+[Term]
+id: civic.gid:1950
+name: FNTB
+property_value: skos:exactMatch NCBIGene:2342
+
+[Term]
+id: civic.gid:1955
+name: FOS
+property_value: skos:exactMatch NCBIGene:2353
+
+[Term]
+id: civic.gid:1956
+name: FOSB
+property_value: skos:exactMatch NCBIGene:2354
+
+[Term]
+id: civic.gid:2073
+name: MTOR
+def: "mTOR deregulation has been observed in many cancer types. As a part of the PI3K/Akt pathway\, there is a broad interest in mTOR biology across cancer types. mTOR inhibition has been investigated for nearly a decade. Everolimus\, temsirolimus and zotarolimus are three of the more commonly used mTOR inhibitors used in clinical treatment today\, with modest success." []
+property_value: skos:exactMatch NCBIGene:2475
+
+[Term]
+id: civic.gid:2186
+name: GAS6
+property_value: skos:exactMatch NCBIGene:2621
+
+[Term]
+id: civic.gid:2188
+name: GATA1
+property_value: skos:exactMatch NCBIGene:2623
+
+[Term]
+id: civic.gid:2189
+name: GATA3
+property_value: skos:exactMatch NCBIGene:2625
+
+[Term]
+id: civic.gid:2239
+name: B4GALT1
+property_value: skos:exactMatch NCBIGene:2683
+
+[Term]
+id: civic.gid:2308
+name: GNA11
+property_value: skos:exactMatch NCBIGene:2767
+
+[Term]
+id: civic.gid:2312
+name: GNAI2
+property_value: skos:exactMatch NCBIGene:2771
+
+[Term]
+id: civic.gid:2317
+name: GNAQ
+property_value: skos:exactMatch NCBIGene:2776
+
+[Term]
+id: civic.gid:2319
+name: GNAS
+property_value: skos:exactMatch NCBIGene:2778
+
+[Term]
+id: civic.gid:2438
+name: ARHGAP35
+property_value: skos:exactMatch NCBIGene:2909
+
+[Term]
+id: civic.gid:2473
+name: GSTP1
+property_value: skos:exactMatch NCBIGene:2950
+
+[Term]
+id: civic.gid:2478
+name: MSH6
+property_value: skos:exactMatch NCBIGene:2956
+
+[Term]
+id: civic.gid:2526
+name: H1-2
+property_value: skos:exactMatch NCBIGene:3006
+
+[Term]
+id: civic.gid:2527
+name: H1-3
+property_value: skos:exactMatch NCBIGene:3007
+
+[Term]
+id: civic.gid:2529
+name: H1-5
+property_value: skos:exactMatch NCBIGene:3009
+
+[Term]
+id: civic.gid:2535
+name: H2BC5
+property_value: skos:exactMatch NCBIGene:3017
+
+[Term]
+id: civic.gid:2537
+name: H3-3A
+property_value: skos:exactMatch NCBIGene:3020
+
+[Term]
+id: civic.gid:2538
+name: H3-3B
+property_value: skos:exactMatch NCBIGene:3021
+
+[Term]
+id: civic.gid:2556
+name: HBB
+property_value: skos:exactMatch NCBIGene:3043
+
+[Term]
+id: civic.gid:2578
+name: HDAC2
+property_value: skos:exactMatch NCBIGene:3066
+
+[Term]
+id: civic.gid:2591
+name: HGF
+property_value: skos:exactMatch NCBIGene:3082
+
+[Term]
+id: civic.gid:2593
+name: NRG1
+property_value: skos:exactMatch NCBIGene:3084
+
+[Term]
+id: civic.gid:2596
+name: HIF1A
+property_value: skos:exactMatch NCBIGene:3091
+
+[Term]
+id: civic.gid:2606
+name: HLA-A
+property_value: skos:exactMatch NCBIGene:3105
+
+[Term]
+id: civic.gid:2607
+name: HLA-B
+property_value: skos:exactMatch NCBIGene:3106
+
+[Term]
+id: civic.gid:2608
+name: HLA-C
+property_value: skos:exactMatch NCBIGene:3107
+
+[Term]
+id: civic.gid:2622
+name: HLA-DRA
+property_value: skos:exactMatch NCBIGene:3122
+
+[Term]
+id: civic.gid:2657
+name: HMOX1
+property_value: skos:exactMatch NCBIGene:3162
+
+[Term]
+id: civic.gid:2677
+name: HNRNPH1
+property_value: skos:exactMatch NCBIGene:3187
+
+[Term]
+id: civic.gid:2682
+name: HNRNPU
+property_value: skos:exactMatch NCBIGene:3192
+
+[Term]
+id: civic.gid:2715
+name: HOXC10
+property_value: skos:exactMatch NCBIGene:3226
+
+[Term]
+id: civic.gid:2723
+name: HOXD8
+property_value: skos:exactMatch NCBIGene:3234
+
+[Term]
+id: civic.gid:2747
+name: HRAS
+property_value: skos:exactMatch NCBIGene:3265
+
+[Term]
+id: civic.gid:2778
+name: HSPA5
+property_value: skos:exactMatch NCBIGene:3309
+
+[Term]
+id: civic.gid:2784
+name: HSPB1
+property_value: skos:exactMatch NCBIGene:3315
+
+[Term]
+id: civic.gid:2822
+name: TNC
+property_value: skos:exactMatch NCBIGene:3371
+
+[Term]
+id: civic.gid:2836
+name: IRF8
+property_value: skos:exactMatch NCBIGene:3394
+
+[Term]
+id: civic.gid:2840
+name: ID3
+property_value: skos:exactMatch NCBIGene:3399
+
+[Term]
+id: civic.gid:2888
+name: IFNGR1
+property_value: skos:exactMatch NCBIGene:3459
+
+[Term]
+id: civic.gid:2899
+name: IGF1R
+property_value: skos:exactMatch NCBIGene:3480
+
+[Term]
+id: civic.gid:2964
+name: IL3
+property_value: skos:exactMatch NCBIGene:3562
+
+[Term]
+id: civic.gid:2967
+name: IL4R
+property_value: skos:exactMatch NCBIGene:3566
+
+[Term]
+id: civic.gid:2970
+name: IL6
+property_value: skos:exactMatch NCBIGene:3569
+
+[Term]
+id: civic.gid:2975
+name: IL7R
+property_value: skos:exactMatch NCBIGene:3575
+
+[Term]
+id: civic.gid:3017
+name: CXCL10
+property_value: skos:exactMatch NCBIGene:3627
+
+[Term]
+id: civic.gid:3043
+name: IRF4
+property_value: skos:exactMatch NCBIGene:3662
+
+[Term]
+id: civic.gid:3083
+name: ITPKB
+property_value: skos:exactMatch NCBIGene:3707
+
+[Term]
+id: civic.gid:3090
+name: JAK1
+property_value: skos:exactMatch NCBIGene:3716
+
+[Term]
+id: civic.gid:3091
+name: JAK3
+property_value: skos:exactMatch NCBIGene:3718
+
+[Term]
+id: civic.gid:3094
+name: JUN
+property_value: skos:exactMatch NCBIGene:3725
+
+[Term]
+id: civic.gid:3153
+name: KDR
+property_value: skos:exactMatch NCBIGene:3791
+
+[Term]
+id: civic.gid:3215
+name: KRT18
+property_value: skos:exactMatch NCBIGene:3875
+
+[Term]
+id: civic.gid:3236
+name: LAG3
+property_value: skos:exactMatch NCBIGene:3902
+
+[Term]
+id: civic.gid:3255
+name: STMN1
+property_value: skos:exactMatch NCBIGene:3925
+
+[Term]
+id: civic.gid:3274
+name: LEPR
+property_value: skos:exactMatch NCBIGene:3953
+
+[Term]
+id: civic.gid:3342
+name: LTB
+property_value: skos:exactMatch NCBIGene:4050
+
+[Term]
+id: civic.gid:3359
+name: LYN
+property_value: skos:exactMatch NCBIGene:4067
+
+[Term]
+id: civic.gid:3362
+name: TACSTD2
+property_value: skos:exactMatch NCBIGene:4070
+
+[Term]
+id: civic.gid:3364
+name: EPCAM
+property_value: skos:exactMatch NCBIGene:4072
+
+[Term]
+id: civic.gid:3375
+name: SMAD2
+property_value: skos:exactMatch NCBIGene:4087
+
+[Term]
+id: civic.gid:3376
+name: SMAD3
+property_value: skos:exactMatch NCBIGene:4088
+
+[Term]
+id: civic.gid:3389
+name: MAGEA4
+property_value: skos:exactMatch NCBIGene:4103
+
+[Term]
+id: civic.gid:3448
+name: MCL1
+property_value: skos:exactMatch NCBIGene:4170
+
+[Term]
+id: civic.gid:3465
+name: MDM2
+property_value: skos:exactMatch NCBIGene:4193
+
+[Term]
+id: civic.gid:3466
+name: MDM4
+property_value: skos:exactMatch NCBIGene:4194
+
+[Term]
+id: civic.gid:3475
+name: MEF2C
+property_value: skos:exactMatch NCBIGene:4208
+
+[Term]
+id: civic.gid:3480
+name: MAP3K1
+property_value: skos:exactMatch NCBIGene:4214
+
+[Term]
+id: civic.gid:3485
+name: MEN1
+property_value: skos:exactMatch NCBIGene:4221
+
+[Term]
+id: civic.gid:3512
+name: CIITA
+property_value: skos:exactMatch NCBIGene:4261
+
+[Term]
+id: civic.gid:3527
+name: MITF
+property_value: skos:exactMatch NCBIGene:4286
+
+[Term]
+id: civic.gid:3529
+name: MKI67
+property_value: skos:exactMatch NCBIGene:4288
+
+[Term]
+id: civic.gid:3532
+name: MLH1
+def: "MLH1 is a tumor suppressor gene involved in DNA mismatch repair. Germline mutations in this gene are known to cause Lynch syndrome. The most common malignancies in Lynch syndrome are colorectal and endometrial carcinomas. In addition to germline mutations\, somatic mutations in this gene have been described in colorectal and endometrial cancers." []
+property_value: skos:exactMatch NCBIGene:4292
+
+[Term]
+id: civic.gid:3537
+name: KMT2A
+property_value: skos:exactMatch NCBIGene:4297
+
+[Term]
+id: civic.gid:3549
+name: MMP2
+property_value: skos:exactMatch NCBIGene:4313
+
+[Term]
+id: civic.gid:3553
+name: MMP9
+property_value: skos:exactMatch NCBIGene:4318
+
+[Term]
+id: civic.gid:3564
+name: MN1
+property_value: skos:exactMatch NCBIGene:4330
+
+[Term]
+id: civic.gid:3577
+name: MPL
+property_value: skos:exactMatch NCBIGene:4352
+
+[Term]
+id: civic.gid:3586
+name: MRE11
+property_value: skos:exactMatch NCBIGene:4361
+
+[Term]
+id: civic.gid:3628
+name: MSH2
+property_value: skos:exactMatch NCBIGene:4436
+
+[Term]
+id: civic.gid:3629
+name: MSH3
+property_value: skos:exactMatch NCBIGene:4437
+
+[Term]
+id: civic.gid:3659
+name: MTAP
+property_value: skos:exactMatch NCBIGene:4507
+
+[Term]
+id: civic.gid:3672
+name: MTHFR
+property_value: skos:exactMatch NCBIGene:4524
+
+[Term]
+id: civic.gid:3730
+name: MYB
+property_value: skos:exactMatch NCBIGene:4602
+
+[Term]
+id: civic.gid:3731
+name: MYBL1
+property_value: skos:exactMatch NCBIGene:4603
+
+[Term]
+id: civic.gid:3737
+name: MYC
+property_value: skos:exactMatch NCBIGene:4609
+
+[Term]
+id: civic.gid:3738
+name: MYCL
+property_value: skos:exactMatch NCBIGene:4610
+
+[Term]
+id: civic.gid:3741
+name: MYCN
+property_value: skos:exactMatch NCBIGene:4613
+
+[Term]
+id: civic.gid:3742
+name: MYD88
+property_value: skos:exactMatch NCBIGene:4615
+
+[Term]
+id: civic.gid:3777
+name: MYOD1
+property_value: skos:exactMatch NCBIGene:4654
+
+[Term]
+id: civic.gid:3801
+name: NBN
+property_value: skos:exactMatch NCBIGene:4683
+
+[Term]
+id: civic.gid:3852
+name: NEDD9
+property_value: skos:exactMatch NCBIGene:4739
+
+[Term]
+id: civic.gid:3867
+name: NF1
+property_value: skos:exactMatch NCBIGene:4763
+
+[Term]
+id: civic.gid:3870
+name: NF2
+property_value: skos:exactMatch NCBIGene:4771
+
+[Term]
+id: civic.gid:3878
+name: NFE2L2
+property_value: skos:exactMatch NCBIGene:4780
+
+[Term]
+id: civic.gid:3885
+name: NFKBIA
+property_value: skos:exactMatch NCBIGene:4792
+
+[Term]
+id: civic.gid:3887
+name: NFKBIE
+property_value: skos:exactMatch NCBIGene:4794
+
+[Term]
+id: civic.gid:3935
+name: NOTCH2
+property_value: skos:exactMatch NCBIGene:4853
+
+[Term]
+id: civic.gid:3936
+name: NOTCH3
+property_value: skos:exactMatch NCBIGene:4854
+
+[Term]
+id: civic.gid:3976
+name: NT5E
+property_value: skos:exactMatch NCBIGene:4907
+
+[Term]
+id: civic.gid:3983
+name: NTRK1
+property_value: skos:exactMatch NCBIGene:4914
+
+[Term]
+id: civic.gid:3984
+name: NTRK2
+property_value: skos:exactMatch NCBIGene:4915
+
+[Term]
+id: civic.gid:3985
+name: NTRK3
+property_value: skos:exactMatch NCBIGene:4916
+
+[Term]
+id: civic.gid:4046
+name: ORC1
+property_value: skos:exactMatch NCBIGene:4998
+
+[Term]
+id: civic.gid:4103
+name: PRKN
+property_value: skos:exactMatch NCBIGene:5071
+
+[Term]
+id: civic.gid:4111
+name: PAX5
+property_value: skos:exactMatch NCBIGene:5079
+
+[Term]
+id: civic.gid:4123
+name: PCBP1
+property_value: skos:exactMatch NCBIGene:5093
+
+[Term]
+id: civic.gid:4137
+name: PCNA
+property_value: skos:exactMatch NCBIGene:5111
+
+[Term]
+id: civic.gid:4173
+name: PDGFB
+property_value: skos:exactMatch NCBIGene:5155
+
+[Term]
+id: civic.gid:4176
+name: PDGFRB
+property_value: skos:exactMatch NCBIGene:5159
+
+[Term]
+id: civic.gid:4244
+name: ABCB1
+property_value: skos:exactMatch NCBIGene:5243
+
+[Term]
+id: civic.gid:4285
+name: PIK3CB
+property_value: skos:exactMatch NCBIGene:5291
+
+[Term]
+id: civic.gid:4286
+name: PIM1
+property_value: skos:exactMatch NCBIGene:5292
+
+[Term]
+id: civic.gid:4289
+name: PIK3R1
+property_value: skos:exactMatch NCBIGene:5295
+
+[Term]
+id: civic.gid:4290
+name: PIK3R2
+property_value: skos:exactMatch NCBIGene:5296
+
+[Term]
+id: civic.gid:4326
+name: PLCG1
+property_value: skos:exactMatch NCBIGene:5335
+
+[Term]
+id: civic.gid:4327
+name: PLCG2
+property_value: skos:exactMatch NCBIGene:5336
+
+[Term]
+id: civic.gid:4337
+name: PLK1
+property_value: skos:exactMatch NCBIGene:5347
+
+[Term]
+id: civic.gid:4371
+name: PMS2
+property_value: skos:exactMatch NCBIGene:5395
+
+[Term]
+id: civic.gid:4384
+name: POLD1
+property_value: skos:exactMatch NCBIGene:5424
+
+[Term]
+id: civic.gid:4386
+name: POLE
+property_value: skos:exactMatch NCBIGene:5426
+
+[Term]
+id: civic.gid:4409
+name: POU2AF1
+property_value: skos:exactMatch NCBIGene:5450
+
+[Term]
+id: civic.gid:4411
+name: POU2F2
+property_value: skos:exactMatch NCBIGene:5452
+
+[Term]
+id: civic.gid:4419
+name: POU5F1
+property_value: skos:exactMatch NCBIGene:5460
+
+[Term]
+id: civic.gid:4463
+name: PPP2R1A
+property_value: skos:exactMatch NCBIGene:5518
+
+[Term]
+id: civic.gid:4465
+name: PPP2R2A
+property_value: skos:exactMatch NCBIGene:5520
+
+[Term]
+id: civic.gid:4503
+name: PRKAA2
+property_value: skos:exactMatch NCBIGene:5563
+
+[Term]
+id: civic.gid:4511
+name: PRKAR1A
+property_value: skos:exactMatch NCBIGene:5573
+
+[Term]
+id: civic.gid:4517
+name: PRKCB
+property_value: skos:exactMatch NCBIGene:5579
+
+[Term]
+id: civic.gid:4529
+name: PRKDC
+property_value: skos:exactMatch NCBIGene:5591
+
+[Term]
+id: civic.gid:4532
+name: MAPK1
+property_value: skos:exactMatch NCBIGene:5594
+
+[Term]
+id: civic.gid:4542
+name: MAP2K2
+property_value: skos:exactMatch NCBIGene:5605
+
+[Term]
+id: civic.gid:4546
+name: MAP2K7
+property_value: skos:exactMatch NCBIGene:5609
+
+[Term]
+id: civic.gid:4566
+name: PRPS1
+property_value: skos:exactMatch NCBIGene:5631
+
+[Term]
+id: civic.gid:4616
+name: PSMB8
+property_value: skos:exactMatch NCBIGene:5696
+
+[Term]
+id: civic.gid:4630
+name: PSMD4
+property_value: skos:exactMatch NCBIGene:5710
+
+[Term]
+id: civic.gid:4645
+name: PTCH1
+property_value: skos:exactMatch NCBIGene:5727
+
+[Term]
+id: civic.gid:4659
+name: PTGS2
+property_value: skos:exactMatch NCBIGene:5743
+
+[Term]
+id: civic.gid:4682
+name: PTPN6
+property_value: skos:exactMatch NCBIGene:5777
+
+[Term]
+id: civic.gid:4685
+name: PTPN11
+property_value: skos:exactMatch NCBIGene:5781
+
+[Term]
+id: civic.gid:4686
+name: PTPN12
+property_value: skos:exactMatch NCBIGene:5782
+
+[Term]
+id: civic.gid:4690
+name: PTPRB
+property_value: skos:exactMatch NCBIGene:5787
+
+[Term]
+id: civic.gid:4692
+name: PTPRD
+property_value: skos:exactMatch NCBIGene:5789
+
+[Term]
+id: civic.gid:4695
+name: PTPRF
+property_value: skos:exactMatch NCBIGene:5792
+
+[Term]
+id: civic.gid:4753
+name: RAC1
+def: "The RAC1 P29S mutation is the third most common protein-coding hotspot mutation in melanomas\, ocurring in 4-9%. A preclinical study has shown that this mutation confers resistance to BRAF inhibition in-vitro." []
+property_value: skos:exactMatch NCBIGene:5879
+
+[Term]
+id: civic.gid:4760
+name: RAD23B
+property_value: skos:exactMatch NCBIGene:5887
+
+[Term]
+id: civic.gid:4762
+name: RAD51C
+property_value: skos:exactMatch NCBIGene:5889
+
+[Term]
+id: civic.gid:4763
+name: RAD51B
+property_value: skos:exactMatch NCBIGene:5890
+
+[Term]
+id: civic.gid:4765
+name: RAD51D
+property_value: skos:exactMatch NCBIGene:5892
+
+[Term]
+id: civic.gid:4767
+name: RAF1
+property_value: skos:exactMatch NCBIGene:5894
+
+[Term]
+id: civic.gid:4791
+name: RASA1
+property_value: skos:exactMatch NCBIGene:5921
+
+[Term]
+id: civic.gid:4795
+name: RB1
+property_value: skos:exactMatch NCBIGene:5925
+
+[Term]
+id: civic.gid:4868
+name: RHEB
+property_value: skos:exactMatch NCBIGene:6009
+
+[Term]
+id: civic.gid:4875
+name: RIT1
+property_value: skos:exactMatch NCBIGene:6016
+
+[Term]
+id: civic.gid:4941
+name: ROS1
+def: "ROS1 is a receptor tyrosine kinase that is frequently involved in genetic rearrangement in a variety of human cancers \(e.g. NSCLC\, gastric cancer\, ovarian cancer\, cholangiocarcinoma\, colorectal cancer\, angiosarcoma...\). The resulting fusion protein harbors the constitutively active ROS1 kinase domain and drives cellular proliferation \(Davies et. al.\). In NSCLC about 1% harbor a ROS1 rearrangement. These patients are predominantely female and have a lower T-stage \(Warth et. al.\). Treatment with crizotinib leads to a reported objective response rate of appr. 70% and a median duration of response of 18 months \(Shaw et. al.\). Resistance mechanisms to crizotinib have been described and involve mutations in the kinase domain. More selective inhibitors of ROS1 might overcome this resistance \(Davare et. al.\)." []
+property_value: skos:exactMatch NCBIGene:6098
+
+[Term]
+id: civic.gid:5013
+name: RPS6
+property_value: skos:exactMatch NCBIGene:6194
+
+[Term]
+id: civic.gid:5051
+name: RRM1
+property_value: skos:exactMatch NCBIGene:6240
+
+[Term]
+id: civic.gid:5052
+name: RRM2
+property_value: skos:exactMatch NCBIGene:6241
+
+[Term]
+id: civic.gid:5087
+name: S100B
+property_value: skos:exactMatch NCBIGene:6285
+
+[Term]
+id: civic.gid:5112
+name: ATXN7
+property_value: skos:exactMatch NCBIGene:6314
+
+[Term]
+id: civic.gid:5128
+name: SCN8A
+property_value: skos:exactMatch NCBIGene:6334
+
+[Term]
+id: civic.gid:5167
+name: CX3CL1
+property_value: skos:exactMatch NCBIGene:6376
+
+[Term]
+id: civic.gid:5176
+name: SDHA
+property_value: skos:exactMatch NCBIGene:6389
+
+[Term]
+id: civic.gid:5177
+name: SDHB
+property_value: skos:exactMatch NCBIGene:6390
+
+[Term]
+id: civic.gid:5200
+name: MAP2K4
+property_value: skos:exactMatch NCBIGene:6416
+
+[Term]
+id: civic.gid:5210
+name: SRSF2
+property_value: skos:exactMatch NCBIGene:6427
+
+[Term]
+id: civic.gid:5225
+name: SGK1
+property_value: skos:exactMatch NCBIGene:6446
+
+[Term]
+id: civic.gid:5354
+name: SMARCA2
+property_value: skos:exactMatch NCBIGene:6595
+
+[Term]
+id: civic.gid:5356
+name: SMARCB1
+property_value: skos:exactMatch NCBIGene:6598
+
+[Term]
+id: civic.gid:5365
+name: SMO
+property_value: skos:exactMatch NCBIGene:6608
+
+[Term]
+id: civic.gid:5409
+name: SOS1
+property_value: skos:exactMatch NCBIGene:6654
+
+[Term]
+id: civic.gid:5418
+name: SOX10
+property_value: skos:exactMatch NCBIGene:6663
+
+[Term]
+id: civic.gid:5499
+name: SSTR5
+property_value: skos:exactMatch NCBIGene:6755
+
+[Term]
+id: civic.gid:5514
+name: STAT1
+property_value: skos:exactMatch NCBIGene:6772
+
+[Term]
+id: civic.gid:5516
+name: STAT3
+property_value: skos:exactMatch NCBIGene:6774
+
+[Term]
+id: civic.gid:5519
+name: STAT5B
+property_value: skos:exactMatch NCBIGene:6777
+
+[Term]
+id: civic.gid:5520
+name: STAT6
+property_value: skos:exactMatch NCBIGene:6778
+
+[Term]
+id: civic.gid:5525
+name: SULT1E1
+property_value: skos:exactMatch NCBIGene:6783
+
+[Term]
+id: civic.gid:5534
+name: STK11
+property_value: skos:exactMatch NCBIGene:6794
+
+[Term]
+id: civic.gid:5572
+name: SYK
+property_value: skos:exactMatch NCBIGene:6850
+
+[Term]
+id: civic.gid:5581
+name: TBXT
+property_value: skos:exactMatch NCBIGene:6862
+
+[Term]
+id: civic.gid:5627
+name: TBX2
+property_value: skos:exactMatch NCBIGene:6909
+
+[Term]
+id: civic.gid:5646
+name: TCF3
+property_value: skos:exactMatch NCBIGene:6929
+
+[Term]
+id: civic.gid:5649
+name: ZEB1
+property_value: skos:exactMatch NCBIGene:6935
+
+[Term]
+id: civic.gid:5654
+name: TCF19
+property_value: skos:exactMatch NCBIGene:6941
+
+[Term]
+id: civic.gid:5717
+name: TEK
+property_value: skos:exactMatch NCBIGene:7010
+
+[Term]
+id: civic.gid:5723
+name: TF
+property_value: skos:exactMatch NCBIGene:7018
+
+[Term]
+id: civic.gid:5728
+name: TFAP4
+property_value: skos:exactMatch NCBIGene:7023
+
+[Term]
+id: civic.gid:5731
+name: NR2F2
+property_value: skos:exactMatch NCBIGene:7026
+
+[Term]
+id: civic.gid:5734
+name: TFE3
+property_value: skos:exactMatch NCBIGene:7030
+
+[Term]
+id: civic.gid:5737
+name: TFF3
+property_value: skos:exactMatch NCBIGene:7033
+
+[Term]
+id: civic.gid:5742
+name: TGFA
+property_value: skos:exactMatch NCBIGene:7039
+
+[Term]
+id: civic.gid:5752
+name: TGFBR3
+property_value: skos:exactMatch NCBIGene:7049
+
+[Term]
+id: civic.gid:5761
+name: THBS2
+property_value: skos:exactMatch NCBIGene:7058
+
+[Term]
+id: civic.gid:5777
+name: TIMP1
+property_value: skos:exactMatch NCBIGene:7076
+
+[Term]
+id: civic.gid:5813
+name: TMPRSS2
+property_value: skos:exactMatch NCBIGene:7113
+
+[Term]
+id: civic.gid:5814
+name: TMSB4X
+property_value: skos:exactMatch NCBIGene:7114
+
+[Term]
+id: civic.gid:5828
+name: TNFAIP3
+property_value: skos:exactMatch NCBIGene:7128
+
+[Term]
+id: civic.gid:5845
+name: TOP1
+property_value: skos:exactMatch NCBIGene:7150
+
+[Term]
+id: civic.gid:5848
+name: TOP2A
+property_value: skos:exactMatch NCBIGene:7153
+
+[Term]
+id: civic.gid:5852
+name: TP53BP1
+property_value: skos:exactMatch NCBIGene:7158
+
+[Term]
+id: civic.gid:5870
+name: TPT1
+property_value: skos:exactMatch NCBIGene:7178
+
+[Term]
+id: civic.gid:5876
+name: HSP90B1
+property_value: skos:exactMatch NCBIGene:7184
+
+[Term]
+id: civic.gid:5939
+name: TSPYL1
+property_value: skos:exactMatch NCBIGene:7259
+
+[Term]
+id: civic.gid:5970
+name: TYK2
+property_value: skos:exactMatch NCBIGene:7297
+
+[Term]
+id: civic.gid:5971
+name: TYMS
+property_value: skos:exactMatch NCBIGene:7298
+
+[Term]
+id: civic.gid:5972
+name: TYR
+property_value: skos:exactMatch NCBIGene:7299
+
+[Term]
+id: civic.gid:5988
+name: UBE2A
+property_value: skos:exactMatch NCBIGene:7319
+
+[Term]
+id: civic.gid:6009
+name: UBTF
+property_value: skos:exactMatch NCBIGene:7343
+
+[Term]
+id: civic.gid:6023
+name: UGT1A
+property_value: skos:exactMatch NCBIGene:7361
+
+[Term]
+id: civic.gid:6054
+name: KDM6A
+property_value: skos:exactMatch NCBIGene:7403
+
+[Term]
+id: civic.gid:6071
+name: VEGFA
+property_value: skos:exactMatch NCBIGene:7422
+
+[Term]
+id: civic.gid:6073
+name: VEGFC
+property_value: skos:exactMatch NCBIGene:7424
+
+[Term]
+id: civic.gid:6104
+name: WEE1
+property_value: skos:exactMatch NCBIGene:7465
+
+[Term]
+id: civic.gid:6107
+name: NSD2
+property_value: skos:exactMatch NCBIGene:7468
+
+[Term]
+id: civic.gid:6119
+name: WNT11
+property_value: skos:exactMatch NCBIGene:7481
+
+[Term]
+id: civic.gid:6143
+name: XPO1
+property_value: skos:exactMatch NCBIGene:7514
+
+[Term]
+id: civic.gid:6144
+name: XRCC1
+property_value: skos:exactMatch NCBIGene:7515
+
+[Term]
+id: civic.gid:6146
+name: XRCC3
+property_value: skos:exactMatch NCBIGene:7517
+
+[Term]
+id: civic.gid:6152
+name: YES1
+property_value: skos:exactMatch NCBIGene:7525
+
+[Term]
+id: civic.gid:6281
+name: ZNF217
+property_value: skos:exactMatch NCBIGene:7764
+
+[Term]
+id: civic.gid:6317
+name: BTG2
+property_value: skos:exactMatch NCBIGene:7832
+
+[Term]
+id: civic.gid:6329
+name: CXCR4
+property_value: skos:exactMatch NCBIGene:7852
+
+[Term]
+id: civic.gid:6340
+name: USP7
+property_value: skos:exactMatch NCBIGene:7874
+
+[Term]
+id: civic.gid:6380
+name: TFEB
+property_value: skos:exactMatch NCBIGene:7942
+
+[Term]
+id: civic.gid:6394
+name: AIMP2
+property_value: skos:exactMatch NCBIGene:7965
+
+[Term]
+id: civic.gid:6415
+name: NR4A3
+property_value: skos:exactMatch NCBIGene:8013
+
+[Term]
+id: civic.gid:6523
+name: LZTR1
+property_value: skos:exactMatch NCBIGene:8216
+
+[Term]
+id: civic.gid:6534
+name: ZRSR2
+property_value: skos:exactMatch NCBIGene:8233
+
+[Term]
+id: civic.gid:6538
+name: KDM5C
+property_value: skos:exactMatch NCBIGene:8242
+
+[Term]
+id: civic.gid:6559
+name: ARID1A
+property_value: skos:exactMatch NCBIGene:8289
+
+[Term]
+id: civic.gid:6572
+name: AXIN2
+property_value: skos:exactMatch NCBIGene:8313
+
+[Term]
+id: civic.gid:6590
+name: H2AC6
+property_value: skos:exactMatch NCBIGene:8334
+
+[Term]
+id: civic.gid:6592
+name: H2AC17
+property_value: skos:exactMatch NCBIGene:8336
+
+[Term]
+id: civic.gid:6614
+name: H3C2
+property_value: skos:exactMatch NCBIGene:8358
+
+[Term]
+id: civic.gid:6652
+name: SPOP
+property_value: skos:exactMatch NCBIGene:8405
+
+[Term]
+id: civic.gid:6676
+name: RAD54L
+property_value: skos:exactMatch NCBIGene:8438
+
+[Term]
+id: civic.gid:6772
+name: LGR5
+property_value: skos:exactMatch NCBIGene:8549
+
+[Term]
+id: civic.gid:6856
+name: SOCS1
+property_value: skos:exactMatch NCBIGene:8651
+
+[Term]
+id: civic.gid:6862
+name: IRS2
+property_value: skos:exactMatch NCBIGene:8660
+
+[Term]
+id: civic.gid:6906
+name: ABCC3
+property_value: skos:exactMatch NCBIGene:8714
+
+[Term]
+id: civic.gid:6945
+name: TNFRSF14
+property_value: skos:exactMatch NCBIGene:8764
+
+[Term]
+id: civic.gid:7009
+name: CFLAR
+property_value: skos:exactMatch NCBIGene:8837
+
+[Term]
+id: civic.gid:7014
+name: PROM1
+property_value: skos:exactMatch NCBIGene:8842
+
+[Term]
+id: civic.gid:7024
+name: ALDH1A2
+property_value: skos:exactMatch NCBIGene:8854
+
+[Term]
+id: civic.gid:7041
+name: SPHK1
+property_value: skos:exactMatch NCBIGene:8877
+
+[Term]
+id: civic.gid:7044
+name: FUBP1
+property_value: skos:exactMatch NCBIGene:8880
+
+[Term]
+id: civic.gid:7074
+name: BCL10
+property_value: skos:exactMatch NCBIGene:8915
+
+[Term]
+id: civic.gid:7084
+name: MBD4
+property_value: skos:exactMatch NCBIGene:8930
+
+[Term]
+id: civic.gid:7222
+name: CCNE2
+property_value: skos:exactMatch NCBIGene:9134
+
+[Term]
+id: civic.gid:7282
+name: AURKB
+property_value: skos:exactMatch NCBIGene:9212
+
+[Term]
+id: civic.gid:7297
+name: PTTG1
+property_value: skos:exactMatch NCBIGene:9232
+
+[Term]
+id: civic.gid:7339
+name: S1PR2
+property_value: skos:exactMatch NCBIGene:9294
+
+[Term]
+id: civic.gid:7351
+name: CD83
+property_value: skos:exactMatch NCBIGene:9308
+
+[Term]
+id: civic.gid:7356
+name: KLF4
+property_value: skos:exactMatch NCBIGene:9314
+
+[Term]
+id: civic.gid:7411
+name: GRHPR
+property_value: skos:exactMatch NCBIGene:9380
+
+[Term]
+id: civic.gid:7451
+name: ABCG2
+property_value: skos:exactMatch NCBIGene:9429
+
+[Term]
+id: civic.gid:7502
+name: KIF23
+property_value: skos:exactMatch NCBIGene:9493
+
+[Term]
+id: civic.gid:7608
+name: SNCAIP
+property_value: skos:exactMatch NCBIGene:9627
+
+[Term]
+id: civic.gid:7704
+name: HDAC9
+property_value: skos:exactMatch NCBIGene:9734
+
+[Term]
+id: civic.gid:7728
+name: TOX
+property_value: skos:exactMatch NCBIGene:9760
+
+[Term]
+id: civic.gid:7780
+name: CUL7
+property_value: skos:exactMatch NCBIGene:9820
+
+[Term]
+id: civic.gid:7909
+name: FGF19
+property_value: skos:exactMatch NCBIGene:9965
+
+[Term]
+id: civic.gid:7936
+name: AKT3
+property_value: skos:exactMatch NCBIGene:10000
+
+[Term]
+id: civic.gid:7948
+name: HDAC6
+property_value: skos:exactMatch NCBIGene:10013
+
+[Term]
+id: civic.gid:7953
+name: BCL2L11
+property_value: skos:exactMatch NCBIGene:10018
+
+[Term]
+id: civic.gid:7954
+name: SH2B3
+property_value: skos:exactMatch NCBIGene:10019
+
+[Term]
+id: civic.gid:8032
+name: RAD50
+property_value: skos:exactMatch NCBIGene:10111
+
+[Term]
+id: civic.gid:8160
+name: SPRY2
+property_value: skos:exactMatch NCBIGene:10253
+
+[Term]
+id: civic.gid:8197
+name: MAEA
+property_value: skos:exactMatch NCBIGene:10296
+
+[Term]
+id: civic.gid:8253
+name: KLF2
+property_value: skos:exactMatch NCBIGene:10365
+
+[Term]
+id: civic.gid:8262
+name: TUBB3
+property_value: skos:exactMatch NCBIGene:10381
+
+[Term]
+id: civic.gid:8292
+name: YAP1
+property_value: skos:exactMatch NCBIGene:10413
+
+[Term]
+id: civic.gid:8331
+name: MERTK
+property_value: skos:exactMatch NCBIGene:10461
+
+[Term]
+id: civic.gid:8351
+name: HOXB13
+property_value: skos:exactMatch NCBIGene:10481
+
+[Term]
+id: civic.gid:8407
+name: AGR2
+property_value: skos:exactMatch NCBIGene:10551
+
+[Term]
+id: civic.gid:8450
+name: SLCO1B1
+property_value: skos:exactMatch NCBIGene:10599
+
+[Term]
+id: civic.gid:8508
+name: CTCF
+property_value: skos:exactMatch NCBIGene:10664
+
+[Term]
+id: civic.gid:8516
+name: GNA13
+property_value: skos:exactMatch NCBIGene:10672
+
+[Term]
+id: civic.gid:8524
+name: DLL3
+property_value: skos:exactMatch NCBIGene:10683
+
+[Term]
+id: civic.gid:8552
+name: STAG3
+property_value: skos:exactMatch NCBIGene:10734
+
+[Term]
+id: civic.gid:8553
+name: STAG2
+property_value: skos:exactMatch NCBIGene:10735
+
+[Term]
+id: civic.gid:8614
+name: HSPH1
+property_value: skos:exactMatch NCBIGene:10808
+
+[Term]
+id: civic.gid:8787
+name: TLK2
+property_value: skos:exactMatch NCBIGene:11011
+
+[Term]
+id: civic.gid:8813
+name: PIM2
+property_value: skos:exactMatch NCBIGene:11040
+
+[Term]
+id: civic.gid:8878
+name: PTPRT
+property_value: skos:exactMatch NCBIGene:11122
+
+[Term]
+id: civic.gid:8908
+name: PTP4A3
+property_value: skos:exactMatch NCBIGene:11156
+
+[Term]
+id: civic.gid:8950
+name: CHEK2
+property_value: skos:exactMatch NCBIGene:11200
+
+[Term]
+id: civic.gid:8996
+name: SP140
+property_value: skos:exactMatch NCBIGene:11262
+
+[Term]
+id: civic.gid:9054
+name: RRAS2
+property_value: skos:exactMatch NCBIGene:22800
+
+[Term]
+id: civic.gid:9121
+name: ZHX2
+property_value: skos:exactMatch NCBIGene:22882
+
+[Term]
+id: civic.gid:9171
+name: DKK1
+property_value: skos:exactMatch NCBIGene:22943
+
+[Term]
+id: civic.gid:9189
+name: NT5C2
+def: "This gene\, when mutated to be over-active\, has been linked to chemotherapy resistance in relapsed T-cell Acute Lymphoblastic Leukemia." []
+property_value: skos:exactMatch NCBIGene:22978
+
+[Term]
+id: civic.gid:9216
+name: SPEN
+property_value: skos:exactMatch NCBIGene:23013
+
+[Term]
+id: civic.gid:9236
+name: ZNF292
+property_value: skos:exactMatch NCBIGene:23036
+
+[Term]
+id: civic.gid:9261
+name: SETD1B
+property_value: skos:exactMatch NCBIGene:23067
+
+[Term]
+id: civic.gid:9326
+name: CIC
+property_value: skos:exactMatch NCBIGene:23152
+
+[Term]
+id: civic.gid:9427
+name: MGA
+property_value: skos:exactMatch NCBIGene:23269
+
+[Term]
+id: civic.gid:9533
+name: DICER1
+property_value: skos:exactMatch NCBIGene:23405
+
+[Term]
+id: civic.gid:9538
+name: SIRT1
+property_value: skos:exactMatch NCBIGene:23411
+
+[Term]
+id: civic.gid:9588
+name: BRD4
+property_value: skos:exactMatch NCBIGene:23476
+
+[Term]
+id: civic.gid:9705
+name: CBLC
+property_value: skos:exactMatch NCBIGene:23624
+
+[Term]
+id: civic.gid:9722
+name: PPP1R15A
+property_value: skos:exactMatch NCBIGene:23645
+
+[Term]
+id: civic.gid:9935
+name: POT1
+property_value: skos:exactMatch NCBIGene:25913
+
+[Term]
+id: civic.gid:9957
+name: SIN3A
+property_value: skos:exactMatch NCBIGene:25942
+
+[Term]
+id: civic.gid:10024
+name: SETBP1
+property_value: skos:exactMatch NCBIGene:26040
+
+[Term]
+id: civic.gid:10239
+name: DAZAP1
+property_value: skos:exactMatch NCBIGene:26528
+
+[Term]
+id: civic.gid:10573
+name: PDCD4
+property_value: skos:exactMatch NCBIGene:27250
+
+[Term]
+id: civic.gid:11261
+name: MAGEH1
+property_value: skos:exactMatch NCBIGene:28986
+
+[Term]
+id: civic.gid:11289
+name: SETD2
+property_value: skos:exactMatch NCBIGene:29072
+
+[Term]
+id: civic.gid:11314
+name: DROSHA
+property_value: skos:exactMatch NCBIGene:29102
+
+[Term]
+id: civic.gid:11322
+name: TBK1
+property_value: skos:exactMatch NCBIGene:29110
+
+[Term]
+id: civic.gid:11335
+name: CD274
+def: "CD274\, also commonly referred to as PDL1\, is a ligand that binds with the receptor PD1\, commonly found on T-cells\, and acts to block T-cell activation. PD1 expression has been observed in a variety of cancers including melanoma and non-small cell lung cancer. The interaction of PD1/PDL1 is hypothesized to be a possible mechanism for the tumor to escape immune response. A number of checkpoint blockade inhibitors including pembrolizumab and nivolumab have been developed that target the PD1/PDL1 interaction in order to allow T-cells to recognize tumor cells without being deactivated by the tumor." []
+property_value: skos:exactMatch NCBIGene:29126
+
+[Term]
+id: civic.gid:11492
+name: CTAG2
+property_value: skos:exactMatch NCBIGene:30848
+
+[Term]
+id: civic.gid:11587
+name: FOXP3
+property_value: skos:exactMatch NCBIGene:50943
+
+[Term]
+id: civic.gid:11761
+name: CRBN
+property_value: skos:exactMatch NCBIGene:51185
+
+[Term]
+id: civic.gid:11781
+name: CLDN18
+property_value: skos:exactMatch NCBIGene:51208
+
+[Term]
+id: civic.gid:11900
+name: UBR5
+property_value: skos:exactMatch NCBIGene:51366
+
+[Term]
+id: civic.gid:11932
+name: DDX41
+property_value: skos:exactMatch NCBIGene:51428
+
+[Term]
+id: civic.gid:12074
+name: SUFU
+property_value: skos:exactMatch NCBIGene:51684
+
+[Term]
+id: civic.gid:12112
+name: CDK12
+property_value: skos:exactMatch NCBIGene:51755
+
+[Term]
+id: civic.gid:12121
+name: RSF1
+property_value: skos:exactMatch NCBIGene:51773
+
+[Term]
+id: civic.gid:12133
+name: BCL11A
+property_value: skos:exactMatch NCBIGene:53335
+
+[Term]
+id: civic.gid:12146
+name: LRP1B
+def: "LRP1B is a putative tumor suppressor and a member of the low-density lipoprotein \(LDL\) receptor family. The LDL receptor family have roles related to clearance of extracellular ligand and are proposed to be involved in extracellular signal transduction. silencing and down-expression of LRP1B as been observed in renal cell carcinoma and thyroid cancer. Further Deletion of LRP1B has been associated with chemotherapy resistance in high-grade serous cancers." []
+property_value: skos:exactMatch NCBIGene:53353
+
+[Term]
+id: civic.gid:12271
+name: ERRFI1
+property_value: skos:exactMatch NCBIGene:54206
+
+[Term]
+id: civic.gid:12367
+name: ROBO4
+property_value: skos:exactMatch NCBIGene:54538
+
+[Term]
+id: civic.gid:12422
+name: UGT1A1
+property_value: skos:exactMatch NCBIGene:54658
+
+[Term]
+id: civic.gid:12555
+name: BCOR
+property_value: skos:exactMatch NCBIGene:54880
+
+[Term]
+id: civic.gid:12754
+name: FANCL
+property_value: skos:exactMatch NCBIGene:55120
+
+[Term]
+id: civic.gid:12881
+name: NUDT15
+property_value: skos:exactMatch NCBIGene:55270
+
+[Term]
+id: civic.gid:12903
+name: FBXW7
+property_value: skos:exactMatch NCBIGene:55294
+
+[Term]
+id: civic.gid:13005
+name: DDX43
+property_value: skos:exactMatch NCBIGene:55510
+
+[Term]
+id: civic.gid:13180
+name: TMEM30A
+property_value: skos:exactMatch NCBIGene:55754
+
+[Term]
+id: civic.gid:13185
+name: WDR12
+property_value: skos:exactMatch NCBIGene:55759
+
+[Term]
+id: civic.gid:13276
+name: PBK
+property_value: skos:exactMatch NCBIGene:55872
+
+[Term]
+id: civic.gid:13465
+name: POLE4
+property_value: skos:exactMatch NCBIGene:56655
+
+[Term]
+id: civic.gid:13556
+name: EMSY
+property_value: skos:exactMatch NCBIGene:56946
+
+[Term]
+id: civic.gid:13648
+name: CYSLTR2
+property_value: skos:exactMatch NCBIGene:57105
+
+[Term]
+id: civic.gid:13783
+name: BIRC6
+property_value: skos:exactMatch NCBIGene:57448
+
+[Term]
+id: civic.gid:13880
+name: KLHL14
+property_value: skos:exactMatch NCBIGene:57565
+
+[Term]
+id: civic.gid:13948
+name: CIP2A
+property_value: skos:exactMatch NCBIGene:57650
+
+[Term]
+id: civic.gid:13968
+name: CHD8
+property_value: skos:exactMatch NCBIGene:57680
+
+[Term]
+id: civic.gid:14079
+name: OVOL2
+property_value: skos:exactMatch NCBIGene:58495
+
+[Term]
+id: civic.gid:14089
+name: KMT2C
+property_value: skos:exactMatch NCBIGene:58508
+
+[Term]
+id: civic.gid:14160
+name: BACH2
+property_value: skos:exactMatch NCBIGene:60468
+
+[Term]
+id: civic.gid:14195
+name: PAPPA2
+property_value: skos:exactMatch NCBIGene:60676
+
+[Term]
+id: civic.gid:14284
+name: PBLD
+property_value: skos:exactMatch NCBIGene:64081
+
+[Term]
+id: civic.gid:14303
+name: CRLF2
+property_value: skos:exactMatch NCBIGene:64109
+
+[Term]
+id: civic.gid:14368
+name: NFKBIZ
+property_value: skos:exactMatch NCBIGene:64332
+
+[Term]
+id: civic.gid:14525
+name: RFX7
+property_value: skos:exactMatch NCBIGene:64864
+
+[Term]
+id: civic.gid:14591
+name: WNK1
+property_value: skos:exactMatch NCBIGene:65125
+
+[Term]
+id: civic.gid:14842
+name: BIRC7
+def: "BIRC7 encodes the protein Livin which is a member of the inhibitor of apoptosis protein \(IAP\) family. Livin consists of a single baculoviral IAP repeat domain \(BIR\) and a RING domian at the C-terminus. The protein inhibits apoptosis by inhibiting proteolytic activation of capsases. Overexpression of Livin has been observed in a variety of cancers including lung\, colon\, and prostate compared to most normal adult tissues and has been proposed as a putative therapeutic target." []
+property_value: skos:exactMatch NCBIGene:79444
+
+[Term]
+id: civic.gid:14923
+name: GALNT14
+property_value: skos:exactMatch NCBIGene:79623
+
+[Term]
+id: civic.gid:14995
+name: NOL9
+property_value: skos:exactMatch NCBIGene:79707
+
+[Term]
+id: civic.gid:15004
+name: TBL1XR1
+property_value: skos:exactMatch NCBIGene:79718
+
+[Term]
+id: civic.gid:15013
+name: PALB2
+property_value: skos:exactMatch NCBIGene:79728
+
+[Term]
+id: civic.gid:15315
+name: MUS81
+property_value: skos:exactMatch NCBIGene:80198
+
+[Term]
+id: civic.gid:15318
+name: FBXO11
+property_value: skos:exactMatch NCBIGene:80204
+
+[Term]
+id: civic.gid:15344
+name: PREX2
+property_value: skos:exactMatch NCBIGene:80243
+
+[Term]
+id: civic.gid:15403
+name: PDCD1LG2
+property_value: skos:exactMatch NCBIGene:80380
+
+[Term]
+id: civic.gid:15676
+name: NECTIN4
+property_value: skos:exactMatch NCBIGene:81607
+
+[Term]
+id: civic.gid:15955
+name: BRIP1
+property_value: skos:exactMatch NCBIGene:83990
+
+[Term]
+id: civic.gid:16160
+name: HVCN1
+property_value: skos:exactMatch NCBIGene:84329
+
+[Term]
+id: civic.gid:16180
+name: CARD11
+property_value: skos:exactMatch NCBIGene:84433
+
+[Term]
+id: civic.gid:16394
+name: HAVCR2
+property_value: skos:exactMatch NCBIGene:84868
+
+[Term]
+id: civic.gid:16516
+name: H2BC12
+property_value: skos:exactMatch NCBIGene:85236
+
+[Term]
+id: civic.gid:16656
+name: ABCC10
+property_value: skos:exactMatch NCBIGene:89845
+
+[Term]
+id: civic.gid:16661
+name: KLHL6
+property_value: skos:exactMatch NCBIGene:89857
+
+[Term]
+id: civic.gid:16802
+name: IL33
+property_value: skos:exactMatch NCBIGene:90865
+
+[Term]
+id: civic.gid:16872
+name: SLFN11
+property_value: skos:exactMatch NCBIGene:91607
+
+[Term]
+id: civic.gid:16939
+name: RCSD1
+property_value: skos:exactMatch NCBIGene:92241
+
+[Term]
+id: civic.gid:17016
+name: NAPRT
+property_value: skos:exactMatch NCBIGene:93100
+
+[Term]
+id: civic.gid:17340
+name: OSBPL10
+property_value: skos:exactMatch NCBIGene:114884
+
+[Term]
+id: civic.gid:17939
+name: H3C14
+property_value: skos:exactMatch NCBIGene:126961
+
+[Term]
+id: civic.gid:18353
+name: VPS37A
+property_value: skos:exactMatch NCBIGene:137492
+
+[Term]
+id: civic.gid:18364
+name: PXDNL
+property_value: skos:exactMatch NCBIGene:137902
+
+[Term]
+id: civic.gid:18420
+name: AMER1
+property_value: skos:exactMatch NCBIGene:139285
+
+[Term]
+id: civic.gid:18440
+name: FOXR2
+property_value: skos:exactMatch NCBIGene:139628
+
+[Term]
+id: civic.gid:19838
+name: ARID2
+property_value: skos:exactMatch NCBIGene:196528
+
+[Term]
+id: civic.gid:19896
+name: FAAP20
+property_value: skos:exactMatch NCBIGene:199990
+
+[Term]
+id: civic.gid:19959
+name: FLCN
+property_value: skos:exactMatch NCBIGene:201163
+
+[Term]
+id: civic.gid:20168
+name: MPEG1
+property_value: skos:exactMatch NCBIGene:219972
+
+[Term]
+id: civic.gid:20480
+name: RICTOR
+property_value: skos:exactMatch NCBIGene:253260
+
+[Term]
+id: civic.gid:21380
+name: RABL3
+property_value: skos:exactMatch NCBIGene:285282
+
+[Term]
+id: civic.gid:21634
+name: P2RY8
+property_value: skos:exactMatch NCBIGene:286530
+
+[Term]
+id: civic.gid:22231
+name: ATXN1L
+property_value: skos:exactMatch NCBIGene:342371
+
+[Term]
+id: civic.gid:24374
+name: EML6
+property_value: skos:exactMatch NCBIGene:400954
+
+[Term]
+id: civic.gid:24929
+name: MIR21
+property_value: skos:exactMatch NCBIGene:406991
+
+[Term]
+id: civic.gid:24938
+name: MIR218-1
+property_value: skos:exactMatch NCBIGene:407000
+
+[Term]
+id: civic.gid:26599
+name: ECSCR
+property_value: skos:exactMatch NCBIGene:641700
+
+[Term]
+id: civic.gid:32083
+name: KLLN
+property_value: skos:exactMatch NCBIGene:100144748
+
+[Term]
+id: civic.gid:33873
+name: MEF2B
+property_value: skos:exactMatch NCBIGene:100271849
+
+[Term]
+id: civic.gid:41522
+name: PRNCR1
+property_value: skos:exactMatch NCBIGene:101867536
+
+[Term]
+id: civic.gid:56400
+name: COX2
+property_value: skos:exactMatch NCBIGene:4513
+
+[Term]
+id: civic.gid:56415
+name: ND1
+property_value: skos:exactMatch NCBIGene:4535

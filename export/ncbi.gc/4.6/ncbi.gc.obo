@@ -1,0 +1,237 @@
+format-version: 1.4
+data-version: 4.6
+auto-generated-by: PyOBO v0.12.0-dev-8ea0f762 on 2025-01-14T13:20:49.101056
+idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: ncbi.gc https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG "Genetic Code"
+idspace: orcid https://orcid.org/ "Open Researcher and Contributor"
+ontology: ncbi.gc
+property_value: dcterms:title "Genetic Code" xsd:string
+property_value: dcterms:license "public domain" xsd:string
+property_value: dcterms:description "Genetic code\\\, mitochontrial genetic code\\\, and other linked information to NCBI taxonomy entries." xsd:string
+property_value: IAO:0000700 root
+
+[Typedef]
+id: dcterms:contributor
+name: contributor
+is_metadata_tag: true
+
+[Typedef]
+id: IAO:0100001
+name: term replaced by
+is_metadata_tag: true
+
+[Typedef]
+id: hasGeneticCodeTranslationTable
+name: has genetic code translation table
+def: "Connects a taxonomy term to a genetic code translation table" []
+property_value: dcterms:contributor orcid:0000-0003-4423-4370 ! contributor Charles Tapley Hoyt
+domain: NCBITaxon:1 ! root
+range: root
+
+[Typedef]
+id: rdfs:comment
+name: comment
+is_metadata_tag: true
+
+[Typedef]
+id: rdfs:seeAlso
+name: see also
+is_metadata_tag: true
+
+[Term]
+id: GO:0005634
+name: nucleus
+
+[Term]
+id: GO:0005739
+name: mitochondrion
+
+[Term]
+id: GO:0009536
+name: plastid
+
+[Term]
+id: ncbi.gc:1
+name: Standard
+is_a: root
+
+[Term]
+id: ncbi.gc:10
+name: Euplotid Nuclear
+is_a: nuclear-genetic-code
+
+[Term]
+id: ncbi.gc:11
+name: Bacterial\, Archaeal and Plant Plastid
+is_a: plastid-genetic-code
+
+[Term]
+id: ncbi.gc:12
+name: Alternative Yeast Nuclear
+is_a: nuclear-genetic-code
+
+[Term]
+id: ncbi.gc:13
+name: Ascidian Mitochondrial
+is_a: mitochondrial-genetic-code
+
+[Term]
+id: ncbi.gc:14
+name: Alternative Flatworm Mitochondrial
+is_a: mitochondrial-genetic-code
+
+[Term]
+id: ncbi.gc:15
+name: Blepharisma Macronuclear
+is_a: nuclear-genetic-code
+
+[Term]
+id: ncbi.gc:16
+name: Chlorophycean Mitochondrial
+is_a: mitochondrial-genetic-code
+
+[Term]
+id: ncbi.gc:2
+name: Vertebrate Mitochondrial
+is_a: mitochondrial-genetic-code
+
+[Term]
+id: ncbi.gc:21
+name: Trematode Mitochondrial
+is_a: mitochondrial-genetic-code
+
+[Term]
+id: ncbi.gc:22
+name: Scenedesmus obliquus Mitochondrial
+is_a: mitochondrial-genetic-code
+
+[Term]
+id: ncbi.gc:23
+name: Thraustochytrium Mitochondrial
+is_a: mitochondrial-genetic-code
+
+[Term]
+id: ncbi.gc:24
+name: Rhabdopleuridae Mitochondrial
+is_a: mitochondrial-genetic-code
+
+[Term]
+id: ncbi.gc:25
+name: Candidate Division SR1 and Gracilibacteria
+is_a: root
+
+[Term]
+id: ncbi.gc:26
+name: Pachysolen tannophilus Nuclear
+is_a: nuclear-genetic-code
+
+[Term]
+id: ncbi.gc:27
+name: Karyorelict Nuclear
+is_a: nuclear-genetic-code
+
+[Term]
+id: ncbi.gc:28
+name: Condylostoma Nuclear
+is_a: nuclear-genetic-code
+
+[Term]
+id: ncbi.gc:29
+name: Mesodinium Nuclear
+is_a: nuclear-genetic-code
+
+[Term]
+id: ncbi.gc:3
+name: Yeast Mitochondrial
+is_a: mitochondrial-genetic-code
+
+[Term]
+id: ncbi.gc:30
+name: Peritrich Nuclear
+is_a: nuclear-genetic-code
+
+[Term]
+id: ncbi.gc:31
+name: Blastocrithidia Nuclear
+is_a: nuclear-genetic-code
+
+[Term]
+id: ncbi.gc:32
+name: Balanophoraceae Plastid
+is_a: plastid-genetic-code
+
+[Term]
+id: ncbi.gc:4
+name: Mold Mitochondrial; Protozoan Mitochondrial; Coelenterate
+is_a: mitochondrial-genetic-code
+
+[Term]
+id: ncbi.gc:5
+name: Invertebrate Mitochondrial
+is_a: mitochondrial-genetic-code
+
+[Term]
+id: ncbi.gc:6
+name: Ciliate Nuclear; Dasycladacean Nuclear; Hexamita Nuclear
+is_a: nuclear-genetic-code
+
+[Term]
+id: ncbi.gc:7
+comment: "Kinetoplast code now merged in code id 4, as of 1995."
+is_obsolete: true
+replaced_by: ncbi.gc:4
+
+[Term]
+id: ncbi.gc:8
+comment: "all plant chloroplast differences due to RNA edit, as of 1995."
+is_obsolete: true
+replaced_by: ncbi.gc:1
+
+[Term]
+id: ncbi.gc:9
+name: Echinoderm Mitochondrial; Flatworm Mitochondrial
+is_a: mitochondrial-genetic-code
+
+[Term]
+id: NCBITaxon:1
+name: root
+
+[Term]
+id: NCBITaxon:9606
+name: Homo sapiens
+
+[Term]
+id: mitochondrial-genetic-code
+name: mitochondrial genetic code translation table
+comment: "Injected by PyOBO"
+property_value: dcterms:contributor orcid:0000-0003-4423-4370 ! contributor Charles Tapley Hoyt
+is_a: root
+consider: GO:0005739 ! mitochondrion
+
+[Term]
+id: nuclear-genetic-code
+name: nuclear genetic code translation table
+comment: "Injected by PyOBO"
+property_value: dcterms:contributor orcid:0000-0003-4423-4370 ! contributor Charles Tapley Hoyt
+is_a: root
+consider: GO:0005634 ! nucleus
+
+[Term]
+id: plastid-genetic-code
+name: plastid genetic code translation table
+comment: "Injected by PyOBO"
+property_value: dcterms:contributor orcid:0000-0003-4423-4370 ! contributor Charles Tapley Hoyt
+is_a: root
+consider: GO:0009536 ! plastid
+
+[Term]
+id: root
+name: genetic code translation table
+def: "A table for translating codons into amino acids. This can change for different taxa\, or be different in different organelles that include genetic information." []
+comment: "Injected by PyOBO"
+property_value: dcterms:contributor orcid:0000-0003-4423-4370 ! contributor Charles Tapley Hoyt
+
+[Instance]
+id: orcid:0000-0003-4423-4370
+name: Charles Tapley Hoyt
+instance_of: NCBITaxon:9606 ! Homo sapiens

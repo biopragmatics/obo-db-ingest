@@ -1,0 +1,399 @@
+{
+  "graphs" : [ {
+    "id" : "https://w3id.org/biopragmatics/resources/ncbi.gc/ncbi.gc.ofn",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.obolibrary.org/obo/IAO_0000700",
+        "val" : "http://purl.obolibrary.org/obo/ncbi.gc#root"
+      }, {
+        "pred" : "http://purl.org/dc/terms/description",
+        "val" : "Genetic code\\, mitochontrial genetic code\\, and other linked information to NCBI taxonomy entries."
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "public domain"
+      }, {
+        "pred" : "http://purl.org/dc/terms/title",
+        "val" : "Genetic Code"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
+        "val" : "PyOBO v0.12.0-dev-8ea0f762 on 2025-01-14T13:20:49.101056"
+      }, {
+        "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
+        "val" : "4.6"
+      } ],
+      "version" : "https://w3id.org/biopragmatics/resources/ncbi.gc/4.6/ncbi.gc.ofn"
+    },
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "lbl" : "nucleus",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005739",
+      "lbl" : "mitochondrion",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0009536",
+      "lbl" : "plastid",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1",
+      "lbl" : "root",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+      "lbl" : "Homo sapiens",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code",
+      "lbl" : "mitochondrial genetic code translation table",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "Injected by PyOBO" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0003-4423-4370"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/GO_0005739"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code",
+      "lbl" : "nuclear genetic code translation table",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "Injected by PyOBO" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0003-4423-4370"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/GO_0005634"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ncbi.gc#plastid-genetic-code",
+      "lbl" : "plastid genetic code translation table",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "Injected by PyOBO" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0003-4423-4370"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/GO_0009536"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ncbi.gc#root",
+      "lbl" : "genetic code translation table",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "Injected by PyOBO" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0003-4423-4370"
+        }, {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "A table for translating codons into amino acids. This can change for different taxa, or be different in different organelles that include genetic information."
+        } ]
+      }
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG1",
+      "lbl" : "Standard",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG10",
+      "lbl" : "Euplotid Nuclear",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG11",
+      "lbl" : "Bacterial, Archaeal and Plant Plastid",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG12",
+      "lbl" : "Alternative Yeast Nuclear",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG13",
+      "lbl" : "Ascidian Mitochondrial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG14",
+      "lbl" : "Alternative Flatworm Mitochondrial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG15",
+      "lbl" : "Blepharisma Macronuclear",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG16",
+      "lbl" : "Chlorophycean Mitochondrial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG2",
+      "lbl" : "Vertebrate Mitochondrial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG21",
+      "lbl" : "Trematode Mitochondrial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG22",
+      "lbl" : "Scenedesmus obliquus Mitochondrial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG23",
+      "lbl" : "Thraustochytrium Mitochondrial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG24",
+      "lbl" : "Rhabdopleuridae Mitochondrial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG25",
+      "lbl" : "Candidate Division SR1 and Gracilibacteria",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG26",
+      "lbl" : "Pachysolen tannophilus Nuclear",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG27",
+      "lbl" : "Karyorelict Nuclear",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG28",
+      "lbl" : "Condylostoma Nuclear",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG29",
+      "lbl" : "Mesodinium Nuclear",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG3",
+      "lbl" : "Yeast Mitochondrial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG30",
+      "lbl" : "Peritrich Nuclear",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG31",
+      "lbl" : "Blastocrithidia Nuclear",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG32",
+      "lbl" : "Balanophoraceae Plastid",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG4",
+      "lbl" : "Mold Mitochondrial; Protozoan Mitochondrial; Coelenterate",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG5",
+      "lbl" : "Invertebrate Mitochondrial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG6",
+      "lbl" : "Ciliate Nuclear; Dasycladacean Nuclear; Hexamita Nuclear",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG7",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "Kinetoplast code now merged in code id 4, as of 1995." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
+          "val" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG4"
+        } ],
+        "deprecated" : true
+      }
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG8",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "all plant chloroplast differences due to RNA edit, as of 1995." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
+          "val" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG1"
+        } ],
+        "deprecated" : true
+      }
+    }, {
+      "id" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG9",
+      "lbl" : "Echinoderm Mitochondrial; Flatworm Mitochondrial",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ncbi.gc#hasGeneticCodeTranslationTable",
+      "lbl" : "has genetic code translation table",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0003-4423-4370"
+        }, {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "Connects a taxonomy term to a genetic code translation table"
+        } ]
+      }
+    }, {
+      "id" : "https://orcid.org/0000-0003-4423-4370",
+      "lbl" : "Charles Tapley Hoyt",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000700",
+      "lbl" : "has ontology root term",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
+      "lbl" : "term replaced by",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.org/dc/terms/contributor",
+      "lbl" : "contributor",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#comment",
+      "lbl" : "comment",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "lbl" : "see also",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#root"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#root"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ncbi.gc#plastid-genetic-code",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#root"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG1",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#root"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG10",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG11",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#plastid-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG12",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG13",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG14",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG15",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG16",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG2",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG21",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG22",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG23",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG24",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG25",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#root"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG26",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG27",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG28",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG29",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG3",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG30",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG31",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG32",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#plastid-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG4",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG5",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG6",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#nuclear-genetic-code"
+    }, {
+      "sub" : "https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG9",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ncbi.gc#mitochondrial-genetic-code"
+    }, {
+      "sub" : "https://orcid.org/0000-0003-4423-4370",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    } ],
+    "domainRangeAxioms" : [ {
+      "predicateId" : "http://purl.obolibrary.org/obo/ncbi.gc#hasGeneticCodeTranslationTable",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/NCBITaxon_1" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/ncbi.gc#root" ]
+    } ]
+  } ]
+}
