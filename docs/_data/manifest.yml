@@ -1,4 +1,4 @@
-date: '2025-01-14'
+date: '2025-01-16'
 errors: []
 resources:
   bigg.compartment:
@@ -283,6 +283,104 @@ resources:
       synonyms: 27221
       terms: 26021
       version: null
+  chembl.compound:
+    nodes:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.tsv
+      path: chembl.compound/chembl.compound.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.tsv
+      version_path: chembl.compound/35/chembl.compound.tsv
+    obo:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.obo
+      path: chembl.compound/chembl.compound.obo
+      version_iri: https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.obo
+      version_path: chembl.compound/35/chembl.compound.obo
+    obograph:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.json
+      path: chembl.compound/chembl.compound.json
+      version_iri: https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.json
+      version_path: chembl.compound/35/chembl.compound.json
+    ofn:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.ofn
+      path: chembl.compound/chembl.compound.ofn
+      version_iri: https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.ofn
+      version_path: chembl.compound/35/chembl.compound.ofn
+    owl:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.owl
+      path: chembl.compound/chembl.compound.owl
+      version_iri: https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.owl
+      version_path: chembl.compound/35/chembl.compound.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.sssom.tsv
+      path: chembl.compound/chembl.compound.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.sssom.tsv
+      version_path: chembl.compound/35/chembl.compound.sssom.tsv
+    summary:
+      alts: 0
+      definitions: 0
+      license: CC-BY-SA-3.0
+      mappings: 42231
+      parents: 0
+      properties: 126692
+      references: 0
+      relations: 0
+      synonyms: 0
+      terms: 42231
+      version: '35'
+  chembl.target:
+    nodes:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.tsv
+      path: chembl.target/chembl.target.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.tsv
+      version_path: chembl.target/35/chembl.target.tsv
+    obo:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.obo
+      path: chembl.target/chembl.target.obo
+      version_iri: https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.obo
+      version_path: chembl.target/35/chembl.target.obo
+    obograph:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.json
+      path: chembl.target/chembl.target.json
+      version_iri: https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.json
+      version_path: chembl.target/35/chembl.target.json
+    ofn:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.ofn
+      path: chembl.target/chembl.target.ofn
+      version_iri: https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.ofn
+      version_path: chembl.target/35/chembl.target.ofn
+    owl:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.owl
+      path: chembl.target/chembl.target.owl
+      version_iri: https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.owl
+      version_path: chembl.target/35/chembl.target.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.sssom.tsv
+      path: chembl.target/chembl.target.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.sssom.tsv
+      version_path: chembl.target/35/chembl.target.sssom.tsv
+    summary:
+      alts: 0
+      definitions: 0
+      license: CC-BY-SA-3.0
+      mappings: 9479
+      parents: 16003
+      properties: 14803
+      references: 0
+      relations: 15758
+      synonyms: 0
+      terms: 16003
+      version: '35'
   civic.gid:
     nodes:
       gzipped: false
@@ -1596,6 +1694,43 @@ resources:
       synonyms: 0
       terms: 28
       version: '4.6'
+  nihreporter.project:
+    nodes:
+      gzipped: true
+      iri: https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.tsv.gz
+      path: nihreporter.project/nihreporter.project.tsv.gz
+    obo:
+      gzipped: true
+      iri: https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.obo.gz
+      path: nihreporter.project/nihreporter.project.obo.gz
+    obograph:
+      gzipped: true
+      iri: https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.json.gz
+      path: nihreporter.project/nihreporter.project.json.gz
+    ofn:
+      gzipped: true
+      iri: https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.ofn.gz
+      path: nihreporter.project/nihreporter.project.ofn.gz
+    owl:
+      gzipped: true
+      iri: https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.owl.gz
+      path: nihreporter.project/nihreporter.project.owl.gz
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.sssom.tsv
+      path: nihreporter.project/nihreporter.project.sssom.tsv
+    summary:
+      alts: 0
+      definitions: 0
+      license: null
+      mappings: 0
+      parents: 2825097
+      properties: 0
+      references: 0
+      relations: 0
+      synonyms: 0
+      terms: 2825097
+      version: null
   nlm:
     nodes:
       gzipped: false
@@ -2591,5 +2726,5 @@ resources:
       version: '2025-01-12'
 versions:
   bioontologies: 0.5.3-dev-a2eed901
-  bioregistry: 0.11.34-dev-db524ad8
-  pyobo: 0.12.0-dev-8ea0f762
+  bioregistry: 0.11.34-dev-43e23e59
+  pyobo: 0.12.0-dev-0f140616
