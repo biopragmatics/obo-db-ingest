@@ -1,0 +1,1213 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.ofn#"
+     xml:base="https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.ofn"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:pharmgkb.pathways="http://www.pharmgkb.org/pathway/">
+    <owl:Ontology rdf:about="https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.ofn">
+        <dcterms:description>The PharmGKB database is a central repository for genetic\, genomic\, molecular and cellular phenotype data and clinical information about people who have participated in pharmacogenomics research studies. The data includes\, but is not limited to\, clinical and basic pharmacokinetic and pharmacogenomic research in the cardiovascular\, pulmonary\, cancer\, pathways\, metabolic and transporter domains. \nPharmGKB Pathways are drug centric\, gene based\, interactive pathways which focus on candidate genes and gene groups and associated genotype and phenotype data of relevance for pharmacogenetic and pharmacogenomic studies.</dcterms:description>
+        <dcterms:license>CC-BY-SA-4.0</dcterms:license>
+        <dcterms:title>PharmGKB</dcterms:title>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-a0a40641 on 2025-01-20T11:48:19.754197</oboInOwl:auto-generated-by>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA145011108 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA145011108">
+        <rdfs:label>Statin Pathway Generalized Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA145011112 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA145011112">
+        <rdfs:label>Rosuvastatin Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA145011113 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA145011113">
+        <rdfs:label>Warfarin Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA145011115 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA145011115">
+        <rdfs:label>Phenytoin Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA145011117 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA145011117">
+        <rdfs:label>Aromatase Inhibitor Pathway Multiple Tissues Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA145011119 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA145011119">
+        <rdfs:label>Tamoxifen Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA145011120 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA145011120">
+        <rdfs:label>Aromatase Inhibitor Pathway Breast Cell Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA146123006 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA146123006">
+        <rdfs:label>Codeine and Morphine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA150642262 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA150642262">
+        <rdfs:label>Platinum Pathway Pharmacokinetics Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA150653776 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA150653776">
+        <rdfs:label>Fluoropyrimidine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA150981002 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA150981002">
+        <rdfs:label>Vinka Alkaloid Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA152241951 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA152241951">
+        <rdfs:label>Celecoxib Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA152325160 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA152325160">
+        <rdfs:label>Gefitinib Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA152530845 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA152530845">
+        <rdfs:label>Proton Pump Inhibitor Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA152530846 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA152530846">
+        <rdfs:label>Omeprazole and Esomeprazole Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA153627758 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA153627758">
+        <rdfs:label>Anti diabetic Drug Potassium Channel Inhibitors Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA153627759 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA153627759">
+        <rdfs:label>Anti diabetic Drug Repaglinide Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA154423659 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA154423659">
+        <rdfs:label>Anti diabetic Drug Nateglinide Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA154423660 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA154423660">
+        <rdfs:label>Bisphosphonate Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA154424674 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA154424674">
+        <rdfs:label>Clopidogrel Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA154426155 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA154426155">
+        <rdfs:label>Taxane Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA154426903 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA154426903">
+        <rdfs:label>Erlotinib Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA154444041 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA154444041">
+        <rdfs:label>Platelet Aggregation Inhibitor Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA155028030 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA155028030">
+        <rdfs:label>Tenofovir Adefovir Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA161749006 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA161749006">
+        <rdfs:label>Selective Serotonin Reuptake Inhibitor Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA161749012 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA161749012">
+        <rdfs:label>Fluoxetine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA162355620 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA162355620">
+        <rdfs:label>Nicotine Pathway Chromaffin Cell Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA162355621 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA162355621">
+        <rdfs:label>Nicotine Pathway Dopaminergic Neuron Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA162356267 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA162356267">
+        <rdfs:label>EGFR Inhibitor Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA162359940 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA162359940">
+        <rdfs:label>Imipramine Desipramine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA164713427 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA164713427">
+        <rdfs:label>Imatinib Pathway Pharmacokinetics Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA164713428 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA164713428">
+        <rdfs:label>Losartan Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA164713429 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA164713429">
+        <rdfs:label>Citalopram and Escitalopram Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165110622 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165110622">
+        <rdfs:label>Agents Acting on the Renin Angiotensin System Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165111375 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165111375">
+        <rdfs:label>Benzodiazepine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165111376 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165111376">
+        <rdfs:label>Benzodiazepine Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165292177 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165292177">
+        <rdfs:label>Doxorubicin Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165374494 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165374494">
+        <rdfs:label>Busulfan Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165378192 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165378192">
+        <rdfs:label>Artemisinin and Derivatives Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165815256 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165815256">
+        <rdfs:label>Amodiaquine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165816270 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165816270">
+        <rdfs:label>Methotrexate Pathway Brain Cell Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165816349 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165816349">
+        <rdfs:label>Methotrexate Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165816736 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165816736">
+        <rdfs:label>Celecoxib Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165816969 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165816969">
+        <rdfs:label>Rosiglitazone Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165817070 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165817070">
+        <rdfs:label>Carbamazepine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165859361 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165859361">
+        <rdfs:label>Zidovudine Pathway Pharmacokinetics Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165860384 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165860384">
+        <rdfs:label>Lamivudine Pathway Pharmacokinetics Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165884757 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165884757">
+        <rdfs:label>Caffeine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165946349 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165946349">
+        <rdfs:label>Tramadol Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165947317 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165947317">
+        <rdfs:label>Leukotriene modifiers pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165948259 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165948259">
+        <rdfs:label>Metformin Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165948566 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165948566">
+        <rdfs:label>Metformin Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165950411 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165950411">
+        <rdfs:label>Nevirapine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165959313 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165959313">
+        <rdfs:label>Valproic Acid Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165959537 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165959537">
+        <rdfs:label>Sorafenib Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165959584 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165959584">
+        <rdfs:label>Sorafenib Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165960076 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165960076">
+        <rdfs:label>Clomipramine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165964265 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165964265">
+        <rdfs:label>Valproic Acid Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165964832 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165964832">
+        <rdfs:label>Mycophenolic acid Pathway Pharmacokinetics Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165971634 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165971634">
+        <rdfs:label>Pentose Phosphate Pathway Erythrocyte Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165980050 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165980050">
+        <rdfs:label>Vemurafenib Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165980399 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165980399">
+        <rdfs:label>Oxidative Stress Regulatory Pathway Erythrocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165980774 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165980774">
+        <rdfs:label>Uric Acid Lowering Drugs Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165980834 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165980834">
+        <rdfs:label>Methylene Blue Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165981686 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165981686">
+        <rdfs:label>Doxepin Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165984799 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165984799">
+        <rdfs:label>Diuretics Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165985892 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165985892">
+        <rdfs:label>Tacrolimus Cyclosporine Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165986114 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165986114">
+        <rdfs:label>Tacrolimus Cyclosporine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA165986279 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA165986279">
+        <rdfs:label>Acetaminophen Pathway therapeutic doses Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166014758 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166014758">
+        <rdfs:label>Venlafaxine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166041114 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166041114">
+        <rdfs:label>Ibuprofen Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166104634 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166104634">
+        <rdfs:label>Abacavir Pathway Pharmacokinetics Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166114721 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166114721">
+        <rdfs:label>Uricosurics Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166115250 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166115250">
+        <rdfs:label>Gemtuzumab ozogamicin Pathway Pharmacokinetics Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166117881 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166117881">
+        <rdfs:label>Acetaminophen Pathway toxic doses Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166121347 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166121347">
+        <rdfs:label>Paroxetine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166121942 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166121942">
+        <rdfs:label>Ibuprofen Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166122732 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166122732">
+        <rdfs:label>Succinylcholine Pathway Pharmacokinetics Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166123135 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166123135">
+        <rdfs:label>Efavirenz Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166126086 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166126086">
+        <rdfs:label>Peginterferon alpha 2a Peginterferon alpha 2b Pathway Hepatocyte Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166160640 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166160640">
+        <rdfs:label>Voriconazole Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166160731 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166160731">
+        <rdfs:label>Macrolide Antibiotic Pathway Pharmacokinetics Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166160830 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166160830">
+        <rdfs:label>Atomoxetine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166163407 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166163407">
+        <rdfs:label>Pazopanib Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166163647 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166163647">
+        <rdfs:label>Amitriptyline and Nortriptyline Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166163705 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166163705">
+        <rdfs:label>Diclofenac Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166163828 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166163828">
+        <rdfs:label>Haloperidol Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166165056 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166165056">
+        <rdfs:label>Olanzapine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166165076 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166165076">
+        <rdfs:label>Verapamil Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166170503 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166170503">
+        <rdfs:label>Atazanavir Pathway Pharmacokinetics Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166170742 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166170742">
+        <rdfs:label>Antipsychotics Pathway Metabolic Side Effects Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166178009 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166178009">
+        <rdfs:label>Crizotinib Pathway Pharmacokinetics Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166178011 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166178011">
+        <rdfs:label>Bosutinib Pathway Pharmacokinetics Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166178200 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166178200">
+        <rdfs:label>Ponatinib Pathway Pharmacokinetics Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166178331 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166178331">
+        <rdfs:label>Nilotinib Pathway Pharmacokinetics Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166178361 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166178361">
+        <rdfs:label>Sunitinib Pathway Pharmacokinetics Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166179270 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166179270">
+        <rdfs:label>Carvedilol Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166179273 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166179273">
+        <rdfs:label>Metoprolol Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166181140 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166181140">
+        <rdfs:label>Methylphenidate Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166182313 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166182313">
+        <rdfs:label>Lidocaine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166182962 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166182962">
+        <rdfs:label>Candesartan Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166183426 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166183426">
+        <rdfs:label>Propranolol Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166210762 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166210762">
+        <rdfs:label>Meperidine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166211461 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166211461">
+        <rdfs:label>Allopurinol Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166225521 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166225521">
+        <rdfs:label>Pantoprazole Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166227081 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166227081">
+        <rdfs:label>Cannabidiol Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166227341 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166227341">
+        <rdfs:label>Rabeprazole Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166228061 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166228061">
+        <rdfs:label>Pimozide Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166232741 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166232741">
+        <rdfs:label>Sevoflurane Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166232761 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166232761">
+        <rdfs:label>Enflurane Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166232762 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166232762">
+        <rdfs:label>Desflurane Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166233701 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166233701">
+        <rdfs:label>Halothane Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166234781 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166234781">
+        <rdfs:label>Methoxyflurane Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166241421 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166241421">
+        <rdfs:label>Lansoprazole Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166245161 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166245161">
+        <rdfs:label>Trimipramine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166245301 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166245301">
+        <rdfs:label>Flurbiprofen Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166245321 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166245321">
+        <rdfs:label>Lornoxicam Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166245481 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166245481">
+        <rdfs:label>Meloxicam Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166246121 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166246121">
+        <rdfs:label>Oxcarbazepine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166246181 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166246181">
+        <rdfs:label>Siponimod Pathway Pharmacokinetics Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166246241 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166246241">
+        <rdfs:label>Piroxicam Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166246261 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166246261">
+        <rdfs:label>Isoflurane Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166246401 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166246401">
+        <rdfs:label>Aripiprazole Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166246961 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166246961">
+        <rdfs:label>Phenprocoumon Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166247041 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166247041">
+        <rdfs:label>Acenocoumarol Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA166248901 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA166248901">
+        <rdfs:label>Heparin induced Thrombocytopenia Pathway Adverse Drug Reaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA2001 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA2001">
+        <rdfs:label>Irinotecan Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA2011 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA2011">
+        <rdfs:label>Nicotine Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA2023 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA2023">
+        <rdfs:label>ACE Inhibitor Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA2024 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA2024">
+        <rdfs:label>Beta agonist Beta blocker Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA2025 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA2025">
+        <rdfs:label>Etoposide Pathway Pharmacokinetics Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA2026 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA2026">
+        <rdfs:label>Glucocorticoid Pathway HPA Axis Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA2029 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA2029">
+        <rdfs:label>Irinotecan Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA2030 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA2030">
+        <rdfs:label>Sympathetic Nerve Pathway Pre and Post Ganglionic Junction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA2031 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA2031">
+        <rdfs:label>Statin Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA2032 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA2032">
+        <rdfs:label>VEGF Signaling Pathway</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA2033 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA2033">
+        <rdfs:label>Antiarrhythmic Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA2034 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA2034">
+        <rdfs:label>Cyclophosphamide Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA2036 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA2036">
+        <rdfs:label>Gemcitabine Pathway Pharmacokinetics Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA2037 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA2037">
+        <rdfs:label>Ifosfamide Pathway Pharmacokinetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA2038 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA2038">
+        <rdfs:label>Ifosfamide Pathway Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA2040 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA2040">
+        <rdfs:label>Thiopurine Pathway Pharmacokinetics Pharmacodynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/pathway/PA2042 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/pathway/PA2042">
+        <rdfs:label>Sympathetic Nerve Pathway Neuroeffector Junction</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

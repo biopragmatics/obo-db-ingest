@@ -1,4 +1,4 @@
-date: '2025-01-16'
+date: '2025-01-20'
 errors: []
 resources:
   bigg.compartment:
@@ -2050,6 +2050,191 @@ resources:
       synonyms: 0
       terms: 769
       version: '37.2'
+  pharmgkb.disease:
+    nodes:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.tsv
+      path: pharmgkb.disease/pharmgkb.disease.tsv
+    obo:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.obo
+      path: pharmgkb.disease/pharmgkb.disease.obo
+    obograph:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.json
+      path: pharmgkb.disease/pharmgkb.disease.json
+    ofn:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.ofn
+      path: pharmgkb.disease/pharmgkb.disease.ofn
+    owl:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.owl
+      path: pharmgkb.disease/pharmgkb.disease.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.sssom.tsv
+      path: pharmgkb.disease/pharmgkb.disease.sssom.tsv
+    summary:
+      alts: 0
+      definitions: 0
+      license: CC-BY-SA-4.0
+      mappings: 8955
+      parents: 0
+      properties: 0
+      references: 0
+      relations: 0
+      synonyms: 16189
+      terms: 1741
+      version: null
+  pharmgkb.drug:
+    nodes:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.tsv
+      path: pharmgkb.drug/pharmgkb.drug.tsv
+    obo:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.obo
+      path: pharmgkb.drug/pharmgkb.drug.obo
+    obograph:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.json
+      path: pharmgkb.drug/pharmgkb.drug.json
+    ofn:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.ofn
+      path: pharmgkb.drug/pharmgkb.drug.ofn
+    owl:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.owl
+      path: pharmgkb.drug/pharmgkb.drug.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.sssom.tsv
+      path: pharmgkb.drug/pharmgkb.drug.sssom.tsv
+    summary:
+      alts: 0
+      definitions: 0
+      license: CC-BY-SA-4.0
+      mappings: 26461
+      parents: 5082
+      properties: 31471
+      references: 0
+      relations: 0
+      synonyms: 0
+      terms: 5082
+      version: null
+  pharmgkb.gene:
+    nodes:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.gene/pharmgkb.gene.tsv
+      path: pharmgkb.gene/pharmgkb.gene.tsv
+    obo:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.gene/pharmgkb.gene.obo
+      path: pharmgkb.gene/pharmgkb.gene.obo
+    obograph:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.gene/pharmgkb.gene.json
+      path: pharmgkb.gene/pharmgkb.gene.json
+    ofn:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.gene/pharmgkb.gene.ofn
+      path: pharmgkb.gene/pharmgkb.gene.ofn
+    owl:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.gene/pharmgkb.gene.owl
+      path: pharmgkb.gene/pharmgkb.gene.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.gene/pharmgkb.gene.sssom.tsv
+      path: pharmgkb.gene/pharmgkb.gene.sssom.tsv
+    summary:
+      alts: 0
+      definitions: 0
+      license: CC-BY-SA-4.0
+      mappings: 128321
+      parents: 0
+      properties: 49907
+      references: 0
+      relations: 0
+      synonyms: 107948
+      terms: 25041
+      version: null
+  pharmgkb.pathways:
+    nodes:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.tsv
+      path: pharmgkb.pathways/pharmgkb.pathways.tsv
+    obo:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.obo
+      path: pharmgkb.pathways/pharmgkb.pathways.obo
+    obograph:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.json
+      path: pharmgkb.pathways/pharmgkb.pathways.json
+    ofn:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.ofn
+      path: pharmgkb.pathways/pharmgkb.pathways.ofn
+    owl:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.owl
+      path: pharmgkb.pathways/pharmgkb.pathways.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.sssom.tsv
+      path: pharmgkb.pathways/pharmgkb.pathways.sssom.tsv
+    summary:
+      alts: 0
+      definitions: 0
+      license: CC-BY-SA-4.0
+      mappings: 0
+      parents: 0
+      properties: 0
+      references: 0
+      relations: 0
+      synonyms: 0
+      terms: 143
+      version: null
+  pharmgkb.variant:
+    nodes:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.tsv
+      path: pharmgkb.variant/pharmgkb.variant.tsv
+    obo:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.obo
+      path: pharmgkb.variant/pharmgkb.variant.obo
+    obograph:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.json
+      path: pharmgkb.variant/pharmgkb.variant.json
+    ofn:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.ofn
+      path: pharmgkb.variant/pharmgkb.variant.ofn
+    owl:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.owl
+      path: pharmgkb.variant/pharmgkb.variant.owl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.sssom.tsv
+      path: pharmgkb.variant/pharmgkb.variant.sssom.tsv
+    summary:
+      alts: 0
+      definitions: 0
+      license: CC-BY-SA-4.0
+      mappings: 7038
+      parents: 0
+      properties: 14380
+      references: 0
+      relations: 0
+      synonyms: 0
+      terms: 7038
+      version: null
   pid.pathway:
     nodes:
       gzipped: false
@@ -2726,5 +2911,5 @@ resources:
       version: '2025-01-12'
 versions:
   bioontologies: 0.5.3-dev-a2eed901
-  bioregistry: 0.11.34-dev-43e23e59
-  pyobo: 0.12.0-dev-0f140616
+  bioregistry: 0.11.35-dev-6122d9c1
+  pyobo: 0.12.0-dev-a0a40641

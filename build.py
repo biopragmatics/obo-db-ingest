@@ -61,6 +61,13 @@ pyobo.constants.GLOBAL_CHECK_IDS = True
 #: be conservative) to put on GitHub
 MAX_SIZE = 100_000_000
 PREFIXES = [
+    "pharmgkb.drug",
+    "pharmgkb.gene",
+    "pharmgkb.variant",
+    "pharmgkb.disease",
+    "pharmgkb.pathways",
+    ]
+x =[
     "nihreporter.project",
     "chembl.compound",
     "chembl.target",

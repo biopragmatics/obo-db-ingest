@@ -1,0 +1,593 @@
+{
+  "graphs" : [ {
+    "id" : "https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.ofn",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/terms/description",
+        "val" : "The PharmGKB database is a central repository for genetic\\, genomic\\, molecular and cellular phenotype data and clinical information about people who have participated in pharmacogenomics research studies. The data includes\\, but is not limited to\\, clinical and basic pharmacokinetic and pharmacogenomic research in the cardiovascular\\, pulmonary\\, cancer\\, pathways\\, metabolic and transporter domains. \\nPharmGKB Pathways are drug centric\\, gene based\\, interactive pathways which focus on candidate genes and gene groups and associated genotype and phenotype data of relevance for pharmacogenetic and pharmacogenomic studies."
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "CC-BY-SA-4.0"
+      }, {
+        "pred" : "http://purl.org/dc/terms/title",
+        "val" : "PharmGKB"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
+        "val" : "PyOBO v0.12.0-dev-a0a40641 on 2025-01-20T11:48:19.754197"
+      } ]
+    },
+    "nodes" : [ {
+      "id" : "http://www.pharmgkb.org/pathway/PA145011108",
+      "lbl" : "Statin Pathway Generalized Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA145011112",
+      "lbl" : "Rosuvastatin Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA145011113",
+      "lbl" : "Warfarin Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA145011115",
+      "lbl" : "Phenytoin Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA145011117",
+      "lbl" : "Aromatase Inhibitor Pathway Multiple Tissues Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA145011119",
+      "lbl" : "Tamoxifen Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA145011120",
+      "lbl" : "Aromatase Inhibitor Pathway Breast Cell Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA146123006",
+      "lbl" : "Codeine and Morphine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA150642262",
+      "lbl" : "Platinum Pathway Pharmacokinetics Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA150653776",
+      "lbl" : "Fluoropyrimidine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA150981002",
+      "lbl" : "Vinka Alkaloid Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA152241951",
+      "lbl" : "Celecoxib Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA152325160",
+      "lbl" : "Gefitinib Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA152530845",
+      "lbl" : "Proton Pump Inhibitor Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA152530846",
+      "lbl" : "Omeprazole and Esomeprazole Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA153627758",
+      "lbl" : "Anti diabetic Drug Potassium Channel Inhibitors Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA153627759",
+      "lbl" : "Anti diabetic Drug Repaglinide Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA154423659",
+      "lbl" : "Anti diabetic Drug Nateglinide Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA154423660",
+      "lbl" : "Bisphosphonate Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA154424674",
+      "lbl" : "Clopidogrel Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA154426155",
+      "lbl" : "Taxane Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA154426903",
+      "lbl" : "Erlotinib Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA154444041",
+      "lbl" : "Platelet Aggregation Inhibitor Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA155028030",
+      "lbl" : "Tenofovir Adefovir Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA161749006",
+      "lbl" : "Selective Serotonin Reuptake Inhibitor Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA161749012",
+      "lbl" : "Fluoxetine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA162355620",
+      "lbl" : "Nicotine Pathway Chromaffin Cell Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA162355621",
+      "lbl" : "Nicotine Pathway Dopaminergic Neuron Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA162356267",
+      "lbl" : "EGFR Inhibitor Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA162359940",
+      "lbl" : "Imipramine Desipramine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA164713427",
+      "lbl" : "Imatinib Pathway Pharmacokinetics Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA164713428",
+      "lbl" : "Losartan Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA164713429",
+      "lbl" : "Citalopram and Escitalopram Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165110622",
+      "lbl" : "Agents Acting on the Renin Angiotensin System Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165111375",
+      "lbl" : "Benzodiazepine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165111376",
+      "lbl" : "Benzodiazepine Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165292177",
+      "lbl" : "Doxorubicin Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165374494",
+      "lbl" : "Busulfan Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165378192",
+      "lbl" : "Artemisinin and Derivatives Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165815256",
+      "lbl" : "Amodiaquine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165816270",
+      "lbl" : "Methotrexate Pathway Brain Cell Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165816349",
+      "lbl" : "Methotrexate Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165816736",
+      "lbl" : "Celecoxib Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165816969",
+      "lbl" : "Rosiglitazone Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165817070",
+      "lbl" : "Carbamazepine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165859361",
+      "lbl" : "Zidovudine Pathway Pharmacokinetics Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165860384",
+      "lbl" : "Lamivudine Pathway Pharmacokinetics Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165884757",
+      "lbl" : "Caffeine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165946349",
+      "lbl" : "Tramadol Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165947317",
+      "lbl" : "Leukotriene modifiers pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165948259",
+      "lbl" : "Metformin Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165948566",
+      "lbl" : "Metformin Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165950411",
+      "lbl" : "Nevirapine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165959313",
+      "lbl" : "Valproic Acid Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165959537",
+      "lbl" : "Sorafenib Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165959584",
+      "lbl" : "Sorafenib Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165960076",
+      "lbl" : "Clomipramine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165964265",
+      "lbl" : "Valproic Acid Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165964832",
+      "lbl" : "Mycophenolic acid Pathway Pharmacokinetics Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165971634",
+      "lbl" : "Pentose Phosphate Pathway Erythrocyte Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165980050",
+      "lbl" : "Vemurafenib Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165980399",
+      "lbl" : "Oxidative Stress Regulatory Pathway Erythrocyte",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165980774",
+      "lbl" : "Uric Acid Lowering Drugs Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165980834",
+      "lbl" : "Methylene Blue Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165981686",
+      "lbl" : "Doxepin Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165984799",
+      "lbl" : "Diuretics Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165985892",
+      "lbl" : "Tacrolimus Cyclosporine Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165986114",
+      "lbl" : "Tacrolimus Cyclosporine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA165986279",
+      "lbl" : "Acetaminophen Pathway therapeutic doses Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166014758",
+      "lbl" : "Venlafaxine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166041114",
+      "lbl" : "Ibuprofen Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166104634",
+      "lbl" : "Abacavir Pathway Pharmacokinetics Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166114721",
+      "lbl" : "Uricosurics Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166115250",
+      "lbl" : "Gemtuzumab ozogamicin Pathway Pharmacokinetics Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166117881",
+      "lbl" : "Acetaminophen Pathway toxic doses Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166121347",
+      "lbl" : "Paroxetine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166121942",
+      "lbl" : "Ibuprofen Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166122732",
+      "lbl" : "Succinylcholine Pathway Pharmacokinetics Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166123135",
+      "lbl" : "Efavirenz Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166126086",
+      "lbl" : "Peginterferon alpha 2a Peginterferon alpha 2b Pathway Hepatocyte Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166160640",
+      "lbl" : "Voriconazole Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166160731",
+      "lbl" : "Macrolide Antibiotic Pathway Pharmacokinetics Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166160830",
+      "lbl" : "Atomoxetine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166163407",
+      "lbl" : "Pazopanib Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166163647",
+      "lbl" : "Amitriptyline and Nortriptyline Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166163705",
+      "lbl" : "Diclofenac Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166163828",
+      "lbl" : "Haloperidol Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166165056",
+      "lbl" : "Olanzapine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166165076",
+      "lbl" : "Verapamil Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166170503",
+      "lbl" : "Atazanavir Pathway Pharmacokinetics Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166170742",
+      "lbl" : "Antipsychotics Pathway Metabolic Side Effects Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166178009",
+      "lbl" : "Crizotinib Pathway Pharmacokinetics Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166178011",
+      "lbl" : "Bosutinib Pathway Pharmacokinetics Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166178200",
+      "lbl" : "Ponatinib Pathway Pharmacokinetics Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166178331",
+      "lbl" : "Nilotinib Pathway Pharmacokinetics Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166178361",
+      "lbl" : "Sunitinib Pathway Pharmacokinetics Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166179270",
+      "lbl" : "Carvedilol Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166179273",
+      "lbl" : "Metoprolol Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166181140",
+      "lbl" : "Methylphenidate Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166182313",
+      "lbl" : "Lidocaine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166182962",
+      "lbl" : "Candesartan Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166183426",
+      "lbl" : "Propranolol Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166210762",
+      "lbl" : "Meperidine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166211461",
+      "lbl" : "Allopurinol Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166225521",
+      "lbl" : "Pantoprazole Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166227081",
+      "lbl" : "Cannabidiol Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166227341",
+      "lbl" : "Rabeprazole Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166228061",
+      "lbl" : "Pimozide Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166232741",
+      "lbl" : "Sevoflurane Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166232761",
+      "lbl" : "Enflurane Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166232762",
+      "lbl" : "Desflurane Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166233701",
+      "lbl" : "Halothane Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166234781",
+      "lbl" : "Methoxyflurane Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166241421",
+      "lbl" : "Lansoprazole Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166245161",
+      "lbl" : "Trimipramine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166245301",
+      "lbl" : "Flurbiprofen Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166245321",
+      "lbl" : "Lornoxicam Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166245481",
+      "lbl" : "Meloxicam Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166246121",
+      "lbl" : "Oxcarbazepine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166246181",
+      "lbl" : "Siponimod Pathway Pharmacokinetics Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166246241",
+      "lbl" : "Piroxicam Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166246261",
+      "lbl" : "Isoflurane Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166246401",
+      "lbl" : "Aripiprazole Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166246961",
+      "lbl" : "Phenprocoumon Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166247041",
+      "lbl" : "Acenocoumarol Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA166248901",
+      "lbl" : "Heparin induced Thrombocytopenia Pathway Adverse Drug Reaction",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA2001",
+      "lbl" : "Irinotecan Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA2011",
+      "lbl" : "Nicotine Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA2023",
+      "lbl" : "ACE Inhibitor Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA2024",
+      "lbl" : "Beta agonist Beta blocker Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA2025",
+      "lbl" : "Etoposide Pathway Pharmacokinetics Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA2026",
+      "lbl" : "Glucocorticoid Pathway HPA Axis Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA2029",
+      "lbl" : "Irinotecan Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA2030",
+      "lbl" : "Sympathetic Nerve Pathway Pre and Post Ganglionic Junction",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA2031",
+      "lbl" : "Statin Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA2032",
+      "lbl" : "VEGF Signaling Pathway",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA2033",
+      "lbl" : "Antiarrhythmic Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA2034",
+      "lbl" : "Cyclophosphamide Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA2036",
+      "lbl" : "Gemcitabine Pathway Pharmacokinetics Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA2037",
+      "lbl" : "Ifosfamide Pathway Pharmacokinetics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA2038",
+      "lbl" : "Ifosfamide Pathway Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA2040",
+      "lbl" : "Thiopurine Pathway Pharmacokinetics Pharmacodynamics",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.pharmgkb.org/pathway/PA2042",
+      "lbl" : "Sympathetic Nerve Pathway Neuroeffector Junction",
+      "type" : "CLASS"
+    } ]
+  } ]
+}
