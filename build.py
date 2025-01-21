@@ -66,8 +66,6 @@ PREFIXES = [
     "pharmgkb.variant",
     "pharmgkb.disease",
     "pharmgkb.pathways",
-    ]
-x =[
     "nihreporter.project",
     "chembl.compound",
     "chembl.target",
