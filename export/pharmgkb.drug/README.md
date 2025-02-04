@@ -6,14 +6,15 @@ The PharmGKB database is a central repository for genetic, genomic, molecular an
 
 ## PURLs
 
-| Artifact       | Download PURL                                                                  | Latest Versioned Download PURL   |
-|----------------|--------------------------------------------------------------------------------|----------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.obo       |                                  |
-| OFN            | https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.ofn       |                                  |
-| Nodes          | https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.tsv       |                                  |
-| SSSOM          | https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.sssom.tsv |                                  |
-| OWL            | https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.owl       |                                  |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.json      |                                  |
+| Artifact       | Download PURL                                                                     | Latest Versioned Download PURL   |
+|----------------|-----------------------------------------------------------------------------------|----------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.obo          |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.ofn          |                                  |
+| Nodes          | https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.tsv          |                                  |
+| SSSOM          | https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.sssom.tsv    |                                  |
+| Synonyms       | https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.synonyms.tsv |                                  |
+| OWL            | https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.owl          |                                  |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.json         |                                  |
 
 ## Summary
 

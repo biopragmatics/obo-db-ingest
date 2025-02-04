@@ -1,0 +1,83 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.tsv
+    path: pharmgkb.drug/pharmgkb.drug.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.obo
+    path: pharmgkb.drug/pharmgkb.drug.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.json
+    path: pharmgkb.drug/pharmgkb.drug.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.ofn
+    path: pharmgkb.drug/pharmgkb.drug.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.owl
+    path: pharmgkb.drug/pharmgkb.drug.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.sssom.tsv
+    path: pharmgkb.drug/pharmgkb.drug.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: CC-BY-SA-4.0
+    mappings: 26461
+    parents: 5082
+    properties: 31471
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 5082
+    version: null
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.drug/pharmgkb.drug.synonyms.tsv
+    path: pharmgkb.drug/pharmgkb.drug.synonyms.tsv
+prefix_map:
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  ChEMROF: https://chemkg.github.io/chemrof/
+  atc: http://www.whocc.no/atc_ddd_index/?code=
+  bindingdb: http://www.bindingdb.org/compact/
+  cas: https://commonchemistry.cas.org/detail?cas_rn=
+  chembl: https://www.ebi.ac.uk/chembl/entity/
+  chemspider: http://rdf.chemspider.com/
+  dcterms: http://purl.org/dc/terms/
+  debio: https://biopragmatics.github.io/debio/
+  drugbank: http://www.drugbank.ca/drugs/
+  drugbank.metabolite: https://go.drugbank.com/metabolites/
+  genbank: https://www.ncbi.nlm.nih.gov/nucleotide/
+  hmdb: http://www.hmdb.ca/metabolites/
+  iuphar.ligand: http://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=
+  kegg.compound: https://www.kegg.jp/entry/
+  kegg.drug: https://www.kegg.jp/entry/
+  meddra: http://purl.bioontology.org/ontology/MDRFRE/
+  mesh: http://id.nlm.nih.gov/mesh/
+  ndc: http://www.hipaaspace.com/Medical_Billing/Coding/National.Drug.Codes/
+  ndfrt: http://purl.bioontology.org/ontology/NDFRT/
+  obo: http://purl.obolibrary.org/obo/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  pdb.ligand: https://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/
+  pharmgkb.drug: http://www.pharmgkb.org/drug/
+  pubchem.compound: http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID
+  pubchem.substance: http://rdf.ncbi.nlm.nih.gov/pubchem/substance/SID
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rxnorm: https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=
+  skos: http://www.w3.org/2004/02/skos/core#
+  snomedct: http://snomed.info/id/
+  umls: https://uts.nlm.nih.gov/uts/umls/concept/
+  uniprot: http://purl.uniprot.org/uniprot/
+  xsd: http://www.w3.org/2001/XMLSchema#
