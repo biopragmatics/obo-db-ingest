@@ -6,14 +6,15 @@ The PharmGKB database is a central repository for genetic, genomic, molecular an
 
 ## PURLs
 
-| Artifact       | Download PURL                                                                  | Latest Versioned Download PURL   |
-|----------------|--------------------------------------------------------------------------------|----------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/pharmgkb.gene/pharmgkb.gene.obo       |                                  |
-| OFN            | https://w3id.org/biopragmatics/resources/pharmgkb.gene/pharmgkb.gene.ofn       |                                  |
-| Nodes          | https://w3id.org/biopragmatics/resources/pharmgkb.gene/pharmgkb.gene.tsv       |                                  |
-| SSSOM          | https://w3id.org/biopragmatics/resources/pharmgkb.gene/pharmgkb.gene.sssom.tsv |                                  |
-| OWL            | https://w3id.org/biopragmatics/resources/pharmgkb.gene/pharmgkb.gene.owl       |                                  |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/pharmgkb.gene/pharmgkb.gene.json      |                                  |
+| Artifact       | Download PURL                                                                     | Latest Versioned Download PURL   |
+|----------------|-----------------------------------------------------------------------------------|----------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/pharmgkb.gene/pharmgkb.gene.obo          |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/pharmgkb.gene/pharmgkb.gene.ofn          |                                  |
+| Nodes          | https://w3id.org/biopragmatics/resources/pharmgkb.gene/pharmgkb.gene.tsv          |                                  |
+| SSSOM          | https://w3id.org/biopragmatics/resources/pharmgkb.gene/pharmgkb.gene.sssom.tsv    |                                  |
+| Synonyms       | https://w3id.org/biopragmatics/resources/pharmgkb.gene/pharmgkb.gene.synonyms.tsv |                                  |
+| OWL            | https://w3id.org/biopragmatics/resources/pharmgkb.gene/pharmgkb.gene.owl          |                                  |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/pharmgkb.gene/pharmgkb.gene.json         |                                  |
 
 ## Summary
 

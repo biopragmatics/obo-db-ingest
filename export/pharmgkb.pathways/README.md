@@ -7,14 +7,15 @@ PharmGKB Pathways are drug centric, gene based, interactive pathways which focus
 
 ## PURLs
 
-| Artifact       | Download PURL                                                                          | Latest Versioned Download PURL   |
-|----------------|----------------------------------------------------------------------------------------|----------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.obo       |                                  |
-| OFN            | https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.ofn       |                                  |
-| Nodes          | https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.tsv       |                                  |
-| SSSOM          | https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.sssom.tsv |                                  |
-| OWL            | https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.owl       |                                  |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.json      |                                  |
+| Artifact       | Download PURL                                                                             | Latest Versioned Download PURL   |
+|----------------|-------------------------------------------------------------------------------------------|----------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.obo          |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.ofn          |                                  |
+| Nodes          | https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.tsv          |                                  |
+| SSSOM          | https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.sssom.tsv    |                                  |
+| Synonyms       | https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.synonyms.tsv |                                  |
+| OWL            | https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.owl          |                                  |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.json         |                                  |
 
 ## Summary
 

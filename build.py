@@ -12,11 +12,12 @@
 # bioregistry = { path = "../bioregistry" }
 # pyobo = { path = "../pyobo" }
 # bioontologies = { path = "../bioontologies" }
+# gilda = { git = "https://github.com/cthoyt/gilda", branch = "slim" }
 # ///
 
 """Build OBO dumps of database.
 
-Run with ``uv run --script build.py``
+Run with ``UV_PREVIEW=1 uv run --script build.py``
 """
 
 from __future__ import annotations
@@ -50,10 +51,14 @@ from tqdm.contrib.concurrent import process_map
 from tqdm.contrib.logging import logging_redirect_tqdm
 from typing_extensions import NotRequired
 
+MULTIPROCESSING = False
+PYOBO_VERSION = pyobo.version.get_version(with_git_hash=True)
 BASE_PURL = "https://w3id.org/biopragmatics/resources"
 HERE = Path(__file__).parent.resolve()
 DATA = HERE.joinpath("docs", "_data")
 MANIFEST_PATH = DATA.joinpath("manifest.yml")
+SKEY = "manifest"
+TODAY = datetime.date.today().strftime("%Y-%m-%d")
 EXPORT = HERE.joinpath("export")
 pystow.utils.GLOBAL_PROGRESS_BAR = False
 pyobo.constants.GLOBAL_CHECK_IDS = True
@@ -138,9 +143,15 @@ ARTIFACT_LABELS = {
     "owl": "OWL",
     "ofn": "OFN",
     "sssom": "SSSOM",
+    "synonyms": "Synonyms",
     "nodes": "Nodes",
     "obograph": "OBO Graph JSON",
 }
+
+
+def secho(s: str, *args, **kwargs) -> None:
+    """Write to the standard output stream with appropriate locking for tqdm."""
+    tqdm.write(click.style(s, *args, **kwargs))
 
 
 def _gzip(path: Path, suffix: str) -> Path:
@@ -199,7 +210,7 @@ def _prepare_artifact(
 
 
 def _get_summary(obo: Obo) -> dict:
-    terms = [t for t in obo if t.prefix == obo.ontology]
+    terms = list(obo._iter_terms(desc=f'[{obo.ontology}]'))
     rv = {
         "terms": sum(term.prefix == obo.ontology for term in obo),
         "relations": sum(len(values) for term in terms for values in term.relationships.values()),
@@ -250,14 +261,14 @@ def _make_safe(
     cls: type[Obo], *, do_convert: bool = False, no_force: bool = False
 ) -> tuple[str, dict, bool]:
     prefix = cls.ontology
-    tqdm.write(click.style(prefix, fg="green", bold=True))
+    secho(prefix, fg="green", bold=True)
     with logging_redirect_tqdm():
         try:
             rv, errored = _make(cls, do_convert=do_convert, no_force=no_force)
         except Exception as e:
-            tqdm.write(click.style(f"[{prefix}] got exception in _make: {e}", fg="red"))
+            secho(f"[{prefix}] got exception in _make: {e}", fg="red")
             traceback.print_exc()
-            return prefix, None
+            return prefix, {}, True
         else:
             return prefix, rv, errored
 
@@ -273,23 +284,39 @@ def _make(  # noqa:C901
         force = prefix not in NO_FORCE
     obo = module(force=force)
 
-    rv = {"summary": _get_summary(obo)}
-
     directory = EXPORT.joinpath(prefix)
     readme_path = directory.joinpath("README.md")
+    manifest_path = directory.joinpath("manifest.yaml")
 
     has_version = bool(obo.data_version)
     if has_version:
         directory = directory.joinpath(obo.data_version)
     else:
-        tqdm.write(click.style(f"[{prefix}] has no version info", fg="red"))
+        secho(f"[{prefix}] has no version info", fg="red")
     directory.mkdir(exist_ok=True, parents=True)
+
+    if manifest_path.exists():
+        manifest_full = yaml.safe_load(manifest_path.read_text())
+        cached_pyobo_version = manifest_full.pop("dependencies", {}).get("pyobo")
+        manifest = manifest_full[SKEY]
+        cached_data_version = manifest["summary"].get("version")
+        if not manifest_full["errored"] and cached_pyobo_version == PYOBO_VERSION:
+            if has_version and cached_data_version == obo.data_version:
+                secho(f"[{prefix}] using cache data v{cached_data_version}")
+                return manifest, False
+            elif (cached_data_date := manifest_full["date"]) == TODAY:
+                secho(f"[{prefix}] using cached data from {cached_data_date}")
+                return manifest, False
+
+    tqdm.write(f"[{prefix}] getting summary")
+    rv = {"summary": _get_summary(obo)}
 
     # can't use the stub path because if the
     # prefix has a dot in it, gets overridden
     obo_path = directory.joinpath(f"{prefix}.obo")
     names_path = directory.joinpath(f"{prefix}.tsv")
     sssom_path = directory.joinpath(f"{prefix}.sssom.tsv")
+    literal_mappings_path = directory.joinpath(f"{prefix}.synonyms.tsv")
     obo_graph_json_path = directory.joinpath(f"{prefix}.json")
     ofn_path = directory.joinpath(f"{prefix}.ofn")
     owl_path = directory.joinpath(f"{prefix}.owl")
@@ -300,11 +327,8 @@ def _make(  # noqa:C901
         obo.write_obo(obo_path)
     except Exception as e:
         errored = True
-        msg = click.style(
-            f"[{prefix}] failed to write OBO: {e}\n\tWriting to {log_path.as_posix()}",
-            fg="red",
-        )
-        tqdm.write(msg)
+        msg = f"[{prefix}] failed to write OBO: {e}\n\tWriting to {log_path.as_posix()}"
+        secho(msg, fg="red")
         with log_path.open("a") as file:
             file.write(f"\n\n{msg}\n\n")
             traceback.print_exc(file=file)
@@ -317,11 +341,8 @@ def _make(  # noqa:C901
         obo.write_ofn(ofn_path)
     except Exception as e:
         errored = True
-        msg = click.style(
-            f"[{prefix}] failed to write OFN: {e}\n\tWriting to {log_path.as_posix()}",
-            fg="red",
-        )
-        tqdm.write(msg)
+        msg = f"[{prefix}] failed to write OFN: {e}\n\tWriting to {log_path.as_posix()}"
+        secho(msg, fg="red")
         with log_path.open("a") as file:
             file.write(f"\n\n{msg}\n\n")
             traceback.print_exc(file=file)
@@ -333,9 +354,25 @@ def _make(  # noqa:C901
     _, rv["nodes"] = _prepare_artifact(prefix, names_path, has_version, ".tsv.gz")
 
     tqdm.write(f"[{prefix}] writing SSSOM")
-    sssom_df = pyobo.get_mappings_df(obo, names=False)
+    sssom_df = obo.get_mappings_df(names=False, use_tqdm=False)
     sssom_df.to_csv(sssom_path, sep="\t", index=False)
     _, rv["sssom"] = _prepare_artifact(prefix, sssom_path, has_version, ".sssom.tsv.gz")
+
+    tqdm.write(f"[{prefix}] writing synonyms")
+    try:
+        literal_mappings_df = obo.get_literal_mappings_df()
+    except Exception as e:
+        errored = True
+        msg = f"[{prefix}] failed to write synonyms: {e}\n\tWriting to {log_path.as_posix()}"
+        secho(msg, fg="red")
+        with log_path.open("a") as file:
+            file.write(f"\n\n{msg}\n\n")
+            traceback.print_exc(file=file)
+    else:
+        literal_mappings_df.to_csv(literal_mappings_path, sep="\t", index=False)
+        _, rv["synonyms"] = _prepare_artifact(
+            prefix, literal_mappings_path, has_version, ".synonyms.tsv.gz"
+        )
 
     if do_convert:
         # add -vvv and search for org.semanticweb.owlapi.oboformat.OBOFormatOWLAPIParser on errors
@@ -346,12 +383,10 @@ def _make(  # noqa:C901
             _, rv["owl"] = _prepare_artifact(prefix, owl_path, has_version, ".owl.gz")
         except subprocess.CalledProcessError as e:
             errored = True
-            msg = click.style(
-                f"[{prefix}] {type(e)} - ROBOT failed to convert to OWL"
-                f"\n\t{e}\n\t{' '.join(e.cmd)}",
-                fg="red",
+            msg = (
+                f"[{prefix}] {type(e)} - ROBOT failed to convert to OWL\n\t{e}\n\t{' '.join(e.cmd)}"
             )
-            tqdm.write(msg)
+            tqdm.write(msg, fg="red")
             with log_path.open("a") as file:
                 file.write(f"\n\n{msg}\n\n")
                 traceback.print_exc(file=file)
@@ -418,6 +453,21 @@ def _make(  # noqa:C901
     )
     readme_path.write_text(text)
 
+    manifest_path.write_text(
+        yaml.safe_dump(
+            {
+                SKEY: rv,
+                "dependencies": _get_build_dependency_versions(),
+                "errored": errored,
+                "prefix_map": obo._get_clean_idspaces(),
+                "date": TODAY,
+            }
+        )
+    )
+
+    del obo
+
+    tqdm.write(f"[{prefix}] done")
     return rv, errored
 
 
@@ -427,7 +477,7 @@ def _make(  # noqa:C901
 @click.option("--no-convert", is_flag=True)
 @click.option("-x", "--xvalue", help="Select a specific ontology", multiple=True)
 @click.option("--force/--no-force")
-def main(minimum: str | None, xvalue: list[str], no_convert: bool, force: bool):
+def main(minimum: str | None, xvalue: list[str], no_convert: bool, force: bool):  # noqa:C901
     """Build the PyOBO examples."""
     if xvalue:
         for prefix in xvalue:
@@ -444,11 +494,17 @@ def main(minimum: str | None, xvalue: list[str], no_convert: bool, force: bool):
             o.ontology for o in set(ontology_resolver.lookup_dict.values()).difference(all_classes)
         )
         for cls in missing:
-            click.secho(f"Skipping: {cls}", fg="yellow")
+            secho(f"Skipping: {cls}", fg="yellow")
 
     for prefix in prefixes:
         if not bioregistry.get_license(prefix):
-            click.secho(f"missing license for `{prefix}`", fg="yellow")
+            if contact := bioregistry.get_contact(prefix):
+                secho(
+                    f"missing license for `{prefix}`, contact {contact.name} ({contact.email})",
+                    fg="yellow",
+                )
+            else:
+                secho(f"missing license for `{prefix}`", fg="yellow")
 
     it = [ontology_resolver.lookup(prefix) for prefix in prefixes]
 
@@ -458,28 +514,33 @@ def main(minimum: str | None, xvalue: list[str], no_convert: bool, force: bool):
         no_force=not force,
     )
 
-    errors: list[str] = []
-    manifest: dict[str, dict] = {}
-    for prefix, result, errored in process_map(make_wrapped, it, unit="ontology", max_workers=4):
-        manifest[prefix] = result
+    rv = {
+        "date": TODAY,
+        "versions": _get_build_dependency_versions(),
+        "resources": {},
+        "errors": [],
+    }
+
+    _tqdm_kwargs = {"unit": "ontology", "total": len(it), "desc": "obo-db-ingest"}
+    if MULTIPROCESSING:
+        mm = process_map(make_wrapped, it, max_workers=4, **_tqdm_kwargs)
+    else:
+        mm = tqdm(map(make_wrapped, it), **_tqdm_kwargs)
+
+    for prefix, result, errored in mm:
+        rv["resources"][prefix] = result
         if errored:
-            errors.append(prefix)
+            rv["errors"].append(prefix)
 
-    MANIFEST_PATH.write_text(
-        yaml.safe_dump(
-            {
-                "date": datetime.date.today().strftime("%Y-%m-%d"),
-                "versions": _get_build_dependency_versions(),
-                "resources": manifest,
-                "errors": errors,
-            },
-        )
-    )
+        MANIFEST_PATH.write_text(yaml.safe_dump(rv))
+
+    secho("obo-db-ingest is complete")
 
 
+@functools.lru_cache(1)
 def _get_build_dependency_versions() -> dict[str, str]:
     return {
-        "pyobo": pyobo.version.get_version(with_git_hash=True),
+        "pyobo": PYOBO_VERSION,
         "bioontologies": bioontologies.version.get_version(with_git_hash=True),
         "bioregistry": bioregistry.version.get_version(with_git_hash=True),
     }

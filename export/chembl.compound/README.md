@@ -6,14 +6,15 @@ ChEMBL is a database of bioactive compounds, their quantitative properties and b
 
 ## PURLs
 
-| Artifact       | Download PURL                                                                      | Latest Versioned Download PURL                                                        |
-|----------------|------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.obo       | https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.obo       |
-| OFN            | https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.ofn       | https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.ofn       |
-| Nodes          | https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.tsv       | https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.tsv       |
-| SSSOM          | https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.sssom.tsv | https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.sssom.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.owl       | https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.owl       |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.json      | https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.json      |
+| Artifact       | Download PURL                                                                         | Latest Versioned Download PURL                                                           |
+|----------------|---------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.obo          | https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.obo          |
+| OFN            | https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.ofn          | https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.ofn          |
+| Nodes          | https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.tsv          | https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.tsv          |
+| SSSOM          | https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.sssom.tsv    | https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.sssom.tsv    |
+| Synonyms       | https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.synonyms.tsv | https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.synonyms.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.owl          | https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.owl          |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.json         | https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.json         |
 
 ## Summary
 

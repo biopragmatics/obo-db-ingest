@@ -6,14 +6,15 @@ The CDC's National Center of Immunization and Respiratory Diseases (NCIRD) devel
 
 ## PURLs
 
-| Artifact       | Download PURL                                              | Latest Versioned Download PURL   |
-|----------------|------------------------------------------------------------|----------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/cvx/cvx.obo       |                                  |
-| OFN            | https://w3id.org/biopragmatics/resources/cvx/cvx.ofn       |                                  |
-| Nodes          | https://w3id.org/biopragmatics/resources/cvx/cvx.tsv       |                                  |
-| SSSOM          | https://w3id.org/biopragmatics/resources/cvx/cvx.sssom.tsv |                                  |
-| OWL            | https://w3id.org/biopragmatics/resources/cvx/cvx.owl       |                                  |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/cvx/cvx.json      |                                  |
+| Artifact       | Download PURL                                                 | Latest Versioned Download PURL   |
+|----------------|---------------------------------------------------------------|----------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/cvx/cvx.obo          |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/cvx/cvx.ofn          |                                  |
+| Nodes          | https://w3id.org/biopragmatics/resources/cvx/cvx.tsv          |                                  |
+| SSSOM          | https://w3id.org/biopragmatics/resources/cvx/cvx.sssom.tsv    |                                  |
+| Synonyms       | https://w3id.org/biopragmatics/resources/cvx/cvx.synonyms.tsv |                                  |
+| OWL            | https://w3id.org/biopragmatics/resources/cvx/cvx.owl          |                                  |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/cvx/cvx.json         |                                  |
 
 ## Summary
 
@@ -22,5 +23,5 @@ The CDC's National Center of Immunization and Respiratory Diseases (NCIRD) devel
 | mappings   |       3 |
 | parents    |     246 |
 | properties |     717 |
-| synonyms   |     249 |
+| synonyms   |     225 |
 | terms      |     279 |

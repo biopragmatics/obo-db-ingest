@@ -1,0 +1,69 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/kegg.genome/kegg.genome.tsv
+    path: kegg.genome/kegg.genome.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/kegg.genome/113.0/kegg.genome.tsv
+    version_path: kegg.genome/113.0/kegg.genome.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/kegg.genome/kegg.genome.obo
+    path: kegg.genome/kegg.genome.obo
+    version_iri: https://w3id.org/biopragmatics/resources/kegg.genome/113.0/kegg.genome.obo
+    version_path: kegg.genome/113.0/kegg.genome.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/kegg.genome/kegg.genome.json
+    path: kegg.genome/kegg.genome.json
+    version_iri: https://w3id.org/biopragmatics/resources/kegg.genome/113.0/kegg.genome.json
+    version_path: kegg.genome/113.0/kegg.genome.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/kegg.genome/kegg.genome.ofn
+    path: kegg.genome/kegg.genome.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/kegg.genome/113.0/kegg.genome.ofn
+    version_path: kegg.genome/113.0/kegg.genome.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/kegg.genome/kegg.genome.owl
+    path: kegg.genome/kegg.genome.owl
+    version_iri: https://w3id.org/biopragmatics/resources/kegg.genome/113.0/kegg.genome.owl
+    version_path: kegg.genome/113.0/kegg.genome.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/kegg.genome/kegg.genome.sssom.tsv
+    path: kegg.genome/kegg.genome.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/kegg.genome/113.0/kegg.genome.sssom.tsv
+    version_path: kegg.genome/113.0/kegg.genome.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: https://www.kegg.jp/kegg/legal.html
+    mappings: 0
+    parents: 0
+    properties: 0
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 10959
+    version: '113.0'
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/kegg.genome/kegg.genome.synonyms.tsv
+    path: kegg.genome/kegg.genome.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/kegg.genome/113.0/kegg.genome.synonyms.tsv
+    version_path: kegg.genome/113.0/kegg.genome.synonyms.tsv
+prefix_map:
+  dcterms: http://purl.org/dc/terms/
+  kegg.genome: http://www.kegg.jp/entry/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#

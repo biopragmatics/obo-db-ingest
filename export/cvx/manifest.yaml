@@ -1,0 +1,58 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cvx/cvx.tsv
+    path: cvx/cvx.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cvx/cvx.obo
+    path: cvx/cvx.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cvx/cvx.json
+    path: cvx/cvx.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cvx/cvx.ofn
+    path: cvx/cvx.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cvx/cvx.owl
+    path: cvx/cvx.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cvx/cvx.sssom.tsv
+    path: cvx/cvx.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: null
+    mappings: 3
+    parents: 246
+    properties: 717
+    references: 0
+    relations: 0
+    synonyms: 225
+    terms: 279
+    version: null
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cvx/cvx.synonyms.tsv
+    path: cvx/cvx.synonyms.tsv
+prefix_map:
+  IAO: http://purl.obolibrary.org/obo/IAO_
+  OMO: http://purl.obolibrary.org/obo/OMO_
+  cvx: https://biopragmatics.github.io/providers/cvx/
+  dcterms: http://purl.org/dc/terms/
+  obo: http://purl.obolibrary.org/obo/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#

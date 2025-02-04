@@ -1,0 +1,71 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pid.pathway/pid.pathway.tsv
+    path: pid.pathway/pid.pathway.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/pid.pathway/1.0.0/pid.pathway.tsv
+    version_path: pid.pathway/1.0.0/pid.pathway.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pid.pathway/pid.pathway.obo
+    path: pid.pathway/pid.pathway.obo
+    version_iri: https://w3id.org/biopragmatics/resources/pid.pathway/1.0.0/pid.pathway.obo
+    version_path: pid.pathway/1.0.0/pid.pathway.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pid.pathway/pid.pathway.json
+    path: pid.pathway/pid.pathway.json
+    version_iri: https://w3id.org/biopragmatics/resources/pid.pathway/1.0.0/pid.pathway.json
+    version_path: pid.pathway/1.0.0/pid.pathway.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pid.pathway/pid.pathway.ofn
+    path: pid.pathway/pid.pathway.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/pid.pathway/1.0.0/pid.pathway.ofn
+    version_path: pid.pathway/1.0.0/pid.pathway.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pid.pathway/pid.pathway.owl
+    path: pid.pathway/pid.pathway.owl
+    version_iri: https://w3id.org/biopragmatics/resources/pid.pathway/1.0.0/pid.pathway.owl
+    version_path: pid.pathway/1.0.0/pid.pathway.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pid.pathway/pid.pathway.sssom.tsv
+    path: pid.pathway/pid.pathway.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/pid.pathway/1.0.0/pid.pathway.sssom.tsv
+    version_path: pid.pathway/1.0.0/pid.pathway.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: null
+    mappings: 0
+    parents: 0
+    properties: 7958
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 210
+    version: 1.0.0
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pid.pathway/pid.pathway.synonyms.tsv
+    path: pid.pathway/pid.pathway.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/pid.pathway/1.0.0/pid.pathway.synonyms.tsv
+    version_path: pid.pathway/1.0.0/pid.pathway.synonyms.tsv
+prefix_map:
+  RO: http://purl.obolibrary.org/obo/RO_
+  dcterms: http://purl.org/dc/terms/
+  hgnc: https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  pid.pathway: http://pid.nci.nih.gov/search/pathway_landing.shtml?what=graphic&jpg=on&pathway_id=
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#

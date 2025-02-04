@@ -1,0 +1,55 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.tsv
+    path: pharmgkb.pathways/pharmgkb.pathways.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.obo
+    path: pharmgkb.pathways/pharmgkb.pathways.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.json
+    path: pharmgkb.pathways/pharmgkb.pathways.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.ofn
+    path: pharmgkb.pathways/pharmgkb.pathways.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.owl
+    path: pharmgkb.pathways/pharmgkb.pathways.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.sssom.tsv
+    path: pharmgkb.pathways/pharmgkb.pathways.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: CC-BY-SA-4.0
+    mappings: 0
+    parents: 0
+    properties: 0
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 143
+    version: null
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.synonyms.tsv
+    path: pharmgkb.pathways/pharmgkb.pathways.synonyms.tsv
+prefix_map:
+  dcterms: http://purl.org/dc/terms/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  pharmgkb.pathways: http://www.pharmgkb.org/pathway/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#

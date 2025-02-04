@@ -1,14 +1,10 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.0-dev-63556853 on 2025-01-13T18:21:48.941951
-idspace: bibo http://purl.org/ontology/bibo/ "The Bibliographic Ontology"
+auto-generated-by: PyOBO v0.12.0-dev-6a0f77c3 on 2025-02-04T20:40:49.607359
 idspace: biolink https://w3id.org/biolink/vocab/ "Biolink Model"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
-idspace: issn https://portal.issn.org/resource/ISSN/ "International Standard Serial Number"
-idspace: nlm https://www.ncbi.nlm.nih.gov/nlmcatalog/ "National Library of Medicine Catalog"
 idspace: nlm.publisher https://bioregistry.io/nlm.publisher: "NLM Publisher Codes"
 idspace: orcid https://orcid.org/ "Open Researcher and Contributor"
-idspace: schema http://schema.org/ "Schema.org"
-idspace: sio http://semanticscience.org/resource/SIO_ "Semanticscience Integrated Ontology"
+idspace: schema https://schema.org/ "Schema.org"
 idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
 idspace: uniprot.core http://purl.uniprot.org/core/ "Uniprot Core Ontology"
 ontology: nlm.publisher
@@ -2284,7 +2280,7 @@ instance_of: obo:nlm#publisher ! publisher
 [Term]
 id: obo:nlm#publisher
 name: publisher
-comment: "injected by PyOBO source"
+comment: "Injected by PyOBO"
 property_value: dcterms:contributor orcid:0000-0003-4423-4370 ! contributor Charles Tapley Hoyt
 property_value: skos:exactMatch biolink:publisher
 property_value: skos:exactMatch schema:publisher

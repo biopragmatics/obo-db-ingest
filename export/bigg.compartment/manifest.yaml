@@ -1,0 +1,71 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.compartment/bigg.compartment.tsv
+    path: bigg.compartment/bigg.compartment.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.compartment/1.6.0/bigg.compartment.tsv
+    version_path: bigg.compartment/1.6.0/bigg.compartment.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.compartment/bigg.compartment.obo
+    path: bigg.compartment/bigg.compartment.obo
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.compartment/1.6.0/bigg.compartment.obo
+    version_path: bigg.compartment/1.6.0/bigg.compartment.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.compartment/bigg.compartment.json
+    path: bigg.compartment/bigg.compartment.json
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.compartment/1.6.0/bigg.compartment.json
+    version_path: bigg.compartment/1.6.0/bigg.compartment.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.compartment/bigg.compartment.ofn
+    path: bigg.compartment/bigg.compartment.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.compartment/1.6.0/bigg.compartment.ofn
+    version_path: bigg.compartment/1.6.0/bigg.compartment.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.compartment/bigg.compartment.owl
+    path: bigg.compartment/bigg.compartment.owl
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.compartment/1.6.0/bigg.compartment.owl
+    version_path: bigg.compartment/1.6.0/bigg.compartment.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.compartment/bigg.compartment.sssom.tsv
+    path: bigg.compartment/bigg.compartment.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.compartment/1.6.0/bigg.compartment.sssom.tsv
+    version_path: bigg.compartment/1.6.0/bigg.compartment.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: http://bigg.ucsd.edu/license#license
+    mappings: 18
+    parents: 0
+    properties: 18
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 22
+    version: 1.6.0
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.compartment/bigg.compartment.synonyms.tsv
+    path: bigg.compartment/bigg.compartment.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.compartment/1.6.0/bigg.compartment.synonyms.tsv
+    version_path: bigg.compartment/1.6.0/bigg.compartment.synonyms.tsv
+prefix_map:
+  GO: http://purl.obolibrary.org/obo/GO_
+  bigg.compartment: http://bigg.ucsd.edu/compartments/
+  dcterms: http://purl.org/dc/terms/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  skos: http://www.w3.org/2004/02/skos/core#
+  xsd: http://www.w3.org/2001/XMLSchema#

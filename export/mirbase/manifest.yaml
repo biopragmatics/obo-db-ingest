@@ -1,0 +1,79 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/mirbase/mirbase.tsv
+    path: mirbase/mirbase.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.tsv
+    version_path: mirbase/22.1/mirbase.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/mirbase/mirbase.obo
+    path: mirbase/mirbase.obo
+    version_iri: https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.obo
+    version_path: mirbase/22.1/mirbase.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/mirbase/mirbase.json
+    path: mirbase/mirbase.json
+    version_iri: https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.json
+    version_path: mirbase/22.1/mirbase.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/mirbase/mirbase.ofn
+    path: mirbase/mirbase.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.ofn
+    version_path: mirbase/22.1/mirbase.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/mirbase/mirbase.owl
+    path: mirbase/mirbase.owl
+    version_iri: https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.owl
+    version_path: mirbase/22.1/mirbase.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/mirbase/mirbase.sssom.tsv
+    path: mirbase/mirbase.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.sssom.tsv
+    version_path: mirbase/22.1/mirbase.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 38589
+    license: public domain
+    mappings: 8732
+    parents: 0
+    properties: 0
+    references: 0
+    relations: 69253
+    synonyms: 1441
+    terms: 38589
+    version: '22.1'
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/mirbase/mirbase.synonyms.tsv
+    path: mirbase/mirbase.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.synonyms.tsv
+    version_path: mirbase/22.1/mirbase.synonyms.tsv
+prefix_map:
+  MGI: 'http://www.informatics.jax.org/accession/MGI:'
+  NCBIGene: http://purl.uniprot.org/geneid/
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  RO: http://purl.obolibrary.org/obo/RO_
+  WormBase: https://www.wormbase.org/get?name=
+  asrp: http://asrp.cgrb.oregonstate.edu/db/sRNAdisplay.html?ASRP_id=
+  dcterms: http://purl.org/dc/terms/
+  debio: https://biopragmatics.github.io/debio/
+  hgnc: https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/
+  mirbase: http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=
+  mirbase.mature: http://mirbase.org/cgi-bin/mature.pl?mature_acc=
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rfam: https://rfam.org/family/
+  xsd: http://www.w3.org/2001/XMLSchema#

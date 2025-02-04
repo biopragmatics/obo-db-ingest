@@ -1,0 +1,71 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/sty/sty.tsv
+    path: sty/sty.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.tsv
+    version_path: sty/2024AB/sty.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/sty/sty.obo
+    path: sty/sty.obo
+    version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.obo
+    version_path: sty/2024AB/sty.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/sty/sty.json
+    path: sty/sty.json
+    version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.json
+    version_path: sty/2024AB/sty.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/sty/sty.ofn
+    path: sty/sty.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.ofn
+    version_path: sty/2024AB/sty.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/sty/sty.owl
+    path: sty/sty.owl
+    version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.owl
+    version_path: sty/2024AB/sty.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/sty/sty.sssom.tsv
+    path: sty/sty.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.sssom.tsv
+    version_path: sty/2024AB/sty.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: null
+    mappings: 0
+    parents: 127
+    properties: 0
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 127
+    version: 2024AB
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/sty/sty.synonyms.tsv
+    path: sty/sty.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.synonyms.tsv
+    version_path: sty/2024AB/sty.synonyms.tsv
+prefix_map:
+  biolink: https://w3id.org/biolink/vocab/
+  dcterms: http://purl.org/dc/terms/
+  obo: http://purl.obolibrary.org/obo/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  sty: https://uts.nlm.nih.gov/uts/umls/semantic-network/
+  xsd: http://www.w3.org/2001/XMLSchema#

@@ -6,14 +6,15 @@ RePORTER is an electronic tool that allows users to search a repository of both 
 
 ## PURLs
 
-| Artifact       | Download PURL                                                                              | Latest Versioned Download PURL   |
-|----------------|--------------------------------------------------------------------------------------------|----------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.obo.gz    |                                  |
-| OFN            | https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.ofn.gz    |                                  |
-| Nodes          | https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.tsv.gz    |                                  |
-| SSSOM          | https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.sssom.tsv |                                  |
-| OWL            | https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.owl.gz    |                                  |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.json.gz   |                                  |
+| Artifact       | Download PURL                                                                                             | Latest Versioned Download PURL   |
+|----------------|-----------------------------------------------------------------------------------------------------------|----------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.obo.gz                   |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.ofn.gz                   |                                  |
+| Nodes          | https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.tsv.gz                   |                                  |
+| SSSOM          | https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.sssom.tsv                |                                  |
+| Synonyms       | https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.synonyms.synonyms.tsv.gz |                                  |
+| OWL            | https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.owl.gz                   |                                  |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.json.gz                  |                                  |
 
 ## Summary
 

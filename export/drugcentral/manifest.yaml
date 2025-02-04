@@ -1,0 +1,92 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/drugcentral/drugcentral.tsv
+    path: drugcentral/drugcentral.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/drugcentral/54/drugcentral.tsv
+    version_path: drugcentral/54/drugcentral.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/drugcentral/drugcentral.obo
+    path: drugcentral/drugcentral.obo
+    version_iri: https://w3id.org/biopragmatics/resources/drugcentral/54/drugcentral.obo
+    version_path: drugcentral/54/drugcentral.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/drugcentral/drugcentral.json
+    path: drugcentral/drugcentral.json
+    version_iri: https://w3id.org/biopragmatics/resources/drugcentral/54/drugcentral.json
+    version_path: drugcentral/54/drugcentral.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/drugcentral/drugcentral.ofn
+    path: drugcentral/drugcentral.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/drugcentral/54/drugcentral.ofn
+    version_path: drugcentral/54/drugcentral.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/drugcentral/drugcentral.owl
+    path: drugcentral/drugcentral.owl
+    version_iri: https://w3id.org/biopragmatics/resources/drugcentral/54/drugcentral.owl
+    version_path: drugcentral/54/drugcentral.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/drugcentral/drugcentral.sssom.tsv
+    path: drugcentral/drugcentral.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/drugcentral/54/drugcentral.sssom.tsv
+    version_path: drugcentral/54/drugcentral.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 3267
+    license: CC-BY-SA-4.0
+    mappings: 76519
+    parents: 0
+    properties: 17913
+    references: 0
+    relations: 0
+    synonyms: 19053
+    terms: 4995
+    version: '54'
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/drugcentral/drugcentral.synonyms.tsv
+    path: drugcentral/drugcentral.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/drugcentral/54/drugcentral.synonyms.tsv
+    version_path: drugcentral/54/drugcentral.synonyms.tsv
+prefix_map:
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  ChEMROF: https://chemkg.github.io/chemrof/
+  cas: https://commonchemistry.cas.org/detail?cas_rn=
+  chembl.compound: http://rdf.ebi.ac.uk/resource/chembl/molecule/
+  dcterms: http://purl.org/dc/terms/
+  debio: https://biopragmatics.github.io/debio/
+  drugbank: http://www.drugbank.ca/drugs/
+  drugcentral: http://drugcentral.org/drugcard/
+  inchikey: http://legacy.chemspider.com/inchikey=
+  inn: https://mednet-communities.net/inn/db/ViewINN.aspx?i=
+  iuphar.ligand: http://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=
+  kegg.drug: https://www.kegg.jp/entry/
+  mesh: http://id.nlm.nih.gov/mesh/
+  mmsl: 'https://bioregistry.io/mmsl:'
+  nddf: http://purl.bioontology.org/ontology/NDDF/
+  ndfrt: http://purl.bioontology.org/ontology/NDFRT/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  pdb.ligand: https://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/
+  pubchem.compound: http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rxnorm: https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=
+  skos: http://www.w3.org/2004/02/skos/core#
+  snomedct: http://snomed.info/id/
+  umls: https://uts.nlm.nih.gov/uts/umls/concept/
+  unii: https://precision.fda.gov/uniisearch/srs/unii/
+  vandf: http://purl.bioontology.org/ontology/VANDF/
+  vuid: 'https://bioregistry.io/vuid:'
+  xsd: http://www.w3.org/2001/XMLSchema#

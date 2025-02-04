@@ -1,0 +1,72 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.tsv
+    path: chembl.compound/chembl.compound.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.tsv
+    version_path: chembl.compound/35/chembl.compound.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.obo
+    path: chembl.compound/chembl.compound.obo
+    version_iri: https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.obo
+    version_path: chembl.compound/35/chembl.compound.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.json
+    path: chembl.compound/chembl.compound.json
+    version_iri: https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.json
+    version_path: chembl.compound/35/chembl.compound.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.ofn
+    path: chembl.compound/chembl.compound.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.ofn
+    version_path: chembl.compound/35/chembl.compound.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.owl
+    path: chembl.compound/chembl.compound.owl
+    version_iri: https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.owl
+    version_path: chembl.compound/35/chembl.compound.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.sssom.tsv
+    path: chembl.compound/chembl.compound.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.sssom.tsv
+    version_path: chembl.compound/35/chembl.compound.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: CC-BY-SA-3.0
+    mappings: 42231
+    parents: 0
+    properties: 126692
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 42231
+    version: '35'
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/chembl.compound/chembl.compound.synonyms.tsv
+    path: chembl.compound/chembl.compound.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/chembl.compound/35/chembl.compound.synonyms.tsv
+    version_path: chembl.compound/35/chembl.compound.synonyms.tsv
+prefix_map:
+  ChEMROF: https://chemkg.github.io/chemrof/
+  chembl.compound: http://rdf.ebi.ac.uk/resource/chembl/molecule/
+  dcterms: http://purl.org/dc/terms/
+  inchikey: http://legacy.chemspider.com/inchikey=
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  skos: http://www.w3.org/2004/02/skos/core#
+  xsd: http://www.w3.org/2001/XMLSchema#

@@ -10,7 +10,7 @@
         "val" : "Vaccine administered code set"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-        "val" : "PyOBO v0.12.0-dev-63556853 on 2025-01-13T18:29:04.492669"
+        "val" : "PyOBO v0.12.0-dev-6a0f77c3 on 2025-02-04T22:19:40.668896"
       } ]
     },
     "nodes" : [ {
@@ -19,6 +19,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
+          "synonymType" : "http://purl.obolibrary.org/obo/OMO_0003012",
           "pred" : "hasExactSynonym",
           "val" : "DTP"
         } ],
@@ -40,6 +41,7 @@
       "meta" : {
         "comments" : [ "This is the OPV that was used in the US" ],
         "synonyms" : [ {
+          "synonymType" : "http://purl.obolibrary.org/obo/OMO_0003012",
           "pred" : "hasExactSynonym",
           "val" : "OPV"
         } ],
@@ -60,6 +62,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
+          "synonymType" : "http://purl.obolibrary.org/obo/OMO_0003012",
           "pred" : "hasExactSynonym",
           "val" : "MMR"
         } ],
@@ -80,7 +83,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "M/R"
         } ],
         "basicPropertyValues" : [ {
@@ -99,10 +102,6 @@
       "lbl" : "measles virus vaccine",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "measles"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -119,10 +118,6 @@
       "lbl" : "rubella virus vaccine",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "rubella"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -139,10 +134,6 @@
       "lbl" : "mumps virus vaccine",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "mumps"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -161,7 +152,7 @@
       "meta" : {
         "comments" : [ "This code applies to any standard pediatric formulation of Hepatitis B vaccine. It should not be used for the 2-dose hepatitis B schedule for adolescents (11-15 year olds). Use code 43 for that vaccine." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hep B, adolescent or pediatric"
         } ],
         "basicPropertyValues" : [ {
@@ -181,7 +172,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Td (adult), 2 Lf tetanus toxoid, preservative free, adsorbed"
         } ],
         "basicPropertyValues" : [ {
@@ -201,6 +192,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
+          "synonymType" : "http://purl.obolibrary.org/obo/OMO_0003012",
           "pred" : "hasExactSynonym",
           "val" : "IPV"
         } ],
@@ -221,7 +213,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "pneumococcal conjugate PCV 7"
         } ],
         "basicPropertyValues" : [ {
@@ -241,7 +233,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "typhoid, ViCPs"
         } ],
         "basicPropertyValues" : [ {
@@ -262,7 +254,7 @@
       "meta" : {
         "comments" : [ "This CVX has been corrected. This non-US vaccine contained DTP, Hib and Hep B. It was withdrawn in 2007 ." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "DTP-Hib-Hep B"
         } ],
         "basicPropertyValues" : [ {
@@ -281,10 +273,6 @@
       "lbl" : "meningococcal C conjugate vaccine",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "meningococcal C conjugate"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -302,7 +290,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hep A-Hep B"
         } ],
         "basicPropertyValues" : [ {
@@ -322,7 +310,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "vaccinia (smallpox) diluted"
         } ],
         "basicPropertyValues" : [ {
@@ -342,7 +330,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "DTaP, 5 pertussis antigens"
         } ],
         "basicPropertyValues" : [ {
@@ -363,7 +351,7 @@
       "meta" : {
         "comments" : [ "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a DTaP vaccination when noted on a vaccination card)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "DTaP, unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -384,7 +372,7 @@
       "meta" : {
         "comments" : [ "This CVX is intended for use when one of the meningococcal vaccines containing serogroups A, C, W and Y (conjugate or polysaccaride) was given and the exact formulation was not recorded. It should not be used to record newly administered immunizations. It is not to be used when one of the meningococcal vaccines containing other serogroups was administered." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "meningococcal ACWY, unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -405,7 +393,7 @@
       "meta" : {
         "comments" : [ "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a pneumococcal vaccination when noted on a vaccination card)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "pneumococcal, unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -424,10 +412,6 @@
       "lbl" : "pertussis vaccine",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "pertussis"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -445,7 +429,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "DTaP-Hep B-IPV"
         } ],
         "basicPropertyValues" : [ {
@@ -498,7 +482,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed"
         } ],
         "basicPropertyValues" : [ {
@@ -518,7 +502,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "meningococcal MCV4P"
         } ],
         "basicPropertyValues" : [ {
@@ -538,7 +522,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Tdap"
         } ],
         "basicPropertyValues" : [ {
@@ -558,7 +542,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "rotavirus, pentavalent"
         } ],
         "basicPropertyValues" : [ {
@@ -578,7 +562,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "VZIG (IND)"
         } ],
         "basicPropertyValues" : [ {
@@ -598,7 +582,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "HPV, bivalent"
         } ],
         "basicPropertyValues" : [ {
@@ -618,7 +602,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "rotavirus, monovalent"
         } ],
         "basicPropertyValues" : [ {
@@ -654,7 +638,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "DTaP-Hib-IPV"
         } ],
         "basicPropertyValues" : [ {
@@ -675,7 +659,7 @@
       "meta" : {
         "comments" : [ "Zostavax vaccine associated to this CVX Code retired 10/2022" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "zoster live"
         } ],
         "basicPropertyValues" : [ {
@@ -695,7 +679,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "rotavirus, unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -715,7 +699,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "influenza, H5N1-1203"
         } ],
         "basicPropertyValues" : [ {
@@ -735,7 +719,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Novel Influenza-H1N1-09, nasal"
         } ],
         "basicPropertyValues" : [ {
@@ -755,7 +739,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Novel influenza-H1N1-09, preservative-free"
         } ],
         "basicPropertyValues" : [ {
@@ -775,7 +759,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Novel influenza-H1N1-09"
         } ],
         "basicPropertyValues" : [ {
@@ -795,10 +779,6 @@
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "This code is used whenever the actual formulation is not determined or when aggregating all Novel H1N1 Influenza-09 immunizations for reporting to CRA. It should not be used for seasonal influenza vaccine that is not otherwise specified. (NOS)" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "Novel Influenza-H1N1-09, all formulations"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -817,7 +797,7 @@
       "meta" : {
         "comments" : [ "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a JE vaccination when noted on a vaccination card)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Japanese Encephalitis, unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -837,6 +817,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
+          "synonymType" : "http://purl.obolibrary.org/obo/OMO_0003012",
           "pred" : "hasExactSynonym",
           "val" : "TIG"
         } ],
@@ -857,7 +838,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "DTaP-IPV"
         } ],
         "basicPropertyValues" : [ {
@@ -877,7 +858,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "typhus, historical"
         } ],
         "basicPropertyValues" : [ {
@@ -898,7 +879,7 @@
       "meta" : {
         "comments" : [ "This is not the same as CVX 146, Hexavalent vaccine." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "DTaP-IPV-HIB-HEP B, historical"
         } ],
         "basicPropertyValues" : [ {
@@ -918,7 +899,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Pneumococcal conjugate PCV 13"
         } ],
         "basicPropertyValues" : [ {
@@ -938,7 +919,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Japanese Encephalitis IM"
         } ],
         "basicPropertyValues" : [ {
@@ -959,7 +940,7 @@
       "meta" : {
         "comments" : [ "Trivalent code reactivated for 2024/2025 season" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Influenza, high-dose, trivalent, PF"
         } ],
         "basicPropertyValues" : [ {
@@ -979,7 +960,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Meningococcal MCV4O"
         } ],
         "basicPropertyValues" : [ {
@@ -1017,7 +998,7 @@
       "meta" : {
         "comments" : [ "Note that this Td is not adsorbed." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Td (adult)"
         } ],
         "basicPropertyValues" : [ {
@@ -1054,7 +1035,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "IG, unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -1075,7 +1056,7 @@
       "meta" : {
         "comments" : [ "Trivalent code reactivated for 2024/2025 season" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Influenza, split virus, trivalent, PF"
         } ],
         "basicPropertyValues" : [ {
@@ -1096,7 +1077,7 @@
       "meta" : {
         "comments" : [ "Trivalent code reactivated for 2024/2025 season" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Influenza, split virus, trivalent, preservative"
         } ],
         "basicPropertyValues" : [ {
@@ -1133,7 +1114,7 @@
       "meta" : {
         "comments" : [ "This vaccine is administered as 2 tablets." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Adenovirus types 4 and 7"
         } ],
         "basicPropertyValues" : [ {
@@ -1154,7 +1135,7 @@
       "meta" : {
         "comments" : [ "IIV3. No US product available since 2014/2015 flu season" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "influenza, seasonal, intradermal, preservative free"
         } ],
         "basicPropertyValues" : [ {
@@ -1174,7 +1155,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "RSV-MAb (new)"
         } ],
         "basicPropertyValues" : [ {
@@ -1195,7 +1176,7 @@
       "meta" : {
         "comments" : [ "This vaccine is different from CVX 132. Code may be used to document non-US vaccines (e.g. Hexamin) of the same component formulation" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "DTaP,IPV,Hib,HepB"
         } ],
         "basicPropertyValues" : [ {
@@ -1216,7 +1197,7 @@
       "meta" : {
         "comments" : [ "This CVX should only be used for historical doses of meningococcal conjugate vaccine where the formulation is unknown (oligosaccharide vs polysaccharide). It is not the same as CVX 108, Meningococcal, unspecified formulation. This CVX is for unspecified Meningococcal conjugate vaccines." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "meningococcal MCV4, unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -1236,7 +1217,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Meningococcal C/Y-HIB PRP"
         } ],
         "basicPropertyValues" : [ {
@@ -1274,7 +1255,7 @@
       "meta" : {
         "comments" : [ "This code is being retired. It will still be found in older immunization records. It included both preservative free and non-preservative free." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "influenza, split (incl. purified surface antigen)"
         } ],
         "basicPropertyValues" : [ {
@@ -1293,7 +1274,7 @@
       "meta" : {
         "comments" : [ "Quadrivalent code starting 2013/2014 season" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Influenza, split virus, quadrivalent, PF"
         } ],
         "basicPropertyValues" : [ {
@@ -1348,7 +1329,7 @@
       "meta" : {
         "comments" : [ "Trivalent code reactivated for 2024/2025 season" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Influenza, MDCK, trivalent, PF"
         } ],
         "basicPropertyValues" : [ {
@@ -1369,7 +1350,7 @@
       "meta" : {
         "comments" : [ "Do not use this code. This product may be used for Hep A and other viral infections. The correct vaccine / CVX is 86 (IG)." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hep A, IG"
         } ],
         "basicPropertyValues" : [ {
@@ -1391,7 +1372,7 @@
       "meta" : {
         "comments" : [ "Trivalent code reactivated for 2024/2025 season" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Influenza, recombinant, trivalent, PF"
         } ],
         "basicPropertyValues" : [ {
@@ -1412,7 +1393,7 @@
       "meta" : {
         "comments" : [ "This immune globulin may be administered either IM or IV." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Rho(D)-IG"
         } ],
         "basicPropertyValues" : [ {
@@ -1433,7 +1414,7 @@
       "meta" : {
         "comments" : [ "This immune globulin may be administered IM only." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Rho(D) -IG IM"
         } ],
         "basicPropertyValues" : [ {
@@ -1454,7 +1435,7 @@
       "meta" : {
         "comments" : [ "Quadrivalent code starting 2013/2014 season" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Influenza, split virus, quadrivalent, preservative"
         } ],
         "basicPropertyValues" : [ {
@@ -1474,7 +1455,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Rho(D) - Unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -1494,7 +1475,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "influenza, whole"
         } ],
         "basicPropertyValues" : [ {
@@ -1515,7 +1496,7 @@
       "meta" : {
         "comments" : [ "Approved by FDA 2013, adjuvant is mixed at point of administration." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Influenza A monovalent (H5N1), ADJUVANTED-2013"
         } ],
         "basicPropertyValues" : [ {
@@ -1551,7 +1532,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "meningococcal B, recombinant"
         } ],
         "basicPropertyValues" : [ {
@@ -1571,7 +1552,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "meningococcal B, OMV"
         } ],
         "basicPropertyValues" : [ {
@@ -1591,7 +1572,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "meningococcal B, unspecified"
         } ],
         "basicPropertyValues" : [ {
@@ -1611,7 +1592,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "HPV9"
         } ],
         "basicPropertyValues" : [ {
@@ -1632,7 +1613,7 @@
       "meta" : {
         "comments" : [ "No US product available since 2017/2018 flu season" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "influenza, intradermal, quadrivalent, preservative free"
         } ],
         "basicPropertyValues" : [ {
@@ -1653,7 +1634,7 @@
       "meta" : {
         "comments" : [ "This CVX is intended for use when any one of the meningococcal vaccines is recorded and there is no information about which serogroups are protected against. This code should not be used when a newly administered immunization is recorded." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "meningococcal, unknown serogroups"
         } ],
         "basicPropertyValues" : [ {
@@ -1674,7 +1655,7 @@
       "meta" : {
         "comments" : [ "Trivalent code reactivated for 2024/2025 season" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Influenza, adjuvanted, trivalent, PF"
         } ],
         "basicPropertyValues" : [ {
@@ -1695,7 +1676,7 @@
       "meta" : {
         "comments" : [ "This vaccine is not available in the US." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hep A, live attenuated"
         } ],
         "basicPropertyValues" : [ {
@@ -1715,7 +1696,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hib, unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -1736,7 +1717,7 @@
       "meta" : {
         "comments" : [ "This CVX was split off from CVX 102, to correctly identify the contents of the vaccine." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "DTAP/IPV/HIB - non-US"
         } ],
         "basicPropertyValues" : [ {
@@ -1757,7 +1738,7 @@
       "meta" : {
         "comments" : [ "Quadrivalent code starting 2016/2017 season" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Influenza, MDCK, quadrivalent, PF"
         } ],
         "basicPropertyValues" : [ {
@@ -1825,7 +1806,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Rabies - IM Diploid cell culture"
         } ],
         "basicPropertyValues" : [ {
@@ -1845,7 +1826,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Rabies - IM fibroblast culture"
         } ],
         "basicPropertyValues" : [ {
@@ -1866,7 +1847,7 @@
       "meta" : {
         "comments" : [ "This is a foreign vaccine" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "PCV10"
         } ],
         "basicPropertyValues" : [ {
@@ -1887,7 +1868,7 @@
       "meta" : {
         "comments" : [ "This is a non-US vaccine that may be seen in some immunization histories." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "OPV bivalent"
         } ],
         "basicPropertyValues" : [ {
@@ -1908,7 +1889,7 @@
       "meta" : {
         "comments" : [ "This is a non-US vaccine that may be seen in some immunization histories. It is composed of either Type 1, Type 2 or Type 3 oral polio vaccine." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "OPV ,monovalent, unspecified"
         } ],
         "basicPropertyValues" : [ {
@@ -1929,7 +1910,7 @@
       "meta" : {
         "comments" : [ "This CVX code has been retired. It is replace by CVX 175,  or CVX 176. It will continue to be found in historic records." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "rabies, intramuscular injection"
         } ],
         "basicPropertyValues" : [ {
@@ -1984,7 +1965,7 @@
       "meta" : {
         "comments" : [ "This code represents an oral polio vaccine where the specific formulation is unknown." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "OPV, Unspecified"
         } ],
         "basicPropertyValues" : [ {
@@ -2005,7 +1986,7 @@
       "meta" : {
         "comments" : [ "This CVX is associated to an FDA unapproved drug to be used when there is a drug shortage. Stabilized with sorbitol and lactose and has been used outside the US for some time." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Yellow fever vaccine live - alt"
         } ],
         "basicPropertyValues" : [ {
@@ -2025,7 +2006,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Yellow fever, unspecified"
         } ],
         "basicPropertyValues" : [ {
@@ -2046,7 +2027,7 @@
       "meta" : {
         "comments" : [ "Quadrivalent code starting 2017/2018 season" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Influenza, recombinant, quadrivalent, PF"
         } ],
         "basicPropertyValues" : [ {
@@ -2067,7 +2048,7 @@
       "meta" : {
         "comments" : [ "Quadrivalent code starting 2017/2018 season" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Influenza, MDCK, quadrivalent, preservative"
         } ],
         "basicPropertyValues" : [ {
@@ -2086,10 +2067,6 @@
       "lbl" : "zoster vaccine recombinant",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "zoster recombinant"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -2108,7 +2085,7 @@
       "meta" : {
         "comments" : [ "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a zoster vaccination when noted on a vaccination card)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "zoster, unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -2128,7 +2105,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "HepB-CpG"
         } ],
         "basicPropertyValues" : [ {
@@ -2148,6 +2125,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
+          "synonymType" : "http://purl.obolibrary.org/obo/OMO_0003012",
           "pred" : "hasExactSynonym",
           "val" : "BCG"
         } ],
@@ -2168,7 +2146,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Typhoid conjugate vaccine (TCV)"
         } ],
         "basicPropertyValues" : [ {
@@ -2187,10 +2165,6 @@
       "lbl" : "meningococcal A polysaccharide vaccine (non-US)",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "meningococcal A polysaccharide (non-US)"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -2207,10 +2181,6 @@
       "lbl" : "meningococcal AC polysaccharide vaccine (non-US)",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "meningococcal AC polysaccharide (non-US)"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -2229,7 +2199,7 @@
       "meta" : {
         "comments" : [ "e.g. Twinrix Junior available in Canada" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hep A-Hep B, pediatric/adolescent"
         } ],
         "basicPropertyValues" : [ {
@@ -2250,7 +2220,7 @@
       "meta" : {
         "comments" : [ "This CVX code should be used to record administration of Southern Hemisphere influenza vaccine where formulation is unknown" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Influenza, Southern Hemisphere"
         } ],
         "basicPropertyValues" : [ {
@@ -2271,7 +2241,7 @@
       "meta" : {
         "comments" : [ "This code should be used to document non-US vaccines for DT,IPV such as Revaxis" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "DT, IPV adsorbed"
         } ],
         "basicPropertyValues" : [ {
@@ -2292,7 +2262,7 @@
       "meta" : {
         "comments" : [ "Used when Td Lf specification is unknown" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Td, adsorbed, preservative free, adult use, Lf unspecified"
         } ],
         "basicPropertyValues" : [ {
@@ -2313,7 +2283,7 @@
       "meta" : {
         "comments" : [ "Quadrivalent code starting season 2020/2021" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Influenza, high-dose, quadrivalent, PF"
         } ],
         "basicPropertyValues" : [ {
@@ -2334,7 +2304,7 @@
       "meta" : {
         "comments" : [ "This represents the non-US pentavalent vaccine.  Should be used for historic documentation in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "DTP-hepB-Hib Pentavalent Non-US"
         } ],
         "basicPropertyValues" : [ {
@@ -2354,7 +2324,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "DTaP"
         } ],
         "basicPropertyValues" : [ {
@@ -2375,7 +2345,7 @@
       "meta" : {
         "comments" : [ "Pediatric dose for ages 6-35 months" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "influenza, Southern Hemisphere, pediatric, preservative free"
         } ],
         "basicPropertyValues" : [ {
@@ -2396,7 +2366,7 @@
       "meta" : {
         "comments" : [ "Represents single dose vial" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "influenza, Southern Hemisphere, preservative free"
         } ],
         "basicPropertyValues" : [ {
@@ -2417,7 +2387,7 @@
       "meta" : {
         "comments" : [ "Represents multi-dose vial" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "influenza, Southern Hemisphere, quadrivalent, with preservative"
         } ],
         "basicPropertyValues" : [ {
@@ -2437,7 +2407,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "meningococcal conjugate quadrivalent, MenACWY-TT (MCV4)"
         } ],
         "basicPropertyValues" : [ {
@@ -2475,7 +2445,7 @@
       "meta" : {
         "comments" : [ "Quadrivalent code starting 2020/2021 season" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Influenza, adjuvanted, quadrivalent, PF"
         } ],
         "basicPropertyValues" : [ {
@@ -2496,7 +2466,7 @@
       "meta" : {
         "comments" : [ "Associated to FDA US Licensed product JYNNEOS, non-US tradenames IMVANEX, IMVAMUNE. Review CDC & FDA guidance for updates regarding administration" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection"
         } ],
         "basicPropertyValues" : [ {
@@ -2517,7 +2487,7 @@
       "meta" : {
         "comments" : [ "Original monovalent Moderna adult vaccine. FDA rescinded all doses for US use 4/18/2023. Continue to used to record historic US Moderna vaccines and those administered in non-US locations (includes tradename Spikevax)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose"
         } ],
         "basicPropertyValues" : [ {
@@ -2538,7 +2508,7 @@
       "meta" : {
         "comments" : [ "Original monovalent Pfizer adult vaccine (12+ yrs). FDA rescinded all doses for US use 4/18/2023.  Continue to use to record historic US Pfizer vaccines and Non-US vaccines administered (includes tradename Comirnaty)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose"
         } ],
         "basicPropertyValues" : [ {
@@ -2557,10 +2527,6 @@
       "lbl" : "varicella virus vaccine",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "varicella"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -2579,7 +2545,7 @@
       "meta" : {
         "comments" : [ "WHO authorized pandemic vaccine.  Recognized towards immunity in US.  AstraZeneca vaccine non-US WHO authorized tradenames/identifiers include VAXZEVRIA, AZD1222, ChAdOx1 nCoV-19, COVISHIELD" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19 vaccine, vector-nr, rS-ChAdOx1, PF, 0.5 mL"
         } ],
         "basicPropertyValues" : [ {
@@ -2600,7 +2566,7 @@
       "meta" : {
         "comments" : [ "Original monovalent Novavax vaccine (12+ years), FDA rescinded for US doses 10/03/2023. Continue to use to record Novavax Non-US vaccines administered (includes tradenames NUVAXOVID, COVOVAX)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, subunit, rS-nanoparticle+Matrix-M1 Adjuvant, PF, 0.5 mL"
         } ],
         "basicPropertyValues" : [ {
@@ -2621,7 +2587,7 @@
       "meta" : {
         "comments" : [ "Original monovalent Janssen/J&J adult vaccine. All NDCs expired 6/20/2023, not reauthorized by FDA for Fall 2023 US doses. Continue to use to record Jansses/J&J Non-US vaccines administered vaccines administered" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19 vaccine, vector-nr, rS-Ad26, PF, 0.5 mL"
         } ],
         "basicPropertyValues" : [ {
@@ -2674,7 +2640,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Pneumococcal conjugate PCV15, polysaccharide CRM197 conjugate, adjuvant, PF"
         } ],
         "basicPropertyValues" : [ {
@@ -2694,7 +2660,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Pneumococcal conjugate PCV20, polysaccharide CRM197 conjugate, adjuvant, PF"
         } ],
         "basicPropertyValues" : [ {
@@ -2715,7 +2681,7 @@
       "meta" : {
         "comments" : [ "Original monovalent Pfizer tris-sucrose formulation FDA EUA (12+ yrs) and BLA (16+ yrs), FDA rescinded monovalent use 08/31/2022, BLA NDCs not retired until 09/11/2023." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose, tris-sucrose"
         } ],
         "basicPropertyValues" : [ {
@@ -2736,7 +2702,7 @@
       "meta" : {
         "comments" : [ "Original monovalent Pfizer tris-sucrose formulation (5 yrs through 11 yrs), FDA rescinded 4/18/2023" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL dose, tris-sucrose"
         } ],
         "basicPropertyValues" : [ {
@@ -2757,7 +2723,7 @@
       "meta" : {
         "comments" : [ "Original monovalent Pfizer tris-sucrose formulation (6 mo through 4 yrs), FDA rescinded 4/18/2023" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, mRNA, LNP-S, PF, 3 mcg/0.2 mL dose, tris-sucrose"
         } ],
         "basicPropertyValues" : [ {
@@ -2777,7 +2743,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "DTP-Hib"
         } ],
         "basicPropertyValues" : [ {
@@ -2798,7 +2764,7 @@
       "meta" : {
         "comments" : [ "Manufacturer VBI has ceased operations - Prehevbrio Hep B vaccine voluntary recall effective 11/15/2024" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "HepB recombinant, 3-antigen, Al(OH)3"
         } ],
         "basicPropertyValues" : [ {
@@ -2819,7 +2785,7 @@
       "meta" : {
         "comments" : [ "Original monovalent Moderna, (Adult) FDA rescinded 4/18/2023, (6 yrs through 11 yrs) FDA rescinded 04/18/2023" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL dose"
         } ],
         "basicPropertyValues" : [ {
@@ -2840,7 +2806,7 @@
       "meta" : {
         "comments" : [ "Unspecified Code - should only be used when specific vaccine administered is unknown" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Tick-borne encephalitis, unspecified"
         } ],
         "basicPropertyValues" : [ {
@@ -2861,7 +2827,7 @@
       "meta" : {
         "comments" : [ "Pediatric dose vaccine" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Tick-borne encephalitis, inactivated, PF, 0.25mL"
         } ],
         "basicPropertyValues" : [ {
@@ -2882,7 +2848,7 @@
       "meta" : {
         "comments" : [ "Adult dose vaccine" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Tick-borne encephalitis, inactivated, PF, 0.5mL"
         } ],
         "basicPropertyValues" : [ {
@@ -2903,7 +2869,7 @@
       "meta" : {
         "comments" : [ "EUA submission withdrawn by Sanofi" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, D614, recomb, preS dTM, AS03 adjuvant add, PF, 5mcg/0.5mL"
         } ],
         "basicPropertyValues" : [ {
@@ -2924,7 +2890,7 @@
       "meta" : {
         "comments" : [ "EUA submission withdrawn by Sanofi" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, D614, recomb, preS dTM, AS03 adjuvant add, PF, 10mcg/0.5mL"
         } ],
         "basicPropertyValues" : [ {
@@ -2945,7 +2911,7 @@
       "meta" : {
         "comments" : [ "Original monovalent Moderna pediatric vaccine (FDA rescinded 4/18/2023). Inactivated 6/14/2022 to use CVX code 221 product instead" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, mRNA, LNP-S, PF, pediatric 50 mcg/0.5 mL dose"
         } ],
         "basicPropertyValues" : [ {
@@ -2966,7 +2932,7 @@
       "meta" : {
         "comments" : [ "Original monovalent Moderna pediatric vaccine (6 mo through 5 yrs), FDA rescinded 4/18/2023" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, mRNA, LNP-S, PF, pediatric 25 mcg/0.25 mL dose"
         } ],
         "basicPropertyValues" : [ {
@@ -2987,7 +2953,7 @@
       "meta" : {
         "comments" : [ "Original strain + omicron BA.4/BA.5 bivalent Moderna vaccine (6 mo and older), FDA rescinded 9/11/2023.  Continue to use to record Non-US vaccines administered (tradename Spikevax Bivalent)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, mRNA, LNP-S, bivalent, PF, 50 mcg/0.5 mL or 25mcg/0.25 mL dose"
         } ],
         "basicPropertyValues" : [ {
@@ -3006,10 +2972,6 @@
       "lbl" : "plague vaccine",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "plague"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -3028,7 +2990,7 @@
       "meta" : {
         "comments" : [ "Original strain + omicron BA.4/BA.5 bivalent Moderna vaccine (6 mo through 5 yrs), FDA rescinded 9/11/2023" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, mRNA, LNP-S, bivalent, PF, 10 mcg/0.2 mL"
         } ],
         "basicPropertyValues" : [ {
@@ -3049,7 +3011,7 @@
       "meta" : {
         "comments" : [ "Target population 65 and older, starting Southern Hemisphere season 2023" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "influenza, Southern Hemisphere, high-dose, quadrivalent"
         } ],
         "basicPropertyValues" : [ {
@@ -3069,7 +3031,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Anthrax, pre-exposure prophylaxis, post-exposure prophylaxis"
         } ],
         "basicPropertyValues" : [ {
@@ -3089,7 +3051,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "typhoid, oral"
         } ],
         "basicPropertyValues" : [ {
@@ -3109,7 +3071,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "cholera, unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -3146,7 +3108,7 @@
       "meta" : {
         "comments" : [ "Retired effective 04/30/2023.  All vaccine NDCs retired.  No further vaccines expected for this formulation." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "DT (pediatric)"
         } ],
         "basicPropertyValues" : [ {
@@ -3166,6 +3128,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
+          "synonymType" : "http://purl.obolibrary.org/obo/OMO_0003012",
           "pred" : "hasExactSynonym",
           "val" : "CMVIG"
         } ],
@@ -3186,6 +3149,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
+          "synonymType" : "http://purl.obolibrary.org/obo/OMO_0003012",
           "pred" : "hasExactSynonym",
           "val" : "HBIG"
         } ],
@@ -3207,7 +3171,7 @@
       "meta" : {
         "comments" : [ "Original strain + omicron BA.4/BA.5 bivalent Pfizer vaccine (12 yrs and older). FDA rescinded 09/11/2023.  Continue to use to record Non-US vaccines administered (tradename Comirnaty Bivalent)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, mRNA, LNP-S, bivalent, PF, 30 mcg/0.3 mL dose"
         } ],
         "basicPropertyValues" : [ {
@@ -3228,7 +3192,7 @@
       "meta" : {
         "comments" : [ "Original strain + omicron BA.4/BA.5 bivalent Pfizer vaccine (5 yrs through 11 yrs), FDA rescinded 9/11/2023" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, mRNA, LNP-S, bivalent, PF, 10 mcg/0.2 mL dose"
         } ],
         "basicPropertyValues" : [ {
@@ -3249,7 +3213,7 @@
       "meta" : {
         "comments" : [ "Original strain + omicron BA.4/BA.5 bivalent Pfizer vaccine (6 mo through 4 yrs), FDA rescinded 09/11/2023" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, mRNA, LNP-S, bivalent, PF, 3 mcg/0.2 mL dose"
         } ],
         "basicPropertyValues" : [ {
@@ -3270,7 +3234,7 @@
       "meta" : {
         "comments" : [ "Adults 60 years and older" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF"
         } ],
         "basicPropertyValues" : [ {
@@ -3308,7 +3272,7 @@
       "meta" : {
         "comments" : [ "Adults 60 years and older, pregnant individuals" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF"
         } ],
         "basicPropertyValues" : [ {
@@ -3329,7 +3293,7 @@
       "meta" : {
         "comments" : [ "RSV monoclonal antibody (Beyfortus)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months"
         } ],
         "basicPropertyValues" : [ {
@@ -3350,7 +3314,7 @@
       "meta" : {
         "comments" : [ "RSV monoclonal antibody (Beyfortus)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "RSV, mAb, nirsevimab-alip, 1 mL, neonate to 24 months"
         } ],
         "basicPropertyValues" : [ {
@@ -3371,7 +3335,7 @@
       "meta" : {
         "comments" : [ "Pfizer Fall Seasonal 6 months through 4 years of age" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL"
         } ],
         "basicPropertyValues" : [ {
@@ -3392,7 +3356,7 @@
       "meta" : {
         "comments" : [ "Pfizer Fall Seasonal 12 years and older" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 30 mcg/0.3 mL"
         } ],
         "basicPropertyValues" : [ {
@@ -3413,7 +3377,7 @@
       "meta" : {
         "comments" : [ "Do NOT use this code.  If formulation is unknown, use CVX 85.  There is only one formulation of Hep A, peds." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hep A, pediatric, unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -3435,7 +3399,7 @@
       "meta" : {
         "comments" : [ "Pfizer Fall Seasonal 5 years through 11 years of age" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 10 mcg/0.3 mL"
         } ],
         "basicPropertyValues" : [ {
@@ -3456,7 +3420,7 @@
       "meta" : {
         "comments" : [ "Moderna Fall Seasonal 6 months through 11 years of age" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, mRNA, LNP-S, PF, 25 mcg/0.25 mL"
         } ],
         "basicPropertyValues" : [ {
@@ -3477,7 +3441,7 @@
       "meta" : {
         "comments" : [ "Moderna Fall Seasonal 12 years and older" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL"
         } ],
         "basicPropertyValues" : [ {
@@ -3498,7 +3462,7 @@
       "meta" : {
         "comments" : [ "Novavax Fall Seasonal 12 years and older" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, subunit, rS-nanoparticle, adjuvanted, PF, 5 mcg/0.5 mL"
         } ],
         "basicPropertyValues" : [ {
@@ -3536,7 +3500,7 @@
       "meta" : {
         "comments" : [ "Unspecified, for historic records where the specific RSV MAB administered is not known" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Respiratory syncytial virus (RSV) MAB, unspecified"
         } ],
         "basicPropertyValues" : [ {
@@ -3557,7 +3521,7 @@
       "meta" : {
         "comments" : [ "Meningococcal pentavalent vaccine strains ABCW and Y" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF"
         } ],
         "basicPropertyValues" : [ {
@@ -3578,7 +3542,7 @@
       "meta" : {
         "comments" : [ "Chikungunya Vaccine" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Chikungunya live attenuated vaccine, 0.5 mL, PF"
         } ],
         "basicPropertyValues" : [ {
@@ -3599,7 +3563,7 @@
       "meta" : {
         "comments" : [ "National stockpile vaccine (Cyfendus)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Anthrax, post-exposure prophylaxis"
         } ],
         "basicPropertyValues" : [ {
@@ -3636,7 +3600,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "meningococcal MPSV4"
         } ],
         "basicPropertyValues" : [ {
@@ -3657,7 +3621,7 @@
       "meta" : {
         "comments" : [ "Trivalent code starting 2024/2025 season" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Influenza, MDCK, trivalent, preservative"
         } ],
         "basicPropertyValues" : [ {
@@ -3678,7 +3642,7 @@
       "meta" : {
         "comments" : [ "Novel Bird Flu H5N8 Vaccine 2024" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Influenza-avian, H5N8, monovalent, PF"
         } ],
         "basicPropertyValues" : [ {
@@ -3699,7 +3663,7 @@
       "meta" : {
         "comments" : [ "Novel Bird Flu H5N8 Vaccine 2024" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Influenza-avian, H5N8, monovalent, preservative"
         } ],
         "basicPropertyValues" : [ {
@@ -3754,7 +3718,7 @@
       "meta" : {
         "comments" : [ "mRNA RSV vaccine added 2024" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "RSV, mRNA, injectable, PF"
         } ],
         "basicPropertyValues" : [ {
@@ -3774,7 +3738,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Pneumococcal conjugate PCV21, polysaccharide CRM197 conjugate, PF"
         } ],
         "basicPropertyValues" : [ {
@@ -3794,7 +3758,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "pneumococcal polysaccharide PPV23"
         } ],
         "basicPropertyValues" : [ {
@@ -3814,6 +3778,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
+          "synonymType" : "http://purl.obolibrary.org/obo/OMO_0003012",
           "pred" : "hasExactSynonym",
           "val" : "RIG"
         } ],
@@ -3850,6 +3815,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
+          "synonymType" : "http://purl.obolibrary.org/obo/OMO_0003012",
           "pred" : "hasExactSynonym",
           "val" : "VZIG"
         } ],
@@ -3870,10 +3836,6 @@
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "This is the YF vaccine that has been available in the US for years. It is stabilized with sorbitol and gelatin." ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "yellow fever live"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -3891,7 +3853,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "rubella/mumps"
         } ],
         "basicPropertyValues" : [ {
@@ -3910,10 +3872,6 @@
       "lbl" : "Japanese Encephalitis Vaccine SC",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "Japanese encephalitis SC"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -3931,7 +3889,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "rabies, intradermal injection"
         } ],
         "basicPropertyValues" : [ {
@@ -3951,7 +3909,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "typhoid, parenteral"
         } ],
         "basicPropertyValues" : [ {
@@ -3972,7 +3930,7 @@
       "meta" : {
         "comments" : [ "As of August 27, 1998, Merck ceased distribution of their adolescent/high risk infant hepatitis B vaccine dosage. Code 42 should only be used to record historical records. For current administration of hepatitis B vaccine, pediatric/adolescent dosage, use code 08." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hep B, adolescent/high risk infant"
         } ],
         "basicPropertyValues" : [ {
@@ -3993,7 +3951,7 @@
       "meta" : {
         "comments" : [ "This code applies to any standard adult dose and schedule. Also use CVX 43 for the FDA approved Recombivax HB 2-dose hepatitis B schedule for adolescents (11-15 year olds) using the adult formulation." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hep B, adult"
         } ],
         "basicPropertyValues" : [ {
@@ -4014,7 +3972,7 @@
       "meta" : {
         "comments" : [ "This code is used record patient high dosage vaccine administration for dialysis or immunocompromised patients. For NDCs that are used for both regular vaccine and dialysis/IC high-dosage schedules (e.g. Engerix-B), are mapped to both CVX 43 and CVX 44. CVX code 44 should be utilized to record dialysis/IC dosing." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hep B, high-dosage, dialysis or IC"
         } ],
         "basicPropertyValues" : [ {
@@ -4035,7 +3993,7 @@
       "meta" : {
         "comments" : [ "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a HepB vaccination when noted on a vaccination card)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hep B, unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -4055,7 +4013,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hib (PRP-D)"
         } ],
         "basicPropertyValues" : [ {
@@ -4075,7 +4033,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hib (HbOC)"
         } ],
         "basicPropertyValues" : [ {
@@ -4095,7 +4053,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hib (PRP-T)"
         } ],
         "basicPropertyValues" : [ {
@@ -4115,7 +4073,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hib (PRP-OMP)"
         } ],
         "basicPropertyValues" : [ {
@@ -4135,7 +4093,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "DTaP-Hib"
         } ],
         "basicPropertyValues" : [ {
@@ -4156,7 +4114,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Covid Administration - specific CVX or product unknown" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19 Non-US Vaccine, Product Unknown"
         } ],
         "basicPropertyValues" : [ {
@@ -4177,7 +4135,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19 IV Non-US Vaccine (QAZCOVID-IN)"
         } ],
         "basicPropertyValues" : [ {
@@ -4198,7 +4156,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine Authorized by WHO 11-3-2021, recognized toward immunity in US, https://extranet.who.int/pqweb/vaccines/who-recommendation-bharat-biotech-international-ltd-covid-19-vaccine-whole-virion" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19 IV Non-US Vaccine (COVAXIN)"
         } ],
         "basicPropertyValues" : [ {
@@ -4219,7 +4177,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19 LAV Non-US Vaccine (COVIVAC)"
         } ],
         "basicPropertyValues" : [ {
@@ -4240,7 +4198,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19 VVnr Non-US Vaccine (Sputnik Light)"
         } ],
         "basicPropertyValues" : [ {
@@ -4261,7 +4219,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19 VVnr Non-US Vaccine (Sputnik V)"
         } ],
         "basicPropertyValues" : [ {
@@ -4282,7 +4240,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine. Authorized by WHO 5/19/2022 - Counted toward immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19 VVnr Non-US Vaccine (CanSino Biological Inc./Beijing Institute of Biotechnology"
         } ],
         "basicPropertyValues" : [ {
@@ -4303,7 +4261,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom Biopharm + Inst of Micro, Chinese Acad of Sciences)"
         } ],
         "basicPropertyValues" : [ {
@@ -4324,7 +4282,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19 PS Non-US Vaccine (Jiangsu Province Centers for Disease Control and Prevention)"
         } ],
         "basicPropertyValues" : [ {
@@ -4345,7 +4303,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward  immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19 PS Non-US Vaccine (EpiVacCorona)"
         } ],
         "basicPropertyValues" : [ {
@@ -4366,7 +4324,7 @@
       "meta" : {
         "comments" : [ "This vaccine may still be in use until the existing lots expire on 8/19/16." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hib-Hep B"
         } ],
         "basicPropertyValues" : [ {
@@ -4387,7 +4345,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine. Authorized by WHO - Counted toward immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19 IV Non-US Vaccine (BIBP, Sinopharm)"
         } ],
         "basicPropertyValues" : [ {
@@ -4408,7 +4366,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine. Authorized by WHO - Counted toward immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19 IV Non-US Vaccine (CoronaVac, Sinovac)"
         } ],
         "basicPropertyValues" : [ {
@@ -4429,7 +4387,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine not Authorized by WHO - ACIP does recognize towards immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "SARS-COV-2 COVID-19 VLP Non-US Vaccine (Medicago, Covifenz)"
         } ],
         "basicPropertyValues" : [ {
@@ -4450,7 +4408,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "SARS-COV-2 COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom, Zifivax)"
         } ],
         "basicPropertyValues" : [ {
@@ -4471,7 +4429,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "SARS-COV-2 COVID-19 DNA Non-US Vaccine (Zydus Cadila, ZyCoV-D)"
         } ],
         "basicPropertyValues" : [ {
@@ -4492,7 +4450,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "SARS-COV-2 COVID-19 PS Non-US Vaccine (Medigen, MVC-COV1901)"
         } ],
         "basicPropertyValues" : [ {
@@ -4513,7 +4471,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COV-2 COVID-19 Inactivated Non-US Vaccine Product (Minhai Biotechnology Co, KCONVAC)"
         } ],
         "basicPropertyValues" : [ {
@@ -4534,7 +4492,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "SARS-COV-2 COVID-19 PS Non-US Vaccine (Biological E Limited, Corbevax)"
         } ],
         "basicPropertyValues" : [ {
@@ -4555,7 +4513,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19 Inactivated, Non-US Vaccine (VLA2001, Valneva)"
         } ],
         "basicPropertyValues" : [ {
@@ -4576,7 +4534,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine not Authorized by WHO - Is authorized by EU and counted toward immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine (Spikevax Bivalent), Moderna"
         } ],
         "basicPropertyValues" : [ {
@@ -4596,7 +4554,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hep A, adult"
         } ],
         "basicPropertyValues" : [ {
@@ -4617,7 +4575,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine. Authorized by WHO 10/19/2022 - Counted toward immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine Product, Pfizer-BioNTech"
         } ],
         "basicPropertyValues" : [ {
@@ -4638,7 +4596,7 @@
       "meta" : {
         "comments" : [ "Pandemic Non-US Vaccine not Authorized by WHO - not counted toward immunity in US" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "COVID-19 SP, protein-based, adjuvanted (VidPrevtyn Beta), Sanofi-GSK"
         } ],
         "basicPropertyValues" : [ {
@@ -4658,7 +4616,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "typhoid, parenteral, AKD (U.S. military)"
         } ],
         "basicPropertyValues" : [ {
@@ -4678,7 +4636,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "adenovirus, type 4"
         } ],
         "basicPropertyValues" : [ {
@@ -4698,7 +4656,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "adenovirus, type 7"
         } ],
         "basicPropertyValues" : [ {
@@ -4719,7 +4677,7 @@
       "meta" : {
         "comments" : [ "Applies to tetravalent product (e.g. DENGVAXIA)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "dengue fever tetravalent"
         } ],
         "basicPropertyValues" : [ {
@@ -4739,7 +4697,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "hantavirus"
         } ],
         "basicPropertyValues" : [ {
@@ -4759,7 +4717,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hep C"
         } ],
         "basicPropertyValues" : [ {
@@ -4779,7 +4737,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hep E"
         } ],
         "basicPropertyValues" : [ {
@@ -4799,7 +4757,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "herpes simplex 2"
         } ],
         "basicPropertyValues" : [ {
@@ -4819,6 +4777,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
+          "synonymType" : "http://purl.obolibrary.org/obo/OMO_0003012",
           "pred" : "hasExactSynonym",
           "val" : "HIV"
         } ],
@@ -4839,7 +4798,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "HPV, quadrivalent"
         } ],
         "basicPropertyValues" : [ {
@@ -4859,7 +4818,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Junin virus"
         } ],
         "basicPropertyValues" : [ {
@@ -4878,10 +4837,6 @@
       "lbl" : "leishmaniasis vaccine",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "leishmaniasis"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -4898,10 +4853,6 @@
       "lbl" : "leprosy vaccine",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "leprosy"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -4918,10 +4869,6 @@
       "lbl" : "Lyme disease vaccine",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "Lyme disease"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -4938,10 +4885,6 @@
       "lbl" : "malaria vaccine",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "malaria"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -4958,10 +4901,6 @@
       "lbl" : "melanoma vaccine",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "melanoma"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -4978,10 +4917,6 @@
       "lbl" : "parainfluenza-3 virus vaccine",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "parainfluenza-3"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -4998,10 +4933,6 @@
       "lbl" : "Q fever vaccine",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "Q fever"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -5020,7 +4951,7 @@
       "meta" : {
         "comments" : [ "No active NDCs or CPT codes associated to this CVX" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "RSV-IGIV"
         } ],
         "basicPropertyValues" : [ {
@@ -5039,10 +4970,6 @@
       "lbl" : "rheumatic fever vaccine",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "rheumatic fever"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -5059,10 +4986,6 @@
       "lbl" : "Rift Valley fever vaccine",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "Rift Valley fever"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -5080,7 +5003,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "rotavirus, tetravalent"
         } ],
         "basicPropertyValues" : [ {
@@ -5099,10 +5022,6 @@
       "lbl" : "vaccinia (smallpox) vaccine",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "vaccinia (smallpox)"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -5120,7 +5039,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Staphylococcus bacterio lysate"
         } ],
         "basicPropertyValues" : [ {
@@ -5189,7 +5108,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "VEE, live"
         } ],
         "basicPropertyValues" : [ {
@@ -5226,7 +5145,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "VEE, inactivated"
         } ],
         "basicPropertyValues" : [ {
@@ -5247,7 +5166,7 @@
       "meta" : {
         "comments" : [ "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a adenovirus vaccination when noted on a vaccination card)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "adenovirus, unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -5267,7 +5186,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hep A, ped/adol, 2 dose"
         } ],
         "basicPropertyValues" : [ {
@@ -5288,7 +5207,7 @@
       "meta" : {
         "comments" : [ "This vaccine formulation is inactive and should not be used, except to record historic vaccinations with this formulation." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hep A, ped/adol, 3 dose"
         } ],
         "basicPropertyValues" : [ {
@@ -5309,7 +5228,7 @@
       "meta" : {
         "comments" : [ "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a HepA vaccination when noted on a vaccination card)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Hep A, unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -5329,6 +5248,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
+          "synonymType" : "http://purl.obolibrary.org/obo/OMO_0003012",
           "pred" : "hasExactSynonym",
           "val" : "IG"
         } ],
@@ -5349,6 +5269,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
+          "synonymType" : "http://purl.obolibrary.org/obo/OMO_0003012",
           "pred" : "hasExactSynonym",
           "val" : "IGIV"
         } ],
@@ -5370,7 +5291,7 @@
       "meta" : {
         "comments" : [ "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a Influenza vaccination when noted on a vaccination card)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "influenza, unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -5390,10 +5311,6 @@
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a polio vaccination when noted on a vaccination card)" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "polio, unspecified formulation"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -5412,7 +5329,7 @@
       "meta" : {
         "comments" : [ "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a rabies vaccination when noted on a vaccination card)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "rabies, unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -5433,7 +5350,7 @@
       "meta" : {
         "comments" : [ "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a typhoid vaccination when noted on a vaccination card)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "typhoid, unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -5454,7 +5371,7 @@
       "meta" : {
         "comments" : [ "This CVX code allows reporting of a vaccination when formulation is unknown (for example, when recording a VEE vaccination when noted on a vaccination card)" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "VEE, unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -5474,7 +5391,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "RSV-MAb"
         } ],
         "basicPropertyValues" : [ {
@@ -5494,6 +5411,7 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
+          "synonymType" : "http://purl.obolibrary.org/obo/OMO_0003012",
           "pred" : "hasExactSynonym",
           "val" : "MMRV"
         } ],
@@ -5515,7 +5433,7 @@
       "meta" : {
         "comments" : [ "TB Skin test is not vaccine." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "TST-OT tine test"
         } ],
         "basicPropertyValues" : [ {
@@ -5536,7 +5454,7 @@
       "meta" : {
         "comments" : [ "TB Skin test is not vaccine." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "TST-PPD intradermal"
         } ],
         "basicPropertyValues" : [ {
@@ -5557,7 +5475,7 @@
       "meta" : {
         "comments" : [ "TB Skin test is not vaccine." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "TST-PPD tine test"
         } ],
         "basicPropertyValues" : [ {
@@ -5578,7 +5496,7 @@
       "meta" : {
         "comments" : [ "TB Skin test is not vaccine." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "TST, unspecified formulation"
         } ],
         "basicPropertyValues" : [ {
@@ -5616,7 +5534,7 @@
       "meta" : {
         "comments" : [ "This CVX code has little utility and should rarely be used." ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "unknown"
         } ],
         "basicPropertyValues" : [ {
@@ -5630,6 +5548,11 @@
           "val" : "false"
         } ]
       }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OMO_0003012",
+      "lbl" : "acronym",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
       "type" : "PROPERTY",

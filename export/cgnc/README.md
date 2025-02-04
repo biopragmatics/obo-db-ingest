@@ -6,21 +6,22 @@ Nomenclature Consortium around Chicken genes (analogous to the HGNC for humans)
 
 ## PURLs
 
-| Artifact       | Download PURL                                                | Latest Versioned Download PURL   |
-|----------------|--------------------------------------------------------------|----------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/cgnc/cgnc.obo       |                                  |
-| OFN            | https://w3id.org/biopragmatics/resources/cgnc/cgnc.ofn       |                                  |
-| Nodes          | https://w3id.org/biopragmatics/resources/cgnc/cgnc.tsv       |                                  |
-| SSSOM          | https://w3id.org/biopragmatics/resources/cgnc/cgnc.sssom.tsv |                                  |
-| OWL            | https://w3id.org/biopragmatics/resources/cgnc/cgnc.owl       |                                  |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/cgnc/cgnc.json      |                                  |
+| Artifact       | Download PURL                                                   | Latest Versioned Download PURL   |
+|----------------|-----------------------------------------------------------------|----------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/cgnc/cgnc.obo          |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/cgnc/cgnc.ofn          |                                  |
+| Nodes          | https://w3id.org/biopragmatics/resources/cgnc/cgnc.tsv          |                                  |
+| SSSOM          | https://w3id.org/biopragmatics/resources/cgnc/cgnc.sssom.tsv    |                                  |
+| Synonyms       | https://w3id.org/biopragmatics/resources/cgnc/cgnc.synonyms.tsv |                                  |
+| OWL            | https://w3id.org/biopragmatics/resources/cgnc/cgnc.owl          |                                  |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/cgnc/cgnc.json         |                                  |
 
 ## Summary
 
 | field      |   count |
 |------------|---------|
-| mappings   |   41332 |
-| properties |   41332 |
-| relations  |   26021 |
-| synonyms   |   27221 |
-| terms      |   26021 |
+| mappings   |   41353 |
+| properties |   41353 |
+| relations  |   26042 |
+| synonyms   |   27245 |
+| terms      |   26042 |

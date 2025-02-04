@@ -6,14 +6,15 @@ The dictyBase database provides data on the model organism Dictyostelium discoid
 
 ## PURLs
 
-| Artifact       | Download PURL                                                                    | Latest Versioned Download PURL   |
-|----------------|----------------------------------------------------------------------------------|----------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.obo       |                                  |
-| OFN            | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.ofn       |                                  |
-| Nodes          | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.tsv       |                                  |
-| SSSOM          | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.sssom.tsv |                                  |
-| OWL            | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.owl       |                                  |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.json      |                                  |
+| Artifact       | Download PURL                                                                       | Latest Versioned Download PURL   |
+|----------------|-------------------------------------------------------------------------------------|----------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.obo          |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.ofn          |                                  |
+| Nodes          | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.tsv          |                                  |
+| SSSOM          | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.sssom.tsv    |                                  |
+| Synonyms       | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.synonyms.tsv |                                  |
+| OWL            | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.owl          |                                  |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.json         |                                  |
 
 ## Summary
 

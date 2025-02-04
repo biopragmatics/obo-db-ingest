@@ -1,0 +1,79 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.tsv
+    path: bigg.reaction/bigg.reaction.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.tsv
+    version_path: bigg.reaction/1.6.0/bigg.reaction.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.obo
+    path: bigg.reaction/bigg.reaction.obo
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.obo
+    version_path: bigg.reaction/1.6.0/bigg.reaction.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.json
+    path: bigg.reaction/bigg.reaction.json
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.json
+    version_path: bigg.reaction/1.6.0/bigg.reaction.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.ofn
+    path: bigg.reaction/bigg.reaction.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.ofn
+    version_path: bigg.reaction/1.6.0/bigg.reaction.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.owl
+    path: bigg.reaction/bigg.reaction.owl
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.owl
+    version_path: bigg.reaction/1.6.0/bigg.reaction.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.sssom.tsv
+    path: bigg.reaction/bigg.reaction.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.sssom.tsv
+    version_path: bigg.reaction/1.6.0/bigg.reaction.sssom.tsv
+  summary:
+    alts: 8200
+    definitions: 28301
+    license: http://bigg.ucsd.edu/license#license
+    mappings: 80920
+    parents: 0
+    properties: 259622
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 28301
+    version: 1.6.0
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.synonyms.tsv
+    path: bigg.reaction/bigg.reaction.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.synonyms.tsv
+    version_path: bigg.reaction/1.6.0/bigg.reaction.synonyms.tsv
+prefix_map:
+  IAO: http://purl.obolibrary.org/obo/IAO_
+  RO: http://purl.obolibrary.org/obo/RO_
+  bigg.model: http://bigg.ucsd.edu/models/
+  bigg.reaction: http://bigg.ucsd.edu/models/universal/reactions/
+  biocyc: http://biocyc.org/getid?id=
+  dcterms: http://purl.org/dc/terms/
+  eccode: https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
+  kegg.reaction: http://www.kegg.jp/entry/
+  metanetx.reaction: https://www.metanetx.org/equa_info/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  reactome: https://reactome.org/content/detail/
+  rhea: https://www.rhea-db.org/rhea/
+  seed.reaction: http://modelseed.org/biochem/reactions/
+  xsd: http://www.w3.org/2001/XMLSchema#

@@ -6,14 +6,15 @@ BiGG is a knowledgebase of Biochemically, Genetically and Genomically structured
 
 ## PURLs
 
-| Artifact       | Download PURL                                                            | Latest Versioned Download PURL                                                 |
-|----------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.obo       | https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.obo       |
-| OFN            | https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.ofn       | https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.ofn       |
-| Nodes          | https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.tsv       | https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.tsv       |
-| SSSOM          | https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.sssom.tsv | https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.sssom.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.owl       | https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.owl       |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.json      | https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.json      |
+| Artifact       | Download PURL                                                               | Latest Versioned Download PURL                                                    |
+|----------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.obo          | https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.obo          |
+| OFN            | https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.ofn          | https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.ofn          |
+| Nodes          | https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.tsv          | https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.tsv          |
+| SSSOM          | https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.sssom.tsv    | https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.sssom.tsv    |
+| Synonyms       | https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.synonyms.tsv | https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.synonyms.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.owl          | https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.owl          |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.json         | https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.json         |
 
 ## Summary
 

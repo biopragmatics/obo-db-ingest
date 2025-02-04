@@ -1,0 +1,74 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ncbi.gc/ncbi.gc.tsv
+    path: ncbi.gc/ncbi.gc.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/ncbi.gc/4.6/ncbi.gc.tsv
+    version_path: ncbi.gc/4.6/ncbi.gc.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ncbi.gc/ncbi.gc.obo
+    path: ncbi.gc/ncbi.gc.obo
+    version_iri: https://w3id.org/biopragmatics/resources/ncbi.gc/4.6/ncbi.gc.obo
+    version_path: ncbi.gc/4.6/ncbi.gc.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ncbi.gc/ncbi.gc.json
+    path: ncbi.gc/ncbi.gc.json
+    version_iri: https://w3id.org/biopragmatics/resources/ncbi.gc/4.6/ncbi.gc.json
+    version_path: ncbi.gc/4.6/ncbi.gc.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ncbi.gc/ncbi.gc.ofn
+    path: ncbi.gc/ncbi.gc.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/ncbi.gc/4.6/ncbi.gc.ofn
+    version_path: ncbi.gc/4.6/ncbi.gc.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ncbi.gc/ncbi.gc.owl
+    path: ncbi.gc/ncbi.gc.owl
+    version_iri: https://w3id.org/biopragmatics/resources/ncbi.gc/4.6/ncbi.gc.owl
+    version_path: ncbi.gc/4.6/ncbi.gc.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ncbi.gc/ncbi.gc.sssom.tsv
+    path: ncbi.gc/ncbi.gc.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/ncbi.gc/4.6/ncbi.gc.sssom.tsv
+    version_path: ncbi.gc/4.6/ncbi.gc.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: public domain
+    mappings: 2
+    parents: 26
+    properties: 4
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 28
+    version: '4.6'
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ncbi.gc/ncbi.gc.synonyms.tsv
+    path: ncbi.gc/ncbi.gc.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/ncbi.gc/4.6/ncbi.gc.synonyms.tsv
+    version_path: ncbi.gc/4.6/ncbi.gc.synonyms.tsv
+prefix_map:
+  GO: http://purl.obolibrary.org/obo/GO_
+  IAO: http://purl.obolibrary.org/obo/IAO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  dcterms: http://purl.org/dc/terms/
+  ncbi.gc: https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG
+  obo: http://purl.obolibrary.org/obo/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#

@@ -6,14 +6,15 @@ The miRBase Sequence Database is a searchable database of published miRNA sequen
 
 ## PURLs
 
-| Artifact       | Download PURL                                                      | Latest Versioned Download PURL                                          |
-|----------------|--------------------------------------------------------------------|-------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/mirbase/mirbase.obo       | https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.obo       |
-| OFN            | https://w3id.org/biopragmatics/resources/mirbase/mirbase.ofn       | https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.ofn       |
-| Nodes          | https://w3id.org/biopragmatics/resources/mirbase/mirbase.tsv       | https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.tsv       |
-| SSSOM          | https://w3id.org/biopragmatics/resources/mirbase/mirbase.sssom.tsv | https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.sssom.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/mirbase/mirbase.owl       | https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.owl       |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/mirbase/mirbase.json      | https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.json      |
+| Artifact       | Download PURL                                                         | Latest Versioned Download PURL                                             |
+|----------------|-----------------------------------------------------------------------|----------------------------------------------------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/mirbase/mirbase.obo          | https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.obo          |
+| OFN            | https://w3id.org/biopragmatics/resources/mirbase/mirbase.ofn          | https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.ofn          |
+| Nodes          | https://w3id.org/biopragmatics/resources/mirbase/mirbase.tsv          | https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.tsv          |
+| SSSOM          | https://w3id.org/biopragmatics/resources/mirbase/mirbase.sssom.tsv    | https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.sssom.tsv    |
+| Synonyms       | https://w3id.org/biopragmatics/resources/mirbase/mirbase.synonyms.tsv | https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.synonyms.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/mirbase/mirbase.owl          | https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.owl          |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/mirbase/mirbase.json         | https://w3id.org/biopragmatics/resources/mirbase/22.1/mirbase.json         |
 
 ## Summary
 

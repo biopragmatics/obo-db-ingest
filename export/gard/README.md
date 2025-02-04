@@ -6,19 +6,20 @@ Database of rare diseases and related terms, including symptoms, healthcare reso
 
 ## PURLs
 
-| Artifact       | Download PURL                                                | Latest Versioned Download PURL   |
-|----------------|--------------------------------------------------------------|----------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/gard/gard.obo       |                                  |
-| OFN            | https://w3id.org/biopragmatics/resources/gard/gard.ofn       |                                  |
-| Nodes          | https://w3id.org/biopragmatics/resources/gard/gard.tsv       |                                  |
-| SSSOM          | https://w3id.org/biopragmatics/resources/gard/gard.sssom.tsv |                                  |
-| OWL            | https://w3id.org/biopragmatics/resources/gard/gard.owl       |                                  |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/gard/gard.json      |                                  |
+| Artifact       | Download PURL                                                   | Latest Versioned Download PURL   |
+|----------------|-----------------------------------------------------------------|----------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/gard/gard.obo          |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/gard/gard.ofn          |                                  |
+| Nodes          | https://w3id.org/biopragmatics/resources/gard/gard.tsv          |                                  |
+| SSSOM          | https://w3id.org/biopragmatics/resources/gard/gard.sssom.tsv    |                                  |
+| Synonyms       | https://w3id.org/biopragmatics/resources/gard/gard.synonyms.tsv |                                  |
+| OWL            | https://w3id.org/biopragmatics/resources/gard/gard.owl          |                                  |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/gard/gard.json         |                                  |
 
 ## Summary
 
 | field    |   count |
 |----------|---------|
-| parents  |    6234 |
-| synonyms |   20147 |
-| terms    |    6234 |
+| parents  |    6131 |
+| synonyms |   20132 |
+| terms    |    6131 |

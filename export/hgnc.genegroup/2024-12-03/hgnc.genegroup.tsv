@@ -260,7 +260,7 @@ identifier	name	definition	synonyms	alts	parents	species
 1291	BAR-PH domain containing				hgnc.genegroup:1292|hgnc.genegroup:682	ncbitaxon:9606
 1292	AH/BAR superfamily				so:0005855	ncbitaxon:9606
 1293	FERM domain containing	In molecular biology, the FERM domain (F for 4.1 protein, E for ezrin, R for radixin and M for moesin ) is a widespread protein module involved in localising proteins to the plasma membrane.  FERM domains are found in a number of cytoskeletal -associated proteins that associate with various proteins at the interface between the plasma membrane and the cytoskeleton. The FERM domain is located at the N terminus in the majority of proteins in which it is found.  			so:0005855	ncbitaxon:9606
-1294	SPOUT methyltransferase domain containing				hgnc.genegroup:1398	ncbitaxon:9606
+1294	SPOUT methyltransferase domain containing				hgnc.genegroup:3349	ncbitaxon:9606
 1295	PRELI domain containing		PRELID		so:0005855	ncbitaxon:9606
 1296	TIR domain containing				so:0005855	ncbitaxon:9606
 1298	C-type lectin domain containing	A C-type lectin (CLEC) is a type of carbohydrate-binding protein domain known as a lectin. The C-type designation is from their requirement for calcium for binding. Proteins that contain C-type lectin domains have a diverse range of functions including cell-cell adhesion, immune response to pathogens and apoptosis.	CLEC		so:0005855	ncbitaxon:9606
@@ -354,10 +354,10 @@ identifier	name	definition	synonyms	alts	parents	species
 1396	GATOR complex				so:0005855	ncbitaxon:9606
 1397	Peptidoglycan recognition proteins		PGLYRP		so:0005855	ncbitaxon:9606
 1398	Methyltransferase families				so:0005855	ncbitaxon:9606
-1399	SET domain containing		SET		hgnc.genegroup:1398	ncbitaxon:9606
+1399	SET domain containing		SET		hgnc.genegroup:3349	ncbitaxon:9606
 14	Wiskott-Aldrich Syndrome protein family				so:0005855	ncbitaxon:9606
 140	G protein-coupled receptors, Class A rhodopsin-like	Rhodopsin-like receptors are a family of proteins that comprise the largest group of G protein-coupled receptors.			hgnc.genegroup:139	ncbitaxon:9606
-1400	Seven-beta-strand methyltransferase motif containing				hgnc.genegroup:1398	ncbitaxon:9606
+1400	Seven-beta-strand methyltransferase motif containing				hgnc.genegroup:3349	ncbitaxon:9606
 1401	R2TP complex				so:0005855	ncbitaxon:9606
 1402	Zyxin family				hgnc.genegroup:1218	ncbitaxon:9606
 1403	Ajuba family				hgnc.genegroup:1218	ncbitaxon:9606
@@ -920,7 +920,7 @@ identifier	name	definition	synonyms	alts	parents	species
 2032	Dyneins, axonemal inner arm I1/f complex subunits				hgnc.genegroup:536	ncbitaxon:9606
 2033	Dishevelled binding antagonist of beta catenin family		DACT		so:0005855	ncbitaxon:9606
 2035	DNA cross-link repair family		DCLRE1		hgnc.genegroup:1615	ncbitaxon:9606
-2036	Radical S-adenosylmethionine domain containing				hgnc.genegroup:1398	ncbitaxon:9606
+2036	Radical S-adenosylmethionine domain containing				hgnc.genegroup:3349	ncbitaxon:9606
 2037	Argonaute RISC component family		AGO		hgnc.genegroup:408	ncbitaxon:9606
 2038	Piwi like RNA-mediated gene silencing family		PIWIL		hgnc.genegroup:408	ncbitaxon:9606
 2039	Myosin light chains, class 1				hgnc.genegroup:657|hgnc.genegroup:863	ncbitaxon:9606
@@ -949,7 +949,7 @@ identifier	name	definition	synonyms	alts	parents	species
 2061	7BS N6-adenosine DNA/RNA methyltransferases				hgnc.genegroup:2059	ncbitaxon:9606
 2062	7BS 2'O-ribose DNA/RNA methyltransferases				hgnc.genegroup:2059	ncbitaxon:9606
 2063	7BS small molecule methyltransferases				hgnc.genegroup:1400	ncbitaxon:9606
-2065	Homocysteine methyltransferases				hgnc.genegroup:1398	ncbitaxon:9606
+2065	Homocysteine methyltransferases				hgnc.genegroup:3370	ncbitaxon:9606
 2066	7BS orphan methyltransferases				hgnc.genegroup:1400	ncbitaxon:9606
 2067	Apelin receptor				hgnc.genegroup:220	ncbitaxon:9606
 2068	Nuclear receptor subfamily 0 group B		NR0B		hgnc.genegroup:71	ncbitaxon:9606
@@ -1249,6 +1249,25 @@ identifier	name	definition	synonyms	alts	parents	species
 3340	RSF complex	A nucleosome remodeling complex that participates in chromatin assembly and facilitates DNA transcription. The RSF1 subunit functions as the histone chaperone through an association with the H3/H4 tetramer and is independent of the histone tails. The histone octamer (composed of H2A, H2B, H3 & H4) is required for the RSF complex to bind DNA. The SMARCA5 subunit provides the energy for the nucleosome spacing activity and is dependent on the histone tails.			hgnc.genegroup:3336	ncbitaxon:9606
 3341	ATP-dependent chromatin remodeling complexes				so:0005855	ncbitaxon:9606
 3342	Zinc fingers CHHC-type	The CHHC U11-48K-type zinc finger contains four invariant Cys and His residues with a consensus sequence of C-x(5,7)-H-x(7,9)-H-x(3,4)-C. It stochiometrically binds zinc ions in a one-to-one ratio. The structure of the CHHC U11-48K-type zinc finger consists of a β hairpin followed by a helix. the zinc ion is coordinated by Cys and His residues from the β hairpin and by His and Cys residues from the helix, respectively. The helical region has an α-helical conformation that is interrupted in the middle by a single pi-helical turn (<a href='https://pubmed.ncbi.nlm.nih.gov/19217400/'>PMID:19217400</a>).			hgnc.genegroup:26	ncbitaxon:9606
+3349	Methyltransferase families grouped by structure				hgnc.genegroup:1398	ncbitaxon:9606
+3350	Methyltransferase families grouped by substrate				hgnc.genegroup:1398	ncbitaxon:9606
+3351	Homocysteine domain containing methyltransferases				hgnc.genegroup:3349	ncbitaxon:9606
+3352	MetH activation domain containing				hgnc.genegroup:3351	ncbitaxon:9606
+3353	Membrane-bound methyltransferases				hgnc.genegroup:3349	ncbitaxon:9606
+3354	Tetrapyrrole methylase domain containing				hgnc.genegroup:3349	ncbitaxon:9606
+3355	tRNA wybutosine-synthesizing protein domain containing				hgnc.genegroup:3349	ncbitaxon:9606
+3361	7BS N3-cytosine RNA methyltransferases				hgnc.genegroup:2059	ncbitaxon:9606
+3362	7BS N1-adenosine RNA methyltransferases				hgnc.genegroup:2059	ncbitaxon:9606
+3363	7BS N2-guanosine RNA methyltransferases				hgnc.genegroup:2059	ncbitaxon:9606
+3364	7BS N7-guanosine RNA methyltransferases				hgnc.genegroup:2059	ncbitaxon:9606
+3365	7BS C5-uridine RNA methyltransferases				so:0005855	ncbitaxon:9606
+3366	Arginine methyltransferases	This group is currently identical to the 7BS protein arginine methyltransferases			hgnc.genegroup:3370	ncbitaxon:9606
+3367	7BS protein histidine methlytransferases				so:0005855	ncbitaxon:9606
+3368	Histidine methyltransferases				hgnc.genegroup:3370	ncbitaxon:9606
+3369	Glutamine methyltransferases				hgnc.genegroup:3370	ncbitaxon:9606
+3370	Protein methyltransferases				hgnc.genegroup:3350	ncbitaxon:9606
+3371	DNA/RNA methyltransferases				hgnc.genegroup:3350	ncbitaxon:9606
+3372	Small molecule methyltransferases				hgnc.genegroup:3350	ncbitaxon:9606
 343	Transmembrane guanylate cyclases	Membrane bound guanylyl cyclases include an external ligand-binding domain (e.g., for peptide hormones such as BNP and ANP), a transmembrane domain, and an internal catalytic domain homologous to adenylate cyclases.	GUCY2		hgnc.genegroup:819	ncbitaxon:9606
 344	Receptor serine/threonine kinase family		RSTK		hgnc.genegroup:320	ncbitaxon:9606
 345	Type 1 receptor serine/threonine kinases				hgnc.genegroup:344	ncbitaxon:9606
@@ -1304,7 +1323,7 @@ identifier	name	definition	synonyms	alts	parents	species
 409	Armadillo repeat containing	Armadillo repeat is the name of a characteristic, repetitive amino acid sequence found in β-catenin and many other proteins, like α-importin, plakoglobin,or adenomatous polyposis coli (APC). Its name derives from the historical name of the β-catenin gene in the fruitfly Drosophila: where they were first discovered. Armadillo repeats are approximately 40 amino acids long and proteins that contain them usually have many tandemly repeated copies. These tandem repeats usually fold together to form a single, rigid protein domain called the armadillo (ARM) domain. Because ARM domains can consist of a variable number of repeats, they are a good example of solenoid protein domains. The best characterized example of armadillo domains is found in β-catenin. β-catenin is a protein involved in linking cadherin cell adhesion proteins to the cytoskeleton, but the Armadillo repeat is found in a wide range of proteins with other functions. This type of protein domain is important in transducing WNT signals during embryonic development.	ARMC		hgnc.genegroup:1492	ncbitaxon:9606
 41	Acyl-CoA thioesterases		ACOT		hgnc.genegroup:1832	ncbitaxon:9606
 410	Sulfatases	Sulfatases EC 3.1.6. are enzymes of the esterase class that catalyze the hydrolysis of sulfate esters. These may be found on a range of substrates, including steroids, carbohydrates and proteins. Sulfate esters may be formed from various alcohols and amines. In the latter case the resultant N-sulfates can also be termed sulfamates.  Sulfatases play important roles in the cycling of sulfur in the environment, in the degradation of sulfated glycosaminoglycans and glycolipids in the lysosome, and in remodelling sulfated glycosaminoglycans in the extracellular space. Together with sulfotransferases, sulfatases form the major catalytic machinery for the synthesis and breakage of sulfate esters.	ARS		so:0005855	ncbitaxon:9606
-412	ATPases	This family page represents all types of ATPases found in human. V-type and F-type ATPases are both rotor protein complexes and are related in structure and function. The V-type ATPase hydrolyses ATP to pump protons across membranes while the F-type ATPase couples proton transfer to synthesis of ATP from ADP. The AAA and P-type families are unrelated and comprise many individual members. The AAA ATPase family hydrolyse ATP to obtain energy for a diverse variety of biological processes. P-type ATPases use the energy from ATP hydrolysis to pump ions across cellular membranes.			so:0005855	ncbitaxon:9606
+412	ATPases	This family page represents various types of ATPases found in human. V-type and F-type ATPases are both rotor protein complexes and are related in structure and function. The V-type ATPase hydrolyses ATP to pump protons across membranes while the F-type ATPase couples proton transfer to synthesis of ATP from ADP. The AAA and P-type families are unrelated and comprise many individual members. The AAA ATPase family hydrolyse ATP to obtain energy for a diverse variety of biological processes. P-type ATPases use the energy from ATP hydrolysis to pump ions across cellular membranes.			so:0005855	ncbitaxon:9606
 413	AAA ATPases	AAA or AAA+ is an abbreviation for ATPases Associated with diverse cellular Activities. They share a common conserved module of approximately 230 amino acid residues. This is a large, functionally diverse protein family belonging to the AAA+ superfamily of ring-shaped P-loop NTPases, which exert their activity through the energy-dependent remodeling or translocation of macromolecules.   AAA proteins couple chemical energy provided by ATP hydrolysis to conformational changes which are transduced into mechanical force exerted on a macromolecular substrate.   AAA proteins are functionally and organizationally diverse, and vary in activity, stability, and mechanism. Members of the AAA family are found in all organisms and they are essential for many cellular functions. They are involved in processes such as DNA replication, protein degradation, membrane fusion, microtubule severing, peroxisome biogenesis, signal transduction and the regulation of gene expression.	ATAD		hgnc.genegroup:412	ncbitaxon:9606
 414	P-type ATPases	The P-type ATPases, also known as E1-E2 ATPases, are a large group of evolutionarily related ion and lipid pumps that are found in bacteria, archaea, and eukaryotes. They are alpha-helical bundle primary transporters referred to as P-type ATPases because they catalyze auto- (or self-) phosphorylation of a key conserved aspartate residue within the pump. In addition, they all appear to interconvert between at least two different conformations, denoted by E1 and E2.  Most members of this transporter family are specific for the pumping of a large array of cations, however one subfamily is involved in flipping phospholipids to maintain the asymmetric nature of the biomembrane.  Prominent examples of P-type ATPases are the sodium-potassium pump (Na +,K +-ATPase), the plasma membrane proton pump (H +-ATPase), the proton-potassium pump (H +,K +-ATPase), and the calcium pump (Ca 2+ -ATPase).			hgnc.genegroup:412	ncbitaxon:9606
 415	V-type ATPase subunits	Vacuolar-type H +-ATPase ( V-ATPase ) is a highly conserved evolutionarily ancient enzyme with remarkably diverse functions in eukaryotic organisms. V-ATPases acidify a wide array of intracellular organelles and pump protons across the plasma membranes of numerous cell types. V-ATPases couple the energy of ATP hydrolysis to proton transport across intracellular and plasma membranes of eukaryotic cells.	ATP6V		hgnc.genegroup:412	ncbitaxon:9606
@@ -1372,7 +1391,7 @@ identifier	name	definition	synonyms	alts	parents	species
 484	Chromatin modifying enzymes				so:0005855	ncbitaxon:9606
 485	Lysine demethylases		KDM		hgnc.genegroup:1368|hgnc.genegroup:484	ncbitaxon:9606
 486	Lysine acetyltransferases		KAT		hgnc.genegroup:484	ncbitaxon:9606
-487	Lysine methyltransferases		KMT		hgnc.genegroup:1398|hgnc.genegroup:484	ncbitaxon:9606
+487	Lysine methyltransferases		KMT		hgnc.genegroup:3370|hgnc.genegroup:484	ncbitaxon:9606
 488	Claudins	Claudins are a family of proteins that are the most important components of the tight junctions, where they establish the paracellular barrier that controls the flow of molecules in the intercellular space between the cells of an epithelium. They have four transmembrane domains, with the N-terminus and the C-terminus in the cytoplasm.	CLDN		hgnc.genegroup:1471	ncbitaxon:9606
 489	Coiled-coil-helix-coiled-coil-helix domain containing proteins		CHCHD		so:0005855	ncbitaxon:9606
 490	Collagens	Protein which contains one or more collagen-like domain. Collagen is a fibrous protein found in vertebrates, the major element of skin, bone, tendon, cartilage, blood vessels and teeth. It forms insoluble fibres of high tensile strength and which contains the unusual amino acids hyroxyproline and hydroxylysine. It is rich in glycine but lacks cysteine and tryptophan, and has an unusually regular amino-acid domain.	COL		so:0005855	ncbitaxon:9606

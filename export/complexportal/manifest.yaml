@@ -1,0 +1,93 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/complexportal/complexportal.tsv
+    path: complexportal/complexportal.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2024-11-29/complexportal.tsv
+    version_path: complexportal/2024-11-29/complexportal.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/complexportal/complexportal.obo
+    path: complexportal/complexportal.obo
+    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2024-11-29/complexportal.obo
+    version_path: complexportal/2024-11-29/complexportal.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/complexportal/complexportal.json
+    path: complexportal/complexportal.json
+    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2024-11-29/complexportal.json
+    version_path: complexportal/2024-11-29/complexportal.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/complexportal/complexportal.ofn
+    path: complexportal/complexportal.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2024-11-29/complexportal.ofn
+    version_path: complexportal/2024-11-29/complexportal.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/complexportal/complexportal.owl
+    path: complexportal/complexportal.owl
+    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2024-11-29/complexportal.owl
+    version_path: complexportal/2024-11-29/complexportal.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/complexportal/complexportal.sssom.tsv
+    path: complexportal/complexportal.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2024-11-29/complexportal.sssom.tsv
+    version_path: complexportal/2024-11-29/complexportal.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 4921
+    license: CC0-1.0
+    mappings: 10798
+    parents: 0
+    properties: 33036
+    references: 12940
+    relations: 4921
+    synonyms: 12240
+    terms: 4921
+    version: '2024-11-29'
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/complexportal/complexportal.synonyms.tsv
+    path: complexportal/complexportal.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2024-11-29/complexportal.synonyms.tsv
+    version_path: complexportal/2024-11-29/complexportal.synonyms.tsv
+prefix_map:
+  BFO: http://purl.obolibrary.org/obo/BFO_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  FlyBase: https://flybase.org/reports/
+  IAO: http://purl.obolibrary.org/obo/IAO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  PR: http://purl.obolibrary.org/obo/PR_
+  RO: http://purl.obolibrary.org/obo/RO_
+  chembl: https://www.ebi.ac.uk/chembl/entity/
+  chembl.target: https://www.ebi.ac.uk/chembl/target/inspect/
+  complexportal: https://www.ebi.ac.uk/complexportal/complex/
+  dcterms: http://purl.org/dc/terms/
+  eccode: https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
+  emdb: https://www.ebi.ac.uk/pdbe/entry/emdb/
+  humap: https://humap3.proteincomplexes.org/displayComplexes?complex_key=
+  intact: https://www.ebi.ac.uk/intact/interaction/
+  matrixdb: http://matrixdb.univ-lyon1.fr/cgi-bin/current/newPort?type=biomolecule&value=
+  obo: http://purl.obolibrary.org/obo/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  pdb: https://rdf.wwpdb.org/pdb/
+  pubmed: http://rdf.ncbi.nlm.nih.gov/pubchem/reference/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  reactome: https://reactome.org/content/detail/
+  rhea: https://www.rhea-db.org/rhea/
+  rnacentral: https://rnacentral.org/rna/
+  signor: https://signor.uniroma2.it/relation_result.php?id=
+  uniprot: http://purl.uniprot.org/uniprot/
+  uniprot.chain: http://purl.uniprot.org/annotation/
+  uniprot.isoform: http://purl.uniprot.org/isoforms/
+  xsd: http://www.w3.org/2001/XMLSchema#

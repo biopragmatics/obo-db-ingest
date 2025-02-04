@@ -6,14 +6,15 @@ SNPs and other variants that can be mapped to dbSNP.
 
 ## PURLs
 
-| Artifact       | Download PURL                                                                        | Latest Versioned Download PURL   |
-|----------------|--------------------------------------------------------------------------------------|----------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.obo       |                                  |
-| OFN            | https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.ofn       |                                  |
-| Nodes          | https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.tsv       |                                  |
-| SSSOM          | https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.sssom.tsv |                                  |
-| OWL            | https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.owl       |                                  |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.json      |                                  |
+| Artifact       | Download PURL                                                                           | Latest Versioned Download PURL   |
+|----------------|-----------------------------------------------------------------------------------------|----------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.obo          |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.ofn          |                                  |
+| Nodes          | https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.tsv          |                                  |
+| SSSOM          | https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.sssom.tsv    |                                  |
+| Synonyms       | https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.synonyms.tsv |                                  |
+| OWL            | https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.owl          |                                  |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.json         |                                  |
 
 ## Summary
 

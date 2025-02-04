@@ -1,0 +1,73 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/eccode/eccode.tsv
+    path: eccode/eccode.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/eccode/2024-11-27/eccode.tsv
+    version_path: eccode/2024-11-27/eccode.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/eccode/eccode.obo
+    path: eccode/eccode.obo
+    version_iri: https://w3id.org/biopragmatics/resources/eccode/2024-11-27/eccode.obo
+    version_path: eccode/2024-11-27/eccode.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/eccode/eccode.json
+    path: eccode/eccode.json
+    version_iri: https://w3id.org/biopragmatics/resources/eccode/2024-11-27/eccode.json
+    version_path: eccode/2024-11-27/eccode.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/eccode/eccode.ofn
+    path: eccode/eccode.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/eccode/2024-11-27/eccode.ofn
+    version_path: eccode/2024-11-27/eccode.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/eccode/eccode.owl
+    path: eccode/eccode.owl
+    version_iri: https://w3id.org/biopragmatics/resources/eccode/2024-11-27/eccode.owl
+    version_path: eccode/2024-11-27/eccode.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/eccode/eccode.sssom.tsv
+    path: eccode/eccode.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/eccode/2024-11-27/eccode.sssom.tsv
+    version_path: eccode/2024-11-27/eccode.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: CC-BY-4.0
+    mappings: 1472
+    parents: 7286
+    properties: 255208
+    references: 0
+    relations: 4483
+    synonyms: 10483
+    terms: 8778
+    version: '2024-11-27'
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/eccode/eccode.synonyms.tsv
+    path: eccode/eccode.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/eccode/2024-11-27/eccode.synonyms.tsv
+    version_path: eccode/2024-11-27/eccode.synonyms.tsv
+prefix_map:
+  GO: http://purl.obolibrary.org/obo/GO_
+  IAO: http://purl.obolibrary.org/obo/IAO_
+  RO: http://purl.obolibrary.org/obo/RO_
+  dcterms: http://purl.org/dc/terms/
+  eccode: https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  uniprot: http://purl.uniprot.org/uniprot/
+  xsd: http://www.w3.org/2001/XMLSchema#

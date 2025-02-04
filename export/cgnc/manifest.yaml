@@ -1,0 +1,60 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cgnc/cgnc.tsv
+    path: cgnc/cgnc.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cgnc/cgnc.obo
+    path: cgnc/cgnc.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cgnc/cgnc.json
+    path: cgnc/cgnc.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cgnc/cgnc.ofn
+    path: cgnc/cgnc.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cgnc/cgnc.owl
+    path: cgnc/cgnc.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cgnc/cgnc.sssom.tsv
+    path: cgnc/cgnc.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: CC-BY-4.0
+    mappings: 41353
+    parents: 0
+    properties: 41353
+    references: 0
+    relations: 26042
+    synonyms: 27245
+    terms: 26042
+    version: null
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cgnc/cgnc.synonyms.tsv
+    path: cgnc/cgnc.synonyms.tsv
+prefix_map:
+  NCBIGene: http://purl.uniprot.org/geneid/
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  RO: http://purl.obolibrary.org/obo/RO_
+  cgnc: http://birdgenenames.org/cgnc/GeneReport?id=
+  dcterms: http://purl.org/dc/terms/
+  ensembl: http://rdf.ebi.ac.uk/resource/ensembl/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  skos: http://www.w3.org/2004/02/skos/core#
+  xsd: http://www.w3.org/2001/XMLSchema#

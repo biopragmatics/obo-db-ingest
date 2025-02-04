@@ -6,14 +6,15 @@ PomBase is a model organism database established to provide access to molecular 
 
 ## PURLs
 
-| Artifact       | Download PURL                                                      | Latest Versioned Download PURL                                                |
-|----------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/pombase/pombase.obo       | https://w3id.org/biopragmatics/resources/pombase/2025-01-01/pombase.obo       |
-| OFN            | https://w3id.org/biopragmatics/resources/pombase/pombase.ofn       | https://w3id.org/biopragmatics/resources/pombase/2025-01-01/pombase.ofn       |
-| Nodes          | https://w3id.org/biopragmatics/resources/pombase/pombase.tsv       | https://w3id.org/biopragmatics/resources/pombase/2025-01-01/pombase.tsv       |
-| SSSOM          | https://w3id.org/biopragmatics/resources/pombase/pombase.sssom.tsv | https://w3id.org/biopragmatics/resources/pombase/2025-01-01/pombase.sssom.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/pombase/pombase.owl       | https://w3id.org/biopragmatics/resources/pombase/2025-01-01/pombase.owl       |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/pombase/pombase.json      | https://w3id.org/biopragmatics/resources/pombase/2025-01-01/pombase.json      |
+| Artifact       | Download PURL                                                         | Latest Versioned Download PURL                                                   |
+|----------------|-----------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/pombase/pombase.obo          | https://w3id.org/biopragmatics/resources/pombase/2025-02-01/pombase.obo          |
+| OFN            | https://w3id.org/biopragmatics/resources/pombase/pombase.ofn          | https://w3id.org/biopragmatics/resources/pombase/2025-02-01/pombase.ofn          |
+| Nodes          | https://w3id.org/biopragmatics/resources/pombase/pombase.tsv          | https://w3id.org/biopragmatics/resources/pombase/2025-02-01/pombase.tsv          |
+| SSSOM          | https://w3id.org/biopragmatics/resources/pombase/pombase.sssom.tsv    | https://w3id.org/biopragmatics/resources/pombase/2025-02-01/pombase.sssom.tsv    |
+| Synonyms       | https://w3id.org/biopragmatics/resources/pombase/pombase.synonyms.tsv | https://w3id.org/biopragmatics/resources/pombase/2025-02-01/pombase.synonyms.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/pombase/pombase.owl          | https://w3id.org/biopragmatics/resources/pombase/2025-02-01/pombase.owl          |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/pombase/pombase.json         | https://w3id.org/biopragmatics/resources/pombase/2025-02-01/pombase.json         |
 
 ## Summary
 
@@ -23,5 +24,5 @@ PomBase is a model organism database established to provide access to molecular 
 | parents     |   12684 |
 | properties  |   23473 |
 | relations   |   12684 |
-| synonyms    |    2625 |
+| synonyms    |    2631 |
 | terms       |   12684 |

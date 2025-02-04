@@ -1,0 +1,59 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/uniprot.ptm.tsv
+    path: uniprot.ptm/uniprot.ptm.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/uniprot.ptm.obo
+    path: uniprot.ptm/uniprot.ptm.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/uniprot.ptm.json
+    path: uniprot.ptm/uniprot.ptm.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/uniprot.ptm.ofn
+    path: uniprot.ptm/uniprot.ptm.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/uniprot.ptm.owl
+    path: uniprot.ptm/uniprot.ptm.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/uniprot.ptm.sssom.tsv
+    path: uniprot.ptm/uniprot.ptm.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: CC-BY-4.0
+    mappings: 1543
+    parents: 0
+    properties: 0
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 714
+    version: null
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/uniprot.ptm.synonyms.tsv
+    path: uniprot.ptm/uniprot.ptm.synonyms.tsv
+prefix_map:
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  MOD: http://purl.obolibrary.org/obo/MOD_
+  RESID: http://purl.obolibrary.org/obo/RESID_
+  dcterms: http://purl.org/dc/terms/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  unimod: http://www.unimod.org/modifications_view.php?editid1=
+  uniprot.ptm: https://biopragmatics.github.io/providers/uniprot.ptm/
+  xsd: http://www.w3.org/2001/XMLSchema#

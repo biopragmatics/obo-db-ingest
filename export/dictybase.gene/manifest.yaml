@@ -1,0 +1,57 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.tsv
+    path: dictybase.gene/dictybase.gene.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.obo
+    path: dictybase.gene/dictybase.gene.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.json
+    path: dictybase.gene/dictybase.gene.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.ofn
+    path: dictybase.gene/dictybase.gene.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.owl
+    path: dictybase.gene/dictybase.gene.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.sssom.tsv
+    path: dictybase.gene/dictybase.gene.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: CC-BY-SA-4.0
+    mappings: 0
+    parents: 0
+    properties: 0
+    references: 0
+    relations: 14222
+    synonyms: 16000
+    terms: 14222
+    version: null
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.synonyms.tsv
+    path: dictybase.gene/dictybase.gene.synonyms.tsv
+prefix_map:
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  RO: http://purl.obolibrary.org/obo/RO_
+  dcterms: http://purl.org/dc/terms/
+  dictybase.gene: http://dictybase.org/gene/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#

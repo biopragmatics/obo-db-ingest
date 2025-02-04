@@ -1,0 +1,52 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/icd10/icd10.tsv
+    path: icd10/icd10.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/icd10/icd10.obo
+    path: icd10/icd10.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/icd10/icd10.json
+    path: icd10/icd10.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/icd10/icd10.ofn
+    path: icd10/icd10.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/icd10/icd10.owl
+    path: icd10/icd10.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/icd10/icd10.sssom.tsv
+    path: icd10/icd10.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: https://cdn.who.int/media/docs/default-source/publishing-policies/copyright/who-faq-licensing-icd-10.pdf
+    mappings: 0
+    parents: 12461
+    properties: 12483
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 12483
+    version: null
+prefix_map:
+  biolink: https://w3id.org/biolink/vocab/
+  dcterms: http://purl.org/dc/terms/
+  icd10: https://icd.who.int/browse10/2019/en#/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#

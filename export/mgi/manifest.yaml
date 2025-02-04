@@ -1,0 +1,74 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/mgi/mgi.tsv
+    path: mgi/mgi.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/mgi/6.24/mgi.tsv
+    version_path: mgi/6.24/mgi.tsv
+  obo:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/mgi/mgi.obo.gz
+    path: mgi/mgi.obo.gz
+    version_iri: https://w3id.org/biopragmatics/resources/mgi/6.24/mgi.obo.gz
+    version_path: mgi/6.24/mgi.obo.gz
+  obograph:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/mgi/mgi.json.gz
+    path: mgi/mgi.json.gz
+    version_iri: https://w3id.org/biopragmatics/resources/mgi/6.24/mgi.json.gz
+    version_path: mgi/6.24/mgi.json.gz
+  ofn:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/mgi/mgi.ofn.gz
+    path: mgi/mgi.ofn.gz
+    version_iri: https://w3id.org/biopragmatics/resources/mgi/6.24/mgi.ofn.gz
+    version_path: mgi/6.24/mgi.ofn.gz
+  owl:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/mgi/mgi.owl.gz
+    path: mgi/mgi.owl.gz
+    version_iri: https://w3id.org/biopragmatics/resources/mgi/6.24/mgi.owl.gz
+    version_path: mgi/6.24/mgi.owl.gz
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/mgi/mgi.sssom.tsv
+    path: mgi/mgi.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/mgi/6.24/mgi.sssom.tsv
+    version_path: mgi/6.24/mgi.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 719756
+    license: CC-BY-4.0
+    mappings: 168405
+    parents: 0
+    properties: 111831
+    references: 0
+    relations: 930562
+    synonyms: 259761
+    terms: 719756
+    version: '6.24'
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/mgi/mgi.synonyms.tsv
+    path: mgi/mgi.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/mgi/6.24/mgi.synonyms.tsv
+    version_path: mgi/6.24/mgi.synonyms.tsv
+prefix_map:
+  MGI: 'http://www.informatics.jax.org/accession/MGI:'
+  NCBIGene: http://purl.uniprot.org/geneid/
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  RO: http://purl.obolibrary.org/obo/RO_
+  dcterms: http://purl.org/dc/terms/
+  ensembl: http://rdf.ebi.ac.uk/resource/ensembl/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  skos: http://www.w3.org/2004/02/skos/core#
+  xsd: http://www.w3.org/2001/XMLSchema#

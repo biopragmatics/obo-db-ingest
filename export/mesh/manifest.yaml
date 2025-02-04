@@ -1,0 +1,69 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/mesh/mesh.tsv
+    path: mesh/mesh.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/mesh/2025/mesh.tsv
+    version_path: mesh/2025/mesh.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/mesh/mesh.obo
+    path: mesh/mesh.obo
+    version_iri: https://w3id.org/biopragmatics/resources/mesh/2025/mesh.obo
+    version_path: mesh/2025/mesh.obo
+  obograph:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/mesh/mesh.json.gz
+    path: mesh/mesh.json.gz
+    version_iri: https://w3id.org/biopragmatics/resources/mesh/2025/mesh.json.gz
+    version_path: mesh/2025/mesh.json.gz
+  ofn:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/mesh/mesh.ofn.gz
+    path: mesh/mesh.ofn.gz
+    version_iri: https://w3id.org/biopragmatics/resources/mesh/2025/mesh.ofn.gz
+    version_path: mesh/2025/mesh.ofn.gz
+  owl:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/mesh/mesh.owl.gz
+    path: mesh/mesh.owl.gz
+    version_iri: https://w3id.org/biopragmatics/resources/mesh/2025/mesh.owl.gz
+    version_path: mesh/2025/mesh.owl.gz
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/mesh/mesh.sssom.tsv
+    path: mesh/mesh.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/mesh/2025/mesh.sssom.tsv
+    version_path: mesh/2025/mesh.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 30808
+    license: CC0-1.0
+    mappings: 0
+    parents: 42287
+    properties: 0
+    references: 0
+    relations: 0
+    synonyms: 636462
+    terms: 355011
+    version: '2025'
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/mesh/mesh.synonyms.tsv
+    path: mesh/mesh.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/mesh/2025/mesh.synonyms.tsv
+    version_path: mesh/2025/mesh.synonyms.tsv
+prefix_map:
+  dcterms: http://purl.org/dc/terms/
+  mesh: http://id.nlm.nih.gov/mesh/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#

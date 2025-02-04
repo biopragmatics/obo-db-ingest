@@ -6,14 +6,15 @@ All geographical features in GeoNames are categorized into one out of nine featu
 
 ## PURLs
 
-| Artifact       | Download PURL                                                                        | Latest Versioned Download PURL   |
-|----------------|--------------------------------------------------------------------------------------|----------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.obo       |                                  |
-| OFN            | https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.ofn       |                                  |
-| Nodes          | https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.tsv       |                                  |
-| SSSOM          | https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.sssom.tsv |                                  |
-| OWL            | https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.owl       |                                  |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.json      |                                  |
+| Artifact       | Download PURL                                                                           | Latest Versioned Download PURL   |
+|----------------|-----------------------------------------------------------------------------------------|----------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.obo          |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.ofn          |                                  |
+| Nodes          | https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.tsv          |                                  |
+| SSSOM          | https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.sssom.tsv    |                                  |
+| Synonyms       | https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.synonyms.tsv |                                  |
+| OWL            | https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.owl          |                                  |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.json         |                                  |
 
 ## Summary
 

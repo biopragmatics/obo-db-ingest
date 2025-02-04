@@ -1,0 +1,75 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pathbank/pathbank.tsv
+    path: pathbank/pathbank.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/pathbank/2.0/pathbank.tsv
+    version_path: pathbank/2.0/pathbank.tsv
+  obo:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/pathbank/pathbank.obo.gz
+    path: pathbank/pathbank.obo.gz
+    version_iri: https://w3id.org/biopragmatics/resources/pathbank/2.0/pathbank.obo.gz
+    version_path: pathbank/2.0/pathbank.obo.gz
+  obograph:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/pathbank/pathbank.json.gz
+    path: pathbank/pathbank.json.gz
+    version_iri: https://w3id.org/biopragmatics/resources/pathbank/2.0/pathbank.json.gz
+    version_path: pathbank/2.0/pathbank.json.gz
+  ofn:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/pathbank/pathbank.ofn.gz
+    path: pathbank/pathbank.ofn.gz
+    version_iri: https://w3id.org/biopragmatics/resources/pathbank/2.0/pathbank.ofn.gz
+    version_path: pathbank/2.0/pathbank.ofn.gz
+  owl:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/pathbank/pathbank.owl.gz
+    path: pathbank/pathbank.owl.gz
+    version_iri: https://w3id.org/biopragmatics/resources/pathbank/2.0/pathbank.owl.gz
+    version_path: pathbank/2.0/pathbank.owl.gz
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pathbank/pathbank.sssom.tsv
+    path: pathbank/pathbank.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/pathbank/2.0/pathbank.sssom.tsv
+    version_path: pathbank/2.0/pathbank.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: ODbL-1.0
+    mappings: 110242
+    parents: 0
+    properties: 220484
+    references: 0
+    relations: 2455553
+    synonyms: 0
+    terms: 110242
+    version: '2.0'
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pathbank/pathbank.synonyms.tsv
+    path: pathbank/pathbank.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/pathbank/2.0/pathbank.synonyms.tsv
+    version_path: pathbank/2.0/pathbank.synonyms.tsv
+prefix_map:
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  RO: http://purl.obolibrary.org/obo/RO_
+  biolink: https://w3id.org/biolink/vocab/
+  dcterms: http://purl.org/dc/terms/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  pathbank: https://pathbank.org/view/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  skos: http://www.w3.org/2004/02/skos/core#
+  smpdb: https://smpdb.ca/view/
+  uniprot: http://purl.uniprot.org/uniprot/
+  xsd: http://www.w3.org/2001/XMLSchema#

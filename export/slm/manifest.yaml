@@ -1,0 +1,80 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/slm/slm.tsv.gz
+    path: slm/slm.tsv.gz
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-02-04/slm.tsv.gz
+    version_path: slm/2025-02-04/slm.tsv.gz
+  obo:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/slm/slm.obo.gz
+    path: slm/slm.obo.gz
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-02-04/slm.obo.gz
+    version_path: slm/2025-02-04/slm.obo.gz
+  obograph:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/slm/slm.json.gz
+    path: slm/slm.json.gz
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-02-04/slm.json.gz
+    version_path: slm/2025-02-04/slm.json.gz
+  ofn:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/slm/slm.ofn.gz
+    path: slm/slm.ofn.gz
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-02-04/slm.ofn.gz
+    version_path: slm/2025-02-04/slm.ofn.gz
+  owl:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/slm/slm.owl.gz
+    path: slm/slm.owl.gz
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-02-04/slm.owl.gz
+    version_path: slm/2025-02-04/slm.owl.gz
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/slm/slm.sssom.tsv
+    path: slm/slm.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-02-04/slm.sssom.tsv
+    version_path: slm/2025-02-04/slm.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: CC-BY-4.0
+    mappings: 635636
+    parents: 0
+    properties: 2791560
+    references: 10101
+    relations: 0
+    synonyms: 1344722
+    terms: 779249
+    version: '2025-02-04'
+  synonyms:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/slm/slm.synonyms.synonyms.tsv.gz
+    path: slm/slm.synonyms.synonyms.tsv.gz
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-02-04/slm.synonyms.synonyms.tsv.gz
+    version_path: slm/2025-02-04/slm.synonyms.synonyms.tsv.gz
+prefix_map:
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  ChEMROF: https://chemkg.github.io/chemrof/
+  IAO: http://purl.obolibrary.org/obo/IAO_
+  OMO: http://purl.obolibrary.org/obo/OMO_
+  SLM: 'https://www.swisslipids.org/#/entity/SLM:'
+  dcterms: http://purl.org/dc/terms/
+  debio: https://biopragmatics.github.io/debio/
+  hmdb: http://www.hmdb.ca/metabolites/
+  inchikey: http://legacy.chemspider.com/inchikey=
+  lipidmaps: http://www.lipidmaps.org/data/LMSDRecord.php?LMID=
+  obo: http://purl.obolibrary.org/obo/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  pubmed: http://rdf.ncbi.nlm.nih.gov/pubchem/reference/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  skos: http://www.w3.org/2004/02/skos/core#
+  xsd: http://www.w3.org/2001/XMLSchema#

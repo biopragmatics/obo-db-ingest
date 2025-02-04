@@ -6,14 +6,15 @@ The PharmGKB database is a central repository for genetic, genomic, molecular an
 
 ## PURLs
 
-| Artifact       | Download PURL                                                                        | Latest Versioned Download PURL   |
-|----------------|--------------------------------------------------------------------------------------|----------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.obo       |                                  |
-| OFN            | https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.ofn       |                                  |
-| Nodes          | https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.tsv       |                                  |
-| SSSOM          | https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.sssom.tsv |                                  |
-| OWL            | https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.owl       |                                  |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.json      |                                  |
+| Artifact       | Download PURL                                                                           | Latest Versioned Download PURL   |
+|----------------|-----------------------------------------------------------------------------------------|----------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.obo          |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.ofn          |                                  |
+| Nodes          | https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.tsv          |                                  |
+| SSSOM          | https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.sssom.tsv    |                                  |
+| Synonyms       | https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.synonyms.tsv |                                  |
+| OWL            | https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.owl          |                                  |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.json         |                                  |
 
 ## Summary
 

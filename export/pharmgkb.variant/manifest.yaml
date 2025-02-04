@@ -1,0 +1,59 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.tsv
+    path: pharmgkb.variant/pharmgkb.variant.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.obo
+    path: pharmgkb.variant/pharmgkb.variant.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.json
+    path: pharmgkb.variant/pharmgkb.variant.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.ofn
+    path: pharmgkb.variant/pharmgkb.variant.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.owl
+    path: pharmgkb.variant/pharmgkb.variant.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.sssom.tsv
+    path: pharmgkb.variant/pharmgkb.variant.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: CC-BY-SA-4.0
+    mappings: 7038
+    parents: 0
+    properties: 14380
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 7038
+    version: null
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.synonyms.tsv
+    path: pharmgkb.variant/pharmgkb.variant.synonyms.tsv
+prefix_map:
+  dbsnp: https://www.ncbi.nlm.nih.gov/snp/
+  dcterms: http://purl.org/dc/terms/
+  obo: http://purl.obolibrary.org/obo/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  pharmgkb.gene: http://www.pharmgkb.org/gene/
+  pharmgkb.variant: https://www.pharmgkb.org/variant/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  skos: http://www.w3.org/2004/02/skos/core#
+  xsd: http://www.w3.org/2001/XMLSchema#

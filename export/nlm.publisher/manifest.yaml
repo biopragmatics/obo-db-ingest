@@ -1,0 +1,63 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/nlm.publisher/nlm.publisher.tsv
+    path: nlm.publisher/nlm.publisher.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/nlm.publisher/nlm.publisher.obo
+    path: nlm.publisher/nlm.publisher.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/nlm.publisher/nlm.publisher.json
+    path: nlm.publisher/nlm.publisher.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/nlm.publisher/nlm.publisher.ofn
+    path: nlm.publisher/nlm.publisher.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/nlm.publisher/nlm.publisher.owl
+    path: nlm.publisher/nlm.publisher.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/nlm.publisher/nlm.publisher.sssom.tsv
+    path: nlm.publisher/nlm.publisher.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: public domain
+    mappings: 0
+    parents: 452
+    properties: 0
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 452
+    version: null
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/nlm.publisher/nlm.publisher.synonyms.tsv
+    path: nlm.publisher/nlm.publisher.synonyms.tsv
+prefix_map:
+  IAO: http://purl.obolibrary.org/obo/IAO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  biolink: https://w3id.org/biolink/vocab/
+  dcterms: http://purl.org/dc/terms/
+  nlm.publisher: 'https://bioregistry.io/nlm.publisher:'
+  obo: http://purl.obolibrary.org/obo/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  schema: https://schema.org/
+  skos: http://www.w3.org/2004/02/skos/core#
+  uniprot.core: http://purl.uniprot.org/core/
+  xsd: http://www.w3.org/2001/XMLSchema#

@@ -1,0 +1,56 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cpt/cpt.tsv
+    path: cpt/cpt.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cpt/cpt.obo
+    path: cpt/cpt.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cpt/cpt.json
+    path: cpt/cpt.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cpt/cpt.ofn
+    path: cpt/cpt.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cpt/cpt.owl
+    path: cpt/cpt.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cpt/cpt.sssom.tsv
+    path: cpt/cpt.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 164
+    license: null
+    mappings: 164
+    parents: 0
+    properties: 33
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 164
+    version: null
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/cpt/cpt.synonyms.tsv
+    path: cpt/cpt.synonyms.tsv
+prefix_map:
+  cpt: https://www.aapc.com/codes/cpt-codes/
+  cvx: https://biopragmatics.github.io/providers/cvx/
+  dcterms: http://purl.org/dc/terms/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#

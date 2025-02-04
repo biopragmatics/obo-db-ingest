@@ -6,14 +6,15 @@ The GeoNames geographical database covers all countries and contains over eleven
 
 ## PURLs
 
-| Artifact       | Download PURL                                                        | Latest Versioned Download PURL   |
-|----------------|----------------------------------------------------------------------|----------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/geonames/geonames.obo       |                                  |
-| OFN            | https://w3id.org/biopragmatics/resources/geonames/geonames.ofn       |                                  |
-| Nodes          | https://w3id.org/biopragmatics/resources/geonames/geonames.tsv       |                                  |
-| SSSOM          | https://w3id.org/biopragmatics/resources/geonames/geonames.sssom.tsv |                                  |
-| OWL            | https://w3id.org/biopragmatics/resources/geonames/geonames.owl       |                                  |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/geonames/geonames.json      |                                  |
+| Artifact       | Download PURL                                                           | Latest Versioned Download PURL   |
+|----------------|-------------------------------------------------------------------------|----------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/geonames/geonames.obo          |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/geonames/geonames.ofn          |                                  |
+| Nodes          | https://w3id.org/biopragmatics/resources/geonames/geonames.tsv          |                                  |
+| SSSOM          | https://w3id.org/biopragmatics/resources/geonames/geonames.sssom.tsv    |                                  |
+| Synonyms       | https://w3id.org/biopragmatics/resources/geonames/geonames.synonyms.tsv |                                  |
+| OWL            | https://w3id.org/biopragmatics/resources/geonames/geonames.owl          |                                  |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/geonames/geonames.json         |                                  |
 
 ## Summary
 

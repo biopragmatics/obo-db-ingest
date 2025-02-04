@@ -1,0 +1,90 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ror/ror.tsv
+    path: ror/ror.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/ror/1.36/ror.tsv
+    version_path: ror/1.36/ror.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ror/ror.obo
+    path: ror/ror.obo
+    version_iri: https://w3id.org/biopragmatics/resources/ror/1.36/ror.obo
+    version_path: ror/1.36/ror.obo
+  obograph:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/ror/ror.json.gz
+    path: ror/ror.json.gz
+    version_iri: https://w3id.org/biopragmatics/resources/ror/1.36/ror.json.gz
+    version_path: ror/1.36/ror.json.gz
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ror/ror.ofn
+    path: ror/ror.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/ror/1.36/ror.ofn
+    version_path: ror/1.36/ror.ofn
+  owl:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/ror/ror.owl.gz
+    path: ror/ror.owl.gz
+    version_iri: https://w3id.org/biopragmatics/resources/ror/1.36/ror.owl.gz
+    version_path: ror/1.36/ror.owl.gz
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ror/ror.sssom.tsv
+    path: ror/ror.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/ror/1.36/ror.sssom.tsv
+    version_path: ror/1.36/ror.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 107096
+    license: CC0-1.0
+    mappings: 237176
+    parents: 107133
+    properties: 104979
+    references: 0
+    relations: 155567
+    synonyms: 105380
+    terms: 107096
+    version: '1.36'
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ror/ror.synonyms.tsv
+    path: ror/ror.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/ror/1.36/ror.synonyms.tsv
+    version_path: ror/1.36/ror.synonyms.tsv
+prefix_map:
+  BFO: http://purl.obolibrary.org/obo/BFO_
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  GSSO: http://purl.obolibrary.org/obo/GSSO_
+  IAO: http://purl.obolibrary.org/obo/IAO_
+  ICO: http://purl.obolibrary.org/obo/ICO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  OMO: http://purl.obolibrary.org/obo/OMO_
+  RO: http://purl.obolibrary.org/obo/RO_
+  cnrs: 'https://bioregistry.io/cnrs:'
+  dcterms: http://purl.org/dc/terms/
+  foaf: http://xmlns.com/foaf/0.1/
+  funderregistry: http://data.crossref.org/fundingdata/funder/10.13039/
+  geonames: https://www.geonames.org/
+  grid: https://www.grid.ac/institutes/
+  hesa: 'https://bioregistry.io/hesa:'
+  isni: http://www.isni.org/isni/
+  obo: http://purl.obolibrary.org/obo/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  ror: https://ror.org/
+  ucas: 'https://bioregistry.io/ucas:'
+  ukprn: 'https://bioregistry.io/ukprn:'
+  wikidata: http://www.wikidata.org/entity/
+  xsd: http://www.w3.org/2001/XMLSchema#

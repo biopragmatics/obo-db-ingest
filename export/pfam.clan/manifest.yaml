@@ -1,0 +1,69 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.tsv
+    path: pfam.clan/pfam.clan.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.tsv
+    version_path: pfam.clan/37.2/pfam.clan.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.obo
+    path: pfam.clan/pfam.clan.obo
+    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.obo
+    version_path: pfam.clan/37.2/pfam.clan.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.json
+    path: pfam.clan/pfam.clan.json
+    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.json
+    version_path: pfam.clan/37.2/pfam.clan.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.ofn
+    path: pfam.clan/pfam.clan.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.ofn
+    version_path: pfam.clan/37.2/pfam.clan.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.owl
+    path: pfam.clan/pfam.clan.owl
+    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.owl
+    version_path: pfam.clan/37.2/pfam.clan.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.sssom.tsv
+    path: pfam.clan/pfam.clan.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.sssom.tsv
+    version_path: pfam.clan/37.2/pfam.clan.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: CC0-1.0
+    mappings: 0
+    parents: 0
+    properties: 0
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 769
+    version: '37.2'
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.synonyms.tsv
+    path: pfam.clan/pfam.clan.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.synonyms.tsv
+    version_path: pfam.clan/37.2/pfam.clan.synonyms.tsv
+prefix_map:
+  dcterms: http://purl.org/dc/terms/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  pfam.clan: https://www.ebi.ac.uk/interpro/set/pfam/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#

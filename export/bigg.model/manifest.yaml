@@ -1,0 +1,71 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.tsv
+    path: bigg.model/bigg.model.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.tsv
+    version_path: bigg.model/1.6.0/bigg.model.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.obo
+    path: bigg.model/bigg.model.obo
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.obo
+    version_path: bigg.model/1.6.0/bigg.model.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.json
+    path: bigg.model/bigg.model.json
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.json
+    version_path: bigg.model/1.6.0/bigg.model.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.ofn
+    path: bigg.model/bigg.model.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.ofn
+    version_path: bigg.model/1.6.0/bigg.model.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.owl
+    path: bigg.model/bigg.model.owl
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.owl
+    version_path: bigg.model/1.6.0/bigg.model.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.sssom.tsv
+    path: bigg.model/bigg.model.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.sssom.tsv
+    version_path: bigg.model/1.6.0/bigg.model.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: http://bigg.ucsd.edu/license#license
+    mappings: 0
+    parents: 0
+    properties: 0
+    references: 0
+    relations: 105
+    synonyms: 0
+    terms: 108
+    version: 1.6.0
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.synonyms.tsv
+    path: bigg.model/bigg.model.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.synonyms.tsv
+    version_path: bigg.model/1.6.0/bigg.model.synonyms.tsv
+prefix_map:
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  RO: http://purl.obolibrary.org/obo/RO_
+  bigg.model: http://bigg.ucsd.edu/models/
+  dcterms: http://purl.org/dc/terms/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#

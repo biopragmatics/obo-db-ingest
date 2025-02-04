@@ -6,14 +6,15 @@ BiGG is a knowledgebase of Biochemically, Genetically and Genomically structured
 
 ## PURLs
 
-| Artifact       | Download PURL                                                                  | Latest Versioned Download PURL                                                       |
-|----------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.obo       | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.obo       |
-| OFN            | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.ofn       | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.ofn       |
-| Nodes          | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.tsv       | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.tsv       |
-| SSSOM          | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.sssom.tsv | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.sssom.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.owl       | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.owl       |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.json      | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.json      |
+| Artifact       | Download PURL                                                                     | Latest Versioned Download PURL                                                          |
+|----------------|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.obo          | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.obo          |
+| OFN            | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.ofn          | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.ofn          |
+| Nodes          | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.tsv          | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.tsv          |
+| SSSOM          | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.sssom.tsv    | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.sssom.tsv    |
+| Synonyms       | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.synonyms.tsv | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.synonyms.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.owl          | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.owl          |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.json         | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.json         |
 
 ## Summary
 

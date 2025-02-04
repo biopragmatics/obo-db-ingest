@@ -1,0 +1,63 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.tsv
+    path: pharmgkb.disease/pharmgkb.disease.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.obo
+    path: pharmgkb.disease/pharmgkb.disease.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.json
+    path: pharmgkb.disease/pharmgkb.disease.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.ofn
+    path: pharmgkb.disease/pharmgkb.disease.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.owl
+    path: pharmgkb.disease/pharmgkb.disease.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.sssom.tsv
+    path: pharmgkb.disease/pharmgkb.disease.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: CC-BY-SA-4.0
+    mappings: 8955
+    parents: 0
+    properties: 0
+    references: 0
+    relations: 0
+    synonyms: 16189
+    terms: 1741
+    version: null
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.synonyms.tsv
+    path: pharmgkb.disease/pharmgkb.disease.synonyms.tsv
+prefix_map:
+  HP: http://purl.obolibrary.org/obo/HP_
+  MONDO: http://purl.obolibrary.org/obo/MONDO_
+  dcterms: http://purl.org/dc/terms/
+  meddra: http://purl.bioontology.org/ontology/MDRFRE/
+  mesh: http://id.nlm.nih.gov/mesh/
+  ndfrt: http://purl.bioontology.org/ontology/NDFRT/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  omim: 'https://omim.org/MIM:'
+  owl: http://www.w3.org/2002/07/owl#
+  pharmgkb.disease: http://www.pharmgkb.org/disease/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  snomedct: http://snomed.info/id/
+  umls: https://uts.nlm.nih.gov/uts/umls/concept/
+  xsd: http://www.w3.org/2001/XMLSchema#

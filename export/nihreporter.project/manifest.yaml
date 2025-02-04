@@ -1,0 +1,58 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.tsv.gz
+    path: nihreporter.project/nihreporter.project.tsv.gz
+  obo:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.obo.gz
+    path: nihreporter.project/nihreporter.project.obo.gz
+  obograph:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.json.gz
+    path: nihreporter.project/nihreporter.project.json.gz
+  ofn:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.ofn.gz
+    path: nihreporter.project/nihreporter.project.ofn.gz
+  owl:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.owl.gz
+    path: nihreporter.project/nihreporter.project.owl.gz
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.sssom.tsv
+    path: nihreporter.project/nihreporter.project.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: null
+    mappings: 0
+    parents: 2825097
+    properties: 0
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 2825097
+    version: null
+  synonyms:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.synonyms.synonyms.tsv.gz
+    path: nihreporter.project/nihreporter.project.synonyms.synonyms.tsv.gz
+prefix_map:
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  dcterms: http://purl.org/dc/terms/
+  nihreporter.project: https://reporter.nih.gov/project-details/
+  obo: http://purl.obolibrary.org/obo/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#

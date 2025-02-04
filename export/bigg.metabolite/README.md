@@ -6,14 +6,15 @@ BiGG is a knowledgebase of Biochemically, Genetically and Genomically structured
 
 ## PURLs
 
-| Artifact       | Download PURL                                                                      | Latest Versioned Download PURL                                                           |
-|----------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.obo       | https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.obo       |
-| OFN            | https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.ofn       | https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.ofn       |
-| Nodes          | https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.tsv       | https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.tsv       |
-| SSSOM          | https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.sssom.tsv | https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.sssom.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.owl       | https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.owl       |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.json      | https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.json      |
+| Artifact       | Download PURL                                                                         | Latest Versioned Download PURL                                                              |
+|----------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.obo          | https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.obo          |
+| OFN            | https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.ofn          | https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.ofn          |
+| Nodes          | https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.tsv          | https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.tsv          |
+| SSSOM          | https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.sssom.tsv    | https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.sssom.tsv    |
+| Synonyms       | https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.synonyms.tsv | https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.synonyms.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.owl          | https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.owl          |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.json         | https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.json         |
 
 ## Summary
 

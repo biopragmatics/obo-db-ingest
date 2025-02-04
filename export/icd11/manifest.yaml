@@ -1,0 +1,54 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/icd11/icd11.tsv
+    path: icd11/icd11.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/icd11/icd11.obo
+    path: icd11/icd11.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/icd11/icd11.json
+    path: icd11/icd11.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/icd11/icd11.ofn
+    path: icd11/icd11.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/icd11/icd11.owl
+    path: icd11/icd11.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/icd11/icd11.sssom.tsv
+    path: icd11/icd11.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 17840
+    license: CC-BY-ND-3.0-IGO
+    mappings: 29474
+    parents: 77508
+    properties: 29474
+    references: 0
+    relations: 0
+    synonyms: 46545
+    terms: 69477
+    version: null
+prefix_map:
+  biolink: https://w3id.org/biolink/vocab/
+  dcterms: http://purl.org/dc/terms/
+  icd11: https://icd.who.int/browse11/l-m/en#/http://id.who.int/icd/entity/
+  icd11.code: "https://bioregistry.io/icd11.code:"
+  skos: "http://www.w3.org/2004/02/skos/core#"
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#

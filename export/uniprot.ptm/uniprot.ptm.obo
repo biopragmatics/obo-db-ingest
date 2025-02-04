@@ -1,5 +1,5 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.0-dev-63556853 on 2025-01-13T18:29:02.137261
+auto-generated-by: PyOBO v0.12.0-dev-6a0f77c3 on 2025-02-04T22:19:38.341879
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
 idspace: unimod http://www.unimod.org/modifications_view.php?editid1= "Unimod protein modification database for mass spectrometry"
 idspace: uniprot.ptm https://biopragmatics.github.io/providers/uniprot.ptm/ "UniProt Post-Translational Modification"
@@ -4400,3 +4400,9 @@ name: 4-hydroxynonenal-conjugated lysine
 id: uniprot.ptm:PTM-0738
 name: Methylcyclopropylglycine
 xref: CHEBI:229546
+
+[Term]
+id: uniprot.ptm:PTM-0739
+name: 3-\(L-phenylalan-2'-yl\)-L-valine \(Phe-Val\)
+xref: MOD:01881
+xref: RESID:AA0565

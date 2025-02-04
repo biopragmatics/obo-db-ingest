@@ -1,0 +1,61 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.tsv
+    path: clinicaltrials/clinicaltrials.tsv
+  obo:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.obo.gz
+    path: clinicaltrials/clinicaltrials.obo.gz
+  obograph:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.json.gz
+    path: clinicaltrials/clinicaltrials.json.gz
+  ofn:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.ofn.gz
+    path: clinicaltrials/clinicaltrials.ofn.gz
+  owl:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.owl.gz
+    path: clinicaltrials/clinicaltrials.owl.gz
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.sssom.tsv
+    path: clinicaltrials/clinicaltrials.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: https://clinicaltrials.gov/about-site/terms-conditions#availability
+    mappings: 879540
+    parents: 522294
+    properties: 2080891
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 522294
+    version: null
+  synonyms:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.synonyms.synonyms.tsv.gz
+    path: clinicaltrials/clinicaltrials.synonyms.synonyms.tsv.gz
+prefix_map:
+  IAO: http://purl.obolibrary.org/obo/IAO_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  clinicaltrials: https://www.clinicaltrials.gov/study/
+  dcterms: http://purl.org/dc/terms/
+  mesh: http://id.nlm.nih.gov/mesh/
+  obo: http://purl.obolibrary.org/obo/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
+  owl: http://www.w3.org/2002/07/owl#
+  pubmed: http://rdf.ncbi.nlm.nih.gov/pubchem/reference/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#

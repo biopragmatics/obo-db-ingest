@@ -1,0 +1,84 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.tsv
+    path: bigg.metabolite/bigg.metabolite.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.tsv
+    version_path: bigg.metabolite/1.6.0/bigg.metabolite.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.obo
+    path: bigg.metabolite/bigg.metabolite.obo
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.obo
+    version_path: bigg.metabolite/1.6.0/bigg.metabolite.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.json
+    path: bigg.metabolite/bigg.metabolite.json
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.json
+    version_path: bigg.metabolite/1.6.0/bigg.metabolite.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.ofn
+    path: bigg.metabolite/bigg.metabolite.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.ofn
+    version_path: bigg.metabolite/1.6.0/bigg.metabolite.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.owl
+    path: bigg.metabolite/bigg.metabolite.owl
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.owl
+    version_path: bigg.metabolite/1.6.0/bigg.metabolite.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.sssom.tsv
+    path: bigg.metabolite/bigg.metabolite.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.sssom.tsv
+    version_path: bigg.metabolite/1.6.0/bigg.metabolite.sssom.tsv
+  summary:
+    alts: 17358
+    definitions: 0
+    license: http://bigg.ucsd.edu/license#license
+    mappings: 95484
+    parents: 0
+    properties: 203058
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 15724
+    version: 1.6.0
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.synonyms.tsv
+    path: bigg.metabolite/bigg.metabolite.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.synonyms.tsv
+    version_path: bigg.metabolite/1.6.0/bigg.metabolite.synonyms.tsv
+prefix_map:
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  IAO: http://purl.obolibrary.org/obo/IAO_
+  RO: http://purl.obolibrary.org/obo/RO_
+  bigg.metabolite: http://bigg.ucsd.edu/models/universal/metabolites/
+  bigg.model: http://bigg.ucsd.edu/models/
+  biocyc: http://biocyc.org/getid?id=
+  dcterms: http://purl.org/dc/terms/
+  hmdb: http://www.hmdb.ca/metabolites/
+  inchikey: http://legacy.chemspider.com/inchikey=
+  kegg.compound: https://www.kegg.jp/entry/
+  kegg.drug: https://www.kegg.jp/entry/
+  kegg.glycan: https://www.kegg.jp/entry/
+  lipidmaps: http://www.lipidmaps.org/data/LMSDRecord.php?LMID=
+  metanetx.chemical: https://www.metanetx.org/chem_info/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  reactome: https://reactome.org/content/detail/
+  seed.compound: http://modelseed.org/biochem/compounds/
+  skos: http://www.w3.org/2004/02/skos/core#
+  xsd: http://www.w3.org/2001/XMLSchema#

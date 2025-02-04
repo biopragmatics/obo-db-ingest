@@ -1,0 +1,100 @@
+date: '2025-02-04'
+dependencies:
+  bioontologies: 0.5.3-dev-a2eed901
+  bioregistry: 0.12.0-dev-e83e2f4e
+  pyobo: 0.12.0-dev-6a0f77c3
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.tsv
+    path: hgnc/hgnc.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.tsv
+    version_path: hgnc/2024-12-03/hgnc.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.obo
+    path: hgnc/hgnc.obo
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.obo
+    version_path: hgnc/2024-12-03/hgnc.obo
+  obograph:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.json.gz
+    path: hgnc/hgnc.json.gz
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.json.gz
+    version_path: hgnc/2024-12-03/hgnc.json.gz
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.ofn
+    path: hgnc/hgnc.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.ofn
+    version_path: hgnc/2024-12-03/hgnc.ofn
+  owl:
+    gzipped: true
+    iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.owl.gz
+    path: hgnc/hgnc.owl.gz
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.owl.gz
+    version_path: hgnc/2024-12-03/hgnc.owl.gz
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.sssom.tsv
+    path: hgnc/hgnc.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.sssom.tsv
+    version_path: hgnc/2024-12-03/hgnc.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 43839
+    license: CC0-1.0
+    mappings: 259747
+    parents: 43839
+    properties: 330039
+    references: 35052
+    relations: 151570
+    synonyms: 105407
+    terms: 43839
+    version: '2024-12-03'
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.synonyms.tsv
+    path: hgnc/hgnc.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.synonyms.tsv
+    version_path: hgnc/2024-12-03/hgnc.synonyms.tsv
+prefix_map:
+  IAO: http://purl.obolibrary.org/obo/IAO_
+  MGI: 'http://www.informatics.jax.org/accession/MGI:'
+  NCBIGene: http://purl.uniprot.org/geneid/
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  RO: http://purl.obolibrary.org/obo/RO_
+  SO: http://purl.obolibrary.org/obo/SO_
+  ccds: http://www.ncbi.nlm.nih.gov/CCDS/CcdsBrowse.cgi?REQUEST=CCDS&DATA=
+  cosmic: http://cancer.sanger.ac.uk/cosmic/gene/overview?ln=
+  dcterms: http://purl.org/dc/terms/
+  debio: https://biopragmatics.github.io/debio/
+  eccode: https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
+  ena.embl: https://www.ebi.ac.uk/ena/browser/view/
+  ensembl: http://rdf.ebi.ac.uk/resource/ensembl/
+  hgnc: https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/
+  hgnc.genegroup: https://www.genenames.org/data/genegroup/#!/group/
+  iuphar.ligand: http://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=
+  iuphar.receptor: http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=
+  lncipedia: 'https://bioregistry.io/lncipedia:'
+  lrg: 'https://bioregistry.io/lrg:'
+  mirbase: http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=
+  obo: http://purl.obolibrary.org/obo/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  omim: 'https://omim.org/MIM:'
+  orphanet: http://www.orpha.net/consor/cgi-bin/OC_Exp.php?Lng=EN&Expert=
+  owl: http://www.w3.org/2002/07/owl#
+  pseudogene: http://tables.pseudogene.org/[?species_name]/
+  pubmed: http://rdf.ncbi.nlm.nih.gov/pubchem/reference/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  refseq: https://www.ncbi.nlm.nih.gov/protein/
+  rgd: http://rgd.mcw.edu/rgdweb/report/gene/main.html?id=
+  rnacentral: https://rnacentral.org/rna/
+  skos: http://www.w3.org/2004/02/skos/core#
+  snornabase: http://www-snorna.biotoul.fr/plus.php?id=
+  ucsc: ftp://hgdownload.cse.ucsc.edu/goldenPath/
+  uniprot: http://purl.uniprot.org/uniprot/
+  vega: http://vega.sanger.ac.uk/[?species_name]/Gene/Summary?g=
+  xsd: http://www.w3.org/2001/XMLSchema#

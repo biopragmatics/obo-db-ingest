@@ -6,14 +6,15 @@ ClinicalTrials.gov provides free access to information on clinical studies for a
 
 ## PURLs
 
-| Artifact       | Download PURL                                                                    | Latest Versioned Download PURL   |
-|----------------|----------------------------------------------------------------------------------|----------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.obo.gz    |                                  |
-| OFN            | https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.ofn.gz    |                                  |
-| Nodes          | https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.tsv       |                                  |
-| SSSOM          | https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.sssom.tsv |                                  |
-| OWL            | https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.owl.gz    |                                  |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.json.gz   |                                  |
+| Artifact       | Download PURL                                                                                   | Latest Versioned Download PURL   |
+|----------------|-------------------------------------------------------------------------------------------------|----------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.obo.gz                   |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.ofn.gz                   |                                  |
+| Nodes          | https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.tsv                      |                                  |
+| SSSOM          | https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.sssom.tsv                |                                  |
+| Synonyms       | https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.synonyms.synonyms.tsv.gz |                                  |
+| OWL            | https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.owl.gz                   |                                  |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.json.gz                  |                                  |
 
 ## Summary
 

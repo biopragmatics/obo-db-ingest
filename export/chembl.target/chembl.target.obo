@@ -1,6 +1,6 @@
 format-version: 1.4
 data-version: 35
-auto-generated-by: PyOBO v0.12.0-dev-54d04b4f on 2025-01-16T12:46:20.739407
+auto-generated-by: PyOBO v0.12.0-dev-6a0f77c3 on 2025-02-04T20:33:29.437243
 idspace: chembl.target https://www.ebi.ac.uk/chembl/target/inspect/ "ChEMBL target"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
 idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
@@ -110614,158 +110614,158 @@ relationship: RO:0002162 NCBITaxon:5855 ! in taxon Plasmodium vivax
 [Term]
 id: admet
 name: ADMET
-def: "Target is not applicable for an ADMET assay \(e.g.\, physchem property\)" []
+def: "Target is not applicable for an ADMET assay \(e.g.\, physchem property\)"
 is_a: undefined
 
 [Term]
 id: cell-line
 name: CELL-LINE
-def: "Target is a specific cell-line" []
+def: "Target is a specific cell-line"
 is_a: non-molecular
 
 [Term]
 id: chimeric-protein
 name: CHIMERIC PROTEIN
-def: "Target is a fusion of two different proteins\, either a synthetic construct or naturally occurring fusion protein" []
+def: "Target is a fusion of two different proteins\, either a synthetic construct or naturally occurring fusion protein"
 is_a: protein
 
 [Term]
 id: lipid
 name: LIPID
-def: "Target is a lipid" []
+def: "Target is a lipid"
 is_a: molecular
 
 [Term]
 id: macromolecule
 name: MACROMOLECULE
-def: "Target is a biological macromolecule \(e.g.\, glycoproteins\, hemozoin\, hydroxyapatite\)" []
+def: "Target is a biological macromolecule \(e.g.\, glycoproteins\, hemozoin\, hydroxyapatite\)"
 is_a: molecular
 
 [Term]
 id: metal
 name: METAL
-def: "Target is a metal e.g.\, iron" []
+def: "Target is a metal e.g.\, iron"
 is_a: molecular
 
 [Term]
 id: molecular
 name: MOLECULAR
-def: "Target has been identified as a defined molecular entity \(e.g.\, protein or nucleic acid\)" []
+def: "Target has been identified as a defined molecular entity \(e.g.\, protein or nucleic acid\)"
 
 [Term]
 id: no-target
 name: NO TARGET
-def: "Target is not applicable for a screening assay \(e.g.\, negative control/counterscreen\)" []
+def: "Target is not applicable for a screening assay \(e.g.\, negative control/counterscreen\)"
 is_a: undefined
 
 [Term]
 id: non-molecular
 name: NON-MOLECULAR
-def: "Target has not been defined at a molecular level\, only the non-molecular entity which is affected \(e.g.\, organism\, cell line etc\)" []
+def: "Target has not been defined at a molecular level\, only the non-molecular entity which is affected \(e.g.\, organism\, cell line etc\)"
 
 [Term]
 id: nucleic-acid
 name: NUCLEIC-ACID
-def: "Target is DNA\, RNA or PNA" []
+def: "Target is DNA\, RNA or PNA"
 is_a: molecular
 
 [Term]
 id: oligosaccharide
 name: OLIGOSACCHARIDE
-def: "Target is an oligosaccharide \(e.g.\, heparin\, starch\)" []
+def: "Target is an oligosaccharide \(e.g.\, heparin\, starch\)"
 is_a: molecular
 
 [Term]
 id: organism
 name: ORGANISM
-def: "Target is a complete organism" []
+def: "Target is a complete organism"
 is_a: non-molecular
 
 [Term]
 id: phenotype
 name: PHENOTYPE
-def: "Target is a biological phenotype or process" []
+def: "Target is a biological phenotype or process"
 is_a: non-molecular
 
 [Term]
 id: protein
 name: PROTEIN
-def: "Target is a protein or group of proteins" []
+def: "Target is a protein or group of proteins"
 is_a: molecular
 
 [Term]
 id: protein-complex
 name: PROTEIN COMPLEX
-def: "Target is a defined protein complex\, consisting of multiple subunits" []
+def: "Target is a defined protein complex\, consisting of multiple subunits"
 is_a: protein
 
 [Term]
 id: protein-complex-group
 name: PROTEIN COMPLEX GROUP
-def: "Target is a poorly defined protein complex\, where subunit composition is unclear \(e.g.\, GABA-A receptor\)" []
+def: "Target is a poorly defined protein complex\, where subunit composition is unclear \(e.g.\, GABA-A receptor\)"
 is_a: protein
 
 [Term]
 id: protein-family
 name: PROTEIN FAMILY
-def: "Target is a group of closely related proteins" []
+def: "Target is a group of closely related proteins"
 is_a: protein
 
 [Term]
 id: protein-nucleic-acid-complex
 name: PROTEIN NUCLEIC-ACID COMPLEX
-def: "Target is a complex consisting of both protein and nucleic-acid components \(e.g.\, ribosome\)" []
+def: "Target is a complex consisting of both protein and nucleic-acid components \(e.g.\, ribosome\)"
 is_a: molecular
 
 [Term]
 id: protein-protein-interaction
 name: PROTEIN-PROTEIN INTERACTION
-def: "Target is the disruption of a protein-protein interaction" []
+def: "Target is the disruption of a protein-protein interaction"
 is_a: protein
 
 [Term]
 id: selectivity-group
 name: SELECTIVITY GROUP
-def: "Target is a pair of proteins for which the selectivity has been assessed" []
+def: "Target is a pair of proteins for which the selectivity has been assessed"
 is_a: protein
 
 [Term]
 id: single-protein
 name: SINGLE PROTEIN
-def: "Target is a single protein chain" []
+def: "Target is a single protein chain"
 is_a: protein
 
 [Term]
 id: small-molecule
 name: SMALL MOLECULE
-def: "Target is a small molecule such as an amino acid\, sugar or metabolite\)" []
+def: "Target is a small molecule such as an amino acid\, sugar or metabolite\)"
 is_a: molecular
 
 [Term]
 id: subcellular
 name: SUBCELLULAR
-def: "Target is a subcellular fraction" []
+def: "Target is a subcellular fraction"
 is_a: non-molecular
 
 [Term]
 id: tissue
 name: TISSUE
-def: "Target is a healthy or diseased tissue" []
+def: "Target is a healthy or diseased tissue"
 is_a: non-molecular
 
 [Term]
 id: unchecked
 name: UNCHECKED
-def: "Target has not yet been assigned" []
+def: "Target has not yet been assigned"
 is_a: undefined
 
 [Term]
 id: undefined
 name: UNDEFINED
-def: "No target has been defined" []
+def: "No target has been defined"
 
 [Term]
 id: unknown
 name: UNKNOWN
-def: "Molecular identity of target is unknown \(e.g.\, pharmacologically defined target\)" []
+def: "Molecular identity of target is unknown \(e.g.\, pharmacologically defined target\)"
 is_a: undefined
