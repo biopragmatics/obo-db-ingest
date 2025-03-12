@@ -21,6 +21,6 @@ ClinicalTrials.gov provides free access to information on clinical studies for a
 | field      |   count |
 |------------|---------|
 | mappings   |  879540 |
-| parents    |  522294 |
-| properties | 2080891 |
+| parents    |  522301 |
+| properties | 2080905 |
 | terms      |  522294 |

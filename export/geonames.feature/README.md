@@ -21,5 +21,6 @@ All geographical features in GeoNames are categorized into one out of nine featu
 | field       |   count |
 |-------------|---------|
 | definitions |     683 |
-| parents     |     683 |
+| parents     |     693 |
+| properties  |      18 |
 | terms       |     683 |

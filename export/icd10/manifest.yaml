@@ -1,34 +1,46 @@
-date: '2025-02-04'
+date: '2025-03-12'
 dependencies:
-  bioontologies: 0.5.3-dev-a2eed901
-  bioregistry: 0.12.0-dev-e83e2f4e
-  pyobo: 0.12.0-dev-6a0f77c3
+  bioontologies: 0.6.1-dev-029beec3
+  bioregistry: 0.12.5-dev-6a6eb34f
+  pyobo: 0.12.0-dev-fc140cc1
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/icd10/icd10.tsv
     path: icd10/icd10.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/icd10/2016/icd10.tsv
+    version_path: icd10/2016/icd10.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/icd10/icd10.obo
     path: icd10/icd10.obo
+    version_iri: https://w3id.org/biopragmatics/resources/icd10/2016/icd10.obo
+    version_path: icd10/2016/icd10.obo
   obograph:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/icd10/icd10.json
     path: icd10/icd10.json
+    version_iri: https://w3id.org/biopragmatics/resources/icd10/2016/icd10.json
+    version_path: icd10/2016/icd10.json
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/icd10/icd10.ofn
     path: icd10/icd10.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/icd10/2016/icd10.ofn
+    version_path: icd10/2016/icd10.ofn
   owl:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/icd10/icd10.owl
     path: icd10/icd10.owl
+    version_iri: https://w3id.org/biopragmatics/resources/icd10/2016/icd10.owl
+    version_path: icd10/2016/icd10.owl
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/icd10/icd10.sssom.tsv
     path: icd10/icd10.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/icd10/2016/icd10.sssom.tsv
+    version_path: icd10/2016/icd10.sssom.tsv
   summary:
     alts: 0
     definitions: 0
@@ -40,7 +52,13 @@ manifest:
     relations: 0
     synonyms: 0
     terms: 12483
-    version: null
+    version: '2016'
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/icd10/icd10.synonyms.tsv
+    path: icd10/icd10.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/icd10/2016/icd10.synonyms.tsv
+    version_path: icd10/2016/icd10.synonyms.tsv
 prefix_map:
   biolink: https://w3id.org/biolink/vocab/
   dcterms: http://purl.org/dc/terms/

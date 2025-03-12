@@ -23,9 +23,9 @@ operated by California Digital Library, Crossref, and Datacite.
 | field       |   count |
 |-------------|---------|
 | definitions |  107096 |
-| mappings    |  237176 |
-| parents     |  107133 |
-| properties  |  104979 |
+| mappings    |  237178 |
+| parents     |  122664 |
+| properties  |  104993 |
 | relations   |  155567 |
 | synonyms    |  105380 |
 | terms       |  107096 |

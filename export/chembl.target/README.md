@@ -18,10 +18,11 @@ ChEMBL is a database of bioactive compounds, their quantitative properties and b
 
 ## Summary
 
-| field      |   count |
-|------------|---------|
-| mappings   |    9479 |
-| parents    |   16003 |
-| properties |   14803 |
-| relations  |   15758 |
-| terms      |   16003 |
+| field       |   count |
+|-------------|---------|
+| definitions |      27 |
+| mappings    |    9479 |
+| parents     |   16027 |
+| properties  |   14803 |
+| relations   |   15758 |
+| terms       |   16003 |

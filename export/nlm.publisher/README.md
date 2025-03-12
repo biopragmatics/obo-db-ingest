@@ -18,7 +18,9 @@ Publisher short codes appearin in the NLM Catalog.
 
 ## Summary
 
-| field   |   count |
-|---------|---------|
-| parents |     452 |
-| terms   |     452 |
+| field      |   count |
+|------------|---------|
+| mappings   |       3 |
+| parents    |     453 |
+| properties |       5 |
+| terms      |     452 |

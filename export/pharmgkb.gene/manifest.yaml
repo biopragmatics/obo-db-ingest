@@ -1,8 +1,8 @@
-date: '2025-02-04'
+date: '2025-03-12'
 dependencies:
-  bioontologies: 0.5.3-dev-a2eed901
-  bioregistry: 0.12.0-dev-e83e2f4e
-  pyobo: 0.12.0-dev-6a0f77c3
+  bioontologies: 0.6.1-dev-029beec3
+  bioregistry: 0.12.5-dev-6a6eb34f
+  pyobo: 0.12.0-dev-fc140cc1
 errored: false
 manifest:
   nodes:
@@ -33,7 +33,7 @@ manifest:
     alts: 0
     definitions: 0
     license: CC-BY-SA-4.0
-    mappings: 128321
+    mappings: 240059
     parents: 0
     properties: 49907
     references: 0
@@ -53,12 +53,14 @@ prefix_map:
   genbank: https://www.ncbi.nlm.nih.gov/nucleotide/
   hgnc: https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/
   iuphar.receptor: http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=
+  mesh: http://id.nlm.nih.gov/mesh/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
   omim: 'https://omim.org/MIM:'
   owl: http://www.w3.org/2002/07/owl#
   pharmgkb.gene: http://www.pharmgkb.org/gene/
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   rdfs: http://www.w3.org/2000/01/rdf-schema#
+  refseq: https://www.ncbi.nlm.nih.gov/protein/
   skos: http://www.w3.org/2004/02/skos/core#
   uniprot: http://purl.uniprot.org/uniprot/
   xsd: http://www.w3.org/2001/XMLSchema#

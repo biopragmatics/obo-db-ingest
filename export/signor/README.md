@@ -21,6 +21,6 @@ SIGNOR, the SIGnaling Network Open Resource, organizes and stores in a structure
 | field       |   count |
 |-------------|---------|
 | definitions |    1710 |
-| parents     |    2338 |
-| properties  |    3391 |
+| parents     |    2339 |
+| properties  |    3399 |
 | terms       |    2338 |

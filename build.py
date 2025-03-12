@@ -8,11 +8,11 @@
 # ]
 #
 # [tool.uv.sources]
-# bioversions = { path = "../bioversions" }
-# bioregistry = { path = "../bioregistry" }
-# pyobo = { path = "../pyobo" }
-# bioontologies = { path = "../bioontologies" }
+# bioversions = { path = "../bioversions", editable = true }
+# bioregistry = { path = "../bioregistry", editable = true }
+# bioontologies = { path = "../bioontologies", editable = true }
 # gilda = { git = "https://github.com/cthoyt/gilda", branch = "slim" }
+# pyobo = { path = "../pyobo", editable = true }
 # ///
 
 """Build OBO dumps of database.
@@ -91,7 +91,7 @@ PREFIXES = [
     "bigg.compartment",
     "ccle",
     "icd11",
-    "eccode",
+    "ec",
     "sgd",
     "mirbase",
     "mirbase.family",
@@ -210,7 +210,7 @@ def _prepare_artifact(
 
 
 def _get_summary(obo: Obo) -> dict:
-    terms = list(obo._iter_terms(desc=f'[{obo.ontology}]'))
+    terms = list(obo._iter_stanzas(desc=f"[{obo.ontology}]"))
     rv = {
         "terms": sum(term.prefix == obo.ontology for term in obo),
         "relations": sum(len(values) for term in terms for values in term.relationships.values()),
@@ -354,7 +354,7 @@ def _make(  # noqa:C901
     _, rv["nodes"] = _prepare_artifact(prefix, names_path, has_version, ".tsv.gz")
 
     tqdm.write(f"[{prefix}] writing SSSOM")
-    sssom_df = obo.get_mappings_df(names=False, use_tqdm=False)
+    sssom_df = obo.get_mappings_df(use_tqdm=False)
     sssom_df.to_csv(sssom_path, sep="\t", index=False)
     _, rv["sssom"] = _prepare_artifact(prefix, sssom_path, has_version, ".sssom.tsv.gz")
 
@@ -386,7 +386,7 @@ def _make(  # noqa:C901
             msg = (
                 f"[{prefix}] {type(e)} - ROBOT failed to convert to OWL\n\t{e}\n\t{' '.join(e.cmd)}"
             )
-            tqdm.write(msg, fg="red")
+            secho(msg, fg="red")
             with log_path.open("a") as file:
                 file.write(f"\n\n{msg}\n\n")
                 traceback.print_exc(file=file)
@@ -453,17 +453,14 @@ def _make(  # noqa:C901
     )
     readme_path.write_text(text)
 
-    manifest_path.write_text(
-        yaml.safe_dump(
-            {
-                SKEY: rv,
-                "dependencies": _get_build_dependency_versions(),
-                "errored": errored,
-                "prefix_map": obo._get_clean_idspaces(),
-                "date": TODAY,
-            }
-        )
-    )
+    manifest_dict = {
+        SKEY: rv,
+        "dependencies": _get_build_dependency_versions(),
+        "errored": errored,
+        "prefix_map": {str(k): v for k, v in obo._get_clean_idspaces().items()},
+        "date": TODAY,
+    }
+    manifest_path.write_text(yaml.safe_dump(manifest_dict))
 
     del obo
 

@@ -18,7 +18,8 @@ RePORTER is an electronic tool that allows users to search a repository of both 
 
 ## Summary
 
-| field   |   count |
-|---------|---------|
-| parents | 2825097 |
-| terms   | 2825097 |
+| field      |   count |
+|------------|---------|
+| parents    | 2825098 |
+| properties |       2 |
+| terms      | 2825097 |

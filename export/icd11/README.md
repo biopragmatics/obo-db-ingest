@@ -6,22 +6,23 @@ The ICD-11 Foundation is the comprehensive base layer of the International Class
 
 ## PURLs
 
-| Artifact       | Download PURL                                                  | Latest Versioned Download PURL   |
-|----------------|----------------------------------------------------------------|----------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/icd11/icd11.obo       |                                  |
-| OFN            | https://w3id.org/biopragmatics/resources/icd11/icd11.ofn       |                                  |
-| Nodes          | https://w3id.org/biopragmatics/resources/icd11/icd11.tsv       |                                  |
-| SSSOM          | https://w3id.org/biopragmatics/resources/icd11/icd11.sssom.tsv |                                  |
-| OWL            | https://w3id.org/biopragmatics/resources/icd11/icd11.owl       |                                  |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/icd11/icd11.json      |                                  |
+| Artifact       | Download PURL                                                     | Latest Versioned Download PURL   |
+|----------------|-------------------------------------------------------------------|----------------------------------|
+| OBO            | https://w3id.org/biopragmatics/resources/icd11/icd11.obo          |                                  |
+| OFN            | https://w3id.org/biopragmatics/resources/icd11/icd11.ofn          |                                  |
+| Nodes          | https://w3id.org/biopragmatics/resources/icd11/icd11.tsv          |                                  |
+| SSSOM          | https://w3id.org/biopragmatics/resources/icd11/icd11.sssom.tsv    |                                  |
+| Synonyms       | https://w3id.org/biopragmatics/resources/icd11/icd11.synonyms.tsv |                                  |
+| OWL            | https://w3id.org/biopragmatics/resources/icd11/icd11.owl          |                                  |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/icd11/icd11.json         |                                  |
 
 ## Summary
 
 | field       |   count |
 |-------------|---------|
-| definitions |   17840 |
-| mappings    |   29474 |
-| parents     |   77508 |
-| properties  |   29474 |
-| synonyms    |   46545 |
-| terms       |   69477 |
+| definitions |   17885 |
+| mappings    |   29451 |
+| parents     |   79204 |
+| properties  |   29451 |
+| synonyms    |   48949 |
+| terms       |   71175 |

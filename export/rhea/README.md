@@ -10,20 +10,20 @@ Rhea covers the reactions described by the IUBMB Enzyme Nomenclature as well as 
 
 | Artifact       | Download PURL                                                   | Latest Versioned Download PURL                                      |
 |----------------|-----------------------------------------------------------------|---------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/rhea/rhea.obo          | https://w3id.org/biopragmatics/resources/rhea/136/rhea.obo          |
-| OFN            | https://w3id.org/biopragmatics/resources/rhea/rhea.ofn          | https://w3id.org/biopragmatics/resources/rhea/136/rhea.ofn          |
-| Nodes          | https://w3id.org/biopragmatics/resources/rhea/rhea.tsv          | https://w3id.org/biopragmatics/resources/rhea/136/rhea.tsv          |
-| SSSOM          | https://w3id.org/biopragmatics/resources/rhea/rhea.sssom.tsv    | https://w3id.org/biopragmatics/resources/rhea/136/rhea.sssom.tsv    |
-| Synonyms       | https://w3id.org/biopragmatics/resources/rhea/rhea.synonyms.tsv | https://w3id.org/biopragmatics/resources/rhea/136/rhea.synonyms.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/rhea/rhea.owl.gz       | https://w3id.org/biopragmatics/resources/rhea/136/rhea.owl.gz       |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/rhea/rhea.json.gz      | https://w3id.org/biopragmatics/resources/rhea/136/rhea.json.gz      |
+| OBO            | https://w3id.org/biopragmatics/resources/rhea/rhea.obo          | https://w3id.org/biopragmatics/resources/rhea/137/rhea.obo          |
+| OFN            | https://w3id.org/biopragmatics/resources/rhea/rhea.ofn          | https://w3id.org/biopragmatics/resources/rhea/137/rhea.ofn          |
+| Nodes          | https://w3id.org/biopragmatics/resources/rhea/rhea.tsv          | https://w3id.org/biopragmatics/resources/rhea/137/rhea.tsv          |
+| SSSOM          | https://w3id.org/biopragmatics/resources/rhea/rhea.sssom.tsv    | https://w3id.org/biopragmatics/resources/rhea/137/rhea.sssom.tsv    |
+| Synonyms       | https://w3id.org/biopragmatics/resources/rhea/rhea.synonyms.tsv | https://w3id.org/biopragmatics/resources/rhea/137/rhea.synonyms.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/rhea/rhea.owl.gz       | https://w3id.org/biopragmatics/resources/rhea/137/rhea.owl.gz       |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/rhea/rhea.json.gz      | https://w3id.org/biopragmatics/resources/rhea/137/rhea.json.gz      |
 
 ## Summary
 
 | field      |   count |
 |------------|---------|
-| mappings   |   19769 |
-| parents    |   69857 |
-| properties |  166512 |
-| relations  |  601285 |
-| terms      |   68524 |
+| mappings   |   19973 |
+| parents    |   71346 |
+| properties |  169612 |
+| relations  |  607072 |
+| terms      |   69688 |

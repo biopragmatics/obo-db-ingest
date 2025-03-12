@@ -20,6 +20,6 @@ Database of rare diseases and related terms, including symptoms, healthcare reso
 
 | field    |   count |
 |----------|---------|
-| parents  |    6131 |
+| parents  |    6115 |
 | synonyms |   20132 |
-| terms    |    6131 |
+| terms    |    6115 |

@@ -1,0 +1,2377 @@
+{
+  "graphs" : [ {
+    "id" : "https://w3id.org/biopragmatics/resources/omim.ps/omim.ps.ofn",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/terms/description",
+        "val" : "A Phenotypic Series is a tabular view of genetic heterogeneity of similar phenotypes across the genome."
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "https://www.omim.org/help/agreement"
+      }, {
+        "pred" : "http://purl.org/dc/terms/title",
+        "val" : "OMIM Phenotypic Series"
+      }, {
+        "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
+        "val" : "PyOBO v0.12.0-dev-c4540699 on 2025-03-08T01:41:17.685073"
+      }, {
+        "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
+        "val" : "2025-03-06"
+      } ],
+      "version" : "https://w3id.org/biopragmatics/resources/omim.ps/2025-03-06/omim.ps.ofn"
+    },
+    "nodes" : [ {
+      "id" : "https://omim.org/MIM:PS100070",
+      "lbl" : "Aortic aneurysm, familial abdominal",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS100300",
+      "lbl" : "Adams-Oliver syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS101800",
+      "lbl" : "Acrodysostosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS102200",
+      "lbl" : "Pituitary adenoma",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS102300",
+      "lbl" : "Restless legs syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS103900",
+      "lbl" : "Hyperaldosteronism",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS104290",
+      "lbl" : "Alternating hemiplegia of childhood",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS104500",
+      "lbl" : "Amelogenesis imperfecta",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS105210",
+      "lbl" : "Amyloidosis, hereditary systemic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS105250",
+      "lbl" : "Amyloidosis, primary localized cutaneous",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS105400",
+      "lbl" : "Amyotrophic lateral sclerosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS105550",
+      "lbl" : "Frontotemporal dementia and/or amyotrophic lateral sclerosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS105650",
+      "lbl" : "Diamond-Blackfan anemia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS105800",
+      "lbl" : "Aneurysm, intracranial berry",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS106100",
+      "lbl" : "Angioedema, hereditary",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS106210",
+      "lbl" : "Aniridia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS106300",
+      "lbl" : "Spondyloarthropathy, susceptibility to",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS106600",
+      "lbl" : "Tooth agenesis, selective",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS107250",
+      "lbl" : "Anterior segment dysgenesis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS107480",
+      "lbl" : "Townes-Brocks syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS107970",
+      "lbl" : "Arrhythmogenic right ventricular dysplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS108120",
+      "lbl" : "Arthrogryposis, distal",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS108300",
+      "lbl" : "Stickler syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS108600",
+      "lbl" : "Spastic ataxia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS108720",
+      "lbl" : "Atelosteogenesis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS108800",
+      "lbl" : "Atrial septal defect",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS109400",
+      "lbl" : "Basal cell nevus syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS109720",
+      "lbl" : "Biliary cirrhosis, primary",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS109730",
+      "lbl" : "Aortic valve disease",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS112240",
+      "lbl" : "Cole-Carpenter syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS113650",
+      "lbl" : "Branchiootorenal syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS113700",
+      "lbl" : "Breasts and/or nipples, aplasia or hypoplasia of",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS113800",
+      "lbl" : "Epidermolytic hyperkeratosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS113900",
+      "lbl" : "Progressive familial heart block",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS114580",
+      "lbl" : "Familial candidiasis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS115150",
+      "lbl" : "Cardiofaciocutaneous syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS115200",
+      "lbl" : "Dilated cardiomyopathy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS115210",
+      "lbl" : "Familial restrictive cardiomyopathy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS115430",
+      "lbl" : "Carpal tunnel syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS116200",
+      "lbl" : "Cataract",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS116860",
+      "lbl" : "Cerebral cavernous malformations",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS117000",
+      "lbl" : "Myopathy, congenital",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS118100",
+      "lbl" : "Klippel-Feil syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS118220",
+      "lbl" : "Charcot-Marie-Tooth disease",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS118450",
+      "lbl" : "Alagille syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS119530",
+      "lbl" : "Orofacial cleft",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS119580",
+      "lbl" : "Blepharocheilodontic syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS120100",
+      "lbl" : "Familial cold autoinflammatory syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS120435",
+      "lbl" : "Colorectal cancer, hereditary nonpolyposis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS120970",
+      "lbl" : "Cone-rod dystrophy/Cone dystrophy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS121200",
+      "lbl" : "Seizures, benign familial neonatal",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS121210",
+      "lbl" : "Seizures, familial febrile",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS121400",
+      "lbl" : "Cornea plana",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS122000",
+      "lbl" : "Corneal dystrophy, posterior polymorphous",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS122100",
+      "lbl" : "Corneal dystrophy, Meesmann",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS122470",
+      "lbl" : "Cornelia de Lange syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS123000",
+      "lbl" : "Craniometaphyseal dysplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS123100",
+      "lbl" : "Craniosynostosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS123700",
+      "lbl" : "Cutis laxa",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS124000",
+      "lbl" : "Mitochondrial complex III deficiency, nuclear type",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS124900",
+      "lbl" : "Deafness, autosomal dominant",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS125310",
+      "lbl" : "Cerebral arteriopathy with subcortical infarcts and leukoencephalopathy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS126200",
+      "lbl" : "Multiple sclerosis, susceptibility to",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS126800",
+      "lbl" : "Duane retraction syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS127000",
+      "lbl" : "Kenny-Caffey syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS127500",
+      "lbl" : "Dyschromatosis universalis hereditaria",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS127550",
+      "lbl" : "Dyskeratosis congenita",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS128100",
+      "lbl" : "Dystonia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS128200",
+      "lbl" : "Episodic kinesigenic dyskinesia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS130000",
+      "lbl" : "Ehlers-Danlos syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS131100",
+      "lbl" : "Multiple endocrine neoplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS131760",
+      "lbl" : "Epidermolysis bullosa simplex",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS132100",
+      "lbl" : "Photoparoxysmal response",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS132400",
+      "lbl" : "Epiphyseal dysplasia, multiple",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS133100",
+      "lbl" : "Erythrocytosis, familial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS133200",
+      "lbl" : "Erythrokeratodermia variabilis et progressiva",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS133700",
+      "lbl" : "Exostoses, multiple",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS133780",
+      "lbl" : "Exudative vitreoretinopathy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS134600",
+      "lbl" : "Fanconi renotubular syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS135150",
+      "lbl" : "Birt-Hogg-Dube syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS135300",
+      "lbl" : "Gingival fibromatosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS135500",
+      "lbl" : "Zimmermann-Laband syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS135700",
+      "lbl" : "Fibrosis of extraocular muscles, congenital",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS135900",
+      "lbl" : "Coffin-Siris syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS136500",
+      "lbl" : "Focal facial dermal dysplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS136520",
+      "lbl" : "Foveal hypoplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS136550",
+      "lbl" : "Macular dystrophy, retinal",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS136760",
+      "lbl" : "Frontonasal dysplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS136800",
+      "lbl" : "Corneal dystrophy, Fuchs endothelial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS137800",
+      "lbl" : "Glioma",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS137950",
+      "lbl" : "Glomerulopathy with fibronectin deposits",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS138800",
+      "lbl" : "Goiter, multinodular",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS141200",
+      "lbl" : "Hematuria, benign familial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS141500",
+      "lbl" : "Migraine, familial hemiplegic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS142340",
+      "lbl" : "Diaphragmatic hernia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS142623",
+      "lbl" : "Hirschsprung disease",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS142690",
+      "lbl" : "Acne inversa",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS142700",
+      "lbl" : "Developmental dysplasia of the hip",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS143880",
+      "lbl" : "Hypercalcemia, infantile",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS143890",
+      "lbl" : "Hypercholesterolemia, familial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS144200",
+      "lbl" : "Palmoplantar keratoderma, epidermolytic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS145000",
+      "lbl" : "Hyperparathyroidism",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS145260",
+      "lbl" : "Pseudohypoaldosteronism, type II",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS145420",
+      "lbl" : "Teebi hypertelorism syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS145600",
+      "lbl" : "Malignant hyperthermia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS145980",
+      "lbl" : "Hypocalciuric hypercalcemia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS146200",
+      "lbl" : "Hypoparathyroidism, familial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS146590",
+      "lbl" : "Ichthyosis hystrix",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS147060",
+      "lbl" : "Hyper-IgE recurrent infection syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS147920",
+      "lbl" : "Kabuki syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS147950",
+      "lbl" : "Hypogonadotropic hypogonadism with or without anosmia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS148210",
+      "lbl" : "Keratitis-ichthyosis-deafness syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS148300",
+      "lbl" : "Keratoconus",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS149400",
+      "lbl" : "Hyperekplexia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS149730",
+      "lbl" : "Lacrimoauriculodentodigital syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS151100",
+      "lbl" : "LEOPARD syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS151623",
+      "lbl" : "Li-Fraumeni syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS151660",
+      "lbl" : "Lipodystrophy, familial partial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS153100",
+      "lbl" : "Lymphatic malformation",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS153600",
+      "lbl" : "Macroglobulinemia, Waldenstrom",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS153840",
+      "lbl" : "Macular dystrophy, vitelliform",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS154500",
+      "lbl" : "Treacher Collins syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS155600",
+      "lbl" : "Melanoma, cutaneous malignant",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS156200",
+      "lbl" : "Intellectual developmental disorder, autosomal dominant",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS156610",
+      "lbl" : "Skin creases, congenital symmetric circumferential",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS157300",
+      "lbl" : "Migraine with or without aura, susceptibility to",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS157600",
+      "lbl" : "Mirror movements",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS157640",
+      "lbl" : "Progressive external ophthalmoplegia with mtDNA deletions",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS157700",
+      "lbl" : "Mitral valve prolapse, myxomatous",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS158350",
+      "lbl" : "Cowden disease",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS158600",
+      "lbl" : "Spinal muscular atrophy, lower extremity-predominant",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS158810",
+      "lbl" : "Bethlem myopathy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS158900",
+      "lbl" : "Facioscapulohumeral muscular dystrophy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS160120",
+      "lbl" : "Episodic ataxia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS160150",
+      "lbl" : "Myopathy, centronuclear",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS160500",
+      "lbl" : "Myopathy, distal",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS160565",
+      "lbl" : "Myopathy, tubular aggregate",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS160700",
+      "lbl" : "Myopia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS160900",
+      "lbl" : "Myotonic dystrophy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS161050",
+      "lbl" : "Nail disorder, nonsyndromic congenital",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS161400",
+      "lbl" : "Narcolepsy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS161800",
+      "lbl" : "Nemaline myopathy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS161950",
+      "lbl" : "IgA nephropathy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS162000",
+      "lbl" : "Tubulointerstitial kidney disease",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS162091",
+      "lbl" : "Schwannomatosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS162400",
+      "lbl" : "Hereditary sensory and autonomic neuropathy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS163950",
+      "lbl" : "Noonan syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS164210",
+      "lbl" : "Craniofacial microsomia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS164280",
+      "lbl" : "Feingold syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS164300",
+      "lbl" : "Oculopharyngeal muscular dystrophy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS164310",
+      "lbl" : "Oculopharyngodistal myopathy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS164400",
+      "lbl" : "Spinocerebellar ataxia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS165500",
+      "lbl" : "Optic atrophy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS166200",
+      "lbl" : "Osteogenesis imperfecta",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS166780",
+      "lbl" : "Otofaciocervical syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS166800",
+      "lbl" : "Otosclerosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS167030",
+      "lbl" : "Nephrolithiasis, calcium oxalate",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS167200",
+      "lbl" : "Pachyonychia congenita",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS167250",
+      "lbl" : "Paget disease of bone",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS167320",
+      "lbl" : "Inclusion body myopathy/Paget disease/frontotemporal dementia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS167870",
+      "lbl" : "Panic disorder",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS168000",
+      "lbl" : "Pheochromocytoma/paraganglioma syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS168500",
+      "lbl" : "Parietal foramina",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS168600",
+      "lbl" : "Parkinson disease",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS169150",
+      "lbl" : "Macular dystrophy, patterned",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS169500",
+      "lbl" : "Leukodystrophy, demyelinating, adult-onset",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS173900",
+      "lbl" : "Polycystic kidney disease",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS174050",
+      "lbl" : "Polycystic liver disease",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS174200",
+      "lbl" : "Polydactyly, postaxial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS174400",
+      "lbl" : "Polydactyly, preaxial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS175100",
+      "lbl" : "Familial adenomatous polyposis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS175780",
+      "lbl" : "Brain small vessel disease",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS175800",
+      "lbl" : "Porokeratosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS176400",
+      "lbl" : "Precocious puberty, central",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS176670",
+      "lbl" : "Progeria",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS177000",
+      "lbl" : "Protoporphyria, erythropoietic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS177200",
+      "lbl" : "Liddle syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS177735",
+      "lbl" : "Pseudohypoaldosteronism, type I",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS177900",
+      "lbl" : "Psoriasis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS178110",
+      "lbl" : "Contractures, pterygia, and variable skeletal fusions syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS178600",
+      "lbl" : "Pulmonary hypertension, primary",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS179010",
+      "lbl" : "Pyloric stenosis, infantile hypertrophic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS179800",
+      "lbl" : "Distal renal tubular acidosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS179850",
+      "lbl" : "Reticulate pigment disorders",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS180500",
+      "lbl" : "Axenfeld-Rieger syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS180849",
+      "lbl" : "Rubinstein-Taybi syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS180860",
+      "lbl" : "Silver-Russell syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS182250",
+      "lbl" : "Singleton-Merten syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS182960",
+      "lbl" : "Neuronopathy, distal hereditary motor, autosomal dominant",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS183600",
+      "lbl" : "Split-hand/foot malformation",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS184255",
+      "lbl" : "Spondylometaphyseal dysplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS184260",
+      "lbl" : "Odontochondrodysplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS184450",
+      "lbl" : "Stuttering, familial persistent",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS184840",
+      "lbl" : "Otospondylomegaepiphyseal dysplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS185800",
+      "lbl" : "Proximal symphalangism",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS186500",
+      "lbl" : "Multiple synostoses syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS187300",
+      "lbl" : "Telangiectasia, hereditary hemorrhagic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS187950",
+      "lbl" : "Thrombocythemia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS188050",
+      "lbl" : "Thrombophilia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS188550",
+      "lbl" : "Thyroid cancer, nonmedullary",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS188580",
+      "lbl" : "Thyrotoxic periodic paralysis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS189800",
+      "lbl" : "Preeclampsia/eclampsia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS190300",
+      "lbl" : "Tremor, hereditary essential",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS190350",
+      "lbl" : "Trichorhinophalangeal syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS190440",
+      "lbl" : "Trigonocephaly, isolated",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS191100",
+      "lbl" : "Tuberous sclerosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS191830",
+      "lbl" : "Renal hypodysplasia/aplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS192500",
+      "lbl" : "Long QT syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS192600",
+      "lbl" : "Cardiomyopathy, familial hypertrophic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS193000",
+      "lbl" : "Vesicoureteral reflux",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS193100",
+      "lbl" : "Hypophosphatemic rickets",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS193500",
+      "lbl" : "Waardenburg syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS193670",
+      "lbl" : "WHIM syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS193900",
+      "lbl" : "White sponge nevus",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS194070",
+      "lbl" : "Wilms tumor",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS200600",
+      "lbl" : "Achondrogenesis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS201000",
+      "lbl" : "Carpenter syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS202200",
+      "lbl" : "Glucocorticoid deficiency",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS202700",
+      "lbl" : "Neutropenia, severe congenital",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS203100",
+      "lbl" : "Oculocutaneous albinism",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS203300",
+      "lbl" : "Hermansky-Pudlak syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS203650",
+      "lbl" : "Alopecia-intellectual disability syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS203655",
+      "lbl" : "Alopecia, isolated",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS204000",
+      "lbl" : "Leber congenital amaurosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS206100",
+      "lbl" : "Anemia, hypochromic microcytic, with iron overload",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS206500",
+      "lbl" : "Anencephaly",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS208000",
+      "lbl" : "Generalized arterial calcification of infancy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS208085",
+      "lbl" : "Arthrogryposis, renal dysfunction, and cholestasis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS208150",
+      "lbl" : "Fetal akinesia deformation sequence",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS208500",
+      "lbl" : "Short-rib thoracic dysplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS208540",
+      "lbl" : "Renal-hepatic-pancreatic dysplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS209880",
+      "lbl" : "Central hypoventilation syndrome, congenital",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS209900",
+      "lbl" : "Bardet-Biedl syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS209920",
+      "lbl" : "MHC class II deficiency",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS210200",
+      "lbl" : "Methylcrotonylglycinuria",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS210250",
+      "lbl" : "Sitosterolemia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS210600",
+      "lbl" : "Seckel syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS210900",
+      "lbl" : "Microcephaly, growth restriction and increased sister chromatid exchange",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS211400",
+      "lbl" : "Bronchiectasis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS211530",
+      "lbl" : "Brown-Vialetto-Van Laere syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS211600",
+      "lbl" : "Cholestasis, progressive familial intrahepatic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS212065",
+      "lbl" : "Congenital disorders of glycosylation, type I",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS212066",
+      "lbl" : "Congenital disorders of glycosylation, type II",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS212093",
+      "lbl" : "Cardiac valvular defect",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS212720",
+      "lbl" : "Martsolf syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS212750",
+      "lbl" : "Celiac disease",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS213200",
+      "lbl" : "Spinocerebellar ataxia, autosomal recessive",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS213300",
+      "lbl" : "Joubert syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS213600",
+      "lbl" : "Basal ganglia calcification, idiopathic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS213980",
+      "lbl" : "Craniofacial dysmorphism, skeletal anomalies, and impaired intellectual development syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS214100",
+      "lbl" : "Peroxisome biogenesis disorder",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS214150",
+      "lbl" : "Cerebrooculofacioskeletal syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS214450",
+      "lbl" : "Griscelli syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS214700",
+      "lbl" : "Diarrhea, congenital",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS215100",
+      "lbl" : "Rhizomelic chondrodysplasia punctata",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS215500",
+      "lbl" : "Choroidal dystrophy, central areolar",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS215700",
+      "lbl" : "Citrullinemia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS218330",
+      "lbl" : "Cranioectodermal dysplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS219000",
+      "lbl" : "Fraser syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS219080",
+      "lbl" : "ACTH-independent macronodular adrenal hyperplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS220110",
+      "lbl" : "Mitochondrial complex IV deficiency, nuclear-type",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS220150",
+      "lbl" : "Hypouricemia, renal",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS220210",
+      "lbl" : "Ritscher-Schinzel syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS220290",
+      "lbl" : "Deafness, autosomal recessive",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS220400",
+      "lbl" : "Jervell and Lange-Nielsen syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS221770",
+      "lbl" : "Polycystic lipomembranous osteodysplasia with sclerosing leukoencephaly",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS221820",
+      "lbl" : "Leukoencephalopathy, hereditary diffuse, with spheroids",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS221900",
+      "lbl" : "Persistent hyperplastic primary vitreous",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS222470",
+      "lbl" : "Trichohepatoenteric syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS223360",
+      "lbl" : "Orthostatic hypotension",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS224050",
+      "lbl" : "Cerebellar ataxia, mental retardation, and dysequilibrium",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS224120",
+      "lbl" : "Anemia, congenital dyserythropoietic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS224690",
+      "lbl" : "Meier-Gorlin syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS225750",
+      "lbl" : "Aicardi-Goutieres syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS226400",
+      "lbl" : "Epidermodysplasia verruciformis, susceptibility to",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS226650",
+      "lbl" : "Epidermolysis bullosa, junctional",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS227220",
+      "lbl" : "Skin/hair/eye pigmentation, variation in",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS227650",
+      "lbl" : "Fanconi anemia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS228520",
+      "lbl" : "Fibrochondrogenesis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS228550",
+      "lbl" : "Infantile myofibromatosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS229200",
+      "lbl" : "Brittle cornea syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS230400",
+      "lbl" : "Galactosemia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS231050",
+      "lbl" : "Geleophysic dysplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS231090",
+      "lbl" : "Hydatidiform mole, recurrent",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS231200",
+      "lbl" : "Bleeding disorder, platelet-type",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS232200",
+      "lbl" : "Glycogen storage disease",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS233300",
+      "lbl" : "Ovarian dysgenesis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS233400",
+      "lbl" : "Perrault syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS234200",
+      "lbl" : "Neurodegeneration with brain iron accumulation",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS235200",
+      "lbl" : "Hemochromatosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS235400",
+      "lbl" : "Hemolytic uremic syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS235510",
+      "lbl" : "Hennekam lymphangiectasia-lymphedema syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS236100",
+      "lbl" : "Holoprosencephaly",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS236270",
+      "lbl" : "Homocystinuria-megaloblastic anemia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS236600",
+      "lbl" : "Hydrocephalus, congenital",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS236670",
+      "lbl" : "Muscular dystrophy-dystroglycanopathy, type A",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS236680",
+      "lbl" : "Hydrolethalus syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS236730",
+      "lbl" : "Urofacial syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS237450",
+      "lbl" : "Hyperbilirubinemia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS239300",
+      "lbl" : "Hyperphosphatasia with mental retardation syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS241550",
+      "lbl" : "Hypoplastic left heart syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS242300",
+      "lbl" : "Ichthyosis, congenital, autosomal recessive",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS242860",
+      "lbl" : "Immunodeficiency-centromeric instability-facial anomalies",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS243150",
+      "lbl" : "Gastrointestinal defect and immunodeficiency syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS243180",
+      "lbl" : "Visceral neuropathy, familial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS243300",
+      "lbl" : "Cholestasis, benign recurrent intrahepatic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS243310",
+      "lbl" : "Baraitser-Winter syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS244400",
+      "lbl" : "Primary ciliary dyskinesia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS245480",
+      "lbl" : "Specific granule deficiency",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS245590",
+      "lbl" : "Growth hormone insensitivity syndrome with immune dysregulation",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS248370",
+      "lbl" : "Mandibuloacral dysplasia with lipodystrophy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS248600",
+      "lbl" : "Maple syrup urine disease",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS249000",
+      "lbl" : "Meckel syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS249210",
+      "lbl" : "Megacystis-microcolon-intestinal hypoperistalsis syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS249270",
+      "lbl" : "Thiamine-responsive dysfunction syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS249500",
+      "lbl" : "Intellectual developmental disorder, autosomal recessive",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS250950",
+      "lbl" : "3-Methylglutaconic aciduria",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS251000",
+      "lbl" : "Methylmalonic aciduria",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS251200",
+      "lbl" : "Microcephaly, primary",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS251270",
+      "lbl" : "Microcephaly and chorioretinopathy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS251280",
+      "lbl" : "Diencephalic-mesencephalic junction dysplasia syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS251290",
+      "lbl" : "Pseudo-TORCH syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS251300",
+      "lbl" : "Galloway-Mowat syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS251450",
+      "lbl" : "Desbuquois dysplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS251600",
+      "lbl" : "Microphthalmia, isolated",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS252010",
+      "lbl" : "Mitochondrial complex I deficiency, nuclear type",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS252011",
+      "lbl" : "Mitochondrial complex II deficiency, nuclear type",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS252150",
+      "lbl" : "Molybdenum cofactor deficiency",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS252270",
+      "lbl" : "Monosomy 7 myelodysplasia and leukemia syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS252350",
+      "lbl" : "Moyamoya disease",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS253310",
+      "lbl" : "Lethal congenital contracture syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS253600",
+      "lbl" : "Muscular dystrophy, limb-girdle, autosomal recessive",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS254090",
+      "lbl" : "Ullrich congenital muscular dystrophy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS254130",
+      "lbl" : "Miyoshi muscular dystrophy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS254770",
+      "lbl" : "Epilepsy, myoclonic juvenile",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS254780",
+      "lbl" : "Myoclonic epilepsy of Lafora",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS254800",
+      "lbl" : "Epilepsy, progressive myoclonic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS254940",
+      "lbl" : "Carey-Fineman-Ziter syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS256040",
+      "lbl" : "Proteosome-associated autoinflammatory syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS256100",
+      "lbl" : "Nephronophthisis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS256300",
+      "lbl" : "Nephrotic syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS256450",
+      "lbl" : "Hyperinsulinemia hypoglycemia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS256520",
+      "lbl" : "Neu-Laxova syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS256550",
+      "lbl" : "Mucolipidosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS256730",
+      "lbl" : "Ceroid lipofuscinoses",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS256850",
+      "lbl" : "Giant axonal neuropathy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS257300",
+      "lbl" : "Mosaic variegated aneuploidy syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS257920",
+      "lbl" : "3MC syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS258150",
+      "lbl" : "Spermatogenic failure",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS258315",
+      "lbl" : "Omodysplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS259100",
+      "lbl" : "Hypertropic osteoarthropathy, primary",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS259450",
+      "lbl" : "Bruck syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS259700",
+      "lbl" : "Osteopetrosis, autosomal recessive",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS259900",
+      "lbl" : "Hyperoxaluria, primary",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS260370",
+      "lbl" : "Pancreatic agenesis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS260400",
+      "lbl" : "Schwachman-Diamond syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS261100",
+      "lbl" : "Imerslund-Grasbeck syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS262400",
+      "lbl" : "Isolated growth hormone deficiency",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS265120",
+      "lbl" : "Surfactant metabolism dysfunction, pulmonary",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS265450",
+      "lbl" : "Pulmonary venoocclusive disease",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS266600",
+      "lbl" : "Inflammatory bowel disease",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS266900",
+      "lbl" : "Senior-Loken syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS267700",
+      "lbl" : "Hemophagocytic lymphohistiocytosis, familial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS267750",
+      "lbl" : "Knobloch syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS268000",
+      "lbl" : "Retinitis pigmentosa",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS268310",
+      "lbl" : "Robinow syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS268400",
+      "lbl" : "Rothmund-Thomson syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS269500",
+      "lbl" : "Sclerosteosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS270300",
+      "lbl" : "Peeling skin syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS271640",
+      "lbl" : "Spondyloepimetaphyseal dysplasia with joint laxity",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS271930",
+      "lbl" : "Striatonigral degeneration",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS272430",
+      "lbl" : "Cold-induced sweating syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS273395",
+      "lbl" : "Tetraamelia syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS273750",
+      "lbl" : "Three M syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS273800",
+      "lbl" : "Glanzmann thrombasthenia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS274400",
+      "lbl" : "Thyroid dyshormonogenesis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS275200",
+      "lbl" : "Hypothyroidism, congenital, nongoitrous",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS275210",
+      "lbl" : "Restrictive dermopathy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS276300",
+      "lbl" : "Mismatch repair cancer syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS276700",
+      "lbl" : "Tyrosinemia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS276900",
+      "lbl" : "Usher syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS277180",
+      "lbl" : "Vas deferens, congenital bilateral aplasia of",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS277300",
+      "lbl" : "Spondylocostal dysostosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS277400",
+      "lbl" : "Methylmalonic aciduria and homocystinuria",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS277450",
+      "lbl" : "Vitamin K-dependent clotting factors, combined deficiency of",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS277600",
+      "lbl" : "Weill-Marchesani syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS278000",
+      "lbl" : "Lysosomal acid lipase deficiency",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS278300",
+      "lbl" : "Xanthinuria",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS300009",
+      "lbl" : "Dent disease",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS300049",
+      "lbl" : "Periventricular nodular heterotopia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS300291",
+      "lbl" : "Ectodermal dysplasia and immune deficiency",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS300345",
+      "lbl" : "Microphthalmia, isolated, with coloboma",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS300352",
+      "lbl" : "Cerebral creatine deficiency syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS300491",
+      "lbl" : "Epilepsy, X-linked, with or without impaired intellectual development and dysmorphic features",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS300633",
+      "lbl" : "Hypospadias",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS300751",
+      "lbl" : "Anemia, sideroblastic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS300755",
+      "lbl" : "Immunodeficiency (select examples)",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS300818",
+      "lbl" : "Paroxysmal nocturnal hemoglobinuria",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS300908",
+      "lbl" : "Anemia, congenital, nonspherocytic hemolytic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS301050",
+      "lbl" : "Alport syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS301108",
+      "lbl" : "Cataracts, hearing impairment, nephrotic syndrome, and enterocolitis 1",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS303350",
+      "lbl" : "Spastic paraplegia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS304500",
+      "lbl" : "Deafness, X-linked",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS305100",
+      "lbl" : "Ectodermal dysplasia (select examples)",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS305450",
+      "lbl" : "FG syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS305620",
+      "lbl" : "Frontometaphyseal dysplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS306400",
+      "lbl" : "Granulomatous disease, chronic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS306955",
+      "lbl" : "Heterotaxy, visceral",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS308205",
+      "lbl" : "IFAP syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS308230",
+      "lbl" : "Immunodeficiency with hyper-IgM",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS308240",
+      "lbl" : "Lymphoproliferative syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS308350",
+      "lbl" : "Developmental and epileptic encephalopathy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS309510",
+      "lbl" : "Intellectual developmental disorder, X-linked syndromic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS309530",
+      "lbl" : "Intellectual developmental disorder, nonsyndromic, X-linked",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS309800",
+      "lbl" : "Microphthalmia, syndromic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS309801",
+      "lbl" : "Linear skin defects with multiple congenital anomalies",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS310300",
+      "lbl" : "Emery-Dreifuss muscular dystrophy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS310500",
+      "lbl" : "Night blindness, congenital stationary",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS310700",
+      "lbl" : "Nystagmus, congenital",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS311200",
+      "lbl" : "Orofaciodigital syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS311360",
+      "lbl" : "Premature ovarian failure",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS312080",
+      "lbl" : "Leukodystrophy, hypomyelinating",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS312170",
+      "lbl" : "Pyruvate dehydrogenase complex deficiency",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS313900",
+      "lbl" : "Thrombocytopenia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS314580",
+      "lbl" : "Wieacker-Wolff syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS400043",
+      "lbl" : "Deafness, Y-linked",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS400044",
+      "lbl" : "46,XY sex reversal",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS600118",
+      "lbl" : "Warburg micro syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS600131",
+      "lbl" : "Epilepsy, childhood absence",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS600165",
+      "lbl" : "Nanophthalmos",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS600462",
+      "lbl" : "Myopathy, lactic acidosis, and sideroblastic anemia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS600512",
+      "lbl" : "Epilepsy, familial temporal lobe",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS600513",
+      "lbl" : "Epilepsy, nocturnal frontal lobe",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS600630",
+      "lbl" : "UV-sensitive syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS600669",
+      "lbl" : "Epilepsy, idiopathic generalized",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS600721",
+      "lbl" : "D-2-hydroxyglutaric aciduria",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS600803",
+      "lbl" : "Gallbladder disease",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS601068",
+      "lbl" : "Epilepsy, familial adult myoclonic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS601104",
+      "lbl" : "Supranuclear palsy, progressive",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS601144",
+      "lbl" : "Brugada syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS601198",
+      "lbl" : "Hypocalcemia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS601228",
+      "lbl" : "Polyposis syndrome, hereditary mixed",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS601390",
+      "lbl" : "Van Maldergem syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS601419",
+      "lbl" : "Myopathy, myofibrillar",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS601457",
+      "lbl" : "Severe combined immunodeficiency (select examples)",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS601462",
+      "lbl" : "Myasthenic syndrome, congenital",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS601471",
+      "lbl" : "Facial paresis, hereditary congenital",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS601495",
+      "lbl" : "Agammaglobulinemia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS601559",
+      "lbl" : "Stuve-Wiedemann syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS601675",
+      "lbl" : "Trichothiodystrophy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS601678",
+      "lbl" : "Bartter syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS601764",
+      "lbl" : "Seizures, benign familial infantile",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS602014",
+      "lbl" : "Hypomagnesemia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS602483",
+      "lbl" : "Auriculocondylar syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS602588",
+      "lbl" : "Branchiootic syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS602875",
+      "lbl" : "Acromesomelic dysplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS603041",
+      "lbl" : "Mitochondrial DNA depletion syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS603075",
+      "lbl" : "Macular degeneration, age-related",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS603165",
+      "lbl" : "Dermatitis, atopic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS603278",
+      "lbl" : "Focal segmental glomerulosclerosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS603387",
+      "lbl" : "Megalencephaly-polymicrogyria-polydactyly-hydrocephalus syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS603511",
+      "lbl" : "Muscular dystrophy, limb-girdle, autosomal dominant",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS603896",
+      "lbl" : "Leukoencephalopathy with vanishing white matter",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS603933",
+      "lbl" : "Microvascular complications of diabetes",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS604004",
+      "lbl" : "Leukoencephalopathy, megalencephalic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS604169",
+      "lbl" : "Left ventricular noncompaction",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS604233",
+      "lbl" : "Epilepsy, generalized, with febrile seizures plus",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS604273",
+      "lbl" : "Mitochondrial complex V (ATP synthase) deficiency, nuclear type",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS604320",
+      "lbl" : "Neuronopathy, distal hereditary motor, autosomal recessive",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS604348",
+      "lbl" : "Advanced sleep phase syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS604364",
+      "lbl" : "Epilepsy, familial focal, with variable foci",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS604370",
+      "lbl" : "Breast-ovarian cancer, familial, susceptibility to",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS604391",
+      "lbl" : "Ataxia-telangiectasia-like disorder",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS604498",
+      "lbl" : "Amegakaryocytic thrombocytopenia, congenital",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS604571",
+      "lbl" : "MHC class I deficiency",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS604772",
+      "lbl" : "Ventricular tachycardia, catecholaminergic polymorphic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS604931",
+      "lbl" : "Cortisone reductase deficiency",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS605253",
+      "lbl" : "Neuropathy, congenital hypomelinating",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS605389",
+      "lbl" : "Hypotrichosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS605432",
+      "lbl" : "Radioulnar synostosis with amegakaryocytic thrombocytopenia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS605552",
+      "lbl" : "Abdominal obesity-metabolic syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS605711",
+      "lbl" : "Multiple mitochondrial dysfunctions syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS605899",
+      "lbl" : "Glycine encephalopathy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS606176",
+      "lbl" : "Diabetes mellitus, permanent neonatal",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS606215",
+      "lbl" : "Atrioventricular septal defect",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS606703",
+      "lbl" : "Dyskinesia with orofacial involvement",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS606711",
+      "lbl" : "Specific language impairment",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS606777",
+      "lbl" : "Glut1 deficiency syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS607014",
+      "lbl" : "Mucopolysaccharidoses",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS607086",
+      "lbl" : "Aortic aneurysm, familial thoracic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS607095",
+      "lbl" : "Anauxetic dysplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS607250",
+      "lbl" : "Spinocerebellar ataxia, autosomal recessive, with axonal neuropathy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS607313",
+      "lbl" : "Gaze palsy, familial horizontal, with progressive scoliosis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS607326",
+      "lbl" : "Smith-McCort dysplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS607411",
+      "lbl" : "Patent ductus arteriosus",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS607426",
+      "lbl" : "Coenzyme Q10 deficiency, primary",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS607432",
+      "lbl" : "Lissencephaly",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS607594",
+      "lbl" : "Immunodeficiency, common variable",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS607596",
+      "lbl" : "Pontocerebellar hypoplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS607602",
+      "lbl" : "Ichthyosis, annular epidermolytic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS607631",
+      "lbl" : "Epilepsy, juvenile absence",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS607634",
+      "lbl" : "Osteopetrosis, autosomal dominant",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS607721",
+      "lbl" : "Noonan syndrome-like disorder with loose anagen hair",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS607748",
+      "lbl" : "Hypercholanemia, familial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS607765",
+      "lbl" : "Bile acid synthesis defect, congenital",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS608207",
+      "lbl" : "Kala-azar, susceptibility to",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS608354",
+      "lbl" : "Capillary malformation-arteriovenous malformation",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS608415",
+      "lbl" : "Prolonged electroretinal response suppression",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS608567",
+      "lbl" : "Sick sinus syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS608583",
+      "lbl" : "Atrial fibrillation, familial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS608594",
+      "lbl" : "Lipodystrophy, congenital generalized",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS608638",
+      "lbl" : "Asperger syndrome, susceptibility to",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS608805",
+      "lbl" : "Avascular necrosis of femoral head, primary",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS609015",
+      "lbl" : "Mitochondrial trifunctional protein deficiency",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS609060",
+      "lbl" : "Combined oxidative phosphorylation deficiency",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS609129",
+      "lbl" : "Auditory neuropathy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS609161",
+      "lbl" : "Striatal degeneration, autosomal dominant",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS609192",
+      "lbl" : "Loeys-Dietz syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS609308",
+      "lbl" : "Muscular dystrophy-dystroglycanopathy, type C",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS609322",
+      "lbl" : "Rhabdoid tumor predisposition syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS609620",
+      "lbl" : "Short QT syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS609628",
+      "lbl" : "Chronic recurrent multifocal osteomyelitis",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS609698",
+      "lbl" : "Thyroid hormone metabolism, abnormal",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS610253",
+      "lbl" : "Kleefstra syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS610448",
+      "lbl" : "Chilblain lupus",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS610460",
+      "lbl" : "Thiopurines, poor metabolism of",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS610489",
+      "lbl" : "Pigmented nodular adrenocortical disease, primary",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS610542",
+      "lbl" : "Myasthenic syndrome, congenital, with tubular aggregates",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS610551",
+      "lbl" : "Encephalopathy/encephalitis, acute, infection-induced",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS610805",
+      "lbl" : "Congenital anomalies of kidney and urinary tract",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS612199",
+      "lbl" : "Cerebroretinal microangiopathy with calcfications and cysts",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS612286",
+      "lbl" : "Nephrolithiasis/osteoporosis, hypophosphatemic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS612900",
+      "lbl" : "Spastic quadriplegic cerebral palsy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS612975",
+      "lbl" : "Short sleep, familial natural",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS613038",
+      "lbl" : "Pituitary hormone deficiency, combined",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS613112",
+      "lbl" : "Macrothrombocytopenia, isolated",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS613135",
+      "lbl" : "Parkinsonism-dystonia, infantile",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS613155",
+      "lbl" : "Muscular dystrophy-dystroglycanopathy, type B",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS613280",
+      "lbl" : "Hypermanganesemia with dystonia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS613339",
+      "lbl" : "Hot water epilepsy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS613573",
+      "lbl" : "Ectodermal dysplasia-syndactyly syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS613652",
+      "lbl" : "C1q deficiency",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS613658",
+      "lbl" : "Rajab interstitial lung disease with brain calcifications",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS614039",
+      "lbl" : "Cortical dysplasia, complex, with other brain malformations",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS614080",
+      "lbl" : "Multiple congenital anomalies-hypotonia-seizures syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS614231",
+      "lbl" : "Microcephaly, epilepsy, and diabetes syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS614372",
+      "lbl" : "Lectin complement activation pathway defects",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS614388",
+      "lbl" : "Encephalopathy due to defective mitochondrial and peroxisomal fission",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS614429",
+      "lbl" : "Ventricular septal defect",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS614592",
+      "lbl" : "Bent bone dysplasia syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS614594",
+      "lbl" : "Olmsted syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS614675",
+      "lbl" : "Bone marrow failure syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS614742",
+      "lbl" : "Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS614937",
+      "lbl" : "Myoclonus, familial",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS615040",
+      "lbl" : "Familial episodic pain syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS615273",
+      "lbl" : "Congenital disorder of deglycosylation",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS615419",
+      "lbl" : "Hypotonia, infantile, with psychomotor retardation and characteristic facies",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS615438",
+      "lbl" : "Infantile liver failure syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS615774",
+      "lbl" : "Oocyte/zygote/embryo maturation arrest",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS615895",
+      "lbl" : "Polyglucosan body myopathy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS615952",
+      "lbl" : "Autoimmune disease, multisystem, infantile-onset",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS616033",
+      "lbl" : "Microcephaly, short stature, and impaired glucose metabolism",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS616255",
+      "lbl" : "Short stature with nonspecific skeletal abnormalities",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS616263",
+      "lbl" : "Neurologic, endocrine, and pancreatic disease, multisystem, infantile-onset",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS616355",
+      "lbl" : "Houge-Janssens syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS616418",
+      "lbl" : "Hypomagnesemia, seizures, and mental retardation",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS616744",
+      "lbl" : "Autoinflammatory syndrome, familial, Behcet-like",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS616866",
+      "lbl" : "Spinal muscular atrophy with congenital bone fractures",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS616901",
+      "lbl" : "Developmental delay with short stature, dysmorphic facial features, and sparse hair",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS617068",
+      "lbl" : "Portal hypertension, noncirrhotic",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS617099",
+      "lbl" : "Autoinflammation, panniculitis, and dermatosis syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS617186",
+      "lbl" : "Encephalopathy, progressive, early-onset, with brain edema and/or leukoencephalopathy",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS617236",
+      "lbl" : "Cone-rod dystrophy and hearing loss",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS617290",
+      "lbl" : "Epilepsy, early-onset",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS617468",
+      "lbl" : "Arthrogryposis multiplex congenita",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS617660",
+      "lbl" : "Vertebral, cardiac, renal, and limb defects syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS617877",
+      "lbl" : "Short stature, facial dysmorphism, and skeletal anomalies with or without cardiac anomalies",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS618005",
+      "lbl" : "Congenital disorder of glycosylation with defective fucosylation",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS618332",
+      "lbl" : "Menke-Hennekam syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS619115",
+      "lbl" : "Combined osteogenesis imperfecta and Ehlers-Danlos syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS619142",
+      "lbl" : "Cardioacrofacial dysplasia",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS619382",
+      "lbl" : "Leber hereditary optic neuropathy, autosomal recessive",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS619539",
+      "lbl" : "Neuroocular syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS619611",
+      "lbl" : "Interstitial lung disease",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS619720",
+      "lbl" : "Bryant-Li-Bhoj neurodevelopmental syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS619758",
+      "lbl" : "Tessadori-Van-Haaften neurodevelopmental syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS619980",
+      "lbl" : "Braddock-Carey Syndrome",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://omim.org/MIM:PS620184",
+      "lbl" : "Atelis syndrome",
+      "type" : "CLASS"
+    } ]
+  } ]
+}

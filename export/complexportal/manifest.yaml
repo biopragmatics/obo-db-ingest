@@ -1,8 +1,8 @@
-date: '2025-02-04'
+date: '2025-03-12'
 dependencies:
-  bioontologies: 0.5.3-dev-a2eed901
-  bioregistry: 0.12.0-dev-e83e2f4e
-  pyobo: 0.12.0-dev-6a0f77c3
+  bioontologies: 0.6.1-dev-029beec3
+  bioregistry: 0.12.5-dev-6a6eb34f
+  pyobo: 0.12.0-dev-fc140cc1
 errored: false
 manifest:
   nodes:
@@ -62,6 +62,7 @@ manifest:
 prefix_map:
   BFO: http://purl.obolibrary.org/obo/BFO_
   CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  EC: https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
   FlyBase: https://flybase.org/reports/
   IAO: http://purl.obolibrary.org/obo/IAO_
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
@@ -71,7 +72,6 @@ prefix_map:
   chembl.target: https://www.ebi.ac.uk/chembl/target/inspect/
   complexportal: https://www.ebi.ac.uk/complexportal/complex/
   dcterms: http://purl.org/dc/terms/
-  eccode: https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
   emdb: https://www.ebi.ac.uk/pdbe/entry/emdb/
   humap: https://humap3.proteincomplexes.org/displayComplexes?complex_key=
   intact: https://www.ebi.ac.uk/intact/interaction/

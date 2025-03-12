@@ -1,65 +1,66 @@
-date: '2025-02-04'
+date: '2025-03-12'
 dependencies:
-  bioontologies: 0.5.3-dev-a2eed901
-  bioregistry: 0.12.0-dev-e83e2f4e
-  pyobo: 0.12.0-dev-6a0f77c3
+  bioontologies: 0.6.1-dev-029beec3
+  bioregistry: 0.12.5-dev-6a6eb34f
+  pyobo: 0.12.0-dev-fc140cc1
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.tsv
     path: hgnc/hgnc.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.tsv
-    version_path: hgnc/2024-12-03/hgnc.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-03-04/hgnc.tsv
+    version_path: hgnc/2025-03-04/hgnc.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.obo
     path: hgnc/hgnc.obo
-    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.obo
-    version_path: hgnc/2024-12-03/hgnc.obo
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-03-04/hgnc.obo
+    version_path: hgnc/2025-03-04/hgnc.obo
   obograph:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.json.gz
     path: hgnc/hgnc.json.gz
-    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.json.gz
-    version_path: hgnc/2024-12-03/hgnc.json.gz
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-03-04/hgnc.json.gz
+    version_path: hgnc/2025-03-04/hgnc.json.gz
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.ofn
     path: hgnc/hgnc.ofn
-    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.ofn
-    version_path: hgnc/2024-12-03/hgnc.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-03-04/hgnc.ofn
+    version_path: hgnc/2025-03-04/hgnc.ofn
   owl:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.owl.gz
     path: hgnc/hgnc.owl.gz
-    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.owl.gz
-    version_path: hgnc/2024-12-03/hgnc.owl.gz
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-03-04/hgnc.owl.gz
+    version_path: hgnc/2025-03-04/hgnc.owl.gz
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.sssom.tsv
     path: hgnc/hgnc.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.sssom.tsv
-    version_path: hgnc/2024-12-03/hgnc.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-03-04/hgnc.sssom.tsv
+    version_path: hgnc/2025-03-04/hgnc.sssom.tsv
   summary:
     alts: 0
-    definitions: 43839
+    definitions: 44068
     license: CC0-1.0
-    mappings: 259747
-    parents: 43839
-    properties: 330039
-    references: 35052
-    relations: 151570
-    synonyms: 105407
-    terms: 43839
-    version: '2024-12-03'
+    mappings: 260219
+    parents: 44068
+    properties: 330848
+    references: 35167
+    relations: 152248
+    synonyms: 105616
+    terms: 44068
+    version: '2025-03-04'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.synonyms.tsv
     path: hgnc/hgnc.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2024-12-03/hgnc.synonyms.tsv
-    version_path: hgnc/2024-12-03/hgnc.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-03-04/hgnc.synonyms.tsv
+    version_path: hgnc/2025-03-04/hgnc.synonyms.tsv
 prefix_map:
+  EC: https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
   IAO: http://purl.obolibrary.org/obo/IAO_
   MGI: 'http://www.informatics.jax.org/accession/MGI:'
   NCBIGene: http://purl.uniprot.org/geneid/
@@ -70,7 +71,6 @@ prefix_map:
   cosmic: http://cancer.sanger.ac.uk/cosmic/gene/overview?ln=
   dcterms: http://purl.org/dc/terms/
   debio: https://biopragmatics.github.io/debio/
-  eccode: https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
   ena.embl: https://www.ebi.ac.uk/ena/browser/view/
   ensembl: http://rdf.ebi.ac.uk/resource/ensembl/
   hgnc: https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/

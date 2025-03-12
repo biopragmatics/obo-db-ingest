@@ -1,8 +1,8 @@
-date: '2025-02-04'
+date: '2025-03-12'
 dependencies:
-  bioontologies: 0.5.3-dev-a2eed901
-  bioregistry: 0.12.0-dev-e83e2f4e
-  pyobo: 0.12.0-dev-6a0f77c3
+  bioontologies: 0.6.1-dev-029beec3
+  bioregistry: 0.12.5-dev-6a6eb34f
+  pyobo: 0.12.0-dev-fc140cc1
 errored: false
 manifest:
   nodes:
@@ -60,13 +60,13 @@ manifest:
     version_iri: https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.synonyms.tsv
     version_path: bigg.reaction/1.6.0/bigg.reaction.synonyms.tsv
 prefix_map:
+  EC: https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
   IAO: http://purl.obolibrary.org/obo/IAO_
   RO: http://purl.obolibrary.org/obo/RO_
   bigg.model: http://bigg.ucsd.edu/models/
   bigg.reaction: http://bigg.ucsd.edu/models/universal/reactions/
   biocyc: http://biocyc.org/getid?id=
   dcterms: http://purl.org/dc/terms/
-  eccode: https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
   kegg.reaction: http://www.kegg.jp/entry/
   metanetx.reaction: https://www.metanetx.org/equa_info/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#

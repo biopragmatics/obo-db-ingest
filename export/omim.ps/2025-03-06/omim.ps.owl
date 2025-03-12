@@ -1,0 +1,4775 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/biopragmatics/resources/omim.ps/omim.ps.ofn#"
+     xml:base="https://w3id.org/biopragmatics/resources/omim.ps/omim.ps.ofn"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:omim.ps="https://omim.org/MIM:PS"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="https://w3id.org/biopragmatics/resources/omim.ps/omim.ps.ofn">
+        <owl:versionIRI rdf:resource="https://w3id.org/biopragmatics/resources/omim.ps/2025-03-06/omim.ps.ofn"/>
+        <dcterms:description>A Phenotypic Series is a tabular view of genetic heterogeneity of similar phenotypes across the genome.</dcterms:description>
+        <dcterms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.omim.org/help/agreement</dcterms:license>
+        <dcterms:title>OMIM Phenotypic Series</dcterms:title>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-c4540699 on 2025-03-08T01:41:17.685073</oboInOwl:auto-generated-by>
+        <owl:versionInfo>2025-03-06</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://omim.org/MIM:PS100070 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS100070">
+        <rdfs:label>Aortic aneurysm, familial abdominal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS100300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS100300">
+        <rdfs:label>Adams-Oliver syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS101800 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS101800">
+        <rdfs:label>Acrodysostosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS102200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS102200">
+        <rdfs:label>Pituitary adenoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS102300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS102300">
+        <rdfs:label>Restless legs syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS103900 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS103900">
+        <rdfs:label>Hyperaldosteronism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS104290 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS104290">
+        <rdfs:label>Alternating hemiplegia of childhood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS104500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS104500">
+        <rdfs:label>Amelogenesis imperfecta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS105210 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS105210">
+        <rdfs:label>Amyloidosis, hereditary systemic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS105250 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS105250">
+        <rdfs:label>Amyloidosis, primary localized cutaneous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS105400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS105400">
+        <rdfs:label>Amyotrophic lateral sclerosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS105550 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS105550">
+        <rdfs:label>Frontotemporal dementia and/or amyotrophic lateral sclerosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS105650 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS105650">
+        <rdfs:label>Diamond-Blackfan anemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS105800 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS105800">
+        <rdfs:label>Aneurysm, intracranial berry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS106100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS106100">
+        <rdfs:label>Angioedema, hereditary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS106210 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS106210">
+        <rdfs:label>Aniridia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS106300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS106300">
+        <rdfs:label>Spondyloarthropathy, susceptibility to</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS106600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS106600">
+        <rdfs:label>Tooth agenesis, selective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS107250 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS107250">
+        <rdfs:label>Anterior segment dysgenesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS107480 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS107480">
+        <rdfs:label>Townes-Brocks syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS107970 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS107970">
+        <rdfs:label>Arrhythmogenic right ventricular dysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS108120 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS108120">
+        <rdfs:label>Arthrogryposis, distal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS108300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS108300">
+        <rdfs:label>Stickler syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS108600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS108600">
+        <rdfs:label>Spastic ataxia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS108720 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS108720">
+        <rdfs:label>Atelosteogenesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS108800 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS108800">
+        <rdfs:label>Atrial septal defect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS109400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS109400">
+        <rdfs:label>Basal cell nevus syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS109720 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS109720">
+        <rdfs:label>Biliary cirrhosis, primary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS109730 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS109730">
+        <rdfs:label>Aortic valve disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS112240 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS112240">
+        <rdfs:label>Cole-Carpenter syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS113650 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS113650">
+        <rdfs:label>Branchiootorenal syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS113700 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS113700">
+        <rdfs:label>Breasts and/or nipples, aplasia or hypoplasia of</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS113800 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS113800">
+        <rdfs:label>Epidermolytic hyperkeratosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS113900 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS113900">
+        <rdfs:label>Progressive familial heart block</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS114580 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS114580">
+        <rdfs:label>Familial candidiasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS115150 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS115150">
+        <rdfs:label>Cardiofaciocutaneous syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS115200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS115200">
+        <rdfs:label>Dilated cardiomyopathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS115210 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS115210">
+        <rdfs:label>Familial restrictive cardiomyopathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS115430 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS115430">
+        <rdfs:label>Carpal tunnel syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS116200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS116200">
+        <rdfs:label>Cataract</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS116860 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS116860">
+        <rdfs:label>Cerebral cavernous malformations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS117000 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS117000">
+        <rdfs:label>Myopathy, congenital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS118100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS118100">
+        <rdfs:label>Klippel-Feil syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS118220 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS118220">
+        <rdfs:label>Charcot-Marie-Tooth disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS118450 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS118450">
+        <rdfs:label>Alagille syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS119530 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS119530">
+        <rdfs:label>Orofacial cleft</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS119580 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS119580">
+        <rdfs:label>Blepharocheilodontic syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS120100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS120100">
+        <rdfs:label>Familial cold autoinflammatory syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS120435 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS120435">
+        <rdfs:label>Colorectal cancer, hereditary nonpolyposis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS120970 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS120970">
+        <rdfs:label>Cone-rod dystrophy/Cone dystrophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS121200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS121200">
+        <rdfs:label>Seizures, benign familial neonatal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS121210 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS121210">
+        <rdfs:label>Seizures, familial febrile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS121400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS121400">
+        <rdfs:label>Cornea plana</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS122000 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS122000">
+        <rdfs:label>Corneal dystrophy, posterior polymorphous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS122100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS122100">
+        <rdfs:label>Corneal dystrophy, Meesmann</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS122470 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS122470">
+        <rdfs:label>Cornelia de Lange syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS123000 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS123000">
+        <rdfs:label>Craniometaphyseal dysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS123100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS123100">
+        <rdfs:label>Craniosynostosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS123700 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS123700">
+        <rdfs:label>Cutis laxa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS124000 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS124000">
+        <rdfs:label>Mitochondrial complex III deficiency, nuclear type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS124900 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS124900">
+        <rdfs:label>Deafness, autosomal dominant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS125310 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS125310">
+        <rdfs:label>Cerebral arteriopathy with subcortical infarcts and leukoencephalopathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS126200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS126200">
+        <rdfs:label>Multiple sclerosis, susceptibility to</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS126800 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS126800">
+        <rdfs:label>Duane retraction syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS127000 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS127000">
+        <rdfs:label>Kenny-Caffey syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS127500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS127500">
+        <rdfs:label>Dyschromatosis universalis hereditaria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS127550 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS127550">
+        <rdfs:label>Dyskeratosis congenita</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS128100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS128100">
+        <rdfs:label>Dystonia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS128200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS128200">
+        <rdfs:label>Episodic kinesigenic dyskinesia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS130000 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS130000">
+        <rdfs:label>Ehlers-Danlos syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS131100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS131100">
+        <rdfs:label>Multiple endocrine neoplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS131760 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS131760">
+        <rdfs:label>Epidermolysis bullosa simplex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS132100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS132100">
+        <rdfs:label>Photoparoxysmal response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS132400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS132400">
+        <rdfs:label>Epiphyseal dysplasia, multiple</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS133100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS133100">
+        <rdfs:label>Erythrocytosis, familial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS133200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS133200">
+        <rdfs:label>Erythrokeratodermia variabilis et progressiva</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS133700 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS133700">
+        <rdfs:label>Exostoses, multiple</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS133780 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS133780">
+        <rdfs:label>Exudative vitreoretinopathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS134600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS134600">
+        <rdfs:label>Fanconi renotubular syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS135150 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS135150">
+        <rdfs:label>Birt-Hogg-Dube syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS135300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS135300">
+        <rdfs:label>Gingival fibromatosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS135500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS135500">
+        <rdfs:label>Zimmermann-Laband syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS135700 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS135700">
+        <rdfs:label>Fibrosis of extraocular muscles, congenital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS135900 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS135900">
+        <rdfs:label>Coffin-Siris syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS136500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS136500">
+        <rdfs:label>Focal facial dermal dysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS136520 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS136520">
+        <rdfs:label>Foveal hypoplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS136550 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS136550">
+        <rdfs:label>Macular dystrophy, retinal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS136760 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS136760">
+        <rdfs:label>Frontonasal dysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS136800 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS136800">
+        <rdfs:label>Corneal dystrophy, Fuchs endothelial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS137800 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS137800">
+        <rdfs:label>Glioma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS137950 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS137950">
+        <rdfs:label>Glomerulopathy with fibronectin deposits</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS138800 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS138800">
+        <rdfs:label>Goiter, multinodular</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS141200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS141200">
+        <rdfs:label>Hematuria, benign familial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS141500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS141500">
+        <rdfs:label>Migraine, familial hemiplegic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS142340 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS142340">
+        <rdfs:label>Diaphragmatic hernia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS142623 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS142623">
+        <rdfs:label>Hirschsprung disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS142690 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS142690">
+        <rdfs:label>Acne inversa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS142700 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS142700">
+        <rdfs:label>Developmental dysplasia of the hip</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS143880 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS143880">
+        <rdfs:label>Hypercalcemia, infantile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS143890 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS143890">
+        <rdfs:label>Hypercholesterolemia, familial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS144200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS144200">
+        <rdfs:label>Palmoplantar keratoderma, epidermolytic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS145000 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS145000">
+        <rdfs:label>Hyperparathyroidism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS145260 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS145260">
+        <rdfs:label>Pseudohypoaldosteronism, type II</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS145420 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS145420">
+        <rdfs:label>Teebi hypertelorism syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS145600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS145600">
+        <rdfs:label>Malignant hyperthermia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS145980 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS145980">
+        <rdfs:label>Hypocalciuric hypercalcemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS146200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS146200">
+        <rdfs:label>Hypoparathyroidism, familial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS146590 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS146590">
+        <rdfs:label>Ichthyosis hystrix</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS147060 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS147060">
+        <rdfs:label>Hyper-IgE recurrent infection syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS147920 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS147920">
+        <rdfs:label>Kabuki syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS147950 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS147950">
+        <rdfs:label>Hypogonadotropic hypogonadism with or without anosmia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS148210 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS148210">
+        <rdfs:label>Keratitis-ichthyosis-deafness syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS148300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS148300">
+        <rdfs:label>Keratoconus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS149400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS149400">
+        <rdfs:label>Hyperekplexia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS149730 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS149730">
+        <rdfs:label>Lacrimoauriculodentodigital syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS151100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS151100">
+        <rdfs:label>LEOPARD syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS151623 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS151623">
+        <rdfs:label>Li-Fraumeni syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS151660 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS151660">
+        <rdfs:label>Lipodystrophy, familial partial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS153100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS153100">
+        <rdfs:label>Lymphatic malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS153600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS153600">
+        <rdfs:label>Macroglobulinemia, Waldenstrom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS153840 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS153840">
+        <rdfs:label>Macular dystrophy, vitelliform</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS154500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS154500">
+        <rdfs:label>Treacher Collins syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS155600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS155600">
+        <rdfs:label>Melanoma, cutaneous malignant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS156200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS156200">
+        <rdfs:label>Intellectual developmental disorder, autosomal dominant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS156610 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS156610">
+        <rdfs:label>Skin creases, congenital symmetric circumferential</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS157300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS157300">
+        <rdfs:label>Migraine with or without aura, susceptibility to</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS157600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS157600">
+        <rdfs:label>Mirror movements</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS157640 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS157640">
+        <rdfs:label>Progressive external ophthalmoplegia with mtDNA deletions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS157700 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS157700">
+        <rdfs:label>Mitral valve prolapse, myxomatous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS158350 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS158350">
+        <rdfs:label>Cowden disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS158600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS158600">
+        <rdfs:label>Spinal muscular atrophy, lower extremity-predominant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS158810 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS158810">
+        <rdfs:label>Bethlem myopathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS158900 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS158900">
+        <rdfs:label>Facioscapulohumeral muscular dystrophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS160120 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS160120">
+        <rdfs:label>Episodic ataxia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS160150 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS160150">
+        <rdfs:label>Myopathy, centronuclear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS160500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS160500">
+        <rdfs:label>Myopathy, distal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS160565 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS160565">
+        <rdfs:label>Myopathy, tubular aggregate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS160700 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS160700">
+        <rdfs:label>Myopia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS160900 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS160900">
+        <rdfs:label>Myotonic dystrophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS161050 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS161050">
+        <rdfs:label>Nail disorder, nonsyndromic congenital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS161400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS161400">
+        <rdfs:label>Narcolepsy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS161800 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS161800">
+        <rdfs:label>Nemaline myopathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS161950 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS161950">
+        <rdfs:label>IgA nephropathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS162000 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS162000">
+        <rdfs:label>Tubulointerstitial kidney disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS162091 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS162091">
+        <rdfs:label>Schwannomatosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS162400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS162400">
+        <rdfs:label>Hereditary sensory and autonomic neuropathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS163950 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS163950">
+        <rdfs:label>Noonan syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS164210 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS164210">
+        <rdfs:label>Craniofacial microsomia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS164280 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS164280">
+        <rdfs:label>Feingold syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS164300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS164300">
+        <rdfs:label>Oculopharyngeal muscular dystrophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS164310 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS164310">
+        <rdfs:label>Oculopharyngodistal myopathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS164400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS164400">
+        <rdfs:label>Spinocerebellar ataxia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS165500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS165500">
+        <rdfs:label>Optic atrophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS166200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS166200">
+        <rdfs:label>Osteogenesis imperfecta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS166780 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS166780">
+        <rdfs:label>Otofaciocervical syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS166800 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS166800">
+        <rdfs:label>Otosclerosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS167030 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS167030">
+        <rdfs:label>Nephrolithiasis, calcium oxalate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS167200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS167200">
+        <rdfs:label>Pachyonychia congenita</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS167250 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS167250">
+        <rdfs:label>Paget disease of bone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS167320 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS167320">
+        <rdfs:label>Inclusion body myopathy/Paget disease/frontotemporal dementia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS167870 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS167870">
+        <rdfs:label>Panic disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS168000 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS168000">
+        <rdfs:label>Pheochromocytoma/paraganglioma syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS168500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS168500">
+        <rdfs:label>Parietal foramina</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS168600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS168600">
+        <rdfs:label>Parkinson disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS169150 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS169150">
+        <rdfs:label>Macular dystrophy, patterned</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS169500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS169500">
+        <rdfs:label>Leukodystrophy, demyelinating, adult-onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS173900 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS173900">
+        <rdfs:label>Polycystic kidney disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS174050 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS174050">
+        <rdfs:label>Polycystic liver disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS174200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS174200">
+        <rdfs:label>Polydactyly, postaxial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS174400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS174400">
+        <rdfs:label>Polydactyly, preaxial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS175100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS175100">
+        <rdfs:label>Familial adenomatous polyposis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS175780 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS175780">
+        <rdfs:label>Brain small vessel disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS175800 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS175800">
+        <rdfs:label>Porokeratosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS176400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS176400">
+        <rdfs:label>Precocious puberty, central</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS176670 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS176670">
+        <rdfs:label>Progeria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS177000 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS177000">
+        <rdfs:label>Protoporphyria, erythropoietic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS177200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS177200">
+        <rdfs:label>Liddle syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS177735 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS177735">
+        <rdfs:label>Pseudohypoaldosteronism, type I</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS177900 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS177900">
+        <rdfs:label>Psoriasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS178110 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS178110">
+        <rdfs:label>Contractures, pterygia, and variable skeletal fusions syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS178600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS178600">
+        <rdfs:label>Pulmonary hypertension, primary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS179010 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS179010">
+        <rdfs:label>Pyloric stenosis, infantile hypertrophic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS179800 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS179800">
+        <rdfs:label>Distal renal tubular acidosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS179850 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS179850">
+        <rdfs:label>Reticulate pigment disorders</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS180500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS180500">
+        <rdfs:label>Axenfeld-Rieger syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS180849 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS180849">
+        <rdfs:label>Rubinstein-Taybi syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS180860 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS180860">
+        <rdfs:label>Silver-Russell syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS182250 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS182250">
+        <rdfs:label>Singleton-Merten syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS182960 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS182960">
+        <rdfs:label>Neuronopathy, distal hereditary motor, autosomal dominant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS183600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS183600">
+        <rdfs:label>Split-hand/foot malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS184255 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS184255">
+        <rdfs:label>Spondylometaphyseal dysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS184260 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS184260">
+        <rdfs:label>Odontochondrodysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS184450 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS184450">
+        <rdfs:label>Stuttering, familial persistent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS184840 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS184840">
+        <rdfs:label>Otospondylomegaepiphyseal dysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS185800 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS185800">
+        <rdfs:label>Proximal symphalangism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS186500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS186500">
+        <rdfs:label>Multiple synostoses syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS187300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS187300">
+        <rdfs:label>Telangiectasia, hereditary hemorrhagic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS187950 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS187950">
+        <rdfs:label>Thrombocythemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS188050 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS188050">
+        <rdfs:label>Thrombophilia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS188550 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS188550">
+        <rdfs:label>Thyroid cancer, nonmedullary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS188580 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS188580">
+        <rdfs:label>Thyrotoxic periodic paralysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS189800 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS189800">
+        <rdfs:label>Preeclampsia/eclampsia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS190300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS190300">
+        <rdfs:label>Tremor, hereditary essential</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS190350 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS190350">
+        <rdfs:label>Trichorhinophalangeal syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS190440 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS190440">
+        <rdfs:label>Trigonocephaly, isolated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS191100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS191100">
+        <rdfs:label>Tuberous sclerosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS191830 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS191830">
+        <rdfs:label>Renal hypodysplasia/aplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS192500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS192500">
+        <rdfs:label>Long QT syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS192600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS192600">
+        <rdfs:label>Cardiomyopathy, familial hypertrophic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS193000 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS193000">
+        <rdfs:label>Vesicoureteral reflux</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS193100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS193100">
+        <rdfs:label>Hypophosphatemic rickets</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS193500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS193500">
+        <rdfs:label>Waardenburg syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS193670 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS193670">
+        <rdfs:label>WHIM syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS193900 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS193900">
+        <rdfs:label>White sponge nevus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS194070 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS194070">
+        <rdfs:label>Wilms tumor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS200600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS200600">
+        <rdfs:label>Achondrogenesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS201000 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS201000">
+        <rdfs:label>Carpenter syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS202200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS202200">
+        <rdfs:label>Glucocorticoid deficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS202700 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS202700">
+        <rdfs:label>Neutropenia, severe congenital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS203100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS203100">
+        <rdfs:label>Oculocutaneous albinism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS203300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS203300">
+        <rdfs:label>Hermansky-Pudlak syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS203650 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS203650">
+        <rdfs:label>Alopecia-intellectual disability syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS203655 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS203655">
+        <rdfs:label>Alopecia, isolated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS204000 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS204000">
+        <rdfs:label>Leber congenital amaurosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS206100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS206100">
+        <rdfs:label>Anemia, hypochromic microcytic, with iron overload</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS206500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS206500">
+        <rdfs:label>Anencephaly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS208000 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS208000">
+        <rdfs:label>Generalized arterial calcification of infancy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS208085 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS208085">
+        <rdfs:label>Arthrogryposis, renal dysfunction, and cholestasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS208150 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS208150">
+        <rdfs:label>Fetal akinesia deformation sequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS208500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS208500">
+        <rdfs:label>Short-rib thoracic dysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS208540 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS208540">
+        <rdfs:label>Renal-hepatic-pancreatic dysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS209880 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS209880">
+        <rdfs:label>Central hypoventilation syndrome, congenital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS209900 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS209900">
+        <rdfs:label>Bardet-Biedl syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS209920 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS209920">
+        <rdfs:label>MHC class II deficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS210200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS210200">
+        <rdfs:label>Methylcrotonylglycinuria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS210250 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS210250">
+        <rdfs:label>Sitosterolemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS210600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS210600">
+        <rdfs:label>Seckel syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS210900 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS210900">
+        <rdfs:label>Microcephaly, growth restriction and increased sister chromatid exchange</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS211400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS211400">
+        <rdfs:label>Bronchiectasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS211530 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS211530">
+        <rdfs:label>Brown-Vialetto-Van Laere syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS211600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS211600">
+        <rdfs:label>Cholestasis, progressive familial intrahepatic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS212065 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS212065">
+        <rdfs:label>Congenital disorders of glycosylation, type I</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS212066 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS212066">
+        <rdfs:label>Congenital disorders of glycosylation, type II</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS212093 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS212093">
+        <rdfs:label>Cardiac valvular defect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS212720 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS212720">
+        <rdfs:label>Martsolf syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS212750 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS212750">
+        <rdfs:label>Celiac disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS213200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS213200">
+        <rdfs:label>Spinocerebellar ataxia, autosomal recessive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS213300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS213300">
+        <rdfs:label>Joubert syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS213600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS213600">
+        <rdfs:label>Basal ganglia calcification, idiopathic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS213980 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS213980">
+        <rdfs:label>Craniofacial dysmorphism, skeletal anomalies, and impaired intellectual development syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS214100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS214100">
+        <rdfs:label>Peroxisome biogenesis disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS214150 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS214150">
+        <rdfs:label>Cerebrooculofacioskeletal syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS214450 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS214450">
+        <rdfs:label>Griscelli syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS214700 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS214700">
+        <rdfs:label>Diarrhea, congenital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS215100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS215100">
+        <rdfs:label>Rhizomelic chondrodysplasia punctata</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS215500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS215500">
+        <rdfs:label>Choroidal dystrophy, central areolar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS215700 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS215700">
+        <rdfs:label>Citrullinemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS218330 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS218330">
+        <rdfs:label>Cranioectodermal dysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS219000 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS219000">
+        <rdfs:label>Fraser syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS219080 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS219080">
+        <rdfs:label>ACTH-independent macronodular adrenal hyperplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS220110 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS220110">
+        <rdfs:label>Mitochondrial complex IV deficiency, nuclear-type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS220150 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS220150">
+        <rdfs:label>Hypouricemia, renal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS220210 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS220210">
+        <rdfs:label>Ritscher-Schinzel syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS220290 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS220290">
+        <rdfs:label>Deafness, autosomal recessive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS220400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS220400">
+        <rdfs:label>Jervell and Lange-Nielsen syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS221770 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS221770">
+        <rdfs:label>Polycystic lipomembranous osteodysplasia with sclerosing leukoencephaly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS221820 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS221820">
+        <rdfs:label>Leukoencephalopathy, hereditary diffuse, with spheroids</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS221900 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS221900">
+        <rdfs:label>Persistent hyperplastic primary vitreous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS222470 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS222470">
+        <rdfs:label>Trichohepatoenteric syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS223360 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS223360">
+        <rdfs:label>Orthostatic hypotension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS224050 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS224050">
+        <rdfs:label>Cerebellar ataxia, mental retardation, and dysequilibrium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS224120 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS224120">
+        <rdfs:label>Anemia, congenital dyserythropoietic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS224690 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS224690">
+        <rdfs:label>Meier-Gorlin syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS225750 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS225750">
+        <rdfs:label>Aicardi-Goutieres syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS226400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS226400">
+        <rdfs:label>Epidermodysplasia verruciformis, susceptibility to</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS226650 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS226650">
+        <rdfs:label>Epidermolysis bullosa, junctional</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS227220 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS227220">
+        <rdfs:label>Skin/hair/eye pigmentation, variation in</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS227650 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS227650">
+        <rdfs:label>Fanconi anemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS228520 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS228520">
+        <rdfs:label>Fibrochondrogenesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS228550 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS228550">
+        <rdfs:label>Infantile myofibromatosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS229200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS229200">
+        <rdfs:label>Brittle cornea syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS230400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS230400">
+        <rdfs:label>Galactosemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS231050 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS231050">
+        <rdfs:label>Geleophysic dysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS231090 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS231090">
+        <rdfs:label>Hydatidiform mole, recurrent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS231200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS231200">
+        <rdfs:label>Bleeding disorder, platelet-type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS232200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS232200">
+        <rdfs:label>Glycogen storage disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS233300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS233300">
+        <rdfs:label>Ovarian dysgenesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS233400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS233400">
+        <rdfs:label>Perrault syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS234200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS234200">
+        <rdfs:label>Neurodegeneration with brain iron accumulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS235200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS235200">
+        <rdfs:label>Hemochromatosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS235400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS235400">
+        <rdfs:label>Hemolytic uremic syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS235510 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS235510">
+        <rdfs:label>Hennekam lymphangiectasia-lymphedema syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS236100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS236100">
+        <rdfs:label>Holoprosencephaly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS236270 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS236270">
+        <rdfs:label>Homocystinuria-megaloblastic anemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS236600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS236600">
+        <rdfs:label>Hydrocephalus, congenital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS236670 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS236670">
+        <rdfs:label>Muscular dystrophy-dystroglycanopathy, type A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS236680 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS236680">
+        <rdfs:label>Hydrolethalus syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS236730 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS236730">
+        <rdfs:label>Urofacial syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS237450 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS237450">
+        <rdfs:label>Hyperbilirubinemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS239300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS239300">
+        <rdfs:label>Hyperphosphatasia with mental retardation syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS241550 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS241550">
+        <rdfs:label>Hypoplastic left heart syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS242300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS242300">
+        <rdfs:label>Ichthyosis, congenital, autosomal recessive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS242860 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS242860">
+        <rdfs:label>Immunodeficiency-centromeric instability-facial anomalies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS243150 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS243150">
+        <rdfs:label>Gastrointestinal defect and immunodeficiency syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS243180 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS243180">
+        <rdfs:label>Visceral neuropathy, familial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS243300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS243300">
+        <rdfs:label>Cholestasis, benign recurrent intrahepatic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS243310 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS243310">
+        <rdfs:label>Baraitser-Winter syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS244400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS244400">
+        <rdfs:label>Primary ciliary dyskinesia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS245480 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS245480">
+        <rdfs:label>Specific granule deficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS245590 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS245590">
+        <rdfs:label>Growth hormone insensitivity syndrome with immune dysregulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS248370 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS248370">
+        <rdfs:label>Mandibuloacral dysplasia with lipodystrophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS248600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS248600">
+        <rdfs:label>Maple syrup urine disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS249000 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS249000">
+        <rdfs:label>Meckel syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS249210 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS249210">
+        <rdfs:label>Megacystis-microcolon-intestinal hypoperistalsis syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS249270 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS249270">
+        <rdfs:label>Thiamine-responsive dysfunction syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS249500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS249500">
+        <rdfs:label>Intellectual developmental disorder, autosomal recessive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS250950 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS250950">
+        <rdfs:label>3-Methylglutaconic aciduria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS251000 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS251000">
+        <rdfs:label>Methylmalonic aciduria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS251200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS251200">
+        <rdfs:label>Microcephaly, primary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS251270 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS251270">
+        <rdfs:label>Microcephaly and chorioretinopathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS251280 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS251280">
+        <rdfs:label>Diencephalic-mesencephalic junction dysplasia syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS251290 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS251290">
+        <rdfs:label>Pseudo-TORCH syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS251300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS251300">
+        <rdfs:label>Galloway-Mowat syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS251450 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS251450">
+        <rdfs:label>Desbuquois dysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS251600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS251600">
+        <rdfs:label>Microphthalmia, isolated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS252010 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS252010">
+        <rdfs:label>Mitochondrial complex I deficiency, nuclear type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS252011 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS252011">
+        <rdfs:label>Mitochondrial complex II deficiency, nuclear type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS252150 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS252150">
+        <rdfs:label>Molybdenum cofactor deficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS252270 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS252270">
+        <rdfs:label>Monosomy 7 myelodysplasia and leukemia syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS252350 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS252350">
+        <rdfs:label>Moyamoya disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS253310 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS253310">
+        <rdfs:label>Lethal congenital contracture syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS253600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS253600">
+        <rdfs:label>Muscular dystrophy, limb-girdle, autosomal recessive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS254090 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS254090">
+        <rdfs:label>Ullrich congenital muscular dystrophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS254130 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS254130">
+        <rdfs:label>Miyoshi muscular dystrophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS254770 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS254770">
+        <rdfs:label>Epilepsy, myoclonic juvenile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS254780 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS254780">
+        <rdfs:label>Myoclonic epilepsy of Lafora</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS254800 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS254800">
+        <rdfs:label>Epilepsy, progressive myoclonic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS254940 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS254940">
+        <rdfs:label>Carey-Fineman-Ziter syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS256040 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS256040">
+        <rdfs:label>Proteosome-associated autoinflammatory syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS256100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS256100">
+        <rdfs:label>Nephronophthisis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS256300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS256300">
+        <rdfs:label>Nephrotic syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS256450 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS256450">
+        <rdfs:label>Hyperinsulinemia hypoglycemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS256520 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS256520">
+        <rdfs:label>Neu-Laxova syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS256550 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS256550">
+        <rdfs:label>Mucolipidosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS256730 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS256730">
+        <rdfs:label>Ceroid lipofuscinoses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS256850 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS256850">
+        <rdfs:label>Giant axonal neuropathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS257300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS257300">
+        <rdfs:label>Mosaic variegated aneuploidy syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS257920 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS257920">
+        <rdfs:label>3MC syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS258150 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS258150">
+        <rdfs:label>Spermatogenic failure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS258315 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS258315">
+        <rdfs:label>Omodysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS259100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS259100">
+        <rdfs:label>Hypertropic osteoarthropathy, primary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS259450 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS259450">
+        <rdfs:label>Bruck syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS259700 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS259700">
+        <rdfs:label>Osteopetrosis, autosomal recessive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS259900 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS259900">
+        <rdfs:label>Hyperoxaluria, primary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS260370 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS260370">
+        <rdfs:label>Pancreatic agenesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS260400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS260400">
+        <rdfs:label>Schwachman-Diamond syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS261100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS261100">
+        <rdfs:label>Imerslund-Grasbeck syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS262400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS262400">
+        <rdfs:label>Isolated growth hormone deficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS265120 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS265120">
+        <rdfs:label>Surfactant metabolism dysfunction, pulmonary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS265450 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS265450">
+        <rdfs:label>Pulmonary venoocclusive disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS266600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS266600">
+        <rdfs:label>Inflammatory bowel disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS266900 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS266900">
+        <rdfs:label>Senior-Loken syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS267700 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS267700">
+        <rdfs:label>Hemophagocytic lymphohistiocytosis, familial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS267750 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS267750">
+        <rdfs:label>Knobloch syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS268000 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS268000">
+        <rdfs:label>Retinitis pigmentosa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS268310 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS268310">
+        <rdfs:label>Robinow syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS268400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS268400">
+        <rdfs:label>Rothmund-Thomson syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS269500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS269500">
+        <rdfs:label>Sclerosteosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS270300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS270300">
+        <rdfs:label>Peeling skin syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS271640 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS271640">
+        <rdfs:label>Spondyloepimetaphyseal dysplasia with joint laxity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS271930 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS271930">
+        <rdfs:label>Striatonigral degeneration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS272430 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS272430">
+        <rdfs:label>Cold-induced sweating syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS273395 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS273395">
+        <rdfs:label>Tetraamelia syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS273750 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS273750">
+        <rdfs:label>Three M syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS273800 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS273800">
+        <rdfs:label>Glanzmann thrombasthenia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS274400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS274400">
+        <rdfs:label>Thyroid dyshormonogenesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS275200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS275200">
+        <rdfs:label>Hypothyroidism, congenital, nongoitrous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS275210 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS275210">
+        <rdfs:label>Restrictive dermopathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS276300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS276300">
+        <rdfs:label>Mismatch repair cancer syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS276700 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS276700">
+        <rdfs:label>Tyrosinemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS276900 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS276900">
+        <rdfs:label>Usher syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS277180 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS277180">
+        <rdfs:label>Vas deferens, congenital bilateral aplasia of</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS277300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS277300">
+        <rdfs:label>Spondylocostal dysostosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS277400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS277400">
+        <rdfs:label>Methylmalonic aciduria and homocystinuria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS277450 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS277450">
+        <rdfs:label>Vitamin K-dependent clotting factors, combined deficiency of</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS277600 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS277600">
+        <rdfs:label>Weill-Marchesani syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS278000 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS278000">
+        <rdfs:label>Lysosomal acid lipase deficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS278300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS278300">
+        <rdfs:label>Xanthinuria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS300009 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS300009">
+        <rdfs:label>Dent disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS300049 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS300049">
+        <rdfs:label>Periventricular nodular heterotopia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS300291 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS300291">
+        <rdfs:label>Ectodermal dysplasia and immune deficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS300345 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS300345">
+        <rdfs:label>Microphthalmia, isolated, with coloboma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS300352 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS300352">
+        <rdfs:label>Cerebral creatine deficiency syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS300491 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS300491">
+        <rdfs:label>Epilepsy, X-linked, with or without impaired intellectual development and dysmorphic features</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS300633 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS300633">
+        <rdfs:label>Hypospadias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS300751 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS300751">
+        <rdfs:label>Anemia, sideroblastic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS300755 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS300755">
+        <rdfs:label>Immunodeficiency (select examples)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS300818 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS300818">
+        <rdfs:label>Paroxysmal nocturnal hemoglobinuria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS300908 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS300908">
+        <rdfs:label>Anemia, congenital, nonspherocytic hemolytic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS301050 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS301050">
+        <rdfs:label>Alport syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS301108 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS301108">
+        <rdfs:label>Cataracts, hearing impairment, nephrotic syndrome, and enterocolitis 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS303350 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS303350">
+        <rdfs:label>Spastic paraplegia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS304500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS304500">
+        <rdfs:label>Deafness, X-linked</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS305100 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS305100">
+        <rdfs:label>Ectodermal dysplasia (select examples)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS305450 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS305450">
+        <rdfs:label>FG syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS305620 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS305620">
+        <rdfs:label>Frontometaphyseal dysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS306400 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS306400">
+        <rdfs:label>Granulomatous disease, chronic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS306955 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS306955">
+        <rdfs:label>Heterotaxy, visceral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS308205 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS308205">
+        <rdfs:label>IFAP syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS308230 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS308230">
+        <rdfs:label>Immunodeficiency with hyper-IgM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS308240 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS308240">
+        <rdfs:label>Lymphoproliferative syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS308350 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS308350">
+        <rdfs:label>Developmental and epileptic encephalopathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS309510 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS309510">
+        <rdfs:label>Intellectual developmental disorder, X-linked syndromic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS309530 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS309530">
+        <rdfs:label>Intellectual developmental disorder, nonsyndromic, X-linked</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS309800 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS309800">
+        <rdfs:label>Microphthalmia, syndromic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS309801 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS309801">
+        <rdfs:label>Linear skin defects with multiple congenital anomalies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS310300 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS310300">
+        <rdfs:label>Emery-Dreifuss muscular dystrophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS310500 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS310500">
+        <rdfs:label>Night blindness, congenital stationary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS310700 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS310700">
+        <rdfs:label>Nystagmus, congenital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS311200 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS311200">
+        <rdfs:label>Orofaciodigital syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS311360 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS311360">
+        <rdfs:label>Premature ovarian failure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS312080 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS312080">
+        <rdfs:label>Leukodystrophy, hypomyelinating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS312170 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS312170">
+        <rdfs:label>Pyruvate dehydrogenase complex deficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS313900 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS313900">
+        <rdfs:label>Thrombocytopenia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS314580 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS314580">
+        <rdfs:label>Wieacker-Wolff syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS400043 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS400043">
+        <rdfs:label>Deafness, Y-linked</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS400044 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS400044">
+        <rdfs:label>46,XY sex reversal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS600118 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS600118">
+        <rdfs:label>Warburg micro syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS600131 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS600131">
+        <rdfs:label>Epilepsy, childhood absence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS600165 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS600165">
+        <rdfs:label>Nanophthalmos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS600462 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS600462">
+        <rdfs:label>Myopathy, lactic acidosis, and sideroblastic anemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS600512 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS600512">
+        <rdfs:label>Epilepsy, familial temporal lobe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS600513 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS600513">
+        <rdfs:label>Epilepsy, nocturnal frontal lobe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS600630 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS600630">
+        <rdfs:label>UV-sensitive syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS600669 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS600669">
+        <rdfs:label>Epilepsy, idiopathic generalized</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS600721 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS600721">
+        <rdfs:label>D-2-hydroxyglutaric aciduria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS600803 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS600803">
+        <rdfs:label>Gallbladder disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS601068 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS601068">
+        <rdfs:label>Epilepsy, familial adult myoclonic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS601104 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS601104">
+        <rdfs:label>Supranuclear palsy, progressive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS601144 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS601144">
+        <rdfs:label>Brugada syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS601198 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS601198">
+        <rdfs:label>Hypocalcemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS601228 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS601228">
+        <rdfs:label>Polyposis syndrome, hereditary mixed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS601390 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS601390">
+        <rdfs:label>Van Maldergem syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS601419 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS601419">
+        <rdfs:label>Myopathy, myofibrillar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS601457 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS601457">
+        <rdfs:label>Severe combined immunodeficiency (select examples)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS601462 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS601462">
+        <rdfs:label>Myasthenic syndrome, congenital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS601471 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS601471">
+        <rdfs:label>Facial paresis, hereditary congenital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS601495 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS601495">
+        <rdfs:label>Agammaglobulinemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS601559 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS601559">
+        <rdfs:label>Stuve-Wiedemann syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS601675 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS601675">
+        <rdfs:label>Trichothiodystrophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS601678 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS601678">
+        <rdfs:label>Bartter syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS601764 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS601764">
+        <rdfs:label>Seizures, benign familial infantile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS602014 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS602014">
+        <rdfs:label>Hypomagnesemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS602483 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS602483">
+        <rdfs:label>Auriculocondylar syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS602588 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS602588">
+        <rdfs:label>Branchiootic syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS602875 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS602875">
+        <rdfs:label>Acromesomelic dysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS603041 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS603041">
+        <rdfs:label>Mitochondrial DNA depletion syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS603075 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS603075">
+        <rdfs:label>Macular degeneration, age-related</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS603165 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS603165">
+        <rdfs:label>Dermatitis, atopic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS603278 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS603278">
+        <rdfs:label>Focal segmental glomerulosclerosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS603387 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS603387">
+        <rdfs:label>Megalencephaly-polymicrogyria-polydactyly-hydrocephalus syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS603511 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS603511">
+        <rdfs:label>Muscular dystrophy, limb-girdle, autosomal dominant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS603896 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS603896">
+        <rdfs:label>Leukoencephalopathy with vanishing white matter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS603933 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS603933">
+        <rdfs:label>Microvascular complications of diabetes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS604004 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS604004">
+        <rdfs:label>Leukoencephalopathy, megalencephalic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS604169 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS604169">
+        <rdfs:label>Left ventricular noncompaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS604233 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS604233">
+        <rdfs:label>Epilepsy, generalized, with febrile seizures plus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS604273 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS604273">
+        <rdfs:label>Mitochondrial complex V (ATP synthase) deficiency, nuclear type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS604320 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS604320">
+        <rdfs:label>Neuronopathy, distal hereditary motor, autosomal recessive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS604348 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS604348">
+        <rdfs:label>Advanced sleep phase syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS604364 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS604364">
+        <rdfs:label>Epilepsy, familial focal, with variable foci</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS604370 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS604370">
+        <rdfs:label>Breast-ovarian cancer, familial, susceptibility to</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS604391 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS604391">
+        <rdfs:label>Ataxia-telangiectasia-like disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS604498 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS604498">
+        <rdfs:label>Amegakaryocytic thrombocytopenia, congenital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS604571 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS604571">
+        <rdfs:label>MHC class I deficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS604772 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS604772">
+        <rdfs:label>Ventricular tachycardia, catecholaminergic polymorphic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS604931 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS604931">
+        <rdfs:label>Cortisone reductase deficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS605253 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS605253">
+        <rdfs:label>Neuropathy, congenital hypomelinating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS605389 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS605389">
+        <rdfs:label>Hypotrichosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS605432 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS605432">
+        <rdfs:label>Radioulnar synostosis with amegakaryocytic thrombocytopenia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS605552 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS605552">
+        <rdfs:label>Abdominal obesity-metabolic syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS605711 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS605711">
+        <rdfs:label>Multiple mitochondrial dysfunctions syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS605899 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS605899">
+        <rdfs:label>Glycine encephalopathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS606176 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS606176">
+        <rdfs:label>Diabetes mellitus, permanent neonatal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS606215 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS606215">
+        <rdfs:label>Atrioventricular septal defect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS606703 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS606703">
+        <rdfs:label>Dyskinesia with orofacial involvement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS606711 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS606711">
+        <rdfs:label>Specific language impairment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS606777 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS606777">
+        <rdfs:label>Glut1 deficiency syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS607014 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS607014">
+        <rdfs:label>Mucopolysaccharidoses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS607086 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS607086">
+        <rdfs:label>Aortic aneurysm, familial thoracic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS607095 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS607095">
+        <rdfs:label>Anauxetic dysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS607250 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS607250">
+        <rdfs:label>Spinocerebellar ataxia, autosomal recessive, with axonal neuropathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS607313 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS607313">
+        <rdfs:label>Gaze palsy, familial horizontal, with progressive scoliosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS607326 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS607326">
+        <rdfs:label>Smith-McCort dysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS607411 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS607411">
+        <rdfs:label>Patent ductus arteriosus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS607426 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS607426">
+        <rdfs:label>Coenzyme Q10 deficiency, primary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS607432 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS607432">
+        <rdfs:label>Lissencephaly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS607594 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS607594">
+        <rdfs:label>Immunodeficiency, common variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS607596 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS607596">
+        <rdfs:label>Pontocerebellar hypoplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS607602 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS607602">
+        <rdfs:label>Ichthyosis, annular epidermolytic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS607631 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS607631">
+        <rdfs:label>Epilepsy, juvenile absence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS607634 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS607634">
+        <rdfs:label>Osteopetrosis, autosomal dominant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS607721 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS607721">
+        <rdfs:label>Noonan syndrome-like disorder with loose anagen hair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS607748 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS607748">
+        <rdfs:label>Hypercholanemia, familial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS607765 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS607765">
+        <rdfs:label>Bile acid synthesis defect, congenital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS608207 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS608207">
+        <rdfs:label>Kala-azar, susceptibility to</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS608354 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS608354">
+        <rdfs:label>Capillary malformation-arteriovenous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS608415 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS608415">
+        <rdfs:label>Prolonged electroretinal response suppression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS608567 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS608567">
+        <rdfs:label>Sick sinus syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS608583 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS608583">
+        <rdfs:label>Atrial fibrillation, familial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS608594 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS608594">
+        <rdfs:label>Lipodystrophy, congenital generalized</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS608638 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS608638">
+        <rdfs:label>Asperger syndrome, susceptibility to</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS608805 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS608805">
+        <rdfs:label>Avascular necrosis of femoral head, primary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS609015 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS609015">
+        <rdfs:label>Mitochondrial trifunctional protein deficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS609060 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS609060">
+        <rdfs:label>Combined oxidative phosphorylation deficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS609129 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS609129">
+        <rdfs:label>Auditory neuropathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS609161 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS609161">
+        <rdfs:label>Striatal degeneration, autosomal dominant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS609192 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS609192">
+        <rdfs:label>Loeys-Dietz syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS609308 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS609308">
+        <rdfs:label>Muscular dystrophy-dystroglycanopathy, type C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS609322 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS609322">
+        <rdfs:label>Rhabdoid tumor predisposition syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS609620 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS609620">
+        <rdfs:label>Short QT syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS609628 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS609628">
+        <rdfs:label>Chronic recurrent multifocal osteomyelitis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS609698 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS609698">
+        <rdfs:label>Thyroid hormone metabolism, abnormal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS610253 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS610253">
+        <rdfs:label>Kleefstra syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS610448 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS610448">
+        <rdfs:label>Chilblain lupus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS610460 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS610460">
+        <rdfs:label>Thiopurines, poor metabolism of</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS610489 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS610489">
+        <rdfs:label>Pigmented nodular adrenocortical disease, primary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS610542 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS610542">
+        <rdfs:label>Myasthenic syndrome, congenital, with tubular aggregates</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS610551 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS610551">
+        <rdfs:label>Encephalopathy/encephalitis, acute, infection-induced</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS610805 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS610805">
+        <rdfs:label>Congenital anomalies of kidney and urinary tract</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS612199 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS612199">
+        <rdfs:label>Cerebroretinal microangiopathy with calcfications and cysts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS612286 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS612286">
+        <rdfs:label>Nephrolithiasis/osteoporosis, hypophosphatemic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS612900 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS612900">
+        <rdfs:label>Spastic quadriplegic cerebral palsy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS612975 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS612975">
+        <rdfs:label>Short sleep, familial natural</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS613038 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS613038">
+        <rdfs:label>Pituitary hormone deficiency, combined</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS613112 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS613112">
+        <rdfs:label>Macrothrombocytopenia, isolated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS613135 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS613135">
+        <rdfs:label>Parkinsonism-dystonia, infantile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS613155 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS613155">
+        <rdfs:label>Muscular dystrophy-dystroglycanopathy, type B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS613280 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS613280">
+        <rdfs:label>Hypermanganesemia with dystonia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS613339 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS613339">
+        <rdfs:label>Hot water epilepsy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS613573 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS613573">
+        <rdfs:label>Ectodermal dysplasia-syndactyly syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS613652 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS613652">
+        <rdfs:label>C1q deficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS613658 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS613658">
+        <rdfs:label>Rajab interstitial lung disease with brain calcifications</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS614039 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS614039">
+        <rdfs:label>Cortical dysplasia, complex, with other brain malformations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS614080 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS614080">
+        <rdfs:label>Multiple congenital anomalies-hypotonia-seizures syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS614231 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS614231">
+        <rdfs:label>Microcephaly, epilepsy, and diabetes syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS614372 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS614372">
+        <rdfs:label>Lectin complement activation pathway defects</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS614388 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS614388">
+        <rdfs:label>Encephalopathy due to defective mitochondrial and peroxisomal fission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS614429 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS614429">
+        <rdfs:label>Ventricular septal defect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS614592 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS614592">
+        <rdfs:label>Bent bone dysplasia syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS614594 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS614594">
+        <rdfs:label>Olmsted syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS614675 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS614675">
+        <rdfs:label>Bone marrow failure syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS614742 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS614742">
+        <rdfs:label>Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS614937 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS614937">
+        <rdfs:label>Myoclonus, familial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS615040 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS615040">
+        <rdfs:label>Familial episodic pain syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS615273 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS615273">
+        <rdfs:label>Congenital disorder of deglycosylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS615419 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS615419">
+        <rdfs:label>Hypotonia, infantile, with psychomotor retardation and characteristic facies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS615438 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS615438">
+        <rdfs:label>Infantile liver failure syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS615774 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS615774">
+        <rdfs:label>Oocyte/zygote/embryo maturation arrest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS615895 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS615895">
+        <rdfs:label>Polyglucosan body myopathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS615952 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS615952">
+        <rdfs:label>Autoimmune disease, multisystem, infantile-onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS616033 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS616033">
+        <rdfs:label>Microcephaly, short stature, and impaired glucose metabolism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS616255 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS616255">
+        <rdfs:label>Short stature with nonspecific skeletal abnormalities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS616263 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS616263">
+        <rdfs:label>Neurologic, endocrine, and pancreatic disease, multisystem, infantile-onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS616355 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS616355">
+        <rdfs:label>Houge-Janssens syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS616418 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS616418">
+        <rdfs:label>Hypomagnesemia, seizures, and mental retardation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS616744 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS616744">
+        <rdfs:label>Autoinflammatory syndrome, familial, Behcet-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS616866 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS616866">
+        <rdfs:label>Spinal muscular atrophy with congenital bone fractures</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS616901 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS616901">
+        <rdfs:label>Developmental delay with short stature, dysmorphic facial features, and sparse hair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS617068 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS617068">
+        <rdfs:label>Portal hypertension, noncirrhotic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS617099 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS617099">
+        <rdfs:label>Autoinflammation, panniculitis, and dermatosis syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS617186 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS617186">
+        <rdfs:label>Encephalopathy, progressive, early-onset, with brain edema and/or leukoencephalopathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS617236 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS617236">
+        <rdfs:label>Cone-rod dystrophy and hearing loss</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS617290 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS617290">
+        <rdfs:label>Epilepsy, early-onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS617468 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS617468">
+        <rdfs:label>Arthrogryposis multiplex congenita</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS617660 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS617660">
+        <rdfs:label>Vertebral, cardiac, renal, and limb defects syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS617877 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS617877">
+        <rdfs:label>Short stature, facial dysmorphism, and skeletal anomalies with or without cardiac anomalies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS618005 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS618005">
+        <rdfs:label>Congenital disorder of glycosylation with defective fucosylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS618332 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS618332">
+        <rdfs:label>Menke-Hennekam syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS619115 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS619115">
+        <rdfs:label>Combined osteogenesis imperfecta and Ehlers-Danlos syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS619142 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS619142">
+        <rdfs:label>Cardioacrofacial dysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS619382 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS619382">
+        <rdfs:label>Leber hereditary optic neuropathy, autosomal recessive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS619539 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS619539">
+        <rdfs:label>Neuroocular syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS619611 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS619611">
+        <rdfs:label>Interstitial lung disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS619720 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS619720">
+        <rdfs:label>Bryant-Li-Bhoj neurodevelopmental syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS619758 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS619758">
+        <rdfs:label>Tessadori-Van-Haaften neurodevelopmental syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS619980 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS619980">
+        <rdfs:label>Braddock-Carey Syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://omim.org/MIM:PS620184 -->
+
+    <owl:Class rdf:about="https://omim.org/MIM:PS620184">
+        <rdfs:label>Atelis syndrome</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

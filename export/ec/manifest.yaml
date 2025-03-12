@@ -1,0 +1,73 @@
+date: '2025-03-12'
+dependencies:
+  bioontologies: 0.6.1-dev-029beec3
+  bioregistry: 0.12.5-dev-6a6eb34f
+  pyobo: 0.12.0-dev-fc140cc1
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ec/ec.tsv
+    path: ec/ec.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-02-05/ec.tsv
+    version_path: ec/2025-02-05/ec.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ec/ec.obo
+    path: ec/ec.obo
+    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-02-05/ec.obo
+    version_path: ec/2025-02-05/ec.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ec/ec.json
+    path: ec/ec.json
+    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-02-05/ec.json
+    version_path: ec/2025-02-05/ec.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ec/ec.ofn
+    path: ec/ec.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-02-05/ec.ofn
+    version_path: ec/2025-02-05/ec.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ec/ec.owl
+    path: ec/ec.owl
+    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-02-05/ec.owl
+    version_path: ec/2025-02-05/ec.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ec/ec.sssom.tsv
+    path: ec/ec.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-02-05/ec.sssom.tsv
+    version_path: ec/2025-02-05/ec.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 6886
+    license: CC-BY-4.0
+    mappings: 1472
+    parents: 7287
+    properties: 255367
+    references: 0
+    relations: 4506
+    synonyms: 10491
+    terms: 8779
+    version: '2025-02-05'
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ec/ec.synonyms.tsv
+    path: ec/ec.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-02-05/ec.synonyms.tsv
+    version_path: ec/2025-02-05/ec.synonyms.tsv
+prefix_map:
+  EC: https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
+  GO: http://purl.obolibrary.org/obo/GO_
+  IAO: http://purl.obolibrary.org/obo/IAO_
+  RO: http://purl.obolibrary.org/obo/RO_
+  dcterms: http://purl.org/dc/terms/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  uniprot: http://purl.uniprot.org/uniprot/
+  xsd: http://www.w3.org/2001/XMLSchema#

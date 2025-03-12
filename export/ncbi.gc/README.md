@@ -18,9 +18,10 @@ Genetic code, mitochontrial genetic code, and other linked information to NCBI t
 
 ## Summary
 
-| field      |   count |
-|------------|---------|
-| mappings   |       2 |
-| parents    |      26 |
-| properties |       4 |
-| terms      |      28 |
+| field       |   count |
+|-------------|---------|
+| definitions |       2 |
+| mappings    |       5 |
+| parents     |      30 |
+| properties  |      16 |
+| terms       |      28 |
