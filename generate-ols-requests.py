@@ -14,7 +14,7 @@ MANIFEST = HERE.joinpath("docs", "_data", "manifest.yml")
 REQUESTS = HERE.joinpath("ols-requests")
 REQUESTS.mkdir(exist_ok=True)
 
-REQUEST_FORM_URL = "https://github.com/EBISPOT/ols4/blob/dev/New%20OLS%20ontology%20request.xlsx"
+REQUEST_FORM_URL = "https://github.com/EBISPOT/ols4/raw/refs/heads/dev/New%20OLS%20ontology%20request.xlsx"
 
 
 @click.command()
@@ -68,6 +68,7 @@ def main() -> None:
             ],
             "hidden_property": [],
             "base_uri": [
+                "http://purl.obolibrary.org/obo/",
                 resource.get_rdf_uri_prefix() or resource.get_uri_prefix(),
             ],
             "reasoner": "none",
