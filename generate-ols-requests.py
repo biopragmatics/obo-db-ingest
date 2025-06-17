@@ -43,6 +43,8 @@ def main() -> None:
                 "no primary contact information is available."
             )
         values = {
+            # as per https://github.com/EBISPOT/ols4/pull/896#discussion_r2126144218
+            "id": prefix,
             "creator": [
                 creator,
             ],
