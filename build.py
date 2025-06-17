@@ -17,7 +17,7 @@
 
 """Build OBO dumps of database.
 
-Run with ``UV_PREVIEW=1 uv run --script build.py``
+Run with ``uv run --script build.py``
 """
 
 from __future__ import annotations

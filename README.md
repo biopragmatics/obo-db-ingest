@@ -26,11 +26,16 @@ A manifest of all resources is available at [manifest.yml](docs/_data/manifest.y
 
 ## Build
 
-To generate OBO files, run the following shell commands (Python 3.8+):
+To generate all OBO, OWL, and OFN files, run the following shell commands:
 
 ```console
-$ uv tool install tox --with tox-uv
-$ tox
+$ uv run --script build.py
+```
+
+If you just want to generate one, use `-x` like
+
+```console
+$ uv run --script build.py -x spdx
 ```
 
 ## PURLs
@@ -44,7 +49,7 @@ Here are a few examples:
 | Reactome      | Sequential   | https://w3id.org/biopragmatics/resources/reactome/83/reactome.obo              |
 | Interpro      | Major/Minor  | https://w3id.org/biopragmatics/resources/interpro/92.0/interpro.obo            |
 | DrugBank Salt | Semantic     | https://w3id.org/biopragmatics/resources/drugbank.salt/5.1.9/drugbank.salt.obo |
-| MeSH          | Year         | https://w3id.org/biopragmatics/resources/mesh/2003/mesh.obo.gz                 |
+| MeSH          | Year         | https://w3id.org/biopragmatics/resources/mesh/2023/mesh.obo.gz                 |
 | UniProt       | Year/Month   | https://w3id.org/biopragmatics/resources/uniprot/2022_05/uniprot.obo.gz        |
 | HGNC          | Date         | https://w3id.org/biopragmatics/resources/hgnc/2023-02-01/hgnc.obo              |
 | CGNC          | unversioned  | https://w3id.org/biopragmatics/resources/cgnc/cgnc.obo                         |
