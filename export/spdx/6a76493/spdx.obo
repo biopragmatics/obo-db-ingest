@@ -1,0 +1,4753 @@
+format-version: 1.4
+data-version: 6a76493
+auto-generated-by: PyOBO v0.12.5-dev-a4ef9629 on 2025-06-17T10:29:14.141539
+idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: spdx https://spdx.org/licenses/ "Software Package Data Exchange License"
+idspace: spdx.term http://spdx.org/rdf/terms# "Software Package Data Exchange RDF Vocabulary"
+ontology: spdx
+property_value: dcterms:title "Software Package Data Exchange License" xsd:string
+property_value: dcterms:description "The SPDX License List is a list of commonly found licenses and exceptions used in free and open source and other collaborative software or documentation. The purpose of the SPDX License List is to enable easy and efficient identification of such licenses and exceptions in an SPDX document\\\, in source files or elsewhere. The SPDX License List includes a standardized short identifier\\\, full name\\\, vetted license text including matching guidelines markup as appropriate\\\, and a canonical permanent URL for each license and exception." xsd:string
+property_value: IAO:0000700 spdx.term:ListedLicense
+
+[Typedef]
+id: rdfs:seeAlso
+name: see also
+is_metadata_tag: true
+
+[Typedef]
+id: spdx.term:isFsfLibre
+domain: spdx.term:ListedLicense ! listed license
+range: xsd:boolean ! boolean
+is_metadata_tag: true
+
+[Typedef]
+id: spdx.term:isOsiApproved
+domain: spdx.term:ListedLicense ! listed license
+range: xsd:boolean ! boolean
+is_metadata_tag: true
+
+[Term]
+id: spdx:0BSD
+name: BSD Zero Clause License
+property_value: rdfs:seeAlso "http://landley.net/toybox/license.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/0BSD" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:3D-Slicer-1.0
+name: 3D Slicer License v1.0
+property_value: rdfs:seeAlso "https://github.com/Slicer/Slicer/blob/main/License.txt" xsd:anyURI
+property_value: rdfs:seeAlso "https://slicer.org/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:AAL
+name: Attribution Assurance License
+property_value: rdfs:seeAlso "https://opensource.org/licenses/attribution" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ADSL
+name: Amazon Digital Services License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/AmazonDigitalServicesLicense" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:AFL-1.1
+name: Academic Free License v1.1
+property_value: rdfs:seeAlso "http://opensource.linux-mirror.org/licenses/afl-1.1.txt" xsd:anyURI
+property_value: rdfs:seeAlso "http://wayback.archive.org/web/20021004124254/http://www.opensource.org/licenses/academic.php" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:AFL-1.2
+name: Academic Free License v1.2
+property_value: rdfs:seeAlso "http://opensource.linux-mirror.org/licenses/afl-1.2.txt" xsd:anyURI
+property_value: rdfs:seeAlso "http://wayback.archive.org/web/20021204204652/http://www.opensource.org/licenses/academic.php" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:AFL-2.0
+name: Academic Free License v2.0
+property_value: rdfs:seeAlso "http://wayback.archive.org/web/20060924134533/http://www.opensource.org/licenses/afl-2.0.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:AFL-2.1
+name: Academic Free License v2.1
+property_value: rdfs:seeAlso "http://opensource.linux-mirror.org/licenses/afl-2.1.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:AFL-3.0
+name: Academic Free License v3.0
+property_value: rdfs:seeAlso "http://www.rosenlaw.com/AFL3.0.htm" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/afl-3.0" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:AGPL-1.0
+name: Affero General Public License v1.0
+property_value: rdfs:seeAlso "http://www.affero.org/oagpl.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:AGPL-1.0-only
+name: Affero General Public License v1.0 only
+property_value: rdfs:seeAlso "http://www.affero.org/oagpl.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:AGPL-1.0-or-later
+name: Affero General Public License v1.0 or later
+property_value: rdfs:seeAlso "http://www.affero.org/oagpl.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:AGPL-3.0
+name: GNU Affero General Public License v3.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/AGPL-3.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/agpl.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:AGPL-3.0-only
+name: GNU Affero General Public License v3.0 only
+property_value: rdfs:seeAlso "https://opensource.org/licenses/AGPL-3.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/agpl.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:AGPL-3.0-or-later
+name: GNU Affero General Public License v3.0 or later
+property_value: rdfs:seeAlso "https://opensource.org/licenses/AGPL-3.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/agpl.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:AMD-newlib
+name: AMD newlib License
+property_value: rdfs:seeAlso "https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/sys/a29khif/_close.S;h=04f52ae00de1dafbd9055ad8d73c5c697a3aae7f;hb=HEAD" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:AMDPLPA
+name: AMD's plpa_map.c License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/AMD_plpa_map_License" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:AML
+name: Apple MIT License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Apple_MIT_License" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:AML-glslang
+name: AML glslang variant License
+property_value: rdfs:seeAlso "https://docs.omniverse.nvidia.com/install-guide/latest/common/licenses.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/KhronosGroup/glslang/blob/main/LICENSE.txt#L949" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:AMPAS
+name: Academy of Motion Picture Arts and Sciences BSD
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/BSD#AMPASBSD" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ANTLR-PD
+name: ANTLR Software Rights Notice
+property_value: rdfs:seeAlso "http://www.antlr2.org/license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ANTLR-PD-fallback
+name: ANTLR Software Rights Notice with license fallback
+property_value: rdfs:seeAlso "http://www.antlr2.org/license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:APAFML
+name: Adobe Postscript AFM License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/AdobePostscriptAFM" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:APL-1.0
+name: Adaptive Public License 1.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/APL-1.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:APSL-1.0
+name: Apple Public Source License 1.0
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Apple_Public_Source_License_1.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:APSL-1.1
+name: Apple Public Source License 1.1
+property_value: rdfs:seeAlso "http://www.opensource.apple.com/source/IOSerialFamily/IOSerialFamily-7/APPLE_LICENSE" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:APSL-1.2
+name: Apple Public Source License 1.2
+property_value: rdfs:seeAlso "http://www.samurajdata.se/opensource/mirror/licenses/apsl.php" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:APSL-2.0
+name: Apple Public Source License 2.0
+property_value: rdfs:seeAlso "http://www.opensource.apple.com/license/apsl/" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ASWF-Digital-Assets-1.0
+name: ASWF Digital Assets License version 1.0
+property_value: rdfs:seeAlso "https://github.com/AcademySoftwareFoundation/foundation/blob/main/digital_assets/aswf_digital_assets_license_v1.0.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ASWF-Digital-Assets-1.1
+name: ASWF Digital Assets License 1.1
+property_value: rdfs:seeAlso "https://github.com/AcademySoftwareFoundation/foundation/blob/main/digital_assets/aswf_digital_assets_license_v1.1.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Abstyles
+name: Abstyles License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Abstyles" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:AdaCore-doc
+name: AdaCore Doc License
+property_value: rdfs:seeAlso "https://github.com/AdaCore/gnatcoll-core/blob/master/docs/index.rst" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/AdaCore/gnatcoll-db/blob/master/docs/index.rst" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/AdaCore/xmlada/blob/master/docs/index.rst" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Adobe-2006
+name: Adobe Systems Incorporated Source Code License Agreement
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/AdobeLicense" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Adobe-Display-PostScript
+name: Adobe Display PostScript License
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/xorg/xserver/-/blob/master/COPYING?ref_type=heads#L752" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Adobe-Glyph
+name: Adobe Glyph List License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/MIT#AdobeGlyph" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Adobe-Utopia
+name: Adobe Utopia Font License
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/xorg/font/adobe-utopia-100dpi/-/blob/master/COPYING?ref_type=heads" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Afmparse
+name: Afmparse License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Afmparse" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Aladdin
+name: Aladdin Free Public License
+property_value: rdfs:seeAlso "http://pages.cs.wisc.edu/~ghost/doc/AFPL/6.01/Public.htm" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Apache-1.0
+name: Apache License 1.0
+property_value: rdfs:seeAlso "http://www.apache.org/licenses/LICENSE-1.0" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Apache-1.1
+name: Apache License 1.1
+property_value: rdfs:seeAlso "http://apache.org/licenses/LICENSE-1.1" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/Apache-1.1" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Apache-2.0
+name: Apache License 2.0
+property_value: rdfs:seeAlso "https://opensource.org/license/apache-2-0" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/Apache-2.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.apache.org/licenses/LICENSE-2.0" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:App-s2p
+name: App\:\:s2p License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/App-s2p" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Arphic-1999
+name: Arphic Public License
+property_value: rdfs:seeAlso "http://ftp.gnu.org/gnu/non-gnu/chinese-fonts-truetype/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Artistic-1.0
+name: Artistic License 1.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/Artistic-1.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Artistic-1.0-Perl
+name: Artistic License 1.0 \(Perl\)
+property_value: rdfs:seeAlso "http://dev.perl.org/licenses/artistic.html" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Artistic-1.0-cl8
+name: Artistic License 1.0 w/clause 8
+property_value: rdfs:seeAlso "https://opensource.org/licenses/Artistic-1.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Artistic-2.0
+name: Artistic License 2.0
+property_value: rdfs:seeAlso "http://www.perlfoundation.org/artistic_license_2_0" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/artistic-license-2.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.perlfoundation.org/artistic-license-20.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Artistic-dist
+name: Artistic License 1.0 \(dist\)
+property_value: rdfs:seeAlso "https://github.com/pexip/os-perl/blob/833cf4c86cc465ccfc627ff16db67e783156a248/debian/copyright#L2720-L2845" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Aspell-RU
+name: Aspell Russian License
+property_value: rdfs:seeAlso "https://ftp.gnu.org/gnu/aspell/dict/ru/aspell6-ru-0.99f7-1.tar.bz2" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-1-Clause
+name: BSD 1-Clause License
+property_value: rdfs:seeAlso "https://svnweb.freebsd.org/base/head/include/ifaddrs.h?revision=326823" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-2-Clause
+name: BSD 2-Clause \"Simplified\" License
+property_value: rdfs:seeAlso "https://opensource.org/licenses/BSD-2-Clause" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-2-Clause-Darwin
+name: BSD 2-Clause - Ian Darwin variant
+property_value: rdfs:seeAlso "https://github.com/file/file/blob/master/COPYING" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-2-Clause-FreeBSD
+name: BSD 2-Clause FreeBSD License
+property_value: rdfs:seeAlso "http://www.freebsd.org/copyright/freebsd-license.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:BSD-2-Clause-NetBSD
+name: BSD 2-Clause NetBSD License
+property_value: rdfs:seeAlso "http://www.netbsd.org/about/redistribution.html#default" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:BSD-2-Clause-Patent
+name: BSD-2-Clause Plus Patent License
+property_value: rdfs:seeAlso "https://opensource.org/licenses/BSDplusPatent" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-2-Clause-Views
+name: BSD 2-Clause with views sentence
+property_value: rdfs:seeAlso "http://www.freebsd.org/copyright/freebsd-license.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/protegeproject/protege/blob/master/license.txt" xsd:anyURI
+property_value: rdfs:seeAlso "https://people.freebsd.org/~ivoras/wine/patch-wine-nvidia.sh" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-2-Clause-first-lines
+name: BSD 2-Clause - first lines requirement
+property_value: rdfs:seeAlso "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L664-L690" xsd:anyURI
+property_value: rdfs:seeAlso "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-2-Clause-pkgconf-disclaimer
+name: BSD 2-Clause pkgconf disclaimer variant
+property_value: rdfs:seeAlso "https://github.com/audacious-media-player/audacious/blob/master/COPYING" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/audacious-media-player/audacious/blob/master/src/audacious/main.cc" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-3-Clause
+name: BSD 3-Clause \"New\" or \"Revised\" License
+property_value: rdfs:seeAlso "https://opensource.org/licenses/BSD-3-Clause" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.eclipse.org/org/documents/edl-v10.php" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-3-Clause-Attribution
+name: BSD with attribution
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/BSD_with_Attribution" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-3-Clause-Clear
+name: BSD 3-Clause Clear License
+property_value: rdfs:seeAlso "http://labs.metacarta.com/license-explanation.html#license" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-3-Clause-HP
+name: Hewlett-Packard BSD variant license
+property_value: rdfs:seeAlso "https://github.com/zdohnal/hplip/blob/master/COPYING#L939" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-3-Clause-LBNL
+name: Lawrence Berkeley National Labs BSD variant license
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/LBNLBSD" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-3-Clause-Modification
+name: BSD 3-Clause Modification
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing:BSD#Modification_Variant" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-3-Clause-No-Military-License
+name: BSD 3-Clause No Military License
+property_value: rdfs:seeAlso "https://github.com/greymass/swift-eosio/blob/master/LICENSE" xsd:anyURI
+property_value: rdfs:seeAlso "https://gitlab.syncad.com/hive/dhive/-/blob/master/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-3-Clause-No-Nuclear-License
+name: BSD 3-Clause No Nuclear License
+property_value: rdfs:seeAlso "http://download.oracle.com/otn-pub/java/licenses/bsd.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-3-Clause-No-Nuclear-License-2014
+name: BSD 3-Clause No Nuclear License 2014
+property_value: rdfs:seeAlso "https://java.net/projects/javaeetutorial/pages/BerkeleyLicense" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-3-Clause-No-Nuclear-Warranty
+name: BSD 3-Clause No Nuclear Warranty
+property_value: rdfs:seeAlso "https://jogamp.org/git/?p=gluegen.git;a=blob_plain;f=LICENSE.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-3-Clause-Open-MPI
+name: BSD 3-Clause Open MPI variant
+property_value: rdfs:seeAlso "http://www.netlib.org/lapack/LICENSE.txt" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.open-mpi.org/community/license.php" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-3-Clause-Sun
+name: BSD 3-Clause Sun Microsystems
+property_value: rdfs:seeAlso "https://github.com/xmlark/msv/blob/b9316e2f2270bc1606952ea4939ec87fbba157f3/xsdlib/src/main/java/com/sun/msv/datatype/regexp/InternalImpl.java" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-3-Clause-acpica
+name: BSD 3-Clause acpica variant
+property_value: rdfs:seeAlso "https://github.com/acpica/acpica/blob/master/source/common/acfileio.c#L119" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-3-Clause-flex
+name: BSD 3-Clause Flex variant
+property_value: rdfs:seeAlso "https://github.com/westes/flex/blob/master/COPYING" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-4-Clause
+name: BSD 4-Clause \"Original\" or \"Old\" License
+property_value: rdfs:seeAlso "http://directory.fsf.org/wiki/License:BSD_4Clause" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-4-Clause-Shortened
+name: BSD 4 Clause Shortened
+property_value: rdfs:seeAlso "https://metadata.ftp-master.debian.org/changelogs//main/a/arpwatch/arpwatch_2.1a15-7_copyright" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-4-Clause-UC
+name: BSD-4-Clause \(University of California-Specific\)
+property_value: rdfs:seeAlso "http://www.freebsd.org/copyright/license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-4.3RENO
+name: BSD 4.3 RENO License
+property_value: rdfs:seeAlso "https://git.openldap.org/openldap/openldap/-/blob/master/COPYRIGHT#L55-63" xsd:anyURI
+property_value: rdfs:seeAlso "https://sourceware.org/git/?p=binutils-gdb.git;a=blob;f=libiberty/strcasecmp.c;h=131d81c2ce7881fa48c363dc5bf5fb302c61ce0b;hb=HEAD" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-4.3TAHOE
+name: BSD 4.3 TAHOE License
+property_value: rdfs:seeAlso "https://git.savannah.gnu.org/cgit/indent.git/tree/doc/indent.texi?id=a74c6b4ee49397cf330b333da1042bffa60ed14f#n1788" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/389ds/389-ds-base/blob/main/ldap/include/sysexits-compat.h#L15" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-Advertising-Acknowledgement
+name: BSD Advertising Acknowledgement License
+property_value: rdfs:seeAlso "https://github.com/python-excel/xlrd/blob/master/LICENSE#L33" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-Attribution-HPND-disclaimer
+name: BSD with Attribution and HPND disclaimer
+property_value: rdfs:seeAlso "https://github.com/cyrusimap/cyrus-sasl/blob/master/COPYING" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-Inferno-Nettverk
+name: BSD-Inferno-Nettverk
+property_value: rdfs:seeAlso "https://www.inet.no/dante/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-Protection
+name: BSD Protection License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/BSD_Protection_License" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-Source-Code
+name: BSD Source Code Attribution
+property_value: rdfs:seeAlso "https://github.com/robbiehanson/CocoaHTTPServer/blob/master/LICENSE.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-Source-beginning-file
+name: BSD Source Code Attribution - beginning of file variant
+property_value: rdfs:seeAlso "https://github.com/lattera/freebsd/blob/master/sys/cam/cam.c#L4" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-Systemics
+name: Systemics BSD variant license
+property_value: rdfs:seeAlso "https://metacpan.org/release/DPARIS/Crypt-DES-2.07/source/COPYRIGHT" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSD-Systemics-W3Works
+name: Systemics W3Works BSD variant license
+property_value: rdfs:seeAlso "https://metacpan.org/release/DPARIS/Crypt-Blowfish-2.14/source/COPYRIGHT#L7" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BSL-1.0
+name: Boost Software License 1.0
+property_value: rdfs:seeAlso "http://www.boost.org/LICENSE_1_0.txt" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/BSL-1.0" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BUSL-1.1
+name: Business Source License 1.1
+property_value: rdfs:seeAlso "https://mariadb.com/bsl11/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Baekmuk
+name: Baekmuk License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing:Baekmuk?rd=Licensing/Baekmuk" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Bahyph
+name: Bahyph License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Bahyph" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Barr
+name: Barr License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Barr" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Beerware
+name: Beerware License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Beerware" xsd:anyURI
+property_value: rdfs:seeAlso "https://people.freebsd.org/~phk/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BitTorrent-1.0
+name: BitTorrent Open Source License v1.0
+property_value: rdfs:seeAlso "http://sources.gentoo.org/cgi-bin/viewvc.cgi/gentoo-x86/licenses/BitTorrent?r1=1.1&r2=1.1.1.1&diff_format=s" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BitTorrent-1.1
+name: BitTorrent Open Source License v1.1
+property_value: rdfs:seeAlso "http://directory.fsf.org/wiki/License:BitTorrentOSL1.1" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Bitstream-Charter
+name: Bitstream Charter Font License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Charter#License_Text" xsd:anyURI
+property_value: rdfs:seeAlso "https://raw.githubusercontent.com/blackhole89/notekit/master/data/fonts/Charter%20license.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Bitstream-Vera
+name: Bitstream Vera Font License
+property_value: rdfs:seeAlso "https://docubrain.com/sites/default/files/licenses/bitstream-vera.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://web.archive.org/web/20080207013128/http://www.gnome.org/fonts/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:BlueOak-1.0.0
+name: Blue Oak Model License 1.0.0
+property_value: rdfs:seeAlso "https://blueoakcouncil.org/license/1.0.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Boehm-GC
+name: Boehm-Demers-Weiser GC License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing:MIT#Another_Minimal_variant_(found_in_libatomic_ops)" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/ivmai/libatomic_ops/blob/master/LICENSE" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/uim/libgcroots/blob/master/COPYING" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Boehm-GC-without-fee
+name: Boehm-Demers-Weiser GC License \(without fee\)
+property_value: rdfs:seeAlso "https://github.com/MariaDB/server/blob/11.6/libmysqld/lib_sql.cc" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Borceux
+name: Borceux license
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Borceux" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Brian-Gladman-2-Clause
+name: Brian Gladman 2-Clause License
+property_value: rdfs:seeAlso "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L140-L156" xsd:anyURI
+property_value: rdfs:seeAlso "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Brian-Gladman-3-Clause
+name: Brian Gladman 3-Clause License
+property_value: rdfs:seeAlso "https://github.com/SWI-Prolog/packages-clib/blob/master/sha1/brg_endian.h" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:C-UDA-1.0
+name: Computational Use of Data Agreement v1.0
+property_value: rdfs:seeAlso "https://cdla.dev/computational-use-of-data-agreement-v1-0/" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/microsoft/Computational-Use-of-Data-Agreement/blob/master/C-UDA-1.0.md" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CAL-1.0
+name: Cryptographic Autonomy License 1.0
+property_value: rdfs:seeAlso "http://cryptographicautonomylicense.com/license-text.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/CAL-1.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CAL-1.0-Combined-Work-Exception
+name: Cryptographic Autonomy License 1.0 \(Combined Work Exception\)
+property_value: rdfs:seeAlso "http://cryptographicautonomylicense.com/license-text.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/CAL-1.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CATOSL-1.1
+name: Computer Associates Trusted Open Source License 1.1
+property_value: rdfs:seeAlso "https://opensource.org/licenses/CATOSL-1.1" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-1.0
+name: Creative Commons Attribution 1.0 Generic
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by/1.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-2.0
+name: Creative Commons Attribution 2.0 Generic
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by/2.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-2.5
+name: Creative Commons Attribution 2.5 Generic
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by/2.5/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-2.5-AU
+name: Creative Commons Attribution 2.5 Australia
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by/2.5/au/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-3.0
+name: Creative Commons Attribution 3.0 Unported
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by/3.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-3.0-AT
+name: Creative Commons Attribution 3.0 Austria
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by/3.0/at/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-3.0-AU
+name: Creative Commons Attribution 3.0 Australia
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by/3.0/au/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-3.0-DE
+name: Creative Commons Attribution 3.0 Germany
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by/3.0/de/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-3.0-IGO
+name: Creative Commons Attribution 3.0 IGO
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by/3.0/igo/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-3.0-NL
+name: Creative Commons Attribution 3.0 Netherlands
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by/3.0/nl/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-3.0-US
+name: Creative Commons Attribution 3.0 United States
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by/3.0/us/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-4.0
+name: Creative Commons Attribution 4.0 International
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by/4.0/legalcode" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-1.0
+name: Creative Commons Attribution Non Commercial 1.0 Generic
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc/1.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-2.0
+name: Creative Commons Attribution Non Commercial 2.0 Generic
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc/2.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-2.5
+name: Creative Commons Attribution Non Commercial 2.5 Generic
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc/2.5/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-3.0
+name: Creative Commons Attribution Non Commercial 3.0 Unported
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc/3.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-3.0-DE
+name: Creative Commons Attribution Non Commercial 3.0 Germany
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc/3.0/de/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-4.0
+name: Creative Commons Attribution Non Commercial 4.0 International
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc/4.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-ND-1.0
+name: Creative Commons Attribution Non Commercial No Derivatives 1.0 Generic
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nd-nc/1.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-ND-2.0
+name: Creative Commons Attribution Non Commercial No Derivatives 2.0 Generic
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc-nd/2.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-ND-2.5
+name: Creative Commons Attribution Non Commercial No Derivatives 2.5 Generic
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc-nd/2.5/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-ND-3.0
+name: Creative Commons Attribution Non Commercial No Derivatives 3.0 Unported
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-ND-3.0-DE
+name: Creative Commons Attribution Non Commercial No Derivatives 3.0 Germany
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc-nd/3.0/de/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-ND-3.0-IGO
+name: Creative Commons Attribution Non Commercial No Derivatives 3.0 IGO
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc-nd/3.0/igo/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-ND-4.0
+name: Creative Commons Attribution Non Commercial No Derivatives 4.0 International
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-SA-1.0
+name: Creative Commons Attribution Non Commercial Share Alike 1.0 Generic
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc-sa/1.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-SA-2.0
+name: Creative Commons Attribution Non Commercial Share Alike 2.0 Generic
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc-sa/2.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-SA-2.0-DE
+name: Creative Commons Attribution Non Commercial Share Alike 2.0 Germany
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc-sa/2.0/de/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-SA-2.0-FR
+name: Creative Commons Attribution-NonCommercial-ShareAlike 2.0 France
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc-sa/2.0/fr/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-SA-2.0-UK
+name: Creative Commons Attribution Non Commercial Share Alike 2.0 England and Wales
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc-sa/2.0/uk/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-SA-2.5
+name: Creative Commons Attribution Non Commercial Share Alike 2.5 Generic
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc-sa/2.5/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-SA-3.0
+name: Creative Commons Attribution Non Commercial Share Alike 3.0 Unported
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-SA-3.0-DE
+name: Creative Commons Attribution Non Commercial Share Alike 3.0 Germany
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc-sa/3.0/de/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-SA-3.0-IGO
+name: Creative Commons Attribution Non Commercial Share Alike 3.0 IGO
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc-sa/3.0/igo/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-NC-SA-4.0
+name: Creative Commons Attribution Non Commercial Share Alike 4.0 International
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-ND-1.0
+name: Creative Commons Attribution No Derivatives 1.0 Generic
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nd/1.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-ND-2.0
+name: Creative Commons Attribution No Derivatives 2.0 Generic
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nd/2.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-ND-2.5
+name: Creative Commons Attribution No Derivatives 2.5 Generic
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nd/2.5/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-ND-3.0
+name: Creative Commons Attribution No Derivatives 3.0 Unported
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nd/3.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-ND-3.0-DE
+name: Creative Commons Attribution No Derivatives 3.0 Germany
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nd/3.0/de/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-ND-4.0
+name: Creative Commons Attribution No Derivatives 4.0 International
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-nd/4.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-SA-1.0
+name: Creative Commons Attribution Share Alike 1.0 Generic
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-sa/1.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-SA-2.0
+name: Creative Commons Attribution Share Alike 2.0 Generic
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-sa/2.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-SA-2.0-UK
+name: Creative Commons Attribution Share Alike 2.0 England and Wales
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-sa/2.0/uk/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-SA-2.1-JP
+name: Creative Commons Attribution Share Alike 2.1 Japan
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-sa/2.1/jp/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-SA-2.5
+name: Creative Commons Attribution Share Alike 2.5 Generic
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-sa/2.5/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-SA-3.0
+name: Creative Commons Attribution Share Alike 3.0 Unported
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-sa/3.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-SA-3.0-AT
+name: Creative Commons Attribution Share Alike 3.0 Austria
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-sa/3.0/at/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-SA-3.0-DE
+name: Creative Commons Attribution Share Alike 3.0 Germany
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-sa/3.0/de/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-SA-3.0-IGO
+name: Creative Commons Attribution-ShareAlike 3.0 IGO
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-sa/3.0/igo/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-BY-SA-4.0
+name: Creative Commons Attribution Share Alike 4.0 International
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/by-sa/4.0/legalcode" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-PDDC
+name: Creative Commons Public Domain Dedication and Certification
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/publicdomain/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-PDM-1.0
+name: Creative    Commons Public Domain Mark 1.0 Universal
+property_value: rdfs:seeAlso "https://creativecommons.org/publicdomain/mark/1.0/" xsd:anyURI
+property_value: rdfs:seeAlso "https://creativecommons.org/share-your-work/cclicenses/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC-SA-1.0
+name: Creative Commons Share Alike 1.0 Generic
+property_value: rdfs:seeAlso "https://creativecommons.org/licenses/sa/1.0/legalcode" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CC0-1.0
+name: Creative Commons Zero v1.0 Universal
+property_value: rdfs:seeAlso "https://creativecommons.org/publicdomain/zero/1.0/legalcode" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CDDL-1.0
+name: Common Development and Distribution License 1.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/cddl1" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CDDL-1.1
+name: Common Development and Distribution License 1.1
+property_value: rdfs:seeAlso "http://glassfish.java.net/public/CDDL+GPL_1_1.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://javaee.github.io/glassfish/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CDL-1.0
+name: Common Documentation License 1.0
+property_value: rdfs:seeAlso "http://www.opensource.apple.com/cdl/" xsd:anyURI
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Common_Documentation_License" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/license-list.html#ACDL" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CDLA-Permissive-1.0
+name: Community Data License Agreement Permissive 1.0
+property_value: rdfs:seeAlso "https://cdla.io/permissive-1-0" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CDLA-Permissive-2.0
+name: Community Data License Agreement Permissive 2.0
+property_value: rdfs:seeAlso "https://cdla.dev/permissive-2-0" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CDLA-Sharing-1.0
+name: Community Data License Agreement Sharing 1.0
+property_value: rdfs:seeAlso "https://cdla.io/sharing-1-0" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CECILL-1.0
+name: CeCILL Free Software License Agreement v1.0
+property_value: rdfs:seeAlso "http://www.cecill.info/licences/Licence_CeCILL_V1-fr.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CECILL-1.1
+name: CeCILL Free Software License Agreement v1.1
+property_value: rdfs:seeAlso "http://www.cecill.info/licences/Licence_CeCILL_V1.1-US.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CECILL-2.0
+name: CeCILL Free Software License Agreement v2.0
+property_value: rdfs:seeAlso "http://www.cecill.info/licences/Licence_CeCILL_V2-en.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CECILL-2.1
+name: CeCILL Free Software License Agreement v2.1
+property_value: rdfs:seeAlso "http://www.cecill.info/licences/Licence_CeCILL_V2.1-en.html" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CECILL-B
+name: CeCILL-B Free Software License Agreement
+property_value: rdfs:seeAlso "http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CECILL-C
+name: CeCILL-C Free Software License Agreement
+property_value: rdfs:seeAlso "http://www.cecill.info/licences/Licence_CeCILL-C_V1-en.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CERN-OHL-1.1
+name: CERN Open Hardware Licence v1.1
+property_value: rdfs:seeAlso "https://www.ohwr.org/project/licenses/wikis/cern-ohl-v1.1" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CERN-OHL-1.2
+name: CERN Open Hardware Licence v1.2
+property_value: rdfs:seeAlso "https://www.ohwr.org/project/licenses/wikis/cern-ohl-v1.2" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CERN-OHL-P-2.0
+name: CERN Open Hardware Licence Version 2 - Permissive
+property_value: rdfs:seeAlso "https://www.ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CERN-OHL-S-2.0
+name: CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+property_value: rdfs:seeAlso "https://www.ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CERN-OHL-W-2.0
+name: CERN Open Hardware Licence Version 2 - Weakly Reciprocal
+property_value: rdfs:seeAlso "https://www.ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CFITSIO
+name: CFITSIO License
+property_value: rdfs:seeAlso "https://heasarc.gsfc.nasa.gov/docs/software/fitsio/c/f_user/node9.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://heasarc.gsfc.nasa.gov/docs/software/ftools/fv/doc/license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CMU-Mach
+name: CMU Mach License
+property_value: rdfs:seeAlso "https://www.cs.cmu.edu/~410/licenses.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CMU-Mach-nodoc
+name: CMU    Mach - no notices-in-documentation variant
+property_value: rdfs:seeAlso "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L718-L728" xsd:anyURI
+property_value: rdfs:seeAlso "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CNRI-Jython
+name: CNRI Jython License
+property_value: rdfs:seeAlso "http://www.jython.org/license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CNRI-Python
+name: CNRI Python License
+property_value: rdfs:seeAlso "https://opensource.org/licenses/CNRI-Python" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CNRI-Python-GPL-Compatible
+name: CNRI Python Open Source GPL Compatible License Agreement
+property_value: rdfs:seeAlso "http://www.python.org/download/releases/1.6.1/download_win/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:COIL-1.0
+name: Copyfree Open Innovation License
+property_value: rdfs:seeAlso "https://coil.apotheon.org/plaintext/01.0.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CPAL-1.0
+name: Common Public Attribution License 1.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/CPAL-1.0" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CPL-1.0
+name: Common Public License 1.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/CPL-1.0" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CPOL-1.02
+name: Code Project Open License 1.02
+property_value: rdfs:seeAlso "http://www.codeproject.com/info/cpol10.aspx" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CUA-OPL-1.0
+name: CUA Office Public License v1.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/CUA-OPL-1.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Caldera
+name: Caldera License
+property_value: rdfs:seeAlso "http://www.lemis.com/grog/UNIX/ancient-source-all.pdf" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Caldera-no-preamble
+name: Caldera License \(without preamble\)
+property_value: rdfs:seeAlso "https://github.com/apache/apr/blob/trunk/LICENSE#L298C6-L298C29" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Catharon
+name: Catharon License
+property_value: rdfs:seeAlso "https://github.com/scummvm/scummvm/blob/v2.8.0/LICENSES/CatharonLicense.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ClArtistic
+name: Clarified Artistic License
+property_value: rdfs:seeAlso "http://gianluca.dellavedova.org/2011/01/03/clarified-artistic-license/" xsd:anyURI
+property_value: rdfs:seeAlso "http://www.ncftp.com/ncftp/doc/LICENSE.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Clips
+name: Clips License
+property_value: rdfs:seeAlso "https://github.com/DrItanium/maya/blob/master/LICENSE.CLIPS" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Community-Spec-1.0
+name: Community Specification License 1.0
+property_value: rdfs:seeAlso "https://github.com/CommunitySpecification/1.0/blob/master/1._Community_Specification_License-v1.md" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Condor-1.1
+name: Condor Public License v1.1
+property_value: rdfs:seeAlso "http://research.cs.wisc.edu/condor/license.html#condor" xsd:anyURI
+property_value: rdfs:seeAlso "http://web.archive.org/web/20111123062036/http://research.cs.wisc.edu/condor/license.html#condor" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Cornell-Lossless-JPEG
+name: Cornell Lossless JPEG License
+property_value: rdfs:seeAlso "https://android.googlesource.com/platform/external/dng_sdk/+/refs/heads/master/source/dng_lossless_jpeg.cpp#16" xsd:anyURI
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/libopenraw/libopenraw/blob/master/lib/ljpegdecompressor.cpp#L32" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.mssl.ucl.ac.uk/~mcrw/src/20050920/proto.h" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Cronyx
+name: Cronyx License
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/xorg/font/alias/-/blob/master/COPYING" xsd:anyURI
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/xorg/font/cronyx-cyrillic/-/blob/master/COPYING" xsd:anyURI
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/xorg/font/misc-cyrillic/-/blob/master/COPYING" xsd:anyURI
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/xorg/font/screen-cyrillic/-/blob/master/COPYING" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Crossword
+name: Crossword License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Crossword" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CryptoSwift
+name: CryptoSwift License
+property_value: rdfs:seeAlso "https://github.com/krzyzanowskim/CryptoSwift/blob/main/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:CrystalStacker
+name: CrystalStacker License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing:CrystalStacker?rd=Licensing/CrystalStacker" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Cube
+name: Cube License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Cube" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:D-FSL-1.0
+name: Deutsche Freie Software Lizenz
+property_value: rdfs:seeAlso "http://www.dipp.nrw.de/d-fsl/index_html/lizenzen/de/D-FSL-1_0_de.txt" xsd:anyURI
+property_value: rdfs:seeAlso "http://www.dipp.nrw.de/d-fsl/index_html/lizenzen/en/D-FSL-1_0_en.txt" xsd:anyURI
+property_value: rdfs:seeAlso "http://www.dipp.nrw.de/d-fsl/lizenzen/" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.hbz-nrw.de/produkte/open-access/lizenzen/dfsl" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.hbz-nrw.de/produkte/open-access/lizenzen/dfsl/D-FSL-1_0_de.txt/at_download/file" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.hbz-nrw.de/produkte/open-access/lizenzen/dfsl/D-FSL-1_0_en.txt/at_download/file" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.hbz-nrw.de/produkte/open-access/lizenzen/dfsl/deutsche-freie-software-lizenz" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.hbz-nrw.de/produkte/open-access/lizenzen/dfsl/german-free-software-license" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:DEC-3-Clause
+name: DEC 3-Clause License
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/xorg/xserver/-/blob/master/COPYING?ref_type=heads#L239" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:DL-DE-BY-2.0
+name: Data licence Germany – attribution – version 2.0
+property_value: rdfs:seeAlso "https://www.govdata.de/dl-de/by-2-0" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:DL-DE-ZERO-2.0
+name: Data licence Germany – zero – version 2.0
+property_value: rdfs:seeAlso "https://www.govdata.de/dl-de/zero-2-0" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:DOC
+name: DOC License
+property_value: rdfs:seeAlso "http://www.cs.wustl.edu/~schmidt/ACE-copying.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.dre.vanderbilt.edu/~schmidt/ACE-copying.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:DRL-1.0
+name: Detection Rule License 1.0
+property_value: rdfs:seeAlso "https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:DRL-1.1
+name: Detection Rule License 1.1
+property_value: rdfs:seeAlso "https://github.com/SigmaHQ/Detection-Rule-License/blob/6ec7fbde6101d101b5b5d1fcb8f9b69fbc76c04a/LICENSE.Detection.Rules.md" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:DSDP
+name: DSDP License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/DSDP" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:DocBook-DTD
+name: DocBook DTD License
+property_value: rdfs:seeAlso "http://www.docbook.org/xml/simple/1.1/docbook-simple-1.1.zip" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:DocBook-Schema
+name: DocBook Schema License
+property_value: rdfs:seeAlso "https://github.com/docbook/xslt10-stylesheets/blob/efd62655c11cc8773708df7a843613fa1e932bf8/xsl/assembly/schema/docbook51b7.rnc" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:DocBook-Stylesheet
+name: DocBook Stylesheet License
+property_value: rdfs:seeAlso "http://www.docbook.org/xml/5.0/docbook-5.0.zip" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:DocBook-XML
+name: DocBook XML License
+property_value: rdfs:seeAlso "https://github.com/docbook/xslt10-stylesheets/blob/efd62655c11cc8773708df7a843613fa1e932bf8/xsl/COPYING#L27" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Dotseqn
+name: Dotseqn License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Dotseqn" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ECL-1.0
+name: Educational Community License v1.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/ECL-1.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ECL-2.0
+name: Educational Community License v2.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/ECL-2.0" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:EFL-1.0
+name: Eiffel Forum License v1.0
+property_value: rdfs:seeAlso "http://www.eiffel-nice.org/license/forum.txt" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/EFL-1.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:EFL-2.0
+name: Eiffel Forum License v2.0
+property_value: rdfs:seeAlso "http://www.eiffel-nice.org/license/eiffel-forum-license-2.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/EFL-2.0" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:EPICS
+name: EPICS Open License
+property_value: rdfs:seeAlso "https://epics.anl.gov/license/open.php" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:EPL-1.0
+name: Eclipse Public License 1.0
+property_value: rdfs:seeAlso "http://www.eclipse.org/legal/epl-v10.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/EPL-1.0" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:EPL-2.0
+name: Eclipse Public License 2.0
+property_value: rdfs:seeAlso "https://projects.eclipse.org/license/epl-2.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.eclipse.org/legal/epl-2.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.eclipse.org/legal/epl-v20.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.opensource.org/licenses/EPL-2.0" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:EUDatagrid
+name: EU DataGrid Software License
+property_value: rdfs:seeAlso "http://eu-datagrid.web.cern.ch/eu-datagrid/license.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/EUDatagrid" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:EUPL-1.0
+name: European Union Public License 1.0
+property_value: rdfs:seeAlso "http://ec.europa.eu/idabc/en/document/7330.html" xsd:anyURI
+property_value: rdfs:seeAlso "http://ec.europa.eu/idabc/servlets/Doc027f.pdf?id=31096" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:EUPL-1.1
+name: European Union Public License 1.1
+property_value: rdfs:seeAlso "https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/eupl1.1.-licence-en_0.pdf" xsd:anyURI
+property_value: rdfs:seeAlso "https://joinup.ec.europa.eu/software/page/eupl/licence-eupl" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/EUPL-1.1" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:EUPL-1.2
+name: European Union Public License 1.2
+property_value: rdfs:seeAlso "http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017D0863" xsd:anyURI
+property_value: rdfs:seeAlso "https://joinup.ec.europa.eu/page/eupl-text-11-12" xsd:anyURI
+property_value: rdfs:seeAlso "https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt" xsd:anyURI
+property_value: rdfs:seeAlso "https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/eupl_v1.2_en.pdf" xsd:anyURI
+property_value: rdfs:seeAlso "https://joinup.ec.europa.eu/sites/default/files/inline-files/EUPL%20v1_2%20EN(1).txt" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/EUPL-1.2" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Elastic-2.0
+name: Elastic License 2.0
+property_value: rdfs:seeAlso "https://github.com/elastic/elasticsearch/blob/master/licenses/ELASTIC-LICENSE-2.0.txt" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.elastic.co/licensing/elastic-license" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Entessa
+name: Entessa Public License v1.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/Entessa" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ErlPL-1.1
+name: Erlang Public License v1.1
+property_value: rdfs:seeAlso "http://www.erlang.org/EPLICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Eurosym
+name: Eurosym License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Eurosym" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:FBM
+name: Fuzzy Bitmap License
+property_value: rdfs:seeAlso "https://github.com/SWI-Prolog/packages-xpce/blob/161a40cd82004f731ba48024f9d30af388a7edf5/src/img/gifwrite.c#L21-L26" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:FDK-AAC
+name: Fraunhofer FDK AAC Codec Library
+property_value: rdfs:seeAlso "https://directory.fsf.org/wiki/License:Fdk" xsd:anyURI
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/FDK-AAC" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:FSFAP
+name: FSF All Permissive License
+property_value: rdfs:seeAlso "https://www.gnu.org/prep/maintain/html_node/License-Notices-for-Other-Files.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:FSFAP-no-warranty-disclaimer
+name: FSF All Permissive License \(without Warranty\)
+property_value: rdfs:seeAlso "https://git.savannah.gnu.org/cgit/wget.git/tree/util/trunc.c?h=v1.21.3&id=40747a11e44ced5a8ac628a41f879ced3e2ebce9#n6" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:FSFUL
+name: FSF Unlimited License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/FSF_Unlimited_License" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:FSFULLR
+name: FSF Unlimited License \(with License Retention\)
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/FSF_Unlimited_License#License_Retention_Variant" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:FSFULLRSD
+name: FSF Unlimited License \(with License Retention and Short Disclaimer\)
+property_value: rdfs:seeAlso "https://git.savannah.gnu.org/cgit/gnulib.git/tree/modules/COPYING?id=7b08932179d0d6b017f7df01a2ddf6e096b038e3" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:FSFULLRWD
+name: FSF Unlimited License \(With License Retention and Warranty Disclaimer\)
+property_value: rdfs:seeAlso "https://lists.gnu.org/archive/html/autoconf/2012-04/msg00061.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:FSL-1.1-ALv2
+name: Functional Source License\, Version 1.1\, ALv2 Future License
+property_value: rdfs:seeAlso "https://fsl.software/FSL-1.1-ALv2.template.md" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:FSL-1.1-MIT
+name: Functional Source License\, Version 1.1\, MIT Future License
+property_value: rdfs:seeAlso "https://fsl.software/FSL-1.1-MIT.template.md" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:FTL
+name: Freetype Project License
+property_value: rdfs:seeAlso "http://freetype.fis.uniroma2.it/FTL.TXT" xsd:anyURI
+property_value: rdfs:seeAlso "http://git.savannah.gnu.org/cgit/freetype/freetype2.git/tree/docs/FTL.TXT" xsd:anyURI
+property_value: rdfs:seeAlso "http://gitlab.freedesktop.org/freetype/freetype/-/raw/master/docs/FTL.TXT" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Fair
+name: Fair License
+property_value: rdfs:seeAlso "https://opensource.org/licenses/Fair" xsd:anyURI
+property_value: rdfs:seeAlso "https://web.archive.org/web/20150926120323/http://fairlicense.org/" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Ferguson-Twofish
+name: Ferguson Twofish License
+property_value: rdfs:seeAlso "https://github.com/wernerd/ZRTPCPP/blob/6b3cd8e6783642292bad0c21e3e5e5ce45ff3e03/cryptcommon/twofish.c#L113C3-L127" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Frameworx-1.0
+name: Frameworx Open License 1.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/Frameworx-1.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:FreeBSD-DOC
+name: FreeBSD Documentation License
+property_value: rdfs:seeAlso "https://www.freebsd.org/copyright/freebsd-doc-license/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:FreeImage
+name: FreeImage Public License v1.0
+property_value: rdfs:seeAlso "http://freeimage.sourceforge.net/freeimage-license.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Furuseth
+name: Furuseth License
+property_value: rdfs:seeAlso "https://git.openldap.org/openldap/openldap/-/blob/master/COPYRIGHT?ref_type=heads#L39-51" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GCR-docs
+name: Gnome GCR Documentation License
+property_value: rdfs:seeAlso "https://github.com/GNOME/gcr/blob/master/docs/COPYING" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GD
+name: GD License
+property_value: rdfs:seeAlso "https://libgd.github.io/manuals/2.3.0/files/license-txt.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GFDL-1.1
+name: GNU Free Documentation License v1.1
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/fdl-1.1.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:GFDL-1.1-invariants-only
+name: GNU Free Documentation License v1.1 only - invariants
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/fdl-1.1.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GFDL-1.1-invariants-or-later
+name: GNU Free Documentation License v1.1 or later - invariants
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/fdl-1.1.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GFDL-1.1-no-invariants-only
+name: GNU Free Documentation License v1.1 only - no invariants
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/fdl-1.1.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GFDL-1.1-no-invariants-or-later
+name: GNU Free Documentation License v1.1 or later - no invariants
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/fdl-1.1.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GFDL-1.1-only
+name: GNU Free Documentation License v1.1 only
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/fdl-1.1.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GFDL-1.1-or-later
+name: GNU Free Documentation License v1.1 or later
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/fdl-1.1.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GFDL-1.2
+name: GNU Free Documentation License v1.2
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:GFDL-1.2-invariants-only
+name: GNU Free Documentation License v1.2 only - invariants
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GFDL-1.2-invariants-or-later
+name: GNU Free Documentation License v1.2 or later - invariants
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GFDL-1.2-no-invariants-only
+name: GNU Free Documentation License v1.2 only - no invariants
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GFDL-1.2-no-invariants-or-later
+name: GNU Free Documentation License v1.2 or later - no invariants
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GFDL-1.2-only
+name: GNU Free Documentation License v1.2 only
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GFDL-1.2-or-later
+name: GNU Free Documentation License v1.2 or later
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GFDL-1.3
+name: GNU Free Documentation License v1.3
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/fdl-1.3.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:GFDL-1.3-invariants-only
+name: GNU Free Documentation License v1.3 only - invariants
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/fdl-1.3.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GFDL-1.3-invariants-or-later
+name: GNU Free Documentation License v1.3 or later - invariants
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/fdl-1.3.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GFDL-1.3-no-invariants-only
+name: GNU Free Documentation License v1.3 only - no invariants
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/fdl-1.3.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GFDL-1.3-no-invariants-or-later
+name: GNU Free Documentation License v1.3 or later - no invariants
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/fdl-1.3.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GFDL-1.3-only
+name: GNU Free Documentation License v1.3 only
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/fdl-1.3.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GFDL-1.3-or-later
+name: GNU Free Documentation License v1.3 or later
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/fdl-1.3.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GL2PS
+name: GL2PS License
+property_value: rdfs:seeAlso "http://www.geuz.org/gl2ps/COPYING.GL2PS" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GLWTPL
+name: Good Luck With That Public License
+property_value: rdfs:seeAlso "https://github.com/me-shaon/GLWTPL/commit/da5f6bc734095efbacb442c0b31e33a65b9d6e85" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GPL-1.0
+name: GNU General Public License v1.0 only
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:GPL-1.0+
+name: GNU General Public License v1.0 or later
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:GPL-1.0-only
+name: GNU General Public License v1.0 only
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GPL-1.0-or-later
+name: GNU General Public License v1.0 or later
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GPL-2.0
+name: GNU General Public License v2.0 only
+property_value: rdfs:seeAlso "https://opensource.org/licenses/GPL-2.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:GPL-2.0+
+name: GNU General Public License v2.0 or later
+property_value: rdfs:seeAlso "https://opensource.org/licenses/GPL-2.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:GPL-2.0-only
+name: GNU General Public License v2.0 only
+property_value: rdfs:seeAlso "https://opensource.org/licenses/GPL-2.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GPL-2.0-or-later
+name: GNU General Public License v2.0 or later
+property_value: rdfs:seeAlso "https://opensource.org/licenses/GPL-2.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GPL-2.0-with-GCC-exception
+name: GNU General Public License v2.0 w/GCC Runtime Library exception
+property_value: rdfs:seeAlso "https://gcc.gnu.org/git/?p=gcc.git;a=blob;f=gcc/libgcc1.c;h=762f5143fc6eed57b6797c82710f3538aa52b40b;hb=cb143a3ce4fb417c68f5fa2691a1b1b1053dfba9#l10" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:GPL-2.0-with-autoconf-exception
+name: GNU General Public License v2.0 w/Autoconf exception
+property_value: rdfs:seeAlso "http://ac-archive.sourceforge.net/doc/copyright.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:GPL-2.0-with-bison-exception
+name: GNU General Public License v2.0 w/Bison exception
+property_value: rdfs:seeAlso "http://git.savannah.gnu.org/cgit/bison.git/tree/data/yacc.c?id=193d7c7054ba7197b0789e14965b739162319b5e#n141" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:GPL-2.0-with-classpath-exception
+name: GNU General Public License v2.0 w/Classpath exception
+property_value: rdfs:seeAlso "https://www.gnu.org/software/classpath/license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:GPL-2.0-with-font-exception
+name: GNU General Public License v2.0 w/Font exception
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/gpl-faq.html#FontException" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:GPL-3.0
+name: GNU General Public License v3.0 only
+property_value: rdfs:seeAlso "https://opensource.org/licenses/GPL-3.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/gpl-3.0-standalone.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:GPL-3.0+
+name: GNU General Public License v3.0 or later
+property_value: rdfs:seeAlso "https://opensource.org/licenses/GPL-3.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/gpl-3.0-standalone.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:GPL-3.0-only
+name: GNU General Public License v3.0 only
+property_value: rdfs:seeAlso "https://opensource.org/licenses/GPL-3.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/gpl-3.0-standalone.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GPL-3.0-or-later
+name: GNU General Public License v3.0 or later
+property_value: rdfs:seeAlso "https://opensource.org/licenses/GPL-3.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/gpl-3.0-standalone.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:GPL-3.0-with-GCC-exception
+name: GNU General Public License v3.0 w/GCC Runtime Library exception
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/gcc-exception-3.1.html" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:GPL-3.0-with-autoconf-exception
+name: GNU General Public License v3.0 w/Autoconf exception
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/autoconf-exception-3.0.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:Game-Programming-Gems
+name: Game Programming Gems License
+property_value: rdfs:seeAlso "https://github.com/OGRECave/ogre/blob/master/OgreMain/include/OgreSingleton.h#L28C3-L35C46" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Giftware
+name: Giftware License
+property_value: rdfs:seeAlso "http://liballeg.org/license.html#allegro-4-the-giftware-license" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Glide
+name: 3dfx Glide License
+property_value: rdfs:seeAlso "http://www.users.on.net/~triforce/glidexp/COPYING.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Glulxe
+name: Glulxe License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Glulxe" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Graphics-Gems
+name: Graphics Gems License
+property_value: rdfs:seeAlso "https://github.com/erich666/GraphicsGems/blob/master/LICENSE.md" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Gutmann
+name: Gutmann License
+property_value: rdfs:seeAlso "https://www.cs.auckland.ac.nz/~pgut001/dumpasn1.c" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HDF5
+name: HDF5 License
+property_value: rdfs:seeAlso "https://github.com/HDFGroup/hdf5/?tab=License-1-ov-file#readme" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HIDAPI
+name: HIDAPI License
+property_value: rdfs:seeAlso "https://github.com/signal11/hidapi/blob/master/LICENSE-orig.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HP-1986
+name: Hewlett-Packard 1986 License
+property_value: rdfs:seeAlso "https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/machine/hppa/memchr.S;h=1cca3e5e8867aa4bffef1f75a5c1bba25c0c441e;hb=HEAD#l2" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HP-1989
+name: Hewlett-Packard 1989 License
+property_value: rdfs:seeAlso "https://github.com/bleargh45/Data-UUID/blob/master/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND
+name: Historical Permission Notice and Disclaimer
+property_value: rdfs:seeAlso "http://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2002-November/006304.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/HPND" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-DEC
+name: Historical Permission Notice and Disclaimer - DEC variant
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/xorg/app/xkbcomp/-/blob/master/COPYING?ref_type=heads#L69" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-Fenneberg-Livingston
+name: Historical Permission Notice and Disclaimer - Fenneberg-Livingston variant
+property_value: rdfs:seeAlso "https://github.com/FreeRADIUS/freeradius-client/blob/master/COPYRIGHT#L32" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/radcli/radcli/blob/master/COPYRIGHT#L34" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-INRIA-IMAG
+name: Historical Permission Notice and Disclaimer    - INRIA-IMAG variant
+property_value: rdfs:seeAlso "https://github.com/ppp-project/ppp/blob/master/pppd/ipv6cp.c#L75-L83" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-Intel
+name: Historical Permission Notice and Disclaimer - Intel variant
+property_value: rdfs:seeAlso "https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/machine/i960/memcpy.S;hb=HEAD" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-Kevlin-Henney
+name: Historical Permission Notice and Disclaimer - Kevlin Henney variant
+property_value: rdfs:seeAlso "https://github.com/mruby/mruby/blob/83d12f8d52522cdb7c8cc46fad34821359f453e6/mrbgems/mruby-dir/src/Win/dirent.c#L127-L140" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-MIT-disclaimer
+name: Historical Permission Notice and Disclaimer with MIT disclaimer
+property_value: rdfs:seeAlso "https://metacpan.org/release/NLNETLABS/Net-DNS-SEC-1.22/source/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-Markus-Kuhn
+name: Historical Permission Notice and Disclaimer - Markus Kuhn variant
+property_value: rdfs:seeAlso "https://sourceware.org/git/?p=binutils-gdb.git;a=blob;f=readline/readline/support/wcwidth.c;h=0f5ec995796f4813abbcf4972aec0378ab74722a;hb=HEAD#l55" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.cl.cam.ac.uk/~mgk25/ucs/wcwidth.c" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-Netrek
+name: Historical Permission Notice and Disclaimer - Netrek variant
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-Pbmplus
+name: Historical Permission Notice and Disclaimer - Pbmplus variant
+property_value: rdfs:seeAlso "https://sourceforge.net/p/netpbm/code/HEAD/tree/super_stable/netpbm.c#l8" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-UC
+name: Historical Permission Notice and Disclaimer - University of California variant
+property_value: rdfs:seeAlso "https://core.tcl-lang.org/tk/file?name=compat/unistd.h" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-UC-export-US
+name: Historical Permission Notice and Disclaimer - University of California\, US export warning
+property_value: rdfs:seeAlso "https://github.com/RTimothyEdwards/magic/blob/master/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-doc
+name: Historical Permission Notice and Disclaimer - documentation variant
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/xorg/lib/libxext/-/blob/master/COPYING?ref_type=heads#L185-197" xsd:anyURI
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/xorg/lib/libxtst/-/blob/master/COPYING?ref_type=heads#L70-77" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-doc-sell
+name: Historical Permission Notice and Disclaimer - documentation sell variant
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/xorg/lib/libxext/-/blob/master/COPYING?ref_type=heads#L153-162" xsd:anyURI
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/xorg/lib/libxtst/-/blob/master/COPYING?ref_type=heads#L108-117" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-export-US
+name: HPND with US Government export control warning
+property_value: rdfs:seeAlso "https://www.kermitproject.org/ck90.html#source" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-export-US-acknowledgement
+name: HPND with US Government export control warning and acknowledgment
+property_value: rdfs:seeAlso "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L831-L852" xsd:anyURI
+property_value: rdfs:seeAlso "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-export-US-modify
+name: HPND with US Government export control warning and modification rqmt
+property_value: rdfs:seeAlso "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L1157-L1182" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/pythongssapi/k5test/blob/v0.10.3/K5TEST-LICENSE.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-export2-US
+name: HPND with US Government export control and 2 disclaimers
+property_value: rdfs:seeAlso "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L111-L133" xsd:anyURI
+property_value: rdfs:seeAlso "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-merchantability-variant
+name: Historical Permission Notice and Disclaimer - merchantability variant
+property_value: rdfs:seeAlso "https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/misc/fini.c;hb=HEAD" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-sell-MIT-disclaimer-xserver
+name: Historical Permission Notice and Disclaimer - sell xserver variant with MIT disclaimer
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/xorg/xserver/-/blob/master/COPYING?ref_type=heads#L1781" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-sell-regexpr
+name: Historical Permission Notice and Disclaimer - sell regexpr variant
+property_value: rdfs:seeAlso "https://gitlab.com/bacula-org/bacula/-/blob/Branch-11.0/bacula/LICENSE-FOSS?ref_type=heads#L245" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-sell-variant
+name: Historical Permission Notice and Disclaimer - sell variant
+property_value: rdfs:seeAlso "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/net/sunrpc/auth_gss/gss_generic_token.c?h=v4.19" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/kfish/xsel/blob/master/COPYING" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-sell-variant-MIT-disclaimer
+name: HPND sell variant with MIT disclaimer
+property_value: rdfs:seeAlso "https://github.com/sigmavirus24/x11-ssh-askpass/blob/master/README" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HPND-sell-variant-MIT-disclaimer-rev
+name: HPND sell variant with MIT disclaimer - reverse
+property_value: rdfs:seeAlso "https://github.com/sigmavirus24/x11-ssh-askpass/blob/master/dynlist.c" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HTMLTIDY
+name: HTML Tidy License
+property_value: rdfs:seeAlso "https://github.com/htacg/tidy-html5/blob/next/README/LICENSE.md" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:HaskellReport
+name: Haskell Language Report License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Haskell_Language_Report_License" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Hippocratic-2.1
+name: Hippocratic License 2.1
+property_value: rdfs:seeAlso "https://firstdonoharm.dev/version/2/1/license.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/EthicalSource/hippocratic-license/blob/58c0e646d64ff6fbee275bfe2b9492f914e3ab2a/LICENSE.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:IBM-pibs
+name: IBM PowerPC Initialization and Boot Software
+property_value: rdfs:seeAlso "http://git.denx.de/?p=u-boot.git;a=blob;f=arch/powerpc/cpu/ppc4xx/miiphy.c;h=297155fdafa064b955e53e9832de93bfb0cfb85b;hb=9fab4bf4cc077c21e43941866f3f2c196f28670d" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ICU
+name: ICU License
+property_value: rdfs:seeAlso "http://source.icu-project.org/repos/icu/icu/trunk/license.html" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:IEC-Code-Components-EULA
+name: IEC    Code Components End-user licence agreement
+property_value: rdfs:seeAlso "https://www.iec.ch/CCv1" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.iec.ch/copyright" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.iec.ch/webstore/custserv/pdf/CC-EULA.pdf" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:IJG
+name: Independent JPEG Group License
+property_value: rdfs:seeAlso "http://dev.w3.org/cvsweb/Amaya/libjpeg/Attic/README?rev=1.2" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:IJG-short
+name: Independent JPEG Group License - short
+property_value: rdfs:seeAlso "https://sourceforge.net/p/xmedcon/code/ci/master/tree/libs/ljpg/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:IPA
+name: IPA Font License
+property_value: rdfs:seeAlso "https://opensource.org/licenses/IPA" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:IPL-1.0
+name: IBM Public License v1.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/IPL-1.0" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ISC
+name: ISC License
+property_value: rdfs:seeAlso "https://opensource.org/licenses/ISC" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.isc.org/downloads/software-support-policy/isc-license/" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.isc.org/licenses/" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ISC-Veillard
+name: ISC Veillard variant
+property_value: rdfs:seeAlso "https://github.com/GNOME/libxml2/blob/master/dict.c" xsd:anyURI
+property_value: rdfs:seeAlso "https://raw.githubusercontent.com/GNOME/libxml2/4c2e7c651f6c2f0d1a74f350cbda95f7df3e7017/hash.c" xsd:anyURI
+property_value: rdfs:seeAlso "https://sourceforge.net/p/ctrio/git/ci/master/tree/README" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ImageMagick
+name: ImageMagick License
+property_value: rdfs:seeAlso "http://www.imagemagick.org/script/license.php" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Imlib2
+name: Imlib2 License
+property_value: rdfs:seeAlso "http://trac.enlightenment.org/e/browser/trunk/imlib2/COPYING" xsd:anyURI
+property_value: rdfs:seeAlso "https://git.enlightenment.org/legacy/imlib2.git/tree/COPYING" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Info-ZIP
+name: Info-ZIP License
+property_value: rdfs:seeAlso "http://www.info-zip.org/license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Inner-Net-2.0
+name: Inner Net License v2.0
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Inner_Net_License" xsd:anyURI
+property_value: rdfs:seeAlso "https://sourceware.org/git/?p=glibc.git;a=blob;f=LICENSES;h=530893b1dc9ea00755603c68fb36bd4fc38a7be8;hb=HEAD#l207" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:InnoSetup
+name: Inno Setup License
+property_value: rdfs:seeAlso "https://github.com/jrsoftware/issrc/blob/HEAD/license.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Intel
+name: Intel Open Source License
+property_value: rdfs:seeAlso "https://opensource.org/licenses/Intel" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Intel-ACPI
+name: Intel ACPI Software License Agreement
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Intel_ACPI_Software_License_Agreement" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Interbase-1.0
+name: Interbase Public License v1.0
+property_value: rdfs:seeAlso "https://web.archive.org/web/20060319014854/http://info.borland.com/devsupport/interbase/opensource/IPL.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:JPL-image
+name: JPL Image Use Policy
+property_value: rdfs:seeAlso "https://www.jpl.nasa.gov/jpl-image-use-policy" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:JPNIC
+name: Japan Network Information Center License
+property_value: rdfs:seeAlso "https://gitlab.isc.org/isc-projects/bind9/blob/master/COPYRIGHT#L366" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:JSON
+name: JSON License
+property_value: rdfs:seeAlso "http://www.json.org/license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Jam
+name: Jam License
+property_value: rdfs:seeAlso "https://web.archive.org/web/20160330173339/https://swarm.workshop.perforce.com/files/guest/perforce_software/jam/src/README" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.boost.org/doc/libs/1_35_0/doc/html/jam.html" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:JasPer-2.0
+name: JasPer License
+property_value: rdfs:seeAlso "http://www.ece.uvic.ca/~mdadams/jasper/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Kastrup
+name: Kastrup License
+property_value: rdfs:seeAlso "https://ctan.math.utah.edu/ctan/tex-archive/macros/generic/kastrup/binhex.dtx" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Kazlib
+name: Kazlib License
+property_value: rdfs:seeAlso "http://git.savannah.gnu.org/cgit/kazlib.git/tree/except.c?id=0062df360c2d17d57f6af19b0e444c51feb99036" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Knuth-CTAN
+name: Knuth CTAN License
+property_value: rdfs:seeAlso "https://ctan.org/license/knuth" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LAL-1.2
+name: Licence Art Libre 1.2
+property_value: rdfs:seeAlso "http://artlibre.org/licence/lal/licence-art-libre-12/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LAL-1.3
+name: Licence Art Libre 1.3
+property_value: rdfs:seeAlso "https://artlibre.org/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LGPL-2.0
+name: GNU Library General Public License v2 only
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:LGPL-2.0+
+name: GNU Library General Public License v2 or later
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:LGPL-2.0-only
+name: GNU Library General Public License v2 only
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LGPL-2.0-or-later
+name: GNU Library General Public License v2 or later
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LGPL-2.1
+name: GNU Lesser General Public License v2.1 only
+property_value: rdfs:seeAlso "https://opensource.org/licenses/LGPL-2.1" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:LGPL-2.1+
+name: GNU Lesser General Public License v2.1 or later
+property_value: rdfs:seeAlso "https://opensource.org/licenses/LGPL-2.1" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:LGPL-2.1-only
+name: GNU Lesser General Public License v2.1 only
+property_value: rdfs:seeAlso "https://opensource.org/licenses/LGPL-2.1" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LGPL-2.1-or-later
+name: GNU Lesser General Public License v2.1 or later
+property_value: rdfs:seeAlso "https://opensource.org/licenses/LGPL-2.1" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LGPL-3.0
+name: GNU Lesser General Public License v3.0 only
+property_value: rdfs:seeAlso "https://opensource.org/licenses/LGPL-3.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/lgpl-3.0-standalone.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:LGPL-3.0+
+name: GNU Lesser General Public License v3.0 or later
+property_value: rdfs:seeAlso "https://opensource.org/licenses/LGPL-3.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/lgpl-3.0-standalone.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:LGPL-3.0-only
+name: GNU Lesser General Public License v3.0 only
+property_value: rdfs:seeAlso "https://opensource.org/licenses/LGPL-3.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/lgpl-3.0-standalone.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LGPL-3.0-or-later
+name: GNU Lesser General Public License v3.0 or later
+property_value: rdfs:seeAlso "https://opensource.org/licenses/LGPL-3.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/lgpl-3.0-standalone.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LGPLLR
+name: Lesser General Public License For Linguistic Resources
+property_value: rdfs:seeAlso "http://www-igm.univ-mlv.fr/~unitex/lgpllr.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LOOP
+name: Common Lisp LOOP License
+property_value: rdfs:seeAlso "http://git.savannah.gnu.org/cgit/gcl.git/tree/gcl/lsp/gcl_loop.lsp?h=Version_2_6_13pre" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/blakemcbride/eclipse-lisp/blob/master/lisp/loop.lisp" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/cl-adams/adams/blob/master/LICENSE.md" xsd:anyURI
+property_value: rdfs:seeAlso "https://gitlab.com/embeddable-common-lisp/ecl/-/blob/develop/src/lsp/loop.lsp" xsd:anyURI
+property_value: rdfs:seeAlso "https://gitlab.common-lisp.net/cmucl/cmucl/-/blob/master/src/code/loop.lisp" xsd:anyURI
+property_value: rdfs:seeAlso "https://sourceforge.net/p/sbcl/sbcl/ci/master/tree/src/code/loop.lisp" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LPD-document
+name: LPD Documentation License
+property_value: rdfs:seeAlso "https://github.com/Cyan4973/xxHash/blob/dev/doc/xxhash_spec.md" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.ietf.org/rfc/rfc1952.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LPL-1.0
+name: Lucent Public License Version 1.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/LPL-1.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LPL-1.02
+name: Lucent Public License v1.02
+property_value: rdfs:seeAlso "http://plan9.bell-labs.com/plan9/license.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/LPL-1.02" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LPPL-1.0
+name: LaTeX Project Public License v1.0
+property_value: rdfs:seeAlso "http://www.latex-project.org/lppl/lppl-1-0.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LPPL-1.1
+name: LaTeX Project Public License v1.1
+property_value: rdfs:seeAlso "http://www.latex-project.org/lppl/lppl-1-1.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LPPL-1.2
+name: LaTeX Project Public License v1.2
+property_value: rdfs:seeAlso "http://www.latex-project.org/lppl/lppl-1-2.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LPPL-1.3a
+name: LaTeX Project Public License v1.3a
+property_value: rdfs:seeAlso "http://www.latex-project.org/lppl/lppl-1-3a.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LPPL-1.3c
+name: LaTeX Project Public License v1.3c
+property_value: rdfs:seeAlso "http://www.latex-project.org/lppl/lppl-1-3c.txt" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/LPPL-1.3c" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LZMA-SDK-9.11-to-9.20
+name: LZMA SDK License \(versions 9.11 to 9.20\)
+property_value: rdfs:seeAlso "https://sourceforge.net/projects/sevenzip/files/LZMA%20SDK/" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.7-zip.org/sdk.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LZMA-SDK-9.22
+name: LZMA SDK License \(versions 9.22 and beyond\)
+property_value: rdfs:seeAlso "https://sourceforge.net/projects/sevenzip/files/LZMA%20SDK/" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.7-zip.org/sdk.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Latex2e
+name: Latex2e License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Latex2e" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Latex2e-translated-notice
+name: Latex2e with translated notice permission
+property_value: rdfs:seeAlso "https://git.savannah.gnu.org/cgit/indent.git/tree/doc/indent.texi?id=a74c6b4ee49397cf330b333da1042bffa60ed14f#n74" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Leptonica
+name: Leptonica License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Leptonica" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LiLiQ-P-1.1
+name: Licence Libre du Québec – Permissive version 1.1
+property_value: rdfs:seeAlso "http://opensource.org/licenses/LiLiQ-P-1.1" xsd:anyURI
+property_value: rdfs:seeAlso "https://forge.gouv.qc.ca/licence/fr/liliq-v1-1/" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LiLiQ-R-1.1
+name: Licence Libre du Québec – Réciprocité version 1.1
+property_value: rdfs:seeAlso "http://opensource.org/licenses/LiLiQ-R-1.1" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-en-francais/licence-libre-du-quebec-reciprocite-liliq-r-v1-1/" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:LiLiQ-Rplus-1.1
+name: Licence Libre du Québec – Réciprocité forte version 1.1
+property_value: rdfs:seeAlso "http://opensource.org/licenses/LiLiQ-Rplus-1.1" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-en-francais/licence-libre-du-quebec-reciprocite-forte-liliq-r-v1-1/" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Libpng
+name: libpng License
+property_value: rdfs:seeAlso "http://www.libpng.org/pub/png/src/libpng-LICENSE.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Linux-OpenIB
+name: Linux Kernel Variant of OpenIB.org license
+property_value: rdfs:seeAlso "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/infiniband/core/sa.h" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Linux-man-pages-1-para
+name: Linux man-pages - 1 paragraph
+property_value: rdfs:seeAlso "https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/man2/getcpu.2#n4" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Linux-man-pages-copyleft
+name: Linux man-pages Copyleft
+property_value: rdfs:seeAlso "https://www.kernel.org/doc/man-pages/licenses.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Linux-man-pages-copyleft-2-para
+name: Linux man-pages Copyleft - 2 paragraphs
+property_value: rdfs:seeAlso "https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/man2/migrate_pages.2#n8" xsd:anyURI
+property_value: rdfs:seeAlso "https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/man2/move_pages.2#n5" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Linux-man-pages-copyleft-var
+name: Linux man-pages Copyleft Variant
+property_value: rdfs:seeAlso "https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/man2/set_mempolicy.2#n5" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Lucida-Bitmap-Fonts
+name: Lucida Bitmap Fonts License
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/xorg/font/bh-100dpi/-/blob/master/COPYING?ref_type=heads" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MIPS
+name: MIPS License
+property_value: rdfs:seeAlso "https://sourceware.org/cgit/binutils-gdb/tree/include/coff/sym.h#n11" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MIT
+name: MIT License
+property_value: rdfs:seeAlso "http://opensource.org/licenses/MIT" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/license/mit/" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MIT-0
+name: MIT No Attribution
+property_value: rdfs:seeAlso "https://github.com/aws/mit-0" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/awsdocs/aws-cloud9-user-guide/blob/master/LICENSE-SAMPLECODE" xsd:anyURI
+property_value: rdfs:seeAlso "https://romanrm.net/mit-zero" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MIT-CMU
+name: CMU License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing:MIT?rd=Licensing/MIT#CMU_Style" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/python-pillow/Pillow/blob/fffb426092c8db24a5f4b6df243a8a3c01fb63cd/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MIT-Click
+name: MIT Click License
+property_value: rdfs:seeAlso "https://github.com/kohler/t1utils/blob/master/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MIT-Festival
+name: MIT Festival Variant
+property_value: rdfs:seeAlso "https://github.com/festvox/flite/blob/master/COPYING" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/festvox/speech_tools/blob/master/COPYING" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MIT-Khronos-old
+name: MIT Khronos - old variant
+property_value: rdfs:seeAlso "https://github.com/KhronosGroup/SPIRV-Cross/blob/main/LICENSES/LicenseRef-KhronosFreeUse.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MIT-Modern-Variant
+name: MIT License Modern Variant
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing:MIT#Modern_Variants" xsd:anyURI
+property_value: rdfs:seeAlso "https://pirlwww.lpl.arizona.edu/resources/guide/software/PerlTk/Tixlic.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://ptolemy.berkeley.edu/copyright.htm" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MIT-Wu
+name: MIT Tom Wu Variant
+property_value: rdfs:seeAlso "https://github.com/chromium/octane/blob/master/crypto.js" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MIT-advertising
+name: Enlightenment License \(e16\)
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/MIT_With_Advertising" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MIT-enna
+name: enna License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/MIT#enna" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MIT-feh
+name: feh License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/MIT#feh" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MIT-open-group
+name: MIT Open Group variant
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/xorg/app/iceauth/-/blob/master/COPYING" xsd:anyURI
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/xorg/app/xauth/-/blob/master/COPYING" xsd:anyURI
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MIT-testregex
+name: MIT testregex Variant
+property_value: rdfs:seeAlso "https://github.com/dotnet/runtime/blob/55e1ac7c07df62c4108d4acedf78f77574470ce5/src/libraries/System.Text.RegularExpressions/tests/FunctionalTests/AttRegexTests.cs#L12-L28" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MITNFA
+name: MIT +no-false-attribs license
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/MITNFA" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MMIXware
+name: MMIXware License
+property_value: rdfs:seeAlso "https://gitlab.lrz.de/mmix/mmixware/-/blob/master/boilerplate.w" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MPEG-SSG
+name: MPEG Software Simulation
+property_value: rdfs:seeAlso "https://sourceforge.net/p/netpbm/code/HEAD/tree/super_stable/converter/ppm/ppmtompeg/jrevdct.c#l1189" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MPL-1.0
+name: Mozilla Public License 1.0
+property_value: rdfs:seeAlso "http://www.mozilla.org/MPL/MPL-1.0.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/MPL-1.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MPL-1.1
+name: Mozilla Public License 1.1
+property_value: rdfs:seeAlso "http://www.mozilla.org/MPL/MPL-1.1.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/MPL-1.1" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MPL-2.0
+name: Mozilla Public License 2.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/MPL-2.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.mozilla.org/MPL/2.0/" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MPL-2.0-no-copyleft-exception
+name: Mozilla Public License 2.0 \(no copyleft exception\)
+property_value: rdfs:seeAlso "https://opensource.org/licenses/MPL-2.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.mozilla.org/MPL/2.0/" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MS-LPL
+name: Microsoft Limited Public License
+property_value: rdfs:seeAlso "https://en.wikipedia.org/wiki/Shared_Source_Initiative#Microsoft_Limited_Public_License_(Ms-LPL)" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/gabegundy/atlserver/blob/master/License.txt" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.openhub.net/licenses/mslpl" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MS-PL
+name: Microsoft Public License
+property_value: rdfs:seeAlso "http://www.microsoft.com/opensource/licenses.mspx" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/MS-PL" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MS-RL
+name: Microsoft Reciprocal License
+property_value: rdfs:seeAlso "http://www.microsoft.com/opensource/licenses.mspx" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/MS-RL" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MTLL
+name: Matrix Template Library License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Matrix_Template_Library_License" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Mackerras-3-Clause
+name: Mackerras 3-Clause License
+property_value: rdfs:seeAlso "https://github.com/ppp-project/ppp/blob/master/pppd/chap_ms.c#L6-L28" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Mackerras-3-Clause-acknowledgment
+name: Mackerras 3-Clause - acknowledgment variant
+property_value: rdfs:seeAlso "https://github.com/ppp-project/ppp/blob/master/pppd/auth.c#L6-L28" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MakeIndex
+name: MakeIndex License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/MakeIndex" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Martin-Birgmeier
+name: Martin Birgmeier License
+property_value: rdfs:seeAlso "https://github.com/Perl/perl5/blob/blead/util.c#L6136" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:McPhee-slideshow
+name: McPhee Slideshow License
+property_value: rdfs:seeAlso "https://mirror.las.iastate.edu/tex-archive/graphics/metapost/contrib/macros/slideshow/slideshow.mp" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Minpack
+name: Minpack License
+property_value: rdfs:seeAlso "http://www.netlib.org/minpack/disclaimer" xsd:anyURI
+property_value: rdfs:seeAlso "https://gitlab.com/libeigen/eigen/-/blob/master/COPYING.MINPACK" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MirOS
+name: The MirOS Licence
+property_value: rdfs:seeAlso "https://opensource.org/licenses/MirOS" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Motosoto
+name: Motosoto License
+property_value: rdfs:seeAlso "https://opensource.org/licenses/Motosoto" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MulanPSL-1.0
+name: Mulan Permissive Software License\, Version 1
+property_value: rdfs:seeAlso "https://github.com/yuwenlong/longphp/blob/25dfb70cc2a466dc4bb55ba30901cbce08d164b5/LICENSE" xsd:anyURI
+property_value: rdfs:seeAlso "https://license.coscl.org.cn/MulanPSL/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:MulanPSL-2.0
+name: Mulan Permissive Software License\, Version 2
+property_value: rdfs:seeAlso "https://license.coscl.org.cn/MulanPSL2" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Multics
+name: Multics License
+property_value: rdfs:seeAlso "https://opensource.org/licenses/Multics" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Mup
+name: Mup License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Mup" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NAIST-2003
+name: Nara Institute of Science and Technology License \(2003\)
+property_value: rdfs:seeAlso "https://enterprise.dejacode.com/licenses/public/naist-2003/#license-text" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/nodejs/node/blob/4a19cc8947b1bba2b2d27816ec3d0edf9b28e503/LICENSE#L343" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NASA-1.3
+name: NASA Open Source Agreement 1.3
+property_value: rdfs:seeAlso "http://ti.arc.nasa.gov/opensource/nosa/" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/NASA-1.3" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NBPL-1.0
+name: Net Boolean Public License v1
+property_value: rdfs:seeAlso "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=37b4b3f6cc4bf34e1d3dec61e69914b9819d8894" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NCBI-PD
+name: NCBI Public Domain Notice
+property_value: rdfs:seeAlso "https://github.com/ncbi/datasets/blob/0ea4cd16b61e5b799d9cc55aecfa016d6c9bd2bf/LICENSE.md" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/ncbi/datasets/blob/master/LICENSE.md" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/ncbi/egapx/blob/08930b9dec0c69b2d1a05e5153c7b95ef0a3eb0f/LICENSE" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/ncbi/gprobe/blob/de64d30fee8b4c4013094d7d3139ea89b5dd1ace/LICENSE" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/ncbi/sra-tools/blob/e8e5b6af4edc460156ad9ce5902d0779cffbf685/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NCGL-UK-2.0
+name: Non-Commercial Government Licence
+property_value: rdfs:seeAlso "http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NCL
+name: NCL Source Code License
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/pipewire/pipewire/-/blob/master/src/modules/module-filter-chain/pffft.c?ref_type=heads#L1-52" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NCSA
+name: University of Illinois/NCSA Open Source License
+property_value: rdfs:seeAlso "http://otm.illinois.edu/uiuc_openSource" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/NCSA" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NGPL
+name: Nethack General Public License
+property_value: rdfs:seeAlso "https://opensource.org/licenses/NGPL" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NICTA-1.0
+name: NICTA Public Software License\, Version 1.0
+property_value: rdfs:seeAlso "https://opensource.apple.com/source/mDNSResponder/mDNSResponder-320.10/mDNSPosix/nss_ReadMe.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NIST-PD
+name: NIST Public Domain Notice
+property_value: rdfs:seeAlso "https://github.com/tcheneau/Routing/blob/f09f46fcfe636107f22f2c98348188a65a135d98/README.md" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/tcheneau/simpleRPL/blob/e645e69e38dd4e3ccfeceb2db8cba05b7c2e0cd3/LICENSE.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NIST-PD-fallback
+name: NIST Public Domain Notice with license fallback
+property_value: rdfs:seeAlso "https://github.com/usnistgov/fipy/blob/86aaa5c2ba2c6f1be19593c5986071cf6568cc34/LICENSE.rst" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/usnistgov/jsip/blob/59700e6926cbe96c5cdae897d9a7d2656b42abe3/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NIST-Software
+name: NIST Software License
+property_value: rdfs:seeAlso "https://github.com/open-quantum-safe/liboqs/blob/40b01fdbb270f8614fde30e65d30e9da18c02393/src/common/rand/rand_nist.c#L1-L15" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NLOD-1.0
+name: Norwegian Licence for Open Government Data \(NLOD\) 1.0
+property_value: rdfs:seeAlso "http://data.norge.no/nlod/en/1.0" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NLOD-2.0
+name: Norwegian Licence for Open Government Data \(NLOD\) 2.0
+property_value: rdfs:seeAlso "http://data.norge.no/nlod/en/2.0" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NLPL
+name: No Limit Public License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/NLPL" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NOSL
+name: Netizen Open Source License
+property_value: rdfs:seeAlso "http://bits.netizen.com.au/licenses/NOSL/nosl.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NPL-1.0
+name: Netscape Public License v1.0
+property_value: rdfs:seeAlso "http://www.mozilla.org/MPL/NPL/1.0/" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NPL-1.1
+name: Netscape Public License v1.1
+property_value: rdfs:seeAlso "http://www.mozilla.org/MPL/NPL/1.1/" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NPOSL-3.0
+name: Non-Profit Open Software License 3.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/NOSL3.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NRL
+name: NRL License
+property_value: rdfs:seeAlso "http://web.mit.edu/network/isakmp/nrllicense.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NTIA-PD
+name: NTIA Public Domain Notice
+property_value: rdfs:seeAlso "https://raw.githubusercontent.com/NTIA/itm/refs/heads/master/LICENSE.md" xsd:anyURI
+property_value: rdfs:seeAlso "https://raw.githubusercontent.com/NTIA/scos-sensor/refs/heads/master/LICENSE.md" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NTP
+name: NTP License
+property_value: rdfs:seeAlso "https://opensource.org/licenses/NTP" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:NTP-0
+name: NTP No Attribution
+property_value: rdfs:seeAlso "https://github.com/tytso/e2fsprogs/blob/master/lib/et/et_name.c" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Naumen
+name: Naumen Public License
+property_value: rdfs:seeAlso "https://opensource.org/licenses/Naumen" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Net-SNMP
+name: Net-SNMP License
+property_value: rdfs:seeAlso "http://net-snmp.sourceforge.net/about/license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:NetCDF
+name: NetCDF license
+property_value: rdfs:seeAlso "http://www.unidata.ucar.edu/software/netcdf/copyright.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Newsletr
+name: Newsletr License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Newsletr" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Nokia
+name: Nokia Open Source License
+property_value: rdfs:seeAlso "https://opensource.org/licenses/nokia" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Noweb
+name: Noweb License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Noweb" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Nunit
+name: Nunit License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Nunit" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:O-UDA-1.0
+name: Open Use of Data Agreement v1.0
+property_value: rdfs:seeAlso "https://cdla.dev/open-use-of-data-agreement-v1-0/" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/microsoft/Open-Use-of-Data-Agreement/blob/v1.0/O-UDA-1.0.md" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OAR
+name: OAR License
+property_value: rdfs:seeAlso "https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/string/strsignal.c;hb=HEAD#l35" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OCCT-PL
+name: Open CASCADE Technology Public License
+property_value: rdfs:seeAlso "http://www.opencascade.com/content/occt-public-license" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OCLC-2.0
+name: OCLC Research Public License 2.0
+property_value: rdfs:seeAlso "http://www.oclc.org/research/activities/software/license/v2final.htm" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/OCLC-2.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ODC-By-1.0
+name: Open Data Commons Attribution License v1.0
+property_value: rdfs:seeAlso "https://opendatacommons.org/licenses/by/1.0/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ODbL-1.0
+name: Open Data Commons Open Database License v1.0
+property_value: rdfs:seeAlso "http://www.opendatacommons.org/licenses/odbl/1.0/" xsd:anyURI
+property_value: rdfs:seeAlso "https://opendatacommons.org/licenses/odbl/1-0/" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OFFIS
+name: OFFIS License
+property_value: rdfs:seeAlso "https://sourceforge.net/p/xmedcon/code/ci/master/tree/libs/dicom/README" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OFL-1.0
+name: SIL Open Font License 1.0
+property_value: rdfs:seeAlso "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL10_web" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OFL-1.0-RFN
+name: SIL Open Font License 1.0 with Reserved Font Name
+property_value: rdfs:seeAlso "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL10_web" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OFL-1.0-no-RFN
+name: SIL Open Font License 1.0 with no Reserved Font Name
+property_value: rdfs:seeAlso "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL10_web" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OFL-1.1
+name: SIL Open Font License 1.1
+property_value: rdfs:seeAlso "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/OFL-1.1" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OFL-1.1-RFN
+name: SIL Open Font License 1.1 with Reserved Font Name
+property_value: rdfs:seeAlso "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/OFL-1.1" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OFL-1.1-no-RFN
+name: SIL Open Font License 1.1 with no Reserved Font Name
+property_value: rdfs:seeAlso "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/OFL-1.1" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OGC-1.0
+name: OGC Software License\, Version 1.0
+property_value: rdfs:seeAlso "https://www.ogc.org/ogc/software/1.0" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OGDL-Taiwan-1.0
+name: Taiwan Open Government Data License\, version 1.0
+property_value: rdfs:seeAlso "https://data.gov.tw/license" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OGL-Canada-2.0
+name: Open Government Licence - Canada
+property_value: rdfs:seeAlso "https://open.canada.ca/en/open-government-licence-canada" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OGL-UK-1.0
+name: Open Government Licence v1.0
+property_value: rdfs:seeAlso "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OGL-UK-2.0
+name: Open Government Licence v2.0
+property_value: rdfs:seeAlso "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OGL-UK-3.0
+name: Open Government Licence v3.0
+property_value: rdfs:seeAlso "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OGTSL
+name: Open Group Test Suite License
+property_value: rdfs:seeAlso "http://www.opengroup.org/testing/downloads/The_Open_Group_TSL.txt" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/OGTSL" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OLDAP-1.1
+name: Open LDAP Public License v1.1
+property_value: rdfs:seeAlso "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=806557a5ad59804ef3a44d5abfbe91d706b0791f" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OLDAP-1.2
+name: Open LDAP Public License v1.2
+property_value: rdfs:seeAlso "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=42b0383c50c299977b5893ee695cf4e486fb0dc7" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OLDAP-1.3
+name: Open LDAP Public License v1.3
+property_value: rdfs:seeAlso "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=e5f8117f0ce088d0bd7a8e18ddf37eaa40eb09b1" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OLDAP-1.4
+name: Open LDAP Public License v1.4
+property_value: rdfs:seeAlso "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=c9f95c2f3f2ffb5e0ae55fe7388af75547660941" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OLDAP-2.0
+name: Open LDAP Public License v2.0 \(or possibly 2.0A and 2.0B\)
+property_value: rdfs:seeAlso "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=cbf50f4e1185a21abd4c0a54d3f4341fe28f36ea" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OLDAP-2.0.1
+name: Open LDAP Public License v2.0.1
+property_value: rdfs:seeAlso "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=b6d68acd14e51ca3aab4428bf26522aa74873f0e" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OLDAP-2.1
+name: Open LDAP Public License v2.1
+property_value: rdfs:seeAlso "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=b0d176738e96a0d3b9f85cb51e140a86f21be715" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OLDAP-2.2
+name: Open LDAP Public License v2.2
+property_value: rdfs:seeAlso "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=470b0c18ec67621c85881b2733057fecf4a1acc3" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OLDAP-2.2.1
+name: Open LDAP Public License v2.2.1
+property_value: rdfs:seeAlso "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=4bc786f34b50aa301be6f5600f58a980070f481e" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OLDAP-2.2.2
+name: Open LDAP Public License 2.2.2
+property_value: rdfs:seeAlso "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=df2cc1e21eb7c160695f5b7cffd6296c151ba188" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OLDAP-2.3
+name: Open LDAP Public License v2.3
+property_value: rdfs:seeAlso "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=d32cf54a32d581ab475d23c810b0a7fbaf8d63c3" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OLDAP-2.4
+name: Open LDAP Public License v2.4
+property_value: rdfs:seeAlso "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=cd1284c4a91a8a380d904eee68d1583f989ed386" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OLDAP-2.5
+name: Open LDAP Public License v2.5
+property_value: rdfs:seeAlso "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=6852b9d90022e8593c98205413380536b1b5a7cf" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OLDAP-2.6
+name: Open LDAP Public License v2.6
+property_value: rdfs:seeAlso "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=1cae062821881f41b73012ba816434897abf4205" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OLDAP-2.7
+name: Open LDAP Public License v2.7
+property_value: rdfs:seeAlso "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=47c2415c1df81556eeb39be6cad458ef87c534a2" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OLDAP-2.8
+name: Open LDAP Public License v2.8
+property_value: rdfs:seeAlso "http://www.openldap.org/software/release/license.html" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OLFL-1.3
+name: Open Logistics Foundation License Version 1.3
+property_value: rdfs:seeAlso "https://openlogisticsfoundation.org/licenses/" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/license/olfl-1-3/" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OML
+name: Open Market License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Open_Market_License" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OPL-1.0
+name: Open Public License v1.0
+property_value: rdfs:seeAlso "http://old.koalateam.com/jackaroo/OPL_1_0.TXT" xsd:anyURI
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Open_Public_License" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OPL-UK-3.0
+name: United    Kingdom Open Parliament Licence v3.0
+property_value: rdfs:seeAlso "https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OPUBL-1.0
+name: Open Publication License v1.0
+property_value: rdfs:seeAlso "http://opencontent.org/openpub/" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.ctan.org/license/opl" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.debian.org/opl" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OSET-PL-2.1
+name: OSET Public License version 2.1
+property_value: rdfs:seeAlso "http://www.osetfoundation.org/public-license" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/OPL-2.1" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OSL-1.0
+name: Open Software License 1.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/OSL-1.0" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OSL-1.1
+name: Open Software License 1.1
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/OSL1.1" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OSL-2.0
+name: Open Software License 2.0
+property_value: rdfs:seeAlso "http://web.archive.org/web/20041020171434/http://www.rosenlaw.com/osl2.0.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OSL-2.1
+name: Open Software License 2.1
+property_value: rdfs:seeAlso "http://web.archive.org/web/20050212003940/http://www.rosenlaw.com/osl21.htm" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/OSL-2.1" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OSL-3.0
+name: Open Software License 3.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/OSL-3.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://web.archive.org/web/20120101081418/http://rosenlaw.com:80/OSL3.0.htm" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OpenPBS-2.3
+name: OpenPBS v2.3 Software License
+property_value: rdfs:seeAlso "https://github.com/adaptivecomputing/torque/blob/master/PBS_License.txt" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.mcs.anl.gov/research/projects/openpbs/PBS_License.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OpenSSL
+name: OpenSSL License
+property_value: rdfs:seeAlso "http://www.openssl.org/source/license.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OpenSSL-standalone
+name: OpenSSL License - standalone
+property_value: rdfs:seeAlso "https://hstechdocs.helpsystems.com/manuals/globalscape/archive/cuteftp6/open_ssl_license_agreement.htm" xsd:anyURI
+property_value: rdfs:seeAlso "https://library.netapp.com/ecm/ecm_download_file/ECMP1196395" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:OpenVision
+name: OpenVision License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing:MIT#OpenVision_Variant" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L66-L98" xsd:anyURI
+property_value: rdfs:seeAlso "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:PADL
+name: PADL License
+property_value: rdfs:seeAlso "https://git.openldap.org/openldap/openldap/-/blob/master/libraries/libldap/os-local.c?ref_type=heads#L19-23" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:PDDL-1.0
+name: Open Data Commons Public Domain Dedication & License 1.0
+property_value: rdfs:seeAlso "http://opendatacommons.org/licenses/pddl/1.0/" xsd:anyURI
+property_value: rdfs:seeAlso "https://opendatacommons.org/licenses/pddl/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:PHP-3.0
+name: PHP License v3.0
+property_value: rdfs:seeAlso "http://www.php.net/license/3_0.txt" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/PHP-3.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:PHP-3.01
+name: PHP License v3.01
+property_value: rdfs:seeAlso "http://www.php.net/license/3_01.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:PPL
+name: Peer Production License
+property_value: rdfs:seeAlso "http://www.networkcultures.org/_uploads/%233notebook_telekommunist.pdf" xsd:anyURI
+property_value: rdfs:seeAlso "https://wiki.p2pfoundation.net/Peer_Production_License" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:PSF-2.0
+name: Python Software Foundation License 2.0
+property_value: rdfs:seeAlso "https://matplotlib.org/stable/project/license.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/Python-2.0" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Parity-6.0.0
+name: The Parity Public License 6.0.0
+property_value: rdfs:seeAlso "https://paritylicense.com/versions/6.0.0.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Parity-7.0.0
+name: The Parity Public License 7.0.0
+property_value: rdfs:seeAlso "https://paritylicense.com/versions/7.0.0.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Pixar
+name: Pixar License
+property_value: rdfs:seeAlso "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_5_0/opensubdiv/version.cpp#L2-L22" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/PixarAnimationStudios/OpenSubdiv/raw/v3_5_0/LICENSE.txt" xsd:anyURI
+property_value: rdfs:seeAlso "https://graphics.pixar.com/opensubdiv/docs/license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Plexus
+name: Plexus Classworlds License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Plexus_Classworlds_License" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:PolyForm-Noncommercial-1.0.0
+name: PolyForm Noncommercial License 1.0.0
+property_value: rdfs:seeAlso "https://polyformproject.org/licenses/noncommercial/1.0.0" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:PolyForm-Small-Business-1.0.0
+name: PolyForm Small Business License 1.0.0
+property_value: rdfs:seeAlso "https://polyformproject.org/licenses/small-business/1.0.0" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:PostgreSQL
+name: PostgreSQL License
+property_value: rdfs:seeAlso "http://www.postgresql.org/about/licence" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/PostgreSQL" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Python-2.0
+name: Python License 2.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/Python-2.0" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Python-2.0.1
+name: Python License 2.0.1
+property_value: rdfs:seeAlso "https://docs.python.org/3/license.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/python/cpython/blob/main/LICENSE" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.python.org/download/releases/2.0.1/license/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:QPL-1.0
+name: Q Public License 1.0
+property_value: rdfs:seeAlso "http://doc.qt.nokia.com/3.3/license.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://doc.qt.io/archives/3.3/license.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/QPL-1.0" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:QPL-1.0-INRIA-2004
+name: Q Public License 1.0 - INRIA 2004 variant
+property_value: rdfs:seeAlso "https://github.com/maranget/hevea/blob/master/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Qhull
+name: Qhull License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Qhull" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:RHeCos-1.1
+name: Red Hat eCos Public License v1.1
+property_value: rdfs:seeAlso "http://ecos.sourceware.org/old-license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:RPL-1.1
+name: Reciprocal Public License 1.1
+property_value: rdfs:seeAlso "https://opensource.org/licenses/RPL-1.1" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:RPL-1.5
+name: Reciprocal Public License 1.5
+property_value: rdfs:seeAlso "https://opensource.org/licenses/RPL-1.5" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:RPSL-1.0
+name: RealNetworks Public Source License v1.0
+property_value: rdfs:seeAlso "https://helixcommunity.org/content/rpsl" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/RPSL-1.0" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:RSA-MD
+name: RSA Message-Digest License
+property_value: rdfs:seeAlso "http://www.faqs.org/rfcs/rfc1321.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:RSCPL
+name: Ricoh Source Code Public License
+property_value: rdfs:seeAlso "http://wayback.archive.org/web/20060715140826/http://www.risource.org/RPL/RPL-1.0A.shtml" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/RSCPL" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Rdisc
+name: Rdisc License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Rdisc_License" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Ruby
+name: Ruby License
+property_value: rdfs:seeAlso "https://www.ruby-lang.org/en/about/license.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Ruby-pty
+name: Ruby pty extension license
+property_value: rdfs:seeAlso "https://github.com/ruby/ruby/blob/9f6deaa6888a423720b4b127b5314f0ad26cc2e6/ext/pty/pty.c#L775-L786" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/ruby/ruby/commit/0a64817fb80016030c03518fb9459f63c11605ea#diff-ef5fa30838d6d0cecad9e675cc50b24628cfe2cb277c346053fafcc36c91c204" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/ruby/ruby/commit/0a64817fb80016030c03518fb9459f63c11605ea#diff-fedf217c1ce44bda01f0a678d3ff8b198bed478754d699c527a698ad933979a0" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SAX-PD
+name: Sax Public Domain Notice
+property_value: rdfs:seeAlso "http://www.saxproject.org/copying.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SAX-PD-2.0
+name: Sax Public Domain Notice 2.0
+property_value: rdfs:seeAlso "http://www.saxproject.org/copying.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SCEA
+name: SCEA Shared Source License
+property_value: rdfs:seeAlso "http://research.scea.com/scea_shared_source_license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SGI-B-1.0
+name: SGI Free Software License B v1.0
+property_value: rdfs:seeAlso "http://oss.sgi.com/projects/FreeB/SGIFreeSWLicB.1.0.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SGI-B-1.1
+name: SGI Free Software License B v1.1
+property_value: rdfs:seeAlso "http://oss.sgi.com/projects/FreeB/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SGI-B-2.0
+name: SGI Free Software License B v2.0
+property_value: rdfs:seeAlso "http://oss.sgi.com/projects/FreeB/SGIFreeSWLicB.2.0.pdf" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SGI-OpenGL
+name: SGI OpenGL License
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/mesa/glw/-/blob/master/README?ref_type=heads" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SGP4
+name: SGP4 Permission Notice
+property_value: rdfs:seeAlso "https://celestrak.org/publications/AIAA/2006-6753/faq.php" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SHL-0.5
+name: Solderpad Hardware License v0.5
+property_value: rdfs:seeAlso "https://solderpad.org/licenses/SHL-0.5/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SHL-0.51
+name: Solderpad Hardware License\, Version 0.51
+property_value: rdfs:seeAlso "https://solderpad.org/licenses/SHL-0.51/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SISSL
+name: Sun Industry Standards Source License v1.1
+property_value: rdfs:seeAlso "http://www.openoffice.org/licenses/sissl_license.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/SISSL" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SISSL-1.2
+name: Sun Industry Standards Source License v1.2
+property_value: rdfs:seeAlso "http://gridscheduler.sourceforge.net/Gridengine_SISSL_license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SL
+name: SL License
+property_value: rdfs:seeAlso "https://github.com/mtoyoda/sl/blob/master/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SMAIL-GPL
+name: SMAIL General Public License
+property_value: rdfs:seeAlso "https://sources.debian.org/copyright/license/debianutils/4.11.2/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SMLNJ
+name: Standard ML of New Jersey License
+property_value: rdfs:seeAlso "https://www.smlnj.org/license.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SMPPL
+name: Secure Messaging Protocol Public License
+property_value: rdfs:seeAlso "https://github.com/dcblake/SMP/blob/master/Documentation/License.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SNIA
+name: SNIA Public License 1.1
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/SNIA_Public_License" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SOFA
+name: SOFA Software License
+property_value: rdfs:seeAlso "http://www.iausofa.org/tandc.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SPL-1.0
+name: Sun Public License v1.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/SPL-1.0" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SSH-OpenSSH
+name: SSH OpenSSH license
+property_value: rdfs:seeAlso "https://github.com/openssh/openssh-portable/blob/1b11ea7c58cd5c59838b5fa574cd456d6047b2d4/LICENCE#L10" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SSH-short
+name: SSH short notice
+property_value: rdfs:seeAlso "http://web.mit.edu/kolya/.f/root/athena.mit.edu/sipb.mit.edu/project/openssh/OldFiles/src/openssh-2.9.9p2/ssh-add.1" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/openssh/openssh-portable/blob/1b11ea7c58cd5c59838b5fa574cd456d6047b2d4/pathnames.h" xsd:anyURI
+property_value: rdfs:seeAlso "https://joinup.ec.europa.eu/svn/lesoll/trunk/italc/lib/src/dsa_key.cpp" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SSLeay-standalone
+name: SSLeay License - standalone
+property_value: rdfs:seeAlso "https://www.tq-group.com/filedownloads/files/software-license-conditions/OriginalSSLeay/OriginalSSLeay.pdf" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SSPL-1.0
+name: Server Side Public License\, v 1
+property_value: rdfs:seeAlso "https://www.mongodb.com/licensing/server-side-public-license" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SWL
+name: Scheme Widget Library \(SWL\) Software License Agreement
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/SWL" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Saxpath
+name: Saxpath License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Saxpath_License" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SchemeReport
+name: Scheme Language Report License
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Sendmail
+name: Sendmail License
+property_value: rdfs:seeAlso "http://www.sendmail.com/pdfs/open_source/sendmail_license.pdf" xsd:anyURI
+property_value: rdfs:seeAlso "https://web.archive.org/web/20160322142305/https://www.sendmail.com/pdfs/open_source/sendmail_license.pdf" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Sendmail-8.23
+name: Sendmail License 8.23
+property_value: rdfs:seeAlso "https://web.archive.org/web/20181003101040/https://www.proofpoint.com/sites/default/files/sendmail-license.pdf" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.proofpoint.com/sites/default/files/sendmail-license.pdf" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Sendmail-Open-Source-1.1
+name: Sendmail Open Source License v1.1
+property_value: rdfs:seeAlso "https://github.com/trusteddomainproject/OpenDMARC/blob/master/LICENSE.Sendmail" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SimPL-2.0
+name: Simple Public License 2.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/SimPL-2.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Sleepycat
+name: Sleepycat License
+property_value: rdfs:seeAlso "https://opensource.org/licenses/Sleepycat" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Soundex
+name: Soundex License
+property_value: rdfs:seeAlso "https://metacpan.org/release/RJBS/Text-Soundex-3.05/source/Soundex.pm#L3-11" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Spencer-86
+name: Spencer License 86
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Henry_Spencer_Reg-Ex_Library_License" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Spencer-94
+name: Spencer License 94
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Henry_Spencer_Reg-Ex_Library_License" xsd:anyURI
+property_value: rdfs:seeAlso "https://metacpan.org/release/KNOK/File-MMagic-1.30/source/COPYING#L28" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Spencer-99
+name: Spencer License 99
+property_value: rdfs:seeAlso "http://www.opensource.apple.com/source/tcl/tcl-5/tcl/generic/regfronts.c" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:StandardML-NJ
+name: Standard ML of New Jersey License
+property_value: rdfs:seeAlso "https://www.smlnj.org/license.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:SugarCRM-1.1.3
+name: SugarCRM Public License v1.1.3
+property_value: rdfs:seeAlso "http://www.sugarcrm.com/crm/SPL" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Sun-PPP
+name: Sun PPP License
+property_value: rdfs:seeAlso "https://github.com/ppp-project/ppp/blob/master/pppd/eap.c#L7-L16" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Sun-PPP-2000
+name: Sun PPP License \(2000\)
+property_value: rdfs:seeAlso "https://github.com/ppp-project/ppp/blob/master/modules/ppp_ahdlc.c#L7-L19" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:SunPro
+name: SunPro License
+property_value: rdfs:seeAlso "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_acosh.c" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_lgammal.c" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Symlinks
+name: Symlinks License
+property_value: rdfs:seeAlso "https://www.mail-archive.com/debian-bugs-rc@lists.debian.org/msg11494.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:TAPR-OHL-1.0
+name: TAPR Open Hardware License v1.0
+property_value: rdfs:seeAlso "https://www.tapr.org/OHL" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:TCL
+name: TCL/TK License
+property_value: rdfs:seeAlso "http://www.tcl.tk/software/tcltk/license.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/TCL" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:TCP-wrappers
+name: TCP Wrappers License
+property_value: rdfs:seeAlso "http://rc.quest.com/topics/openssh/license.php#tcpwrappers" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:TGPPL-1.0
+name: Transitive Grace Period Public Licence 1.0
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/TGPPL" xsd:anyURI
+property_value: rdfs:seeAlso "https://tahoe-lafs.org/trac/tahoe-lafs/browser/trunk/COPYING.TGPPL.rst" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:TMate
+name: TMate Open Source License
+property_value: rdfs:seeAlso "http://svnkit.com/license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:TORQUE-1.1
+name: TORQUE v2.5+ Software License v1.1
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/TORQUEv1.1" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:TOSL
+name: Trusster Open Source License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/TOSL" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:TPDL
+name: Time\:\:ParseDate License
+property_value: rdfs:seeAlso "https://metacpan.org/pod/Time::ParseDate#LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:TPL-1.0
+name: THOR Public License 1.0
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing:ThorPublicLicense" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:TTWL
+name: Text-Tabs+Wrap License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/TTWL" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/ap/Text-Tabs/blob/master/lib.modern/Text/Tabs.pm#L148" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:TTYP0
+name: TTYP0 License
+property_value: rdfs:seeAlso "https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:TU-Berlin-1.0
+name: Technische Universitaet Berlin License 1.0
+property_value: rdfs:seeAlso "https://github.com/swh/ladspa/blob/7bf6f3799fdba70fda297c2d8fd9f526803d9680/gsm/COPYRIGHT" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:TU-Berlin-2.0
+name: Technische Universitaet Berlin License 2.0
+property_value: rdfs:seeAlso "https://github.com/CorsixTH/deps/blob/fd339a9f526d1d9c9f01ccf39e438a015da50035/licences/libgsm.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:TermReadKey
+name: TermReadKey License
+property_value: rdfs:seeAlso "https://github.com/jonathanstowe/TermReadKey/blob/master/README#L9-L10" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ThirdEye
+name: ThirdEye License
+property_value: rdfs:seeAlso "https://sourceware.org/cgit/binutils-gdb/tree/include/coff/symconst.h#n11" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:TrustedQSL
+name: TrustedQSL License
+property_value: rdfs:seeAlso "https://sourceforge.net/p/trustedqsl/tqsl/ci/master/tree/LICENSE.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:UCAR
+name: UCAR License
+property_value: rdfs:seeAlso "https://github.com/Unidata/UDUNITS-2/blob/master/COPYRIGHT" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:UCL-1.0
+name: Upstream Compatibility License v1.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/UCL-1.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:UMich-Merit
+name: Michigan/Merit Networks License
+property_value: rdfs:seeAlso "https://github.com/radcli/radcli/blob/master/COPYRIGHT#L64" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:UPL-1.0
+name: Universal Permissive License v1.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/UPL" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:URT-RLE
+name: Utah Raster Toolkit Run Length Encoded License
+property_value: rdfs:seeAlso "https://sourceforge.net/p/netpbm/code/HEAD/tree/super_stable/converter/other/pnmtorle.c" xsd:anyURI
+property_value: rdfs:seeAlso "https://sourceforge.net/p/netpbm/code/HEAD/tree/super_stable/converter/other/rletopnm.c" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Ubuntu-font-1.0
+name: Ubuntu Font Licence v1.0
+property_value: rdfs:seeAlso "https://assets.ubuntu.com/v1/81e5605d-ubuntu-font-licence-1.0.txt" xsd:anyURI
+property_value: rdfs:seeAlso "https://ubuntu.com/legal/font-licence" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Unicode-3.0
+name: Unicode License v3
+property_value: rdfs:seeAlso "https://www.unicode.org/license.txt" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Unicode-DFS-2015
+name: Unicode License Agreement - Data Files and Software \(2015\)
+property_value: rdfs:seeAlso "https://web.archive.org/web/20151224134844/http://unicode.org/copyright.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Unicode-DFS-2016
+name: Unicode License Agreement - Data Files and Software \(2016\)
+property_value: rdfs:seeAlso "http://web.archive.org/web/20160823201924/http://www.unicode.org/copyright.html#License" xsd:anyURI
+property_value: rdfs:seeAlso "http://www.unicode.org/copyright.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.unicode.org/license.txt" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Unicode-TOU
+name: Unicode Terms of Use
+property_value: rdfs:seeAlso "http://web.archive.org/web/20140704074106/http://www.unicode.org/copyright.html" xsd:anyURI
+property_value: rdfs:seeAlso "http://www.unicode.org/copyright.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:UnixCrypt
+name: UnixCrypt License
+property_value: rdfs:seeAlso "https://archive.eclipse.org/jetty/8.0.1.v20110908/xref/org/eclipse/jetty/http/security/UnixCrypt.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://foss.heptapod.net/python-libs/passlib/-/blob/branch/stable/LICENSE#L70" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.apple.com/source/JBoss/JBoss-737/jboss-all/jetty/src/main/org/mortbay/util/UnixCrypt.java.auto.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Unlicense
+name: The Unlicense
+property_value: rdfs:seeAlso "https://unlicense.org/" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Unlicense-libtelnet
+name: Unlicense - libtelnet variant
+property_value: rdfs:seeAlso "https://github.com/seanmiddleditch/libtelnet/blob/develop/COPYING" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Unlicense-libwhirlpool
+name: Unlicense - libwhirlpool variant
+property_value: rdfs:seeAlso "https://github.com/dfateyev/libwhirlpool/blob/master/README#L27" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:VOSTROM
+name: VOSTROM Public License for Open Source
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/VOSTROM" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:VSL-1.0
+name: Vovida Software License v1.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/VSL-1.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Vim
+name: Vim License
+property_value: rdfs:seeAlso "http://vimdoc.sourceforge.net/htmldoc/uganda.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:W3C
+name: W3C Software Notice and License \(2002-12-31\)
+property_value: rdfs:seeAlso "http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/W3C" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:W3C-19980720
+name: W3C Software Notice and License \(1998-07-20\)
+property_value: rdfs:seeAlso "http://www.w3.org/Consortium/Legal/copyright-software-19980720.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:W3C-20150513
+name: W3C Software Notice and Document License \(2015-05-13\)
+property_value: rdfs:seeAlso "https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.w3.org/copyright/software-license-2015/" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.w3.org/copyright/software-license-2023/" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:WTFPL
+name: Do What The F*ck You Want To Public License
+property_value: rdfs:seeAlso "http://sam.zoy.org/wtfpl/COPYING" xsd:anyURI
+property_value: rdfs:seeAlso "http://www.wtfpl.net/about/" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Watcom-1.0
+name: Sybase Open Watcom Public License 1.0
+property_value: rdfs:seeAlso "https://opensource.org/licenses/Watcom-1.0" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Widget-Workshop
+name: Widget Workshop License
+property_value: rdfs:seeAlso "https://github.com/novnc/noVNC/blob/master/core/crypto/des.js#L24" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Wsuipa
+name: Wsuipa License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Wsuipa" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:X11
+name: X11 License
+property_value: rdfs:seeAlso "http://www.xfree86.org/3.3.6/COPYRIGHT2.html#3" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:X11-distribute-modifications-variant
+name: X11 License Distribution Modification Variant
+property_value: rdfs:seeAlso "https://github.com/mirror/ncurses/blob/master/COPYING" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:X11-swapped
+name: X11 swapped final paragraphs
+property_value: rdfs:seeAlso "https://github.com/fedeinthemix/chez-srfi/blob/master/srfi/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:XFree86-1.1
+name: XFree86 License 1.1
+property_value: rdfs:seeAlso "http://www.xfree86.org/current/LICENSE4.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:XSkat
+name: XSkat License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/XSkat_License" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Xdebug-1.03
+name: Xdebug License v 1.03
+property_value: rdfs:seeAlso "https://github.com/xdebug/xdebug/blob/master/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Xerox
+name: Xerox License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Xerox" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Xfig
+name: Xfig License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing:MIT#Xfig_Variant" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/Distrotech/transfig/blob/master/transfig/transfig.c" xsd:anyURI
+property_value: rdfs:seeAlso "https://sourceforge.net/p/mcj/xfig/ci/master/tree/src/Makefile.am" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Xnet
+name: X.Net License
+property_value: rdfs:seeAlso "https://opensource.org/licenses/Xnet" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:YPL-1.0
+name: Yahoo! Public License v1.0
+property_value: rdfs:seeAlso "http://www.zimbra.com/license/yahoo_public_license_1.0.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:YPL-1.1
+name: Yahoo! Public License v1.1
+property_value: rdfs:seeAlso "http://www.zimbra.com/license/yahoo_public_license_1.1.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ZPL-1.1
+name: Zope Public License 1.1
+property_value: rdfs:seeAlso "http://old.zope.org/Resources/License/ZPL-1.1" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ZPL-2.0
+name: Zope Public License 2.0
+property_value: rdfs:seeAlso "http://old.zope.org/Resources/License/ZPL-2.0" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/ZPL-2.0" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ZPL-2.1
+name: Zope Public License 2.1
+property_value: rdfs:seeAlso "http://old.zope.org/Resources/ZPL/" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Zed
+name: Zed License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Zed" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Zeeff
+name: Zeeff License
+property_value: rdfs:seeAlso "ftp://ftp.tin.org/pub/news/utils/newsx/newsx-1.6.tar.gz" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Zend-2.0
+name: Zend License v2.0
+property_value: rdfs:seeAlso "https://web.archive.org/web/20130517195954/http://www.zend.com/license/2_00.txt" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Zimbra-1.3
+name: Zimbra Public License v1.3
+property_value: rdfs:seeAlso "http://web.archive.org/web/20100302225219/http://www.zimbra.com/license/zimbra-public-license-1-3.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Zimbra-1.4
+name: Zimbra Public License v1.4
+property_value: rdfs:seeAlso "http://www.zimbra.com/legal/zimbra-public-license-1-4" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:Zlib
+name: zlib License
+property_value: rdfs:seeAlso "http://www.zlib.net/zlib_license.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://opensource.org/licenses/Zlib" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:any-OSI
+name: Any OSI License
+property_value: rdfs:seeAlso "https://metacpan.org/pod/Exporter::Tidy#LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:any-OSI-perl-modules
+name: Any OSI License - Perl Modules
+property_value: rdfs:seeAlso "https://metacpan.org/pod/Net::MQTT::Simple#LICENSE" xsd:anyURI
+property_value: rdfs:seeAlso "https://metacpan.org/pod/Qmail::Deliverable::Client#LICENSE" xsd:anyURI
+property_value: rdfs:seeAlso "https://metacpan.org/release/JUERD/Exporter-Tidy-0.09/view/Tidy.pm#LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:bcrypt-Solar-Designer
+name: bcrypt Solar Designer License
+property_value: rdfs:seeAlso "https://github.com/bcrypt-ruby/bcrypt-ruby/blob/master/ext/mri/crypt_blowfish.c" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:blessing
+name: SQLite Blessing
+property_value: rdfs:seeAlso "https://sqlite.org/src/artifact/df5091916dbb40e6" xsd:anyURI
+property_value: rdfs:seeAlso "https://www.sqlite.org/src/artifact/e33a4df7e32d742a?ln=4-9" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:bzip2-1.0.5
+name: bzip2 and libbzip2 License v1.0.5
+property_value: rdfs:seeAlso "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://sourceware.org/bzip2/1.0.5/bzip2-manual-1.0.5.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:bzip2-1.0.6
+name: bzip2 and libbzip2 License v1.0.6
+property_value: rdfs:seeAlso "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://sourceware.org/cgit/valgrind/tree/mpi/libmpiwrap.c" xsd:anyURI
+property_value: rdfs:seeAlso "https://sourceware.org/git/?p=bzip2.git;a=blob;f=LICENSE;hb=bzip2-1.0.6" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:check-cvs
+name: check-cvs License
+property_value: rdfs:seeAlso "http://cvs.savannah.gnu.org/viewvc/cvs/ccvs/contrib/check_cvs.in?revision=1.1.4.3&view=markup&pathrev=cvs1-11-23#l2" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:checkmk
+name: Checkmk License
+property_value: rdfs:seeAlso "https://github.com/libcheck/check/blob/master/checkmk/checkmk.in" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:copyleft-next-0.3.0
+name: copyleft-next 0.3.0
+property_value: rdfs:seeAlso "https://github.com/copyleft-next/copyleft-next/blob/master/Releases/copyleft-next-0.3.0" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:copyleft-next-0.3.1
+name: copyleft-next 0.3.1
+property_value: rdfs:seeAlso "https://github.com/copyleft-next/copyleft-next/blob/master/Releases/copyleft-next-0.3.1" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:curl
+name: curl License
+property_value: rdfs:seeAlso "https://github.com/bagder/curl/blob/master/COPYING" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:cve-tou
+name: Common Vulnerability Enumeration ToU License
+property_value: rdfs:seeAlso "https://www.cve.org/Legal/TermsOfUse" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:diffmark
+name: diffmark license
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/diffmark" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:dtoa
+name: David M. Gay dtoa License
+property_value: rdfs:seeAlso "https://github.com/SWI-Prolog/swipl-devel/blob/master/src/os/dtoa.c" xsd:anyURI
+property_value: rdfs:seeAlso "https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/stdlib/mprec.h;hb=HEAD" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:dvipdfm
+name: dvipdfm License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/dvipdfm" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:eCos-2.0
+name: eCos license version 2.0
+property_value: rdfs:seeAlso "https://www.gnu.org/licenses/ecos-license.html" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:eGenix
+name: eGenix.com Public License 1.1.0
+property_value: rdfs:seeAlso "http://www.egenix.com/products/eGenix.com-Public-License-1.1.0.pdf" xsd:anyURI
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/eGenix.com_Public_License_1.1.0" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:etalab-2.0
+name: Etalab Open License 2.0
+property_value: rdfs:seeAlso "https://github.com/DISIC/politique-de-contribution-open-source/blob/master/LICENSE.pdf" xsd:anyURI
+property_value: rdfs:seeAlso "https://raw.githubusercontent.com/DISIC/politique-de-contribution-open-source/master/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:fwlw
+name: fwlw License
+property_value: rdfs:seeAlso "https://mirrors.nic.cz/tex-archive/macros/latex/contrib/fwlw/README" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:gSOAP-1.3b
+name: gSOAP Public License v1.3b
+property_value: rdfs:seeAlso "http://www.cs.fsu.edu/~engelen/license.html" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:generic-xts
+name: Generic XTS License
+property_value: rdfs:seeAlso "https://github.com/mhogomchungu/zuluCrypt/blob/master/external_libraries/tcplay/generic_xts.c" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:gnuplot
+name: gnuplot License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Gnuplot" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:gtkbook
+name: gtkbook License
+property_value: rdfs:seeAlso "https://github.com/oetiker/rrdtool-1.x/blob/master/src/plbasename.c#L8-L11" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/slogan621/gtkbook" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:hdparm
+name: hdparm License
+property_value: rdfs:seeAlso "https://github.com/Distrotech/hdparm/blob/4517550db29a91420fb2b020349523b1b4512df2/LICENSE.TXT" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:iMatix
+name: iMatix Standard Function Library Agreement
+property_value: rdfs:seeAlso "http://legacy.imatix.com/html/sfl/sfl4.htm#license" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:jove
+name: Jove License
+property_value: rdfs:seeAlso "https://github.com/jonmacs/jove/blob/4_17/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:libpng-1.6.35
+name: PNG Reference Library License v1 \(for libpng 0.5 through 1.6.35
+property_value: rdfs:seeAlso "http://www.libpng.org/pub/png/src/libpng-LICENSE.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:libpng-2.0
+name: PNG Reference Library version 2
+property_value: rdfs:seeAlso "http://www.libpng.org/pub/png/src/libpng-LICENSE.txt" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:libselinux-1.0
+name: libselinux public domain notice
+property_value: rdfs:seeAlso "https://github.com/SELinuxProject/selinux/blob/master/libselinux/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:libtiff
+name: libtiff License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/libtiff" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:libutil-David-Nugent
+name: libutil David Nugent License
+property_value: rdfs:seeAlso "http://web.mit.edu/freebsd/head/lib/libutil/login_ok.3" xsd:anyURI
+property_value: rdfs:seeAlso "https://cgit.freedesktop.org/libbsd/tree/man/setproctitle.3bsd" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:lsof
+name: lsof License
+property_value: rdfs:seeAlso "https://github.com/lsof-org/lsof/blob/master/COPYING" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:magaz
+name: magaz License
+property_value: rdfs:seeAlso "https://mirrors.ctan.org/macros/latex/contrib/version/version.sty" xsd:anyURI
+property_value: rdfs:seeAlso "https://mirrors.nic.cz/tex-archive/macros/latex/contrib/magaz/magaz.tex" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:mailprio
+name: mailprio License
+property_value: rdfs:seeAlso "https://fossies.org/linux/sendmail/contrib/mailprio" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:man2html
+name: man2html License
+property_value: rdfs:seeAlso "http://primates.ximian.com/~flucifredi/man/man-1.6g.tar.gz" xsd:anyURI
+property_value: rdfs:seeAlso "https://docs.oracle.com/cd/E81115_01/html/E81116/licenses.html" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/hamano/man2html/blob/master/man2html.c" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:metamail
+name: metamail License
+property_value: rdfs:seeAlso "https://github.com/Dual-Life/mime-base64/blob/master/Base64.xs#L12" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:mpi-permissive
+name: mpi Permissive License
+property_value: rdfs:seeAlso "https://sources.debian.org/src/openmpi/4.1.0-10/ompi/debuggers/msgq_interface.h/?hl=19#L19" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:mpich2
+name: mpich2 License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/MIT" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:mplus
+name: mplus Font License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing:Mplus?rd=Licensing/mplus" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ngrep
+name: ngrep License
+property_value: rdfs:seeAlso "https://github.com/jpr5/ngrep/blob/master/LICENSE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:pkgconf
+name: pkgconf License
+property_value: rdfs:seeAlso "https://github.com/pkgconf/pkgconf/blob/master/cli/main.c#L8" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:pnmstitch
+name: pnmstitch License
+property_value: rdfs:seeAlso "https://sourceforge.net/p/netpbm/code/HEAD/tree/super_stable/editor/pnmstitch.c#l2" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:psfrag
+name: psfrag License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/psfrag" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:psutils
+name: psutils License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/psutils" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:python-ldap
+name: Python ldap License
+property_value: rdfs:seeAlso "https://github.com/python-ldap/python-ldap/blob/main/LICENCE" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:radvd
+name: radvd License
+property_value: rdfs:seeAlso "https://github.com/radvd-project/radvd/blob/master/COPYRIGHT" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:snprintf
+name: snprintf License
+property_value: rdfs:seeAlso "https://github.com/openssh/openssh-portable/blob/master/openbsd-compat/bsd-snprintf.c#L2" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:softSurfer
+name: softSurfer License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/softSurfer" xsd:anyURI
+property_value: rdfs:seeAlso "https://github.com/mm2/Little-CMS/blob/master/src/cmssm.c#L207" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ssh-keyscan
+name: ssh-keyscan License
+property_value: rdfs:seeAlso "https://github.com/openssh/openssh-portable/blob/master/LICENCE#L82" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:swrule
+name: swrule License
+property_value: rdfs:seeAlso "https://ctan.math.utah.edu/ctan/tex-archive/macros/generic/misc/swrule.sty" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:threeparttable
+name: threeparttable License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Threeparttable" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:ulem
+name: ulem License
+property_value: rdfs:seeAlso "https://mirrors.ctan.org/macros/latex/contrib/ulem/README" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:w3m
+name: w3m License
+property_value: rdfs:seeAlso "https://github.com/tats/w3m/blob/master/COPYING" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:wwl
+name: WWL License
+property_value: rdfs:seeAlso "http://www.db.net/downloads/wwl+db-1.3.tgz" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:wxWindows
+name: wxWindows Library License
+property_value: rdfs:seeAlso "https://opensource.org/licenses/WXwindows" xsd:anyURI
+property_value: spdx.term:isOsiApproved "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+is_obsolete: true
+
+[Term]
+id: spdx:xinetd
+name: xinetd License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/Xinetd_License" xsd:anyURI
+property_value: spdx.term:isFsfLibre "true" xsd:boolean
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:xkeyboard-config-Zinoviev
+name: xkeyboard-config Zinoviev License
+property_value: rdfs:seeAlso "https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/blob/master/COPYING?ref_type=heads#L178" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:xlock
+name: xlock License
+property_value: rdfs:seeAlso "https://fossies.org/linux/tiff/contrib/ras/ras2tif.c" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:xpp
+name: XPP License
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/xpp" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:xzoom
+name: xzoom License
+property_value: rdfs:seeAlso "https://metadata.ftp-master.debian.org/changelogs//main/x/xzoom/xzoom_0.3-27_copyright" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx:zlib-acknowledgement
+name: zlib/libpng License with Acknowledgement
+property_value: rdfs:seeAlso "https://fedoraproject.org/wiki/Licensing/ZlibWithAcknowledgement" xsd:anyURI
+is_a: spdx.term:ListedLicense ! listed license
+
+[Term]
+id: spdx.term:ListedLicense
+name: listed license
