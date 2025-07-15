@@ -1,8 +1,8 @@
-date: '2025-03-12'
+date: '2025-07-15'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.24-dev-1ec38e50
+  pyobo: 0.12.5-dev-0872694b
 errored: false
 manifest:
   nodes:
@@ -46,7 +46,7 @@ manifest:
     definitions: 30808
     license: CC0-1.0
     mappings: 0
-    parents: 42287
+    parents: 366457
     properties: 0
     references: 0
     relations: 0
@@ -60,8 +60,10 @@ manifest:
     version_iri: https://w3id.org/biopragmatics/resources/mesh/2025/mesh.synonyms.tsv
     version_path: mesh/2025/mesh.synonyms.tsv
 prefix_map:
+  IAO: http://purl.obolibrary.org/obo/IAO_
   dcterms: http://purl.org/dc/terms/
   mesh: http://id.nlm.nih.gov/mesh/
+  obo: http://purl.obolibrary.org/obo/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
   owl: http://www.w3.org/2002/07/owl#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#

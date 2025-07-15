@@ -21,6 +21,6 @@ MeSH (Medical Subject Headings) is the National Library of Medicine's controlled
 | field       |   count |
 |-------------|---------|
 | definitions |   30808 |
-| parents     |   42287 |
+| parents     |  366457 |
 | synonyms    |  636462 |
 | terms       |  355011 |
