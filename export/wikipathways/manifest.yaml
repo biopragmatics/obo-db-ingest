@@ -1,67 +1,69 @@
-date: '2025-03-12'
+date: '2025-07-15'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.24-dev-1ec38e50
+  pyobo: 0.12.5-dev-2db81492
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/wikipathways/wikipathways.tsv
     path: wikipathways/wikipathways.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/wikipathways/20250310/wikipathways.tsv
-    version_path: wikipathways/20250310/wikipathways.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/wikipathways/20250710/wikipathways.tsv
+    version_path: wikipathways/20250710/wikipathways.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/wikipathways/wikipathways.obo
     path: wikipathways/wikipathways.obo
-    version_iri: https://w3id.org/biopragmatics/resources/wikipathways/20250310/wikipathways.obo
-    version_path: wikipathways/20250310/wikipathways.obo
+    version_iri: https://w3id.org/biopragmatics/resources/wikipathways/20250710/wikipathways.obo
+    version_path: wikipathways/20250710/wikipathways.obo
   obograph:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/wikipathways/wikipathways.json
     path: wikipathways/wikipathways.json
-    version_iri: https://w3id.org/biopragmatics/resources/wikipathways/20250310/wikipathways.json
-    version_path: wikipathways/20250310/wikipathways.json
+    version_iri: https://w3id.org/biopragmatics/resources/wikipathways/20250710/wikipathways.json
+    version_path: wikipathways/20250710/wikipathways.json
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/wikipathways/wikipathways.ofn
     path: wikipathways/wikipathways.ofn
-    version_iri: https://w3id.org/biopragmatics/resources/wikipathways/20250310/wikipathways.ofn
-    version_path: wikipathways/20250310/wikipathways.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/wikipathways/20250710/wikipathways.ofn
+    version_path: wikipathways/20250710/wikipathways.ofn
   owl:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/wikipathways/wikipathways.owl
     path: wikipathways/wikipathways.owl
-    version_iri: https://w3id.org/biopragmatics/resources/wikipathways/20250310/wikipathways.owl
-    version_path: wikipathways/20250310/wikipathways.owl
+    version_iri: https://w3id.org/biopragmatics/resources/wikipathways/20250710/wikipathways.owl
+    version_path: wikipathways/20250710/wikipathways.owl
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/wikipathways/wikipathways.sssom.tsv
     path: wikipathways/wikipathways.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/wikipathways/20250310/wikipathways.sssom.tsv
-    version_path: wikipathways/20250310/wikipathways.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/wikipathways/20250710/wikipathways.sssom.tsv
+    version_path: wikipathways/20250710/wikipathways.sssom.tsv
   summary:
     alts: 0
     definitions: 0
     license: CC0-1.0
     mappings: 0
-    parents: 0
-    properties: 73375
+    parents: 1900
+    properties: 73960
     references: 0
-    relations: 1875
+    relations: 1900
     synonyms: 0
-    terms: 1875
-    version: '20250310'
+    terms: 1900
+    version: '20250710'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/wikipathways/wikipathways.synonyms.tsv
     path: wikipathways/wikipathways.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/wikipathways/20250310/wikipathways.synonyms.tsv
-    version_path: wikipathways/20250310/wikipathways.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/wikipathways/20250710/wikipathways.synonyms.tsv
+    version_path: wikipathways/20250710/wikipathways.synonyms.tsv
 prefix_map:
+  IAO: http://purl.obolibrary.org/obo/IAO_
   NCBIGene: http://purl.uniprot.org/geneid/
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  PW: http://purl.obolibrary.org/obo/PW_
   RO: http://purl.obolibrary.org/obo/RO_
   dcterms: http://purl.org/dc/terms/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
