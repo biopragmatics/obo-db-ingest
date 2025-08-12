@@ -1,79 +1,115 @@
 format-version: 1.4
 data-version: 2022
-auto-generated-by: PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T12:20:11.654448
-idspace: credit https://credit.niso.org/contributor-roles/ "CASRAI Contributor Roles Taxonomy"
+auto-generated-by: PyOBO v0.12.5-dev-057852a0 on 2025-08-12T02:23:45.803432
+idspace: credit https://credit.niso.org/contributor-roles/ "Contributor Roles Taxonomy"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: doap http://usefulinc.com/ns/doap# "Description of a Project"
+idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
+idspace: orcid https://orcid.org/ "Open Researcher and Contributor"
 ontology: credit
-property_value: dcterms:title "CASRAI Contributor Roles Taxonomy" xsd:string
+property_value: dcterms:title "Contributor Roles Taxonomy" xsd:string
 property_value: dcterms:license "CC-BY-4.0" xsd:string
-property_value: dcterms:description "CRediT \\\(Contributor Roles Taxonomy\\\) is high-level taxonomy\\\, including 14 roles\\\, that can be used to represent the roles typically played by contributors to scientific scholarly output. The roles describe each contributor’s specific contribution to the scholarly output." xsd:string
+property_value: dcterms:description "CRediT \(Contributor Roles Taxonomy\) is high-level taxonomy\, including 14 roles\, that can be used to represent the roles typically played by contributors to scientific scholarly output. The roles describe each contributor’s specific contribution to the scholarly output." xsd:string
+property_value: foaf:homepage "https\://credit.niso.org/" xsd:anyURI
+property_value: foaf:logo "https\://api.fairsharing.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaUFCIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--af4f02374db4f42007e6674ea2055ccaa36aa830/credit-icon-499x500-1.png?disposition=inline" xsd:anyURI
+property_value: doap:maintainer orcid:0000-0002-9298-3168
+property_value: IAO:0000700 contributor-role
 
 [Term]
 id: credit:conceptualization
 name: Conceptualization
 def: "Ideas; formulation or evolution of overarching research goals and aims."
+is_a: contributor-role
 
 [Term]
 id: credit:data-curation
 name: Data curation
 def: "Management activities to annotate \(produce metadata\)\, scrub data and maintain research data \(including software code\, where it is necessary for interpreting the data itself\) for initial use and later re-use."
+is_a: contributor-role
 
 [Term]
 id: credit:formal-analysis
 name: Formal analysis
 def: "Application of statistical\, mathematical\, computational\, or other formal techniques to analyse or synthesize study data."
+is_a: contributor-role
 
 [Term]
 id: credit:funding-acquisition
 name: Funding acquisition
 def: "Acquisition of the financial support for the project leading to this publication."
+is_a: contributor-role
 
 [Term]
 id: credit:investigation
 name: Investigation
 def: "Conducting a research and investigation process\, specifically performing the experiments\, or data/evidence collection."
+is_a: contributor-role
 
 [Term]
 id: credit:methodology
 name: Methodology
 def: "Development or design of methodology; creation of models."
+is_a: contributor-role
 
 [Term]
 id: credit:project-administration
 name: Project administration
 def: "Management and coordination responsibility for the research activity planning and execution."
+is_a: contributor-role
 
 [Term]
 id: credit:resources
 name: Resources
 def: "Provision of study materials\, reagents\, materials\, patients\, laboratory samples\, animals\, instrumentation\, computing resources\, or other analysis tools."
+is_a: contributor-role
 
 [Term]
 id: credit:software
 name: Software
 def: "Programming\, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components."
+is_a: contributor-role
 
 [Term]
 id: credit:supervision
 name: Supervision
 def: "Oversight and leadership responsibility for the research activity planning and execution\, including mentorship external to the core team."
+is_a: contributor-role
 
 [Term]
 id: credit:validation
 name: Validation
 def: "Verification\, whether as a part of the activity or separate\, of the overall replication/reproducibility of results/experiments and other research outputs."
+is_a: contributor-role
 
 [Term]
 id: credit:visualization
 name: Visualization
 def: "Preparation\, creation and/or presentation of the published work\, specifically visualization/data presentation."
+is_a: contributor-role
 
 [Term]
 id: credit:writing-original-draft
 name: Writing – original draft
 def: "Preparation\, creation and/or presentation of the published work\, specifically writing the initial draft \(including substantive translation\)."
+is_a: contributor-role
 
 [Term]
 id: credit:writing-review-editing
 name: Writing – review & editing
 def: "Preparation\, creation and/or presentation of the published work by those from the original research group\, specifically critical review\, commentary or revision — including pre- or post-publication stages."
+is_a: contributor-role
+
+[Term]
+id: NCBITaxon:9606
+name: Homo sapiens
+
+[Term]
+id: contributor-role
+name: contributor role
+xref: CRO:0000000
+property_value: dcterms:contributor orcid:0000-0003-4423-4370 ! contributor Charles Tapley Hoyt
+
+[Instance]
+id: orcid:0000-0003-4423-4370
+name: Charles Tapley Hoyt
+instance_of: NCBITaxon:9606 ! Homo sapiens

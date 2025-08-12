@@ -1,21 +1,32 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://w3id.org/biopragmatics/resources/credit/credit.ofn#"
      xml:base="https://w3id.org/biopragmatics/resources/credit/credit.ofn"
+     xmlns:CRO="http://purl.obolibrary.org/obo/CRO_"
+     xmlns:IAO="http://purl.obolibrary.org/obo/IAO_"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:orcid="https://orcid.org/"
      xmlns:credit="https://credit.niso.org/contributor-roles/"
      xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:NCBITaxon="http://purl.obolibrary.org/obo/NCBITaxon_">
     <owl:Ontology rdf:about="https://w3id.org/biopragmatics/resources/credit/credit.ofn">
         <owl:versionIRI rdf:resource="https://w3id.org/biopragmatics/resources/credit/2022/credit.ofn"/>
-        <dcterms:description>CRediT \(Contributor Roles Taxonomy\) is high-level taxonomy\, including 14 roles\, that can be used to represent the roles typically played by contributors to scientific scholarly output. The roles describe each contributor’s specific contribution to the scholarly output.</dcterms:description>
+        <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/credit#contributor-role"/>
+        <dcterms:description>CRediT (Contributor Roles Taxonomy) is high-level taxonomy, including 14 roles, that can be used to represent the roles typically played by contributors to scientific scholarly output. The roles describe each contributor’s specific contribution to the scholarly output.</dcterms:description>
         <dcterms:license>CC-BY-4.0</dcterms:license>
-        <dcterms:title>CASRAI Contributor Roles Taxonomy</dcterms:title>
-        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T12:20:11.654448</oboInOwl:auto-generated-by>
+        <dcterms:title>Contributor Roles Taxonomy</dcterms:title>
+        <doap:maintainer rdf:resource="https://orcid.org/0000-0002-9298-3168"/>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.5-dev-057852a0 on 2025-08-12T02:23:45.803432</oboInOwl:auto-generated-by>
         <owl:versionInfo>2022</owl:versionInfo>
+        <foaf:homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://credit.niso.org/</foaf:homepage>
+        <foaf:logo rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://api.fairsharing.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaUFCIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--af4f02374db4f42007e6674ea2055ccaa36aa830/credit-icon-499x500-1.png?disposition=inline</foaf:logo>
     </owl:Ontology>
     
 
@@ -28,6 +39,20 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000700 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000700">
+        <rdfs:label>has ontology root term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
     
 
 
@@ -49,9 +74,33 @@
     
 
 
+    <!-- http://usefulinc.com/ns/doap#maintainer -->
+
+    <owl:AnnotationProperty rdf:about="http://usefulinc.com/ns/doap#maintainer"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/logo -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/logo"/>
     
 
 
@@ -66,9 +115,28 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
+        <rdfs:label>Homo sapiens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/credit#contributor-role -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/credit#contributor-role">
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <rdfs:label>contributor role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://credit.niso.org/contributor-roles/conceptualization -->
 
     <owl:Class rdf:about="https://credit.niso.org/contributor-roles/conceptualization">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/credit#contributor-role"/>
         <dcterms:description>Ideas; formulation or evolution of overarching research goals and aims.</dcterms:description>
         <rdfs:label>Conceptualization</rdfs:label>
     </owl:Class>
@@ -78,6 +146,7 @@
     <!-- https://credit.niso.org/contributor-roles/data-curation -->
 
     <owl:Class rdf:about="https://credit.niso.org/contributor-roles/data-curation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/credit#contributor-role"/>
         <dcterms:description>Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later re-use.</dcterms:description>
         <rdfs:label>Data curation</rdfs:label>
     </owl:Class>
@@ -87,6 +156,7 @@
     <!-- https://credit.niso.org/contributor-roles/formal-analysis -->
 
     <owl:Class rdf:about="https://credit.niso.org/contributor-roles/formal-analysis">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/credit#contributor-role"/>
         <dcterms:description>Application of statistical, mathematical, computational, or other formal techniques to analyse or synthesize study data.</dcterms:description>
         <rdfs:label>Formal analysis</rdfs:label>
     </owl:Class>
@@ -96,6 +166,7 @@
     <!-- https://credit.niso.org/contributor-roles/funding-acquisition -->
 
     <owl:Class rdf:about="https://credit.niso.org/contributor-roles/funding-acquisition">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/credit#contributor-role"/>
         <dcterms:description>Acquisition of the financial support for the project leading to this publication.</dcterms:description>
         <rdfs:label>Funding acquisition</rdfs:label>
     </owl:Class>
@@ -105,6 +176,7 @@
     <!-- https://credit.niso.org/contributor-roles/investigation -->
 
     <owl:Class rdf:about="https://credit.niso.org/contributor-roles/investigation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/credit#contributor-role"/>
         <dcterms:description>Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection.</dcterms:description>
         <rdfs:label>Investigation</rdfs:label>
     </owl:Class>
@@ -114,6 +186,7 @@
     <!-- https://credit.niso.org/contributor-roles/methodology -->
 
     <owl:Class rdf:about="https://credit.niso.org/contributor-roles/methodology">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/credit#contributor-role"/>
         <dcterms:description>Development or design of methodology; creation of models.</dcterms:description>
         <rdfs:label>Methodology</rdfs:label>
     </owl:Class>
@@ -123,6 +196,7 @@
     <!-- https://credit.niso.org/contributor-roles/project-administration -->
 
     <owl:Class rdf:about="https://credit.niso.org/contributor-roles/project-administration">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/credit#contributor-role"/>
         <dcterms:description>Management and coordination responsibility for the research activity planning and execution.</dcterms:description>
         <rdfs:label>Project administration</rdfs:label>
     </owl:Class>
@@ -132,6 +206,7 @@
     <!-- https://credit.niso.org/contributor-roles/resources -->
 
     <owl:Class rdf:about="https://credit.niso.org/contributor-roles/resources">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/credit#contributor-role"/>
         <dcterms:description>Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools.</dcterms:description>
         <rdfs:label>Resources</rdfs:label>
     </owl:Class>
@@ -141,6 +216,7 @@
     <!-- https://credit.niso.org/contributor-roles/software -->
 
     <owl:Class rdf:about="https://credit.niso.org/contributor-roles/software">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/credit#contributor-role"/>
         <dcterms:description>Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components.</dcterms:description>
         <rdfs:label>Software</rdfs:label>
     </owl:Class>
@@ -150,6 +226,7 @@
     <!-- https://credit.niso.org/contributor-roles/supervision -->
 
     <owl:Class rdf:about="https://credit.niso.org/contributor-roles/supervision">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/credit#contributor-role"/>
         <dcterms:description>Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team.</dcterms:description>
         <rdfs:label>Supervision</rdfs:label>
     </owl:Class>
@@ -159,6 +236,7 @@
     <!-- https://credit.niso.org/contributor-roles/validation -->
 
     <owl:Class rdf:about="https://credit.niso.org/contributor-roles/validation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/credit#contributor-role"/>
         <dcterms:description>Verification, whether as a part of the activity or separate, of the overall replication/reproducibility of results/experiments and other research outputs.</dcterms:description>
         <rdfs:label>Validation</rdfs:label>
     </owl:Class>
@@ -168,6 +246,7 @@
     <!-- https://credit.niso.org/contributor-roles/visualization -->
 
     <owl:Class rdf:about="https://credit.niso.org/contributor-roles/visualization">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/credit#contributor-role"/>
         <dcterms:description>Preparation, creation and/or presentation of the published work, specifically visualization/data presentation.</dcterms:description>
         <rdfs:label>Visualization</rdfs:label>
     </owl:Class>
@@ -177,6 +256,7 @@
     <!-- https://credit.niso.org/contributor-roles/writing-original-draft -->
 
     <owl:Class rdf:about="https://credit.niso.org/contributor-roles/writing-original-draft">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/credit#contributor-role"/>
         <dcterms:description>Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation).</dcterms:description>
         <rdfs:label>Writing – original draft</rdfs:label>
     </owl:Class>
@@ -186,9 +266,30 @@
     <!-- https://credit.niso.org/contributor-roles/writing-review-editing -->
 
     <owl:Class rdf:about="https://credit.niso.org/contributor-roles/writing-review-editing">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/credit#contributor-role"/>
         <dcterms:description>Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision — including pre- or post-publication stages.</dcterms:description>
         <rdfs:label>Writing – review &amp; editing</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://orcid.org/0000-0003-4423-4370 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-4423-4370">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <rdfs:label>Charles Tapley Hoyt</rdfs:label>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 

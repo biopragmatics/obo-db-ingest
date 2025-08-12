@@ -1,4 +1,4 @@
-# CASRAI Contributor Roles Taxonomy
+# Contributor Roles Taxonomy
 
 CRediT (Contributor Roles Taxonomy) is high-level taxonomy, including 14 roles, that can be used to represent the roles typically played by contributors to scientific scholarly output. The roles describe each contributor’s specific contribution to the scholarly output.
 
@@ -21,4 +21,7 @@ CRediT (Contributor Roles Taxonomy) is high-level taxonomy, including 14 roles, 
 | field       |   count |
 |-------------|---------|
 | definitions |      14 |
+| mappings    |       1 |
+| parents     |      15 |
+| properties  |       1 |
 | terms       |      14 |

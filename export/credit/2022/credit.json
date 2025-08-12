@@ -3,24 +3,53 @@
     "id" : "https://w3id.org/biopragmatics/resources/credit/credit.ofn",
     "meta" : {
       "basicPropertyValues" : [ {
+        "pred" : "http://purl.obolibrary.org/obo/IAO_0000700",
+        "val" : "http://purl.obolibrary.org/obo/credit#contributor-role"
+      }, {
         "pred" : "http://purl.org/dc/terms/description",
-        "val" : "CRediT \\(Contributor Roles Taxonomy\\) is high-level taxonomy\\, including 14 roles\\, that can be used to represent the roles typically played by contributors to scientific scholarly output. The roles describe each contributor’s specific contribution to the scholarly output."
+        "val" : "CRediT (Contributor Roles Taxonomy) is high-level taxonomy, including 14 roles, that can be used to represent the roles typically played by contributors to scientific scholarly output. The roles describe each contributor’s specific contribution to the scholarly output."
       }, {
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "CC-BY-4.0"
       }, {
         "pred" : "http://purl.org/dc/terms/title",
-        "val" : "CASRAI Contributor Roles Taxonomy"
+        "val" : "Contributor Roles Taxonomy"
+      }, {
+        "pred" : "http://usefulinc.com/ns/doap#maintainer",
+        "val" : "https://orcid.org/0000-0002-9298-3168"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-        "val" : "PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T12:20:11.654448"
+        "val" : "PyOBO v0.12.5-dev-057852a0 on 2025-08-12T02:23:45.803432"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
         "val" : "2022"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/homepage",
+        "val" : "https://credit.niso.org/"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/logo",
+        "val" : "https://api.fairsharing.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaUFCIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--af4f02374db4f42007e6674ea2055ccaa36aa830/credit-icon-499x500-1.png?disposition=inline"
       } ],
       "version" : "https://w3id.org/biopragmatics/resources/credit/2022/credit.ofn"
     },
     "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+      "lbl" : "Homo sapiens",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/credit#contributor-role",
+      "lbl" : "contributor role",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0003-4423-4370"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/CRO_0000000"
+        } ]
+      }
+    }, {
       "id" : "https://credit.niso.org/contributor-roles/conceptualization",
       "lbl" : "Conceptualization",
       "type" : "CLASS",
@@ -160,6 +189,76 @@
           "val" : "Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision — including pre- or post-publication stages."
         } ]
       }
+    }, {
+      "id" : "https://orcid.org/0000-0003-4423-4370",
+      "lbl" : "Charles Tapley Hoyt",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000700",
+      "lbl" : "has ontology root term",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    } ],
+    "edges" : [ {
+      "sub" : "https://credit.niso.org/contributor-roles/conceptualization",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/credit#contributor-role"
+    }, {
+      "sub" : "https://credit.niso.org/contributor-roles/data-curation",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/credit#contributor-role"
+    }, {
+      "sub" : "https://credit.niso.org/contributor-roles/formal-analysis",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/credit#contributor-role"
+    }, {
+      "sub" : "https://credit.niso.org/contributor-roles/funding-acquisition",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/credit#contributor-role"
+    }, {
+      "sub" : "https://credit.niso.org/contributor-roles/investigation",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/credit#contributor-role"
+    }, {
+      "sub" : "https://credit.niso.org/contributor-roles/methodology",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/credit#contributor-role"
+    }, {
+      "sub" : "https://credit.niso.org/contributor-roles/project-administration",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/credit#contributor-role"
+    }, {
+      "sub" : "https://credit.niso.org/contributor-roles/resources",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/credit#contributor-role"
+    }, {
+      "sub" : "https://credit.niso.org/contributor-roles/software",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/credit#contributor-role"
+    }, {
+      "sub" : "https://credit.niso.org/contributor-roles/supervision",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/credit#contributor-role"
+    }, {
+      "sub" : "https://credit.niso.org/contributor-roles/validation",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/credit#contributor-role"
+    }, {
+      "sub" : "https://credit.niso.org/contributor-roles/visualization",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/credit#contributor-role"
+    }, {
+      "sub" : "https://credit.niso.org/contributor-roles/writing-original-draft",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/credit#contributor-role"
+    }, {
+      "sub" : "https://credit.niso.org/contributor-roles/writing-review-editing",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/credit#contributor-role"
+    }, {
+      "sub" : "https://orcid.org/0000-0003-4423-4370",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     } ]
   } ]
 }
