@@ -92,7 +92,7 @@ def main(write_excel: bool, regenerate_old: bool) -> None:
             "uri": owl_purl,
             "description": description,
             "homepage": resource.get_homepage(),
-            "mailing_list": resource.contact_group_email or resource.get_contact_email(),
+            "mailing_list": resource.get_mailing_list() or resource.get_contact_email(),
             "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
             "definition_property": [
                 "http://purl.org/dc/terms/description",
