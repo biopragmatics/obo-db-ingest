@@ -1,8 +1,8 @@
-date: '2025-07-15'
+date: '2025-08-12'
 dependencies:
   bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.24-dev-1ec38e50
-  pyobo: 0.12.5-dev-0872694b
+  bioregistry: 0.12.31-dev-ea5ddd7a
+  pyobo: 0.12.5-dev-057852a0
 errored: false
 manifest:
   nodes:
@@ -62,6 +62,7 @@ manifest:
 prefix_map:
   IAO: http://purl.obolibrary.org/obo/IAO_
   dcterms: http://purl.org/dc/terms/
+  foaf: http://xmlns.com/foaf/0.1/
   mesh: http://id.nlm.nih.gov/mesh/
   obo: http://purl.obolibrary.org/obo/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
