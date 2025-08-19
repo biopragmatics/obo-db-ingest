@@ -1,8 +1,8 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
@@ -45,7 +45,7 @@ manifest:
     alts: 0
     definitions: 27
     license: CC-BY-SA-3.0
-    mappings: 9479
+    mappings: 9477
     parents: 16027
     properties: 14803
     references: 0
@@ -65,8 +65,12 @@ prefix_map:
   RO: http://purl.obolibrary.org/obo/RO_
   chembl.target: https://www.ebi.ac.uk/chembl/target/inspect/
   dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
+  ensembl: http://rdf.ebi.ac.uk/resource/ensembl/
+  foaf: http://xmlns.com/foaf/0.1/
   obo: http://purl.obolibrary.org/obo/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   rdfs: http://www.w3.org/2000/01/rdf-schema#

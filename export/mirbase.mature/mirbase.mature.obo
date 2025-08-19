@@ -1,12 +1,15 @@
 format-version: 1.4
 data-version: 22.1
-auto-generated-by: PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:35:07.296984
+auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T01:25:41.106632
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
 idspace: mirbase.mature http://mirbase.org/cgi-bin/mature.pl?mature_acc= "miRBase mature miRNA"
 ontology: mirbase.mature
 property_value: dcterms:title "miRBase mature miRNA" xsd:string
 property_value: dcterms:license "public domain" xsd:string
 property_value: dcterms:description "The miRBase Sequence Database is a searchable database of published miRNA sequences and annotation. This collection refers specifically to the mature miRNA sequence." xsd:string
+property_value: foaf:homepage "http\://www.mirbase.org/" xsd:anyURI
+property_value: foaf:logo "https\://www.mirbase.org/static/images/mirbase-logo_new.png" xsd:anyURI
 
 [Term]
 id: mirbase.mature:MIMAT0000001

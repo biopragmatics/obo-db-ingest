@@ -1,5 +1,6 @@
 Prefix(biolink:=<https://w3id.org/biolink/vocab/>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
+Prefix(foaf:=<http://xmlns.com/foaf/0.1/>)
 Prefix(icd10:=<https://icd.who.int/browse10/2019/en#/>)
 Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
@@ -10,9 +11,13 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Ontology(<https://w3id.org/biopragmatics/resources/icd10/icd10.ofn> <https://w3id.org/biopragmatics/resources/icd10/2016/icd10.ofn>
 Annotation(dcterms:title "International Classification of Diseases, 10th Revision"^^xsd:string)
 Annotation(dcterms:license "https://cdn.who.int/media/docs/default-source/publishing-policies/copyright/who-faq-licensing-icd-10.pdf"^^xsd:anyURI)
-Annotation(dcterms:description "The 10th revision of the International Classification of Diseases \\(ICD\\) issued by the World Health Organization \\(WHO\\). ICD is formally named 'The International Statistical Classification of Diseases and Related Health Problems'. It contains codes for diseases\\, signs and symptoms\\, abnormal findings\\, complaints\\, social circumstances\\, and external causes of injury or diseases.\\n\\nNote that the WHO version of ICD-10 is distinct from the ICD-10-CM \\(Clinical Modification\\) issued by the U.S. National Center for Health Statistics for use in the United States."^^xsd:string)
+Annotation(dcterms:description "The 10th revision of the International Classification of Diseases (ICD) issued by the World Health Organization (WHO). ICD is formally named 'The International Statistical Classification of Diseases and Related Health Problems'. It contains codes for diseases, signs and symptoms, abnormal findings, complaints, social circumstances, and external causes of injury or diseases.
+
+Note that the WHO version of ICD-10 is distinct from the ICD-10-CM (Clinical Modification) issued by the U.S. National Center for Health Statistics for use in the United States."^^xsd:string)
+Annotation(foaf:homepage "https://icd.who.int/browse10"^^xsd:anyURI)
+Annotation(foaf:logo "https://upload.wikimedia.org/wikipedia/commons/a/a4/Icd10codeslogo.png"^^xsd:anyURI)
 Annotation(owl:versionInfo "2016"^^xsd:string)
-Annotation(oboInOwl:auto-generated-by "PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:33:26.403978"^^xsd:string)
+Annotation(oboInOwl:auto-generated-by "PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T01:24:05.741084"^^xsd:string)
 
 Declaration(AnnotationProperty(biolink:category))
 AnnotationAssertion(rdfs:label biolink:category "has category")

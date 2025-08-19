@@ -20,8 +20,8 @@ BiGG is a knowledgebase of Biochemically, Genetically and Genomically structured
 
 | field       |   count |
 |-------------|---------|
-| alts        |    8200 |
+| alts        |    6375 |
 | definitions |   28301 |
-| mappings    |   80920 |
-| properties  |  259622 |
+| mappings    |   79068 |
+| properties  |  257797 |
 | terms       |   28301 |

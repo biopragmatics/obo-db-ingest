@@ -1,8 +1,8 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
@@ -33,13 +33,13 @@ manifest:
     alts: 0
     definitions: 0
     license: public domain
-    mappings: 50612
-    parents: 42036
-    properties: 61570
+    mappings: 49549
+    parents: 39838
+    properties: 57616
     references: 0
     relations: 0
-    synonyms: 83576
-    terms: 41583
+    synonyms: 78198
+    terms: 39390
     version: null
   synonyms:
     gzipped: false
@@ -54,6 +54,7 @@ prefix_map:
   biolink: https://w3id.org/biolink/vocab/
   dcat: http://www.w3.org/ns/dcat#
   dcterms: http://purl.org/dc/terms/
+  foaf: http://xmlns.com/foaf/0.1/
   issn: https://portal.issn.org/resource/ISSN/
   nlm: https://www.ncbi.nlm.nih.gov/nlmcatalog/
   nlm.publisher: 'https://bioregistry.io/nlm.publisher:'

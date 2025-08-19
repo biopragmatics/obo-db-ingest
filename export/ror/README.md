@@ -23,7 +23,7 @@ operated by California Digital Library, Crossref, and Datacite.
 | field       |   count |
 |-------------|---------|
 | definitions |  107096 |
-| mappings    |  237178 |
+| mappings    |  237173 |
 | parents     |  122664 |
 | properties  |  104993 |
 | relations   |  155567 |

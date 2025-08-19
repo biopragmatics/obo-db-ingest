@@ -20,8 +20,8 @@ The NLM Catalog provides access to NLM bibliographic data for journals, books, a
 
 | field      |   count |
 |------------|---------|
-| mappings   |   50612 |
-| parents    |   42036 |
-| properties |   61570 |
-| synonyms   |   83576 |
-| terms      |   41583 |
+| mappings   |   49549 |
+| parents    |   39838 |
+| properties |   57616 |
+| synonyms   |   78198 |
+| terms      |   39390 |

@@ -20,9 +20,9 @@ The Mouse Genome Database (MGD) project includes data on gene characterization, 
 
 | field       |   count |
 |-------------|---------|
-| definitions |  719756 |
-| mappings    |  168405 |
-| properties  |  111831 |
-| relations   |  930562 |
-| synonyms    |  259761 |
-| terms       |  719756 |
+| definitions |  661778 |
+| mappings    |  189484 |
+| properties  |  111826 |
+| relations   |  997093 |
+| synonyms    |  260089 |
+| terms       |  661778 |

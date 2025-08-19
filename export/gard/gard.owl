@@ -6,14 +6,20 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:gard="https://bioregistry.io/gard:"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:orcid="https://orcid.org/"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://w3id.org/biopragmatics/resources/gard/gard.ofn">
-        <dcterms:description>Database of rare diseases and related terms\, including symptoms\, healthcare resources\, and organizations supporting research of the disease.</dcterms:description>
+        <dcterms:description>Database of rare diseases and related terms, including symptoms, healthcare resources, and organizations supporting research of the disease.</dcterms:description>
         <dcterms:title>Genetic and Rare Diseases Information Center</dcterms:title>
-        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T12:20:16.794465</oboInOwl:auto-generated-by>
+        <doap:maintainer rdf:resource="https://orcid.org/0000-0001-7697-3026"/>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:36:42.488211</oboInOwl:auto-generated-by>
+        <foaf:homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://rarediseases.info.nih.gov/diseases</foaf:homepage>
+        <foaf:logo rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://rarediseases.info.nih.gov/assets/GARD_Logo_Mobile.svg</foaf:logo>
     </owl:Ontology>
     
 
@@ -41,6 +47,12 @@
     
 
 
+    <!-- http://usefulinc.com/ns/doap#maintainer -->
+
+    <owl:AnnotationProperty rdf:about="http://usefulinc.com/ns/doap#maintainer"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
@@ -50,6 +62,18 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/logo -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/logo"/>
     
 
 
@@ -1009,10 +1033,8 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:10130">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <oboInOwl:hasRelatedSynonym>22q13 deletion</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>PHMDS</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Phelan McDermid syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>monosomy 22q13</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>monosomy type 22q13</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Phelan-mcdermid syndrome</rdfs:label>
     </owl:Class>
     
@@ -2847,6 +2869,11 @@
     <owl:Class rdf:about="https://bioregistry.io/gard:10430">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>DS</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Dravet</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>SME</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>SMEB</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>myoclonic epilepsy, severe, of infancy</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>severe myoclonic epilepsy of infancy</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Dravet syndrome</rdfs:label>
     </owl:Class>
     
@@ -4619,6 +4646,7 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:10649">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
+        <oboInOwl:hasRelatedSynonym>KCNV2-related retinopathy</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>cone dystrophy with supernormal rod ERG</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>cone dystrophy with supernormal rod electroretinogram</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>cone dystrophy with supernormal scotopic electroretinogram</oboInOwl:hasRelatedSynonym>
@@ -5232,6 +5260,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>PNPO-related neonatal epileptic encephalopathy</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>pnpo deficiency</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>pyridox(am)ine 5’-phosphate oxidase deficiency</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>pyridoxal phosphate-dependent seizures</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>pyridoxamine 5&apos;-oxidase deficiency</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>pyridoxamine 5&apos;-phosphate oxidase deficiency</oboInOwl:hasRelatedSynonym>
@@ -6593,12 +6622,8 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:10913">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <oboInOwl:hasRelatedSynonym>ChC)diak-Higashi-like syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Chédiak-Higashi-like syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ch��diak-Higashi-like syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Griscelli-PruniC)ras syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Griscelli-Pruniéras syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Griscelli-Pruni��ras syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>partial albinism-immunodeficiency syndrome</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Griscelli syndrome</rdfs:label>
     </owl:Class>
@@ -6865,16 +6890,6 @@
     
 
 
-    <!-- https://bioregistry.io/gard:10941 -->
-
-    <owl:Class rdf:about="https://bioregistry.io/gard:10941">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <oboInOwl:hasRelatedSynonym>anterior uveitis (disease)</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Anterior uveitis</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://bioregistry.io/gard:10942 -->
 
     <owl:Class rdf:about="https://bioregistry.io/gard:10942">
@@ -6904,10 +6919,9 @@
         <oboInOwl:hasRelatedSynonym>CDG-IIL</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>CDG2L</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>COG6-CDG</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>COG6-congenital disorder of glycosylation</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>congenital disorder of glycosylation type 2l</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>congenital disorder of glycosylation type IIL</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>COG6-ongenital disorder of glycosylation</rdfs:label>
+        <rdfs:label>COG6-congenital disorder of glycosylation</rdfs:label>
     </owl:Class>
     
 
@@ -6917,7 +6931,7 @@
     <owl:Class rdf:about="https://bioregistry.io/gard:10945">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>soph syndrome</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Short stature-optic atrophy-Pelger-HuC+t anomaly syndrome</rdfs:label>
+        <rdfs:label>Short stature-optic atrophy-Pelger-Huët anomaly syndrome</rdfs:label>
     </owl:Class>
     
 
@@ -14222,9 +14236,9 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:13259">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <oboInOwl:hasRelatedSynonym>ASXL3-Related Disorder</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bainbridge-Ropers syndrome</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Severe feeding difficulties-failure to thrive-microcephaly due to asxl3 deficiency syndrome</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>Severe feeding difficulties-failure to thrive-microcephaly due to asxl3 deficiency syndrome</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>ASXL3-Related Disorder</rdfs:label>
     </owl:Class>
     
 
@@ -14436,7 +14450,8 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:1334">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <oboInOwl:hasRelatedSynonym>Ring chromosome type 20</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ring chromosome 20 syndrome</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ring chromosome type 20</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Ring chromosome 20</rdfs:label>
     </owl:Class>
     
@@ -16231,8 +16246,22 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>CSWS</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>CSWSS syndrome</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>EE-SWAS</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>EESWAS</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ESES with language regression</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>LK syndrome</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>LKS</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>continuous slow spike and wave of sleep</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>continuous spike-wave in sleep</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>continuous spikes and waves during slow-wave sleep</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>electrical status epilepticus of sleep</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>electrographic status epilepticus in sleep</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>electrographic status epilepticus of sleep</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>epileptic aphasia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>epileptic encephalopathy with continuous spike-and-wave during slow sleep</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>epileptic encephalopathy with spike and wave activation in sleep</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>epileptic encephalopathy with spike-and-wave activation in sleep</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>eses index</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Continuous spikes and waves during sleep</rdfs:label>
     </owl:Class>
     
@@ -16848,6 +16877,7 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:16108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
+        <oboInOwl:hasRelatedSynonym>MAE</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Myoclonic Atonic Epilepsy</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Myoclonic-atonic epilepsy</rdfs:label>
     </owl:Class>
@@ -17320,8 +17350,7 @@
     <owl:Class rdf:about="https://bioregistry.io/gard:16545">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>PHA type 1</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>PHA1B</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>pseudohypoaldosteronism type I autosomal recessive</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>pseudohypoaldosteronism, type I</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Pseudohypoaldosteronism type 1</rdfs:label>
     </owl:Class>
     
@@ -17661,8 +17690,8 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:16581">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
+        <oboInOwl:hasRelatedSynonym>EME</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>early myoclonic encephalopathy with suppression-bursts</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>eme</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>epileptic seizures - myoclonic</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>epileptic seizures, myoclonic</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>myoclonia epileptica</oboInOwl:hasRelatedSynonym>
@@ -18208,7 +18237,6 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:16648">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <oboInOwl:hasRelatedSynonym>MC)garbanC)-Loiselet syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Mégarbané-Loiselet syndrome</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Branchiogenic deafness syndrome</rdfs:label>
     </owl:Class>
@@ -18961,7 +18989,6 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:16734">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <oboInOwl:hasRelatedSynonym>VC$sterbotten dystrophy</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Vasterbotten dystrophy</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Västerbotten dystrophy</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Bothnia retinal dystrophy</rdfs:label>
@@ -23038,7 +23065,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>HPE, minor form</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>HPE-L</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>HoloprosencC)phalie, minor form</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Holoprosencéphalie, minor form</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Microform HPE</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>holoprosencephaly-like</oboInOwl:hasRelatedSynonym>
@@ -25411,6 +25437,7 @@
         <oboInOwl:hasRelatedSynonym>APA with seizures and neurological abnormalities</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Conn adenoma with seizures and neurological abnormalities</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>aldosterone-secreting adenoma with seizures and neurological abnormalities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>complex neurodevelopmental disorder with or without aldosteronism</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>primary aldosteronism, seizures, and neurologic abnormalities</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Aldosterone-producing adenoma with seizures and neurological abnormalities</rdfs:label>
     </owl:Class>
@@ -25785,6 +25812,7 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:17639">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
+        <oboInOwl:hasRelatedSynonym>PNMHH</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>peripheral neuropathy-myopathy-hoarseness-deafness syndrome</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Peripheral neuropathy-myopathy-hoarseness-hearing loss syndrome</rdfs:label>
     </owl:Class>
@@ -26396,6 +26424,7 @@
     <owl:Class rdf:about="https://bioregistry.io/gard:17697">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>KWWH type IV</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Wooly hair-palmoplantar keratoderma syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>keratoderma with woolly hair type IV</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>keratoderma with wooly hair type IV</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>woolly hair-palmoplantar hyperkeratosis syndrome</oboInOwl:hasRelatedSynonym>
@@ -26923,8 +26952,10 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:17744">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
+        <oboInOwl:hasRelatedSynonym>SFTPC-related ILD</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>interstitial lung disease due to SP-C deficiency</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>interstitial lung disease due to surfactant protein C deficiency</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Interstitial lung disease due to sp-c deficiency</rdfs:label>
+        <rdfs:label>SFTPC- related interstitial lung disease</rdfs:label>
     </owl:Class>
     
 
@@ -30002,6 +30033,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>GEFS+</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>epilepsy, generalized, with febrile seizures plus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>generalised epilepsy with febrile seizures-plus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>genetic epilepsy with febrile seizures plus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>genetic epilepsy with febrile seizures-plus</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Generalized epilepsy with febrile seizures plus</rdfs:label>
@@ -31651,6 +31683,7 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:19087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
+        <oboInOwl:hasRelatedSynonym>EMA</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Epilepsy with myoclonic absences</rdfs:label>
     </owl:Class>
     
@@ -32525,7 +32558,7 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:19579">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <rdfs:label>Isochromosomy yp</rdfs:label>
+        <rdfs:label>Isochromosomy Yp</rdfs:label>
     </owl:Class>
     
 
@@ -32534,7 +32567,7 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:19580">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <rdfs:label>Isochromosomy yq</rdfs:label>
+        <rdfs:label>Isochromosomy Yq</rdfs:label>
     </owl:Class>
     
 
@@ -34298,7 +34331,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>UPD(X)mat</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>maternal uniparental disomy of chromosome type X</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Maternal uniparental disomy of chromosome x</rdfs:label>
+        <rdfs:label>Maternal uniparental disomy of chromosome X</rdfs:label>
     </owl:Class>
     
 
@@ -34309,7 +34342,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>UPD(X)pat</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>paternal uniparental disomy of chromosome type X</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Paternal uniparental disomy of chromosome x</rdfs:label>
+        <rdfs:label>Paternal uniparental disomy of chromosome X</rdfs:label>
     </owl:Class>
     
 
@@ -34329,7 +34362,6 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:2081">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <oboInOwl:hasRelatedSynonym>BJHS</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>EDS III</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>EDSHMB</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Ehlers-Danlos syndrome type 3</oboInOwl:hasRelatedSynonym>
@@ -34338,7 +34370,6 @@
         <oboInOwl:hasRelatedSynonym>Ehlers-Danlos syndrome, type 3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Ehlers-Danlos syndrome, type III</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>HT-EDS</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>benign joint hypermobility syndrome</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Ehlers-danlos syndrome, hypermobility type</rdfs:label>
     </owl:Class>
     
@@ -36156,6 +36187,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>Doose syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>EMAS</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>epilepsy with myoclonic atonic seizures</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>epilepsy with myoclonic-astatic seizures</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>epilepsy with myoclonic-atonic seizures</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>myoclonic atonic epilepsy</oboInOwl:hasRelatedSynonym>
@@ -36219,7 +36251,8 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:2170">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <rdfs:label>Benign occipital epilepsy</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>benign occipital epilepsy</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Self-limited childhood occipital epilepsy</rdfs:label>
     </owl:Class>
     
 
@@ -38375,15 +38408,6 @@
     
 
 
-    <!-- https://bioregistry.io/gard:2361 -->
-
-    <owl:Class rdf:about="https://bioregistry.io/gard:2361">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <rdfs:label>Formaldehyde poisoning</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://bioregistry.io/gard:2362 -->
 
     <owl:Class rdf:about="https://bioregistry.io/gard:2362">
@@ -39374,7 +39398,6 @@
         <oboInOwl:hasRelatedSynonym>GS1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Griscelli syndrome with neurological impairment</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Griscelli syndrome, cutaneous and neurological type</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Griscelli-PruniC)ras syndrome type 1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Griscelli-Pruniéras syndrome type 1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>hypopigmentation-neurologic impairment syndrome</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Griscelli syndrome type 1</rdfs:label>
@@ -42085,7 +42108,7 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:3123">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <oboInOwl:hasRelatedSynonym>klumpke-dc)jerine paralysis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>klumpke-déjerine paralysis</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Klumpke&apos;s paralysis</rdfs:label>
     </owl:Class>
     
@@ -43457,7 +43480,6 @@
     <owl:Class rdf:about="https://bioregistry.io/gard:3448">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>MMR syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>NeuhC$user syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Neuhäuser syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>megalocornea intellectual disability syndrome</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Megalocornea-intellectual disability syndrome</rdfs:label>
@@ -46696,13 +46718,13 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>HRD syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>HRDS</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Hypoparathyroidism-retardation-dysmorphism syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Richardson-Kirk syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>SSS</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Sanjad-Sakati syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>hypoparathyroidism with short stature, intellectual disability and seizures</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>hypoparathyroidism-intellectual disability-dysmorphism syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>hypoparathyroidism-short stature-intellectual disability-seizures syndrome</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Hypoparathyroidism-retardation-dysmorphism syndrome</rdfs:label>
+        <rdfs:label>Sanjad-Sakati syndrome</rdfs:label>
     </owl:Class>
     
 
@@ -46894,7 +46916,8 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:4142">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <rdfs:label>Osteoglophonic dwarfism</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>Osteoglophonic dwarfism</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Osteoglophonic dysplasia</rdfs:label>
     </owl:Class>
     
 
@@ -47774,7 +47797,6 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:4323">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <oboInOwl:hasRelatedSynonym>Stoll-LC)vy-Francfort syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Stoll-Lévy-Francfort syndrome</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Phocomelia-ectrodactyly-deafness-sinus arrhythmia syndrome</rdfs:label>
     </owl:Class>
@@ -48444,9 +48466,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>GS2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Griscelli syndrome with hemophagocytic syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Griscelli-PruniC)ras syndrome type 2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Griscelli-Pruniéras syndrome type 2</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Griscelli-Pruni��ras syndrome type 2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>hypopigmentation-immunodeficiency with or without neurologic impairment syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>paid syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>partial albinism and immunodeficiency syndrome</oboInOwl:hasRelatedSynonym>
@@ -48658,13 +48678,7 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:4520">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <oboInOwl:hasRelatedSynonym>familial prostate cancer</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>hereditary prostate cancer</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>hereditary prostate carcinoma</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>prostate cancer, autosomal dominant, somatic mutation</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>prostate cancer, familial, susceptibility to, autosomal dominant, somatic mutation</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>prostate cancer, somatic</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>prostate cancer, susceptibility to, autosomal dominant, somatic mutation</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Familial prostate carcinoma</rdfs:label>
     </owl:Class>
     
@@ -48821,7 +48835,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>PHA1B</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>autosomal recessive PHA 1</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Autosomal recessive pseudohypoaldosteronism type 1</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>autosomal recessive pseudohypoaldosteronism type 1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>generalised PHA1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>generalised pseudohypoaldosteronism type 1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>generalized PHA1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>generalized pseudohypoaldosteronism type 1</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Pseudohypoaldosteronism, type ib1, autosomal recessive</rdfs:label>
     </owl:Class>
     
 
@@ -52798,7 +52817,7 @@
         <oboInOwl:hasRelatedSynonym>partial duplication of the long arm of chromosome type X</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>partial trisomy of chromosome Xq</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>partial trisomy of the long arm of chromosome X</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Partial duplication of the long arm of chromosome x</rdfs:label>
+        <rdfs:label>Partial duplication of the long arm of chromosome X</rdfs:label>
     </owl:Class>
     
 
@@ -54291,7 +54310,7 @@
         <oboInOwl:hasRelatedSynonym>XXX syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>triple X syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>trisomy type X</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Trisomy x</rdfs:label>
+        <rdfs:label>Trisomy X</rdfs:label>
     </owl:Class>
     
 
@@ -54343,7 +54362,7 @@
         <oboInOwl:hasRelatedSynonym>penta x syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>penta-X</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>poly-X</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Pentasomy x</rdfs:label>
+        <rdfs:label>Pentasomy X</rdfs:label>
     </owl:Class>
     
 
@@ -54538,11 +54557,14 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:5696">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
+        <oboInOwl:hasRelatedSynonym>RTS</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>RTT</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Rett syndrome, X-linked dominant</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Rett syndrome, atypical, X-linked dominant</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Rett syndrome, preserved speech variant, X-linked dominant</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Rett&apos;s disorder</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Rett’s disease</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>cerebroatrophic hyperammonemia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>rett syndrome, X-linked dominant</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>rett syndrome, atypical, X-linked dominant</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>rett syndrome, preserved speech variant, X-linked dominant</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Rett syndrome</rdfs:label>
     </owl:Class>
     
@@ -54923,9 +54945,12 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:5764">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
+        <oboInOwl:hasRelatedSynonym>AIC</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Aicardi syndrome, X-linked dominant</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Aicardi’s syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>agenesis of corpus callosum with chorioretinal abnormality</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>corpus callosum agenesis of with chorioretinal abnormality</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>corpus callosum, agenesis of, with chorioretinal abnormality</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Aicardi syndrome</rdfs:label>
     </owl:Class>
     
@@ -54970,6 +54995,7 @@
         <oboInOwl:hasRelatedSynonym>Alpers progressive sclerosing poliodystrophy</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Alpers syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Alpers&apos; disease or gray-matter degeneration</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Alpers-Huttenlocher</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Alpers-Huttenlocher syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>alpers disease</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>mitochondrial DNA depletion syndrome type 4a</oboInOwl:hasRelatedSynonym>
@@ -55109,6 +55135,7 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:5810">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
+        <oboInOwl:hasRelatedSynonym>Angelman’s syndrome</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Angelman syndrome</rdfs:label>
     </owl:Class>
     
@@ -56255,8 +56282,6 @@
     <owl:Class rdf:about="https://bioregistry.io/gard:6035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>CHS</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>ChC)diak-Higashi disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>ChC)diak-Higashi-Steinbrink syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Chediak - Steinbrinck anomaly</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Chédiak-Higashi disease</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Chédiak-Higashi syndrome</oboInOwl:hasRelatedSynonym>
@@ -58021,6 +58046,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>carcinoma of the esophagus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>carcinoma of the oesophagus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>esophageal cancer</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>esophageal carcinoma</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>esophagus carcinoma</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>oesophagus carcinoma</oboInOwl:hasRelatedSynonym>
@@ -59020,16 +59046,6 @@
         <oboInOwl:hasRelatedSynonym>Hay-Wells syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>aec syndrome</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Ankyloblepharon-ectodermal defects-cleft lip/palate syndrome</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://bioregistry.io/gard:6577 -->
-
-    <owl:Class rdf:about="https://bioregistry.io/gard:6577">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <oboInOwl:hasRelatedSynonym>toxic effect of heavy metal</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Heavy metal poisoning</rdfs:label>
     </owl:Class>
     
 
@@ -60066,17 +60082,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>multiple keratoacanthoma, Muir-Torre type</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Muir-torre syndrome</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://bioregistry.io/gard:6824 -->
-
-    <owl:Class rdf:about="https://bioregistry.io/gard:6824">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <oboInOwl:hasRelatedSynonym>conical cornea</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>keratoconus (disease)</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Keratoconus</rdfs:label>
     </owl:Class>
     
 
@@ -61275,18 +61280,6 @@
     
 
 
-    <!-- https://bioregistry.io/gard:7021 -->
-
-    <owl:Class rdf:about="https://bioregistry.io/gard:7021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <oboInOwl:hasRelatedSynonym>Mercury intoxication</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>hydrargyria</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>mercurialism</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Mercury poisoning</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://bioregistry.io/gard:7026 -->
 
     <owl:Class rdf:about="https://bioregistry.io/gard:7026">
@@ -61820,6 +61813,7 @@
     <owl:Class rdf:about="https://bioregistry.io/gard:7144">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>Fukuhara syndrome</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>MERRF</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>myoclonic epilepsy - ragged red fibers</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>myoclonic epilepsy - ragged red fibres</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>myoclonus epilepsy and ragged red fibers</oboInOwl:hasRelatedSynonym>
@@ -62074,15 +62068,17 @@
     <owl:Class rdf:about="https://bioregistry.io/gard:7193">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>NF2</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>NF2-related schwannomatosis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>SWNV</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>bilateral acoustic neurofibromatosis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>central neurofibromatosis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>full NF2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>full neurofibromatosis type 2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>neurofibromatosis 2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>neurofibromatosis type 2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>nonmosaic NF2-related schwannomatosis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>nonmosaic neurofibromatosis type 2</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Neurofibromatosis type 2</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>vestibular schwannomatosis</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>NF2-related schwannomatosis</rdfs:label>
     </owl:Class>
     
 
@@ -63876,7 +63872,6 @@
     <owl:Class rdf:about="https://bioregistry.io/gard:7629">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>CTCL / Sezary syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>SC)zary syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Sezary disease</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Sezary lymphoma</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Sezary&apos;s disease</oboInOwl:hasRelatedSynonym>
@@ -64148,15 +64143,15 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:7706">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <oboInOwl:hasRelatedSynonym>Encephalofacial angiomatosis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Encephalotrigeminal angiomatosis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Encephalotrigeminal syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>SWS</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Sturge-Weber disease</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Sturge-Weber syndrome, somatic, mosaic</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Sturge-Weber-Dimitri syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Sturge-Weber-Krabbe angiomatosis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Sturge-Weber-Krabbe syndrome</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>encephalofacial angiomatosis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>encephalotrigeminal angiomatosis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>encephalotrigeminal syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>sturge weber syndrome</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Sturge-weber syndrome</rdfs:label>
     </owl:Class>
@@ -64319,7 +64314,7 @@
         <oboInOwl:hasRelatedSynonym>quadruple X</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>tetra X</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>tetrasomy type X</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Tetrasomy x</rdfs:label>
+        <rdfs:label>Tetrasomy X</rdfs:label>
     </owl:Class>
     
 
@@ -64556,12 +64551,12 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:7830">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
+        <oboInOwl:hasRelatedSynonym>Bourneville disease</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bourneville syndrome</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Bourneville&apos;s disease</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bourneville&apos;s syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Epiloia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>TSC</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>bourneville&apos;s disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>cerebral sclerosis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>epiloia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>tuberose sclerosis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>tuberous sclerosis complex</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>tuberous sclerosis syndrome</oboInOwl:hasRelatedSynonym>
@@ -66535,7 +66530,10 @@
 
     <owl:Class rdf:about="https://bioregistry.io/gard:8406">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
+        <oboInOwl:hasRelatedSynonym>Del Castillo syndrome</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Germinal cell aplasia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>SPGFX1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Sertoli cell-only syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>spermatogenic failure, X-linked, type 1</oboInOwl:hasRelatedSynonym>
         <rdfs:label>X-linked spermatogenic failure 1</rdfs:label>
     </owl:Class>
@@ -66780,8 +66778,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>FHF</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Hibernian fever, familial</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>TNF receptor 1-associated periodic fever syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>TNF receptor 1-associated periodic syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>TNF receptor-associated periodic fever syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>TNF receptor-associated periodic syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>TRAPS</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>TRAPS syndrome</oboInOwl:hasRelatedSynonym>
@@ -70104,18 +70102,6 @@
     
 
 
-    <!-- https://bioregistry.io/gard:9299 -->
-
-    <owl:Class rdf:about="https://bioregistry.io/gard:9299">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
-        <oboInOwl:hasRelatedSynonym>Jamaican vomiting sickness</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Jamaican vomiting syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>acute intoxication by Blighia sapida</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Acute ackee fruit intoxication</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://bioregistry.io/gard:93 -->
 
     <owl:Class rdf:about="https://bioregistry.io/gard:93">
@@ -72897,9 +72883,7 @@
     <owl:Class rdf:about="https://bioregistry.io/gard:9715">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>GS3</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Griscelli-PruniC)ras syndrome type 3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Griscelli-Pruniéras syndrome type 3</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Griscelli-Pruni��ras syndrome type 3</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Griscelli syndrome type 3</rdfs:label>
     </owl:Class>
     
@@ -73743,16 +73727,15 @@
     <owl:Class rdf:about="https://bioregistry.io/gard:9817">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/gard#uncategorized"/>
         <oboInOwl:hasRelatedSynonym>DYT-GCH1</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>DYT5a</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Dopa-responsive dystonia, autosomal dominant</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>GTP cyclohydrolase 1-deficient dopa-responsive dystonia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>GTPCH1-deficient DRD</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>GTPCH1-deficient dopa-responsive dystonia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>HPD with marked diurnal fluctuation</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Segawa Syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>autosomal dominant Segawa syndrome</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Segawa syndrome, autosomal dominant</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>dystonia type 5</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>dystonia, DOPA-responsive, with or without hyperphenylalaninemia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>hereditary progressive dystonia with marked diurnal fluctuation</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>dystonia, Dopa-responsive, autosomal dominant</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>dystonia, progressive, with diurnal variation</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>dystonia-Parkinsonism with diurnal fluctuation</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Dystonia 5</rdfs:label>
     </owl:Class>
     

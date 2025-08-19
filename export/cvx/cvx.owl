@@ -10,13 +10,15 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:cvx1="http://purl.obolibrary.org/obo/cvx#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://w3id.org/biopragmatics/resources/cvx/cvx.ofn">
-        <dcterms:description>The CDC&apos;s National Center of Immunization and Respiratory Diseases \(NCIRD\) developed and maintains the CVX \(vaccine administered\) code set. The table below has the most up to date values. It includes both active and inactive vaccines available in the US. CVX codes for inactive vaccines allow transmission of historical immunization records.</dcterms:description>
+        <dcterms:description>The CDC&apos;s National Center of Immunization and Respiratory Diseases (NCIRD) developed and maintains the CVX (vaccine administered) code set. The table below has the most up to date values. It includes both active and inactive vaccines available in the US. CVX codes for inactive vaccines allow transmission of historical immunization records.</dcterms:description>
         <dcterms:title>Vaccine administered code set</dcterms:title>
-        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T12:20:12.690153</oboInOwl:auto-generated-by>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:29:08.420049</oboInOwl:auto-generated-by>
+        <foaf:homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx</foaf:homepage>
     </owl:Ontology>
     
 
@@ -103,6 +105,12 @@
     
 
 
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -138,17 +146,11 @@
         <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/89"/>
         <cvx1:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx1:nonvaccine>
         <cvx1:status>Inactive</cvx1:status>
-        <oboInOwl:hasExactSynonym>OPV</oboInOwl:hasExactSynonym>
-        <rdfs:comment>This is the OPV that was used in the US</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym>OPV, trivalent</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>This is the OPV used in the US from June 1963 through Dec 1999 and globally through April 2016</rdfs:comment>
         <rdfs:label>trivalent poliovirus vaccine, live, oral</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://biopragmatics.github.io/providers/cvx/02"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>OPV</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003012"/>
-    </owl:Axiom>
     
 
 
@@ -337,7 +339,7 @@
     <!-- https://biopragmatics.github.io/providers/cvx/105 -->
 
     <owl:Class rdf:about="https://biopragmatics.github.io/providers/cvx/105">
-        <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/75"/>
+        <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/325"/>
         <cvx1:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx1:nonvaccine>
         <cvx1:status>Inactive</cvx1:status>
         <oboInOwl:hasRelatedSynonym>vaccinia (smallpox) diluted</oboInOwl:hasRelatedSynonym>
@@ -435,8 +437,9 @@
         <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/88"/>
         <cvx1:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx1:nonvaccine>
         <cvx1:status>Active</cvx1:status>
-        <rdfs:comment>Trivalent code reactivated for 2024/2025 season</rdfs:comment>
-        <rdfs:label>Influenza, live, trivalent, intranasal</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>Influenza, live, trivalent, intranasal, PF</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>HCP administered, trivalent code reactivated for 2024/2025 season</rdfs:comment>
+        <rdfs:label>Influenza, live, trivalent, intranasal, preservative free</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
     
@@ -1732,9 +1735,9 @@
         <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/88"/>
         <cvx1:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx1:nonvaccine>
         <cvx1:status>Active</cvx1:status>
-        <oboInOwl:hasRelatedSynonym>influenza, Southern Hemisphere, preservative free</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Influenza, Southern Hemisphere, quadrivalent, PF</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>Represents single dose vial</rdfs:comment>
-        <rdfs:label>influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5mL dose, no preservative</rdfs:label>
+        <rdfs:label>Influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5 mL dose, preservative free</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
     
@@ -1797,7 +1800,7 @@
     <!-- https://biopragmatics.github.io/providers/cvx/206 -->
 
     <owl:Class rdf:about="https://biopragmatics.github.io/providers/cvx/206">
-        <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/75"/>
+        <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/325"/>
         <cvx1:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx1:nonvaccine>
         <cvx1:status>Active</cvx1:status>
         <oboInOwl:hasRelatedSynonym>Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection</oboInOwl:hasRelatedSynonym>
@@ -2651,6 +2654,19 @@
     
 
 
+    <!-- https://biopragmatics.github.io/providers/cvx/325 -->
+
+    <owl:Class rdf:about="https://biopragmatics.github.io/providers/cvx/325">
+        <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/325"/>
+        <cvx1:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx1:nonvaccine>
+        <cvx1:status>Inactive</cvx1:status>
+        <rdfs:comment>Use this CVX for historical records where; the formulation administered is not known, or is a non-US product without an associated CVX code.</rdfs:comment>
+        <rdfs:label>Vaccinia (smallpox, mpox), unspecified</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- https://biopragmatics.github.io/providers/cvx/326 -->
 
     <owl:Class rdf:about="https://biopragmatics.github.io/providers/cvx/326">
@@ -2678,6 +2694,34 @@
     
 
 
+    <!-- https://biopragmatics.github.io/providers/cvx/328 -->
+
+    <owl:Class rdf:about="https://biopragmatics.github.io/providers/cvx/328">
+        <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/108"/>
+        <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/164"/>
+        <cvx1:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx1:nonvaccine>
+        <cvx1:status>Active</cvx1:status>
+        <oboInOwl:hasRelatedSynonym>Meningococcal oligosaccharide (MenACWY), (MenB), PF</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>Meningococcal pentavalent vaccine strains ABCW and Y</rdfs:comment>
+        <rdfs:label>Meningococcal oligosaccharide conjugated (groups A, C, W, Y) and group B, 0.5 mL, preservative free</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- https://biopragmatics.github.io/providers/cvx/329 -->
+
+    <owl:Class rdf:about="https://biopragmatics.github.io/providers/cvx/329">
+        <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/317"/>
+        <cvx1:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx1:nonvaccine>
+        <cvx1:status>Active</cvx1:status>
+        <oboInOwl:hasRelatedSynonym>Chikungunya, VLP, recombinant, 0.8 mL, PF</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Chikungunya, virus-like particle (VLP), recombinant vaccine, 0.8 mL, preservative free</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- https://biopragmatics.github.io/providers/cvx/33 -->
 
     <owl:Class rdf:about="https://biopragmatics.github.io/providers/cvx/33">
@@ -2686,6 +2730,62 @@
         <cvx1:status>Active</cvx1:status>
         <oboInOwl:hasRelatedSynonym>pneumococcal polysaccharide PPV23</oboInOwl:hasRelatedSynonym>
         <rdfs:label>pneumococcal polysaccharide vaccine, 23 valent</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- https://biopragmatics.github.io/providers/cvx/330 -->
+
+    <owl:Class rdf:about="https://biopragmatics.github.io/providers/cvx/330">
+        <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/330"/>
+        <cvx1:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx1:nonvaccine>
+        <cvx1:status>Inactive</cvx1:status>
+        <oboInOwl:hasRelatedSynonym>Dengue fever, unspecified</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>Use this CVX for historical records where; the formulation of the dengue vaccine administered is not known, or is a non-US product without an associated CVX code.</rdfs:comment>
+        <rdfs:label>Dengue fever, unspecified formulation</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- https://biopragmatics.github.io/providers/cvx/331 -->
+
+    <owl:Class rdf:about="https://biopragmatics.github.io/providers/cvx/331">
+        <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/88"/>
+        <cvx1:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx1:nonvaccine>
+        <cvx1:status>Active</cvx1:status>
+        <oboInOwl:hasRelatedSynonym>Influenza, Southern Hemisphere, trivalent, PF</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>Represents single dose vial</rdfs:comment>
+        <rdfs:label>Influenza, seasonal, Southern Hemisphere, trivalent, 0.5 mL dose, preservative free</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- https://biopragmatics.github.io/providers/cvx/332 -->
+
+    <owl:Class rdf:about="https://biopragmatics.github.io/providers/cvx/332">
+        <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/304"/>
+        <cvx1:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx1:nonvaccine>
+        <cvx1:status>Active</cvx1:status>
+        <oboInOwl:hasRelatedSynonym>RSV, mAb, clesrovimab-cfor, 0.7 mL, neonate and infant, PF</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>RSV mAb for neonates and infants born during or entering first RSV season (Enflonsia)</rdfs:comment>
+        <rdfs:label>Respiratory syncytial virus (RSV), monoclonal antibody, IgG1κ, (clesrovimab-cfor), 0.7 mL, neonate and infant, preservative free</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- https://biopragmatics.github.io/providers/cvx/333 -->
+
+    <owl:Class rdf:about="https://biopragmatics.github.io/providers/cvx/333">
+        <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/88"/>
+        <cvx1:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx1:nonvaccine>
+        <cvx1:status>Active</cvx1:status>
+        <oboInOwl:hasRelatedSynonym>Influenza, live, trivalent, intranasal, self/caregiver admin, PF</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>Self or caregiver administered, new starting 2025/2026 season</rdfs:comment>
+        <rdfs:label>Influenza, live, trivalent, intranasal, self or caregiver administered, preservative free</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
     
@@ -3303,7 +3403,7 @@
     <!-- https://biopragmatics.github.io/providers/cvx/56 -->
 
     <owl:Class rdf:about="https://biopragmatics.github.io/providers/cvx/56">
-        <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/56"/>
+        <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/330"/>
         <cvx1:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx1:nonvaccine>
         <cvx1:status>Active</cvx1:status>
         <oboInOwl:hasRelatedSynonym>dengue fever tetravalent</oboInOwl:hasRelatedSynonym>
@@ -3534,10 +3634,11 @@
     <!-- https://biopragmatics.github.io/providers/cvx/75 -->
 
     <owl:Class rdf:about="https://biopragmatics.github.io/providers/cvx/75">
-        <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/75"/>
+        <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/325"/>
         <cvx1:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx1:nonvaccine>
         <cvx1:status>Active</cvx1:status>
-        <rdfs:label>vaccinia (smallpox) vaccine</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>Vaccinia (smallpox, mpox), live</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Vaccinia (smallpox, mpox) vaccine, live</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
     

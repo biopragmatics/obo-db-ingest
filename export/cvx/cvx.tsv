@@ -1,6 +1,6 @@
 identifier	name	definition	synonyms	alts	parents	species
 01	diphtheria, tetanus toxoids and pertussis vaccine		DTP			
-02	trivalent poliovirus vaccine, live, oral		OPV		cvx:89	
+02	trivalent poliovirus vaccine, live, oral		OPV, trivalent		cvx:89	
 03	measles, mumps and rubella virus vaccine		MMR		cvx:03	
 04	measles and rubella virus vaccine		M/R		cvx:03	
 05	measles virus vaccine				cvx:03	
@@ -14,14 +14,14 @@ identifier	name	definition	synonyms	alts	parents	species
 102	DTP- Haemophilus influenzae type b conjugate and hepatitis b vaccine		DTP-Hib-Hep B		cvx:107|cvx:17|cvx:45	
 103	meningococcal C conjugate vaccine				cvx:108	
 104	hepatitis A and hepatitis B vaccine		Hep A-Hep B		cvx:45|cvx:85	
-105	vaccinia (smallpox) vaccine, diluted		vaccinia (smallpox) diluted		cvx:75	
+105	vaccinia (smallpox) vaccine, diluted		vaccinia (smallpox) diluted		cvx:325	
 106	diphtheria, tetanus toxoids and acellular pertussis vaccine, 5 pertussis antigens		DTaP, 5 pertussis antigens		cvx:107	
 107	diphtheria, tetanus toxoids and acellular pertussis vaccine, unspecified formulation		DTaP, unspecified formulation		cvx:107	
 108	meningococcal ACWY vaccine, unspecified formulation		meningococcal ACWY, unspecified formulation		cvx:108	
 109	pneumococcal vaccine, unspecified formulation		pneumococcal, unspecified formulation		cvx:152|cvx:33	
 11	pertussis vaccine					
 110	DTaP-hepatitis B and poliovirus vaccine		DTaP-Hep B-IPV		cvx:107|cvx:45|cvx:89	
-111	Influenza, live, trivalent, intranasal				cvx:88	
+111	Influenza, live, trivalent, intranasal, preservative free		Influenza, live, trivalent, intranasal, PF		cvx:88	
 112	tetanus toxoid, unspecified formulation					
 113	tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use (5 Lf of tetanus toxoid and 2 Lf of diphtheria toxoid)		Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed		cvx:139	
 114	meningococcal polysaccharide (groups A, C, Y and W-135) diphtheria toxoid conjugate vaccine (MCV4P)		meningococcal MCV4P		cvx:108	
@@ -118,12 +118,12 @@ identifier	name	definition	synonyms	alts	parents	species
 198	Diphtheria, pertussis, tetanus, hepatitis B, Haemophilus Influenza Type b, (Pentavalent)		DTP-hepB-Hib Pentavalent Non-US			
 20	diphtheria, tetanus toxoids and acellular pertussis vaccine		DTaP		cvx:107	
 200	influenza, seasonal, Southern Hemisphere, quadrivalent, pediatric 0.25mL dose, preservative free		influenza, Southern Hemisphere, pediatric, preservative free		cvx:88	
-201	influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5mL dose, no preservative		influenza, Southern Hemisphere, preservative free		cvx:88	
+201	Influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5 mL dose, preservative free		Influenza, Southern Hemisphere, quadrivalent, PF		cvx:88	
 202	influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5mL dose, with preservative		influenza, Southern Hemisphere, quadrivalent, with preservative		cvx:88	
 203	meningococcal polysaccharide (groups A, C, Y, W-135) tetanus toxoid conjugate vaccine 0.5mL dose, preservative free		meningococcal conjugate quadrivalent, MenACWY-TT (MCV4)		cvx:108	
 204	Ebola Zaire vaccine, live, recombinant, 1mL dose				cvx:214	
 205	Influenza, adjuvanted, inactivated, quadrivalent, injectable, preservative free		Influenza, adjuvanted, quadrivalent, PF		cvx:88	
-206	Vaccinia, smallpox monkeypox vaccine, live attenuated, preservative free, subcutaneous or intradermal injection		Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection		cvx:75	
+206	Vaccinia, smallpox monkeypox vaccine, live attenuated, preservative free, subcutaneous or intradermal injection		Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection		cvx:325	
 207	SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose		COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose		cvx:213	
 208	SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 30 mcg/0.3mL dose		COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose		cvx:213	
 21	varicella virus vaccine				cvx:21	
@@ -185,9 +185,16 @@ identifier	name	definition	synonyms	alts	parents	species
 322	Influenza-avian, H5N8, viral-vector, monovalent, injectable, contains preservative		Influenza-avian, H5N8, monovalent, preservative		cvx:323	
 323	Influenza-avian, H5, unspecified formulation				cvx:323	
 324	Poliovirus, inactivated, fractional-dose (fIPV)				cvx:89	
+325	Vaccinia (smallpox, mpox), unspecified				cvx:325	
 326	Respiratory syncytial virus (RSV), mRNA, injectable, preservative free		RSV, mRNA, injectable, PF		cvx:304	
 327	Pneumococcal conjugate vaccine, 21 valent (PCV21), polysaccharide CRM197 conjugate, preservative free		Pneumococcal conjugate PCV21, polysaccharide CRM197 conjugate, PF		cvx:152	
+328	Meningococcal oligosaccharide conjugated (groups A, C, W, Y) and group B, 0.5 mL, preservative free		Meningococcal oligosaccharide (MenACWY), (MenB), PF		cvx:108|cvx:164	
+329	Chikungunya, virus-like particle (VLP), recombinant vaccine, 0.8 mL, preservative free		Chikungunya, VLP, recombinant, 0.8 mL, PF		cvx:317	
 33	pneumococcal polysaccharide vaccine, 23 valent		pneumococcal polysaccharide PPV23		cvx:33	
+330	Dengue fever, unspecified formulation		Dengue fever, unspecified		cvx:330	
+331	Influenza, seasonal, Southern Hemisphere, trivalent, 0.5 mL dose, preservative free		Influenza, Southern Hemisphere, trivalent, PF		cvx:88	
+332	Respiratory syncytial virus (RSV), monoclonal antibody, IgG1κ, (clesrovimab-cfor), 0.7 mL, neonate and infant, preservative free		RSV, mAb, clesrovimab-cfor, 0.7 mL, neonate and infant, PF		cvx:304	
+333	Influenza, live, trivalent, intranasal, self or caregiver administered, preservative free		Influenza, live, trivalent, intranasal, self/caregiver admin, PF		cvx:88	
 34	rabies immune globulin		RIG			
 35	tetanus toxoid, adsorbed				cvx:139	
 36	varicella zoster immune globulin		VZIG			
@@ -232,7 +239,7 @@ identifier	name	definition	synonyms	alts	parents	species
 53	typhoid vaccine, parenteral, acetone-killed, dried (U.S. military)		typhoid, parenteral, AKD (U.S. military)		cvx:91	
 54	adenovirus vaccine, type 4, live, oral		adenovirus, type 4		cvx:82	
 55	adenovirus vaccine, type 7, live, oral		adenovirus, type 7		cvx:82	
-56	dengue fever vaccine, tetravalent		dengue fever tetravalent		cvx:56	
+56	dengue fever vaccine, tetravalent		dengue fever tetravalent		cvx:330	
 57	hantavirus vaccine		hantavirus			
 58	hepatitis C vaccine		Hep C			
 59	hepatitis E vaccine		Hep E			
@@ -251,7 +258,7 @@ identifier	name	definition	synonyms	alts	parents	species
 72	rheumatic fever vaccine					
 73	Rift Valley fever vaccine					
 74	rotavirus, live, tetravalent vaccine		rotavirus, tetravalent		cvx:122	
-75	vaccinia (smallpox) vaccine				cvx:75	
+75	Vaccinia (smallpox, mpox) vaccine, live		Vaccinia (smallpox, mpox), live		cvx:325	
 76	Staphylococcus bacteriophage lysate		Staphylococcus bacterio lysate			
 77	Tick-borne encephalitis vaccine (non-US)				cvx:222	
 78	tularemia vaccine					

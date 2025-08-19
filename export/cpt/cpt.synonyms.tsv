@@ -10,6 +10,7 @@ RIG	cpt:90376	RIG	rdfs:label	cpt
 RSV-MAb	cpt:90378	RSV-MAb	rdfs:label	cpt
 RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months	cpt:90380	RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months	rdfs:label	cpt
 RSV, mAb, nirsevimab-alip, 1 mL, neonate to 24 months	cpt:90381	RSV, mAb, nirsevimab-alip, 1 mL, neonate to 24 months	rdfs:label	cpt
+RSV, mAb, clesrovimab-cfor, 0.7 mL, neonate and infant, PF	cpt:90382	RSV, mAb, clesrovimab-cfor, 0.7 mL, neonate and infant, PF	rdfs:label	cpt
 TIG	cpt:90389	TIG	rdfs:label	cpt
 vaccinia immune globulin	cpt:90393	vaccinia immune globulin	rdfs:label	cpt
 VZIG	cpt:90396	VZIG	rdfs:label	cpt
@@ -21,12 +22,14 @@ Anthrax, pre-exposure prophylaxis, post-exposure prophylaxis	cpt:90581	Anthrax, 
 BCG	cpt:90585	BCG	rdfs:label	cpt
 dengue fever tetravalent	cpt:90587	dengue fever tetravalent	rdfs:label	cpt
 Chikungunya live attenuated vaccine, 0.5 mL, PF	cpt:90589	Chikungunya live attenuated vaccine, 0.5 mL, PF	rdfs:label	cpt
+Chikungunya, VLP, recombinant, 0.8 mL, PF	cpt:90593	Chikungunya, VLP, recombinant, 0.8 mL, PF	rdfs:label	cpt
 Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection	cpt:90611	Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection	rdfs:label	cpt
 meningococcal conjugate quadrivalent, MenACWY-TT (MCV4)	cpt:90619	meningococcal conjugate quadrivalent, MenACWY-TT (MCV4)	rdfs:label	cpt
 meningococcal B, OMV	cpt:90620	meningococcal B, OMV	rdfs:label	cpt
 meningococcal B, recombinant	cpt:90621	meningococcal B, recombinant	rdfs:label	cpt
-vaccinia (smallpox)	cpt:90622	vaccinia (smallpox)	rdfs:label	cpt
+Vaccinia (smallpox, mpox), live	cpt:90622	Vaccinia (smallpox, mpox), live	rdfs:label	cpt
 Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF	cpt:90623	Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF	rdfs:label	cpt
+Meningococcal oligosaccharide (MenACWY), (MenB), PF	cpt:90624	Meningococcal oligosaccharide (MenACWY), (MenB), PF	rdfs:label	cpt
 cholera, live attenuated	cpt:90625	cholera, live attenuated	rdfs:label	cpt
 Tick-borne encephalitis, inactivated, PF, 0.25mL	cpt:90626	Tick-borne encephalitis, inactivated, PF, 0.25mL	rdfs:label	cpt
 Tick-borne encephalitis, inactivated, PF, 0.5mL	cpt:90627	Tick-borne encephalitis, inactivated, PF, 0.5mL	rdfs:label	cpt
@@ -49,11 +52,11 @@ Influenza, split virus, trivalent, PF	cpt:90656	Influenza, split virus, trivalen
 Influenza, split virus, trivalent, preservative	cpt:90657	Influenza, split virus, trivalent, preservative	rdfs:label	cpt
 Influenza, split virus, trivalent, preservative	cpt:90658	Influenza, split virus, trivalent, preservative	rdfs:label	cpt
 influenza, whole	cpt:90659	influenza, whole	rdfs:label	cpt
-Influenza, live, trivalent, intranasal	cpt:90660	Influenza, live, trivalent, intranasal	rdfs:label	cpt
-Influenza, MDCK, trivalent, preservative	cpt:90661	Influenza, MDCK, trivalent, preservative	rdfs:label	cpt
+Influenza, live, trivalent, intranasal, PF	cpt:90660	Influenza, live, trivalent, intranasal, PF	rdfs:label	cpt
 Influenza, MDCK, trivalent, PF	cpt:90661	Influenza, MDCK, trivalent, PF	rdfs:label	cpt
-Influenza, high-dose, quadrivalent, PF	cpt:90662	Influenza, high-dose, quadrivalent, PF	rdfs:label	cpt
+Influenza, MDCK, trivalent, preservative	cpt:90661	Influenza, MDCK, trivalent, preservative	rdfs:label	cpt
 Influenza, high-dose, trivalent, PF	cpt:90662	Influenza, high-dose, trivalent, PF	rdfs:label	cpt
+Influenza, high-dose, quadrivalent, PF	cpt:90662	Influenza, high-dose, quadrivalent, PF	rdfs:label	cpt
 Novel Influenza-H1N1-09, all formulations	cpt:90663	Novel Influenza-H1N1-09, all formulations	rdfs:label	cpt
 Novel Influenza-H1N1-09, nasal	cpt:90664	Novel Influenza-H1N1-09, nasal	rdfs:label	cpt
 Lyme disease	cpt:90665	Lyme disease	rdfs:label	cpt
@@ -65,8 +68,8 @@ Pneumococcal conjugate PCV15, polysaccharide CRM197 conjugate, adjuvant, PF	cpt:
 Influenza, live, quadrivalent, intranasal	cpt:90672	Influenza, live, quadrivalent, intranasal	rdfs:label	cpt
 Influenza, recombinant, trivalent, PF	cpt:90673	Influenza, recombinant, trivalent, PF	rdfs:label	cpt
 Influenza, MDCK, quadrivalent, PF	cpt:90674	Influenza, MDCK, quadrivalent, PF	rdfs:label	cpt
-Rabies - IM fibroblast culture	cpt:90675	Rabies - IM fibroblast culture	rdfs:label	cpt
 Rabies - IM Diploid cell culture	cpt:90675	Rabies - IM Diploid cell culture	rdfs:label	cpt
+Rabies - IM fibroblast culture	cpt:90675	Rabies - IM fibroblast culture	rdfs:label	cpt
 rabies, intradermal injection	cpt:90676	rabies, intradermal injection	rdfs:label	cpt
 Pneumococcal conjugate PCV20, polysaccharide CRM197 conjugate, adjuvant, PF	cpt:90677	Pneumococcal conjugate PCV20, polysaccharide CRM197 conjugate, adjuvant, PF	rdfs:label	cpt
 RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF	cpt:90678	RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF	rdfs:label	cpt
@@ -88,8 +91,8 @@ Influenza, adjuvanted, quadrivalent, PF	cpt:90694	Influenza, adjuvanted, quadriv
 DTaP-IPV	cpt:90696	DTaP-IPV	rdfs:label	cpt
 DTaP,IPV,Hib,HepB	cpt:90697	DTaP,IPV,Hib,HepB	rdfs:label	cpt
 DTaP-Hib-IPV	cpt:90698	DTaP-Hib-IPV	rdfs:label	cpt
-DTaP, 5 pertussis antigens	cpt:90700	DTaP, 5 pertussis antigens	rdfs:label	cpt
 DTaP	cpt:90700	DTaP	rdfs:label	cpt
+DTaP, 5 pertussis antigens	cpt:90700	DTaP, 5 pertussis antigens	rdfs:label	cpt
 DTP	cpt:90701	DTP	rdfs:label	cpt
 DT (pediatric)	cpt:90702	DT (pediatric)	rdfs:label	cpt
 tetanus toxoid, adsorbed	cpt:90703	tetanus toxoid, adsorbed	rdfs:label	cpt

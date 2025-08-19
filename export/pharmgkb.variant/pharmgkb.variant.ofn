@@ -1,5 +1,6 @@
 Prefix(dbsnp:=<https://www.ncbi.nlm.nih.gov/snp/>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
+Prefix(foaf:=<http://xmlns.com/foaf/0.1/>)
 Prefix(obo:=<http://purl.obolibrary.org/obo/>)
 Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
@@ -14,7 +15,9 @@ Ontology(<https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.var
 Annotation(dcterms:title "PharmGKB Variant"^^xsd:string)
 Annotation(dcterms:license "CC-BY-SA-4.0"^^xsd:string)
 Annotation(dcterms:description "SNPs and other variants that can be mapped to dbSNP."^^xsd:string)
-Annotation(oboInOwl:auto-generated-by "PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:16:16.448582"^^xsd:string)
+Annotation(foaf:homepage "https://www.pharmgkb.org"^^xsd:anyURI)
+Annotation(foaf:logo "https://rxgenomix.com/wp-content/uploads/2019/10/pharmgKB.png"^^xsd:anyURI)
+Annotation(oboInOwl:auto-generated-by "PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T00:20:54.743297"^^xsd:string)
 
 Declaration(AnnotationProperty(obo:pharmgkb.variant#hasGeneAssociation))
 AnnotationAssertion(rdfs:label obo:pharmgkb.variant#hasGeneAssociation "has gene association")

@@ -1,17 +1,23 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:16:19.110974
+auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T00:20:57.519969
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: doap http://usefulinc.com/ns/doap# "Description of a Project"
+idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
 idspace: meddra http://purl.bioontology.org/ontology/MDRFRE/ "Medical Dictionary for Regulatory Activities Terminology"
 idspace: mesh http://id.nlm.nih.gov/mesh/ "Medical Subject Headings"
 idspace: ndfrt http://purl.bioontology.org/ontology/NDFRT/ "National Drug File - Reference Terminology"
 idspace: omim https://omim.org/MIM: "Online Mendelian Inheritance in Man"
+idspace: orcid https://orcid.org/ "Open Researcher and Contributor"
 idspace: pharmgkb.disease http://www.pharmgkb.org/disease/ "PharmGKB Disease"
 idspace: snomedct http://snomed.info/id/ "SNOMED CT (International Edition)"
 idspace: umls https://uts.nlm.nih.gov/uts/umls/concept/ "Unified Medical Language System Concept Unique Identifier"
 ontology: pharmgkb.disease
 property_value: dcterms:title "PharmGKB Disease" xsd:string
 property_value: dcterms:license "CC-BY-SA-4.0" xsd:string
-property_value: dcterms:description "The PharmGKB database is a central repository for genetic\\\, genomic\\\, molecular and cellular phenotype data and clinical information about people who have participated in pharmacogenomics research studies. The data includes\\\, but is not limited to\\\, clinical and basic pharmacokinetic and pharmacogenomic research in the cardiovascular\\\, pulmonary\\\, cancer\\\, pathways\\\, metabolic and transporter domains." xsd:string
+property_value: dcterms:description "The PharmGKB database is a central repository for genetic\, genomic\, molecular and cellular phenotype data and clinical information about people who have participated in pharmacogenomics research studies. The data includes\, but is not limited to\, clinical and basic pharmacokinetic and pharmacogenomic research in the cardiovascular\, pulmonary\, cancer\, pathways\, metabolic and transporter domains." xsd:string
+property_value: foaf:homepage "http\://www.pharmgkb.org/" xsd:anyURI
+property_value: foaf:logo "https\://rxgenomix.com/wp-content/uploads/2019/10/pharmgKB.png" xsd:anyURI
+property_value: doap:maintainer orcid:0000-0001-5527-6475
 
 [Term]
 id: pharmgkb.disease:PA128406954
@@ -44,7 +50,7 @@ xref: umls:C0026918
 
 [Term]
 id: pharmgkb.disease:PA131285571
-name: aspirin-induced asthma
+name: Aspirin-induced asthma
 synonym: "ASA-exacerbated respiratory disease" []
 synonym: "ASA-induced asthma" []
 synonym: "NERD" []
@@ -114,12 +120,6 @@ xref: snomedct:422338006
 xref: umls:C0024437
 
 [Term]
-id: pharmgkb.disease:PA135057241
-name: Proarrhythmia
-xref: meddra:10036765
-xref: umls:C0861148
-
-[Term]
 id: pharmgkb.disease:PA136400566
 name: Severe Acute Respiratory Syndrome
 synonym: "SARS" []
@@ -166,18 +166,6 @@ name: Meckel syndrome
 xref: MONDO:0018921
 
 [Term]
-id: pharmgkb.disease:PA143488504
-name: Vascular Resistance
-synonym: "Capillary Resistance" []
-synonym: "Systemic Vascular Resistance" []
-synonym: "Vascular resistance" []
-synonym: "function" []
-xref: meddra:10047098
-xref: mesh:D014655
-xref: snomedct:88619007
-xref: umls:C0042380
-
-[Term]
 id: pharmgkb.disease:PA144997875
 name: Hereditary Hypophosphatemic Rickets with Hypercalciuria
 xref: mesh:C562793
@@ -197,16 +185,6 @@ name: Martsolf Syndrome
 xref: mesh:C536028
 xref: MONDO:0023910
 xref: MONDO:8000008
-
-[Term]
-id: pharmgkb.disease:PA145007163
-name: SRS-A
-synonym: "SRS-A of anaphylaxis" []
-synonym: "Silver-Russell Syndrome(SRS)" []
-xref: mesh:D013189
-xref: ndfrt:N0000171041
-xref: snomedct:34745001
-xref: umls:C0038091
 
 [Term]
 id: pharmgkb.disease:PA145007166
@@ -448,8 +426,9 @@ xref: meddra:10014625
 
 [Term]
 id: pharmgkb.disease:PA152246679
-name: Pendred's syndrome
-synonym: "Pendred Syndrome" []
+name: Pendred syndrome
+synonym: "Pendred's syndrome" []
+xref: MONDO:0010134
 xref: snomedct:70348004
 xref: umls:C0271829
 
@@ -605,8 +584,10 @@ xref: umls:C1510586
 
 [Term]
 id: pharmgkb.disease:PA157379134
-name: Myalgia unspecified
-synonym: "Myalgia" []
+name: Myalgia
+synonym: "Muscle ache" []
+synonym: "Muscle pain" []
+xref: HP:0003326
 xref: meddra:10028287
 xref: snomedct:268010003
 xref: umls:C0231528
@@ -730,7 +711,7 @@ xref: umls:C0432228
 
 [Term]
 id: pharmgkb.disease:PA162263525
-name: neuropathic pain
+name: Neuropathic pain
 xref: HP:6000040
 xref: meddra:10054095
 xref: ndfrt:N0000002162
@@ -966,16 +947,21 @@ xref: MONDO:0011953
 
 [Term]
 id: pharmgkb.disease:PA164924611
-name: Partial congenital absence of teeth
+name: Tooth agenesis
 synonym: "Hypodontia" []
 synonym: "Oligodontia" []
+synonym: "Partial congenital absence of teeth" []
 xref: meddra:10055001
+xref: MONDO:0005486
 xref: snomedct:64969001
 xref: umls:C0020608
 
 [Term]
 id: pharmgkb.disease:PA164924624
-name: Pelvic Floor Disorders
+name: Pelvic organ prolapse
+synonym: "Pelvic Floor Disorders" []
+xref: HP:0031607
+xref: meddra:10034268
 xref: mesh:D059952
 
 [Term]
@@ -991,9 +977,12 @@ xref: umls:C0348754
 
 [Term]
 id: pharmgkb.disease:PA165108105
-name: Paget's disease NOS
+name: Paget disease
+synonym: "Paget cell neoplasm" []
+synonym: "Paget's disease" []
 xref: meddra:10031151
 xref: mesh:D010001
+xref: MONDO:0021165
 xref: ndfrt:N0000002242
 xref: snomedct:203354006
 xref: umls:C0029401
@@ -1074,11 +1063,6 @@ xref: snomedct:53638009
 xref: umls:C0000820
 
 [Term]
-id: pharmgkb.disease:PA165108167
-name: Schistosoma mansonii infection
-synonym: "Intestinal schistosomiasis" []
-
-[Term]
 id: pharmgkb.disease:PA165108186
 name: Nephrogenic systemic fibrosis
 synonym: "Nephrogenic fibrosing dermopathy" []
@@ -1090,14 +1074,6 @@ xref: snomedct:424114000
 xref: umls:C1619692
 
 [Term]
-id: pharmgkb.disease:PA165108192
-name: Respiratory system diseases NOS
-
-[Term]
-id: pharmgkb.disease:PA165108193
-name: Ocular penetration\, unspecified
-
-[Term]
 id: pharmgkb.disease:PA165108199
 name: Acanthamoeba keratitis
 xref: MONDO:0005629
@@ -1107,14 +1083,6 @@ id: pharmgkb.disease:PA165108205
 name: Pityriasis rosea
 synonym: "Pityriasis circinata et maculata" []
 xref: MONDO:0006601
-
-[Term]
-id: pharmgkb.disease:PA165108206
-name: Postoperative wound breakdown
-
-[Term]
-id: pharmgkb.disease:PA165108207
-name: Meningococcal infection NOS
 
 [Term]
 id: pharmgkb.disease:PA165108216
@@ -1174,14 +1142,6 @@ synonym: "Mucopurulent conjunctivitis" []
 xref: MONDO:0006668
 
 [Term]
-id: pharmgkb.disease:PA165108231
-name: Seborrhea NOS
-
-[Term]
-id: pharmgkb.disease:PA165108237
-name: Hypertensive lower oesophageal sphincter
-
-[Term]
 id: pharmgkb.disease:PA165108247
 name: Enterobiasis
 synonym: "Oxyuriasis" []
@@ -1208,11 +1168,6 @@ xref: MONDO:0015183
 xref: ndfrt:N0000002734
 xref: snomedct:26629001
 xref: umls:C0036992
-
-[Term]
-id: pharmgkb.disease:PA165108292
-name: Pruritus ani
-synonym: "Anal itch" []
 
 [Term]
 id: pharmgkb.disease:PA165108299
@@ -1386,15 +1341,6 @@ xref: snomedct:14232007
 xref: umls:C0085436
 
 [Term]
-id: pharmgkb.disease:PA165108396
-name: Paget's disease OS
-xref: meddra:10031151
-xref: mesh:D010001
-xref: ndfrt:N0000002242
-xref: snomedct:203353000
-xref: umls:C0029401
-
-[Term]
 id: pharmgkb.disease:PA165108399
 name: Oral aphthae NOS
 xref: meddra:10067589
@@ -1428,18 +1374,6 @@ xref: snomedct:394659003
 xref: umls:C0948089
 
 [Term]
-id: pharmgkb.disease:PA165108407
-name: Missed abortion
-synonym: "Fetal death before 22 weeks with retention of dead fetus" []
-synonym: "MA - Missed abortion" []
-synonym: "Silent miscarriage" []
-xref: meddra:10000230
-xref: mesh:D000030
-xref: ndfrt:N0000000271
-xref: snomedct:16607004
-xref: umls:C0000814
-
-[Term]
 id: pharmgkb.disease:PA165108409
 name: Adrenal gland disorder NOS
 xref: meddra:10001347
@@ -1460,15 +1394,6 @@ xref: snomedct:186122001
 xref: umls:C0002438
 
 [Term]
-id: pharmgkb.disease:PA165108417
-name: Leg ulcer NOS
-xref: meddra:10068310
-xref: mesh:D007871
-xref: ndfrt:N0000001797
-xref: snomedct:238790003
-xref: umls:C0023223
-
-[Term]
 id: pharmgkb.disease:PA165108423
 name: Mossy foot disease
 xref: meddra:10008803
@@ -1480,10 +1405,11 @@ xref: umls:C0008582
 
 [Term]
 id: pharmgkb.disease:PA165108426
-name: Small-for-dates baby
+name: Small for gestational age
 synonym: "SFD - Small-for-dates baby" []
 synonym: "Small for gestational age baby" []
 synonym: "Small-for-dates - delivered" []
+xref: HP:0001518
 xref: meddra:10041092
 xref: mesh:D007236
 xref: snomedct:199612005
@@ -1513,15 +1439,6 @@ xref: MONDO:0018019
 xref: ndfrt:N0000001791
 xref: snomedct:212842003
 xref: umls:C0023176
-
-[Term]
-id: pharmgkb.disease:PA165108460
-name: Postoperative wound infection\, unspecified
-xref: meddra:10056641
-xref: mesh:D013530
-xref: ndfrt:N0000002865
-xref: snomedct:213285008
-xref: umls:C0038941
 
 [Term]
 id: pharmgkb.disease:PA165108466
@@ -1598,11 +1515,6 @@ xref: snomedct:51720005
 xref: umls:C0272302
 
 [Term]
-id: pharmgkb.disease:PA165108502
-name: Herpes simplex dendritic keratitis
-synonym: "HSV dendritic keratitis" []
-
-[Term]
 id: pharmgkb.disease:PA165108505
 name: Arteriosclerosis obliterans
 xref: meddra:10065418
@@ -1626,15 +1538,6 @@ xref: MONDO:0005316
 xref: ndfrt:N0000003443
 xref: snomedct:419760006
 xref: umls:C0085166
-
-[Term]
-id: pharmgkb.disease:PA165108510
-name: Inebriety NOS
-xref: meddra:10001599
-xref: mesh:D000435
-xref: ndfrt:N0000000352
-xref: snomedct:231464007
-xref: umls:C0001969
 
 [Term]
 id: pharmgkb.disease:PA165108511
@@ -1780,7 +1683,7 @@ xref: umls:C0085159
 
 [Term]
 id: pharmgkb.disease:PA165108609
-name: Rosacea NOS
+name: Rosacea
 xref: meddra:10000514
 xref: mesh:D012393
 xref: MONDO:0006604
@@ -1943,7 +1846,7 @@ xref: umls:C0221032
 
 [Term]
 id: pharmgkb.disease:PA165108717
-name: Autoimmune hemolytic anemia NOS
+name: Autoimmune hemolytic anemia
 synonym: "Autoimmune haemolytic anaemia NOS" []
 xref: meddra:10002046
 xref: mesh:D000744
@@ -2032,25 +1935,15 @@ xref: snomedct:95907004
 xref: umls:C0242785
 
 [Term]
-id: pharmgkb.disease:PA165108817
-name: Protein-calorie malnutrition NOS
-
-[Term]
-id: pharmgkb.disease:PA165108818
-name: Paranoid schizophrenia NOS
-
-[Term]
 id: pharmgkb.disease:PA165108823
-name: Postpartum hemorrhage
+name: Post-partum hemorrhage
+synonym: "Postpartum hemorrhage" []
+xref: HP:0011891
 xref: meddra:10005128
 xref: mesh:D006473
 xref: ndfrt:N0000001484
 xref: snomedct:200033009
 xref: umls:C0032797
-
-[Term]
-id: pharmgkb.disease:PA165108830
-name: Prostatic disorders NOS
 
 [Term]
 id: pharmgkb.disease:PA165108834
@@ -2077,27 +1970,6 @@ xref: MONDO:0011972
 xref: ndfrt:N0000003417
 xref: snomedct:129635004
 xref: umls:C0085083
-
-[Term]
-id: pharmgkb.disease:PA165108854
-name: Threatened abortion unspecified
-
-[Term]
-id: pharmgkb.disease:PA165108874
-name: Ophthalmic herpes simplex NOS
-
-[Term]
-id: pharmgkb.disease:PA165108880
-name: Otitis externa NOS
-
-[Term]
-id: pharmgkb.disease:PA165108881
-name: Unspecified corneal edema
-synonym: "Unspecified corneal oedema" []
-
-[Term]
-id: pharmgkb.disease:PA165108884
-name: Vitamin B deficiency NOS
 
 [Term]
 id: pharmgkb.disease:PA165108889
@@ -2237,20 +2109,6 @@ xref: snomedct:428850001
 xref: umls:C0085390
 
 [Term]
-id: pharmgkb.disease:PA165108954
-name: Menstruation disorder NOS
-xref: meddra:10013236
-xref: mesh:D008599
-xref: ndfrt:N0000001994
-xref: snomedct:266606008
-xref: umls:C0025345
-
-[Term]
-id: pharmgkb.disease:PA165108957
-name: Venous ulcer of leg
-synonym: "Gravitational ulcer" []
-
-[Term]
 id: pharmgkb.disease:PA165108965
 name: Corneal disorder NOS
 xref: meddra:10061453
@@ -2288,10 +2146,6 @@ xref: snomedct:198630007
 xref: umls:C0032987
 
 [Term]
-id: pharmgkb.disease:PA165109003
-name: Penile disorders
-
-[Term]
 id: pharmgkb.disease:PA165109029
 name: Sialoadenitis
 synonym: "infection of the salivary glands" []
@@ -2306,14 +2160,6 @@ xref: umls:C0037023
 id: pharmgkb.disease:PA165109050
 name: Stokes-Adams-Morgagni syndrome
 xref: MONDO:0043475
-
-[Term]
-id: pharmgkb.disease:PA165109052
-name: Hysteria NOS
-
-[Term]
-id: pharmgkb.disease:PA165109054
-name: Vaginitis unspecified
 
 [Term]
 id: pharmgkb.disease:PA165109055
@@ -2341,11 +2187,6 @@ name: Infection by Blastomyces dermatitidis
 xref: MONDO:0005672
 
 [Term]
-id: pharmgkb.disease:PA165109078
-name: Infectious diarrhea NOS
-synonym: "Infectious diarrhoea NOS" []
-
-[Term]
 id: pharmgkb.disease:PA165109089
 name: Phantom limb syndrome
 synonym: "Pseudomelia" []
@@ -2367,10 +2208,6 @@ xref: snomedct:193846003
 xref: umls:C0022578
 
 [Term]
-id: pharmgkb.disease:PA165109113
-name: Proteus infection NOS
-
-[Term]
 id: pharmgkb.disease:PA165109118
 name: Macrocytic anemia of unspecified cause
 synonym: "Macrocytic anaemia of unspecified cause" []
@@ -2382,21 +2219,9 @@ name: Presenile gangrene
 xref: MONDO:0008889
 
 [Term]
-id: pharmgkb.disease:PA165109131
-name: Purulent otitis media NOS
-
-[Term]
-id: pharmgkb.disease:PA165109134
-name: Thrombophlebitis NOS
-
-[Term]
 id: pharmgkb.disease:PA165109139
 name: Persistent fetal circulation syndrome
 xref: MONDO:0022430
-
-[Term]
-id: pharmgkb.disease:PA165109151
-name: Sore on skin
 
 [Term]
 id: pharmgkb.disease:PA165109162
@@ -2410,18 +2235,6 @@ xref: MONDO:0019091
 xref: ndfrt:N0000000625
 xref: snomedct:67569000
 xref: umls:C0006287
-
-[Term]
-id: pharmgkb.disease:PA165109171
-name: Prostatitis NOS
-
-[Term]
-id: pharmgkb.disease:PA165109173
-name: Unspecified osteomyelitis of unspecified site
-
-[Term]
-id: pharmgkb.disease:PA165109179
-name: Rickettsioses NOS
 
 [Term]
 id: pharmgkb.disease:PA165109181
@@ -2474,8 +2287,10 @@ xref: umls:C0013203
 
 [Term]
 id: pharmgkb.disease:PA165374639
-name: suicide
+name: Suicide
+xref: HP:5200330
 xref: meddra:10042462
+xref: mesh:D013405
 xref: umls:C0038661
 
 [Term]
@@ -2515,7 +2330,7 @@ xref: umls:C0151879
 
 [Term]
 id: pharmgkb.disease:PA165857066
-name: Anemia\, Hemolytic\, Congenital Nonspherocytic
+name: Congenital nonspherocytic hemolytic anemia
 xref: MONDO:0006506
 xref: ndfrt:N0000000390
 xref: umls:C0002882
@@ -2569,11 +2384,6 @@ xref: MONDO:0024295
 xref: ndfrt:N0000003546
 
 [Term]
-id: pharmgkb.disease:PA166048722
-name: Staphylococcal Infections
-xref: ndfrt:N0000002817
-
-[Term]
 id: pharmgkb.disease:PA166048723
 name: Klebsiella Infections
 xref: MONDO:0030603
@@ -2586,20 +2396,10 @@ xref: HP:0100247
 xref: ndfrt:N0000001534
 
 [Term]
-id: pharmgkb.disease:PA166048726
-name: Nutritional and Metabolic Diseases
-xref: ndfrt:N0000002197
-
-[Term]
 id: pharmgkb.disease:PA166048727
 name: Melanoma\, Amelanotic
 xref: MONDO:0002971
 xref: ndfrt:N0000003789
-
-[Term]
-id: pharmgkb.disease:PA166048728
-name: Mesothelioma\, Cystic
-xref: ndfrt:N0000003729
 
 [Term]
 id: pharmgkb.disease:PA166048729
@@ -2632,11 +2432,6 @@ xref: MONDO:0021697
 xref: ndfrt:N0000000754
 
 [Term]
-id: pharmgkb.disease:PA166048737
-name: Neoplasms\, Hormone-Dependent
-xref: ndfrt:N0000002135
-
-[Term]
 id: pharmgkb.disease:PA166048739
 name: Lung Diseases\, Fungal
 xref: MONDO:0005766
@@ -2663,11 +2458,6 @@ xref: MONDO:0009718
 xref: ndfrt:N0000002099
 
 [Term]
-id: pharmgkb.disease:PA166048743
-name: Urination Disorders
-xref: ndfrt:N0000003082
-
-[Term]
 id: pharmgkb.disease:PA166048745
 name: Child
 xref: MONDO:0017014
@@ -2690,11 +2480,6 @@ id: pharmgkb.disease:PA166048748
 name: Tinea
 xref: MONDO:0005982
 xref: ndfrt:N0000002955
-
-[Term]
-id: pharmgkb.disease:PA166048749
-name: Pregnancy Third Trimester
-xref: ndfrt:N0000010245
 
 [Term]
 id: pharmgkb.disease:PA166048750
@@ -2783,31 +2568,6 @@ xref: MONDO:0021948
 xref: ndfrt:N0000003034
 
 [Term]
-id: pharmgkb.disease:PA166048766
-name: Skin Diseases\, Viral
-xref: ndfrt:N0000003547
-
-[Term]
-id: pharmgkb.disease:PA166048768
-name: Leg Dermatoses
-xref: ndfrt:N0000001794
-
-[Term]
-id: pharmgkb.disease:PA166048770
-name: Scalp Dermatoses
-xref: ndfrt:N0000002682
-
-[Term]
-id: pharmgkb.disease:PA166048771
-name: Pregnancy First Trimester
-xref: ndfrt:N0000010243
-
-[Term]
-id: pharmgkb.disease:PA166048773
-name: Serratia Infections
-xref: ndfrt:N0000003491
-
-[Term]
 id: pharmgkb.disease:PA166048774
 name: Bacteroides Infections
 xref: MONDO:0006671
@@ -2820,24 +2580,12 @@ xref: MONDO:0006635
 xref: ndfrt:N0000000287
 
 [Term]
-id: pharmgkb.disease:PA166048776
-name: Mycobacterium avium-intracellulare Infection
-xref: ndfrt:N0000003215
-
-[Term]
-id: pharmgkb.disease:PA166048778
-name: Preterm Infant
-xref: ndfrt:N0000010208
-
-[Term]
 id: pharmgkb.disease:PA166048779
 name: Neonate
+synonym: "Infant" []
+synonym: "Newborn" []
+synonym: "newborn" []
 xref: ndfrt:N0000010204
-
-[Term]
-id: pharmgkb.disease:PA166048780
-name: Lice Infestations
-xref: ndfrt:N0000002339
 
 [Term]
 id: pharmgkb.disease:PA166048781
@@ -2852,11 +2600,6 @@ xref: MONDO:0000889
 xref: ndfrt:N0000001983
 
 [Term]
-id: pharmgkb.disease:PA166048783
-name: Staphylococcal Skin Infections
-xref: ndfrt:N0000002819
-
-[Term]
 id: pharmgkb.disease:PA166048785
 name: Herpesviridae Infections
 xref: MONDO:0005794
@@ -2869,13 +2612,9 @@ xref: ndfrt:N0000000643
 
 [Term]
 id: pharmgkb.disease:PA166048787
-name: Mercury Poisoning\, Nervous System
+name: Mercury Poisoning
+xref: MONDO:0018020
 xref: ndfrt:N0000004083
-
-[Term]
-id: pharmgkb.disease:PA166048789
-name: Pregnancy Complications\, Infectious
-xref: ndfrt:N0000002481
 
 [Term]
 id: pharmgkb.disease:PA166048790
@@ -2926,11 +2665,6 @@ xref: MONDO:0024610
 xref: ndfrt:N0000002766
 
 [Term]
-id: pharmgkb.disease:PA166048801
-name: Skin Diseases\, Eczematous
-xref: ndfrt:N0000003576
-
-[Term]
 id: pharmgkb.disease:PA166048802
 name: Thyroid Crisis
 xref: HP:0011782
@@ -2942,11 +2676,6 @@ id: pharmgkb.disease:PA166048803
 name: Carbon Monoxide Poisoning
 xref: MONDO:0800373
 xref: ndfrt:N0000000659
-
-[Term]
-id: pharmgkb.disease:PA166048804
-name: Hypoxia\, Brain
-xref: ndfrt:N0000000716
 
 [Term]
 id: pharmgkb.disease:PA166048805
@@ -2979,21 +2708,11 @@ xref: HP:0012203
 xref: ndfrt:N0000002959
 
 [Term]
-id: pharmgkb.disease:PA166048810
-name: Respiratory Syncytial Virus Infections
-xref: ndfrt:N0000003803
-
-[Term]
 id: pharmgkb.disease:PA166048811
 name: Iritis
 xref: HP:0001101
 xref: MONDO:0006814
 xref: ndfrt:N0000001710
-
-[Term]
-id: pharmgkb.disease:PA166048812
-name: Jet Lag Syndrome
-xref: ndfrt:N0000004020
 
 [Term]
 id: pharmgkb.disease:PA166048813
@@ -3006,21 +2725,6 @@ id: pharmgkb.disease:PA166048814
 name: Hyperuricemia
 xref: HP:0002149
 xref: ndfrt:N0000010234
-
-[Term]
-id: pharmgkb.disease:PA166048816
-name: Iris Diseases
-xref: ndfrt:N0000001709
-
-[Term]
-id: pharmgkb.disease:PA166048817
-name: Young Child
-xref: ndfrt:N0000010207
-
-[Term]
-id: pharmgkb.disease:PA166048818
-name: Urethral Diseases
-xref: ndfrt:N0000003072
 
 [Term]
 id: pharmgkb.disease:PA166048819
@@ -3041,11 +2745,6 @@ xref: MONDO:0006921
 xref: ndfrt:N0000000299
 
 [Term]
-id: pharmgkb.disease:PA166048823
-name: Toddler
-xref: ndfrt:N0000010206
-
-[Term]
 id: pharmgkb.disease:PA166048824
 name: Sleep Paralysis
 xref: HP:0025233
@@ -3063,19 +2762,13 @@ name: Premenstrual Syndrome
 xref: ndfrt:N0000002489
 
 [Term]
-id: pharmgkb.disease:PA166048828
-name: Inert Gas Narcosis
-xref: ndfrt:N0000001676
-
-[Term]
 id: pharmgkb.disease:PA166048829
 name: Elderly Adult
+synonym: "Aged" []
+synonym: "Elder" []
+synonym: "Elderly person" []
+synonym: "Senior citizen" []
 xref: ndfrt:N0000010213
-
-[Term]
-id: pharmgkb.disease:PA166048830
-name: Vascular Headaches
-xref: ndfrt:N0000003112
 
 [Term]
 id: pharmgkb.disease:PA166048831
@@ -3108,11 +2801,6 @@ xref: MONDO:0005988
 xref: ndfrt:N0000002988
 
 [Term]
-id: pharmgkb.disease:PA166048836
-name: Strongylida Infections
-xref: ndfrt:N0000003553
-
-[Term]
 id: pharmgkb.disease:PA166048837
 name: Necatoriasis
 xref: MONDO:0005870
@@ -3130,11 +2818,6 @@ name: Urethral Obstruction
 xref: HP:0000796
 xref: MONDO:0001556
 xref: ndfrt:N0000003074
-
-[Term]
-id: pharmgkb.disease:PA166048841
-name: Respiratory Tract Fistula
-xref: ndfrt:N0000003380
 
 [Term]
 id: pharmgkb.disease:PA166048842
@@ -3167,11 +2850,6 @@ xref: MONDO:0001561
 xref: ndfrt:N0000003555
 
 [Term]
-id: pharmgkb.disease:PA166048847
-name: Urological Manifestations
-xref: ndfrt:N0000004224
-
-[Term]
 id: pharmgkb.disease:PA166048848
 name: Menopause
 xref: ndfrt:N0000010196
@@ -3200,16 +2878,6 @@ name: Spondylolysis
 xref: HP:0003304
 xref: MONDO:0005541
 xref: ndfrt:N0000002812
-
-[Term]
-id: pharmgkb.disease:PA166048853
-name: Spinal Cord Neoplasms
-xref: ndfrt:N0000002795
-
-[Term]
-id: pharmgkb.disease:PA166048854
-name: Pain\, Intractable
-xref: ndfrt:N0000002279
 
 [Term]
 id: pharmgkb.disease:PA166048855
@@ -3289,18 +2957,13 @@ name: Toothache
 xref: ndfrt:N0000002984
 
 [Term]
-id: pharmgkb.disease:PA166048871
-name: Intracranial Embolism and Thrombosis
-xref: ndfrt:N0000000720
-
-[Term]
-id: pharmgkb.disease:PA166048872
-name: Plant Poisoning
-xref: ndfrt:N0000002416
-
-[Term]
 id: pharmgkb.disease:PA166048875
 name: Water-Electrolyte Imbalance
+synonym: "Abnormal blood ion concentration" []
+synonym: "Abnormality of ion homeostasis" []
+synonym: "Electrolyte disorders" []
+synonym: "Electrolyte disturbance" []
+synonym: "Electrolyte imbalance" []
 xref: ndfrt:N0000003154
 
 [Term]
@@ -3310,50 +2973,10 @@ xref: MONDO:0005867
 xref: ndfrt:N0000002436
 
 [Term]
-id: pharmgkb.disease:PA166048877
-name: Sexually Transmitted Diseases\, Bacterial
-xref: ndfrt:N0000003212
-
-[Term]
-id: pharmgkb.disease:PA166048878
-name: Neisseriaceae Infections
-xref: ndfrt:N0000003493
-
-[Term]
-id: pharmgkb.disease:PA166048879
-name: Pregnancy Second Trimester
-xref: ndfrt:N0000010244
-
-[Term]
-id: pharmgkb.disease:PA166048880
-name: Infant Nutrition Disorders
-xref: ndfrt:N0000001677
-
-[Term]
-id: pharmgkb.disease:PA166048882
-name: Mouth Diseases
-xref: ndfrt:N0000002036
-
-[Term]
 id: pharmgkb.disease:PA166048883
 name: Clostridium Infections
 xref: MONDO:0024388
 xref: ndfrt:N0000000796
-
-[Term]
-id: pharmgkb.disease:PA166048884
-name: Stomach Diseases
-xref: ndfrt:N0000002826
-
-[Term]
-id: pharmgkb.disease:PA166048885
-name: Protozoan Infections
-xref: ndfrt:N0000002508
-
-[Term]
-id: pharmgkb.disease:PA166048886
-name: Infant\, Premature\, Diseases
-xref: ndfrt:N0000001679
 
 [Term]
 id: pharmgkb.disease:PA166048887
@@ -3368,20 +2991,10 @@ xref: HP:0030207
 xref: ndfrt:N0000001259
 
 [Term]
-id: pharmgkb.disease:PA166048890
-name: Respiratory Hypersensitivity
-xref: ndfrt:N0000002598
-
-[Term]
 id: pharmgkb.disease:PA166048891
 name: Hypercapnia
 xref: HP:0012416
 xref: ndfrt:N0000001578
-
-[Term]
-id: pharmgkb.disease:PA166048892
-name: Radiation Injuries\, Experimental
-xref: ndfrt:N0000002569
 
 [Term]
 id: pharmgkb.disease:PA166048895
@@ -3493,26 +3106,11 @@ xref: MONDO:0006729
 xref: ndfrt:N0000004248
 
 [Term]
-id: pharmgkb.disease:PA166048919
-name: Pregnancy Complications\, Hematologic
-xref: ndfrt:N0000002480
-
-[Term]
 id: pharmgkb.disease:PA166048920
 name: Anemia\, Hypochromic
 xref: HP:0001931
 xref: MONDO:0001357
 xref: ndfrt:N0000000391
-
-[Term]
-id: pharmgkb.disease:PA166048921
-name: Positive-Pressure Respiration\, Intrinsic
-xref: ndfrt:N0000003824
-
-[Term]
-id: pharmgkb.disease:PA166048922
-name: Lithiasis
-xref: ndfrt:N0000004122
 
 [Term]
 id: pharmgkb.disease:PA166048923
@@ -3529,7 +3127,7 @@ xref: ndfrt:N0000001618
 
 [Term]
 id: pharmgkb.disease:PA166048926
-name: Lead Poisoning\, Nervous System\, Childhood
+name: Lead Poisoning
 xref: ndfrt:N0000004085
 
 [Term]
@@ -3543,11 +3141,6 @@ id: pharmgkb.disease:PA166048928
 name: Dracunculiasis
 xref: MONDO:0016472
 xref: ndfrt:N0000000997
-
-[Term]
-id: pharmgkb.disease:PA166048929
-name: Larva Migrans
-xref: ndfrt:N0000001780
 
 [Term]
 id: pharmgkb.disease:PA166114377
@@ -3694,20 +3287,12 @@ xref: HP:0001397
 xref: meddra:10019708
 
 [Term]
-id: pharmgkb.disease:PA166122646
-name: hemopoietic stem cell transplant
-synonym: "Haemopoietic stem cell transplant" []
-synonym: "Hematopoietic stem cell transplant" []
-synonym: "Hematopoietic stem cell transplantation" []
-synonym: "Hemopoietic stem cell transplant (procedure)" []
-synonym: "Transfusion of stem cells" []
-xref: snomedct:234336002
-
-[Term]
 id: pharmgkb.disease:PA166122649
-name: postanesthesia apnea
+name: Butyrylcholinesterase deficiency
 synonym: "Postanaesthesia apnoea" []
 synonym: "Postanesthesia apnea (finding)" []
+xref: mesh:C537417
+xref: MONDO:0015270
 xref: snomedct:111968005
 
 [Term]
@@ -3725,8 +3310,10 @@ xref: snomedct:1963002
 
 [Term]
 id: pharmgkb.disease:PA166123006
-name: Interstitial fibrosis
+name: Renal interstitial fibrosis
+synonym: "Interstitial fibrosis" []
 synonym: "Interstitial fibrosis (morphologic abnormality)" []
+xref: HP:0032948
 xref: snomedct:125565008
 
 [Term]
@@ -3749,6 +3336,11 @@ xref: umls:C0242792
 [Term]
 id: pharmgkb.disease:PA166123046
 name: Smoking Cessation
+synonym: "Giving up smoking" []
+synonym: "Quitting smoking" []
+synonym: "Stopping smoking" []
+synonym: "continuously abstinent of nicotine" []
+synonym: "nicotine abstinence" []
 xref: mesh:D016540
 
 [Term]
@@ -3820,7 +3412,7 @@ xref: umls:C0242793
 
 [Term]
 id: pharmgkb.disease:PA166123368
-name: schizoaffective disorder
+name: Schizoaffective disorder
 synonym: "Schizoaffective disorder (disorder)" []
 xref: MONDO:0005487
 xref: snomedct:68890003
@@ -3837,8 +3429,10 @@ xref: meddra:10014387
 
 [Term]
 id: pharmgkb.disease:PA166123431
-name: heart valve replacement
+name: Heart valve replacement
+xref: HP:6000983
 xref: meddra:10061995
+xref: snomedct:34068001
 
 [Term]
 id: pharmgkb.disease:PA166123507
@@ -3897,7 +3491,7 @@ xref: snomedct:371133007
 
 [Term]
 id: pharmgkb.disease:PA166124386
-name: gastrointestinal toxicity
+name: Gastrointestinal toxicity
 xref: meddra:10059024
 
 [Term]
@@ -4000,17 +3594,6 @@ xref: mesh:D001661
 xref: MONDO:0005304
 
 [Term]
-id: pharmgkb.disease:PA166128826
-name: multi-core congenital myopathy
-synonym: "Minicore disease" []
-synonym: "Multi-core congenital myopathy (disorder)" []
-synonym: "Multi-core disease" []
-synonym: "Multi-minicore disease" []
-synonym: "Multicore disease" []
-synonym: "Multiminicore disease" []
-xref: snomedct:55133004
-
-[Term]
 id: pharmgkb.disease:PA166129521
 name: sedation
 xref: meddra:10039897
@@ -4043,7 +3626,7 @@ xref: snomedct:764957003
 
 [Term]
 id: pharmgkb.disease:PA166129556
-name: disease activity score 28 joint in rheumatoid arthritis
+name: Disease activity score 28 in rheumatoid arthritis
 synonym: "DAS (disease activity score) 28 joint in rheumatoid arthritis" []
 synonym: "DAS-28" []
 synonym: "Disease activity score 28 joint in rheumatoid arthritis (assessment scale)" []
@@ -4090,7 +3673,7 @@ name: adverse events
 
 [Term]
 id: pharmgkb.disease:PA166152644
-name: schizencephaly
+name: Schizencephaly
 synonym: "Schizencephaly (disorder)" []
 xref: HP:0010636
 xref: MONDO:0010011
@@ -4131,27 +3714,11 @@ synonym: "Rates" []
 xref: mesh:D006339
 
 [Term]
-id: pharmgkb.disease:PA166159283
-name: inhibitory concentration 50
-synonym: "50" []
-synonym: "Concentration 50" []
-synonym: "IC50" []
-synonym: "Inhibitory" []
-synonym: "Inhibitory Concentration" []
-xref: mesh:D020128
-
-[Term]
 id: pharmgkb.disease:PA166159284
 name: Treatment interruption
 synonym: "Interruption" []
 synonym: "Planned Treatment" []
 xref: mesh:D000097042
-
-[Term]
-id: pharmgkb.disease:PA166159324
-name: plasma alanine aminotransferase level
-synonym: "Plasma alanine aminotransferase level (procedure)" []
-xref: snomedct:390961000
 
 [Term]
 id: pharmgkb.disease:PA166159389
@@ -4290,7 +3857,7 @@ xref: meddra:10009710
 
 [Term]
 id: pharmgkb.disease:PA166175756
-name: cystic fibrosis pulmonary exacerbation
+name: Cystic fibrosis pulmonary exacerbation
 xref: meddra:10068288
 
 [Term]
@@ -4372,7 +3939,7 @@ xref: MONDO:0019167
 
 [Term]
 id: pharmgkb.disease:PA166180841
-name: renal transplant failure
+name: Renal transplant failure
 xref: meddra:10074495
 
 [Term]
@@ -4408,7 +3975,7 @@ xref: MONDO:0012312
 
 [Term]
 id: pharmgkb.disease:PA166184864
-name: craving
+name: Craving
 synonym: "Cravings" []
 xref: mesh:D066249
 
@@ -4437,12 +4004,6 @@ synonym: "Ideation" []
 synonym: "Suicidal" []
 xref: HP:0031589
 xref: mesh:D059020
-
-[Term]
-id: pharmgkb.disease:PA166186062
-name: mechanical heart valve replacement
-synonym: "Mechanical heart valve replacement (procedure)" []
-xref: snomedct:699347000
 
 [Term]
 id: pharmgkb.disease:PA166195784
@@ -4478,8 +4039,10 @@ xref: MONDO:0005361
 
 [Term]
 id: pharmgkb.disease:PA166232141
-name: hypersexuality state
+name: Amplification of sexual behavior
 synonym: "Compulsive sexual behaviour" []
+synonym: "hypersexuality state" []
+xref: HP:5200321
 xref: snomedct:73744004
 
 [Term]
@@ -4527,8 +4090,13 @@ xref: MONDO:0002571
 
 [Term]
 id: pharmgkb.disease:PA166256642
-name: osteonecrosis of jaw caused by drug
+name: Osteonecrosis of the jaw
+synonym: "Bisphosphonate-Associated Osteonecrosis of the Jaw" []
+synonym: "ONJ" []
 synonym: "Osteonecrosis of jaw caused by drug (disorder)" []
+xref: meddra:10064658
+xref: mesh:D059266
+xref: MONDO:0018378
 xref: snomedct:315801000119108
 
 [Term]
@@ -4552,7 +4120,7 @@ xref: meddra:10065994
 
 [Term]
 id: pharmgkb.disease:PA166279881
-name: elevated liver enzymes
+name: Elevated liver enzymes
 synonym: "Transaminitis" []
 synonym: "elevations in alanine aminotransferase (ALT)" []
 xref: HP:0002910
@@ -4589,12 +4157,12 @@ xref: snomedct:129846003
 id: pharmgkb.disease:PA166314441
 name: surgery
 synonym: "intraoperative procedures" []
-xref: mesh:Q000601
 
 [Term]
 id: pharmgkb.disease:PA166314521
-name: mean arterial pressure
+name: Elevated mean arterial pressure
 synonym: "Arterial Pressure" []
+xref: HP:0004972
 xref: meddra:10026982
 xref: mesh:D062186
 
@@ -4623,7 +4191,7 @@ xref: mesh:D000069196
 
 [Term]
 id: pharmgkb.disease:PA166321661
-name: cyclic vomiting syndrome
+name: Cyclic vomiting syndrome
 xref: meddra:10062937
 xref: MONDO:0010778
 
@@ -4682,7 +4250,10 @@ xref: MONDO:0018748
 
 [Term]
 id: pharmgkb.disease:PA166328021
-name: sweat chloride test elevated
+name: Elevated sweat chloride
+synonym: "Sweat test outside reference range" []
+synonym: "sweat chloride test elevated" []
+xref: HP:0012236
 xref: meddra:10053619
 
 [Term]
@@ -4692,22 +4263,19 @@ xref: HP:0000742
 xref: meddra:10012213
 
 [Term]
-id: pharmgkb.disease:PA166328301
-name: pseudoallergic reaction
-xref: meddra:10084859
-
-[Term]
 id: pharmgkb.disease:PA166328441
-name: missed dose
+name: Missed dose
 xref: meddra:10074624
 xref: snomedct:1269470004
 xref: snomedct:C1709043
 
 [Term]
 id: pharmgkb.disease:PA166328461
-name: medication adherence
+name: Medication adherence
+synonym: "Compliance" []
 synonym: "Medication" []
 synonym: "Persistence" []
+synonym: "Treatment adherence" []
 xref: mesh:D055118
 
 [Term]
@@ -4744,14 +4312,9 @@ xref: MONDO:0007846
 
 [Term]
 id: pharmgkb.disease:PA166339021
-name: large for gestational age
+name: Large for gestational age
 xref: HP:0001520
 xref: meddra:10023790
-
-[Term]
-id: pharmgkb.disease:PA166340541
-name: prenatal screening test
-xref: meddra:10072060
 
 [Term]
 id: pharmgkb.disease:PA166343361
@@ -4804,6 +4367,34 @@ synonym: "digenic" []
 synonym: "hyperbilirubinemia" []
 synonym: "rotor type" []
 xref: MONDO:0009379
+
+[Term]
+id: pharmgkb.disease:PA166365841
+name: infantile myofibromatosis
+synonym: "IMS" []
+synonym: "infantile hemangiopericytoma" []
+synonym: "multicentric myofibromatosis" []
+synonym: "myofibromatosis" []
+xref: MONDO:0016824
+
+[Term]
+id: pharmgkb.disease:PA166368602
+name: weight loss
+synonym: "Loss of weight" []
+xref: HP:0001824
+
+[Term]
+id: pharmgkb.disease:PA166393301
+name: respiratory failure requiring assisted ventilation
+synonym: "Respiratory distress necessitating mechanical ventilation" []
+synonym: "Respiratory distress requiring endotracheal intubation" []
+synonym: "Respiratory distress requiring mechanical ventilation" []
+xref: HP:0004887
+
+[Term]
+id: pharmgkb.disease:PA166394201
+name: history of gastric bypass surgery
+xref: HP:6000179
 
 [Term]
 id: pharmgkb.disease:PA443223
@@ -5745,7 +5336,7 @@ xref: umls:C0002874
 
 [Term]
 id: pharmgkb.disease:PA443343
-name: Anemia\, Hemolytic
+name: Hemolytic Anemia
 synonym: "Acquired" []
 synonym: "Acquired Hemolytic" []
 synonym: "Acquired Hemolytic Anemia" []
@@ -5989,29 +5580,6 @@ xref: mesh:D000855
 xref: ndfrt:N0000000421
 xref: snomedct:206915006
 xref: umls:C0003123
-
-[Term]
-id: pharmgkb.disease:PA443382
-name: Anoxia
-synonym: "Anoxemia" []
-synonym: "Anoxemias" []
-synonym: "Anoxia" []
-synonym: "Anoxias" []
-synonym: "Deficiencies" []
-synonym: "Deficiency" []
-synonym: "Fetal Hypoxia" []
-synonym: "Fetal hypoxia" []
-synonym: "Hypoxemia" []
-synonym: "Hypoxemias" []
-synonym: "Hypoxia" []
-synonym: "Hypoxias" []
-synonym: "Oxygen" []
-synonym: "Oxygen Deficiencies" []
-synonym: "Oxygen Deficiency" []
-xref: meddra:10002660
-xref: mesh:D000860
-xref: ndfrt:N0000000426
-xref: umls:C0003130
 
 [Term]
 id: pharmgkb.disease:PA443385
@@ -6272,6 +5840,7 @@ synonym: "Arrhythmias" []
 synonym: "Arrythmia" []
 synonym: "Cardiac" []
 synonym: "Cardiac dysrhythmia NOS" []
+synonym: "Proarrhythmia" []
 synonym: "Ventricular Flutter" []
 synonym: "Ventricular flutter" []
 synonym: "cardiac arrhythmia" []
@@ -6464,23 +6033,6 @@ xref: MONDO:0005657
 xref: ndfrt:N0000000492
 xref: snomedct:65553006
 xref: umls:C0004030
-
-[Term]
-id: pharmgkb.disease:PA443446
-name: Asphyxia
-synonym: "Asphyxias" []
-synonym: "Death by asphyxiation" []
-synonym: "NOS" []
-synonym: "Suffocation" []
-synonym: "Suffocations" []
-synonym: "[D]Asphyxia" []
-xref: meddra:10003496
-xref: mesh:D001237
-xref: ndfrt:N0000000494
-xref: snomedct:207550002
-xref: snomedct:271877004
-xref: snomedct:66466001
-xref: umls:C0004044
 
 [Term]
 id: pharmgkb.disease:PA443448
@@ -9076,7 +8628,7 @@ xref: umls:C0009319
 
 [Term]
 id: pharmgkb.disease:PA443750
-name: Colitis\, Ulcerative
+name: Ulcerative Colitis
 synonym: "Chronic ulcerative colitis" []
 synonym: "Colitides" []
 synonym: "Colitis gravis" []
@@ -9871,9 +9423,7 @@ xref: umls:C0011065
 
 [Term]
 id: pharmgkb.disease:PA443843
-name: Death\, Sudden
-synonym: "Sudden Death" []
-synonym: "Sudden death" []
+name: Sudden death
 xref: HP:0001699
 xref: meddra:10052810
 xref: mesh:D003645
@@ -14311,17 +13861,6 @@ xref: snomedct:398036000
 xref: umls:C0020445
 
 [Term]
-id: pharmgkb.disease:PA444519
-name: Hyperemia
-synonym: "Engorgement" []
-synonym: "Hyperaemia" []
-synonym: "Hyperemia" []
-synonym: "Hyperemias" []
-synonym: "Local congestion" []
-synonym: "NOS" []
-synonym: "Vascular engorgement" []
-
-[Term]
 id: pharmgkb.disease:PA444522
 name: Hyperglycemia
 synonym: "Hyperglycaemia" []
@@ -14826,21 +14365,6 @@ xref: snomedct:36976004
 xref: umls:C0020626
 
 [Term]
-id: pharmgkb.disease:PA444582
-name: Hypoprothrombinemias
-synonym: "Deficiencies" []
-synonym: "Deficiency" []
-synonym: "Factor II" []
-synonym: "Factor II Deficiencies" []
-synonym: "Factor II Deficiency" []
-synonym: "Hypoprothrombinemia" []
-synonym: "NOS" []
-synonym: "Prothrombin" []
-synonym: "Prothrombin Deficiencies" []
-synonym: "Prothrombin Deficiency" []
-synonym: "Prothrombin deficiency" []
-
-[Term]
 id: pharmgkb.disease:PA444584
 name: Hypotensive disorder
 synonym: "Arterial hypotension" []
@@ -14916,6 +14440,7 @@ synonym: "Hypercapnic respiratory failure" []
 synonym: "Hypoventilation" []
 synonym: "Hypoventilations" []
 synonym: "NOS" []
+synonym: "Respiratory depression" []
 synonym: "Type 2 respiratory failure" []
 synonym: "Ventilatory failure" []
 xref: HP:0002791
@@ -14925,14 +14450,6 @@ xref: ndfrt:N0000001656
 xref: snomedct:15993004
 xref: snomedct:31515003
 xref: umls:C0398353
-
-[Term]
-id: pharmgkb.disease:PA444594
-name: Ileal Diseases
-synonym: "Disease" []
-synonym: "Diseases" []
-synonym: "Ileal" []
-synonym: "Ileal Disease" []
 
 [Term]
 id: pharmgkb.disease:PA444597
@@ -15066,13 +14583,6 @@ xref: snomedct:55004003
 xref: umls:C0021141
 
 [Term]
-id: pharmgkb.disease:PA444613
-name: Infarction
-synonym: "Infarct" []
-synonym: "Infarctions" []
-synonym: "NOS" []
-
-[Term]
 id: pharmgkb.disease:PA444614
 name: Infectious disease
 synonym: "Infection" []
@@ -15146,8 +14656,10 @@ synonym: "Inflammatory reaction" []
 synonym: "Leucocytic infiltrate" []
 synonym: "Leukocytic infiltrate" []
 synonym: "NOS" []
+xref: HP:0012649
 xref: meddra:10061218
 xref: mesh:D007249
+xref: MONDO:0021166
 xref: ndfrt:N0000001687
 xref: snomedct:23583003
 xref: snomedct:257552002
@@ -15335,22 +14847,6 @@ xref: HP:0004389
 xref: MONDO:0002803
 
 [Term]
-id: pharmgkb.disease:PA444640
-name: Intraoperative Complications
-synonym: "Complication" []
-synonym: "Complications" []
-synonym: "Injuries" []
-synonym: "Injury" []
-synonym: "Intraoperative" []
-synonym: "Intraoperative Complication" []
-synonym: "Peroperative" []
-synonym: "Peroperative Complication" []
-synonym: "Peroperative Complications" []
-synonym: "Surgical" []
-synonym: "Surgical Injuries" []
-synonym: "Surgical Injury" []
-
-[Term]
 id: pharmgkb.disease:PA444645
 name: Ischemia
 synonym: "Ischemia" []
@@ -15460,7 +14956,7 @@ xref: umls:C0022350
 
 [Term]
 id: pharmgkb.disease:PA444650
-name: Jaundice\, Neonatal
+name: Neonatal hyperbilirubinemia
 synonym: "Hyperbilirubinemia" []
 synonym: "Hyperbilirubinemias" []
 synonym: "Icterus neonatorum" []
@@ -15469,6 +14965,7 @@ synonym: "Neonatal Hyperbilirubinemia" []
 synonym: "Neonatal Hyperbilirubinemias" []
 synonym: "Neonatal Jaundice" []
 synonym: "Neonatal jaundice" []
+xref: HP:0003265
 xref: meddra:10021210
 xref: mesh:D007567
 xref: MONDO:0006584
@@ -15556,33 +15053,6 @@ xref: MONDO:0006566
 xref: ndfrt:N0000001741
 xref: snomedct:254666005
 xref: umls:C0022593
-
-[Term]
-id: pharmgkb.disease:PA444680
-name: Kidney Calculi
-synonym: "Calculi" []
-synonym: "Calculus" []
-synonym: "Kidney" []
-synonym: "Kidney Calculus" []
-synonym: "Kidney Stone" []
-synonym: "Kidney Stones" []
-synonym: "Kidney calculus" []
-synonym: "Kidney stone" []
-synonym: "Phosphate" []
-synonym: "Phosphate Calculi" []
-synonym: "Phosphate Calculus" []
-synonym: "Renal" []
-synonym: "Renal Calculi" []
-synonym: "Renal Calculus" []
-synonym: "Renal calculus NOS" []
-synonym: "Stone" []
-synonym: "Stones" []
-xref: meddra:10006994
-xref: mesh:D007669
-xref: ndfrt:N0000001746
-xref: snomedct:197795009
-xref: snomedct:95570007
-xref: umls:C0022650
 
 [Term]
 id: pharmgkb.disease:PA444682
@@ -16771,17 +16241,6 @@ xref: snomedct:19829001
 xref: umls:C0024115
 
 [Term]
-id: pharmgkb.disease:PA444816
-name: Lung Diseases\, Obstructive
-synonym: "Disease" []
-synonym: "Diseases" []
-synonym: "Lung Disease" []
-synonym: "Obstructive" []
-synonym: "Obstructive Lung" []
-synonym: "Obstructive Lung Disease" []
-synonym: "Obstructive Lung Diseases" []
-
-[Term]
 id: pharmgkb.disease:PA444818
 name: Lung Neoplasms
 synonym: "Cancer" []
@@ -17394,12 +16853,7 @@ xref: umls:C0025202
 
 [Term]
 id: pharmgkb.disease:PA444910
-name: Memory Disorders
-synonym: "Age Related" []
-synonym: "Age Related Memory Disorders" []
-synonym: "Age-Related" []
-synonym: "Age-Related Memory Disorder" []
-synonym: "Age-Related Memory Disorders" []
+name: Memory impairment
 synonym: "Cognitive" []
 synonym: "Cognitive Retention Disorder" []
 synonym: "Cognitive Retention Disorders" []
@@ -17409,17 +16863,11 @@ synonym: "Memory" []
 synonym: "Memory Deficit" []
 synonym: "Memory Deficits" []
 synonym: "Memory Disorder" []
-synonym: "Memory Disorders" []
 synonym: "Memory Loss" []
 synonym: "Memory Losses" []
 synonym: "Retention Disorder" []
 synonym: "Retention Disorders" []
-synonym: "Semantic" []
-synonym: "Semantic Memory Disorder" []
-synonym: "Semantic Memory Disorders" []
-synonym: "Spatial" []
-synonym: "Spatial Memory Disorder" []
-synonym: "Spatial Memory Disorders" []
+xref: HP:0002354
 xref: mesh:D008569
 xref: ndfrt:N0000001976
 xref: umls:C0025261
@@ -17721,7 +17169,7 @@ xref: umls:C0026603
 
 [Term]
 id: pharmgkb.disease:PA444972
-name: Mouth Neoplasms
+name: Neoplasm of the oral cavity
 synonym: "Cancer" []
 synonym: "Cancer of Mouth" []
 synonym: "Cancer of the Mouth" []
@@ -17742,8 +17190,10 @@ synonym: "Tumor of mouth" []
 synonym: "Tumor of oral cavity" []
 synonym: "Tumour of mouth" []
 synonym: "Tumour of oral cavity" []
+xref: HP:0100649
 xref: meddra:10028029
 xref: mesh:D009062
+xref: MONDO:0021245
 xref: ndfrt:N0000002037
 xref: snomedct:126797001
 xref: snomedct:235075007
@@ -17959,7 +17409,7 @@ xref: umls:C0026780
 
 [Term]
 id: pharmgkb.disease:PA444990
-name: Muscle Cramp
+name: Muscle spasm
 synonym: "Cramp" []
 synonym: "Cramps" []
 synonym: "Limb" []
@@ -17971,6 +17421,7 @@ synonym: "Muscular" []
 synonym: "Muscular Cramp" []
 synonym: "Muscular Cramps" []
 synonym: "NOS" []
+xref: HP:0003394
 xref: meddra:10011285
 xref: mesh:D009120
 xref: ndfrt:N0000002057
@@ -18180,21 +17631,6 @@ xref: snomedct:91637004
 xref: umls:C0026896
 
 [Term]
-id: pharmgkb.disease:PA445007
-name: Mycoplasma Infections
-synonym: "Infection" []
-synonym: "Infections" []
-synonym: "Mycoplasma" []
-synonym: "Mycoplasma Infection" []
-synonym: "Mycoplasmosis" []
-xref: meddra:10061300
-xref: mesh:D009175
-xref: ndfrt:N0000002073
-xref: snomedct:186464008
-xref: snomedct:406595002
-xref: umls:C0026936
-
-[Term]
 id: pharmgkb.disease:PA445009
 name: Mycoses
 synonym: "Disease" []
@@ -18298,7 +17734,7 @@ xref: umls:C0001815
 
 [Term]
 id: pharmgkb.disease:PA445016
-name: Myeloproliferative Disorders
+name: Myeloproliferative Disorder
 synonym: "Disorder" []
 synonym: "Disorders" []
 synonym: "Myeloid neoplasm" []
@@ -18306,9 +17742,12 @@ synonym: "Myeloproliferative" []
 synonym: "Myeloproliferative Disorder" []
 synonym: "Myeloproliferative disease" []
 synonym: "Myeloproliferative disorder" []
+synonym: "myeloproliferative neoplasm" []
 synonym: "no ICD-O subtype" []
+xref: HP:0005547
 xref: meddra:10013238
 xref: mesh:D009196
+xref: MONDO:0020076
 xref: ndfrt:N0000002082
 xref: snomedct:128925001
 xref: snomedct:414792005
@@ -18706,7 +18145,7 @@ xref: umls:C0027540
 
 [Term]
 id: pharmgkb.disease:PA445058
-name: Neoplasm Metastasis
+name: Metastatic neoplasm
 synonym: "CA - Secondary cancer" []
 synonym: "Metastases" []
 synonym: "Metastasis" []
@@ -18730,6 +18169,7 @@ synonym: "metastatic" []
 synonym: "secondary" []
 xref: meddra:10027476
 xref: mesh:D009362
+xref: MONDO:0024883
 xref: ndfrt:N0000002124
 xref: snomedct:128462008
 xref: snomedct:14799000
@@ -18762,28 +18202,6 @@ xref: snomedct:190230000
 xref: umls:C0027651
 
 [Term]
-id: pharmgkb.disease:PA445066
-name: Neoplasms\, Germ Cell and Embryonal
-synonym: "Cancer" []
-synonym: "Cancers" []
-synonym: "Embryonal" []
-synonym: "Embryonal Cancer" []
-synonym: "Embryonal Cancers" []
-synonym: "Embryonal Neoplasm" []
-synonym: "Embryonal Neoplasms" []
-synonym: "Embryonal and Mixed" []
-synonym: "Germ Cell" []
-synonym: "Germ Cell Cancer" []
-synonym: "Germ Cell Cancers" []
-synonym: "Germ Cell Neoplasm" []
-synonym: "Germ Cell Neoplasms" []
-synonym: "Germ Cell and Embryonal Neoplasms" []
-synonym: "Germ Cell and Embryonic" []
-synonym: "Germ Cell and Embryonic Neoplasms" []
-synonym: "Neoplasm" []
-synonym: "Neoplasms" []
-
-[Term]
 id: pharmgkb.disease:PA445074
 name: Neoplasms\, Radiation-Induced
 synonym: "Cancer" []
@@ -18801,12 +18219,6 @@ synonym: "Radiation-Induced Neoplasms" []
 xref: mesh:D009381
 xref: ndfrt:N0000002140
 xref: umls:C0027666
-
-[Term]
-id: pharmgkb.disease:PA445078
-name: Neoplastic Processes
-synonym: "Neoplastic" []
-synonym: "Processes" []
 
 [Term]
 id: pharmgkb.disease:PA445081
@@ -18890,28 +18302,6 @@ xref: ndfrt:N0000002155
 xref: snomedct:197611005
 xref: snomedct:52254009
 xref: umls:C0027726
-
-[Term]
-id: pharmgkb.disease:PA445093
-name: Nervous System Diseases
-synonym: "Disease" []
-synonym: "Disease of nervous system" []
-synonym: "Diseases" []
-synonym: "Disorder" []
-synonym: "Disorder of nervous system" []
-synonym: "Disorders" []
-synonym: "Nervous System" []
-synonym: "Nervous System Disease" []
-synonym: "Nervous System Disorder" []
-synonym: "Nervous System Disorders" []
-synonym: "Nervous system disease" []
-synonym: "Neurologic" []
-synonym: "Neurologic Disorder" []
-synonym: "Neurologic Disorders" []
-synonym: "Neurological" []
-synonym: "Neurological Disorder" []
-synonym: "Neurological Disorders" []
-synonym: "Neurological disorder" []
 
 [Term]
 id: pharmgkb.disease:PA445094
@@ -19104,46 +18494,6 @@ xref: MONDO:0019790
 xref: ndfrt:N0000002172
 xref: snomedct:15244003
 xref: umls:C0027849
-
-[Term]
-id: pharmgkb.disease:PA445105
-name: Neurologic Manifestations
-synonym: "Deficit" []
-synonym: "Deficits" []
-synonym: "Dysfunction" []
-synonym: "Dysfunctions" []
-synonym: "Finding" []
-synonym: "Findings" []
-synonym: "Focal" []
-synonym: "Focal Neurologic" []
-synonym: "Focal Neurologic Deficit" []
-synonym: "Focal Neurologic Deficits" []
-synonym: "Manifestation" []
-synonym: "Manifestations" []
-synonym: "Neurologic" []
-synonym: "Neurologic Deficit" []
-synonym: "Neurologic Deficits" []
-synonym: "Neurologic Dysfunction" []
-synonym: "Neurologic Dysfunctions" []
-synonym: "Neurologic Effect" []
-synonym: "Neurologic Effects" []
-synonym: "Neurologic Finding" []
-synonym: "Neurologic Findings" []
-synonym: "Neurologic Manifestation" []
-synonym: "Neurologic Sign" []
-synonym: "Neurologic Signs" []
-synonym: "Neurologic Signs and Symptoms" []
-synonym: "Neurologic Symptom" []
-synonym: "Neurologic Symptoms" []
-synonym: "Neurological" []
-synonym: "Neurological Effect" []
-synonym: "Neurological Effects" []
-synonym: "Neurological Manifestation" []
-synonym: "Neurological Manifestations" []
-synonym: "Sign" []
-synonym: "Signs" []
-synonym: "Symptom" []
-synonym: "Symptoms" []
 
 [Term]
 id: pharmgkb.disease:PA445108
@@ -19514,15 +18864,6 @@ xref: ndfrt:N0000002216
 xref: snomedct:207181002
 xref: snomedct:83128009
 xref: umls:C0028961
-
-[Term]
-id: pharmgkb.disease:PA445155
-name: Opportunistic Infections
-synonym: "Infection" []
-synonym: "Infections" []
-synonym: "Opportunistic" []
-synonym: "Opportunistic Infection" []
-synonym: "Opportunistic infectious disease" []
 
 [Term]
 id: pharmgkb.disease:PA445156
@@ -20070,42 +19411,6 @@ xref: snomedct:17322007
 xref: umls:C0030499
 
 [Term]
-id: pharmgkb.disease:PA445252
-name: Paresis
-synonym: "Brachial" []
-synonym: "Brachial Pareses" []
-synonym: "Brachial Paresis" []
-synonym: "Crural" []
-synonym: "Crural Pareses" []
-synonym: "Crural Paresis" []
-synonym: "Extremity Pareses" []
-synonym: "Extremity Paresis" []
-synonym: "Hemipareses" []
-synonym: "Hemiparesis" []
-synonym: "Lower" []
-synonym: "Lower Extremity" []
-synonym: "Lower Extremity Pareses" []
-synonym: "Lower Extremity Paresis" []
-synonym: "Monopareses" []
-synonym: "Monoparesis" []
-synonym: "Muscle" []
-synonym: "Muscle Pareses" []
-synonym: "Muscle Paresis" []
-synonym: "Muscular" []
-synonym: "Muscular Pareses" []
-synonym: "Muscular Paresis" []
-synonym: "Pareses" []
-synonym: "Paresis" []
-synonym: "Upper" []
-synonym: "Upper Extremity" []
-synonym: "Upper Extremity Pareses" []
-synonym: "Upper Extremity Paresis" []
-xref: meddra:10033985
-xref: mesh:D010291
-xref: ndfrt:N0000002325
-xref: umls:C0030552
-
-[Term]
 id: pharmgkb.disease:PA445253
 name: Paresthesia
 synonym: "Distal" []
@@ -20191,7 +19496,7 @@ xref: umls:C0030569
 
 [Term]
 id: pharmgkb.disease:PA445272
-name: Pemphigoid\, Bullous
+name: Bullous Pemphigoid
 synonym: "Benign pemphigus" []
 synonym: "Bullous Pemphigoid" []
 synonym: "Bullous pemphigoid" []
@@ -20594,27 +19899,6 @@ xref: snomedct:201293006
 xref: snomedct:414032001
 xref: snomedct:79644001
 xref: umls:C0549567
-
-[Term]
-id: pharmgkb.disease:PA445331
-name: Pituitary Neoplasms
-synonym: "Neoplasm" []
-synonym: "Neoplasms" []
-synonym: "Pituitary" []
-synonym: "Pituitary Neoplasm" []
-synonym: "Pituitary Tumor" []
-synonym: "Pituitary Tumors" []
-synonym: "Pituitary tumor" []
-synonym: "Pituitary tumour" []
-synonym: "Tumor" []
-synonym: "Tumor of pituitary gland" []
-synonym: "Tumors" []
-synonym: "Tumour of pituitary gland" []
-xref: meddra:10035086
-xref: mesh:D010911
-xref: ndfrt:N0000002408
-xref: snomedct:127024001
-xref: umls:C0032019
 
 [Term]
 id: pharmgkb.disease:PA445338
@@ -21174,7 +20458,7 @@ xref: umls:C0033774
 
 [Term]
 id: pharmgkb.disease:PA445440
-name: Pseudarthrosis
+name: Pseudoarthrosis
 synonym: "Fibrous nonunion" []
 synonym: "NOS" []
 synonym: "Nearthrosis" []
@@ -21183,6 +20467,7 @@ synonym: "Neoarthrosis" []
 synonym: "Pseudarthroses" []
 synonym: "Pseudoarthroses" []
 synonym: "Pseudoarthrosis" []
+xref: HP:0005864
 xref: meddra:10048617
 xref: mesh:D011542
 xref: ndfrt:N0000002515
@@ -21268,6 +20553,7 @@ synonym: "Psychophysiological Disorders" []
 synonym: "Psychosomatic Disorder" []
 synonym: "Psychosomatic Disorders" []
 synonym: "Psychosomatic disorder" []
+synonym: "somatoform disorder" []
 xref: meddra:10049587
 xref: mesh:D011602
 xref: ndfrt:N0000002529
@@ -21743,13 +21029,8 @@ xref: umls:C0035222
 [Term]
 id: pharmgkb.disease:PA445522
 name: Respiratory Insufficiency
-synonym: "Depressions" []
-synonym: "Respiratory Depression" []
 synonym: "Respiratory Failure" []
-synonym: "Respiratory insufficiency" []
 synonym: "Respiratory insufficiency [D]" []
-synonym: "Ventilatory" []
-synonym: "Ventilatory Depression" []
 xref: HP:0002093
 xref: meddra:10038701
 xref: mesh:D012131
@@ -21761,7 +21042,7 @@ xref: umls:C0035229
 
 [Term]
 id: pharmgkb.disease:PA445524
-name: Respiratory Sounds
+name: Wheezing
 synonym: "Crackle" []
 synonym: "Crackles" []
 synonym: "NOS" []
@@ -21781,6 +21062,7 @@ synonym: "Stridor" []
 synonym: "Stridors" []
 synonym: "Wheezing" []
 synonym: "Wheezings" []
+xref: HP:0030828
 xref: meddra:10064779
 xref: mesh:D012135
 xref: ndfrt:N0000002601
@@ -22421,7 +21703,7 @@ xref: umls:C0036323
 
 [Term]
 id: pharmgkb.disease:PA445617
-name: Scleroderma\, Systemic
+name: Systemic sclerosis
 synonym: "Diffuse" []
 synonym: "Diffuse Scleroderma" []
 synonym: "Progressive" []
@@ -22446,15 +21728,6 @@ xref: MONDO:0005100
 xref: ndfrt:N0000002701
 xref: snomedct:89155008
 xref: umls:C0036421
-
-[Term]
-id: pharmgkb.disease:PA445618
-name: Sclerosis
-synonym: "Scleroses" []
-xref: mesh:D012598
-xref: ndfrt:N0000002702
-xref: snomedct:43846000
-xref: umls:C0036429
 
 [Term]
 id: pharmgkb.disease:PA445619
@@ -22594,36 +21867,6 @@ xref: snomedct:91175000
 xref: umls:C0036572
 
 [Term]
-id: pharmgkb.disease:PA445631
-name: Sensation Disorders
-synonym: "Sensation Disorder" []
-synonym: "Senses Disorder" []
-synonym: "Senses Disorders" []
-synonym: "Sensory Disorder" []
-synonym: "Sensory Disorders" []
-synonym: "Special" []
-synonym: "Special Senses Disorder" []
-synonym: "Special Senses Disorders" []
-xref: mesh:D012678
-xref: ndfrt:N0000002715
-xref: umls:C0036659
-
-[Term]
-id: pharmgkb.disease:PA445632
-name: Septicemia
-synonym: "Blood" []
-synonym: "Blood Poisoning" []
-synonym: "Poisoning" []
-synonym: "Septicaemia" []
-synonym: "Septicaemia NOS" []
-synonym: "Septicemia" []
-synonym: "Septicemia NOS" []
-xref: meddra:10040072
-xref: ndfrt:N0000002716
-xref: snomedct:105592009
-xref: umls:C0036690
-
-[Term]
 id: pharmgkb.disease:PA445644
 name: Shock
 synonym: "Acute circulatory failure" []
@@ -22663,16 +21906,6 @@ xref: ndfrt:N0000002729
 xref: snomedct:207027002
 xref: snomedct:89138009
 xref: umls:C0036980
-
-[Term]
-id: pharmgkb.disease:PA445646
-name: Shock\, Hemorrhagic
-synonym: "Hemorrhagic Shock" []
-xref: meddra:10055860
-xref: mesh:D012771
-xref: ndfrt:N0000002730
-xref: snomedct:355001
-xref: umls:C0036982
 
 [Term]
 id: pharmgkb.disease:PA445647
@@ -22837,17 +22070,6 @@ xref: snomedct:239001006
 xref: umls:C0037277
 
 [Term]
-id: pharmgkb.disease:PA445682
-name: Skin Manifestations
-synonym: "Manifestation" []
-synonym: "Manifestations" []
-synonym: "Skin" []
-synonym: "Skin Manifestation" []
-xref: mesh:D012877
-xref: ndfrt:N0000002767
-xref: umls:C0037285
-
-[Term]
 id: pharmgkb.disease:PA445683
 name: Skin Neoplasms
 synonym: "Cancer" []
@@ -22991,34 +22213,8 @@ xref: snomedct:76067001
 xref: umls:C0037383
 
 [Term]
-id: pharmgkb.disease:PA445699
-name: Spasm
-synonym: "Ciliary Body" []
-synonym: "Ciliary Body Spasm" []
-synonym: "Ciliary Body Spasms" []
-synonym: "Generalized" []
-synonym: "Generalized Spasm" []
-synonym: "Generalized Spasms" []
-synonym: "Muscle" []
-synonym: "Muscle Spasm" []
-synonym: "Muscle Spasms" []
-synonym: "Muscular" []
-synonym: "Muscular Spasm" []
-synonym: "Muscular Spasms" []
-synonym: "NOS" []
-synonym: "Spasm" []
-synonym: "Spasms" []
-synonym: "Spasms [D]" []
-xref: meddra:10028333
-xref: mesh:D013035
-xref: ndfrt:N0000002785
-xref: snomedct:274238007
-xref: snomedct:45352006
-xref: umls:C0037763
-
-[Term]
 id: pharmgkb.disease:PA445700
-name: Spasms\, Infantile
+name: Infantile Spasms
 synonym: "Attack" []
 synonym: "Attacks" []
 synonym: "Cryptogenic" []
@@ -24053,18 +23249,6 @@ xref: snomedct:128856005
 xref: umls:C0040100
 
 [Term]
-id: pharmgkb.disease:PA445856
-name: Thyroid Diseases
-synonym: "Disease" []
-synonym: "Disease of thyroid gland" []
-synonym: "Diseases" []
-synonym: "Disorder of thyroid gland" []
-synonym: "NOS" []
-synonym: "Thyroid" []
-synonym: "Thyroid Disease" []
-synonym: "Thyroid disorder" []
-
-[Term]
 id: pharmgkb.disease:PA445857
 name: Thyroid tumor
 synonym: "Cancer" []
@@ -24312,19 +23496,6 @@ xref: snomedct:70070008
 xref: umls:C0040485
 
 [Term]
-id: pharmgkb.disease:PA445901
-name: Toxemia
-synonym: "Blood poisoning" []
-synonym: "NOS" []
-synonym: "Toxaemia" []
-synonym: "Toxemias" []
-xref: meddra:10059853
-xref: mesh:D014115
-xref: ndfrt:N0000002987
-xref: snomedct:40555009
-xref: umls:C0040524
-
-[Term]
 id: pharmgkb.disease:PA445903
 name: Toxoplasmosis
 synonym: "Infection" []
@@ -24357,7 +23528,7 @@ xref: umls:C0040592
 
 [Term]
 id: pharmgkb.disease:PA445914
-name: Translocation\, Genetic
+name: Chromosomal disorder
 synonym: "Chromosomal" []
 synonym: "Chromosomal Translocation" []
 synonym: "Chromosomal Translocations" []
@@ -24367,7 +23538,9 @@ synonym: "Translocation" []
 synonym: "Translocation (Genetics)" []
 synonym: "Translocations" []
 synonym: "Translocations (Genetics)" []
+synonym: "chromosome abnormality disorders" []
 xref: mesh:D014178
+xref: MONDO:0019040
 xref: ndfrt:N0000003000
 xref: snomedct:15897004
 xref: umls:C0040715
@@ -24733,6 +23906,7 @@ xref: umls:C0041956
 [Term]
 id: pharmgkb.disease:PA445988
 name: Urinary Calculi
+synonym: "Bladder stones" []
 synonym: "Calculi" []
 synonym: "Calculus" []
 synonym: "Stone" []
@@ -24859,20 +24033,6 @@ xref: ndfrt:N0000003084
 xref: umls:C0042065
 
 [Term]
-id: pharmgkb.disease:PA445996
-name: Male Urogenital Diseases
-synonym: "Congenital absence of germinal epithelium of testes" []
-synonym: "Del Castillo's syndrome" []
-synonym: "Gene deletion in AZF region of Y chromosome" []
-synonym: "Germinal aplasia" []
-synonym: "Sertoli Cell-Only Syndrome" []
-synonym: "Urologic and Male Genital Diseases" []
-synonym: "Urological and Male Genital Diseases" []
-xref: mesh:D052801
-xref: ndfrt:N0000003085
-xref: umls:C1720894
-
-[Term]
 id: pharmgkb.disease:PA445997
 name: Urologic Diseases
 synonym: "Disease" []
@@ -24959,24 +24119,6 @@ xref: snomedct:126485001
 xref: snomedct:267818006
 xref: snomedct:64305001
 xref: umls:C0042109
-
-[Term]
-id: pharmgkb.disease:PA446002
-name: Uterine Hemorrhage
-synonym: "Bleeding" []
-synonym: "Breakthrough" []
-synonym: "Breakthrough Bleeding" []
-synonym: "Hemorrhage" []
-synonym: "Spotting" []
-synonym: "Spottings" []
-synonym: "Uterine" []
-synonym: "Uterine Bleeding" []
-synonym: "Uterine Bleedings" []
-synonym: "Uterine Hemorrhages" []
-xref: meddra:10046789
-xref: mesh:D014592
-xref: ndfrt:N0000003091
-xref: umls:C0042134
 
 [Term]
 id: pharmgkb.disease:PA446004
@@ -25512,23 +24654,6 @@ xref: snomedct:70694009
 xref: umls:C0043207
 
 [Term]
-id: pharmgkb.disease:PA446078
-name: Wound Infection
-synonym: "Infected wound" []
-synonym: "Infection" []
-synonym: "Infections" []
-synonym: "Local infection of wound" []
-synonym: "NOS" []
-synonym: "Wound" []
-synonym: "Wound Infections" []
-synonym: "Wound infection" []
-xref: meddra:10048038
-xref: mesh:D014946
-xref: ndfrt:N0000003168
-xref: snomedct:76844004
-xref: umls:C0043241
-
-[Term]
 id: pharmgkb.disease:PA446079
 name: Wounds and Injuries
 synonym: "Injuries" []
@@ -25745,23 +24870,6 @@ xref: MONDO:0005335
 xref: ndfrt:N0000003198
 xref: snomedct:126837005
 xref: umls:C0009404
-
-[Term]
-id: pharmgkb.disease:PA446112
-name: Smoke Inhalation Injury
-synonym: "Inhalation Injuries" []
-synonym: "Inhalation Injury" []
-synonym: "Injuries" []
-synonym: "Injury" []
-synonym: "Smoke" []
-synonym: "Smoke Inhalation" []
-synonym: "Smoke Inhalation Injuries" []
-synonym: "Smoke inhalation injury" []
-xref: meddra:10050546
-xref: mesh:D015208
-xref: ndfrt:N0000003202
-xref: snomedct:426936004
-xref: umls:C0037367
 
 [Term]
 id: pharmgkb.disease:PA446114
@@ -26066,7 +25174,7 @@ xref: umls:C0023351
 
 [Term]
 id: pharmgkb.disease:PA446155
-name: Precursor Cell Lymphoblastic Leukemia-Lymphoma
+name: Acute lymphoblastic leukemia
 synonym: "ALL" []
 synonym: "Acute" []
 synonym: "Acute L1" []
@@ -26110,6 +25218,7 @@ synonym: "Lymphocytic" []
 synonym: "Lymphocytic Leukemia" []
 synonym: "Lymphocytic Leukemias" []
 synonym: "Philadelphia-Positive" []
+synonym: "Precursor Cell Lymphoblastic Leukemia-Lymphoma" []
 synonym: "Precursor cell lymphoblastic leukaemia" []
 synonym: "Precursor cell lymphoblastic leukemia" []
 synonym: "acute lymphoblastic leukemia (organ transplant recipients)" []
@@ -26117,6 +25226,7 @@ synonym: "childhood acute lymphoblastic leukaemia" []
 synonym: "not phenotyped" []
 synonym: "precursor-cell type" []
 xref: mesh:D054198
+xref: MONDO:0004967
 xref: ndfrt:N0000181267
 xref: snomedct:128822004
 xref: umls:C1961102
@@ -26348,7 +25458,7 @@ xref: umls:C0023434
 
 [Term]
 id: pharmgkb.disease:PA446171
-name: Leukemia\, Myelogenous\, Chronic\, BCR-ABL Positive
+name: Chronic myelogenous leukemia\, BCR-ABL1 positive
 synonym: "BCR-ABL Positive" []
 synonym: "CGL - Chronic granulocytic leukaemia" []
 synonym: "CML" []
@@ -26394,7 +25504,7 @@ xref: umls:C0023473
 
 [Term]
 id: pharmgkb.disease:PA446175
-name: Leukemia\, Myeloid\, Chronic\, Atypical\, BCR-ABL Negative
+name: Atypical chronic myeloid leukemia\, BCR-ABL1 negative
 synonym: "Atypical chronic myeloid leukaemia" []
 synonym: "Atypical chronic myeloid leukemia" []
 synonym: "BCR/ABL negative" []
@@ -26421,6 +25531,7 @@ synonym: "Philadelphia-Negative Myeloid" []
 synonym: "Philadelphia-Negative Myeloid Leukemia" []
 synonym: "Philadelphia-Negative Myeloid Leukemias" []
 xref: mesh:D054438
+xref: MONDO:0004653
 xref: ndfrt:N0000181208
 xref: snomedct:128826001
 xref: umls:C1292772
@@ -26509,7 +25620,8 @@ xref: umls:C0023487
 
 [Term]
 id: pharmgkb.disease:PA446182
-name: Leukemia\, Myelomonocytic\, Chronic
+name: Chronic myelomonocytic leukemia
+synonym: "CMML" []
 synonym: "Chronic" []
 synonym: "Chronic Myelomonocytic" []
 synonym: "Chronic Myelomonocytic Leukemia" []
@@ -26756,27 +25868,6 @@ xref: snomedct:21522001
 xref: umls:C0000737
 
 [Term]
-id: pharmgkb.disease:PA446236
-name: Substance Abuse\, Intravenous
-synonym: "Drug Abuse" []
-synonym: "Drug User" []
-synonym: "Drug Users" []
-synonym: "IV" []
-synonym: "IV Drug" []
-synonym: "IV Drug User" []
-synonym: "IV Drug Users" []
-synonym: "Intravenous" []
-synonym: "Intravenous Drug Abuse" []
-synonym: "Intravenous Substance Abuse" []
-synonym: "Parenteral" []
-synonym: "Parenteral Drug Abuse" []
-synonym: "User" []
-synonym: "Users" []
-xref: mesh:D015819
-xref: ndfrt:N0000003325
-xref: umls:C0038579
-
-[Term]
 id: pharmgkb.disease:PA446255
 name: Iridocyclitis
 synonym: "Cyclitides" []
@@ -26985,28 +26076,6 @@ xref: MONDO:0005478
 xref: ndfrt:N0000003383
 xref: snomedct:31722008
 xref: umls:C0040479
-
-[Term]
-id: pharmgkb.disease:PA446303
-name: Tooth Loss
-synonym: "Absence of tooth - acquired" []
-synonym: "Acquired absence of teeth" []
-synonym: "Loss" []
-synonym: "Loss of teeth" []
-synonym: "Loss of teeth - acquired" []
-synonym: "Missing tooth - acquired" []
-synonym: "NOS" []
-synonym: "Shedding of tooth" []
-synonym: "Teeth missing" []
-synonym: "Tooth" []
-synonym: "Tooth loss" []
-xref: meddra:10024879
-xref: mesh:D016388
-xref: ndfrt:N0000003392
-xref: snomedct:196442002
-xref: snomedct:25540007
-xref: snomedct:37320007
-xref: umls:C0080233
 
 [Term]
 id: pharmgkb.disease:PA446304
@@ -27458,7 +26527,7 @@ xref: umls:C0085280
 
 [Term]
 id: pharmgkb.disease:PA446379
-name: Death\, Sudden\, Cardiac
+name: Sudden cardiac death
 synonym: "Cardiac" []
 synonym: "Cardiac Death" []
 synonym: "Cardiac Sudden" []
@@ -27554,7 +26623,7 @@ xref: umls:C0011880
 
 [Term]
 id: pharmgkb.disease:PA446409
-name: Polyendocrinopathies\, Autoimmune
+name: Autoimmune polyendocrinopathy
 synonym: "APS" []
 synonym: "Autoimmune" []
 synonym: "Autoimmune Polyendocrinopathies" []
@@ -27583,6 +26652,7 @@ synonym: "Schmidt's Syndrome" []
 synonym: "Schmidts Syndrome" []
 synonym: "Syndrome" []
 xref: mesh:D016884
+xref: MONDO:0017278
 xref: ndfrt:N0000003500
 xref: snomedct:41864002
 xref: umls:C0085409
@@ -28136,13 +27206,6 @@ xref: MONDO:0018800
 xref: ndfrt:N0000003572
 xref: snomedct:93559003
 xref: umls:C0162809
-
-[Term]
-id: pharmgkb.disease:PA446482
-name: Skin and Connective Tissue Diseases
-xref: mesh:D017437
-xref: ndfrt:N0000003573
-xref: umls:C0175166
 
 [Term]
 id: pharmgkb.disease:PA446487
@@ -28814,7 +27877,7 @@ xref: umls:C0206754
 
 [Term]
 id: pharmgkb.disease:PA446714
-name: Neoplasm\, Residual
+name: Residual Neoplasm
 synonym: "Cancer" []
 synonym: "Cancers" []
 synonym: "Disease" []
@@ -28876,19 +27939,6 @@ xref: mesh:D018450
 xref: ndfrt:N0000003817
 xref: snomedct:246453008
 xref: umls:C0242656
-
-[Term]
-id: pharmgkb.disease:PA446734
-name: Soft Tissue Infections
-synonym: "Infection" []
-synonym: "Infections" []
-synonym: "Soft Tissue" []
-synonym: "Soft Tissue Infection" []
-xref: meddra:10062255
-xref: mesh:D018461
-xref: ndfrt:N0000003823
-xref: snomedct:95880003
-xref: umls:C0149778
 
 [Term]
 id: pharmgkb.disease:PA446736
@@ -29005,36 +28055,6 @@ synonym: "Hypoplastic" []
 synonym: "Hypoplastic left heart syndrome" []
 synonym: "Left Heart Syndrome" []
 xref: MONDO:0004933
-
-[Term]
-id: pharmgkb.disease:PA446758
-name: Systemic Inflammatory Response Syndrome
-synonym: "Abacteremic sepsis" []
-synonym: "Culture-negative sepsis" []
-synonym: "Inflammatory Response Syndrome" []
-synonym: "SIRS - System inflammatory response syndrome" []
-synonym: "Sepsis" []
-synonym: "Sepsis Syndrome" []
-synonym: "Sepsis Syndromes" []
-synonym: "Sepsis syndrome" []
-synonym: "Septic syndrome" []
-synonym: "Syndrome" []
-synonym: "Syndromes" []
-synonym: "Systemic" []
-synonym: "Systemic Inflammatory Response Syndrome" []
-synonym: "Systemic inflammatory response syndrome" []
-
-[Term]
-id: pharmgkb.disease:PA446759
-name: Ventricular Dysfunction
-synonym: "Dysfunction" []
-synonym: "Dysfunctions" []
-synonym: "Ventricular" []
-synonym: "Ventricular Dysfunctions" []
-xref: meddra:10059056
-xref: mesh:D018754
-xref: ndfrt:N0000003849
-xref: umls:C0242973
 
 [Term]
 id: pharmgkb.disease:PA446760
@@ -29230,53 +28250,6 @@ xref: snomedct:61530001
 xref: umls:C0025269
 
 [Term]
-id: pharmgkb.disease:PA446779
-name: Ventricular Premature Complexes
-synonym: "Beat" []
-synonym: "Beats" []
-synonym: "Complex" []
-synonym: "Complexes" []
-synonym: "Complices" []
-synonym: "Contraction" []
-synonym: "Contractions" []
-synonym: "Ectopic Beat" []
-synonym: "Ectopic Beats" []
-synonym: "Extrasystole" []
-synonym: "Extrasystoles" []
-synonym: "Premature" []
-synonym: "Premature Complex" []
-synonym: "Premature Complexes" []
-synonym: "Premature Complices" []
-synonym: "Premature Ventricular" []
-synonym: "Premature Ventricular Beat" []
-synonym: "Premature Ventricular Beats" []
-synonym: "Premature Ventricular Complex" []
-synonym: "Premature Ventricular Complices" []
-synonym: "Premature Ventricular Contraction" []
-synonym: "Premature Ventricular Contractions" []
-synonym: "Premature ventricular complex" []
-synonym: "Ventricular" []
-synonym: "Ventricular Beat" []
-synonym: "Ventricular Beats" []
-synonym: "Ventricular Complex" []
-synonym: "Ventricular Complices" []
-synonym: "Ventricular Contraction" []
-synonym: "Ventricular Contractions" []
-synonym: "Ventricular Ectopic" []
-synonym: "Ventricular Ectopic Beat" []
-synonym: "Ventricular Ectopic Beats" []
-synonym: "Ventricular Extrasystole" []
-synonym: "Ventricular Extrasystoles" []
-synonym: "Ventricular Premature" []
-synonym: "Ventricular Premature Complex" []
-synonym: "Ventricular Premature Complices" []
-synonym: "Ventricular ectopic beats" []
-synonym: "Ventricular ectopic complex" []
-synonym: "Ventricular premature complex" []
-synonym: "Ventricular premature depolarisation" []
-synonym: "Ventricular premature depolarization" []
-
-[Term]
 id: pharmgkb.disease:PA446780
 name: Atrial Premature Complexes
 synonym: "Atrial" []
@@ -29381,23 +28354,6 @@ xref: MONDO:0008678
 xref: ndfrt:N0000003884
 xref: snomedct:63247009
 xref: umls:C0175702
-
-[Term]
-id: pharmgkb.disease:PA446805
-name: Postoperative Hemorrhage
-synonym: "Blood Loss" []
-synonym: "Haemorrhage postprocedure" []
-synonym: "Hemorrhage" []
-synonym: "Hemorrhage postprocedure" []
-synonym: "Hemorrhages" []
-synonym: "Loss" []
-synonym: "Postoperative" []
-synonym: "Postoperative Blood" []
-synonym: "Postoperative Blood Loss" []
-synonym: "Postoperative Hemorrhages" []
-synonym: "Postoperative bleeding" []
-synonym: "Postoperative haemorrhage" []
-synonym: "Postoperative hemorrhage" []
 
 [Term]
 id: pharmgkb.disease:PA446812
@@ -29788,7 +28744,7 @@ xref: umls:C0524910
 
 [Term]
 id: pharmgkb.disease:PA446864
-name: Hepatitis D\, Chronic
+name: Hepatitis D virus infection
 synonym: "Chronic" []
 synonym: "Chronic Delta" []
 synonym: "Chronic Delta Hepatitides" []
@@ -29799,6 +28755,7 @@ synonym: "Delta Hepatitis" []
 synonym: "Hepatitides" []
 synonym: "Hepatitis" []
 xref: mesh:D019701
+xref: MONDO:0005789
 xref: ndfrt:N0000003955
 xref: umls:C0524911
 
@@ -30001,44 +28958,6 @@ xref: mesh:D020147
 xref: MONDO:0002242
 xref: ndfrt:N0000004004
 xref: umls:C0600503
-
-[Term]
-id: pharmgkb.disease:PA446912
-name: Tyrosinemias
-synonym: "4 Hydroxyphenol Pyruvic Acid Oxidase" []
-synonym: "4 Hydroxyphenol Pyruvic Acid Oxidase Deficiency Disease" []
-synonym: "4 Hydroxyphenylpyruvate Dioxygenase Deficiency Disease" []
-synonym: "4-Hydroxyphenol Pyruvic Acid Oxidase" []
-synonym: "4-Hydroxyphenol Pyruvic Acid Oxidase Deficiency Disease" []
-synonym: "Deficiency Disease" []
-synonym: "Deficiency Diseases" []
-synonym: "Disease" []
-synonym: "Diseases" []
-synonym: "Fumarylacetoacetase" []
-synonym: "Fumarylacetoacetase Deficiency" []
-synonym: "Fumarylacetoacetase Deficiency Disease" []
-synonym: "Fumarylacetoacetase Deficiency Diseases" []
-synonym: "Hereditary" []
-synonym: "Hereditary Tyrosinemia" []
-synonym: "Hereditary Tyrosinemias" []
-synonym: "Hypertyrosinemia" []
-synonym: "Hypertyrosinemias" []
-synonym: "Type I" []
-synonym: "Type I Hypertyrosinemia" []
-synonym: "Type I Hypertyrosinemias" []
-synonym: "Type I Tyrosinemia" []
-synonym: "Type I Tyrosinemias" []
-synonym: "Type II" []
-synonym: "Type II Tyrosinemia" []
-synonym: "Type II Tyrosinemias" []
-synonym: "Type III" []
-synonym: "Type III Tyrosinemia" []
-synonym: "Type III Tyrosinemias" []
-synonym: "Tyrosinaemia" []
-synonym: "Tyrosine Transaminase" []
-synonym: "Tyrosine Transaminase Deficiency Disease" []
-synonym: "Tyrosinemia" []
-synonym: "Tyrosinemias" []
 
 [Term]
 id: pharmgkb.disease:PA446946
@@ -30542,7 +29461,7 @@ xref: umls:C0410189
 
 [Term]
 id: pharmgkb.disease:PA447048
-name: Myopathy\, Central Core
+name: Central Core Myopathy
 synonym: "Central Core" []
 synonym: "Central Core Disease" []
 synonym: "Central Core Diseases" []
@@ -31256,21 +30175,6 @@ xref: snomedct:9360008
 xref: umls:C0220994
 
 [Term]
-id: pharmgkb.disease:PA447147
-name: Lacerations
-synonym: "Laceration" []
-synonym: "Laceration - injury" []
-synonym: "Laceration NOS" []
-synonym: "Tear - wound" []
-xref: meddra:10023572
-xref: mesh:D022125
-xref: ndfrt:N0000004250
-xref: snomedct:262543001
-xref: snomedct:312608009
-xref: snomedct:35933005
-xref: umls:C0043246
-
-[Term]
 id: pharmgkb.disease:PA447148
 name: Hermanski-Pudlak Syndrome
 synonym: "Albinism with hemorrhagic diathesis" []
@@ -31312,22 +30216,6 @@ xref: MONDO:0006715
 xref: ndfrt:N0000010990
 xref: snomedct:233970002
 xref: umls:C0242231
-
-[Term]
-id: pharmgkb.disease:PA447162
-name: Spondylarthritis
-synonym: "Arthritis" []
-synonym: "Arthritis of spine" []
-synonym: "Spinal" []
-synonym: "Spinal Arthritides" []
-synonym: "Spinal Arthritis" []
-synonym: "Spondylarthritides" []
-synonym: "Spondyloarthritis" []
-xref: meddra:10029871
-xref: mesh:D025241
-xref: ndfrt:N0000011073
-xref: snomedct:371082009
-xref: umls:C0949690
 
 [Term]
 id: pharmgkb.disease:PA447163
@@ -31522,12 +30410,14 @@ xref: umls:C0035828
 
 [Term]
 id: pharmgkb.disease:PA447189
-name: Papillomavirus Infections
+name: Human papilloma virus infection
 synonym: "Disease due to Papilloma virus" []
+synonym: "HPV infection" []
 synonym: "NOS" []
 synonym: "Papillomavirus Infection" []
 xref: meddra:10061331
 xref: mesh:D030361
+xref: MONDO:0005161
 xref: ndfrt:N0000011003
 xref: snomedct:30415006
 xref: umls:C0950124
@@ -31761,14 +30651,6 @@ xref: snomedct:33449004
 xref: umls:C0031212
 
 [Term]
-id: pharmgkb.disease:PA447214
-name: Phobic Disorders
-synonym: "Abnormal fear" []
-synonym: "Phobia" []
-synonym: "Phobic anxiety disorder" []
-synonym: "Phobic disorder" []
-
-[Term]
 id: pharmgkb.disease:PA447215
 name: Psychotic Disorder
 synonym: "Atypical psychosis" []
@@ -31920,7 +30802,7 @@ xref: umls:C0272285
 
 [Term]
 id: pharmgkb.disease:PA447268
-name: tardive dyskinesia
+name: Tardive Dyskinesia
 synonym: "Drug-induced tardive dyskinesia" []
 synonym: "TD - Tardive dyskinesia" []
 xref: HP:0040141

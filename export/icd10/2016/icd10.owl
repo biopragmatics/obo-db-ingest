@@ -5,6 +5,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:icd10="https://icd.who.int/browse10/2019/en#/"
      xmlns:biolink="https://w3id.org/biolink/vocab/"
@@ -12,11 +13,15 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://w3id.org/biopragmatics/resources/icd10/icd10.ofn">
         <owl:versionIRI rdf:resource="https://w3id.org/biopragmatics/resources/icd10/2016/icd10.ofn"/>
-        <dcterms:description>The 10th revision of the International Classification of Diseases \(ICD\) issued by the World Health Organization \(WHO\). ICD is formally named &apos;The International Statistical Classification of Diseases and Related Health Problems&apos;. It contains codes for diseases\, signs and symptoms\, abnormal findings\, complaints\, social circumstances\, and external causes of injury or diseases.\n\nNote that the WHO version of ICD-10 is distinct from the ICD-10-CM \(Clinical Modification\) issued by the U.S. National Center for Health Statistics for use in the United States.</dcterms:description>
+        <dcterms:description>The 10th revision of the International Classification of Diseases (ICD) issued by the World Health Organization (WHO). ICD is formally named &apos;The International Statistical Classification of Diseases and Related Health Problems&apos;. It contains codes for diseases, signs and symptoms, abnormal findings, complaints, social circumstances, and external causes of injury or diseases.
+
+Note that the WHO version of ICD-10 is distinct from the ICD-10-CM (Clinical Modification) issued by the U.S. National Center for Health Statistics for use in the United States.</dcterms:description>
         <dcterms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.who.int/media/docs/default-source/publishing-policies/copyright/who-faq-licensing-icd-10.pdf</dcterms:license>
         <dcterms:title>International Classification of Diseases, 10th Revision</dcterms:title>
-        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:33:26.403978</oboInOwl:auto-generated-by>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T01:24:05.741084</oboInOwl:auto-generated-by>
         <owl:versionInfo>2016</owl:versionInfo>
+        <foaf:homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://icd.who.int/browse10</foaf:homepage>
+        <foaf:logo rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://upload.wikimedia.org/wikipedia/commons/a/a4/Icd10codeslogo.png</foaf:logo>
     </owl:Ontology>
     
 
@@ -53,6 +58,18 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/logo -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/logo"/>
     
 
 

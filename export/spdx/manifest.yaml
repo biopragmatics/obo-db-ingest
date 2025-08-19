@@ -1,67 +1,69 @@
-date: '2025-06-17'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.7.3-dev-a66ff872
-  bioregistry: 0.12.17-dev-c222c279
-  pyobo: 0.12.5-dev-a4ef9629
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/spdx/spdx.tsv
     path: spdx/spdx.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/spdx/6a76493/spdx.tsv
-    version_path: spdx/6a76493/spdx.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/spdx/72f474a/spdx.tsv
+    version_path: spdx/72f474a/spdx.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/spdx/spdx.obo
     path: spdx/spdx.obo
-    version_iri: https://w3id.org/biopragmatics/resources/spdx/6a76493/spdx.obo
-    version_path: spdx/6a76493/spdx.obo
+    version_iri: https://w3id.org/biopragmatics/resources/spdx/72f474a/spdx.obo
+    version_path: spdx/72f474a/spdx.obo
   obograph:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/spdx/spdx.json
     path: spdx/spdx.json
-    version_iri: https://w3id.org/biopragmatics/resources/spdx/6a76493/spdx.json
-    version_path: spdx/6a76493/spdx.json
+    version_iri: https://w3id.org/biopragmatics/resources/spdx/72f474a/spdx.json
+    version_path: spdx/72f474a/spdx.json
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/spdx/spdx.ofn
     path: spdx/spdx.ofn
-    version_iri: https://w3id.org/biopragmatics/resources/spdx/6a76493/spdx.ofn
-    version_path: spdx/6a76493/spdx.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/spdx/72f474a/spdx.ofn
+    version_path: spdx/72f474a/spdx.ofn
   owl:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/spdx/spdx.owl
     path: spdx/spdx.owl
-    version_iri: https://w3id.org/biopragmatics/resources/spdx/6a76493/spdx.owl
-    version_path: spdx/6a76493/spdx.owl
+    version_iri: https://w3id.org/biopragmatics/resources/spdx/72f474a/spdx.owl
+    version_path: spdx/72f474a/spdx.owl
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/spdx/spdx.sssom.tsv
     path: spdx/spdx.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/spdx/6a76493/spdx.sssom.tsv
-    version_path: spdx/6a76493/spdx.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/spdx/72f474a/spdx.sssom.tsv
+    version_path: spdx/72f474a/spdx.sssom.tsv
   summary:
     alts: 0
     definitions: 0
     license: null
     mappings: 0
-    parents: 698
-    properties: 1200
+    parents: 701
+    properties: 1207
     references: 0
     relations: 0
     synonyms: 0
-    terms: 698
-    version: 6a76493
+    terms: 701
+    version: 72f474a
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/spdx/spdx.synonyms.tsv
     path: spdx/spdx.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/spdx/6a76493/spdx.synonyms.tsv
-    version_path: spdx/6a76493/spdx.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/spdx/72f474a/spdx.synonyms.tsv
+    version_path: spdx/72f474a/spdx.synonyms.tsv
 prefix_map:
   IAO: http://purl.obolibrary.org/obo/IAO_
   dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
+  foaf: http://xmlns.com/foaf/0.1/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
   owl: http://www.w3.org/2002/07/owl#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#

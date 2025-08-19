@@ -1,46 +1,46 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/omim.ps/omim.ps.tsv
     path: omim.ps/omim.ps.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-03-10/omim.ps.tsv
-    version_path: omim.ps/2025-03-10/omim.ps.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-08-15/omim.ps.tsv
+    version_path: omim.ps/2025-08-15/omim.ps.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/omim.ps/omim.ps.obo
     path: omim.ps/omim.ps.obo
-    version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-03-10/omim.ps.obo
-    version_path: omim.ps/2025-03-10/omim.ps.obo
+    version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-08-15/omim.ps.obo
+    version_path: omim.ps/2025-08-15/omim.ps.obo
   obograph:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/omim.ps/omim.ps.json
     path: omim.ps/omim.ps.json
-    version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-03-10/omim.ps.json
-    version_path: omim.ps/2025-03-10/omim.ps.json
+    version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-08-15/omim.ps.json
+    version_path: omim.ps/2025-08-15/omim.ps.json
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/omim.ps/omim.ps.ofn
     path: omim.ps/omim.ps.ofn
-    version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-03-10/omim.ps.ofn
-    version_path: omim.ps/2025-03-10/omim.ps.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-08-15/omim.ps.ofn
+    version_path: omim.ps/2025-08-15/omim.ps.ofn
   owl:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/omim.ps/omim.ps.owl
     path: omim.ps/omim.ps.owl
-    version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-03-10/omim.ps.owl
-    version_path: omim.ps/2025-03-10/omim.ps.owl
+    version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-08-15/omim.ps.owl
+    version_path: omim.ps/2025-08-15/omim.ps.owl
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/omim.ps/omim.ps.sssom.tsv
     path: omim.ps/omim.ps.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-03-10/omim.ps.sssom.tsv
-    version_path: omim.ps/2025-03-10/omim.ps.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-08-15/omim.ps.sssom.tsv
+    version_path: omim.ps/2025-08-15/omim.ps.sssom.tsv
   summary:
     alts: 0
     definitions: 0
@@ -51,18 +51,21 @@ manifest:
     references: 0
     relations: 0
     synonyms: 0
-    terms: 588
-    version: '2025-03-10'
+    terms: 595
+    version: '2025-08-15'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/omim.ps/omim.ps.synonyms.tsv
     path: omim.ps/omim.ps.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-03-10/omim.ps.synonyms.tsv
-    version_path: omim.ps/2025-03-10/omim.ps.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/omim.ps/2025-08-15/omim.ps.synonyms.tsv
+    version_path: omim.ps/2025-08-15/omim.ps.synonyms.tsv
 prefix_map:
   dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
+  foaf: http://xmlns.com/foaf/0.1/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
   omim.ps: https://omim.org/MIM:PS
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   rdfs: http://www.w3.org/2000/01/rdf-schema#

@@ -1,72 +1,75 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/pombase/pombase.tsv
     path: pombase/pombase.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/pombase/2025-03-01/pombase.tsv
-    version_path: pombase/2025-03-01/pombase.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/pombase/2025-08-01/pombase.tsv
+    version_path: pombase/2025-08-01/pombase.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/pombase/pombase.obo
     path: pombase/pombase.obo
-    version_iri: https://w3id.org/biopragmatics/resources/pombase/2025-03-01/pombase.obo
-    version_path: pombase/2025-03-01/pombase.obo
+    version_iri: https://w3id.org/biopragmatics/resources/pombase/2025-08-01/pombase.obo
+    version_path: pombase/2025-08-01/pombase.obo
   obograph:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/pombase/pombase.json
     path: pombase/pombase.json
-    version_iri: https://w3id.org/biopragmatics/resources/pombase/2025-03-01/pombase.json
-    version_path: pombase/2025-03-01/pombase.json
+    version_iri: https://w3id.org/biopragmatics/resources/pombase/2025-08-01/pombase.json
+    version_path: pombase/2025-08-01/pombase.json
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/pombase/pombase.ofn
     path: pombase/pombase.ofn
-    version_iri: https://w3id.org/biopragmatics/resources/pombase/2025-03-01/pombase.ofn
-    version_path: pombase/2025-03-01/pombase.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/pombase/2025-08-01/pombase.ofn
+    version_path: pombase/2025-08-01/pombase.ofn
   owl:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/pombase/pombase.owl
     path: pombase/pombase.owl
-    version_iri: https://w3id.org/biopragmatics/resources/pombase/2025-03-01/pombase.owl
-    version_path: pombase/2025-03-01/pombase.owl
+    version_iri: https://w3id.org/biopragmatics/resources/pombase/2025-08-01/pombase.owl
+    version_path: pombase/2025-08-01/pombase.owl
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/pombase/pombase.sssom.tsv
     path: pombase/pombase.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/pombase/2025-03-01/pombase.sssom.tsv
-    version_path: pombase/2025-03-01/pombase.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/pombase/2025-08-01/pombase.sssom.tsv
+    version_path: pombase/2025-08-01/pombase.sssom.tsv
   summary:
     alts: 0
-    definitions: 12684
+    definitions: 12685
     license: CC-BY-4.0
     mappings: 0
-    parents: 12684
-    properties: 23470
+    parents: 12685
+    properties: 23458
     references: 0
-    relations: 12684
-    synonyms: 2634
-    terms: 12684
-    version: '2025-03-01'
+    relations: 12685
+    synonyms: 2639
+    terms: 12685
+    version: '2025-08-01'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/pombase/pombase.synonyms.tsv
     path: pombase/pombase.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/pombase/2025-03-01/pombase.synonyms.tsv
-    version_path: pombase/2025-03-01/pombase.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/pombase/2025-08-01/pombase.synonyms.tsv
+    version_path: pombase/2025-08-01/pombase.synonyms.tsv
 prefix_map:
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
   RO: http://purl.obolibrary.org/obo/RO_
   SO: http://purl.obolibrary.org/obo/SO_
   dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
+  foaf: http://xmlns.com/foaf/0.1/
   hgnc: https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/
   obo: http://purl.obolibrary.org/obo/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
   pombase: https://www.pombase.org/gene/
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#

@@ -1,12 +1,15 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:32:09.311694
+auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T01:00:03.722981
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
 idspace: geonames.feature https://bioregistry.io/geonames.feature: "GeoNames Feature Code"
 idspace: orcid https://orcid.org/ "Open Researcher and Contributor"
 ontology: geonames.feature
 property_value: dcterms:title "GeoNames Feature Code" xsd:string
 property_value: dcterms:license "CC-BY-4.0" xsd:string
 property_value: dcterms:description "All geographical features in GeoNames are categorized into one out of nine feature classes and further subcategorized into one out of 645 feature codes." xsd:string
+property_value: foaf:homepage "https\://www.geonames.org/export/codes.html" xsd:anyURI
+property_value: foaf:logo "https\://www.geonames.org/img/globe.gif" xsd:anyURI
 
 [Term]
 id: geonames.feature:A.ADM1H

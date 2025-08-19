@@ -1,7 +1,8 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:16:16.448582
+auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T00:20:54.743297
 idspace: dbsnp https://www.ncbi.nlm.nih.gov/snp/ "dbSNP Reference SNP number"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
 idspace: pharmgkb.gene http://www.pharmgkb.org/gene/ "PharmGKB Gene"
 idspace: pharmgkb.variant https://www.pharmgkb.org/variant/ "PharmGKB Variant"
 idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
@@ -9,6 +10,8 @@ ontology: pharmgkb.variant
 property_value: dcterms:title "PharmGKB Variant" xsd:string
 property_value: dcterms:license "CC-BY-SA-4.0" xsd:string
 property_value: dcterms:description "SNPs and other variants that can be mapped to dbSNP." xsd:string
+property_value: foaf:homepage "https\://www.pharmgkb.org" xsd:anyURI
+property_value: foaf:logo "https\://rxgenomix.com/wp-content/uploads/2019/10/pharmgKB.png" xsd:anyURI
 
 [Typedef]
 id: hasGeneAssociation

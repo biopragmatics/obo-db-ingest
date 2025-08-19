@@ -4,13 +4,22 @@
     "meta" : {
       "basicPropertyValues" : [ {
         "pred" : "http://purl.org/dc/terms/description",
-        "val" : "Database of rare diseases and related terms\\, including symptoms\\, healthcare resources\\, and organizations supporting research of the disease."
+        "val" : "Database of rare diseases and related terms, including symptoms, healthcare resources, and organizations supporting research of the disease."
       }, {
         "pred" : "http://purl.org/dc/terms/title",
         "val" : "Genetic and Rare Diseases Information Center"
       }, {
+        "pred" : "http://usefulinc.com/ns/doap#maintainer",
+        "val" : "https://orcid.org/0000-0001-7697-3026"
+      }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-        "val" : "PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T12:20:16.794465"
+        "val" : "PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:36:42.488211"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/homepage",
+        "val" : "https://rarediseases.info.nih.gov/diseases"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/logo",
+        "val" : "https://rarediseases.info.nih.gov/assets/GARD_Logo_Mobile.svg"
       } ]
     },
     "nodes" : [ {
@@ -1255,16 +1264,10 @@
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
-          "val" : "22q13 deletion"
+          "val" : "PHMDS"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Phelan McDermid syndrome"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "monosomy 22q13"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "monosomy type 22q13"
         } ]
       }
     }, {
@@ -3805,6 +3808,21 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "DS"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Dravet"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "SME"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "SMEB"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "myoclonic epilepsy, severe, of infancy"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "severe myoclonic epilepsy of infancy"
         } ]
       }
     }, {
@@ -6154,6 +6172,9 @@
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
+          "val" : "KCNV2-related retinopathy"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "cone dystrophy with supernormal rod ERG"
         }, {
           "pred" : "hasRelatedSynonym",
@@ -7010,6 +7031,9 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "pnpo deficiency"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "pyridox(am)ine 5’-phosphate oxidase deficiency"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "pyridoxal phosphate-dependent seizures"
@@ -8830,22 +8854,10 @@
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
-          "val" : "ChC)diak-Higashi-like syndrome"
-        }, {
-          "pred" : "hasRelatedSynonym",
           "val" : "Chédiak-Higashi-like syndrome"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "Ch��diak-Higashi-like syndrome"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Griscelli-PruniC)ras syndrome"
-        }, {
-          "pred" : "hasRelatedSynonym",
           "val" : "Griscelli-Pruniéras syndrome"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Griscelli-Pruni��ras syndrome"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "partial albinism-immunodeficiency syndrome"
@@ -9203,16 +9215,6 @@
         } ]
       }
     }, {
-      "id" : "https://bioregistry.io/gard:10941",
-      "lbl" : "Anterior uveitis",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "anterior uveitis (disease)"
-        } ]
-      }
-    }, {
       "id" : "https://bioregistry.io/gard:10942",
       "lbl" : "Glaucoma secondary to spherophakia/ectopia lentis and megalocornea",
       "type" : "CLASS",
@@ -9237,7 +9239,7 @@
       }
     }, {
       "id" : "https://bioregistry.io/gard:10944",
-      "lbl" : "COG6-ongenital disorder of glycosylation",
+      "lbl" : "COG6-congenital disorder of glycosylation",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -9254,9 +9256,6 @@
           "val" : "COG6-CDG"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "COG6-congenital disorder of glycosylation"
-        }, {
-          "pred" : "hasRelatedSynonym",
           "val" : "congenital disorder of glycosylation type 2l"
         }, {
           "pred" : "hasRelatedSynonym",
@@ -9265,7 +9264,7 @@
       }
     }, {
       "id" : "https://bioregistry.io/gard:10945",
-      "lbl" : "Short stature-optic atrophy-Pelger-HuC+t anomaly syndrome",
+      "lbl" : "Short stature-optic atrophy-Pelger-Huët anomaly syndrome",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -19739,15 +19738,15 @@
       }
     }, {
       "id" : "https://bioregistry.io/gard:13259",
-      "lbl" : "Severe feeding difficulties-failure to thrive-microcephaly due to asxl3 deficiency syndrome",
+      "lbl" : "ASXL3-Related Disorder",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
-          "val" : "ASXL3-Related Disorder"
+          "val" : "Bainbridge-Ropers syndrome"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "Bainbridge-Ropers syndrome"
+          "val" : "Severe feeding difficulties-failure to thrive-microcephaly due to asxl3 deficiency syndrome"
         } ]
       }
     }, {
@@ -20020,7 +20019,10 @@
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
-          "val" : "Ring chromosome type 20"
+          "val" : "ring chromosome 20 syndrome"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "ring chromosome type 20"
         } ]
       }
     }, {
@@ -22402,10 +22404,52 @@
           "val" : "CSWSS syndrome"
         }, {
           "pred" : "hasRelatedSynonym",
+          "val" : "EE-SWAS"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "EESWAS"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "ESES with language regression"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "LK syndrome"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "LKS"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "continuous slow spike and wave of sleep"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "continuous spike-wave in sleep"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "continuous spikes and waves during slow-wave sleep"
         }, {
           "pred" : "hasRelatedSynonym",
+          "val" : "electrical status epilepticus of sleep"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "electrographic status epilepticus in sleep"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "electrographic status epilepticus of sleep"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "epileptic aphasia"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "epileptic encephalopathy with continuous spike-and-wave during slow sleep"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "epileptic encephalopathy with spike and wave activation in sleep"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "epileptic encephalopathy with spike-and-wave activation in sleep"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "eses index"
         } ]
       }
     }, {
@@ -23125,6 +23169,9 @@
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
+          "val" : "MAE"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "Myoclonic Atonic Epilepsy"
         } ]
       }
@@ -23743,10 +23790,7 @@
           "val" : "PHA type 1"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "PHA1B"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "pseudohypoaldosteronism type I autosomal recessive"
+          "val" : "pseudohypoaldosteronism, type I"
         } ]
       }
     }, {
@@ -24139,10 +24183,10 @@
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
-          "val" : "early myoclonic encephalopathy with suppression-bursts"
+          "val" : "EME"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "eme"
+          "val" : "early myoclonic encephalopathy with suppression-bursts"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "epileptic seizures - myoclonic"
@@ -24769,9 +24813,6 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "MC)garbanC)-Loiselet syndrome"
-        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Mégarbané-Loiselet syndrome"
         } ]
@@ -25704,9 +25745,6 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "VC$sterbotten dystrophy"
-        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Vasterbotten dystrophy"
         }, {
@@ -30654,9 +30692,6 @@
           "val" : "HPE-L"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "HoloprosencC)phalie, minor form"
-        }, {
-          "pred" : "hasRelatedSynonym",
           "val" : "Holoprosencéphalie, minor form"
         }, {
           "pred" : "hasRelatedSynonym",
@@ -33804,6 +33839,9 @@
           "val" : "aldosterone-secreting adenoma with seizures and neurological abnormalities"
         }, {
           "pred" : "hasRelatedSynonym",
+          "val" : "complex neurodevelopmental disorder with or without aldosteronism"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "primary aldosteronism, seizures, and neurologic abnormalities"
         } ]
       }
@@ -34270,6 +34308,9 @@
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "PNMHH"
+        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "peripheral neuropathy-myopathy-hoarseness-deafness syndrome"
         } ]
@@ -35083,6 +35124,9 @@
           "val" : "KWWH type IV"
         }, {
           "pred" : "hasRelatedSynonym",
+          "val" : "Wooly hair-palmoplantar keratoderma syndrome"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "keratoderma with woolly hair type IV"
         }, {
           "pred" : "hasRelatedSynonym",
@@ -35755,10 +35799,16 @@
       }
     }, {
       "id" : "https://bioregistry.io/gard:17744",
-      "lbl" : "Interstitial lung disease due to sp-c deficiency",
+      "lbl" : "SFTPC- related interstitial lung disease",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "SFTPC-related ILD"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "interstitial lung disease due to SP-C deficiency"
+        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "interstitial lung disease due to surfactant protein C deficiency"
         } ]
@@ -39549,6 +39599,9 @@
           "val" : "epilepsy, generalized, with febrile seizures plus"
         }, {
           "pred" : "hasRelatedSynonym",
+          "val" : "generalised epilepsy with febrile seizures-plus"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "genetic epilepsy with febrile seizures plus"
         }, {
           "pred" : "hasRelatedSynonym",
@@ -41270,7 +41323,13 @@
     }, {
       "id" : "https://bioregistry.io/gard:19087",
       "lbl" : "Epilepsy with myoclonic absences",
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "EMA"
+        } ]
+      }
     }, {
       "id" : "https://bioregistry.io/gard:19088",
       "lbl" : "Myoclonic epilepsy in non-progressive encephalopathies",
@@ -42352,11 +42411,11 @@
       }
     }, {
       "id" : "https://bioregistry.io/gard:19579",
-      "lbl" : "Isochromosomy yp",
+      "lbl" : "Isochromosomy Yp",
       "type" : "CLASS"
     }, {
       "id" : "https://bioregistry.io/gard:19580",
-      "lbl" : "Isochromosomy yq",
+      "lbl" : "Isochromosomy Yq",
       "type" : "CLASS"
     }, {
       "id" : "https://bioregistry.io/gard:19605",
@@ -44176,7 +44235,7 @@
       }
     }, {
       "id" : "https://bioregistry.io/gard:20783",
-      "lbl" : "Maternal uniparental disomy of chromosome x",
+      "lbl" : "Maternal uniparental disomy of chromosome X",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -44189,7 +44248,7 @@
       }
     }, {
       "id" : "https://bioregistry.io/gard:20784",
-      "lbl" : "Paternal uniparental disomy of chromosome x",
+      "lbl" : "Paternal uniparental disomy of chromosome X",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -44220,9 +44279,6 @@
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
-          "val" : "BJHS"
-        }, {
-          "pred" : "hasRelatedSynonym",
           "val" : "EDS III"
         }, {
           "pred" : "hasRelatedSynonym",
@@ -44245,9 +44301,6 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "HT-EDS"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "benign joint hypermobility syndrome"
         } ]
       }
     }, {
@@ -46128,6 +46181,9 @@
           "val" : "EMAS"
         }, {
           "pred" : "hasRelatedSynonym",
+          "val" : "epilepsy with myoclonic atonic seizures"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "epilepsy with myoclonic-astatic seizures"
         }, {
           "pred" : "hasRelatedSynonym",
@@ -46192,8 +46248,14 @@
       }
     }, {
       "id" : "https://bioregistry.io/gard:2170",
-      "lbl" : "Benign occipital epilepsy",
-      "type" : "CLASS"
+      "lbl" : "Self-limited childhood occipital epilepsy",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "benign occipital epilepsy"
+        } ]
+      }
     }, {
       "id" : "https://bioregistry.io/gard:21700",
       "lbl" : "Autosomal recessive spastic paraplegia type 70",
@@ -48351,10 +48413,6 @@
         } ]
       }
     }, {
-      "id" : "https://bioregistry.io/gard:2361",
-      "lbl" : "Formaldehyde poisoning",
-      "type" : "CLASS"
-    }, {
       "id" : "https://bioregistry.io/gard:2362",
       "lbl" : "Cardiospondylocarpofacial syndrome",
       "type" : "CLASS",
@@ -49672,9 +49730,6 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Griscelli syndrome, cutaneous and neurological type"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Griscelli-PruniC)ras syndrome type 1"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Griscelli-Pruniéras syndrome type 1"
@@ -53182,7 +53237,7 @@
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
-          "val" : "klumpke-dc)jerine paralysis"
+          "val" : "klumpke-déjerine paralysis"
         } ]
       }
     }, {
@@ -54878,9 +54933,6 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "MMR syndrome"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "NeuhC$user syndrome"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Neuhäuser syndrome"
@@ -59068,7 +59120,7 @@
       }
     }, {
       "id" : "https://bioregistry.io/gard:411",
-      "lbl" : "Hypoparathyroidism-retardation-dysmorphism syndrome",
+      "lbl" : "Sanjad-Sakati syndrome",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -59079,13 +59131,13 @@
           "val" : "HRDS"
         }, {
           "pred" : "hasRelatedSynonym",
+          "val" : "Hypoparathyroidism-retardation-dysmorphism syndrome"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "Richardson-Kirk syndrome"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "SSS"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Sanjad-Sakati syndrome"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "hypoparathyroidism with short stature, intellectual disability and seizures"
@@ -59356,8 +59408,14 @@
       }
     }, {
       "id" : "https://bioregistry.io/gard:4142",
-      "lbl" : "Osteoglophonic dwarfism",
-      "type" : "CLASS"
+      "lbl" : "Osteoglophonic dysplasia",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Osteoglophonic dwarfism"
+        } ]
+      }
     }, {
       "id" : "https://bioregistry.io/gard:4148",
       "lbl" : "Osteopathia striata with cranial sclerosis",
@@ -60528,9 +60586,6 @@
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
-          "val" : "Stoll-LC)vy-Francfort syndrome"
-        }, {
-          "pred" : "hasRelatedSynonym",
           "val" : "Stoll-Lévy-Francfort syndrome"
         } ]
       }
@@ -61446,13 +61501,7 @@
           "val" : "Griscelli syndrome with hemophagocytic syndrome"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "Griscelli-PruniC)ras syndrome type 2"
-        }, {
-          "pred" : "hasRelatedSynonym",
           "val" : "Griscelli-Pruniéras syndrome type 2"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Griscelli-Pruni��ras syndrome type 2"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "hypopigmentation-immunodeficiency with or without neurologic impairment syndrome"
@@ -61782,25 +61831,7 @@
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
-          "val" : "familial prostate cancer"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "hereditary prostate cancer"
-        }, {
-          "pred" : "hasRelatedSynonym",
           "val" : "hereditary prostate carcinoma"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "prostate cancer, autosomal dominant, somatic mutation"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "prostate cancer, familial, susceptibility to, autosomal dominant, somatic mutation"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "prostate cancer, somatic"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "prostate cancer, susceptibility to, autosomal dominant, somatic mutation"
         } ]
       }
     }, {
@@ -61968,7 +61999,7 @@
       }
     }, {
       "id" : "https://bioregistry.io/gard:4552",
-      "lbl" : "Autosomal recessive pseudohypoaldosteronism type 1",
+      "lbl" : "Pseudohypoaldosteronism, type ib1, autosomal recessive",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -61977,6 +62008,21 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "autosomal recessive PHA 1"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "autosomal recessive pseudohypoaldosteronism type 1"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "generalised PHA1"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "generalised pseudohypoaldosteronism type 1"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "generalized PHA1"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "generalized pseudohypoaldosteronism type 1"
         } ]
       }
     }, {
@@ -67236,7 +67282,7 @@
       }
     }, {
       "id" : "https://bioregistry.io/gard:5369",
-      "lbl" : "Partial duplication of the long arm of chromosome x",
+      "lbl" : "Partial duplication of the long arm of chromosome X",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -69290,7 +69336,7 @@
       }
     }, {
       "id" : "https://bioregistry.io/gard:5672",
-      "lbl" : "Trisomy x",
+      "lbl" : "Trisomy X",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -69363,7 +69409,7 @@
       }
     }, {
       "id" : "https://bioregistry.io/gard:5678",
-      "lbl" : "Pentasomy x",
+      "lbl" : "Pentasomy X",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -69708,19 +69754,28 @@
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
+          "val" : "RTS"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "RTT"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Rett syndrome, X-linked dominant"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Rett syndrome, atypical, X-linked dominant"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Rett syndrome, preserved speech variant, X-linked dominant"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "Rett's disorder"
         }, {
           "pred" : "hasRelatedSynonym",
+          "val" : "Rett’s disease"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "cerebroatrophic hyperammonemia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "rett syndrome, X-linked dominant"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "rett syndrome, atypical, X-linked dominant"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "rett syndrome, preserved speech variant, X-linked dominant"
         } ]
       }
     }, {
@@ -70317,13 +70372,22 @@
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
+          "val" : "AIC"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "Aicardi syndrome, X-linked dominant"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Aicardi’s syndrome"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "agenesis of corpus callosum with chorioretinal abnormality"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "corpus callosum agenesis of with chorioretinal abnormality"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "corpus callosum, agenesis of, with chorioretinal abnormality"
         } ]
       }
     }, {
@@ -70396,6 +70460,9 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Alpers' disease or gray-matter degeneration"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Alpers-Huttenlocher"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Alpers-Huttenlocher syndrome"
@@ -70585,7 +70652,13 @@
     }, {
       "id" : "https://bioregistry.io/gard:5810",
       "lbl" : "Angelman syndrome",
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Angelman’s syndrome"
+        } ]
+      }
     }, {
       "id" : "https://bioregistry.io/gard:5813",
       "lbl" : "Liver angiosarcoma",
@@ -72143,12 +72216,6 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "CHS"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "ChC)diak-Higashi disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "ChC)diak-Higashi-Steinbrink syndrome"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Chediak - Steinbrinck anomaly"
@@ -74790,6 +74857,9 @@
           "val" : "carcinoma of the oesophagus"
         }, {
           "pred" : "hasRelatedSynonym",
+          "val" : "esophageal cancer"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "esophageal carcinoma"
         }, {
           "pred" : "hasRelatedSynonym",
@@ -76307,16 +76377,6 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "aec syndrome"
-        } ]
-      }
-    }, {
-      "id" : "https://bioregistry.io/gard:6577",
-      "lbl" : "Heavy metal poisoning",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "toxic effect of heavy metal"
         } ]
       }
     }, {
@@ -77895,19 +77955,6 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "multiple keratoacanthoma, Muir-Torre type"
-        } ]
-      }
-    }, {
-      "id" : "https://bioregistry.io/gard:6824",
-      "lbl" : "Keratoconus",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "conical cornea"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "keratoconus (disease)"
         } ]
       }
     }, {
@@ -79671,22 +79718,6 @@
         } ]
       }
     }, {
-      "id" : "https://bioregistry.io/gard:7021",
-      "lbl" : "Mercury poisoning",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Mercury intoxication"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "hydrargyria"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "mercurialism"
-        } ]
-      }
-    }, {
       "id" : "https://bioregistry.io/gard:7026",
       "lbl" : "Malignant mesothelioma",
       "type" : "CLASS",
@@ -80548,6 +80579,9 @@
           "val" : "Fukuhara syndrome"
         }, {
           "pred" : "hasRelatedSynonym",
+          "val" : "MERRF"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "myoclonic epilepsy - ragged red fibers"
         }, {
           "pred" : "hasRelatedSynonym",
@@ -80896,7 +80930,7 @@
       }
     }, {
       "id" : "https://bioregistry.io/gard:7193",
-      "lbl" : "Neurofibromatosis type 2",
+      "lbl" : "NF2-related schwannomatosis",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -80904,7 +80938,7 @@
           "val" : "NF2"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "NF2-related schwannomatosis"
+          "val" : "SWNV"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "bilateral acoustic neurofibromatosis"
@@ -80922,10 +80956,16 @@
           "val" : "neurofibromatosis 2"
         }, {
           "pred" : "hasRelatedSynonym",
+          "val" : "neurofibromatosis type 2"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "nonmosaic NF2-related schwannomatosis"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "nonmosaic neurofibromatosis type 2"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "vestibular schwannomatosis"
         } ]
       }
     }, {
@@ -83539,9 +83579,6 @@
           "val" : "CTCL / Sezary syndrome"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "SC)zary syndrome"
-        }, {
-          "pred" : "hasRelatedSynonym",
           "val" : "Sezary disease"
         }, {
           "pred" : "hasRelatedSynonym",
@@ -83889,15 +83926,6 @@
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
-          "val" : "Encephalofacial angiomatosis"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Encephalotrigeminal angiomatosis"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Encephalotrigeminal syndrome"
-        }, {
-          "pred" : "hasRelatedSynonym",
           "val" : "SWS"
         }, {
           "pred" : "hasRelatedSynonym",
@@ -83914,6 +83942,15 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Sturge-Weber-Krabbe syndrome"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "encephalofacial angiomatosis"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "encephalotrigeminal angiomatosis"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "encephalotrigeminal syndrome"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "sturge weber syndrome"
@@ -84113,7 +84150,7 @@
       }
     }, {
       "id" : "https://bioregistry.io/gard:7754",
-      "lbl" : "Tetrasomy x",
+      "lbl" : "Tetrasomy X",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -84455,22 +84492,22 @@
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
+          "val" : "Bourneville disease"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "Bourneville syndrome"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Bourneville's disease"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Bourneville's syndrome"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "Epiloia"
-        }, {
-          "pred" : "hasRelatedSynonym",
           "val" : "TSC"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "bourneville's disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "cerebral sclerosis"
+          "val" : "epiloia"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "tuberose sclerosis"
@@ -87410,7 +87447,16 @@
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
+          "val" : "Del Castillo syndrome"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Germinal cell aplasia"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "SPGFX1"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Sertoli cell-only syndrome"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "spermatogenic failure, X-linked, type 1"
@@ -87736,10 +87782,10 @@
           "val" : "Hibernian fever, familial"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "TNF receptor 1-associated periodic syndrome"
+          "val" : "TNF receptor 1-associated periodic fever syndrome"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "TNF receptor-associated periodic fever syndrome"
+          "val" : "TNF receptor 1-associated periodic syndrome"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "TNF receptor-associated periodic syndrome"
@@ -92437,22 +92483,6 @@
         } ]
       }
     }, {
-      "id" : "https://bioregistry.io/gard:9299",
-      "lbl" : "Acute ackee fruit intoxication",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Jamaican vomiting sickness"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Jamaican vomiting syndrome"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "acute intoxication by Blighia sapida"
-        } ]
-      }
-    }, {
       "id" : "https://bioregistry.io/gard:93",
       "lbl" : "Monilethrix",
       "type" : "CLASS",
@@ -96631,13 +96661,7 @@
           "val" : "GS3"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "Griscelli-PruniC)ras syndrome type 3"
-        }, {
-          "pred" : "hasRelatedSynonym",
           "val" : "Griscelli-Pruniéras syndrome type 3"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Griscelli-Pruni��ras syndrome type 3"
         } ]
       }
     }, {
@@ -97836,25 +97860,16 @@
           "val" : "DYT-GCH1"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "DYT5a"
+          "val" : "Dopa-responsive dystonia, autosomal dominant"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "GTP cyclohydrolase 1-deficient dopa-responsive dystonia"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "GTPCH1-deficient DRD"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "GTPCH1-deficient dopa-responsive dystonia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "HPD with marked diurnal fluctuation"
-        }, {
-          "pred" : "hasRelatedSynonym",
           "val" : "Segawa Syndrome"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "autosomal dominant Segawa syndrome"
+          "val" : "Segawa syndrome, autosomal dominant"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "dystonia type 5"
@@ -97863,7 +97878,13 @@
           "val" : "dystonia, DOPA-responsive, with or without hyperphenylalaninemia"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "hereditary progressive dystonia with marked diurnal fluctuation"
+          "val" : "dystonia, Dopa-responsive, autosomal dominant"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "dystonia, progressive, with diurnal variation"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "dystonia-Parkinsonism with diurnal fluctuation"
         } ]
       }
     }, {
@@ -101998,10 +102019,6 @@
       "obj" : "http://purl.obolibrary.org/obo/gard#uncategorized"
     }, {
       "sub" : "https://bioregistry.io/gard:10940",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/gard#uncategorized"
-    }, {
-      "sub" : "https://bioregistry.io/gard:10941",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/gard#uncategorized"
     }, {
@@ -112733,10 +112750,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/gard#uncategorized"
     }, {
-      "sub" : "https://bioregistry.io/gard:2361",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/gard#uncategorized"
-    }, {
       "sub" : "https://bioregistry.io/gard:2362",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/gard#uncategorized"
@@ -119377,10 +119390,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/gard#uncategorized"
     }, {
-      "sub" : "https://bioregistry.io/gard:6577",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/gard#uncategorized"
-    }, {
       "sub" : "https://bioregistry.io/gard:6584",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/gard#uncategorized"
@@ -119678,10 +119687,6 @@
       "obj" : "http://purl.obolibrary.org/obo/gard#uncategorized"
     }, {
       "sub" : "https://bioregistry.io/gard:6821",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/gard#uncategorized"
-    }, {
-      "sub" : "https://bioregistry.io/gard:6824",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/gard#uncategorized"
     }, {
@@ -120038,10 +120043,6 @@
       "obj" : "http://purl.obolibrary.org/obo/gard#uncategorized"
     }, {
       "sub" : "https://bioregistry.io/gard:7015",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/gard#uncategorized"
-    }, {
-      "sub" : "https://bioregistry.io/gard:7021",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/gard#uncategorized"
     }, {
@@ -122730,10 +122731,6 @@
       "obj" : "http://purl.obolibrary.org/obo/gard#uncategorized"
     }, {
       "sub" : "https://bioregistry.io/gard:9298",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/gard#uncategorized"
-    }, {
-      "sub" : "https://bioregistry.io/gard:9299",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/gard#uncategorized"
     }, {

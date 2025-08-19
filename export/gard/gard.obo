@@ -1,10 +1,16 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T12:20:16.794465
+auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:36:42.488211
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: doap http://usefulinc.com/ns/doap# "Description of a Project"
+idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
 idspace: gard https://bioregistry.io/gard: "Genetic and Rare Diseases Information Center"
+idspace: orcid https://orcid.org/ "Open Researcher and Contributor"
 ontology: gard
 property_value: dcterms:title "Genetic and Rare Diseases Information Center" xsd:string
-property_value: dcterms:description "Database of rare diseases and related terms\\\, including symptoms\\\, healthcare resources\\\, and organizations supporting research of the disease." xsd:string
+property_value: dcterms:description "Database of rare diseases and related terms\, including symptoms\, healthcare resources\, and organizations supporting research of the disease." xsd:string
+property_value: foaf:homepage "https\://rarediseases.info.nih.gov/diseases" xsd:anyURI
+property_value: foaf:logo "https\://rarediseases.info.nih.gov/assets/GARD_Logo_Mobile.svg" xsd:anyURI
+property_value: doap:maintainer orcid:0000-0001-7697-3026
 
 [Term]
 id: gard:1
@@ -638,10 +644,8 @@ is_a: uncategorized
 [Term]
 id: gard:10130
 name: Phelan-mcdermid syndrome
-synonym: "22q13 deletion" []
+synonym: "PHMDS" []
 synonym: "Phelan McDermid syndrome" []
-synonym: "monosomy 22q13" []
-synonym: "monosomy type 22q13" []
 is_a: uncategorized
 
 [Term]
@@ -1892,6 +1896,11 @@ is_a: uncategorized
 id: gard:10430
 name: Dravet syndrome
 synonym: "DS" []
+synonym: "Dravet" []
+synonym: "SME" []
+synonym: "SMEB" []
+synonym: "myoclonic epilepsy, severe, of infancy" []
+synonym: "severe myoclonic epilepsy of infancy" []
 is_a: uncategorized
 
 [Term]
@@ -3084,6 +3093,7 @@ is_a: uncategorized
 [Term]
 id: gard:10649
 name: Cone dystrophy with supernormal rod response
+synonym: "KCNV2-related retinopathy" []
 synonym: "cone dystrophy with supernormal rod ERG" []
 synonym: "cone dystrophy with supernormal rod electroretinogram" []
 synonym: "cone dystrophy with supernormal scotopic electroretinogram" []
@@ -3505,6 +3515,7 @@ id: gard:10730
 name: Pyridoxal phosphate-responsive seizures
 synonym: "PNPO-related neonatal epileptic encephalopathy" []
 synonym: "pnpo deficiency" []
+synonym: "pyridox(am)ine 5’-phosphate oxidase deficiency" []
 synonym: "pyridoxal phosphate-dependent seizures" []
 synonym: "pyridoxamine 5'-oxidase deficiency" []
 synonym: "pyridoxamine 5'-phosphate oxidase deficiency" []
@@ -4422,12 +4433,8 @@ is_a: uncategorized
 [Term]
 id: gard:10913
 name: Griscelli syndrome
-synonym: "ChC)diak-Higashi-like syndrome" []
 synonym: "Chédiak-Higashi-like syndrome" []
-synonym: "Ch��diak-Higashi-like syndrome" []
-synonym: "Griscelli-PruniC)ras syndrome" []
 synonym: "Griscelli-Pruniéras syndrome" []
-synonym: "Griscelli-Pruni��ras syndrome" []
 synonym: "partial albinism-immunodeficiency syndrome" []
 is_a: uncategorized
 
@@ -4608,12 +4615,6 @@ synonym: "Theodore's syndrome" []
 is_a: uncategorized
 
 [Term]
-id: gard:10941
-name: Anterior uveitis
-synonym: "anterior uveitis (disease)" []
-is_a: uncategorized
-
-[Term]
 id: gard:10942
 name: Glaucoma secondary to spherophakia/ectopia lentis and megalocornea
 synonym: "megalocornea-spherophakia-secondary glaucoma syndrome" []
@@ -4628,19 +4629,18 @@ is_a: uncategorized
 
 [Term]
 id: gard:10944
-name: COG6-ongenital disorder of glycosylation
+name: COG6-congenital disorder of glycosylation
 synonym: "CDG syndrome type IIL" []
 synonym: "CDG-IIL" []
 synonym: "CDG2L" []
 synonym: "COG6-CDG" []
-synonym: "COG6-congenital disorder of glycosylation" []
 synonym: "congenital disorder of glycosylation type 2l" []
 synonym: "congenital disorder of glycosylation type IIL" []
 is_a: uncategorized
 
 [Term]
 id: gard:10945
-name: Short stature-optic atrophy-Pelger-HuC+t anomaly syndrome
+name: Short stature-optic atrophy-Pelger-Huët anomaly syndrome
 synonym: "soph syndrome" []
 is_a: uncategorized
 
@@ -9702,9 +9702,9 @@ is_a: uncategorized
 
 [Term]
 id: gard:13259
-name: Severe feeding difficulties-failure to thrive-microcephaly due to asxl3 deficiency syndrome
-synonym: "ASXL3-Related Disorder" []
+name: ASXL3-Related Disorder
 synonym: "Bainbridge-Ropers syndrome" []
+synonym: "Severe feeding difficulties-failure to thrive-microcephaly due to asxl3 deficiency syndrome" []
 is_a: uncategorized
 
 [Term]
@@ -9845,7 +9845,8 @@ is_a: uncategorized
 [Term]
 id: gard:1334
 name: Ring chromosome 20
-synonym: "Ring chromosome type 20" []
+synonym: "ring chromosome 20 syndrome" []
+synonym: "ring chromosome type 20" []
 is_a: uncategorized
 
 [Term]
@@ -11053,8 +11054,22 @@ id: gard:1513
 name: Continuous spikes and waves during sleep
 synonym: "CSWS" []
 synonym: "CSWSS syndrome" []
+synonym: "EE-SWAS" []
+synonym: "EESWAS" []
+synonym: "ESES with language regression" []
+synonym: "LK syndrome" []
+synonym: "LKS" []
+synonym: "continuous slow spike and wave of sleep" []
+synonym: "continuous spike-wave in sleep" []
 synonym: "continuous spikes and waves during slow-wave sleep" []
+synonym: "electrical status epilepticus of sleep" []
+synonym: "electrographic status epilepticus in sleep" []
+synonym: "electrographic status epilepticus of sleep" []
+synonym: "epileptic aphasia" []
 synonym: "epileptic encephalopathy with continuous spike-and-wave during slow sleep" []
+synonym: "epileptic encephalopathy with spike and wave activation in sleep" []
+synonym: "epileptic encephalopathy with spike-and-wave activation in sleep" []
+synonym: "eses index" []
 is_a: uncategorized
 
 [Term]
@@ -11454,6 +11469,7 @@ is_a: uncategorized
 [Term]
 id: gard:16108
 name: Myoclonic-atonic epilepsy
+synonym: "MAE" []
 synonym: "Myoclonic Atonic Epilepsy" []
 is_a: uncategorized
 
@@ -11774,8 +11790,7 @@ is_a: uncategorized
 id: gard:16545
 name: Pseudohypoaldosteronism type 1
 synonym: "PHA type 1" []
-synonym: "PHA1B" []
-synonym: "pseudohypoaldosteronism type I autosomal recessive" []
+synonym: "pseudohypoaldosteronism, type I" []
 is_a: uncategorized
 
 [Term]
@@ -11995,8 +12010,8 @@ is_a: uncategorized
 [Term]
 id: gard:16581
 name: Early myoclonic encephalopathy
+synonym: "EME" []
 synonym: "early myoclonic encephalopathy with suppression-bursts" []
-synonym: "eme" []
 synonym: "epileptic seizures - myoclonic" []
 synonym: "epileptic seizures, myoclonic" []
 synonym: "myoclonia epileptica" []
@@ -12346,7 +12361,6 @@ is_a: uncategorized
 [Term]
 id: gard:16648
 name: Branchiogenic deafness syndrome
-synonym: "MC)garbanC)-Loiselet syndrome" []
 synonym: "Mégarbané-Loiselet syndrome" []
 is_a: uncategorized
 
@@ -12839,7 +12853,6 @@ is_a: uncategorized
 [Term]
 id: gard:16734
 name: Bothnia retinal dystrophy
-synonym: "VC$sterbotten dystrophy" []
 synonym: "Vasterbotten dystrophy" []
 synonym: "Västerbotten dystrophy" []
 is_a: uncategorized
@@ -15504,7 +15517,6 @@ id: gard:17290
 name: Microform holoprosencephaly
 synonym: "HPE, minor form" []
 synonym: "HPE-L" []
-synonym: "HoloprosencC)phalie, minor form" []
 synonym: "Holoprosencéphalie, minor form" []
 synonym: "Microform HPE" []
 synonym: "holoprosencephaly-like" []
@@ -17099,6 +17111,7 @@ name: Aldosterone-producing adenoma with seizures and neurological abnormalities
 synonym: "APA with seizures and neurological abnormalities" []
 synonym: "Conn adenoma with seizures and neurological abnormalities" []
 synonym: "aldosterone-secreting adenoma with seizures and neurological abnormalities" []
+synonym: "complex neurodevelopmental disorder with or without aldosteronism" []
 synonym: "primary aldosteronism, seizures, and neurologic abnormalities" []
 is_a: uncategorized
 
@@ -17345,6 +17358,7 @@ is_a: uncategorized
 [Term]
 id: gard:17639
 name: Peripheral neuropathy-myopathy-hoarseness-hearing loss syndrome
+synonym: "PNMHH" []
 synonym: "peripheral neuropathy-myopathy-hoarseness-deafness syndrome" []
 is_a: uncategorized
 
@@ -17756,6 +17770,7 @@ is_a: uncategorized
 id: gard:17697
 name: Woolly hair-palmoplantar keratoderma syndrome
 synonym: "KWWH type IV" []
+synonym: "Wooly hair-palmoplantar keratoderma syndrome" []
 synonym: "keratoderma with woolly hair type IV" []
 synonym: "keratoderma with wooly hair type IV" []
 synonym: "woolly hair-palmoplantar hyperkeratosis syndrome" []
@@ -18106,7 +18121,9 @@ is_a: uncategorized
 
 [Term]
 id: gard:17744
-name: Interstitial lung disease due to sp-c deficiency
+name: SFTPC- related interstitial lung disease
+synonym: "SFTPC-related ILD" []
+synonym: "interstitial lung disease due to SP-C deficiency" []
 synonym: "interstitial lung disease due to surfactant protein C deficiency" []
 is_a: uncategorized
 
@@ -20147,6 +20164,7 @@ id: gard:18641
 name: Generalized epilepsy with febrile seizures plus
 synonym: "GEFS+" []
 synonym: "epilepsy, generalized, with febrile seizures plus" []
+synonym: "generalised epilepsy with febrile seizures-plus" []
 synonym: "genetic epilepsy with febrile seizures plus" []
 synonym: "genetic epilepsy with febrile seizures-plus" []
 is_a: uncategorized
@@ -21184,6 +21202,7 @@ is_a: uncategorized
 [Term]
 id: gard:19087
 name: Epilepsy with myoclonic absences
+synonym: "EMA" []
 is_a: uncategorized
 
 [Term]
@@ -21757,12 +21776,12 @@ is_a: uncategorized
 
 [Term]
 id: gard:19579
-name: Isochromosomy yp
+name: Isochromosomy Yp
 is_a: uncategorized
 
 [Term]
 id: gard:19580
-name: Isochromosomy yq
+name: Isochromosomy Yq
 is_a: uncategorized
 
 [Term]
@@ -22868,14 +22887,14 @@ is_a: uncategorized
 
 [Term]
 id: gard:20783
-name: Maternal uniparental disomy of chromosome x
+name: Maternal uniparental disomy of chromosome X
 synonym: "UPD(X)mat" []
 synonym: "maternal uniparental disomy of chromosome type X" []
 is_a: uncategorized
 
 [Term]
 id: gard:20784
-name: Paternal uniparental disomy of chromosome x
+name: Paternal uniparental disomy of chromosome X
 synonym: "UPD(X)pat" []
 synonym: "paternal uniparental disomy of chromosome type X" []
 is_a: uncategorized
@@ -22890,7 +22909,6 @@ is_a: uncategorized
 [Term]
 id: gard:2081
 name: Ehlers-danlos syndrome\, hypermobility type
-synonym: "BJHS" []
 synonym: "EDS III" []
 synonym: "EDSHMB" []
 synonym: "Ehlers-Danlos syndrome type 3" []
@@ -22899,7 +22917,6 @@ synonym: "Ehlers-Danlos syndrome, hypermobile type" []
 synonym: "Ehlers-Danlos syndrome, type 3" []
 synonym: "Ehlers-Danlos syndrome, type III" []
 synonym: "HT-EDS" []
-synonym: "benign joint hypermobility syndrome" []
 is_a: uncategorized
 
 [Term]
@@ -24033,6 +24050,7 @@ id: gard:2169
 name: Myoclonic-astatic epilepsy
 synonym: "Doose syndrome" []
 synonym: "EMAS" []
+synonym: "epilepsy with myoclonic atonic seizures" []
 synonym: "epilepsy with myoclonic-astatic seizures" []
 synonym: "epilepsy with myoclonic-atonic seizures" []
 synonym: "myoclonic atonic epilepsy" []
@@ -24071,7 +24089,8 @@ is_a: uncategorized
 
 [Term]
 id: gard:2170
-name: Benign occipital epilepsy
+name: Self-limited childhood occipital epilepsy
+synonym: "benign occipital epilepsy" []
 is_a: uncategorized
 
 [Term]
@@ -25418,11 +25437,6 @@ synonym: "hydrocephalus blue sclera nephropathy" []
 is_a: uncategorized
 
 [Term]
-id: gard:2361
-name: Formaldehyde poisoning
-is_a: uncategorized
-
-[Term]
 id: gard:2362
 name: Cardiospondylocarpofacial syndrome
 synonym: "Forney syndrome" []
@@ -26091,7 +26105,6 @@ name: Griscelli syndrome type 1
 synonym: "GS1" []
 synonym: "Griscelli syndrome with neurological impairment" []
 synonym: "Griscelli syndrome, cutaneous and neurological type" []
-synonym: "Griscelli-PruniC)ras syndrome type 1" []
 synonym: "Griscelli-Pruniéras syndrome type 1" []
 synonym: "hypopigmentation-neurologic impairment syndrome" []
 is_a: uncategorized
@@ -27898,7 +27911,7 @@ is_a: uncategorized
 [Term]
 id: gard:3123
 name: Klumpke's paralysis
-synonym: "klumpke-dc)jerine paralysis" []
+synonym: "klumpke-déjerine paralysis" []
 is_a: uncategorized
 
 [Term]
@@ -28802,7 +28815,6 @@ is_a: uncategorized
 id: gard:3448
 name: Megalocornea-intellectual disability syndrome
 synonym: "MMR syndrome" []
-synonym: "NeuhC$user syndrome" []
 synonym: "Neuhäuser syndrome" []
 synonym: "megalocornea intellectual disability syndrome" []
 is_a: uncategorized
@@ -30962,12 +30974,12 @@ is_a: uncategorized
 
 [Term]
 id: gard:411
-name: Hypoparathyroidism-retardation-dysmorphism syndrome
+name: Sanjad-Sakati syndrome
 synonym: "HRD syndrome" []
 synonym: "HRDS" []
+synonym: "Hypoparathyroidism-retardation-dysmorphism syndrome" []
 synonym: "Richardson-Kirk syndrome" []
 synonym: "SSS" []
-synonym: "Sanjad-Sakati syndrome" []
 synonym: "hypoparathyroidism with short stature, intellectual disability and seizures" []
 synonym: "hypoparathyroidism-intellectual disability-dysmorphism syndrome" []
 synonym: "hypoparathyroidism-short stature-intellectual disability-seizures syndrome" []
@@ -31102,7 +31114,8 @@ is_a: uncategorized
 
 [Term]
 id: gard:4142
-name: Osteoglophonic dwarfism
+name: Osteoglophonic dysplasia
+synonym: "Osteoglophonic dwarfism" []
 is_a: uncategorized
 
 [Term]
@@ -31695,7 +31708,6 @@ is_a: uncategorized
 [Term]
 id: gard:4323
 name: Phocomelia-ectrodactyly-deafness-sinus arrhythmia syndrome
-synonym: "Stoll-LC)vy-Francfort syndrome" []
 synonym: "Stoll-Lévy-Francfort syndrome" []
 is_a: uncategorized
 
@@ -32149,9 +32161,7 @@ id: gard:4483
 name: Griscelli syndrome type 2
 synonym: "GS2" []
 synonym: "Griscelli syndrome with hemophagocytic syndrome" []
-synonym: "Griscelli-PruniC)ras syndrome type 2" []
 synonym: "Griscelli-Pruniéras syndrome type 2" []
-synonym: "Griscelli-Pruni��ras syndrome type 2" []
 synonym: "hypopigmentation-immunodeficiency with or without neurologic impairment syndrome" []
 synonym: "paid syndrome" []
 synonym: "partial albinism and immunodeficiency syndrome" []
@@ -32303,13 +32313,7 @@ is_a: uncategorized
 [Term]
 id: gard:4520
 name: Familial prostate carcinoma
-synonym: "familial prostate cancer" []
-synonym: "hereditary prostate cancer" []
 synonym: "hereditary prostate carcinoma" []
-synonym: "prostate cancer, autosomal dominant, somatic mutation" []
-synonym: "prostate cancer, familial, susceptibility to, autosomal dominant, somatic mutation" []
-synonym: "prostate cancer, somatic" []
-synonym: "prostate cancer, susceptibility to, autosomal dominant, somatic mutation" []
 is_a: uncategorized
 
 [Term]
@@ -32407,9 +32411,14 @@ is_a: uncategorized
 
 [Term]
 id: gard:4552
-name: Autosomal recessive pseudohypoaldosteronism type 1
+name: Pseudohypoaldosteronism\, type ib1\, autosomal recessive
 synonym: "PHA1B" []
 synonym: "autosomal recessive PHA 1" []
+synonym: "autosomal recessive pseudohypoaldosteronism type 1" []
+synonym: "generalised PHA1" []
+synonym: "generalised pseudohypoaldosteronism type 1" []
+synonym: "generalized PHA1" []
+synonym: "generalized pseudohypoaldosteronism type 1" []
 is_a: uncategorized
 
 [Term]
@@ -35086,7 +35095,7 @@ is_a: uncategorized
 
 [Term]
 id: gard:5369
-name: Partial duplication of the long arm of chromosome x
+name: Partial duplication of the long arm of chromosome X
 synonym: "partial duplication of chromosome Xq" []
 synonym: "partial duplication of the long arm of chromosome type X" []
 synonym: "partial trisomy of chromosome Xq" []
@@ -36122,7 +36131,7 @@ is_a: uncategorized
 
 [Term]
 id: gard:5672
-name: Trisomy x
+name: Trisomy X
 synonym: "47,XXX" []
 synonym: "47,XXX syndrome" []
 synonym: "Triplo-X syndrome" []
@@ -36157,7 +36166,7 @@ is_a: uncategorized
 
 [Term]
 id: gard:5678
-name: Pentasomy x
+name: Pentasomy X
 synonym: "49, XXXXX syndrome" []
 synonym: "49,XXXXX syndrome" []
 synonym: "Pentasomy type X" []
@@ -36308,11 +36317,14 @@ is_a: uncategorized
 [Term]
 id: gard:5696
 name: Rett syndrome
+synonym: "RTS" []
+synonym: "RTT" []
+synonym: "Rett syndrome, X-linked dominant" []
+synonym: "Rett syndrome, atypical, X-linked dominant" []
+synonym: "Rett syndrome, preserved speech variant, X-linked dominant" []
 synonym: "Rett's disorder" []
+synonym: "Rett’s disease" []
 synonym: "cerebroatrophic hyperammonemia" []
-synonym: "rett syndrome, X-linked dominant" []
-synonym: "rett syndrome, atypical, X-linked dominant" []
-synonym: "rett syndrome, preserved speech variant, X-linked dominant" []
 is_a: uncategorized
 
 [Term]
@@ -36585,9 +36597,12 @@ is_a: uncategorized
 [Term]
 id: gard:5764
 name: Aicardi syndrome
+synonym: "AIC" []
 synonym: "Aicardi syndrome, X-linked dominant" []
+synonym: "Aicardi’s syndrome" []
 synonym: "agenesis of corpus callosum with chorioretinal abnormality" []
 synonym: "corpus callosum agenesis of with chorioretinal abnormality" []
+synonym: "corpus callosum, agenesis of, with chorioretinal abnormality" []
 is_a: uncategorized
 
 [Term]
@@ -36620,6 +36635,7 @@ synonym: "Alpers progressive infantile poliodystrophy" []
 synonym: "Alpers progressive sclerosing poliodystrophy" []
 synonym: "Alpers syndrome" []
 synonym: "Alpers' disease or gray-matter degeneration" []
+synonym: "Alpers-Huttenlocher" []
 synonym: "Alpers-Huttenlocher syndrome" []
 synonym: "alpers disease" []
 synonym: "mitochondrial DNA depletion syndrome type 4a" []
@@ -36715,6 +36731,7 @@ is_a: uncategorized
 [Term]
 id: gard:5810
 name: Angelman syndrome
+synonym: "Angelman’s syndrome" []
 is_a: uncategorized
 
 [Term]
@@ -37493,8 +37510,6 @@ is_a: uncategorized
 id: gard:6035
 name: Chediak-higashi syndrome
 synonym: "CHS" []
-synonym: "ChC)diak-Higashi disease" []
-synonym: "ChC)diak-Higashi-Steinbrink syndrome" []
 synonym: "Chediak - Steinbrinck anomaly" []
 synonym: "Chédiak-Higashi disease" []
 synonym: "Chédiak-Higashi syndrome" []
@@ -38735,6 +38750,7 @@ id: gard:6383
 name: Carcinoma of esophagus
 synonym: "carcinoma of the esophagus" []
 synonym: "carcinoma of the oesophagus" []
+synonym: "esophageal cancer" []
 synonym: "esophageal carcinoma" []
 synonym: "esophagus carcinoma" []
 synonym: "oesophagus carcinoma" []
@@ -39441,12 +39457,6 @@ name: Ankyloblepharon-ectodermal defects-cleft lip/palate syndrome
 synonym: "Ankyloblepharon-ectodermal defects-cleft lip and palate syndrome" []
 synonym: "Hay-Wells syndrome" []
 synonym: "aec syndrome" []
-is_a: uncategorized
-
-[Term]
-id: gard:6577
-name: Heavy metal poisoning
-synonym: "toxic effect of heavy metal" []
 is_a: uncategorized
 
 [Term]
@@ -40183,13 +40193,6 @@ is_a: uncategorized
 id: gard:6821
 name: Muir-torre syndrome
 synonym: "multiple keratoacanthoma, Muir-Torre type" []
-is_a: uncategorized
-
-[Term]
-id: gard:6824
-name: Keratoconus
-synonym: "conical cornea" []
-synonym: "keratoconus (disease)" []
 is_a: uncategorized
 
 [Term]
@@ -41031,14 +41034,6 @@ synonym: "meningioma (disease)" []
 is_a: uncategorized
 
 [Term]
-id: gard:7021
-name: Mercury poisoning
-synonym: "Mercury intoxication" []
-synonym: "hydrargyria" []
-synonym: "mercurialism" []
-is_a: uncategorized
-
-[Term]
 id: gard:7026
 name: Malignant mesothelioma
 synonym: "malignant mesothelial tumor" []
@@ -41426,6 +41421,7 @@ is_a: uncategorized
 id: gard:7144
 name: Merrf syndrome
 synonym: "Fukuhara syndrome" []
+synonym: "MERRF" []
 synonym: "myoclonic epilepsy - ragged red fibers" []
 synonym: "myoclonic epilepsy - ragged red fibres" []
 synonym: "myoclonus epilepsy and ragged red fibers" []
@@ -41598,16 +41594,18 @@ is_a: uncategorized
 
 [Term]
 id: gard:7193
-name: Neurofibromatosis type 2
+name: NF2-related schwannomatosis
 synonym: "NF2" []
-synonym: "NF2-related schwannomatosis" []
+synonym: "SWNV" []
 synonym: "bilateral acoustic neurofibromatosis" []
 synonym: "central neurofibromatosis" []
 synonym: "full NF2" []
 synonym: "full neurofibromatosis type 2" []
 synonym: "neurofibromatosis 2" []
+synonym: "neurofibromatosis type 2" []
 synonym: "nonmosaic NF2-related schwannomatosis" []
 synonym: "nonmosaic neurofibromatosis type 2" []
+synonym: "vestibular schwannomatosis" []
 is_a: uncategorized
 
 [Term]
@@ -42858,7 +42856,6 @@ is_a: uncategorized
 id: gard:7629
 name: Sezary syndrome
 synonym: "CTCL / Sezary syndrome" []
-synonym: "SC)zary syndrome" []
 synonym: "Sezary disease" []
 synonym: "Sezary lymphoma" []
 synonym: "Sezary's disease" []
@@ -43038,15 +43035,15 @@ is_a: uncategorized
 [Term]
 id: gard:7706
 name: Sturge-weber syndrome
-synonym: "Encephalofacial angiomatosis" []
-synonym: "Encephalotrigeminal angiomatosis" []
-synonym: "Encephalotrigeminal syndrome" []
 synonym: "SWS" []
 synonym: "Sturge-Weber disease" []
 synonym: "Sturge-Weber syndrome, somatic, mosaic" []
 synonym: "Sturge-Weber-Dimitri syndrome" []
 synonym: "Sturge-Weber-Krabbe angiomatosis" []
 synonym: "Sturge-Weber-Krabbe syndrome" []
+synonym: "encephalofacial angiomatosis" []
+synonym: "encephalotrigeminal angiomatosis" []
+synonym: "encephalotrigeminal syndrome" []
 synonym: "sturge weber syndrome" []
 is_a: uncategorized
 
@@ -43152,7 +43149,7 @@ is_a: uncategorized
 
 [Term]
 id: gard:7754
-name: Tetrasomy x
+name: Tetrasomy X
 synonym: "48,XXXX syndrome" []
 synonym: "quadruple X" []
 synonym: "tetra X" []
@@ -43318,12 +43315,12 @@ is_a: uncategorized
 [Term]
 id: gard:7830
 name: Tuberous sclerosis
+synonym: "Bourneville disease" []
 synonym: "Bourneville syndrome" []
+synonym: "Bourneville's disease" []
 synonym: "Bourneville's syndrome" []
-synonym: "Epiloia" []
 synonym: "TSC" []
-synonym: "bourneville's disease" []
-synonym: "cerebral sclerosis" []
+synonym: "epiloia" []
 synonym: "tuberose sclerosis" []
 synonym: "tuberous sclerosis complex" []
 synonym: "tuberous sclerosis syndrome" []
@@ -44709,7 +44706,10 @@ is_a: uncategorized
 [Term]
 id: gard:8406
 name: X-linked spermatogenic failure 1
+synonym: "Del Castillo syndrome" []
+synonym: "Germinal cell aplasia" []
 synonym: "SPGFX1" []
+synonym: "Sertoli cell-only syndrome" []
 synonym: "spermatogenic failure, X-linked, type 1" []
 is_a: uncategorized
 
@@ -44874,8 +44874,8 @@ id: gard:8457
 name: Autosomal dominant familial periodic fever
 synonym: "FHF" []
 synonym: "Hibernian fever, familial" []
+synonym: "TNF receptor 1-associated periodic fever syndrome" []
 synonym: "TNF receptor 1-associated periodic syndrome" []
-synonym: "TNF receptor-associated periodic fever syndrome" []
 synonym: "TNF receptor-associated periodic syndrome" []
 synonym: "TRAPS" []
 synonym: "TRAPS syndrome" []
@@ -47170,14 +47170,6 @@ synonym: "vitamin B6-dependent seizures" []
 is_a: uncategorized
 
 [Term]
-id: gard:9299
-name: Acute ackee fruit intoxication
-synonym: "Jamaican vomiting sickness" []
-synonym: "Jamaican vomiting syndrome" []
-synonym: "acute intoxication by Blighia sapida" []
-is_a: uncategorized
-
-[Term]
 id: gard:93
 name: Monilethrix
 synonym: "moniliform hair syndrome" []
@@ -49145,9 +49137,7 @@ is_a: uncategorized
 id: gard:9715
 name: Griscelli syndrome type 3
 synonym: "GS3" []
-synonym: "Griscelli-PruniC)ras syndrome type 3" []
 synonym: "Griscelli-Pruniéras syndrome type 3" []
-synonym: "Griscelli-Pruni��ras syndrome type 3" []
 is_a: uncategorized
 
 [Term]
@@ -49731,16 +49721,15 @@ is_a: uncategorized
 id: gard:9817
 name: Dystonia 5
 synonym: "DYT-GCH1" []
-synonym: "DYT5a" []
+synonym: "Dopa-responsive dystonia, autosomal dominant" []
 synonym: "GTP cyclohydrolase 1-deficient dopa-responsive dystonia" []
-synonym: "GTPCH1-deficient DRD" []
-synonym: "GTPCH1-deficient dopa-responsive dystonia" []
-synonym: "HPD with marked diurnal fluctuation" []
 synonym: "Segawa Syndrome" []
-synonym: "autosomal dominant Segawa syndrome" []
+synonym: "Segawa syndrome, autosomal dominant" []
 synonym: "dystonia type 5" []
 synonym: "dystonia, DOPA-responsive, with or without hyperphenylalaninemia" []
-synonym: "hereditary progressive dystonia with marked diurnal fluctuation" []
+synonym: "dystonia, Dopa-responsive, autosomal dominant" []
+synonym: "dystonia, progressive, with diurnal variation" []
+synonym: "dystonia-Parkinsonism with diurnal fluctuation" []
 is_a: uncategorized
 
 [Term]

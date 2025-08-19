@@ -21,7 +21,7 @@ DrugCentral  provides information on active ingredients chemical entities, pharm
 | field       |   count |
 |-------------|---------|
 | definitions |    3267 |
-| mappings    |   76521 |
+| mappings    |   74729 |
 | properties  |   17913 |
 | synonyms    |   19053 |
 | terms       |    4995 |

@@ -6,22 +6,28 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:mesh="http://id.nlm.nih.gov/mesh/"
      xmlns:omim="https://omim.org/MIM:"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:umls="https://uts.nlm.nih.gov/uts/umls/concept/"
      xmlns:MONDO="http://purl.obolibrary.org/obo/MONDO_"
      xmlns:ndfrt="http://purl.bioontology.org/ontology/NDFRT/"
+     xmlns:orcid="https://orcid.org/"
      xmlns:meddra="http://purl.bioontology.org/ontology/MDRFRE/"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:snomedct="http://snomed.info/id/"
      xmlns:pharmgkb.disease="http://www.pharmgkb.org/disease/">
     <owl:Ontology rdf:about="https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.ofn">
-        <dcterms:description>The PharmGKB database is a central repository for genetic\, genomic\, molecular and cellular phenotype data and clinical information about people who have participated in pharmacogenomics research studies. The data includes\, but is not limited to\, clinical and basic pharmacokinetic and pharmacogenomic research in the cardiovascular\, pulmonary\, cancer\, pathways\, metabolic and transporter domains.</dcterms:description>
+        <dcterms:description>The PharmGKB database is a central repository for genetic, genomic, molecular and cellular phenotype data and clinical information about people who have participated in pharmacogenomics research studies. The data includes, but is not limited to, clinical and basic pharmacokinetic and pharmacogenomic research in the cardiovascular, pulmonary, cancer, pathways, metabolic and transporter domains.</dcterms:description>
         <dcterms:license>CC-BY-SA-4.0</dcterms:license>
         <dcterms:title>PharmGKB Disease</dcterms:title>
-        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:16:19.110974</oboInOwl:auto-generated-by>
+        <doap:maintainer rdf:resource="https://orcid.org/0000-0001-5527-6475"/>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T00:20:57.519969</oboInOwl:auto-generated-by>
+        <foaf:homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.pharmgkb.org/</foaf:homepage>
+        <foaf:logo rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://rxgenomix.com/wp-content/uploads/2019/10/pharmgKB.png</foaf:logo>
     </owl:Ontology>
     
 
@@ -55,6 +61,12 @@
     
 
 
+    <!-- http://usefulinc.com/ns/doap#maintainer -->
+
+    <owl:AnnotationProperty rdf:about="http://usefulinc.com/ns/doap#maintainer"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
@@ -70,6 +82,18 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/logo -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/logo"/>
     
 
 
@@ -132,7 +156,7 @@
         <oboInOwl:hasRelatedSynonym>ASA-induced asthma</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>NERD</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>NSAID-exacerbated respiratory disease</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>aspirin-induced asthma</rdfs:label>
+        <rdfs:label>Aspirin-induced asthma</rdfs:label>
     </owl:Class>
     
 
@@ -212,16 +236,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA135057241 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA135057241">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10036765"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0861148"/>
-        <rdfs:label>Proarrhythmia</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA136400566 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA136400566">
@@ -288,22 +302,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA143488504 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA143488504">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D014655"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10047098"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/88619007"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0042380"/>
-        <oboInOwl:hasRelatedSynonym>Capillary Resistance</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Systemic Vascular Resistance</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Vascular resistance</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>function</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Vascular Resistance</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA144997875 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA144997875">
@@ -333,20 +331,6 @@
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0023910"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_8000008"/>
         <rdfs:label>Martsolf Syndrome</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA145007163 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA145007163">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D013189"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000171041"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/34745001"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0038091"/>
-        <oboInOwl:hasRelatedSynonym>SRS-A of anaphylaxis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Silver-Russell Syndrome(SRS)</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>SRS-A</rdfs:label>
     </owl:Class>
     
 
@@ -700,10 +684,11 @@
     <!-- http://www.pharmgkb.org/disease/PA152246679 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA152246679">
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0010134"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/70348004"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0271829"/>
-        <oboInOwl:hasRelatedSynonym>Pendred Syndrome</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Pendred&apos;s syndrome</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>Pendred&apos;s syndrome</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Pendred syndrome</rdfs:label>
     </owl:Class>
     
 
@@ -934,10 +919,12 @@
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA157379134">
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10028287"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0003326"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/268010003"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0231528"/>
-        <oboInOwl:hasRelatedSynonym>Myalgia</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Myalgia unspecified</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>Muscle ache</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Muscle pain</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Myalgia</rdfs:label>
     </owl:Class>
     
 
@@ -1099,7 +1086,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_6000040"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/247398009"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0423716"/>
-        <rdfs:label>neuropathic pain</rdfs:label>
+        <rdfs:label>Neuropathic pain</rdfs:label>
     </owl:Class>
     
 
@@ -1423,11 +1410,13 @@
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA164924611">
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10055001"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005486"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/64969001"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0020608"/>
         <oboInOwl:hasRelatedSynonym>Hypodontia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Oligodontia</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Partial congenital absence of teeth</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>Partial congenital absence of teeth</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Tooth agenesis</rdfs:label>
     </owl:Class>
     
 
@@ -1436,7 +1425,10 @@
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA164924624">
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D059952"/>
-        <rdfs:label>Pelvic Floor Disorders</rdfs:label>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10034268"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0031607"/>
+        <oboInOwl:hasRelatedSynonym>Pelvic Floor Disorders</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Pelvic organ prolapse</rdfs:label>
     </owl:Class>
     
 
@@ -1462,9 +1454,12 @@
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D010001"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10031151"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002242"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021165"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/203354006"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0029401"/>
-        <rdfs:label>Paget&apos;s disease NOS</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>Paget cell neoplasm</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Paget&apos;s disease</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Paget disease</rdfs:label>
     </owl:Class>
     
 
@@ -1576,15 +1571,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA165108167 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108167">
-        <oboInOwl:hasRelatedSynonym>Intestinal schistosomiasis</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Schistosoma mansonii infection</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA165108186 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108186">
@@ -1596,22 +1582,6 @@
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C1619692"/>
         <oboInOwl:hasRelatedSynonym>Nephrogenic fibrosing dermopathy</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Nephrogenic systemic fibrosis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165108192 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108192">
-        <rdfs:label>Respiratory system diseases NOS</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165108193 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108193">
-        <rdfs:label>Ocular penetration, unspecified</rdfs:label>
     </owl:Class>
     
 
@@ -1631,22 +1601,6 @@
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0006601"/>
         <oboInOwl:hasRelatedSynonym>Pityriasis circinata et maculata</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Pityriasis rosea</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165108206 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108206">
-        <rdfs:label>Postoperative wound breakdown</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165108207 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108207">
-        <rdfs:label>Meningococcal infection NOS</rdfs:label>
     </owl:Class>
     
 
@@ -1732,22 +1686,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA165108231 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108231">
-        <rdfs:label>Seborrhea NOS</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165108237 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108237">
-        <rdfs:label>Hypertensive lower oesophageal sphincter</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA165108247 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108247">
@@ -1784,15 +1722,6 @@
         <oboInOwl:hasRelatedSynonym>Short gut syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Short intestine syndrome</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Short bowel syndrome</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165108292 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108292">
-        <oboInOwl:hasRelatedSynonym>Anal itch</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Pruritus ani</rdfs:label>
     </owl:Class>
     
 
@@ -2028,19 +1957,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA165108396 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108396">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D010001"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10031151"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002242"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/203353000"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0029401"/>
-        <rdfs:label>Paget&apos;s disease OS</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA165108399 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108399">
@@ -2086,22 +2002,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA165108407 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108407">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D000030"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10000230"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000000271"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/16607004"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0000814"/>
-        <oboInOwl:hasRelatedSynonym>Fetal death before 22 weeks with retention of dead fetus</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>MA - Missed abortion</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Silent miscarriage</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Missed abortion</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA165108409 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108409">
@@ -2130,19 +2030,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA165108417 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108417">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D007871"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10068310"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000001797"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/238790003"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0023223"/>
-        <rdfs:label>Leg ulcer NOS</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA165108423 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108423">
@@ -2162,12 +2049,13 @@
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108426">
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D007236"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10041092"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0001518"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/199612005"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0021296"/>
         <oboInOwl:hasRelatedSynonym>SFD - Small-for-dates baby</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Small for gestational age baby</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Small-for-dates - delivered</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Small-for-dates baby</rdfs:label>
+        <rdfs:label>Small for gestational age</rdfs:label>
     </owl:Class>
     
 
@@ -2205,19 +2093,6 @@
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/212842003"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0023176"/>
         <rdfs:label>Lead compound causing toxic effect NOS</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165108460 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108460">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D013530"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10056641"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002865"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/213285008"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0038941"/>
-        <rdfs:label>Postoperative wound infection, unspecified</rdfs:label>
     </owl:Class>
     
 
@@ -2324,15 +2199,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA165108502 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108502">
-        <oboInOwl:hasRelatedSynonym>HSV dendritic keratitis</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Herpes simplex dendritic keratitis</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA165108505 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108505">
@@ -2362,19 +2228,6 @@
         <oboInOwl:hasRelatedSynonym>NSV - Nonspecific vaginitis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Nonspecific vaginitis</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Bacterial vaginosis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165108510 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108510">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D000435"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10001599"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000000352"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/231464007"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0001969"/>
-        <rdfs:label>Inebriety NOS</rdfs:label>
     </owl:Class>
     
 
@@ -2586,7 +2439,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0006604"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/200935004"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0035854"/>
-        <rdfs:label>Rosacea NOS</rdfs:label>
+        <rdfs:label>Rosacea</rdfs:label>
     </owl:Class>
     
 
@@ -2806,7 +2659,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/191215000"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0002880"/>
         <oboInOwl:hasRelatedSynonym>Autoimmune haemolytic anaemia NOS</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Autoimmune hemolytic anemia NOS</rdfs:label>
+        <rdfs:label>Autoimmune hemolytic anemia</rdfs:label>
     </owl:Class>
     
 
@@ -2926,39 +2779,17 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA165108817 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108817">
-        <rdfs:label>Protein-calorie malnutrition NOS</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165108818 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108818">
-        <rdfs:label>Paranoid schizophrenia NOS</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA165108823 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108823">
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D006473"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10005128"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000001484"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0011891"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/200033009"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0032797"/>
-        <rdfs:label>Postpartum hemorrhage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165108830 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108830">
-        <rdfs:label>Prostatic disorders NOS</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>Postpartum hemorrhage</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Post-partum hemorrhage</rdfs:label>
     </owl:Class>
     
 
@@ -2997,47 +2828,6 @@
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0085083"/>
         <oboInOwl:hasRelatedSynonym>Secondary Meig&apos;s syndrome</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Ovarian hyperstimulation syndrome</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165108854 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108854">
-        <rdfs:label>Threatened abortion unspecified</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165108874 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108874">
-        <rdfs:label>Ophthalmic herpes simplex NOS</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165108880 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108880">
-        <rdfs:label>Otitis externa NOS</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165108881 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108881">
-        <oboInOwl:hasRelatedSynonym>Unspecified corneal oedema</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Unspecified corneal edema</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165108884 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108884">
-        <rdfs:label>Vitamin B deficiency NOS</rdfs:label>
     </owl:Class>
     
 
@@ -3231,28 +3021,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA165108954 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108954">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D008599"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10013236"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000001994"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/266606008"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0025345"/>
-        <rdfs:label>Menstruation disorder NOS</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165108957 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108957">
-        <oboInOwl:hasRelatedSynonym>Gravitational ulcer</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Venous ulcer of leg</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA165108965 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165108965">
@@ -3306,14 +3074,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA165109003 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165109003">
-        <rdfs:label>Penile disorders</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA165109029 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165109029">
@@ -3334,22 +3094,6 @@
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165109050">
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0043475"/>
         <rdfs:label>Stokes-Adams-Morgagni syndrome</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165109052 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165109052">
-        <rdfs:label>Hysteria NOS</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165109054 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165109054">
-        <rdfs:label>Vaginitis unspecified</rdfs:label>
     </owl:Class>
     
 
@@ -3395,15 +3139,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA165109078 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165109078">
-        <oboInOwl:hasRelatedSynonym>Infectious diarrhoea NOS</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Infectious diarrhea NOS</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA165109089 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165109089">
@@ -3433,14 +3168,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA165109113 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165109113">
-        <rdfs:label>Proteus infection NOS</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA165109118 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165109118">
@@ -3460,35 +3187,11 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA165109131 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165109131">
-        <rdfs:label>Purulent otitis media NOS</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165109134 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165109134">
-        <rdfs:label>Thrombophlebitis NOS</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA165109139 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165109139">
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0022430"/>
         <rdfs:label>Persistent fetal circulation syndrome</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165109151 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165109151">
-        <rdfs:label>Sore on skin</rdfs:label>
     </owl:Class>
     
 
@@ -3506,30 +3209,6 @@
         <oboInOwl:hasRelatedSynonym>Bronchopulmonary dysplasia of newborn</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Chronic lung disease of prematurity</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Bronchopulmonary dysplasia</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165109171 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165109171">
-        <rdfs:label>Prostatitis NOS</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165109173 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165109173">
-        <rdfs:label>Unspecified osteomyelitis of unspecified site</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA165109179 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165109179">
-        <rdfs:label>Rickettsioses NOS</rdfs:label>
     </owl:Class>
     
 
@@ -3606,9 +3285,11 @@
     <!-- http://www.pharmgkb.org/disease/PA165374639 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA165374639">
+        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D013405"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10042462"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_5200330"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0038661"/>
-        <rdfs:label>suicide</rdfs:label>
+        <rdfs:label>Suicide</rdfs:label>
     </owl:Class>
     
 
@@ -3666,7 +3347,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000000390"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0006506"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0002882"/>
-        <rdfs:label>Anemia, Hemolytic, Congenital Nonspherocytic</rdfs:label>
+        <rdfs:label>Congenital nonspherocytic hemolytic anemia</rdfs:label>
     </owl:Class>
     
 
@@ -3751,15 +3432,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166048722 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048722">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002817"/>
-        <rdfs:label>Staphylococcal Infections</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166048723 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048723">
@@ -3780,30 +3452,12 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166048726 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048726">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002197"/>
-        <rdfs:label>Nutritional and Metabolic Diseases</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166048727 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048727">
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003789"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002971"/>
         <rdfs:label>Melanoma, Amelanotic</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048728 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048728">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003729"/>
-        <rdfs:label>Mesothelioma, Cystic</rdfs:label>
     </owl:Class>
     
 
@@ -3858,15 +3512,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166048737 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048737">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002135"/>
-        <rdfs:label>Neoplasms, Hormone-Dependent</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166048739 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048739">
@@ -3909,15 +3554,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166048743 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048743">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003082"/>
-        <rdfs:label>Urination Disorders</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166048745 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048745">
@@ -3954,15 +3590,6 @@
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002955"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005982"/>
         <rdfs:label>Tinea</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048749 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048749">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000010245"/>
-        <rdfs:label>Pregnancy Third Trimester</rdfs:label>
     </owl:Class>
     
 
@@ -4109,51 +3736,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166048766 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048766">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003547"/>
-        <rdfs:label>Skin Diseases, Viral</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048768 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048768">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000001794"/>
-        <rdfs:label>Leg Dermatoses</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048770 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048770">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002682"/>
-        <rdfs:label>Scalp Dermatoses</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048771 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048771">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000010243"/>
-        <rdfs:label>Pregnancy First Trimester</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048773 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048773">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003491"/>
-        <rdfs:label>Serratia Infections</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166048774 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048774">
@@ -4174,38 +3756,14 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166048776 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048776">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003215"/>
-        <rdfs:label>Mycobacterium avium-intracellulare Infection</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048778 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048778">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000010208"/>
-        <rdfs:label>Preterm Infant</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166048779 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048779">
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000010204"/>
+        <oboInOwl:hasRelatedSynonym>Infant</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Newborn</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>newborn</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Neonate</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048780 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048780">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002339"/>
-        <rdfs:label>Lice Infestations</rdfs:label>
     </owl:Class>
     
 
@@ -4226,15 +3784,6 @@
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000001983"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000889"/>
         <rdfs:label>Meningitis, Haemophilus</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048783 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048783">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002819"/>
-        <rdfs:label>Staphylococcal Skin Infections</rdfs:label>
     </owl:Class>
     
 
@@ -4262,16 +3811,8 @@
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048787">
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000004083"/>
-        <rdfs:label>Mercury Poisoning, Nervous System</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048789 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048789">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002481"/>
-        <rdfs:label>Pregnancy Complications, Infectious</rdfs:label>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0018020"/>
+        <rdfs:label>Mercury Poisoning</rdfs:label>
     </owl:Class>
     
 
@@ -4356,15 +3897,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166048801 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048801">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003576"/>
-        <rdfs:label>Skin Diseases, Eczematous</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166048802 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048802">
@@ -4382,15 +3914,6 @@
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000000659"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0800373"/>
         <rdfs:label>Carbon Monoxide Poisoning</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048804 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048804">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000000716"/>
-        <rdfs:label>Hypoxia, Brain</rdfs:label>
     </owl:Class>
     
 
@@ -4445,15 +3968,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166048810 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048810">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003803"/>
-        <rdfs:label>Respiratory Syncytial Virus Infections</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166048811 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048811">
@@ -4461,15 +3975,6 @@
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0001101"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0006814"/>
         <rdfs:label>Iritis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048812 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048812">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000004020"/>
-        <rdfs:label>Jet Lag Syndrome</rdfs:label>
     </owl:Class>
     
 
@@ -4490,33 +3995,6 @@
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000010234"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0002149"/>
         <rdfs:label>Hyperuricemia</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048816 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048816">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000001709"/>
-        <rdfs:label>Iris Diseases</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048817 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048817">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000010207"/>
-        <rdfs:label>Young Child</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048818 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048818">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003072"/>
-        <rdfs:label>Urethral Diseases</rdfs:label>
     </owl:Class>
     
 
@@ -4551,15 +4029,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166048823 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048823">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000010206"/>
-        <rdfs:label>Toddler</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166048824 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048824">
@@ -4589,29 +4058,15 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166048828 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048828">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000001676"/>
-        <rdfs:label>Inert Gas Narcosis</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166048829 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048829">
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000010213"/>
+        <oboInOwl:hasRelatedSynonym>Aged</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Elder</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Elderly person</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Senior citizen</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Elderly Adult</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048830 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048830">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003112"/>
-        <rdfs:label>Vascular Headaches</rdfs:label>
     </owl:Class>
     
 
@@ -4666,15 +4121,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166048836 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048836">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003553"/>
-        <rdfs:label>Strongylida Infections</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166048837 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048837">
@@ -4702,15 +4148,6 @@
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0000796"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001556"/>
         <rdfs:label>Urethral Obstruction</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048841 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048841">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003380"/>
-        <rdfs:label>Respiratory Tract Fistula</rdfs:label>
     </owl:Class>
     
 
@@ -4765,15 +4202,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166048847 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048847">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000004224"/>
-        <rdfs:label>Urological Manifestations</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166048848 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048848">
@@ -4820,24 +4248,6 @@
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0003304"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005541"/>
         <rdfs:label>Spondylolysis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048853 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048853">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002795"/>
-        <rdfs:label>Spinal Cord Neoplasms</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048854 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048854">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002279"/>
-        <rdfs:label>Pain, Intractable</rdfs:label>
     </owl:Class>
     
 
@@ -4971,28 +4381,15 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166048871 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048871">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000000720"/>
-        <rdfs:label>Intracranial Embolism and Thrombosis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048872 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048872">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002416"/>
-        <rdfs:label>Plant Poisoning</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166048875 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048875">
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003154"/>
+        <oboInOwl:hasRelatedSynonym>Abnormal blood ion concentration</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Abnormality of ion homeostasis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Electrolyte disorders</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Electrolyte disturbance</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Electrolyte imbalance</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Water-Electrolyte Imbalance</rdfs:label>
     </owl:Class>
     
@@ -5008,84 +4405,12 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166048877 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048877">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003212"/>
-        <rdfs:label>Sexually Transmitted Diseases, Bacterial</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048878 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048878">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003493"/>
-        <rdfs:label>Neisseriaceae Infections</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048879 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048879">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000010244"/>
-        <rdfs:label>Pregnancy Second Trimester</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048880 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048880">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000001677"/>
-        <rdfs:label>Infant Nutrition Disorders</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048882 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048882">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002036"/>
-        <rdfs:label>Mouth Diseases</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166048883 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048883">
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000000796"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0024388"/>
         <rdfs:label>Clostridium Infections</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048884 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048884">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002826"/>
-        <rdfs:label>Stomach Diseases</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048885 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048885">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002508"/>
-        <rdfs:label>Protozoan Infections</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048886 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048886">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000001679"/>
-        <rdfs:label>Infant, Premature, Diseases</rdfs:label>
     </owl:Class>
     
 
@@ -5110,30 +4435,12 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166048890 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048890">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002598"/>
-        <rdfs:label>Respiratory Hypersensitivity</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166048891 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048891">
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000001578"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0012416"/>
         <rdfs:label>Hypercapnia</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048892 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048892">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002569"/>
-        <rdfs:label>Radiation Injuries, Experimental</rdfs:label>
     </owl:Class>
     
 
@@ -5319,15 +4626,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166048919 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048919">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002480"/>
-        <rdfs:label>Pregnancy Complications, Hematologic</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166048920 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048920">
@@ -5335,24 +4633,6 @@
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0001931"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001357"/>
         <rdfs:label>Anemia, Hypochromic</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048921 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048921">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003824"/>
-        <rdfs:label>Positive-Pressure Respiration, Intrinsic</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048922 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048922">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000004122"/>
-        <rdfs:label>Lithiasis</rdfs:label>
     </owl:Class>
     
 
@@ -5382,7 +4662,7 @@
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048926">
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000004085"/>
-        <rdfs:label>Lead Poisoning, Nervous System, Childhood</rdfs:label>
+        <rdfs:label>Lead Poisoning</rdfs:label>
     </owl:Class>
     
 
@@ -5403,15 +4683,6 @@
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000000997"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0016472"/>
         <rdfs:label>Dracunculiasis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166048929 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166048929">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000001780"/>
-        <rdfs:label>Larva Migrans</rdfs:label>
     </owl:Class>
     
 
@@ -5624,27 +4895,15 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166122646 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166122646">
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/234336002"/>
-        <oboInOwl:hasRelatedSynonym>Haemopoietic stem cell transplant</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hematopoietic stem cell transplant</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hematopoietic stem cell transplantation</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hemopoietic stem cell transplant (procedure)</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Transfusion of stem cells</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>hemopoietic stem cell transplant</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166122649 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166122649">
+        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/C537417"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0015270"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/111968005"/>
         <oboInOwl:hasRelatedSynonym>Postanaesthesia apnoea</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Postanesthesia apnea (finding)</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>postanesthesia apnea</rdfs:label>
+        <rdfs:label>Butyrylcholinesterase deficiency</rdfs:label>
     </owl:Class>
     
 
@@ -5669,9 +4928,11 @@
     <!-- http://www.pharmgkb.org/disease/PA166123006 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166123006">
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0032948"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/125565008"/>
+        <oboInOwl:hasRelatedSynonym>Interstitial fibrosis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Interstitial fibrosis (morphologic abnormality)</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Interstitial fibrosis</rdfs:label>
+        <rdfs:label>Renal interstitial fibrosis</rdfs:label>
     </owl:Class>
     
 
@@ -5705,6 +4966,11 @@
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166123046">
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D016540"/>
+        <oboInOwl:hasRelatedSynonym>Giving up smoking</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Quitting smoking</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Stopping smoking</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>continuously abstinent of nicotine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>nicotine abstinence</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Smoking Cessation</rdfs:label>
     </owl:Class>
     
@@ -5819,7 +5085,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005487"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/68890003"/>
         <oboInOwl:hasRelatedSynonym>Schizoaffective disorder (disorder)</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>schizoaffective disorder</rdfs:label>
+        <rdfs:label>Schizoaffective disorder</rdfs:label>
     </owl:Class>
     
 
@@ -5842,7 +5108,9 @@
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166123431">
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10061995"/>
-        <rdfs:label>heart valve replacement</rdfs:label>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_6000983"/>
+        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/34068001"/>
+        <rdfs:label>Heart valve replacement</rdfs:label>
     </owl:Class>
     
 
@@ -5934,7 +5202,7 @@
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166124386">
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10059024"/>
-        <rdfs:label>gastrointestinal toxicity</rdfs:label>
+        <rdfs:label>Gastrointestinal toxicity</rdfs:label>
     </owl:Class>
     
 
@@ -6082,21 +5350,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166128826 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166128826">
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/55133004"/>
-        <oboInOwl:hasRelatedSynonym>Minicore disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Multi-core congenital myopathy (disorder)</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Multi-core disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Multi-minicore disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Multicore disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Multiminicore disease</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>multi-core congenital myopathy</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166129521 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166129521">
@@ -6159,7 +5412,7 @@
         <oboInOwl:hasRelatedSynonym>DAS (disease activity score) 28 joint in rheumatoid arthritis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>DAS-28</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Disease activity score 28 joint in rheumatoid arthritis (assessment scale)</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>disease activity score 28 joint in rheumatoid arthritis</rdfs:label>
+        <rdfs:label>Disease activity score 28 in rheumatoid arthritis</rdfs:label>
     </owl:Class>
     
 
@@ -6238,7 +5491,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0010011"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/253159001"/>
         <oboInOwl:hasRelatedSynonym>Schizencephaly (disorder)</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>schizencephaly</rdfs:label>
+        <rdfs:label>Schizencephaly</rdfs:label>
     </owl:Class>
     
 
@@ -6289,20 +5542,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166159283 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166159283">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D020128"/>
-        <oboInOwl:hasRelatedSynonym>50</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Concentration 50</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>IC50</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Inhibitory</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Inhibitory Concentration</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>inhibitory concentration 50</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166159284 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166159284">
@@ -6310,16 +5549,6 @@
         <oboInOwl:hasRelatedSynonym>Interruption</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Planned Treatment</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Treatment interruption</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166159324 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166159324">
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/390961000"/>
-        <oboInOwl:hasRelatedSynonym>Plasma alanine aminotransferase level (procedure)</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>plasma alanine aminotransferase level</rdfs:label>
     </owl:Class>
     
 
@@ -6539,7 +5768,7 @@
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166175756">
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10068288"/>
-        <rdfs:label>cystic fibrosis pulmonary exacerbation</rdfs:label>
+        <rdfs:label>Cystic fibrosis pulmonary exacerbation</rdfs:label>
     </owl:Class>
     
 
@@ -6645,7 +5874,7 @@
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166180841">
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10074495"/>
-        <rdfs:label>renal transplant failure</rdfs:label>
+        <rdfs:label>Renal transplant failure</rdfs:label>
     </owl:Class>
     
 
@@ -6702,7 +5931,7 @@
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166184864">
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D066249"/>
         <oboInOwl:hasRelatedSynonym>Cravings</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>craving</rdfs:label>
+        <rdfs:label>Craving</rdfs:label>
     </owl:Class>
     
 
@@ -6741,16 +5970,6 @@
         <oboInOwl:hasRelatedSynonym>Ideation</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Suicidal</oboInOwl:hasRelatedSynonym>
         <rdfs:label>suicidal ideation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166186062 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166186062">
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/699347000"/>
-        <oboInOwl:hasRelatedSynonym>Mechanical heart valve replacement (procedure)</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>mechanical heart valve replacement</rdfs:label>
     </owl:Class>
     
 
@@ -6810,9 +6029,11 @@
     <!-- http://www.pharmgkb.org/disease/PA166232141 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166232141">
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_5200321"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/73744004"/>
         <oboInOwl:hasRelatedSynonym>Compulsive sexual behaviour</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>hypersexuality state</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>hypersexuality state</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Amplification of sexual behavior</rdfs:label>
     </owl:Class>
     
 
@@ -6887,9 +6108,14 @@
     <!-- http://www.pharmgkb.org/disease/PA166256642 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166256642">
+        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D059266"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10064658"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0018378"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/315801000119108"/>
+        <oboInOwl:hasRelatedSynonym>Bisphosphonate-Associated Osteonecrosis of the Jaw</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ONJ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Osteonecrosis of jaw caused by drug (disorder)</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>osteonecrosis of jaw caused by drug</rdfs:label>
+        <rdfs:label>Osteonecrosis of the jaw</rdfs:label>
     </owl:Class>
     
 
@@ -6932,7 +6158,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0002910"/>
         <oboInOwl:hasRelatedSynonym>Transaminitis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>elevations in alanine aminotransferase (ALT)</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>elevated liver enzymes</rdfs:label>
+        <rdfs:label>Elevated liver enzymes</rdfs:label>
     </owl:Class>
     
 
@@ -6983,7 +6209,6 @@
     <!-- http://www.pharmgkb.org/disease/PA166314441 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166314441">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/Q000601"/>
         <oboInOwl:hasRelatedSynonym>intraoperative procedures</oboInOwl:hasRelatedSynonym>
         <rdfs:label>surgery</rdfs:label>
     </owl:Class>
@@ -6995,8 +6220,9 @@
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166314521">
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D062186"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10026982"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0004972"/>
         <oboInOwl:hasRelatedSynonym>Arterial Pressure</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>mean arterial pressure</rdfs:label>
+        <rdfs:label>Elevated mean arterial pressure</rdfs:label>
     </owl:Class>
     
 
@@ -7041,7 +6267,7 @@
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166321661">
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10062937"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0010778"/>
-        <rdfs:label>cyclic vomiting syndrome</rdfs:label>
+        <rdfs:label>Cyclic vomiting syndrome</rdfs:label>
     </owl:Class>
     
 
@@ -7119,7 +6345,10 @@
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166328021">
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10053619"/>
-        <rdfs:label>sweat chloride test elevated</rdfs:label>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0012236"/>
+        <oboInOwl:hasRelatedSynonym>Sweat test outside reference range</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>sweat chloride test elevated</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Elevated sweat chloride</rdfs:label>
     </owl:Class>
     
 
@@ -7134,22 +6363,13 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA166328301 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166328301">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10084859"/>
-        <rdfs:label>pseudoallergic reaction</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA166328441 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166328441">
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10074624"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/C1709043"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/1269470004"/>
-        <rdfs:label>missed dose</rdfs:label>
+        <rdfs:label>Missed dose</rdfs:label>
     </owl:Class>
     
 
@@ -7158,9 +6378,11 @@
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166328461">
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D055118"/>
+        <oboInOwl:hasRelatedSynonym>Compliance</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Medication</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Persistence</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>medication adherence</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>Treatment adherence</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Medication adherence</rdfs:label>
     </owl:Class>
     
 
@@ -7222,16 +6444,7 @@
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166339021">
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10023790"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0001520"/>
-        <rdfs:label>large for gestational age</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA166340541 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166340541">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10072060"/>
-        <rdfs:label>prenatal screening test</rdfs:label>
+        <rdfs:label>Large for gestational age</rdfs:label>
     </owl:Class>
     
 
@@ -7308,6 +6521,50 @@
         <oboInOwl:hasRelatedSynonym>hyperbilirubinemia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>rotor type</oboInOwl:hasRelatedSynonym>
         <rdfs:label>rotor syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/disease/PA166365841 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166365841">
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0016824"/>
+        <oboInOwl:hasRelatedSynonym>IMS</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>infantile hemangiopericytoma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>multicentric myofibromatosis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>myofibromatosis</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>infantile myofibromatosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/disease/PA166368602 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166368602">
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0001824"/>
+        <oboInOwl:hasRelatedSynonym>Loss of weight</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>weight loss</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/disease/PA166393301 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166393301">
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0004887"/>
+        <oboInOwl:hasRelatedSynonym>Respiratory distress necessitating mechanical ventilation</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Respiratory distress requiring endotracheal intubation</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Respiratory distress requiring mechanical ventilation</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>respiratory failure requiring assisted ventilation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pharmgkb.org/disease/PA166394201 -->
+
+    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA166394201">
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_6000179"/>
+        <rdfs:label>history of gastric bypass surgery</rdfs:label>
     </owl:Class>
     
 
@@ -8443,7 +7700,7 @@
         <oboInOwl:hasRelatedSynonym>Microangiopathic</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Microangiopathic Anemia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Microangiopathic Anemias</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Anemia, Hemolytic</rdfs:label>
+        <rdfs:label>Hemolytic Anemia</rdfs:label>
     </owl:Class>
     
 
@@ -8697,33 +7954,6 @@
         <oboInOwl:hasRelatedSynonym>Anorexias</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>[D]Anorexia</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Anorexia</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA443382 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA443382">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D000860"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10002660"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000000426"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0003130"/>
-        <oboInOwl:hasRelatedSynonym>Anoxemia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Anoxemias</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Anoxia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Anoxias</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Deficiencies</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Deficiency</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Fetal Hypoxia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Fetal hypoxia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hypoxemia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hypoxemias</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hypoxia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hypoxias</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Oxygen</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Oxygen Deficiencies</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Oxygen Deficiency</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Anoxia</rdfs:label>
     </owl:Class>
     
 
@@ -9025,6 +8255,7 @@
         <oboInOwl:hasRelatedSynonym>Arrythmia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Cardiac</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Cardiac dysrhythmia NOS</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Proarrhythmia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Ventricular Flutter</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Ventricular flutter</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>cardiac arrhythmia</oboInOwl:hasRelatedSynonym>
@@ -9240,27 +8471,6 @@
         <oboInOwl:hasRelatedSynonym>Aspergilloses</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Aspergillosis Infection</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Aspergillosis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA443446 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA443446">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D001237"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10003496"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000000494"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/207550002"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/271877004"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/66466001"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0004044"/>
-        <oboInOwl:hasRelatedSynonym>Asphyxias</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Death by asphyxiation</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>NOS</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Suffocation</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Suffocations</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>[D]Asphyxia</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Asphyxia</rdfs:label>
     </owl:Class>
     
 
@@ -12266,7 +11476,7 @@
         <oboInOwl:hasRelatedSynonym>Ulcerative Rectocolitides</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Ulcerative Rectocolitis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Ulcerative colitis</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Colitis, Ulcerative</rdfs:label>
+        <rdfs:label>Ulcerative Colitis</rdfs:label>
     </owl:Class>
     
 
@@ -13173,9 +12383,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0001699"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/26636000"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0011071"/>
-        <oboInOwl:hasRelatedSynonym>Sudden Death</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Sudden death</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Death, Sudden</rdfs:label>
+        <rdfs:label>Sudden death</rdfs:label>
     </owl:Class>
     
 
@@ -18317,21 +17525,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA444519 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA444519">
-        <oboInOwl:hasRelatedSynonym>Engorgement</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hyperaemia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hyperemia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hyperemias</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Local congestion</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>NOS</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Vascular engorgement</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Hyperemia</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA444522 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA444522">
@@ -18944,25 +18137,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA444582 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA444582">
-        <oboInOwl:hasRelatedSynonym>Deficiencies</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Deficiency</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Factor II</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Factor II Deficiencies</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Factor II Deficiency</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hypoprothrombinemia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>NOS</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Prothrombin</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Prothrombin Deficiencies</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Prothrombin Deficiency</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Prothrombin deficiency</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Hypoprothrombinemias</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA444584 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA444584">
@@ -19062,21 +18236,10 @@
         <oboInOwl:hasRelatedSynonym>Hypoventilation</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Hypoventilations</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>NOS</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Respiratory depression</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Type 2 respiratory failure</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Ventilatory failure</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Hypoventilation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA444594 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA444594">
-        <oboInOwl:hasRelatedSynonym>Disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Diseases</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ileal</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ileal Disease</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Ileal Diseases</rdfs:label>
     </owl:Class>
     
 
@@ -19232,17 +18395,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA444613 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA444613">
-        <oboInOwl:hasRelatedSynonym>Infarct</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Infarctions</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>NOS</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Infarction</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA444614 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA444614">
@@ -19328,6 +18480,8 @@
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D007249"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10061218"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000001687"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0012649"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021166"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/23583003"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/257552002"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0021368"/>
@@ -19561,26 +18715,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA444640 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA444640">
-        <oboInOwl:hasRelatedSynonym>Complication</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Complications</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Injuries</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Injury</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Intraoperative</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Intraoperative Complication</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Peroperative</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Peroperative Complication</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Peroperative Complications</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Surgical</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Surgical Injuries</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Surgical Injury</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Intraoperative Complications</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA444645 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA444645">
@@ -19711,6 +18845,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D007567"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10021210"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000001716"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0003265"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0006584"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/206474007"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/387712008"/>
@@ -19723,7 +18858,7 @@
         <oboInOwl:hasRelatedSynonym>Neonatal Hyperbilirubinemias</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Neonatal Jaundice</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Neonatal jaundice</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Jaundice, Neonatal</rdfs:label>
+        <rdfs:label>Neonatal hyperbilirubinemia</rdfs:label>
     </owl:Class>
     
 
@@ -19820,37 +18955,6 @@
         <oboInOwl:hasRelatedSynonym>Keratosis Blennorrhagica</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Keratosis Blennorrhagicas</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Keratosis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA444680 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA444680">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D007669"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10006994"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000001746"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/197795009"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/95570007"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0022650"/>
-        <oboInOwl:hasRelatedSynonym>Calculi</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Calculus</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Kidney</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Kidney Calculus</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Kidney Stone</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Kidney Stones</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Kidney calculus</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Kidney stone</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Phosphate</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Phosphate Calculi</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Phosphate Calculus</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Renal</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Renal Calculi</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Renal Calculus</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Renal calculus NOS</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Stone</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Stones</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Kidney Calculi</rdfs:label>
     </owl:Class>
     
 
@@ -21205,21 +20309,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA444816 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA444816">
-        <oboInOwl:hasRelatedSynonym>Disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Diseases</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Lung Disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Obstructive</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Obstructive Lung</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Obstructive Lung Disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Obstructive Lung Diseases</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Lung Diseases, Obstructive</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA444818 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA444818">
@@ -21936,12 +21025,8 @@
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA444910">
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D008569"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000001976"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0002354"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0025261"/>
-        <oboInOwl:hasRelatedSynonym>Age Related</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Age Related Memory Disorders</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Age-Related</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Age-Related Memory Disorder</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Age-Related Memory Disorders</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Cognitive</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Cognitive Retention Disorder</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Cognitive Retention Disorders</oboInOwl:hasRelatedSynonym>
@@ -21951,18 +21036,11 @@
         <oboInOwl:hasRelatedSynonym>Memory Deficit</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Memory Deficits</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Memory Disorder</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Memory Disorders</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Memory Loss</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Memory Losses</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Retention Disorder</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Retention Disorders</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Semantic</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Semantic Memory Disorder</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Semantic Memory Disorders</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Spatial</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Spatial Memory Disorder</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Spatial Memory Disorders</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Memory Disorders</rdfs:label>
+        <rdfs:label>Memory impairment</rdfs:label>
     </owl:Class>
     
 
@@ -22324,6 +21402,8 @@
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D009062"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10028029"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002037"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0100649"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021245"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/126797001"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/235075007"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0026640"/>
@@ -22347,7 +21427,7 @@
         <oboInOwl:hasRelatedSynonym>Tumor of oral cavity</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Tumour of mouth</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Tumour of oral cavity</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Mouth Neoplasms</rdfs:label>
+        <rdfs:label>Neoplasm of the oral cavity</rdfs:label>
     </owl:Class>
     
 
@@ -22594,6 +21674,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D009120"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10011285"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002057"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0003394"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/55300003"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0026821"/>
         <oboInOwl:hasRelatedSynonym>Cramp</oboInOwl:hasRelatedSynonym>
@@ -22607,7 +21688,7 @@
         <oboInOwl:hasRelatedSynonym>Muscular Cramp</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Muscular Cramps</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>NOS</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Muscle Cramp</rdfs:label>
+        <rdfs:label>Muscle spasm</rdfs:label>
     </owl:Class>
     
 
@@ -22842,25 +21923,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA445007 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445007">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D009175"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10061300"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002073"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/186464008"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/406595002"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0026936"/>
-        <oboInOwl:hasRelatedSynonym>Infection</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Infections</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Mycoplasma</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Mycoplasma Infection</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Mycoplasmosis</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Mycoplasma Infections</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA445009 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445009">
@@ -22985,6 +22047,8 @@
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D009196"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10013238"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002082"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0005547"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0020076"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/128925001"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/414792005"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/414794006"/>
@@ -22997,8 +22061,9 @@
         <oboInOwl:hasRelatedSynonym>Myeloproliferative Disorder</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Myeloproliferative disease</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Myeloproliferative disorder</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>myeloproliferative neoplasm</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>no ICD-O subtype</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Myeloproliferative Disorders</rdfs:label>
+        <rdfs:label>Myeloproliferative Disorder</rdfs:label>
     </owl:Class>
     
 
@@ -23457,6 +22522,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D009362"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10027476"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002124"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0024883"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/128462008"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/14799000"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/269622008"/>
@@ -23482,7 +22548,7 @@
         <oboInOwl:hasRelatedSynonym>Tumour embolus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>metastatic</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>secondary</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Neoplasm Metastasis</rdfs:label>
+        <rdfs:label>Metastatic neoplasm</rdfs:label>
     </owl:Class>
     
 
@@ -23516,32 +22582,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA445066 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445066">
-        <oboInOwl:hasRelatedSynonym>Cancer</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Cancers</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Embryonal</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Embryonal Cancer</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Embryonal Cancers</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Embryonal Neoplasm</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Embryonal Neoplasms</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Embryonal and Mixed</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Germ Cell</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Germ Cell Cancer</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Germ Cell Cancers</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Germ Cell Neoplasm</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Germ Cell Neoplasms</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Germ Cell and Embryonal Neoplasms</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Germ Cell and Embryonic</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Germ Cell and Embryonic Neoplasms</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neoplasm</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neoplasms</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Neoplasms, Germ Cell and Embryonal</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA445074 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445074">
@@ -23561,16 +22601,6 @@
         <oboInOwl:hasRelatedSynonym>Radiation-Induced Neoplasm</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Radiation-Induced Neoplasms</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Neoplasms, Radiation-Induced</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA445078 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445078">
-        <oboInOwl:hasRelatedSynonym>Neoplastic</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Processes</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Neoplastic Processes</rdfs:label>
     </owl:Class>
     
 
@@ -23678,32 +22708,6 @@
         <oboInOwl:hasRelatedSynonym>Syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Syndromes</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Nephrotic Syndrome</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA445093 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445093">
-        <oboInOwl:hasRelatedSynonym>Disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Disease of nervous system</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Diseases</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Disorder</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Disorder of nervous system</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Disorders</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Nervous System</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Nervous System Disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Nervous System Disorder</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Nervous System Disorders</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Nervous system disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurologic</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurologic Disorder</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurologic Disorders</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurological</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurological Disorder</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurological Disorders</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurological disorder</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Nervous System Diseases</rdfs:label>
     </owl:Class>
     
 
@@ -23920,50 +22924,6 @@
         <oboInOwl:hasRelatedSynonym>Syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Syndromes</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Neuroleptic Malignant Syndrome</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA445105 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445105">
-        <oboInOwl:hasRelatedSynonym>Deficit</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Deficits</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Dysfunction</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Dysfunctions</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Finding</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Findings</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Focal</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Focal Neurologic</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Focal Neurologic Deficit</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Focal Neurologic Deficits</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Manifestation</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Manifestations</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurologic</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurologic Deficit</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurologic Deficits</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurologic Dysfunction</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurologic Dysfunctions</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurologic Effect</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurologic Effects</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurologic Finding</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurologic Findings</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurologic Manifestation</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurologic Sign</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurologic Signs</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurologic Signs and Symptoms</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurologic Symptom</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurologic Symptoms</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurological</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurological Effect</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurological Effects</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurological Manifestation</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neurological Manifestations</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Sign</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Signs</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Symptom</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Symptoms</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Neurologic Manifestations</rdfs:label>
     </owl:Class>
     
 
@@ -24386,19 +23346,6 @@
         <oboInOwl:hasRelatedSynonym>Oligurias</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Passes too little urine</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Oliguria</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA445155 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445155">
-        <oboInOwl:hasRelatedSynonym>Infection</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Infections</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Opportunistic</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Opportunistic Infection</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Opportunistic infectious disease</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Opportunistic Infections</rdfs:label>
     </owl:Class>
     
 
@@ -25048,46 +23995,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA445252 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445252">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D010291"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10033985"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002325"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0030552"/>
-        <oboInOwl:hasRelatedSynonym>Brachial</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Brachial Pareses</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Brachial Paresis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Crural</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Crural Pareses</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Crural Paresis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Extremity Pareses</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Extremity Paresis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hemipareses</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hemiparesis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Lower</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Lower Extremity</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Lower Extremity Pareses</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Lower Extremity Paresis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Monopareses</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Monoparesis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Muscle</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Muscle Pareses</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Muscle Paresis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Muscular</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Muscular Pareses</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Muscular Paresis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Pareses</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Paresis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Upper</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Upper Extremity</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Upper Extremity Pareses</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Upper Extremity Paresis</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Paresis</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA445253 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445253">
@@ -25202,7 +24109,7 @@
         <oboInOwl:hasRelatedSynonym>Pemphigoid</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Pemphigoid NOS</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Pemphigoids</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Pemphigoid, Bullous</rdfs:label>
+        <rdfs:label>Bullous Pemphigoid</rdfs:label>
     </owl:Class>
     
 
@@ -25658,31 +24565,6 @@
         <oboInOwl:hasRelatedSynonym>Schambergs Disease</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Syndrome</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Pigmentation Disorders</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA445331 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445331">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D010911"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10035086"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002408"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/127024001"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0032019"/>
-        <oboInOwl:hasRelatedSynonym>Neoplasm</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Neoplasms</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Pituitary</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Pituitary Neoplasm</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Pituitary Tumor</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Pituitary Tumors</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Pituitary tumor</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Pituitary tumour</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Tumor</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Tumor of pituitary gland</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Tumors</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Tumour of pituitary gland</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Pituitary Neoplasms</rdfs:label>
     </owl:Class>
     
 
@@ -26353,6 +25235,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D011542"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10048617"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002515"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0005864"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/31511007"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/410818009"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0033785"/>
@@ -26364,7 +25247,7 @@
         <oboInOwl:hasRelatedSynonym>Pseudarthroses</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Pseudoarthroses</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Pseudoarthrosis</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Pseudarthrosis</rdfs:label>
+        <rdfs:label>Pseudoarthrosis</rdfs:label>
     </owl:Class>
     
 
@@ -26465,6 +25348,7 @@
         <oboInOwl:hasRelatedSynonym>Psychosomatic Disorder</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Psychosomatic Disorders</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Psychosomatic disorder</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>somatoform disorder</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Psychophysiologic Disorders</rdfs:label>
     </owl:Class>
     
@@ -27034,13 +25918,8 @@
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/207056002"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/409623005"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0035229"/>
-        <oboInOwl:hasRelatedSynonym>Depressions</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Respiratory Depression</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Respiratory Failure</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Respiratory insufficiency</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Respiratory insufficiency [D]</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventilatory</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventilatory Depression</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Respiratory Insufficiency</rdfs:label>
     </owl:Class>
     
@@ -27052,6 +25931,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D012135"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10064779"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002601"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/HP_0030828"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/52653008"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0035234"/>
         <oboInOwl:hasRelatedSynonym>Crackle</oboInOwl:hasRelatedSynonym>
@@ -27073,7 +25953,7 @@
         <oboInOwl:hasRelatedSynonym>Stridors</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Wheezing</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Wheezings</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Respiratory Sounds</rdfs:label>
+        <rdfs:label>Wheezing</rdfs:label>
     </owl:Class>
     
 
@@ -27853,20 +26733,7 @@
         <oboInOwl:hasRelatedSynonym>Systemic Sclerosis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Systemic sclerosis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Thibierge-Weissenbach syndrome</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Scleroderma, Systemic</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA445618 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445618">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D012598"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002702"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/43846000"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0036429"/>
-        <oboInOwl:hasRelatedSynonym>Scleroses</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Sclerosis</rdfs:label>
+        <rdfs:label>Systemic sclerosis</rdfs:label>
     </owl:Class>
     
 
@@ -28020,44 +26887,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA445631 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445631">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D012678"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002715"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0036659"/>
-        <oboInOwl:hasRelatedSynonym>Sensation Disorder</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Senses Disorder</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Senses Disorders</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Sensory Disorder</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Sensory Disorders</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Special</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Special Senses Disorder</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Special Senses Disorders</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Sensation Disorders</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA445632 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445632">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10040072"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002716"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/105592009"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0036690"/>
-        <oboInOwl:hasRelatedSynonym>Blood</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Blood Poisoning</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Poisoning</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Septicaemia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Septicaemia NOS</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Septicemia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Septicemia NOS</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Septicemia</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA445644 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445644">
@@ -28103,20 +26932,6 @@
         <oboInOwl:hasRelatedSynonym>[D]Cardiogenic shock</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>[D]Heart shock</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Shock, Cardiogenic</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA445646 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445646">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D012771"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10055860"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002730"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/355001"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0036982"/>
-        <oboInOwl:hasRelatedSynonym>Hemorrhagic Shock</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Shock, Hemorrhagic</rdfs:label>
     </owl:Class>
     
 
@@ -28315,21 +27130,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA445682 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445682">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D012877"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002767"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0037285"/>
-        <oboInOwl:hasRelatedSynonym>Manifestation</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Manifestations</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Skin</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Skin Manifestation</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Skin Manifestations</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA445683 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445683">
@@ -28493,36 +27293,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA445699 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445699">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D013035"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10028333"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002785"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/274238007"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/45352006"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0037763"/>
-        <oboInOwl:hasRelatedSynonym>Ciliary Body</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ciliary Body Spasm</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ciliary Body Spasms</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Generalized</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Generalized Spasm</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Generalized Spasms</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Muscle</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Muscle Spasm</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Muscle Spasms</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Muscular</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Muscular Spasm</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Muscular Spasms</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>NOS</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Spasm</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Spasms</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Spasms [D]</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Spasm</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA445700 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445700">
@@ -28579,7 +27349,7 @@
         <oboInOwl:hasRelatedSynonym>West</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>West Syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>West&apos;s syndrome</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Spasms, Infantile</rdfs:label>
+        <rdfs:label>Infantile Spasms</rdfs:label>
     </owl:Class>
     
 
@@ -29727,22 +28497,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA445856 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445856">
-        <oboInOwl:hasRelatedSynonym>Disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Disease of thyroid gland</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Diseases</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Disorder of thyroid gland</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>NOS</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Thyroid</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Thyroid Disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Thyroid disorder</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Thyroid Diseases</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA445857 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445857">
@@ -30030,23 +28784,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA445901 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445901">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D014115"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10059853"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000002987"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/40555009"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0040524"/>
-        <oboInOwl:hasRelatedSynonym>Blood poisoning</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>NOS</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Toxaemia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Toxemias</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Toxemia</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA445903 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445903">
@@ -30091,6 +28828,7 @@
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445914">
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D014178"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003000"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019040"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/15897004"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0040715"/>
         <oboInOwl:hasRelatedSynonym>Chromosomal</oboInOwl:hasRelatedSynonym>
@@ -30102,7 +28840,8 @@
         <oboInOwl:hasRelatedSynonym>Translocation (Genetics)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Translocations</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Translocations (Genetics)</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Translocation, Genetic</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>chromosome abnormality disorders</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Chromosomal disorder</rdfs:label>
     </owl:Class>
     
 
@@ -30530,6 +29269,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/197797001"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/371438008"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0042018"/>
+        <oboInOwl:hasRelatedSynonym>Bladder stones</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Calculi</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Calculus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Stone</oboInOwl:hasRelatedSynonym>
@@ -30669,24 +29409,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA445996 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445996">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D052801"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003085"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C1720894"/>
-        <oboInOwl:hasRelatedSynonym>Congenital absence of germinal epithelium of testes</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Del Castillo&apos;s syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Gene deletion in AZF region of Y chromosome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Germinal aplasia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Sertoli Cell-Only Syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Urologic and Male Genital Diseases</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Urological and Male Genital Diseases</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Male Urogenital Diseases</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA445997 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA445997">
@@ -30783,28 +29505,6 @@
         <oboInOwl:hasRelatedSynonym>Urticaria NOS</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Urticarias</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Urticaria</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA446002 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA446002">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D014592"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10046789"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003091"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0042134"/>
-        <oboInOwl:hasRelatedSynonym>Bleeding</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Breakthrough</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Breakthrough Bleeding</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hemorrhage</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Spotting</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Spottings</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Uterine</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Uterine Bleeding</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Uterine Bleedings</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Uterine Hemorrhages</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Uterine Hemorrhage</rdfs:label>
     </owl:Class>
     
 
@@ -31434,27 +30134,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA446078 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA446078">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D014946"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10048038"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003168"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/76844004"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0043241"/>
-        <oboInOwl:hasRelatedSynonym>Infected wound</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Infection</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Infections</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Local infection of wound</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>NOS</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Wound</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Wound Infections</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Wound infection</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Wound Infection</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA446079 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA446079">
@@ -31701,27 +30380,6 @@
         <oboInOwl:hasRelatedSynonym>Tumors</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Tumour of large intestine</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Colorectal Neoplasms</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA446112 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA446112">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D015208"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10050546"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003202"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/426936004"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0037367"/>
-        <oboInOwl:hasRelatedSynonym>Inhalation Injuries</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Inhalation Injury</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Injuries</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Injury</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Smoke</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Smoke Inhalation</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Smoke Inhalation Injuries</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Smoke inhalation injury</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Smoke Inhalation Injury</rdfs:label>
     </owl:Class>
     
 
@@ -32080,6 +30738,7 @@
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA446155">
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D054198"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000181267"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004967"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/128822004"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C1961102"/>
         <oboInOwl:hasRelatedSynonym>ALL</oboInOwl:hasRelatedSynonym>
@@ -32125,13 +30784,14 @@
         <oboInOwl:hasRelatedSynonym>Lymphocytic Leukemia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Lymphocytic Leukemias</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Philadelphia-Positive</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Precursor Cell Lymphoblastic Leukemia-Lymphoma</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Precursor cell lymphoblastic leukaemia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Precursor cell lymphoblastic leukemia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>acute lymphoblastic leukemia (organ transplant recipients)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>childhood acute lymphoblastic leukaemia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>not phenotyped</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>precursor-cell type</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Precursor Cell Lymphoblastic Leukemia-Lymphoma</rdfs:label>
+        <rdfs:label>Acute lymphoblastic leukemia</rdfs:label>
     </owl:Class>
     
 
@@ -32422,7 +31082,7 @@
         <oboInOwl:hasRelatedSynonym>Myeloid Leukemia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Myeloid Leukemias</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>[M]Chronic myeloid leukemia</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Leukemia, Myelogenous, Chronic, BCR-ABL Positive</rdfs:label>
+        <rdfs:label>Chronic myelogenous leukemia, BCR-ABL1 positive</rdfs:label>
     </owl:Class>
     
 
@@ -32432,6 +31092,7 @@
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA446175">
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D054438"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000181208"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004653"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/128826001"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C1292772"/>
         <oboInOwl:hasRelatedSynonym>Atypical chronic myeloid leukaemia</oboInOwl:hasRelatedSynonym>
@@ -32459,7 +31120,7 @@
         <oboInOwl:hasRelatedSynonym>Philadelphia-Negative Myeloid</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Philadelphia-Negative Myeloid Leukemia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Philadelphia-Negative Myeloid Leukemias</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Leukemia, Myeloid, Chronic, Atypical, BCR-ABL Negative</rdfs:label>
+        <rdfs:label>Atypical chronic myeloid leukemia, BCR-ABL1 negative</rdfs:label>
     </owl:Class>
     
 
@@ -32569,6 +31230,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/127225006"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/128831004"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0023480"/>
+        <oboInOwl:hasRelatedSynonym>CMML</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Chronic</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Chronic Myelomonocytic</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Chronic Myelomonocytic Leukemia</oboInOwl:hasRelatedSynonym>
@@ -32583,7 +31245,7 @@
         <oboInOwl:hasRelatedSynonym>Myelomonocytic Leukemias</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Type I</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Type II</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Leukemia, Myelomonocytic, Chronic</rdfs:label>
+        <rdfs:label>Chronic myelomonocytic leukemia</rdfs:label>
     </owl:Class>
     
 
@@ -32846,31 +31508,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA446236 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA446236">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D015819"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003325"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0038579"/>
-        <oboInOwl:hasRelatedSynonym>Drug Abuse</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Drug User</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Drug Users</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>IV</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>IV Drug</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>IV Drug User</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>IV Drug Users</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Intravenous</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Intravenous Drug Abuse</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Intravenous Substance Abuse</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Parenteral</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Parenteral Drug Abuse</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>User</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Users</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Substance Abuse, Intravenous</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA446255 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA446255">
@@ -33117,32 +31754,6 @@
         <oboInOwl:hasRelatedSynonym>de Pointes</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>polymorphic with Q-T prolongation</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Torsades de Pointes</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA446303 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA446303">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D016388"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10024879"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003392"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/196442002"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/25540007"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/37320007"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0080233"/>
-        <oboInOwl:hasRelatedSynonym>Absence of tooth - acquired</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Acquired absence of teeth</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Loss</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Loss of teeth</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Loss of teeth - acquired</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Missing tooth - acquired</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>NOS</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Shedding of tooth</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Teeth missing</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Tooth</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Tooth loss</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Tooth Loss</rdfs:label>
     </owl:Class>
     
 
@@ -33674,7 +32285,7 @@
         <oboInOwl:hasRelatedSynonym>Sudden Cardiac Death</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Sudden Death</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Sudden cardiac death</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Death, Sudden, Cardiac</rdfs:label>
+        <rdfs:label>Sudden cardiac death</rdfs:label>
     </owl:Class>
     
 
@@ -33776,6 +32387,7 @@
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA446409">
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D016884"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003500"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0017278"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/41864002"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0085409"/>
         <oboInOwl:hasRelatedSynonym>APS</oboInOwl:hasRelatedSynonym>
@@ -33805,7 +32417,7 @@
         <oboInOwl:hasRelatedSynonym>Schmidt&apos;s Syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Schmidts Syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Syndrome</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Polyendocrinopathies, Autoimmune</rdfs:label>
+        <rdfs:label>Autoimmune polyendocrinopathy</rdfs:label>
     </owl:Class>
     
 
@@ -34448,17 +33060,6 @@
         <oboInOwl:hasRelatedSynonym>Kallmanns Syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Syndrome</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Kallmann Syndrome</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA446482 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA446482">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D017437"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003573"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0175166"/>
-        <rdfs:label>Skin and Connective Tissue Diseases</rdfs:label>
     </owl:Class>
     
 
@@ -35290,7 +33891,7 @@
         <oboInOwl:hasRelatedSynonym>Residual Tumors</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Tumor</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Tumors</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Neoplasm, Residual</rdfs:label>
+        <rdfs:label>Residual Neoplasm</rdfs:label>
     </owl:Class>
     
 
@@ -35332,23 +33933,6 @@
         <oboInOwl:hasRelatedSynonym>Progression</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Progressions</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Disease Progression</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA446734 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA446734">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D018461"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10062255"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003823"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/95880003"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0149778"/>
-        <oboInOwl:hasRelatedSynonym>Infection</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Infections</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Soft Tissue</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Soft Tissue Infection</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Soft Tissue Infections</rdfs:label>
     </owl:Class>
     
 
@@ -35493,44 +34077,6 @@
         <oboInOwl:hasRelatedSynonym>Hypoplastic left heart syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Left Heart Syndrome</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Hypoplastic Left Heart Syndrome</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA446758 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA446758">
-        <oboInOwl:hasRelatedSynonym>Abacteremic sepsis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Culture-negative sepsis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Inflammatory Response Syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>SIRS - System inflammatory response syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Sepsis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Sepsis Syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Sepsis Syndromes</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Sepsis syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Septic syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Syndromes</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Systemic</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Systemic Inflammatory Response Syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Systemic inflammatory response syndrome</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Systemic Inflammatory Response Syndrome</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA446759 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA446759">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D018754"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10059056"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003849"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0242973"/>
-        <oboInOwl:hasRelatedSynonym>Dysfunction</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Dysfunctions</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular Dysfunctions</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Ventricular Dysfunction</rdfs:label>
     </owl:Class>
     
 
@@ -35760,57 +34306,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA446779 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA446779">
-        <oboInOwl:hasRelatedSynonym>Beat</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Beats</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Complex</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Complexes</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Complices</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Contraction</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Contractions</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ectopic Beat</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ectopic Beats</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Extrasystole</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Extrasystoles</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Premature</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Premature Complex</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Premature Complexes</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Premature Complices</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Premature Ventricular</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Premature Ventricular Beat</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Premature Ventricular Beats</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Premature Ventricular Complex</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Premature Ventricular Complices</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Premature Ventricular Contraction</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Premature Ventricular Contractions</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Premature ventricular complex</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular Beat</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular Beats</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular Complex</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular Complices</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular Contraction</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular Contractions</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular Ectopic</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular Ectopic Beat</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular Ectopic Beats</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular Extrasystole</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular Extrasystoles</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular Premature</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular Premature Complex</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular Premature Complices</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular ectopic beats</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular ectopic complex</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular premature complex</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular premature depolarisation</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Ventricular premature depolarization</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Ventricular Premature Complexes</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA446780 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA446780">
@@ -35925,27 +34420,6 @@
         <oboInOwl:hasRelatedSynonym>Williams-Beuren</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Williams-Beuren Syndrome</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Williams Syndrome</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA446805 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA446805">
-        <oboInOwl:hasRelatedSynonym>Blood Loss</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Haemorrhage postprocedure</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hemorrhage</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hemorrhage postprocedure</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hemorrhages</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Loss</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Postoperative</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Postoperative Blood</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Postoperative Blood Loss</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Postoperative Hemorrhages</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Postoperative bleeding</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Postoperative haemorrhage</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Postoperative hemorrhage</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Postoperative Hemorrhage</rdfs:label>
     </owl:Class>
     
 
@@ -36414,6 +34888,7 @@
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA446864">
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D019701"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000003955"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005789"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0524911"/>
         <oboInOwl:hasRelatedSynonym>Chronic</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Chronic Delta</oboInOwl:hasRelatedSynonym>
@@ -36424,7 +34899,7 @@
         <oboInOwl:hasRelatedSynonym>Delta Hepatitis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Hepatitides</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Hepatitis</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Hepatitis D, Chronic</rdfs:label>
+        <rdfs:label>Hepatitis D virus infection</rdfs:label>
     </owl:Class>
     
 
@@ -36665,48 +35140,6 @@
         <oboInOwl:hasRelatedSynonym>Proteins Disorder</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Proteins Disorders</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Coagulation Protein Disorders</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA446912 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA446912">
-        <oboInOwl:hasRelatedSynonym>4 Hydroxyphenol Pyruvic Acid Oxidase</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>4 Hydroxyphenol Pyruvic Acid Oxidase Deficiency Disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>4 Hydroxyphenylpyruvate Dioxygenase Deficiency Disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>4-Hydroxyphenol Pyruvic Acid Oxidase</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>4-Hydroxyphenol Pyruvic Acid Oxidase Deficiency Disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Deficiency Disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Deficiency Diseases</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Diseases</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Fumarylacetoacetase</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Fumarylacetoacetase Deficiency</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Fumarylacetoacetase Deficiency Disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Fumarylacetoacetase Deficiency Diseases</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hereditary</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hereditary Tyrosinemia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hereditary Tyrosinemias</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hypertyrosinemia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Hypertyrosinemias</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Type I</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Type I Hypertyrosinemia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Type I Hypertyrosinemias</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Type I Tyrosinemia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Type I Tyrosinemias</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Type II</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Type II Tyrosinemia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Type II Tyrosinemias</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Type III</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Type III Tyrosinemia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Type III Tyrosinemias</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Tyrosinaemia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Tyrosine Transaminase</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Tyrosine Transaminase Deficiency Disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Tyrosinemia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Tyrosinemias</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Tyrosinemias</rdfs:label>
     </owl:Class>
     
 
@@ -37300,7 +35733,7 @@
         <oboInOwl:hasRelatedSynonym>Shy-Magee</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Shy-Magee Syndrome</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Syndrome</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Myopathy, Central Core</rdfs:label>
+        <rdfs:label>Central Core Myopathy</rdfs:label>
     </owl:Class>
     
 
@@ -38074,25 +36507,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA447147 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA447147">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D022125"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10023572"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000004250"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/262543001"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/312608009"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/35933005"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0043246"/>
-        <oboInOwl:hasRelatedSynonym>Laceration</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Laceration - injury</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Laceration NOS</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Tear - wound</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Lacerations</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA447148 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA447148">
@@ -38144,26 +36558,6 @@
         <oboInOwl:hasRelatedSynonym>Stenoses</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Stenosis</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Coronary Stenosis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pharmgkb.org/disease/PA447162 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA447162">
-        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D025241"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10029871"/>
-        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000011073"/>
-        <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/371082009"/>
-        <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0949690"/>
-        <oboInOwl:hasRelatedSynonym>Arthritis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Arthritis of spine</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Spinal</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Spinal Arthritides</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Spinal Arthritis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Spondylarthritides</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Spondyloarthritis</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Spondylarthritis</rdfs:label>
     </owl:Class>
     
 
@@ -38401,12 +36795,14 @@
         <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D030361"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MDRFRE/10061331"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/NDFRT/N0000011003"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005161"/>
         <oboInOwl:hasDbXref rdf:resource="http://snomed.info/id/30415006"/>
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0950124"/>
         <oboInOwl:hasRelatedSynonym>Disease due to Papilloma virus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>HPV infection</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>NOS</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Papillomavirus Infection</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Papillomavirus Infections</rdfs:label>
+        <rdfs:label>Human papilloma virus infection</rdfs:label>
     </owl:Class>
     
 
@@ -38703,18 +37099,6 @@
     
 
 
-    <!-- http://www.pharmgkb.org/disease/PA447214 -->
-
-    <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA447214">
-        <oboInOwl:hasRelatedSynonym>Abnormal fear</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Phobia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Phobic anxiety disorder</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Phobic disorder</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Phobic Disorders</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pharmgkb.org/disease/PA447215 -->
 
     <owl:Class rdf:about="http://www.pharmgkb.org/disease/PA447215">
@@ -38908,7 +37292,7 @@
         <oboInOwl:hasDbXref rdf:resource="https://uts.nlm.nih.gov/uts/umls/concept/C0686347"/>
         <oboInOwl:hasRelatedSynonym>Drug-induced tardive dyskinesia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>TD - Tardive dyskinesia</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>tardive dyskinesia</rdfs:label>
+        <rdfs:label>Tardive Dyskinesia</rdfs:label>
     </owl:Class>
     
 

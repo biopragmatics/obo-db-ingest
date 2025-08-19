@@ -1,12 +1,15 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T12:20:10.390353
+auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:29:06.262953
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
 idspace: unimod http://www.unimod.org/modifications_view.php?editid1= "Unimod protein modification database for mass spectrometry"
 idspace: uniprot.ptm https://biopragmatics.github.io/providers/uniprot.ptm/ "UniProt Post-Translational Modification"
 ontology: uniprot.ptm
 property_value: dcterms:title "UniProt Post-Translational Modification" xsd:string
 property_value: dcterms:license "CC-BY-4.0" xsd:string
-property_value: dcterms:description "The post-translational modifications used in the UniProt knowledgebase \\\(Swiss-Prot and TrEMBL\\\). The definition of the post-translational modifications usage as well as other information is provided in the following format" xsd:string
+property_value: dcterms:description "The post-translational modifications used in the UniProt knowledgebase \(Swiss-Prot and TrEMBL\). The definition of the post-translational modifications usage as well as other information is provided in the following format" xsd:string
+property_value: foaf:homepage "https\://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist" xsd:anyURI
+property_value: foaf:logo "https\://www.uniprot.org/og-uniprot-wide-logo-1200x630.png" xsd:anyURI
 
 [Term]
 id: uniprot.ptm:PTM-0001
@@ -1702,7 +1705,7 @@ xref: unimod:21
 [Term]
 id: uniprot.ptm:PTM-0255
 name: Phosphotyrosine
-xref: CHEBI:82620
+xref: CHEBI:61978
 xref: MOD:00048
 xref: RESID:AA0039
 xref: unimod:21
@@ -4406,3 +4409,24 @@ id: uniprot.ptm:PTM-0739
 name: 3-\(L-phenylalan-2'-yl\)-L-valine \(Phe-Val\)
 xref: MOD:01881
 xref: RESID:AA0565
+
+[Term]
+id: uniprot.ptm:PTM-0740
+name: Glyoxylic acid \(Cys\)
+
+[Term]
+id: uniprot.ptm:PTM-0741
+name: N6-benzoyllysine
+xref: CHEBI:233144
+xref: unimod:136
+
+[Term]
+id: uniprot.ptm:PTM-0742
+name: N6-isonicotinyllysine
+xref: CHEBI:233146
+xref: unimod:697
+
+[Term]
+id: uniprot.ptm:PTM-0743
+name: N6-methacryllysine
+xref: CHEBI:233147

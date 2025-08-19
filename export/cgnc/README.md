@@ -20,8 +20,8 @@ Nomenclature Consortium around Chicken genes (analogous to the HGNC for humans)
 
 | field      |   count |
 |------------|---------|
-| mappings   |   41353 |
-| properties |   41353 |
-| relations  |   26042 |
-| synonyms   |   27245 |
-| terms      |   26042 |
+| mappings   |   41411 |
+| properties |   41411 |
+| relations  |   26085 |
+| synonyms   |   27342 |
+| terms      |   26085 |

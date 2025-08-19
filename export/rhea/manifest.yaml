@@ -1,77 +1,80 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/rhea/rhea.tsv
     path: rhea/rhea.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/rhea/137/rhea.tsv
-    version_path: rhea/137/rhea.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/rhea/139/rhea.tsv
+    version_path: rhea/139/rhea.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/rhea/rhea.obo
     path: rhea/rhea.obo
-    version_iri: https://w3id.org/biopragmatics/resources/rhea/137/rhea.obo
-    version_path: rhea/137/rhea.obo
+    version_iri: https://w3id.org/biopragmatics/resources/rhea/139/rhea.obo
+    version_path: rhea/139/rhea.obo
   obograph:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/rhea/rhea.json.gz
     path: rhea/rhea.json.gz
-    version_iri: https://w3id.org/biopragmatics/resources/rhea/137/rhea.json.gz
-    version_path: rhea/137/rhea.json.gz
+    version_iri: https://w3id.org/biopragmatics/resources/rhea/139/rhea.json.gz
+    version_path: rhea/139/rhea.json.gz
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/rhea/rhea.ofn
     path: rhea/rhea.ofn
-    version_iri: https://w3id.org/biopragmatics/resources/rhea/137/rhea.ofn
-    version_path: rhea/137/rhea.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/rhea/139/rhea.ofn
+    version_path: rhea/139/rhea.ofn
   owl:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/rhea/rhea.owl.gz
     path: rhea/rhea.owl.gz
-    version_iri: https://w3id.org/biopragmatics/resources/rhea/137/rhea.owl.gz
-    version_path: rhea/137/rhea.owl.gz
+    version_iri: https://w3id.org/biopragmatics/resources/rhea/139/rhea.owl.gz
+    version_path: rhea/139/rhea.owl.gz
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/rhea/rhea.sssom.tsv
     path: rhea/rhea.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/rhea/137/rhea.sssom.tsv
-    version_path: rhea/137/rhea.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/rhea/139/rhea.sssom.tsv
+    version_path: rhea/139/rhea.sssom.tsv
   summary:
     alts: 0
     definitions: 0
     license: CC-BY-4.0
-    mappings: 19973
-    parents: 71346
-    properties: 169612
+    mappings: 20093
+    parents: 72933
+    properties: 173308
     references: 0
-    relations: 607072
+    relations: 617584
     synonyms: 0
-    terms: 69688
-    version: '137'
+    terms: 71132
+    version: '139'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/rhea/rhea.synonyms.tsv
     path: rhea/rhea.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/rhea/137/rhea.synonyms.tsv
-    version_path: rhea/137/rhea.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/rhea/139/rhea.synonyms.tsv
+    version_path: rhea/139/rhea.synonyms.tsv
 prefix_map:
   CHEBI: http://purl.obolibrary.org/obo/CHEBI_
-  EC: https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
+  EC: https://www.enzyme-database.org/query.php?ec=
   GO: http://purl.obolibrary.org/obo/GO_
   RO: http://purl.obolibrary.org/obo/RO_
   dcterms: http://purl.org/dc/terms/
   debio: https://biopragmatics.github.io/debio/
+  doap: http://usefulinc.com/ns/doap#
   ecocyc: https://ecocyc.org/gene?id=
+  foaf: http://xmlns.com/foaf/0.1/
   kegg.reaction: http://www.kegg.jp/entry/
   macie: https://www.ebi.ac.uk/thornton-srv/m-csa/search/?s=
   metacyc.compound: https://metacyc.org/compound?orgid=META&id=
   obo: http://purl.obolibrary.org/obo/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   rdfs: http://www.w3.org/2000/01/rdf-schema#

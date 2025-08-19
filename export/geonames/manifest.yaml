@@ -1,8 +1,8 @@
-date: '2025-03-08'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.4-dev-9fc99c86
-  pyobo: 0.12.0-dev-c4540699
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
@@ -34,12 +34,12 @@ manifest:
     definitions: 19
     license: CC-BY-4.0
     mappings: 0
-    parents: 66801
-    properties: 56321
+    parents: 67633
+    properties: 56651
     references: 0
-    relations: 60955
+    relations: 61535
     synonyms: 1514
-    terms: 61550
+    terms: 62131
     version: null
   synonyms:
     gzipped: false
@@ -49,6 +49,7 @@ prefix_map:
   BFO: http://purl.obolibrary.org/obo/BFO_
   ENVO: http://purl.obolibrary.org/obo/ENVO_
   dcterms: http://purl.org/dc/terms/
+  foaf: http://xmlns.com/foaf/0.1/
   geonames: https://www.geonames.org/
   geonames.feature: 'https://bioregistry.io/geonames.feature:'
   obo: http://purl.obolibrary.org/obo/

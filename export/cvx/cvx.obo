@@ -1,11 +1,13 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T12:20:12.690153
+auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:29:08.420049
 synonymtypedef: OMO:0003012 "acronym"
 idspace: cvx https://biopragmatics.github.io/providers/cvx/ "Vaccine administered code set"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
 ontology: cvx
 property_value: dcterms:title "Vaccine administered code set" xsd:string
-property_value: dcterms:description "The CDC's National Center of Immunization and Respiratory Diseases \\\(NCIRD\\\) developed and maintains the CVX \\\(vaccine administered\\\) code set. The table below has the most up to date values. It includes both active and inactive vaccines available in the US. CVX codes for inactive vaccines allow transmission of historical immunization records." xsd:string
+property_value: dcterms:description "The CDC's National Center of Immunization and Respiratory Diseases \(NCIRD\) developed and maintains the CVX \(vaccine administered\) code set. The table below has the most up to date values. It includes both active and inactive vaccines available in the US. CVX codes for inactive vaccines allow transmission of historical immunization records." xsd:string
+property_value: foaf:homepage "https\://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx" xsd:anyURI
 
 [Typedef]
 id: nonvaccine
@@ -27,8 +29,8 @@ is_obsolete: false
 [Term]
 id: cvx:02
 name: trivalent poliovirus vaccine\, live\, oral
-comment: "This is the OPV that was used in the US"
-synonym: "OPV" EXACT OMO:0003012 []
+comment: "This is the OPV used in the US from June 1963 through Dec 1999 and globally through April 2016"
+synonym: "OPV, trivalent" []
 property_value: nonvaccine "false" xsd:boolean
 property_value: status "Inactive" xsd:string
 is_a: cvx:89 ! poliovirus vaccine, unspecified formulation
@@ -158,7 +160,7 @@ name: vaccinia \(smallpox\) vaccine\, diluted
 synonym: "vaccinia (smallpox) diluted" []
 property_value: nonvaccine "false" xsd:boolean
 property_value: status "Inactive" xsd:string
-is_a: cvx:75 ! vaccinia (smallpox) vaccine
+is_a: cvx:325 ! Vaccinia (smallpox, mpox), unspecified
 is_obsolete: false
 
 [Term]
@@ -221,8 +223,9 @@ is_obsolete: false
 
 [Term]
 id: cvx:111
-name: Influenza\, live\, trivalent\, intranasal
-comment: "Trivalent code reactivated for 2024/2025 season"
+name: Influenza\, live\, trivalent\, intranasal\, preservative free
+comment: "HCP administered, trivalent code reactivated for 2024/2025 season"
+synonym: "Influenza, live, trivalent, intranasal, PF" []
 property_value: nonvaccine "false" xsd:boolean
 property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
@@ -1118,9 +1121,9 @@ is_obsolete: false
 
 [Term]
 id: cvx:201
-name: influenza\, seasonal\, Southern Hemisphere\, quadrivalent\, 0.5mL dose\, no preservative
+name: Influenza\, seasonal\, Southern Hemisphere\, quadrivalent\, 0.5 mL dose\, preservative free
 comment: "Represents single dose vial"
-synonym: "influenza, Southern Hemisphere, preservative free" []
+synonym: "Influenza, Southern Hemisphere, quadrivalent, PF" []
 property_value: nonvaccine "false" xsd:boolean
 property_value: status "Active" xsd:string
 is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
@@ -1171,7 +1174,7 @@ comment: "Associated to FDA US Licensed product JYNNEOS, non-US tradenames IMVAN
 synonym: "Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection" []
 property_value: nonvaccine "false" xsd:boolean
 property_value: status "Active" xsd:string
-is_a: cvx:75 ! vaccinia (smallpox) vaccine
+is_a: cvx:325 ! Vaccinia (smallpox, mpox), unspecified
 is_obsolete: false
 
 [Term]
@@ -1762,6 +1765,15 @@ is_a: cvx:89 ! poliovirus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
+id: cvx:325
+name: Vaccinia \(smallpox\, mpox\)\, unspecified
+comment: "Use this CVX for historical records where; the formulation administered is not known, or is a non-US product without an associated CVX code."
+property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
+is_a: cvx:325 ! Vaccinia (smallpox, mpox), unspecified
+is_obsolete: false
+
+[Term]
 id: cvx:326
 name: Respiratory syncytial virus \(RSV\)\, mRNA\, injectable\, preservative free
 comment: "mRNA RSV vaccine added 2024"
@@ -1781,12 +1793,72 @@ is_a: cvx:152 ! Pneumococcal Conjugate, unspecified formulation
 is_obsolete: false
 
 [Term]
+id: cvx:328
+name: Meningococcal oligosaccharide conjugated \(groups A\, C\, W\, Y\) and group B\, 0.5 mL\, preservative free
+comment: "Meningococcal pentavalent vaccine strains ABCW and Y"
+synonym: "Meningococcal oligosaccharide (MenACWY), (MenB), PF" []
+property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
+is_a: cvx:108 ! meningococcal ACWY vaccine, unspecified formulation
+is_a: cvx:164 ! meningococcal B, unspecified formulation
+is_obsolete: false
+
+[Term]
+id: cvx:329
+name: Chikungunya\, virus-like particle \(VLP\)\, recombinant vaccine\, 0.8 mL\, preservative free
+synonym: "Chikungunya, VLP, recombinant, 0.8 mL, PF" []
+property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
+is_a: cvx:317 ! Chikungunya, live attenuated vaccine, 0.5 mL, preservative free
+is_obsolete: false
+
+[Term]
 id: cvx:33
 name: pneumococcal polysaccharide vaccine\, 23 valent
 synonym: "pneumococcal polysaccharide PPV23" []
 property_value: nonvaccine "false" xsd:boolean
 property_value: status "Active" xsd:string
 is_a: cvx:33 ! pneumococcal polysaccharide vaccine, 23 valent
+is_obsolete: false
+
+[Term]
+id: cvx:330
+name: Dengue fever\, unspecified formulation
+comment: "Use this CVX for historical records where; the formulation of the dengue vaccine administered is not known, or is a non-US product without an associated CVX code."
+synonym: "Dengue fever, unspecified" []
+property_value: nonvaccine "false" xsd:boolean
+property_value: status "Inactive" xsd:string
+is_a: cvx:330 ! Dengue fever, unspecified formulation
+is_obsolete: false
+
+[Term]
+id: cvx:331
+name: Influenza\, seasonal\, Southern Hemisphere\, trivalent\, 0.5 mL dose\, preservative free
+comment: "Represents single dose vial"
+synonym: "Influenza, Southern Hemisphere, trivalent, PF" []
+property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
+is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
+is_obsolete: false
+
+[Term]
+id: cvx:332
+name: Respiratory syncytial virus \(RSV\)\, monoclonal antibody\, IgG1κ\, \(clesrovimab-cfor\)\, 0.7 mL\, neonate and infant\, preservative free
+comment: "RSV mAb for neonates and infants born during or entering first RSV season (Enflonsia)"
+synonym: "RSV, mAb, clesrovimab-cfor, 0.7 mL, neonate and infant, PF" []
+property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
+is_a: cvx:304 ! Respiratory syncytial virus (RSV), unspecified
+is_obsolete: false
+
+[Term]
+id: cvx:333
+name: Influenza\, live\, trivalent\, intranasal\, self or caregiver administered\, preservative free
+comment: "Self or caregiver administered, new starting 2025/2026 season"
+synonym: "Influenza, live, trivalent, intranasal, self/caregiver admin, PF" []
+property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
+is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
@@ -2217,7 +2289,7 @@ comment: "Applies to tetravalent product (e.g. DENGVAXIA)"
 synonym: "dengue fever tetravalent" []
 property_value: nonvaccine "false" xsd:boolean
 property_value: status "Active" xsd:string
-is_a: cvx:56 ! dengue fever vaccine, tetravalent
+is_a: cvx:330 ! Dengue fever, unspecified formulation
 is_obsolete: false
 
 [Term]
@@ -2361,10 +2433,11 @@ is_obsolete: false
 
 [Term]
 id: cvx:75
-name: vaccinia \(smallpox\) vaccine
+name: Vaccinia \(smallpox\, mpox\) vaccine\, live
+synonym: "Vaccinia (smallpox, mpox), live" []
 property_value: nonvaccine "false" xsd:boolean
 property_value: status "Active" xsd:string
-is_a: cvx:75 ! vaccinia (smallpox) vaccine
+is_a: cvx:325 ! Vaccinia (smallpox, mpox), unspecified
 is_obsolete: false
 
 [Term]

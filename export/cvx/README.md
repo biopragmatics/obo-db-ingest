@@ -21,7 +21,7 @@ The CDC's National Center of Immunization and Respiratory Diseases (NCIRD) devel
 | field      |   count |
 |------------|---------|
 | mappings   |       3 |
-| parents    |     246 |
-| properties |     717 |
-| synonyms   |     225 |
-| terms      |     279 |
+| parents    |     254 |
+| properties |     737 |
+| synonyms   |     233 |
+| terms      |     286 |

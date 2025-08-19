@@ -16,7 +16,13 @@
         "val" : "NLM Publisher Codes"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-        "val" : "PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:32:08.146705"
+        "val" : "PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T01:00:02.414222"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/homepage",
+        "val" : "https://ftp.ncbi.nlm.nih.gov/pubmed/xmlprovidernames.txt"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/logo",
+        "val" : "https://upload.wikimedia.org/wikipedia/commons/5/52/Logo_of_U.S._National_Library_of_Medicine.png"
       } ]
     },
     "nodes" : [ {
@@ -65,7 +71,7 @@
       "type" : "INDIVIDUAL"
     }, {
       "id" : "https://bioregistry.io/nlm.publisher:aegis",
-      "lbl" : "AEGIS Communications",
+      "lbl" : "Conexiant",
       "type" : "INDIVIDUAL"
     }, {
       "id" : "https://bioregistry.io/nlm.publisher:aerzteverlag",
@@ -270,10 +276,6 @@
     }, {
       "id" : "https://bioregistry.io/nlm.publisher:camup",
       "lbl" : "Cambridge University Press",
-      "type" : "INDIVIDUAL"
-    }, {
-      "id" : "https://bioregistry.io/nlm.publisher:canurol",
-      "lbl" : "The Canadian Journal of Urology",
       "type" : "INDIVIDUAL"
     }, {
       "id" : "https://bioregistry.io/nlm.publisher:cap",
@@ -568,10 +570,6 @@
       "lbl" : "Environmental Science (Huan Jing Ke Xue)",
       "type" : "INDIVIDUAL"
     }, {
-      "id" : "https://bioregistry.io/nlm.publisher:equinox",
-      "lbl" : "Equinox Publishing Ltd",
-      "type" : "INDIVIDUAL"
-    }, {
       "id" : "https://bioregistry.io/nlm.publisher:ergon",
       "lbl" : "Ergon",
       "type" : "INDIVIDUAL"
@@ -774,10 +772,6 @@
     }, {
       "id" : "https://bioregistry.io/nlm.publisher:inacse",
       "lbl" : "International Academy of Science, Education, I ndustry & Arts",
-      "type" : "INDIVIDUAL"
-    }, {
-      "id" : "https://bioregistry.io/nlm.publisher:indian",
-      "lbl" : "Indian Pediatrics",
       "type" : "INDIVIDUAL"
     }, {
       "id" : "https://bioregistry.io/nlm.publisher:inferenze",
@@ -1224,6 +1218,10 @@
       "lbl" : "Vereniging NTvG",
       "type" : "INDIVIDUAL"
     }, {
+      "id" : "https://bioregistry.io/nlm.publisher:ntvt",
+      "lbl" : "Nederlands tijdschrift voor tandheelkunde",
+      "type" : "INDIVIDUAL"
+    }, {
       "id" : "https://bioregistry.io/nlm.publisher:oie",
       "lbl" : "World Organisation for Animal Health (OIE)",
       "type" : "INDIVIDUAL"
@@ -1257,7 +1255,7 @@
       "type" : "INDIVIDUAL"
     }, {
       "id" : "https://bioregistry.io/nlm.publisher:painmd",
-      "lbl" : "Pain Physician",
+      "lbl" : "American Society of Interventional Pain Physicians",
       "type" : "INDIVIDUAL"
     }, {
       "id" : "https://bioregistry.io/nlm.publisher:pakmed",
@@ -1352,10 +1350,6 @@
       "lbl" : "Hungarian Oncological Association",
       "type" : "INDIVIDUAL"
     }, {
-      "id" : "https://bioregistry.io/nlm.publisher:prelum",
-      "lbl" : "Prelum",
-      "type" : "INDIVIDUAL"
-    }, {
       "id" : "https://bioregistry.io/nlm.publisher:pzico",
       "lbl" : "P.Ziti and Co",
       "type" : "INDIVIDUAL"
@@ -1444,10 +1438,6 @@
       "lbl" : "SanovaWorks",
       "type" : "INDIVIDUAL"
     }, {
-      "id" : "https://bioregistry.io/nlm.publisher:saxinst",
-      "lbl" : "Sax Institute",
-      "type" : "INDIVIDUAL"
-    }, {
       "id" : "https://bioregistry.io/nlm.publisher:scg",
       "lbl" : "Swiss Chemical Society",
       "type" : "INDIVIDUAL"
@@ -1486,10 +1476,6 @@
     }, {
       "id" : "https://bioregistry.io/nlm.publisher:seq",
       "lbl" : "Sociedad Espanola de Quimioterapia",
-      "type" : "INDIVIDUAL"
-    }, {
-      "id" : "https://bioregistry.io/nlm.publisher:serdi",
-      "lbl" : "Serdi Edition",
       "type" : "INDIVIDUAL"
     }, {
       "id" : "https://bioregistry.io/nlm.publisher:serra",
@@ -1636,6 +1622,10 @@
       "lbl" : "LookUs Bilisim",
       "type" : "INDIVIDUAL"
     }, {
+      "id" : "https://bioregistry.io/nlm.publisher:techscience",
+      "lbl" : "Tech Science Press",
+      "type" : "INDIVIDUAL"
+    }, {
       "id" : "https://bioregistry.io/nlm.publisher:terasaki",
       "lbl" : "Terasaki Research Institute",
       "type" : "INDIVIDUAL"
@@ -1717,7 +1707,7 @@
       "type" : "INDIVIDUAL"
     }, {
       "id" : "https://bioregistry.io/nlm.publisher:umedpr",
-      "lbl" : "Universal Medical Press",
+      "lbl" : "Surgical Technology Online",
       "type" : "INDIVIDUAL"
     }, {
       "id" : "https://bioregistry.io/nlm.publisher:umesp",
@@ -1778,10 +1768,6 @@
     }, {
       "id" : "https://bioregistry.io/nlm.publisher:viamedia",
       "lbl" : "Via Medica Medical Publishers",
-      "type" : "INDIVIDUAL"
-    }, {
-      "id" : "https://bioregistry.io/nlm.publisher:viguera",
-      "lbl" : "Viguera Editores, S. L.",
       "type" : "INDIVIDUAL"
     }, {
       "id" : "https://bioregistry.io/nlm.publisher:wafrica",
@@ -2090,10 +2076,6 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
     }, {
-      "sub" : "https://bioregistry.io/nlm.publisher:canurol",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
-    }, {
       "sub" : "https://bioregistry.io/nlm.publisher:cap",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
@@ -2386,10 +2368,6 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
     }, {
-      "sub" : "https://bioregistry.io/nlm.publisher:equinox",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
-    }, {
       "sub" : "https://bioregistry.io/nlm.publisher:ergon",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
@@ -2591,10 +2569,6 @@
       "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
     }, {
       "sub" : "https://bioregistry.io/nlm.publisher:inacse",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
-    }, {
-      "sub" : "https://bioregistry.io/nlm.publisher:indian",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
     }, {
@@ -3042,6 +3016,10 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
     }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:ntvt",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
       "sub" : "https://bioregistry.io/nlm.publisher:oie",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
@@ -3170,10 +3148,6 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
     }, {
-      "sub" : "https://bioregistry.io/nlm.publisher:prelum",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
-    }, {
       "sub" : "https://bioregistry.io/nlm.publisher:pzico",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
@@ -3262,10 +3236,6 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
     }, {
-      "sub" : "https://bioregistry.io/nlm.publisher:saxinst",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
-    }, {
       "sub" : "https://bioregistry.io/nlm.publisher:scg",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
@@ -3303,10 +3273,6 @@
       "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
     }, {
       "sub" : "https://bioregistry.io/nlm.publisher:seq",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
-    }, {
-      "sub" : "https://bioregistry.io/nlm.publisher:serdi",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
     }, {
@@ -3454,6 +3420,10 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
     }, {
+      "sub" : "https://bioregistry.io/nlm.publisher:techscience",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
+    }, {
       "sub" : "https://bioregistry.io/nlm.publisher:terasaki",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
@@ -3595,10 +3565,6 @@
       "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
     }, {
       "sub" : "https://bioregistry.io/nlm.publisher:viamedia",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
-    }, {
-      "sub" : "https://bioregistry.io/nlm.publisher:viguera",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/nlm#publisher"
     }, {

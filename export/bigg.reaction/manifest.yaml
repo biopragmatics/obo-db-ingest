@@ -1,8 +1,8 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
@@ -42,12 +42,12 @@ manifest:
     version_iri: https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.sssom.tsv
     version_path: bigg.reaction/1.6.0/bigg.reaction.sssom.tsv
   summary:
-    alts: 8200
+    alts: 6375
     definitions: 28301
     license: http://bigg.ucsd.edu/license#license
-    mappings: 80920
+    mappings: 79068
     parents: 0
-    properties: 259622
+    properties: 257797
     references: 0
     relations: 0
     synonyms: 0
@@ -60,13 +60,14 @@ manifest:
     version_iri: https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.synonyms.tsv
     version_path: bigg.reaction/1.6.0/bigg.reaction.synonyms.tsv
 prefix_map:
-  EC: https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
+  EC: https://www.enzyme-database.org/query.php?ec=
   IAO: http://purl.obolibrary.org/obo/IAO_
   RO: http://purl.obolibrary.org/obo/RO_
   bigg.model: http://bigg.ucsd.edu/models/
   bigg.reaction: http://bigg.ucsd.edu/models/universal/reactions/
   biocyc: http://biocyc.org/getid?id=
   dcterms: http://purl.org/dc/terms/
+  foaf: http://xmlns.com/foaf/0.1/
   kegg.reaction: http://www.kegg.jp/entry/
   metanetx.reaction: https://www.metanetx.org/equa_info/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#

@@ -1,75 +1,78 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/uniprot/uniprot.tsv
     path: uniprot/uniprot.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/uniprot/2025_01/uniprot.tsv
-    version_path: uniprot/2025_01/uniprot.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/uniprot/2025_03/uniprot.tsv
+    version_path: uniprot/2025_03/uniprot.tsv
   obo:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/uniprot/uniprot.obo.gz
     path: uniprot/uniprot.obo.gz
-    version_iri: https://w3id.org/biopragmatics/resources/uniprot/2025_01/uniprot.obo.gz
-    version_path: uniprot/2025_01/uniprot.obo.gz
+    version_iri: https://w3id.org/biopragmatics/resources/uniprot/2025_03/uniprot.obo.gz
+    version_path: uniprot/2025_03/uniprot.obo.gz
   obograph:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/uniprot/uniprot.json.gz
     path: uniprot/uniprot.json.gz
-    version_iri: https://w3id.org/biopragmatics/resources/uniprot/2025_01/uniprot.json.gz
-    version_path: uniprot/2025_01/uniprot.json.gz
+    version_iri: https://w3id.org/biopragmatics/resources/uniprot/2025_03/uniprot.json.gz
+    version_path: uniprot/2025_03/uniprot.json.gz
   ofn:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/uniprot/uniprot.ofn.gz
     path: uniprot/uniprot.ofn.gz
-    version_iri: https://w3id.org/biopragmatics/resources/uniprot/2025_01/uniprot.ofn.gz
-    version_path: uniprot/2025_01/uniprot.ofn.gz
+    version_iri: https://w3id.org/biopragmatics/resources/uniprot/2025_03/uniprot.ofn.gz
+    version_path: uniprot/2025_03/uniprot.ofn.gz
   owl:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/uniprot/uniprot.owl.gz
     path: uniprot/uniprot.owl.gz
-    version_iri: https://w3id.org/biopragmatics/resources/uniprot/2025_01/uniprot.owl.gz
-    version_path: uniprot/2025_01/uniprot.owl.gz
+    version_iri: https://w3id.org/biopragmatics/resources/uniprot/2025_03/uniprot.owl.gz
+    version_path: uniprot/2025_03/uniprot.owl.gz
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/uniprot/uniprot.sssom.tsv
     path: uniprot/uniprot.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/uniprot/2025_01/uniprot.sssom.tsv
-    version_path: uniprot/2025_01/uniprot.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/uniprot/2025_03/uniprot.sssom.tsv
+    version_path: uniprot/2025_03/uniprot.sssom.tsv
   summary:
     alts: 0
     definitions: 0
     license: CC-BY-4.0
-    mappings: 326458
+    mappings: 342066
     parents: 0
-    properties: 6303233
-    references: 1142197
-    relations: 1035500
+    properties: 6178596
+    references: 1148270
+    relations: 1033645
     synonyms: 0
-    terms: 572970
-    version: '2025_01'
+    terms: 573661
+    version: '2025_03'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/uniprot/uniprot.synonyms.tsv
     path: uniprot/uniprot.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/uniprot/2025_01/uniprot.synonyms.tsv
-    version_path: uniprot/2025_01/uniprot.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/uniprot/2025_03/uniprot.synonyms.tsv
+    version_path: uniprot/2025_03/uniprot.synonyms.tsv
 prefix_map:
   CHEBI: http://purl.obolibrary.org/obo/CHEBI_
-  EC: https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
+  EC: https://www.enzyme-database.org/query.php?ec=
   GO: http://purl.obolibrary.org/obo/GO_
   IAO: http://purl.obolibrary.org/obo/IAO_
   NCBIGene: http://purl.uniprot.org/geneid/
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
   RO: http://purl.obolibrary.org/obo/RO_
   dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
+  foaf: http://xmlns.com/foaf/0.1/
   obo: http://purl.obolibrary.org/obo/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
   pdb: https://rdf.wwpdb.org/pdb/
   pubmed: http://rdf.ncbi.nlm.nih.gov/pubchem/reference/
@@ -77,5 +80,5 @@ prefix_map:
   rdfs: http://www.w3.org/2000/01/rdf-schema#
   rhea: https://www.rhea-db.org/rhea/
   uniprot: http://purl.uniprot.org/uniprot/
-  uniprot.proteome: https://www.uniprot.org/proteomes/
+  uniprot.proteome: http://purl.uniprot.org/proteomes/
   xsd: http://www.w3.org/2001/XMLSchema#

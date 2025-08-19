@@ -5,6 +5,7 @@
 #     "bioversions",
 #     "bioontologies",
 #     "pyobo",
+#     "class-resolver",
 # ]
 #
 # [tool.uv.sources]
@@ -13,6 +14,7 @@
 # bioontologies = { path = "../bioontologies", editable = true }
 # gilda = { git = "https://github.com/cthoyt/gilda", branch = "slim" }
 # pyobo = { path = "../pyobo", editable = true }
+# class-resolver = { path = "../class-resolver", editable = true }
 # ///
 
 """Build OBO dumps of database.
@@ -37,6 +39,8 @@ import bioontologies.version
 import bioregistry
 import bioregistry.version
 import click
+
+import bioversions
 import pyobo.constants
 import pyobo.version
 import pystow.utils
@@ -503,6 +507,11 @@ def main(minimum: str | None, xvalue: list[str], no_convert: bool, force: bool):
                 )
             else:
                 secho(f"missing license for `{prefix}`", fg="yellow")
+
+
+        version_result = bioversions.get_version(prefix, strict=False)
+        if not version_result:
+            secho(f"missing version for {prefix}", fg="red")
 
     it = [ontology_resolver.lookup(prefix) for prefix in prefixes]
 

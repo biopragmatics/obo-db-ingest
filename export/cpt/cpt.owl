@@ -7,13 +7,16 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://w3id.org/biopragmatics/resources/cpt/cpt.ofn">
-        <dcterms:description>Current Procedural Terminology\, more commonly known as CPT®\, refers to a medical code set created and maintained by the American Medical Association — and used by physicians\, allied health professionals\, nonphysician practitioners\, hospitals\, outpatient facilities\, and laboratories to represent the services and procedures they perform. No provider of outpatient services gets paid without reporting the proper CPT® codes. \[Description taken from this site\]\(https\://www.aapc.com/codes/cpt-codes-range/\)\]</dcterms:description>
+        <dcterms:description>Current Procedural Terminology, more commonly known as CPT®, refers to a medical code set created and maintained by the American Medical Association — and used by physicians, allied health professionals, nonphysician practitioners, hospitals, outpatient facilities, and laboratories to represent the services and procedures they perform. No provider of outpatient services gets paid without reporting the proper CPT® codes. [Description taken from this site](https://www.aapc.com/codes/cpt-codes-range/)]</dcterms:description>
         <dcterms:title>Current Procedural Terminology</dcterms:title>
-        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T12:20:14.936911</oboInOwl:auto-generated-by>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:34:10.904993</oboInOwl:auto-generated-by>
+        <foaf:homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.aapc.com</foaf:homepage>
+        <foaf:logo rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://edhub.ama-assn.org/ImageLibrary/Ed-Hub-Self-Serve/CPT-monogram.png</foaf:logo>
     </owl:Ontology>
     
 
@@ -50,6 +53,18 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/logo -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/logo"/>
     
 
 
@@ -176,6 +191,16 @@
     
 
 
+    <!-- https://www.aapc.com/codes/cpt-codes/90382 -->
+
+    <owl:Class rdf:about="https://www.aapc.com/codes/cpt-codes/90382">
+        <dcterms:description>Respiratory syncytial virus, monoclonal antibody, seasonal dose, 0.7 mL, for intramuscular use</dcterms:description>
+        <oboInOwl:hasDbXref rdf:resource="https://biopragmatics.github.io/providers/cvx/332"/>
+        <rdfs:label>RSV, mAb, clesrovimab-cfor, 0.7 mL, neonate and infant, PF</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://www.aapc.com/codes/cpt-codes/90389 -->
 
     <owl:Class rdf:about="https://www.aapc.com/codes/cpt-codes/90389">
@@ -278,6 +303,16 @@
     
 
 
+    <!-- https://www.aapc.com/codes/cpt-codes/90593 -->
+
+    <owl:Class rdf:about="https://www.aapc.com/codes/cpt-codes/90593">
+        <dcterms:description>Chikungunya virus vaccine, recombinant, for intramuscular use</dcterms:description>
+        <oboInOwl:hasDbXref rdf:resource="https://biopragmatics.github.io/providers/cvx/329"/>
+        <rdfs:label>Chikungunya, VLP, recombinant, 0.8 mL, PF</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://www.aapc.com/codes/cpt-codes/90611 -->
 
     <owl:Class rdf:about="https://www.aapc.com/codes/cpt-codes/90611">
@@ -302,7 +337,7 @@
     <!-- https://www.aapc.com/codes/cpt-codes/90620 -->
 
     <owl:Class rdf:about="https://www.aapc.com/codes/cpt-codes/90620">
-        <dcterms:description>Meningococcal recombinant protein and outer membrane vesicle vaccine, serogroup B (MenB-4C), 2 dose schedule, for intramuscular use</dcterms:description>
+        <dcterms:description>Meningococcal recombinant protein and outer membrane vesicle vaccine, serogroup B (MenB-4C), for intramuscular use</dcterms:description>
         <oboInOwl:hasDbXref rdf:resource="https://biopragmatics.github.io/providers/cvx/163"/>
         <rdfs:label>meningococcal B, OMV</rdfs:label>
     </owl:Class>
@@ -325,7 +360,7 @@
         <dcterms:description>Vaccinia (smallpox) virus vaccine, live, lyophilized, 0.3 mL dosage, for percutaneous use</dcterms:description>
         <oboInOwl:hasDbXref rdf:resource="https://biopragmatics.github.io/providers/cvx/75"/>
         <rdfs:comment>CPT Code to be used for ACAM2000 vaccine</rdfs:comment>
-        <rdfs:label>vaccinia (smallpox)</rdfs:label>
+        <rdfs:label>Vaccinia (smallpox, mpox), live</rdfs:label>
     </owl:Class>
     
 
@@ -336,6 +371,16 @@
         <dcterms:description>Meningococcal pentavalent vaccine, conjugated Men A, C, W, Y- tetanus toxoid carrier, and Men B-FHbp, for intramuscular use</dcterms:description>
         <oboInOwl:hasDbXref rdf:resource="https://biopragmatics.github.io/providers/cvx/316"/>
         <rdfs:label>Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.aapc.com/codes/cpt-codes/90624 -->
+
+    <owl:Class rdf:about="https://www.aapc.com/codes/cpt-codes/90624">
+        <dcterms:description>Meningococcal pentavalent vaccine, Men B-4C recombinant proteins and outer membrane vesicle and conjugated Men A, C, W, Y-diphtheria toxoid carrier, for intramuscular use</dcterms:description>
+        <oboInOwl:hasDbXref rdf:resource="https://biopragmatics.github.io/providers/cvx/328"/>
+        <rdfs:label>Meningococcal oligosaccharide (MenACWY), (MenB), PF</rdfs:label>
     </owl:Class>
     
 
@@ -565,7 +610,7 @@
     <owl:Class rdf:about="https://www.aapc.com/codes/cpt-codes/90660">
         <dcterms:description>Influenza virus vaccine, trivalent, live (LAIV3), for intranasal use</dcterms:description>
         <oboInOwl:hasDbXref rdf:resource="https://biopragmatics.github.io/providers/cvx/111"/>
-        <rdfs:label>Influenza, live, trivalent, intranasal</rdfs:label>
+        <rdfs:label>Influenza, live, trivalent, intranasal, PF</rdfs:label>
     </owl:Class>
     
 

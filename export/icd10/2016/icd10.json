@@ -4,7 +4,7 @@
     "meta" : {
       "basicPropertyValues" : [ {
         "pred" : "http://purl.org/dc/terms/description",
-        "val" : "The 10th revision of the International Classification of Diseases \\(ICD\\) issued by the World Health Organization \\(WHO\\). ICD is formally named 'The International Statistical Classification of Diseases and Related Health Problems'. It contains codes for diseases\\, signs and symptoms\\, abnormal findings\\, complaints\\, social circumstances\\, and external causes of injury or diseases.\\n\\nNote that the WHO version of ICD-10 is distinct from the ICD-10-CM \\(Clinical Modification\\) issued by the U.S. National Center for Health Statistics for use in the United States."
+        "val" : "The 10th revision of the International Classification of Diseases (ICD) issued by the World Health Organization (WHO). ICD is formally named 'The International Statistical Classification of Diseases and Related Health Problems'. It contains codes for diseases, signs and symptoms, abnormal findings, complaints, social circumstances, and external causes of injury or diseases.\n\nNote that the WHO version of ICD-10 is distinct from the ICD-10-CM (Clinical Modification) issued by the U.S. National Center for Health Statistics for use in the United States."
       }, {
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "https://cdn.who.int/media/docs/default-source/publishing-policies/copyright/who-faq-licensing-icd-10.pdf"
@@ -13,10 +13,16 @@
         "val" : "International Classification of Diseases, 10th Revision"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-        "val" : "PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:33:26.403978"
+        "val" : "PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T01:24:05.741084"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
         "val" : "2016"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/homepage",
+        "val" : "https://icd.who.int/browse10"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/logo",
+        "val" : "https://upload.wikimedia.org/wikipedia/commons/a/a4/Icd10codeslogo.png"
       } ],
       "version" : "https://w3id.org/biopragmatics/resources/icd10/2016/icd10.ofn"
     },

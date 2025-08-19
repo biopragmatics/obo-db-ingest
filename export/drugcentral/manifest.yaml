@@ -1,8 +1,8 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
@@ -45,7 +45,7 @@ manifest:
     alts: 0
     definitions: 3267
     license: CC-BY-SA-4.0
-    mappings: 76521
+    mappings: 74729
     parents: 0
     properties: 17913
     references: 0
@@ -66,9 +66,11 @@ prefix_map:
   chembl.compound: http://rdf.ebi.ac.uk/resource/chembl/molecule/
   dcterms: http://purl.org/dc/terms/
   debio: https://biopragmatics.github.io/debio/
-  drugbank: http://www.drugbank.ca/drugs/
+  doap: http://usefulinc.com/ns/doap#
+  drugbank: https://go.drugbank.com/drugs/
   drugcentral: http://drugcentral.org/drugcard/
-  inchikey: http://legacy.chemspider.com/inchikey=
+  foaf: http://xmlns.com/foaf/0.1/
+  inchikey: https://www.chemspider.com/search?params=
   inn: https://mednet-communities.net/inn/db/ViewINN.aspx?i=
   iuphar.ligand: http://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=
   kegg.drug: https://www.kegg.jp/entry/
@@ -77,8 +79,9 @@ prefix_map:
   nddf: http://purl.bioontology.org/ontology/NDDF/
   ndfrt: http://purl.bioontology.org/ontology/NDFRT/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
-  pdb.ligand: https://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/
+  pdb.ligand: http://www.rcsb.org/ligand/
   pubchem.compound: http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   rdfs: http://www.w3.org/2000/01/rdf-schema#

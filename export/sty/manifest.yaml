@@ -1,46 +1,46 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/sty/sty.tsv
     path: sty/sty.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.tsv
-    version_path: sty/2024AB/sty.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/sty/2025AA/sty.tsv
+    version_path: sty/2025AA/sty.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/sty/sty.obo
     path: sty/sty.obo
-    version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.obo
-    version_path: sty/2024AB/sty.obo
+    version_iri: https://w3id.org/biopragmatics/resources/sty/2025AA/sty.obo
+    version_path: sty/2025AA/sty.obo
   obograph:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/sty/sty.json
     path: sty/sty.json
-    version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.json
-    version_path: sty/2024AB/sty.json
+    version_iri: https://w3id.org/biopragmatics/resources/sty/2025AA/sty.json
+    version_path: sty/2025AA/sty.json
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/sty/sty.ofn
     path: sty/sty.ofn
-    version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.ofn
-    version_path: sty/2024AB/sty.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/sty/2025AA/sty.ofn
+    version_path: sty/2025AA/sty.ofn
   owl:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/sty/sty.owl
     path: sty/sty.owl
-    version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.owl
-    version_path: sty/2024AB/sty.owl
+    version_iri: https://w3id.org/biopragmatics/resources/sty/2025AA/sty.owl
+    version_path: sty/2025AA/sty.owl
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/sty/sty.sssom.tsv
     path: sty/sty.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.sssom.tsv
-    version_path: sty/2024AB/sty.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/sty/2025AA/sty.sssom.tsv
+    version_path: sty/2025AA/sty.sssom.tsv
   summary:
     alts: 0
     definitions: 0
@@ -52,18 +52,21 @@ manifest:
     relations: 0
     synonyms: 0
     terms: 127
-    version: 2024AB
+    version: 2025AA
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/sty/sty.synonyms.tsv
     path: sty/sty.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/sty/2024AB/sty.synonyms.tsv
-    version_path: sty/2024AB/sty.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/sty/2025AA/sty.synonyms.tsv
+    version_path: sty/2025AA/sty.synonyms.tsv
 prefix_map:
   biolink: https://w3id.org/biolink/vocab/
   dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
+  foaf: http://xmlns.com/foaf/0.1/
   obo: http://purl.obolibrary.org/obo/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   rdfs: http://www.w3.org/2000/01/rdf-schema#

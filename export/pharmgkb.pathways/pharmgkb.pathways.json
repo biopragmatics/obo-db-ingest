@@ -4,7 +4,7 @@
     "meta" : {
       "basicPropertyValues" : [ {
         "pred" : "http://purl.org/dc/terms/description",
-        "val" : "The PharmGKB database is a central repository for genetic\\, genomic\\, molecular and cellular phenotype data and clinical information about people who have participated in pharmacogenomics research studies. The data includes\\, but is not limited to\\, clinical and basic pharmacokinetic and pharmacogenomic research in the cardiovascular\\, pulmonary\\, cancer\\, pathways\\, metabolic and transporter domains. \\nPharmGKB Pathways are drug centric\\, gene based\\, interactive pathways which focus on candidate genes and gene groups and associated genotype and phenotype data of relevance for pharmacogenetic and pharmacogenomic studies."
+        "val" : "The PharmGKB database is a central repository for genetic, genomic, molecular and cellular phenotype data and clinical information about people who have participated in pharmacogenomics research studies. The data includes, but is not limited to, clinical and basic pharmacokinetic and pharmacogenomic research in the cardiovascular, pulmonary, cancer, pathways, metabolic and transporter domains. \nPharmGKB Pathways are drug centric, gene based, interactive pathways which focus on candidate genes and gene groups and associated genotype and phenotype data of relevance for pharmacogenetic and pharmacogenomic studies."
       }, {
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "CC-BY-SA-4.0"
@@ -12,8 +12,17 @@
         "pred" : "http://purl.org/dc/terms/title",
         "val" : "PharmGKB"
       }, {
+        "pred" : "http://usefulinc.com/ns/doap#maintainer",
+        "val" : "https://orcid.org/0000-0001-5527-6475"
+      }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-        "val" : "PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:16:21.735834"
+        "val" : "PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T00:42:32.329051"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/homepage",
+        "val" : "http://www.pharmgkb.org/"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/logo",
+        "val" : "https://rxgenomix.com/wp-content/uploads/2019/10/pharmgKB.png"
       } ]
     },
     "nodes" : [ {

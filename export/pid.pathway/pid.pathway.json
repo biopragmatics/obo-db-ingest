@@ -4,16 +4,25 @@
     "meta" : {
       "basicPropertyValues" : [ {
         "pred" : "http://purl.org/dc/terms/description",
-        "val" : "The Pathway Interaction Database is a highly-structured\\, curated collection of information about known human biomolecular interactions and key cellular processes assembled into signaling pathways. This datatype provides access to pathway information."
+        "val" : "The Pathway Interaction Database is a highly-structured, curated collection of information about known human biomolecular interactions and key cellular processes assembled into signaling pathways. This datatype provides access to pathway information."
       }, {
         "pred" : "http://purl.org/dc/terms/title",
         "val" : "NCI Pathway Interaction Database: Pathway"
       }, {
+        "pred" : "http://usefulinc.com/ns/doap#maintainer",
+        "val" : "https://orcid.org/0000-0002-5941-3390"
+      }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-        "val" : "PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:24:51.212403"
+        "val" : "PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T00:50:54.756677"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
         "val" : "1.0.0"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/homepage",
+        "val" : "https://www.ndexbio.org/index.html#/networkset/8a2d7ee9-1513-11e9-bb6a-0ac135e8bacf"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/logo",
+        "val" : "https://home.ndexbio.org/img/pid-logo-ndex.jpg"
       } ],
       "version" : "https://w3id.org/biopragmatics/resources/pid.pathway/1.0.0/pid.pathway.ofn"
     },

@@ -7,6 +7,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:orcid="https://orcid.org/"
@@ -22,7 +23,9 @@
         <dcterms:description>Publisher short codes appearin in the NLM Catalog.</dcterms:description>
         <dcterms:license>public domain</dcterms:license>
         <dcterms:title>NLM Publisher Codes</dcterms:title>
-        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:32:08.146705</oboInOwl:auto-generated-by>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T01:00:02.414222</oboInOwl:auto-generated-by>
+        <foaf:homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ftp.ncbi.nlm.nih.gov/pubmed/xmlprovidernames.txt</foaf:homepage>
+        <foaf:logo rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://upload.wikimedia.org/wikipedia/commons/5/52/Logo_of_U.S._National_Library_of_Medicine.png</foaf:logo>
     </owl:Ontology>
     
 
@@ -79,6 +82,18 @@
     <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/logo -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/logo"/>
     
 
 
@@ -174,7 +189,7 @@
 
     <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:aegis">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
-        <rdfs:label>AEGIS Communications</rdfs:label>
+        <rdfs:label>Conexiant</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -634,15 +649,6 @@
     <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:camup">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
         <rdfs:label>Cambridge University Press</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://bioregistry.io/nlm.publisher:canurol -->
-
-    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:canurol">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
-        <rdfs:label>The Canadian Journal of Urology</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1304,15 +1310,6 @@
     
 
 
-    <!-- https://bioregistry.io/nlm.publisher:equinox -->
-
-    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:equinox">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
-        <rdfs:label>Equinox Publishing Ltd</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://bioregistry.io/nlm.publisher:ergon -->
 
     <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ergon">
@@ -1768,15 +1765,6 @@
     <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:inacse">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
         <rdfs:label>International Academy of Science, Education, I ndustry &amp; Arts</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://bioregistry.io/nlm.publisher:indian -->
-
-    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:indian">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
-        <rdfs:label>Indian Pediatrics</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2780,6 +2768,15 @@
     
 
 
+    <!-- https://bioregistry.io/nlm.publisher:ntvt -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:ntvt">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Nederlands tijdschrift voor tandheelkunde</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://bioregistry.io/nlm.publisher:oie -->
 
     <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:oie">
@@ -2856,7 +2853,7 @@
 
     <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:painmd">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
-        <rdfs:label>Pain Physician</rdfs:label>
+        <rdfs:label>American Society of Interventional Pain Physicians</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3068,15 +3065,6 @@
     
 
 
-    <!-- https://bioregistry.io/nlm.publisher:prelum -->
-
-    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:prelum">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
-        <rdfs:label>Prelum</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://bioregistry.io/nlm.publisher:pzico -->
 
     <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:pzico">
@@ -3275,15 +3263,6 @@
     
 
 
-    <!-- https://bioregistry.io/nlm.publisher:saxinst -->
-
-    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:saxinst">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
-        <rdfs:label>Sax Institute</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://bioregistry.io/nlm.publisher:scg -->
 
     <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:scg">
@@ -3370,15 +3349,6 @@
     <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:seq">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
         <rdfs:label>Sociedad Espanola de Quimioterapia</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://bioregistry.io/nlm.publisher:serdi -->
-
-    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:serdi">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
-        <rdfs:label>Serdi Edition</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3707,6 +3677,15 @@
     
 
 
+    <!-- https://bioregistry.io/nlm.publisher:techscience -->
+
+    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:techscience">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
+        <rdfs:label>Tech Science Press</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://bioregistry.io/nlm.publisher:terasaki -->
 
     <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:terasaki">
@@ -3891,7 +3870,7 @@
 
     <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:umedpr">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
-        <rdfs:label>Universal Medical Press</rdfs:label>
+        <rdfs:label>Surgical Technology Online</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4027,15 +4006,6 @@
     <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:viamedia">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
         <rdfs:label>Via Medica Medical Publishers</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://bioregistry.io/nlm.publisher:viguera -->
-
-    <owl:NamedIndividual rdf:about="https://bioregistry.io/nlm.publisher:viguera">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/nlm#publisher"/>
-        <rdfs:label>Viguera Editores, S. L.</rdfs:label>
     </owl:NamedIndividual>
     
 

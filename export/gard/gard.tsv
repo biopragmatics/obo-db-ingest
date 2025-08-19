@@ -75,7 +75,7 @@ identifier	name	definition	synonyms	alts	parents	species
 10127	Hypogonadotropic hypogonadism 23 with or without anosmia		46,XY DSD due to LHB deficiency|46,XY DSD due to luteinizing hormone subunit beta deficiency|46,XY disorder of sex development due to LHB deficiency|46,XY disorder of sex development due to luteinizing hormone subunit beta deficiency|LHB hypogonadotropic hypogonadism|Leydig cell hypoplasia due to LHB deficiency|Leydig cell hypoplasia due to luteinizing hormone subunit beta deficiency|Pasqualini syndrome|fertile eunuch syndrome|hypogonadotropic hypogonadism caused by mutation in LHB		obo:gard#uncategorized	
 10128	Hypogonadotropic hypogonadism 24 without anosmia		FSHB hypogonadotropic hypogonadism|hypogonadotropic hypogonadism caused by mutation in FSHB|isolated FSH deficiency|isolated follicle-stimulating hormone deficiency		obo:gard#uncategorized	
 10129	Isolated thyroid-stimulating hormone deficiency		CHNG4|hypothyroidism, congenital, nongoitrous 4|hypothyroidism, congenital, nongoitrous, type 4|isolated TSH deficiency|isolated thyrotropin deficiency		obo:gard#uncategorized	
-10130	Phelan-mcdermid syndrome		22q13 deletion|Phelan McDermid syndrome|monosomy 22q13|monosomy type 22q13		obo:gard#uncategorized	
+10130	Phelan-mcdermid syndrome		PHMDS|Phelan McDermid syndrome		obo:gard#uncategorized	
 10131	Hereditary motor and sensory neuropathy, okinawa type		HMSNP|hereditary motor and sensory neuropathy, proximal type		obo:gard#uncategorized	
 10132	Charcot-Marie-Tooth disease type 4G		CMT4G|Charcot-Marie-Tooth disease type 4 caused by mutation in HK1|Charcot-Marie-Tooth neuropathy type 4G|HK1 Charcot-Marie-Tooth disease type 4|HMSNR|autosomal recessive Charcot-Marie-Tooth disease type 4G|hereditary motor and sensory neuropathy Russe type|hereditary motor and sensory neuropathy, Russe type		obo:gard#uncategorized	
 10133	Autosomal recessive distal spinal muscular atrophy 2		DSMA2|autosomal recessive distal spinal muscular atrophy type 2|dHMNJ|distal hereditary motor neuropathy Jerash type|spinal muscular atrophy Jerash type|spinal muscular atrophy, distal, autosomal recessive, type 2		obo:gard#uncategorized	
@@ -221,7 +221,7 @@ identifier	name	definition	synonyms	alts	parents	species
 10427	X-linked hypohidrotic ectodermal dysplasia		Christ-Siemens-Touraine syndrome|X-linked anhidrotic ectodermal dysplasia|XHED|ectodermal dysplasia 1, hypohidrotic, X-linked, X-linked recessive|hypohidrotic ectodermal dysplasia, X-linked		obo:gard#uncategorized	
 10428	Pure autonomic failure		Bradbury Eggleston syndrome|Bradbury-Eggleston syndrome|PAF|Pure dysautonomia|Pure idiopatic dysautonomia|idiopathic orthostatic hypotension		obo:gard#uncategorized	
 10429	Autosomal dominant brachyolmia		brachyolmia type 3|brachyolmia, autosomal dominant		obo:gard#uncategorized	
-10430	Dravet syndrome		DS		obo:gard#uncategorized	
+10430	Dravet syndrome		DS|Dravet|SME|SMEB|myoclonic epilepsy, severe, of infancy|severe myoclonic epilepsy of infancy		obo:gard#uncategorized	
 10431	Endemic Kaposi sarcoma				obo:gard#uncategorized	
 10433	Long qt syndrome 5		KCNE1 long QT syndrome|LQT5|long QT syndrome caused by mutation in KCNE1|long QT syndrome type 5		obo:gard#uncategorized	
 10434	Long qt syndrome 6		KCNE2 long QT syndrome|LQT6|long QT syndrome caused by mutation in KCNE2|long QT syndrome type 6		obo:gard#uncategorized	
@@ -366,7 +366,7 @@ identifier	name	definition	synonyms	alts	parents	species
 10646	Teratoma with malignant transformation		dermoid cyst with malignant transformation		obo:gard#uncategorized	
 10647	Spondylometaphyseal dysplasia-cone-rod dystrophy syndrome		SmD-CRD		obo:gard#uncategorized	
 10648	Retinal cone dystrophy 3a		retinal cone dystrophy 3|retinal cone dystrophy type 3A		obo:gard#uncategorized	
-10649	Cone dystrophy with supernormal rod response		cone dystrophy with supernormal rod ERG|cone dystrophy with supernormal rod electroretinogram|cone dystrophy with supernormal scotopic electroretinogram|retinal cone dystrophy type 3B		obo:gard#uncategorized	
+10649	Cone dystrophy with supernormal rod response		KCNV2-related retinopathy|cone dystrophy with supernormal rod ERG|cone dystrophy with supernormal rod electroretinogram|cone dystrophy with supernormal scotopic electroretinogram|retinal cone dystrophy type 3B		obo:gard#uncategorized	
 10650	Retinal cone dystrophy 4		CACNA2D4 cone dystrophy|cone dystrophy caused by mutation in CACNA2D4|retinal cone dystrophy type 4		obo:gard#uncategorized	
 10651	Cone-rod dystrophy 1		CORD1|cone-rod dystrophy type 1|cone-rod retinal dystrophy-1|crd1		obo:gard#uncategorized	
 10652	X-linked cone-rod dystrophy 1		COD1|CORDX1|X-linked cone dystrophy 1|X-linked cone-rod dystrophy type 1|cone-rod dystrophy, X-linked, 1, X-linked recessive|cone-rod dystrophy, X-linked, type 1		obo:gard#uncategorized	
@@ -414,7 +414,7 @@ identifier	name	definition	synonyms	alts	parents	species
 10727	Koolen-de vries syndrome		KANSL1-related intellectual disability syndrome|Koolen de Vries syndrome|chromosome 17q21.31 deletion syndrome|kdvs|microdeletion 17q21.31 syndrome		obo:gard#uncategorized	
 10728	Lethal congenital glycogen storage disease of heart		PRKAG2 glycogen storage disease|fatal congenital hypertrophic cardiomyopathy due to GSD|fatal congenital hypertrophic cardiomyopathy due to glycogenosis|fatal congenital nonlysosomal cardiac glycogenosis|glycogen storage disease caused by mutation in PRKAG2|phosphorylase kinase deficiency of heart		obo:gard#uncategorized	
 10729	Niemann-Pick disease type B		type B Niemann-Pick disease		obo:gard#uncategorized	
-10730	Pyridoxal phosphate-responsive seizures		PNPO-related neonatal epileptic encephalopathy|pnpo deficiency|pyridoxal phosphate-dependent seizures|pyridoxamine 5'-oxidase deficiency|pyridoxamine 5'-phosphate oxidase deficiency|pyridoxine 5' phosphate oxidase deficiency		obo:gard#uncategorized	
+10730	Pyridoxal phosphate-responsive seizures		PNPO-related neonatal epileptic encephalopathy|pnpo deficiency|pyridox(am)ine 5’-phosphate oxidase deficiency|pyridoxal phosphate-dependent seizures|pyridoxamine 5'-oxidase deficiency|pyridoxamine 5'-phosphate oxidase deficiency|pyridoxine 5' phosphate oxidase deficiency		obo:gard#uncategorized	
 10731	McLeod neuroacanthocytosis syndrome		MLS|McLeod syndrome|X-linked McLeod syndrome|mcleod syndrome with or without chronic granulomatous disease		obo:gard#uncategorized	
 10732	Leukoencephalopathy with calcifications and cysts		LCC|leukoencephalopathy, brain calcifications, and cysts		obo:gard#uncategorized	
 10734	DICER1-related tumor predisposition		DICER1 syndrome|PPB familial tumor susceptibility syndrome|PPB familial tumour susceptibility syndrome|PPBFTDS|pleuro-pulmonary blastoma familial tumor susceptibility syndrome|pleuro-pulmonary blastoma familial tumour susceptibility syndrome|pleuropulmonary blastoma familial tumor susceptibility syndrome|pleuropulmonary blastoma familial tumour susceptibility syndrome		obo:gard#uncategorized	
@@ -525,7 +525,7 @@ identifier	name	definition	synonyms	alts	parents	species
 10909	Adult-onset foveomacular vitelliform dystrophy		AOFMD|AVMD|Gass disease|adult-onset foveomacular dystrophy|adult-onset foveomacular dystrophy with choroidal neovascularization|adult-onset vitelliform macular dystrophy|macular dystrophy, vitelliform, type 3|pseudo-Best disease|pseudo-vitelliform macular dystrophy		obo:gard#uncategorized	
 10910	Medial condensing osteitis of the clavicle		condensing osteitis of the clavicle|condensing osteitis of the medial clavicle|osteitis condensans of the clavicle		obo:gard#uncategorized	
 10911	Autoimmune pancreatitis		AIP		obo:gard#uncategorized	
-10913	Griscelli syndrome		ChC)diak-Higashi-like syndrome|Chédiak-Higashi-like syndrome|Ch��diak-Higashi-like syndrome|Griscelli-PruniC)ras syndrome|Griscelli-Pruniéras syndrome|Griscelli-Pruni��ras syndrome|partial albinism-immunodeficiency syndrome		obo:gard#uncategorized	
+10913	Griscelli syndrome		Chédiak-Higashi-like syndrome|Griscelli-Pruniéras syndrome|partial albinism-immunodeficiency syndrome		obo:gard#uncategorized	
 10914	Familial avascular necrosis of femoral head		aseptic Necrosis of femoral head|aseptic Necrosis of head of femur|familial osteonecrosis of the femoral head		obo:gard#uncategorized	
 10915	X-linked lymphoproliferative syndrome		Duncan disease|Purtilo syndrome|X linked Lymphoproliferative Syndrome|lymphoproliferative syndrome, X-linked		obo:gard#uncategorized	
 10916	X-linked lymphoproliferative disease due to XIAP deficiency		X-linked lymphoproliferative syndrome type 2|XIAP deficiency/XLPs|XLP2|lymphoproliferative syndrome, X-linked, 2, X-linked recessive|lymphoproliferative syndrome, X-linked, type 2|xiap deficiency		obo:gard#uncategorized	
@@ -547,11 +547,10 @@ identifier	name	definition	synonyms	alts	parents	species
 10939	Cloves syndrome		CLOVE syndrome, somatic|congenital lipomatous overgrowth, vascular malformations, and epidermal nevi|congenital lipomatous overgrowth-vascular malformation-epidermal nevi-skeletal anomaly syndrome|congenital lipomatous overgrowth-vascular malformation-epidermal nevi-spinal anomaly syndrome		obo:gard#uncategorized	
 1094	Cardiac diverticulum		cardiac diverticulum (disease)		obo:gard#uncategorized	
 10940	Superior limbic keratoconjunctivitis		SLK|Theodore's superior limbic keratoconjunctivitis|Theodore's syndrome		obo:gard#uncategorized	
-10941	Anterior uveitis		anterior uveitis (disease)		obo:gard#uncategorized	
 10942	Glaucoma secondary to spherophakia/ectopia lentis and megalocornea		megalocornea-spherophakia-secondary glaucoma syndrome		obo:gard#uncategorized	
 10943	1q44 microdeletion syndrome		Del(1)(q44)|monosomy 1q44		obo:gard#uncategorized	
-10944	COG6-ongenital disorder of glycosylation		CDG syndrome type IIL|CDG-IIL|CDG2L|COG6-CDG|COG6-congenital disorder of glycosylation|congenital disorder of glycosylation type 2l|congenital disorder of glycosylation type IIL		obo:gard#uncategorized	
-10945	Short stature-optic atrophy-Pelger-HuC+t anomaly syndrome		soph syndrome		obo:gard#uncategorized	
+10944	COG6-congenital disorder of glycosylation		CDG syndrome type IIL|CDG-IIL|CDG2L|COG6-CDG|congenital disorder of glycosylation type 2l|congenital disorder of glycosylation type IIL		obo:gard#uncategorized	
+10945	Short stature-optic atrophy-Pelger-Huët anomaly syndrome		soph syndrome		obo:gard#uncategorized	
 10946	Corticosteroid-sensitive aseptic abscess syndrome		aseptic abscesses syndrome|aseptic systemic abscesses|disseminated aseptic abscesses		obo:gard#uncategorized	
 10947	UV-sensitive syndrome				obo:gard#uncategorized	
 10948	Erythropoietic uroporphyria associated with myeloid malignancy				obo:gard#uncategorized	
@@ -1113,7 +1112,7 @@ identifier	name	definition	synonyms	alts	parents	species
 13244	X-linked intellectual disability, Cabezas type		Cabezas syndrome|Cabezas syndrome|MRSS|MRXS15|MRXSC|X-linked intellectual disability with short stature|X-linked intellectual disability with short stature, hypogonadism, and abnormal gait|intellectual disability, X-linked, syndromic 15 (Cabezas type)|intellectual disability, X-linked, with short stature|mental retardation, X-linked, syndromic 15 (Cabezas type), X-linked recessive|syndromic X-linked intellectual disability 15|syndromic X-linked intellectual disability Cabezas type		obo:gard#uncategorized	
 1325	Ring chromosome 12		Ring chromosome type 12		obo:gard#uncategorized	
 13256	IgG4-related pachymeningitis		idiopathic hypertrophic pachymeningitis		obo:gard#uncategorized	
-13259	Severe feeding difficulties-failure to thrive-microcephaly due to asxl3 deficiency syndrome		ASXL3-Related Disorder|Bainbridge-Ropers syndrome		obo:gard#uncategorized	
+13259	ASXL3-Related Disorder		Bainbridge-Ropers syndrome|Severe feeding difficulties-failure to thrive-microcephaly due to asxl3 deficiency syndrome		obo:gard#uncategorized	
 13264	Infantile cerebellar-retinal degeneration				obo:gard#uncategorized	
 1327	Mosaic trisomy 14		Mosaic trisomy type 14		obo:gard#uncategorized	
 13273	Psat deficiency		phosphoserine aminotransferase deficiency		obo:gard#uncategorized	
@@ -1131,7 +1130,7 @@ identifier	name	definition	synonyms	alts	parents	species
 13331	Familial reactive perforating collagenosis				obo:gard#uncategorized	
 13334	Niemann-Pick disease		Niemann-Pick disease with cholesterol esterification block|Niemann-Pick disease, subacute juvenile form|lipoid histiocytosis|lipoid histiocytosis (classical phosphatide)|sphingomyelin lipidosis|sphingomyelin/cholesterol lipidosis|sphingomyelinase deficiency disease		obo:gard#uncategorized	
 13339	BENTA disease		B-cell expansion with NF-kB and T-cell anergy disease		obo:gard#uncategorized	
-1334	Ring chromosome 20		Ring chromosome type 20		obo:gard#uncategorized	
+1334	Ring chromosome 20		ring chromosome 20 syndrome|ring chromosome type 20		obo:gard#uncategorized	
 13349	Postaxial polydactyly-anterior pituitary anomalies-facial dysmorphism syndrome				obo:gard#uncategorized	
 13354	Morning glory syndrome		Ectasic coloboma|Volubilis syndrome		obo:gard#uncategorized	
 1336	Ring chromosome 22		Ring chromosome type 22|chromosome 22 ring|r(22) syndrome		obo:gard#uncategorized	
@@ -1278,7 +1277,7 @@ identifier	name	definition	synonyms	alts	parents	species
 15072	Coffin-siris syndrome 1		ARID1B-related BAFopathy|CSS1|MRD12|hypertrichosis, hyperkeratosis, intellectual disability, and distinctive facial features|intellectual disability, autosomal dominant 12		obo:gard#uncategorized	
 15095	Neuropathy, hereditary sensory and autonomic, type 1A		HSAN1A|SPTLC1 hereditary sensory and autonomic neuropathy type 1|hereditary sensory and autonomic neuropathy type 1 caused by mutation in SPTLC1|hereditary sensory and autonomic neuropathy type IA		obo:gard#uncategorized	
 1512	Hereditary continuous muscle fiber activity		continuous muscle fiber activity hereditary|continuous muscle fibre activity hereditary		obo:gard#uncategorized	
-1513	Continuous spikes and waves during sleep		CSWS|CSWSS syndrome|continuous spikes and waves during slow-wave sleep|epileptic encephalopathy with continuous spike-and-wave during slow sleep		obo:gard#uncategorized	
+1513	Continuous spikes and waves during sleep		CSWS|CSWSS syndrome|EE-SWAS|EESWAS|ESES with language regression|LK syndrome|LKS|continuous slow spike and wave of sleep|continuous spike-wave in sleep|continuous spikes and waves during slow-wave sleep|electrical status epilepticus of sleep|electrographic status epilepticus in sleep|electrographic status epilepticus of sleep|epileptic aphasia|epileptic encephalopathy with continuous spike-and-wave during slow sleep|epileptic encephalopathy with spike and wave activation in sleep|epileptic encephalopathy with spike-and-wave activation in sleep|eses index		obo:gard#uncategorized	
 1515	Contractures-ectodermal dysplasia-cleft lip/palate syndrome		Ladda-Zonana-Ramer syndrome		obo:gard#uncategorized	
 1516	Restrictive dermopathy		lethal hyperkeratosis-contracture syndrome|lethal restrictive dermopathy|lethal tight skin-contracture syndrome|tight skin contracture syndrome		obo:gard#uncategorized	
 1519	Benign neonatal seizures		BFNS|benign familal neonatal seizures|benign familial convulsion|benign familial convulsions|benign familial neonatal convulsions|benign familial neonatal epilepsy|benign familial neonatal seizures|benign neonatal convulsions|familial neonatal seizures|seizures, benign familial neonatal		obo:gard#uncategorized	
@@ -1332,7 +1331,7 @@ identifier	name	definition	synonyms	alts	parents	species
 1605	Craniotelencephalic dysplasia				obo:gard#uncategorized	
 1608	Creatine transporter deficiency		SLC6A8 deficiency|cerebral creatine deficiency syndrome 1|cerebral creatine deficiency syndrome 1, X-linked recessive|cerebral creatine deficiency syndrome type 1		obo:gard#uncategorized	
 1609	Creeping myiasis		migratory myiasis		obo:gard#uncategorized	
-16108	Myoclonic-atonic epilepsy		Myoclonic Atonic Epilepsy		obo:gard#uncategorized	
+16108	Myoclonic-atonic epilepsy		MAE|Myoclonic Atonic Epilepsy		obo:gard#uncategorized	
 1611	Cold-induced sweating syndrome 1		Crisponi syndrome|cold-induced sweating syndrome type 1		obo:gard#uncategorized	
 1613	Exudative vitreoretinopathy		Criswick-Schepens syndrome|FEVR|familial exudative vitreoretinopathy		obo:gard#uncategorized	
 1614	Cataract-nephropathy-encephalopathy syndrome		crome syndrome		obo:gard#uncategorized	
@@ -1371,7 +1370,7 @@ identifier	name	definition	synonyms	alts	parents	species
 16542	Porokeratosis plantaris palmaris et disseminata		palmar, plantar and disseminated porokeratosis|porokeratosis 2, palmar, plantar, and disseminated		obo:gard#uncategorized	
 16543	Hereditary thrombophilia due to congenital protein S deficiency		autosomal recessive thrombophilia due to congenital protein S deficiency		obo:gard#uncategorized	
 16544	Hereditary thrombophilia due to congenital protein C deficiency		Protein C deficiency disease|autosomal recessive thrombophilia due to PC deficiency|autosomal recessive thrombophilia due to congenital protein C deficiency|hereditary thrombophilia due to PC deficiency|protein c deficiency		obo:gard#uncategorized	
-16545	Pseudohypoaldosteronism type 1		PHA type 1|PHA1B|pseudohypoaldosteronism type I autosomal recessive		obo:gard#uncategorized	
+16545	Pseudohypoaldosteronism type 1		PHA type 1|pseudohypoaldosteronism, type I		obo:gard#uncategorized	
 16548	Estrogen resistance syndrome				obo:gard#uncategorized	
 16549	Encephalopathy due to sulfite oxidase deficiency				obo:gard#uncategorized	
 16550	Lown-Ganong-Levine syndrome		LGL syndrome|atrial tachyarrhythmia with short PR interval|syndrome of short P-R interval, normal QRS complexes, and supraventricular tachycardias		obo:gard#uncategorized	
@@ -1401,7 +1400,7 @@ identifier	name	definition	synonyms	alts	parents	species
 16576	Chronic diarrhea with villous atrophy				obo:gard#uncategorized	
 16578	Ectodermal dysplasia-intellectual disability-central nervous system malformation syndrome				obo:gard#uncategorized	
 16580	Diabetic embryopathy				obo:gard#uncategorized	
-16581	Early myoclonic encephalopathy		early myoclonic encephalopathy with suppression-bursts|eme|epileptic seizures - myoclonic|epileptic seizures, myoclonic|myoclonia epileptica|myoclonic epilepsy|myoclonic seizure|myoclonic seizure disorder		obo:gard#uncategorized	
+16581	Early myoclonic encephalopathy		EME|early myoclonic encephalopathy with suppression-bursts|epileptic seizures - myoclonic|epileptic seizures, myoclonic|myoclonia epileptica|myoclonic epilepsy|myoclonic seizure|myoclonic seizure disorder		obo:gard#uncategorized	
 16582	Hereditary gingival fibromatosis		autosomal dominant gingival fibromatosis|autosomal dominant gingival hyperplasia|hereditary gingival hyperplasia		obo:gard#uncategorized	
 16585	46,XX ovotesticular disorder of sex development		46,XX ovotesticular DSD|ovotesticular DSD|ovotesticular differences of sex development|ovotesticular disorders of sex development		obo:gard#uncategorized	
 16586	Nodular neuronal heterotopia		genetic nodular heterotopia|nodular heterotopia		obo:gard#uncategorized	
@@ -1450,7 +1449,7 @@ identifier	name	definition	synonyms	alts	parents	species
 16645	Congenital cataracts-facial dysmorphism-neuropathy syndrome		CCFDN		obo:gard#uncategorized	
 16646	Lipodystrophy-intellectual disability-deafness syndrome		Rajab-Spranger syndrome		obo:gard#uncategorized	
 16647	Craniolenticulosutural dysplasia		Boyadjiev-Jabs syndrome|cranio-lenticulo-sutural dysplasia, CLSD		obo:gard#uncategorized	
-16648	Branchiogenic deafness syndrome		MC)garbanC)-Loiselet syndrome|Mégarbané-Loiselet syndrome		obo:gard#uncategorized	
+16648	Branchiogenic deafness syndrome		Mégarbané-Loiselet syndrome		obo:gard#uncategorized	
 16649	Schöpf-Schulz-Passarge syndrome		SSPS|eccrine tumors-ectodermal dysplasia|keratosis palmoplantaris-cystic eyelids-hypodontia-hypotrichosis syndrome|palmoplantar hyperkeratosis-cystic eyelids-hypodontia-hypotrichosis syndrome|palmoplantar keratoderma-cystic eyelids-hypodontia-hypotrichosis syndrome		obo:gard#uncategorized	
 16650	Short QT syndrome		ventricular arrhythmia associated with short QT syndrome		obo:gard#uncategorized	
 16651	Torsade-de-pointes syndrome with short coupling interval				obo:gard#uncategorized	
@@ -1515,7 +1514,7 @@ identifier	name	definition	synonyms	alts	parents	species
 16730	Senior-Boichis syndrome		Boichis disease|nephronophthisis-hepatic fibrosis syndrome		obo:gard#uncategorized	
 16731	Hereditary thermosensitive neuropathy				obo:gard#uncategorized	
 16733	Palmoplantar keratoderma-xx sex reversal-predisposition to squamous cell carcinoma syndrome		palmoplantar hyperkeratosis with squamous cell carcinoma of skin and sex reversal|palmoplantar hyperkeratosis-XX sex reversal-predisposition to squamous cell carcinoma syndrome		obo:gard#uncategorized	
-16734	Bothnia retinal dystrophy		VC$sterbotten dystrophy|Vasterbotten dystrophy|Västerbotten dystrophy		obo:gard#uncategorized	
+16734	Bothnia retinal dystrophy		Vasterbotten dystrophy|Västerbotten dystrophy		obo:gard#uncategorized	
 16735	Familial digital arthropathy-brachydactyly				obo:gard#uncategorized	
 16736	Microcephalic osteodysplastic dysplasia, saul-wilson type		SWILS|Saul-Wilson syndrome|microcephalic osteodysplastic dysplasia		obo:gard#uncategorized	
 16737	Craniometadiaphyseal dysplasia, wormian bone type		Schwartz-Lelek syndrome		obo:gard#uncategorized	
@@ -1868,7 +1867,7 @@ identifier	name	definition	synonyms	alts	parents	species
 17286	Diazoxide-resistant focal hyperinsulinism due to kir6.2 deficiency		hyperinsulinemic hypoglycemia due to Kir6.2 deficiency, diazoxide-resistant focal form		obo:gard#uncategorized	
 17287	Hereditary neutrophilia				obo:gard#uncategorized	
 17288	Severe combined immunodeficiency due to lck deficiency		SCID due to LCK deficiency|SCID due to lymphocyte-specific protein tyrosine kinase deficiency|immunodeficiency type 22|severe combined immunodeficiency due to lymphocyte-specific protein tyrosine kinase deficiency		obo:gard#uncategorized	
-17290	Microform holoprosencephaly		HPE, minor form|HPE-L|HoloprosencC)phalie, minor form|Holoprosencéphalie, minor form|Microform HPE|holoprosencephaly-like		obo:gard#uncategorized	
+17290	Microform holoprosencephaly		HPE, minor form|HPE-L|Holoprosencéphalie, minor form|Microform HPE|holoprosencephaly-like		obo:gard#uncategorized	
 17293	Hypomyelinating leukodystrophy 2		GJC2 leukodystrophy|HLD2|PMLD1|Pelizaeus-Merzbacher-like disease 1|Pelizaeus-Merzbacher-like disease due to GJC2 mutation|hypomyelinating leukodystrophy type 2|leukodystrophy caused by mutation in GJC2|leukodystrophy, hypomyelinating, type 2		obo:gard#uncategorized	
 17295	Familial steroid-resistant nephrotic syndrome with sensorineural deafness		coenzyme Q10 deficiency, primary, type 6		obo:gard#uncategorized	
 17296	Fatal infantile hypertonic myofibrillar myopathy		alpha-B crystalin-related fatal infantile hypertonic myofibrillar myopathy		obo:gard#uncategorized	
@@ -2063,7 +2062,7 @@ identifier	name	definition	synonyms	alts	parents	species
 17588	Cardiac anomalies - developmental delay - facial dysmorphism syndrome		MRFACD|impaired intellectual development and distinctive facial features with or without cardiac defects|intellectual disability and distinctive facial features with or without cardiac defects		obo:gard#uncategorized	
 17589	Combined oxidative phosphorylation defect type 17		COXPD17|ELAC2 combined oxidative phosphorylation deficiency|combined oxidative phosphorylation deficiency caused by mutation in ELAC2|combined oxidative phosphorylation deficiency type 17		obo:gard#uncategorized	
 17590	Pontocerebellar hypoplasia type 9		AMPD2 non-syndromic pontocerebellar hypoplasia|PCH9|non-syndromic pontocerebellar hypoplasia caused by mutation in AMPD2		obo:gard#uncategorized	
-17591	Aldosterone-producing adenoma with seizures and neurological abnormalities		APA with seizures and neurological abnormalities|Conn adenoma with seizures and neurological abnormalities|aldosterone-secreting adenoma with seizures and neurological abnormalities|primary aldosteronism, seizures, and neurologic abnormalities		obo:gard#uncategorized	
+17591	Aldosterone-producing adenoma with seizures and neurological abnormalities		APA with seizures and neurological abnormalities|Conn adenoma with seizures and neurological abnormalities|aldosterone-secreting adenoma with seizures and neurological abnormalities|complex neurodevelopmental disorder with or without aldosteronism|primary aldosteronism, seizures, and neurologic abnormalities		obo:gard#uncategorized	
 17592	Severe motor and intellectual disabilities-sensorineural deafness-dystonia syndrome		deafness, dystonia, and cerebral hypomyelination, X-linked recessive		obo:gard#uncategorized	
 17593	Microcornea-myopic chorioretinal atrophy		MMCAT syndrome|microcornea-myopic chorioretinal atrophy-telecanthus syndrome		obo:gard#uncategorized	
 17594	Severe dermatitis-multiple allergies-metabolic wasting syndrome		congenital erythroderma-hypotrichosis-recurrent infections-multiple food allergies syndrome|erythroderma, congenital, with palmoplantar keratoderma, hypotrichosis, and hyper IgE|sam syndrome		obo:gard#uncategorized	
@@ -2095,7 +2094,7 @@ identifier	name	definition	synonyms	alts	parents	species
 17636	Autosomal recessive spinocerebellar ataxia 20		SCAR20|SNX14 autosomal recessive cerebellar ataxia|autosomal recessive cerebellar ataxia caused by mutation in SNX14|autosomal recessive spinocerebellar ataxia type 20|intellectual disability-coarse face-macrocephaly-cerebellar hypoplasia syndrome|spinocerebellar ataxia, autosomal recessive type 20		obo:gard#uncategorized	
 17637	Joubert syndrome with Jeune asphyxiating thoracic dystrophy		JBTS with JATD|Joubert syndrome with JATD		obo:gard#uncategorized	
 17638	Charcot-Marie-Tooth disease axonal type 2U		CMT2U|Charcot-Marie-Tooth disease type 2 caused by mutation in MARS|Charcot-Marie-Tooth neuropathy type 2U|MARS Charcot-Marie-Tooth disease type 2|autosomal dominant Charcot-Marie-Tooth disease type 2 due to MARS mutation|autosomal dominant Charcot-Marie-Tooth disease type 2U|autosomal dominant axonal Charcot-Marie-Tooth disease type 2U		obo:gard#uncategorized	
-17639	Peripheral neuropathy-myopathy-hoarseness-hearing loss syndrome		peripheral neuropathy-myopathy-hoarseness-deafness syndrome		obo:gard#uncategorized	
+17639	Peripheral neuropathy-myopathy-hoarseness-hearing loss syndrome		PNMHH|peripheral neuropathy-myopathy-hoarseness-deafness syndrome		obo:gard#uncategorized	
 17640	Retinal dystrophy with inner retinal dysfunction and ganglion cell anomalies		retinal dystrophy with inner nuclear layer and ganglion cell anomalies		obo:gard#uncategorized	
 17642	Sacral agenesis-abnormal ossification of the vertebral bodies-persistent notochordal canal syndrome				obo:gard#uncategorized	
 17643	Polyglucosan body myopathy 1 with or without immunodeficiency		PGBM1|polyglucosan body myopathy type 1|polyglucosan body myopathy, early-onset, with or without immunodeficiency		obo:gard#uncategorized	
@@ -2145,7 +2144,7 @@ identifier	name	definition	synonyms	alts	parents	species
 17694	Dystonia 23		CACNA1B dystonic disorder|DYT23|dystonia type 23|dystonic disorder caused by mutation in CACNA1B		obo:gard#uncategorized	
 17695	Platelet-type bleeding disorder 18		BDPLT18|RASGRP2 inherited bleeding disorder, platelet-type|bleeding disorder due to CalDAG-GEFI deficiency|bleeding disorder due to calcium- and DAG-regulated guanine exchange factor-1 deficiency|inherited bleeding disorder, platelet-type caused by mutation in RASGRP2		obo:gard#uncategorized	
 17696	Severe combined immunodeficiency due to ctps1 deficiency		SCID due to CTPS1 deficiency|immunodeficiency type 24		obo:gard#uncategorized	
-17697	Woolly hair-palmoplantar keratoderma syndrome		KWWH type IV|keratoderma with woolly hair type IV|keratoderma with wooly hair type IV|woolly hair-palmoplantar hyperkeratosis syndrome|wooly hair-palmoplantar hyperkeratosis syndrome		obo:gard#uncategorized	
+17697	Woolly hair-palmoplantar keratoderma syndrome		KWWH type IV|Wooly hair-palmoplantar keratoderma syndrome|keratoderma with woolly hair type IV|keratoderma with wooly hair type IV|woolly hair-palmoplantar hyperkeratosis syndrome|wooly hair-palmoplantar hyperkeratosis syndrome		obo:gard#uncategorized	
 17698	Autosomal recessive severe congenital neutropenia due to csf3r deficiency		neutropenia, severe congenital, 7, autosomal recessive		obo:gard#uncategorized	
 17699	Combined oxidative phosphorylation defect type 20		COXPD20|VARS2 combined oxidative phosphorylation deficiency|combined oxidative phosphorylation deficiency caused by mutation in VARS2|combined oxidative phosphorylation deficiency type 20		obo:gard#uncategorized	
 177	Macrosomia-microphthalmia-cleft palate syndrome		Teebi-Al Saleh-Hassoon syndrome		obo:gard#uncategorized	
@@ -2189,7 +2188,7 @@ identifier	name	definition	synonyms	alts	parents	species
 17741	ITM2B amyloidosis		ITM2B-related amyloidosis|ITM2B-related cerebral amyloid angiopathy|familial cerebral amyloid angiopathy		obo:gard#uncategorized	
 17742	Chromosome 5q12 deletion syndrome				obo:gard#uncategorized	
 17743	Lethal fetal cerebrorenogenitourinary agenesis/hypoplasia syndrome		Meckel syndrome type 12		obo:gard#uncategorized	
-17744	Interstitial lung disease due to sp-c deficiency		interstitial lung disease due to surfactant protein C deficiency		obo:gard#uncategorized	
+17744	SFTPC- related interstitial lung disease		SFTPC-related ILD|interstitial lung disease due to SP-C deficiency|interstitial lung disease due to surfactant protein C deficiency		obo:gard#uncategorized	
 17745	Interstitial lung disease due to abca3 deficiency		interstitial lung disease due to ATP-binding cassette subfamily A member 3 deficiency|surfactant metabolism dysfunction, pulmonary, type 3		obo:gard#uncategorized	
 17746	Severe early-onset pulmonary alveolar proteinosis due to mars deficiency		PAP, Reunion island type|hereditary pulmonary alveolar proteinosis with hepatic involvement|interstitial lung and liver disease|pulmonary alveolar proteinosis, Reunion island type		obo:gard#uncategorized	
 17747	Ribose-5-p isomerase deficiency				obo:gard#uncategorized	
@@ -2453,7 +2452,7 @@ identifier	name	definition	synonyms	alts	parents	species
 18615	Dilated cardiomyopathy 1A		CDCD1|LMNA familial isolated dilated cardiomyopathy|cardiomyopathy dilated with conduction defect type 1|cardiomyopathy, dilated, type 1A|dilated cardiomyopathy type 1A|dilated cardiomyopathy with conduction defect 1|familial dilated cardiomyopathy with conduction defect due to LMNA mutation|familial isolated dilated cardiomyopathy caused by mutation in LMNA		obo:gard#uncategorized	
 18616	Myoclonic dystonia 11		SGCE myoclonus-dystonia syndrome|alcohol-responsive dystonia|dystonia-11, myoclonic|myoclonic dystonia type 11|myoclonus-dystonia syndrome caused by mutation in SGCE		obo:gard#uncategorized	
 1862	Palmoplantar keratoderma, bothnian type				obo:gard#uncategorized	
-18641	Generalized epilepsy with febrile seizures plus		GEFS+|epilepsy, generalized, with febrile seizures plus|genetic epilepsy with febrile seizures plus|genetic epilepsy with febrile seizures-plus		obo:gard#uncategorized	
+18641	Generalized epilepsy with febrile seizures plus		GEFS+|epilepsy, generalized, with febrile seizures plus|generalised epilepsy with febrile seizures-plus|genetic epilepsy with febrile seizures plus|genetic epilepsy with febrile seizures-plus		obo:gard#uncategorized	
 18642	Hereditary persistence of fetal hemoglobin-beta-thalassemia syndrome		HPFH-beta-thalassemia syndrome		obo:gard#uncategorized	
 18648	Hereditary persistence of fetal hemoglobin-sickle cell disease syndrome		HPFH-sickle cell disease syndrome		obo:gard#uncategorized	
 18649	Mitochondrial proton-transporting ATP synthase complex deficiency		mitochondrial complex V (ATP synthase) deficiency		obo:gard#uncategorized	
@@ -2606,7 +2605,7 @@ identifier	name	definition	synonyms	alts	parents	species
 1907	Double outlet left ventricle		DOLV|double outlet left ventricle (disease)		obo:gard#uncategorized	
 1908	Double outlet right ventricle		DORV|Dextrotransposition of aorta		obo:gard#uncategorized	
 19084	Hypothalamic hamartomas with gelastic seizures				obo:gard#uncategorized	
-19087	Epilepsy with myoclonic absences				obo:gard#uncategorized	
+19087	Epilepsy with myoclonic absences		EMA		obo:gard#uncategorized	
 19088	Myoclonic epilepsy in non-progressive encephalopathies		myoclonic status in non-progressive encephalopathies|myoclonus epilepsy in non-progressive encephalopathies		obo:gard#uncategorized	
 19089	Diffuse palmoplantar keratoderma - acrocyanosis syndrome		diffuse palmoplantar hyperkeratosis-acrocyanosis syndrome		obo:gard#uncategorized	
 19092	Obesity-colitis-hypothyroidism-cardiac hypertrophy-developmental delay syndrome				obo:gard#uncategorized	
@@ -2681,8 +2680,8 @@ identifier	name	definition	synonyms	alts	parents	species
 19382	Maternal uniparental disomy of chromosome 13		UPD(13)mat|maternal uniparental disomy of chromosome type 13		obo:gard#uncategorized	
 194	GABA aminotransaminase deficiency		GABA aminotransferase deficiency|GABA transaminase deficiency|gamma-amino butyric acid transaminase deficiency|gamma-aminobutyric acid transaminase deficiency		obo:gard#uncategorized	
 195	Hyperkalemic periodic paralysis		Gamstorp disease|Gamstorp episodic adynamy|HYPP|adynamia episodica hereditaria|adynamia episodica hereditaria with or without myotonia|familial hyperPP|familial hyperkalemic periodic paralysis|familial hyperkalemic periodic paralysis (disorder) [ambiguous]|hyperKPP|hyperPP|hyperkalemic PP|hyperkalemic periodic paralysis, type 2|normokalemic periodic paralysis, potassium-sensitive|primary hyperPP|primary hyperkalemic periodic paralysis		obo:gard#uncategorized	
-19579	Isochromosomy yp				obo:gard#uncategorized	
-19580	Isochromosomy yq				obo:gard#uncategorized	
+19579	Isochromosomy Yp				obo:gard#uncategorized	
+19580	Isochromosomy Yq				obo:gard#uncategorized	
 19605	Coloboma of eyelid		coloboma of the eyelid		obo:gard#uncategorized	
 19610	Congenital hereditary endothelial dystrophy type I		CHED1|CHEDI|autosomal dominant CHED|autosomal dominant congenital hereditary endothelial dystrophy|congenital hereditary endothelial dystrophy type 1		obo:gard#uncategorized	
 19612	Multifocal pattern dystrophy simulating fundus flavimaculatus		multifocal pattern dystrophy simulating Stargardt disease		obo:gard#uncategorized	
@@ -2846,10 +2845,10 @@ identifier	name	definition	synonyms	alts	parents	species
 20780	Distal 22q11.2 microduplication syndrome		distal dup(22)(q11.2)|distal trisomy 22q11.2		obo:gard#uncategorized	
 20781	Trisomy 1q		Duplication 1q|trisomy type 1q		obo:gard#uncategorized	
 20782	Atypical Norrie disease due to monosomy Xp11.3		atypical Norrie disease due to Xp11.3 microdeletion|atypical Norrie disease due to del(X)(p11.3)		obo:gard#uncategorized	
-20783	Maternal uniparental disomy of chromosome x		UPD(X)mat|maternal uniparental disomy of chromosome type X		obo:gard#uncategorized	
-20784	Paternal uniparental disomy of chromosome x		UPD(X)pat|paternal uniparental disomy of chromosome type X		obo:gard#uncategorized	
+20783	Maternal uniparental disomy of chromosome X		UPD(X)mat|maternal uniparental disomy of chromosome type X		obo:gard#uncategorized	
+20784	Paternal uniparental disomy of chromosome X		UPD(X)pat|paternal uniparental disomy of chromosome type X		obo:gard#uncategorized	
 20785	Ring chromosome y		Ring chromosome type Y|r(Y)		obo:gard#uncategorized	
-2081	Ehlers-danlos syndrome, hypermobility type		BJHS|EDS III|EDSHMB|Ehlers-Danlos syndrome type 3|Ehlers-Danlos syndrome type 3 (formerly)|Ehlers-Danlos syndrome, hypermobile type|Ehlers-Danlos syndrome, type 3|Ehlers-Danlos syndrome, type III|HT-EDS|benign joint hypermobility syndrome		obo:gard#uncategorized	
+2081	Ehlers-danlos syndrome, hypermobility type		EDS III|EDSHMB|Ehlers-Danlos syndrome type 3|Ehlers-Danlos syndrome type 3 (formerly)|Ehlers-Danlos syndrome, hypermobile type|Ehlers-Danlos syndrome, type 3|Ehlers-Danlos syndrome, type III|HT-EDS		obo:gard#uncategorized	
 2082	Ehlers-Danlos syndrome, vascular type		EDS IV|EDS type 4|Ehlers-Danlos syndrome type 4|Ehlers-Danlos syndrome type IV|Ehlers-Danlos syndrome, type IV|sack-Barabas syndrome		obo:gard#uncategorized	
 2084	Ehlers-Danlos syndrome, arthrochalasia type		EDS VII|Ehlers-Danlos syndrome type 7|Ehlers-Danlos syndrome, type VII		obo:gard#uncategorized	
 2088	Ehlers-Danlos syndrome, classic type		EDS, classic type|Ehlers-Danlos syndrome classic type		obo:gard#uncategorized	
@@ -3020,13 +3019,13 @@ identifier	name	definition	synonyms	alts	parents	species
 2166	Celiac disease-epilepsy-cerebral calcification syndrome		CEC|celiac disease, epilepsy, and cerebral calcification syndrome|coeliac disease, epilepsy, and cerebral calcification syndrome		obo:gard#uncategorized	
 2167	Progressive myoclonic epilepsy type 3		EPM3|KCTD7 progressive myoclonic epilepsy|PME type 3|epilepsy, progressive myoclonic 3, with or without intracellular inclusions|progressive myoclonic epilepsy caused by mutation in KCTD7|progressive myoclonic epilepsy due to KCTD7 deficiency|progressive myoclonus epilepsy type 3		obo:gard#uncategorized	
 2168	Epilepsy-telangiectasia syndrome				obo:gard#uncategorized	
-2169	Myoclonic-astatic epilepsy		Doose syndrome|EMAS|epilepsy with myoclonic-astatic seizures|epilepsy with myoclonic-atonic seizures|myoclonic atonic epilepsy|myoclonic-astatic epilepsy in early childhood		obo:gard#uncategorized	
+2169	Myoclonic-astatic epilepsy		Doose syndrome|EMAS|epilepsy with myoclonic atonic seizures|epilepsy with myoclonic-astatic seizures|epilepsy with myoclonic-atonic seizures|myoclonic atonic epilepsy|myoclonic-astatic epilepsy in early childhood		obo:gard#uncategorized	
 21695	Autosomal recessive spastic paraplegia type 59		SPG59		obo:gard#uncategorized	
 21696	Autosomal recessive spastic paraplegia type 60		SPG60		obo:gard#uncategorized	
 21697	Autosomal recessive spastic paraplegia type 66		SPG66		obo:gard#uncategorized	
 21698	Autosomal recessive spastic paraplegia type 67		SPG67		obo:gard#uncategorized	
 21699	Autosomal recessive spastic paraplegia type 69		SPG69		obo:gard#uncategorized	
-2170	Benign occipital epilepsy				obo:gard#uncategorized	
+2170	Self-limited childhood occipital epilepsy		benign occipital epilepsy		obo:gard#uncategorized	
 21700	Autosomal recessive spastic paraplegia type 70		SPG70		obo:gard#uncategorized	
 21701	Autosomal recessive spastic paraplegia type 71		SPG71		obo:gard#uncategorized	
 21702	Huntington disease-like syndrome due to C9ORF72 expansions		C9ORF72-related Huntington disease phenocopy|C9ORF72-related Huntington disease-like syndrome|Huntington disease phenocopy due to C9ORF72 expansions		obo:gard#uncategorized	
@@ -3230,7 +3229,6 @@ identifier	name	definition	synonyms	alts	parents	species
 2355	Ichthyosis, follicular		follicular ichthyosis		obo:gard#uncategorized	
 2356	Follicular lymphoma		follicle center lymphoma|follicle centre lymphoma|follicular center cell lymphoma|follicular centre cell lymphoma|follicular non-Hodgkin lymphoma|follicular non-Hodgkin's lymphoma|lymphoma, follicular center cell|lymphoma, follicular centre cell|lymphoma, follicular, malignant		obo:gard#uncategorized	
 236	Hydrocephalus-blue sclerae-nephropathy syndrome		Daentl-Townsend-Siegel syndrome|familial nephrosis, hydrocephalus, thin skin, blue sclerae syndrome|hydrocephalus blue sclera nephropathy		obo:gard#uncategorized	
-2361	Formaldehyde poisoning				obo:gard#uncategorized	
 2362	Cardiospondylocarpofacial syndrome		Forney syndrome|Forney-Robinson-Pascoe syndrome|mitral regurgitation-deafness-skeletal anomalies syndrome		obo:gard#uncategorized	
 2365	Polycystic ovaries-urethral sphincter dysfunction syndrome		fowler-Christmas-Chapple syndrome		obo:gard#uncategorized	
 237	Dahlberg-Borer-Newcomer syndrome		Dahlberg syndrome|lymphedema-hypoparathyroidism syndrome		obo:gard#uncategorized	
@@ -3311,7 +3309,7 @@ identifier	name	definition	synonyms	alts	parents	species
 2557	Graham-Boyle-Troxell syndrome		cystic hamartoma of lung and kidney|graham Boyle Troxell syndrome		obo:gard#uncategorized	
 2559	Grant syndrome				obo:gard#uncategorized	
 2562	Gray platelet syndrome		Alpha storage pool deficiency|BDPLT4|GPS|platelet alpha-granule deficiency|platelet-type bleeding disorder 4		obo:gard#uncategorized	
-2566	Griscelli syndrome type 1		GS1|Griscelli syndrome with neurological impairment|Griscelli syndrome, cutaneous and neurological type|Griscelli-PruniC)ras syndrome type 1|Griscelli-Pruniéras syndrome type 1|hypopigmentation-neurologic impairment syndrome		obo:gard#uncategorized	
+2566	Griscelli syndrome type 1		GS1|Griscelli syndrome with neurological impairment|Griscelli syndrome, cutaneous and neurological type|Griscelli-Pruniéras syndrome type 1|hypopigmentation-neurologic impairment syndrome		obo:gard#uncategorized	
 2568	Deafness-small bowel diverticulosis-neuropathy syndrome		Groll-Hirschowitz syndrome		obo:gard#uncategorized	
 257	Intellectual disability-balding-patella luxation-acromicria syndrome		SHLTS|Scholte-Begeer-van Essen syndrome|scholte syndrome		obo:gard#uncategorized	
 2572	Myhre syndrome		facial dysmorphism-intellectual disability-short stature-hearing loss syndrome		obo:gard#uncategorized	
@@ -3537,7 +3535,7 @@ identifier	name	definition	synonyms	alts	parents	species
 3118	Hallux varus-preaxial polysyndactyly syndrome		Kleiner-Holmes syndrome		obo:gard#uncategorized	
 312	Robinow syndrome		Robinow dwarfism|Robinow-Silverman-Smith syndrome|acral dysostosis with facial and genital abnormalities|fetal face syndrome|foetal face syndrome|mesomelic dwarfism-small genitalia syndrome		obo:gard#uncategorized	
 3122	Angioosteohypertrophic syndrome		Klippel Trenaunay syndrome|Klippel-Trenaunay-Weber syndrome|Klippel-Trenaunay-Weber syndrome, Isolated cases|Klippel-Trénaunay syndrome|Klippel-Trénaunay-Weber syndrome|Weber-Klippel-Trenaunay|angioosteohypertrophy syndrome|haemangiectatic hypertrophy|klippel-trenaunay syndrome		obo:gard#uncategorized	
-3123	Klumpke's paralysis		klumpke-dc)jerine paralysis		obo:gard#uncategorized	
+3123	Klumpke's paralysis		klumpke-déjerine paralysis		obo:gard#uncategorized	
 3124	Lethal kniest-like dysplasia				obo:gard#uncategorized	
 3125	Bart-pumphrey syndrome		knuckle pads, leukonychia, and sensorineural deafness|knuckle pads-leukonychia-sensorineural deafness-palmoplantar keratoderma syndrome		obo:gard#uncategorized	
 3126	Familial partial lipodystrophy, dunnigan type		Dunnigan syndrome|FPLD2|familial lipodystrophy of limbs and lower trunk|familial partial lipodystrophy Dunnigan type|familial partial lipodystrophy type 2|reverse partial lipodystrophy		obo:gard#uncategorized	
@@ -3654,7 +3652,7 @@ identifier	name	definition	synonyms	alts	parents	species
 3440	Median nodule of the upper lip				obo:gard#uncategorized	
 3443	Familial visceral myopathy		familial hollow visceral myopathy|hereditary hollow visceral myopathy|megaduodenum and/or megacystis		obo:gard#uncategorized	
 3445	Megalencephalic leukoencephalopathy with subcortical cysts		MLC|Vacuolating megalencephalic leukoencephalopathy with subcortical cysts|Van der Knaap syndrome|megalencephalic leukodystrophy|megalencephalic leukoencephalopathy with subcortical cysts type 1|megalencephaly-cystic leukodystrophy syndrome		obo:gard#uncategorized	
-3448	Megalocornea-intellectual disability syndrome		MMR syndrome|NeuhC$user syndrome|Neuhäuser syndrome|megalocornea intellectual disability syndrome		obo:gard#uncategorized	
+3448	Megalocornea-intellectual disability syndrome		MMR syndrome|Neuhäuser syndrome|megalocornea intellectual disability syndrome		obo:gard#uncategorized	
 3449	Delayed speech-facial asymmetry-strabismus-ear lobe creases syndrome		Mehes syndrome		obo:gard#uncategorized	
 345	X-linked intellectual disability-hypogonadism-ichthyosis-obesity-short stature syndrome		Young-Hughes syndrome		obo:gard#uncategorized	
 3450	Mehta lewis patton syndrome				obo:gard#uncategorized	
@@ -3923,7 +3921,7 @@ identifier	name	definition	synonyms	alts	parents	species
 4098	Opsismodysplasia				obo:gard#uncategorized	
 4106	Renal coloboma syndrome		CAKUT with or without ocular abnormalities|Papillo-renal syndrome|coloboma of optic nerve with renal disease|congenital anomalies of the kidney and urinary tract with or without ocular abnormalities|optic coloboma, vesicoureteral reflux and renal anomalies|papillo-renal syndrome, optic nerve coloboma with renal disease|papillorenal syndrome|renal-coloboma syndrome with macular abnormalities		obo:gard#uncategorized	
 4107	Optic pathway glioma		glioma of optic tract|glioma of the optic tract|glioma of the visual pathway|glioma of visual pathway|optic tract glioma|visual pathway glioma		obo:gard#uncategorized	
-411	Hypoparathyroidism-retardation-dysmorphism syndrome		HRD syndrome|HRDS|Richardson-Kirk syndrome|SSS|Sanjad-Sakati syndrome|hypoparathyroidism with short stature, intellectual disability and seizures|hypoparathyroidism-intellectual disability-dysmorphism syndrome|hypoparathyroidism-short stature-intellectual disability-seizures syndrome		obo:gard#uncategorized	
+411	Sanjad-Sakati syndrome		HRD syndrome|HRDS|Hypoparathyroidism-retardation-dysmorphism syndrome|Richardson-Kirk syndrome|SSS|hypoparathyroidism with short stature, intellectual disability and seizures|hypoparathyroidism-intellectual disability-dysmorphism syndrome|hypoparathyroidism-short stature-intellectual disability-seizures syndrome		obo:gard#uncategorized	
 4116	Oromandibular-limb hypogenesis syndrome		Oroacral syndrome		obo:gard#uncategorized	
 4118	Orofaciodigital syndrome xi		OFD11|oral-facial-digital syndrome type 11|oral-facial-digital syndrome, Gabrielli type|orofaciodigital syndrome type XI|orofaciodigital syndrome, Gabrielli type		obo:gard#uncategorized	
 4119	Syndromic X-linked intellectual disability Shashi type		MRXS11|SMRXS|Shashi X-linked intellectual disability syndrome|X-linked intellectual disability Shashi type|intellectual developmental disorder, syndromic 11, Shashi type, X-linked recessive|intellectual disability, X-linked, syndromic 11, Shashi type|syndromic X-linked intellectual disability type 11		obo:gard#uncategorized	
@@ -3938,7 +3936,7 @@ identifier	name	definition	synonyms	alts	parents	species
 4136	Familial osteodysplasia, anderson type				obo:gard#uncategorized	
 4139	Congenital osteogenesis imperfecta-microcephaly-cataracts syndrome				obo:gard#uncategorized	
 414	Bamforth-lazarus syndrome		Athyroidal hypothyroidism-spiky hair-cleft palate syndrome|Bamforth syndrome|hypothyroidism, ATHYROIDAL, with spiky hair and cleft palate|hypothyroidism-cleft palate syndrome		obo:gard#uncategorized	
-4142	Osteoglophonic dwarfism				obo:gard#uncategorized	
+4142	Osteoglophonic dysplasia		Osteoglophonic dwarfism		obo:gard#uncategorized	
 4148	Osteopathia striata with cranial sclerosis		Osteopathia striata with cranial sclerosis, X-linked dominant|Robinow-Unger syndrome|hyperostosis generalisata with striations		obo:gard#uncategorized	
 415	Pseudoprogeria syndrome		Hal-Berg-Rudolph syndrome|absent eyebrows and eyelashes-intellectual disability syndrome|eyebrows and eyelashes absence-intellectual disability syndrome		obo:gard#uncategorized	
 4151	Autosomal dominant osteopetrosis 1		LRP5 osteopetrosis (disease)|OPTA1|autosomal dominant osteopetrosis type 1|osteopetrosis (disease) caused by mutation in LRP5|osteopetrosis, autosomal dominant type 1		obo:gard#uncategorized	
@@ -4010,7 +4008,7 @@ identifier	name	definition	synonyms	alts	parents	species
 4311	Phakomatosis pigmentokeratotica				obo:gard#uncategorized	
 4312	Phakomatosis pigmentovascularis		port-wine stain with oculocutaneous melanosis		obo:gard#uncategorized	
 4319	Dihydropteridine reductase deficiency		6,7-dihydropteridine reductase activity disease|PKU type 2|disorder of 6,7-dihydropteridine reductase activity|hyperphenylalaninemia due to dihydropteridine reductase deficiency|hyperphenylalaninemia, BH4-deficient C|hyperphenylalaninemia, Bh4-deficient, type C|phenylketonuria type 2		obo:gard#uncategorized	
-4323	Phocomelia-ectrodactyly-deafness-sinus arrhythmia syndrome		Stoll-LC)vy-Francfort syndrome|Stoll-Lévy-Francfort syndrome		obo:gard#uncategorized	
+4323	Phocomelia-ectrodactyly-deafness-sinus arrhythmia syndrome		Stoll-Lévy-Francfort syndrome		obo:gard#uncategorized	
 4329	PGM1-congenital disorder of glycosylation		CDG syndrome type It|CDG-It|CDG1T|PGM1-CDG|congenital disorder of glycosylation type 1t|congenital disorder of glycosylation type It|phosphoglucomutase-1 deficiency		obo:gard#uncategorized	
 433	Apparent mineralocorticoid excess		11 Beta-hydroxysteroid dehydrogenase type 2 deficiency|11-beta-hydroxysteroid dehydrogenase deficiency type 2|APE|Ulick syndrome|apparent mineralocorticoid excess syndrome|cortisol 11-beta-ketoreductase deficiency|syndrome of apparent mineralocorticoid Excess		obo:gard#uncategorized	
 4331	Immunodeficiency 23		CID due to PGM3 deficiency|IMD23|PGM3-CDG|PGM3-EXACT congenital disorder of glycosylation|combined immunodeficiency due to PGM3 deficiency|combined inflammatory and immunologic defect|immunodeficiency type 23|immunodeficiency with hyper IgE and cognitive impairment|immunodeficiency-vasculitis-myoclonus syndrome|phosphoglucomutase 3 deficiency|phosphoglucomutase deficiency type 3		obo:gard#uncategorized	
@@ -4064,7 +4062,7 @@ identifier	name	definition	synonyms	alts	parents	species
 4478	Premature aging syndrome, okamoto type				obo:gard#uncategorized	
 448	Vici syndrome		Dionisi-Vici-Sabetta-Gambarara syndrome|absent corpus callosum-cataract-immunodeficiency syndrome|corpus callosum agenesis-cataract-immunodeficiency syndrome|immunodeficiency with cleft lip/palate, cataract, hypopigmentation, and absent corpus callosum		obo:gard#uncategorized	
 4482	Prieto syndrome		Prieto syndrome, X-linked recessive|Prieto-Badia-Mulas syndrome|X-linked intellectual disability-dysmorphism-cerebral atrophy syndrome		obo:gard#uncategorized	
-4483	Griscelli syndrome type 2		GS2|Griscelli syndrome with hemophagocytic syndrome|Griscelli-PruniC)ras syndrome type 2|Griscelli-Pruniéras syndrome type 2|Griscelli-Pruni��ras syndrome type 2|hypopigmentation-immunodeficiency with or without neurologic impairment syndrome|paid syndrome|partial albinism and immunodeficiency syndrome		obo:gard#uncategorized	
+4483	Griscelli syndrome type 2		GS2|Griscelli syndrome with hemophagocytic syndrome|Griscelli-Pruniéras syndrome type 2|hypopigmentation-immunodeficiency with or without neurologic impairment syndrome|paid syndrome|partial albinism and immunodeficiency syndrome		obo:gard#uncategorized	
 4484	Primary ciliary dyskinesia		Kartagener syndrome|Kartagener's syndrome|PCD|ciliary motility disorder|immotile ciliary syndrome		obo:gard#uncategorized	
 4485	Juvenile primary lateral sclerosis		JPLS|juvenile PLS		obo:gard#uncategorized	
 4488	Primrose syndrome		intellectual disability-cataracts-calcified pinnae-myopathy syndrome		obo:gard#uncategorized	
@@ -4079,7 +4077,7 @@ identifier	name	definition	synonyms	alts	parents	species
 4509	Proliferating trichilemmal cyst		Pilar cyst|Pilar tumor|Pilar tumour|proliferating Pilar tumor|proliferating Pilar tumour|proliferating Tricholemmal tumor|proliferating Tricholemmal tumour|proliferating trichilemmal tumor|proliferating trichilemmal tumour		obo:gard#uncategorized	
 4513	Properdin deficiency, x-linked		properdin deficiency, X-linked, X-linked recessive		obo:gard#uncategorized	
 4518	Aprosencephaly cerebellar dysgenesis				obo:gard#uncategorized	
-4520	Familial prostate carcinoma		familial prostate cancer|hereditary prostate cancer|hereditary prostate carcinoma|prostate cancer, autosomal dominant, somatic mutation|prostate cancer, familial, susceptibility to, autosomal dominant, somatic mutation|prostate cancer, somatic|prostate cancer, susceptibility to, autosomal dominant, somatic mutation		obo:gard#uncategorized	
+4520	Familial prostate carcinoma		hereditary prostate carcinoma		obo:gard#uncategorized	
 4522	Transcobalamin i deficiency		Haptocorrin deficiency|TCI deficiency|transcobalamin-1 deficiency		obo:gard#uncategorized	
 4527	Autosomal erythropoietic protoporphyria		EPP		obo:gard#uncategorized	
 4528	Corpus callosum agenesis-abnormal genitalia syndrome		ACC-abnormal genitalia syndrome|Proud syndrome|Proud-Levine-Carpenter syndrome|microcephaly-corpus callosum agenesis-abnormal genitalia syndrome		obo:gard#uncategorized	
@@ -4093,7 +4091,7 @@ identifier	name	definition	synonyms	alts	parents	species
 4543	Peroxisomal acyl-coa oxidase deficiency		ACOX1 deficiency|Pseudoadrenoleukodystrophy|peroxisomal acyl-coenzyme A oxidase|pseudo-NALD|pseudo-neonatal adrenoleukodystrophy		obo:gard#uncategorized	
 4544	Pseudoaminopterin syndrome		ASSA|aminopterin syndrome-like sine aminopterin		obo:gard#uncategorized	
 4550	Disorder of sex development-intellectual disability syndrome		Verloes-Gillerot-Fryns syndrome|pseudohermaphroditism-intellectual disability syndrome		obo:gard#uncategorized	
-4552	Autosomal recessive pseudohypoaldosteronism type 1		PHA1B|autosomal recessive PHA 1		obo:gard#uncategorized	
+4552	Pseudohypoaldosteronism, type ib1, autosomal recessive		PHA1B|autosomal recessive PHA 1|autosomal recessive pseudohypoaldosteronism type 1|generalised PHA1|generalised pseudohypoaldosteronism type 1|generalized PHA1|generalized pseudohypoaldosteronism type 1		obo:gard#uncategorized	
 4553	Pseudohypoaldosteronism type 2		Gordon hyperkalemia-hypertension syndrome|PHA2|PHAII|Spitzer-Weinstein syndrome|chloride shunt syndrome|familial hyperkalemic hypertension|hyperkalemia-hypertension syndrome, Gordon type|hypertensive hyperkalemia|mineralocorticoid resistant hyperkalemia|pseudohypoaldosteronism, type 2|pseudohypoaldosteronism, type II		obo:gard#uncategorized	
 4559	Acrootoocular syndrome		pseudopapilledema-blepharophimosis-hand anomalies syndrome		obo:gard#uncategorized	
 456	Achalasia microcephaly syndrome		achalasia microcephaly|achalasia-microcephaly syndrome		obo:gard#uncategorized	
@@ -4417,7 +4415,7 @@ identifier	name	definition	synonyms	alts	parents	species
 536	Acute myeloid leukemia with abnormal bone marrow eosinophils inv(16)(p13q22) or t(16;16)(p13;q22)		16)(p13|AML with abnormal bone marrow eosinophils inv(16)(p13q22) or t(16|q22)		obo:gard#uncategorized	
 5361	Partial duplication of the short arm of chromosome 8		partial duplication of chromosome 8p|partial duplication of the short arm of chromosome type 8|partial trisomy of chromosome 8p|partial trisomy of the short arm of chromosome 8		obo:gard#uncategorized	
 5362	Trisomy 8q		Duplication 8q|trisomy type 8q		obo:gard#uncategorized	
-5369	Partial duplication of the long arm of chromosome x		partial duplication of chromosome Xq|partial duplication of the long arm of chromosome type X|partial trisomy of chromosome Xq|partial trisomy of the long arm of chromosome X		obo:gard#uncategorized	
+5369	Partial duplication of the long arm of chromosome X		partial duplication of chromosome Xq|partial duplication of the long arm of chromosome type X|partial trisomy of chromosome Xq|partial trisomy of the long arm of chromosome X		obo:gard#uncategorized	
 5372	Troyer syndrome		SPG20|autosomal recessive spastic paraplegia 20|autosomal recessive spastic paraplegia Troyer type|autosomal recessive spastic paraplegia type 20|childhood-onset spastic paraparesis with distal muscle wasting|childhood-onset spastic paraparesis-distal muscle wasting syndrome|hereditary spastic paraplegia 20|spastic paraplegia 20 (Troyer syndrome)|spastic paraplegia type 20		obo:gard#uncategorized	
 5376	Autosomal dominant trichoodontoonychodysplasia-syndactyly		Trueb-Burg-Bottani syndrome		obo:gard#uncategorized	
 538	Acute promyelocytic leukemia		(PML/RARalpha) and variants|(PML/RARalpha) and variants|(PML/RARalpha) and variants|17)(q22|17)(q22|17)(q22|17)(q22|17)(q22|17)(q22|17)(q22|17)(q22|AML M3|AML with t(15|AML with t(15|APL|APML|APML - acute promyelocytic leukaemia|APML - acute promyelocytic leukemia|FAB M3|PML-rara|PML-rara|PML/rara|PML/rara|acute myeloblastic leukaemia 3|acute myeloblastic leukaemia type 3|acute myeloblastic leukemia 3|acute myeloblastic leukemia type 3|acute myeloid leukaemia M3|acute myeloid leukaemia with t(15|acute myeloid leukemia M3|acute myeloid leukemia with t(15|acute promyelocytic leukaemia with PML-rara|acute promyelocytic leukaemia with t(15|acute promyelocytic leukaemia with t(15|acute promyelocytic leukemia with PML-rara|acute promyelocytic leukemia with t(15|acute promyelocytic leukemia with t(15|leukemia, acute promyelocytic, somatic|promyelocytic leukaemia|promyelocytic leukemia|q12)|q12)|q12)|q12)|q12)|q12)|q12)|q12)		obo:gard#uncategorized	
@@ -4536,11 +4534,11 @@ identifier	name	definition	synonyms	alts	parents	species
 5667	3-M syndrome		Le Merrer syndrome|Miller-McKusick-Malvaux syndrome|Yakut short stature syndrome|dolichospondylic dysplasia|gloomy face syndrome|three m syndrome		obo:gard#uncategorized	
 5668	Hawkinsinuria		4-HPPD deficiency|4-alpha-hydroxyphenylpyruvate hydroxylase deficiency|4-hydroxyphenylpyruvic acid dioxygenase deficiency		obo:gard#uncategorized	
 5671	46 XX gonadal dysgenesis		46,XX complete gonadal dysgenesis|46,XX gonadal dysgenesis|46,XX ovarian dysgenesis|46,XX pure gonadal dysgenesis|FSH-RO|XX female gonadal dysgenesis|XX-GD|follicular stimulating hormone-resistant ovaries|hypergonadotropic ovarian dysgenesis		obo:gard#uncategorized	
-5672	Trisomy x		47,XXX|47,XXX syndrome|Triplo-X syndrome|XXX syndrome|triple X syndrome|trisomy type X		obo:gard#uncategorized	
+5672	Trisomy X		47,XXX|47,XXX syndrome|Triplo-X syndrome|XXX syndrome|triple X syndrome|trisomy type X		obo:gard#uncategorized	
 5674	47,XYY syndrome		47,XYY|Double Y|Double Y syndrome|XYY karyotype|Y disomy|disomy Y|xyy syndrome		obo:gard#uncategorized	
 5676	48,XXXY syndrome		48, XXXY syndrome		obo:gard#uncategorized	
 5677	48,XXYY syndrome		48, xxyy syndrome		obo:gard#uncategorized	
-5678	Pentasomy x		49, XXXXX syndrome|49,XXXXX syndrome|Pentasomy type X|XXXXX syndrome|penta x syndrome|penta-X|poly-X		obo:gard#uncategorized	
+5678	Pentasomy X		49, XXXXX syndrome|49,XXXXX syndrome|Pentasomy type X|XXXXX syndrome|penta x syndrome|penta-X|poly-X		obo:gard#uncategorized	
 5679	49,XXXXY syndrome				obo:gard#uncategorized	
 5680	46,XY disorder of sex development due to 5-alpha-reductase 2 deficiency		3-oxo-5 Alpha-steroid Delta 4-dehydrogenase deficiency|46,XY DSD due to 5-alpha-reductase 2 deficiency|5 Alpha steroid reductase 2 deficiency|Male pseudohermaphroditism due to 5-alpha-reductase 2 deficiency|pseudovaginal perineoscrotal hypospadias|steroid 5-alpha-reductase deficiency		obo:gard#uncategorized	
 5681	5-oxoprolinase deficiency		5-oxoprolinase deficiency (disease)|inborn 5-oxoprolinase (ATP-hydrolyzing) activity disorder|inborn error of 5-oxoprolinase (ATP-hydrolyzing) activity|oxoprolinuria due to oxoprolinase deficiency|rare inborn error of 5-oxoprolinase (ATP-hydrolyzing) activity		obo:gard#uncategorized	
@@ -4553,7 +4551,7 @@ identifier	name	definition	synonyms	alts	parents	species
 5693	Reactive arthritis		Fiessinger-Leroy disease|arthritis urethritica|polyarthritis enterica|post-bacterial arthropathy|postdysenteric arthropathy|venereal arthritis		obo:gard#uncategorized	
 5694	Retinitis pigmentosa				obo:gard#uncategorized	
 5695	Retinopathy of prematurity		ROP|Terry syndrome|premature retinopathy|retrolental fibroplasia		obo:gard#uncategorized	
-5696	Rett syndrome		Rett's disorder|cerebroatrophic hyperammonemia|rett syndrome, X-linked dominant|rett syndrome, atypical, X-linked dominant|rett syndrome, preserved speech variant, X-linked dominant		obo:gard#uncategorized	
+5696	Rett syndrome		RTS|RTT|Rett syndrome, X-linked dominant|Rett syndrome, atypical, X-linked dominant|Rett syndrome, preserved speech variant, X-linked dominant|Rett's disorder|Rett’s disease|cerebroatrophic hyperammonemia		obo:gard#uncategorized	
 5697	Fibrosclerosis, multifocal				obo:gard#uncategorized	
 5699	Rheumatic fever		ARF|RHF - rheumatic fever|acute rheumatic fever		obo:gard#uncategorized	
 5700	Rickets		rachitis|rickets (disease)|vitamin D hydroxylation-deficient rickets		obo:gard#uncategorized	
@@ -4580,10 +4578,10 @@ identifier	name	definition	synonyms	alts	parents	species
 5755	Adrenal medulla cancer		cancer of adrenal medulla|malignant adrenal medulla neoplasm|malignant adrenal medulla tumor|malignant adrenal medulla tumour|malignant neoplasm of adrenal medulla|malignant neoplasm of the adrenal medulla|malignant tumor of adrenal medulla|malignant tumor of the adrenal medulla|malignant tumour of adrenal medulla|malignant tumour of the adrenal medulla		obo:gard#uncategorized	
 5758	Adrenoleukodystrophy		ABCD1 deficiency|ALD|Bronze-Schilder disease|Siemerling-Creutzfeldt disease|X-ALD|X-linked ALD|adrenoleukodystrophy, X-linked|adrenoleukodystrophy, X-linked recessive|adrenomyeloneuropathy, adult|adrenomyeloneuropathy, adult, X-linked recessive|diffuse cerebral sclerosis of Schilder|encephalitis periaxialis concentrica|encephalitis periaxialis, Schilder's|sudanophilic cerebral sclerosis|x-linked adrenoleukodystrophy		obo:gard#uncategorized	
 5761	Congenital afibrinogenemia		fibrinogen deficiency		obo:gard#uncategorized	
-5764	Aicardi syndrome		Aicardi syndrome, X-linked dominant|agenesis of corpus callosum with chorioretinal abnormality|corpus callosum agenesis of with chorioretinal abnormality		obo:gard#uncategorized	
+5764	Aicardi syndrome		AIC|Aicardi syndrome, X-linked dominant|Aicardi’s syndrome|agenesis of corpus callosum with chorioretinal abnormality|corpus callosum agenesis of with chorioretinal abnormality|corpus callosum, agenesis of, with chorioretinal abnormality		obo:gard#uncategorized	
 5774	Alexander disease		Alexander's disease|AxD		obo:gard#uncategorized	
 5775	Alkaptonuria		alcaptonuria|hereditary ochronosis|homogentisate 1,2-dioxygenase deficiency|homogentisic acid oxidase deficiency		obo:gard#uncategorized	
-5783	Mitochondrial dna depletion syndrome 4a		AHD|AHS|Alper syndrome|Alper's disease|Alper's syndrome|Alpers Huttenlocher disease|Alpers Huttenlocher syndrome|Alpers progressive infantile poliodystrophy|Alpers progressive sclerosing poliodystrophy|Alpers syndrome|Alpers' disease or gray-matter degeneration|Alpers-Huttenlocher syndrome|alpers disease|mitochondrial DNA depletion syndrome type 4a|progressive neuronal degeneration of childhood with liver disease|progressive sclerosing poliodystrophy		obo:gard#uncategorized	
+5783	Mitochondrial dna depletion syndrome 4a		AHD|AHS|Alper syndrome|Alper's disease|Alper's syndrome|Alpers Huttenlocher disease|Alpers Huttenlocher syndrome|Alpers progressive infantile poliodystrophy|Alpers progressive sclerosing poliodystrophy|Alpers syndrome|Alpers' disease or gray-matter degeneration|Alpers-Huttenlocher|Alpers-Huttenlocher syndrome|alpers disease|mitochondrial DNA depletion syndrome type 4a|progressive neuronal degeneration of childhood with liver disease|progressive sclerosing poliodystrophy		obo:gard#uncategorized	
 5784	Alpha 1-antitrypsin deficiency		A-1ATD|A1AD|AAT deficiency|alpha-1 antitrypsin deficiency|deficiency in Alpa-1-proteinase inhibitor|emphysema due to AAT deficiency|emphysema-cirrhosis, due to AAT deficiency|hemorrhagic diathesis due to antithrombin pittsburgh		obo:gard#uncategorized	
 5785	Alport syndrome		Alport deafness-nephropathy|Alport's syndrome		obo:gard#uncategorized	
 5786	Amyotrophic lateral sclerosis		ALS|Charcot disease|Lou Gehrig disease|Lou Gehrig's disease|motor neuron disease, bulbar		obo:gard#uncategorized	
@@ -4594,7 +4592,7 @@ identifier	name	definition	synonyms	alts	parents	species
 5802	Otopalatodigital syndrome type 2		OPD 2 syndrome|OPD II syndrome|OPD syndrome 2|Otopalatodigital Syndrome Type I and II|otopalatodigital syndrome, type II, X-linked dominant		obo:gard#uncategorized	
 5803	Androgen insensitivity syndrome		Goldberg - Maxwell syndrome|Goldberg-Maxwell syndrome|Morris syndrome|androgen insensitivity, X-linked recessive|androgen resistance syndrome|androgen-insensitivity syndrome|testicular feminization|testicular feminization syndrome		obo:gard#uncategorized	
 5808	Anencephaly 1		isolated anencephaly/exencephaly		obo:gard#uncategorized	
-5810	Angelman syndrome				obo:gard#uncategorized	
+5810	Angelman syndrome		Angelman’s syndrome		obo:gard#uncategorized	
 5813	Liver angiosarcoma		angiosarcoma (disease) of liver|angiosarcoma of liver|angiosarcoma of the liver|hemangiosarcoma of liver|hemangiosarcoma of the liver|hepatic angiosarcoma|hepatic hemangiosarcoma|liver angiosarcoma (disease)|liver hemangiosarcoma|primary angiosarcoma of liver|primary angiosarcoma of the liver		obo:gard#uncategorized	
 5816	Isolated aniridia		nonsyndromic aniridia		obo:gard#uncategorized	
 5818	Anodontia		complete absence of teeth|developmental absence of tooth|total anodontia of permanent and deciduous teeth		obo:gard#uncategorized	
@@ -4686,7 +4684,7 @@ identifier	name	definition	synonyms	alts	parents	species
 6027	COFS syndrome		COFS|Cerebro Oculo Facio Skeletal Syndrome|Pena-Shokeir syndrome type 2|cerebro-oculo-facio-skeletal syndrome|cerebrooculofacioskeletal syndrome		obo:gard#uncategorized	
 6033	Chandler syndrome		chandler's syndrome|dystrophy of corneal endothelium|endothelial corneal dystrophy|posterior membrane corneal dystrophy		obo:gard#uncategorized	
 6034	Charcot-Marie-Tooth disease		CMT|CMT - Charcot-Marie-Tooth disease|CMT/HMSN|Charcot Marie Tooth muscular atrophy|Charcot-Marie-Tooth hereditary neuropathy|peroneal muscular atrophy		obo:gard#uncategorized	
-6035	Chediak-higashi syndrome		CHS|ChC)diak-Higashi disease|ChC)diak-Higashi-Steinbrink syndrome|Chediak - Steinbrinck anomaly|Chédiak-Higashi disease|Chédiak-Higashi syndrome|Chédiak-Higashi-Steinbrink syndrome|chediak higashi syndrome		obo:gard#uncategorized	
+6035	Chediak-higashi syndrome		CHS|Chediak - Steinbrinck anomaly|Chédiak-Higashi disease|Chédiak-Higashi syndrome|Chédiak-Higashi-Steinbrink syndrome|chediak higashi syndrome		obo:gard#uncategorized	
 6036	Cherubism		crbm|familial fibrous dysplasia of the jaws|familial multilocular cystic disease of the jaws		obo:gard#uncategorized	
 6037	Postpartum amenorrhea-galactorrhea syndrome		chiari-frommel syndrome		obo:gard#uncategorized	
 6038	Chikungunya		Chikungunya fever|Chikungunya virus caused disease or disorder|Chikungunya virus disease or disorder|Chikungunya virus infectious disease		obo:gard#uncategorized	
@@ -4817,7 +4815,7 @@ identifier	name	definition	synonyms	alts	parents	species
 637	Amaurosis-hypertrichosis syndrome				obo:gard#uncategorized	
 6377	Primary erythermalgia		PERYTHM|primary erythromelalgia		obo:gard#uncategorized	
 6381	Esophageal atresia/tracheoesophageal fistula		esophageal atresia and/or tracheoesophageal fistula|tracheoesophageal fistula with or without esohageal atresia		obo:gard#uncategorized	
-6383	Carcinoma of esophagus		carcinoma of the esophagus|carcinoma of the oesophagus|esophageal carcinoma|esophagus carcinoma|oesophagus carcinoma		obo:gard#uncategorized	
+6383	Carcinoma of esophagus		carcinoma of the esophagus|carcinoma of the oesophagus|esophageal cancer|esophageal carcinoma|esophagus carcinoma|oesophagus carcinoma		obo:gard#uncategorized	
 6386	Cryoglobulinemic vasculitis		MC|essential cryoglobulinemia|essential mixed cryoglobulinemia|mixed cryoglobulinemia|primary cryoglobulinemia		obo:gard#uncategorized	
 6389	Evans syndrome		Evans' syndrome|autoimmune hemolytic anaemia and autoimmune thrombocytopenia|autoimmune hemolytic anemia and autoimmune thrombocytopenia|immune pancytopenia		obo:gard#uncategorized	
 6390	Ewing sarcoma		ES|Ewing's family localised tumour|Ewing's family localized tumor|Ewing's sarcoma|Ewing's tumor|Ewing's tumour|Ewings sarcoma|PNET of Thoracopulmonary region		obo:gard#uncategorized	
@@ -4891,7 +4889,6 @@ identifier	name	definition	synonyms	alts	parents	species
 6568	Autosomal recessive congenital ichthyosis 4B		ARCI4B|autosomal recessive congenital ichthyosis type 4B|harlequin ichthyosis|harlequin type ichthyosis congenita|harlequin type ichthyosis fetalis|hi|ichthyosis , congenital, autosomal recessive 4b (harlequin)|ichthyosis congenita, Harlequin type|ichthyosis fetalis, Harlequin type|ichthyosis, congenital, autosomal recessive type 4B		obo:gard#uncategorized	
 6569	Hartnup disease		Hartnup disorder|aminoaciduria, Hartnup type|deficiency of tryptophan oxygenase|neutral 1 amino acid transport defect|neutral amino acid transport defect		obo:gard#uncategorized	
 6571	Ankyloblepharon-ectodermal defects-cleft lip/palate syndrome		Ankyloblepharon-ectodermal defects-cleft lip and palate syndrome|Hay-Wells syndrome|aec syndrome		obo:gard#uncategorized	
-6577	Heavy metal poisoning		toxic effect of heavy metal		obo:gard#uncategorized	
 6584	Sickle cell-hemoglobin c disease syndrome		HbSC disease		obo:gard#uncategorized	
 6589	Hereditary hemophagocytic lymphohistiocytosis		familial hemophagocytic lymphohistiocytosis|genetic hemophagocytic lymphohistiocytosis|genetic hemophagocytic syndrome|primary hemophagocytic lymphohistiocytosis		obo:gard#uncategorized	
 6590	Familial hemophagocytic lymphohistiocytosis type 1		FHL1|familial HLH|hlh1|hplh1		obo:gard#uncategorized	
@@ -4967,7 +4964,6 @@ identifier	name	definition	synonyms	alts	parents	species
 6817	Kearns-sayre syndrome		Kearns Sayre Syndrome		obo:gard#uncategorized	
 6818	Kennedy disease		Kennedy's disease|SBMA|SMAX1|X-linked BSMA|X-linked bulbo-spinal atrophy|X-linked bulbospinal amyotrophy|X-linked bulbospinal muscular atrophy|X-linked spinal and bulbar muscular atrophy|spinal and bulbar muscular atrophy of Kennedy, X-linked recessive|spinal and bulbar muscular atrophy, X-linked type 1|spinal bulbar muscular atrophy|spinobulbar muscular atrophy		obo:gard#uncategorized	
 6821	Muir-torre syndrome		multiple keratoacanthoma, Muir-Torre type		obo:gard#uncategorized	
-6824	Keratoconus		conical cornea|keratoconus (disease)		obo:gard#uncategorized	
 6829	Keratosis follicularis spinulosa decalvans		keratosis pilaris decalvans		obo:gard#uncategorized	
 683	Angiostrongyliasis				obo:gard#uncategorized	
 6830	Bilirubin encephalopathy		kernicterus		obo:gard#uncategorized	
@@ -5057,7 +5053,6 @@ identifier	name	definition	synonyms	alts	parents	species
 7010	Melkersson-rosenthal syndrome		Melkersson's syndrome|cheilitis granulomatosa of Mescher-Melkersson-Rosenthal		obo:gard#uncategorized	
 7011	Melnick-needles syndrome		Melnick Needles Syndrome|Melnick-Needles osteodysplasty|Melnick-Needles syndrome, X-linked dominant		obo:gard#uncategorized	
 7015	Meningioma		meningioma (disease)		obo:gard#uncategorized	
-7021	Mercury poisoning		Mercury intoxication|hydrargyria|mercurialism		obo:gard#uncategorized	
 7026	Malignant mesothelioma		malignant mesothelial tumor|malignant mesothelial tumour|malignant mesothelioma (disease)|malignant neoplasm of mesothelium|malignant neoplasm of the mesothelium|malignant tumor of mesothelium|malignant tumor of the mesothelium|malignant tumour of mesothelium|malignant tumour of the mesothelium|mesothelioma, malignant|mesothelioma, somatic		obo:gard#uncategorized	
 7029	Schmid metaphyseal chondrodysplasia		Japanese type spondylometaphyseal dysplasia|MCDS|Schmid type metaphyseal dysplasia|metaphyseal chondrodysplasia Schmid type|metaphyseal chondrodysplasia, schmid type|spondylometaphyseal dysplasia, Japanese type		obo:gard#uncategorized	
 7033	Methylmalonic acidemia		methylmalonic aciduria		obo:gard#uncategorized	
@@ -5094,7 +5089,7 @@ identifier	name	definition	synonyms	alts	parents	species
 7137	Myocarditis		inflammation of myocardium|myocardial inflammation|myocardial inflammation (finding)|myocardium inflammation		obo:gard#uncategorized	
 7139	Myoclonus-dystonia syndrome		DYT-SGCE|dystonia with myoclonus|hereditary essential myoclonus|myoclonic dystonia		obo:gard#uncategorized	
 7140	Progressive myoclonus epilepsy		PME|epilepsy, progressive myoclonic|progressive myoclonic epilepsy|progressive myoclonic epilepsy (disorder) [ambiguous]		obo:gard#uncategorized	
-7144	Merrf syndrome		Fukuhara syndrome|myoclonic epilepsy - ragged red fibers|myoclonic epilepsy - ragged red fibres|myoclonus epilepsy and ragged red fibers|myoclonus epilepsy and ragged red fibres|myoclonus epilepsy associated with ragged-red fibers|myoclonus epilepsy associated with ragged-red fibres|myoclonus with epilepsy and with ragged Red fibers|myoclonus with epilepsy and with ragged Red fibers (MERRF syndrome)|myoclonus with epilepsy and with ragged Red fibres|myoclonus with epilepsy and with ragged Red fibres (MERRF syndrome)		obo:gard#uncategorized	
+7144	Merrf syndrome		Fukuhara syndrome|MERRF|myoclonic epilepsy - ragged red fibers|myoclonic epilepsy - ragged red fibres|myoclonus epilepsy and ragged red fibers|myoclonus epilepsy and ragged red fibres|myoclonus epilepsy associated with ragged-red fibers|myoclonus epilepsy associated with ragged-red fibres|myoclonus with epilepsy and with ragged Red fibers|myoclonus with epilepsy and with ragged Red fibers (MERRF syndrome)|myoclonus with epilepsy and with ragged Red fibres|myoclonus with epilepsy and with ragged Red fibres (MERRF syndrome)		obo:gard#uncategorized	
 7146	Inflammatory myofibroblastic tumor		IMT|inflammatory fibrosarcoma|inflammatory myofibroblastic neoplasm|inflammatory pseudotumor		obo:gard#uncategorized	
 7148	Hyaline body myopathy		myosin storage myopathy		obo:gard#uncategorized	
 7158	Hyperammonemia due to n-acetylglutamate synthase deficiency		nags deficiency		obo:gard#uncategorized	
@@ -5114,7 +5109,7 @@ identifier	name	definition	synonyms	alts	parents	species
 719	Anophthalmia plus syndrome		Fryns microphthalmia syndrome|microphthalmia with facial clefting		obo:gard#uncategorized	
 7190	Alzheimer disease without neurofibrillary tangles		AD15|Alzheimer disease 15|Alzheimer disease-15|Alzheimer's disease 15|Alzheimer's disease type 15		obo:gard#uncategorized	
 7191	Neurofibroma		neurofibroma (WHO grade I)|neurofibroma, benign		obo:gard#uncategorized	
-7193	Neurofibromatosis type 2		NF2|NF2-related schwannomatosis|bilateral acoustic neurofibromatosis|central neurofibromatosis|full NF2|full neurofibromatosis type 2|neurofibromatosis 2|nonmosaic NF2-related schwannomatosis|nonmosaic neurofibromatosis type 2		obo:gard#uncategorized	
+7193	NF2-related schwannomatosis		NF2|SWNV|bilateral acoustic neurofibromatosis|central neurofibromatosis|full NF2|full neurofibromatosis type 2|neurofibromatosis 2|neurofibromatosis type 2|nonmosaic NF2-related schwannomatosis|nonmosaic neurofibromatosis type 2|vestibular schwannomatosis		obo:gard#uncategorized	
 7195	Neuroleptic malignant syndrome		NMS		obo:gard#uncategorized	
 72	Human monocytic ehrlichiosis		Human Monocytic Ehrlichiosis (HME)|human ehrlichiosis due to Ehrlichia chaffeensis		obo:gard#uncategorized	
 7201	Nezelof syndrome		Nezelof's syndrome|T-lymphocyte deficiency		obo:gard#uncategorized	
@@ -5250,7 +5245,7 @@ identifier	name	definition	synonyms	alts	parents	species
 7617	Kuru		kuru encephalopathy		obo:gard#uncategorized	
 7627	Septooptic dysplasia		De Morsier syndrome|SOD|septo-optic dysplasia|septo-optic dysplasia sequence		obo:gard#uncategorized	
 7628	Severe combined immunodeficiency		SCID|combined T and B cell inborn immunodeficiency|severe combined immunodeficiency (disease)|severe combined immunodeficiency disease		obo:gard#uncategorized	
-7629	Sezary syndrome		CTCL / Sezary syndrome|SC)zary syndrome|Sezary disease|Sezary lymphoma|Sezary's disease|Sheehan Syndrome|Sézary lymphoma|Sézary syndrome|cutaneous T-cell lymphoma/Sezary syndrome		obo:gard#uncategorized	
+7629	Sezary syndrome		CTCL / Sezary syndrome|Sezary disease|Sezary lymphoma|Sezary's disease|Sheehan Syndrome|Sézary lymphoma|Sézary syndrome|cutaneous T-cell lymphoma/Sezary syndrome		obo:gard#uncategorized	
 7630	Sheehan syndrome		Sheehan's syndrome|postpartum hypopituitarism		obo:gard#uncategorized	
 7633	Short syndrome		Aarskog-Ose-Pande syndrome|Rieger anomaly-partial lipodystrophy syndrome|lipodystrophy-Rieger anomaly-diabetes syndrome		obo:gard#uncategorized	
 7636	Shwartzman phenomenon		Shwartzman reaction|Shwartzman reaction (function)		obo:gard#uncategorized	
@@ -5273,7 +5268,7 @@ identifier	name	definition	synonyms	alts	parents	species
 7695	Succinic semialdehyde dehydrogenase deficiency		4-hydroxybutyric aciduria|SSADH|gamma-hydroxybutyric aciduria|ssadh deficiency		obo:gard#uncategorized	
 770	Aromatic l-amino acid decarboxylase deficiency		aadc deficiency|aromatic L-amino-acid decarboxylase deficiency		obo:gard#uncategorized	
 7700	Stevens-Johnson syndrome		Dermatostomatitis, Stevens Johnson type|Stevens Johnson syndrome		obo:gard#uncategorized	
-7706	Sturge-weber syndrome		Encephalofacial angiomatosis|Encephalotrigeminal angiomatosis|Encephalotrigeminal syndrome|SWS|Sturge-Weber disease|Sturge-Weber syndrome, somatic, mosaic|Sturge-Weber-Dimitri syndrome|Sturge-Weber-Krabbe angiomatosis|Sturge-Weber-Krabbe syndrome|sturge weber syndrome		obo:gard#uncategorized	
+7706	Sturge-weber syndrome		SWS|Sturge-Weber disease|Sturge-Weber syndrome, somatic, mosaic|Sturge-Weber-Dimitri syndrome|Sturge-Weber-Krabbe angiomatosis|Sturge-Weber-Krabbe syndrome|encephalofacial angiomatosis|encephalotrigeminal angiomatosis|encephalotrigeminal syndrome|sturge weber syndrome		obo:gard#uncategorized	
 7708	Subacute sclerosing panencephalitis		Dawson's encephalitis|Immunosuppressive measles encephalitis|SSPE|Subacute inclusion body encephalitis|Subacute sclerosing panencephalitis (disorder) [ambiguous]|Van Bogaert disease|Van Bogaert encephalitis|Van Bogaert's sclerosing leukoencephalitis|subacute sclerosing leukoencephalopathy		obo:gard#uncategorized	
 7712	Superior mesenteric artery syndrome		superior mesenteric artery syndromic disease|syndromic disease of superior mesenteric artery		obo:gard#uncategorized	
 7713	Susac syndrome		RED-M|Retinocochleocerebral vasculopathy|SICRET syndrome|retinopathy-encephalopathy-deafness associated with microangiopathy|small infarctions of cochlear, retinal and encephalic tissue		obo:gard#uncategorized	
@@ -5286,7 +5281,7 @@ identifier	name	definition	synonyms	alts	parents	species
 7737	Tay-sachs disease		GM2 gangliosidosis, B, B1 variant|GM2-gangliosidosis, several forms|Hex A pseudodeficiency|Tay Sachs Disease|disease, Tay-Sachs|hexosaminidase a deficiency		obo:gard#uncategorized	
 774	Arterial tortuosity syndrome				obo:gard#uncategorized	
 7751	Hyperphenylalaninemia due to tetrahydrobiopterin deficiency		hyperphenylalaninemia due to BH4 deficiency|non-phenylketonuric hyperphenylalaninemia		obo:gard#uncategorized	
-7754	Tetrasomy x		48,XXXX syndrome|quadruple X|tetra X|tetrasomy type X		obo:gard#uncategorized	
+7754	Tetrasomy X		48,XXXX syndrome|quadruple X|tetra X|tetrasomy type X		obo:gard#uncategorized	
 7756	Thalassemia		sickle-cell thalassemia with crisis|sickle-cell thalassemia without crisis|thalassemia Hb-S disease with crisis|thalassemia Hb-S disease without crisis		obo:gard#uncategorized	
 777	Arthrogryposis multiplex congenita		AMC|Arthromyodysplasia congenita|congenital arthromyodysplasia|multiple congenital arthrogryposis|myodysplasia		obo:gard#uncategorized	
 7771	Tick paralysis				obo:gard#uncategorized	
@@ -5305,7 +5300,7 @@ identifier	name	definition	synonyms	alts	parents	species
 7815	Mosaic trisomy 6				obo:gard#uncategorized	
 7826	Human African trypanosomiasis		Africam sleeping sickness|African sleeping sickness|African trypanosomiasis|sleeping sickness		obo:gard#uncategorized	
 7828	Meningeal tuberculosis		Meningitis, Tuberculous|TB meningitis|TBM|tubercular meningitis|tuberculous meningitis		obo:gard#uncategorized	
-7830	Tuberous sclerosis		Bourneville syndrome|Bourneville's syndrome|Epiloia|TSC|bourneville's disease|cerebral sclerosis|tuberose sclerosis|tuberous sclerosis complex|tuberous sclerosis syndrome		obo:gard#uncategorized	
+7830	Tuberous sclerosis		Bourneville disease|Bourneville syndrome|Bourneville's disease|Bourneville's syndrome|TSC|epiloia|tuberose sclerosis|tuberous sclerosis complex|tuberous sclerosis syndrome		obo:gard#uncategorized	
 7831	Turner syndrome		45,X gonadal dysgenesis|45,X syndrome|45,X/46,XX syndrome|45,X0 syndrome|45X syndrome|XO syndrome|gonadal dysgenesis - Turner|karyotype 45, X|monosomy X syndrome		obo:gard#uncategorized	
 7837	Urea cycle disorder		disorder of metabolism of ornithine, citrulline, argininosuccinic acid, arginine and ammonia|disorder of urea cycle metabolism|inborn disorder of urea cycle metabolism and ammonia detoxification|inborn urea cycle disorder|urea cycle defect|urea cycle disorders|urea cycle metabolism disorder		obo:gard#uncategorized	
 784	Arthrogryposis-like hand anomaly-sensorineural deafness syndrome		distal arthrogryposis type 6		obo:gard#uncategorized	
@@ -5452,7 +5447,7 @@ identifier	name	definition	synonyms	alts	parents	species
 8397	Methionine adenosyltransferase deficiency		MAT deficiency|brain demyelination due to methionine adenosyltransferase deficiency|hypermethioninemia, persistent, autosomal dominant, due to methionine adenosyltransferase I/III deficiency|isolated persistent hypermethioninemia|mat i/iii deficiency|methionine adenosyltransferase deficiency, autosomal recessive		obo:gard#uncategorized	
 84	Congenital generalized lipodystrophy type 1		AGPAT2 congenital generalised lipodystrophy (disease)|AGPAT2 congenital generalized lipodystrophy (disease)|BSCL1|Berardinelli-Seip congenital lipodystrophy, type 1|Brunzell syndrome AGPAT2-related|CGL1|congenital generalised lipodystrophy (disease) caused by mutation in AGPAT2|congenital generalized lipodystrophy (disease) caused by mutation in AGPAT2		obo:gard#uncategorized	
 8400	Galactorrhoea-hyperprolactinaemia				obo:gard#uncategorized	
-8406	X-linked spermatogenic failure 1		SPGFX1|spermatogenic failure, X-linked, type 1		obo:gard#uncategorized	
+8406	X-linked spermatogenic failure 1		Del Castillo syndrome|Germinal cell aplasia|SPGFX1|Sertoli cell-only syndrome|spermatogenic failure, X-linked, type 1		obo:gard#uncategorized	
 8407	Feingold syndrome		Brunner-Winter syndrome|FGLDS|FS|MMT|MODED syndrome|ODED syndrome|digital anomalies with short palpebral fissures and atresia of esophagus or duodenum|digital anomalies with short palpebral fissures and atresia of oesophagus or duodenum|microcephaly-digital anomalies-normal intelligence syndrome|microcephaly-intellectual disability-tracheoesophageal fistula syndrome|microcephaly-oculo-digito-esophageal-duodenal syndrome|microcephaly-oculo-digito-esophageal-duodenal syndrome syndrome|oculo-digito-esophageal-duodenal syndrome		obo:gard#uncategorized	
 8410	Postaxial acrofacial dysostosis		Mandibulfacial dysostosis with postaxial limb anomalies|POADS|acrofacial dysostosis, Genee-Wiedmann type|miller syndrome|postaxial acrodysostosis		obo:gard#uncategorized	
 8414	Van der woude syndrome		VWS|cleft lip/palate with mucous cysts of lower lip|lip-pit syndrome		obo:gard#uncategorized	
@@ -5472,7 +5467,7 @@ identifier	name	definition	synonyms	alts	parents	species
 8436	Frontotemporal dementia		FTD|Wilhemsen-Lynch disease|frontotemporal lobar degeneration|multiple system tauopathy with presenile dementia|pallidopontonigral degeneration		obo:gard#uncategorized	
 8438	Isolated anterior cervical hypertrichosis		Tsukahara-Kajii syndrome|hairy throat syndrome		obo:gard#uncategorized	
 8449	Keutel syndrome		pulmonic stenosis-brachytelephalangism-calcification of cartilages syndrome		obo:gard#uncategorized	
-8457	Autosomal dominant familial periodic fever		FHF|Hibernian fever, familial|TNF receptor 1-associated periodic syndrome|TNF receptor-associated periodic fever syndrome|TNF receptor-associated periodic syndrome|TRAPS|TRAPS syndrome|familial Hibernian fever|tumor necrosis factor receptor 1 associated periodic syndrome|tumor necrosis factor receptor 1-associated periodic syndrome|tumor necrosis factor receptor-associated periodic syndrome|tumour necrosis factor receptor 1 associated periodic syndrome|tumour necrosis factor receptor 1-associated periodic syndrome|tumour necrosis factor receptor-associated periodic syndrome		obo:gard#uncategorized	
+8457	Autosomal dominant familial periodic fever		FHF|Hibernian fever, familial|TNF receptor 1-associated periodic fever syndrome|TNF receptor 1-associated periodic syndrome|TNF receptor-associated periodic syndrome|TRAPS|TRAPS syndrome|familial Hibernian fever|tumor necrosis factor receptor 1 associated periodic syndrome|tumor necrosis factor receptor 1-associated periodic syndrome|tumor necrosis factor receptor-associated periodic syndrome|tumour necrosis factor receptor 1 associated periodic syndrome|tumour necrosis factor receptor 1-associated periodic syndrome|tumour necrosis factor receptor-associated periodic syndrome		obo:gard#uncategorized	
 846	Beemer-Ertbruggen syndrome		lethal hydrocephalus-cardiac malformation-dense bones syndrome		obo:gard#uncategorized	
 8466	Autoimmune polyendocrine syndrome type 1		APECED syndrome|APS type 1|APS1|MEDAC syndrome|Whitaker syndrom|aire autoimmune polyendocrinopathy|autoimmune hypoparathyroidism-chronic candidiasis-Addison disease syndrome|autoimmune polyendocrinopathy caused by mutation in aire|autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia|autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy|autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy syndrome|autoimmune polyglandular syndrome I|autoimmune polyglandular syndrome type 1|ham syndrome|hypoparathyroidism-Addison disease-mucocutaneous candidiasis syndrome|multiple endocrine deficiency-Addison disease-candidiasis syndrome|polyglandular autoimmune syndrome type 1		obo:gard#uncategorized	
 8468	Melanoma and neural system tumor syndrome		melanoma-astrocytoma syndrome		obo:gard#uncategorized	
@@ -5730,7 +5725,6 @@ identifier	name	definition	synonyms	alts	parents	species
 9296	Hereditary spastic paraplegia 24		SPG24|autosomal recessive spastic paraplegia 24|autosomal recessive spastic paraplegia type 24|hereditary spastic paraplegia type 24		obo:gard#uncategorized	
 9297	Whim syndrome 1		WHIMS|WILM|Warts, hypogammaglobulinemia, infections, and myelokathexis|Warts, hypogammaglobulinemia, infections, and myelokathexis syndrome|Warts-hypogammaglobulinemia-infections-myelokathexis syndrome|Warts-infections-leukopenia-myelokatexis syndrome|myelokathexis, isolated|whim syndrome		obo:gard#uncategorized	
 9298	Pyridoxine-dependent epilepsy		antiquitin deficiency|vitamin B6-dependent seizures		obo:gard#uncategorized	
-9299	Acute ackee fruit intoxication		Jamaican vomiting sickness|Jamaican vomiting syndrome|acute intoxication by Blighia sapida		obo:gard#uncategorized	
 93	Monilethrix		moniliform hair syndrome		obo:gard#uncategorized	
 9301	Childhood cerebellar astrocytic neoplasm		cerebellum childhood astrocytic tumor|cerebellum childhood astrocytic tumour|cerebellum juvenile astrocytoma|childhood astrocytic tumor of cerebellum|childhood astrocytic tumour of cerebellum|childhood astrocytoma of cerebellum|childhood astrocytoma of the cerebellum|childhood cerebellar astrocytoma|paediatric astrocytoma of cerebellum|paediatric astrocytoma of the cerebellum|paediatric cerebellar astrocytoma|pediatric astrocytoma of cerebellum|pediatric astrocytoma of the cerebellum|pediatric cerebellar astrocytoma		obo:gard#uncategorized	
 9302	Childhood cerebral astrocytoma		childhood astrocytic tumor of telencephalon|childhood astrocytic tumour of telencephalon|childhood astrocytoma of cerebrum|childhood astrocytoma of the cerebrum|paediatric astrocytoma of cerebrum|paediatric astrocytoma of the cerebrum|paediatric cerebral astrocytoma|pediatric astrocytoma of cerebrum|pediatric astrocytoma of the cerebrum|pediatric cerebral astrocytoma|telencephalon childhood astrocytic tumor|telencephalon childhood astrocytic tumour|telencephalon juvenile astrocytoma		obo:gard#uncategorized	
@@ -5934,7 +5928,7 @@ identifier	name	definition	synonyms	alts	parents	species
 971	Brachydactyly-nystagmus-cerebellar ataxia syndrome		Biemond syndrome		obo:gard#uncategorized	
 9711	Lathosterolosis		sterol C5-desaturase deficiency		obo:gard#uncategorized	
 9714	Littoral cell angioma of the spleen				obo:gard#uncategorized	
-9715	Griscelli syndrome type 3		GS3|Griscelli-PruniC)ras syndrome type 3|Griscelli-Pruniéras syndrome type 3|Griscelli-Pruni��ras syndrome type 3		obo:gard#uncategorized	
+9715	Griscelli syndrome type 3		GS3|Griscelli-Pruniéras syndrome type 3		obo:gard#uncategorized	
 9716	Aspergillus niger infection				obo:gard#uncategorized	
 9719	Orbit lymphoma		lymphoma of orbit|lymphoma of the orbit|primary orbit lymphoma		obo:gard#uncategorized	
 972	Brachydactyly-preaxial hallux varus syndrome		Christian brachydactyly|preaxial brachydactyly with hallux varus and thumb abduction		obo:gard#uncategorized	
@@ -5999,7 +5993,7 @@ identifier	name	definition	synonyms	alts	parents	species
 9813	Congenital bile acid synthesis defect 1		3-beta-hydroxy-delta-5-C27-steroid oxidoreductase deficiency type 1|BASD1|CBAS1|HSD3B7 congenital bile acid synthesis defect|bile acid synthesis defect, congenital, type 1|congenital bile acid synthesis defect caused by mutation in HSD3B7|congenital bile acid synthesis defect type 1		obo:gard#uncategorized	
 9814	Tukel syndrome				obo:gard#uncategorized	
 9815	Paragonimiasis		Paragonimus westermani caused disease or disorder|Paragonimus westermani disease or disorder|Paragonimus westermani infectious disease|infection by Paragonimus|lung fluke disease|lung fluke infection|pulmonary paragonimiasis		obo:gard#uncategorized	
-9817	Dystonia 5		DYT-GCH1|DYT5a|GTP cyclohydrolase 1-deficient dopa-responsive dystonia|GTPCH1-deficient DRD|GTPCH1-deficient dopa-responsive dystonia|HPD with marked diurnal fluctuation|Segawa Syndrome|autosomal dominant Segawa syndrome|dystonia type 5|dystonia, DOPA-responsive, with or without hyperphenylalaninemia|hereditary progressive dystonia with marked diurnal fluctuation		obo:gard#uncategorized	
+9817	Dystonia 5		DYT-GCH1|Dopa-responsive dystonia, autosomal dominant|GTP cyclohydrolase 1-deficient dopa-responsive dystonia|Segawa Syndrome|Segawa syndrome, autosomal dominant|dystonia type 5|dystonia, DOPA-responsive, with or without hyperphenylalaninemia|dystonia, Dopa-responsive, autosomal dominant|dystonia, progressive, with diurnal variation|dystonia-Parkinsonism with diurnal fluctuation		obo:gard#uncategorized	
 9818	Developmental malformations-deafness-dystonia syndrome				obo:gard#uncategorized	
 982	Brachydactyly type A5				obo:gard#uncategorized	
 9820	Catastrophic antiphospholipid syndrome		caps|catastrophic APS		obo:gard#uncategorized	

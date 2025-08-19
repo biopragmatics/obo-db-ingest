@@ -1,64 +1,64 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/zfin/zfin.tsv
     path: zfin/zfin.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-03-11/zfin.tsv
-    version_path: zfin/2025-03-11/zfin.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-08-17/zfin.tsv
+    version_path: zfin/2025-08-17/zfin.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/zfin/zfin.obo
     path: zfin/zfin.obo
-    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-03-11/zfin.obo
-    version_path: zfin/2025-03-11/zfin.obo
+    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-08-17/zfin.obo
+    version_path: zfin/2025-08-17/zfin.obo
   obograph:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/zfin/zfin.json.gz
     path: zfin/zfin.json.gz
-    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-03-11/zfin.json.gz
-    version_path: zfin/2025-03-11/zfin.json.gz
+    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-08-17/zfin.json.gz
+    version_path: zfin/2025-08-17/zfin.json.gz
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/zfin/zfin.ofn
     path: zfin/zfin.ofn
-    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-03-11/zfin.ofn
-    version_path: zfin/2025-03-11/zfin.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-08-17/zfin.ofn
+    version_path: zfin/2025-08-17/zfin.ofn
   owl:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/zfin/zfin.owl.gz
     path: zfin/zfin.owl.gz
-    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-03-11/zfin.owl.gz
-    version_path: zfin/2025-03-11/zfin.owl.gz
+    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-08-17/zfin.owl.gz
+    version_path: zfin/2025-08-17/zfin.owl.gz
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/zfin/zfin.sssom.tsv
     path: zfin/zfin.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-03-11/zfin.sssom.tsv
-    version_path: zfin/2025-03-11/zfin.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-08-17/zfin.sssom.tsv
+    version_path: zfin/2025-08-17/zfin.sssom.tsv
   summary:
-    alts: 28080
-    definitions: 33608
+    alts: 28134
+    definitions: 33883
     license: CC-BY-4.0
-    mappings: 53220
-    parents: 196109
-    properties: 53220
+    mappings: 53333
+    parents: 200692
+    properties: 53333
     references: 0
-    relations: 268910
+    relations: 281557
     synonyms: 0
-    terms: 196109
-    version: '2025-03-11'
+    terms: 200692
+    version: '2025-08-17'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/zfin/zfin.synonyms.tsv
     path: zfin/zfin.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-03-11/zfin.synonyms.tsv
-    version_path: zfin/2025-03-11/zfin.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-08-17/zfin.synonyms.tsv
+    version_path: zfin/2025-08-17/zfin.synonyms.tsv
 prefix_map:
   FlyBase: https://flybase.org/reports/
   IAO: http://purl.obolibrary.org/obo/IAO_
@@ -68,8 +68,11 @@ prefix_map:
   RO: http://purl.obolibrary.org/obo/RO_
   SO: http://purl.obolibrary.org/obo/SO_
   dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
+  foaf: http://xmlns.com/foaf/0.1/
   hgnc: https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   rdfs: http://www.w3.org/2000/01/rdf-schema#

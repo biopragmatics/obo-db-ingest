@@ -1,8 +1,8 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
@@ -33,13 +33,13 @@ manifest:
     alts: 0
     definitions: 0
     license: CC-BY-SA-4.0
-    mappings: 26463
-    parents: 5082
-    properties: 31471
+    mappings: 26653
+    parents: 5134
+    properties: 31751
     references: 0
     relations: 0
     synonyms: 0
-    terms: 5082
+    terms: 5134
     version: null
   synonyms:
     gzipped: false
@@ -49,14 +49,16 @@ prefix_map:
   CHEBI: http://purl.obolibrary.org/obo/CHEBI_
   ChEMROF: https://chemkg.github.io/chemrof/
   atc: http://www.whocc.no/atc_ddd_index/?code=
-  bindingdb: http://www.bindingdb.org/compact/
+  bindingdb: http://www.bindingdb.org/rwd/entry/
   cas: https://commonchemistry.cas.org/detail?cas_rn=
-  chembl: https://www.ebi.ac.uk/chembl/entity/
+  chembl: https://www.ebi.ac.uk/chembl/id_lookup/
   chemspider: http://rdf.chemspider.com/
   dcterms: http://purl.org/dc/terms/
   debio: https://biopragmatics.github.io/debio/
-  drugbank: http://www.drugbank.ca/drugs/
+  doap: http://usefulinc.com/ns/doap#
+  drugbank: https://go.drugbank.com/drugs/
   drugbank.metabolite: https://go.drugbank.com/metabolites/
+  foaf: http://xmlns.com/foaf/0.1/
   genbank: https://www.ncbi.nlm.nih.gov/nucleotide/
   hmdb: http://www.hmdb.ca/metabolites/
   iuphar.ligand: http://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=
@@ -68,8 +70,9 @@ prefix_map:
   ndfrt: http://purl.bioontology.org/ontology/NDFRT/
   obo: http://purl.obolibrary.org/obo/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
-  pdb.ligand: https://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/
+  pdb.ligand: http://www.rcsb.org/ligand/
   pharmgkb.drug: http://www.pharmgkb.org/drug/
   pubchem.compound: http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID
   pubchem.substance: http://rdf.ncbi.nlm.nih.gov/pubchem/substance/SID
@@ -79,5 +82,6 @@ prefix_map:
   skos: http://www.w3.org/2004/02/skos/core#
   snomedct: http://snomed.info/id/
   umls: https://uts.nlm.nih.gov/uts/umls/concept/
+  unii: https://precision.fda.gov/uniisearch/srs/unii/
   uniprot: http://purl.uniprot.org/uniprot/
   xsd: http://www.w3.org/2001/XMLSchema#

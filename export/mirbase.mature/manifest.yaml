@@ -1,8 +1,8 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
@@ -61,6 +61,7 @@ manifest:
     version_path: mirbase.mature/22.1/mirbase.mature.synonyms.tsv
 prefix_map:
   dcterms: http://purl.org/dc/terms/
+  foaf: http://xmlns.com/foaf/0.1/
   mirbase.mature: http://mirbase.org/cgi-bin/mature.pl?mature_acc=
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
   owl: http://www.w3.org/2002/07/owl#

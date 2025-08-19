@@ -1,71 +1,74 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/gtdb/gtdb.tsv.gz
     path: gtdb/gtdb.tsv.gz
-    version_iri: https://w3id.org/biopragmatics/resources/gtdb/220/gtdb.tsv.gz
-    version_path: gtdb/220/gtdb.tsv.gz
+    version_iri: https://w3id.org/biopragmatics/resources/gtdb/226/gtdb.tsv.gz
+    version_path: gtdb/226/gtdb.tsv.gz
   obo:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/gtdb/gtdb.obo.gz
     path: gtdb/gtdb.obo.gz
-    version_iri: https://w3id.org/biopragmatics/resources/gtdb/220/gtdb.obo.gz
-    version_path: gtdb/220/gtdb.obo.gz
+    version_iri: https://w3id.org/biopragmatics/resources/gtdb/226/gtdb.obo.gz
+    version_path: gtdb/226/gtdb.obo.gz
   obograph:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/gtdb/gtdb.json.gz
     path: gtdb/gtdb.json.gz
-    version_iri: https://w3id.org/biopragmatics/resources/gtdb/220/gtdb.json.gz
-    version_path: gtdb/220/gtdb.json.gz
+    version_iri: https://w3id.org/biopragmatics/resources/gtdb/226/gtdb.json.gz
+    version_path: gtdb/226/gtdb.json.gz
   ofn:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/gtdb/gtdb.ofn.gz
     path: gtdb/gtdb.ofn.gz
-    version_iri: https://w3id.org/biopragmatics/resources/gtdb/220/gtdb.ofn.gz
-    version_path: gtdb/220/gtdb.ofn.gz
+    version_iri: https://w3id.org/biopragmatics/resources/gtdb/226/gtdb.ofn.gz
+    version_path: gtdb/226/gtdb.ofn.gz
   owl:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/gtdb/gtdb.owl
     path: gtdb/gtdb.owl
-    version_iri: https://w3id.org/biopragmatics/resources/gtdb/220/gtdb.owl
-    version_path: gtdb/220/gtdb.owl
+    version_iri: https://w3id.org/biopragmatics/resources/gtdb/226/gtdb.owl
+    version_path: gtdb/226/gtdb.owl
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/gtdb/gtdb.sssom.tsv
     path: gtdb/gtdb.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/gtdb/220/gtdb.sssom.tsv
-    version_path: gtdb/220/gtdb.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/gtdb/226/gtdb.sssom.tsv
+    version_path: gtdb/226/gtdb.sssom.tsv
   summary:
     alts: 0
     definitions: 0
     license: CC-BY-SA-4.0
-    mappings: 596859
-    parents: 3581154
-    properties: 4178013
+    mappings: 732475
+    parents: 4394850
+    properties: 5127325
     references: 0
     relations: 0
     synonyms: 0
-    terms: 4178013
-    version: '220'
+    terms: 5127325
+    version: '226'
   synonyms:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/gtdb/gtdb.synonyms.synonyms.tsv.gz
     path: gtdb/gtdb.synonyms.synonyms.tsv.gz
-    version_iri: https://w3id.org/biopragmatics/resources/gtdb/220/gtdb.synonyms.synonyms.tsv.gz
-    version_path: gtdb/220/gtdb.synonyms.synonyms.tsv.gz
+    version_iri: https://w3id.org/biopragmatics/resources/gtdb/226/gtdb.synonyms.synonyms.tsv.gz
+    version_path: gtdb/226/gtdb.synonyms.synonyms.tsv.gz
 prefix_map:
   IAO: http://purl.obolibrary.org/obo/IAO_
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
   TAXRANK: http://purl.obolibrary.org/obo/TAXRANK_
   dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
+  foaf: http://xmlns.com/foaf/0.1/
   gtdb: https://gtdb.ecogenomic.org/tree?r=
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   rdfs: http://www.w3.org/2000/01/rdf-schema#

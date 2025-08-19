@@ -21,7 +21,7 @@ ChEMBL is a database of bioactive compounds, their quantitative properties and b
 | field       |   count |
 |-------------|---------|
 | definitions |      27 |
-| mappings    |    9479 |
+| mappings    |    9477 |
 | parents     |   16027 |
 | properties  |   14803 |
 | relations   |   15758 |

@@ -10,6 +10,7 @@ identifier	name	definition	synonyms	alts	parents	species
 90378	RSV-MAb	Respiratory syncytial virus, monoclonal antibody, recombinant, for intramuscular use, 50 mg, each				
 90380	RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months	Respiratory syncytial virus, monoclonal antibody, seasonal dose; 0.5 mL dosage, for intramuscular use				
 90381	RSV, mAb, nirsevimab-alip, 1 mL, neonate to 24 months	Respiratory syncytial virus, monoclonal antibody, seasonal dose; 1 mL dosage, for intramuscular use				
+90382	RSV, mAb, clesrovimab-cfor, 0.7 mL, neonate and infant, PF	Respiratory syncytial virus, monoclonal antibody, seasonal dose, 0.7 mL, for intramuscular use				
 90389	TIG	Tetanus immune globulin (TIg), human, for intramuscular use				
 90393	vaccinia immune globulin	Vaccinia immune globulin, human, for intramuscular use				
 90396	VZIG	Varicella-zoster immune globulin, human, for intramuscular use				
@@ -21,12 +22,14 @@ identifier	name	definition	synonyms	alts	parents	species
 90585	BCG	Bacillus Calmette-Guerin vaccine (BCG) for tuberculosis, live, for percutaneous use				
 90587	dengue fever tetravalent	Dengue vaccine, quadrivalent, live, 3 dose schedule, for subcutaneous use				
 90589	Chikungunya live attenuated vaccine, 0.5 mL, PF	Chikungunya virus vaccine, live attenuated, for intramuscular use				
+90593	Chikungunya, VLP, recombinant, 0.8 mL, PF	Chikungunya virus vaccine, recombinant, for intramuscular use				
 90611	Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection	Smallpox and monkeypox vaccine, attenuated vaccinia virus, live, non-replicating, preservative free, 0.5 mL dosage, suspension, for subcutaneous use				
 90619	meningococcal conjugate quadrivalent, MenACWY-TT (MCV4)	Meningococcal conjugate vaccine, serogroups A, C, W, Y, quadrivalent, tetanus toxoid carrier (MenACWY-TT), for intramuscular use				
-90620	meningococcal B, OMV	Meningococcal recombinant protein and outer membrane vesicle vaccine, serogroup B (MenB-4C), 2 dose schedule, for intramuscular use				
+90620	meningococcal B, OMV	Meningococcal recombinant protein and outer membrane vesicle vaccine, serogroup B (MenB-4C), for intramuscular use				
 90621	meningococcal B, recombinant	Meningococcal recombinant lipoprotein vaccine, serogroup B (MenB-FHbp), 2 or 3 dose schedule, for intramuscular use				
-90622	vaccinia (smallpox)	Vaccinia (smallpox) virus vaccine, live, lyophilized, 0.3 mL dosage, for percutaneous use				
+90622	Vaccinia (smallpox, mpox), live	Vaccinia (smallpox) virus vaccine, live, lyophilized, 0.3 mL dosage, for percutaneous use				
 90623	Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF	Meningococcal pentavalent vaccine, conjugated Men A, C, W, Y- tetanus toxoid carrier, and Men B-FHbp, for intramuscular use				
+90624	Meningococcal oligosaccharide (MenACWY), (MenB), PF	Meningococcal pentavalent vaccine, Men B-4C recombinant proteins and outer membrane vesicle and conjugated Men A, C, W, Y-diphtheria toxoid carrier, for intramuscular use				
 90625	cholera, live attenuated	Cholera vaccine, live, adult dosage, 1 dose schedule, for oral use				
 90626	Tick-borne encephalitis, inactivated, PF, 0.25mL	Tick-borne encephalitis virus vaccine, inactivated; 0.25 mL dosage, for intramuscular use				
 90627	Tick-borne encephalitis, inactivated, PF, 0.5mL	Tick-borne encephalitis virus vaccine, inactivated; 0.5 mL dosage, for intramuscular use				
@@ -49,11 +52,11 @@ identifier	name	definition	synonyms	alts	parents	species
 90657	Influenza, split virus, trivalent, preservative	Influenza virus vaccine, trivalent (IIV3), split virus, 0.25 mL dosage, for intramuscular use				
 90658	Influenza, split virus, trivalent, preservative	Influenza virus vaccine, trivalent (IIV3), split virus, 0.5 mL dosage, for intramuscular use				
 90659	influenza, whole	Influenza virus vaccine, whole virus, for intramuscular or jet injection use				
-90660	Influenza, live, trivalent, intranasal	Influenza virus vaccine, trivalent, live (LAIV3), for intranasal use				
-90661	Influenza, MDCK, trivalent, preservative	Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use				
+90660	Influenza, live, trivalent, intranasal, PF	Influenza virus vaccine, trivalent, live (LAIV3), for intranasal use				
 90661	Influenza, MDCK, trivalent, PF	Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use				
-90662	Influenza, high-dose, quadrivalent, PF	Influenza virus vaccine (IIV), split virus, preservative free, enhanced immunogenicity via increased antigen content, for intramuscular use				
+90661	Influenza, MDCK, trivalent, preservative	Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use				
 90662	Influenza, high-dose, trivalent, PF	Influenza virus vaccine (IIV), split virus, preservative free, enhanced immunogenicity via increased antigen content, for intramuscular use				
+90662	Influenza, high-dose, quadrivalent, PF	Influenza virus vaccine (IIV), split virus, preservative free, enhanced immunogenicity via increased antigen content, for intramuscular use				
 90663	Novel Influenza-H1N1-09, all formulations	Influenza virus vaccine, pandemic formulation, H1N1				
 90664	Novel Influenza-H1N1-09, nasal	Influenza virus vaccine, live (LAIV), pandemic formulation, for intranasal use				
 90665	Lyme disease	Lyme disease vaccine, adult dosage, for intramuscular use				
@@ -65,8 +68,8 @@ identifier	name	definition	synonyms	alts	parents	species
 90672	Influenza, live, quadrivalent, intranasal	Influenza virus vaccine, quadrivalent, live (LAIV4), for intranasal use				
 90673	Influenza, recombinant, trivalent, PF	Influenza virus vaccine, trivalent (RIV3), derived from recombinant DNA, hemagglutinin (HA) protein only, preservative and antibiotic free, for intramuscular use				
 90674	Influenza, MDCK, quadrivalent, PF	Influenza virus vaccine, quadrivalent (ccIIV4), derived from cell cultures, subunit, preservative and antibiotic free, 0.5 mL dosage, for intramuscular use				
-90675	Rabies - IM fibroblast culture	Rabies vaccine, for intramuscular use				
 90675	Rabies - IM Diploid cell culture	Rabies vaccine, for intramuscular use				
+90675	Rabies - IM fibroblast culture	Rabies vaccine, for intramuscular use				
 90676	rabies, intradermal injection	Rabies vaccine, for intradermal use				
 90677	Pneumococcal conjugate PCV20, polysaccharide CRM197 conjugate, adjuvant, PF	Pneumococcal conjugate vaccine, 20 valent (PCV20), for intramuscular use				
 90678	RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF	Respiratory syncytial virus vaccine, preF, subunit, bivalent, for intramuscular use				
@@ -88,8 +91,8 @@ identifier	name	definition	synonyms	alts	parents	species
 90696	DTaP-IPV	Diphtheria, tetanus toxoids, acellular pertussis vaccine and inactivated poliovirus vaccine (DTaP-IPV), when administered to children 4 through 6 years of age, for intramuscular use				
 90697	DTaP,IPV,Hib,HepB	Diphtheria, tetanus toxoids, acellular pertussis vaccine, inactivated poliovirus vaccine, Haemophilus influenzae type b PRP-OMP conjugate vaccine, and hepatitis B vaccine (DTaP-IPV-Hib-HepB), for intramuscular use				
 90698	DTaP-Hib-IPV	Diphtheria, tetanus toxoids, acellular pertussis vaccine, Haemophilus influenzae type b, and inactivated poliovirus vaccine, (DTaP-IPV/Hib), for intramuscular use				
-90700	DTaP, 5 pertussis antigens	Diphtheria, tetanus toxoids, and acellular pertussis vaccine (DTaP), when administered to individuals younger than 7 years, for intramuscular use				
 90700	DTaP	Diphtheria, tetanus toxoids, and acellular pertussis vaccine (DTaP), when administered to individuals younger than 7 years, for intramuscular use				
+90700	DTaP, 5 pertussis antigens	Diphtheria, tetanus toxoids, and acellular pertussis vaccine (DTaP), when administered to individuals younger than 7 years, for intramuscular use				
 90701	DTP	Diphtheria, tetanus toxoids, and whole cell pertussis vaccine (DTP), for intramuscular use				
 90702	DT (pediatric)	Diphtheria and tetanus toxoids adsorbed (DT) when administered to individuals younger than 7 years, for intramuscular use				
 90703	tetanus toxoid, adsorbed	Tetanus toxoid adsorbed, for intramuscular use				

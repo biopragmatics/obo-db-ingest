@@ -4,7 +4,7 @@
     "meta" : {
       "basicPropertyValues" : [ {
         "pred" : "http://purl.org/dc/terms/description",
-        "val" : "The post-translational modifications used in the UniProt knowledgebase \\(Swiss-Prot and TrEMBL\\). The definition of the post-translational modifications usage as well as other information is provided in the following format"
+        "val" : "The post-translational modifications used in the UniProt knowledgebase (Swiss-Prot and TrEMBL). The definition of the post-translational modifications usage as well as other information is provided in the following format"
       }, {
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "CC-BY-4.0"
@@ -13,7 +13,13 @@
         "val" : "UniProt Post-Translational Modification"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-        "val" : "PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T12:20:10.390353"
+        "val" : "PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:29:06.262953"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/homepage",
+        "val" : "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/logo",
+        "val" : "https://www.uniprot.org/og-uniprot-wide-logo-1200x630.png"
       } ]
     },
     "nodes" : [ {
@@ -3759,7 +3765,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.obolibrary.org/obo/CHEBI_82620"
+          "val" : "http://purl.obolibrary.org/obo/CHEBI_61978"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/MOD_00048"
@@ -9197,6 +9203,46 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/RESID_AA0565"
+        } ]
+      }
+    }, {
+      "id" : "https://biopragmatics.github.io/providers/uniprot.ptm/PTM-0740",
+      "lbl" : "Glyoxylic acid (Cys)",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://biopragmatics.github.io/providers/uniprot.ptm/PTM-0741",
+      "lbl" : "N6-benzoyllysine",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/CHEBI_233144"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://www.unimod.org/modifications_view.php?editid1=136"
+        } ]
+      }
+    }, {
+      "id" : "https://biopragmatics.github.io/providers/uniprot.ptm/PTM-0742",
+      "lbl" : "N6-isonicotinyllysine",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/CHEBI_233146"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://www.unimod.org/modifications_view.php?editid1=697"
+        } ]
+      }
+    }, {
+      "id" : "https://biopragmatics.github.io/providers/uniprot.ptm/PTM-0743",
+      "lbl" : "N6-methacryllysine",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/CHEBI_233147"
         } ]
       }
     } ]

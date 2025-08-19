@@ -1,5 +1,8 @@
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
+Prefix(doap:=<http://usefulinc.com/ns/doap#>)
+Prefix(foaf:=<http://xmlns.com/foaf/0.1/>)
 Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+Prefix(orcid:=<https://orcid.org/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(pharmgkb.pathways:=<http://www.pharmgkb.org/pathway/>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
@@ -9,8 +12,12 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Ontology(<https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.ofn>
 Annotation(dcterms:title "PharmGKB"^^xsd:string)
 Annotation(dcterms:license "CC-BY-SA-4.0"^^xsd:string)
-Annotation(dcterms:description "The PharmGKB database is a central repository for genetic\\, genomic\\, molecular and cellular phenotype data and clinical information about people who have participated in pharmacogenomics research studies. The data includes\\, but is not limited to\\, clinical and basic pharmacokinetic and pharmacogenomic research in the cardiovascular\\, pulmonary\\, cancer\\, pathways\\, metabolic and transporter domains. \\nPharmGKB Pathways are drug centric\\, gene based\\, interactive pathways which focus on candidate genes and gene groups and associated genotype and phenotype data of relevance for pharmacogenetic and pharmacogenomic studies."^^xsd:string)
-Annotation(oboInOwl:auto-generated-by "PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:16:21.735834"^^xsd:string)
+Annotation(dcterms:description "The PharmGKB database is a central repository for genetic, genomic, molecular and cellular phenotype data and clinical information about people who have participated in pharmacogenomics research studies. The data includes, but is not limited to, clinical and basic pharmacokinetic and pharmacogenomic research in the cardiovascular, pulmonary, cancer, pathways, metabolic and transporter domains. 
+PharmGKB Pathways are drug centric, gene based, interactive pathways which focus on candidate genes and gene groups and associated genotype and phenotype data of relevance for pharmacogenetic and pharmacogenomic studies."^^xsd:string)
+Annotation(foaf:homepage "http://www.pharmgkb.org/"^^xsd:anyURI)
+Annotation(foaf:logo "https://rxgenomix.com/wp-content/uploads/2019/10/pharmgKB.png"^^xsd:anyURI)
+Annotation(doap:maintainer orcid:0000-0001-5527-6475)
+Annotation(oboInOwl:auto-generated-by "PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T00:42:32.329051"^^xsd:string)
 
 Declaration(Class(pharmgkb.pathways:PA145011108))
 AnnotationAssertion(rdfs:label pharmgkb.pathways:PA145011108 "Statin Pathway Generalized Pharmacokinetics")

@@ -1,4 +1,5 @@
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
+Prefix(foaf:=<http://xmlns.com/foaf/0.1/>)
 Prefix(geonames.feature:=<https://bioregistry.io/geonames.feature:>)
 Prefix(NCBITaxon:=<http://purl.obolibrary.org/obo/NCBITaxon_>)
 Prefix(obo:=<http://purl.obolibrary.org/obo/>)
@@ -13,7 +14,9 @@ Ontology(<https://w3id.org/biopragmatics/resources/geonames.feature/geonames.fea
 Annotation(dcterms:title "GeoNames Feature Code"^^xsd:string)
 Annotation(dcterms:license "CC-BY-4.0"^^xsd:string)
 Annotation(dcterms:description "All geographical features in GeoNames are categorized into one out of nine feature classes and further subcategorized into one out of 645 feature codes."^^xsd:string)
-Annotation(oboInOwl:auto-generated-by "PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:32:09.311694"^^xsd:string)
+Annotation(foaf:homepage "https://www.geonames.org/export/codes.html"^^xsd:anyURI)
+Annotation(foaf:logo "https://www.geonames.org/img/globe.gif"^^xsd:anyURI)
+Annotation(oboInOwl:auto-generated-by "PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T01:00:03.722981"^^xsd:string)
 
 Declaration(Class(geonames.feature:A.ADM1H))
 SubClassOf(geonames.feature:A.ADM1H obo:geonames.feature#A)

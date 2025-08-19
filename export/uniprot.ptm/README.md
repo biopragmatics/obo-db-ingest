@@ -20,5 +20,5 @@ The post-translational modifications used in the UniProt knowledgebase (Swiss-Pr
 
 | field    |   count |
 |----------|---------|
-| mappings |    1543 |
-| terms    |     714 |
+| mappings |    1548 |
+| terms    |     718 |

@@ -6,6 +6,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:CHEBI="http://purl.obolibrary.org/obo/CHEBI_"
      xmlns:RESID="http://purl.obolibrary.org/obo/RESID_"
@@ -14,10 +15,12 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:uniprot.ptm="https://biopragmatics.github.io/providers/uniprot.ptm/">
     <owl:Ontology rdf:about="https://w3id.org/biopragmatics/resources/uniprot.ptm/uniprot.ptm.ofn">
-        <dcterms:description>The post-translational modifications used in the UniProt knowledgebase \(Swiss-Prot and TrEMBL\). The definition of the post-translational modifications usage as well as other information is provided in the following format</dcterms:description>
+        <dcterms:description>The post-translational modifications used in the UniProt knowledgebase (Swiss-Prot and TrEMBL). The definition of the post-translational modifications usage as well as other information is provided in the following format</dcterms:description>
         <dcterms:license>CC-BY-4.0</dcterms:license>
         <dcterms:title>UniProt Post-Translational Modification</dcterms:title>
-        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T12:20:10.390353</oboInOwl:auto-generated-by>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:29:06.262953</oboInOwl:auto-generated-by>
+        <foaf:homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist</foaf:homepage>
+        <foaf:logo rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uniprot.org/og-uniprot-wide-logo-1200x630.png</foaf:logo>
     </owl:Ontology>
     
 
@@ -60,6 +63,18 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/logo -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/logo"/>
     
 
 
@@ -2768,7 +2783,7 @@
     <!-- https://biopragmatics.github.io/providers/uniprot.ptm/PTM-0255 -->
 
     <owl:Class rdf:about="https://biopragmatics.github.io/providers/uniprot.ptm/PTM-0255">
-        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/CHEBI_82620"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61978"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MOD_00048"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/RESID_AA0039"/>
         <oboInOwl:hasDbXref rdf:resource="http://www.unimod.org/modifications_view.php?editid1=21"/>
@@ -7325,6 +7340,43 @@
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/MOD_01881"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/RESID_AA0565"/>
         <rdfs:label>3-(L-phenylalan-2&apos;-yl)-L-valine (Phe-Val)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://biopragmatics.github.io/providers/uniprot.ptm/PTM-0740 -->
+
+    <owl:Class rdf:about="https://biopragmatics.github.io/providers/uniprot.ptm/PTM-0740">
+        <rdfs:label>Glyoxylic acid (Cys)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://biopragmatics.github.io/providers/uniprot.ptm/PTM-0741 -->
+
+    <owl:Class rdf:about="https://biopragmatics.github.io/providers/uniprot.ptm/PTM-0741">
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/CHEBI_233144"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.unimod.org/modifications_view.php?editid1=136"/>
+        <rdfs:label>N6-benzoyllysine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://biopragmatics.github.io/providers/uniprot.ptm/PTM-0742 -->
+
+    <owl:Class rdf:about="https://biopragmatics.github.io/providers/uniprot.ptm/PTM-0742">
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/CHEBI_233146"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.unimod.org/modifications_view.php?editid1=697"/>
+        <rdfs:label>N6-isonicotinyllysine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://biopragmatics.github.io/providers/uniprot.ptm/PTM-0743 -->
+
+    <owl:Class rdf:about="https://biopragmatics.github.io/providers/uniprot.ptm/PTM-0743">
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/CHEBI_233147"/>
+        <rdfs:label>N6-methacryllysine</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

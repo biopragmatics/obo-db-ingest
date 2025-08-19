@@ -4,13 +4,19 @@
     "meta" : {
       "basicPropertyValues" : [ {
         "pred" : "http://purl.org/dc/terms/description",
-        "val" : "Current Procedural Terminology\\, more commonly known as CPT®\\, refers to a medical code set created and maintained by the American Medical Association — and used by physicians\\, allied health professionals\\, nonphysician practitioners\\, hospitals\\, outpatient facilities\\, and laboratories to represent the services and procedures they perform. No provider of outpatient services gets paid without reporting the proper CPT® codes. \\[Description taken from this site\\]\\(https\\://www.aapc.com/codes/cpt-codes-range/\\)\\]"
+        "val" : "Current Procedural Terminology, more commonly known as CPT®, refers to a medical code set created and maintained by the American Medical Association — and used by physicians, allied health professionals, nonphysician practitioners, hospitals, outpatient facilities, and laboratories to represent the services and procedures they perform. No provider of outpatient services gets paid without reporting the proper CPT® codes. [Description taken from this site](https://www.aapc.com/codes/cpt-codes-range/)]"
       }, {
         "pred" : "http://purl.org/dc/terms/title",
         "val" : "Current Procedural Terminology"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-        "val" : "PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T12:20:14.936911"
+        "val" : "PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:34:10.904993"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/homepage",
+        "val" : "https://www.aapc.com"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/logo",
+        "val" : "https://edhub.ama-assn.org/ImageLibrary/Ed-Hub-Self-Serve/CPT-monogram.png"
       } ]
     },
     "nodes" : [ {
@@ -159,6 +165,19 @@
         } ]
       }
     }, {
+      "id" : "https://www.aapc.com/codes/cpt-codes/90382",
+      "lbl" : "RSV, mAb, clesrovimab-cfor, 0.7 mL, neonate and infant, PF",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "Respiratory syncytial virus, monoclonal antibody, seasonal dose, 0.7 mL, for intramuscular use"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "https://biopragmatics.github.io/providers/cvx/332"
+        } ]
+      }
+    }, {
       "id" : "https://www.aapc.com/codes/cpt-codes/90389",
       "lbl" : "TIG",
       "type" : "CLASS",
@@ -292,6 +311,19 @@
         } ]
       }
     }, {
+      "id" : "https://www.aapc.com/codes/cpt-codes/90593",
+      "lbl" : "Chikungunya, VLP, recombinant, 0.8 mL, PF",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "Chikungunya virus vaccine, recombinant, for intramuscular use"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "https://biopragmatics.github.io/providers/cvx/329"
+        } ]
+      }
+    }, {
       "id" : "https://www.aapc.com/codes/cpt-codes/90611",
       "lbl" : "Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection",
       "type" : "CLASS",
@@ -325,7 +357,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/terms/description",
-          "val" : "Meningococcal recombinant protein and outer membrane vesicle vaccine, serogroup B (MenB-4C), 2 dose schedule, for intramuscular use"
+          "val" : "Meningococcal recombinant protein and outer membrane vesicle vaccine, serogroup B (MenB-4C), for intramuscular use"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://biopragmatics.github.io/providers/cvx/163"
@@ -346,7 +378,7 @@
       }
     }, {
       "id" : "https://www.aapc.com/codes/cpt-codes/90622",
-      "lbl" : "vaccinia (smallpox)",
+      "lbl" : "Vaccinia (smallpox, mpox), live",
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "CPT Code to be used for ACAM2000 vaccine" ],
@@ -369,6 +401,19 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://biopragmatics.github.io/providers/cvx/316"
+        } ]
+      }
+    }, {
+      "id" : "https://www.aapc.com/codes/cpt-codes/90624",
+      "lbl" : "Meningococcal oligosaccharide (MenACWY), (MenB), PF",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "Meningococcal pentavalent vaccine, Men B-4C recombinant proteins and outer membrane vesicle and conjugated Men A, C, W, Y-diphtheria toxoid carrier, for intramuscular use"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "https://biopragmatics.github.io/providers/cvx/328"
         } ]
       }
     }, {
@@ -659,7 +704,7 @@
       }
     }, {
       "id" : "https://www.aapc.com/codes/cpt-codes/90660",
-      "lbl" : "Influenza, live, trivalent, intranasal",
+      "lbl" : "Influenza, live, trivalent, intranasal, PF",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {

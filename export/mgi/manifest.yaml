@@ -1,8 +1,8 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
@@ -43,15 +43,15 @@ manifest:
     version_path: mgi/6.24/mgi.sssom.tsv
   summary:
     alts: 0
-    definitions: 719756
+    definitions: 661778
     license: CC-BY-4.0
-    mappings: 168405
+    mappings: 189484
     parents: 0
-    properties: 111831
+    properties: 111826
     references: 0
-    relations: 930562
-    synonyms: 259761
-    terms: 719756
+    relations: 997093
+    synonyms: 260089
+    terms: 661778
     version: '6.24'
   synonyms:
     gzipped: false
@@ -65,8 +65,11 @@ prefix_map:
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
   RO: http://purl.obolibrary.org/obo/RO_
   dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
   ensembl: http://rdf.ebi.ac.uk/resource/ensembl/
+  foaf: http://xmlns.com/foaf/0.1/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   rdfs: http://www.w3.org/2000/01/rdf-schema#

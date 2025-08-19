@@ -1,7 +1,8 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:32:08.146705
+auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T01:00:02.414222
 idspace: biolink https://w3id.org/biolink/vocab/ "Biolink Model"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
 idspace: nlm.publisher https://bioregistry.io/nlm.publisher: "NLM Publisher Codes"
 idspace: orcid https://orcid.org/ "Open Researcher and Contributor"
 idspace: schema https://schema.org/ "Schema.org"
@@ -11,6 +12,8 @@ ontology: nlm.publisher
 property_value: dcterms:title "NLM Publisher Codes" xsd:string
 property_value: dcterms:license "public domain" xsd:string
 property_value: dcterms:description "Publisher short codes appearin in the NLM Catalog." xsd:string
+property_value: foaf:homepage "https\://ftp.ncbi.nlm.nih.gov/pubmed/xmlprovidernames.txt" xsd:anyURI
+property_value: foaf:logo "https\://upload.wikimedia.org/wikipedia/commons/5/52/Logo_of_U.S._National_Library_of_Medicine.png" xsd:anyURI
 property_value: IAO:0000700 obo:nlm#publisher
 
 [Term]
@@ -44,7 +47,7 @@ instance_of: obo:nlm#publisher ! publisher
 
 [Instance]
 id: nlm.publisher:aegis
-name: AEGIS Communications
+name: Conexiant
 instance_of: obo:nlm#publisher ! publisher
 
 [Instance]
@@ -300,11 +303,6 @@ instance_of: obo:nlm#publisher ! publisher
 [Instance]
 id: nlm.publisher:camup
 name: Cambridge University Press
-instance_of: obo:nlm#publisher ! publisher
-
-[Instance]
-id: nlm.publisher:canurol
-name: The Canadian Journal of Urology
 instance_of: obo:nlm#publisher ! publisher
 
 [Instance]
@@ -673,11 +671,6 @@ name: Environmental Science \(Huan Jing Ke Xue\)
 instance_of: obo:nlm#publisher ! publisher
 
 [Instance]
-id: nlm.publisher:equinox
-name: Equinox Publishing Ltd
-instance_of: obo:nlm#publisher ! publisher
-
-[Instance]
 id: nlm.publisher:ergon
 name: Ergon
 instance_of: obo:nlm#publisher ! publisher
@@ -930,11 +923,6 @@ instance_of: obo:nlm#publisher ! publisher
 [Instance]
 id: nlm.publisher:inacse
 name: International Academy of Science\, Education\, I ndustry & Arts
-instance_of: obo:nlm#publisher ! publisher
-
-[Instance]
-id: nlm.publisher:indian
-name: Indian Pediatrics
 instance_of: obo:nlm#publisher ! publisher
 
 [Instance]
@@ -1493,6 +1481,11 @@ name: Vereniging NTvG
 instance_of: obo:nlm#publisher ! publisher
 
 [Instance]
+id: nlm.publisher:ntvt
+name: Nederlands tijdschrift voor tandheelkunde
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
 id: nlm.publisher:oie
 name: World Organisation for Animal Health \(OIE\)
 instance_of: obo:nlm#publisher ! publisher
@@ -1534,7 +1527,7 @@ instance_of: obo:nlm#publisher ! publisher
 
 [Instance]
 id: nlm.publisher:painmd
-name: Pain Physician
+name: American Society of Interventional Pain Physicians
 instance_of: obo:nlm#publisher ! publisher
 
 [Instance]
@@ -1653,11 +1646,6 @@ name: Hungarian Oncological Association
 instance_of: obo:nlm#publisher ! publisher
 
 [Instance]
-id: nlm.publisher:prelum
-name: Prelum
-instance_of: obo:nlm#publisher ! publisher
-
-[Instance]
 id: nlm.publisher:pzico
 name: P.Ziti and Co
 instance_of: obo:nlm#publisher ! publisher
@@ -1768,11 +1756,6 @@ name: SanovaWorks
 instance_of: obo:nlm#publisher ! publisher
 
 [Instance]
-id: nlm.publisher:saxinst
-name: Sax Institute
-instance_of: obo:nlm#publisher ! publisher
-
-[Instance]
 id: nlm.publisher:scg
 name: Swiss Chemical Society
 instance_of: obo:nlm#publisher ! publisher
@@ -1820,11 +1803,6 @@ instance_of: obo:nlm#publisher ! publisher
 [Instance]
 id: nlm.publisher:seq
 name: Sociedad Espanola de Quimioterapia
-instance_of: obo:nlm#publisher ! publisher
-
-[Instance]
-id: nlm.publisher:serdi
-name: Serdi Edition
 instance_of: obo:nlm#publisher ! publisher
 
 [Instance]
@@ -2008,6 +1986,11 @@ name: LookUs Bilisim
 instance_of: obo:nlm#publisher ! publisher
 
 [Instance]
+id: nlm.publisher:techscience
+name: Tech Science Press
+instance_of: obo:nlm#publisher ! publisher
+
+[Instance]
 id: nlm.publisher:terasaki
 name: Terasaki Research Institute
 instance_of: obo:nlm#publisher ! publisher
@@ -2109,7 +2092,7 @@ instance_of: obo:nlm#publisher ! publisher
 
 [Instance]
 id: nlm.publisher:umedpr
-name: Universal Medical Press
+name: Surgical Technology Online
 instance_of: obo:nlm#publisher ! publisher
 
 [Instance]
@@ -2185,11 +2168,6 @@ instance_of: obo:nlm#publisher ! publisher
 [Instance]
 id: nlm.publisher:viamedia
 name: Via Medica Medical Publishers
-instance_of: obo:nlm#publisher ! publisher
-
-[Instance]
-id: nlm.publisher:viguera
-name: Viguera Editores\, S. L.
 instance_of: obo:nlm#publisher ! publisher
 
 [Instance]

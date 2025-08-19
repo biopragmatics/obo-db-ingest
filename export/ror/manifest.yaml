@@ -1,8 +1,8 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
@@ -45,7 +45,7 @@ manifest:
     alts: 0
     definitions: 107096
     license: CC0-1.0
-    mappings: 237178
+    mappings: 237173
     parents: 122664
     properties: 104993
     references: 0
@@ -71,6 +71,7 @@ prefix_map:
   RO: http://purl.obolibrary.org/obo/RO_
   cnrs: 'https://bioregistry.io/cnrs:'
   dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
   foaf: http://xmlns.com/foaf/0.1/
   funderregistry: http://data.crossref.org/fundingdata/funder/10.13039/
   geonames: https://www.geonames.org/

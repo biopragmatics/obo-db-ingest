@@ -4,13 +4,16 @@
     "meta" : {
       "basicPropertyValues" : [ {
         "pred" : "http://purl.org/dc/terms/description",
-        "val" : "The CDC's National Center of Immunization and Respiratory Diseases \\(NCIRD\\) developed and maintains the CVX \\(vaccine administered\\) code set. The table below has the most up to date values. It includes both active and inactive vaccines available in the US. CVX codes for inactive vaccines allow transmission of historical immunization records."
+        "val" : "The CDC's National Center of Immunization and Respiratory Diseases (NCIRD) developed and maintains the CVX (vaccine administered) code set. The table below has the most up to date values. It includes both active and inactive vaccines available in the US. CVX codes for inactive vaccines allow transmission of historical immunization records."
       }, {
         "pred" : "http://purl.org/dc/terms/title",
         "val" : "Vaccine administered code set"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-        "val" : "PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T12:20:12.690153"
+        "val" : "PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:29:08.420049"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/homepage",
+        "val" : "https://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx"
       } ]
     },
     "nodes" : [ {
@@ -39,11 +42,10 @@
       "lbl" : "trivalent poliovirus vaccine, live, oral",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "This is the OPV that was used in the US" ],
+        "comments" : [ "This is the OPV used in the US from June 1963 through Dec 1999 and globally through April 2016" ],
         "synonyms" : [ {
-          "synonymType" : "http://purl.obolibrary.org/obo/OMO_0003012",
-          "pred" : "hasExactSynonym",
-          "val" : "OPV"
+          "pred" : "hasRelatedSynonym",
+          "val" : "OPV, trivalent"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
@@ -445,10 +447,14 @@
       }
     }, {
       "id" : "https://biopragmatics.github.io/providers/cvx/111",
-      "lbl" : "Influenza, live, trivalent, intranasal",
+      "lbl" : "Influenza, live, trivalent, intranasal, preservative free",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "Trivalent code reactivated for 2024/2025 season" ],
+        "comments" : [ "HCP administered, trivalent code reactivated for 2024/2025 season" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Influenza, live, trivalent, intranasal, PF"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -2361,13 +2367,13 @@
       }
     }, {
       "id" : "https://biopragmatics.github.io/providers/cvx/201",
-      "lbl" : "influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5mL dose, no preservative",
+      "lbl" : "Influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5 mL dose, preservative free",
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "Represents single dose vial" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
-          "val" : "influenza, Southern Hemisphere, preservative free"
+          "val" : "Influenza, Southern Hemisphere, quadrivalent, PF"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
@@ -3712,6 +3718,23 @@
         } ]
       }
     }, {
+      "id" : "https://biopragmatics.github.io/providers/cvx/325",
+      "lbl" : "Vaccinia (smallpox, mpox), unspecified",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "Use this CVX for historical records where; the formulation administered is not known, or is a non-US product without an associated CVX code." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
+          "val" : "false"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/cvx#status",
+          "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
+        } ]
+      }
+    }, {
       "id" : "https://biopragmatics.github.io/providers/cvx/326",
       "lbl" : "Respiratory syncytial virus (RSV), mRNA, injectable, preservative free",
       "type" : "CLASS",
@@ -3753,6 +3776,47 @@
         } ]
       }
     }, {
+      "id" : "https://biopragmatics.github.io/providers/cvx/328",
+      "lbl" : "Meningococcal oligosaccharide conjugated (groups A, C, W, Y) and group B, 0.5 mL, preservative free",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "Meningococcal pentavalent vaccine strains ABCW and Y" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Meningococcal oligosaccharide (MenACWY), (MenB), PF"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
+          "val" : "false"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/cvx#status",
+          "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
+        } ]
+      }
+    }, {
+      "id" : "https://biopragmatics.github.io/providers/cvx/329",
+      "lbl" : "Chikungunya, virus-like particle (VLP), recombinant vaccine, 0.8 mL, preservative free",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Chikungunya, VLP, recombinant, 0.8 mL, PF"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
+          "val" : "false"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/cvx#status",
+          "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
+        } ]
+      }
+    }, {
       "id" : "https://biopragmatics.github.io/providers/cvx/33",
       "lbl" : "pneumococcal polysaccharide vaccine, 23 valent",
       "type" : "CLASS",
@@ -3760,6 +3824,90 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "pneumococcal polysaccharide PPV23"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
+          "val" : "false"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/cvx#status",
+          "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
+        } ]
+      }
+    }, {
+      "id" : "https://biopragmatics.github.io/providers/cvx/330",
+      "lbl" : "Dengue fever, unspecified formulation",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "Use this CVX for historical records where; the formulation of the dengue vaccine administered is not known, or is a non-US product without an associated CVX code." ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Dengue fever, unspecified"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
+          "val" : "false"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/cvx#status",
+          "val" : "Inactive"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
+        } ]
+      }
+    }, {
+      "id" : "https://biopragmatics.github.io/providers/cvx/331",
+      "lbl" : "Influenza, seasonal, Southern Hemisphere, trivalent, 0.5 mL dose, preservative free",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "Represents single dose vial" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Influenza, Southern Hemisphere, trivalent, PF"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
+          "val" : "false"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/cvx#status",
+          "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
+        } ]
+      }
+    }, {
+      "id" : "https://biopragmatics.github.io/providers/cvx/332",
+      "lbl" : "Respiratory syncytial virus (RSV), monoclonal antibody, IgG1κ, (clesrovimab-cfor), 0.7 mL, neonate and infant, preservative free",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "RSV mAb for neonates and infants born during or entering first RSV season (Enflonsia)" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "RSV, mAb, clesrovimab-cfor, 0.7 mL, neonate and infant, PF"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
+          "val" : "false"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/cvx#status",
+          "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
+        } ]
+      }
+    }, {
+      "id" : "https://biopragmatics.github.io/providers/cvx/333",
+      "lbl" : "Influenza, live, trivalent, intranasal, self or caregiver administered, preservative free",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "Self or caregiver administered, new starting 2025/2026 season" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Influenza, live, trivalent, intranasal, self/caregiver admin, PF"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
@@ -5019,9 +5167,13 @@
       }
     }, {
       "id" : "https://biopragmatics.github.io/providers/cvx/75",
-      "lbl" : "vaccinia (smallpox) vaccine",
+      "lbl" : "Vaccinia (smallpox, mpox) vaccine, live",
       "type" : "CLASS",
       "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Vaccinia (smallpox, mpox), live"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
           "val" : "false"
@@ -5634,7 +5786,7 @@
     }, {
       "sub" : "https://biopragmatics.github.io/providers/cvx/105",
       "pred" : "is_a",
-      "obj" : "https://biopragmatics.github.io/providers/cvx/75"
+      "obj" : "https://biopragmatics.github.io/providers/cvx/325"
     }, {
       "sub" : "https://biopragmatics.github.io/providers/cvx/106",
       "pred" : "is_a",
@@ -6042,7 +6194,7 @@
     }, {
       "sub" : "https://biopragmatics.github.io/providers/cvx/206",
       "pred" : "is_a",
-      "obj" : "https://biopragmatics.github.io/providers/cvx/75"
+      "obj" : "https://biopragmatics.github.io/providers/cvx/325"
     }, {
       "sub" : "https://biopragmatics.github.io/providers/cvx/207",
       "pred" : "is_a",
@@ -6284,6 +6436,10 @@
       "pred" : "is_a",
       "obj" : "https://biopragmatics.github.io/providers/cvx/89"
     }, {
+      "sub" : "https://biopragmatics.github.io/providers/cvx/325",
+      "pred" : "is_a",
+      "obj" : "https://biopragmatics.github.io/providers/cvx/325"
+    }, {
       "sub" : "https://biopragmatics.github.io/providers/cvx/326",
       "pred" : "is_a",
       "obj" : "https://biopragmatics.github.io/providers/cvx/304"
@@ -6292,9 +6448,37 @@
       "pred" : "is_a",
       "obj" : "https://biopragmatics.github.io/providers/cvx/152"
     }, {
+      "sub" : "https://biopragmatics.github.io/providers/cvx/328",
+      "pred" : "is_a",
+      "obj" : "https://biopragmatics.github.io/providers/cvx/108"
+    }, {
+      "sub" : "https://biopragmatics.github.io/providers/cvx/328",
+      "pred" : "is_a",
+      "obj" : "https://biopragmatics.github.io/providers/cvx/164"
+    }, {
+      "sub" : "https://biopragmatics.github.io/providers/cvx/329",
+      "pred" : "is_a",
+      "obj" : "https://biopragmatics.github.io/providers/cvx/317"
+    }, {
       "sub" : "https://biopragmatics.github.io/providers/cvx/33",
       "pred" : "is_a",
       "obj" : "https://biopragmatics.github.io/providers/cvx/33"
+    }, {
+      "sub" : "https://biopragmatics.github.io/providers/cvx/330",
+      "pred" : "is_a",
+      "obj" : "https://biopragmatics.github.io/providers/cvx/330"
+    }, {
+      "sub" : "https://biopragmatics.github.io/providers/cvx/331",
+      "pred" : "is_a",
+      "obj" : "https://biopragmatics.github.io/providers/cvx/88"
+    }, {
+      "sub" : "https://biopragmatics.github.io/providers/cvx/332",
+      "pred" : "is_a",
+      "obj" : "https://biopragmatics.github.io/providers/cvx/304"
+    }, {
+      "sub" : "https://biopragmatics.github.io/providers/cvx/333",
+      "pred" : "is_a",
+      "obj" : "https://biopragmatics.github.io/providers/cvx/88"
     }, {
       "sub" : "https://biopragmatics.github.io/providers/cvx/35",
       "pred" : "is_a",
@@ -6474,7 +6658,7 @@
     }, {
       "sub" : "https://biopragmatics.github.io/providers/cvx/56",
       "pred" : "is_a",
-      "obj" : "https://biopragmatics.github.io/providers/cvx/56"
+      "obj" : "https://biopragmatics.github.io/providers/cvx/330"
     }, {
       "sub" : "https://biopragmatics.github.io/providers/cvx/62",
       "pred" : "is_a",
@@ -6490,7 +6674,7 @@
     }, {
       "sub" : "https://biopragmatics.github.io/providers/cvx/75",
       "pred" : "is_a",
-      "obj" : "https://biopragmatics.github.io/providers/cvx/75"
+      "obj" : "https://biopragmatics.github.io/providers/cvx/325"
     }, {
       "sub" : "https://biopragmatics.github.io/providers/cvx/77",
       "pred" : "is_a",

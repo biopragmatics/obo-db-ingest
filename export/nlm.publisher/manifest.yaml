@@ -1,8 +1,8 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
@@ -34,12 +34,12 @@ manifest:
     definitions: 0
     license: public domain
     mappings: 3
-    parents: 453
+    parents: 448
     properties: 5
     references: 0
     relations: 0
     synonyms: 0
-    terms: 452
+    terms: 447
     version: null
   synonyms:
     gzipped: false
@@ -50,6 +50,7 @@ prefix_map:
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
   biolink: https://w3id.org/biolink/vocab/
   dcterms: http://purl.org/dc/terms/
+  foaf: http://xmlns.com/foaf/0.1/
   nlm.publisher: 'https://bioregistry.io/nlm.publisher:'
   obo: http://purl.obolibrary.org/obo/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#

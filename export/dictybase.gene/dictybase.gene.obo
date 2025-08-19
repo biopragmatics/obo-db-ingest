@@ -1,11 +1,14 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:42:01.223897
+auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T01:32:50.931912
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
 idspace: dictybase.gene http://dictybase.org/gene/ "Dictybase Gene"
+idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
 ontology: dictybase.gene
 property_value: dcterms:title "Dictybase Gene" xsd:string
 property_value: dcterms:license "CC-BY-SA-4.0" xsd:string
-property_value: dcterms:description "The dictyBase database provides data on the model organism Dictyostelium discoideum and related species. It contains the complete genome sequence\\\, ESTs\\\, gene models and functional annotations. This collection references gene information." xsd:string
+property_value: dcterms:description "The dictyBase database provides data on the model organism Dictyostelium discoideum and related species. It contains the complete genome sequence\, ESTs\, gene models and functional annotations. This collection references gene information." xsd:string
+property_value: foaf:homepage "http\://dictybase.org/" xsd:anyURI
+property_value: foaf:logo "https\://dictybase-docker.github.io/developer-docs/static/4eeedc37c188406acdddc392200815a7/logo-nav-light.png" xsd:anyURI
 
 [Typedef]
 id: RO:0002162

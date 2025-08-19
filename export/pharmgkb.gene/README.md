@@ -20,7 +20,7 @@ The PharmGKB database is a central repository for genetic, genomic, molecular an
 
 | field      |   count |
 |------------|---------|
-| mappings   |  240059 |
+| mappings   |  229255 |
 | properties |   49907 |
-| synonyms   |  107948 |
+| synonyms   |  107947 |
 | terms      |   25041 |

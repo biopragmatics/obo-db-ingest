@@ -6,6 +6,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -13,11 +14,13 @@
      xmlns:bigg.model="http://bigg.ucsd.edu/models/">
     <owl:Ontology rdf:about="https://w3id.org/biopragmatics/resources/bigg.model/bigg.model.ofn">
         <owl:versionIRI rdf:resource="https://w3id.org/biopragmatics/resources/bigg.model/1.6.0/bigg.model.ofn"/>
-        <dcterms:description>BiGG is a knowledgebase of Biochemically\, Genetically and Genomically structured genome-scale metabolic network reconstructions. It more published genome-scale metabolic networks into a single database with a set of stardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations\, and metabolites are linked to many external databases \(KEGG\, PubChem\, and many more\). This collection references individual models.</dcterms:description>
+        <dcterms:description>BiGG is a knowledgebase of Biochemically, Genetically and Genomically structured genome-scale metabolic network reconstructions. It more published genome-scale metabolic networks into a single database with a set of stardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations, and metabolites are linked to many external databases (KEGG, PubChem, and many more). This collection references individual models.</dcterms:description>
         <dcterms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://bigg.ucsd.edu/license#license</dcterms:license>
         <dcterms:title>BiGG Model</dcterms:title>
-        <oboInOwl:auto-generated-by>PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T12:20:39.133048</oboInOwl:auto-generated-by>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:37:05.726159</oboInOwl:auto-generated-by>
         <owl:versionInfo>1.6.0</owl:versionInfo>
+        <foaf:homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://bigg.ucsd.edu/models</foaf:homepage>
+        <foaf:logo rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://bigg.ucsd.edu/static/assets/bigg-github.png</foaf:logo>
     </owl:Ontology>
     
 
@@ -54,6 +57,18 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/logo -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/logo"/>
     
 
 

@@ -1,8 +1,8 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
@@ -31,15 +31,15 @@ manifest:
     path: cpt/cpt.sssom.tsv
   summary:
     alts: 0
-    definitions: 164
+    definitions: 167
     license: null
-    mappings: 164
+    mappings: 167
     parents: 0
     properties: 33
     references: 0
     relations: 0
     synonyms: 0
-    terms: 164
+    terms: 167
     version: null
   synonyms:
     gzipped: false
@@ -49,6 +49,7 @@ prefix_map:
   cpt: https://www.aapc.com/codes/cpt-codes/
   cvx: https://biopragmatics.github.io/providers/cvx/
   dcterms: http://purl.org/dc/terms/
+  foaf: http://xmlns.com/foaf/0.1/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
   owl: http://www.w3.org/2002/07/owl#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#

@@ -1,7 +1,7 @@
 text	curie	name	predicate	type	source
 DTP	cvx:01	diphtheria, tetanus toxoids and pertussis vaccine	oboInOwl:hasExactSynonym	omo:0003012	cvx
 diphtheria, tetanus toxoids and pertussis vaccine	cvx:01	diphtheria, tetanus toxoids and pertussis vaccine	rdfs:label		cvx
-OPV	cvx:02	trivalent poliovirus vaccine, live, oral	oboInOwl:hasExactSynonym	omo:0003012	cvx
+OPV, trivalent	cvx:02	trivalent poliovirus vaccine, live, oral	oboInOwl:hasRelatedSynonym		cvx
 trivalent poliovirus vaccine, live, oral	cvx:02	trivalent poliovirus vaccine, live, oral	rdfs:label		cvx
 MMR	cvx:03	measles, mumps and rubella virus vaccine	oboInOwl:hasExactSynonym	omo:0003012	cvx
 measles, mumps and rubella virus vaccine	cvx:03	measles, mumps and rubella virus vaccine	rdfs:label		cvx
@@ -38,7 +38,8 @@ pneumococcal vaccine, unspecified formulation	cvx:109	pneumococcal vaccine, unsp
 pertussis vaccine	cvx:11	pertussis vaccine	rdfs:label		cvx
 DTaP-Hep B-IPV	cvx:110	DTaP-hepatitis B and poliovirus vaccine	oboInOwl:hasRelatedSynonym		cvx
 DTaP-hepatitis B and poliovirus vaccine	cvx:110	DTaP-hepatitis B and poliovirus vaccine	rdfs:label		cvx
-Influenza, live, trivalent, intranasal	cvx:111	Influenza, live, trivalent, intranasal	rdfs:label		cvx
+Influenza, live, trivalent, intranasal, PF	cvx:111	Influenza, live, trivalent, intranasal, preservative free	oboInOwl:hasRelatedSynonym		cvx
+Influenza, live, trivalent, intranasal, preservative free	cvx:111	Influenza, live, trivalent, intranasal, preservative free	rdfs:label		cvx
 tetanus toxoid, unspecified formulation	cvx:112	tetanus toxoid, unspecified formulation	rdfs:label		cvx
 Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed	cvx:113	tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use (5 Lf of tetanus toxoid and 2 Lf of diphtheria toxoid)	oboInOwl:hasRelatedSynonym		cvx
 tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use (5 Lf of tetanus toxoid and 2 Lf of diphtheria toxoid)	cvx:113	tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use (5 Lf of tetanus toxoid and 2 Lf of diphtheria toxoid)	rdfs:label		cvx
@@ -213,8 +214,8 @@ DTaP	cvx:20	diphtheria, tetanus toxoids and acellular pertussis vaccine	oboInOwl
 diphtheria, tetanus toxoids and acellular pertussis vaccine	cvx:20	diphtheria, tetanus toxoids and acellular pertussis vaccine	rdfs:label		cvx
 influenza, Southern Hemisphere, pediatric, preservative free	cvx:200	influenza, seasonal, Southern Hemisphere, quadrivalent, pediatric 0.25mL dose, preservative free	oboInOwl:hasRelatedSynonym		cvx
 influenza, seasonal, Southern Hemisphere, quadrivalent, pediatric 0.25mL dose, preservative free	cvx:200	influenza, seasonal, Southern Hemisphere, quadrivalent, pediatric 0.25mL dose, preservative free	rdfs:label		cvx
-influenza, Southern Hemisphere, preservative free	cvx:201	influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5mL dose, no preservative	oboInOwl:hasRelatedSynonym		cvx
-influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5mL dose, no preservative	cvx:201	influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5mL dose, no preservative	rdfs:label		cvx
+Influenza, Southern Hemisphere, quadrivalent, PF	cvx:201	Influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5 mL dose, preservative free	oboInOwl:hasRelatedSynonym		cvx
+Influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5 mL dose, preservative free	cvx:201	Influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5 mL dose, preservative free	rdfs:label		cvx
 influenza, Southern Hemisphere, quadrivalent, with preservative	cvx:202	influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5mL dose, with preservative	oboInOwl:hasRelatedSynonym		cvx
 influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5mL dose, with preservative	cvx:202	influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5mL dose, with preservative	rdfs:label		cvx
 meningococcal conjugate quadrivalent, MenACWY-TT (MCV4)	cvx:203	meningococcal polysaccharide (groups A, C, Y, W-135) tetanus toxoid conjugate vaccine 0.5mL dose, preservative free	oboInOwl:hasRelatedSynonym		cvx
@@ -336,12 +337,25 @@ Influenza-avian, H5N8, monovalent, preservative	cvx:322	Influenza-avian, H5N8, v
 Influenza-avian, H5N8, viral-vector, monovalent, injectable, contains preservative	cvx:322	Influenza-avian, H5N8, viral-vector, monovalent, injectable, contains preservative	rdfs:label		cvx
 Influenza-avian, H5, unspecified formulation	cvx:323	Influenza-avian, H5, unspecified formulation	rdfs:label		cvx
 Poliovirus, inactivated, fractional-dose (fIPV)	cvx:324	Poliovirus, inactivated, fractional-dose (fIPV)	rdfs:label		cvx
+Vaccinia (smallpox, mpox), unspecified	cvx:325	Vaccinia (smallpox, mpox), unspecified	rdfs:label		cvx
 RSV, mRNA, injectable, PF	cvx:326	Respiratory syncytial virus (RSV), mRNA, injectable, preservative free	oboInOwl:hasRelatedSynonym		cvx
 Respiratory syncytial virus (RSV), mRNA, injectable, preservative free	cvx:326	Respiratory syncytial virus (RSV), mRNA, injectable, preservative free	rdfs:label		cvx
 Pneumococcal conjugate PCV21, polysaccharide CRM197 conjugate, PF	cvx:327	Pneumococcal conjugate vaccine, 21 valent (PCV21), polysaccharide CRM197 conjugate, preservative free	oboInOwl:hasRelatedSynonym		cvx
 Pneumococcal conjugate vaccine, 21 valent (PCV21), polysaccharide CRM197 conjugate, preservative free	cvx:327	Pneumococcal conjugate vaccine, 21 valent (PCV21), polysaccharide CRM197 conjugate, preservative free	rdfs:label		cvx
+Meningococcal oligosaccharide (MenACWY), (MenB), PF	cvx:328	Meningococcal oligosaccharide conjugated (groups A, C, W, Y) and group B, 0.5 mL, preservative free	oboInOwl:hasRelatedSynonym		cvx
+Meningococcal oligosaccharide conjugated (groups A, C, W, Y) and group B, 0.5 mL, preservative free	cvx:328	Meningococcal oligosaccharide conjugated (groups A, C, W, Y) and group B, 0.5 mL, preservative free	rdfs:label		cvx
+Chikungunya, VLP, recombinant, 0.8 mL, PF	cvx:329	Chikungunya, virus-like particle (VLP), recombinant vaccine, 0.8 mL, preservative free	oboInOwl:hasRelatedSynonym		cvx
+Chikungunya, virus-like particle (VLP), recombinant vaccine, 0.8 mL, preservative free	cvx:329	Chikungunya, virus-like particle (VLP), recombinant vaccine, 0.8 mL, preservative free	rdfs:label		cvx
 pneumococcal polysaccharide PPV23	cvx:33	pneumococcal polysaccharide vaccine, 23 valent	oboInOwl:hasRelatedSynonym		cvx
 pneumococcal polysaccharide vaccine, 23 valent	cvx:33	pneumococcal polysaccharide vaccine, 23 valent	rdfs:label		cvx
+Dengue fever, unspecified	cvx:330	Dengue fever, unspecified formulation	oboInOwl:hasRelatedSynonym		cvx
+Dengue fever, unspecified formulation	cvx:330	Dengue fever, unspecified formulation	rdfs:label		cvx
+Influenza, Southern Hemisphere, trivalent, PF	cvx:331	Influenza, seasonal, Southern Hemisphere, trivalent, 0.5 mL dose, preservative free	oboInOwl:hasRelatedSynonym		cvx
+Influenza, seasonal, Southern Hemisphere, trivalent, 0.5 mL dose, preservative free	cvx:331	Influenza, seasonal, Southern Hemisphere, trivalent, 0.5 mL dose, preservative free	rdfs:label		cvx
+RSV, mAb, clesrovimab-cfor, 0.7 mL, neonate and infant, PF	cvx:332	Respiratory syncytial virus (RSV), monoclonal antibody, IgG1κ, (clesrovimab-cfor), 0.7 mL, neonate and infant, preservative free	oboInOwl:hasRelatedSynonym		cvx
+Respiratory syncytial virus (RSV), monoclonal antibody, IgG1κ, (clesrovimab-cfor), 0.7 mL, neonate and infant, preservative free	cvx:332	Respiratory syncytial virus (RSV), monoclonal antibody, IgG1κ, (clesrovimab-cfor), 0.7 mL, neonate and infant, preservative free	rdfs:label		cvx
+Influenza, live, trivalent, intranasal, self/caregiver admin, PF	cvx:333	Influenza, live, trivalent, intranasal, self or caregiver administered, preservative free	oboInOwl:hasRelatedSynonym		cvx
+Influenza, live, trivalent, intranasal, self or caregiver administered, preservative free	cvx:333	Influenza, live, trivalent, intranasal, self or caregiver administered, preservative free	rdfs:label		cvx
 RIG	cvx:34	rabies immune globulin	oboInOwl:hasExactSynonym	omo:0003012	cvx
 rabies immune globulin	cvx:34	rabies immune globulin	rdfs:label		cvx
 tetanus toxoid, adsorbed	cvx:35	tetanus toxoid, adsorbed	rdfs:label		cvx
@@ -456,7 +470,8 @@ rheumatic fever vaccine	cvx:72	rheumatic fever vaccine	rdfs:label		cvx
 Rift Valley fever vaccine	cvx:73	Rift Valley fever vaccine	rdfs:label		cvx
 rotavirus, tetravalent	cvx:74	rotavirus, live, tetravalent vaccine	oboInOwl:hasRelatedSynonym		cvx
 rotavirus, live, tetravalent vaccine	cvx:74	rotavirus, live, tetravalent vaccine	rdfs:label		cvx
-vaccinia (smallpox) vaccine	cvx:75	vaccinia (smallpox) vaccine	rdfs:label		cvx
+Vaccinia (smallpox, mpox), live	cvx:75	Vaccinia (smallpox, mpox) vaccine, live	oboInOwl:hasRelatedSynonym		cvx
+Vaccinia (smallpox, mpox) vaccine, live	cvx:75	Vaccinia (smallpox, mpox) vaccine, live	rdfs:label		cvx
 Staphylococcus bacterio lysate	cvx:76	Staphylococcus bacteriophage lysate	oboInOwl:hasRelatedSynonym		cvx
 Staphylococcus bacteriophage lysate	cvx:76	Staphylococcus bacteriophage lysate	rdfs:label		cvx
 Tick-borne encephalitis vaccine (non-US)	cvx:77	Tick-borne encephalitis vaccine (non-US)	rdfs:label		cvx

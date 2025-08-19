@@ -1,12 +1,15 @@
 format-version: 1.4
 data-version: 1.6.0
-auto-generated-by: PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T12:20:39.133048
+auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:37:05.726159
 idspace: bigg.model http://bigg.ucsd.edu/models/ "BiGG Model"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
 ontology: bigg.model
 property_value: dcterms:title "BiGG Model" xsd:string
 property_value: dcterms:license "http\://bigg.ucsd.edu/license#license" xsd:anyURI
-property_value: dcterms:description "BiGG is a knowledgebase of Biochemically\\\, Genetically and Genomically structured genome-scale metabolic network reconstructions. It more published genome-scale metabolic networks into a single database with a set of stardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations\\\, and metabolites are linked to many external databases \\\(KEGG\\\, PubChem\\\, and many more\\\). This collection references individual models." xsd:string
+property_value: dcterms:description "BiGG is a knowledgebase of Biochemically\, Genetically and Genomically structured genome-scale metabolic network reconstructions. It more published genome-scale metabolic networks into a single database with a set of stardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations\, and metabolites are linked to many external databases \(KEGG\, PubChem\, and many more\). This collection references individual models." xsd:string
+property_value: foaf:homepage "http\://bigg.ucsd.edu/models" xsd:anyURI
+property_value: foaf:logo "http\://bigg.ucsd.edu/static/assets/bigg-github.png" xsd:anyURI
 
 [Term]
 id: bigg.model:RECON1

@@ -1,8 +1,8 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
@@ -33,13 +33,13 @@ manifest:
     alts: 0
     definitions: 0
     license: CC-BY-SA-4.0
-    mappings: 8955
+    mappings: 8791
     parents: 0
     properties: 0
     references: 0
     relations: 0
-    synonyms: 16189
-    terms: 1741
+    synonyms: 15745
+    terms: 1612
     version: null
   synonyms:
     gzipped: false
@@ -49,11 +49,14 @@ prefix_map:
   HP: http://purl.obolibrary.org/obo/HP_
   MONDO: http://purl.obolibrary.org/obo/MONDO_
   dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
+  foaf: http://xmlns.com/foaf/0.1/
   meddra: http://purl.bioontology.org/ontology/MDRFRE/
   mesh: http://id.nlm.nih.gov/mesh/
   ndfrt: http://purl.bioontology.org/ontology/NDFRT/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
   omim: 'https://omim.org/MIM:'
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
   pharmgkb.disease: http://www.pharmgkb.org/disease/
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#

@@ -1,8 +1,8 @@
-date: '2025-07-15'
+date: '2025-08-19'
 dependencies:
   bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.24-dev-1ec38e50
-  pyobo: 0.12.5-dev-2db81492
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
@@ -62,7 +62,7 @@ manifest:
 prefix_map:
   BFO: http://purl.obolibrary.org/obo/BFO_
   CHEBI: http://purl.obolibrary.org/obo/CHEBI_
-  EC: https://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=
+  EC: https://www.enzyme-database.org/query.php?ec=
   FlyBase: https://flybase.org/reports/
   GO: http://purl.obolibrary.org/obo/GO_
   IAO: http://purl.obolibrary.org/obo/IAO_
@@ -73,12 +73,15 @@ prefix_map:
   chembl.target: https://www.ebi.ac.uk/chembl/target/inspect/
   complexportal: https://www.ebi.ac.uk/complexportal/complex/
   dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
   emdb: https://www.ebi.ac.uk/pdbe/entry/emdb/
+  foaf: http://xmlns.com/foaf/0.1/
   humap: https://humap3.proteincomplexes.org/displayComplexes?complex_key=
   intact: https://www.ebi.ac.uk/intact/interaction/
   matrixdb: http://matrixdb.univ-lyon1.fr/cgi-bin/current/newPort?type=biomolecule&value=
   obo: http://purl.obolibrary.org/obo/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
   pdb: https://rdf.wwpdb.org/pdb/
   pubmed: http://rdf.ncbi.nlm.nih.gov/pubchem/reference/

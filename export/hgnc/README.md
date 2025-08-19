@@ -8,23 +8,23 @@ The HGNC (HUGO Gene Nomenclature Committee) provides an approved gene name and s
 
 | Artifact       | Download PURL                                                   | Latest Versioned Download PURL                                             |
 |----------------|-----------------------------------------------------------------|----------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/hgnc/hgnc.obo          | https://w3id.org/biopragmatics/resources/hgnc/2025-03-04/hgnc.obo          |
-| OFN            | https://w3id.org/biopragmatics/resources/hgnc/hgnc.ofn          | https://w3id.org/biopragmatics/resources/hgnc/2025-03-04/hgnc.ofn          |
-| Nodes          | https://w3id.org/biopragmatics/resources/hgnc/hgnc.tsv          | https://w3id.org/biopragmatics/resources/hgnc/2025-03-04/hgnc.tsv          |
-| SSSOM          | https://w3id.org/biopragmatics/resources/hgnc/hgnc.sssom.tsv    | https://w3id.org/biopragmatics/resources/hgnc/2025-03-04/hgnc.sssom.tsv    |
-| Synonyms       | https://w3id.org/biopragmatics/resources/hgnc/hgnc.synonyms.tsv | https://w3id.org/biopragmatics/resources/hgnc/2025-03-04/hgnc.synonyms.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/hgnc/hgnc.owl.gz       | https://w3id.org/biopragmatics/resources/hgnc/2025-03-04/hgnc.owl.gz       |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/hgnc/hgnc.json.gz      | https://w3id.org/biopragmatics/resources/hgnc/2025-03-04/hgnc.json.gz      |
+| OBO            | https://w3id.org/biopragmatics/resources/hgnc/hgnc.obo          | https://w3id.org/biopragmatics/resources/hgnc/2025-08-05/hgnc.obo          |
+| OFN            | https://w3id.org/biopragmatics/resources/hgnc/hgnc.ofn          | https://w3id.org/biopragmatics/resources/hgnc/2025-08-05/hgnc.ofn          |
+| Nodes          | https://w3id.org/biopragmatics/resources/hgnc/hgnc.tsv          | https://w3id.org/biopragmatics/resources/hgnc/2025-08-05/hgnc.tsv          |
+| SSSOM          | https://w3id.org/biopragmatics/resources/hgnc/hgnc.sssom.tsv    | https://w3id.org/biopragmatics/resources/hgnc/2025-08-05/hgnc.sssom.tsv    |
+| Synonyms       | https://w3id.org/biopragmatics/resources/hgnc/hgnc.synonyms.tsv | https://w3id.org/biopragmatics/resources/hgnc/2025-08-05/hgnc.synonyms.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/hgnc/hgnc.owl.gz       | https://w3id.org/biopragmatics/resources/hgnc/2025-08-05/hgnc.owl.gz       |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/hgnc/hgnc.json.gz      | https://w3id.org/biopragmatics/resources/hgnc/2025-08-05/hgnc.json.gz      |
 
 ## Summary
 
 | field       |   count |
 |-------------|---------|
-| definitions |   44068 |
-| mappings    |  260219 |
-| parents     |   44068 |
-| properties  |  330848 |
-| references  |   35167 |
-| relations   |  152248 |
-| synonyms    |  105616 |
-| terms       |   44068 |
+| definitions |   44454 |
+| mappings    |  261139 |
+| parents     |   44454 |
+| properties  |  332308 |
+| references  |   35323 |
+| relations   |  153806 |
+| synonyms    |  106042 |
+| terms       |   44454 |

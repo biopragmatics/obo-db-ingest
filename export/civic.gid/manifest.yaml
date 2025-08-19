@@ -1,72 +1,75 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.tsv
     path: civic.gid/civic.gid.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/civic.gid/2025-03-01/civic.gid.tsv
-    version_path: civic.gid/2025-03-01/civic.gid.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/civic.gid/2025-08-01/civic.gid.tsv
+    version_path: civic.gid/2025-08-01/civic.gid.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.obo
     path: civic.gid/civic.gid.obo
-    version_iri: https://w3id.org/biopragmatics/resources/civic.gid/2025-03-01/civic.gid.obo
-    version_path: civic.gid/2025-03-01/civic.gid.obo
+    version_iri: https://w3id.org/biopragmatics/resources/civic.gid/2025-08-01/civic.gid.obo
+    version_path: civic.gid/2025-08-01/civic.gid.obo
   obograph:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.json
     path: civic.gid/civic.gid.json
-    version_iri: https://w3id.org/biopragmatics/resources/civic.gid/2025-03-01/civic.gid.json
-    version_path: civic.gid/2025-03-01/civic.gid.json
+    version_iri: https://w3id.org/biopragmatics/resources/civic.gid/2025-08-01/civic.gid.json
+    version_path: civic.gid/2025-08-01/civic.gid.json
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.ofn
     path: civic.gid/civic.gid.ofn
-    version_iri: https://w3id.org/biopragmatics/resources/civic.gid/2025-03-01/civic.gid.ofn
-    version_path: civic.gid/2025-03-01/civic.gid.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/civic.gid/2025-08-01/civic.gid.ofn
+    version_path: civic.gid/2025-08-01/civic.gid.ofn
   owl:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.owl
     path: civic.gid/civic.gid.owl
-    version_iri: https://w3id.org/biopragmatics/resources/civic.gid/2025-03-01/civic.gid.owl
-    version_path: civic.gid/2025-03-01/civic.gid.owl
+    version_iri: https://w3id.org/biopragmatics/resources/civic.gid/2025-08-01/civic.gid.owl
+    version_path: civic.gid/2025-08-01/civic.gid.owl
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.sssom.tsv
     path: civic.gid/civic.gid.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/civic.gid/2025-03-01/civic.gid.sssom.tsv
-    version_path: civic.gid/2025-03-01/civic.gid.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/civic.gid/2025-08-01/civic.gid.sssom.tsv
+    version_path: civic.gid/2025-08-01/civic.gid.sssom.tsv
   summary:
     alts: 0
-    definitions: 65
+    definitions: 67
     license: CC0-1.0
-    mappings: 598
-    parents: 885
-    properties: 598
+    mappings: 600
+    parents: 903
+    properties: 600
     references: 0
-    relations: 539
-    synonyms: 2930
-    terms: 885
-    version: '2025-03-01'
+    relations: 569
+    synonyms: 2933
+    terms: 903
+    version: '2025-08-01'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.synonyms.tsv
     path: civic.gid/civic.gid.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/civic.gid/2025-03-01/civic.gid.synonyms.tsv
-    version_path: civic.gid/2025-03-01/civic.gid.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/civic.gid/2025-08-01/civic.gid.synonyms.tsv
+    version_path: civic.gid/2025-08-01/civic.gid.synonyms.tsv
 prefix_map:
   IAO: http://purl.obolibrary.org/obo/IAO_
   NCBIGene: http://purl.uniprot.org/geneid/
   NCIT: http://purl.obolibrary.org/obo/NCIT_
   civic.gid: https://civicdb.org/links/gene/
   dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
+  foaf: http://xmlns.com/foaf/0.1/
   obo: http://purl.obolibrary.org/obo/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   rdfs: http://www.w3.org/2000/01/rdf-schema#

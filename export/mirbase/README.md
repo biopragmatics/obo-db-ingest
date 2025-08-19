@@ -21,7 +21,7 @@ The miRBase Sequence Database is a searchable database of published miRNA sequen
 | field       |   count |
 |-------------|---------|
 | definitions |   38589 |
-| mappings    |    8732 |
+| mappings    |    8644 |
 | relations   |   69253 |
 | synonyms    |    1441 |
 | terms       |   38589 |

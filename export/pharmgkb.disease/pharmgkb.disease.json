@@ -4,7 +4,7 @@
     "meta" : {
       "basicPropertyValues" : [ {
         "pred" : "http://purl.org/dc/terms/description",
-        "val" : "The PharmGKB database is a central repository for genetic\\, genomic\\, molecular and cellular phenotype data and clinical information about people who have participated in pharmacogenomics research studies. The data includes\\, but is not limited to\\, clinical and basic pharmacokinetic and pharmacogenomic research in the cardiovascular\\, pulmonary\\, cancer\\, pathways\\, metabolic and transporter domains."
+        "val" : "The PharmGKB database is a central repository for genetic, genomic, molecular and cellular phenotype data and clinical information about people who have participated in pharmacogenomics research studies. The data includes, but is not limited to, clinical and basic pharmacokinetic and pharmacogenomic research in the cardiovascular, pulmonary, cancer, pathways, metabolic and transporter domains."
       }, {
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "CC-BY-SA-4.0"
@@ -12,8 +12,17 @@
         "pred" : "http://purl.org/dc/terms/title",
         "val" : "PharmGKB Disease"
       }, {
+        "pred" : "http://usefulinc.com/ns/doap#maintainer",
+        "val" : "https://orcid.org/0000-0001-5527-6475"
+      }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-        "val" : "PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:16:19.110974"
+        "val" : "PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T00:20:57.519969"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/homepage",
+        "val" : "http://www.pharmgkb.org/"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/logo",
+        "val" : "https://rxgenomix.com/wp-content/uploads/2019/10/pharmgKB.png"
       } ]
     },
     "nodes" : [ {
@@ -97,7 +106,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA131285571",
-      "lbl" : "aspirin-induced asthma",
+      "lbl" : "Aspirin-induced asthma",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -288,19 +297,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA135057241",
-      "lbl" : "Proarrhythmia",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10036765"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0861148"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA136400566",
       "lbl" : "Severe Acute Respiratory Syndrome",
       "type" : "CLASS",
@@ -416,38 +412,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA143488504",
-      "lbl" : "Vascular Resistance",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Capillary Resistance"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Systemic Vascular Resistance"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Vascular resistance"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "function"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D014655"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10047098"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/88619007"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0042380"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA144997875",
       "lbl" : "Hereditary Hypophosphatemic Rickets with Hypercalciuria",
       "type" : "CLASS",
@@ -493,32 +457,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/MONDO_8000008"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA145007163",
-      "lbl" : "SRS-A",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "SRS-A of anaphylaxis"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Silver-Russell Syndrome(SRS)"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D013189"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000171041"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/34745001"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0038091"
         } ]
       }
     }, {
@@ -1117,14 +1055,17 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA152246679",
-      "lbl" : "Pendred's syndrome",
+      "lbl" : "Pendred syndrome",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
-          "val" : "Pendred Syndrome"
+          "val" : "Pendred's syndrome"
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0010134"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/70348004"
         }, {
@@ -1501,16 +1442,22 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA157379134",
-      "lbl" : "Myalgia unspecified",
+      "lbl" : "Myalgia",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
-          "val" : "Myalgia"
+          "val" : "Muscle ache"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Muscle pain"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/MDRFRE/10028287"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_0003326"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/268010003"
@@ -1834,7 +1781,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA162263525",
-      "lbl" : "neuropathic pain",
+      "lbl" : "Neuropathic pain",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -2439,7 +2386,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA164924611",
-      "lbl" : "Partial congenital absence of teeth",
+      "lbl" : "Tooth agenesis",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -2448,10 +2395,16 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Oligodontia"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Partial congenital absence of teeth"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/MDRFRE/10055001"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005486"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/64969001"
@@ -2462,12 +2415,22 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA164924624",
-      "lbl" : "Pelvic Floor Disorders",
+      "lbl" : "Pelvic organ prolapse",
       "type" : "CLASS",
       "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Pelvic Floor Disorders"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://id.nlm.nih.gov/mesh/D059952"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10034268"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_0031607"
         } ]
       }
     }, {
@@ -2501,9 +2464,16 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA165108105",
-      "lbl" : "Paget's disease NOS",
+      "lbl" : "Paget disease",
       "type" : "CLASS",
       "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Paget cell neoplasm"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Paget's disease"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://id.nlm.nih.gov/mesh/D010001"
@@ -2513,6 +2483,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002242"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0021165"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/203354006"
@@ -2709,16 +2682,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108167",
-      "lbl" : "Schistosoma mansonii infection",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Intestinal schistosomiasis"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA165108186",
       "lbl" : "Nephrogenic systemic fibrosis",
       "type" : "CLASS",
@@ -2748,14 +2711,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108192",
-      "lbl" : "Respiratory system diseases NOS",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108193",
-      "lbl" : "Ocular penetration, unspecified",
-      "type" : "CLASS"
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA165108199",
       "lbl" : "Acanthamoeba keratitis",
       "type" : "CLASS",
@@ -2779,14 +2734,6 @@
           "val" : "http://purl.obolibrary.org/obo/MONDO_0006601"
         } ]
       }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108206",
-      "lbl" : "Postoperative wound breakdown",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108207",
-      "lbl" : "Meningococcal infection NOS",
-      "type" : "CLASS"
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA165108216",
       "lbl" : "Toxoplasma encephalitis",
@@ -2933,14 +2880,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108231",
-      "lbl" : "Seborrhea NOS",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108237",
-      "lbl" : "Hypertensive lower oesophageal sphincter",
-      "type" : "CLASS"
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA165108247",
       "lbl" : "Enterobiasis",
       "type" : "CLASS",
@@ -3010,16 +2949,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0036992"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108292",
-      "lbl" : "Pruritus ani",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Anal itch"
         } ]
       }
     }, {
@@ -3469,28 +3398,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108396",
-      "lbl" : "Paget's disease OS",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D010001"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10031151"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002242"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/203353000"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0029401"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA165108399",
       "lbl" : "Oral aphthae NOS",
       "type" : "CLASS",
@@ -3576,38 +3483,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108407",
-      "lbl" : "Missed abortion",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Fetal death before 22 weeks with retention of dead fetus"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "MA - Missed abortion"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Silent miscarriage"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D000030"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10000230"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000000271"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/16607004"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0000814"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA165108409",
       "lbl" : "Adrenal gland disorder NOS",
       "type" : "CLASS",
@@ -3658,28 +3533,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108417",
-      "lbl" : "Leg ulcer NOS",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D007871"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10068310"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000001797"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/238790003"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0023223"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA165108423",
       "lbl" : "Mossy foot disease",
       "type" : "CLASS",
@@ -3706,7 +3559,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA165108426",
-      "lbl" : "Small-for-dates baby",
+      "lbl" : "Small for gestational age",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -3725,6 +3578,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/MDRFRE/10041092"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_0001518"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/199612005"
@@ -3791,28 +3647,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0023176"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108460",
-      "lbl" : "Postoperative wound infection, unspecified",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D013530"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10056641"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002865"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/213285008"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0038941"
         } ]
       }
     }, {
@@ -4007,16 +3841,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108502",
-      "lbl" : "Herpes simplex dendritic keratitis",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "HSV dendritic keratitis"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA165108505",
       "lbl" : "Arteriosclerosis obliterans",
       "type" : "CLASS",
@@ -4080,28 +3904,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0085166"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108510",
-      "lbl" : "Inebriety NOS",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D000435"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10001599"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000000352"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/231464007"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0001969"
         } ]
       }
     }, {
@@ -4464,7 +4266,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA165108609",
-      "lbl" : "Rosacea NOS",
+      "lbl" : "Rosacea",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -4892,7 +4694,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA165108717",
-      "lbl" : "Autoimmune hemolytic anemia NOS",
+      "lbl" : "Autoimmune hemolytic anemia",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -5116,18 +4918,14 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108817",
-      "lbl" : "Protein-calorie malnutrition NOS",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108818",
-      "lbl" : "Paranoid schizophrenia NOS",
-      "type" : "CLASS"
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA165108823",
-      "lbl" : "Postpartum hemorrhage",
+      "lbl" : "Post-partum hemorrhage",
       "type" : "CLASS",
       "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Postpartum hemorrhage"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://id.nlm.nih.gov/mesh/D006473"
@@ -5139,16 +4937,15 @@
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000001484"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_0011891"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/200033009"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0032797"
         } ]
       }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108830",
-      "lbl" : "Prostatic disorders NOS",
-      "type" : "CLASS"
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA165108834",
       "lbl" : "Avian malaria",
@@ -5213,32 +5010,6 @@
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0085083"
         } ]
       }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108854",
-      "lbl" : "Threatened abortion unspecified",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108874",
-      "lbl" : "Ophthalmic herpes simplex NOS",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108880",
-      "lbl" : "Otitis externa NOS",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108881",
-      "lbl" : "Unspecified corneal edema",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Unspecified corneal oedema"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108884",
-      "lbl" : "Vitamin B deficiency NOS",
-      "type" : "CLASS"
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA165108889",
       "lbl" : "Favism",
@@ -5592,38 +5363,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108954",
-      "lbl" : "Menstruation disorder NOS",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D008599"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10013236"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000001994"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/266606008"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0025345"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165108957",
-      "lbl" : "Venous ulcer of leg",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Gravitational ulcer"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA165108965",
       "lbl" : "Corneal disorder NOS",
       "type" : "CLASS",
@@ -5715,10 +5454,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165109003",
-      "lbl" : "Penile disorders",
-      "type" : "CLASS"
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA165109029",
       "lbl" : "Sialoadenitis",
       "type" : "CLASS",
@@ -5757,14 +5492,6 @@
           "val" : "http://purl.obolibrary.org/obo/MONDO_0043475"
         } ]
       }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165109052",
-      "lbl" : "Hysteria NOS",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165109054",
-      "lbl" : "Vaginitis unspecified",
-      "type" : "CLASS"
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA165109055",
       "lbl" : "Acute abdomen",
@@ -5818,16 +5545,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005672"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165109078",
-      "lbl" : "Infectious diarrhea NOS",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Infectious diarrhoea NOS"
         } ]
       }
     }, {
@@ -5885,10 +5602,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165109113",
-      "lbl" : "Proteus infection NOS",
-      "type" : "CLASS"
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA165109118",
       "lbl" : "Macrocytic anemia of unspecified cause",
       "type" : "CLASS",
@@ -5913,14 +5626,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165109131",
-      "lbl" : "Purulent otitis media NOS",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165109134",
-      "lbl" : "Thrombophlebitis NOS",
-      "type" : "CLASS"
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA165109139",
       "lbl" : "Persistent fetal circulation syndrome",
       "type" : "CLASS",
@@ -5930,10 +5635,6 @@
           "val" : "http://purl.obolibrary.org/obo/MONDO_0022430"
         } ]
       }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165109151",
-      "lbl" : "Sore on skin",
-      "type" : "CLASS"
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA165109162",
       "lbl" : "Bronchopulmonary dysplasia",
@@ -5969,18 +5670,6 @@
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0006287"
         } ]
       }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165109171",
-      "lbl" : "Prostatitis NOS",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165109173",
-      "lbl" : "Unspecified osteomyelitis of unspecified site",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA165109179",
-      "lbl" : "Rickettsioses NOS",
-      "type" : "CLASS"
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA165109181",
       "lbl" : "Cardiac tamponade",
@@ -6107,12 +5796,18 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA165374639",
-      "lbl" : "suicide",
+      "lbl" : "Suicide",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://id.nlm.nih.gov/mesh/D013405"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/MDRFRE/10042462"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_5200330"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0038661"
@@ -6212,7 +5907,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA165857066",
-      "lbl" : "Anemia, Hemolytic, Congenital Nonspherocytic",
+      "lbl" : "Congenital nonspherocytic hemolytic anemia",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -6331,16 +6026,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048722",
-      "lbl" : "Staphylococcal Infections",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002817"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166048723",
       "lbl" : "Klebsiella Infections",
       "type" : "CLASS",
@@ -6367,16 +6052,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048726",
-      "lbl" : "Nutritional and Metabolic Diseases",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002197"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166048727",
       "lbl" : "Melanoma, Amelanotic",
       "type" : "CLASS",
@@ -6387,16 +6062,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0002971"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048728",
-      "lbl" : "Mesothelioma, Cystic",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003729"
         } ]
       }
     }, {
@@ -6465,16 +6130,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048737",
-      "lbl" : "Neoplasms, Hormone-Dependent",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002135"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166048739",
       "lbl" : "Lung Diseases, Fungal",
       "type" : "CLASS",
@@ -6534,16 +6189,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048743",
-      "lbl" : "Urination Disorders",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003082"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166048745",
       "lbl" : "Child",
       "type" : "CLASS",
@@ -6593,16 +6238,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005982"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048749",
-      "lbl" : "Pregnancy Third Trimester",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000010245"
         } ]
       }
     }, {
@@ -6795,56 +6430,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048766",
-      "lbl" : "Skin Diseases, Viral",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003547"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048768",
-      "lbl" : "Leg Dermatoses",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000001794"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048770",
-      "lbl" : "Scalp Dermatoses",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002682"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048771",
-      "lbl" : "Pregnancy First Trimester",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000010243"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048773",
-      "lbl" : "Serratia Infections",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003491"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166048774",
       "lbl" : "Bacteroides Infections",
       "type" : "CLASS",
@@ -6871,43 +6456,23 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048776",
-      "lbl" : "Mycobacterium avium-intracellulare Infection",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003215"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048778",
-      "lbl" : "Preterm Infant",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000010208"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166048779",
       "lbl" : "Neonate",
       "type" : "CLASS",
       "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Infant"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Newborn"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "newborn"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000010204"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048780",
-      "lbl" : "Lice Infestations",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002339"
         } ]
       }
     }, {
@@ -6937,16 +6502,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048783",
-      "lbl" : "Staphylococcal Skin Infections",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002819"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166048785",
       "lbl" : "Herpesviridae Infections",
       "type" : "CLASS",
@@ -6971,22 +6526,15 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA166048787",
-      "lbl" : "Mercury Poisoning, Nervous System",
+      "lbl" : "Mercury Poisoning",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000004083"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048789",
-      "lbl" : "Pregnancy Complications, Infectious",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002481"
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0018020"
         } ]
       }
     }, {
@@ -7094,16 +6642,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048801",
-      "lbl" : "Skin Diseases, Eczematous",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003576"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166048802",
       "lbl" : "Thyroid Crisis",
       "type" : "CLASS",
@@ -7130,16 +6668,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0800373"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048804",
-      "lbl" : "Hypoxia, Brain",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000000716"
         } ]
       }
     }, {
@@ -7208,16 +6736,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048810",
-      "lbl" : "Respiratory Syncytial Virus Infections",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003803"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166048811",
       "lbl" : "Iritis",
       "type" : "CLASS",
@@ -7231,16 +6749,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0006814"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048812",
-      "lbl" : "Jet Lag Syndrome",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000004020"
         } ]
       }
     }, {
@@ -7267,36 +6775,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/HP_0002149"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048816",
-      "lbl" : "Iris Diseases",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000001709"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048817",
-      "lbl" : "Young Child",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000010207"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048818",
-      "lbl" : "Urethral Diseases",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003072"
         } ]
       }
     }, {
@@ -7339,16 +6817,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048823",
-      "lbl" : "Toddler",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000010206"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166048824",
       "lbl" : "Sleep Paralysis",
       "type" : "CLASS",
@@ -7385,33 +6853,26 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048828",
-      "lbl" : "Inert Gas Narcosis",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000001676"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166048829",
       "lbl" : "Elderly Adult",
       "type" : "CLASS",
       "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Aged"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Elder"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Elderly person"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Senior citizen"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000010213"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048830",
-      "lbl" : "Vascular Headaches",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003112"
         } ]
       }
     }, {
@@ -7480,16 +6941,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048836",
-      "lbl" : "Strongylida Infections",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003553"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166048837",
       "lbl" : "Necatoriasis",
       "type" : "CLASS",
@@ -7529,16 +6980,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0001556"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048841",
-      "lbl" : "Respiratory Tract Fistula",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003380"
         } ]
       }
     }, {
@@ -7607,16 +7048,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048847",
-      "lbl" : "Urological Manifestations",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000004224"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166048848",
       "lbl" : "Menopause",
       "type" : "CLASS",
@@ -7679,26 +7110,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005541"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048853",
-      "lbl" : "Spinal Cord Neoplasms",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002795"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048854",
-      "lbl" : "Pain, Intractable",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002279"
         } ]
       }
     }, {
@@ -7868,30 +7279,26 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048871",
-      "lbl" : "Intracranial Embolism and Thrombosis",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000000720"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048872",
-      "lbl" : "Plant Poisoning",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002416"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166048875",
       "lbl" : "Water-Electrolyte Imbalance",
       "type" : "CLASS",
       "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Abnormal blood ion concentration"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Abnormality of ion homeostasis"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Electrolyte disorders"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Electrolyte disturbance"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Electrolyte imbalance"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003154"
@@ -7911,56 +7318,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048877",
-      "lbl" : "Sexually Transmitted Diseases, Bacterial",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003212"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048878",
-      "lbl" : "Neisseriaceae Infections",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003493"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048879",
-      "lbl" : "Pregnancy Second Trimester",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000010244"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048880",
-      "lbl" : "Infant Nutrition Disorders",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000001677"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048882",
-      "lbl" : "Mouth Diseases",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002036"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166048883",
       "lbl" : "Clostridium Infections",
       "type" : "CLASS",
@@ -7971,36 +7328,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0024388"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048884",
-      "lbl" : "Stomach Diseases",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002826"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048885",
-      "lbl" : "Protozoan Infections",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002508"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048886",
-      "lbl" : "Infant, Premature, Diseases",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000001679"
         } ]
       }
     }, {
@@ -8030,16 +7357,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048890",
-      "lbl" : "Respiratory Hypersensitivity",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002598"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166048891",
       "lbl" : "Hypercapnia",
       "type" : "CLASS",
@@ -8050,16 +7367,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/HP_0012416"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048892",
-      "lbl" : "Radiation Injuries, Experimental",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002569"
         } ]
       }
     }, {
@@ -8301,16 +7608,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048919",
-      "lbl" : "Pregnancy Complications, Hematologic",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002480"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166048920",
       "lbl" : "Anemia, Hypochromic",
       "type" : "CLASS",
@@ -8324,26 +7621,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0001357"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048921",
-      "lbl" : "Positive-Pressure Respiration, Intrinsic",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003824"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048922",
-      "lbl" : "Lithiasis",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000004122"
         } ]
       }
     }, {
@@ -8377,7 +7654,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA166048926",
-      "lbl" : "Lead Poisoning, Nervous System, Childhood",
+      "lbl" : "Lead Poisoning",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -8409,16 +7686,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0016472"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166048929",
-      "lbl" : "Larva Migrans",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000001780"
         } ]
       }
     }, {
@@ -8784,34 +8051,8 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166122646",
-      "lbl" : "hemopoietic stem cell transplant",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Haemopoietic stem cell transplant"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hematopoietic stem cell transplant"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hematopoietic stem cell transplantation"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hemopoietic stem cell transplant (procedure)"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Transfusion of stem cells"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/234336002"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166122649",
-      "lbl" : "postanesthesia apnea",
+      "lbl" : "Butyrylcholinesterase deficiency",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -8822,6 +8063,12 @@
           "val" : "Postanesthesia apnea (finding)"
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://id.nlm.nih.gov/mesh/C537417"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0015270"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/111968005"
         } ]
@@ -8863,14 +8110,20 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA166123006",
-      "lbl" : "Interstitial fibrosis",
+      "lbl" : "Renal interstitial fibrosis",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
+          "val" : "Interstitial fibrosis"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "Interstitial fibrosis (morphologic abnormality)"
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_0032948"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/125565008"
         } ]
@@ -8922,6 +8175,22 @@
       "lbl" : "Smoking Cessation",
       "type" : "CLASS",
       "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Giving up smoking"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Quitting smoking"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Stopping smoking"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "continuously abstinent of nicotine"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "nicotine abstinence"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://id.nlm.nih.gov/mesh/D016540"
@@ -9087,7 +8356,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA166123368",
-      "lbl" : "schizoaffective disorder",
+      "lbl" : "Schizoaffective disorder",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -9130,12 +8399,18 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA166123431",
-      "lbl" : "heart valve replacement",
+      "lbl" : "Heart valve replacement",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/MDRFRE/10061995"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_6000983"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://snomed.info/id/34068001"
         } ]
       }
     }, {
@@ -9275,7 +8550,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA166124386",
-      "lbl" : "gastrointestinal toxicity",
+      "lbl" : "Gastrointestinal toxicity",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -9531,35 +8806,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166128826",
-      "lbl" : "multi-core congenital myopathy",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Minicore disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Multi-core congenital myopathy (disorder)"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Multi-core disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Multi-minicore disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Multicore disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Multiminicore disease"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/55133004"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166129521",
       "lbl" : "sedation",
       "type" : "CLASS",
@@ -9613,7 +8859,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA166129556",
-      "lbl" : "disease activity score 28 joint in rheumatoid arthritis",
+      "lbl" : "Disease activity score 28 in rheumatoid arthritis",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -9708,7 +8954,7 @@
       "type" : "CLASS"
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA166152644",
-      "lbl" : "schizencephaly",
+      "lbl" : "Schizencephaly",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -9817,32 +9063,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166159283",
-      "lbl" : "inhibitory concentration 50",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "50"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Concentration 50"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "IC50"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Inhibitory"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Inhibitory Concentration"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D020128"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166159284",
       "lbl" : "Treatment interruption",
       "type" : "CLASS",
@@ -9857,20 +9077,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://id.nlm.nih.gov/mesh/D000097042"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166159324",
-      "lbl" : "plasma alanine aminotransferase level",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Plasma alanine aminotransferase level (procedure)"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/390961000"
         } ]
       }
     }, {
@@ -10176,7 +9382,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA166175756",
-      "lbl" : "cystic fibrosis pulmonary exacerbation",
+      "lbl" : "Cystic fibrosis pulmonary exacerbation",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -10396,7 +9602,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA166180841",
-      "lbl" : "renal transplant failure",
+      "lbl" : "Renal transplant failure",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -10481,7 +9687,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA166184864",
-      "lbl" : "craving",
+      "lbl" : "Craving",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -10556,20 +9762,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/HP_0031589"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166186062",
-      "lbl" : "mechanical heart valve replacement",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Mechanical heart valve replacement (procedure)"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/699347000"
         } ]
       }
     }, {
@@ -10648,14 +9840,20 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA166232141",
-      "lbl" : "hypersexuality state",
+      "lbl" : "Amplification of sexual behavior",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "Compulsive sexual behaviour"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "hypersexuality state"
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_5200321"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/73744004"
         } ]
@@ -10762,14 +9960,29 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA166256642",
-      "lbl" : "osteonecrosis of jaw caused by drug",
+      "lbl" : "Osteonecrosis of the jaw",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
+          "val" : "Bisphosphonate-Associated Osteonecrosis of the Jaw"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "ONJ"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "Osteonecrosis of jaw caused by drug (disorder)"
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://id.nlm.nih.gov/mesh/D059266"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10064658"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0018378"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/315801000119108"
         } ]
@@ -10820,7 +10033,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA166279881",
-      "lbl" : "elevated liver enzymes",
+      "lbl" : "Elevated liver enzymes",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -10909,15 +10122,11 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "intraoperative procedures"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/Q000601"
         } ]
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA166314521",
-      "lbl" : "mean arterial pressure",
+      "lbl" : "Elevated mean arterial pressure",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -10930,6 +10139,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/MDRFRE/10026982"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_0004972"
         } ]
       }
     }, {
@@ -10991,7 +10203,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA166321661",
-      "lbl" : "cyclic vomiting syndrome",
+      "lbl" : "Cyclic vomiting syndrome",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -11146,12 +10358,22 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA166328021",
-      "lbl" : "sweat chloride test elevated",
+      "lbl" : "Elevated sweat chloride",
       "type" : "CLASS",
       "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Sweat test outside reference range"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "sweat chloride test elevated"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/MDRFRE/10053619"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_0012236"
         } ]
       }
     }, {
@@ -11168,18 +10390,8 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166328301",
-      "lbl" : "pseudoallergic reaction",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10084859"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA166328441",
-      "lbl" : "missed dose",
+      "lbl" : "Missed dose",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -11195,15 +10407,21 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA166328461",
-      "lbl" : "medication adherence",
+      "lbl" : "Medication adherence",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Compliance"
+        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Medication"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Persistence"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Treatment adherence"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
@@ -11285,7 +10503,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA166339021",
-      "lbl" : "large for gestational age",
+      "lbl" : "Large for gestational age",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -11294,16 +10512,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/HP_0001520"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA166340541",
-      "lbl" : "prenatal screening test",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10072060"
         } ]
       }
     }, {
@@ -11435,6 +10643,73 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0009379"
+        } ]
+      }
+    }, {
+      "id" : "http://www.pharmgkb.org/disease/PA166365841",
+      "lbl" : "infantile myofibromatosis",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "IMS"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "infantile hemangiopericytoma"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "multicentric myofibromatosis"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "myofibromatosis"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0016824"
+        } ]
+      }
+    }, {
+      "id" : "http://www.pharmgkb.org/disease/PA166368602",
+      "lbl" : "weight loss",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Loss of weight"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_0001824"
+        } ]
+      }
+    }, {
+      "id" : "http://www.pharmgkb.org/disease/PA166393301",
+      "lbl" : "respiratory failure requiring assisted ventilation",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Respiratory distress necessitating mechanical ventilation"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Respiratory distress requiring endotracheal intubation"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Respiratory distress requiring mechanical ventilation"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_0004887"
+        } ]
+      }
+    }, {
+      "id" : "http://www.pharmgkb.org/disease/PA166394201",
+      "lbl" : "history of gastric bypass surgery",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_6000179"
         } ]
       }
     }, {
@@ -14086,7 +13361,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA443343",
-      "lbl" : "Anemia, Hemolytic",
+      "lbl" : "Hemolytic Anemia",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -14783,71 +14058,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0003123"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA443382",
-      "lbl" : "Anoxia",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Anoxemia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Anoxemias"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Anoxia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Anoxias"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Deficiencies"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Deficiency"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Fetal Hypoxia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Fetal hypoxia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hypoxemia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hypoxemias"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hypoxia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hypoxias"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Oxygen"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Oxygen Deficiencies"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Oxygen Deficiency"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D000860"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10002660"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000000426"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0003130"
         } ]
       }
     }, {
@@ -15593,6 +14803,9 @@
           "val" : "Cardiac dysrhythmia NOS"
         }, {
           "pred" : "hasRelatedSynonym",
+          "val" : "Proarrhythmia"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "Ventricular Flutter"
         }, {
           "pred" : "hasRelatedSynonym",
@@ -16140,53 +15353,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0004030"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA443446",
-      "lbl" : "Asphyxia",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Asphyxias"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Death by asphyxiation"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "NOS"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Suffocation"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Suffocations"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "[D]Asphyxia"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D001237"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10003496"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000000494"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/207550002"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/271877004"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/66466001"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0004044"
         } ]
       }
     }, {
@@ -23591,7 +22757,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA443750",
-      "lbl" : "Colitis, Ulcerative",
+      "lbl" : "Ulcerative Colitis",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -25840,16 +25006,9 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA443843",
-      "lbl" : "Death, Sudden",
+      "lbl" : "Sudden death",
       "type" : "CLASS",
       "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Sudden Death"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Sudden death"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://id.nlm.nih.gov/mesh/D003645"
@@ -38448,34 +37607,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA444519",
-      "lbl" : "Hyperemia",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Engorgement"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hyperaemia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hyperemia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hyperemias"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Local congestion"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "NOS"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Vascular engorgement"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA444522",
       "lbl" : "Hyperglycemia",
       "type" : "CLASS",
@@ -39879,46 +39010,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA444582",
-      "lbl" : "Hypoprothrombinemias",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Deficiencies"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Deficiency"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Factor II"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Factor II Deficiencies"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Factor II Deficiency"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hypoprothrombinemia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "NOS"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Prothrombin"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Prothrombin Deficiencies"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Prothrombin Deficiency"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Prothrombin deficiency"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA444584",
       "lbl" : "Hypotensive disorder",
       "type" : "CLASS",
@@ -40128,6 +39219,9 @@
           "val" : "NOS"
         }, {
           "pred" : "hasRelatedSynonym",
+          "val" : "Respiratory depression"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "Type 2 respiratory failure"
         }, {
           "pred" : "hasRelatedSynonym",
@@ -40154,25 +39248,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0398353"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA444594",
-      "lbl" : "Ileal Diseases",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Diseases"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ileal"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ileal Disease"
         } ]
       }
     }, {
@@ -40549,22 +39624,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA444613",
-      "lbl" : "Infarction",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Infarct"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Infarctions"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "NOS"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA444614",
       "lbl" : "Infectious disease",
       "type" : "CLASS",
@@ -40776,6 +39835,12 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000001687"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_0012649"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0021166"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/23583003"
@@ -41295,49 +40360,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA444640",
-      "lbl" : "Intraoperative Complications",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Complication"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Complications"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Injuries"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Injury"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Intraoperative"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Intraoperative Complication"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Peroperative"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Peroperative Complication"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Peroperative Complications"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Surgical"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Surgical Injuries"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Surgical Injury"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA444645",
       "lbl" : "Ischemia",
       "type" : "CLASS",
@@ -41647,7 +40669,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA444650",
-      "lbl" : "Jaundice, Neonatal",
+      "lbl" : "Neonatal hyperbilirubinemia",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -41684,6 +40706,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000001716"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_0003265"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0006584"
@@ -41920,83 +40945,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0022593"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA444680",
-      "lbl" : "Kidney Calculi",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Calculi"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Calculus"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Kidney"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Kidney Calculus"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Kidney Stone"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Kidney Stones"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Kidney calculus"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Kidney stone"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Phosphate"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Phosphate Calculi"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Phosphate Calculus"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Renal"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Renal Calculi"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Renal Calculus"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Renal calculus NOS"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Stone"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Stones"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D007669"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10006994"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000001746"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/197795009"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/95570007"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0022650"
         } ]
       }
     }, {
@@ -45394,34 +44342,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA444816",
-      "lbl" : "Lung Diseases, Obstructive",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Diseases"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Lung Disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Obstructive"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Obstructive Lung"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Obstructive Lung Disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Obstructive Lung Diseases"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA444818",
       "lbl" : "Lung Neoplasms",
       "type" : "CLASS",
@@ -47156,25 +46076,10 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA444910",
-      "lbl" : "Memory Disorders",
+      "lbl" : "Memory impairment",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Age Related"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Age Related Memory Disorders"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Age-Related"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Age-Related Memory Disorder"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Age-Related Memory Disorders"
-        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Cognitive"
         }, {
@@ -47203,9 +46108,6 @@
           "val" : "Memory Disorder"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "Memory Disorders"
-        }, {
-          "pred" : "hasRelatedSynonym",
           "val" : "Memory Loss"
         }, {
           "pred" : "hasRelatedSynonym",
@@ -47216,24 +46118,6 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Retention Disorders"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Semantic"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Semantic Memory Disorder"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Semantic Memory Disorders"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Spatial"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Spatial Memory Disorder"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Spatial Memory Disorders"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
@@ -47241,6 +46125,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000001976"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_0002354"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0025261"
@@ -48077,7 +46964,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA444972",
-      "lbl" : "Mouth Neoplasms",
+      "lbl" : "Neoplasm of the oral cavity",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -48150,6 +47037,12 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002037"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_0100649"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0021245"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/126797001"
@@ -48759,7 +47652,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA444990",
-      "lbl" : "Muscle Cramp",
+      "lbl" : "Muscle spasm",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -48805,6 +47698,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002057"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_0003394"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/55300003"
@@ -49392,47 +48288,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA445007",
-      "lbl" : "Mycoplasma Infections",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Infection"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Infections"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Mycoplasma"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Mycoplasma Infection"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Mycoplasmosis"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D009175"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10061300"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002073"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/186464008"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/406595002"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0026936"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA445009",
       "lbl" : "Mycoses",
       "type" : "CLASS",
@@ -49724,7 +48579,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA445016",
-      "lbl" : "Myeloproliferative Disorders",
+      "lbl" : "Myeloproliferative Disorder",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -49750,6 +48605,9 @@
           "val" : "Myeloproliferative disorder"
         }, {
           "pred" : "hasRelatedSynonym",
+          "val" : "myeloproliferative neoplasm"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "no ICD-O subtype"
         } ],
         "basicPropertyValues" : [ {
@@ -49761,6 +48619,12 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002082"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_0005547"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0020076"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/128925001"
@@ -50884,7 +49748,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA445058",
-      "lbl" : "Neoplasm Metastasis",
+      "lbl" : "Metastatic neoplasm",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -50960,6 +49824,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002124"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0024883"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/128462008"
@@ -51046,67 +49913,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA445066",
-      "lbl" : "Neoplasms, Germ Cell and Embryonal",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Cancer"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Cancers"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Embryonal"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Embryonal Cancer"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Embryonal Cancers"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Embryonal Neoplasm"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Embryonal Neoplasms"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Embryonal and Mixed"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Germ Cell"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Germ Cell Cancer"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Germ Cell Cancers"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Germ Cell Neoplasm"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Germ Cell Neoplasms"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Germ Cell and Embryonal Neoplasms"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Germ Cell and Embryonic"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Germ Cell and Embryonic Neoplasms"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neoplasm"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neoplasms"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA445074",
       "lbl" : "Neoplasms, Radiation-Induced",
       "type" : "CLASS",
@@ -51157,19 +49963,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0027666"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA445078",
-      "lbl" : "Neoplastic Processes",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neoplastic"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Processes"
         } ]
       }
     }, {
@@ -51395,67 +50188,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0027726"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA445093",
-      "lbl" : "Nervous System Diseases",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Disease of nervous system"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Diseases"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Disorder"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Disorder of nervous system"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Disorders"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Nervous System"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Nervous System Disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Nervous System Disorder"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Nervous System Disorders"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Nervous system disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurologic"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurologic Disorder"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurologic Disorders"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurological"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurological Disorder"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurological Disorders"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurological disorder"
         } ]
       }
     }, {
@@ -52008,121 +50740,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0027849"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA445105",
-      "lbl" : "Neurologic Manifestations",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Deficit"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Deficits"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Dysfunction"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Dysfunctions"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Finding"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Findings"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Focal"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Focal Neurologic"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Focal Neurologic Deficit"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Focal Neurologic Deficits"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Manifestation"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Manifestations"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurologic"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurologic Deficit"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurologic Deficits"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurologic Dysfunction"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurologic Dysfunctions"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurologic Effect"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurologic Effects"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurologic Finding"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurologic Findings"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurologic Manifestation"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurologic Sign"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurologic Signs"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurologic Signs and Symptoms"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurologic Symptom"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurologic Symptoms"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurological"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurological Effect"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurological Effects"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurological Manifestation"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neurological Manifestations"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Sign"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Signs"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Symptom"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Symptoms"
         } ]
       }
     }, {
@@ -53181,28 +51798,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0028961"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA445155",
-      "lbl" : "Opportunistic Infections",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Infection"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Infections"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Opportunistic"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Opportunistic Infection"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Opportunistic infectious disease"
         } ]
       }
     }, {
@@ -54741,110 +53336,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA445252",
-      "lbl" : "Paresis",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Brachial"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Brachial Pareses"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Brachial Paresis"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Crural"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Crural Pareses"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Crural Paresis"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Extremity Pareses"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Extremity Paresis"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hemipareses"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hemiparesis"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Lower"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Lower Extremity"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Lower Extremity Pareses"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Lower Extremity Paresis"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Monopareses"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Monoparesis"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Muscle"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Muscle Pareses"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Muscle Paresis"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Muscular"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Muscular Pareses"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Muscular Paresis"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Pareses"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Paresis"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Upper"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Upper Extremity"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Upper Extremity Pareses"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Upper Extremity Paresis"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D010291"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10033985"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002325"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0030552"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA445253",
       "lbl" : "Paresthesia",
       "type" : "CLASS",
@@ -55086,7 +53577,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA445272",
-      "lbl" : "Pemphigoid, Bullous",
+      "lbl" : "Bullous Pemphigoid",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -56228,65 +54719,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0549567"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA445331",
-      "lbl" : "Pituitary Neoplasms",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neoplasm"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Neoplasms"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Pituitary"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Pituitary Neoplasm"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Pituitary Tumor"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Pituitary Tumors"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Pituitary tumor"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Pituitary tumour"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Tumor"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Tumor of pituitary gland"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Tumors"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Tumour of pituitary gland"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D010911"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10035086"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002408"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/127024001"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0032019"
         } ]
       }
     }, {
@@ -57855,7 +56287,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA445440",
-      "lbl" : "Pseudarthrosis",
+      "lbl" : "Pseudoarthrosis",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -57892,6 +56324,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002515"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_0005864"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/31511007"
@@ -58121,6 +56556,9 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Psychosomatic disorder"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "somatoform disorder"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
@@ -59456,25 +57894,10 @@
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
-          "val" : "Depressions"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Respiratory Depression"
-        }, {
-          "pred" : "hasRelatedSynonym",
           "val" : "Respiratory Failure"
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "Respiratory insufficiency"
-        }, {
-          "pred" : "hasRelatedSynonym",
           "val" : "Respiratory insufficiency [D]"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventilatory"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventilatory Depression"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
@@ -59504,7 +57927,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA445524",
-      "lbl" : "Respiratory Sounds",
+      "lbl" : "Wheezing",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -59574,6 +57997,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002601"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/HP_0030828"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/52653008"
@@ -61364,7 +59790,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA445617",
-      "lbl" : "Scleroderma, Systemic",
+      "lbl" : "Systemic sclerosis",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -61440,29 +59866,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0036421"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA445618",
-      "lbl" : "Sclerosis",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Scleroses"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D012598"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002702"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/43846000"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0036429"
         } ]
       }
     }, {
@@ -61865,88 +60268,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA445631",
-      "lbl" : "Sensation Disorders",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Sensation Disorder"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Senses Disorder"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Senses Disorders"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Sensory Disorder"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Sensory Disorders"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Special"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Special Senses Disorder"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Special Senses Disorders"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D012678"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002715"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0036659"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA445632",
-      "lbl" : "Septicemia",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Blood"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Blood Poisoning"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Poisoning"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Septicaemia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Septicaemia NOS"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Septicemia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Septicemia NOS"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10040072"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002716"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/105592009"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0036690"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA445644",
       "lbl" : "Shock",
       "type" : "CLASS",
@@ -62059,32 +60380,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0036980"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA445646",
-      "lbl" : "Shock, Hemorrhagic",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hemorrhagic Shock"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D012771"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10055860"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002730"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/355001"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0036982"
         } ]
       }
     }, {
@@ -62542,35 +60837,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA445682",
-      "lbl" : "Skin Manifestations",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Manifestation"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Manifestations"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Skin"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Skin Manifestation"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D012877"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002767"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0037285"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA445683",
       "lbl" : "Skin Neoplasms",
       "type" : "CLASS",
@@ -62980,82 +61246,8 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA445699",
-      "lbl" : "Spasm",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ciliary Body"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ciliary Body Spasm"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ciliary Body Spasms"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Generalized"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Generalized Spasm"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Generalized Spasms"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Muscle"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Muscle Spasm"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Muscle Spasms"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Muscular"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Muscular Spasm"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Muscular Spasms"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "NOS"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Spasm"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Spasms"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Spasms [D]"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D013035"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10028333"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002785"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/274238007"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/45352006"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0037763"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA445700",
-      "lbl" : "Spasms, Infantile",
+      "lbl" : "Infantile Spasms",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -65994,37 +64186,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA445856",
-      "lbl" : "Thyroid Diseases",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Disease of thyroid gland"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Diseases"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Disorder of thyroid gland"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "NOS"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Thyroid"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Thyroid Disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Thyroid disorder"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA445857",
       "lbl" : "Thyroid tumor",
       "type" : "CLASS",
@@ -66726,41 +64887,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA445901",
-      "lbl" : "Toxemia",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Blood poisoning"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "NOS"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Toxaemia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Toxemias"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D014115"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10059853"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000002987"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/40555009"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0040524"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA445903",
       "lbl" : "Toxoplasmosis",
       "type" : "CLASS",
@@ -66847,7 +64973,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA445914",
-      "lbl" : "Translocation, Genetic",
+      "lbl" : "Chromosomal disorder",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -66877,6 +65003,9 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Translocations (Genetics)"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "chromosome abnormality disorders"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
@@ -66884,6 +65013,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003000"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0019040"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/15897004"
@@ -67917,6 +66049,9 @@
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
+          "val" : "Bladder stones"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "Calculi"
         }, {
           "pred" : "hasRelatedSynonym",
@@ -68275,44 +66410,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA445996",
-      "lbl" : "Male Urogenital Diseases",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Congenital absence of germinal epithelium of testes"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Del Castillo's syndrome"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Gene deletion in AZF region of Y chromosome"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Germinal aplasia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Sertoli Cell-Only Syndrome"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Urologic and Male Genital Diseases"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Urological and Male Genital Diseases"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D052801"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003085"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C1720894"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA445997",
       "lbl" : "Urologic Diseases",
       "type" : "CLASS",
@@ -68562,56 +66659,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0042109"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA446002",
-      "lbl" : "Uterine Hemorrhage",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Bleeding"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Breakthrough"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Breakthrough Bleeding"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hemorrhage"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Spotting"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Spottings"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Uterine"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Uterine Bleeding"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Uterine Bleedings"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Uterine Hemorrhages"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D014592"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10046789"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003091"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0042134"
         } ]
       }
     }, {
@@ -70121,53 +68168,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA446078",
-      "lbl" : "Wound Infection",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Infected wound"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Infection"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Infections"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Local infection of wound"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "NOS"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Wound"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Wound Infections"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Wound infection"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D014946"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10048038"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003168"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/76844004"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0043241"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA446079",
       "lbl" : "Wounds and Injuries",
       "type" : "CLASS",
@@ -70787,53 +68787,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0009404"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA446112",
-      "lbl" : "Smoke Inhalation Injury",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Inhalation Injuries"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Inhalation Injury"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Injuries"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Injury"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Smoke"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Smoke Inhalation"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Smoke Inhalation Injuries"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Smoke inhalation injury"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D015208"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10050546"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003202"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/426936004"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0037367"
         } ]
       }
     }, {
@@ -71693,7 +69646,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA446155",
-      "lbl" : "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+      "lbl" : "Acute lymphoblastic leukemia",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -71827,6 +69780,9 @@
           "val" : "Philadelphia-Positive"
         }, {
           "pred" : "hasRelatedSynonym",
+          "val" : "Precursor Cell Lymphoblastic Leukemia-Lymphoma"
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "Precursor cell lymphoblastic leukaemia"
         }, {
           "pred" : "hasRelatedSynonym",
@@ -71850,6 +69806,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000181267"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0004967"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/128822004"
@@ -72519,7 +70478,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA446171",
-      "lbl" : "Leukemia, Myelogenous, Chronic, BCR-ABL Positive",
+      "lbl" : "Chronic myelogenous leukemia, BCR-ABL1 positive",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -72653,7 +70612,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA446175",
-      "lbl" : "Leukemia, Myeloid, Chronic, Atypical, BCR-ABL Negative",
+      "lbl" : "Atypical chronic myeloid leukemia, BCR-ABL1 negative",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -72738,6 +70697,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000181208"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0004653"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/128826001"
@@ -72982,10 +70944,13 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA446182",
-      "lbl" : "Leukemia, Myelomonocytic, Chronic",
+      "lbl" : "Chronic myelomonocytic leukemia",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "CMML"
+        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Chronic"
         }, {
@@ -73685,65 +71650,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA446236",
-      "lbl" : "Substance Abuse, Intravenous",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Drug Abuse"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Drug User"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Drug Users"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "IV"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "IV Drug"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "IV Drug User"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "IV Drug Users"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Intravenous"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Intravenous Drug Abuse"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Intravenous Substance Abuse"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Parenteral"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Parenteral Drug Abuse"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "User"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Users"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D015819"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003325"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0038579"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA446255",
       "lbl" : "Iridocyclitis",
       "type" : "CLASS",
@@ -74331,68 +72237,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0040479"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA446303",
-      "lbl" : "Tooth Loss",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Absence of tooth - acquired"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Acquired absence of teeth"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Loss"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Loss of teeth"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Loss of teeth - acquired"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Missing tooth - acquired"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "NOS"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Shedding of tooth"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Teeth missing"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Tooth"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Tooth loss"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D016388"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10024879"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003392"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/196442002"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/25540007"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/37320007"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0080233"
         } ]
       }
     }, {
@@ -75681,7 +73525,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA446379",
-      "lbl" : "Death, Sudden, Cardiac",
+      "lbl" : "Sudden cardiac death",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -75949,7 +73793,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA446409",
-      "lbl" : "Polyendocrinopathies, Autoimmune",
+      "lbl" : "Autoimmune polyendocrinopathy",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -76040,6 +73884,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003500"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0017278"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/41864002"
@@ -77604,22 +75451,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0162809"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA446482",
-      "lbl" : "Skin and Connective Tissue Diseases",
-      "type" : "CLASS",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D017437"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003573"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0175166"
         } ]
       }
     }, {
@@ -79499,7 +77330,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA446714",
-      "lbl" : "Neoplasm, Residual",
+      "lbl" : "Residual Neoplasm",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -79678,41 +77509,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0242656"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA446734",
-      "lbl" : "Soft Tissue Infections",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Infection"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Infections"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Soft Tissue"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Soft Tissue Infection"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D018461"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10062255"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003823"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/95880003"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0149778"
         } ]
       }
     }, {
@@ -80033,87 +77829,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0004933"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA446758",
-      "lbl" : "Systemic Inflammatory Response Syndrome",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Abacteremic sepsis"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Culture-negative sepsis"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Inflammatory Response Syndrome"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "SIRS - System inflammatory response syndrome"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Sepsis"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Sepsis Syndrome"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Sepsis Syndromes"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Sepsis syndrome"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Septic syndrome"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Syndrome"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Syndromes"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Systemic"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Systemic Inflammatory Response Syndrome"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Systemic inflammatory response syndrome"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA446759",
-      "lbl" : "Ventricular Dysfunction",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Dysfunction"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Dysfunctions"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular Dysfunctions"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D018754"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10059056"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003849"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0242973"
         } ]
       }
     }, {
@@ -80664,142 +78379,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA446779",
-      "lbl" : "Ventricular Premature Complexes",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Beat"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Beats"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Complex"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Complexes"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Complices"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Contraction"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Contractions"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ectopic Beat"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ectopic Beats"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Extrasystole"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Extrasystoles"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Premature"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Premature Complex"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Premature Complexes"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Premature Complices"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Premature Ventricular"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Premature Ventricular Beat"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Premature Ventricular Beats"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Premature Ventricular Complex"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Premature Ventricular Complices"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Premature Ventricular Contraction"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Premature Ventricular Contractions"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Premature ventricular complex"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular Beat"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular Beats"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular Complex"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular Complices"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular Contraction"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular Contractions"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular Ectopic"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular Ectopic Beat"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular Ectopic Beats"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular Extrasystole"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular Extrasystoles"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular Premature"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular Premature Complex"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular Premature Complices"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular ectopic beats"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular ectopic complex"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular premature complex"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular premature depolarisation"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Ventricular premature depolarization"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA446780",
       "lbl" : "Atrial Premature Complexes",
       "type" : "CLASS",
@@ -81103,52 +78682,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0175702"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA446805",
-      "lbl" : "Postoperative Hemorrhage",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Blood Loss"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Haemorrhage postprocedure"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hemorrhage"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hemorrhage postprocedure"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hemorrhages"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Loss"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Postoperative"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Postoperative Blood"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Postoperative Blood Loss"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Postoperative Hemorrhages"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Postoperative bleeding"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Postoperative haemorrhage"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Postoperative hemorrhage"
         } ]
       }
     }, {
@@ -82242,7 +79775,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA446864",
-      "lbl" : "Hepatitis D, Chronic",
+      "lbl" : "Hepatitis D virus infection",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -82279,6 +79812,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000003955"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005789"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0524911"
@@ -82842,115 +80378,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0600503"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA446912",
-      "lbl" : "Tyrosinemias",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "4 Hydroxyphenol Pyruvic Acid Oxidase"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "4 Hydroxyphenol Pyruvic Acid Oxidase Deficiency Disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "4 Hydroxyphenylpyruvate Dioxygenase Deficiency Disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "4-Hydroxyphenol Pyruvic Acid Oxidase"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "4-Hydroxyphenol Pyruvic Acid Oxidase Deficiency Disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Deficiency Disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Deficiency Diseases"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Diseases"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Fumarylacetoacetase"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Fumarylacetoacetase Deficiency"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Fumarylacetoacetase Deficiency Disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Fumarylacetoacetase Deficiency Diseases"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hereditary"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hereditary Tyrosinemia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hereditary Tyrosinemias"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hypertyrosinemia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Hypertyrosinemias"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Type I"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Type I Hypertyrosinemia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Type I Hypertyrosinemias"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Type I Tyrosinemia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Type I Tyrosinemias"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Type II"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Type II Tyrosinemia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Type II Tyrosinemias"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Type III"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Type III Tyrosinemia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Type III Tyrosinemias"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Tyrosinaemia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Tyrosine Transaminase"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Tyrosine Transaminase Deficiency Disease"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Tyrosinemia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Tyrosinemias"
         } ]
       }
     }, {
@@ -84387,7 +81814,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA447048",
-      "lbl" : "Myopathy, Central Core",
+      "lbl" : "Central Core Myopathy",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
@@ -86451,47 +83878,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA447147",
-      "lbl" : "Lacerations",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Laceration"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Laceration - injury"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Laceration NOS"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Tear - wound"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D022125"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10023572"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000004250"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/262543001"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/312608009"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/35933005"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0043246"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA447148",
       "lbl" : "Hermanski-Pudlak Syndrome",
       "type" : "CLASS",
@@ -86606,50 +83992,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0242231"
-        } ]
-      }
-    }, {
-      "id" : "http://www.pharmgkb.org/disease/PA447162",
-      "lbl" : "Spondylarthritis",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Arthritis"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Arthritis of spine"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Spinal"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Spinal Arthritides"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Spinal Arthritis"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Spondylarthritides"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Spondyloarthritis"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://id.nlm.nih.gov/mesh/D025241"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/MDRFRE/10029871"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000011073"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "http://snomed.info/id/371082009"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-          "val" : "https://uts.nlm.nih.gov/uts/umls/concept/C0949690"
         } ]
       }
     }, {
@@ -87191,12 +84533,15 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA447189",
-      "lbl" : "Papillomavirus Infections",
+      "lbl" : "Human papilloma virus infection",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "Disease due to Papilloma virus"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "HPV infection"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "NOS"
@@ -87213,6 +84558,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://purl.bioontology.org/ontology/NDFRT/N0000011003"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005161"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "http://snomed.info/id/30415006"
@@ -87838,25 +85186,6 @@
         } ]
       }
     }, {
-      "id" : "http://www.pharmgkb.org/disease/PA447214",
-      "lbl" : "Phobic Disorders",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Abnormal fear"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Phobia"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Phobic anxiety disorder"
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Phobic disorder"
-        } ]
-      }
-    }, {
       "id" : "http://www.pharmgkb.org/disease/PA447215",
       "lbl" : "Psychotic Disorder",
       "type" : "CLASS",
@@ -88276,7 +85605,7 @@
       }
     }, {
       "id" : "http://www.pharmgkb.org/disease/PA447268",
-      "lbl" : "tardive dyskinesia",
+      "lbl" : "Tardive Dyskinesia",
       "type" : "CLASS",
       "meta" : {
         "synonyms" : [ {

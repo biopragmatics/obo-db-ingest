@@ -6,7 +6,7 @@ The Enzyme Nomenclature is maintained by the [Nomenclature Committee](https://iu
 
 There are few notable resources providing access to the Enzyme Nomenclature:
 
-<table class="table table-striped"><thead><tr><th>Website</td><th>Homepage</td><th>Notes</td></tr></thead><tbody><tr><td>ExplorEnz</td><td>https://www.enzyme-database.org</td><td>This is the resources officially recommended by IUBMB</td></tr><tr><td>IUBMB (via by Queen Mary)</td><td>https://iubmb.qmul.ac.uk/enzyme</td><td>This is a web-based version of the <a href="https://archive.org/details/enzymenomenclatu0000inte_d6c2">1992 publication</a>.</td></tr><tr><td>IntEnz</td><td>https://www.ebi.ac.uk/intenz</td><td></td></tr><tr><td>ExPaSy</td><td>https://enzyme.expasy.org</td><td></td></tr></tbody></table>
+<table class="table table-striped"><thead><tr><th>Website</th><th>Homepage</td><th>Notes</td></tr></thead><tbody><tr><td>ExplorEnz</td><td><a href="https://www.enzyme-database.org">https://www.enzyme-database.org</a></td><td>This is the resource officially recommended by IUBMB</td></tr><tr><td>IUBMB (via by Queen Mary)</td><td><a href="https://iubmb.qmul.ac.uk/enzyme">https://iubmb.qmul.ac.uk/enzyme</a></td><td>This is a web-based version of the <a href="https://archive.org/details/enzymenomenclatu0000inte_d6c2">1992 publication</a>.</td></tr><tr><td>IntEnz</td><td><a href="https://www.ebi.ac.uk/intenz">https://www.ebi.ac.uk/intenz</a></td><td>Shutdown in 2024</td></tr><tr><td>ExPaSy</td><td><a href="https://enzyme.expasy.org">https://enzyme.expasy.org</a></td></tr><tr><td>EnzymePortal</td><td><a href="https://www.ebi.ac.uk/enzymeportal">https://www.ebi.ac.uk/enzymeportal</a></td><td></td></tr></tbody></table>
 
 **License**: CC-BY-4.0
 
@@ -14,22 +14,22 @@ There are few notable resources providing access to the Enzyme Nomenclature:
 
 | Artifact       | Download PURL                                               | Latest Versioned Download PURL                                         |
 |----------------|-------------------------------------------------------------|------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/ec/ec.obo          | https://w3id.org/biopragmatics/resources/ec/2025-02-05/ec.obo          |
-| OFN            | https://w3id.org/biopragmatics/resources/ec/ec.ofn          | https://w3id.org/biopragmatics/resources/ec/2025-02-05/ec.ofn          |
-| Nodes          | https://w3id.org/biopragmatics/resources/ec/ec.tsv          | https://w3id.org/biopragmatics/resources/ec/2025-02-05/ec.tsv          |
-| SSSOM          | https://w3id.org/biopragmatics/resources/ec/ec.sssom.tsv    | https://w3id.org/biopragmatics/resources/ec/2025-02-05/ec.sssom.tsv    |
-| Synonyms       | https://w3id.org/biopragmatics/resources/ec/ec.synonyms.tsv | https://w3id.org/biopragmatics/resources/ec/2025-02-05/ec.synonyms.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/ec/ec.owl          | https://w3id.org/biopragmatics/resources/ec/2025-02-05/ec.owl          |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/ec/ec.json         | https://w3id.org/biopragmatics/resources/ec/2025-02-05/ec.json         |
+| OBO            | https://w3id.org/biopragmatics/resources/ec/ec.obo          | https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.obo          |
+| OFN            | https://w3id.org/biopragmatics/resources/ec/ec.ofn          | https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.ofn          |
+| Nodes          | https://w3id.org/biopragmatics/resources/ec/ec.tsv          | https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.tsv          |
+| SSSOM          | https://w3id.org/biopragmatics/resources/ec/ec.sssom.tsv    | https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.sssom.tsv    |
+| Synonyms       | https://w3id.org/biopragmatics/resources/ec/ec.synonyms.tsv | https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.synonyms.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/ec/ec.owl          | https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.owl          |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/ec/ec.json         | https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.json         |
 
 ## Summary
 
 | field       |   count |
 |-------------|---------|
-| definitions |    6886 |
-| mappings    |    1472 |
-| parents     |    7287 |
-| properties  |  255367 |
-| relations   |    4506 |
-| synonyms    |   10491 |
-| terms       |    8779 |
+| definitions |    6919 |
+| mappings    |    1473 |
+| parents     |    7320 |
+| properties  |  256839 |
+| relations   |    4530 |
+| synonyms    |   10510 |
+| terms       |    8813 |

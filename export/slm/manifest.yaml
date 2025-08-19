@@ -1,64 +1,64 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/slm/slm.tsv.gz
     path: slm/slm.tsv.gz
-    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-03-12/slm.tsv.gz
-    version_path: slm/2025-03-12/slm.tsv.gz
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.tsv.gz
+    version_path: slm/2025-08-18/slm.tsv.gz
   obo:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/slm/slm.obo.gz
     path: slm/slm.obo.gz
-    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-03-12/slm.obo.gz
-    version_path: slm/2025-03-12/slm.obo.gz
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.obo.gz
+    version_path: slm/2025-08-18/slm.obo.gz
   obograph:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/slm/slm.json.gz
     path: slm/slm.json.gz
-    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-03-12/slm.json.gz
-    version_path: slm/2025-03-12/slm.json.gz
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.json.gz
+    version_path: slm/2025-08-18/slm.json.gz
   ofn:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/slm/slm.ofn.gz
     path: slm/slm.ofn.gz
-    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-03-12/slm.ofn.gz
-    version_path: slm/2025-03-12/slm.ofn.gz
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.ofn.gz
+    version_path: slm/2025-08-18/slm.ofn.gz
   owl:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/slm/slm.owl.gz
     path: slm/slm.owl.gz
-    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-03-12/slm.owl.gz
-    version_path: slm/2025-03-12/slm.owl.gz
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.owl.gz
+    version_path: slm/2025-08-18/slm.owl.gz
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/slm/slm.sssom.tsv
     path: slm/slm.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-03-12/slm.sssom.tsv
-    version_path: slm/2025-03-12/slm.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.sssom.tsv
+    version_path: slm/2025-08-18/slm.sssom.tsv
   summary:
     alts: 0
     definitions: 0
     license: CC-BY-4.0
-    mappings: 635638
+    mappings: 635632
     parents: 0
-    properties: 2791560
+    properties: 2791554
     references: 10101
     relations: 0
     synonyms: 1344722
     terms: 779249
-    version: '2025-03-12'
+    version: '2025-08-18'
   synonyms:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/slm/slm.synonyms.synonyms.tsv.gz
     path: slm/slm.synonyms.synonyms.tsv.gz
-    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-03-12/slm.synonyms.synonyms.tsv.gz
-    version_path: slm/2025-03-12/slm.synonyms.synonyms.tsv.gz
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.synonyms.synonyms.tsv.gz
+    version_path: slm/2025-08-18/slm.synonyms.synonyms.tsv.gz
 prefix_map:
   CHEBI: http://purl.obolibrary.org/obo/CHEBI_
   ChEMROF: https://chemkg.github.io/chemrof/
@@ -67,11 +67,14 @@ prefix_map:
   SLM: 'https://www.swisslipids.org/#/entity/SLM:'
   dcterms: http://purl.org/dc/terms/
   debio: https://biopragmatics.github.io/debio/
+  doap: http://usefulinc.com/ns/doap#
+  foaf: http://xmlns.com/foaf/0.1/
   hmdb: http://www.hmdb.ca/metabolites/
-  inchikey: http://legacy.chemspider.com/inchikey=
+  inchikey: https://www.chemspider.com/search?params=
   lipidmaps: http://www.lipidmaps.org/data/LMSDRecord.php?LMID=
   obo: http://purl.obolibrary.org/obo/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
   pubmed: http://rdf.ncbi.nlm.nih.gov/pubchem/reference/
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#

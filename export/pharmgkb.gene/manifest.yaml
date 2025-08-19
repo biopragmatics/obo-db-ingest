@@ -1,8 +1,8 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
@@ -33,12 +33,12 @@ manifest:
     alts: 0
     definitions: 0
     license: CC-BY-SA-4.0
-    mappings: 240059
+    mappings: 229255
     parents: 0
     properties: 49907
     references: 0
     relations: 0
-    synonyms: 107948
+    synonyms: 107947
     terms: 25041
     version: null
   synonyms:
@@ -48,14 +48,16 @@ manifest:
 prefix_map:
   NCBIGene: http://purl.uniprot.org/geneid/
   dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
   ensembl: http://rdf.ebi.ac.uk/resource/ensembl/
+  foaf: http://xmlns.com/foaf/0.1/
   genatlas: http://genatlas.medecine.univ-paris5.fr/fiche.php?symbol=
   genbank: https://www.ncbi.nlm.nih.gov/nucleotide/
   hgnc: https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/
   iuphar.receptor: http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=
-  mesh: http://id.nlm.nih.gov/mesh/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
   omim: 'https://omim.org/MIM:'
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
   pharmgkb.gene: http://www.pharmgkb.org/gene/
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#

@@ -1,14 +1,21 @@
 format-version: 1.4
 data-version: 35
-auto-generated-by: PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:24:44.461831
+auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T00:50:48.050125
 idspace: chembl.target https://www.ebi.ac.uk/chembl/target/inspect/ "ChEMBL target"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: doap http://usefulinc.com/ns/doap# "Description of a Project"
+idspace: ensembl http://rdf.ebi.ac.uk/resource/ensembl/ "Ensembl Gene"
+idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
+idspace: orcid https://orcid.org/ "Open Researcher and Contributor"
 idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
 idspace: uniprot http://purl.uniprot.org/uniprot/ "UniProt Protein"
 ontology: chembl.target
 property_value: dcterms:title "ChEMBL target" xsd:string
 property_value: dcterms:license "CC-BY-SA-3.0" xsd:string
-property_value: dcterms:description "ChEMBL is a database of bioactive compounds\\\, their quantitative properties and bioactivities \\\(binding constants\\\, pharmacology and ADMET\\\, etc\\\). The data is abstracted and curated from the primary scientific literature." xsd:string
+property_value: dcterms:description "ChEMBL is a database of bioactive compounds\, their quantitative properties and bioactivities \(binding constants\, pharmacology and ADMET\, etc\). The data is abstracted and curated from the primary scientific literature." xsd:string
+property_value: foaf:homepage "https\://www.ebi.ac.uk/chembldb/" xsd:anyURI
+property_value: foaf:logo "https\://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5LCdi4mEW56jpmM0YDjEwLtGUUy2F9I7m02I9hygI0OPugnZKlTrAgfBtug5yJS5RbpCXifID0pzA5Wxdc6un1UjCCtOJcvlkeoAFgzQspvplZcstYNwx8lBtvlYY8WJ-kLj-I891VIAO/s1600/Screenshot+2018-12-20+at+10.30.09.png" xsd:anyURI
+property_value: doap:maintainer orcid:0000-0002-0294-5484
 property_value: IAO:0000700 undefined
 property_value: IAO:0000700 molecular
 property_value: IAO:0000700 non-molecular
@@ -5525,14 +5532,14 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: chembl.target:CHEMBL1615321
 name: microRNA 30a
-property_value: skos:exactMatch uniprot:ENSG00000207827
+property_value: skos:exactMatch ensembl:ENSG00000207827
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL1615322
 name: microRNA 21
-property_value: skos:exactMatch uniprot:ENSG00000284190
+property_value: skos:exactMatch ensembl:ENSG00000284190
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -22706,7 +22713,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: chembl.target:CHEMBL2364185
 name: Apo-B 100 mRNA
-property_value: skos:exactMatch uniprot:ENSG00000084674
+property_value: skos:exactMatch ensembl:ENSG00000084674
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -49737,14 +49744,14 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: chembl.target:CHEMBL3826826
 name: Dystrophin pre-mRNA
-property_value: skos:exactMatch uniprot:ENSG00000198947
+property_value: skos:exactMatch ensembl:ENSG00000198947
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL3826841
 name: SMN2 pre-mRNA
-property_value: skos:exactMatch uniprot:ENSG00000205571
+property_value: skos:exactMatch ensembl:ENSG00000205571
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -50388,7 +50395,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: chembl.target:CHEMBL3833461
 name: SOD1 mRNA
-property_value: skos:exactMatch uniprot:ENSG00000142168
+property_value: skos:exactMatch ensembl:ENSG00000142168
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -63132,7 +63139,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: chembl.target:CHEMBL4296221
 name: Transthyretin mRNA
-property_value: skos:exactMatch uniprot:ENSG00000118271
+property_value: skos:exactMatch ensembl:ENSG00000118271
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -64865,7 +64872,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: chembl.target:CHEMBL4296641
 name: Huntingtin mRNA
-property_value: skos:exactMatch uniprot:ENSG00000197386
+property_value: skos:exactMatch ensembl:ENSG00000197386
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -64901,7 +64908,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: chembl.target:CHEMBL4296741
 name: 5-aminolevulinate synthase mRNA
-property_value: skos:exactMatch uniprot:ENSG00000023330
+property_value: skos:exactMatch ensembl:ENSG00000023330
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -66520,7 +66527,7 @@ is_a: nucleic-acid
 [Term]
 id: chembl.target:CHEMBL4483924
 name: microRNA 122
-property_value: skos:exactMatch uniprot:ENSG00000284440
+property_value: skos:exactMatch ensembl:ENSG00000284440
 is_a: nucleic-acid
 
 [Term]
@@ -66620,7 +66627,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: chembl.target:CHEMBL4495602
 name: Apolipoprotein C-III mRNA 3'UTR
-property_value: skos:exactMatch uniprot:ENSG00000110245
+property_value: skos:exactMatch ensembl:ENSG00000110245
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -73063,7 +73070,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: chembl.target:CHEMBL4524134
 name: Hydroxyacid oxidase 1 mRNA
-property_value: skos:exactMatch uniprot:ENSG00000101323
+property_value: skos:exactMatch ensembl:ENSG00000101323
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -73627,63 +73634,63 @@ relationship: RO:0002162 NCBITaxon:44001 ! in taxon Caldicellulosiruptor sacchar
 [Term]
 id: chembl.target:CHEMBL4622821
 name: Insulin receptor substrate 1 mRNA
-property_value: skos:exactMatch uniprot:ENSG00000169047
+property_value: skos:exactMatch ensembl:ENSG00000169047
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL4622822
 name: Intercellular adhesion molecule-1 mRNA 3'UTR
-property_value: skos:exactMatch uniprot:ENSG00000090339
+property_value: skos:exactMatch ensembl:ENSG00000090339
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL4622823
 name: Heat shock protein beta-1 \(HSP27\) mRNA
-property_value: skos:exactMatch uniprot:ENSG00000106211
+property_value: skos:exactMatch ensembl:ENSG00000106211
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL4622824
 name: Protein kinase C alpha mRNA 3'UTR
-property_value: skos:exactMatch uniprot:ENSG00000154229
+property_value: skos:exactMatch ensembl:ENSG00000154229
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL4622825
 name: Angiopoietin like 3 \(ANGPTL3\) mRNA
-property_value: skos:exactMatch uniprot:ENSG00000132855
+property_value: skos:exactMatch ensembl:ENSG00000132855
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL4622826
 name: Transforming growth factor beta-2 mRNA
-property_value: skos:exactMatch uniprot:ENSG00000092969
+property_value: skos:exactMatch ensembl:ENSG00000092969
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL4622827
 name: p53 mRNA
-property_value: skos:exactMatch uniprot:ENSG00000141510
+property_value: skos:exactMatch ensembl:ENSG00000141510
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL4622828
 name: Bcl-2 mRNA
-property_value: skos:exactMatch uniprot:ENSG00000171791
+property_value: skos:exactMatch ensembl:ENSG00000171791
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL4622829
 name: STAT-3 mRNA 3'UTR
-property_value: skos:exactMatch uniprot:ENSG00000168610
+property_value: skos:exactMatch ensembl:ENSG00000168610
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -73725,35 +73732,35 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: chembl.target:CHEMBL4627240
 name: CEP290 mRNA
-property_value: skos:exactMatch uniprot:ENSG00000198707
+property_value: skos:exactMatch ensembl:ENSG00000198707
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL4627241
 name: Growth factor receptor-bound protein 2 mRNA
-property_value: skos:exactMatch uniprot:ENSG00000177885
+property_value: skos:exactMatch ensembl:ENSG00000177885
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL4627242
 name: L-lactate dehydrogenase A chain mRNA
-property_value: skos:exactMatch uniprot:ENSG00000134333
+property_value: skos:exactMatch ensembl:ENSG00000134333
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL4627244
 name: H-Ras mRNA 5'UTR
-property_value: skos:exactMatch uniprot:ENSG00000276536
+property_value: skos:exactMatch ensembl:ENSG00000276536
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL4627245
 name: Complement C5 mRNA
-property_value: skos:exactMatch uniprot:ENSG00000106804
+property_value: skos:exactMatch ensembl:ENSG00000106804
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -73781,35 +73788,35 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: chembl.target:CHEMBL4630576
 name: VEGF-A mRNA
-property_value: skos:exactMatch uniprot:ENSG00000112715
+property_value: skos:exactMatch ensembl:ENSG00000112715
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL4630577
 name: microRNA-155
-property_value: skos:exactMatch uniprot:ENSG00000283904
+property_value: skos:exactMatch ensembl:ENSG00000283904
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL4630578
 name: Beta-2 adrenergic receptor mRNA
-property_value: skos:exactMatch uniprot:ENSG00000169252
+property_value: skos:exactMatch ensembl:ENSG00000169252
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL4630579
 name: Clusterin mRNA
-property_value: skos:exactMatch uniprot:ENSG00000120885
+property_value: skos:exactMatch ensembl:ENSG00000120885
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL4630580
 name: Ribonucleotide reductase small subunit mRNA
-property_value: skos:exactMatch uniprot:ENSG00000171848
+property_value: skos:exactMatch ensembl:ENSG00000171848
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -73822,7 +73829,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: chembl.target:CHEMBL4630662
 name: PCSK9 mRNA
-property_value: skos:exactMatch uniprot:ENSG00000169174
+property_value: skos:exactMatch ensembl:ENSG00000169174
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -75227,7 +75234,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: chembl.target:CHEMBL4632344
 name: SMAD-7 mRNA
-property_value: skos:exactMatch uniprot:ENSG00000101665
+property_value: skos:exactMatch ensembl:ENSG00000101665
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -75275,7 +75282,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: chembl.target:CHEMBL4634874
 name: Antithrombin mRNA
-property_value: skos:exactMatch uniprot:ENSG00000117601
+property_value: skos:exactMatch ensembl:ENSG00000117601
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -75791,7 +75798,7 @@ relationship: RO:0002162 NCBITaxon:287 ! in taxon Pseudomonas aeruginosa
 [Term]
 id: chembl.target:CHEMBL4662965
 name: LPA mRNA
-property_value: skos:exactMatch uniprot:ENSG00000198670
+property_value: skos:exactMatch ensembl:ENSG00000198670
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -75822,7 +75829,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: chembl.target:CHEMBL4662970
 name: VEGFR1 mRNA
-property_value: skos:exactMatch uniprot:ENSG00000102755
+property_value: skos:exactMatch ensembl:ENSG00000102755
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -78542,7 +78549,7 @@ relationship: RO:0002162 NCBITaxon:1496 ! in taxon Clostridioides difficile
 [Term]
 id: chembl.target:CHEMBL4804249
 name: Survivin mRNA
-property_value: skos:exactMatch uniprot:ENSG00000089685
+property_value: skos:exactMatch ensembl:ENSG00000089685
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -78831,14 +78838,14 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: chembl.target:CHEMBL4834387
 name: Transmembrane protease serine 6 mRNA
-property_value: skos:exactMatch uniprot:ENSG00000187045
+property_value: skos:exactMatch ensembl:ENSG00000187045
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL4834388
 name: Apolipoprotein C-III mRNA
-property_value: skos:exactMatch uniprot:ENSG00000110245
+property_value: skos:exactMatch ensembl:ENSG00000110245
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -86795,28 +86802,28 @@ relationship: RO:0002162 NCBITaxon:2 ! in taxon Bacteria
 [Term]
 id: chembl.target:CHEMBL5303721
 name: ARSA
-property_value: skos:exactMatch uniprot:ENSG00000100299
+property_value: skos:exactMatch ensembl:ENSG00000100299
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL5303722
 name: ABCD1
-property_value: skos:exactMatch uniprot:ENSG00000101986
+property_value: skos:exactMatch ensembl:ENSG00000101986
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL5303723
 name: DDC
-property_value: skos:exactMatch uniprot:ENSG00000132437
+property_value: skos:exactMatch ensembl:ENSG00000132437
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
 [Term]
 id: chembl.target:CHEMBL5303724
 name: ADA
-property_value: skos:exactMatch uniprot:ENSG00000196839
+property_value: skos:exactMatch ensembl:ENSG00000196839
 is_a: nucleic-acid
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
@@ -89758,7 +89765,7 @@ relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 [Term]
 id: chembl.target:CHEMBL5465384
 name: mTORC1
-property_value: skos:exactMatch uniprot:Q9JLN9
+property_value: RO:0002180 uniprot:Q9JLN9
 is_a: protein-complex
 relationship: RO:0002162 NCBITaxon:10090 ! in taxon Mus musculus
 
@@ -95204,7 +95211,7 @@ relationship: RO:0002162 NCBITaxon:9986 ! in taxon Oryctolagus cuniculus
 [Term]
 id: chembl.target:CHEMBL6105
 name: BCR/ABL p210 fusion protein
-property_value: skos:exactMatch uniprot:A1Z199
+property_value: RO:0002180 uniprot:A1Z199
 is_a: chimeric-protein
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 

@@ -1,46 +1,46 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.tsv
     path: pfam.clan/pfam.clan.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.tsv
-    version_path: pfam.clan/37.2/pfam.clan.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/38.0/pfam.clan.tsv
+    version_path: pfam.clan/38.0/pfam.clan.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.obo
     path: pfam.clan/pfam.clan.obo
-    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.obo
-    version_path: pfam.clan/37.2/pfam.clan.obo
+    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/38.0/pfam.clan.obo
+    version_path: pfam.clan/38.0/pfam.clan.obo
   obograph:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.json
     path: pfam.clan/pfam.clan.json
-    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.json
-    version_path: pfam.clan/37.2/pfam.clan.json
+    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/38.0/pfam.clan.json
+    version_path: pfam.clan/38.0/pfam.clan.json
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.ofn
     path: pfam.clan/pfam.clan.ofn
-    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.ofn
-    version_path: pfam.clan/37.2/pfam.clan.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/38.0/pfam.clan.ofn
+    version_path: pfam.clan/38.0/pfam.clan.ofn
   owl:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.owl
     path: pfam.clan/pfam.clan.owl
-    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.owl
-    version_path: pfam.clan/37.2/pfam.clan.owl
+    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/38.0/pfam.clan.owl
+    version_path: pfam.clan/38.0/pfam.clan.owl
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.sssom.tsv
     path: pfam.clan/pfam.clan.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.sssom.tsv
-    version_path: pfam.clan/37.2/pfam.clan.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/38.0/pfam.clan.sssom.tsv
+    version_path: pfam.clan/38.0/pfam.clan.sssom.tsv
   summary:
     alts: 0
     definitions: 0
@@ -51,16 +51,17 @@ manifest:
     references: 0
     relations: 0
     synonyms: 0
-    terms: 769
-    version: '37.2'
+    terms: 796
+    version: '38.0'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.synonyms.tsv
     path: pfam.clan/pfam.clan.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/37.2/pfam.clan.synonyms.tsv
-    version_path: pfam.clan/37.2/pfam.clan.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/38.0/pfam.clan.synonyms.tsv
+    version_path: pfam.clan/38.0/pfam.clan.synonyms.tsv
 prefix_map:
   dcterms: http://purl.org/dc/terms/
+  foaf: http://xmlns.com/foaf/0.1/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
   owl: http://www.w3.org/2002/07/owl#
   pfam.clan: https://www.ebi.ac.uk/interpro/set/pfam/

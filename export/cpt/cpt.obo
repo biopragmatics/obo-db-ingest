@@ -1,11 +1,14 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T12:20:14.936911
+auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:34:10.904993
 idspace: cpt https://www.aapc.com/codes/cpt-codes/ "Current Procedural Terminology"
 idspace: cvx https://biopragmatics.github.io/providers/cvx/ "Vaccine administered code set"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
 ontology: cpt
 property_value: dcterms:title "Current Procedural Terminology" xsd:string
-property_value: dcterms:description "Current Procedural Terminology\\\, more commonly known as CPT®\\\, refers to a medical code set created and maintained by the American Medical Association — and used by physicians\\\, allied health professionals\\\, nonphysician practitioners\\\, hospitals\\\, outpatient facilities\\\, and laboratories to represent the services and procedures they perform. No provider of outpatient services gets paid without reporting the proper CPT® codes. \\\[Description taken from this site\\\]\\\(https\\\://www.aapc.com/codes/cpt-codes-range/\\\)\\\]" xsd:string
+property_value: dcterms:description "Current Procedural Terminology\, more commonly known as CPT®\, refers to a medical code set created and maintained by the American Medical Association — and used by physicians\, allied health professionals\, nonphysician practitioners\, hospitals\, outpatient facilities\, and laboratories to represent the services and procedures they perform. No provider of outpatient services gets paid without reporting the proper CPT® codes. \[Description taken from this site\]\(https\://www.aapc.com/codes/cpt-codes-range/\)\]" xsd:string
+property_value: foaf:homepage "https\://www.aapc.com" xsd:anyURI
+property_value: foaf:logo "https\://edhub.ama-assn.org/ImageLibrary/Ed-Hub-Self-Serve/CPT-monogram.png" xsd:anyURI
 
 [Term]
 id: cpt:90281
@@ -76,6 +79,12 @@ comment: "CPT Code to be used for Beyfortus 1.0 mL"
 xref: cvx:307
 
 [Term]
+id: cpt:90382
+name: RSV\, mAb\, clesrovimab-cfor\, 0.7 mL\, neonate and infant\, PF
+def: "Respiratory syncytial virus\, monoclonal antibody\, seasonal dose\, 0.7 mL\, for intramuscular use"
+xref: cvx:332
+
+[Term]
 id: cpt:90389
 name: TIG
 def: "Tetanus immune globulin \(TIg\)\, human\, for intramuscular use"
@@ -142,6 +151,12 @@ def: "Chikungunya virus vaccine\, live attenuated\, for intramuscular use"
 xref: cvx:317
 
 [Term]
+id: cpt:90593
+name: Chikungunya\, VLP\, recombinant\, 0.8 mL\, PF
+def: "Chikungunya virus vaccine\, recombinant\, for intramuscular use"
+xref: cvx:329
+
+[Term]
 id: cpt:90611
 name: Vaccinia\, smallpox Mpox vaccine live\, PF\, SQ or ID injection
 def: "Smallpox and monkeypox vaccine\, attenuated vaccinia virus\, live\, non-replicating\, preservative free\, 0.5 mL dosage\, suspension\, for subcutaneous use"
@@ -157,7 +172,7 @@ xref: cvx:203
 [Term]
 id: cpt:90620
 name: meningococcal B\, OMV
-def: "Meningococcal recombinant protein and outer membrane vesicle vaccine\, serogroup B \(MenB-4C\)\, 2 dose schedule\, for intramuscular use"
+def: "Meningococcal recombinant protein and outer membrane vesicle vaccine\, serogroup B \(MenB-4C\)\, for intramuscular use"
 xref: cvx:163
 
 [Term]
@@ -168,7 +183,7 @@ xref: cvx:162
 
 [Term]
 id: cpt:90622
-name: vaccinia \(smallpox\)
+name: Vaccinia \(smallpox\, mpox\)\, live
 def: "Vaccinia \(smallpox\) virus vaccine\, live\, lyophilized\, 0.3 mL dosage\, for percutaneous use"
 comment: "CPT Code to be used for ACAM2000 vaccine"
 xref: cvx:75
@@ -178,6 +193,12 @@ id: cpt:90623
 name: Meningococcal polysaccharide \(MenACWY-TT conjugate\)\, \(MenB\)\, PF
 def: "Meningococcal pentavalent vaccine\, conjugated Men A\, C\, W\, Y- tetanus toxoid carrier\, and Men B-FHbp\, for intramuscular use"
 xref: cvx:316
+
+[Term]
+id: cpt:90624
+name: Meningococcal oligosaccharide \(MenACWY\)\, \(MenB\)\, PF
+def: "Meningococcal pentavalent vaccine\, Men B-4C recombinant proteins and outer membrane vesicle and conjugated Men A\, C\, W\, Y-diphtheria toxoid carrier\, for intramuscular use"
+xref: cvx:328
 
 [Term]
 id: cpt:90625
@@ -313,15 +334,9 @@ xref: cvx:16
 
 [Term]
 id: cpt:90660
-name: Influenza\, live\, trivalent\, intranasal
+name: Influenza\, live\, trivalent\, intranasal\, PF
 def: "Influenza virus vaccine\, trivalent\, live \(LAIV3\)\, for intranasal use"
 xref: cvx:111
-
-[Term]
-id: cpt:90661
-name: Influenza\, MDCK\, trivalent\, preservative
-def: "Influenza virus vaccine\, trivalent \(ccIIV3\)\, derived from cell cultures\, subunit\, antibiotic free\, 0.5 mL dosage\, for intramuscular use"
-xref: cvx:320
 
 [Term]
 id: cpt:90661
@@ -330,16 +345,22 @@ def: "Influenza virus vaccine\, trivalent \(ccIIV3\)\, derived from cell culture
 xref: cvx:153
 
 [Term]
-id: cpt:90662
-name: Influenza\, high-dose\, quadrivalent\, PF
-def: "Influenza virus vaccine \(IIV\)\, split virus\, preservative free\, enhanced immunogenicity via increased antigen content\, for intramuscular use"
-xref: cvx:197
+id: cpt:90661
+name: Influenza\, MDCK\, trivalent\, preservative
+def: "Influenza virus vaccine\, trivalent \(ccIIV3\)\, derived from cell cultures\, subunit\, antibiotic free\, 0.5 mL dosage\, for intramuscular use"
+xref: cvx:320
 
 [Term]
 id: cpt:90662
 name: Influenza\, high-dose\, trivalent\, PF
 def: "Influenza virus vaccine \(IIV\)\, split virus\, preservative free\, enhanced immunogenicity via increased antigen content\, for intramuscular use"
 xref: cvx:135
+
+[Term]
+id: cpt:90662
+name: Influenza\, high-dose\, quadrivalent\, PF
+def: "Influenza virus vaccine \(IIV\)\, split virus\, preservative free\, enhanced immunogenicity via increased antigen content\, for intramuscular use"
+xref: cvx:197
 
 [Term]
 id: cpt:90663
@@ -409,15 +430,15 @@ xref: cvx:171
 
 [Term]
 id: cpt:90675
-name: Rabies - IM fibroblast culture
-def: "Rabies vaccine\, for intramuscular use"
-xref: cvx:176
-
-[Term]
-id: cpt:90675
 name: Rabies - IM Diploid cell culture
 def: "Rabies vaccine\, for intramuscular use"
 xref: cvx:175
+
+[Term]
+id: cpt:90675
+name: Rabies - IM fibroblast culture
+def: "Rabies vaccine\, for intramuscular use"
+xref: cvx:176
 
 [Term]
 id: cpt:90676
@@ -549,15 +570,15 @@ xref: cvx:120
 
 [Term]
 id: cpt:90700
-name: DTaP\, 5 pertussis antigens
-def: "Diphtheria\, tetanus toxoids\, and acellular pertussis vaccine \(DTaP\)\, when administered to individuals younger than 7 years\, for intramuscular use"
-xref: cvx:106
-
-[Term]
-id: cpt:90700
 name: DTaP
 def: "Diphtheria\, tetanus toxoids\, and acellular pertussis vaccine \(DTaP\)\, when administered to individuals younger than 7 years\, for intramuscular use"
 xref: cvx:20
+
+[Term]
+id: cpt:90700
+name: DTaP\, 5 pertussis antigens
+def: "Diphtheria\, tetanus toxoids\, and acellular pertussis vaccine \(DTaP\)\, when administered to individuals younger than 7 years\, for intramuscular use"
+xref: cvx:106
 
 [Term]
 id: cpt:90701

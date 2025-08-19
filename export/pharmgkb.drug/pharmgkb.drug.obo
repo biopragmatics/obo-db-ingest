@@ -1,15 +1,17 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:15:37.403799
+auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T00:20:15.018271
 idspace: ChEMROF https://chemkg.github.io/chemrof/ "Chemical Entity Materials and Reactions Ontological Framework"
 idspace: atc http://www.whocc.no/atc_ddd_index/?code= "Anatomical Therapeutic Chemical Classification System"
-idspace: bindingdb http://www.bindingdb.org/compact/ "BindingDB"
+idspace: bindingdb http://www.bindingdb.org/rwd/entry/ "BindingDB"
 idspace: cas https://commonchemistry.cas.org/detail?cas_rn= "CAS Registry Number"
-idspace: chembl https://www.ebi.ac.uk/chembl/entity/ "ChEMBL"
+idspace: chembl https://www.ebi.ac.uk/chembl/id_lookup/ "ChEMBL"
 idspace: chemspider http://rdf.chemspider.com/ "ChemSpider"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
 idspace: debio https://biopragmatics.github.io/debio/ "Decentralized Biomedical Ontology"
-idspace: drugbank http://www.drugbank.ca/drugs/ "DrugBank"
+idspace: doap http://usefulinc.com/ns/doap# "Description of a Project"
+idspace: drugbank https://go.drugbank.com/drugs/ "DrugBank"
 idspace: drugbank.metabolite https://go.drugbank.com/metabolites/ "DrugBank Metabolite"
+idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
 idspace: genbank https://www.ncbi.nlm.nih.gov/nucleotide/ "GenBank"
 idspace: hmdb http://www.hmdb.ca/metabolites/ "Human Metabolome Database"
 idspace: iuphar.ligand http://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId= "Guide to Pharmacology Ligand"
@@ -19,7 +21,8 @@ idspace: meddra http://purl.bioontology.org/ontology/MDRFRE/ "Medical Dictionary
 idspace: mesh http://id.nlm.nih.gov/mesh/ "Medical Subject Headings"
 idspace: ndc http://www.hipaaspace.com/Medical_Billing/Coding/National.Drug.Codes/ "National Drug Code"
 idspace: ndfrt http://purl.bioontology.org/ontology/NDFRT/ "National Drug File - Reference Terminology"
-idspace: pdb.ligand https://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/ "PDB ligand"
+idspace: orcid https://orcid.org/ "Open Researcher and Contributor"
+idspace: pdb.ligand http://www.rcsb.org/ligand/ "PDB ligand"
 idspace: pharmgkb.drug http://www.pharmgkb.org/drug/ "PharmGKB Drug"
 idspace: pubchem.compound http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID "PubChem CID"
 idspace: pubchem.substance http://rdf.ncbi.nlm.nih.gov/pubchem/substance/SID "PubChem Substance ID (SID)"
@@ -27,11 +30,15 @@ idspace: rxnorm https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm= 
 idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
 idspace: snomedct http://snomed.info/id/ "SNOMED CT (International Edition)"
 idspace: umls https://uts.nlm.nih.gov/uts/umls/concept/ "Unified Medical Language System Concept Unique Identifier"
+idspace: unii https://precision.fda.gov/uniisearch/srs/unii/ "Unique Ingredient Identifier"
 idspace: uniprot http://purl.uniprot.org/uniprot/ "UniProt Protein"
 ontology: pharmgkb.drug
 property_value: dcterms:title "PharmGKB Drug" xsd:string
 property_value: dcterms:license "CC-BY-SA-4.0" xsd:string
-property_value: dcterms:description "The PharmGKB database is a central repository for genetic\\\, genomic\\\, molecular and cellular phenotype data and clinical information about people who have participated in pharmacogenomics research studies. The data includes\\\, but is not limited to\\\, clinical and basic pharmacokinetic and pharmacogenomic research in the cardiovascular\\\, pulmonary\\\, cancer\\\, pathways\\\, metabolic and transporter domains." xsd:string
+property_value: dcterms:description "The PharmGKB database is a central repository for genetic\, genomic\, molecular and cellular phenotype data and clinical information about people who have participated in pharmacogenomics research studies. The data includes\, but is not limited to\, clinical and basic pharmacokinetic and pharmacogenomic research in the cardiovascular\, pulmonary\, cancer\, pathways\, metabolic and transporter domains." xsd:string
+property_value: foaf:homepage "http\://www.pharmgkb.org/" xsd:anyURI
+property_value: foaf:logo "https\://rxgenomix.com/wp-content/uploads/2019/10/pharmgKB.png" xsd:anyURI
+property_value: doap:maintainer orcid:0000-0001-5527-6475
 
 [Typedef]
 id: ChEMROF:inchi_string
@@ -861,7 +868,9 @@ is_a: drug
 [Term]
 id: pharmgkb.drug:PA10247
 name: aminobenzoic acid
+property_value: skos:exactMatch chembl:CHEMBL542
 property_value: skos:exactMatch ndfrt:N0000006481
+property_value: skos:exactMatch pubchem.compound:978
 property_value: skos:exactMatch umls:C0000473
 is_a: drug
 
@@ -2503,7 +2512,9 @@ is_a: drug
 [Term]
 id: pharmgkb.drug:PA147358765
 name: alpha-methyl-para-tyrosine
+property_value: skos:exactMatch chembl:CHEMBL1200862
 property_value: skos:exactMatch ndfrt:N0000005770
+property_value: skos:exactMatch pubchem.compound:441350
 property_value: skos:exactMatch umls:C0051427
 is_a: drug
 
@@ -2614,7 +2625,10 @@ is_a: drug
 [Term]
 id: pharmgkb.drug:PA151958355
 name: grapefruit juice
+property_value: skos:exactMatch chembl:CHEMBL4297250
 property_value: skos:exactMatch ndfrt:N0000164879
+property_value: skos:exactMatch rxnorm:1431224
+property_value: skos:exactMatch snomedct:226493000
 property_value: skos:exactMatch umls:C0452456
 is_a: drug
 
@@ -10055,6 +10069,7 @@ id: pharmgkb.drug:PA164743058
 name: ospa lipoprotein
 property_value: skos:exactMatch drugbank:DB00045
 property_value: skos:exactMatch genbank:X16467
+property_value: skos:exactMatch pubchem.substance:472406311
 property_value: skos:exactMatch uniprot:P14013
 is_a: drug
 
@@ -21735,8 +21750,9 @@ is_a: drug
 
 [Term]
 id: pharmgkb.drug:PA165282096
-name: Tariquidar
+name: tariquidar
 property_value: skos:exactMatch cas:206873-63-4
+property_value: skos:exactMatch chembl:CHEMBL348475
 property_value: skos:exactMatch pubchem.compound:148201
 is_a: drug
 
@@ -21830,6 +21846,7 @@ is_a: drug
 id: pharmgkb.drug:PA165291460
 name: DPCPX
 property_value: skos:exactMatch cas:102146-07-6
+property_value: skos:exactMatch chembl:CHEMBL183
 property_value: skos:exactMatch pubchem.compound:1329
 is_a: drug
 
@@ -22216,7 +22233,9 @@ is_a: drug
 [Term]
 id: pharmgkb.drug:PA165860521
 name: ambrisentan
+property_value: skos:exactMatch chembl:CHEMBL1111
 property_value: skos:exactMatch ndfrt:N0000176107
+property_value: skos:exactMatch pubchem.compound:6918493
 property_value: skos:exactMatch rxnorm:358274
 property_value: skos:exactMatch umls:C1176329
 is_a: drug
@@ -23960,6 +23979,8 @@ is_a: drug
 [Term]
 id: pharmgkb.drug:PA166104276
 name: ABT-751
+property_value: skos:exactMatch chembl:CHEMBL20684
+property_value: skos:exactMatch pubchem.compound:3035714
 property_value: skos:exactMatch rxnorm:1661017
 is_a: drug
 
@@ -28167,6 +28188,7 @@ is_a: drug
 [Term]
 id: pharmgkb.drug:PA166163406
 name: crizotinib M10
+property_value: skos:exactMatch pubchem.compound:131668046
 is_a: metabolite
 
 [Term]
@@ -28663,6 +28685,7 @@ is_a: metabolite
 [Term]
 id: pharmgkb.drug:PA166165005
 name: 12-hydroxy-sirolimus
+property_value: skos:exactMatch chembl:CHEMBL3544670
 is_a: metabolite
 
 [Term]
@@ -30921,13 +30944,17 @@ is_a: drug-metabolite-biological-intermediate
 [Term]
 id: pharmgkb.drug:PA166183405
 name: orange juice
-property_value: skos:exactMatch ndfrt:C0452458
+property_value: skos:exactMatch chembl:CHEMBL4297251
+property_value: skos:exactMatch pubchem.substance:482026848
 is_a: drug
 
 [Term]
 id: pharmgkb.drug:PA166183406
 name: apple juice
+property_value: skos:exactMatch chembl:CHEMBL4297249
+property_value: skos:exactMatch pubchem.substance:472395274
 property_value: skos:exactMatch rxnorm:1358965
+property_value: skos:exactMatch snomedct:226491003
 is_a: drug
 
 [Term]
@@ -33233,7 +33260,6 @@ name: dostarlimab
 property_value: skos:exactMatch atc:L01FF07
 property_value: skos:exactMatch mesh:C000719628
 property_value: skos:exactMatch pubchem.substance:472407780
-property_value: skos:exactMatch rxnorm:472407780
 is_a: drug
 
 [Term]
@@ -39694,6 +39720,10 @@ is_a: drug
 [Term]
 id: pharmgkb.drug:PA166355021
 name: benmelstobart
+property_value: skos:exactMatch chembl:CHEMBL5315042
+property_value: skos:exactMatch drugbank:DB17473
+property_value: skos:exactMatch pubchem.substance:478838752
+property_value: skos:exactMatch unii:B25CF42QKP
 is_a: drug
 
 [Term]
@@ -40038,6 +40068,510 @@ property_value: skos:exactMatch pubchem.compound:139377809
 is_a: drug
 
 [Term]
+id: pharmgkb.drug:PA166362361
+name: methylhydroxygliclazide
+property_value: ChEMROF:inchi_string "InChI=1S/C15H21N3O4S/c19-10-11-4-6-14(7-5-11)23(21,22)17-15(20)16-18-8-12-2-1-3-13(12)9-18/h4-7,12-13,19H,1-3,8-10H2,(H2,16,17,20)" xsd:string
+property_value: ChEMROF:smiles_string "C1CC2CN(CC2C1)NC(=O)NS(=O)(=O)C3=CC=C(C=C3)CO" xsd:string
+property_value: skos:exactMatch CHEBI:188229
+property_value: skos:exactMatch hmdb:HMDB0014029
+property_value: skos:exactMatch pubchem.compound:192219
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166362362
+name: 6beta-hydroxygliclazide
+property_value: ChEMROF:inchi_string "InChI=1S/C15H21N3O4S/c1-10-2-5-12(6-3-10)23(21,22)17-15(20)16-18-8-11-4-7-14(19)13(11)9-18/h2-3,5-6,11,13-14,19H,4,7-9H2,1H3,(H2,16,17,20)/t11-,13+,14+/m0/s1" xsd:string
+property_value: ChEMROF:smiles_string "CC1=CC=C(C=C1)S(=O)(=O)NC(=O)NN2C[C@@H]3CC[C@H]([C@@H]3C2)O" xsd:string
+property_value: skos:exactMatch chembl:CHEMBL477947
+property_value: skos:exactMatch pubchem.compound:44582375
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166362363
+name: 7beta-hydroxygliclazide
+property_value: ChEMROF:inchi_string "InChI=1S/C15H21N3O4S/c1-10-2-4-14(5-3-10)23(21,22)17-15(20)16-18-8-11-6-13(19)7-12(11)9-18/h2-5,11-13,19H,6-9H2,1H3,(H2,16,17,20)/t11-,12+,13?" xsd:string
+property_value: ChEMROF:smiles_string "CC1=CC=C(C=C1)S(=O)(=O)NC(=O)NN2C[C@H]3CC(C[C@H]3C2)O" xsd:string
+property_value: skos:exactMatch pubchem.compound:125116815
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166362381
+name: 7beta-hydroxygliclazide glucuronide
+property_value: ChEMROF:inchi_string "InChI=1S/C21H29N3O10S/c1-10-2-4-14(5-3-10)35(31,32)23-21(30)22-24-8-11-6-13(7-12(11)9-24)33-20-17(27)15(25)16(26)18(34-20)19(28)29/h2-5,11-13,15-18,20,25-27H,6-9H2,1H3,(H,28,29)(H2,22,23,30)/t11-,12+,13?,15?,16?,17?,18?,20?" xsd:string
+property_value: ChEMROF:smiles_string "CC1=CC=C(C=C1)S(=O)(=O)NC(=O)NN2C[C@H]3CC(C[C@H]3C2)OC4C(C(C(C(O4)C(=O)O)O)O)O" xsd:string
+property_value: skos:exactMatch pubchem.compound:169502072
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166362382
+name: 6beta-hydroxygliclazide glucuronide
+property_value: ChEMROF:inchi_string "InChI=1S/C21H29N3O10S/c1-10-2-5-12(6-3-10)35(31,32)23-21(30)22-24-8-11-4-7-14(13(11)9-24)33-20-17(27)15(25)16(26)18(34-20)19(28)29/h2-3,5-6,11,13-18,20,25-27H,4,7-9H2,1H3,(H,28,29)(H2,22,23,30)" xsd:string
+property_value: ChEMROF:smiles_string "CC1=CC=C(C=C1)S(=O)(=O)NC(=O)NN2CC3CCC(C3C2)OC4C(C(C(C(O4)C(=O)O)O)O)O" xsd:string
+property_value: skos:exactMatch pubchem.compound:169502004
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166362383
+name: carboxy gliclazide
+property_value: ChEMROF:inchi_string "InChI=1S/C15H19N3O5S/c19-14(20)10-4-6-13(7-5-10)24(22,23)17-15(21)16-18-8-11-2-1-3-12(11)9-18/h4-7,11-12H,1-3,8-9H2,(H,19,20)(H2,16,17,21)" xsd:string
+property_value: ChEMROF:smiles_string "C1CC2CN(CC2C1)NC(=O)NS(=O)(=O)C3=CC=C(C=C3)C(=O)O" xsd:string
+property_value: skos:exactMatch pubchem.compound:53776869
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166362422
+name: vanzacaftor
+property_value: ChEMROF:inchi_string "InChI=1S/C32H39N7O4S/c1-30(2)19-21-5-4-16-33-24-6-3-7-27(34-24)44(41,42)37-29(40)22-8-9-25(35-28(22)38(30)20-21)39-17-10-26(36-39)43-18-11-23-31(12-13-31)32(23)14-15-32/h3,6-10,17,21,23H,4-5,11-16,18-20H2,1-2H3,(H,33,34)(H,37,40)/t21-/m0/s1" xsd:string
+property_value: ChEMROF:smiles_string "CC1(C[C@@H]2CCCNC3=NC(=CC=C3)S(=O)(=O)NC(=O)C4=C(N1C2)N=C(C=C4)N5C=CC(=N5)OCCC6C7(C68CC8)CC7)C" xsd:string
+property_value: skos:exactMatch chembl:CHEMBL5314934
+property_value: skos:exactMatch pubchem.compound:139399801
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166362501
+name: deutivacaftor
+property_value: ChEMROF:inchi_string "InChI=1S/C24H28N2O3/c1-23(2,3)16-11-17(24(4,5)6)20(27)12-19(16)26-22(29)15-13-25-18-10-8-7-9-14(18)21(15)28/h7-13,27H,1-6H3,(H,25,28)(H,26,29)/i4D3,5D3,6D3" xsd:string
+property_value: ChEMROF:smiles_string "[2H]C([2H])([2H])C(C1=C(C=C(C(=C1)C(C)(C)C)NC(=O)C2=CNC3=CC=CC=C3C2=O)O)(C([2H])([2H])[2H])C([2H])([2H])[2H]" xsd:string
+property_value: skos:exactMatch chembl:CHEMBL4297603
+property_value: skos:exactMatch drugbank:DB15141
+property_value: skos:exactMatch pubchem.compound:71470491
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166362502
+name: vanzacaftor / tezacaftor / deutivacaftor
+property_value: skos:exactMatch atc:R07AX33
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166362701
+name: famitinib
+property_value: ChEMROF:inchi_string "InChI=1S/C23H27FN4O2/c1-4-27(5-2)10-11-28-9-8-19-21(23(28)30)14(3)20(25-19)13-17-16-12-15(24)6-7-18(16)26-22(17)29/h6-7,12-13,25H,4-5,8-11H2,1-3H3,(H,26,29)/b17-13-" xsd:string
+property_value: ChEMROF:smiles_string "CCN(CC)CCN1CCC2=C(C1=O)C(=C(N2)/C=C\3/C4=C(C=CC(=C4)F)NC3=O)C" xsd:string
+property_value: skos:exactMatch chembl:CHEMBL1278146
+property_value: skos:exactMatch drugbank:DB11741
+property_value: skos:exactMatch hmdb:HMDB0252164
+property_value: skos:exactMatch pubchem.compound:16662431
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166362702
+name: camrelizumab
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166363161
+name: risankizumab
+property_value: skos:exactMatch atc:L04AC18
+property_value: skos:exactMatch mesh:C000601773
+property_value: skos:exactMatch rxnorm:2166040
+property_value: skos:exactMatch rxnorm:2166138
+property_value: skos:exactMatch snomedct:787732000
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166363701
+name: tunodafil
+property_value: ChEMROF:inchi_string "InChI=1S/C24H33N5O4S/c1-5-10-28-16-17(4)21-23(28)25-22(26-24(21)30)19-15-18(8-9-20(19)33-7-3)34(31,32)29-13-11-27(6-2)12-14-29/h8-9,15-16H,5-7,10-14H2,1-4H3,(H,25,26,30)" xsd:string
+property_value: ChEMROF:smiles_string "CCCN1C=C(C2=C1N=C(NC2=O)C3=C(C=CC(=C3)S(=O)(=O)N4CCN(CC4)CC)OCC)C" xsd:string
+property_value: skos:exactMatch pubchem.compound:135489224
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166363761
+name: socazolimab
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166363781
+name: delpazolid
+property_value: ChEMROF:inchi_string "InChI=1S/C14H17FN4O3/c1-17-4-5-18(9-16-17)13-3-2-10(6-12(13)15)19-7-11(8-20)22-14(19)21/h2-3,6,9,11,20H,4-5,7-8H2,1H3/t11-/m1/s1" xsd:string
+property_value: ChEMROF:smiles_string "CN1CCN(C=N1)C2=C(C=C(C=C2)N3C[C@@H](OC3=O)CO)F" xsd:string
+property_value: skos:exactMatch chembl:CHEMBL1673408
+property_value: skos:exactMatch drugbank:DB13077
+property_value: skos:exactMatch pubchem.compound:44205191
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166363881
+name: tigilanol tiglate
+property_value: ChEMROF:inchi_string "InChI=1S/C30H42O10/c1-9-13(3)23(33)38-21-16(6)28(36)17-11-15(5)20(32)29(17,37)25(35)27(12-31)22(39-27)18(28)19-26(7,8)30(19,21)40-24(34)14(4)10-2/h9,11,14,16-19,21-22,25,31,35-37H,10,12H2,1-8H3/b13-9+/t14-,16+,17-,18+,19+,21+,22-,25+,27-,28-,29+,30+/m0/s1" xsd:string
+property_value: ChEMROF:smiles_string "CC[C@H](C)C(=O)O[C@@]12[C@@H](C1(C)C)[C@@H]3[C@H]4[C@](O4)([C@H]([C@]5([C@H]([C@]3([C@@H]([C@H]2OC(=O)/C(=C/C)/C)C)O)C=C(C5=O)C)O)O)CO" xsd:string
+property_value: skos:exactMatch CHEBI:194146
+property_value: skos:exactMatch chembl:CHEMBL3989916
+property_value: skos:exactMatch kegg.drug:D11191
+property_value: skos:exactMatch pubchem.compound:92135637
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166363901
+name: N-dealkylated tolterodine
+property_value: ChEMROF:inchi_string "InChI=1S/C19H25NO/c1-14(2)20-12-11-17(16-7-5-4-6-8-16)18-13-15(3)9-10-19(18)21/h4-10,13-14,17,20-21H,11-12H2,1-3H3/t17-/m1/s1" xsd:string
+property_value: ChEMROF:smiles_string "CC1=CC(=C(C=C1)O)[C@H](CCNC(C)C)C2=CC=CC=C2" xsd:string
+property_value: skos:exactMatch CHEBI:174014
+property_value: skos:exactMatch chembl:CHEMBL3526174
+property_value: skos:exactMatch hmdb:HMDB0013972
+property_value: skos:exactMatch pubchem.compound:9857016
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166363981
+name: ESP15228
+property_value: ChEMROF:inchi_string "InChI=1S/C19H34O5/c1-18(2,16(21)22)13-9-5-7-11-15(20)12-8-6-10-14-19(3,4)17(23)24/h5-14H2,1-4H3,(H,21,22)(H,23,24)" xsd:string
+property_value: ChEMROF:smiles_string "CC(C)(CCCCCC(=O)CCCCCC(C)(C)C(=O)O)C(=O)O" xsd:string
+property_value: skos:exactMatch chembl:CHEMBL365296
+property_value: skos:exactMatch pubchem.compound:11336822
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166364001
+name: ensitrelvir
+property_value: ChEMROF:inchi_string "InChI=1S/C22H17ClF3N9O2/c1-32-7-12-4-18(13(23)5-17(12)30-32)28-20-29-21(36)35(9-19-27-10-33(2)31-19)22(37)34(20)8-11-3-15(25)16(26)6-14(11)24/h3-7,10H,8-9H2,1-2H3,(H,28,29,36)" xsd:string
+property_value: ChEMROF:smiles_string "CN1C=C2C=C(C(=CC2=N1)Cl)NC3=NC(=O)N(C(=O)N3CC4=CC(=C(C=C4F)F)F)CC5=NN(C=N5)C" xsd:string
+property_value: skos:exactMatch atc:J05AE16
+property_value: skos:exactMatch chembl:CHEMBL5183847
+property_value: skos:exactMatch mesh:C000722354
+property_value: skos:exactMatch pubchem.compound:162533924
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166364201
+name: dexmedetomidine-n1-glucuronide
+property_value: ChEMROF:inchi_string "InChI=1S/C19H24N2O6/c1-9-5-4-6-12(10(9)2)11(3)13-7-21(8-20-13)18-16(24)14(22)15(23)17(27-18)19(25)26/h4-8,11,14-18,22-24H,1-3H3,(H,25,26)/t11-,14?,15?,16?,17?,18?/m0/s1" xsd:string
+property_value: ChEMROF:smiles_string "CC1=C(C(=CC=C1)[C@H](C)C2=CN(C=N2)C3C(C(C(C(O3)C(=O)O)O)O)O)C" xsd:string
+property_value: skos:exactMatch pubchem.compound:169437177
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166364202
+name: dexmedetomidine-n3-glucuronide
+property_value: ChEMROF:inchi_string "InChI=1S/C19H24N2O6/c1-9-5-4-6-12(10(9)2)11(3)13-7-20-8-21(13)18-16(24)14(22)15(23)17(27-18)19(25)26/h4-8,11,14-18,22-24H,1-3H3,(H,25,26)/t11-,14?,15?,16?,17?,18?/m0/s1" xsd:string
+property_value: ChEMROF:smiles_string "CC1=C(C(=CC=C1)[C@H](C)C2=CN=CN2C3C(C(C(C(O3)C(=O)O)O)O)O)C" xsd:string
+property_value: skos:exactMatch pubchem.compound:169437877
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166364381
+name: ezetimibe phenoxy glucuronide
+property_value: ChEMROF:inchi_string "InChI=1S/C30H29F2NO9/c31-17-5-1-15(2-6-17)22(34)14-13-21-23(33(28(21)38)19-9-7-18(32)8-10-19)16-3-11-20(12-4-16)41-30-26(37)24(35)25(36)27(42-30)29(39)40/h1-12,21-27,30,34-37H,13-14H2,(H,39,40)/t21-,22+,23-,24+,25+,26-,27+,30-/m1/s1" xsd:string
+property_value: ChEMROF:smiles_string "C1=CC(=CC=C1[C@@H]2[C@H](C(=O)N2C3=CC=C(C=C3)F)CC[C@@H](C4=CC=C(C=C4)F)O)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)C(=O)O)O)O)O" xsd:string
+property_value: skos:exactMatch CHEBI:232997
+property_value: skos:exactMatch chembl:CHEMBL321017
+property_value: skos:exactMatch pubchem.compound:9894653
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166364401
+name: ezetimibe ketone
+property_value: ChEMROF:inchi_string "InChI=1S/C24H19F2NO3/c25-17-5-1-15(2-6-17)22(29)14-13-21-23(16-3-11-20(28)12-4-16)27(24(21)30)19-9-7-18(26)8-10-19/h1-12,21,23,28H,13-14H2/t21-,23-/m1/s1" xsd:string
+property_value: ChEMROF:smiles_string "C1=CC(=CC=C1[C@@H]2[C@H](C(=O)N2C3=CC=C(C=C3)F)CCC(=O)C4=CC=C(C=C4)F)O" xsd:string
+property_value: skos:exactMatch chembl:CHEMBL174491
+property_value: skos:exactMatch pubchem.compound:9801494
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166364402
+name: ezetimibe ketone glucuronide
+property_value: ChEMROF:inchi_string "InChI=1S/C30H27F2NO9/c31-17-5-1-15(2-6-17)22(34)14-13-21-23(33(28(21)38)19-9-7-18(32)8-10-19)16-3-11-20(12-4-16)41-30-26(37)24(35)25(36)27(42-30)29(39)40/h1-12,21,23-27,30,35-37H,13-14H2,(H,39,40)/t21-,23-,24+,25+,26-,27+,30-/m1/s1" xsd:string
+property_value: ChEMROF:smiles_string "C1=CC(=CC=C1[C@@H]2[C@H](C(=O)N2C3=CC=C(C=C3)F)CCC(=O)C4=CC=C(C=C4)F)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)C(=O)O)O)O)O" xsd:string
+property_value: skos:exactMatch pubchem.compound:102319221
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166364441
+name: vatiquinone
+property_value: ChEMROF:inchi_string "InChI=1S/C29H44O3/c1-20(2)12-9-13-21(3)14-10-15-22(4)16-11-18-29(8,32)19-17-26-25(7)27(30)23(5)24(6)28(26)31/h12,14,16,32H,9-11,13,15,17-19H2,1-8H3/b21-14+,22-16+/t29-/m1/s1" xsd:string
+property_value: ChEMROF:smiles_string "CC1=C(C(=O)C(=C(C1=O)C)CC[C@@](C)(CC/C=C(\C)/CC/C=C(\C)/CCC=C(C)C)O)C" xsd:string
+property_value: skos:exactMatch chembl:CHEMBL1812161
+property_value: skos:exactMatch drugbank:DB11917
+property_value: skos:exactMatch pubchem.compound:46184405
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166364461
+name: suzetrigine
+property_value: ChEMROF:inchi_string "InChI=1S/C21H20F5N3O4/c1-9-14(11-4-5-12(22)15(23)16(11)32-3)17(33-20(9,2)21(24,25)26)19(31)29-10-6-7-28-13(8-10)18(27)30/h4-9,14,17H,1-3H3,(H2,27,30)(H,28,29,31)/t9-,14-,17+,20+/m0/s1" xsd:string
+property_value: ChEMROF:smiles_string "C[C@H]1[C@H]([C@@H](O[C@@]1(C)C(F)(F)F)C(=O)NC2=CC(=NC=C2)C(=O)N)C3=C(C(=C(C=C3)F)F)OC" xsd:string
+property_value: skos:exactMatch chembl:CHEMBL5314487
+property_value: skos:exactMatch pubchem.compound:156445116
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166364561
+name: N-desmethyl binimetinib
+property_value: ChEMROF:inchi_string "InChI=1S/C16H13BrF2N4O3/c17-8-1-2-11(10(18)5-8)22-14-9(16(25)23-26-4-3-24)6-12-15(13(14)19)21-7-20-12/h1-2,5-7,22,24H,3-4H2,(H,20,21)(H,23,25)" xsd:string
+property_value: ChEMROF:smiles_string "C1=CC(=C(C=C1Br)F)NC2=C(C3=C(C=C2C(=O)NOCCO)NC=N3)F" xsd:string
+property_value: skos:exactMatch pubchem.compound:139593402
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166364562
+name: binimetinib glucuronide
+property_value: ChEMROF:inchi_string "InChI=1S/C23H23BrF2N4O9.Na/c1-30-8-27-16-13(30)7-10(15(14(16)26)28-12-3-2-9(24)6-11(12)25)21(34)29-38-5-4-37-23-19(33)17(31)18(32)20(39-23)22(35)36;/h2-3,6-8,17-20,23,28,31-33H,4-5H2,1H3,(H,29,34)(H,35,36);/q;+1/p-1/t17-,18-,19+,20-,23+;/m0./s1" xsd:string
+property_value: ChEMROF:smiles_string "CN1C=NC2=C1C=C(C(=C2F)NC3=C(C=C(C=C3)Br)F)C(=O)NOCCO[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)C(=O)[O-])O)O)O.[Na+]" xsd:string
+property_value: skos:exactMatch pubchem.compound:169435302
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166364701
+name: remimazolam carboxylic acid
+property_value: ChEMROF:inchi_string "InChI=1S/C20H17BrN4O2/c1-12-11-23-20-16(6-8-18(26)27)24-19(15-4-2-3-9-22-15)14-10-13(21)5-7-17(14)25(12)20/h2-5,7,9-11,16H,6,8H2,1H3,(H,26,27)/t16-/m0/s1" xsd:string
+property_value: ChEMROF:smiles_string "CC1=CN=C2N1C3=C(C=C(C=C3)Br)C(=N[C@H]2CCC(=O)O)C4=CC=CC=N4" xsd:string
+property_value: skos:exactMatch pubchem.compound:46941174
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166364761
+name: prolgolimab
+property_value: skos:exactMatch atc:L01FF08
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166364961
+name: esketamine
+property_value: ChEMROF:inchi_string "InChI=1S/C13H16ClNO/c1-15-13(9-5-4-8-12(13)16)10-6-2-3-7-11(10)14/h2-3,6-7,15H,4-5,8-9H2,1H3/t13-/m0/s1" xsd:string
+property_value: ChEMROF:smiles_string "CN[C@@]1(CCCCC1=O)C2=CC=CC=C2Cl" xsd:string
+property_value: skos:exactMatch pubchem.compound:182137
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166364962
+name: \(2S\,6S\)-hydroxynorketamine
+property_value: ChEMROF:inchi_string "InChI=1S/C12H14ClNO2/c13-9-5-2-1-4-8(9)12(14)7-3-6-10(15)11(12)16/h1-2,4-5,10,15H,3,6-7,14H2/t10-,12-/m0/s1" xsd:string
+property_value: ChEMROF:smiles_string "C1C[C@@H](C(=O)[C@](C1)(C2=CC=CC=C2Cl)N)O" xsd:string
+property_value: skos:exactMatch pubchem.compound:71519584
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166364981
+name: norketamine
+property_value: ChEMROF:inchi_string "InChI=1S/C12H14ClNO/c13-10-6-2-1-5-9(10)12(14)8-4-3-7-11(12)15/h1-2,5-6H,3-4,7-8,14H2" xsd:string
+property_value: ChEMROF:smiles_string "C1CCC(C(=O)C1)(C2=CC=CC=C2Cl)N" xsd:string
+property_value: skos:exactMatch CHEBI:91519
+property_value: skos:exactMatch chembl:CHEMBL1039
+property_value: skos:exactMatch hmdb:HMDB0060549
+property_value: skos:exactMatch pubchem.compound:123767
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166364982
+name: \(2S\,6S\)-hydroxyketamine
+property_value: ChEMROF:inchi_string "InChI=1S/C13H16ClNO2/c1-15-13(8-4-7-11(16)12(13)17)9-5-2-3-6-10(9)14/h2-3,5-6,11,15-16H,4,7-8H2,1H3/t11-,13-/m0/s1" xsd:string
+property_value: ChEMROF:smiles_string "CN[C@@]1(CCC[C@@H](C1=O)O)C2=CC=CC=C2Cl" xsd:string
+property_value: skos:exactMatch pubchem.compound:97289630
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166365001
+name: dehydronorketamine
+property_value: ChEMROF:inchi_string "InChI=1S/C12H12ClNO/c13-10-6-2-1-5-9(10)12(14)8-4-3-7-11(12)15/h1-3,5-7H,4,8,14H2" xsd:string
+property_value: ChEMROF:smiles_string "C1CC(C(=O)C=C1)(C2=CC=CC=C2Cl)N" xsd:string
+property_value: skos:exactMatch CHEBI:192730
+property_value: skos:exactMatch chembl:CHEMBL3544558
+property_value: skos:exactMatch hmdb:HMDB0246857
+property_value: skos:exactMatch pubchem.compound:162835
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166365201
+name: ramosetron
+property_value: ChEMROF:inchi_string "InChI=1S/C17H17N3O/c1-20-9-13(12-4-2-3-5-16(12)20)17(21)11-6-7-14-15(8-11)19-10-18-14/h2-5,9-11H,6-8H2,1H3,(H,18,19)/t11-/m1/s1" xsd:string
+property_value: ChEMROF:smiles_string "CN1C=C(C2=CC=CC=C21)C(=O)[C@@H]3CCC4=C(C3)NC=N4" xsd:string
+property_value: skos:exactMatch CHEBI:135156
+property_value: skos:exactMatch chembl:CHEMBL1643895
+property_value: skos:exactMatch drugbank:DB09290
+property_value: skos:exactMatch pubchem.compound:108000
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166365281
+name: omaveloxolone
+property_value: ChEMROF:inchi_string "InChI=1S/C33H44F2N2O3/c1-27(2)11-13-33(37-26(40)32(8,34)35)14-12-31(7)24(20(33)17-27)21(38)15-23-29(5)16-19(18-36)25(39)28(3,4)22(29)9-10-30(23,31)6/h15-16,20,22,24H,9-14,17H2,1-8H3,(H,37,40)/t20-,22-,24-,29-,30+,31+,33-/m0/s1" xsd:string
+property_value: ChEMROF:smiles_string "C[C@@]12CC[C@]3(CCC(C[C@H]3[C@H]1C(=O)C=C4[C@]2(CC[C@@H]5[C@@]4(C=C(C(=O)C5(C)C)C#N)C)C)(C)C)NC(=O)C(C)(F)F" xsd:string
+property_value: skos:exactMatch atc:N07XX25
+property_value: skos:exactMatch cas:1474034-05-3
+property_value: skos:exactMatch CHEBI:229661
+property_value: skos:exactMatch chembl:CHEMBL4303525
+property_value: skos:exactMatch drugbank:DB12513
+property_value: skos:exactMatch kegg.drug:D10964
+property_value: skos:exactMatch pubchem.compound:71811910
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166365823
+name: tegoprazan
+property_value: ChEMROF:inchi_string "InChI=1S/C20H19F2N3O3/c1-10-23-14-6-11(20(26)25(2)3)7-17(19(14)24-10)28-15-4-5-27-16-9-12(21)8-13(22)18(15)16/h6-9,15H,4-5H2,1-3H3,(H,23,24)/t15-/m0/s1" xsd:string
+property_value: ChEMROF:smiles_string "CC1=NC2=C(N1)C=C(C=C2O[C@H]3CCOC4=C3C(=CC(=C4)F)F)C(=O)N(C)C" xsd:string
+property_value: skos:exactMatch atc:A02BC09
+property_value: skos:exactMatch chembl:CHEMBL4297583
+property_value: skos:exactMatch mesh:C000631239
+property_value: skos:exactMatch pubchem.compound:23582846
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166366162
+name: thymine
+property_value: ChEMROF:inchi_string "InChI=1S/C5H6N2O2/c1-3-2-6-5(9)7-4(3)8/h2H,1H3,(H2,6,7,8,9)" xsd:string
+property_value: ChEMROF:smiles_string "CC1=CNC(=O)NC1=O" xsd:string
+property_value: skos:exactMatch CHEBI:17821
+property_value: skos:exactMatch chembl:CHEMBL993
+property_value: skos:exactMatch drugbank:DB03462
+property_value: skos:exactMatch hmdb:HMDB0000262
+property_value: skos:exactMatch kegg.compound:C00178
+property_value: skos:exactMatch mesh:D013941
+property_value: skos:exactMatch ndfrt:N0000167178
+property_value: skos:exactMatch pubchem.compound:1135
+property_value: skos:exactMatch rxnorm:1368871
+property_value: skos:exactMatch snomedct:91645009
+is_a: biological-intermediate
+
+[Term]
+id: pharmgkb.drug:PA166366521
+name: zipalertinib
+property_value: ChEMROF:inchi_string "InChI=1S/C23H20N6O/c1-3-18(30)28-16-8-13(2)21-19(15-9-14-6-4-5-7-17(14)25-10-15)20-22(24)26-12-27-23(20)29(21)11-16/h3-10,12,16H,1,11H2,2H3,(H,28,30)(H2,24,26,27)/t16-/m0/s1" xsd:string
+property_value: ChEMROF:smiles_string "CC1=C[C@@H](CN2C1=C(C3=C(N=CN=C32)N)C4=CC5=CC=CC=C5N=C4)NC(=O)C=C" xsd:string
+property_value: skos:exactMatch chembl:CHEMBL4650281
+property_value: skos:exactMatch pubchem.compound:117918742
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166366902
+name: lysergic acid diethylamide
+property_value: ChEMROF:inchi_string "InChI=1S/C20H25N3O/c1-4-23(5-2)20(24)14-9-16-15-7-6-8-17-19(15)13(11-21-17)10-18(16)22(3)12-14/h6-9,11,14,18,21H,4-5,10,12H2,1-3H3/t14-,18-/m1/s1" xsd:string
+property_value: ChEMROF:smiles_string "CCN(CC)C(=O)[C@H]1CN([C@@H]2CC3=CNC4=CC=CC(=C34)C2=C1)C" xsd:string
+property_value: skos:exactMatch CHEBI:6605
+property_value: skos:exactMatch chembl:CHEMBL263881
+property_value: skos:exactMatch drugbank:DB04829
+property_value: skos:exactMatch kegg.compound:C07542
+property_value: skos:exactMatch mesh:D008238
+property_value: skos:exactMatch ndfrt:N0000167298
+property_value: skos:exactMatch pubchem.compound:5761
+property_value: skos:exactMatch snomedct:15698006
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166368021
+name: canagliflozin
+property_value: ChEMROF:inchi_string "InChI=1S/C24H25FO5S/c1-13-2-3-15(24-23(29)22(28)21(27)19(12-26)30-24)10-16(13)11-18-8-9-20(31-18)14-4-6-17(25)7-5-14/h2-10,19,21-24,26-29H,11-12H2,1H3/t19-,21-,22+,23-,24+/m1/s1" xsd:string
+property_value: ChEMROF:smiles_string "CC1=C(C=C(C=C1)[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)CC3=CC=C(S3)C4=CC=C(C=C4)F" xsd:string
+property_value: skos:exactMatch atc:A10BK02
+property_value: skos:exactMatch CHEBI:73274
+property_value: skos:exactMatch chembl:CHEMBL2048484
+property_value: skos:exactMatch drugbank:DB08907
+property_value: skos:exactMatch mesh:D000068896
+property_value: skos:exactMatch ndfrt:N0000186951
+property_value: skos:exactMatch pubchem.compound:24812758
+property_value: skos:exactMatch rxnorm:1373458
+property_value: skos:exactMatch snomedct:703676004
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166368061
+name: canagliflozin glucuronide M7
+property_value: ChEMROF:inchi_string "InChI=1S/C30H33FO11S/c1-13-2-3-15(10-16(13)11-18-8-9-20(43-18)14-4-6-17(31)7-5-14)26-25(37)27(21(33)19(12-32)40-26)41-30-24(36)22(34)23(35)28(42-30)29(38)39/h2-10,19,21-28,30,32-37H,11-12H2,1H3,(H,38,39)/t19-,21-,22?,23?,24?,25+,26+,27+,28?,30?/m1/s1" xsd:string
+property_value: ChEMROF:smiles_string "CC1=C(C=C(C=C1)[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)OC3C(C(C(C(O3)C(=O)O)O)O)O)O)CC4=CC=C(S4)C5=CC=C(C=C5)F" xsd:string
+property_value: skos:exactMatch pubchem.compound:169502148
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166368081
+name: canagliflozin glucuronide M5
+property_value: ChEMROF:inchi_string "InChI=1S/C30H33FO11S/c1-13-2-3-15(10-16(13)11-18-8-9-20(43-18)14-4-6-17(31)7-5-14)26-27(23(35)21(33)19(12-32)40-26)41-30-25(37)22(34)24(36)28(42-30)29(38)39/h2-10,19,21-28,30,32-37H,11-12H2,1H3,(H,38,39)/t19-,21-,22?,23+,24?,25?,26+,27-,28?,30?/m1/s1" xsd:string
+property_value: ChEMROF:smiles_string "CC1=C(C=C(C=C1)[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)OC3C(C(C(C(O3)C(=O)O)O)O)O)CC4=CC=C(S4)C5=CC=C(C=C5)F" xsd:string
+property_value: skos:exactMatch pubchem.compound:169502150
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166368161
+name: linagliptin
+property_value: ChEMROF:inchi_string "InChI=1S/C25H28N8O2/c1-4-5-13-32-21-22(29-24(32)31-12-8-9-17(26)14-31)30(3)25(35)33(23(21)34)15-20-27-16(2)18-10-6-7-11-19(18)28-20/h6-7,10-11,17H,8-9,12-15,26H2,1-3H3/t17-/m1/s1" xsd:string
+property_value: ChEMROF:smiles_string "CC#CCN1C2=C(N=C1N3CCC[C@H](C3)N)N(C(=O)N(C2=O)CC4=NC5=CC=CC=C5C(=N4)C)C" xsd:string
+property_value: skos:exactMatch atc:A10BH05
+property_value: skos:exactMatch cas:668270-12-0
+property_value: skos:exactMatch CHEBI:68610
+property_value: skos:exactMatch chembl:CHEMBL237500
+property_value: skos:exactMatch drugbank:DB08882
+property_value: skos:exactMatch kegg.drug:D09566
+property_value: skos:exactMatch mesh:D000069476
+property_value: skos:exactMatch ndfrt:N0000182735
+property_value: skos:exactMatch pubchem.compound:10096344
+property_value: skos:exactMatch rxnorm:1100699
+property_value: skos:exactMatch rxnorm:1100703
+property_value: skos:exactMatch snomedct:702798009
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166368181
+name: gemigliptin
+property_value: ChEMROF:inchi_string "InChI=1S/C18H19F8N5O2/c19-16(20)3-1-12(32)31(8-16)6-9(27)5-13(33)30-4-2-10-11(7-30)28-15(18(24,25)26)29-14(10)17(21,22)23/h9H,1-8,27H2/t9-/m0/s1" xsd:string
+property_value: ChEMROF:smiles_string "C1CC(CN(C1=O)C[C@H](CC(=O)N2CCC3=C(C2)N=C(N=C3C(F)(F)F)C(F)(F)F)N)(F)F" xsd:string
+property_value: skos:exactMatch atc:A10BH06
+property_value: skos:exactMatch CHEBI:134731
+property_value: skos:exactMatch chembl:CHEMBL3707235
+property_value: skos:exactMatch drugbank:DB12412
+property_value: skos:exactMatch mesh:C534891
+property_value: skos:exactMatch pubchem.compound:11953153
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166368301
+name: alogliptin
+property_value: ChEMROF:inchi_string "InChI=1S/C18H21N5O2/c1-21-17(24)9-16(22-8-4-7-15(20)12-22)23(18(21)25)11-14-6-3-2-5-13(14)10-19/h2-3,5-6,9,15H,4,7-8,11-12,20H2,1H3/t15-/m1/s1" xsd:string
+property_value: ChEMROF:smiles_string "CN1C(=O)C=C(N(C1=O)CC2=CC=CC=C2C#N)N3CCC[C@H](C3)N" xsd:string
+property_value: skos:exactMatch atc:A10BH04
+property_value: skos:exactMatch CHEBI:72323
+property_value: skos:exactMatch chembl:CHEMBL376359
+property_value: skos:exactMatch drugbank:DB06203
+property_value: skos:exactMatch mesh:C520853
+property_value: skos:exactMatch ndfrt:N0000186570
+property_value: skos:exactMatch pubchem.compound:11450633
+property_value: skos:exactMatch rxnorm:1368001
+property_value: skos:exactMatch snomedct:702799001
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166395741
+name: belumosudil
+property_value: ChEMROF:inchi_string "InChI=1S/C26H24N6O2/c1-16(2)28-24(33)15-34-20-7-5-6-17(13-20)25-30-23-9-4-3-8-21(23)26(31-25)29-19-10-11-22-18(12-19)14-27-32-22/h3-14,16H,15H2,1-2H3,(H,27,32)(H,28,33)(H,29,30,31)" xsd:string
+property_value: ChEMROF:smiles_string "CC(C)NC(=O)COC1=CC=CC(=C1)C2=NC3=CC=CC=C3C(=N2)NC4=CC5=C(C=C4)NN=C5" xsd:string
+property_value: skos:exactMatch atc:L04AA48
+property_value: skos:exactMatch chembl:CHEMBL2005186
+property_value: skos:exactMatch hmdb:HMDB0247641
+property_value: skos:exactMatch mesh:C000718240
+property_value: skos:exactMatch pubchem.compound:11950170
+property_value: skos:exactMatch rxnorm:2564025
+property_value: skos:exactMatch rxnorm:2564032
+property_value: skos:exactMatch snomedct:1163566003
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166395742
+name: belumosudil metabolite m1
+property_value: ChEMROF:inchi_string "InChI=1S/C23H18N6O2/c24-21(30)13-31-17-5-3-4-14(11-17)22-27-20-7-2-1-6-18(20)23(28-22)26-16-8-9-19-15(10-16)12-25-29-19/h1-12H,13H2,(H2,24,30)(H,25,29)(H,26,27,28)" xsd:string
+property_value: ChEMROF:smiles_string "C1=CC=C2C(=C1)C(=NC(=N2)C3=CC(=CC=C3)OCC(=O)N)NC4=CC5=C(C=C4)NN=C5" xsd:string
+property_value: skos:exactMatch chembl:CHEMBL3666717
+property_value: skos:exactMatch pubchem.compound:59361939
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166395743
+name: belumosudil metabolite m2
+property_value: ChEMROF:inchi_string "InChI=1S/C23H17N5O3/c29-21(30)13-31-17-5-3-4-14(11-17)22-26-20-7-2-1-6-18(20)23(27-22)25-16-8-9-19-15(10-16)12-24-28-19/h1-12H,13H2,(H,24,28)(H,29,30)(H,25,26,27)" xsd:string
+property_value: ChEMROF:smiles_string "C1=CC=C2C(=C1)C(=NC(=N2)C3=CC(=CC=C3)OCC(=O)O)NC4=CC5=C(C=C4)NN=C5" xsd:string
+property_value: skos:exactMatch pubchem.compound:59361988
+is_a: metabolite
+
+[Term]
+id: pharmgkb.drug:PA166396061
+name: patritumab deruxtecan
+is_a: drug
+
+[Term]
+id: pharmgkb.drug:PA166396081
+name: datopotamab deruxtecan
+is_a: drug
+
+[Term]
 id: pharmgkb.drug:PA448004
 name: abacavir
 property_value: ChEMROF:inchi_string "InChI=1S/C14H18N6O/c15-14-18-12(17-9-2-3-9)11-13(19-14)20(7-16-11)10-4-1-8(5-10)6-21/h1,4,7-10,21H,2-3,5-6H2,(H3,15,17,18,19)/t8-,10+/m1/s1" xsd:string
@@ -40149,7 +40683,9 @@ is_a: drug
 [Term]
 id: pharmgkb.drug:PA448016
 name: acetanilide
+property_value: skos:exactMatch chembl:CHEMBL269644
 property_value: skos:exactMatch ndfrt:N0000148278
+property_value: skos:exactMatch pubchem.compound:904
 property_value: skos:exactMatch rxnorm:162
 property_value: skos:exactMatch umls:C0000973
 is_a: drug
@@ -40209,7 +40745,7 @@ property_value: skos:exactMatch ndfrt:N0000147297
 property_value: skos:exactMatch pubchem.compound:180
 property_value: skos:exactMatch rxnorm:178
 property_value: skos:exactMatch umls:C0001002
-is_a: drug
+is_a: biological-intermediate
 
 [Term]
 id: pharmgkb.drug:PA448031
@@ -40743,7 +41279,14 @@ is_a: drug
 [Term]
 id: pharmgkb.drug:PA448392
 name: ammonium chloride
+property_value: skos:exactMatch atc:B05XA04
+property_value: skos:exactMatch atc:G04BA01
+property_value: skos:exactMatch CHEBI:31206
+property_value: skos:exactMatch kegg.compound:C12538
+property_value: skos:exactMatch kegg.drug:D01139
+property_value: skos:exactMatch mesh:D000643
 property_value: skos:exactMatch ndfrt:N0000146891
+property_value: skos:exactMatch pubchem.compound:25517
 property_value: skos:exactMatch rxnorm:712
 property_value: skos:exactMatch umls:C0002615
 is_a: drug
@@ -45996,7 +46539,9 @@ is_a: drug
 [Term]
 id: pharmgkb.drug:PA449667
 name: fluoride
+property_value: skos:exactMatch chembl:CHEMBL1232767
 property_value: skos:exactMatch ndfrt:N0000146047
+property_value: skos:exactMatch pubchem.compound:28179
 property_value: skos:exactMatch umls:C0016327
 is_a: metabolite-ion
 
@@ -54916,6 +55461,8 @@ is_a: drug
 [Term]
 id: pharmgkb.drug:PA451674
 name: thrombin
+property_value: skos:exactMatch chembl:CHEMBL204
+property_value: skos:exactMatch mesh:D013917
 property_value: skos:exactMatch ndfrt:N0000146856
 property_value: skos:exactMatch rxnorm:10528
 property_value: skos:exactMatch umls:C0040018

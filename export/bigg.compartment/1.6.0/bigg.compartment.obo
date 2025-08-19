@@ -1,13 +1,16 @@
 format-version: 1.4
 data-version: 1.6.0
-auto-generated-by: PyOBO v0.12.0-dev-fc140cc1 on 2025-03-12T11:33:31.693942
+auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T01:24:11.845251
 idspace: bigg.compartment http://bigg.ucsd.edu/compartments/ "BiGG Compartment"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
 idspace: skos http://www.w3.org/2004/02/skos/core# "Simple Knowledge Organization System"
 ontology: bigg.compartment
 property_value: dcterms:title "BiGG Compartment" xsd:string
 property_value: dcterms:license "http\://bigg.ucsd.edu/license#license" xsd:anyURI
-property_value: dcterms:description "BiGG is a knowledgebase of Biochemically\\\, Genetically and Genomically structured genome-scale metabolic network reconstructions. It more published genome-scale metabolic networks into a single database with a set of stardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations\\\, and metabolites are linked to many external databases \\\(KEGG\\\, PubChem\\\, and many more\\\). This collection references model compartments." xsd:string
+property_value: dcterms:description "BiGG is a knowledgebase of Biochemically\, Genetically and Genomically structured genome-scale metabolic network reconstructions. It more published genome-scale metabolic networks into a single database with a set of stardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations\, and metabolites are linked to many external databases \(KEGG\, PubChem\, and many more\). This collection references model compartments." xsd:string
+property_value: foaf:homepage "http\://bigg.ucsd.edu/compartments/" xsd:anyURI
+property_value: foaf:logo "http\://bigg.ucsd.edu/static/assets/bigg-github.png" xsd:anyURI
 
 [Term]
 id: bigg.compartment:c

@@ -1,73 +1,76 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/rgd/rgd.tsv
     path: rgd/rgd.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/rgd/2025-03-08/rgd.tsv
-    version_path: rgd/2025-03-08/rgd.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/rgd/2025-08-16/rgd.tsv
+    version_path: rgd/2025-08-16/rgd.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/rgd/rgd.obo
     path: rgd/rgd.obo
-    version_iri: https://w3id.org/biopragmatics/resources/rgd/2025-03-08/rgd.obo
-    version_path: rgd/2025-03-08/rgd.obo
+    version_iri: https://w3id.org/biopragmatics/resources/rgd/2025-08-16/rgd.obo
+    version_path: rgd/2025-08-16/rgd.obo
   obograph:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/rgd/rgd.json.gz
     path: rgd/rgd.json.gz
-    version_iri: https://w3id.org/biopragmatics/resources/rgd/2025-03-08/rgd.json.gz
-    version_path: rgd/2025-03-08/rgd.json.gz
+    version_iri: https://w3id.org/biopragmatics/resources/rgd/2025-08-16/rgd.json.gz
+    version_path: rgd/2025-08-16/rgd.json.gz
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/rgd/rgd.ofn
     path: rgd/rgd.ofn
-    version_iri: https://w3id.org/biopragmatics/resources/rgd/2025-03-08/rgd.ofn
-    version_path: rgd/2025-03-08/rgd.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/rgd/2025-08-16/rgd.ofn
+    version_path: rgd/2025-08-16/rgd.ofn
   owl:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/rgd/rgd.owl.gz
     path: rgd/rgd.owl.gz
-    version_iri: https://w3id.org/biopragmatics/resources/rgd/2025-03-08/rgd.owl.gz
-    version_path: rgd/2025-03-08/rgd.owl.gz
+    version_iri: https://w3id.org/biopragmatics/resources/rgd/2025-08-16/rgd.owl.gz
+    version_path: rgd/2025-08-16/rgd.owl.gz
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/rgd/rgd.sssom.tsv
     path: rgd/rgd.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/rgd/2025-03-08/rgd.sssom.tsv
-    version_path: rgd/2025-03-08/rgd.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/rgd/2025-08-16/rgd.sssom.tsv
+    version_path: rgd/2025-08-16/rgd.sssom.tsv
   summary:
     alts: 0
-    definitions: 50899
+    definitions: 51335
     license: CC-BY-4.0
-    mappings: 94145
+    mappings: 98829
     parents: 0
-    properties: 205543
-    references: 125409
-    relations: 61335
-    synonyms: 139689
-    terms: 61335
-    version: '2025-03-08'
+    properties: 206521
+    references: 126120
+    relations: 61462
+    synonyms: 140140
+    terms: 61462
+    version: '2025-08-16'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/rgd/rgd.synonyms.tsv
     path: rgd/rgd.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/rgd/2025-03-08/rgd.synonyms.tsv
-    version_path: rgd/2025-03-08/rgd.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/rgd/2025-08-16/rgd.synonyms.tsv
+    version_path: rgd/2025-08-16/rgd.synonyms.tsv
 prefix_map:
   IAO: http://purl.obolibrary.org/obo/IAO_
   NCBIGene: http://purl.uniprot.org/geneid/
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
   RO: http://purl.obolibrary.org/obo/RO_
   dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
   ensembl: http://rdf.ebi.ac.uk/resource/ensembl/
+  foaf: http://xmlns.com/foaf/0.1/
   obo: http://purl.obolibrary.org/obo/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
   pubmed: http://rdf.ncbi.nlm.nih.gov/pubchem/reference/
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#

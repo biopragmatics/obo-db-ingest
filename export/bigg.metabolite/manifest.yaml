@@ -1,8 +1,8 @@
-date: '2025-03-12'
+date: '2025-08-19'
 dependencies:
-  bioontologies: 0.6.1-dev-029beec3
-  bioregistry: 0.12.5-dev-6a6eb34f
-  pyobo: 0.12.0-dev-fc140cc1
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.32-dev-90c9c85b
+  pyobo: 0.12.5-dev-2c1432a8
 errored: false
 manifest:
   nodes:
@@ -42,16 +42,16 @@ manifest:
     version_iri: https://w3id.org/biopragmatics/resources/bigg.metabolite/1.6.0/bigg.metabolite.sssom.tsv
     version_path: bigg.metabolite/1.6.0/bigg.metabolite.sssom.tsv
   summary:
-    alts: 17358
+    alts: 1637
     definitions: 0
     license: http://bigg.ucsd.edu/license#license
-    mappings: 95484
-    parents: 0
-    properties: 203058
+    mappings: 79763
+    parents: 24809
+    properties: 187331
     references: 0
-    relations: 0
+    relations: 15721
     synonyms: 0
-    terms: 15724
+    terms: 24809
     version: 1.6.0
   synonyms:
     gzipped: false
@@ -61,14 +61,18 @@ manifest:
     version_path: bigg.metabolite/1.6.0/bigg.metabolite.synonyms.tsv
 prefix_map:
   CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  COB: http://purl.obolibrary.org/obo/COB_
+  GO: http://purl.obolibrary.org/obo/GO_
   IAO: http://purl.obolibrary.org/obo/IAO_
   RO: http://purl.obolibrary.org/obo/RO_
+  bigg.compartment: http://bigg.ucsd.edu/compartments/
   bigg.metabolite: http://bigg.ucsd.edu/models/universal/metabolites/
   bigg.model: http://bigg.ucsd.edu/models/
   biocyc: http://biocyc.org/getid?id=
   dcterms: http://purl.org/dc/terms/
+  foaf: http://xmlns.com/foaf/0.1/
   hmdb: http://www.hmdb.ca/metabolites/
-  inchikey: http://legacy.chemspider.com/inchikey=
+  inchikey: https://www.chemspider.com/search?params=
   kegg.compound: https://www.kegg.jp/entry/
   kegg.drug: https://www.kegg.jp/entry/
   kegg.glycan: https://www.kegg.jp/entry/

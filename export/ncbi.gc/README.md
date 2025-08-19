@@ -1,4 +1,4 @@
-# Genetic Code
+# NCBI Genetic Code
 
 Genetic code, mitochontrial genetic code, and other linked information to NCBI taxonomy entries.
 

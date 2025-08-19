@@ -21,6 +21,6 @@ Publisher short codes appearin in the NLM Catalog.
 | field      |   count |
 |------------|---------|
 | mappings   |       3 |
-| parents    |     453 |
+| parents    |     448 |
 | properties |       5 |
-| terms      |     452 |
+| terms      |     447 |

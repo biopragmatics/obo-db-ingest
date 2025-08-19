@@ -22,5 +22,5 @@ PathBank is an interactive, visual database containing more than 100 000 machine
 |------------|---------|
 | mappings   |  110242 |
 | properties |  220484 |
-| relations  | 2455553 |
+| relations  | 2455537 |
 | terms      |  110242 |
