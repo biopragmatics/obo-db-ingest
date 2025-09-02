@@ -1,0 +1,58 @@
+date: '2025-09-02'
+dependencies:
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.37-dev-54359c3b
+  pyobo: 0.12.7-dev-c1a8be8a
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/iana.mediatype/iana.mediatype.tsv
+    path: iana.mediatype/iana.mediatype.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/iana.mediatype/iana.mediatype.obo
+    path: iana.mediatype/iana.mediatype.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/iana.mediatype/iana.mediatype.json
+    path: iana.mediatype/iana.mediatype.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/iana.mediatype/iana.mediatype.ofn
+    path: iana.mediatype/iana.mediatype.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/iana.mediatype/iana.mediatype.owl
+    path: iana.mediatype/iana.mediatype.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/iana.mediatype/iana.mediatype.sssom.tsv
+    path: iana.mediatype/iana.mediatype.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: null
+    mappings: 17
+    parents: 2212
+    properties: 700
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 2202
+    version: null
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/iana.mediatype/iana.mediatype.synonyms.tsv
+    path: iana.mediatype/iana.mediatype.synonyms.tsv
+prefix_map:
+  IAO: http://purl.obolibrary.org/obo/IAO_
+  dcterms: http://purl.org/dc/terms/
+  foaf: http://xmlns.com/foaf/0.1/
+  iana.mediatype: https://www.iana.org/assignments/media-types/
+  obo: http://purl.obolibrary.org/obo/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#
