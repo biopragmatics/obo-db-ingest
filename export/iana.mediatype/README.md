@@ -18,9 +18,10 @@ The official list of MIME types, now renamed to media types
 
 ## Summary
 
-| field      |   count |
-|------------|---------|
-| mappings   |      17 |
-| parents    |    2212 |
-| properties |     700 |
-| terms      |    2202 |
+| field       |   count |
+|-------------|---------|
+| definitions |     428 |
+| mappings    |      17 |
+| parents     |    3151 |
+| properties  |    2221 |
+| terms       |    2221 |
