@@ -38,9 +38,8 @@ from typing import TypedDict
 import bioontologies.version
 import bioregistry
 import bioregistry.version
-import click
-
 import bioversions
+import click
 import pyobo.constants
 import pyobo.version
 import pystow.utils
@@ -507,7 +506,6 @@ def main(minimum: str | None, xvalue: list[str], no_convert: bool, force: bool):
                 )
             else:
                 secho(f"missing license for `{prefix}`", fg="yellow")
-
 
         version_result = bioversions.get_version(prefix, strict=False)
         if not version_result:
