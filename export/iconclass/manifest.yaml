@@ -1,0 +1,58 @@
+date: '2025-09-17'
+dependencies:
+  bioontologies: 0.7.4-dev-2bdf3311
+  bioregistry: 0.12.40-dev-4d1d79e1
+  pyobo: 0.12.11-dev-aa922f12
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/iconclass/iconclass.tsv
+    path: iconclass/iconclass.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/iconclass/iconclass.obo
+    path: iconclass/iconclass.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/iconclass/iconclass.json
+    path: iconclass/iconclass.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/iconclass/iconclass.ofn
+    path: iconclass/iconclass.ofn
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/iconclass/iconclass.owl
+    path: iconclass/iconclass.owl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/iconclass/iconclass.sssom.tsv
+    path: iconclass/iconclass.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 0
+    license: null
+    mappings: 0
+    parents: 0
+    properties: 0
+    references: 0
+    relations: 0
+    synonyms: 0
+    terms: 43539
+    version: null
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/iconclass/iconclass.synonyms.tsv
+    path: iconclass/iconclass.synonyms.tsv
+prefix_map:
+  dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
+  foaf: http://xmlns.com/foaf/0.1/
+  iconclass: https://iconclass.org/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#
