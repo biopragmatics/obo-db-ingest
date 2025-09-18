@@ -134,6 +134,7 @@ PREFIXES = [
     "bigg.model",
     "bigg.reaction",
     "uniprot",
+    "iconclass",
 ]
 
 for _prefix in PREFIXES:
