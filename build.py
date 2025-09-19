@@ -152,7 +152,7 @@ ARTIFACT_LABELS = {
     "synonyms": "Synonyms",
     "nodes": "Nodes",
     "obograph": "OBO Graph JSON",
-    "ols": "OLS Import Configuration",
+    "ols": "OLS Config.",
 }
 
 
