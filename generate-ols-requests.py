@@ -10,6 +10,8 @@ import yaml
 from bioregistry import manager
 from tabulate import tabulate
 
+from build import _get_ols_config
+
 HERE = Path(__file__).parent.resolve()
 MANIFEST = HERE.joinpath("docs", "_data", "manifest.yml")
 
@@ -62,77 +64,7 @@ def main(write_excel: bool, regenerate_old: bool) -> None:
             click.echo(f"no OWL for {prefix}")
             continue
 
-        ontology_purl = data["owl"]["iri"]
-
-        resource = manager.get_resource(prefix)
-        if resource is None:
-            raise ValueError
-
-        if contact := resource.get_contact():
-            creator = contact.name
-        else:
-            creator = (
-                "Converted to OWL by Charles Tapley Hoyt (cthoyt@gmail.com), "
-                "no primary contact information is available."
-            )
-
-        description = resource.get_description()
-        if license := resource.get_license():
-            description += f" Licensed under {license}."
-
-        values = {
-            # as per https://github.com/EBISPOT/ols4/pull/896#discussion_r2126144218
-            "id": prefix,
-            "reasoner": "none",
-            "oboSlims": False,
-            "is_foundary": resource.get_obofoundry_prefix() is not None,
-            "ontology_purl": ontology_purl,
-            ######################################################################
-            # The remainder are ontology metadata, which could be part of the    #
-            # ontology itself.                                                   #
-            #                                                                    #
-            # See https://github.com/OBOFoundry/OBOFoundry.github.io/issues/1365 #
-            ######################################################################
-            # Property: dcterms:creator
-            "creator": [
-                creator,
-            ],
-            # http://purl.org/vocab/vann/preferredNamespacePrefix
-            "preferredPrefix": resource.get_preferred_prefix() or resource.prefix,
-            # Property: dcterms:title
-            "title": resource.get_name(),
-            # Property: dcterms:description
-            "description": description,
-            # TODO figure out why there's dupicate on `uri` and `homepage`
-            "uri": resource.get_homepage(),
-            # Property:  foaf:homepage
-            "homepage": resource.get_homepage(),
-            # Property: http://usefulinc.com/ns/doap#mailing-list
-            "mailing_list": resource.get_mailing_list() or resource.get_contact_email(),
-            # TODO add to OMO
-            "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
-            # TODO add to OMO
-            "definition_property": [
-                "http://purl.org/dc/terms/description",
-            ],
-            # TODO add to OMO
-            "synonym_property": [
-                "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
-                "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
-                "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
-                "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym",
-            ],
-            # See https://github.com/information-artifact-ontology/ontology-metadata/pull/193
-            "hierarchical_property": [
-                "https://www.w3.org/2000/01/rdf-schema#subclassOf",
-            ],
-            # TODO root terms IAO_0000700 (preferred_root_term)
-            "hidden_property": [],
-            # http://purl.org/vocab/vann/preferredNamespaceUri
-            "base_uri": [
-                resource.get_rdf_uri_prefix() or resource.get_uri_prefix(),
-            ],
-        }
+        values = _get_ols_config(prefix, data["owl"]["iri"])
 
         if write_excel:
             specific_df: pd.DataFrame = df.copy()
