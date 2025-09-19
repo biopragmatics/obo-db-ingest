@@ -422,6 +422,11 @@ def _make(  # noqa:C901
         else:
             tqdm.write(f"[{prefix}] done converting to OBO Graph JSON")
 
+    if owl_config := rv.get("owl"):
+        ols_config = _get_ols_config(prefix, owl_config["iri"])
+        ols_config_path.write_text(json.dumps(ols_config, indent=2, ensure_ascii=False) + "\n")
+        _, rv["ols"] = _prepare_artifact(prefix, ols_config_path, False, ".json")
+
     purls_table_rows = [
         (ARTIFACT_LABELS[key], data["iri"], data.get("version_iri"))
         for key, data in rv.items()
@@ -468,10 +473,6 @@ def _make(  # noqa:C901
         "date": TODAY,
     }
     manifest_path.write_text(yaml.safe_dump(manifest_dict))
-
-    if owl_config := rv.get("owl"):
-        ols_config = _get_ols_config(prefix, owl_config["iri"])
-        ols_config_path.write_text(json.dumps(ols_config, indent=2, ensure_ascii=False) + "\n")
 
     del obo
 
