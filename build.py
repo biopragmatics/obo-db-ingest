@@ -27,13 +27,14 @@ from __future__ import annotations
 import datetime
 import functools
 import gzip
+import json
 import os
 import shutil
 import subprocess
 import traceback
 from pathlib import Path
 from textwrap import dedent
-from typing import TypedDict
+from typing import Any, TypedDict
 
 import bioontologies.version
 import bioregistry
@@ -151,6 +152,7 @@ ARTIFACT_LABELS = {
     "synonyms": "Synonyms",
     "nodes": "Nodes",
     "obograph": "OBO Graph JSON",
+    "ols": "OLS Config.",
 }
 
 
@@ -291,6 +293,7 @@ def _make(  # noqa:C901
 
     directory = EXPORT.joinpath(prefix)
     readme_path = directory.joinpath("README.md")
+    ols_config_path = directory.joinpath("ols-config.json")
     manifest_path = directory.joinpath("manifest.yaml")
 
     has_version = bool(obo.data_version)
@@ -420,6 +423,11 @@ def _make(  # noqa:C901
         else:
             tqdm.write(f"[{prefix}] done converting to OBO Graph JSON")
 
+    if owl_config := rv.get("owl"):
+        ols_config = _get_ols_config(prefix, owl_config["iri"])
+        ols_config_path.write_text(json.dumps(ols_config, indent=2, ensure_ascii=False) + "\n")
+        _, rv["ols"] = _prepare_artifact(prefix, ols_config_path, False, ".json")
+
     purls_table_rows = [
         (ARTIFACT_LABELS[key], data["iri"], data.get("version_iri"))
         for key, data in rv.items()
@@ -471,6 +479,79 @@ def _make(  # noqa:C901
 
     tqdm.write(f"[{prefix}] done")
     return rv, errored
+
+
+def _get_ols_config(prefix: str, ontology_purl: str) -> dict[str, Any]:
+    resource = bioregistry.get_resource(prefix, strict=True)
+
+    creators = []
+    if contact := resource.get_contact():
+        creators.append(contact.name)
+        if resource.contact_extras:
+            creators.extend(ce.name for ce in resource.contact_extras if ce.name)
+    else:
+        creators = [
+            "Converted to OWL by Charles Tapley Hoyt (cthoyt@gmail.com), "
+            "no primary contact information is available."
+        ]
+
+    description = resource.get_description()
+    if license_ := resource.get_license():
+        description += f" Licensed under {license_}."
+
+    values = {
+        # as per https://github.com/EBISPOT/ols4/pull/896#discussion_r2126144218
+        "id": resource.prefix,
+        "reasoner": "none",
+        "oboSlims": False,
+        "is_foundary": resource.get_obofoundry_prefix() is not None,
+        "ontology_purl": ontology_purl,
+        ######################################################################
+        # The remainder are ontology metadata, which could be part of the    #
+        # ontology itself.                                                   #
+        #                                                                    #
+        # See https://github.com/OBOFoundry/OBOFoundry.github.io/issues/1365 #
+        ######################################################################
+        # Property: dcterms:creator
+        "creator": creators,
+        # http://purl.org/vocab/vann/preferredNamespacePrefix
+        "preferredPrefix": resource.get_preferred_prefix() or resource.prefix,
+        # Property: dcterms:title
+        "title": resource.get_name(),
+        # Property: dcterms:description
+        "description": description,
+        # TODO figure out why there's dupicate on `uri` and `homepage`
+        "uri": resource.get_homepage(),
+        # Property:  foaf:homepage
+        "homepage": resource.get_homepage(),
+        # Property: http://usefulinc.com/ns/doap#mailing-list
+        "mailing_list": resource.get_mailing_list() or resource.get_contact_email(),
+        # TODO add to OMO
+        "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+        # TODO add to OMO
+        "definition_property": [
+            "http://purl.org/dc/terms/description",
+        ],
+        # TODO add to OMO
+        "synonym_property": [
+            "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+            "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+            "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+            "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym",
+        ],
+        # See https://github.com/information-artifact-ontology/ontology-metadata/pull/193
+        "hierarchical_property": [
+            "https://www.w3.org/2000/01/rdf-schema#subClassOf",
+        ],
+        "hidden_property": [],
+        # http://purl.org/vocab/vann/preferredNamespaceUri
+        "base_uri": [
+            resource.get_rdf_uri_prefix() or resource.get_uri_prefix(),
+        ],
+        # TODO root terms IAO_0000700 (preferred_root_term)
+    }
+
+    return values
 
 
 @click.command()
