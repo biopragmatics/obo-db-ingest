@@ -293,7 +293,7 @@ def _make(  # noqa:C901
 
     directory = EXPORT.joinpath(prefix)
     readme_path = directory.joinpath("README.md")
-    ols_config_path = directory.joinpath("ols_config.json")
+    ols_config_path = directory.joinpath("ols-config.json")
     manifest_path = directory.joinpath("manifest.yaml")
 
     has_version = bool(obo.data_version)
