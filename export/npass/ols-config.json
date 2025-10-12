@@ -1,0 +1,33 @@
+{
+  "id": "npass",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/npass/npass.owl",
+  "creator": [
+    "Yu Zong Chen"
+  ],
+  "preferredPrefix": "npass",
+  "title": "Natural Product Activity and Species Source Database",
+  "description": "Database for integrating species source of natural products & connecting natural products to biological targets via  experimental-derived quantitative activity data. Licensed under CC-BY-NC.",
+  "uri": "http://bidd.group/NPASS/",
+  "homepage": "http://bidd.group/NPASS/",
+  "mailing_list": "chenyuzong@sz.tsinghua.edu.cn",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "https://bidd.group/NPASS/compound.php?compoundID="
+  ]
+}

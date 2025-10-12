@@ -15,6 +15,7 @@ The GeoNames geographical database covers all countries and contains over eleven
 | Synonyms       | https://w3id.org/biopragmatics/resources/geonames/geonames.synonyms.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/geonames/geonames.owl          |                                  |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/geonames/geonames.json         |                                  |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/geonames/ols-config.json       |                                  |
 
 ## Summary
 

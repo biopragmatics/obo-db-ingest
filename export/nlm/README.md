@@ -15,6 +15,7 @@ The NLM Catalog provides access to NLM bibliographic data for journals, books, a
 | Synonyms       | https://w3id.org/biopragmatics/resources/nlm/nlm.synonyms.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/nlm/nlm.owl          |                                  |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/nlm/nlm.json         |                                  |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/nlm/ols-config.json  |                                  |
 
 ## Summary
 

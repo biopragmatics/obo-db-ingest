@@ -15,6 +15,7 @@ Publisher short codes appearin in the NLM Catalog.
 | Synonyms       | https://w3id.org/biopragmatics/resources/nlm.publisher/nlm.publisher.synonyms.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/nlm.publisher/nlm.publisher.owl          |                                  |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/nlm.publisher/nlm.publisher.json         |                                  |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/nlm.publisher/ols-config.json            |                                  |
 
 ## Summary
 

@@ -15,6 +15,7 @@ PathBank is an interactive, visual database containing more than 100 000 machine
 | Synonyms       | https://w3id.org/biopragmatics/resources/pathbank/pathbank.synonyms.tsv | https://w3id.org/biopragmatics/resources/pathbank/2.0/pathbank.synonyms.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/pathbank/pathbank.owl.gz       | https://w3id.org/biopragmatics/resources/pathbank/2.0/pathbank.owl.gz       |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/pathbank/pathbank.json.gz      | https://w3id.org/biopragmatics/resources/pathbank/2.0/pathbank.json.gz      |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/pathbank/ols-config.json       |                                                                             |
 
 ## Summary
 

@@ -15,6 +15,7 @@ A classification system for the subject matter of works of art, originating from
 | Synonyms       | https://w3id.org/biopragmatics/resources/iconclass/iconclass.synonyms.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/iconclass/iconclass.owl          |                                  |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/iconclass/iconclass.json         |                                  |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/iconclass/ols-config.json        |                                  |
 
 ## Summary
 

@@ -1,0 +1,33 @@
+{
+  "id": "interpro",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": true,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/interpro/interpro.owl",
+  "creator": [
+    "Alex Bateman"
+  ],
+  "preferredPrefix": "interpro",
+  "title": "InterPro",
+  "description": "InterPro is a database of protein families, domains and functional sites in which identifiable features found in known proteins can be applied to unknown protein sequences. Licensed under CC0-1.0.",
+  "uri": "http://www.ebi.ac.uk/interpro/index.html",
+  "homepage": "http://www.ebi.ac.uk/interpro/index.html",
+  "mailing_list": "interhelp@ebi.ac.uk",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "http://purl.obolibrary.org/obo/IPR_"
+  ]
+}

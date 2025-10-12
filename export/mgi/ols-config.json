@@ -1,0 +1,33 @@
+{
+  "id": "mgi",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/mgi/mgi.owl.gz",
+  "creator": [
+    "Joel Richardson"
+  ],
+  "preferredPrefix": "MGI",
+  "title": "Mouse Genome Informatics",
+  "description": "The Mouse Genome Database (MGD) project includes data on gene characterization, nomenclature, mapping, gene homologies among mammals, sequence links, phenotypes, allelic variants and mutants, and strain data. Licensed under CC-BY-4.0.",
+  "uri": "http://www.informatics.jax.org/",
+  "homepage": "http://www.informatics.jax.org/",
+  "mailing_list": "joel.richardson@jax.org",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "http://www.informatics.jax.org/accession/MGI:"
+  ]
+}

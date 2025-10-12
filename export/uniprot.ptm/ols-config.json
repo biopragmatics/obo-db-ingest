@@ -1,0 +1,33 @@
+{
+  "id": "uniprot.ptm",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/uniprot.ptm/uniprot.ptm.owl",
+  "creator": [
+    "Alex Bateman"
+  ],
+  "preferredPrefix": "uniprot.ptm",
+  "title": "UniProt Post-Translational Modification",
+  "description": "The post-translational modifications used in the UniProt knowledgebase (Swiss-Prot and TrEMBL). The definition of the post-translational modifications usage as well as other information is provided in the following format Licensed under CC-BY-4.0.",
+  "uri": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist",
+  "homepage": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist",
+  "mailing_list": "help@uniprot.org",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "https://biopragmatics.github.io/providers/uniprot.ptm/"
+  ]
+}

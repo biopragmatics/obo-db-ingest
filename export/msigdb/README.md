@@ -15,6 +15,7 @@ The Molecular Signatures Database (MSigDB) is a collection of annotated gene set
 | Synonyms       | https://w3id.org/biopragmatics/resources/msigdb/msigdb.synonyms.tsv | https://w3id.org/biopragmatics/resources/msigdb/2025.1/msigdb.synonyms.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/msigdb/msigdb.owl.gz       | https://w3id.org/biopragmatics/resources/msigdb/2025.1/msigdb.owl.gz       |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/msigdb/msigdb.json.gz      | https://w3id.org/biopragmatics/resources/msigdb/2025.1/msigdb.json.gz      |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/msigdb/ols-config.json     |                                                                            |
 
 ## Summary
 

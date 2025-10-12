@@ -15,6 +15,7 @@ ClinicalTrials.gov provides free access to information on clinical studies for a
 | Synonyms       | https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.synonyms.synonyms.tsv.gz |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.owl.gz                   |                                  |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.json.gz                  |                                  |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/clinicaltrials/ols-config.json                         |                                  |
 
 ## Summary
 

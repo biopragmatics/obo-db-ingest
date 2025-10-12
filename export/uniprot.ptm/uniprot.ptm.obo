@@ -1,7 +1,9 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:29:06.262953
+auto-generated-by: PyOBO v0.12.11-dev-22fdc112 on 2025-10-12T14:57:20.667542 by https://github.com/biopragmatics/pyobo/blob/main/src/pyobo/sources/uniprot/uniprot_ptm.py.
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: doap http://usefulinc.com/ns/doap# "Description of a Project"
 idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
+idspace: orcid https://orcid.org/ "Open Researcher and Contributor"
 idspace: unimod http://www.unimod.org/modifications_view.php?editid1= "Unimod protein modification database for mass spectrometry"
 idspace: uniprot.ptm https://biopragmatics.github.io/providers/uniprot.ptm/ "UniProt Post-Translational Modification"
 ontology: uniprot.ptm
@@ -9,7 +11,9 @@ property_value: dcterms:title "UniProt Post-Translational Modification" xsd:stri
 property_value: dcterms:license "CC-BY-4.0" xsd:string
 property_value: dcterms:description "The post-translational modifications used in the UniProt knowledgebase \(Swiss-Prot and TrEMBL\). The definition of the post-translational modifications usage as well as other information is provided in the following format" xsd:string
 property_value: foaf:homepage "https\://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist" xsd:anyURI
-property_value: foaf:logo "https\://www.uniprot.org/og-uniprot-wide-logo-1200x630.png" xsd:anyURI
+property_value: foaf:logo "https\://www.uniprot.org/uniprot-logo.img.0df091.svg" xsd:anyURI
+property_value: doap:mailing-list "help@uniprot.org" xsd:string
+property_value: doap:maintainer orcid:0000-0002-6982-4660 ! Alex Bateman
 
 [Term]
 id: uniprot.ptm:PTM-0001

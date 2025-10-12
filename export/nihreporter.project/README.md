@@ -15,6 +15,7 @@ RePORTER is an electronic tool that allows users to search a repository of both 
 | Synonyms       | https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.synonyms.synonyms.tsv.gz |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.owl.gz                   |                                  |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/nihreporter.project/nihreporter.project.json.gz                  |                                  |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/nihreporter.project/ols-config.json                              |                                  |
 
 ## Summary
 

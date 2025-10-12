@@ -1,0 +1,33 @@
+{
+  "id": "kegg.genome",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/kegg.genome/kegg.genome.owl",
+  "creator": [
+    "Minoru Kanehisa"
+  ],
+  "preferredPrefix": "kegg.genome",
+  "title": "KEGG genome",
+  "description": "KEGG Genome is a collection of organisms whose genomes have been completely sequenced. Licensed under https://www.kegg.jp/kegg/legal.html.",
+  "uri": "http://www.genome.jp/kegg/catalog/org_list.html",
+  "homepage": "http://www.genome.jp/kegg/catalog/org_list.html",
+  "mailing_list": "kanehisa@kuicr.kyoto-u.ac.jp",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "http://www.kegg.jp/entry/"
+  ]
+}

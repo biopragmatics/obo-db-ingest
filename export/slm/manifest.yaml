@@ -1,46 +1,50 @@
-date: '2025-08-19'
+date: '2025-10-12'
 dependencies:
   bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.32-dev-90c9c85b
-  pyobo: 0.12.5-dev-2c1432a8
+  bioregistry: 0.12.44-dev-5dffe808
+  pyobo: 0.12.11-dev-22fdc112
 errored: false
 manifest:
   nodes:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/slm/slm.tsv.gz
     path: slm/slm.tsv.gz
-    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.tsv.gz
-    version_path: slm/2025-08-18/slm.tsv.gz
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-05-13/slm.tsv.gz
+    version_path: slm/2025-05-13/slm.tsv.gz
   obo:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/slm/slm.obo.gz
     path: slm/slm.obo.gz
-    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.obo.gz
-    version_path: slm/2025-08-18/slm.obo.gz
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-05-13/slm.obo.gz
+    version_path: slm/2025-05-13/slm.obo.gz
   obograph:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/slm/slm.json.gz
     path: slm/slm.json.gz
-    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.json.gz
-    version_path: slm/2025-08-18/slm.json.gz
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-05-13/slm.json.gz
+    version_path: slm/2025-05-13/slm.json.gz
   ofn:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/slm/slm.ofn.gz
     path: slm/slm.ofn.gz
-    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.ofn.gz
-    version_path: slm/2025-08-18/slm.ofn.gz
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-05-13/slm.ofn.gz
+    version_path: slm/2025-05-13/slm.ofn.gz
+  ols:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/slm/ols-config.json
+    path: slm/ols-config.json
   owl:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/slm/slm.owl.gz
     path: slm/slm.owl.gz
-    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.owl.gz
-    version_path: slm/2025-08-18/slm.owl.gz
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-05-13/slm.owl.gz
+    version_path: slm/2025-05-13/slm.owl.gz
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/slm/slm.sssom.tsv
     path: slm/slm.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.sssom.tsv
-    version_path: slm/2025-08-18/slm.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-05-13/slm.sssom.tsv
+    version_path: slm/2025-05-13/slm.sssom.tsv
   summary:
     alts: 0
     definitions: 0
@@ -52,17 +56,16 @@ manifest:
     relations: 0
     synonyms: 1344722
     terms: 779249
-    version: '2025-08-18'
+    version: '2025-05-13'
   synonyms:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/slm/slm.synonyms.synonyms.tsv.gz
     path: slm/slm.synonyms.synonyms.tsv.gz
-    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.synonyms.synonyms.tsv.gz
-    version_path: slm/2025-08-18/slm.synonyms.synonyms.tsv.gz
+    version_iri: https://w3id.org/biopragmatics/resources/slm/2025-05-13/slm.synonyms.synonyms.tsv.gz
+    version_path: slm/2025-05-13/slm.synonyms.synonyms.tsv.gz
 prefix_map:
   CHEBI: http://purl.obolibrary.org/obo/CHEBI_
   ChEMROF: https://chemkg.github.io/chemrof/
-  IAO: http://purl.obolibrary.org/obo/IAO_
   OMO: http://purl.obolibrary.org/obo/OMO_
   SLM: 'https://www.swisslipids.org/#/entity/SLM:'
   dcterms: http://purl.org/dc/terms/
@@ -72,6 +75,7 @@ prefix_map:
   hmdb: http://www.hmdb.ca/metabolites/
   inchikey: https://www.chemspider.com/search?params=
   lipidmaps: http://www.lipidmaps.org/data/LMSDRecord.php?LMID=
+  mito: http://purl.org/spar/mito/
   obo: http://purl.obolibrary.org/obo/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
   orcid: https://orcid.org/

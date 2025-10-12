@@ -15,13 +15,14 @@ The CDC's National Center of Immunization and Respiratory Diseases (NCIRD) devel
 | Synonyms       | https://w3id.org/biopragmatics/resources/cvx/cvx.synonyms.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/cvx/cvx.owl          |                                  |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/cvx/cvx.json         |                                  |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/cvx/ols-config.json  |                                  |
 
 ## Summary
 
 | field      |   count |
 |------------|---------|
 | mappings   |       3 |
-| parents    |     254 |
-| properties |     737 |
-| synonyms   |     233 |
-| terms      |     286 |
+| parents    |     255 |
+| properties |     740 |
+| synonyms   |     234 |
+| terms      |     287 |

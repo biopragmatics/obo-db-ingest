@@ -1,0 +1,34 @@
+{
+  "id": "complexportal",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/complexportal/complexportal.owl",
+  "creator": [
+    "Sucharitha Balu",
+    "Juan Jose Medina Reyes"
+  ],
+  "preferredPrefix": "complexportal",
+  "title": "Complex Portal",
+  "description": "A database that describes manually curated macromolecular complexes and provides links to details about these complexes in other databases. Licensed under CC0-1.0.",
+  "uri": "https://www.ebi.ac.uk/complexportal",
+  "homepage": "https://www.ebi.ac.uk/complexportal",
+  "mailing_list": "sbalu@ebi.ac.uk",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "https://www.ebi.ac.uk/complexportal/complex/"
+  ]
+}

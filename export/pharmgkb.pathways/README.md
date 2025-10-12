@@ -1,4 +1,4 @@
-# PharmGKB
+# PharmGKB pathway
 
 The PharmGKB database is a central repository for genetic, genomic, molecular and cellular phenotype data and clinical information about people who have participated in pharmacogenomics research studies. The data includes, but is not limited to, clinical and basic pharmacokinetic and pharmacogenomic research in the cardiovascular, pulmonary, cancer, pathways, metabolic and transporter domains. 
 PharmGKB Pathways are drug centric, gene based, interactive pathways which focus on candidate genes and gene groups and associated genotype and phenotype data of relevance for pharmacogenetic and pharmacogenomic studies.
@@ -16,6 +16,7 @@ PharmGKB Pathways are drug centric, gene based, interactive pathways which focus
 | Synonyms       | https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.synonyms.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.owl          |                                  |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/pharmgkb.pathways/pharmgkb.pathways.json         |                                  |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/pharmgkb.pathways/ols-config.json                |                                  |
 
 ## Summary
 

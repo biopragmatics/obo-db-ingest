@@ -15,6 +15,7 @@ BiGG is a knowledgebase of Biochemically, Genetically and Genomically structured
 | Synonyms       | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.synonyms.tsv | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.synonyms.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.owl          | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.owl          |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/bigg.reaction/bigg.reaction.json         | https://w3id.org/biopragmatics/resources/bigg.reaction/1.6.0/bigg.reaction.json         |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/bigg.reaction/ols-config.json            |                                                                                         |
 
 ## Summary
 

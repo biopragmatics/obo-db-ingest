@@ -1,64 +1,68 @@
-date: '2025-08-19'
+date: '2025-10-12'
 dependencies:
   bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.32-dev-90c9c85b
-  pyobo: 0.12.5-dev-2c1432a8
+  bioregistry: 0.12.44-dev-5dffe808
+  pyobo: 0.12.11-dev-22fdc112
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/ec/ec.tsv
     path: ec/ec.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.tsv
-    version_path: ec/2025-06-18/ec.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-04-09/ec.tsv
+    version_path: ec/2025-04-09/ec.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/ec/ec.obo
     path: ec/ec.obo
-    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.obo
-    version_path: ec/2025-06-18/ec.obo
+    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-04-09/ec.obo
+    version_path: ec/2025-04-09/ec.obo
   obograph:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/ec/ec.json
     path: ec/ec.json
-    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.json
-    version_path: ec/2025-06-18/ec.json
+    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-04-09/ec.json
+    version_path: ec/2025-04-09/ec.json
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/ec/ec.ofn
     path: ec/ec.ofn
-    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.ofn
-    version_path: ec/2025-06-18/ec.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-04-09/ec.ofn
+    version_path: ec/2025-04-09/ec.ofn
+  ols:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/ec/ols-config.json
+    path: ec/ols-config.json
   owl:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/ec/ec.owl
     path: ec/ec.owl
-    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.owl
-    version_path: ec/2025-06-18/ec.owl
+    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-04-09/ec.owl
+    version_path: ec/2025-04-09/ec.owl
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/ec/ec.sssom.tsv
     path: ec/ec.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.sssom.tsv
-    version_path: ec/2025-06-18/ec.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-04-09/ec.sssom.tsv
+    version_path: ec/2025-04-09/ec.sssom.tsv
   summary:
     alts: 0
-    definitions: 6919
+    definitions: 6915
     license: CC-BY-4.0
     mappings: 1473
-    parents: 7320
-    properties: 256839
+    parents: 7316
+    properties: 256519
     references: 0
-    relations: 4530
-    synonyms: 10510
-    terms: 8813
-    version: '2025-06-18'
+    relations: 4526
+    synonyms: 10503
+    terms: 8809
+    version: '2025-04-09'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/ec/ec.synonyms.tsv
     path: ec/ec.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.synonyms.tsv
-    version_path: ec/2025-06-18/ec.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/ec/2025-04-09/ec.synonyms.tsv
+    version_path: ec/2025-04-09/ec.synonyms.tsv
 prefix_map:
   EC: https://www.enzyme-database.org/query.php?ec=
   GO: http://purl.obolibrary.org/obo/GO_

@@ -1,64 +1,68 @@
-date: '2025-08-19'
+date: '2025-10-12'
 dependencies:
   bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.32-dev-90c9c85b
-  pyobo: 0.12.5-dev-2c1432a8
+  bioregistry: 0.12.44-dev-5dffe808
+  pyobo: 0.12.11-dev-22fdc112
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/signor/signor.tsv
     path: signor/signor.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/signor/2025-07-01/signor.tsv
-    version_path: signor/2025-07-01/signor.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/signor/2025-10-01/signor.tsv
+    version_path: signor/2025-10-01/signor.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/signor/signor.obo
     path: signor/signor.obo
-    version_iri: https://w3id.org/biopragmatics/resources/signor/2025-07-01/signor.obo
-    version_path: signor/2025-07-01/signor.obo
+    version_iri: https://w3id.org/biopragmatics/resources/signor/2025-10-01/signor.obo
+    version_path: signor/2025-10-01/signor.obo
   obograph:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/signor/signor.json
     path: signor/signor.json
-    version_iri: https://w3id.org/biopragmatics/resources/signor/2025-07-01/signor.json
-    version_path: signor/2025-07-01/signor.json
+    version_iri: https://w3id.org/biopragmatics/resources/signor/2025-10-01/signor.json
+    version_path: signor/2025-10-01/signor.json
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/signor/signor.ofn
     path: signor/signor.ofn
-    version_iri: https://w3id.org/biopragmatics/resources/signor/2025-07-01/signor.ofn
-    version_path: signor/2025-07-01/signor.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/signor/2025-10-01/signor.ofn
+    version_path: signor/2025-10-01/signor.ofn
+  ols:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/signor/ols-config.json
+    path: signor/ols-config.json
   owl:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/signor/signor.owl
     path: signor/signor.owl
-    version_iri: https://w3id.org/biopragmatics/resources/signor/2025-07-01/signor.owl
-    version_path: signor/2025-07-01/signor.owl
+    version_iri: https://w3id.org/biopragmatics/resources/signor/2025-10-01/signor.owl
+    version_path: signor/2025-10-01/signor.owl
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/signor/signor.sssom.tsv
     path: signor/signor.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/signor/2025-07-01/signor.sssom.tsv
-    version_path: signor/2025-07-01/signor.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/signor/2025-10-01/signor.sssom.tsv
+    version_path: signor/2025-10-01/signor.sssom.tsv
   summary:
     alts: 0
-    definitions: 1738
+    definitions: 1746
     license: CC-BY-NC-4.0
     mappings: 0
-    parents: 2370
-    properties: 3399
+    parents: 2381
+    properties: 3407
     references: 0
     relations: 0
     synonyms: 0
-    terms: 2369
-    version: '2025-07-01'
+    terms: 2380
+    version: '2025-10-01'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/signor/signor.synonyms.tsv
     path: signor/signor.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/signor/2025-07-01/signor.synonyms.tsv
-    version_path: signor/2025-07-01/signor.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/signor/2025-10-01/signor.synonyms.tsv
+    version_path: signor/2025-10-01/signor.synonyms.tsv
 prefix_map:
   CHEBI: http://purl.obolibrary.org/obo/CHEBI_
   IAO: http://purl.obolibrary.org/obo/IAO_

@@ -6,10 +6,12 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:dbsnp="https://www.ncbi.nlm.nih.gov/snp/"
+     xmlns:orcid="https://orcid.org/"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:pharmgkb="http://purl.obolibrary.org/obo/pharmgkb.variant#"
@@ -19,7 +21,9 @@
         <dcterms:description>SNPs and other variants that can be mapped to dbSNP.</dcterms:description>
         <dcterms:license>CC-BY-SA-4.0</dcterms:license>
         <dcterms:title>PharmGKB Variant</dcterms:title>
-        <oboInOwl:auto-generated-by>PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T00:20:54.743297</oboInOwl:auto-generated-by>
+        <doap:mailing-list>feedback@clinpgx.org</doap:mailing-list>
+        <doap:maintainer rdf:resource="https://orcid.org/0000-0001-5527-6475"/>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.11-dev-22fdc112 on 2025-10-12T13:49:31.836650 by https://github.com/biopragmatics/pyobo/blob/main/src/pyobo/sources/pharmgkb/pharmgkb_variant.py.</oboInOwl:auto-generated-by>
         <foaf:homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.pharmgkb.org</foaf:homepage>
         <foaf:logo rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://rxgenomix.com/wp-content/uploads/2019/10/pharmgKB.png</foaf:logo>
     </owl:Ontology>
@@ -60,6 +64,18 @@
     <!-- http://purl.org/dc/terms/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://usefulinc.com/ns/doap#mailing-list -->
+
+    <owl:AnnotationProperty rdf:about="http://usefulinc.com/ns/doap#mailing-list"/>
+    
+
+
+    <!-- http://usefulinc.com/ns/doap#maintainer -->
+
+    <owl:AnnotationProperty rdf:about="http://usefulinc.com/ns/doap#maintainer"/>
     
 
 

@@ -1,0 +1,33 @@
+{
+  "id": "pfam.clan",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.owl",
+  "creator": [
+    "Alex Bateman"
+  ],
+  "preferredPrefix": "pfam.clan",
+  "title": "Pfam protein clan",
+  "description": "Higher order grouping of Pfam families Licensed under CC0-1.0.",
+  "uri": "https://pfam.xfam.org",
+  "homepage": "https://pfam.xfam.org",
+  "mailing_list": "agb@ebi.ac.uk",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "https://www.ebi.ac.uk/interpro/set/pfam/"
+  ]
+}

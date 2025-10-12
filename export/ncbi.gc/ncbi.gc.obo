@@ -1,6 +1,6 @@
 format-version: 1.4
 data-version: 4.6
-auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T00:51:00.691089
+auto-generated-by: PyOBO v0.12.11-dev-22fdc112 on 2025-10-12T13:58:05.125575 by https://github.com/biopragmatics/pyobo/blob/main/src/pyobo/sources/ncbi/ncbi_gc.py.
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
 idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
 idspace: ncbi.gc https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes#SG "NCBI Genetic Code"
@@ -10,6 +10,7 @@ property_value: dcterms:title "NCBI Genetic Code" xsd:string
 property_value: dcterms:license "public domain" xsd:string
 property_value: dcterms:description "Genetic code\, mitochontrial genetic code\, and other linked information to NCBI taxonomy entries." xsd:string
 property_value: foaf:homepage "https\://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes" xsd:anyURI
+property_value: foaf:logo "https\://www.ncbi.nlm.nih.gov/corehtml/logo256.gif" xsd:anyURI
 property_value: IAO:0000700 root
 
 [Typedef]

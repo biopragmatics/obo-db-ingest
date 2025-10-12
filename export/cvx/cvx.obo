@@ -1,5 +1,5 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:29:08.420049
+auto-generated-by: PyOBO v0.12.11-dev-22fdc112 on 2025-10-12T14:57:22.692546 by https://github.com/biopragmatics/pyobo/blob/main/src/pyobo/sources/cvx.py.
 synonymtypedef: OMO:0003012 "acronym"
 idspace: cvx https://biopragmatics.github.io/providers/cvx/ "Vaccine administered code set"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
@@ -8,6 +8,7 @@ ontology: cvx
 property_value: dcterms:title "Vaccine administered code set" xsd:string
 property_value: dcterms:description "The CDC's National Center of Immunization and Respiratory Diseases \(NCIRD\) developed and maintains the CVX \(vaccine administered\) code set. The table below has the most up to date values. It includes both active and inactive vaccines available in the US. CVX codes for inactive vaccines allow transmission of historical immunization records." xsd:string
 property_value: foaf:homepage "https\://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx" xsd:anyURI
+property_value: foaf:logo "https\://www2.cdc.gov/TemplatePackage/4.0/assets/imgs/logo/logo-notext.svg" xsd:anyURI
 
 [Typedef]
 id: nonvaccine
@@ -1169,7 +1170,7 @@ is_obsolete: false
 
 [Term]
 id: cvx:206
-name: Vaccinia\, smallpox monkeypox vaccine\, live attenuated\, preservative free\, subcutaneous or intradermal injection
+name: Vaccinia\, smallpox mpox vaccine\, live attenuated\, preservative free\, subcutaneous or intradermal injection
 comment: "Associated to FDA US Licensed product JYNNEOS, non-US tradenames IMVANEX, IMVAMUNE. Review CDC & FDA guidance for updates regarding administration"
 synonym: "Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection" []
 property_value: nonvaccine "false" xsd:boolean
@@ -1580,10 +1581,10 @@ is_obsolete: false
 [Term]
 id: cvx:308
 name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, preservative free\, tris-sucrose\, 3 mcg/0.3 mL dose
-comment: "Pfizer Fall Seasonal 6 months through 4 years of age"
+comment: "EUA Revoked 08/27/2024.  Pfizer 6 months through 4 years of age."
 synonym: "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL" []
 property_value: nonvaccine "false" xsd:boolean
-property_value: status "Active" xsd:string
+property_value: status "Inactive" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
 is_obsolete: false
 
@@ -1862,6 +1863,16 @@ is_a: cvx:88 ! influenza virus vaccine, unspecified formulation
 is_obsolete: false
 
 [Term]
+id: cvx:334
+name: SARS-COV-2 \(COVID-19\) vaccine\, mRNA\, spike protein\, LNP\, preservative free\, 10 mcg/0.2 mL dose
+comment: "Moderna monovalent new formulation mNEXSPIKE, starting Fall 2025, ages 12 yrs and older, BLA"
+synonym: "COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL" []
+property_value: nonvaccine "false" xsd:boolean
+property_value: status "Active" xsd:string
+is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED
+is_obsolete: false
+
+[Term]
 id: cvx:34
 name: rabies immune globulin
 synonym: "RIG" EXACT OMO:0003012 []
@@ -2017,9 +2028,9 @@ is_obsolete: false
 
 [Term]
 id: cvx:500
-name: SARS-COV-2 COVID-19 Non-US Vaccine\, Specific Product Unknown
-comment: "Pandemic Non-US Covid Administration - specific CVX or product unknown"
-synonym: "COVID-19 Non-US Vaccine, Product Unknown" []
+name: SARS-COV-2 \(COVID-19\) Non-US Vaccine\, UNSPECIFIED
+comment: "Unspecified code to be used to record historic Non-US COVID-19 administration.  May be used if the specific product or CVX code is not known."
+synonym: "COVID-19 Non-US Vaccine, UNSPECIFIED" []
 property_value: nonvaccine "false" xsd:boolean
 property_value: status "Non-US" xsd:string
 is_a: cvx:213 ! SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED

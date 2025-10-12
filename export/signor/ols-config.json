@@ -1,0 +1,33 @@
+{
+  "id": "signor",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/signor/signor.owl",
+  "creator": [
+    "Gianni Cesareni"
+  ],
+  "preferredPrefix": "signor",
+  "title": "Signaling Network Open Resource",
+  "description": "SIGNOR, the SIGnaling Network Open Resource, organizes and stores in a structured format signaling information published in the scientific literature. Licensed under CC-BY-NC-4.0.",
+  "uri": "https://signor.uniroma2.it/",
+  "homepage": "https://signor.uniroma2.it/",
+  "mailing_list": "gianni.cesareni@torvergata.it",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "https://signor.uniroma2.it/relation_result.php?id="
+  ]
+}

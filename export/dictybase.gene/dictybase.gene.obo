@@ -1,14 +1,17 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T01:32:50.931912
+auto-generated-by: PyOBO v0.12.11-dev-22fdc112 on 2025-10-12T14:14:36.818345 by https://github.com/biopragmatics/pyobo/blob/main/src/pyobo/sources/dictybase_gene.py.
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
 idspace: dictybase.gene http://dictybase.org/gene/ "Dictybase Gene"
+idspace: doap http://usefulinc.com/ns/doap# "Description of a Project"
 idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
+idspace: orcid https://orcid.org/ "Open Researcher and Contributor"
 ontology: dictybase.gene
 property_value: dcterms:title "Dictybase Gene" xsd:string
 property_value: dcterms:license "CC-BY-SA-4.0" xsd:string
 property_value: dcterms:description "The dictyBase database provides data on the model organism Dictyostelium discoideum and related species. It contains the complete genome sequence\, ESTs\, gene models and functional annotations. This collection references gene information." xsd:string
 property_value: foaf:homepage "http\://dictybase.org/" xsd:anyURI
 property_value: foaf:logo "https\://dictybase-docker.github.io/developer-docs/static/4eeedc37c188406acdddc392200815a7/logo-nav-light.png" xsd:anyURI
+property_value: doap:maintainer orcid:0000-0002-4532-2703 ! Petra Fey
 
 [Typedef]
 id: RO:0002162

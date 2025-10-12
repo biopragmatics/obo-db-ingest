@@ -1,0 +1,33 @@
+{
+  "id": "clinicaltrials",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/clinicaltrials/clinicaltrials.owl.gz",
+  "creator": [
+    "ClinicalTrials.gov Helpdesk"
+  ],
+  "preferredPrefix": "clinicaltrials",
+  "title": "ClinicalTrials.gov",
+  "description": "ClinicalTrials.gov provides free access to information on clinical studies for a wide range of diseases and conditions. Studies listed in the database are conducted in 175 countries Licensed under https://clinicaltrials.gov/about-site/terms-conditions#availability.",
+  "uri": "https://clinicaltrials.gov/",
+  "homepage": "https://clinicaltrials.gov/",
+  "mailing_list": "register@clinicaltrials.gov",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "https://www.clinicaltrials.gov/study/"
+  ]
+}

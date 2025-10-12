@@ -15,12 +15,13 @@ Current Procedural Terminology, more commonly known as CPT®, refers to a medica
 | Synonyms       | https://w3id.org/biopragmatics/resources/cpt/cpt.synonyms.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/cpt/cpt.owl          |                                  |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/cpt/cpt.json         |                                  |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/cpt/ols-config.json  |                                  |
 
 ## Summary
 
 | field       |   count |
 |-------------|---------|
-| definitions |     167 |
-| mappings    |     167 |
+| definitions |     168 |
+| mappings    |     168 |
 | properties  |      33 |
-| terms       |     167 |
+| terms       |     168 |

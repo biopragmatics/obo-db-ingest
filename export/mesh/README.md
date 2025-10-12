@@ -15,6 +15,7 @@ MeSH (Medical Subject Headings) is the National Library of Medicine's controlled
 | Synonyms       | https://w3id.org/biopragmatics/resources/mesh/mesh.synonyms.tsv | https://w3id.org/biopragmatics/resources/mesh/2025/mesh.synonyms.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/mesh/mesh.owl.gz       | https://w3id.org/biopragmatics/resources/mesh/2025/mesh.owl.gz       |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/mesh/mesh.json.gz      | https://w3id.org/biopragmatics/resources/mesh/2025/mesh.json.gz      |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/mesh/ols-config.json   |                                                                      |
 
 ## Summary
 

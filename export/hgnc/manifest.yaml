@@ -1,70 +1,78 @@
-date: '2025-08-19'
+date: '2025-10-12'
 dependencies:
   bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.32-dev-90c9c85b
-  pyobo: 0.12.5-dev-2c1432a8
+  bioregistry: 0.12.44-dev-5dffe808
+  pyobo: 0.12.11-dev-22fdc112
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.tsv
     path: hgnc/hgnc.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-08-05/hgnc.tsv
-    version_path: hgnc/2025-08-05/hgnc.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-10-07/hgnc.tsv
+    version_path: hgnc/2025-10-07/hgnc.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.obo
     path: hgnc/hgnc.obo
-    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-08-05/hgnc.obo
-    version_path: hgnc/2025-08-05/hgnc.obo
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-10-07/hgnc.obo
+    version_path: hgnc/2025-10-07/hgnc.obo
   obograph:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.json.gz
     path: hgnc/hgnc.json.gz
-    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-08-05/hgnc.json.gz
-    version_path: hgnc/2025-08-05/hgnc.json.gz
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-10-07/hgnc.json.gz
+    version_path: hgnc/2025-10-07/hgnc.json.gz
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.ofn
     path: hgnc/hgnc.ofn
-    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-08-05/hgnc.ofn
-    version_path: hgnc/2025-08-05/hgnc.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-10-07/hgnc.ofn
+    version_path: hgnc/2025-10-07/hgnc.ofn
+  ols:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/hgnc/ols-config.json
+    path: hgnc/ols-config.json
   owl:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.owl.gz
     path: hgnc/hgnc.owl.gz
-    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-08-05/hgnc.owl.gz
-    version_path: hgnc/2025-08-05/hgnc.owl.gz
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-10-07/hgnc.owl.gz
+    version_path: hgnc/2025-10-07/hgnc.owl.gz
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.sssom.tsv
     path: hgnc/hgnc.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-08-05/hgnc.sssom.tsv
-    version_path: hgnc/2025-08-05/hgnc.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-10-07/hgnc.sssom.tsv
+    version_path: hgnc/2025-10-07/hgnc.sssom.tsv
   summary:
     alts: 0
-    definitions: 44454
+    definitions: 44537
     license: CC0-1.0
-    mappings: 261139
-    parents: 44454
-    properties: 332308
-    references: 35323
-    relations: 153806
-    synonyms: 106042
-    terms: 44454
-    version: '2025-08-05'
+    mappings: 268560
+    parents: 44537
+    properties: 276129
+    references: 35381
+    relations: 199102
+    synonyms: 106173
+    terms: 44537
+    version: '2025-10-07'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.synonyms.tsv
     path: hgnc/hgnc.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-08-05/hgnc.synonyms.tsv
-    version_path: hgnc/2025-08-05/hgnc.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/hgnc/2025-10-07/hgnc.synonyms.tsv
+    version_path: hgnc/2025-10-07/hgnc.synonyms.tsv
 prefix_map:
+  CHR: 'https://bioregistry.io/chr:'
   EC: https://www.enzyme-database.org/query.php?ec=
+  GO: http://purl.obolibrary.org/obo/GO_
   IAO: http://purl.obolibrary.org/obo/IAO_
   MGI: 'http://www.informatics.jax.org/accession/MGI:'
   NCBIGene: http://purl.uniprot.org/geneid/
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  OMO: http://purl.obolibrary.org/obo/OMO_
+  ORPHA: http://www.orpha.net/ORDO/Orphanet_
   RO: http://purl.obolibrary.org/obo/RO_
   SO: http://purl.obolibrary.org/obo/SO_
   ccds: http://www.ncbi.nlm.nih.gov/CCDS/CcdsBrowse.cgi?REQUEST=CCDS&DATA=
@@ -77,16 +85,13 @@ prefix_map:
   foaf: http://xmlns.com/foaf/0.1/
   hgnc: https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/
   hgnc.genegroup: https://www.genenames.org/data/genegroup/#!/group/
-  iuphar.ligand: http://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=
-  iuphar.receptor: http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=
   lncipedia: 'https://bioregistry.io/lncipedia:'
   lrg: 'https://bioregistry.io/lrg:'
   mirbase: http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=
-  obo: http://purl.obolibrary.org/obo/
+  mito: http://purl.org/spar/mito/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
   omim: 'https://omim.org/MIM:'
   orcid: https://orcid.org/
-  orphanet: http://www.orpha.net/ORDO/Orphanet_
   owl: http://www.w3.org/2002/07/owl#
   pseudogene: http://tables.pseudogene.org/[?species_name]/
   pubmed: http://rdf.ncbi.nlm.nih.gov/pubchem/reference/

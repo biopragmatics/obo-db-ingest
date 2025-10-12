@@ -1,0 +1,33 @@
+{
+  "id": "nlm",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/nlm/nlm.owl",
+  "creator": [
+    "NLM Customer Service"
+  ],
+  "preferredPrefix": "nlm",
+  "title": "National Library of Medicine Catalog",
+  "description": "The NLM Catalog provides access to NLM bibliographic data for journals, books, audiovisuals, computer software, electronic resources and other materials. Links to the library's holdings in LocatorPlus, NLM's online public access catalog, are also provided. [from homepage] Licensed under public domain.",
+  "uri": "https://www.ncbi.nlm.nih.gov/nlmcatalog",
+  "homepage": "https://www.ncbi.nlm.nih.gov/nlmcatalog",
+  "mailing_list": "custserv@nlm.nih.gov",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "https://www.ncbi.nlm.nih.gov/nlmcatalog/"
+  ]
+}

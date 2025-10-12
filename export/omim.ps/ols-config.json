@@ -1,0 +1,33 @@
+{
+  "id": "omim.ps",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/omim.ps/omim.ps.owl",
+  "creator": [
+    "Ada Hamosh"
+  ],
+  "preferredPrefix": "omim.ps",
+  "title": "OMIM Phenotypic Series",
+  "description": "A Phenotypic Series is a tabular view of genetic heterogeneity of similar phenotypes across the genome. Licensed under https://www.omim.org/help/agreement.",
+  "uri": "https://www.omim.org/phenotypicSeriesTitles/all",
+  "homepage": "https://www.omim.org/phenotypicSeriesTitles/all",
+  "mailing_list": "ahamosh@jhmi.edu",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "https://omim.org/MIM:PS"
+  ]
+}

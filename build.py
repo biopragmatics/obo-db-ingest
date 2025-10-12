@@ -6,6 +6,7 @@
 #     "bioontologies",
 #     "pyobo",
 #     "class-resolver",
+#     "protmapper",
 # ]
 #
 # [tool.uv.sources]

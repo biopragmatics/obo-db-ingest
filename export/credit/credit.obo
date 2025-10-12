@@ -1,6 +1,6 @@
 format-version: 1.4
 data-version: 2022
-auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:29:07.507024
+auto-generated-by: PyOBO v0.12.11-dev-22fdc112 on 2025-10-12T14:57:21.835636 by https://github.com/biopragmatics/pyobo/blob/main/src/pyobo/sources/credit.py.
 idspace: credit https://credit.niso.org/contributor-roles/ "Contributor Roles Taxonomy"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
 idspace: doap http://usefulinc.com/ns/doap# "Description of a Project"
@@ -12,7 +12,7 @@ property_value: dcterms:license "CC-BY-4.0" xsd:string
 property_value: dcterms:description "CRediT \(Contributor Roles Taxonomy\) is high-level taxonomy\, including 14 roles\, that can be used to represent the roles typically played by contributors to scientific scholarly output. The roles describe each contributor’s specific contribution to the scholarly output." xsd:string
 property_value: foaf:homepage "https\://credit.niso.org/" xsd:anyURI
 property_value: foaf:logo "https\://api.fairsharing.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaUFCIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--af4f02374db4f42007e6674ea2055ccaa36aa830/credit-icon-499x500-1.png?disposition=inline" xsd:anyURI
-property_value: doap:maintainer orcid:0000-0002-9298-3168
+property_value: doap:maintainer orcid:0000-0002-9298-3168 ! Liz Allen
 property_value: IAO:0000700 contributor-role
 
 [Term]

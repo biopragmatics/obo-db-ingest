@@ -8,22 +8,23 @@ A CIViC Gene Summary is created to provide a high-level overview of clinical rel
 
 | Artifact       | Download PURL                                                             | Latest Versioned Download PURL                                                       |
 |----------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.obo          | https://w3id.org/biopragmatics/resources/civic.gid/2025-08-01/civic.gid.obo          |
-| OFN            | https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.ofn          | https://w3id.org/biopragmatics/resources/civic.gid/2025-08-01/civic.gid.ofn          |
-| Nodes          | https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.tsv          | https://w3id.org/biopragmatics/resources/civic.gid/2025-08-01/civic.gid.tsv          |
-| SSSOM          | https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.sssom.tsv    | https://w3id.org/biopragmatics/resources/civic.gid/2025-08-01/civic.gid.sssom.tsv    |
-| Synonyms       | https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.synonyms.tsv | https://w3id.org/biopragmatics/resources/civic.gid/2025-08-01/civic.gid.synonyms.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.owl          | https://w3id.org/biopragmatics/resources/civic.gid/2025-08-01/civic.gid.owl          |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.json         | https://w3id.org/biopragmatics/resources/civic.gid/2025-08-01/civic.gid.json         |
+| OBO            | https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.obo          | https://w3id.org/biopragmatics/resources/civic.gid/2025-10-01/civic.gid.obo          |
+| OFN            | https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.ofn          | https://w3id.org/biopragmatics/resources/civic.gid/2025-10-01/civic.gid.ofn          |
+| Nodes          | https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.tsv          | https://w3id.org/biopragmatics/resources/civic.gid/2025-10-01/civic.gid.tsv          |
+| SSSOM          | https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.sssom.tsv    | https://w3id.org/biopragmatics/resources/civic.gid/2025-10-01/civic.gid.sssom.tsv    |
+| Synonyms       | https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.synonyms.tsv | https://w3id.org/biopragmatics/resources/civic.gid/2025-10-01/civic.gid.synonyms.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.owl          | https://w3id.org/biopragmatics/resources/civic.gid/2025-10-01/civic.gid.owl          |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/civic.gid/civic.gid.json         | https://w3id.org/biopragmatics/resources/civic.gid/2025-10-01/civic.gid.json         |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/civic.gid/ols-config.json        |                                                                                      |
 
 ## Summary
 
 | field       |   count |
 |-------------|---------|
-| definitions |      67 |
-| mappings    |     600 |
-| parents     |     903 |
-| properties  |     600 |
-| relations   |     569 |
-| synonyms    |    2933 |
-| terms       |     903 |
+| definitions |      68 |
+| mappings    |     601 |
+| parents     |     910 |
+| properties  |     601 |
+| relations   |     581 |
+| synonyms    |    2937 |
+| terms       |     910 |

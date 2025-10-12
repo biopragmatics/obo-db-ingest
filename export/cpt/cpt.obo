@@ -1,5 +1,5 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:34:10.904993
+auto-generated-by: PyOBO v0.12.11-dev-22fdc112 on 2025-10-12T14:57:24.813118 by https://github.com/biopragmatics/pyobo/blob/main/src/pyobo/sources/cpt.py.
 idspace: cpt https://www.aapc.com/codes/cpt-codes/ "Current Procedural Terminology"
 idspace: cvx https://biopragmatics.github.io/providers/cvx/ "Vaccine administered code set"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
@@ -340,27 +340,27 @@ xref: cvx:111
 
 [Term]
 id: cpt:90661
-name: Influenza\, MDCK\, trivalent\, PF
-def: "Influenza virus vaccine\, trivalent \(ccIIV3\)\, derived from cell cultures\, subunit\, antibiotic free\, 0.5 mL dosage\, for intramuscular use"
-xref: cvx:153
-
-[Term]
-id: cpt:90661
 name: Influenza\, MDCK\, trivalent\, preservative
 def: "Influenza virus vaccine\, trivalent \(ccIIV3\)\, derived from cell cultures\, subunit\, antibiotic free\, 0.5 mL dosage\, for intramuscular use"
 xref: cvx:320
 
 [Term]
-id: cpt:90662
-name: Influenza\, high-dose\, trivalent\, PF
-def: "Influenza virus vaccine \(IIV\)\, split virus\, preservative free\, enhanced immunogenicity via increased antigen content\, for intramuscular use"
-xref: cvx:135
+id: cpt:90661
+name: Influenza\, MDCK\, trivalent\, PF
+def: "Influenza virus vaccine\, trivalent \(ccIIV3\)\, derived from cell cultures\, subunit\, antibiotic free\, 0.5 mL dosage\, for intramuscular use"
+xref: cvx:153
 
 [Term]
 id: cpt:90662
 name: Influenza\, high-dose\, quadrivalent\, PF
 def: "Influenza virus vaccine \(IIV\)\, split virus\, preservative free\, enhanced immunogenicity via increased antigen content\, for intramuscular use"
 xref: cvx:197
+
+[Term]
+id: cpt:90662
+name: Influenza\, high-dose\, trivalent\, PF
+def: "Influenza virus vaccine \(IIV\)\, split virus\, preservative free\, enhanced immunogenicity via increased antigen content\, for intramuscular use"
+xref: cvx:135
 
 [Term]
 id: cpt:90663
@@ -674,15 +674,15 @@ xref: cvx:21
 
 [Term]
 id: cpt:90717
-name: yellow fever live
-def: "Yellow fever vaccine\, live\, for subcutaneous use"
-xref: cvx:37
-
-[Term]
-id: cpt:90717
 name: Yellow fever vaccine live - alt
 def: "Yellow fever vaccine\, live\, for subcutaneous use"
 xref: cvx:183
+
+[Term]
+id: cpt:90717
+name: yellow fever live
+def: "Yellow fever vaccine\, live\, for subcutaneous use"
+xref: cvx:37
 
 [Term]
 id: cpt:90720
@@ -1044,3 +1044,9 @@ name: COVID-19\, mRNA\, LNP-S\, PF\, 50 mcg/0.5 mL
 def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, 50 mcg/0.5 mL dosage\, for intramuscular use"
 comment: "Fall COVID-19 vaccine starting 2023"
 xref: cvx:312
+
+[Term]
+id: cpt:91323
+name: COVID-19\, mRNA\, LNP-S\, PF\, 10 mcg/0.2 mL
+def: "Severe acute respiratory syndrome coronavirus 2 \(SARS-CoV-2\) \(coronavirus disease \[COVID-19\]\) vaccine\, mRNA-LNP\, 10 mcg/0.2 mL dosage\, for intramuscular use"
+xref: cvx:334

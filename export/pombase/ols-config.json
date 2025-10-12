@@ -1,0 +1,33 @@
+{
+  "id": "pombase",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/pombase/pombase.owl",
+  "creator": [
+    "Valerie Wood"
+  ],
+  "preferredPrefix": "pombase",
+  "title": "PomBase",
+  "description": "PomBase is a model organism database established to provide access to molecular data and biological information for the fission yeast Schizosaccharomyces pombe. It encompasses annotation of genomic sequence and features, comprehensive manual literature curation and genome-wide data sets. Licensed under CC-BY-4.0.",
+  "uri": "https://www.pombase.org/",
+  "homepage": "https://www.pombase.org/",
+  "mailing_list": "vw253@cam.ac.uk",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "https://www.pombase.org/gene/"
+  ]
+}

@@ -8,13 +8,14 @@ SwissLipids is a curated resource that provides information about known lipids, 
 
 | Artifact       | Download PURL                                                             | Latest Versioned Download PURL                                                       |
 |----------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/slm/slm.obo.gz                   | https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.obo.gz                   |
-| OFN            | https://w3id.org/biopragmatics/resources/slm/slm.ofn.gz                   | https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.ofn.gz                   |
-| Nodes          | https://w3id.org/biopragmatics/resources/slm/slm.tsv.gz                   | https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.tsv.gz                   |
-| SSSOM          | https://w3id.org/biopragmatics/resources/slm/slm.sssom.tsv                | https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.sssom.tsv                |
-| Synonyms       | https://w3id.org/biopragmatics/resources/slm/slm.synonyms.synonyms.tsv.gz | https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.synonyms.synonyms.tsv.gz |
-| OWL            | https://w3id.org/biopragmatics/resources/slm/slm.owl.gz                   | https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.owl.gz                   |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/slm/slm.json.gz                  | https://w3id.org/biopragmatics/resources/slm/2025-08-18/slm.json.gz                  |
+| OBO            | https://w3id.org/biopragmatics/resources/slm/slm.obo.gz                   | https://w3id.org/biopragmatics/resources/slm/2025-05-13/slm.obo.gz                   |
+| OFN            | https://w3id.org/biopragmatics/resources/slm/slm.ofn.gz                   | https://w3id.org/biopragmatics/resources/slm/2025-05-13/slm.ofn.gz                   |
+| Nodes          | https://w3id.org/biopragmatics/resources/slm/slm.tsv.gz                   | https://w3id.org/biopragmatics/resources/slm/2025-05-13/slm.tsv.gz                   |
+| SSSOM          | https://w3id.org/biopragmatics/resources/slm/slm.sssom.tsv                | https://w3id.org/biopragmatics/resources/slm/2025-05-13/slm.sssom.tsv                |
+| Synonyms       | https://w3id.org/biopragmatics/resources/slm/slm.synonyms.synonyms.tsv.gz | https://w3id.org/biopragmatics/resources/slm/2025-05-13/slm.synonyms.synonyms.tsv.gz |
+| OWL            | https://w3id.org/biopragmatics/resources/slm/slm.owl.gz                   | https://w3id.org/biopragmatics/resources/slm/2025-05-13/slm.owl.gz                   |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/slm/slm.json.gz                  | https://w3id.org/biopragmatics/resources/slm/2025-05-13/slm.json.gz                  |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/slm/ols-config.json              |                                                                                      |
 
 ## Summary
 

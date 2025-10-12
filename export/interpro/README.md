@@ -15,6 +15,7 @@ InterPro is a database of protein families, domains and functional sites in whic
 | Synonyms       | https://w3id.org/biopragmatics/resources/interpro/interpro.synonyms.tsv | https://w3id.org/biopragmatics/resources/interpro/106.0/interpro.synonyms.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/interpro/interpro.owl          | https://w3id.org/biopragmatics/resources/interpro/106.0/interpro.owl          |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/interpro/interpro.json         | https://w3id.org/biopragmatics/resources/interpro/106.0/interpro.json         |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/interpro/ols-config.json       |                                                                               |
 
 ## Summary
 

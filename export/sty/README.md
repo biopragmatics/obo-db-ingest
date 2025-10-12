@@ -15,6 +15,7 @@ UMLS Semantic Network The Semantic Network consists of (1) a set of broad subjec
 | Synonyms       | https://w3id.org/biopragmatics/resources/sty/sty.synonyms.tsv | https://w3id.org/biopragmatics/resources/sty/2025AA/sty.synonyms.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/sty/sty.owl          | https://w3id.org/biopragmatics/resources/sty/2025AA/sty.owl          |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/sty/sty.json         | https://w3id.org/biopragmatics/resources/sty/2025AA/sty.json         |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/sty/ols-config.json  |                                                                      |
 
 ## Summary
 

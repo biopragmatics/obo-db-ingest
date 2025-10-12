@@ -1,7 +1,8 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T01:00:02.414222
+auto-generated-by: PyOBO v0.12.11-dev-22fdc112 on 2025-10-12T14:04:49.112426 by https://github.com/biopragmatics/pyobo/blob/main/src/pyobo/sources/nlm/nlm_publisher.py.
 idspace: biolink https://w3id.org/biolink/vocab/ "Biolink Model"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: doap http://usefulinc.com/ns/doap# "Description of a Project"
 idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
 idspace: nlm.publisher https://bioregistry.io/nlm.publisher: "NLM Publisher Codes"
 idspace: orcid https://orcid.org/ "Open Researcher and Contributor"
@@ -14,7 +15,8 @@ property_value: dcterms:license "public domain" xsd:string
 property_value: dcterms:description "Publisher short codes appearin in the NLM Catalog." xsd:string
 property_value: foaf:homepage "https\://ftp.ncbi.nlm.nih.gov/pubmed/xmlprovidernames.txt" xsd:anyURI
 property_value: foaf:logo "https\://upload.wikimedia.org/wikipedia/commons/5/52/Logo_of_U.S._National_Library_of_Medicine.png" xsd:anyURI
-property_value: IAO:0000700 obo:nlm#publisher
+property_value: doap:mailing-list "custserv@nlm.nih.gov" xsd:string
+property_value: IAO:0000700 obo:nlm#publisher ! publisher
 
 [Term]
 id: NCBITaxon:9606

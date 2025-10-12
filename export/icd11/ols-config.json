@@ -1,0 +1,33 @@
+{
+  "id": "icd11",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/icd11/icd11.owl",
+  "creator": [
+    "ICD Helpdesk"
+  ],
+  "preferredPrefix": "icd11",
+  "title": "International Classification of Diseases, 11th Revision (Foundation Component)",
+  "description": "The ICD-11 Foundation is the comprehensive base layer of the International Classification of Diseases, encompassing all diagnostic concepts, definitions, and semantic relationships, designed for flexibility and adaptability across various use cases, including research, ontology development, and detailed health data analysis. Licensed under CC-BY-ND-3.0-IGO.",
+  "uri": "https://icd.who.int/",
+  "homepage": "https://icd.who.int/",
+  "mailing_list": "icd@who.int",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "http://id.who.int/icd/entity/"
+  ]
+}

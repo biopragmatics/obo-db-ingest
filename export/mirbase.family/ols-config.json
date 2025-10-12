@@ -1,0 +1,33 @@
+{
+  "id": "mirbase.family",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/mirbase.family/mirbase.family.owl",
+  "creator": [
+    "Sam Griffiths-Jones"
+  ],
+  "preferredPrefix": "mirbase.family",
+  "title": "miRBase Families",
+  "description": "The miRBase database is a searchable database of published miRNA sequences and annotation. Each entry in the miRBase Sequence database represents a predicted hairpin portion of a miRNA transcript (termed mir in the database), with information on the location and sequence of the mature miRNA sequence (termed miR). Both hairpin and mature sequences are available for searching and browsing, and entries can also be retrieved by name, keyword, references and annotation. All sequence and annotation data are also available for download. Licensed under public domain.",
+  "uri": "http://www.mirbase.org/",
+  "homepage": "http://www.mirbase.org/",
+  "mailing_list": "sam.griffiths-jones@manchester.ac.uk",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "http://www.mirbase.org/cgi-bin/mirna_summary.pl?fam="
+  ]
+}

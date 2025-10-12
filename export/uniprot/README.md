@@ -15,6 +15,7 @@ The UniProt Knowledgebase (UniProtKB) is a comprehensive resource for protein se
 | Synonyms       | https://w3id.org/biopragmatics/resources/uniprot/uniprot.synonyms.tsv | https://w3id.org/biopragmatics/resources/uniprot/2025_03/uniprot.synonyms.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/uniprot/uniprot.owl.gz       | https://w3id.org/biopragmatics/resources/uniprot/2025_03/uniprot.owl.gz       |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/uniprot/uniprot.json.gz      | https://w3id.org/biopragmatics/resources/uniprot/2025_03/uniprot.json.gz      |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/uniprot/ols-config.json      |                                                                               |
 
 ## Summary
 

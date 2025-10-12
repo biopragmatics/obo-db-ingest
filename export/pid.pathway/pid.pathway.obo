@@ -1,6 +1,6 @@
 format-version: 1.4
 data-version: 1.0.0
-auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T00:50:54.756677
+auto-generated-by: PyOBO v0.12.11-dev-22fdc112 on 2025-10-12T13:57:59.501949 by https://github.com/biopragmatics/pyobo/blob/main/src/pyobo/sources/pid.py.
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
 idspace: doap http://usefulinc.com/ns/doap# "Description of a Project"
 idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
@@ -12,7 +12,7 @@ property_value: dcterms:title "NCI Pathway Interaction Database\: Pathway" xsd:s
 property_value: dcterms:description "The Pathway Interaction Database is a highly-structured\, curated collection of information about known human biomolecular interactions and key cellular processes assembled into signaling pathways. This datatype provides access to pathway information." xsd:string
 property_value: foaf:homepage "https\://www.ndexbio.org/index.html#/networkset/8a2d7ee9-1513-11e9-bb6a-0ac135e8bacf" xsd:anyURI
 property_value: foaf:logo "https\://home.ndexbio.org/img/pid-logo-ndex.jpg" xsd:anyURI
-property_value: doap:maintainer orcid:0000-0002-5941-3390
+property_value: doap:maintainer orcid:0000-0002-5941-3390 ! Carl F. Schaefer
 
 [Typedef]
 id: RO:0000057

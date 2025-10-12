@@ -14,22 +14,23 @@ There are few notable resources providing access to the Enzyme Nomenclature:
 
 | Artifact       | Download PURL                                               | Latest Versioned Download PURL                                         |
 |----------------|-------------------------------------------------------------|------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/ec/ec.obo          | https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.obo          |
-| OFN            | https://w3id.org/biopragmatics/resources/ec/ec.ofn          | https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.ofn          |
-| Nodes          | https://w3id.org/biopragmatics/resources/ec/ec.tsv          | https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.tsv          |
-| SSSOM          | https://w3id.org/biopragmatics/resources/ec/ec.sssom.tsv    | https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.sssom.tsv    |
-| Synonyms       | https://w3id.org/biopragmatics/resources/ec/ec.synonyms.tsv | https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.synonyms.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/ec/ec.owl          | https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.owl          |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/ec/ec.json         | https://w3id.org/biopragmatics/resources/ec/2025-06-18/ec.json         |
+| OBO            | https://w3id.org/biopragmatics/resources/ec/ec.obo          | https://w3id.org/biopragmatics/resources/ec/2025-04-09/ec.obo          |
+| OFN            | https://w3id.org/biopragmatics/resources/ec/ec.ofn          | https://w3id.org/biopragmatics/resources/ec/2025-04-09/ec.ofn          |
+| Nodes          | https://w3id.org/biopragmatics/resources/ec/ec.tsv          | https://w3id.org/biopragmatics/resources/ec/2025-04-09/ec.tsv          |
+| SSSOM          | https://w3id.org/biopragmatics/resources/ec/ec.sssom.tsv    | https://w3id.org/biopragmatics/resources/ec/2025-04-09/ec.sssom.tsv    |
+| Synonyms       | https://w3id.org/biopragmatics/resources/ec/ec.synonyms.tsv | https://w3id.org/biopragmatics/resources/ec/2025-04-09/ec.synonyms.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/ec/ec.owl          | https://w3id.org/biopragmatics/resources/ec/2025-04-09/ec.owl          |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/ec/ec.json         | https://w3id.org/biopragmatics/resources/ec/2025-04-09/ec.json         |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/ec/ols-config.json |                                                                        |
 
 ## Summary
 
 | field       |   count |
 |-------------|---------|
-| definitions |    6919 |
+| definitions |    6915 |
 | mappings    |    1473 |
-| parents     |    7320 |
-| properties  |  256839 |
-| relations   |    4530 |
-| synonyms    |   10510 |
-| terms       |    8813 |
+| parents     |    7316 |
+| properties  |  256519 |
+| relations   |    4526 |
+| synonyms    |   10503 |
+| terms       |    8809 |

@@ -15,6 +15,7 @@ All geographical features in GeoNames are categorized into one out of nine featu
 | Synonyms       | https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.synonyms.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.owl          |                                  |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.json         |                                  |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/geonames.feature/ols-config.json               |                                  |
 
 ## Summary
 

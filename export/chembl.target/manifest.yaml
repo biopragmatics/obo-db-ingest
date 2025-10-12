@@ -1,64 +1,68 @@
-date: '2025-08-19'
+date: '2025-10-12'
 dependencies:
   bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.32-dev-90c9c85b
-  pyobo: 0.12.5-dev-2c1432a8
+  bioregistry: 0.12.44-dev-5dffe808
+  pyobo: 0.12.11-dev-22fdc112
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.tsv
     path: chembl.target/chembl.target.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.tsv
-    version_path: chembl.target/35/chembl.target.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/chembl.target/36/chembl.target.tsv
+    version_path: chembl.target/36/chembl.target.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.obo
     path: chembl.target/chembl.target.obo
-    version_iri: https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.obo
-    version_path: chembl.target/35/chembl.target.obo
+    version_iri: https://w3id.org/biopragmatics/resources/chembl.target/36/chembl.target.obo
+    version_path: chembl.target/36/chembl.target.obo
   obograph:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.json
     path: chembl.target/chembl.target.json
-    version_iri: https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.json
-    version_path: chembl.target/35/chembl.target.json
+    version_iri: https://w3id.org/biopragmatics/resources/chembl.target/36/chembl.target.json
+    version_path: chembl.target/36/chembl.target.json
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.ofn
     path: chembl.target/chembl.target.ofn
-    version_iri: https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.ofn
-    version_path: chembl.target/35/chembl.target.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/chembl.target/36/chembl.target.ofn
+    version_path: chembl.target/36/chembl.target.ofn
+  ols:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/chembl.target/ols-config.json
+    path: chembl.target/ols-config.json
   owl:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.owl
     path: chembl.target/chembl.target.owl
-    version_iri: https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.owl
-    version_path: chembl.target/35/chembl.target.owl
+    version_iri: https://w3id.org/biopragmatics/resources/chembl.target/36/chembl.target.owl
+    version_path: chembl.target/36/chembl.target.owl
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.sssom.tsv
     path: chembl.target/chembl.target.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.sssom.tsv
-    version_path: chembl.target/35/chembl.target.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/chembl.target/36/chembl.target.sssom.tsv
+    version_path: chembl.target/36/chembl.target.sssom.tsv
   summary:
     alts: 0
-    definitions: 27
+    definitions: 28
     license: CC-BY-SA-3.0
-    mappings: 9477
-    parents: 16027
-    properties: 14803
+    mappings: 9472
+    parents: 17828
+    properties: 14798
     references: 0
-    relations: 15758
+    relations: 17554
     synonyms: 0
-    terms: 16003
-    version: '35'
+    terms: 17803
+    version: '36'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.synonyms.tsv
     path: chembl.target/chembl.target.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.synonyms.tsv
-    version_path: chembl.target/35/chembl.target.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/chembl.target/36/chembl.target.synonyms.tsv
+    version_path: chembl.target/36/chembl.target.synonyms.tsv
 prefix_map:
   IAO: http://purl.obolibrary.org/obo/IAO_
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_

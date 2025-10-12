@@ -1,15 +1,18 @@
 format-version: 1.4
 data-version: 38.0
-auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T01:53:10.055058
+auto-generated-by: PyOBO v0.12.11-dev-22fdc112 on 2025-10-12T14:24:46.682425 by https://github.com/biopragmatics/pyobo/blob/main/src/pyobo/sources/pfam/pfam_clan.py.
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
+idspace: doap http://usefulinc.com/ns/doap# "Description of a Project"
 idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
-idspace: pfam.clan https://www.ebi.ac.uk/interpro/set/pfam/ "Pfam Clans"
+idspace: orcid https://orcid.org/ "Open Researcher and Contributor"
+idspace: pfam.clan https://www.ebi.ac.uk/interpro/set/pfam/ "Pfam protein clan"
 ontology: pfam.clan
-property_value: dcterms:title "Pfam Clans" xsd:string
+property_value: dcterms:title "Pfam protein clan" xsd:string
 property_value: dcterms:license "CC0-1.0" xsd:string
 property_value: dcterms:description "Higher order grouping of Pfam families" xsd:string
 property_value: foaf:homepage "https\://pfam.xfam.org" xsd:anyURI
 property_value: foaf:logo "https\://upload.wikimedia.org/wikipedia/commons/0/03/Pfam_logo.gif" xsd:anyURI
+property_value: doap:maintainer orcid:0000-0002-6982-4660 ! Alex Bateman
 
 [Term]
 id: pfam.clan:CL0001

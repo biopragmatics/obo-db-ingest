@@ -6,10 +6,12 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:CHEBI="http://purl.obolibrary.org/obo/CHEBI_"
      xmlns:RESID="http://purl.obolibrary.org/obo/RESID_"
+     xmlns:orcid="https://orcid.org/"
      xmlns:unimod="http://www.unimod.org/modifications_view.php?editid1="
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -18,9 +20,11 @@
         <dcterms:description>The post-translational modifications used in the UniProt knowledgebase (Swiss-Prot and TrEMBL). The definition of the post-translational modifications usage as well as other information is provided in the following format</dcterms:description>
         <dcterms:license>CC-BY-4.0</dcterms:license>
         <dcterms:title>UniProt Post-Translational Modification</dcterms:title>
-        <oboInOwl:auto-generated-by>PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:29:06.262953</oboInOwl:auto-generated-by>
+        <doap:mailing-list>help@uniprot.org</doap:mailing-list>
+        <doap:maintainer rdf:resource="https://orcid.org/0000-0002-6982-4660"/>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.11-dev-22fdc112 on 2025-10-12T14:57:20.667542 by https://github.com/biopragmatics/pyobo/blob/main/src/pyobo/sources/uniprot/uniprot_ptm.py.</oboInOwl:auto-generated-by>
         <foaf:homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist</foaf:homepage>
-        <foaf:logo rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uniprot.org/og-uniprot-wide-logo-1200x630.png</foaf:logo>
+        <foaf:logo rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uniprot.org/uniprot-logo.img.0df091.svg</foaf:logo>
     </owl:Ontology>
     
 
@@ -51,6 +55,18 @@
     <!-- http://purl.org/dc/terms/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://usefulinc.com/ns/doap#mailing-list -->
+
+    <owl:AnnotationProperty rdf:about="http://usefulinc.com/ns/doap#mailing-list"/>
+    
+
+
+    <!-- http://usefulinc.com/ns/doap#maintainer -->
+
+    <owl:AnnotationProperty rdf:about="http://usefulinc.com/ns/doap#maintainer"/>
     
 
 

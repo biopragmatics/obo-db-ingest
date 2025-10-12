@@ -15,6 +15,7 @@ The ICD-11 Foundation is the comprehensive base layer of the International Class
 | Synonyms       | https://w3id.org/biopragmatics/resources/icd11/icd11.synonyms.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/icd11/icd11.owl          |                                  |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/icd11/icd11.json         |                                  |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/icd11/ols-config.json    |                                  |
 
 ## Summary
 

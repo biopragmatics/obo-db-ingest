@@ -10,7 +10,7 @@
         "val" : "Current Procedural Terminology"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-        "val" : "PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:34:10.904993"
+        "val" : "PyOBO v0.12.11-dev-22fdc112 on 2025-10-12T14:57:24.813118 by https://github.com/biopragmatics/pyobo/blob/main/src/pyobo/sources/cpt.py."
       }, {
         "pred" : "http://xmlns.com/foaf/0.1/homepage",
         "val" : "https://www.aapc.com"
@@ -2119,6 +2119,19 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
           "val" : "https://biopragmatics.github.io/providers/cvx/312"
+        } ]
+      }
+    }, {
+      "id" : "https://www.aapc.com/codes/cpt-codes/91323",
+      "lbl" : "COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, 10 mcg/0.2 mL dosage, for intramuscular use"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "https://biopragmatics.github.io/providers/cvx/334"
         } ]
       }
     } ]

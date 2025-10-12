@@ -1,0 +1,35 @@
+{
+  "id": "uniprot",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/uniprot/uniprot.owl.gz",
+  "creator": [
+    "Alex Bateman",
+    "Alan Bridge",
+    "Cathy Wu"
+  ],
+  "preferredPrefix": "uniprot",
+  "title": "UniProt Protein",
+  "description": "The UniProt Knowledgebase (UniProtKB) is a comprehensive resource for protein sequence and functional information with extensive cross-references to more than 120 external databases. Besides amino acid sequence and a description, it also provides taxonomic data and citation information. Licensed under CC-BY-4.0.",
+  "uri": "http://www.uniprot.org",
+  "homepage": "http://www.uniprot.org",
+  "mailing_list": "agb@ebi.ac.uk",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "http://purl.uniprot.org/uniprot/"
+  ]
+}

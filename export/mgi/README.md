@@ -15,6 +15,7 @@ The Mouse Genome Database (MGD) project includes data on gene characterization, 
 | Synonyms       | https://w3id.org/biopragmatics/resources/mgi/mgi.synonyms.tsv | https://w3id.org/biopragmatics/resources/mgi/6.24/mgi.synonyms.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/mgi/mgi.owl.gz       | https://w3id.org/biopragmatics/resources/mgi/6.24/mgi.owl.gz       |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/mgi/mgi.json.gz      | https://w3id.org/biopragmatics/resources/mgi/6.24/mgi.json.gz      |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/mgi/ols-config.json  |                                                                    |
 
 ## Summary
 

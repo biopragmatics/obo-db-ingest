@@ -15,6 +15,7 @@ SNPs and other variants that can be mapped to dbSNP.
 | Synonyms       | https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.synonyms.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.owl          |                                  |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.json         |                                  |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/pharmgkb.variant/ols-config.json               |                                  |
 
 ## Summary
 

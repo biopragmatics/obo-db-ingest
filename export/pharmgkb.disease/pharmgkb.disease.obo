@@ -1,5 +1,5 @@
 format-version: 1.4
-auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T00:20:57.519969
+auto-generated-by: PyOBO v0.12.11-dev-22fdc112 on 2025-10-12T13:49:34.531042 by https://github.com/biopragmatics/pyobo/blob/main/src/pyobo/sources/pharmgkb/pharmgkb_disease.py.
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
 idspace: doap http://usefulinc.com/ns/doap# "Description of a Project"
 idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
@@ -17,7 +17,8 @@ property_value: dcterms:license "CC-BY-SA-4.0" xsd:string
 property_value: dcterms:description "The PharmGKB database is a central repository for genetic\, genomic\, molecular and cellular phenotype data and clinical information about people who have participated in pharmacogenomics research studies. The data includes\, but is not limited to\, clinical and basic pharmacokinetic and pharmacogenomic research in the cardiovascular\, pulmonary\, cancer\, pathways\, metabolic and transporter domains." xsd:string
 property_value: foaf:homepage "http\://www.pharmgkb.org/" xsd:anyURI
 property_value: foaf:logo "https\://rxgenomix.com/wp-content/uploads/2019/10/pharmgKB.png" xsd:anyURI
-property_value: doap:maintainer orcid:0000-0001-5527-6475
+property_value: doap:mailing-list "feedback@clinpgx.org" xsd:string
+property_value: doap:maintainer orcid:0000-0001-5527-6475 ! Teri E Klein
 
 [Term]
 id: pharmgkb.disease:PA128406954

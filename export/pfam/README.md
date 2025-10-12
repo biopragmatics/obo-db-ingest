@@ -1,4 +1,4 @@
-# Pfam
+# Pfam protein family
 
 The Pfam database contains information about protein domains and families. For each entry a protein sequence alignment and a Hidden Markov Model is stored.
 
@@ -15,6 +15,7 @@ The Pfam database contains information about protein domains and families. For e
 | Synonyms       | https://w3id.org/biopragmatics/resources/pfam/pfam.synonyms.tsv | https://w3id.org/biopragmatics/resources/pfam/38.0/pfam.synonyms.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/pfam/pfam.owl          | https://w3id.org/biopragmatics/resources/pfam/38.0/pfam.owl          |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/pfam/pfam.json         | https://w3id.org/biopragmatics/resources/pfam/38.0/pfam.json         |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/pfam/ols-config.json   |                                                                      |
 
 ## Summary
 

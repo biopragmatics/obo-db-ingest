@@ -15,6 +15,7 @@ The Saccharomyces Genome Database (SGD) project collects information and maintai
 | Synonyms       | https://w3id.org/biopragmatics/resources/sgd/sgd.synonyms.tsv | https://w3id.org/biopragmatics/resources/sgd/R64-5-1/sgd.synonyms.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/sgd/sgd.owl          | https://w3id.org/biopragmatics/resources/sgd/R64-5-1/sgd.owl          |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/sgd/sgd.json         | https://w3id.org/biopragmatics/resources/sgd/R64-5-1/sgd.json         |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/sgd/ols-config.json  |                                                                       |
 
 ## Summary
 

@@ -24,8 +24,9 @@
         <dcterms:description>The PharmGKB database is a central repository for genetic, genomic, molecular and cellular phenotype data and clinical information about people who have participated in pharmacogenomics research studies. The data includes, but is not limited to, clinical and basic pharmacokinetic and pharmacogenomic research in the cardiovascular, pulmonary, cancer, pathways, metabolic and transporter domains.</dcterms:description>
         <dcterms:license>CC-BY-SA-4.0</dcterms:license>
         <dcterms:title>PharmGKB Disease</dcterms:title>
+        <doap:mailing-list>feedback@clinpgx.org</doap:mailing-list>
         <doap:maintainer rdf:resource="https://orcid.org/0000-0001-5527-6475"/>
-        <oboInOwl:auto-generated-by>PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T00:20:57.519969</oboInOwl:auto-generated-by>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.11-dev-22fdc112 on 2025-10-12T13:49:34.531042 by https://github.com/biopragmatics/pyobo/blob/main/src/pyobo/sources/pharmgkb/pharmgkb_disease.py.</oboInOwl:auto-generated-by>
         <foaf:homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.pharmgkb.org/</foaf:homepage>
         <foaf:logo rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://rxgenomix.com/wp-content/uploads/2019/10/pharmgKB.png</foaf:logo>
     </owl:Ontology>
@@ -58,6 +59,12 @@
     <!-- http://purl.org/dc/terms/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://usefulinc.com/ns/doap#mailing-list -->
+
+    <owl:AnnotationProperty rdf:about="http://usefulinc.com/ns/doap#mailing-list"/>
     
 
 

@@ -5,8 +5,10 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:orcid="https://orcid.org/"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:pfam.clan="https://www.ebi.ac.uk/interpro/set/pfam/">
@@ -14,8 +16,9 @@
         <owl:versionIRI rdf:resource="https://w3id.org/biopragmatics/resources/pfam.clan/38.0/pfam.clan.ofn"/>
         <dcterms:description>Higher order grouping of Pfam families</dcterms:description>
         <dcterms:license>CC0-1.0</dcterms:license>
-        <dcterms:title>Pfam Clans</dcterms:title>
-        <oboInOwl:auto-generated-by>PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T01:53:10.055058</oboInOwl:auto-generated-by>
+        <dcterms:title>Pfam protein clan</dcterms:title>
+        <doap:maintainer rdf:resource="https://orcid.org/0000-0002-6982-4660"/>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.11-dev-22fdc112 on 2025-10-12T14:24:46.682425 by https://github.com/biopragmatics/pyobo/blob/main/src/pyobo/sources/pfam/pfam_clan.py.</oboInOwl:auto-generated-by>
         <owl:versionInfo>38.0</owl:versionInfo>
         <foaf:homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://pfam.xfam.org</foaf:homepage>
         <foaf:logo rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://upload.wikimedia.org/wikipedia/commons/0/03/Pfam_logo.gif</foaf:logo>
@@ -49,6 +52,12 @@
     <!-- http://purl.org/dc/terms/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://usefulinc.com/ns/doap#maintainer -->
+
+    <owl:AnnotationProperty rdf:about="http://usefulinc.com/ns/doap#maintainer"/>
     
 
 

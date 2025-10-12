@@ -1,0 +1,33 @@
+{
+  "id": "flybase",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/flybase/flybase.owl",
+  "creator": [
+    "Victoria K. Jenkins"
+  ],
+  "preferredPrefix": "FlyBase",
+  "title": "FlyBase Gene",
+  "description": "FlyBase is the database of the Drosophila Genome Projects and of associated literature. Licensed under CC-BY-4.0.",
+  "uri": "https://bioentity.link/",
+  "homepage": "https://bioentity.link/",
+  "mailing_list": "vjenkins@morgan.harvard.edu",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "https://flybase.org/reports/"
+  ]
+}

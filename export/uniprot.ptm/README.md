@@ -15,6 +15,7 @@ The post-translational modifications used in the UniProt knowledgebase (Swiss-Pr
 | Synonyms       | https://w3id.org/biopragmatics/resources/uniprot.ptm/uniprot.ptm.synonyms.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/uniprot.ptm/uniprot.ptm.owl          |                                  |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/uniprot.ptm/uniprot.ptm.json         |                                  |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/uniprot.ptm/ols-config.json          |                                  |
 
 ## Summary
 

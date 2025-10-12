@@ -1,0 +1,33 @@
+{
+  "id": "slm",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/slm/slm.owl.gz",
+  "creator": [
+    "Alan Bridge"
+  ],
+  "preferredPrefix": "SLM",
+  "title": "SwissLipid",
+  "description": "SwissLipids is a curated resource that provides information about known lipids, including lipid structure, metabolism, interactions, and subcellular and tissue localization. Information is curated from peer-reviewed literature and referenced using established ontologies, and provided with full provenance and evidence codes for curated assertions. Licensed under CC-BY-4.0.",
+  "uri": "http://www.swisslipids.org/#/",
+  "homepage": "http://www.swisslipids.org/#/",
+  "mailing_list": "swisslipids@isb-sib.ch",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "https://www.swisslipids.org/#/entity/SLM:"
+  ]
+}

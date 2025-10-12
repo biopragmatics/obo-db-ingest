@@ -1,8 +1,8 @@
-date: '2025-08-19'
+date: '2025-10-12'
 dependencies:
   bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.32-dev-90c9c85b
-  pyobo: 0.12.5-dev-2c1432a8
+  bioregistry: 0.12.44-dev-5dffe808
+  pyobo: 0.12.11-dev-22fdc112
 errored: false
 manifest:
   nodes:
@@ -29,6 +29,10 @@ manifest:
     path: uniprot/uniprot.ofn.gz
     version_iri: https://w3id.org/biopragmatics/resources/uniprot/2025_03/uniprot.ofn.gz
     version_path: uniprot/2025_03/uniprot.ofn.gz
+  ols:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/uniprot/ols-config.json
+    path: uniprot/ols-config.json
   owl:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/uniprot/uniprot.owl.gz
@@ -63,13 +67,13 @@ prefix_map:
   CHEBI: http://purl.obolibrary.org/obo/CHEBI_
   EC: https://www.enzyme-database.org/query.php?ec=
   GO: http://purl.obolibrary.org/obo/GO_
-  IAO: http://purl.obolibrary.org/obo/IAO_
   NCBIGene: http://purl.uniprot.org/geneid/
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
   RO: http://purl.obolibrary.org/obo/RO_
   dcterms: http://purl.org/dc/terms/
   doap: http://usefulinc.com/ns/doap#
   foaf: http://xmlns.com/foaf/0.1/
+  mito: http://purl.org/spar/mito/
   obo: http://purl.obolibrary.org/obo/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
   orcid: https://orcid.org/

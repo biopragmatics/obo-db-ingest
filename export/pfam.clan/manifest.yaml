@@ -1,8 +1,8 @@
-date: '2025-08-19'
+date: '2025-10-12'
 dependencies:
   bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.32-dev-90c9c85b
-  pyobo: 0.12.5-dev-2c1432a8
+  bioregistry: 0.12.44-dev-5dffe808
+  pyobo: 0.12.11-dev-22fdc112
 errored: false
 manifest:
   nodes:
@@ -29,6 +29,10 @@ manifest:
     path: pfam.clan/pfam.clan.ofn
     version_iri: https://w3id.org/biopragmatics/resources/pfam.clan/38.0/pfam.clan.ofn
     version_path: pfam.clan/38.0/pfam.clan.ofn
+  ols:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pfam.clan/ols-config.json
+    path: pfam.clan/ols-config.json
   owl:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.owl
@@ -61,8 +65,10 @@ manifest:
     version_path: pfam.clan/38.0/pfam.clan.synonyms.tsv
 prefix_map:
   dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
   foaf: http://xmlns.com/foaf/0.1/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
   pfam.clan: https://www.ebi.ac.uk/interpro/set/pfam/
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#

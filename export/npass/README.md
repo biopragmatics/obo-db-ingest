@@ -2,7 +2,6 @@
 
 Database for integrating species source of natural products & connecting natural products to biological targets via  experimental-derived quantitative activity data.
 
-
 **License**: CC-BY-NC
 
 ## PURLs
@@ -16,6 +15,7 @@ Database for integrating species source of natural products & connecting natural
 | Synonyms       | https://w3id.org/biopragmatics/resources/npass/npass.synonyms.tsv | https://w3id.org/biopragmatics/resources/npass/2.0/npass.synonyms.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/npass/npass.owl          | https://w3id.org/biopragmatics/resources/npass/2.0/npass.owl          |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/npass/npass.json         | https://w3id.org/biopragmatics/resources/npass/2.0/npass.json         |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/npass/ols-config.json    |                                                                       |
 
 ## Summary
 

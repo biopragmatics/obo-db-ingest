@@ -17,6 +17,7 @@ operated by California Digital Library, Crossref, and Datacite.
 | Synonyms       | https://w3id.org/biopragmatics/resources/ror/ror.synonyms.tsv | https://w3id.org/biopragmatics/resources/ror/1.36/ror.synonyms.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/ror/ror.owl.gz       | https://w3id.org/biopragmatics/resources/ror/1.36/ror.owl.gz       |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/ror/ror.json.gz      | https://w3id.org/biopragmatics/resources/ror/1.36/ror.json.gz      |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/ror/ols-config.json  |                                                                    |
 
 ## Summary
 

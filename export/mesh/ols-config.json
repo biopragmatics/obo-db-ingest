@@ -1,0 +1,33 @@
+{
+  "id": "mesh",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/mesh/mesh.owl.gz",
+  "creator": [
+    "NLM Customer Service"
+  ],
+  "preferredPrefix": "mesh",
+  "title": "Medical Subject Headings",
+  "description": "MeSH (Medical Subject Headings) is the National Library of Medicine's controlled vocabulary thesaurus. It consists of sets of terms naming descriptors in a hierarchical structure that permits searching at various levels of specificity. This thesaurus is used by NLM for indexing articles from biomedical journals, cataloguing of books, documents, etc. Licensed under CC0-1.0.",
+  "uri": "https://www.nlm.nih.gov/",
+  "homepage": "https://www.nlm.nih.gov/",
+  "mailing_list": "custserv@nlm.nih.gov",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "http://id.nlm.nih.gov/mesh/"
+  ]
+}

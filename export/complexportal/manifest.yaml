@@ -1,64 +1,68 @@
-date: '2025-08-19'
+date: '2025-10-12'
 dependencies:
   bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.32-dev-90c9c85b
-  pyobo: 0.12.5-dev-2c1432a8
+  bioregistry: 0.12.44-dev-5dffe808
+  pyobo: 0.12.11-dev-22fdc112
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/complexportal/complexportal.tsv
     path: complexportal/complexportal.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2025-03-28/complexportal.tsv
-    version_path: complexportal/2025-03-28/complexportal.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2025-08-08/complexportal.tsv
+    version_path: complexportal/2025-08-08/complexportal.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/complexportal/complexportal.obo
     path: complexportal/complexportal.obo
-    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2025-03-28/complexportal.obo
-    version_path: complexportal/2025-03-28/complexportal.obo
+    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2025-08-08/complexportal.obo
+    version_path: complexportal/2025-08-08/complexportal.obo
   obograph:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/complexportal/complexportal.json
     path: complexportal/complexportal.json
-    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2025-03-28/complexportal.json
-    version_path: complexportal/2025-03-28/complexportal.json
+    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2025-08-08/complexportal.json
+    version_path: complexportal/2025-08-08/complexportal.json
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/complexportal/complexportal.ofn
     path: complexportal/complexportal.ofn
-    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2025-03-28/complexportal.ofn
-    version_path: complexportal/2025-03-28/complexportal.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2025-08-08/complexportal.ofn
+    version_path: complexportal/2025-08-08/complexportal.ofn
+  ols:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/complexportal/ols-config.json
+    path: complexportal/ols-config.json
   owl:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/complexportal/complexportal.owl
     path: complexportal/complexportal.owl
-    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2025-03-28/complexportal.owl
-    version_path: complexportal/2025-03-28/complexportal.owl
+    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2025-08-08/complexportal.owl
+    version_path: complexportal/2025-08-08/complexportal.owl
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/complexportal/complexportal.sssom.tsv
     path: complexportal/complexportal.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2025-03-28/complexportal.sssom.tsv
-    version_path: complexportal/2025-03-28/complexportal.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2025-08-08/complexportal.sssom.tsv
+    version_path: complexportal/2025-08-08/complexportal.sssom.tsv
   summary:
     alts: 0
-    definitions: 5031
+    definitions: 5171
     license: CC0-1.0
-    mappings: 11001
-    parents: 5031
-    properties: 34594
-    references: 13429
-    relations: 5031
-    synonyms: 12384
-    terms: 5031
-    version: '2025-03-28'
+    mappings: 11997
+    parents: 5171
+    properties: 35631
+    references: 13845
+    relations: 5171
+    synonyms: 12570
+    terms: 5171
+    version: '2025-08-08'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/complexportal/complexportal.synonyms.tsv
     path: complexportal/complexportal.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2025-03-28/complexportal.synonyms.tsv
-    version_path: complexportal/2025-03-28/complexportal.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/complexportal/2025-08-08/complexportal.synonyms.tsv
+    version_path: complexportal/2025-08-08/complexportal.synonyms.tsv
 prefix_map:
   BFO: http://purl.obolibrary.org/obo/BFO_
   CHEBI: http://purl.obolibrary.org/obo/CHEBI_
@@ -79,7 +83,7 @@ prefix_map:
   humap: https://humap3.proteincomplexes.org/displayComplexes?complex_key=
   intact: https://www.ebi.ac.uk/intact/interaction/
   matrixdb: http://matrixdb.univ-lyon1.fr/cgi-bin/current/newPort?type=biomolecule&value=
-  obo: http://purl.obolibrary.org/obo/
+  mito: http://purl.org/spar/mito/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
   orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#

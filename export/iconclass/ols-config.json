@@ -1,0 +1,33 @@
+{
+  "id": "iconclass",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/iconclass/iconclass.owl",
+  "creator": [
+    "Etienne Posthumus"
+  ],
+  "preferredPrefix": "iconclass",
+  "title": "Iconclass Classification",
+  "description": "A classification system for the subject matter of works of art, originating from work from Henri van de Waal in the 1940.",
+  "uri": "https://iconclass.org",
+  "homepage": "https://iconclass.org",
+  "mailing_list": "info@iconclass.org",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "https://iconclass.org/"
+  ]
+}

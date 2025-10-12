@@ -1,8 +1,8 @@
-date: '2025-08-19'
+date: '2025-10-12'
 dependencies:
   bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.32-dev-90c9c85b
-  pyobo: 0.12.5-dev-2c1432a8
+  bioregistry: 0.12.44-dev-5dffe808
+  pyobo: 0.12.11-dev-22fdc112
 errored: false
 manifest:
   nodes:
@@ -21,6 +21,10 @@ manifest:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.ofn
     path: pharmgkb.variant/pharmgkb.variant.ofn
+  ols:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/pharmgkb.variant/ols-config.json
+    path: pharmgkb.variant/ols-config.json
   owl:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/pharmgkb.variant/pharmgkb.variant.owl
@@ -48,9 +52,11 @@ manifest:
 prefix_map:
   dbsnp: https://www.ncbi.nlm.nih.gov/snp/
   dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
   foaf: http://xmlns.com/foaf/0.1/
   obo: http://purl.obolibrary.org/obo/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
   pharmgkb.gene: http://www.pharmgkb.org/gene/
   pharmgkb.variant: https://www.pharmgkb.org/variant/

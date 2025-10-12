@@ -1,0 +1,33 @@
+{
+  "id": "chembl.target",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.owl",
+  "creator": [
+    "David Mendez Lopez"
+  ],
+  "preferredPrefix": "chembl.target",
+  "title": "ChEMBL target",
+  "description": "ChEMBL is a database of bioactive compounds, their quantitative properties and bioactivities (binding constants, pharmacology and ADMET, etc). The data is abstracted and curated from the primary scientific literature. Licensed under CC-BY-SA-3.0.",
+  "uri": "https://www.ebi.ac.uk/chembldb/",
+  "homepage": "https://www.ebi.ac.uk/chembldb/",
+  "mailing_list": "chembl-help@ebi.ac.uk",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "https://www.ebi.ac.uk/chembl/target/inspect/"
+  ]
+}

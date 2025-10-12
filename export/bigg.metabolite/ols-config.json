@@ -1,0 +1,33 @@
+{
+  "id": "bigg.metabolite",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/bigg.metabolite/bigg.metabolite.owl",
+  "creator": [
+    "Zachary King"
+  ],
+  "preferredPrefix": "bigg.metabolite",
+  "title": "BiGG Metabolite",
+  "description": "BiGG is a knowledgebase of Biochemically, Genetically and Genomically structured genome-scale metabolic network reconstructions. It published genome-scale metabolic networks into a single database with a set of standardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations, and metabolites are linked to many external databases (KEGG, PubChem, and many more). This collection references individual metabolites. Licensed under http://bigg.ucsd.edu/license#license.",
+  "uri": "http://bigg.ucsd.edu/universal/metabolites",
+  "homepage": "http://bigg.ucsd.edu/universal/metabolites",
+  "mailing_list": "zaking@ucsd.edu",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "http://bigg.ucsd.edu/models/universal/metabolites/"
+  ]
+}

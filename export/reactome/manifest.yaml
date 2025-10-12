@@ -1,64 +1,68 @@
-date: '2025-08-19'
+date: '2025-10-12'
 dependencies:
   bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.32-dev-90c9c85b
-  pyobo: 0.12.5-dev-2c1432a8
+  bioregistry: 0.12.44-dev-5dffe808
+  pyobo: 0.12.11-dev-22fdc112
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/reactome/reactome.tsv
     path: reactome/reactome.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/reactome/93/reactome.tsv
-    version_path: reactome/93/reactome.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/reactome/94/reactome.tsv
+    version_path: reactome/94/reactome.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/reactome/reactome.obo
     path: reactome/reactome.obo
-    version_iri: https://w3id.org/biopragmatics/resources/reactome/93/reactome.obo
-    version_path: reactome/93/reactome.obo
+    version_iri: https://w3id.org/biopragmatics/resources/reactome/94/reactome.obo
+    version_path: reactome/94/reactome.obo
   obograph:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/reactome/reactome.json.gz
     path: reactome/reactome.json.gz
-    version_iri: https://w3id.org/biopragmatics/resources/reactome/93/reactome.json.gz
-    version_path: reactome/93/reactome.json.gz
+    version_iri: https://w3id.org/biopragmatics/resources/reactome/94/reactome.json.gz
+    version_path: reactome/94/reactome.json.gz
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/reactome/reactome.ofn
     path: reactome/reactome.ofn
-    version_iri: https://w3id.org/biopragmatics/resources/reactome/93/reactome.ofn
-    version_path: reactome/93/reactome.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/reactome/94/reactome.ofn
+    version_path: reactome/94/reactome.ofn
+  ols:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/reactome/ols-config.json
+    path: reactome/ols-config.json
   owl:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/reactome/reactome.owl.gz
     path: reactome/reactome.owl.gz
-    version_iri: https://w3id.org/biopragmatics/resources/reactome/93/reactome.owl.gz
-    version_path: reactome/93/reactome.owl.gz
+    version_iri: https://w3id.org/biopragmatics/resources/reactome/94/reactome.owl.gz
+    version_path: reactome/94/reactome.owl.gz
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/reactome/reactome.sssom.tsv
     path: reactome/reactome.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/reactome/93/reactome.sssom.tsv
-    version_path: reactome/93/reactome.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/reactome/94/reactome.sssom.tsv
+    version_path: reactome/94/reactome.sssom.tsv
   summary:
     alts: 0
     definitions: 0
     license: CC0-1.0
     mappings: 0
-    parents: 23436
-    properties: 1184741
+    parents: 23676
+    properties: 1200057
     references: 0
-    relations: 22917
+    relations: 23157
     synonyms: 0
-    terms: 22917
-    version: '93'
+    terms: 23157
+    version: '94'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/reactome/reactome.synonyms.tsv
     path: reactome/reactome.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/reactome/93/reactome.synonyms.tsv
-    version_path: reactome/93/reactome.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/reactome/94/reactome.synonyms.tsv
+    version_path: reactome/94/reactome.synonyms.tsv
 prefix_map:
   CHEBI: http://purl.obolibrary.org/obo/CHEBI_
   IAO: http://purl.obolibrary.org/obo/IAO_
@@ -68,7 +72,7 @@ prefix_map:
   dcterms: http://purl.org/dc/terms/
   doap: http://usefulinc.com/ns/doap#
   foaf: http://xmlns.com/foaf/0.1/
-  obo: http://purl.obolibrary.org/obo/
+  mito: http://purl.org/spar/mito/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
   orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#

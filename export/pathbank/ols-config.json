@@ -1,0 +1,33 @@
+{
+  "id": "pathbank",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/pathbank/pathbank.owl.gz",
+  "creator": [
+    "David S. Wishart"
+  ],
+  "preferredPrefix": "pathbank",
+  "title": "PathBank",
+  "description": "PathBank is an interactive, visual database containing more than 100 000 machine-readable pathways found in model organisms such as humans, mice, E. coli, yeast, and Arabidopsis thaliana. Licensed under ODbL-1.0.",
+  "uri": "https://pathbank.org",
+  "homepage": "https://pathbank.org",
+  "mailing_list": "david.wishart@ualberta.ca",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "https://pathbank.org/view/"
+  ]
+}

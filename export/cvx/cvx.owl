@@ -17,8 +17,9 @@
     <owl:Ontology rdf:about="https://w3id.org/biopragmatics/resources/cvx/cvx.ofn">
         <dcterms:description>The CDC&apos;s National Center of Immunization and Respiratory Diseases (NCIRD) developed and maintains the CVX (vaccine administered) code set. The table below has the most up to date values. It includes both active and inactive vaccines available in the US. CVX codes for inactive vaccines allow transmission of historical immunization records.</dcterms:description>
         <dcterms:title>Vaccine administered code set</dcterms:title>
-        <oboInOwl:auto-generated-by>PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:29:08.420049</oboInOwl:auto-generated-by>
+        <oboInOwl:auto-generated-by>PyOBO v0.12.11-dev-22fdc112 on 2025-10-12T14:57:22.692546 by https://github.com/biopragmatics/pyobo/blob/main/src/pyobo/sources/cvx.py.</oboInOwl:auto-generated-by>
         <foaf:homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx</foaf:homepage>
+        <foaf:logo rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www2.cdc.gov/TemplatePackage/4.0/assets/imgs/logo/logo-notext.svg</foaf:logo>
     </owl:Ontology>
     
 
@@ -108,6 +109,12 @@
     <!-- http://xmlns.com/foaf/0.1/homepage -->
 
     <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/logo -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/logo"/>
     
 
 
@@ -1805,7 +1812,7 @@
         <cvx1:status>Active</cvx1:status>
         <oboInOwl:hasRelatedSynonym>Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>Associated to FDA US Licensed product JYNNEOS, non-US tradenames IMVANEX, IMVAMUNE. Review CDC &amp; FDA guidance for updates regarding administration</rdfs:comment>
-        <rdfs:label>Vaccinia, smallpox monkeypox vaccine, live attenuated, preservative free, subcutaneous or intradermal injection</rdfs:label>
+        <rdfs:label>Vaccinia, smallpox mpox vaccine, live attenuated, preservative free, subcutaneous or intradermal injection</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
     
@@ -2396,9 +2403,9 @@
     <owl:Class rdf:about="https://biopragmatics.github.io/providers/cvx/308">
         <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/213"/>
         <cvx1:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx1:nonvaccine>
-        <cvx1:status>Active</cvx1:status>
+        <cvx1:status>Inactive</cvx1:status>
         <oboInOwl:hasRelatedSynonym>COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>Pfizer Fall Seasonal 6 months through 4 years of age</rdfs:comment>
+        <rdfs:comment>EUA Revoked 08/27/2024.  Pfizer 6 months through 4 years of age.</rdfs:comment>
         <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, tris-sucrose, 3 mcg/0.3 mL dose</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
@@ -2791,6 +2798,20 @@
     
 
 
+    <!-- https://biopragmatics.github.io/providers/cvx/334 -->
+
+    <owl:Class rdf:about="https://biopragmatics.github.io/providers/cvx/334">
+        <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/213"/>
+        <cvx1:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx1:nonvaccine>
+        <cvx1:status>Active</cvx1:status>
+        <oboInOwl:hasRelatedSynonym>COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>Moderna monovalent new formulation mNEXSPIKE, starting Fall 2025, ages 12 yrs and older, BLA</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 10 mcg/0.2 mL dose</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- https://biopragmatics.github.io/providers/cvx/34 -->
 
     <owl:Class rdf:about="https://biopragmatics.github.io/providers/cvx/34">
@@ -3031,9 +3052,9 @@
         <rdfs:subClassOf rdf:resource="https://biopragmatics.github.io/providers/cvx/213"/>
         <cvx1:nonvaccine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</cvx1:nonvaccine>
         <cvx1:status>Non-US</cvx1:status>
-        <oboInOwl:hasRelatedSynonym>COVID-19 Non-US Vaccine, Product Unknown</oboInOwl:hasRelatedSynonym>
-        <rdfs:comment>Pandemic Non-US Covid Administration - specific CVX or product unknown</rdfs:comment>
-        <rdfs:label>SARS-COV-2 COVID-19 Non-US Vaccine, Specific Product Unknown</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>COVID-19 Non-US Vaccine, UNSPECIFIED</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>Unspecified code to be used to record historic Non-US COVID-19 administration.  May be used if the specific product or CVX code is not known.</rdfs:comment>
+        <rdfs:label>SARS-COV-2 (COVID-19) Non-US Vaccine, UNSPECIFIED</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
     

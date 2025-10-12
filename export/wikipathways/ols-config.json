@@ -1,0 +1,33 @@
+{
+  "id": "wikipathways",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/wikipathways/wikipathways.owl",
+  "creator": [
+    "Egon Willighagen"
+  ],
+  "preferredPrefix": "wikipathways",
+  "title": "WikiPathways",
+  "description": "WikiPathways is a database of biological pathways maintained by and for the scientific community. Licensed under CC0-1.0.",
+  "uri": "http://www.wikipathways.org/",
+  "homepage": "http://www.wikipathways.org/",
+  "mailing_list": "egon.willighagen@gmail.com",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "http://identifiers.org/wikipathways/"
+  ]
+}

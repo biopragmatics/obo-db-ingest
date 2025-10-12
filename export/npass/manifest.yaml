@@ -1,8 +1,8 @@
-date: '2025-08-19'
+date: '2025-10-12'
 dependencies:
   bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.32-dev-90c9c85b
-  pyobo: 0.12.5-dev-2c1432a8
+  bioregistry: 0.12.44-dev-5dffe808
+  pyobo: 0.12.11-dev-22fdc112
 errored: false
 manifest:
   nodes:
@@ -29,6 +29,10 @@ manifest:
     path: npass/npass.ofn
     version_iri: https://w3id.org/biopragmatics/resources/npass/2.0/npass.ofn
     version_path: npass/2.0/npass.ofn
+  ols:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/npass/ols-config.json
+    path: npass/ols-config.json
   owl:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/npass/npass.owl
@@ -62,9 +66,11 @@ manifest:
 prefix_map:
   chembl.compound: http://rdf.ebi.ac.uk/resource/chembl/molecule/
   dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
   foaf: http://xmlns.com/foaf/0.1/
   npass: https://bidd.group/NPASS/compound.php?compoundID=
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
   owl: http://www.w3.org/2002/07/owl#
   pubchem.compound: http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#

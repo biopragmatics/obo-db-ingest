@@ -1,0 +1,33 @@
+{
+  "id": "drugcentral",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/drugcentral/drugcentral.owl",
+  "creator": [
+    "Tudor Oprea"
+  ],
+  "preferredPrefix": "drugcentral",
+  "title": "Drug Central",
+  "description": "DrugCentral  provides information on active ingredients chemical entities, pharmaceutical products, drug mode of action, indications, pharmacologic action. Licensed under CC-BY-SA-4.0.",
+  "uri": "http://drugcentral.org",
+  "homepage": "http://drugcentral.org",
+  "mailing_list": "toprea@salud.unm.edu",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "http://drugcentral.org/drugcard/"
+  ]
+}

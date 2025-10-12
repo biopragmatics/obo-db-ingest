@@ -1,19 +1,19 @@
 format-version: 1.4
 data-version: 38.0
-auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T01:53:04.504201
+auto-generated-by: PyOBO v0.12.11-dev-22fdc112 on 2025-10-12T14:24:41.404246 by https://github.com/biopragmatics/pyobo/blob/main/src/pyobo/sources/pfam/pfam.py.
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
 idspace: doap http://usefulinc.com/ns/doap# "Description of a Project"
 idspace: foaf http://xmlns.com/foaf/0.1/ "Friend of a Friend"
 idspace: orcid https://orcid.org/ "Open Researcher and Contributor"
-idspace: pfam https://www.ebi.ac.uk/interpro/entry/pfam/ "Pfam"
-idspace: pfam.clan https://www.ebi.ac.uk/interpro/set/pfam/ "Pfam Clans"
+idspace: pfam https://www.ebi.ac.uk/interpro/entry/pfam/ "Pfam protein family"
+idspace: pfam.clan https://www.ebi.ac.uk/interpro/set/pfam/ "Pfam protein clan"
 ontology: pfam
-property_value: dcterms:title "Pfam" xsd:string
+property_value: dcterms:title "Pfam protein family" xsd:string
 property_value: dcterms:license "CC0-1.0" xsd:string
 property_value: dcterms:description "The Pfam database contains information about protein domains and families. For each entry a protein sequence alignment and a Hidden Markov Model is stored." xsd:string
 property_value: foaf:homepage "https\://www.ebi.ac.uk/interpro/" xsd:anyURI
 property_value: foaf:logo "https\://upload.wikimedia.org/wikipedia/commons/0/03/Pfam_logo.gif" xsd:anyURI
-property_value: doap:maintainer orcid:0000-0002-6982-4660
+property_value: doap:maintainer orcid:0000-0002-6982-4660 ! Alex Bateman
 
 [Term]
 id: pfam:PF00001

@@ -1,4 +1,4 @@
-# Rhea, the Annotated Reactions Database
+# Rhea reaction
 
  Rhea is an expert-curated knowledgebase of chemical and transport reactions of biological interest. Enzyme-catalyzed and spontaneously occurring reactions are curated from peer-reviewed literature and represented in a computationally tractable manner by using the ChEBI (Chemical Entities of Biological Interest) ontology to describe reaction participants.
 
@@ -17,6 +17,7 @@ Rhea covers the reactions described by the IUBMB Enzyme Nomenclature as well as 
 | Synonyms       | https://w3id.org/biopragmatics/resources/rhea/rhea.synonyms.tsv | https://w3id.org/biopragmatics/resources/rhea/139/rhea.synonyms.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/rhea/rhea.owl.gz       | https://w3id.org/biopragmatics/resources/rhea/139/rhea.owl.gz       |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/rhea/rhea.json.gz      | https://w3id.org/biopragmatics/resources/rhea/139/rhea.json.gz      |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/rhea/ols-config.json   |                                                                     |
 
 ## Summary
 

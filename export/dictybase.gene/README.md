@@ -15,6 +15,7 @@ The dictyBase database provides data on the model organism Dictyostelium discoid
 | Synonyms       | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.synonyms.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.owl          |                                  |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/dictybase.gene/dictybase.gene.json         |                                  |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/dictybase.gene/ols-config.json             |                                  |
 
 ## Summary
 

@@ -15,6 +15,7 @@ CRediT (Contributor Roles Taxonomy) is high-level taxonomy, including 14 roles, 
 | Synonyms       | https://w3id.org/biopragmatics/resources/credit/credit.synonyms.tsv | https://w3id.org/biopragmatics/resources/credit/2022/credit.synonyms.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/credit/credit.owl          | https://w3id.org/biopragmatics/resources/credit/2022/credit.owl          |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/credit/credit.json         | https://w3id.org/biopragmatics/resources/credit/2022/credit.json         |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/credit/ols-config.json     |                                                                          |
 
 ## Summary
 

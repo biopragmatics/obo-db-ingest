@@ -1,64 +1,68 @@
-date: '2025-08-19'
+date: '2025-10-12'
 dependencies:
   bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.32-dev-90c9c85b
-  pyobo: 0.12.5-dev-2c1432a8
+  bioregistry: 0.12.44-dev-5dffe808
+  pyobo: 0.12.11-dev-22fdc112
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/itis/itis.tsv
     path: itis/itis.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/itis/2025-08-01/itis.tsv
-    version_path: itis/2025-08-01/itis.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/itis/2025-09-24/itis.tsv
+    version_path: itis/2025-09-24/itis.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/itis/itis.obo
     path: itis/itis.obo
-    version_iri: https://w3id.org/biopragmatics/resources/itis/2025-08-01/itis.obo
-    version_path: itis/2025-08-01/itis.obo
+    version_iri: https://w3id.org/biopragmatics/resources/itis/2025-09-24/itis.obo
+    version_path: itis/2025-09-24/itis.obo
   obograph:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/itis/itis.json.gz
     path: itis/itis.json.gz
-    version_iri: https://w3id.org/biopragmatics/resources/itis/2025-08-01/itis.json.gz
-    version_path: itis/2025-08-01/itis.json.gz
+    version_iri: https://w3id.org/biopragmatics/resources/itis/2025-09-24/itis.json.gz
+    version_path: itis/2025-09-24/itis.json.gz
   ofn:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/itis/itis.ofn.gz
     path: itis/itis.ofn.gz
-    version_iri: https://w3id.org/biopragmatics/resources/itis/2025-08-01/itis.ofn.gz
-    version_path: itis/2025-08-01/itis.ofn.gz
+    version_iri: https://w3id.org/biopragmatics/resources/itis/2025-09-24/itis.ofn.gz
+    version_path: itis/2025-09-24/itis.ofn.gz
+  ols:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/itis/ols-config.json
+    path: itis/ols-config.json
   owl:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/itis/itis.owl.gz
     path: itis/itis.owl.gz
-    version_iri: https://w3id.org/biopragmatics/resources/itis/2025-08-01/itis.owl.gz
-    version_path: itis/2025-08-01/itis.owl.gz
+    version_iri: https://w3id.org/biopragmatics/resources/itis/2025-09-24/itis.owl.gz
+    version_path: itis/2025-09-24/itis.owl.gz
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/itis/itis.sssom.tsv
     path: itis/itis.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/itis/2025-08-01/itis.sssom.tsv
-    version_path: itis/2025-08-01/itis.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/itis/2025-09-24/itis.sssom.tsv
+    version_path: itis/2025-09-24/itis.sssom.tsv
   summary:
     alts: 0
     definitions: 0
     license: CC0-1.0
     mappings: 0
-    parents: 674904
+    parents: 675916
     properties: 0
     references: 0
     relations: 0
     synonyms: 0
-    terms: 978553
-    version: '2025-08-01'
+    terms: 981990
+    version: '2025-09-24'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/itis/itis.synonyms.tsv
     path: itis/itis.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/itis/2025-08-01/itis.synonyms.tsv
-    version_path: itis/2025-08-01/itis.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/itis/2025-09-24/itis.synonyms.tsv
+    version_path: itis/2025-09-24/itis.synonyms.tsv
 prefix_map:
   dcterms: http://purl.org/dc/terms/
   doap: http://usefulinc.com/ns/doap#

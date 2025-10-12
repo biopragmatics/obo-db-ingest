@@ -15,6 +15,7 @@ The PharmGKB database is a central repository for genetic, genomic, molecular an
 | Synonyms       | https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.synonyms.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.owl          |                                  |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/pharmgkb.disease/pharmgkb.disease.json         |                                  |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/pharmgkb.disease/ols-config.json               |                                  |
 
 ## Summary
 

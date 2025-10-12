@@ -10,10 +10,13 @@
         "val" : "Vaccine administered code set"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
-        "val" : "PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T02:29:08.420049"
+        "val" : "PyOBO v0.12.11-dev-22fdc112 on 2025-10-12T14:57:22.692546 by https://github.com/biopragmatics/pyobo/blob/main/src/pyobo/sources/cvx.py."
       }, {
         "pred" : "http://xmlns.com/foaf/0.1/homepage",
         "val" : "https://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx"
+      }, {
+        "pred" : "http://xmlns.com/foaf/0.1/logo",
+        "val" : "https://www2.cdc.gov/TemplatePackage/4.0/assets/imgs/logo/logo-notext.svg"
       } ]
     },
     "nodes" : [ {
@@ -2467,7 +2470,7 @@
       }
     }, {
       "id" : "https://biopragmatics.github.io/providers/cvx/206",
-      "lbl" : "Vaccinia, smallpox monkeypox vaccine, live attenuated, preservative free, subcutaneous or intradermal injection",
+      "lbl" : "Vaccinia, smallpox mpox vaccine, live attenuated, preservative free, subcutaneous or intradermal injection",
       "type" : "CLASS",
       "meta" : {
         "comments" : [ "Associated to FDA US Licensed product JYNNEOS, non-US tradenames IMVANEX, IMVAMUNE. Review CDC & FDA guidance for updates regarding administration" ],
@@ -3339,7 +3342,7 @@
       "lbl" : "SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, tris-sucrose, 3 mcg/0.3 mL dose",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "Pfizer Fall Seasonal 6 months through 4 years of age" ],
+        "comments" : [ "EUA Revoked 08/27/2024.  Pfizer 6 months through 4 years of age." ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL"
@@ -3349,7 +3352,7 @@
           "val" : "false"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/cvx#status",
-          "val" : "Active"
+          "val" : "Inactive"
         }, {
           "pred" : "http://www.w3.org/2002/07/owl#deprecated",
           "val" : "false"
@@ -3921,6 +3924,27 @@
         } ]
       }
     }, {
+      "id" : "https://biopragmatics.github.io/providers/cvx/334",
+      "lbl" : "SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 10 mcg/0.2 mL dose",
+      "type" : "CLASS",
+      "meta" : {
+        "comments" : [ "Moderna monovalent new formulation mNEXSPIKE, starting Fall 2025, ages 12 yrs and older, BLA" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
+          "val" : "false"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/cvx#status",
+          "val" : "Active"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
+        } ]
+      }
+    }, {
       "id" : "https://biopragmatics.github.io/providers/cvx/34",
       "lbl" : "rabies immune globulin",
       "type" : "CLASS",
@@ -4257,13 +4281,13 @@
       }
     }, {
       "id" : "https://biopragmatics.github.io/providers/cvx/500",
-      "lbl" : "SARS-COV-2 COVID-19 Non-US Vaccine, Specific Product Unknown",
+      "lbl" : "SARS-COV-2 (COVID-19) Non-US Vaccine, UNSPECIFIED",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "Pandemic Non-US Covid Administration - specific CVX or product unknown" ],
+        "comments" : [ "Unspecified code to be used to record historic Non-US COVID-19 administration.  May be used if the specific product or CVX code is not known." ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
-          "val" : "COVID-19 Non-US Vaccine, Product Unknown"
+          "val" : "COVID-19 Non-US Vaccine, UNSPECIFIED"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/cvx#nonvaccine",
@@ -6479,6 +6503,10 @@
       "sub" : "https://biopragmatics.github.io/providers/cvx/333",
       "pred" : "is_a",
       "obj" : "https://biopragmatics.github.io/providers/cvx/88"
+    }, {
+      "sub" : "https://biopragmatics.github.io/providers/cvx/334",
+      "pred" : "is_a",
+      "obj" : "https://biopragmatics.github.io/providers/cvx/213"
     }, {
       "sub" : "https://biopragmatics.github.io/providers/cvx/35",
       "pred" : "is_a",

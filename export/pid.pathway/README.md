@@ -15,6 +15,7 @@ The Pathway Interaction Database is a highly-structured, curated collection of i
 | Synonyms       | https://w3id.org/biopragmatics/resources/pid.pathway/pid.pathway.synonyms.tsv | https://w3id.org/biopragmatics/resources/pid.pathway/1.0.0/pid.pathway.synonyms.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/pid.pathway/pid.pathway.owl          | https://w3id.org/biopragmatics/resources/pid.pathway/1.0.0/pid.pathway.owl          |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/pid.pathway/pid.pathway.json         | https://w3id.org/biopragmatics/resources/pid.pathway/1.0.0/pid.pathway.json         |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/pid.pathway/ols-config.json          |                                                                                     |
 
 ## Summary
 

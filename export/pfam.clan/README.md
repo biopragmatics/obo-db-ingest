@@ -1,4 +1,4 @@
-# Pfam Clans
+# Pfam protein clan
 
 Higher order grouping of Pfam families
 
@@ -15,6 +15,7 @@ Higher order grouping of Pfam families
 | Synonyms       | https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.synonyms.tsv | https://w3id.org/biopragmatics/resources/pfam.clan/38.0/pfam.clan.synonyms.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.owl          | https://w3id.org/biopragmatics/resources/pfam.clan/38.0/pfam.clan.owl          |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/pfam.clan/pfam.clan.json         | https://w3id.org/biopragmatics/resources/pfam.clan/38.0/pfam.clan.json         |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/pfam.clan/ols-config.json        |                                                                                |
 
 ## Summary
 

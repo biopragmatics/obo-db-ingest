@@ -15,6 +15,7 @@ BiGG is a knowledgebase of Biochemically, Genetically and Genomically structured
 | Synonyms       | https://w3id.org/biopragmatics/resources/bigg.compartment/bigg.compartment.synonyms.tsv | https://w3id.org/biopragmatics/resources/bigg.compartment/1.6.0/bigg.compartment.synonyms.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/bigg.compartment/bigg.compartment.owl          | https://w3id.org/biopragmatics/resources/bigg.compartment/1.6.0/bigg.compartment.owl          |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/bigg.compartment/bigg.compartment.json         | https://w3id.org/biopragmatics/resources/bigg.compartment/1.6.0/bigg.compartment.json         |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/bigg.compartment/ols-config.json               |                                                                                               |
 
 ## Summary
 

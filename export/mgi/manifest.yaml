@@ -1,8 +1,8 @@
-date: '2025-08-19'
+date: '2025-10-12'
 dependencies:
   bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.32-dev-90c9c85b
-  pyobo: 0.12.5-dev-2c1432a8
+  bioregistry: 0.12.44-dev-5dffe808
+  pyobo: 0.12.11-dev-22fdc112
 errored: false
 manifest:
   nodes:
@@ -29,6 +29,10 @@ manifest:
     path: mgi/mgi.ofn.gz
     version_iri: https://w3id.org/biopragmatics/resources/mgi/6.24/mgi.ofn.gz
     version_path: mgi/6.24/mgi.ofn.gz
+  ols:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/mgi/ols-config.json
+    path: mgi/ols-config.json
   owl:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/mgi/mgi.owl.gz

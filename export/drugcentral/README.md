@@ -15,6 +15,7 @@ DrugCentral  provides information on active ingredients chemical entities, pharm
 | Synonyms       | https://w3id.org/biopragmatics/resources/drugcentral/drugcentral.synonyms.tsv | https://w3id.org/biopragmatics/resources/drugcentral/54/drugcentral.synonyms.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/drugcentral/drugcentral.owl          | https://w3id.org/biopragmatics/resources/drugcentral/54/drugcentral.owl          |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/drugcentral/drugcentral.json         | https://w3id.org/biopragmatics/resources/drugcentral/54/drugcentral.json         |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/drugcentral/ols-config.json          |                                                                                  |
 
 ## Summary
 

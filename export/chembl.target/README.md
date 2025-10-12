@@ -8,21 +8,22 @@ ChEMBL is a database of bioactive compounds, their quantitative properties and b
 
 | Artifact       | Download PURL                                                                     | Latest Versioned Download PURL                                                       |
 |----------------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.obo          | https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.obo          |
-| OFN            | https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.ofn          | https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.ofn          |
-| Nodes          | https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.tsv          | https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.tsv          |
-| SSSOM          | https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.sssom.tsv    | https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.sssom.tsv    |
-| Synonyms       | https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.synonyms.tsv | https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.synonyms.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.owl          | https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.owl          |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.json         | https://w3id.org/biopragmatics/resources/chembl.target/35/chembl.target.json         |
+| OBO            | https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.obo          | https://w3id.org/biopragmatics/resources/chembl.target/36/chembl.target.obo          |
+| OFN            | https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.ofn          | https://w3id.org/biopragmatics/resources/chembl.target/36/chembl.target.ofn          |
+| Nodes          | https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.tsv          | https://w3id.org/biopragmatics/resources/chembl.target/36/chembl.target.tsv          |
+| SSSOM          | https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.sssom.tsv    | https://w3id.org/biopragmatics/resources/chembl.target/36/chembl.target.sssom.tsv    |
+| Synonyms       | https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.synonyms.tsv | https://w3id.org/biopragmatics/resources/chembl.target/36/chembl.target.synonyms.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.owl          | https://w3id.org/biopragmatics/resources/chembl.target/36/chembl.target.owl          |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/chembl.target/chembl.target.json         | https://w3id.org/biopragmatics/resources/chembl.target/36/chembl.target.json         |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/chembl.target/ols-config.json            |                                                                                      |
 
 ## Summary
 
 | field       |   count |
 |-------------|---------|
-| definitions |      27 |
-| mappings    |    9477 |
-| parents     |   16027 |
-| properties  |   14803 |
-| relations   |   15758 |
-| terms       |   16003 |
+| definitions |      28 |
+| mappings    |    9472 |
+| parents     |   17828 |
+| properties  |   14798 |
+| relations   |   17554 |
+| terms       |   17803 |

@@ -8,23 +8,24 @@ A database that describes manually curated macromolecular complexes and provides
 
 | Artifact       | Download PURL                                                                     | Latest Versioned Download PURL                                                               |
 |----------------|-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/complexportal/complexportal.obo          | https://w3id.org/biopragmatics/resources/complexportal/2025-03-28/complexportal.obo          |
-| OFN            | https://w3id.org/biopragmatics/resources/complexportal/complexportal.ofn          | https://w3id.org/biopragmatics/resources/complexportal/2025-03-28/complexportal.ofn          |
-| Nodes          | https://w3id.org/biopragmatics/resources/complexportal/complexportal.tsv          | https://w3id.org/biopragmatics/resources/complexportal/2025-03-28/complexportal.tsv          |
-| SSSOM          | https://w3id.org/biopragmatics/resources/complexportal/complexportal.sssom.tsv    | https://w3id.org/biopragmatics/resources/complexportal/2025-03-28/complexportal.sssom.tsv    |
-| Synonyms       | https://w3id.org/biopragmatics/resources/complexportal/complexportal.synonyms.tsv | https://w3id.org/biopragmatics/resources/complexportal/2025-03-28/complexportal.synonyms.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/complexportal/complexportal.owl          | https://w3id.org/biopragmatics/resources/complexportal/2025-03-28/complexportal.owl          |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/complexportal/complexportal.json         | https://w3id.org/biopragmatics/resources/complexportal/2025-03-28/complexportal.json         |
+| OBO            | https://w3id.org/biopragmatics/resources/complexportal/complexportal.obo          | https://w3id.org/biopragmatics/resources/complexportal/2025-08-08/complexportal.obo          |
+| OFN            | https://w3id.org/biopragmatics/resources/complexportal/complexportal.ofn          | https://w3id.org/biopragmatics/resources/complexportal/2025-08-08/complexportal.ofn          |
+| Nodes          | https://w3id.org/biopragmatics/resources/complexportal/complexportal.tsv          | https://w3id.org/biopragmatics/resources/complexportal/2025-08-08/complexportal.tsv          |
+| SSSOM          | https://w3id.org/biopragmatics/resources/complexportal/complexportal.sssom.tsv    | https://w3id.org/biopragmatics/resources/complexportal/2025-08-08/complexportal.sssom.tsv    |
+| Synonyms       | https://w3id.org/biopragmatics/resources/complexportal/complexportal.synonyms.tsv | https://w3id.org/biopragmatics/resources/complexportal/2025-08-08/complexportal.synonyms.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/complexportal/complexportal.owl          | https://w3id.org/biopragmatics/resources/complexportal/2025-08-08/complexportal.owl          |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/complexportal/complexportal.json         | https://w3id.org/biopragmatics/resources/complexportal/2025-08-08/complexportal.json         |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/complexportal/ols-config.json            |                                                                                              |
 
 ## Summary
 
 | field       |   count |
 |-------------|---------|
-| definitions |    5031 |
-| mappings    |   11001 |
-| parents     |    5031 |
-| properties  |   34594 |
-| references  |   13429 |
-| relations   |    5031 |
-| synonyms    |   12384 |
-| terms       |    5031 |
+| definitions |    5171 |
+| mappings    |   11997 |
+| parents     |    5171 |
+| properties  |   35631 |
+| references  |   13845 |
+| relations   |    5171 |
+| synonyms    |   12570 |
+| terms       |    5171 |

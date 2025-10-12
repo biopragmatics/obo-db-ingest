@@ -1,0 +1,33 @@
+{
+  "id": "gtdb",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/gtdb/gtdb.owl",
+  "creator": [
+    "Donovan Parks"
+  ],
+  "preferredPrefix": "gtdb",
+  "title": "Genome Taxonomy Database",
+  "description": "The Genome Taxonomy Database (GTDB) is an initiative to establish a standardized microbial taxonomy based on genome phylogeny. Licensed under CC-BY-SA-4.0.",
+  "uri": "https://gtdb.ecogenomic.org",
+  "homepage": "https://gtdb.ecogenomic.org",
+  "mailing_list": "donovan.parks@gmail.com",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "https://gtdb.ecogenomic.org/tree?r="
+  ]
+}

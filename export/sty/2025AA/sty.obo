@@ -1,6 +1,6 @@
 format-version: 1.4
 data-version: 2025AA
-auto-generated-by: PyOBO v0.12.5-dev-2c1432a8 on 2025-08-19T00:59:59.609451
+auto-generated-by: PyOBO v0.12.11-dev-22fdc112 on 2025-10-12T14:04:46.372983 by https://github.com/biopragmatics/pyobo/blob/main/src/pyobo/sources/umls/sty.py.
 idspace: biolink https://w3id.org/biolink/vocab/ "Biolink Model"
 idspace: dcterms http://purl.org/dc/terms/ "Dublin Core Metadata Initiative Terms"
 idspace: doap http://usefulinc.com/ns/doap# "Description of a Project"
@@ -12,7 +12,7 @@ property_value: dcterms:title "UMLS Semantic Types Ontology" xsd:string
 property_value: dcterms:description "UMLS Semantic Network The Semantic Network consists of \(1\) a set of broad subject categories\, or Semantic Types\, that provide a consistent categorization of all concepts represented in the UMLS Metathesaurus\, and \(2\) a set of useful and important relationships\, or Semantic Relations\, that exist between Semantic Types." xsd:string
 property_value: foaf:homepage "https\://lhncbc.nlm.nih.gov/semanticnetwork/" xsd:anyURI
 property_value: foaf:logo "https\://www.nlm.nih.gov/research/umls/knowledge_sources/semantic_network/semantic-network.png" xsd:anyURI
-property_value: doap:maintainer orcid:0000-0003-4769-4217
+property_value: doap:maintainer orcid:0000-0003-4769-4217 ! Olivier Bodenreider
 
 [Typedef]
 id: biolink:category

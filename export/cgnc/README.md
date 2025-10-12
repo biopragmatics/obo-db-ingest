@@ -15,6 +15,7 @@ Nomenclature Consortium around Chicken genes (analogous to the HGNC for humans)
 | Synonyms       | https://w3id.org/biopragmatics/resources/cgnc/cgnc.synonyms.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/cgnc/cgnc.owl          |                                  |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/cgnc/cgnc.json         |                                  |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/cgnc/ols-config.json   |                                  |
 
 ## Summary
 

@@ -1,0 +1,33 @@
+{
+  "id": "geonames",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/geonames/geonames.owl",
+  "creator": [
+    "Marc Wick"
+  ],
+  "preferredPrefix": "geonames",
+  "title": "GeoNames",
+  "description": "The GeoNames geographical database covers all countries and contains over eleven million placenames that are available for download free of charge. Licensed under CC-BY-4.0.",
+  "uri": "https://www.geonames.org",
+  "homepage": "https://www.geonames.org",
+  "mailing_list": "marc@geonames.org",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "https://www.geonames.org/"
+  ]
+}

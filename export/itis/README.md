@@ -8,17 +8,18 @@ Information system with taxonomic data on plants, animals, fungi, and microbes o
 
 | Artifact       | Download PURL                                                   | Latest Versioned Download PURL                                             |
 |----------------|-----------------------------------------------------------------|----------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/itis/itis.obo          | https://w3id.org/biopragmatics/resources/itis/2025-08-01/itis.obo          |
-| OFN            | https://w3id.org/biopragmatics/resources/itis/itis.ofn.gz       | https://w3id.org/biopragmatics/resources/itis/2025-08-01/itis.ofn.gz       |
-| Nodes          | https://w3id.org/biopragmatics/resources/itis/itis.tsv          | https://w3id.org/biopragmatics/resources/itis/2025-08-01/itis.tsv          |
-| SSSOM          | https://w3id.org/biopragmatics/resources/itis/itis.sssom.tsv    | https://w3id.org/biopragmatics/resources/itis/2025-08-01/itis.sssom.tsv    |
-| Synonyms       | https://w3id.org/biopragmatics/resources/itis/itis.synonyms.tsv | https://w3id.org/biopragmatics/resources/itis/2025-08-01/itis.synonyms.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/itis/itis.owl.gz       | https://w3id.org/biopragmatics/resources/itis/2025-08-01/itis.owl.gz       |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/itis/itis.json.gz      | https://w3id.org/biopragmatics/resources/itis/2025-08-01/itis.json.gz      |
+| OBO            | https://w3id.org/biopragmatics/resources/itis/itis.obo          | https://w3id.org/biopragmatics/resources/itis/2025-09-24/itis.obo          |
+| OFN            | https://w3id.org/biopragmatics/resources/itis/itis.ofn.gz       | https://w3id.org/biopragmatics/resources/itis/2025-09-24/itis.ofn.gz       |
+| Nodes          | https://w3id.org/biopragmatics/resources/itis/itis.tsv          | https://w3id.org/biopragmatics/resources/itis/2025-09-24/itis.tsv          |
+| SSSOM          | https://w3id.org/biopragmatics/resources/itis/itis.sssom.tsv    | https://w3id.org/biopragmatics/resources/itis/2025-09-24/itis.sssom.tsv    |
+| Synonyms       | https://w3id.org/biopragmatics/resources/itis/itis.synonyms.tsv | https://w3id.org/biopragmatics/resources/itis/2025-09-24/itis.synonyms.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/itis/itis.owl.gz       | https://w3id.org/biopragmatics/resources/itis/2025-09-24/itis.owl.gz       |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/itis/itis.json.gz      | https://w3id.org/biopragmatics/resources/itis/2025-09-24/itis.json.gz      |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/itis/ols-config.json   |                                                                            |
 
 ## Summary
 
 | field   |   count |
 |---------|---------|
-| parents |  674904 |
-| terms   |  978553 |
+| parents |  675916 |
+| terms   |  981990 |

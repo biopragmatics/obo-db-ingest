@@ -1,0 +1,33 @@
+{
+  "id": "icd10",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/icd10/icd10.owl",
+  "creator": [
+    "World Health Organization"
+  ],
+  "preferredPrefix": "icd10",
+  "title": "International Classification of Diseases, 10th Revision",
+  "description": "The 10th revision of the International Classification of Diseases (ICD) issued by the World Health Organization (WHO). ICD is formally named 'The International Statistical Classification of Diseases and Related Health Problems'. It contains codes for diseases, signs and symptoms, abnormal findings, complaints, social circumstances, and external causes of injury or diseases.\n\nNote that the WHO version of ICD-10 is distinct from the ICD-10-CM (Clinical Modification) issued by the U.S. National Center for Health Statistics for use in the United States. Licensed under https://cdn.who.int/media/docs/default-source/publishing-policies/copyright/who-faq-licensing-icd-10.pdf.",
+  "uri": "https://icd.who.int/browse10",
+  "homepage": "https://icd.who.int/browse10",
+  "mailing_list": "info@who.int",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "https://icd.who.int/browse10/2019/en#/"
+  ]
+}

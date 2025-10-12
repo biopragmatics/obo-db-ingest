@@ -15,6 +15,7 @@ The miRBase database is a searchable database of published miRNA sequences and a
 | Synonyms       | https://w3id.org/biopragmatics/resources/mirbase.family/mirbase.family.synonyms.tsv | https://w3id.org/biopragmatics/resources/mirbase.family/22.1/mirbase.family.synonyms.tsv |
 | OWL            | https://w3id.org/biopragmatics/resources/mirbase.family/mirbase.family.owl          | https://w3id.org/biopragmatics/resources/mirbase.family/22.1/mirbase.family.owl          |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/mirbase.family/mirbase.family.json         | https://w3id.org/biopragmatics/resources/mirbase.family/22.1/mirbase.family.json         |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/mirbase.family/ols-config.json             |                                                                                          |
 
 ## Summary
 

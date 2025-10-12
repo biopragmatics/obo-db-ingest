@@ -1,8 +1,8 @@
-date: '2025-08-19'
+date: '2025-10-12'
 dependencies:
   bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.32-dev-90c9c85b
-  pyobo: 0.12.5-dev-2c1432a8
+  bioregistry: 0.12.44-dev-5dffe808
+  pyobo: 0.12.11-dev-22fdc112
 errored: false
 manifest:
   nodes:
@@ -21,6 +21,10 @@ manifest:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/nlm/nlm.ofn
     path: nlm/nlm.ofn
+  ols:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/nlm/ols-config.json
+    path: nlm/ols-config.json
   owl:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/nlm/nlm.owl
@@ -54,6 +58,7 @@ prefix_map:
   biolink: https://w3id.org/biolink/vocab/
   dcat: http://www.w3.org/ns/dcat#
   dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
   foaf: http://xmlns.com/foaf/0.1/
   issn: https://portal.issn.org/resource/ISSN/
   nlm: https://www.ncbi.nlm.nih.gov/nlmcatalog/

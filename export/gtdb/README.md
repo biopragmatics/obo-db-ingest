@@ -15,6 +15,7 @@ The Genome Taxonomy Database (GTDB) is an initiative to establish a standardized
 | Synonyms       | https://w3id.org/biopragmatics/resources/gtdb/gtdb.synonyms.synonyms.tsv.gz | https://w3id.org/biopragmatics/resources/gtdb/226/gtdb.synonyms.synonyms.tsv.gz |
 | OWL            | https://w3id.org/biopragmatics/resources/gtdb/gtdb.owl                      | https://w3id.org/biopragmatics/resources/gtdb/226/gtdb.owl                      |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/gtdb/gtdb.json.gz                  | https://w3id.org/biopragmatics/resources/gtdb/226/gtdb.json.gz                  |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/gtdb/ols-config.json               |                                                                                 |
 
 ## Summary
 
