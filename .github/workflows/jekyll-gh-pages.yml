@@ -32,6 +32,11 @@ jobs:
           sparse-checkout: |
             *
             !*.gz
+            !*.obo
+            !*.ofn
+            !*.owl
+            !*.tsv
+            !*.json
           sparse-checkout-cone-mode: false
       - name: Setup Pages
         uses: actions/configure-pages@v5
