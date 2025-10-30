@@ -15,6 +15,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
+          sparse-checkout: |
+            build.py
+            docs/_data/manifest.yml
+            export/hgnc/*
+            export/hgnc.genegroup/*
+          sparse-checkout-cone-mode: false
           ref: ${{ github.event.pull_request.head.ref }}
 
       - name: Update Git Configuration
