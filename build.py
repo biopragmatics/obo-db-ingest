@@ -607,11 +607,17 @@ def main(minimum: str | None, xvalue: list[str], no_convert: bool, force: bool):
         no_force=not force,
     )
 
+    # load up what's already there!
+    if MANIFEST_PATH.is_file():
+        previous_data = yaml.safe_load(MANIFEST_PATH.read_text())
+    else:
+        previous_data = {}
+
     rv = {
         "date": TODAY,
         "versions": _get_build_dependency_versions(),
-        "resources": {},
-        "errors": [],
+        "resources": previous_data.get("resources", {}),
+        "errors": previous_data.get("errors", {}),
     }
 
     _tqdm_kwargs = {"unit": "ontology", "total": len(it), "desc": "obo-db-ingest"}
@@ -623,7 +629,9 @@ def main(minimum: str | None, xvalue: list[str], no_convert: bool, force: bool):
     for prefix, result, errored in mm:
         rv["resources"][prefix] = result
         if errored:
-            rv["errors"].append(prefix)
+            rv["errors"][prefix] = True
+        elif prefix in rv['errors']:
+            del rv['errors'][prefix]
 
         MANIFEST_PATH.write_text(yaml.safe_dump(rv))
 
