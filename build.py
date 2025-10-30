@@ -41,10 +41,15 @@ import bioontologies.version
 import bioregistry
 import bioregistry.version
 import bioversions
+import bioversions.version
 import click
+import curies.version
+import obographs.version
 import pyobo.constants
 import pyobo.version
 import pystow.utils
+import ssslm.version
+import sssom_pydantic.version
 import yaml
 from bioontologies.robot import convert
 from more_click import verbose_option
@@ -631,6 +636,11 @@ def _get_build_dependency_versions() -> dict[str, str]:
         "pyobo": PYOBO_VERSION,
         "bioontologies": bioontologies.version.get_version(with_git_hash=True),
         "bioregistry": bioregistry.version.get_version(with_git_hash=True),
+        "bioversions": bioversions.version.get_version(with_git_hash=True),
+        "obographs": obographs.version.get_version(with_git_hash=True),
+        "ssslm": ssslm.version.get_version(with_git_hash=True),
+        "sssom-pydantic": sssom_pydantic.version.get_version(with_git_hash=True),
+        "curies": curies.version.get_version(with_git_hash=True),
     }
 
 
