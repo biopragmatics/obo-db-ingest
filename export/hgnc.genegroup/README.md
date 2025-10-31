@@ -26,5 +26,5 @@ The HGNC (HUGO Gene Nomenclature Committee) provides an approved gene name and s
 | properties  |    1834 |
 | references  |    1834 |
 | relations   |    1993 |
-| synonyms    |    1250 |
+| synonyms    |    3212 |
 | terms       |    1980 |

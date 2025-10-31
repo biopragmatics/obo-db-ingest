@@ -1,34 +1,39 @@
-date: '2025-10-12'
+date: '2025-10-31'
 dependencies:
-  bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.44-dev-5dffe808
-  pyobo: 0.12.11-dev-22fdc112
+  bioontologies: 0.7.5-dev-bc0787bb
+  bioregistry: 0.13.1-dev-1aa39a51
+  bioversions: 0.8.172-dev-fcc724c2
+  curies: 0.12.4-UNHASHED
+  obographs: 0.0.8-UNHASHED
+  pyobo: 0.12.13-dev-207b46e9
+  ssslm: 0.1.2-UNHASHED
+  sssom-pydantic: 0.1.1-UNHASHED
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/zfin/zfin.tsv
     path: zfin/zfin.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-10-11/zfin.tsv
-    version_path: zfin/2025-10-11/zfin.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-10-30/zfin.tsv
+    version_path: zfin/2025-10-30/zfin.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/zfin/zfin.obo
     path: zfin/zfin.obo
-    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-10-11/zfin.obo
-    version_path: zfin/2025-10-11/zfin.obo
+    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-10-30/zfin.obo
+    version_path: zfin/2025-10-30/zfin.obo
   obograph:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/zfin/zfin.json.gz
     path: zfin/zfin.json.gz
-    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-10-11/zfin.json.gz
-    version_path: zfin/2025-10-11/zfin.json.gz
+    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-10-30/zfin.json.gz
+    version_path: zfin/2025-10-30/zfin.json.gz
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/zfin/zfin.ofn
     path: zfin/zfin.ofn
-    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-10-11/zfin.ofn
-    version_path: zfin/2025-10-11/zfin.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-10-30/zfin.ofn
+    version_path: zfin/2025-10-30/zfin.ofn
   ols:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/zfin/ols-config.json
@@ -37,32 +42,32 @@ manifest:
     gzipped: true
     iri: https://w3id.org/biopragmatics/resources/zfin/zfin.owl.gz
     path: zfin/zfin.owl.gz
-    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-10-11/zfin.owl.gz
-    version_path: zfin/2025-10-11/zfin.owl.gz
+    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-10-30/zfin.owl.gz
+    version_path: zfin/2025-10-30/zfin.owl.gz
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/zfin/zfin.sssom.tsv
     path: zfin/zfin.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-10-11/zfin.sssom.tsv
-    version_path: zfin/2025-10-11/zfin.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-10-30/zfin.sssom.tsv
+    version_path: zfin/2025-10-30/zfin.sssom.tsv
   summary:
-    alts: 28190
-    definitions: 33952
+    alts: 28196
+    definitions: 33993
     license: CC-BY-4.0
-    mappings: 53364
-    parents: 201362
-    properties: 53364
+    mappings: 53409
+    parents: 201492
+    properties: 53409
     references: 0
-    relations: 282230
+    relations: 282390
     synonyms: 0
-    terms: 201362
-    version: '2025-10-11'
+    terms: 201492
+    version: '2025-10-30'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/zfin/zfin.synonyms.tsv
     path: zfin/zfin.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-10-11/zfin.synonyms.tsv
-    version_path: zfin/2025-10-11/zfin.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-10-30/zfin.synonyms.tsv
+    version_path: zfin/2025-10-30/zfin.synonyms.tsv
 prefix_map:
   FlyBase: https://flybase.org/reports/
   IAO: http://purl.obolibrary.org/obo/IAO_

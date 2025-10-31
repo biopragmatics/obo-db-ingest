@@ -1,26 +1,39 @@
-date: '2025-10-12'
+date: '2025-10-31'
 dependencies:
-  bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.44-dev-5dffe808
-  pyobo: 0.12.11-dev-22fdc112
+  bioontologies: 0.7.5-dev-bc0787bb
+  bioregistry: 0.13.1-dev-1aa39a51
+  bioversions: 0.8.173-dev-9a10ab1f
+  curies: 0.12.4-UNHASHED
+  obographs: 0.0.8-UNHASHED
+  pyobo: 0.12.13-dev-207b46e9
+  ssslm: 0.1.2-UNHASHED
+  sssom-pydantic: 0.1.1-UNHASHED
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/uniprot.ptm.tsv
     path: uniprot.ptm/uniprot.ptm.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/2025_04/uniprot.ptm.tsv
+    version_path: uniprot.ptm/2025_04/uniprot.ptm.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/uniprot.ptm.obo
     path: uniprot.ptm/uniprot.ptm.obo
+    version_iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/2025_04/uniprot.ptm.obo
+    version_path: uniprot.ptm/2025_04/uniprot.ptm.obo
   obograph:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/uniprot.ptm.json
     path: uniprot.ptm/uniprot.ptm.json
+    version_iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/2025_04/uniprot.ptm.json
+    version_path: uniprot.ptm/2025_04/uniprot.ptm.json
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/uniprot.ptm.ofn
     path: uniprot.ptm/uniprot.ptm.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/2025_04/uniprot.ptm.ofn
+    version_path: uniprot.ptm/2025_04/uniprot.ptm.ofn
   ols:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/ols-config.json
@@ -29,10 +42,14 @@ manifest:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/uniprot.ptm.owl
     path: uniprot.ptm/uniprot.ptm.owl
+    version_iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/2025_04/uniprot.ptm.owl
+    version_path: uniprot.ptm/2025_04/uniprot.ptm.owl
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/uniprot.ptm.sssom.tsv
     path: uniprot.ptm/uniprot.ptm.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/2025_04/uniprot.ptm.sssom.tsv
+    version_path: uniprot.ptm/2025_04/uniprot.ptm.sssom.tsv
   summary:
     alts: 0
     definitions: 0
@@ -44,11 +61,13 @@ manifest:
     relations: 0
     synonyms: 0
     terms: 718
-    version: null
+    version: '2025_04'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/uniprot.ptm.synonyms.tsv
     path: uniprot.ptm/uniprot.ptm.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/uniprot.ptm/2025_04/uniprot.ptm.synonyms.tsv
+    version_path: uniprot.ptm/2025_04/uniprot.ptm.synonyms.tsv
 prefix_map:
   CHEBI: http://purl.obolibrary.org/obo/CHEBI_
   MOD: http://purl.obolibrary.org/obo/MOD_

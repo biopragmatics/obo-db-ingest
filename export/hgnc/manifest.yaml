@@ -1,8 +1,13 @@
-date: '2025-10-12'
+date: '2025-10-30'
 dependencies:
-  bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.44-dev-5dffe808
-  pyobo: 0.12.11-dev-22fdc112
+  bioontologies: 0.7.5-dev-bc0787bb
+  bioregistry: 0.13.1-dev-03e33113
+  bioversions: 0.8.172-dev-fcc724c2
+  curies: 0.12.4-UNHASHED
+  obographs: 0.0.8-UNHASHED
+  pyobo: 0.12.13-dev-207b46e9
+  ssslm: 0.1.2-UNHASHED
+  sssom-pydantic: 0.1.1-UNHASHED
 errored: false
 manifest:
   nodes:
@@ -49,9 +54,9 @@ manifest:
     alts: 0
     definitions: 44537
     license: CC0-1.0
-    mappings: 268560
+    mappings: 269237
     parents: 44537
-    properties: 276129
+    properties: 276806
     references: 35381
     relations: 199102
     synonyms: 106173
@@ -76,7 +81,7 @@ prefix_map:
   RO: http://purl.obolibrary.org/obo/RO_
   SO: http://purl.obolibrary.org/obo/SO_
   ccds: http://www.ncbi.nlm.nih.gov/CCDS/CcdsBrowse.cgi?REQUEST=CCDS&DATA=
-  cosmic: http://cancer.sanger.ac.uk/cosmic/gene/overview?ln=
+  cosmic.gene: http://cancer.sanger.ac.uk/cosmic/gene/overview?ln=
   dcterms: http://purl.org/dc/terms/
   debio: https://biopragmatics.github.io/debio/
   doap: http://usefulinc.com/ns/doap#
@@ -87,6 +92,7 @@ prefix_map:
   hgnc.genegroup: https://www.genenames.org/data/genegroup/#!/group/
   lncipedia: 'https://bioregistry.io/lncipedia:'
   lrg: 'https://bioregistry.io/lrg:'
+  merops.entry: https://www.ebi.ac.uk/merops/cgi-bin/pepsum?id=
   mirbase: http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=
   mito: http://purl.org/spar/mito/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#

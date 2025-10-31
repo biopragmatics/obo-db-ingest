@@ -1,34 +1,39 @@
-date: '2025-10-12'
+date: '2025-10-31'
 dependencies:
-  bioontologies: 0.7.4-dev-2bdf3311
-  bioregistry: 0.12.44-dev-5dffe808
-  pyobo: 0.12.11-dev-22fdc112
+  bioontologies: 0.7.5-dev-bc0787bb
+  bioregistry: 0.13.1-dev-1aa39a51
+  bioversions: 0.8.172-dev-fcc724c2
+  curies: 0.12.4-UNHASHED
+  obographs: 0.0.8-UNHASHED
+  pyobo: 0.12.13-dev-207b46e9
+  ssslm: 0.1.2-UNHASHED
+  sssom-pydantic: 0.1.1-UNHASHED
 errored: false
 manifest:
   nodes:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/icd10/icd10.tsv
     path: icd10/icd10.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/icd10/2016/icd10.tsv
-    version_path: icd10/2016/icd10.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/icd10/2019/icd10.tsv
+    version_path: icd10/2019/icd10.tsv
   obo:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/icd10/icd10.obo
     path: icd10/icd10.obo
-    version_iri: https://w3id.org/biopragmatics/resources/icd10/2016/icd10.obo
-    version_path: icd10/2016/icd10.obo
+    version_iri: https://w3id.org/biopragmatics/resources/icd10/2019/icd10.obo
+    version_path: icd10/2019/icd10.obo
   obograph:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/icd10/icd10.json
     path: icd10/icd10.json
-    version_iri: https://w3id.org/biopragmatics/resources/icd10/2016/icd10.json
-    version_path: icd10/2016/icd10.json
+    version_iri: https://w3id.org/biopragmatics/resources/icd10/2019/icd10.json
+    version_path: icd10/2019/icd10.json
   ofn:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/icd10/icd10.ofn
     path: icd10/icd10.ofn
-    version_iri: https://w3id.org/biopragmatics/resources/icd10/2016/icd10.ofn
-    version_path: icd10/2016/icd10.ofn
+    version_iri: https://w3id.org/biopragmatics/resources/icd10/2019/icd10.ofn
+    version_path: icd10/2019/icd10.ofn
   ols:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/icd10/ols-config.json
@@ -37,14 +42,14 @@ manifest:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/icd10/icd10.owl
     path: icd10/icd10.owl
-    version_iri: https://w3id.org/biopragmatics/resources/icd10/2016/icd10.owl
-    version_path: icd10/2016/icd10.owl
+    version_iri: https://w3id.org/biopragmatics/resources/icd10/2019/icd10.owl
+    version_path: icd10/2019/icd10.owl
   sssom:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/icd10/icd10.sssom.tsv
     path: icd10/icd10.sssom.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/icd10/2016/icd10.sssom.tsv
-    version_path: icd10/2016/icd10.sssom.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/icd10/2019/icd10.sssom.tsv
+    version_path: icd10/2019/icd10.sssom.tsv
   summary:
     alts: 0
     definitions: 0
@@ -56,13 +61,13 @@ manifest:
     relations: 0
     synonyms: 0
     terms: 12483
-    version: '2016'
+    version: '2019'
   synonyms:
     gzipped: false
     iri: https://w3id.org/biopragmatics/resources/icd10/icd10.synonyms.tsv
     path: icd10/icd10.synonyms.tsv
-    version_iri: https://w3id.org/biopragmatics/resources/icd10/2016/icd10.synonyms.tsv
-    version_path: icd10/2016/icd10.synonyms.tsv
+    version_iri: https://w3id.org/biopragmatics/resources/icd10/2019/icd10.synonyms.tsv
+    version_path: icd10/2019/icd10.synonyms.tsv
 prefix_map:
   biolink: https://w3id.org/biolink/vocab/
   dcterms: http://purl.org/dc/terms/

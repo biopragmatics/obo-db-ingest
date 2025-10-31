@@ -271,13 +271,13 @@ def _write_nodes(path: Path, obo: Obo, prefix: str) -> None:
 
 
 def _make_safe(
-    cls: type[Obo], *, do_convert: bool = False, no_force: bool = False
+    cls: type[Obo], *, do_convert: bool = False, no_force: bool = False, loud: bool = False, versions: dict[str, str]
 ) -> tuple[str, dict, bool]:
     prefix = cls.ontology
     secho(prefix, fg="green", bold=True)
     with logging_redirect_tqdm():
         try:
-            rv, errored = _make(cls, do_convert=do_convert, no_force=no_force)
+            rv, errored = _make(cls, do_convert=do_convert, no_force=no_force, loud=loud, versions=versions)
         except Exception as e:
             secho(f"[{prefix}] got exception in _make: {e}", fg="red")
             traceback.print_exc()
@@ -287,7 +287,7 @@ def _make_safe(
 
 
 def _make(  # noqa:C901
-    module: type[Obo], *, do_convert: bool = False, no_force: bool = False
+    module: type[Obo], *, do_convert: bool = False, no_force: bool = False, loud: bool = True, versions: dict[str, str]
 ) -> tuple[dict, bool]:
     prefix = module.ontology
     errored = False
@@ -295,7 +295,12 @@ def _make(  # noqa:C901
         force = False
     else:
         force = prefix not in NO_FORCE
-    obo = module(force=force)
+
+    def _write(s: str) -> None:
+        if loud:
+            tqdm.write(s)
+
+    obo = module(force=force, data_version=versions.get(module.ontology))
 
     directory = EXPORT.joinpath(prefix)
     readme_path = directory.joinpath("README.md")
@@ -322,7 +327,7 @@ def _make(  # noqa:C901
                 secho(f"[{prefix}] using cached data from {cached_data_date}")
                 return manifest, False
 
-    tqdm.write(f"[{prefix}] getting summary")
+    _write(f"[{prefix}] getting summary")
     rv = {"summary": _get_summary(obo)}
 
     # can't use the stub path because if the
@@ -367,12 +372,12 @@ def _make(  # noqa:C901
     _write_nodes(names_path, obo, prefix)
     _, rv["nodes"] = _prepare_artifact(prefix, names_path, has_version, ".tsv.gz")
 
-    tqdm.write(f"[{prefix}] writing SSSOM")
+    _write(f"[{prefix}] writing SSSOM")
     sssom_df = obo.get_mappings_df(use_tqdm=False)
     sssom_df.to_csv(sssom_path, sep="\t", index=False)
     _, rv["sssom"] = _prepare_artifact(prefix, sssom_path, has_version, ".sssom.tsv.gz")
 
-    tqdm.write(f"[{prefix}] writing synonyms")
+    _write(f"[{prefix}] writing synonyms")
     try:
         literal_mappings_df = obo.get_literal_mappings_df()
     except Exception as e:
@@ -391,7 +396,7 @@ def _make(  # noqa:C901
     if do_convert:
         # add -vvv and search for org.semanticweb.owlapi.oboformat.OBOFormatOWLAPIParser on errors
         try:
-            tqdm.write(f"[{prefix}] converting OFN to OWL ({ofn_path})")
+            _write(f"[{prefix}] converting OFN to OWL ({ofn_path})")
             # FIXME add a way to update the ontology IRI and version IRI
             convert(ofn_path, owl_path, merge=False, reason=False, debug=True)
             _, rv["owl"] = _prepare_artifact(prefix, owl_path, has_version, ".owl.gz")
@@ -406,28 +411,27 @@ def _make(  # noqa:C901
                 traceback.print_exc(file=file)
                 file.write(str(e.stderr))
         else:
-            tqdm.write(f"[{prefix}] done converting to OWL")
+            _write(f"[{prefix}] done converting to OWL")
 
         try:
-            tqdm.write(f"[{prefix}] converting OFN to OBO Graph JSON")
+            _write(f"[{prefix}] converting OFN to OBO Graph JSON")
             convert(ofn_path, obo_graph_json_path, merge=False, reason=False, debug=True)
             _, rv["obograph"] = _prepare_artifact(
                 prefix, obo_graph_json_path, has_version, ".json.gz"
             )
         except subprocess.CalledProcessError as e:
             errored = True
-            msg = click.style(
+            msg = (
                 f"[{prefix}] {type(e)} - ROBOT failed to convert to OBO Graph JSON"
-                f"\n\t{e}\n\t{' '.join(e.cmd)}",
-                fg="red",
+                f"\n\t{e}\n\t{' '.join(e.cmd)}"
             )
-            tqdm.write(msg)
+            secho(msg, fg="red")
             with log_path.open("a") as file:
                 file.write(f"\n\n{msg}\n\n")
                 traceback.print_exc(file=file)
                 file.write(str(e.stderr))
         else:
-            tqdm.write(f"[{prefix}] done converting to OBO Graph JSON")
+            _write(f"[{prefix}] done converting to OBO Graph JSON")
 
     if owl_config := rv.get("owl"):
         ols_config = _get_ols_config(prefix, owl_config["iri"])
@@ -440,7 +444,7 @@ def _make(  # noqa:C901
         if "iri" in data
     ]
 
-    tqdm.write(f"[{prefix}] writing README")
+    _write(f"[{prefix}] writing README")
     # Write a README file, so anyone who navigates there can see what's going on.
     # skip any entries that have 0 values
     summary = sorted(
@@ -483,7 +487,7 @@ def _make(  # noqa:C901
 
     del obo
 
-    tqdm.write(f"[{prefix}] done")
+    _write(f"[{prefix}] done")
     return rv, errored
 
 
@@ -565,8 +569,10 @@ def _get_ols_config(prefix: str, ontology_purl: str) -> dict[str, Any]:
 @click.option("-m", "--minimum")
 @click.option("--no-convert", is_flag=True)
 @click.option("-x", "--xvalue", help="Select a specific ontology", multiple=True)
+@click.option("--skip", help="Skip a specific ontology", multiple=True)
 @click.option("--force/--no-force")
-def main(minimum: str | None, xvalue: list[str], no_convert: bool, force: bool):  # noqa:C901
+@click.option("--loud", is_flag=True)
+def main(minimum: str | None, xvalue: list[str], no_convert: bool, force: bool, loud: bool, skip: list[str]):  # noqa:C901
     """Build the PyOBO examples."""
     if xvalue:
         for prefix in xvalue:
@@ -585,6 +591,10 @@ def main(minimum: str | None, xvalue: list[str], no_convert: bool, force: bool):
         for cls in missing:
             secho(f"Skipping: {cls}", fg="yellow")
 
+    if skip:
+        prefixes = [prefix for prefix in prefixes if prefix not in skip]
+
+    versions = {}
     for prefix in prefixes:
         if not bioregistry.get_license(prefix):
             if contact := bioregistry.get_contact(prefix):
@@ -598,6 +608,8 @@ def main(minimum: str | None, xvalue: list[str], no_convert: bool, force: bool):
         version_result = bioversions.get_version(prefix, strict=False)
         if not version_result:
             secho(f"missing version for {prefix}", fg="red")
+        else:
+            versions[prefix] = version_result
 
     it = [ontology_resolver.lookup(prefix) for prefix in prefixes]
 
@@ -605,6 +617,8 @@ def main(minimum: str | None, xvalue: list[str], no_convert: bool, force: bool):
         _make_safe,
         do_convert=not no_convert,
         no_force=not force,
+        loud=loud,
+        versions=versions,
     )
 
     # load up what's already there!

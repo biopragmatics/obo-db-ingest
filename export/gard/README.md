@@ -15,11 +15,12 @@ Database of rare diseases and related terms, including symptoms, healthcare reso
 | Synonyms       | https://w3id.org/biopragmatics/resources/gard/gard.synonyms.tsv |                                  |
 | OWL            | https://w3id.org/biopragmatics/resources/gard/gard.owl          |                                  |
 | OBO Graph JSON | https://w3id.org/biopragmatics/resources/gard/gard.json         |                                  |
+| OLS Config.    | https://w3id.org/biopragmatics/resources/gard/ols-config.json   |                                  |
 
 ## Summary
 
 | field    |   count |
 |----------|---------|
 | parents  |    6109 |
-| synonyms |   20145 |
+| synonyms |   27365 |
 | terms    |    6109 |

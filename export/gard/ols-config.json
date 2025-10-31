@@ -1,0 +1,33 @@
+{
+  "id": "gard",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/gard/gard.owl",
+  "creator": [
+    "Eric Sid"
+  ],
+  "preferredPrefix": "gard",
+  "title": "Genetic and Rare Diseases Information Center",
+  "description": "Database of rare diseases and related terms, including symptoms, healthcare resources, and organizations supporting research of the disease.",
+  "uri": "https://rarediseases.info.nih.gov/diseases",
+  "homepage": "https://rarediseases.info.nih.gov/diseases",
+  "mailing_list": "eric.sid@nih.gov",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "https://bioregistry.io/gard:"
+  ]
+}

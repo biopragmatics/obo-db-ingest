@@ -8,20 +8,20 @@ The SPDX License List is a list of commonly found licenses and exceptions used i
 
 | Artifact       | Download PURL                                                   | Latest Versioned Download PURL                                          |
 |----------------|-----------------------------------------------------------------|-------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/spdx/spdx.obo          | https://w3id.org/biopragmatics/resources/spdx/e68f11e/spdx.obo          |
-| OFN            | https://w3id.org/biopragmatics/resources/spdx/spdx.ofn          | https://w3id.org/biopragmatics/resources/spdx/e68f11e/spdx.ofn          |
-| Nodes          | https://w3id.org/biopragmatics/resources/spdx/spdx.tsv          | https://w3id.org/biopragmatics/resources/spdx/e68f11e/spdx.tsv          |
-| SSSOM          | https://w3id.org/biopragmatics/resources/spdx/spdx.sssom.tsv    | https://w3id.org/biopragmatics/resources/spdx/e68f11e/spdx.sssom.tsv    |
-| Synonyms       | https://w3id.org/biopragmatics/resources/spdx/spdx.synonyms.tsv | https://w3id.org/biopragmatics/resources/spdx/e68f11e/spdx.synonyms.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/spdx/spdx.owl          | https://w3id.org/biopragmatics/resources/spdx/e68f11e/spdx.owl          |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/spdx/spdx.json         | https://w3id.org/biopragmatics/resources/spdx/e68f11e/spdx.json         |
+| OBO            | https://w3id.org/biopragmatics/resources/spdx/spdx.obo          | https://w3id.org/biopragmatics/resources/spdx/88388db/spdx.obo          |
+| OFN            | https://w3id.org/biopragmatics/resources/spdx/spdx.ofn          | https://w3id.org/biopragmatics/resources/spdx/88388db/spdx.ofn          |
+| Nodes          | https://w3id.org/biopragmatics/resources/spdx/spdx.tsv          | https://w3id.org/biopragmatics/resources/spdx/88388db/spdx.tsv          |
+| SSSOM          | https://w3id.org/biopragmatics/resources/spdx/spdx.sssom.tsv    | https://w3id.org/biopragmatics/resources/spdx/88388db/spdx.sssom.tsv    |
+| Synonyms       | https://w3id.org/biopragmatics/resources/spdx/spdx.synonyms.tsv | https://w3id.org/biopragmatics/resources/spdx/88388db/spdx.synonyms.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/spdx/spdx.owl          | https://w3id.org/biopragmatics/resources/spdx/88388db/spdx.owl          |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/spdx/spdx.json         | https://w3id.org/biopragmatics/resources/spdx/88388db/spdx.json         |
 | OLS Config.    | https://w3id.org/biopragmatics/resources/spdx/ols-config.json   |                                                                         |
 
 ## Summary
 
 | field      |   count |
 |------------|---------|
-| parents    |     707 |
-| properties |    1216 |
-| synonyms   |     707 |
-| terms      |     707 |
+| parents    |     712 |
+| properties |    1223 |
+| synonyms   |     712 |
+| terms      |     712 |

@@ -8,13 +8,13 @@ The UniProt Knowledgebase (UniProtKB) is a comprehensive resource for protein se
 
 | Artifact       | Download PURL                                                         | Latest Versioned Download PURL                                                |
 |----------------|-----------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| OBO            | https://w3id.org/biopragmatics/resources/uniprot/uniprot.obo.gz       | https://w3id.org/biopragmatics/resources/uniprot/2025_03/uniprot.obo.gz       |
-| OFN            | https://w3id.org/biopragmatics/resources/uniprot/uniprot.ofn.gz       | https://w3id.org/biopragmatics/resources/uniprot/2025_03/uniprot.ofn.gz       |
-| Nodes          | https://w3id.org/biopragmatics/resources/uniprot/uniprot.tsv          | https://w3id.org/biopragmatics/resources/uniprot/2025_03/uniprot.tsv          |
-| SSSOM          | https://w3id.org/biopragmatics/resources/uniprot/uniprot.sssom.tsv    | https://w3id.org/biopragmatics/resources/uniprot/2025_03/uniprot.sssom.tsv    |
-| Synonyms       | https://w3id.org/biopragmatics/resources/uniprot/uniprot.synonyms.tsv | https://w3id.org/biopragmatics/resources/uniprot/2025_03/uniprot.synonyms.tsv |
-| OWL            | https://w3id.org/biopragmatics/resources/uniprot/uniprot.owl.gz       | https://w3id.org/biopragmatics/resources/uniprot/2025_03/uniprot.owl.gz       |
-| OBO Graph JSON | https://w3id.org/biopragmatics/resources/uniprot/uniprot.json.gz      | https://w3id.org/biopragmatics/resources/uniprot/2025_03/uniprot.json.gz      |
+| OBO            | https://w3id.org/biopragmatics/resources/uniprot/uniprot.obo.gz       | https://w3id.org/biopragmatics/resources/uniprot/2025_04/uniprot.obo.gz       |
+| OFN            | https://w3id.org/biopragmatics/resources/uniprot/uniprot.ofn.gz       | https://w3id.org/biopragmatics/resources/uniprot/2025_04/uniprot.ofn.gz       |
+| Nodes          | https://w3id.org/biopragmatics/resources/uniprot/uniprot.tsv          | https://w3id.org/biopragmatics/resources/uniprot/2025_04/uniprot.tsv          |
+| SSSOM          | https://w3id.org/biopragmatics/resources/uniprot/uniprot.sssom.tsv    | https://w3id.org/biopragmatics/resources/uniprot/2025_04/uniprot.sssom.tsv    |
+| Synonyms       | https://w3id.org/biopragmatics/resources/uniprot/uniprot.synonyms.tsv | https://w3id.org/biopragmatics/resources/uniprot/2025_04/uniprot.synonyms.tsv |
+| OWL            | https://w3id.org/biopragmatics/resources/uniprot/uniprot.owl.gz       | https://w3id.org/biopragmatics/resources/uniprot/2025_04/uniprot.owl.gz       |
+| OBO Graph JSON | https://w3id.org/biopragmatics/resources/uniprot/uniprot.json.gz      | https://w3id.org/biopragmatics/resources/uniprot/2025_04/uniprot.json.gz      |
 | OLS Config.    | https://w3id.org/biopragmatics/resources/uniprot/ols-config.json      |                                                                               |
 
 ## Summary
