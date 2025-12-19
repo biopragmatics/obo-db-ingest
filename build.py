@@ -584,6 +584,7 @@ def _get_ols_config(prefix: str, ontology_purl: str) -> dict[str, Any]:
 @click.option("--skip", help="Skip a specific ontology", multiple=True)
 @click.option("--force/--no-force")
 @click.option("--loud", is_flag=True)
+@click.option("--version-override", nargs=2, multiple=True)
 def main(  # noqa:C901
     minimum: str | None,
     xvalue: list[str],
@@ -591,6 +592,7 @@ def main(  # noqa:C901
     force: bool,
     loud: bool,
     skip: list[str],
+    version_override: list[tuple[str, str]],
 ) -> None:
     """Build the PyOBO examples."""
     if xvalue:
@@ -629,6 +631,8 @@ def main(  # noqa:C901
             secho(f"missing version for {prefix}", fg="red")
         else:
             versions[prefix] = version_result
+
+    versions.update(version_override)
 
     it = [ontology_resolver.lookup(prefix) for prefix in prefixes]
 
