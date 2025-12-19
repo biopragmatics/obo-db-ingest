@@ -271,13 +271,20 @@ def _write_nodes(path: Path, obo: Obo, prefix: str) -> None:
 
 
 def _make_safe(
-    cls: type[Obo], *, do_convert: bool = False, no_force: bool = False, loud: bool = False, versions: dict[str, str]
+    cls: type[Obo],
+    *,
+    do_convert: bool = False,
+    no_force: bool = False,
+    loud: bool = False,
+    versions: dict[str, str],
 ) -> tuple[str, dict, bool]:
     prefix = cls.ontology
     secho(prefix, fg="green", bold=True)
     with logging_redirect_tqdm():
         try:
-            rv, errored = _make(cls, do_convert=do_convert, no_force=no_force, loud=loud, versions=versions)
+            rv, errored = _make(
+                cls, do_convert=do_convert, no_force=no_force, loud=loud, versions=versions
+            )
         except Exception as e:
             secho(f"[{prefix}] got exception in _make: {e}", fg="red")
             traceback.print_exc()
@@ -287,7 +294,12 @@ def _make_safe(
 
 
 def _make(  # noqa:C901
-    module: type[Obo], *, do_convert: bool = False, no_force: bool = False, loud: bool = True, versions: dict[str, str]
+    module: type[Obo],
+    *,
+    do_convert: bool = False,
+    no_force: bool = False,
+    loud: bool = True,
+    versions: dict[str, str],
 ) -> tuple[dict, bool]:
     prefix = module.ontology
     errored = False
@@ -572,7 +584,14 @@ def _get_ols_config(prefix: str, ontology_purl: str) -> dict[str, Any]:
 @click.option("--skip", help="Skip a specific ontology", multiple=True)
 @click.option("--force/--no-force")
 @click.option("--loud", is_flag=True)
-def main(minimum: str | None, xvalue: list[str], no_convert: bool, force: bool, loud: bool, skip: list[str]):  # noqa:C901
+def main(  # noqa:C901
+    minimum: str | None,
+    xvalue: list[str],
+    no_convert: bool,
+    force: bool,
+    loud: bool,
+    skip: list[str],
+) -> None:
     """Build the PyOBO examples."""
     if xvalue:
         for prefix in xvalue:
@@ -644,8 +663,8 @@ def main(minimum: str | None, xvalue: list[str], no_convert: bool, force: bool, 
         rv["resources"][prefix] = result
         if errored:
             rv["errors"][prefix] = True
-        elif prefix in rv['errors']:
-            del rv['errors'][prefix]
+        elif prefix in rv["errors"]:
+            del rv["errors"][prefix]
 
         MANIFEST_PATH.write_text(yaml.safe_dump(rv))
 
