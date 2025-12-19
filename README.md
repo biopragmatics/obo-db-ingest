@@ -38,6 +38,12 @@ If you just want to generate one, use `-x` like
 $ uv run --script build.py -x spdx
 ```
 
+If you want to pin the versions of specific ontologies, use `--version-override` like
+
+```console
+$ uv run --script build.py -x mesh --version-override mesh 2018
+```
+
 ## PURLs
 
 See PURL configuration at https://github.com/perma-id/w3id.org/tree/master/biopragmatics. 
