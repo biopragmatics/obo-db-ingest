@@ -1,4 +1,4 @@
-date: '2026-01-12'
+date: '2026-02-18'
 errors:
   gtdb: true
   nihreporter.project: true
@@ -1254,26 +1254,26 @@ resources:
       gzipped: false
       iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.tsv
       path: hgnc/hgnc.tsv
-      version_iri: https://w3id.org/biopragmatics/resources/hgnc/2026-01-06/hgnc.tsv
-      version_path: hgnc/2026-01-06/hgnc.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/hgnc/2026-02-06/hgnc.tsv
+      version_path: hgnc/2026-02-06/hgnc.tsv
     obo:
       gzipped: false
       iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.obo
       path: hgnc/hgnc.obo
-      version_iri: https://w3id.org/biopragmatics/resources/hgnc/2026-01-06/hgnc.obo
-      version_path: hgnc/2026-01-06/hgnc.obo
+      version_iri: https://w3id.org/biopragmatics/resources/hgnc/2026-02-06/hgnc.obo
+      version_path: hgnc/2026-02-06/hgnc.obo
     obograph:
       gzipped: true
       iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.json.gz
       path: hgnc/hgnc.json.gz
-      version_iri: https://w3id.org/biopragmatics/resources/hgnc/2026-01-06/hgnc.json.gz
-      version_path: hgnc/2026-01-06/hgnc.json.gz
+      version_iri: https://w3id.org/biopragmatics/resources/hgnc/2026-02-06/hgnc.json.gz
+      version_path: hgnc/2026-02-06/hgnc.json.gz
     ofn:
       gzipped: false
       iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.ofn
       path: hgnc/hgnc.ofn
-      version_iri: https://w3id.org/biopragmatics/resources/hgnc/2026-01-06/hgnc.ofn
-      version_path: hgnc/2026-01-06/hgnc.ofn
+      version_iri: https://w3id.org/biopragmatics/resources/hgnc/2026-02-06/hgnc.ofn
+      version_path: hgnc/2026-02-06/hgnc.ofn
     ols:
       gzipped: false
       iri: https://w3id.org/biopragmatics/resources/hgnc/ols-config.json
@@ -1282,32 +1282,32 @@ resources:
       gzipped: true
       iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.owl.gz
       path: hgnc/hgnc.owl.gz
-      version_iri: https://w3id.org/biopragmatics/resources/hgnc/2026-01-06/hgnc.owl.gz
-      version_path: hgnc/2026-01-06/hgnc.owl.gz
+      version_iri: https://w3id.org/biopragmatics/resources/hgnc/2026-02-06/hgnc.owl.gz
+      version_path: hgnc/2026-02-06/hgnc.owl.gz
     sssom:
       gzipped: false
       iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.sssom.tsv
       path: hgnc/hgnc.sssom.tsv
-      version_iri: https://w3id.org/biopragmatics/resources/hgnc/2026-01-06/hgnc.sssom.tsv
-      version_path: hgnc/2026-01-06/hgnc.sssom.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/hgnc/2026-02-06/hgnc.sssom.tsv
+      version_path: hgnc/2026-02-06/hgnc.sssom.tsv
     summary:
       alts: 0
-      definitions: 44809
+      definitions: 44930
       license: CC0-1.0
-      mappings: 277869
-      parents: 44809
-      properties: 285693
-      references: 35634
-      relations: 200078
-      synonyms: 106407
-      terms: 44809
-      version: '2026-01-06'
+      mappings: 278099
+      parents: 44930
+      properties: 285981
+      references: 35692
+      relations: 200592
+      synonyms: 106486
+      terms: 44930
+      version: '2026-02-06'
     synonyms:
       gzipped: false
       iri: https://w3id.org/biopragmatics/resources/hgnc/hgnc.synonyms.tsv
       path: hgnc/hgnc.synonyms.tsv
-      version_iri: https://w3id.org/biopragmatics/resources/hgnc/2026-01-06/hgnc.synonyms.tsv
-      version_path: hgnc/2026-01-06/hgnc.synonyms.tsv
+      version_iri: https://w3id.org/biopragmatics/resources/hgnc/2026-02-06/hgnc.synonyms.tsv
+      version_path: hgnc/2026-02-06/hgnc.synonyms.tsv
   hgnc.genegroup:
     nodes:
       gzipped: false
@@ -3647,11 +3647,11 @@ resources:
       version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-10-30/zfin.synonyms.tsv
       version_path: zfin/2025-10-30/zfin.synonyms.tsv
 versions:
-  bioontologies: 0.7.5-dev-a8bdadfb
   bioregistry: 0.13.16-dev-735d31d6
-  bioversions: 0.8.227-dev-464b55f0
-  curies: 0.12.6-UNHASHED
-  obographs: 0.0.8-UNHASHED
-  pyobo: 0.12.14-dev-ecaccb69
+  bioversions: 0.8.244-dev-50cc0ea2
+  curies: 0.12.9-UNHASHED
+  obographs: 0.0.10-UNHASHED
+  pyobo: 0.12.17-dev-90cd4c6f
+  robot_obo_tool: 0.0.1-UNHASHED
   ssslm: 0.1.3-UNHASHED
-  sssom-pydantic: 0.1.16-UNHASHED
+  sssom-pydantic: 0.2.0-UNHASHED
