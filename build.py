@@ -4,15 +4,14 @@
 #     "bioregistry",
 #     "bioversions",
 #     "bioontologies",
-#     "pyobo",
+#     "pyobo[sources]",
 #     "class-resolver",
-#     "protmapper",
+#     "robot-obo-tool",
 # ]
 #
 # [tool.uv.sources]
 # bioversions = { path = "../bioversions", editable = true }
 # bioregistry = { path = "../bioregistry", editable = true }
-# bioontologies = { path = "../bioontologies", editable = true }
 # gilda = { git = "https://github.com/cthoyt/gilda", branch = "slim" }
 # pyobo = { path = "../pyobo", editable = true }
 # class-resolver = { path = "../class-resolver", editable = true }
@@ -37,7 +36,6 @@ from pathlib import Path
 from textwrap import dedent
 from typing import Any, TypedDict
 
-import bioontologies.version
 import bioregistry
 import bioregistry.version
 import bioversions
@@ -48,13 +46,14 @@ import obographs.version
 import pyobo.constants
 import pyobo.version
 import pystow.utils
+import robot_obo_tool.version
 import ssslm.version
 import sssom_pydantic.version
 import yaml
-from bioontologies.robot import convert
 from more_click import verbose_option
 from pyobo import Obo
 from pyobo.sources import ontology_resolver
+from robot_obo_tool import convert
 from tabulate import tabulate
 from tqdm import tqdm
 from tqdm.contrib.concurrent import process_map
@@ -679,7 +678,7 @@ def main(  # noqa:C901
 def _get_build_dependency_versions() -> dict[str, str]:
     return {
         "pyobo": PYOBO_VERSION,
-        "bioontologies": bioontologies.version.get_version(with_git_hash=True),
+        "robot_obo_tool": robot_obo_tool.version.get_version(with_git_hash=True),
         "bioregistry": bioregistry.version.get_version(with_git_hash=True),
         "bioversions": bioversions.version.get_version(with_git_hash=True),
         "obographs": obographs.version.get_version(with_git_hash=True),
