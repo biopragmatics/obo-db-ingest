@@ -1,6 +1,6 @@
 date: '2026-02-18'
 dependencies:
-  bioregistry: 0.13.16-dev-735d31d6
+  bioregistry: 0.13.12-dev-a7cca83b
   bioversions: 0.8.244-dev-50cc0ea2
   curies: 0.12.9-UNHASHED
   obographs: 0.0.10-UNHASHED
@@ -97,7 +97,7 @@ prefix_map:
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
   omim: 'https://omim.org/MIM:'
   owl: http://www.w3.org/2002/07/owl#
-  pseudogene: http://tables.pseudogene.org/[?species_name]/
+  pseudogene: 'https://bioregistry.io/pseudogene:'
   pubmed: http://rdf.ncbi.nlm.nih.gov/pubchem/reference/
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   rdfs: http://www.w3.org/2000/01/rdf-schema#
@@ -108,5 +108,5 @@ prefix_map:
   snornabase: http://www-snorna.biotoul.fr/plus.php?id=
   ucsc: ftp://hgdownload.cse.ucsc.edu/goldenPath/
   uniprot: http://purl.uniprot.org/uniprot/
-  vega: http://vega.sanger.ac.uk/[?species_name]/Gene/Summary?g=
+  vega: 'https://bioregistry.io/vega:'
   xsd: http://www.w3.org/2001/XMLSchema#
