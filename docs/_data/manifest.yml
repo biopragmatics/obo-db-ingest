@@ -1,4 +1,4 @@
-date: '2026-02-18'
+date: '2026-02-22'
 errors:
   gtdb: true
   nihreporter.project: true
@@ -1292,14 +1292,14 @@ resources:
       version_path: hgnc/2026-02-06/hgnc.sssom.tsv
     summary:
       alts: 0
-      definitions: 44930
+      definitions: 45857
       license: CC0-1.0
       mappings: 278099
-      parents: 44930
-      properties: 285981
-      references: 35692
-      relations: 200592
-      synonyms: 106486
+      parents: 163290
+      properties: 287972
+      references: 37683
+      relations: 202692
+      synonyms: 109970
       terms: 44930
       version: '2026-02-06'
     synonyms:
@@ -3645,11 +3645,11 @@ resources:
       version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-10-30/zfin.synonyms.tsv
       version_path: zfin/2025-10-30/zfin.synonyms.tsv
 versions:
-  bioregistry: 0.13.12-dev-a7cca83b
-  bioversions: 0.8.244-dev-50cc0ea2
+  bioregistry: 0.13.21-dev-5160fc45
+  bioversions: 0.8.270-dev-58bea5ed
   curies: 0.12.9-UNHASHED
   obographs: 0.0.10-UNHASHED
-  pyobo: 0.12.17-dev-90cd4c6f
+  pyobo: 0.12.18-dev-c4296f45
   robot_obo_tool: 0.0.1-UNHASHED
   ssslm: 0.1.3-UNHASHED
   sssom-pydantic: 0.2.0-UNHASHED

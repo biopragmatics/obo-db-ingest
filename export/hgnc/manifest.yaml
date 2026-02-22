@@ -1,10 +1,10 @@
-date: '2026-02-18'
+date: '2026-02-22'
 dependencies:
-  bioregistry: 0.13.12-dev-a7cca83b
-  bioversions: 0.8.244-dev-50cc0ea2
+  bioregistry: 0.13.21-dev-5160fc45
+  bioversions: 0.8.270-dev-58bea5ed
   curies: 0.12.9-UNHASHED
   obographs: 0.0.10-UNHASHED
-  pyobo: 0.12.17-dev-90cd4c6f
+  pyobo: 0.12.18-dev-c4296f45
   robot_obo_tool: 0.0.1-UNHASHED
   ssslm: 0.1.3-UNHASHED
   sssom-pydantic: 0.2.0-UNHASHED
@@ -52,14 +52,14 @@ manifest:
     version_path: hgnc/2026-02-06/hgnc.sssom.tsv
   summary:
     alts: 0
-    definitions: 44930
+    definitions: 45857
     license: CC0-1.0
     mappings: 278099
-    parents: 44930
-    properties: 285981
-    references: 35692
-    relations: 200592
-    synonyms: 106486
+    parents: 163290
+    properties: 287972
+    references: 37683
+    relations: 202692
+    synonyms: 109970
     terms: 44930
     version: '2026-02-06'
   synonyms:
@@ -78,6 +78,7 @@ prefix_map:
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
   OMO: http://purl.obolibrary.org/obo/OMO_
   ORPHA: http://www.orpha.net/ORDO/Orphanet_
+  PR: http://purl.obolibrary.org/obo/PR_
   RO: http://purl.obolibrary.org/obo/RO_
   SO: http://purl.obolibrary.org/obo/SO_
   ccds: http://www.ncbi.nlm.nih.gov/CCDS/CcdsBrowse.cgi?REQUEST=CCDS&DATA=
@@ -94,6 +95,7 @@ prefix_map:
   merops.entry: https://www.ebi.ac.uk/merops/cgi-bin/pepsum?id=
   mirbase: http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=
   mito: http://purl.org/spar/mito/
+  obo: http://purl.obolibrary.org/obo/
   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
   omim: 'https://omim.org/MIM:'
   owl: http://www.w3.org/2002/07/owl#
@@ -108,5 +110,6 @@ prefix_map:
   snornabase: http://www-snorna.biotoul.fr/plus.php?id=
   ucsc: ftp://hgdownload.cse.ucsc.edu/goldenPath/
   uniprot: http://purl.uniprot.org/uniprot/
+  uniprot.core: http://purl.uniprot.org/core/
   vega: 'https://bioregistry.io/vega:'
   xsd: http://www.w3.org/2001/XMLSchema#
