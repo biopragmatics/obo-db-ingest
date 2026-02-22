@@ -21,11 +21,11 @@ The HGNC (HUGO Gene Nomenclature Committee) provides an approved gene name and s
 
 | field       |   count |
 |-------------|---------|
-| definitions |   44930 |
+| definitions |   45857 |
 | mappings    |  278099 |
-| parents     |   44930 |
-| properties  |  285981 |
-| references  |   35692 |
-| relations   |  200592 |
-| synonyms    |  106486 |
+| parents     |  163290 |
+| properties  |  287972 |
+| references  |   37683 |
+| relations   |  202692 |
+| synonyms    |  109970 |
 | terms       |   44930 |
