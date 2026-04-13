@@ -1,7 +1,7 @@
 # /// script
 # requires-python = ">=3.12"
 # dependencies = [
-#     "bioregistry",
+#     "bioregistry>=0.13.34",
 #     "bioversions",
 #     "bioontologies",
 #     "pyobo[sources]",
@@ -34,7 +34,7 @@ import subprocess
 import traceback
 from pathlib import Path
 from textwrap import dedent
-from typing import Any, TypedDict
+from typing import TypedDict
 
 import bioregistry
 import bioregistry.version
@@ -445,7 +445,8 @@ def _make(  # noqa:C901
             _write(f"[{prefix}] done converting to OBO Graph JSON")
 
     if owl_config := rv.get("owl"):
-        ols_config = _get_ols_config(prefix, owl_config["iri"])
+        resource = bioregistry.get_resource(prefix, strict=True)
+        ols_config = resource.get_ols_config(owl_config["iri"])
         ols_config_path.write_text(json.dumps(ols_config, indent=2, ensure_ascii=False) + "\n")
         _, rv["ols"] = _prepare_artifact(prefix, ols_config_path, False, ".json")
 
@@ -500,79 +501,6 @@ def _make(  # noqa:C901
 
     _write(f"[{prefix}] done")
     return rv, errored
-
-
-def _get_ols_config(prefix: str, ontology_purl: str) -> dict[str, Any]:
-    resource = bioregistry.get_resource(prefix, strict=True)
-
-    creators = []
-    if contact := resource.get_contact():
-        creators.append(contact.name)
-        if resource.contact_extras:
-            creators.extend(ce.name for ce in resource.contact_extras if ce.name)
-    else:
-        creators = [
-            "Converted to OWL by Charles Tapley Hoyt (cthoyt@gmail.com), "
-            "no primary contact information is available."
-        ]
-
-    description = resource.get_description()
-    if license_ := resource.get_license():
-        description += f" Licensed under {license_}."
-
-    values = {
-        # as per https://github.com/EBISPOT/ols4/pull/896#discussion_r2126144218
-        "id": resource.prefix,
-        "reasoner": "none",
-        "oboSlims": False,
-        "is_foundary": resource.get_obofoundry_prefix() is not None,
-        "ontology_purl": ontology_purl,
-        ######################################################################
-        # The remainder are ontology metadata, which could be part of the    #
-        # ontology itself.                                                   #
-        #                                                                    #
-        # See https://github.com/OBOFoundry/OBOFoundry.github.io/issues/1365 #
-        ######################################################################
-        # Property: dcterms:creator
-        "creator": creators,
-        # http://purl.org/vocab/vann/preferredNamespacePrefix
-        "preferredPrefix": resource.get_preferred_prefix() or resource.prefix,
-        # Property: dcterms:title
-        "title": resource.get_name(),
-        # Property: dcterms:description
-        "description": description,
-        # TODO figure out why there's dupicate on `uri` and `homepage`
-        "uri": resource.get_homepage(),
-        # Property:  foaf:homepage
-        "homepage": resource.get_homepage(),
-        # Property: http://usefulinc.com/ns/doap#mailing-list
-        "mailing_list": resource.get_mailing_list() or resource.get_contact_email(),
-        # TODO add to OMO
-        "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
-        # TODO add to OMO
-        "definition_property": [
-            "http://purl.org/dc/terms/description",
-        ],
-        # TODO add to OMO
-        "synonym_property": [
-            "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
-            "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
-            "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
-            "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym",
-        ],
-        # See https://github.com/information-artifact-ontology/ontology-metadata/pull/193
-        "hierarchical_property": [
-            "https://www.w3.org/2000/01/rdf-schema#subClassOf",
-        ],
-        "hidden_property": [],
-        # http://purl.org/vocab/vann/preferredNamespaceUri
-        "base_uri": [
-            resource.get_rdf_uri_prefix() or resource.get_uri_prefix(),
-        ],
-        # TODO root terms IAO_0000700 (preferred_root_term)
-    }
-
-    return values
 
 
 @click.command()
@@ -656,11 +584,11 @@ def main(  # noqa:C901
         "errors": previous_data.get("errors", {}),
     }
 
-    _tqdm_kwargs = {"unit": "ontology", "total": len(it), "desc": "obo-db-ingest"}
+    tqdm_kwargs = {"unit": "ontology", "total": len(it), "desc": "obo-db-ingest"}
     if MULTIPROCESSING:
-        mm = process_map(make_wrapped, it, max_workers=4, **_tqdm_kwargs)
+        mm = process_map(make_wrapped, it, max_workers=4, **tqdm_kwargs)
     else:
-        mm = tqdm(map(make_wrapped, it), **_tqdm_kwargs)
+        mm = tqdm(map(make_wrapped, it), **tqdm_kwargs)
 
     for prefix, result, errored in mm:
         rv["resources"][prefix] = result
