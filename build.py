@@ -27,7 +27,6 @@ from __future__ import annotations
 import datetime
 import functools
 import gzip
-import json
 import os
 import shutil
 import subprocess
@@ -447,7 +446,7 @@ def _make(  # noqa:C901
     if owl_config := rv.get("owl"):
         resource = bioregistry.get_resource(prefix, strict=True)
         ols_config = resource.get_ols_config(owl_config["iri"])
-        ols_config_path.write_text(json.dumps(ols_config, indent=2, ensure_ascii=False) + "\n")
+        ols_config_path.write_text(ols_config.model_dump_json(indent=2, ensure_ascii=False) + "\n")
         _, rv["ols"] = _prepare_artifact(prefix, ols_config_path, False, ".json")
 
     purls_table_rows = [

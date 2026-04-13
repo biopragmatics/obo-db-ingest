@@ -65,7 +65,7 @@ def main(write_excel: bool, regenerate_old: bool) -> None:
         for prefix in manifest["resources"]
         if prefix not in NEVER
     )
-    click.echo(tabulate(rows))
+    click.echo(tabulate(rows, headers=["pre-indexed", "prefix", "name"], tablefmt="github") + "\n")
 
     for prefix, data in manifest["resources"].items():
         if prefix in NEVER:
@@ -77,7 +77,12 @@ def main(write_excel: bool, regenerate_old: bool) -> None:
             continue
 
         resource = bioregistry.get_resource(prefix, strict=True)
-        values = resource.get_ols_config(data["owl"]["iri"]).model_dump()
+        try:
+            ols_config = resource.get_ols_config(data["owl"]["iri"])
+        except ValueError as e:
+            click.secho(f"[{prefix}] could not generate config: {e}", fg="red")
+            continue
+        values = ols_config.model_dump()
 
         if write_excel:
             specific_df: pd.DataFrame = df.copy()
