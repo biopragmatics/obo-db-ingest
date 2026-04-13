@@ -1,16 +1,28 @@
+# /// script
+# requires-python = ">=3.14"
+# dependencies = [
+#     "bioregistry>=0.13.34",
+#     "click>=8.3.2",
+#     "openpyxl>=3.1.5",
+#     "pandas>=3.0.2",
+#     "pyyaml>=6.0.3",
+#     "requests>=2.33.1",
+#     "tabulate>=0.10.0",
+# ]
+# ///
+
 """Generate an OLS sheet."""
 
 import json
 from pathlib import Path
 
+import bioregistry
 import click
 import pandas as pd
 import requests
 import yaml
 from bioregistry import manager
 from tabulate import tabulate
-
-from build import _get_ols_config
 
 HERE = Path(__file__).parent.resolve()
 MANIFEST = HERE.joinpath("docs", "_data", "manifest.yml")
@@ -50,10 +62,10 @@ def main(write_excel: bool, regenerate_old: bool) -> None:
 
     rows = sorted(
         (prefix in pre_indexed, prefix, manager.get_name(prefix))
-        for prefix, data in manifest["resources"].items()
+        for prefix in manifest["resources"]
         if prefix not in NEVER
     )
-    click.echo(tabulate(rows))
+    click.echo(tabulate(rows, headers=["pre-indexed", "prefix", "name"], tablefmt="github") + "\n")
 
     for prefix, data in manifest["resources"].items():
         if prefix in NEVER:
@@ -64,7 +76,13 @@ def main(write_excel: bool, regenerate_old: bool) -> None:
             click.echo(f"no OWL for {prefix}")
             continue
 
-        values = _get_ols_config(prefix, data["owl"]["iri"])
+        resource = bioregistry.get_resource(prefix, strict=True)
+        try:
+            ols_config = resource.get_ols_config(data["owl"]["iri"])
+        except ValueError as e:
+            click.secho(f"[{prefix}] could not generate config: {e}", fg="red")
+            continue
+        values = ols_config.model_dump()
 
         if write_excel:
             specific_df: pd.DataFrame = df.copy()
