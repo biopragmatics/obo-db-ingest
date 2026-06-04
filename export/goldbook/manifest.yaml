@@ -1,0 +1,76 @@
+date: '2026-06-04'
+dependencies:
+  bioregistry: 0.13.59-dev-d90e37cb
+  bioversions: 0.10.36-dev-8e81b5b7
+  curies: 0.13.11-UNHASHED
+  obographs: 0.0.11-UNHASHED
+  pyobo: 0.12.24-dev-cc4c6f13
+  robot_obo_tool: 0.0.1-UNHASHED
+  ssslm: 0.2.0-UNHASHED
+  sssom-pydantic: 0.5.10-UNHASHED
+errored: false
+manifest:
+  nodes:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/goldbook/goldbook.tsv
+    path: goldbook/goldbook.tsv
+  obo:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/goldbook/goldbook.obo
+    path: goldbook/goldbook.obo
+  obograph:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/goldbook/goldbook.json
+    path: goldbook/goldbook.json
+  ofn:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/goldbook/goldbook.ofn
+    path: goldbook/goldbook.ofn
+  ols:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/goldbook/ols-config.json
+    path: goldbook/ols-config.json
+  owl:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/goldbook/goldbook.owl
+    path: goldbook/goldbook.owl
+  skos:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/goldbook/goldbook.skos.ttl
+    path: goldbook/goldbook.skos.ttl
+  sssom:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/goldbook/goldbook.sssom.tsv
+    path: goldbook/goldbook.sssom.tsv
+  summary:
+    alts: 0
+    definitions: 13504
+    license: CC-BY-SA-4.0
+    mappings: 24099
+    parents: 187
+    properties: 57139
+    references: 13758
+    relations: 0
+    synonyms: 3881
+    terms: 13504
+    version: null
+  synonyms:
+    gzipped: false
+    iri: https://w3id.org/biopragmatics/resources/goldbook/goldbook.synonyms.tsv
+    path: goldbook/goldbook.synonyms.tsv
+prefix_map:
+  IAO: http://purl.obolibrary.org/obo/IAO_
+  OMO: http://purl.obolibrary.org/obo/OMO_
+  dcterms: http://purl.org/dc/terms/
+  doap: http://usefulinc.com/ns/doap#
+  doi: http://dx.doi.org/
+  foaf: http://xmlns.com/foaf/0.1/
+  goldbook: http://dx.doi.org/10.1351/goldbook.
+  mito: http://purl.org/spar/mito/
+  obo: http://purl.obolibrary.org/obo/
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  orcid: https://orcid.org/
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#

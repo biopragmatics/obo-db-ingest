@@ -141,6 +141,9 @@ PREFIXES = [
     "uniprot",
     "iconclass",
 ]
+SKOS = {
+    "goldbook",
+}
 
 for _prefix in PREFIXES:
     if _prefix != bioregistry.normalize_prefix(_prefix):
@@ -156,6 +159,7 @@ ARTIFACT_LABELS = {
     "synonyms": "Synonyms",
     "nodes": "Nodes",
     "obograph": "OBO Graph JSON",
+    "skos": "SKOS",
     "ols": "OLS Config.",
 }
 
@@ -348,6 +352,7 @@ def _make(  # noqa:C901
     literal_mappings_path = directory.joinpath(f"{prefix}.synonyms.tsv")
     obo_graph_json_path = directory.joinpath(f"{prefix}.json")
     ofn_path = directory.joinpath(f"{prefix}.ofn")
+    skos_path = directory.joinpath(f"{prefix}.skos.ttl")
     owl_path = directory.joinpath(f"{prefix}.owl")
     log_path = directory.joinpath(f"{prefix}.log.txt")
     log_path.unlink(missing_ok=True)
@@ -366,6 +371,10 @@ def _make(  # noqa:C901
     else:
         obo_path, rv["obo"] = _prepare_artifact(prefix, obo_path, has_version, ".obo.gz")
 
+    if obo.ontology in SKOS:
+        obo.write_skos(skos_path)
+        _, rv["skos"] = _prepare_artifact(prefix, skos_path, has_version, ".skos.ttl.gz")
+
     try:
         obo.write_ofn(ofn_path)
     except Exception as e:
@@ -375,7 +384,7 @@ def _make(  # noqa:C901
         with log_path.open("a") as file:
             file.write(f"\n\n{msg}\n\n")
             traceback.print_exc(file=file)
-        obo_path.unlink()
+        ofn_path.unlink()
     else:
         ofn_path, rv["ofn"] = _prepare_artifact(prefix, ofn_path, has_version, ".ofn.gz")
 

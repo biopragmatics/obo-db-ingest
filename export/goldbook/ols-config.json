@@ -1,0 +1,33 @@
+{
+  "id": "goldbook",
+  "reasoner": "none",
+  "oboSlims": false,
+  "is_foundary": false,
+  "ontology_purl": "https://w3id.org/biopragmatics/resources/goldbook/goldbook.owl",
+  "creator": [
+    "Stuart Chalk"
+  ],
+  "preferredPrefix": "goldbook",
+  "title": "IUPAC Gold Book Compendium of Chemical Terminology",
+  "description": "The Compendium is popularly referred to as the \"Gold Book\", in recognition of the contribution of the late Victor Gold, who initiated work on the first edition. It is one of the series of IUPAC \"Colour Books\" on chemical nomenclature, terminology, symbols and units (see the list of source documents), and collects together terminology definitions from IUPAC recommendations already published in Pure and Applied Chemistry and in the other Colour Books.\n\nTerminology definitions published by IUPAC are drafted by international committees of experts in the appropriate chemistry sub-disciplines, and ratified by IUPAC's Interdivisional Committee on Terminology, Nomenclature and Symbols (ICTNS). In this edition of the Compendium these IUPAC-approved definitions are supplemented with some definitions from ISO and from the International Vocabulary of Basic and General Terms in Metrology; both these sources are recognised by IUPAC as authoritative. The result is a collection of nearly 7000 terms, with authoritative definitions, spanning the whole range of chemistry.\n\nThe API can be accessed [here](https://goldbook.iupac.org/pages/api) Licensed under CC-BY-SA-4.0.",
+  "uri": "https://goldbook.iupac.org",
+  "homepage": "https://goldbook.iupac.org",
+  "mailing_list": "goldbook@iupac.org",
+  "label_property": "https://www.w3.org/2000/01/rdf-schema#label",
+  "definition_property": [
+    "http://purl.org/dc/terms/description"
+  ],
+  "synonym_property": [
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+    "http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"
+  ],
+  "hierarchical_property": [
+    "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+  ],
+  "hidden_property": [],
+  "base_uri": [
+    "http://dx.doi.org/10.1351/goldbook."
+  ]
+}

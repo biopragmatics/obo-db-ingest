@@ -1,4 +1,4 @@
-date: '2026-02-22'
+date: '2026-06-04'
 errors:
   gtdb: true
   nihreporter.project: true
@@ -1190,6 +1190,55 @@ resources:
       gzipped: false
       iri: https://w3id.org/biopragmatics/resources/geonames.feature/geonames.feature.synonyms.tsv
       path: geonames.feature/geonames.feature.synonyms.tsv
+  goldbook:
+    nodes:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/goldbook/goldbook.tsv
+      path: goldbook/goldbook.tsv
+    obo:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/goldbook/goldbook.obo
+      path: goldbook/goldbook.obo
+    obograph:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/goldbook/goldbook.json
+      path: goldbook/goldbook.json
+    ofn:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/goldbook/goldbook.ofn
+      path: goldbook/goldbook.ofn
+    ols:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/goldbook/ols-config.json
+      path: goldbook/ols-config.json
+    owl:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/goldbook/goldbook.owl
+      path: goldbook/goldbook.owl
+    skos:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/goldbook/goldbook.skos.ttl
+      path: goldbook/goldbook.skos.ttl
+    sssom:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/goldbook/goldbook.sssom.tsv
+      path: goldbook/goldbook.sssom.tsv
+    summary:
+      alts: 0
+      definitions: 13504
+      license: CC-BY-SA-4.0
+      mappings: 24099
+      parents: 187
+      properties: 57139
+      references: 13758
+      relations: 0
+      synonyms: 3881
+      terms: 13504
+      version: null
+    synonyms:
+      gzipped: false
+      iri: https://w3id.org/biopragmatics/resources/goldbook/goldbook.synonyms.tsv
+      path: goldbook/goldbook.synonyms.tsv
   gtdb:
     nodes:
       gzipped: true
@@ -3645,11 +3694,11 @@ resources:
       version_iri: https://w3id.org/biopragmatics/resources/zfin/2025-10-30/zfin.synonyms.tsv
       version_path: zfin/2025-10-30/zfin.synonyms.tsv
 versions:
-  bioregistry: 0.13.21-dev-5160fc45
-  bioversions: 0.8.270-dev-58bea5ed
-  curies: 0.12.9-UNHASHED
-  obographs: 0.0.10-UNHASHED
-  pyobo: 0.12.18-dev-c4296f45
+  bioregistry: 0.13.59-dev-d90e37cb
+  bioversions: 0.10.36-dev-8e81b5b7
+  curies: 0.13.11-UNHASHED
+  obographs: 0.0.11-UNHASHED
+  pyobo: 0.12.24-dev-cc4c6f13
   robot_obo_tool: 0.0.1-UNHASHED
-  ssslm: 0.1.3-UNHASHED
-  sssom-pydantic: 0.2.0-UNHASHED
+  ssslm: 0.2.0-UNHASHED
+  sssom-pydantic: 0.5.10-UNHASHED
