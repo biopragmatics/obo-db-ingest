@@ -1,10 +1,10 @@
 # /// script
-# requires-python = ">=3.12"
+# requires-python = ">=3.14"
 # dependencies = [
-#     "bioregistry>=0.13.34",
+#     "bioregistry>=0.14.4",
 #     "bioversions",
 #     "bioontologies",
-#     "pyobo[sources]",
+#     "pyobo[sources]>=0.14.1",
 #     "class-resolver",
 #     "robot-obo-tool",
 # ]
@@ -227,7 +227,7 @@ def _prepare_artifact(
 def _get_summary(obo: Obo) -> dict:
     terms = list(obo._iter_stanzas(desc=f"[{obo.ontology}]"))
     rv = {
-        "terms": sum(term.prefix == obo.ontology for term in obo),
+        "terms": sum(term.prefix == obo.ontology for term in terms),
         "relations": sum(len(values) for term in terms for values in term.relationships.values()),
         "properties": sum(len(values) for term in terms for values in term.properties.values()),
         "synonyms": sum(len(term.synonyms) for term in terms),
@@ -366,7 +366,7 @@ def _make(  # noqa:C901
         with log_path.open("a") as file:
             file.write(f"\n\n{msg}\n\n")
             traceback.print_exc(file=file)
-        obo_path.unlink()
+        obo_path.unlink(missing_ok=True)
 
     else:
         obo_path, rv["obo"] = _prepare_artifact(prefix, obo_path, has_version, ".obo.gz")
@@ -384,7 +384,7 @@ def _make(  # noqa:C901
         with log_path.open("a") as file:
             file.write(f"\n\n{msg}\n\n")
             traceback.print_exc(file=file)
-        ofn_path.unlink()
+        ofn_path.unlink(missing_ok=True)
     else:
         ofn_path, rv["ofn"] = _prepare_artifact(prefix, ofn_path, has_version, ".ofn.gz")
 
@@ -392,7 +392,7 @@ def _make(  # noqa:C901
     _, rv["nodes"] = _prepare_artifact(prefix, names_path, has_version, ".tsv.gz")
 
     _write(f"[{prefix}] writing SSSOM")
-    sssom_df = obo.get_mappings_df(use_tqdm=False)
+    sssom_df = obo.get_mappings_df(progress=False)
     sssom_df.to_csv(sssom_path, sep="\t", index=False)
     _, rv["sssom"] = _prepare_artifact(prefix, sssom_path, has_version, ".sssom.tsv.gz")
 
@@ -514,15 +514,15 @@ def _make(  # noqa:C901
 @click.command()
 @verbose_option
 @click.option("-m", "--minimum")
-@click.option("--no-convert", is_flag=True)
-@click.option("-x", "--xvalue", help="Select a specific ontology", multiple=True)
-@click.option("--skip", help="Skip a specific ontology", multiple=True)
+@click.option("--no-convert", is_flag=True, help='If given, do not convert to OWL and OBO Graph JSON')
+@click.option("-x", "--resource", "prefixes", help="Select a specific resource", multiple=True)
+@click.option("--skip", help="Skip a specific resource", multiple=True)
 @click.option("--force/--no-force")
 @click.option("--loud", is_flag=True)
 @click.option("--version-override", nargs=2, multiple=True)
 def main(  # noqa:C901
     minimum: str | None,
-    xvalue: list[str],
+    prefixes: list[str],
     no_convert: bool,
     force: bool,
     loud: bool,
@@ -530,11 +530,11 @@ def main(  # noqa:C901
     version_override: list[tuple[str, str]],
 ) -> None:
     """Build the PyOBO examples."""
-    if xvalue:
-        for prefix in xvalue:
+    if prefixes:
+        for prefix in prefixes:
             if prefix != bioregistry.normalize_prefix(prefix):
                 raise ValueError(f"invalid prefix: {prefix}")
-        prefixes = xvalue
+        prefixes = prefixes
     elif minimum:
         prefixes = [prefix for prefix in PREFIXES if not (minimum and prefix < minimum.lower())]
     else:
@@ -590,6 +590,7 @@ def main(  # noqa:C901
         "versions": _get_build_dependency_versions(),
         "resources": previous_data.get("resources", {}),
         "errors": previous_data.get("errors", {}),
+        "disable": len(it) <= 1,
     }
 
     tqdm_kwargs = {"unit": "ontology", "total": len(it), "desc": "obo-db-ingest"}
