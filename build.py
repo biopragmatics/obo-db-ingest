@@ -42,9 +42,7 @@ import bioversions.version
 import click
 import curies.version
 import obographs.version
-import pyobo.constants
 import pyobo.version
-import pystow.utils
 import robot_obo_tool.version
 import ssslm.version
 import sssom_pydantic.version
@@ -68,8 +66,6 @@ MANIFEST_PATH = DATA.joinpath("manifest.yml")
 SKEY = "manifest"
 TODAY = datetime.date.today().strftime("%Y-%m-%d")
 EXPORT = HERE.joinpath("export")
-pystow.utils.GLOBAL_PROGRESS_BAR = False
-pyobo.constants.GLOBAL_CHECK_IDS = True
 #: This is the maximum file size (100MB, rounded down to
 #: be conservative) to put on GitHub
 MAX_SIZE = 100_000_000
@@ -514,7 +510,9 @@ def _make(  # noqa:C901
 @click.command()
 @verbose_option
 @click.option("-m", "--minimum")
-@click.option("--no-convert", is_flag=True, help='If given, do not convert to OWL and OBO Graph JSON')
+@click.option(
+    "--no-convert", is_flag=True, help="If given, do not convert to OWL and OBO Graph JSON"
+)
 @click.option("-x", "--resource", "prefixes", help="Select a specific resource", multiple=True)
 @click.option("--skip", help="Skip a specific resource", multiple=True)
 @click.option("--force/--no-force")
@@ -534,7 +532,6 @@ def main(  # noqa:C901
         for prefix in prefixes:
             if prefix != bioregistry.normalize_prefix(prefix):
                 raise ValueError(f"invalid prefix: {prefix}")
-        prefixes = prefixes
     elif minimum:
         prefixes = [prefix for prefix in PREFIXES if not (minimum and prefix < minimum.lower())]
     else:
