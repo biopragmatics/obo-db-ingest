@@ -33,7 +33,7 @@ import subprocess
 import traceback
 from pathlib import Path
 from textwrap import dedent
-from typing import TypedDict, Any
+from typing import Any, TypedDict
 
 import bioregistry
 import bioregistry.version
@@ -42,6 +42,7 @@ import bioversions.version
 import click
 import curies.version
 import obographs.version
+import pyobo
 import pyobo.version
 import robot_obo_tool.version
 import ssslm.version
@@ -275,13 +276,19 @@ def _make_safe(
     no_force: bool = False,
     loud: bool = False,
     versions: dict[str, str],
+    converter: curies.Converter,
 ) -> tuple[str, dict, bool]:
     prefix = cls.ontology
     secho(prefix, fg="green", bold=True)
     with logging_redirect_tqdm():
         try:
             rv, errored = _make(
-                cls, do_convert=do_convert, no_force=no_force, loud=loud, versions=versions
+                cls,
+                do_convert=do_convert,
+                no_force=no_force,
+                loud=loud,
+                versions=versions,
+                converter=converter,
             )
         except Exception as e:
             secho(f"[{prefix}] got exception in _make: {e}", fg="red")
@@ -298,6 +305,7 @@ def _make(  # noqa:C901
     no_force: bool = False,
     loud: bool = True,
     versions: dict[str, str],
+    converter: curies.Converter,
 ) -> tuple[dict, bool]:
     prefix = module.ontology
     errored = False
@@ -388,8 +396,16 @@ def _make(  # noqa:C901
     _, rv["nodes"] = _prepare_artifact(prefix, names_path, has_version, ".tsv.gz")
 
     _write(f"[{prefix}] writing SSSOM")
-    sssom_df = obo.get_mappings_df(progress=False)
-    sssom_df.to_csv(sssom_path, sep="\t", index=False)
+    semantic_mappings = obo.get_semantic_mappings(progress=False)
+    sssom_pydantic.write(
+        semantic_mappings,
+        sssom_path,
+        converter=converter,
+        metadata=pyobo.get_semantic_mapping_metadata(
+            obo.ontology, version=obo.data_version, lookup_missing_version=False
+        ),
+        exclude_columns={"predicate_label"},
+    )
     _, rv["sssom"] = _prepare_artifact(prefix, sssom_path, has_version, ".sssom.tsv.gz")
 
     _write(f"[{prefix}] writing synonyms")
@@ -560,12 +576,15 @@ def main(  # noqa:C901
 
     it = [ontology_resolver.lookup(prefix) for prefix in prefixes]
 
+    converter = bioregistry.get_preferred_converter()
+
     make_wrapped = functools.partial(
         _make_safe,
         do_convert=not no_convert,
         no_force=not force,
         loud=loud,
         versions=versions,
+        converter=converter,
     )
 
     # load up what's already there!
