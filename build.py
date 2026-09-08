@@ -33,7 +33,7 @@ import subprocess
 import traceback
 from pathlib import Path
 from textwrap import dedent
-from typing import TypedDict
+from typing import TypedDict, Any
 
 import bioregistry
 import bioregistry.version
@@ -53,7 +53,7 @@ from pyobo.sources import ontology_resolver
 from robot_obo_tool import convert
 from tabulate import tabulate
 from tqdm import tqdm
-from tqdm.contrib.concurrent import process_map
+from tqdm.contrib.concurrent import process_map, thread_map
 from tqdm.contrib.logging import logging_redirect_tqdm
 from typing_extensions import NotRequired
 
@@ -547,23 +547,15 @@ def main(  # noqa:C901
     if skip:
         prefixes = [prefix for prefix in prefixes if prefix not in skip]
 
-    versions = {}
-    for prefix in prefixes:
-        if not bioregistry.get_license(prefix):
-            if contact := bioregistry.get_contact(prefix):
-                secho(
-                    f"missing license for `{prefix}`, contact {contact.name} ({contact.email})",
-                    fg="yellow",
-                )
-            else:
-                secho(f"missing license for `{prefix}`", fg="yellow")
-
-        version_result = bioversions.get_version(prefix, strict=False)
-        if not version_result:
-            secho(f"missing version for {prefix}", fg="red")
-        else:
-            versions[prefix] = version_result
-
+    versions = {
+        prefix: version
+        for prefix, version in thread_map(
+            _get_license_version,
+            [prefix for prefix in prefixes if prefix not in version_override],
+            desc="getting versions",
+        )
+        if version is not None
+    }
     versions.update(version_override)
 
     it = [ontology_resolver.lookup(prefix) for prefix in prefixes]
@@ -582,7 +574,7 @@ def main(  # noqa:C901
     else:
         previous_data = {}
 
-    rv = {
+    rv: dict[str, Any] = {
         "date": TODAY,
         "versions": _get_build_dependency_versions(),
         "resources": previous_data.get("resources", {}),
@@ -620,6 +612,21 @@ def _get_build_dependency_versions() -> dict[str, str]:
         "sssom-pydantic": sssom_pydantic.version.get_version(with_git_hash=True),
         "curies": curies.version.get_version(with_git_hash=True),
     }
+
+
+def _get_license_version(prefix: str) -> tuple[str, str | None]:
+    if not bioregistry.get_license(prefix):
+        if contact := bioregistry.get_contact(prefix):
+            secho(
+                f"missing license for `{prefix}`, contact {contact.name} ({contact.email})",
+                fg="yellow",
+            )
+        else:
+            secho(f"missing license for `{prefix}`", fg="yellow")
+    version_result = bioversions.get_version(prefix, strict=False)
+    if not version_result:
+        secho(f"missing version for {prefix}", fg="red")
+    return prefix, version_result
 
 
 if __name__ == "__main__":
