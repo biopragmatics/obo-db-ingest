@@ -124,7 +124,7 @@ PREFIXES = [
     "kegg.genome",
     "slm",
     "rhea",
-    "gtdb",
+    # "gtdb",
     "msigdb",
     "uniprot.ptm",
     "credit",
